@@ -871,7 +871,8 @@
         async function loadData() {
             try {
                 const response = await fetch('data.json');
-                programsData = await response.json();
+                const rawData = await response.json();
+                programsData = normalizeProgramsData(rawData);
                 renderPrograms();
                 updateStats();
             } catch (error) {
@@ -952,6 +953,7 @@
                     }
                 ]
             };
+            programsData = normalizeProgramsData(programsData);
             renderPrograms();
             updateStats();
         }
@@ -963,7 +965,7 @@
 
             const filteredPrograms = filter === 'all' 
                 ? programsData.programs 
-                : programsData.programs.filter(p => p.degree === filter);
+                : programsData.programs.filter(p => canonicalDegreeLabel(p.degree) === filter);
 
             filteredPrograms.forEach((program, index) => {
                 const card = document.createElement('div');
@@ -1012,7 +1014,7 @@
             // Count unique programs (do not count old/new plans as different programs)
             // Uniqueness key: program name + degree
             const uniqueProgramKeys = new Set(
-                programsData.programs.map(p => `${(p.name || '').trim()}||${(p.degree || '').trim()}`)
+                programsData.programs.map(p => `${normalizeText(p.name)}||${canonicalDegreeLabel(p.degree)}`)
             );
 
             document.getElementById('programsCount').textContent = uniqueProgramKeys.size;
@@ -1038,6 +1040,40 @@
             return (s || '').toString().trim().replace(/\s+/g, ' ');
         }
 
+function canonicalDegreeLabel(degree) {
+    const d = normalizeText(degree);
+
+    // Normalize common variants: "البكالوريوس" vs "بكالوريوس" ... etc
+    if (d.includes('بكال')) return 'بكالوريوس';
+    if (d.includes('ماجست')) return 'ماجستير';
+    if (d.includes('دكتور')) return 'دكتوراه';
+
+    return d;
+}
+
+// Normalize loaded JSON so the UI groups correctly (e.g., no duplicates due to degree text variants)
+function normalizeProgramsData(data) {
+    if (!data || !Array.isArray(data.programs)) return data;
+
+    data.programs.forEach(p => {
+        p.name = normalizeText(p.name);
+        p.name_en = p.name_en || p.name_en === '' ? p.name_en : p.name_en; // keep as-is
+        p.degree = canonicalDegreeLabel(p.degree);
+        p.plan_type = normalizeText(p.plan_type);
+
+        if (!Array.isArray(p.courses)) p.courses = [];
+        p.courses.forEach(c => {
+            c.code = normalizeText(c.code);
+            c.name = normalizeText(c.name);
+            c.name_en = c.name_en || null;
+            if (c.category !== undefined) c.category = normalizeText(c.category);
+            if (c.type !== undefined) c.type = normalizeText(c.type);
+        });
+    });
+
+    return data;
+}
+
         // Derive mandatory/elective from category (based on your data conventions)
         function requirementFromCategory(category) {
             const cat = normalizeText(category);
@@ -1058,9 +1094,9 @@
             const map = new Map(); // key: program+degree
 
             (occurrences || []).forEach(o => {
-                const key = `${normalizeText(o.program)}||${normalizeText(o.degree)}`;
+                const key = `${normalizeText(o.program)}||${canonicalDegreeLabel(o.degree)}`;
                 if (!map.has(key)) {
-                    map.set(key, { program: o.program, degree: o.degree, planTypes: new Set() });
+                    map.set(key, { program: normalizeText(o.program), degree: canonicalDegreeLabel(o.degree), planTypes: new Set() });
                 }
                 if (o.plan_type) map.get(key).planTypes.add(o.plan_type);
             });
@@ -1111,9 +1147,9 @@
                     }
 
                     grouped.get(key).occurrences.push({
-                        program: program.name,
-                        degree: program.degree,
-                        plan_type: program.plan_type,
+                        program: normalizeText(program.name),
+                        degree: canonicalDegreeLabel(program.degree),
+                        plan_type: normalizeText(program.plan_type),
                         category: course.category || null
                     });
                 });
@@ -1154,9 +1190,17 @@
 
             resultsContainer.innerHTML = results.map(result => {
                 const programsHtml = (result.program_groups || []).map(pg => {
-                    const planLabel = (pg.plan_types || []).length
-                        ? (pg.plan_types.length === 1 ? `الخطة ${pg.plan_types[0]}` : `الخطة ${pg.plan_types.join(' + ')}`)
-                        : '';
+                    const planTypes = (pg.plan_types || []).slice();
+
+// Prefer stable order: قديمة ثم جديدة ثم غير ذلك
+planTypes.sort((a, b) => {
+    const rank = (x) => x === 'قديمة' ? 0 : (x === 'جديدة' ? 1 : 2);
+    return rank(a) - rank(b);
+});
+
+const planLabel = planTypes.length
+    ? (planTypes.length === 1 ? `الخطة ${planTypes[0]}` : `الخطة ${planTypes.join(' + ')}`)
+    : '';
 
                     const chipClass = chipClassForPlans(pg.plan_types);
 
