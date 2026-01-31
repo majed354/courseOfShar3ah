@@ -976,6 +976,33 @@
         const resultsContainer = document.getElementById('resultsContainer');
         const resultsCount = document.getElementById('resultsCount');
 
+
+
+
+function normalizeText(s) {
+    return (s || '').toString().trim().replace(/\s+/g, ' ');
+}
+
+// يعتمد على category الموجودة في الداتا:
+// - "اختيارية ..." => اختياري
+// - غير ذلك => إجباري
+function requirementLabel(course) {
+    const cat = normalizeText(course.category);
+    if (!cat) return 'غير محدد';
+    return cat.includes('اختياري') ? 'اختياري' : 'إجباري';
+}
+
+function summarizePrograms(occ) {
+    const list = occ.map(o => `${o.program} (${o.degree})`);
+    if (list.length <= 2) return list.join('، ');
+    return `${list.slice(0, 2).join('، ')}…`;
+}
+
+
+
+
+
+        
         searchInput.addEventListener('input', (e) => {
             const query = e.target.value.trim().toLowerCase();
             
@@ -1052,6 +1079,13 @@ displayResults(results);
             
         });
 
+
+
+
+
+
+
+        
         function displayResults(results) {
             searchResults.classList.add('active');
             resultsCount.textContent = `${results.length} نتيجة`;
@@ -1067,20 +1101,44 @@ displayResults(results);
                 return;
             }
 
-            resultsContainer.innerHTML = results.map(result => {
-                const planClass = result.plan_type === 'جديدة' ? 'tag-new' : 'tag-old';
-                return `
-                    <div class="result-item">
-                        <div class="result-course-name">${result.name}</div>
-                        <div class="result-meta">
-                            <span class="result-tag"><code class="course-code">${result.code}</code></span>
-                            <span class="result-tag">${result.program} - ${result.degree}</span>
-                            <span class="result-tag ${planClass}">الخطة ${result.plan_type}</span>
-                            <span class="result-tag">${result.hours} ساعة</span>
-                        </div>
-                    </div>
-                `;
-            }).join('');
+
+
+
+
+
+
+
+
+            
+          resultsContainer.innerHTML = results.map(result => {
+    return `
+        <div class="result-item">
+            <div class="result-course-name">${result.name}</div>
+            <div class="result-meta">
+                <span class="result-tag"><code class="course-code">${result.code}</code></span>
+
+                <span class="result-tag">${result.hours} ساعة</span>
+
+                <!-- إجباري/اختياري -->
+                <span class="result-tag">${result.requirement_summary}</span>
+
+                <!-- التصنيف التفصيلي إن وجد -->
+                ${result.category_summary ? `<span class="result-tag">${result.category_summary}</span>` : ''}
+
+                <!-- موجود في عدة برامج (بدون تكرار عناصر) -->
+                <span class="result-tag" title="${result.programs_full}">
+                    موجود في ${result.programs_count} برامج: ${result.programs_summary}
+                </span>
+            </div>
+        </div>
+    `;
+}).join('');
+
+
+
+
+
+            
         }
 
         function clearSearch() {
@@ -1145,6 +1203,7 @@ displayResults(results);
                                     <th>اسم المقرر</th>
                                     <th>الساعات</th>
                                     <th>النوع</th>
+                                    <th>إجباري/اختياري</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -1160,8 +1219,18 @@ displayResults(results);
                                                 <strong>${course.name}</strong>
                                                 ${course.name_en ? `<br><small style="color:var(--text-muted)">${course.name_en}</small>` : ''}
                                             </td>
-                                            <td>${course.hours}</td>
-                                            <td><span class="course-type-badge ${typeClass}">${course.type}</span></td>
+
+
+                                            
+                                           <td>${course.hours}</td>
+<td><span class="course-type-badge ${typeClass}">${course.type}</span></td>
+<td>
+    <span class="result-tag">${requirementLabel(course)}</span>
+    ${course.category ? `<span class="result-tag">${course.category}</span>` : ''}
+</td>
+
+
+                                            
                                         </tr>
                                     `;
                                 }).join('')}
