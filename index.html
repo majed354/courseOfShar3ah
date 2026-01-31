@@ -270,56 +270,58 @@
             border-radius: 20px;
             font-size: 0.8rem;
         }
-/* Search Result - Programs Chips (show full list without truncation) */
-.result-programs {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-top: 0.75rem;
-}
 
-.program-chip {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.35rem 0.65rem;
-    border-radius: 10px;
-    font-size: 0.78rem;
-    border: 1px solid #e2dccf;
-    background: var(--bg-dark);
-    color: var(--primary-dark);
-    max-width: 100%;
-    white-space: normal;
-    line-height: 1.25;
-}
+        /* Search Result - Programs Chips (show full list without truncation) */
+        .result-programs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+        }
 
-.program-chip .chip-degree { font-weight: 700; }
-.program-chip .chip-plans { font-size: 0.72rem; opacity: 0.85; }
+        .program-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.35rem 0.65rem;
+            border-radius: 10px;
+            font-size: 0.78rem;
+            border: 1px solid #e2dccf;
+            background: var(--bg-dark);
+            color: var(--primary-dark);
+            max-width: 100%;
+            white-space: normal;
+            line-height: 1.25;
+        }
 
-.program-chip.plan-new {
-    background: rgba(26, 77, 46, 0.10);
-    border-color: rgba(26, 77, 46, 0.25);
-    color: var(--primary);
-}
+        .program-chip .chip-degree {
+            font-weight: 700;
+        }
 
-.program-chip.plan-old {
-    background: rgba(201, 162, 39, 0.15);
-    border-color: rgba(201, 162, 39, 0.35);
-    color: #705c10;
-}
+        .program-chip .chip-plans {
+            font-size: 0.72rem;
+            opacity: 0.85;
+        }
 
-.program-chip.plan-mixed {
-    background: linear-gradient(to left, rgba(26, 77, 46, 0.10), rgba(201, 162, 39, 0.18));
-    border-color: rgba(26, 77, 46, 0.25);
-    color: var(--primary-dark);
-}
+        .program-chip.plan-new {
+            background: rgba(26, 77, 46, 0.10);
+            border-color: rgba(26, 77, 46, 0.25);
+            color: var(--primary);
+        }
+
+        .program-chip.plan-old {
+            background: rgba(201, 162, 39, 0.15);
+            border-color: rgba(201, 162, 39, 0.35);
+            color: #705c10;
+        }
+
+        .program-chip.plan-mixed {
+            background: linear-gradient(to left, rgba(26, 77, 46, 0.10), rgba(201, 162, 39, 0.18));
+            border-color: rgba(26, 77, 46, 0.25);
+            color: var(--primary-dark);
+        }
 
 
-
-
-
-
-        
         .tag-new {
             background: rgba(26, 77, 46, 0.1);
             color: var(--primary);
@@ -1004,33 +1006,19 @@
         }
 
         // Update stats
-      
-        
-        
-        
-        
-       // Update stats
-function updateStats() {
-    const totalCourses = programsData.programs.reduce(
-        (sum, p) => sum + ((p.courses && p.courses.length) ? p.courses.length : 0),
-        0
-    );
+        function updateStats() {
+            const totalCourses = programsData.programs.reduce((sum, p) => sum + ((p.courses && p.courses.length) ? p.courses.length : 0), 0);
 
-    // Count unique programs (do not count old/new plans as different programs)
-    // Uniqueness key: program name + degree
-    const uniqueProgramKeys = new Set(
-        programsData.programs.map(p => `${(p.name || '').trim()}||${(p.degree || '').trim()}`)
-    );
+            // Count unique programs (do not count old/new plans as different programs)
+            // Uniqueness key: program name + degree
+            const uniqueProgramKeys = new Set(
+                programsData.programs.map(p => `${(p.name || '').trim()}||${(p.degree || '').trim()}`)
+            );
 
-    document.getElementById('programsCount').textContent = uniqueProgramKeys.size;
-    document.getElementById('coursesCount').textContent = totalCourses;
-}
+            document.getElementById('programsCount').textContent = uniqueProgramKeys.size;
+            document.getElementById('coursesCount').textContent = totalCourses;
+        }
 
-
-
-
-
-        
         // Tab switching
         document.querySelectorAll('.degree-tab').forEach(tab => {
             tab.addEventListener('click', () => {
@@ -1046,120 +1034,113 @@ function updateStats() {
         const resultsContainer = document.getElementById('resultsContainer');
         const resultsCount = document.getElementById('resultsCount');
 
+        function normalizeText(s) {
+            return (s || '').toString().trim().replace(/\s+/g, ' ');
+        }
 
+        // Derive mandatory/elective from category (based on your data conventions)
+        function requirementFromCategory(category) {
+            const cat = normalizeText(category);
+            if (!cat) return 'غير محدد';
+            return cat.includes('اختياري') ? 'اختياري' : 'إجباري';
+        }
 
+        function chipClassForPlans(planTypes) {
+            const set = new Set((planTypes || []).filter(Boolean));
+            if (set.size > 1) return 'plan-mixed';
+            const only = Array.from(set)[0];
+            if (only === 'جديدة') return 'plan-new';
+            if (only === 'قديمة') return 'plan-old';
+            return '';
+        }
 
-function normalizeText(s) {
-    return (s || '').toString().trim().replace(/\s+/g, ' ');
-}
+        function groupProgramsForCourse(occurrences) {
+            const map = new Map(); // key: program+degree
 
-// يعتمد على category الموجودة في الداتا:
-// - "اختيارية ..." => اختياري
-// - غير ذلك => إجباري
-function requirementLabel(course) {
-    const cat = normalizeText(course.category);
-    if (!cat) return 'غير محدد';
-    return cat.includes('اختياري') ? 'اختياري' : 'إجباري';
-}
+            (occurrences || []).forEach(o => {
+                const key = `${normalizeText(o.program)}||${normalizeText(o.degree)}`;
+                if (!map.has(key)) {
+                    map.set(key, { program: o.program, degree: o.degree, planTypes: new Set() });
+                }
+                if (o.plan_type) map.get(key).planTypes.add(o.plan_type);
+            });
 
-function summarizePrograms(occ) {
-    const list = occ.map(o => `${o.program} (${o.degree})`);
-    if (list.length <= 2) return list.join('، ');
-    return `${list.slice(0, 2).join('، ')}…`;
-}
+            return Array.from(map.values()).map(x => ({
+                program: x.program,
+                degree: x.degree,
+                plan_types: Array.from(x.planTypes)
+            }));
+        }
 
-
-
-
-
-        
         searchInput.addEventListener('input', (e) => {
-            const query = e.target.value.trim().toLowerCase();
-            
+            const queryRaw = e.target.value.trim();
+            const query = queryRaw.toLowerCase();
+
             if (query.length < 2) {
                 searchResults.classList.remove('active');
                 return;
             }
 
-           
-            
-            
-            
-           // Helpers (ضعها مرة واحدة أعلى قسم البحث - انظر القسم التالي)
-const grouped = new Map();
+            // Group results by: (code + name) as requested
+            const grouped = new Map();
 
-programsData.programs.forEach(program => {
-    program.courses.forEach(course => {
-        const name = normalizeText(course.name).toLowerCase();
-        const code = normalizeText(course.code).toLowerCase();
-        const nameEn = normalizeText(course.name_en).toLowerCase();
+            programsData.programs.forEach(program => {
+                program.courses.forEach(course => {
+                    const nameAr = normalizeText(course.name).toLowerCase();
+                    const code = normalizeText(course.code).toLowerCase();
+                    const nameEn = normalizeText(course.name_en).toLowerCase();
 
-        const isMatch =
-            name.includes(query) ||
-            code.includes(query) ||
-            (nameEn && nameEn.includes(query));
+                    const isMatch =
+                        nameAr.includes(query) ||
+                        code.includes(query) ||
+                        (nameEn && nameEn.includes(query));
 
-        if (!isMatch) return;
+                    if (!isMatch) return;
 
-        // مفتاح الدمج: الرمز + الاسم (كما طلبت)
-        const key = `${code}||${normalizeText(course.name)}`;
+                    const key = `${code}||${normalizeText(course.name)}`;
 
-        if (!grouped.has(key)) {
-            grouped.set(key, {
-                code: course.code,
-                name: course.name,
-                name_en: course.name_en || null,
-                hours: course.hours,
-                type: course.type,
-                occurrences: []
+                    if (!grouped.has(key)) {
+                        grouped.set(key, {
+                            code: course.code,
+                            name: course.name,
+                            name_en: course.name_en || null,
+                            hours: course.hours,
+                            type: course.type,
+                            occurrences: []
+                        });
+                    }
+
+                    grouped.get(key).occurrences.push({
+                        program: program.name,
+                        degree: program.degree,
+                        plan_type: program.plan_type,
+                        category: course.category || null
+                    });
+                });
             });
-        }
 
-        const item = grouped.get(key);
-        item.occurrences.push({
-            program: program.name,
-            degree: program.degree,
-            plan_type: program.plan_type,
-            category: course.category || null,
-            requirement: requirementLabel(course)
-        });
-    });
-});
+            const results = Array.from(grouped.values()).map(item => {
+                const programGroups = groupProgramsForCourse(item.occurrences);
 
-// خرج النتائج المجمّعة
-const results = Array.from(grouped.values()).map(item => {
-    const reqSet = new Set(item.occurrences.map(o => o.requirement));
-    const catSet = new Set(item.occurrences.map(o => normalizeText(o.category)).filter(Boolean));
+                const reqSet = new Set(item.occurrences.map(o => requirementFromCategory(o.category)));
+                const catSet = new Set(item.occurrences.map(o => normalizeText(o.category)).filter(Boolean));
 
-    return {
-        ...item,
-        programs_count: item.occurrences.length,
-        requirement_summary: reqSet.size === 1 ? Array.from(reqSet)[0] : 'يختلف حسب البرنامج',
-        category_summary: catSet.size === 0 ? null : (catSet.size === 1 ? Array.from(catSet)[0] : 'يختلف حسب البرنامج'),
-        programs_summary: summarizePrograms(item.occurrences),
-        programs_full: item.occurrences.map(o => `${o.program} - ${o.degree} (${o.plan_type})`).join('، ')
-    };
-});
+                return {
+                    ...item,
+                    program_groups: programGroups,
+                    programs_count: programGroups.length,
+                    requirement_summary: reqSet.size === 1 ? Array.from(reqSet)[0] : 'يختلف حسب البرنامج',
+                    category_summary: catSet.size === 0 ? null : (catSet.size === 1 ? Array.from(catSet)[0] : 'يختلف حسب البرنامج')
+                };
+            });
 
-displayResults(results);
-
-
-
-
-            
+            displayResults(results);
         });
 
-
-
-
-
-
-
-        
         function displayResults(results) {
             searchResults.classList.add('active');
             resultsCount.textContent = `${results.length} نتيجة`;
-            
+
             if (results.length === 0) {
                 resultsContainer.innerHTML = `
                     <div class="no-results">
@@ -1171,45 +1152,43 @@ displayResults(results);
                 return;
             }
 
+            resultsContainer.innerHTML = results.map(result => {
+                const programsHtml = (result.program_groups || []).map(pg => {
+                    const planLabel = (pg.plan_types || []).length
+                        ? (pg.plan_types.length === 1 ? `الخطة ${pg.plan_types[0]}` : `الخطة ${pg.plan_types.join(' + ')}`)
+                        : '';
 
+                    const chipClass = chipClassForPlans(pg.plan_types);
 
+                    return `
+                        <span class="program-chip ${chipClass}">
+                            <span class="chip-name">${pg.program}</span>
+                            <span class="chip-degree">${pg.degree}</span>
+                            ${planLabel ? `<span class="chip-plans">${planLabel}</span>` : ''}
+                        </span>
+                    `;
+                }).join('');
 
+                return `
+                    <div class="result-item">
+                        <div class="result-course-name">${result.name}</div>
 
+                        <div class="result-meta">
+                            <span class="result-tag"><code class="course-code">${result.code}</code></span>
+                            <span class="result-tag">${result.hours} ساعة</span>
+                            <span class="result-tag">${result.requirement_summary}</span>
+                            ${result.category_summary ? `<span class="result-tag">${result.category_summary}</span>` : ''}
+                            <span class="result-tag">موجود في ${result.programs_count} برامج</span>
+                        </div>
 
-
-
-
-            
-          resultsContainer.innerHTML = results.map(result => {
-    return `
-        <div class="result-item">
-            <div class="result-course-name">${result.name}</div>
-            <div class="result-meta">
-                <span class="result-tag"><code class="course-code">${result.code}</code></span>
-
-                <span class="result-tag">${result.hours} ساعة</span>
-
-                <!-- إجباري/اختياري -->
-                <span class="result-tag">${result.requirement_summary}</span>
-
-                <!-- التصنيف التفصيلي إن وجد -->
-                ${result.category_summary ? `<span class="result-tag">${result.category_summary}</span>` : ''}
-
-                <!-- موجود في عدة برامج (بدون تكرار عناصر) -->
-                <span class="result-tag" title="${result.programs_full}">
-                    موجود في ${result.programs_count} برامج: ${result.programs_summary}
-                </span>
-            </div>
-        </div>
-    `;
-}).join('');
-
-
-
-
-
-            
+                        <div class="result-programs">
+                            ${programsHtml}
+                        </div>
+                    </div>
+                `;
+            }).join('');
         }
+
 
         function clearSearch() {
             searchInput.value = '';
@@ -1273,7 +1252,6 @@ displayResults(results);
                                     <th>اسم المقرر</th>
                                     <th>الساعات</th>
                                     <th>النوع</th>
-                                    <th>إجباري/اختياري</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -1289,18 +1267,8 @@ displayResults(results);
                                                 <strong>${course.name}</strong>
                                                 ${course.name_en ? `<br><small style="color:var(--text-muted)">${course.name_en}</small>` : ''}
                                             </td>
-
-
-                                            
-                                           <td>${course.hours}</td>
-<td><span class="course-type-badge ${typeClass}">${course.type}</span></td>
-<td>
-    <span class="result-tag">${requirementLabel(course)}</span>
-    ${course.category ? `<span class="result-tag">${course.category}</span>` : ''}
-</td>
-
-
-                                            
+                                            <td>${course.hours}</td>
+                                            <td><span class="course-type-badge ${typeClass}">${course.type}</span></td>
                                         </tr>
                                     `;
                                 }).join('')}
