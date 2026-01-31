@@ -19,27 +19,39 @@
       "courses": [
         {
           "code": "2001105-2",
-          "name": "المدخل لدراسة الفقه الإسلامي",
+          "name": "المدخل لدراسة الفقه الاسلامي",
           "name_en": "Introduction to Islamic Jurisprudence",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2003111-3",
-          "name": "مبادئ القانون",
+          "name": "مبادي القانون",
           "name_en": "Principles of Law",
           "hours": 3,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
-          "code": "2003112-3",
+          "code": "2003112-2",
           "name": "النظام الدستوري",
-          "name_en": "Constitutional Law",
-          "hours": 3,
+          "name_en": null,
+          "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2003221-2",
@@ -47,15 +59,212 @@
           "name_en": "Criminology and Punishment",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
-          "code": "2003216-3",
-          "name": "المحاماة وأخلاقيات المهنة",
-          "name_en": "Advocacy and Professional Ethics",
+          "code": "2003225-2",
+          "name": "المنظمات الدولية",
+          "name_en": null,
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "990211-2",
+          "name": "مهارات اللغة العربية",
+          "name_en": null,
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "990311-2",
+          "name": "المهارات الجامعية",
+          "name_en": null,
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "999801-2",
+          "name": "اللغة الانجليزية للأغراض الأكاديمية (١)",
+          "name_en": null,
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "105115-2",
+          "name": "تاريخ المملكة",
+          "name_en": null,
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "2001113-2",
+          "name": "أصول الفقه (١)",
+          "name_en": null,
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003210-3",
+          "name": "مصادر الالتزام",
+          "name_en": null,
           "hours": 3,
+          "level": 2,
+          "type": "نظري",
+          "prerequisites": [
+            "2003111-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003231-3",
+          "name": "القانون التجاري",
+          "name_en": "Commercial Law",
+          "hours": 3,
+          "level": 2,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003243-3",
+          "name": "القانون الإداري",
+          "name_en": "Administrative Law",
+          "hours": 3,
+          "level": 2,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2004111-2",
+          "name": "أصول الثقافة الاسلامية",
+          "name_en": null,
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "999802-2",
+          "name": "اللغة الإنجليزية للأغراض الأكاديمية (٢)",
+          "name_en": null,
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "prerequisites": [
+            "999801-2"
+          ],
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2001328-2",
+          "name": "القواعد الفقهية",
+          "name_en": null,
+          "hours": 2,
           "level": 3,
-          "type": "نظري"
+          "type": "نظري",
+          "prerequisites": [
+            "2001105-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2001330-2",
+          "name": "أصول الفقه (٢)",
+          "name_en": null,
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "prerequisites": [
+            "2001113-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003215-2",
+          "name": "حقوق الانسان",
+          "name_en": null,
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "prerequisites": [
+            "2003225-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003216-2",
+          "name": "المحاماة وأخلاقيات المهنة",
+          "name_en": null,
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "prerequisites": [
+            "2003111-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2003313-3",
@@ -63,15 +272,45 @@
           "name_en": "Obligation Rules",
           "hours": 3,
           "level": 3,
-          "type": "نظري"
+          "type": "نظري",
+          "prerequisites": [
+            "2003210-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2004112-2",
-          "name": "الثقافة الإسلامية (الأخلاق والقيم)",
+          "name": "الثقافة الاسلامية (الأخلاق والقيم)",
           "name_en": "Islamic Culture (Ethics & Values)",
           "hours": 2,
           "level": 3,
-          "type": "نظري"
+          "type": "نظري",
+          "prerequisites": [
+            "2004111-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "999803-2",
+          "name": "اللغة الإنجليزية للأغراض الأكاديمية (٣)",
+          "name_en": null,
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "prerequisites": [
+            "999802-2"
+          ],
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2003222-3",
@@ -79,7 +318,14 @@
           "name_en": "General Criminal Law",
           "hours": 3,
           "level": 4,
-          "type": "نظري"
+          "type": "نظري",
+          "prerequisites": [
+            "2003221-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2003226-3",
@@ -87,7 +333,14 @@
           "name_en": "Public International Law",
           "hours": 3,
           "level": 4,
-          "type": "نظري"
+          "type": "نظري",
+          "prerequisites": [
+            "2003225-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2003315-3",
@@ -95,87 +348,394 @@
           "name_en": "Civil Contracts",
           "hours": 3,
           "level": 4,
-          "type": "نظري"
+          "type": "نظري",
+          "prerequisites": [
+            "2003210-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2003321-3",
           "name": "الأوراق التجارية والإفلاس",
           "name_en": "Commercial Papers & Bankruptcy",
           "hours": 3,
-          "level": 5,
-          "type": "نظري"
+          "level": 4,
+          "type": "نظري",
+          "prerequisites": [
+            "2003231-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
-          "code": "2003231-3",
-          "name": "القانون التجاري",
-          "name_en": "Commercial Law",
-          "hours": 3,
-          "level": 5,
-          "type": "نظري"
+          "code": "2003352-2",
+          "name": "وسائل الإثبات",
+          "name_en": null,
+          "hours": 2,
+          "level": 4,
+          "type": "نظري",
+          "prerequisites": [
+            "2003210-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
-          "code": "2003243-3",
-          "name": "القانون الإداري",
-          "name_en": "Administrative Law",
-          "hours": 3,
-          "level": 5,
-          "type": "نظري"
+          "code": "999804-2",
+          "name": "اللغة الانجليزية للأغراض الاكاديمية (٤)",
+          "name_en": null,
+          "hours": 2,
+          "level": 4,
+          "type": "نظري",
+          "prerequisites": [
+            "999803-2"
+          ],
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2001318-3",
           "name": "فقه الجنايات",
           "name_en": "Jurisprudence of Criminal Law",
           "hours": 3,
-          "level": 6,
-          "type": "نظري"
+          "level": 5,
+          "type": "نظري",
+          "prerequisites": [
+            "2001105-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2001327-3",
           "name": "فقه الأحوال الشخصية",
           "name_en": "Personal Status Jurisprudence",
           "hours": 3,
-          "level": 6,
-          "type": "نظري"
+          "level": 5,
+          "type": "نظري",
+          "prerequisites": [
+            "2001105-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003381-3",
+          "name": "القضاء الاداري",
+          "name_en": null,
+          "hours": 3,
+          "level": 5,
+          "type": "نظري",
+          "prerequisites": [
+            "2003243-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003433-3",
+          "name": "العقود التجارية وعمليات البنوك",
+          "name_en": null,
+          "hours": 3,
+          "level": 5,
+          "type": "نظري",
+          "prerequisites": [
+            "2003231-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003441-3",
+          "name": "الحقوق العينية",
+          "name_en": null,
+          "hours": 3,
+          "level": 5,
+          "type": "نظري",
+          "prerequisites": [
+            "2003315-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2001220-3",
           "name": "فقه المعاملات",
           "name_en": "Jurisprudence of Transactions",
           "hours": 3,
-          "level": 7,
-          "type": "نظري"
+          "level": 6,
+          "type": "نظري",
+          "prerequisites": [
+            "2001105-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2003114-2",
-          "name": "أساسيات البحث القانوني",
+          "name": "اساسيات البحث القانوني",
           "name_en": "Legal Research Basics",
           "hours": 2,
-          "level": 7,
-          "type": "نظري"
+          "level": 6,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2003255-3",
           "name": "الملكية الفكرية",
           "name_en": "Intellectual Property",
-          "hours": 3,
-          "level": 7,
-          "type": "نظري"
+          "hours": 2,
+          "level": 6,
+          "type": "نظري",
+          "prerequisites": [
+            "2003111-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2003323-3",
           "name": "النظام الجزائي الخاص",
           "name_en": "Special Criminal Law",
           "hours": 3,
+          "level": 6,
+          "type": "نظري",
+          "prerequisites": [
+            "2003222-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003329-2",
+          "name": "ماده اختياريه للقسم",
+          "name_en": null,
+          "hours": 2,
+          "level": 6,
+          "type": "نظري",
+          "category": "اختيارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003426-2",
+          "name": "العقود الإدارية",
+          "name_en": null,
+          "hours": 2,
+          "level": 6,
+          "type": "نظري",
+          "prerequisites": [
+            "2003243-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2004313-2",
+          "name": "ثقافة إسلامية (٣)",
+          "name_en": null,
+          "hours": 2,
+          "level": 6,
+          "type": "نظري",
+          "prerequisites": [
+            "2004112-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "2001401-2",
+          "name": "المواريث والوصايا",
+          "name_en": null,
+          "hours": 2,
           "level": 7,
-          "type": "نظري"
+          "type": "نظري",
+          "prerequisites": [
+            "2001105-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003402-2",
+          "name": "ماده اختياريه للقسم",
+          "name_en": null,
+          "hours": 2,
+          "level": 7,
+          "type": "نظري",
+          "category": "اختيارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "20034101-3",
+          "name": "القانون البحري والجوي",
+          "name_en": null,
+          "hours": 3,
+          "level": 7,
+          "type": "نظري",
+          "prerequisites": [
+            "2003231-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003417-3",
+          "name": "نظام العمل والتأمينات الاجتماعية",
+          "name_en": null,
+          "hours": 3,
+          "level": 7,
+          "type": "نظري",
+          "prerequisites": [
+            "2003210-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2003453-3",
           "name": "نظام المرافعات",
           "name_en": "Litigation System",
           "hours": 3,
+          "level": 7,
+          "type": "نظري",
+          "prerequisites": [
+            "2003352-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2004414-2",
+          "name": "ثقافة إسلامية (٤)",
+          "name_en": null,
+          "hours": 2,
+          "level": 7,
+          "type": "نظري",
+          "prerequisites": [
+            "2004313-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "2003403-2",
+          "name": "ماده اختياريه للقسم",
+          "name_en": null,
+          "hours": 2,
           "level": 8,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "اختيارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003404-2",
+          "name": "تدريبات قانونية",
+          "name_en": null,
+          "hours": 2,
+          "level": 8,
+          "type": "نظري",
+          "prerequisites": [
+            "2003453-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003442-3",
+          "name": "النظام الدولي الخاص",
+          "name_en": null,
+          "hours": 3,
+          "level": 8,
+          "type": "نظري",
+          "prerequisites": [
+            "2003111-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003456-2",
+          "name": "نظام التحكيم",
+          "name_en": null,
+          "hours": 2,
+          "level": 8,
+          "type": "نظري",
+          "prerequisites": [
+            "2003453-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "2003489-3",
+          "name": "الإجراءات الجزائية",
+          "name_en": null,
+          "hours": 3,
+          "level": 8,
+          "type": "نظري",
+          "prerequisites": [
+            "2003323-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
         },
         {
           "code": "2003492-3",
@@ -183,9 +743,121 @@
           "name_en": "Judicial Execution Procedures",
           "hours": 3,
           "level": 8,
-          "type": "نظري"
+          "type": "نظري",
+          "prerequisites": [
+            "2003453-3"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "990113-2",
+          "name": "الثقافة الصحية",
+          "name_en": null,
+          "hours": 2,
+          "level": null,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "990312-2",
+          "name": "الابتكار وريادة الأعمال",
+          "name_en": null,
+          "hours": 2,
+          "level": null,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "990411-2",
+          "name": "مبادئ البرمجة",
+          "name_en": null,
+          "hours": 2,
+          "level": null,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "990412-2",
+          "name": "المواطنة الرقمية",
+          "name_en": null,
+          "hours": 2,
+          "level": null,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "990413-2",
+          "name": "السيرة النبوية",
+          "name_en": null,
+          "hours": 2,
+          "level": null,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "990415-2",
+          "name": "تلاوة وتجويد",
+          "name_en": null,
+          "hours": 2,
+          "level": null,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة"
+          ]
+        },
+        {
+          "code": "990416-2",
+          "name": "الإعلام والمجتمع",
+          "name_en": null,
+          "hours": 2,
+          "level": null,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "990417-2",
+          "name": "الخدمة المجتمعية",
+          "name_en": null,
+          "hours": 2,
+          "level": null,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
         }
-      ]
+      ],
+      "source": {
+        "file": "الأنظمة 38.pdf"
+      }
     },
     {
       "id": 2,
@@ -204,7 +876,11 @@
           "name_en": "Fundamentalist Introduction",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001112-2",
@@ -212,7 +888,11 @@
           "name_en": "Introduction to Fiqh Study",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001115-4",
@@ -220,7 +900,11 @@
           "name_en": "Al Fiqh 1",
           "hours": 4,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2002220-2",
@@ -228,7 +912,11 @@
           "name_en": "Holy Quran 1",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2002252-2",
@@ -236,7 +924,11 @@
           "name_en": "General Quran Sciences",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "20041102-2",
@@ -244,7 +936,12 @@
           "name_en": "Al Hadith 1",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة",
+            "الدراسات الإسلامية"
+          ]
         },
         {
           "code": "2004273-2",
@@ -252,7 +949,11 @@
           "name_en": "Islamic Creed 1",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001116-4",
@@ -260,7 +961,11 @@
           "name_en": "Al Fiqh 2",
           "hours": 4,
           "level": 2,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001126-2",
@@ -268,7 +973,11 @@
           "name_en": "Jurisprudence of Rashidun Era",
           "hours": 2,
           "level": 2,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001127-2",
@@ -276,7 +985,11 @@
           "name_en": "Sharia Judgment & Commission",
           "hours": 2,
           "level": 2,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001128-2",
@@ -284,7 +997,11 @@
           "name_en": "Jurisprudence of Verses & Hadiths 1",
           "hours": 2,
           "level": 2,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2002221-2",
@@ -292,7 +1009,11 @@
           "name_en": "Holy Quran 2",
           "hours": 2,
           "level": 2,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2002250-2",
@@ -300,7 +1021,12 @@
           "name_en": "Foundations of Exegesis",
           "hours": 2,
           "level": 2,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة",
+            "الدراسات الإسلامية"
+          ]
         },
         {
           "code": "103131-3",
@@ -308,7 +1034,11 @@
           "name_en": "Grammar 1",
           "hours": 3,
           "level": 3,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001215-4",
@@ -316,7 +1046,11 @@
           "name_en": "Al Fiqh 3",
           "hours": 4,
           "level": 3,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001250-4",
@@ -324,7 +1058,11 @@
           "name_en": "Evidence of Sharia Rulings 1",
           "hours": 4,
           "level": 3,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001255-2",
@@ -332,7 +1070,11 @@
           "name_en": "Research in Fiqh & Principles",
           "hours": 2,
           "level": 3,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001256-2",
@@ -340,7 +1082,11 @@
           "name_en": "Jurisprudence of Verses & Hadiths 2",
           "hours": 2,
           "level": 3,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2004373-2",
@@ -348,7 +1094,11 @@
           "name_en": "Islamic Creed 3",
           "hours": 2,
           "level": 3,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001216-4",
@@ -356,7 +1106,11 @@
           "name_en": "Al Fiqh 4",
           "hours": 4,
           "level": 4,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001225-2",
@@ -364,7 +1118,11 @@
           "name_en": "Comparative Jurisprudence",
           "hours": 2,
           "level": 4,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001310-2",
@@ -372,7 +1130,11 @@
           "name_en": "Sharia Policy",
           "hours": 2,
           "level": 4,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "103212-3",
@@ -380,7 +1142,11 @@
           "name_en": "Grammar 2",
           "hours": 3,
           "level": 5,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001148-2",
@@ -388,7 +1154,11 @@
           "name_en": "Disagreement & Argumentation",
           "hours": 2,
           "level": 5,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001311-4",
@@ -396,7 +1166,11 @@
           "name_en": "Al Fiqh 5",
           "hours": 4,
           "level": 5,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         },
         {
           "code": "2001351-3",
@@ -404,7 +1178,11 @@
           "name_en": "Inheritance Science 1",
           "hours": 3,
           "level": 5,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة"
+          ]
         }
       ]
     },
@@ -425,7 +1203,11 @@
           "name_en": "Comparative Tafsir",
           "hours": 3,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية"
+          ]
         },
         {
           "code": "2002706-3",
@@ -433,7 +1215,11 @@
           "name_en": "Criticism and Renewal in Quranic Studies",
           "hours": 3,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية"
+          ]
         },
         {
           "code": "2002707-3",
@@ -441,7 +1227,11 @@
           "name_en": "Studies in Tafsir Manuscripts",
           "hours": 3,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية"
+          ]
         },
         {
           "code": "2002708-3",
@@ -449,7 +1239,11 @@
           "name_en": "Studies in Tafsir Margins",
           "hours": 3,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية"
+          ]
         },
         {
           "code": "20029999-0",
@@ -457,7 +1251,12 @@
           "name_en": "PhD Comprehensive Exam",
           "hours": 0,
           "level": 2,
-          "type": "اختبار"
+          "type": "اختبار",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية",
+            "القراءات"
+          ]
         },
         {
           "code": "2002709-48",
@@ -465,7 +1264,11 @@
           "name_en": "Thesis",
           "hours": 48,
           "level": 3,
-          "type": "بحث"
+          "type": "بحث",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية"
+          ]
         }
       ]
     },
@@ -486,7 +1289,11 @@
           "name_en": "Detailed Analysis of Ten Major Readings",
           "hours": 4,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "القراءات"
+          ]
         },
         {
           "code": "2002701-4",
@@ -494,7 +1301,11 @@
           "name_en": "Presentation of Ten Major Readings",
           "hours": 4,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "القراءات"
+          ]
         },
         {
           "code": "2002702-2",
@@ -502,7 +1313,11 @@
           "name_en": "Studies in Irregular Readings",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "القراءات"
+          ]
         },
         {
           "code": "2002703-2",
@@ -510,7 +1325,11 @@
           "name_en": "Studies in Levels of Readers",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "القراءات"
+          ]
         },
         {
           "code": "20029999-0",
@@ -518,7 +1337,12 @@
           "name_en": "PhD Comprehensive Exam",
           "hours": 0,
           "level": 2,
-          "type": "اختبار"
+          "type": "اختبار",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية",
+            "القراءات"
+          ]
         },
         {
           "code": "2002704-48",
@@ -526,7 +1350,11 @@
           "name_en": "Thesis",
           "hours": 48,
           "level": 3,
-          "type": "بحث"
+          "type": "بحث",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "القراءات"
+          ]
         }
       ]
     },
@@ -547,7 +1375,11 @@
           "name_en": "Foundation of Exegesis",
           "hours": 4,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
         },
         {
           "code": "2002852-2",
@@ -555,7 +1387,11 @@
           "name_en": "History of Exegesis",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
         },
         {
           "code": "2002853-2",
@@ -563,7 +1399,11 @@
           "name_en": "Quranic Studies",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
         },
         {
           "code": "2002854-2",
@@ -571,7 +1411,11 @@
           "name_en": "Concept of Quranic Recitation",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
         },
         {
           "code": "2002855-2",
@@ -579,7 +1423,11 @@
           "name_en": "Resources of Quranic Studies",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
         },
         {
           "code": "2002861-4",
@@ -587,7 +1435,11 @@
           "name_en": "Analytic Exegesis",
           "hours": 4,
           "level": 2,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
         },
         {
           "code": "2002862-2",
@@ -595,7 +1447,11 @@
           "name_en": "Quranic Studies by Orientalists",
           "hours": 2,
           "level": 2,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
         },
         {
           "code": "2002863-2",
@@ -603,7 +1459,11 @@
           "name_en": "Research Methodology",
           "hours": 2,
           "level": 2,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
         },
         {
           "code": "2002864-2",
@@ -611,7 +1471,11 @@
           "name_en": "Studies in Curricula of Exegetes",
           "hours": 2,
           "level": 2,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
         },
         {
           "code": "2002871-2",
@@ -619,7 +1483,11 @@
           "name_en": "Thematic Exegesis",
           "hours": 2,
           "level": 3,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
         },
         {
           "code": "2002872-2",
@@ -627,7 +1495,11 @@
           "name_en": "Modernist Theories in Quran",
           "hours": 2,
           "level": 3,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
         },
         {
           "code": "2002873-2",
@@ -635,7 +1507,11 @@
           "name_en": "Studies in Miracle of Quran",
           "hours": 2,
           "level": 3,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
         },
         {
           "code": "2002874-2",
@@ -643,7 +1519,11 @@
           "name_en": "Studies in Language of Quran",
           "hours": 2,
           "level": 3,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
         },
         {
           "code": "2002888-4",
@@ -651,7 +1531,11 @@
           "name_en": "Project Research",
           "hours": 4,
           "level": 4,
-          "type": "بحث"
+          "type": "بحث",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
         }
       ]
     },
@@ -672,7 +1556,11 @@
           "name_en": "Ten Major Quranic Readings 1",
           "hours": 8,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "القراءات"
+          ]
         },
         {
           "code": "2002802-2",
@@ -680,7 +1568,11 @@
           "name_en": "Concept of Quranic Recitation",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "القراءات"
+          ]
         },
         {
           "code": "2002803-2",
@@ -688,7 +1580,11 @@
           "name_en": "Justification of Quranic Recitation",
           "hours": 2,
           "level": 1,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "القراءات"
+          ]
         },
         {
           "code": "2002811-8",
@@ -696,7 +1592,11 @@
           "name_en": "Ten Major Quranic Readings 2",
           "hours": 8,
           "level": 2,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "القراءات"
+          ]
         },
         {
           "code": "2002812-2",
@@ -704,7 +1604,11 @@
           "name_en": "Studies in Quranic Manuscripts",
           "hours": 2,
           "level": 2,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "القراءات"
+          ]
         },
         {
           "code": "2002813-2",
@@ -712,7 +1616,11 @@
           "name_en": "Research Methodology",
           "hours": 2,
           "level": 2,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "القراءات"
+          ]
         },
         {
           "code": "2002821-8",
@@ -720,7 +1628,11 @@
           "name_en": "Ten Major Quranic Readings 3",
           "hours": 8,
           "level": 3,
-          "type": "نظري"
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "القراءات"
+          ]
         },
         {
           "code": "2002831-4",
@@ -728,9 +1640,4565 @@
           "name_en": "Project Research",
           "hours": 4,
           "level": 4,
-          "type": "بحث"
+          "type": "بحث",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "القراءات"
+          ]
         }
       ]
+    },
+    {
+      "id": 7,
+      "name": "الدراسات الإسلامية",
+      "name_en": "Islamic Studies",
+      "degree": "بكالوريوس",
+      "degree_en": "Bachelor",
+      "version": 39,
+      "plan_type": "قديمة",
+      "total_hours": 146,
+      "department": "قسم الثقافة الإسلامية",
+      "courses": [
+        {
+          "code": "103171-2",
+          "name": "التحرير العربي",
+          "name_en": null,
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20021105-2",
+          "name": "قرآن كريم حفظ وتلاوة (١)",
+          "name_en": null,
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "2002131-2",
+          "name": "علوم القرآن (١)",
+          "name_en": null,
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "2002250-2",
+          "name": "أصول التفسير ومناهجه",
+          "name_en": "Foundations of Exegesis",
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20041102-2",
+          "name": "علوم الحديث (١)",
+          "name_en": "Al Hadith 1",
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الشريعة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20041103-2",
+          "name": "مقدمات علم العقيده (١)",
+          "name_en": null,
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20041104-2",
+          "name": "المدخل للشريعه والفقه الاسلامي (١)",
+          "name_en": null,
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "990311-2",
+          "name": "المهارات الجامعية",
+          "name_en": null,
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "999812-2",
+          "name": "اللغة الانجليزية للأغراض الأكاديمية (١)",
+          "name_en": null,
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "103281-2",
+          "name": "النحو (١)",
+          "name_en": null,
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20021201-2",
+          "name": "قرآن كريم حفظ وتلاوة (٢)",
+          "name_en": null,
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "2004111-2",
+          "name": "أصول الثقافة الاسلامية",
+          "name_en": null,
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20041201-2",
+          "name": "التجويد",
+          "name_en": null,
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20041203-2",
+          "name": "التفسير التحليلي (١)",
+          "name_en": null,
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20041204-2",
+          "name": "حديث (١)",
+          "name_en": null,
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20041205-2",
+          "name": "الفقه (١)",
+          "name_en": null,
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20041206-2",
+          "name": "العقيدة (١)",
+          "name_en": null,
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "999813-2",
+          "name": "اللغة الإنجليزية للأغراض الأكاديمية ٢",
+          "name_en": null,
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "prerequisites": [
+            "999812-2"
+          ],
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20022103-2",
+          "name": "قرآن كريم حفظ وتلاوة (٣)",
+          "name_en": null,
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "2003220-2",
+          "name": "المدخل لدراسة الأنظمة",
+          "name_en": null,
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "2004112-2",
+          "name": "الثقافة الاسلامية (الأخلاق والقيم)",
+          "name_en": "Islamic Culture (Ethics & Values)",
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "prerequisites": [
+            "2004111-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20042102-2",
+          "name": "الفقه (٢)",
+          "name_en": null,
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "prerequisites": [
+            "20041205-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20042104-2",
+          "name": "علوم القرآن (٢)",
+          "name_en": null,
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "prerequisites": [
+            "2002131-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20042105-2",
+          "name": "العقيدة (٢)",
+          "name_en": null,
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "prerequisites": [
+            "20041206-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20042106-2",
+          "name": "أصول فقه (١)",
+          "name_en": null,
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20042107-2",
+          "name": "علوم الحديث (٢)",
+          "name_en": null,
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "prerequisites": [
+            "20041102-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "103282-2",
+          "name": "النحو (٢)",
+          "name_en": null,
+          "hours": 2,
+          "level": 4,
+          "type": "نظري",
+          "prerequisites": [
+            "103281-2"
+          ],
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "105115-2",
+          "name": "تاريخ المملكة",
+          "name_en": null,
+          "hours": 2,
+          "level": 4,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20022203-2",
+          "name": "قرآن كريم حفظ وتلاوة (٤)",
+          "name_en": null,
+          "hours": 2,
+          "level": 4,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20042201-2",
+          "name": "أحاديث أحكام (١)",
+          "name_en": null,
+          "hours": 2,
+          "level": 4,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20042202-2",
+          "name": "التفسير التحليلي (٢)",
+          "name_en": null,
+          "hours": 2,
+          "level": 4,
+          "type": "نظري",
+          "prerequisites": [
+            "20041203-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20042203-2",
+          "name": "العقيدة (٣)",
+          "name_en": null,
+          "hours": 2,
+          "level": 4,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20042204-2",
+          "name": "الفقه (٣)",
+          "name_en": null,
+          "hours": 2,
+          "level": 4,
+          "type": "نظري",
+          "prerequisites": [
+            "20042102-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20042205-2",
+          "name": "حديث (٢)",
+          "name_en": null,
+          "hours": 2,
+          "level": 4,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20042206-2",
+          "name": "الدعوة والحسبة",
+          "name_en": null,
+          "hours": 2,
+          "level": 4,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "2002310-2",
+          "name": "قرآن كريم حفظ وتلاوة (٥)",
+          "name_en": null,
+          "hours": 2,
+          "level": 5,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20043101-2",
+          "name": "التفسير الموضوعي",
+          "name_en": null,
+          "hours": 2,
+          "level": 5,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20043102-2",
+          "name": "العقيدة (٤)",
+          "name_en": null,
+          "hours": 2,
+          "level": 5,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20043103-2",
+          "name": "الاديان",
+          "name_en": null,
+          "hours": 2,
+          "level": 5,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20043104-2",
+          "name": "الفقه (٤)",
+          "name_en": null,
+          "hours": 2,
+          "level": 5,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20043105-2",
+          "name": "الفقه المقارن",
+          "name_en": null,
+          "hours": 2,
+          "level": 5,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20043106-2",
+          "name": "اصول الفقه (٢)",
+          "name_en": null,
+          "hours": 2,
+          "level": 5,
+          "type": "نظري",
+          "prerequisites": [
+            "20042106-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20043107-2",
+          "name": "حديث (٣)",
+          "name_en": null,
+          "hours": 2,
+          "level": 5,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20043108-2",
+          "name": "علم المواريث (١)",
+          "name_en": null,
+          "hours": 2,
+          "level": 5,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "103245-2",
+          "name": "النحو (٣)",
+          "name_en": null,
+          "hours": 2,
+          "level": 6,
+          "type": "نظري",
+          "prerequisites": [
+            "103282-2"
+          ],
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20023203-2",
+          "name": "قرآن كريم حفظ وتلاوة (٦)",
+          "name_en": null,
+          "hours": 2,
+          "level": 6,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "2004313-2",
+          "name": "ثقافة إسلامية (٣)",
+          "name_en": null,
+          "hours": 2,
+          "level": 6,
+          "type": "نظري",
+          "prerequisites": [
+            "2004112-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20043201-2",
+          "name": "العقيدة (٥)",
+          "name_en": null,
+          "hours": 2,
+          "level": 6,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20043202-2",
+          "name": "القواعد الفقهية",
+          "name_en": null,
+          "hours": 2,
+          "level": 6,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20043203-2",
+          "name": "أحدايث احكام (٢)",
+          "name_en": null,
+          "hours": 2,
+          "level": 6,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20043204-2",
+          "name": "الفقه (٥)",
+          "name_en": null,
+          "hours": 2,
+          "level": 6,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20043205-2",
+          "name": "التفسير التحليلي (٣)",
+          "name_en": null,
+          "hours": 2,
+          "level": 6,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20043206-2",
+          "name": "تخريج الحديث",
+          "name_en": null,
+          "hours": 2,
+          "level": 6,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20024103-2",
+          "name": "قرآن كريم حفظ وتلاوة (٧)",
+          "name_en": null,
+          "hours": 2,
+          "level": 7,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20044101-2",
+          "name": "أصول فقه (٣)",
+          "name_en": null,
+          "hours": 2,
+          "level": 7,
+          "type": "نظري",
+          "prerequisites": [
+            "20043106-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20044102-2",
+          "name": "العقيدة (٦)",
+          "name_en": null,
+          "hours": 2,
+          "level": 7,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20044103-2",
+          "name": "مناهج البحث",
+          "name_en": null,
+          "hours": 2,
+          "level": 7,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20044104-2",
+          "name": "دراسة اسانيد",
+          "name_en": null,
+          "hours": 2,
+          "level": 7,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20044105-2",
+          "name": "الفقه (٦)",
+          "name_en": null,
+          "hours": 2,
+          "level": 7,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20044106-2",
+          "name": "فقه النوازل والمعاملات المصرفية",
+          "name_en": null,
+          "hours": 2,
+          "level": 7,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20044107-2",
+          "name": "حديث (٤)",
+          "name_en": null,
+          "hours": 2,
+          "level": 7,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "2004414-2",
+          "name": "ثقافة إسلامية (٤)",
+          "name_en": null,
+          "hours": 2,
+          "level": 7,
+          "type": "نظري",
+          "prerequisites": [
+            "2004313-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20024203-2",
+          "name": "قرآن كريم حفظ وتلاوة (٨)",
+          "name_en": null,
+          "hours": 2,
+          "level": 8,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20044201-2",
+          "name": "الفقه (٧)",
+          "name_en": null,
+          "hours": 2,
+          "level": 8,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20044202-2",
+          "name": "بحث التخرج",
+          "name_en": null,
+          "hours": 2,
+          "level": 8,
+          "type": "نظري",
+          "prerequisites": [
+            "20044103-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20044203-2",
+          "name": "التفسير التحليلي (٤)",
+          "name_en": null,
+          "hours": 2,
+          "level": 8,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20044204-2",
+          "name": "المذاهب والتيارات المعاصرة",
+          "name_en": null,
+          "hours": 2,
+          "level": 8,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20044205-2",
+          "name": "الفرق",
+          "name_en": null,
+          "hours": 2,
+          "level": 8,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20044206-2",
+          "name": "علم المواريث (٢)",
+          "name_en": null,
+          "hours": 2,
+          "level": 8,
+          "type": "نظري",
+          "prerequisites": [
+            "20043108-2"
+          ],
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20044207-2",
+          "name": "السيرة النبوية",
+          "name_en": null,
+          "hours": 2,
+          "level": 8,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "20044208-2",
+          "name": "أحاديث أحكام (٣)",
+          "name_en": null,
+          "hours": 2,
+          "level": 8,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "990113-2",
+          "name": "الثقافة الصحية",
+          "name_en": null,
+          "hours": 2,
+          "level": null,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "990312-2",
+          "name": "الابتكار وريادة الأعمال",
+          "name_en": null,
+          "hours": 2,
+          "level": null,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "990411-2",
+          "name": "مبادئ البرمجة",
+          "name_en": null,
+          "hours": 2,
+          "level": null,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "990412-2",
+          "name": "المواطنة الرقمية",
+          "name_en": null,
+          "hours": 2,
+          "level": null,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "990416-2",
+          "name": "الإعلام والمجتمع",
+          "name_en": null,
+          "hours": 2,
+          "level": null,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        },
+        {
+          "code": "990417-2",
+          "name": "الخدمة المجتمعية",
+          "name_en": null,
+          "hours": 2,
+          "level": null,
+          "type": "نظري",
+          "category": "متطلبات جامعية",
+          "belongs_to_programs": [
+            "الأنظمة",
+            "الدراسات الإسلامية"
+          ]
+        }
+      ],
+      "source": {
+        "file": "الدراسات الإسلامية 39.pdf"
+      }
+    }
+  ],
+  "courses_catalog": [
+    {
+      "code": "103131-3",
+      "name": "النحو (1)",
+      "name_en": "Grammar 1",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 3
+      },
+      "categories_by_program": {
+        "2": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "103171-2",
+      "name": "التحرير العربي",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 1
+      },
+      "categories_by_program": {
+        "7": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "103212-3",
+      "name": "النحو (2)",
+      "name_en": "Grammar 2",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 5
+      },
+      "categories_by_program": {
+        "2": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "103245-2",
+      "name": "النحو (٣)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 6
+      },
+      "categories_by_program": {
+        "7": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "103281-2",
+      "name": "النحو (١)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 2
+      },
+      "categories_by_program": {
+        "7": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "103282-2",
+      "name": "النحو (٢)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 4
+      },
+      "categories_by_program": {
+        "7": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "105115-2",
+      "name": "تاريخ المملكة",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        },
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "1": 2,
+        "7": 4
+      },
+      "categories_by_program": {
+        "1": "متطلبات جامعية",
+        "7": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "2001105-2",
+      "name": "المدخل لدراسة الفقه الاسلامي",
+      "name_en": "Introduction to Islamic Jurisprudence",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 1
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001110-2",
+      "name": "المقدمات الأصولية",
+      "name_en": "Fundamentalist Introduction",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 1
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001112-2",
+      "name": "المدخل لدراسة الفقه",
+      "name_en": "Introduction to Fiqh Study",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 1
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001113-2",
+      "name": "أصول الفقه (١)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 2
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001115-4",
+      "name": "الفقه (1)",
+      "name_en": "Al Fiqh 1",
+      "hours": 4,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 1
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001116-4",
+      "name": "الفقه (2)",
+      "name_en": "Al Fiqh 2",
+      "hours": 4,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 2
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001126-2",
+      "name": "فقه تاريخ عصر الراشدين",
+      "name_en": "Jurisprudence of Rashidun Era",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 2
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001127-2",
+      "name": "الحكم الشرعي والتكليف",
+      "name_en": "Sharia Judgment & Commission",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 2
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001128-2",
+      "name": "فقه آيات وأحاديث الأحكام (1)",
+      "name_en": "Jurisprudence of Verses & Hadiths 1",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 2
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001148-2",
+      "name": "الخلاف والمناظرة",
+      "name_en": "Disagreement & Argumentation",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 5
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001215-4",
+      "name": "الفقه (3)",
+      "name_en": "Al Fiqh 3",
+      "hours": 4,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 3
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001216-4",
+      "name": "الفقه (4)",
+      "name_en": "Al Fiqh 4",
+      "hours": 4,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 4
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001220-3",
+      "name": "فقه المعاملات",
+      "name_en": "Jurisprudence of Transactions",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 6
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001225-2",
+      "name": "الفقه المقارن",
+      "name_en": "Comparative Jurisprudence",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 4
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001250-4",
+      "name": "أدلة الأحكام الشرعية (1)",
+      "name_en": "Evidence of Sharia Rulings 1",
+      "hours": 4,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 3
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001255-2",
+      "name": "قاعة بحث في الفقه وأصوله",
+      "name_en": "Research in Fiqh & Principles",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 3
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001256-2",
+      "name": "فقه آيات وأحاديث الأحكام (2)",
+      "name_en": "Jurisprudence of Verses & Hadiths 2",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 3
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001310-2",
+      "name": "السياسة الشرعية",
+      "name_en": "Sharia Policy",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 4
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001311-4",
+      "name": "الفقه (5)",
+      "name_en": "Al Fiqh 5",
+      "hours": 4,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 5
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001318-3",
+      "name": "فقه الجنايات",
+      "name_en": "Jurisprudence of Criminal Law",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 5
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001327-3",
+      "name": "فقه الأحوال الشخصية",
+      "name_en": "Personal Status Jurisprudence",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 5
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001328-2",
+      "name": "القواعد الفقهية",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 3
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001330-2",
+      "name": "أصول الفقه (٢)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 3
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001351-3",
+      "name": "علم المواريث 1",
+      "name_en": "Inheritance Science 1",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 5
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2001401-2",
+      "name": "المواريث والوصايا",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 7
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20021105-2",
+      "name": "قرآن كريم حفظ وتلاوة (١)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 1
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20021201-2",
+      "name": "قرآن كريم حفظ وتلاوة (٢)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 2
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002131-2",
+      "name": "علوم القرآن (١)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 1
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20022103-2",
+      "name": "قرآن كريم حفظ وتلاوة (٣)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 3
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002220-2",
+      "name": "القرآن الكريم (1)",
+      "name_en": "Holy Quran 1",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 1
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20022203-2",
+      "name": "قرآن كريم حفظ وتلاوة (٤)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 4
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002221-2",
+      "name": "القرآن الكريم (2)",
+      "name_en": "Holy Quran 2",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 2
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002250-2",
+      "name": "أصول التفسير ومناهجه",
+      "name_en": "Foundations of Exegesis",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        },
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "2": 2,
+        "7": 1
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم",
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002252-2",
+      "name": "علوم القرآن العامة",
+      "name_en": "General Quran Sciences",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 1
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002310-2",
+      "name": "قرآن كريم حفظ وتلاوة (٥)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 5
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20023203-2",
+      "name": "قرآن كريم حفظ وتلاوة (٦)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 6
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20024103-2",
+      "name": "قرآن كريم حفظ وتلاوة (٧)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 7
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20024203-2",
+      "name": "قرآن كريم حفظ وتلاوة (٨)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 8
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002700-4",
+      "name": "فرش القراءات العشر الكبرى",
+      "name_en": "Detailed Analysis of Ten Major Readings",
+      "hours": 4,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 4,
+          "name": "القراءات"
+        }
+      ],
+      "levels_by_program": {
+        "4": 1
+      },
+      "categories_by_program": {
+        "4": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002701-4",
+      "name": "عرض القراءات العشر الكبرى",
+      "name_en": "Presentation of Ten Major Readings",
+      "hours": 4,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 4,
+          "name": "القراءات"
+        }
+      ],
+      "levels_by_program": {
+        "4": 1
+      },
+      "categories_by_program": {
+        "4": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002702-2",
+      "name": "دراسات في القراءات الشاذة وتوجيهها",
+      "name_en": "Studies in Irregular Readings",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 4,
+          "name": "القراءات"
+        }
+      ],
+      "levels_by_program": {
+        "4": 1
+      },
+      "categories_by_program": {
+        "4": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002703-2",
+      "name": "دراسات في طبقات القراء وأسانيدهم",
+      "name_en": "Studies in Levels of Readers",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 4,
+          "name": "القراءات"
+        }
+      ],
+      "levels_by_program": {
+        "4": 1
+      },
+      "categories_by_program": {
+        "4": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002704-48",
+      "name": "الرسالة",
+      "name_en": "Thesis",
+      "hours": 48,
+      "type": "بحث",
+      "programs": [
+        {
+          "id": 4,
+          "name": "القراءات"
+        }
+      ],
+      "levels_by_program": {
+        "4": 3
+      },
+      "categories_by_program": {
+        "4": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002705-3",
+      "name": "التفسير المقارن",
+      "name_en": "Comparative Tafsir",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 3,
+          "name": "الدراسات القرآنية"
+        }
+      ],
+      "levels_by_program": {
+        "3": 1
+      },
+      "categories_by_program": {
+        "3": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002706-3",
+      "name": "النقد والتجديد في الدراسات القرآنية",
+      "name_en": "Criticism and Renewal in Quranic Studies",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 3,
+          "name": "الدراسات القرآنية"
+        }
+      ],
+      "levels_by_program": {
+        "3": 1
+      },
+      "categories_by_program": {
+        "3": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002707-3",
+      "name": "دراسات في نسخ التفسير وأسانيده",
+      "name_en": "Studies in Tafsir Manuscripts",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 3,
+          "name": "الدراسات القرآنية"
+        }
+      ],
+      "levels_by_program": {
+        "3": 1
+      },
+      "categories_by_program": {
+        "3": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002708-3",
+      "name": "دراسات في حواشي التفسير",
+      "name_en": "Studies in Tafsir Margins",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 3,
+          "name": "الدراسات القرآنية"
+        }
+      ],
+      "levels_by_program": {
+        "3": 1
+      },
+      "categories_by_program": {
+        "3": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002709-48",
+      "name": "الرسالة",
+      "name_en": "Thesis",
+      "hours": 48,
+      "type": "بحث",
+      "programs": [
+        {
+          "id": 3,
+          "name": "الدراسات القرآنية"
+        }
+      ],
+      "levels_by_program": {
+        "3": 3
+      },
+      "categories_by_program": {
+        "3": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002801-8",
+      "name": "القراءات العشر الكبرى (1)",
+      "name_en": "Ten Major Quranic Readings 1",
+      "hours": 8,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 6,
+          "name": "القراءات"
+        }
+      ],
+      "levels_by_program": {
+        "6": 1
+      },
+      "categories_by_program": {
+        "6": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002802-2",
+      "name": "علم القراءات دراية",
+      "name_en": "Concept of Quranic Recitation",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 6,
+          "name": "القراءات"
+        }
+      ],
+      "levels_by_program": {
+        "6": 1
+      },
+      "categories_by_program": {
+        "6": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002803-2",
+      "name": "دراسات في توجيه القراءات",
+      "name_en": "Justification of Quranic Recitation",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 6,
+          "name": "القراءات"
+        }
+      ],
+      "levels_by_program": {
+        "6": 1
+      },
+      "categories_by_program": {
+        "6": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002811-8",
+      "name": "القراءات العشر الكبرى (2)",
+      "name_en": "Ten Major Quranic Readings 2",
+      "hours": 8,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 6,
+          "name": "القراءات"
+        }
+      ],
+      "levels_by_program": {
+        "6": 2
+      },
+      "categories_by_program": {
+        "6": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002812-2",
+      "name": "دراسات في المصاحف القرآنية",
+      "name_en": "Studies in Quranic Manuscripts",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 6,
+          "name": "القراءات"
+        }
+      ],
+      "levels_by_program": {
+        "6": 2
+      },
+      "categories_by_program": {
+        "6": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002813-2",
+      "name": "منهج البحث والتحقيق",
+      "name_en": "Research Methodology",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 6,
+          "name": "القراءات"
+        }
+      ],
+      "levels_by_program": {
+        "6": 2
+      },
+      "categories_by_program": {
+        "6": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002821-8",
+      "name": "القراءات العشر الكبرى (3)",
+      "name_en": "Ten Major Quranic Readings 3",
+      "hours": 8,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 6,
+          "name": "القراءات"
+        }
+      ],
+      "levels_by_program": {
+        "6": 3
+      },
+      "categories_by_program": {
+        "6": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002831-4",
+      "name": "مشروع بحثي",
+      "name_en": "Project Research",
+      "hours": 4,
+      "type": "بحث",
+      "programs": [
+        {
+          "id": 6,
+          "name": "القراءات"
+        }
+      ],
+      "levels_by_program": {
+        "6": 4
+      },
+      "categories_by_program": {
+        "6": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002851-4",
+      "name": "أصول التفسير",
+      "name_en": "Foundation of Exegesis",
+      "hours": 4,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 5,
+          "name": "الدراسات القرآنية المعاصرة"
+        }
+      ],
+      "levels_by_program": {
+        "5": 1
+      },
+      "categories_by_program": {
+        "5": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002852-2",
+      "name": "تاريخ التفسير",
+      "name_en": "History of Exegesis",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 5,
+          "name": "الدراسات القرآنية المعاصرة"
+        }
+      ],
+      "levels_by_program": {
+        "5": 1
+      },
+      "categories_by_program": {
+        "5": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002853-2",
+      "name": "دراسات في علوم القرآن",
+      "name_en": "Quranic Studies",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 5,
+          "name": "الدراسات القرآنية المعاصرة"
+        }
+      ],
+      "levels_by_program": {
+        "5": 1
+      },
+      "categories_by_program": {
+        "5": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002854-2",
+      "name": "علم القراءات دراية",
+      "name_en": "Concept of Quranic Recitation",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 5,
+          "name": "الدراسات القرآنية المعاصرة"
+        }
+      ],
+      "levels_by_program": {
+        "5": 1
+      },
+      "categories_by_program": {
+        "5": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002855-2",
+      "name": "مصادر الدراسات القرآنية",
+      "name_en": "Resources of Quranic Studies",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 5,
+          "name": "الدراسات القرآنية المعاصرة"
+        }
+      ],
+      "levels_by_program": {
+        "5": 1
+      },
+      "categories_by_program": {
+        "5": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002861-4",
+      "name": "التفسير التحليلي",
+      "name_en": "Analytic Exegesis",
+      "hours": 4,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 5,
+          "name": "الدراسات القرآنية المعاصرة"
+        }
+      ],
+      "levels_by_program": {
+        "5": 2
+      },
+      "categories_by_program": {
+        "5": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002862-2",
+      "name": "الدراسات القرآنية عند المستشرقين",
+      "name_en": "Quranic Studies by Orientalists",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 5,
+          "name": "الدراسات القرآنية المعاصرة"
+        }
+      ],
+      "levels_by_program": {
+        "5": 2
+      },
+      "categories_by_program": {
+        "5": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002863-2",
+      "name": "منهج البحث والتحقيق",
+      "name_en": "Research Methodology",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 5,
+          "name": "الدراسات القرآنية المعاصرة"
+        }
+      ],
+      "levels_by_program": {
+        "5": 2
+      },
+      "categories_by_program": {
+        "5": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002864-2",
+      "name": "دراسات في مناهج المفسرين",
+      "name_en": "Studies in Curricula of Exegetes",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 5,
+          "name": "الدراسات القرآنية المعاصرة"
+        }
+      ],
+      "levels_by_program": {
+        "5": 2
+      },
+      "categories_by_program": {
+        "5": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002871-2",
+      "name": "التفسير الموضوعي",
+      "name_en": "Thematic Exegesis",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 5,
+          "name": "الدراسات القرآنية المعاصرة"
+        }
+      ],
+      "levels_by_program": {
+        "5": 3
+      },
+      "categories_by_program": {
+        "5": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002872-2",
+      "name": "النظريات الحداثية في القرآن",
+      "name_en": "Modernist Theories in Quran",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 5,
+          "name": "الدراسات القرآنية المعاصرة"
+        }
+      ],
+      "levels_by_program": {
+        "5": 3
+      },
+      "categories_by_program": {
+        "5": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002873-2",
+      "name": "دراسات في إعجاز القرآن",
+      "name_en": "Studies in Miracle of Quran",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 5,
+          "name": "الدراسات القرآنية المعاصرة"
+        }
+      ],
+      "levels_by_program": {
+        "5": 3
+      },
+      "categories_by_program": {
+        "5": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002874-2",
+      "name": "دراسات في لغة القرآن",
+      "name_en": "Studies in Language of Quran",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 5,
+          "name": "الدراسات القرآنية المعاصرة"
+        }
+      ],
+      "levels_by_program": {
+        "5": 3
+      },
+      "categories_by_program": {
+        "5": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2002888-4",
+      "name": "مشروع بحثي",
+      "name_en": "Project Research",
+      "hours": 4,
+      "type": "بحث",
+      "programs": [
+        {
+          "id": 5,
+          "name": "الدراسات القرآنية المعاصرة"
+        }
+      ],
+      "levels_by_program": {
+        "5": 4
+      },
+      "categories_by_program": {
+        "5": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20029999-0",
+      "name": "الاختبار الشامل",
+      "name_en": "PhD Comprehensive Exam",
+      "hours": 0,
+      "type": "اختبار",
+      "programs": [
+        {
+          "id": 3,
+          "name": "الدراسات القرآنية"
+        },
+        {
+          "id": 4,
+          "name": "القراءات"
+        }
+      ],
+      "levels_by_program": {
+        "3": 2,
+        "4": 2
+      },
+      "categories_by_program": {
+        "3": "إجبارية القسم",
+        "4": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003111-3",
+      "name": "مبادي القانون",
+      "name_en": "Principles of Law",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 1
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003112-2",
+      "name": "النظام الدستوري",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 1
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003114-2",
+      "name": "اساسيات البحث القانوني",
+      "name_en": "Legal Research Basics",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 6
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003210-3",
+      "name": "مصادر الالتزام",
+      "name_en": null,
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 2
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003215-2",
+      "name": "حقوق الانسان",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 3
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003216-2",
+      "name": "المحاماة وأخلاقيات المهنة",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 3
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003220-2",
+      "name": "المدخل لدراسة الأنظمة",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 3
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003221-2",
+      "name": "علم الإجرام والعقاب",
+      "name_en": "Criminology and Punishment",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 1
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003222-3",
+      "name": "النظام الجزائي العام",
+      "name_en": "General Criminal Law",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 4
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003225-2",
+      "name": "المنظمات الدولية",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 1
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003226-3",
+      "name": "القانون الدولي العام",
+      "name_en": "Public International Law",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 4
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003231-3",
+      "name": "القانون التجاري",
+      "name_en": "Commercial Law",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 2
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003243-3",
+      "name": "القانون الإداري",
+      "name_en": "Administrative Law",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 2
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003255-3",
+      "name": "الملكية الفكرية",
+      "name_en": "Intellectual Property",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 6
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003313-3",
+      "name": "أحكام الالتزام",
+      "name_en": "Obligation Rules",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 3
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003315-3",
+      "name": "العقود المدنية",
+      "name_en": "Civil Contracts",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 4
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003321-3",
+      "name": "الأوراق التجارية والإفلاس",
+      "name_en": "Commercial Papers & Bankruptcy",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 4
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003323-3",
+      "name": "النظام الجزائي الخاص",
+      "name_en": "Special Criminal Law",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 6
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003329-2",
+      "name": "ماده اختياريه للقسم",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 6
+      },
+      "categories_by_program": {
+        "1": "اختيارية القسم"
+      }
+    },
+    {
+      "code": "2003352-2",
+      "name": "وسائل الإثبات",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 4
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003381-3",
+      "name": "القضاء الاداري",
+      "name_en": null,
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 5
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003402-2",
+      "name": "ماده اختياريه للقسم",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 7
+      },
+      "categories_by_program": {
+        "1": "اختيارية القسم"
+      }
+    },
+    {
+      "code": "2003403-2",
+      "name": "ماده اختياريه للقسم",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 8
+      },
+      "categories_by_program": {
+        "1": "اختيارية القسم"
+      }
+    },
+    {
+      "code": "2003404-2",
+      "name": "تدريبات قانونية",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 8
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20034101-3",
+      "name": "القانون البحري والجوي",
+      "name_en": null,
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 7
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003417-3",
+      "name": "نظام العمل والتأمينات الاجتماعية",
+      "name_en": null,
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 7
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003426-2",
+      "name": "العقود الإدارية",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 6
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003433-3",
+      "name": "العقود التجارية وعمليات البنوك",
+      "name_en": null,
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 5
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003441-3",
+      "name": "الحقوق العينية",
+      "name_en": null,
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 5
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003442-3",
+      "name": "النظام الدولي الخاص",
+      "name_en": null,
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 8
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003453-3",
+      "name": "نظام المرافعات",
+      "name_en": "Litigation System",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 7
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003456-2",
+      "name": "نظام التحكيم",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 8
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003489-3",
+      "name": "الإجراءات الجزائية",
+      "name_en": null,
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 8
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2003492-3",
+      "name": "إجراءات التنفيذ القضائي",
+      "name_en": "Judicial Execution Procedures",
+      "hours": 3,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 8
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20041102-2",
+      "name": "علوم الحديث (1)",
+      "name_en": "Al Hadith 1",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        },
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "2": 1,
+        "7": 1
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم",
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20041103-2",
+      "name": "مقدمات علم العقيده (١)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 1
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20041104-2",
+      "name": "المدخل للشريعه والفقه الاسلامي (١)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 1
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2004111-2",
+      "name": "أصول الثقافة الاسلامية",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        },
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "1": 2,
+        "7": 2
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم",
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2004112-2",
+      "name": "الثقافة الاسلامية (الأخلاق والقيم)",
+      "name_en": "Islamic Culture (Ethics & Values)",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        },
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "1": 3,
+        "7": 3
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم",
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20041201-2",
+      "name": "التجويد",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 2
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20041203-2",
+      "name": "التفسير التحليلي (١)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 2
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20041204-2",
+      "name": "حديث (١)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 2
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20041205-2",
+      "name": "الفقه (١)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 2
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20041206-2",
+      "name": "العقيدة (١)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 2
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20042102-2",
+      "name": "الفقه (٢)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 3
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20042104-2",
+      "name": "علوم القرآن (٢)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 3
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20042105-2",
+      "name": "العقيدة (٢)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 3
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20042106-2",
+      "name": "أصول فقه (١)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 3
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20042107-2",
+      "name": "علوم الحديث (٢)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 3
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20042201-2",
+      "name": "أحاديث أحكام (١)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 4
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20042202-2",
+      "name": "التفسير التحليلي (٢)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 4
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20042203-2",
+      "name": "العقيدة (٣)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 4
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20042204-2",
+      "name": "الفقه (٣)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 4
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20042205-2",
+      "name": "حديث (٢)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 4
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20042206-2",
+      "name": "الدعوة والحسبة",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 4
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2004273-2",
+      "name": "العقيدة (1)",
+      "name_en": "Islamic Creed 1",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 1
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20043101-2",
+      "name": "التفسير الموضوعي",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 5
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20043102-2",
+      "name": "العقيدة (٤)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 5
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20043103-2",
+      "name": "الاديان",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 5
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20043104-2",
+      "name": "الفقه (٤)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 5
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20043105-2",
+      "name": "الفقه المقارن",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 5
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20043106-2",
+      "name": "اصول الفقه (٢)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 5
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20043107-2",
+      "name": "حديث (٣)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 5
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20043108-2",
+      "name": "علم المواريث (١)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 5
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2004313-2",
+      "name": "ثقافة إسلامية (٣)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        },
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "1": 6,
+        "7": 6
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم",
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20043201-2",
+      "name": "العقيدة (٥)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 6
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20043202-2",
+      "name": "القواعد الفقهية",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 6
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20043203-2",
+      "name": "أحدايث احكام (٢)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 6
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20043204-2",
+      "name": "الفقه (٥)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 6
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20043205-2",
+      "name": "التفسير التحليلي (٣)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 6
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20043206-2",
+      "name": "تخريج الحديث",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 6
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2004373-2",
+      "name": "العقيدة (3)",
+      "name_en": "Islamic Creed 3",
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 2,
+          "name": "الشريعة"
+        }
+      ],
+      "levels_by_program": {
+        "2": 3
+      },
+      "categories_by_program": {
+        "2": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20044101-2",
+      "name": "أصول فقه (٣)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 7
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20044102-2",
+      "name": "العقيدة (٦)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 7
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20044103-2",
+      "name": "مناهج البحث",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 7
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20044104-2",
+      "name": "دراسة اسانيد",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 7
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20044105-2",
+      "name": "الفقه (٦)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 7
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20044106-2",
+      "name": "فقه النوازل والمعاملات المصرفية",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 7
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20044107-2",
+      "name": "حديث (٤)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 7
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "2004414-2",
+      "name": "ثقافة إسلامية (٤)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        },
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "1": 7,
+        "7": 7
+      },
+      "categories_by_program": {
+        "1": "إجبارية القسم",
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20044201-2",
+      "name": "الفقه (٧)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 8
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20044202-2",
+      "name": "بحث التخرج",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 8
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20044203-2",
+      "name": "التفسير التحليلي (٤)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 8
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20044204-2",
+      "name": "المذاهب والتيارات المعاصرة",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 8
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20044205-2",
+      "name": "الفرق",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 8
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20044206-2",
+      "name": "علم المواريث (٢)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 8
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20044207-2",
+      "name": "السيرة النبوية",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 8
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "20044208-2",
+      "name": "أحاديث أحكام (٣)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 8
+      },
+      "categories_by_program": {
+        "7": "إجبارية القسم"
+      }
+    },
+    {
+      "code": "990113-2",
+      "name": "الثقافة الصحية",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        },
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "1": null,
+        "7": null
+      },
+      "categories_by_program": {
+        "1": "متطلبات جامعية",
+        "7": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "990211-2",
+      "name": "مهارات اللغة العربية",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 1
+      },
+      "categories_by_program": {
+        "1": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "990311-2",
+      "name": "المهارات الجامعية",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        },
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "1": 1,
+        "7": 1
+      },
+      "categories_by_program": {
+        "1": "متطلبات جامعية",
+        "7": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "990312-2",
+      "name": "الابتكار وريادة الأعمال",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        },
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "1": null,
+        "7": null
+      },
+      "categories_by_program": {
+        "1": "متطلبات جامعية",
+        "7": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "990411-2",
+      "name": "مبادئ البرمجة",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        },
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "1": null,
+        "7": null
+      },
+      "categories_by_program": {
+        "1": "متطلبات جامعية",
+        "7": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "990412-2",
+      "name": "المواطنة الرقمية",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        },
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "1": null,
+        "7": null
+      },
+      "categories_by_program": {
+        "1": "متطلبات جامعية",
+        "7": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "990413-2",
+      "name": "السيرة النبوية",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": null
+      },
+      "categories_by_program": {
+        "1": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "990415-2",
+      "name": "تلاوة وتجويد",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": null
+      },
+      "categories_by_program": {
+        "1": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "990416-2",
+      "name": "الإعلام والمجتمع",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        },
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "1": null,
+        "7": null
+      },
+      "categories_by_program": {
+        "1": "متطلبات جامعية",
+        "7": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "990417-2",
+      "name": "الخدمة المجتمعية",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        },
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "1": null,
+        "7": null
+      },
+      "categories_by_program": {
+        "1": "متطلبات جامعية",
+        "7": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "999801-2",
+      "name": "اللغة الانجليزية للأغراض الأكاديمية (١)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 1
+      },
+      "categories_by_program": {
+        "1": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "999802-2",
+      "name": "اللغة الإنجليزية للأغراض الأكاديمية (٢)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 2
+      },
+      "categories_by_program": {
+        "1": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "999803-2",
+      "name": "اللغة الإنجليزية للأغراض الأكاديمية (٣)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 3
+      },
+      "categories_by_program": {
+        "1": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "999804-2",
+      "name": "اللغة الانجليزية للأغراض الاكاديمية (٤)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 1,
+          "name": "الأنظمة"
+        }
+      ],
+      "levels_by_program": {
+        "1": 4
+      },
+      "categories_by_program": {
+        "1": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "999812-2",
+      "name": "اللغة الانجليزية للأغراض الأكاديمية (١)",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 1
+      },
+      "categories_by_program": {
+        "7": "متطلبات جامعية"
+      }
+    },
+    {
+      "code": "999813-2",
+      "name": "اللغة الإنجليزية للأغراض الأكاديمية ٢",
+      "name_en": null,
+      "hours": 2,
+      "type": "نظري",
+      "programs": [
+        {
+          "id": 7,
+          "name": "الدراسات الإسلامية"
+        }
+      ],
+      "levels_by_program": {
+        "7": 2
+      },
+      "categories_by_program": {
+        "7": "متطلبات جامعية"
+      }
     }
   ]
 }
