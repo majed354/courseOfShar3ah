@@ -270,7 +270,56 @@
             border-radius: 20px;
             font-size: 0.8rem;
         }
+/* Search Result - Programs Chips (show full list without truncation) */
+.result-programs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
 
+.program-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.65rem;
+    border-radius: 10px;
+    font-size: 0.78rem;
+    border: 1px solid #e2dccf;
+    background: var(--bg-dark);
+    color: var(--primary-dark);
+    max-width: 100%;
+    white-space: normal;
+    line-height: 1.25;
+}
+
+.program-chip .chip-degree { font-weight: 700; }
+.program-chip .chip-plans { font-size: 0.72rem; opacity: 0.85; }
+
+.program-chip.plan-new {
+    background: rgba(26, 77, 46, 0.10);
+    border-color: rgba(26, 77, 46, 0.25);
+    color: var(--primary);
+}
+
+.program-chip.plan-old {
+    background: rgba(201, 162, 39, 0.15);
+    border-color: rgba(201, 162, 39, 0.35);
+    color: #705c10;
+}
+
+.program-chip.plan-mixed {
+    background: linear-gradient(to left, rgba(26, 77, 46, 0.10), rgba(201, 162, 39, 0.18));
+    border-color: rgba(26, 77, 46, 0.25);
+    color: var(--primary-dark);
+}
+
+
+
+
+
+
+        
         .tag-new {
             background: rgba(26, 77, 46, 0.1);
             color: var(--primary);
@@ -955,12 +1004,33 @@
         }
 
         // Update stats
-        function updateStats() {
-            const totalCourses = programsData.programs.reduce((sum, p) => sum + p.courses.length, 0);
-            document.getElementById('programsCount').textContent = programsData.programs.length;
-            document.getElementById('coursesCount').textContent = totalCourses;
-        }
+      
+        
+        
+        
+        
+       // Update stats
+function updateStats() {
+    const totalCourses = programsData.programs.reduce(
+        (sum, p) => sum + ((p.courses && p.courses.length) ? p.courses.length : 0),
+        0
+    );
 
+    // Count unique programs (do not count old/new plans as different programs)
+    // Uniqueness key: program name + degree
+    const uniqueProgramKeys = new Set(
+        programsData.programs.map(p => `${(p.name || '').trim()}||${(p.degree || '').trim()}`)
+    );
+
+    document.getElementById('programsCount').textContent = uniqueProgramKeys.size;
+    document.getElementById('coursesCount').textContent = totalCourses;
+}
+
+
+
+
+
+        
         // Tab switching
         document.querySelectorAll('.degree-tab').forEach(tab => {
             tab.addEventListener('click', () => {
