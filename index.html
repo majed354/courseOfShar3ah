@@ -984,25 +984,72 @@
                 return;
             }
 
-            const results = [];
+           
             
-            programsData.programs.forEach(program => {
-                program.courses.forEach(course => {
-                    if (course.name.toLowerCase().includes(query) || 
-                        course.code.toLowerCase().includes(query) ||
-                        (course.name_en && course.name_en.toLowerCase().includes(query))) {
-                        results.push({
-                            ...course,
-                            program: program.name,
-                            program_en: program.name_en,
-                            degree: program.degree,
-                            plan_type: program.plan_type
-                        });
-                    }
-                });
-            });
+            
+            
+           // Helpers (ضعها مرة واحدة أعلى قسم البحث - انظر القسم التالي)
+const grouped = new Map();
 
-            displayResults(results);
+programsData.programs.forEach(program => {
+    program.courses.forEach(course => {
+        const name = normalizeText(course.name).toLowerCase();
+        const code = normalizeText(course.code).toLowerCase();
+        const nameEn = normalizeText(course.name_en).toLowerCase();
+
+        const isMatch =
+            name.includes(query) ||
+            code.includes(query) ||
+            (nameEn && nameEn.includes(query));
+
+        if (!isMatch) return;
+
+        // مفتاح الدمج: الرمز + الاسم (كما طلبت)
+        const key = `${code}||${normalizeText(course.name)}`;
+
+        if (!grouped.has(key)) {
+            grouped.set(key, {
+                code: course.code,
+                name: course.name,
+                name_en: course.name_en || null,
+                hours: course.hours,
+                type: course.type,
+                occurrences: []
+            });
+        }
+
+        const item = grouped.get(key);
+        item.occurrences.push({
+            program: program.name,
+            degree: program.degree,
+            plan_type: program.plan_type,
+            category: course.category || null,
+            requirement: requirementLabel(course)
+        });
+    });
+});
+
+// خرج النتائج المجمّعة
+const results = Array.from(grouped.values()).map(item => {
+    const reqSet = new Set(item.occurrences.map(o => o.requirement));
+    const catSet = new Set(item.occurrences.map(o => normalizeText(o.category)).filter(Boolean));
+
+    return {
+        ...item,
+        programs_count: item.occurrences.length,
+        requirement_summary: reqSet.size === 1 ? Array.from(reqSet)[0] : 'يختلف حسب البرنامج',
+        category_summary: catSet.size === 0 ? null : (catSet.size === 1 ? Array.from(catSet)[0] : 'يختلف حسب البرنامج'),
+        programs_summary: summarizePrograms(item.occurrences),
+        programs_full: item.occurrences.map(o => `${o.program} - ${o.degree} (${o.plan_type})`).join('، ')
+    };
+});
+
+displayResults(results);
+
+
+
+
+            
         });
 
         function displayResults(results) {
