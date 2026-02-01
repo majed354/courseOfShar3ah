@@ -7,12 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Kufi+Arabic:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- SheetJS for Excel generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <!-- jsPDF for PDF generation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.1/jspdf.plugin.autotable.min.js"></script>
-    <!-- SheetJS for Excel generation -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-    <!-- Amiri font for PDF Arabic support -->
     <style>
         :root {
             --primary: #1B5E3B;
@@ -1138,16 +1137,12 @@
     <div class="stats-bar" id="statsBar">
         <div class="stats-container">
             <div class="stat-item">
-                <span class="stat-number" id="totalPrograms">-</span>
+                <span class="stat-number" id="programsCount">-</span>
                 <span class="stat-label">برنامج أكاديمي</span>
             </div>
             <div class="stat-item">
-                <span class="stat-number" id="totalCourses">-</span>
+                <span class="stat-number" id="coursesCount">-</span>
                 <span class="stat-label">مقرر دراسي</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number" id="totalDegrees">-</span>
-                <span class="stat-label">درجة علمية</span>
             </div>
         </div>
     </div>
@@ -1215,58 +1210,52 @@
     </footer>
 
     <script>
-        // Global data store
-        let programsData = [];
+        // Global data store - keep original structure
+        let programsData = null;
         let currentProgram = null;
 
-        // Utility functions
-        function normalizeText(text) {
-            if (!text) return '';
-            return text.toString().trim()
-                .replace(/\s+/g, ' ')
-                .replace(/[\u064B-\u065F]/g, '') // Remove Arabic diacritics
-                .toLowerCase();
+        // Utility functions (same as original)
+        function normalizeText(s) {
+            return (s || '').toString().trim().replace(/\s+/g, ' ');
         }
 
-        function canonicalDegreeLabel(raw) {
-            const n = normalizeText(raw);
-            if (n.includes('دكتور')) return 'دكتوراه';
-            if (n.includes('ماجستير')) return 'ماجستير';
-            if (n.includes('بكالوريوس') || n.includes('بكالريوس')) return 'بكالوريوس';
-            if (n.includes('دبلوم')) return 'دبلوم';
-            return raw;
+        function canonicalDegreeLabel(degree) {
+            const d = normalizeText(degree);
+            if (d.includes('بكال')) return 'بكالوريوس';
+            if (d.includes('ماجست')) return 'ماجستير';
+            if (d.includes('دكتور')) return 'دكتوراه';
+            return d;
         }
 
-        function requirementFromCategory(cat) {
+        function requirementFromCategory(category) {
+            const cat = normalizeText(category);
             if (!cat) return 'غير محدد';
-            const n = normalizeText(cat);
-            if (n.includes('اجبار') || n.includes('إجبار')) return 'إجباري';
-            if (n.includes('اختيار')) return 'اختياري';
-            if (n.includes('متطلب')) return 'متطلب';
-            return cat;
+            return cat.includes('اختياري') ? 'اختياري' : 'إجباري';
         }
 
-        function chipClassForPlans(plans) {
-            if (!plans || !plans.length) return '';
-            const has = (x) => plans.some(p => normalizeText(p) === normalizeText(x));
-            if (has('جديدة') && has('قديمة')) return 'plan-mixed';
-            if (has('جديدة')) return 'plan-new';
-            if (has('قديمة')) return 'plan-old';
+        function chipClassForPlans(planTypes) {
+            const set = new Set((planTypes || []).filter(Boolean));
+            if (set.size > 1) return 'plan-mixed';
+            const only = Array.from(set)[0];
+            if (only === 'جديدة') return 'plan-new';
+            if (only === 'قديمة') return 'plan-old';
             return '';
         }
 
         function groupProgramsForCourse(occurrences) {
             const map = new Map();
-            occurrences.forEach(o => {
-                const key = `${o.program}||${o.degree}`;
+            (occurrences || []).forEach(o => {
+                const key = `${normalizeText(o.program)}||${canonicalDegreeLabel(o.degree)}`;
                 if (!map.has(key)) {
-                    map.set(key, { program: o.program, degree: o.degree, plan_types: [] });
+                    map.set(key, { program: normalizeText(o.program), degree: canonicalDegreeLabel(o.degree), planTypes: new Set() });
                 }
-                if (o.plan_type && !map.get(key).plan_types.includes(o.plan_type)) {
-                    map.get(key).plan_types.push(o.plan_type);
-                }
+                if (o.plan_type) map.get(key).planTypes.add(o.plan_type);
             });
-            return Array.from(map.values());
+            return Array.from(map.values()).map(x => ({
+                program: x.program,
+                degree: x.degree,
+                plan_types: Array.from(x.planTypes)
+            }));
         }
 
         // Stats bar scroll effect
@@ -1284,7 +1273,7 @@
             try {
                 const response = await fetch('data.json');
                 const data = await response.json();
-                programsData = data.programs;
+                programsData = data;
                 initializeUI();
             } catch (error) {
                 console.error('Error loading data:', error);
@@ -1297,19 +1286,22 @@
             }
         }
 
+        // Update stats (same logic as original)
+        function updateStats() {
+            const totalCourses = programsData.programs.reduce((sum, p) => sum + ((p.courses && p.courses.length) ? p.courses.length : 0), 0);
+            const uniqueProgramKeys = new Set(
+                programsData.programs.map(p => `${normalizeText(p.name)}||${canonicalDegreeLabel(p.degree)}`)
+            );
+            document.getElementById('programsCount').textContent = uniqueProgramKeys.size;
+            document.getElementById('coursesCount').textContent = totalCourses;
+        }
+
         // Initialize UI
         function initializeUI() {
-            // Calculate stats
-            const uniqueCourses = new Set();
-            programsData.forEach(p => {
-                p.courses.forEach(c => uniqueCourses.add(c.code));
-            });
+            updateStats();
 
-            const degrees = [...new Set(programsData.map(p => canonicalDegreeLabel(p.degree)))];
-
-            document.getElementById('totalPrograms').textContent = programsData.length;
-            document.getElementById('totalCourses').textContent = uniqueCourses.size;
-            document.getElementById('totalDegrees').textContent = degrees.length;
+            // Get unique degrees
+            const degrees = [...new Set(programsData.programs.map(p => canonicalDegreeLabel(p.degree)))];
 
             // Create degree tabs
             const tabsContainer = document.getElementById('degreeTabs');
@@ -1334,8 +1326,8 @@
         // Render programs
         function renderPrograms(degreeFilter) {
             const filtered = degreeFilter === 'all' 
-                ? programsData 
-                : programsData.filter(p => canonicalDegreeLabel(p.degree) === degreeFilter);
+                ? programsData.programs 
+                : programsData.programs.filter(p => canonicalDegreeLabel(p.degree) === degreeFilter);
 
             const grid = document.getElementById('programsGrid');
             
@@ -1349,8 +1341,8 @@
                 return;
             }
 
-            grid.innerHTML = filtered.map(program => `
-                <div class="program-card" onclick="openProgramModal(${program.id})">
+            grid.innerHTML = filtered.map((program, index) => `
+                <div class="program-card" onclick="openProgramModal(${index}, '${degreeFilter}')">
                     <div class="program-header">
                         <span class="program-degree-badge">${canonicalDegreeLabel(program.degree)}</span>
                         <div class="program-name">${program.name}</div>
@@ -1367,8 +1359,8 @@
                                 <span class="program-stat-label">مقرر</span>
                             </div>
                             <div class="program-stat">
-                                <span class="program-stat-value">${Math.max(...program.courses.map(c => c.level))}</span>
-                                <span class="program-stat-label">مستوى</span>
+                                <span class="program-stat-value">${program.version}</span>
+                                <span class="program-stat-label">إصدار</span>
                             </div>
                         </div>
                         <div class="program-footer">
@@ -1400,7 +1392,8 @@
         });
 
         function performSearch() {
-            const query = normalizeText(searchInput.value);
+            const queryRaw = searchInput.value.trim();
+            const query = queryRaw.toLowerCase();
 
             if (query.length < 2) {
                 searchResults.classList.remove('active');
@@ -1409,13 +1402,13 @@
 
             const grouped = new Map();
 
-            programsData.forEach(program => {
+            programsData.programs.forEach(program => {
                 program.courses.forEach(course => {
-                    const name = normalizeText(course.name);
-                    const code = normalizeText(course.code);
-                    const nameEn = course.name_en ? normalizeText(course.name_en) : null;
+                    const nameAr = normalizeText(course.name).toLowerCase();
+                    const code = normalizeText(course.code).toLowerCase();
+                    const nameEn = normalizeText(course.name_en).toLowerCase();
 
-                    const isMatch = name.includes(query) ||
+                    const isMatch = nameAr.includes(query) ||
                         code.includes(query) ||
                         (nameEn && nameEn.includes(query));
 
@@ -1520,8 +1513,12 @@
         }
 
         // Modal functionality
-        function openProgramModal(programId) {
-            const program = programsData.find(p => p.id === programId);
+        function openProgramModal(index, degreeFilter) {
+            const filtered = degreeFilter === 'all' 
+                ? programsData.programs 
+                : programsData.programs.filter(p => canonicalDegreeLabel(p.degree) === degreeFilter);
+            
+            const program = filtered[index];
             if (!program) return;
 
             currentProgram = program;
@@ -1643,238 +1640,244 @@
         });
 
         // Download PDF function
-        async function downloadPDF() {
-            if (!currentProgram) return;
-
-            const { jsPDF } = window.jspdf;
-            const doc = new jsPDF({
-                orientation: 'portrait',
-                unit: 'mm',
-                format: 'a4'
-            });
-
-            // Add Amiri font for Arabic support
-            doc.addFont('https://fonts.gstatic.com/s/amiri/v27/J7aRnpd8CGxBHqUpvrIw74NL.ttf', 'Amiri', 'normal');
-            doc.setFont('Amiri');
-
-            const pageWidth = doc.internal.pageSize.getWidth();
-            const pageHeight = doc.internal.pageSize.getHeight();
-            const margin = 15;
-
-            // Header
-            doc.setFillColor(27, 94, 59);
-            doc.rect(0, 0, pageWidth, 35, 'F');
-
-            doc.setTextColor(255, 255, 255);
-            doc.setFontSize(18);
-            doc.text('جامعة الطائف - كلية الشريعة والأنظمة', pageWidth / 2, 15, { align: 'center' });
-
-            doc.setFontSize(14);
-            doc.text(`خطة برنامج ${currentProgram.name}`, pageWidth / 2, 25, { align: 'center' });
-
-            doc.setFontSize(10);
-            doc.text(`${canonicalDegreeLabel(currentProgram.degree)} - الخطة ${currentProgram.plan_type} (إصدار ${currentProgram.version})`, pageWidth / 2, 32, { align: 'center' });
-
-            // Program info
-            doc.setTextColor(0, 0, 0);
-            doc.setFontSize(11);
-            let yPos = 45;
-
-            doc.text(`إجمالي الساعات: ${currentProgram.total_hours} ساعة`, pageWidth - margin, yPos, { align: 'right' });
-            doc.text(`عدد المقررات: ${currentProgram.courses.length} مقرر`, pageWidth - margin, yPos + 7, { align: 'right' });
-
-            yPos = 60;
-
-            // Group courses by level
-            const coursesByLevel = {};
-            currentProgram.courses.forEach(course => {
-                if (!coursesByLevel[course.level]) {
-                    coursesByLevel[course.level] = [];
-                }
-                coursesByLevel[course.level].push(course);
-            });
-
-            const levelNames = {
-                1: 'المستوى الأول', 2: 'المستوى الثاني', 3: 'المستوى الثالث',
-                4: 'المستوى الرابع', 5: 'المستوى الخامس', 6: 'المستوى السادس',
-                7: 'المستوى السابع', 8: 'المستوى الثامن'
-            };
-
-            // Create tables for each level
-            Object.keys(coursesByLevel).sort((a, b) => a - b).forEach(level => {
-                const courses = coursesByLevel[level];
-                const totalHours = courses.reduce((sum, c) => sum + c.hours, 0);
-
-                // Check if we need a new page
-                if (yPos > pageHeight - 60) {
-                    doc.addPage();
-                    yPos = 20;
-                }
-
-                // Level header
-                doc.setFillColor(27, 94, 59);
-                doc.setTextColor(255, 255, 255);
-                doc.setFontSize(11);
-                doc.rect(margin, yPos, pageWidth - 2 * margin, 8, 'F');
-                doc.text(`${levelNames[level] || `المستوى ${level}`} - ${totalHours} ساعة`, pageWidth - margin - 5, yPos + 5.5, { align: 'right' });
-
-                yPos += 10;
-
-                // Table data
-                const tableData = courses.map(course => [
-                    course.type,
-                    course.hours.toString(),
-                    course.name,
-                    course.code
-                ]);
-
-                doc.autoTable({
-                    startY: yPos,
-                    head: [['النوع', 'الساعات', 'اسم المقرر', 'رمز المقرر']],
-                    body: tableData,
-                    theme: 'grid',
-                    styles: {
-                        font: 'Amiri',
-                        fontSize: 9,
-                        cellPadding: 3,
-                        halign: 'right',
-                        textColor: [0, 0, 0]
-                    },
-                    headStyles: {
-                        fillColor: [240, 240, 240],
-                        textColor: [0, 0, 0],
-                        fontStyle: 'bold'
-                    },
-                    columnStyles: {
-                        0: { cellWidth: 20 },
-                        1: { cellWidth: 20, halign: 'center' },
-                        2: { cellWidth: 'auto' },
-                        3: { cellWidth: 35 }
-                    },
-                    margin: { left: margin, right: margin },
-                    tableWidth: 'auto'
-                });
-
-                yPos = doc.lastAutoTable.finalY + 10;
-            });
-
-            // Footer
-            const totalPages = doc.internal.getNumberOfPages();
-            for (let i = 1; i <= totalPages; i++) {
-                doc.setPage(i);
-                doc.setFontSize(8);
-                doc.setTextColor(128, 128, 128);
-                doc.text(`صفحة ${i} من ${totalPages}`, pageWidth / 2, pageHeight - 10, { align: 'center' });
+        function downloadPDF() {
+            if (!currentProgram) {
+                alert('لم يتم تحديد برنامج');
+                return;
             }
 
-            // Save
-            doc.save(`خطة_${currentProgram.name}_${currentProgram.plan_type}.pdf`);
+            try {
+                const { jsPDF } = window.jspdf;
+                const doc = new jsPDF({
+                    orientation: 'portrait',
+                    unit: 'mm',
+                    format: 'a4'
+                });
+
+                const pageWidth = doc.internal.pageSize.getWidth();
+                const pageHeight = doc.internal.pageSize.getHeight();
+                const margin = 15;
+
+                // Header
+                doc.setFillColor(27, 94, 59);
+                doc.rect(0, 0, pageWidth, 35, 'F');
+
+                doc.setTextColor(255, 255, 255);
+                doc.setFontSize(16);
+                doc.text('Taif University - College of Sharia and Law', pageWidth / 2, 12, { align: 'center' });
+
+                doc.setFontSize(14);
+                doc.text(currentProgram.name + ' - ' + currentProgram.name_en, pageWidth / 2, 22, { align: 'center' });
+
+                doc.setFontSize(10);
+                const planInfo = canonicalDegreeLabel(currentProgram.degree) + ' - Plan: ' + currentProgram.plan_type + ' (v' + currentProgram.version + ')';
+                doc.text(planInfo, pageWidth / 2, 30, { align: 'center' });
+
+                // Program info
+                doc.setTextColor(0, 0, 0);
+                doc.setFontSize(11);
+                let yPos = 45;
+
+                doc.text('Total Hours: ' + currentProgram.total_hours, margin, yPos);
+                doc.text('Total Courses: ' + currentProgram.courses.length, margin, yPos + 7);
+
+                yPos = 60;
+
+                // Group courses by level
+                const coursesByLevel = {};
+                currentProgram.courses.forEach(course => {
+                    if (!coursesByLevel[course.level]) {
+                        coursesByLevel[course.level] = [];
+                    }
+                    coursesByLevel[course.level].push(course);
+                });
+
+                // Create tables for each level
+                Object.keys(coursesByLevel).sort((a, b) => a - b).forEach(level => {
+                    const courses = coursesByLevel[level];
+                    const totalHours = courses.reduce((sum, c) => sum + c.hours, 0);
+
+                    // Check if we need a new page
+                    if (yPos > pageHeight - 60) {
+                        doc.addPage();
+                        yPos = 20;
+                    }
+
+                    // Level header
+                    doc.setFillColor(27, 94, 59);
+                    doc.setTextColor(255, 255, 255);
+                    doc.setFontSize(11);
+                    doc.rect(margin, yPos, pageWidth - 2 * margin, 8, 'F');
+                    doc.text('Level ' + level + ' - ' + totalHours + ' Hours', margin + 5, yPos + 5.5);
+
+                    yPos += 10;
+
+                    // Table data
+                    const tableData = courses.map(course => [
+                        course.code,
+                        course.name_en || course.name,
+                        course.hours.toString(),
+                        course.type
+                    ]);
+
+                    doc.autoTable({
+                        startY: yPos,
+                        head: [['Code', 'Course Name', 'Hours', 'Type']],
+                        body: tableData,
+                        theme: 'grid',
+                        styles: {
+                            fontSize: 9,
+                            cellPadding: 3,
+                            textColor: [0, 0, 0]
+                        },
+                        headStyles: {
+                            fillColor: [240, 240, 240],
+                            textColor: [0, 0, 0],
+                            fontStyle: 'bold'
+                        },
+                        columnStyles: {
+                            0: { cellWidth: 30 },
+                            1: { cellWidth: 'auto' },
+                            2: { cellWidth: 20, halign: 'center' },
+                            3: { cellWidth: 25 }
+                        },
+                        margin: { left: margin, right: margin }
+                    });
+
+                    yPos = doc.lastAutoTable.finalY + 10;
+                });
+
+                // Footer
+                const totalPages = doc.internal.getNumberOfPages();
+                for (let i = 1; i <= totalPages; i++) {
+                    doc.setPage(i);
+                    doc.setFontSize(8);
+                    doc.setTextColor(128, 128, 128);
+                    doc.text('Page ' + i + ' of ' + totalPages, pageWidth / 2, pageHeight - 10, { align: 'center' });
+                }
+
+                // Save
+                const fileName = currentProgram.name.replace(/\s+/g, '_') + '_' + currentProgram.plan_type + '.pdf';
+                doc.save(fileName);
+
+            } catch (error) {
+                console.error('PDF Error:', error);
+                alert('حدث خطأ أثناء إنشاء ملف PDF. يرجى المحاولة مرة أخرى.');
+            }
         }
 
         // Download Excel function
         function downloadExcel() {
-            if (!currentProgram) return;
+            if (!currentProgram) {
+                alert('لم يتم تحديد برنامج');
+                return;
+            }
 
-            // Create workbook
-            const wb = XLSX.utils.book_new();
+            try {
+                // Create workbook
+                const wb = XLSX.utils.book_new();
 
-            // Program info sheet
-            const infoData = [
-                ['معلومات البرنامج'],
-                ['اسم البرنامج', currentProgram.name],
-                ['الاسم بالإنجليزية', currentProgram.name_en || ''],
-                ['الدرجة العلمية', canonicalDegreeLabel(currentProgram.degree)],
-                ['نوع الخطة', currentProgram.plan_type],
-                ['إصدار الخطة', currentProgram.version],
-                ['إجمالي الساعات', currentProgram.total_hours],
-                ['عدد المقررات', currentProgram.courses.length],
-                ['القسم', currentProgram.department || '']
-            ];
-
-            const infoSheet = XLSX.utils.aoa_to_sheet(infoData);
-            XLSX.utils.book_append_sheet(wb, infoSheet, 'معلومات البرنامج');
-
-            // Courses sheet
-            const coursesData = [
-                ['رمز المقرر', 'اسم المقرر', 'الاسم بالإنجليزية', 'الساعات', 'المستوى', 'النوع', 'التصنيف']
-            ];
-
-            currentProgram.courses.forEach(course => {
-                coursesData.push([
-                    course.code,
-                    course.name,
-                    course.name_en || '',
-                    course.hours,
-                    course.level,
-                    course.type,
-                    course.category || ''
-                ]);
-            });
-
-            const coursesSheet = XLSX.utils.aoa_to_sheet(coursesData);
-
-            // Set column widths
-            coursesSheet['!cols'] = [
-                { wch: 15 },  // رمز المقرر
-                { wch: 40 },  // اسم المقرر
-                { wch: 35 },  // الاسم بالإنجليزية
-                { wch: 10 },  // الساعات
-                { wch: 10 },  // المستوى
-                { wch: 12 },  // النوع
-                { wch: 20 }   // التصنيف
-            ];
-
-            XLSX.utils.book_append_sheet(wb, coursesSheet, 'المقررات');
-
-            // Courses by level sheets
-            const coursesByLevel = {};
-            currentProgram.courses.forEach(course => {
-                if (!coursesByLevel[course.level]) {
-                    coursesByLevel[course.level] = [];
-                }
-                coursesByLevel[course.level].push(course);
-            });
-
-            const levelNames = {
-                1: 'المستوى الأول', 2: 'المستوى الثاني', 3: 'المستوى الثالث',
-                4: 'المستوى الرابع', 5: 'المستوى الخامس', 6: 'المستوى السادس',
-                7: 'المستوى السابع', 8: 'المستوى الثامن'
-            };
-
-            Object.keys(coursesByLevel).sort((a, b) => a - b).forEach(level => {
-                const courses = coursesByLevel[level];
-                const levelData = [
-                    ['رمز المقرر', 'اسم المقرر', 'الساعات', 'النوع', 'التصنيف']
+                // Program info sheet
+                const infoData = [
+                    ['معلومات البرنامج', 'Program Information'],
+                    ['اسم البرنامج', currentProgram.name],
+                    ['الاسم بالإنجليزية', currentProgram.name_en || ''],
+                    ['الدرجة العلمية', canonicalDegreeLabel(currentProgram.degree)],
+                    ['نوع الخطة', currentProgram.plan_type],
+                    ['إصدار الخطة', currentProgram.version],
+                    ['إجمالي الساعات', currentProgram.total_hours],
+                    ['عدد المقررات', currentProgram.courses.length],
+                    ['القسم', currentProgram.department || '']
                 ];
 
-                courses.forEach(course => {
-                    levelData.push([
+                const infoSheet = XLSX.utils.aoa_to_sheet(infoData);
+                infoSheet['!cols'] = [{ wch: 25 }, { wch: 40 }];
+                XLSX.utils.book_append_sheet(wb, infoSheet, 'معلومات البرنامج');
+
+                // All courses sheet
+                const coursesData = [
+                    ['رمز المقرر', 'اسم المقرر', 'الاسم بالإنجليزية', 'الساعات', 'المستوى', 'النوع', 'التصنيف']
+                ];
+
+                currentProgram.courses.forEach(course => {
+                    coursesData.push([
                         course.code,
                         course.name,
+                        course.name_en || '',
                         course.hours,
+                        course.level,
                         course.type,
                         course.category || ''
                     ]);
                 });
 
-                // Add total row
-                const totalHours = courses.reduce((sum, c) => sum + c.hours, 0);
-                levelData.push(['', 'المجموع', totalHours, '', '']);
-
-                const levelSheet = XLSX.utils.aoa_to_sheet(levelData);
-                levelSheet['!cols'] = [
+                const coursesSheet = XLSX.utils.aoa_to_sheet(coursesData);
+                coursesSheet['!cols'] = [
                     { wch: 15 },
                     { wch: 40 },
+                    { wch: 35 },
+                    { wch: 10 },
                     { wch: 10 },
                     { wch: 12 },
                     { wch: 20 }
                 ];
+                XLSX.utils.book_append_sheet(wb, coursesSheet, 'جميع المقررات');
 
-                XLSX.utils.book_append_sheet(wb, levelSheet, levelNames[level] || `المستوى ${level}`);
-            });
+                // Courses by level sheets
+                const coursesByLevel = {};
+                currentProgram.courses.forEach(course => {
+                    if (!coursesByLevel[course.level]) {
+                        coursesByLevel[course.level] = [];
+                    }
+                    coursesByLevel[course.level].push(course);
+                });
 
-            // Save file
-            XLSX.writeFile(wb, `خطة_${currentProgram.name}_${currentProgram.plan_type}.xlsx`);
+                const levelNames = {
+                    1: 'المستوى الأول', 2: 'المستوى الثاني', 3: 'المستوى الثالث',
+                    4: 'المستوى الرابع', 5: 'المستوى الخامس', 6: 'المستوى السادس',
+                    7: 'المستوى السابع', 8: 'المستوى الثامن'
+                };
+
+                Object.keys(coursesByLevel).sort((a, b) => a - b).forEach(level => {
+                    const courses = coursesByLevel[level];
+                    const levelData = [
+                        ['رمز المقرر', 'اسم المقرر', 'الساعات', 'النوع', 'التصنيف']
+                    ];
+
+                    courses.forEach(course => {
+                        levelData.push([
+                            course.code,
+                            course.name,
+                            course.hours,
+                            course.type,
+                            course.category || ''
+                        ]);
+                    });
+
+                    // Add total row
+                    const totalHours = courses.reduce((sum, c) => sum + c.hours, 0);
+                    levelData.push(['', 'المجموع', totalHours, '', '']);
+
+                    const levelSheet = XLSX.utils.aoa_to_sheet(levelData);
+                    levelSheet['!cols'] = [
+                        { wch: 15 },
+                        { wch: 40 },
+                        { wch: 10 },
+                        { wch: 12 },
+                        { wch: 20 }
+                    ];
+
+                    XLSX.utils.book_append_sheet(wb, levelSheet, levelNames[level] || 'المستوى ' + level);
+                });
+
+                // Save file
+                const fileName = currentProgram.name.replace(/\s+/g, '_') + '_' + currentProgram.plan_type + '.xlsx';
+                XLSX.writeFile(wb, fileName);
+
+            } catch (error) {
+                console.error('Excel Error:', error);
+                alert('حدث خطأ أثناء إنشاء ملف Excel. يرجى المحاولة مرة أخرى.');
+            }
         }
 
         // Initialize
