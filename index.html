@@ -6,23 +6,42 @@
     <title>خطط ومقررات كلية الشريعة والأنظمة | جامعة الطائف</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Kufi+Arabic:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- jsPDF for PDF generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.1/jspdf.plugin.autotable.min.js"></script>
+    <!-- SheetJS for Excel generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <!-- Amiri font for PDF Arabic support -->
     <style>
         :root {
-            --primary: #1a4d2e;
-            --primary-light: #2d7a4e;
-            --primary-dark: #0f2d1a;
-            --accent: #c9a227;
-            --accent-light: #e8c547;
-            --bg-cream: #faf8f3;
-            --bg-dark: #f0ebe0;
-            --text-dark: #1a1a1a;
-            --text-muted: #5a5a5a;
-            --white: #ffffff;
-            --shadow: 0 4px 20px rgba(26, 77, 46, 0.12);
-            --shadow-lg: 0 8px 40px rgba(26, 77, 46, 0.18);
-            --radius: 16px;
-            --radius-sm: 8px;
+            --primary: #1B5E3B;
+            --primary-light: #2E8B57;
+            --primary-dark: #0D3D1F;
+            --primary-gradient: linear-gradient(135deg, #0D3D1F 0%, #1B5E3B 50%, #2E8B57 100%);
+            --accent: #D4AF37;
+            --accent-light: #F4D03F;
+            --accent-dark: #9A7B0A;
+            --bg-cream: #FEFCF6;
+            --bg-light: #F8F5ED;
+            --bg-card: #FFFFFF;
+            --text-dark: #1A1A1A;
+            --text-medium: #4A4A4A;
+            --text-muted: #6B6B6B;
+            --border-light: #E8E4D9;
+            --border-medium: #D5CFC0;
+            --shadow-sm: 0 2px 8px rgba(27, 94, 59, 0.08);
+            --shadow-md: 0 4px 16px rgba(27, 94, 59, 0.12);
+            --shadow-lg: 0 8px 32px rgba(27, 94, 59, 0.16);
+            --shadow-xl: 0 16px 48px rgba(27, 94, 59, 0.20);
+            --radius-xs: 6px;
+            --radius-sm: 10px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            --radius-xl: 32px;
+            --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-smooth: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-bounce: 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
 
         * {
@@ -31,32 +50,36 @@
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
-            font-family: 'Tajawal', sans-serif;
+            font-family: 'Noto Kufi Arabic', sans-serif;
             background: var(--bg-cream);
             color: var(--text-dark);
             line-height: 1.8;
             min-height: 100vh;
+            overflow-x: hidden;
         }
 
-        /* Decorative Pattern */
-        .pattern-bg {
+        /* Geometric Pattern Background */
+        .geometric-pattern {
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
             pointer-events: none;
-            opacity: 0.03;
-            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231a4d2e' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.025;
             z-index: 0;
+            background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%231B5E3B' stroke-width='1'%3E%3Cpath d='M40 0L80 40L40 80L0 40Z'/%3E%3Cpath d='M40 10L70 40L40 70L10 40Z'/%3E%3Cpath d='M40 20L60 40L40 60L20 40Z'/%3E%3C/g%3E%3C/svg%3E");
         }
 
-        /* Header */
+        /* Header Section */
         header {
-            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%);
-            color: var(--white);
-            padding: 0;
+            background: var(--primary-gradient);
+            color: #fff;
             position: relative;
             overflow: hidden;
         }
@@ -68,14 +91,24 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 0L100 50L50 100L0 50Z' fill='%23ffffff' fill-opacity='0.03'/%3E%3C/svg%3E");
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0L60 30L30 60L0 30Z' fill='%23ffffff' fill-opacity='0.03'/%3E%3C/svg%3E");
             pointer-events: none;
+        }
+
+        header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-dark), var(--accent), var(--accent-light), var(--accent), var(--accent-dark));
         }
 
         .header-content {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 3rem 2rem;
+            padding: 2.5rem 1.5rem 3rem;
             position: relative;
             z-index: 1;
         }
@@ -83,97 +116,144 @@
         .university-badge {
             display: inline-flex;
             align-items: center;
-            gap: 1rem;
-            background: rgba(255,255,255,0.1);
-            backdrop-filter: blur(10px);
-            padding: 0.75rem 1.5rem;
+            gap: 0.75rem;
+            background: rgba(255,255,255,0.12);
+            backdrop-filter: blur(12px);
+            padding: 0.6rem 1.25rem;
             border-radius: 50px;
-            margin-bottom: 1.5rem;
-            border: 1px solid rgba(255,255,255,0.15);
+            margin-bottom: 1.25rem;
+            border: 1px solid rgba(255,255,255,0.18);
+            font-size: 0.9rem;
+            font-weight: 500;
+            animation: fadeInDown 0.6s ease-out;
         }
 
         .university-badge svg {
-            width: 32px;
-            height: 32px;
+            width: 28px;
+            height: 28px;
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         h1 {
             font-family: 'Amiri', serif;
-            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-size: clamp(1.75rem, 4.5vw, 3rem);
             font-weight: 700;
             margin-bottom: 0.5rem;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            animation: fadeInUp 0.6s ease-out 0.1s both;
         }
 
         .subtitle {
-            font-size: 1.25rem;
-            opacity: 0.9;
-            font-weight: 300;
+            font-size: clamp(0.95rem, 2vw, 1.15rem);
+            opacity: 0.92;
+            font-weight: 400;
+            animation: fadeInUp 0.6s ease-out 0.2s both;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         /* Stats Bar */
         .stats-bar {
-            background: var(--white);
-            border-bottom: 3px solid var(--accent);
-            padding: 1rem 0;
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border-light);
+            padding: 0.75rem 0;
             position: sticky;
             top: 0;
             z-index: 100;
-            box-shadow: var(--shadow);
+            box-shadow: var(--shadow-sm);
+            transition: box-shadow var(--transition-smooth);
+        }
+
+        .stats-bar.scrolled {
+            box-shadow: var(--shadow-md);
         }
 
         .stats-container {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 0 2rem;
+            padding: 0 1.5rem;
             display: flex;
             justify-content: center;
-            gap: 3rem;
+            gap: 1.5rem;
             flex-wrap: wrap;
         }
 
         .stat-item {
             text-align: center;
+            padding: 0.5rem 1rem;
+            position: relative;
+        }
+
+        .stat-item:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 30px;
+            width: 1px;
+            background: var(--border-light);
         }
 
         .stat-number {
-            font-size: 1.75rem;
-            font-weight: 800;
+            font-size: 1.5rem;
+            font-weight: 700;
             color: var(--primary);
             display: block;
+            line-height: 1.2;
         }
 
         .stat-label {
-            font-size: 0.85rem;
+            font-size: 0.75rem;
             color: var(--text-muted);
+            font-weight: 500;
         }
 
         /* Main Content */
         main {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 2rem;
+            padding: 1.5rem;
             position: relative;
             z-index: 1;
         }
 
         /* Search Section */
         .search-section {
-            background: var(--white);
-            padding: 2rem;
-            border-radius: var(--radius);
-            box-shadow: var(--shadow);
-            margin-bottom: 2rem;
+            background: var(--bg-card);
+            padding: 1.5rem;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--border-light);
+            animation: slideUp 0.5s ease-out;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         .search-title {
             font-family: 'Amiri', serif;
-            font-size: 1.5rem;
+            font-size: 1.35rem;
             color: var(--primary);
             margin-bottom: 1rem;
             display: flex;
             align-items: center;
-            gap: 0.75rem;
+            gap: 0.6rem;
+        }
+
+        .search-title svg {
+            width: 24px;
+            height: 24px;
         }
 
         .search-box {
@@ -182,34 +262,50 @@
 
         .search-input {
             width: 100%;
-            padding: 1.25rem 1.5rem;
+            padding: 1rem 1.25rem;
             padding-right: 3.5rem;
-            font-size: 1.1rem;
-            font-family: 'Tajawal', sans-serif;
-            border: 2px solid #e0e0e0;
-            border-radius: var(--radius-sm);
-            transition: all 0.3s ease;
-            background: var(--bg-cream);
+            font-size: 1rem;
+            font-family: 'Noto Kufi Arabic', sans-serif;
+            border: 2px solid var(--border-medium);
+            border-radius: var(--radius-md);
+            transition: all var(--transition-smooth);
+            background: var(--bg-light);
         }
 
         .search-input:focus {
             outline: none;
             border-color: var(--primary);
-            box-shadow: 0 0 0 4px rgba(26, 77, 46, 0.1);
+            background: var(--bg-card);
+            box-shadow: 0 0 0 4px rgba(27, 94, 59, 0.1);
+        }
+
+        .search-input::placeholder {
+            color: var(--text-muted);
         }
 
         .search-icon {
             position: absolute;
-            right: 1.25rem;
+            right: 1rem;
             top: 50%;
             transform: translateY(-50%);
             color: var(--text-muted);
+            transition: color var(--transition-fast);
+        }
+
+        .search-input:focus + .search-icon {
+            color: var(--primary);
         }
 
         /* Search Results */
         .search-results {
             margin-top: 1.5rem;
             display: none;
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
 
         .search-results.active {
@@ -222,22 +318,42 @@
             align-items: center;
             margin-bottom: 1rem;
             padding-bottom: 0.75rem;
-            border-bottom: 2px solid var(--bg-dark);
+            border-bottom: 1px solid var(--border-light);
+            flex-wrap: wrap;
+            gap: 0.75rem;
         }
 
         .results-count {
             font-weight: 600;
             color: var(--primary);
+            font-size: 0.95rem;
+        }
+
+        .clear-search {
+            padding: 0.5rem 1rem;
+            background: var(--bg-light);
+            border: 1px solid var(--border-medium);
+            border-radius: var(--radius-sm);
+            font-family: inherit;
+            font-size: 0.85rem;
+            color: var(--text-medium);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+
+        .clear-search:hover {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
         }
 
         .result-item {
-            background: var(--bg-cream);
-            border: 1px solid #e8e4db;
-            border-radius: var(--radius-sm);
+            background: var(--bg-light);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-md);
             padding: 1.25rem;
             margin-bottom: 0.75rem;
-            transition: all 0.3s ease;
-            cursor: pointer;
+            transition: all var(--transition-smooth);
         }
 
         .result-item:hover {
@@ -248,7 +364,7 @@
 
         .result-course-name {
             font-weight: 700;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             color: var(--primary-dark);
             margin-bottom: 0.5rem;
         }
@@ -256,85 +372,92 @@
         .result-meta {
             display: flex;
             flex-wrap: wrap;
-            gap: 1rem;
-            font-size: 0.9rem;
+            gap: 0.5rem;
+            font-size: 0.85rem;
             color: var(--text-muted);
+            margin-bottom: 0.75rem;
         }
 
         .result-tag {
             display: inline-flex;
             align-items: center;
-            gap: 0.35rem;
-            background: var(--white);
-            padding: 0.25rem 0.75rem;
+            gap: 0.25rem;
+            background: var(--bg-card);
+            padding: 0.25rem 0.65rem;
             border-radius: 20px;
-            font-size: 0.8rem;
+            font-size: 0.75rem;
+            border: 1px solid var(--border-light);
         }
 
-        /* Search Result - Programs Chips (show full list without truncation) */
+        .course-code {
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-weight: 600;
+            color: var(--primary);
+            direction: ltr;
+        }
+
         .result-programs {
             display: flex;
             flex-wrap: wrap;
             gap: 0.5rem;
-            margin-top: 0.75rem;
         }
 
         .program-chip {
             display: inline-flex;
             align-items: center;
-            gap: 0.5rem;
+            flex-wrap: wrap;
+            gap: 0.35rem;
             padding: 0.35rem 0.65rem;
-            border-radius: 10px;
-            font-size: 0.78rem;
-            border: 1px solid #e2dccf;
-            background: var(--bg-dark);
-            color: var(--primary-dark);
-            max-width: 100%;
-            white-space: normal;
-            line-height: 1.25;
+            border-radius: var(--radius-sm);
+            font-size: 0.72rem;
+            border: 1px solid var(--border-light);
+            background: var(--bg-card);
+            color: var(--text-dark);
+            line-height: 1.3;
         }
 
         .program-chip .chip-degree {
-            font-weight: 700;
+            font-weight: 600;
         }
 
         .program-chip .chip-plans {
-            font-size: 0.72rem;
+            font-size: 0.68rem;
             opacity: 0.85;
         }
 
         .program-chip.plan-new {
-            background: rgba(26, 77, 46, 0.10);
-            border-color: rgba(26, 77, 46, 0.25);
+            background: rgba(27, 94, 59, 0.08);
+            border-color: rgba(27, 94, 59, 0.2);
             color: var(--primary);
         }
 
         .program-chip.plan-old {
-            background: rgba(201, 162, 39, 0.15);
-            border-color: rgba(201, 162, 39, 0.35);
-            color: #705c10;
+            background: rgba(212, 175, 55, 0.12);
+            border-color: rgba(212, 175, 55, 0.3);
+            color: var(--accent-dark);
         }
 
         .program-chip.plan-mixed {
-            background: linear-gradient(to left, rgba(26, 77, 46, 0.10), rgba(201, 162, 39, 0.18));
-            border-color: rgba(26, 77, 46, 0.25);
-            color: var(--primary-dark);
+            background: linear-gradient(135deg, rgba(27, 94, 59, 0.08), rgba(212, 175, 55, 0.12));
+            border-color: rgba(27, 94, 59, 0.2);
         }
 
-
-        .tag-new {
-            background: rgba(26, 77, 46, 0.1);
-            color: var(--primary);
+        .no-results {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: var(--text-muted);
         }
 
-        .tag-old {
-            background: rgba(201, 162, 39, 0.1);
-            color: #8a6d0f;
+        .no-results-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
         }
 
-        /* Programs Grid */
+        /* Programs Section */
         .programs-section {
             margin-top: 2rem;
+            animation: slideUp 0.5s ease-out 0.2s both;
         }
 
         .section-header {
@@ -346,8 +469,9 @@
 
         .section-title {
             font-family: 'Amiri', serif;
-            font-size: 1.75rem;
+            font-size: clamp(1.35rem, 3vw, 1.65rem);
             color: var(--primary-dark);
+            white-space: nowrap;
         }
 
         .section-line {
@@ -359,55 +483,67 @@
         /* Degree Tabs */
         .degree-tabs {
             display: flex;
-            gap: 0.75rem;
-            margin-bottom: 2rem;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
             flex-wrap: wrap;
+            padding: 0.5rem;
+            background: var(--bg-light);
+            border-radius: var(--radius-lg);
         }
 
         .degree-tab {
-            padding: 0.75rem 1.5rem;
-            border: 2px solid var(--primary);
-            border-radius: 50px;
+            padding: 0.65rem 1.25rem;
+            border: none;
+            border-radius: var(--radius-md);
             background: transparent;
-            color: var(--primary);
-            font-family: 'Tajawal', sans-serif;
-            font-size: 1rem;
+            color: var(--text-medium);
+            font-family: 'Noto Kufi Arabic', sans-serif;
+            font-size: 0.9rem;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all var(--transition-smooth);
+            flex: 1;
+            min-width: fit-content;
+            text-align: center;
         }
 
-        .degree-tab:hover,
+        .degree-tab:hover {
+            background: var(--bg-card);
+            color: var(--primary);
+        }
+
         .degree-tab.active {
             background: var(--primary);
-            color: var(--white);
+            color: #fff;
+            box-shadow: var(--shadow-sm);
         }
 
-        /* Program Cards */
+        /* Program Cards Grid */
         .programs-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.25rem;
         }
 
         .program-card {
-            background: var(--white);
-            border-radius: var(--radius);
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
             overflow: hidden;
-            box-shadow: var(--shadow);
-            transition: all 0.4s ease;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-light);
+            transition: all var(--transition-smooth);
             cursor: pointer;
         }
 
         .program-card:hover {
-            transform: translateY(-8px);
+            transform: translateY(-6px);
             box-shadow: var(--shadow-lg);
         }
 
         .program-header {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-            color: var(--white);
-            padding: 1.5rem;
+            background: var(--primary-gradient);
+            color: #fff;
+            padding: 1.25rem;
             position: relative;
             overflow: hidden;
         }
@@ -426,256 +562,356 @@
         .program-degree-badge {
             display: inline-block;
             background: rgba(255,255,255,0.2);
-            padding: 0.35rem 1rem;
+            padding: 0.3rem 0.85rem;
             border-radius: 20px;
-            font-size: 0.85rem;
-            margin-bottom: 0.75rem;
+            font-size: 0.75rem;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
         }
 
         .program-name {
             font-family: 'Amiri', serif;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-weight: 700;
+            line-height: 1.4;
         }
 
         .program-name-en {
-            font-size: 0.9rem;
-            opacity: 0.8;
-            font-weight: 300;
+            font-size: 0.8rem;
+            opacity: 0.85;
+            font-weight: 400;
+            margin-top: 0.25rem;
         }
 
         .program-body {
-            padding: 1.5rem;
+            padding: 1.25rem;
         }
 
         .program-stats {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 1rem;
-            margin-bottom: 1.5rem;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
         }
 
         .program-stat {
             text-align: center;
-            padding: 0.75rem;
-            background: var(--bg-cream);
+            padding: 0.6rem;
+            background: var(--bg-light);
             border-radius: var(--radius-sm);
         }
 
         .program-stat-value {
-            font-size: 1.25rem;
+            font-size: 1.15rem;
             font-weight: 700;
             color: var(--primary);
         }
 
         .program-stat-label {
-            font-size: 0.75rem;
+            font-size: 0.65rem;
             color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .program-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.75rem;
         }
 
         .program-plan-badge {
             display: inline-flex;
             align-items: center;
-            gap: 0.5rem;
-            padding: 0.5rem 1rem;
+            gap: 0.4rem;
+            padding: 0.4rem 0.85rem;
             border-radius: 20px;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             font-weight: 600;
         }
 
         .plan-new {
-            background: rgba(26, 77, 46, 0.1);
+            background: rgba(27, 94, 59, 0.1);
             color: var(--primary);
         }
 
         .plan-old {
-            background: rgba(201, 162, 39, 0.15);
-            color: #705c10;
+            background: rgba(212, 175, 55, 0.15);
+            color: var(--accent-dark);
         }
 
-        /* Course Details Modal */
+        .view-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.4rem 0.85rem;
+            background: var(--bg-light);
+            border: 1px solid var(--border-medium);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: var(--text-medium);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            font-family: inherit;
+        }
+
+        .view-btn:hover {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+
+        /* Modal */
         .modal-overlay {
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(0,0,0,0.6);
-            backdrop-filter: blur(4px);
-            display: none;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(6px);
+            display: flex;
             align-items: center;
             justify-content: center;
             z-index: 1000;
-            padding: 2rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: all var(--transition-smooth);
+            padding: 1rem;
         }
 
         .modal-overlay.active {
-            display: flex;
+            opacity: 1;
+            visibility: visible;
         }
 
         .modal {
-            background: var(--white);
-            border-radius: var(--radius);
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
             width: 100%;
             max-width: 900px;
-            max-height: 85vh;
+            max-height: 90vh;
             overflow: hidden;
-            box-shadow: var(--shadow-lg);
-            animation: modalSlide 0.3s ease;
+            transform: scale(0.95) translateY(20px);
+            transition: transform var(--transition-bounce);
+            display: flex;
+            flex-direction: column;
         }
 
-        @keyframes modalSlide {
-            from {
-                opacity: 0;
-                transform: translateY(20px) scale(0.95);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0) scale(1);
-            }
+        .modal-overlay.active .modal {
+            transform: scale(1) translateY(0);
         }
 
         .modal-header {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-            color: var(--white);
-            padding: 1.5rem 2rem;
+            background: var(--primary-gradient);
+            color: #fff;
+            padding: 1.25rem 1.5rem;
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: flex-start;
+            gap: 1rem;
         }
 
         .modal-title {
             font-family: 'Amiri', serif;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
+            font-weight: 700;
         }
 
         .modal-close {
             background: rgba(255,255,255,0.2);
             border: none;
-            color: var(--white);
-            width: 40px;
-            height: 40px;
+            color: #fff;
+            width: 36px;
+            height: 36px;
             border-radius: 50%;
             cursor: pointer;
-            font-size: 1.5rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: all 0.3s ease;
+            transition: all var(--transition-fast);
+            flex-shrink: 0;
         }
 
         .modal-close:hover {
             background: rgba(255,255,255,0.3);
+            transform: rotate(90deg);
         }
 
         .modal-body {
-            padding: 2rem;
+            padding: 1.5rem;
             overflow-y: auto;
-            max-height: calc(85vh - 80px);
+            flex: 1;
         }
 
-        /* Courses Table */
+        /* Download Buttons */
+        .download-actions {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.65rem 1.25rem;
+            border-radius: var(--radius-sm);
+            font-family: inherit;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            border: none;
+        }
+
+        .download-btn svg {
+            width: 18px;
+            height: 18px;
+        }
+
+        .download-btn.pdf {
+            background: #DC2626;
+            color: #fff;
+        }
+
+        .download-btn.pdf:hover {
+            background: #B91C1C;
+            transform: translateY(-2px);
+        }
+
+        .download-btn.excel {
+            background: #059669;
+            color: #fff;
+        }
+
+        .download-btn.excel:hover {
+            background: #047857;
+            transform: translateY(-2px);
+        }
+
+        .modal-info {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .modal-info-badge {
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        /* Course Table */
         .courses-by-level {
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
         }
 
         .level-header {
-            background: var(--bg-cream);
-            padding: 1rem 1.5rem;
-            border-radius: var(--radius-sm);
-            margin-bottom: 1rem;
             display: flex;
             align-items: center;
-            gap: 1rem;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            padding: 0.75rem 1rem;
+            background: var(--bg-light);
+            border-radius: var(--radius-sm);
         }
 
         .level-number {
+            width: 32px;
+            height: 32px;
             background: var(--primary);
-            color: var(--white);
-            width: 40px;
-            height: 40px;
+            color: #fff;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: 700;
+            font-size: 0.9rem;
         }
 
         .level-title {
             font-weight: 600;
-            font-size: 1.1rem;
+            color: var(--text-dark);
+        }
+
+        .level-hours {
+            margin-right: auto;
+            color: var(--text-muted);
+            font-size: 0.85rem;
         }
 
         .courses-table {
             width: 100%;
             border-collapse: collapse;
-        }
-
-        .courses-table th,
-        .courses-table td {
-            padding: 1rem;
-            text-align: right;
-            border-bottom: 1px solid #eee;
+            font-size: 0.85rem;
         }
 
         .courses-table th {
             background: var(--primary);
-            color: var(--white);
+            color: #fff;
+            padding: 0.75rem 0.5rem;
+            text-align: right;
             font-weight: 600;
         }
 
         .courses-table th:first-child {
-            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            border-radius: 0 var(--radius-xs) var(--radius-xs) 0;
         }
 
         .courses-table th:last-child {
-            border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+            border-radius: var(--radius-xs) 0 0 var(--radius-xs);
         }
 
-        .courses-table tr:hover td {
-            background: var(--bg-cream);
+        .courses-table td {
+            padding: 0.65rem 0.5rem;
+            border-bottom: 1px solid var(--border-light);
+            vertical-align: middle;
         }
 
-        .course-code {
-            font-family: monospace;
-            font-size: 0.9rem;
-            background: var(--bg-dark);
-            padding: 0.25rem 0.5rem;
-            border-radius: 4px;
-            direction: ltr;
-            display: inline-block;
+        .courses-table tbody tr:hover {
+            background: var(--bg-light);
         }
 
         .course-type-badge {
             display: inline-block;
-            padding: 0.2rem 0.6rem;
+            padding: 0.2rem 0.5rem;
             border-radius: 12px;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             font-weight: 600;
         }
 
         .type-theory {
-            background: rgba(26, 77, 46, 0.1);
+            background: rgba(27, 94, 59, 0.1);
             color: var(--primary);
         }
 
         .type-practical {
-            background: rgba(201, 162, 39, 0.15);
-            color: #705c10;
+            background: rgba(59, 130, 246, 0.1);
+            color: #2563EB;
         }
 
         .type-research {
-            background: rgba(107, 70, 193, 0.1);
-            color: #6b46c1;
+            background: rgba(168, 85, 247, 0.1);
+            color: #7C3AED;
+        }
+
+        .type-training {
+            background: rgba(245, 158, 11, 0.1);
+            color: #D97706;
         }
 
         /* Footer */
         footer {
             background: var(--primary-dark);
-            color: var(--white);
-            padding: 2rem;
+            color: rgba(255,255,255,0.9);
             text-align: center;
-            margin-top: 4rem;
+            padding: 2rem 1.5rem;
+            margin-top: 3rem;
         }
 
         .footer-content {
@@ -683,87 +919,208 @@
             margin: 0 auto;
         }
 
-        .footer-logo {
+        .footer-title {
             font-family: 'Amiri', serif;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             margin-bottom: 0.5rem;
         }
 
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            margin-top: 1rem;
-            flex-wrap: wrap;
+        .footer-text {
+            font-size: 0.85rem;
+            opacity: 0.8;
         }
 
-        .footer-link {
-            color: rgba(255,255,255,0.7);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .footer-link:hover {
-            color: var(--accent);
-        }
-
-        /* No Results */
-        .no-results {
+        /* Loading State */
+        .loading {
             text-align: center;
-            padding: 3rem;
-            color: var(--text-muted);
+            padding: 4rem 2rem;
         }
 
-        .no-results-icon {
-            font-size: 4rem;
-            margin-bottom: 1rem;
+        .loading-spinner {
+            width: 48px;
+            height: 48px;
+            border: 4px solid var(--border-light);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
         }
 
-        /* Responsive */
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Responsive Design */
         @media (max-width: 768px) {
             .header-content {
-                padding: 2rem 1rem;
+                padding: 2rem 1rem 2.5rem;
+            }
+
+            .university-badge {
+                padding: 0.5rem 1rem;
+                font-size: 0.8rem;
             }
 
             .stats-container {
-                gap: 1.5rem;
+                gap: 0.75rem;
+                padding: 0 1rem;
+            }
+
+            .stat-item {
+                padding: 0.4rem 0.5rem;
+            }
+
+            .stat-number {
+                font-size: 1.2rem;
+            }
+
+            .stat-label {
+                font-size: 0.65rem;
+            }
+
+            .stat-item:not(:last-child)::after {
+                display: none;
+            }
+
+            main {
+                padding: 1rem;
+            }
+
+            .search-section {
+                padding: 1.25rem;
+            }
+
+            .search-input {
+                padding: 0.85rem 1rem;
+                padding-right: 3rem;
+                font-size: 0.95rem;
             }
 
             .programs-grid {
                 grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .degree-tabs {
+                padding: 0.35rem;
+            }
+
+            .degree-tab {
+                padding: 0.55rem 0.85rem;
+                font-size: 0.8rem;
             }
 
             .modal {
+                border-radius: var(--radius-md);
                 max-height: 95vh;
+            }
+
+            .modal-header {
+                padding: 1rem 1.25rem;
+            }
+
+            .modal-title {
+                font-size: 1.15rem;
             }
 
             .modal-body {
                 padding: 1rem;
             }
 
+            .download-actions {
+                flex-direction: column;
+            }
+
+            .download-btn {
+                justify-content: center;
+                width: 100%;
+            }
+
             .courses-table {
-                font-size: 0.85rem;
+                font-size: 0.75rem;
             }
 
             .courses-table th,
             .courses-table td {
-                padding: 0.75rem 0.5rem;
+                padding: 0.5rem 0.35rem;
+            }
+
+            .program-stats {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.5rem;
+            }
+
+            .program-stat {
+                padding: 0.5rem 0.25rem;
+            }
+
+            .program-stat-value {
+                font-size: 1rem;
+            }
+
+            .program-stat-label {
+                font-size: 0.6rem;
             }
         }
 
-        /* Animations */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .subtitle {
+                font-size: 0.9rem;
+            }
+
+            .section-title {
+                font-size: 1.2rem;
+            }
+
+            .result-item {
+                padding: 1rem;
+            }
+
+            .result-course-name {
+                font-size: 0.95rem;
+            }
+
+            .result-tag {
+                font-size: 0.7rem;
+                padding: 0.2rem 0.5rem;
+            }
+
+            .program-chip {
+                font-size: 0.68rem;
+                padding: 0.3rem 0.5rem;
+            }
         }
 
-        .fade-in {
-            animation: fadeIn 0.4s ease forwards;
+        /* Print Styles */
+        @media print {
+            .stats-bar,
+            .search-section,
+            .degree-tabs,
+            .download-actions,
+            .modal-close,
+            footer {
+                display: none !important;
+            }
+
+            .modal-overlay {
+                position: static;
+                background: none;
+                backdrop-filter: none;
+            }
+
+            .modal {
+                max-height: none;
+                box-shadow: none;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="pattern-bg"></div>
+    <div class="geometric-pattern"></div>
 
     <header>
         <div class="header-content">
@@ -774,213 +1131,230 @@
                 <span>جامعة الطائف</span>
             </div>
             <h1>خطط ومقررات كلية الشريعة والأنظمة</h1>
-            <p class="subtitle">دليلك الشامل للبرامج الأكاديمية والمقررات الدراسية</p>
+            <p class="subtitle">دليل شامل للبرامج الأكاديمية والمقررات الدراسية</p>
         </div>
     </header>
 
-    <div class="stats-bar">
+    <div class="stats-bar" id="statsBar">
         <div class="stats-container">
             <div class="stat-item">
-                <span class="stat-number" id="programsCount">6</span>
+                <span class="stat-number" id="totalPrograms">-</span>
                 <span class="stat-label">برنامج أكاديمي</span>
             </div>
             <div class="stat-item">
-                <span class="stat-number" id="coursesCount">81</span>
+                <span class="stat-number" id="totalCourses">-</span>
                 <span class="stat-label">مقرر دراسي</span>
             </div>
             <div class="stat-item">
-                <span class="stat-number">3</span>
-                <span class="stat-label">درجات علمية</span>
+                <span class="stat-number" id="totalDegrees">-</span>
+                <span class="stat-label">درجة علمية</span>
             </div>
         </div>
     </div>
 
     <main>
-        <!-- Search Section -->
         <section class="search-section">
             <h2 class="search-title">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <svg viewBox="0 0 24 24" fill="currentColor">
                     <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
                 </svg>
                 البحث في المقررات
             </h2>
             <div class="search-box">
-                <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <input type="text" id="searchInput" class="search-input" placeholder="ابحث برمز المقرر أو اسمه..." autocomplete="off">
+                <svg class="search-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
                 </svg>
-                <input type="text" class="search-input" id="searchInput" placeholder="ابحث باسم المقرر أو رمزه...">
             </div>
+
             <div class="search-results" id="searchResults">
                 <div class="results-header">
-                    <span class="results-count" id="resultsCount"></span>
-                    <button onclick="clearSearch()" style="background:none;border:none;color:var(--primary);cursor:pointer;font-family:inherit;">مسح البحث</button>
+                    <span class="results-count" id="resultsCount">0 نتيجة</span>
+                    <button class="clear-search" onclick="clearSearch()">مسح البحث</button>
                 </div>
                 <div id="resultsContainer"></div>
             </div>
         </section>
 
-        <!-- Programs Section -->
         <section class="programs-section">
             <div class="section-header">
                 <h2 class="section-title">البرامج الأكاديمية</h2>
                 <div class="section-line"></div>
             </div>
 
-            <div class="degree-tabs">
-                <button class="degree-tab active" data-degree="all">جميع البرامج</button>
-                <button class="degree-tab" data-degree="بكالوريوس">البكالوريوس</button>
-                <button class="degree-tab" data-degree="ماجستير">الماجستير</button>
-                <button class="degree-tab" data-degree="دكتوراه">الدكتوراه</button>
-            </div>
-
+            <div class="degree-tabs" id="degreeTabs"></div>
             <div class="programs-grid" id="programsGrid">
-                <!-- Programs will be rendered here -->
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>جاري تحميل البيانات...</p>
+                </div>
             </div>
         </section>
     </main>
 
-    <!-- Modal for Course Details -->
+    <!-- Modal -->
     <div class="modal-overlay" id="modalOverlay">
         <div class="modal">
             <div class="modal-header">
-                <h3 class="modal-title" id="modalTitle">تفاصيل البرنامج</h3>
-                <button class="modal-close" onclick="closeModal()">&times;</button>
+                <h3 class="modal-title" id="modalTitle"></h3>
+                <button class="modal-close" onclick="closeModal()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                    </svg>
+                </button>
             </div>
-            <div class="modal-body" id="modalBody">
-                <!-- Course details will be rendered here -->
-            </div>
+            <div class="modal-body" id="modalBody"></div>
         </div>
     </div>
 
     <footer>
         <div class="footer-content">
-            <div class="footer-logo">كلية الشريعة والأنظمة</div>
-            <p>جامعة الطائف - المملكة العربية السعودية</p>
-            <div class="footer-links">
-                <a href="https://www.tu.edu.sa" target="_blank" class="footer-link">موقع الجامعة</a>
-                <a href="#" class="footer-link">تواصل معنا</a>
-            </div>
+            <p class="footer-title">كلية الشريعة والأنظمة - جامعة الطائف</p>
+            <p class="footer-text">جميع الحقوق محفوظة © 2024</p>
         </div>
     </footer>
 
     <script>
-        // Course Data - loaded from external file
-        let programsData = null;
+        // Global data store
+        let programsData = [];
+        let currentProgram = null;
+
+        // Utility functions
+        function normalizeText(text) {
+            if (!text) return '';
+            return text.toString().trim()
+                .replace(/\s+/g, ' ')
+                .replace(/[\u064B-\u065F]/g, '') // Remove Arabic diacritics
+                .toLowerCase();
+        }
+
+        function canonicalDegreeLabel(raw) {
+            const n = normalizeText(raw);
+            if (n.includes('دكتور')) return 'دكتوراه';
+            if (n.includes('ماجستير')) return 'ماجستير';
+            if (n.includes('بكالوريوس') || n.includes('بكالريوس')) return 'بكالوريوس';
+            if (n.includes('دبلوم')) return 'دبلوم';
+            return raw;
+        }
+
+        function requirementFromCategory(cat) {
+            if (!cat) return 'غير محدد';
+            const n = normalizeText(cat);
+            if (n.includes('اجبار') || n.includes('إجبار')) return 'إجباري';
+            if (n.includes('اختيار')) return 'اختياري';
+            if (n.includes('متطلب')) return 'متطلب';
+            return cat;
+        }
+
+        function chipClassForPlans(plans) {
+            if (!plans || !plans.length) return '';
+            const has = (x) => plans.some(p => normalizeText(p) === normalizeText(x));
+            if (has('جديدة') && has('قديمة')) return 'plan-mixed';
+            if (has('جديدة')) return 'plan-new';
+            if (has('قديمة')) return 'plan-old';
+            return '';
+        }
+
+        function groupProgramsForCourse(occurrences) {
+            const map = new Map();
+            occurrences.forEach(o => {
+                const key = `${o.program}||${o.degree}`;
+                if (!map.has(key)) {
+                    map.set(key, { program: o.program, degree: o.degree, plan_types: [] });
+                }
+                if (o.plan_type && !map.get(key).plan_types.includes(o.plan_type)) {
+                    map.get(key).plan_types.push(o.plan_type);
+                }
+            });
+            return Array.from(map.values());
+        }
+
+        // Stats bar scroll effect
+        window.addEventListener('scroll', () => {
+            const statsBar = document.getElementById('statsBar');
+            if (window.scrollY > 100) {
+                statsBar.classList.add('scrolled');
+            } else {
+                statsBar.classList.remove('scrolled');
+            }
+        });
 
         // Load data
         async function loadData() {
             try {
                 const response = await fetch('data.json');
-                const rawData = await response.json();
-                programsData = normalizeProgramsData(rawData);
-                renderPrograms();
-                updateStats();
+                const data = await response.json();
+                programsData = data.programs;
+                initializeUI();
             } catch (error) {
                 console.error('Error loading data:', error);
-                // Fallback to embedded data
-                loadEmbeddedData();
+                document.getElementById('programsGrid').innerHTML = `
+                    <div class="no-results">
+                        <div class="no-results-icon">⚠️</div>
+                        <p>حدث خطأ في تحميل البيانات</p>
+                    </div>
+                `;
             }
         }
 
-        function loadEmbeddedData() {
-            // Embedded data as fallback
-            programsData = {
-                "university": {
-                    "name": "جامعة الطائف",
-                    "college": "كلية الشريعة والأنظمة"
-                },
-                "programs": [
-                    {
-                        "id": 1,
-                        "name": "الأنظمة",
-                        "name_en": "Law/Regulations",
-                        "degree": "بكالوريوس",
-                        "version": 38,
-                        "plan_type": "قديمة",
-                        "total_hours": 130,
-                        "courses": [
-                            {"code": "2001105-2", "name": "المدخل لدراسة الفقه الإسلامي", "name_en": "Introduction to Islamic Jurisprudence", "hours": 2, "level": 1, "type": "نظري"},
-                            {"code": "2003111-3", "name": "مبادئ القانون", "name_en": "Principles of Law", "hours": 3, "level": 1, "type": "نظري"},
-                            {"code": "2003112-3", "name": "النظام الدستوري", "name_en": "Constitutional Law", "hours": 3, "level": 1, "type": "نظري"},
-                            {"code": "2003221-2", "name": "علم الإجرام والعقاب", "name_en": "Criminology", "hours": 2, "level": 2, "type": "نظري"},
-                            {"code": "2003216-3", "name": "المحاماة وأخلاقيات المهنة", "name_en": "Advocacy Ethics", "hours": 3, "level": 3, "type": "نظري"},
-                            {"code": "2003313-3", "name": "أحكام الالتزام", "name_en": "Obligation Rules", "hours": 3, "level": 4, "type": "نظري"}
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "name": "الشريعة",
-                        "name_en": "Sharia",
-                        "degree": "بكالوريوس",
-                        "version": 47,
-                        "plan_type": "جديدة",
-                        "total_hours": 167,
-                        "courses": [
-                            {"code": "2001110-2", "name": "المقدمات الأصولية", "name_en": "Fundamentalist Introduction", "hours": 2, "level": 1, "type": "نظري"},
-                            {"code": "2001115-4", "name": "الفقه (1)", "name_en": "Al Fiqh 1", "hours": 4, "level": 1, "type": "نظري"},
-                            {"code": "2002220-2", "name": "القرآن الكريم (1)", "name_en": "Holy Quran 1", "hours": 2, "level": 1, "type": "نظري"},
-                            {"code": "2001116-4", "name": "الفقه (2)", "name_en": "Al Fiqh 2", "hours": 4, "level": 2, "type": "نظري"},
-                            {"code": "2001215-4", "name": "الفقه (3)", "name_en": "Al Fiqh 3", "hours": 4, "level": 3, "type": "نظري"}
-                        ]
-                    },
-                    {
-                        "id": 3,
-                        "name": "الدراسات القرآنية",
-                        "name_en": "Quranic Studies",
-                        "degree": "دكتوراه",
-                        "version": 1,
-                        "plan_type": "جديدة",
-                        "total_hours": 60,
-                        "courses": [
-                            {"code": "2002705-3", "name": "التفسير المقارن", "name_en": "Comparative Tafsir", "hours": 3, "level": 1, "type": "نظري"},
-                            {"code": "2002706-3", "name": "النقد والتجديد في الدراسات القرآنية", "name_en": "Criticism and Renewal", "hours": 3, "level": 1, "type": "نظري"},
-                            {"code": "2002709-48", "name": "الرسالة", "name_en": "Thesis", "hours": 48, "level": 3, "type": "بحث"}
-                        ]
-                    },
-                    {
-                        "id": 4,
-                        "name": "القراءات",
-                        "name_en": "Quranic Readings",
-                        "degree": "ماجستير",
-                        "version": 1,
-                        "plan_type": "جديدة",
-                        "total_hours": 36,
-                        "courses": [
-                            {"code": "2002801-8", "name": "القراءات العشر الكبرى (1)", "name_en": "Ten Major Readings 1", "hours": 8, "level": 1, "type": "نظري"},
-                            {"code": "2002802-2", "name": "علم القراءات دراية", "name_en": "Concept of Recitation", "hours": 2, "level": 1, "type": "نظري"},
-                            {"code": "2002831-4", "name": "مشروع بحثي", "name_en": "Research Project", "hours": 4, "level": 4, "type": "بحث"}
-                        ]
-                    }
-                ]
-            };
-            programsData = normalizeProgramsData(programsData);
-            renderPrograms();
-            updateStats();
+        // Initialize UI
+        function initializeUI() {
+            // Calculate stats
+            const uniqueCourses = new Set();
+            programsData.forEach(p => {
+                p.courses.forEach(c => uniqueCourses.add(c.code));
+            });
+
+            const degrees = [...new Set(programsData.map(p => canonicalDegreeLabel(p.degree)))];
+
+            document.getElementById('totalPrograms').textContent = programsData.length;
+            document.getElementById('totalCourses').textContent = uniqueCourses.size;
+            document.getElementById('totalDegrees').textContent = degrees.length;
+
+            // Create degree tabs
+            const tabsContainer = document.getElementById('degreeTabs');
+            tabsContainer.innerHTML = `
+                <button class="degree-tab active" data-degree="all">الكل</button>
+                ${degrees.map(d => `<button class="degree-tab" data-degree="${d}">${d}</button>`).join('')}
+            `;
+
+            // Tab click handlers
+            tabsContainer.querySelectorAll('.degree-tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    tabsContainer.querySelectorAll('.degree-tab').forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    renderPrograms(tab.dataset.degree);
+                });
+            });
+
+            // Initial render
+            renderPrograms('all');
         }
 
         // Render programs
-        function renderPrograms(filter = 'all') {
+        function renderPrograms(degreeFilter) {
+            const filtered = degreeFilter === 'all' 
+                ? programsData 
+                : programsData.filter(p => canonicalDegreeLabel(p.degree) === degreeFilter);
+
             const grid = document.getElementById('programsGrid');
-            grid.innerHTML = '';
+            
+            if (filtered.length === 0) {
+                grid.innerHTML = `
+                    <div class="no-results">
+                        <div class="no-results-icon">📚</div>
+                        <p>لا توجد برامج في هذا التصنيف</p>
+                    </div>
+                `;
+                return;
+            }
 
-            const filteredPrograms = filter === 'all' 
-                ? programsData.programs 
-                : programsData.programs.filter(p => canonicalDegreeLabel(p.degree) === filter);
-
-            filteredPrograms.forEach((program, index) => {
-                const card = document.createElement('div');
-                card.className = 'program-card fade-in';
-                card.style.animationDelay = `${index * 0.1}s`;
-                card.onclick = () => openProgramModal(program);
-
-                const planClass = program.plan_type === 'جديدة' ? 'plan-new' : 'plan-old';
-                const planIcon = program.plan_type === 'جديدة' ? '✓' : '○';
-
-                card.innerHTML = `
+            grid.innerHTML = filtered.map(program => `
+                <div class="program-card" onclick="openProgramModal(${program.id})">
                     <div class="program-header">
-                        <span class="program-degree-badge">${program.degree}</span>
-                        <h3 class="program-name">${program.name}</h3>
-                        <p class="program-name-en">${program.name_en}</p>
+                        <span class="program-degree-badge">${canonicalDegreeLabel(program.degree)}</span>
+                        <div class="program-name">${program.name}</div>
+                        ${program.name_en ? `<div class="program-name-en">${program.name_en}</div>` : ''}
                     </div>
                     <div class="program-body">
                         <div class="program-stats">
@@ -993,42 +1367,25 @@
                                 <span class="program-stat-label">مقرر</span>
                             </div>
                             <div class="program-stat">
-                                <span class="program-stat-value">${program.version}</span>
-                                <span class="program-stat-label">إصدار</span>
+                                <span class="program-stat-value">${Math.max(...program.courses.map(c => c.level))}</span>
+                                <span class="program-stat-label">مستوى</span>
                             </div>
                         </div>
-                        <span class="program-plan-badge ${planClass}">
-                            ${planIcon} الخطة ${program.plan_type}
-                        </span>
+                        <div class="program-footer">
+                            <span class="program-plan-badge ${program.plan_type === 'جديدة' ? 'plan-new' : 'plan-old'}">
+                                الخطة ${program.plan_type}
+                            </span>
+                            <span class="view-btn">
+                                عرض التفاصيل
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+                                </svg>
+                            </span>
+                        </div>
                     </div>
-                `;
-
-                grid.appendChild(card);
-            });
+                </div>
+            `).join('');
         }
-
-        // Update stats
-        function updateStats() {
-            const totalCourses = programsData.programs.reduce((sum, p) => sum + ((p.courses && p.courses.length) ? p.courses.length : 0), 0);
-
-            // Count unique programs (do not count old/new plans as different programs)
-            // Uniqueness key: program name + degree
-            const uniqueProgramKeys = new Set(
-                programsData.programs.map(p => `${normalizeText(p.name)}||${canonicalDegreeLabel(p.degree)}`)
-            );
-
-            document.getElementById('programsCount').textContent = uniqueProgramKeys.size;
-            document.getElementById('coursesCount').textContent = totalCourses;
-        }
-
-        // Tab switching
-        document.querySelectorAll('.degree-tab').forEach(tab => {
-            tab.addEventListener('click', () => {
-                document.querySelectorAll('.degree-tab').forEach(t => t.classList.remove('active'));
-                tab.classList.add('active');
-                renderPrograms(tab.dataset.degree);
-            });
-        });
 
         // Search functionality
         const searchInput = document.getElementById('searchInput');
@@ -1036,98 +1393,29 @@
         const resultsContainer = document.getElementById('resultsContainer');
         const resultsCount = document.getElementById('resultsCount');
 
-        function normalizeText(s) {
-            return (s || '').toString().trim().replace(/\s+/g, ' ');
-        }
-
-function canonicalDegreeLabel(degree) {
-    const d = normalizeText(degree);
-
-    // Normalize common variants: "البكالوريوس" vs "بكالوريوس" ... etc
-    if (d.includes('بكال')) return 'بكالوريوس';
-    if (d.includes('ماجست')) return 'ماجستير';
-    if (d.includes('دكتور')) return 'دكتوراه';
-
-    return d;
-}
-
-// Normalize loaded JSON so the UI groups correctly (e.g., no duplicates due to degree text variants)
-function normalizeProgramsData(data) {
-    if (!data || !Array.isArray(data.programs)) return data;
-
-    data.programs.forEach(p => {
-        p.name = normalizeText(p.name);
-        p.name_en = p.name_en || p.name_en === '' ? p.name_en : p.name_en; // keep as-is
-        p.degree = canonicalDegreeLabel(p.degree);
-        p.plan_type = normalizeText(p.plan_type);
-
-        if (!Array.isArray(p.courses)) p.courses = [];
-        p.courses.forEach(c => {
-            c.code = normalizeText(c.code);
-            c.name = normalizeText(c.name);
-            c.name_en = c.name_en || null;
-            if (c.category !== undefined) c.category = normalizeText(c.category);
-            if (c.type !== undefined) c.type = normalizeText(c.type);
+        let searchTimeout;
+        searchInput.addEventListener('input', () => {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(performSearch, 300);
         });
-    });
 
-    return data;
-}
-
-        // Derive mandatory/elective from category (based on your data conventions)
-        function requirementFromCategory(category) {
-            const cat = normalizeText(category);
-            if (!cat) return 'غير محدد';
-            return cat.includes('اختياري') ? 'اختياري' : 'إجباري';
-        }
-
-        function chipClassForPlans(planTypes) {
-            const set = new Set((planTypes || []).filter(Boolean));
-            if (set.size > 1) return 'plan-mixed';
-            const only = Array.from(set)[0];
-            if (only === 'جديدة') return 'plan-new';
-            if (only === 'قديمة') return 'plan-old';
-            return '';
-        }
-
-        function groupProgramsForCourse(occurrences) {
-            const map = new Map(); // key: program+degree
-
-            (occurrences || []).forEach(o => {
-                const key = `${normalizeText(o.program)}||${canonicalDegreeLabel(o.degree)}`;
-                if (!map.has(key)) {
-                    map.set(key, { program: normalizeText(o.program), degree: canonicalDegreeLabel(o.degree), planTypes: new Set() });
-                }
-                if (o.plan_type) map.get(key).planTypes.add(o.plan_type);
-            });
-
-            return Array.from(map.values()).map(x => ({
-                program: x.program,
-                degree: x.degree,
-                plan_types: Array.from(x.planTypes)
-            }));
-        }
-
-        searchInput.addEventListener('input', (e) => {
-            const queryRaw = e.target.value.trim();
-            const query = queryRaw.toLowerCase();
+        function performSearch() {
+            const query = normalizeText(searchInput.value);
 
             if (query.length < 2) {
                 searchResults.classList.remove('active');
                 return;
             }
 
-            // Group results by: (code + name) as requested
             const grouped = new Map();
 
-            programsData.programs.forEach(program => {
+            programsData.forEach(program => {
                 program.courses.forEach(course => {
-                    const nameAr = normalizeText(course.name).toLowerCase();
-                    const code = normalizeText(course.code).toLowerCase();
-                    const nameEn = normalizeText(course.name_en).toLowerCase();
+                    const name = normalizeText(course.name);
+                    const code = normalizeText(course.code);
+                    const nameEn = course.name_en ? normalizeText(course.name_en) : null;
 
-                    const isMatch =
-                        nameAr.includes(query) ||
+                    const isMatch = name.includes(query) ||
                         code.includes(query) ||
                         (nameEn && nameEn.includes(query));
 
@@ -1157,7 +1445,6 @@ function normalizeProgramsData(data) {
 
             const results = Array.from(grouped.values()).map(item => {
                 const programGroups = groupProgramsForCourse(item.occurrences);
-
                 const reqSet = new Set(item.occurrences.map(o => requirementFromCategory(o.category)));
                 const catSet = new Set(item.occurrences.map(o => normalizeText(o.category)).filter(Boolean));
 
@@ -1171,7 +1458,7 @@ function normalizeProgramsData(data) {
             });
 
             displayResults(results);
-        });
+        }
 
         function displayResults(results) {
             searchResults.classList.add('active');
@@ -1182,7 +1469,7 @@ function normalizeProgramsData(data) {
                     <div class="no-results">
                         <div class="no-results-icon">🔍</div>
                         <p>لم يتم العثور على نتائج</p>
-                        <p style="font-size:0.9rem;">جرب البحث بكلمات مختلفة</p>
+                        <p style="font-size:0.85rem;">جرب البحث بكلمات مختلفة</p>
                     </div>
                 `;
                 return;
@@ -1191,16 +1478,14 @@ function normalizeProgramsData(data) {
             resultsContainer.innerHTML = results.map(result => {
                 const programsHtml = (result.program_groups || []).map(pg => {
                     const planTypes = (pg.plan_types || []).slice();
+                    planTypes.sort((a, b) => {
+                        const rank = (x) => x === 'قديمة' ? 0 : (x === 'جديدة' ? 1 : 2);
+                        return rank(a) - rank(b);
+                    });
 
-// Prefer stable order: قديمة ثم جديدة ثم غير ذلك
-planTypes.sort((a, b) => {
-    const rank = (x) => x === 'قديمة' ? 0 : (x === 'جديدة' ? 1 : 2);
-    return rank(a) - rank(b);
-});
-
-const planLabel = planTypes.length
-    ? (planTypes.length === 1 ? `الخطة ${planTypes[0]}` : `الخطة ${planTypes.join(' + ')}`)
-    : '';
+                    const planLabel = planTypes.length
+                        ? (planTypes.length === 1 ? `الخطة ${planTypes[0]}` : `الخطة ${planTypes.join(' + ')}`)
+                        : '';
 
                     const chipClass = chipClassForPlans(pg.plan_types);
 
@@ -1216,7 +1501,6 @@ const planLabel = planTypes.length
                 return `
                     <div class="result-item">
                         <div class="result-course-name">${result.name}</div>
-
                         <div class="result-meta">
                             <span class="result-tag"><code class="course-code">${result.code}</code></span>
                             <span class="result-tag">${result.hours} ساعة</span>
@@ -1224,15 +1508,11 @@ const planLabel = planTypes.length
                             ${result.category_summary ? `<span class="result-tag">${result.category_summary}</span>` : ''}
                             <span class="result-tag">موجود في ${result.programs_count} برامج</span>
                         </div>
-
-                        <div class="result-programs">
-                            ${programsHtml}
-                        </div>
+                        <div class="result-programs">${programsHtml}</div>
                     </div>
                 `;
             }).join('');
         }
-
 
         function clearSearch() {
             searchInput.value = '';
@@ -1240,12 +1520,16 @@ const planLabel = planTypes.length
         }
 
         // Modal functionality
-        function openProgramModal(program) {
+        function openProgramModal(programId) {
+            const program = programsData.find(p => p.id === programId);
+            if (!program) return;
+
+            currentProgram = program;
             const modal = document.getElementById('modalOverlay');
             const modalTitle = document.getElementById('modalTitle');
             const modalBody = document.getElementById('modalBody');
 
-            modalTitle.textContent = `${program.name} - ${program.degree}`;
+            modalTitle.textContent = `${program.name} - ${canonicalDegreeLabel(program.degree)}`;
 
             // Group courses by level
             const coursesByLevel = {};
@@ -1256,38 +1540,48 @@ const planLabel = planTypes.length
                 coursesByLevel[course.level].push(course);
             });
 
+            const levelNames = {
+                1: 'المستوى الأول', 2: 'المستوى الثاني', 3: 'المستوى الثالث',
+                4: 'المستوى الرابع', 5: 'المستوى الخامس', 6: 'المستوى السادس',
+                7: 'المستوى السابع', 8: 'المستوى الثامن'
+            };
+
             let html = `
-                <div style="margin-bottom:1.5rem;display:flex;gap:1rem;flex-wrap:wrap;">
-                    <span class="program-plan-badge ${program.plan_type === 'جديدة' ? 'plan-new' : 'plan-old'}">
+                <div class="download-actions">
+                    <button class="download-btn pdf" onclick="downloadPDF()">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/>
+                        </svg>
+                        تنزيل PDF
+                    </button>
+                    <button class="download-btn excel" onclick="downloadExcel()">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21.17 3.25Q21.5 3.25 21.76 3.5 22 3.74 22 4.08V19.92Q22 20.26 21.76 20.5 21.5 20.75 21.17 20.75H7.83Q7.5 20.75 7.24 20.5 7 20.26 7 19.92V17H2.83Q2.5 17 2.24 16.76 2 16.5 2 16.17V7.83Q2 7.5 2.24 7.24 2.5 7 2.83 7H7V4.08Q7 3.74 7.24 3.5 7.5 3.25 7.83 3.25M7 13.06L8.18 15.28H9.97L8 12.06L9.93 8.89H8.22L7.13 10.9L7.09 10.96L7.06 11.03Q6.8 10.5 6.5 9.96 6.25 9.43 5.97 8.89H4.16L6.05 12.08L4 15.28H5.78M13.88 19.5V17H8.25V19.5M13.88 15.75V12.63H12V15.75M13.88 11.38V8.25H12V11.38M13.88 7V4.5H8.25V7M20.75 19.5V17H15.13V19.5M20.75 15.75V12.63H15.13V15.75M20.75 11.38V8.25H15.13V11.38M20.75 7V4.5H15.13V7Z"/>
+                        </svg>
+                        تنزيل Excel
+                    </button>
+                </div>
+
+                <div class="modal-info">
+                    <span class="modal-info-badge ${program.plan_type === 'جديدة' ? 'plan-new' : 'plan-old'}">
                         الخطة ${program.plan_type} (إصدار ${program.version})
                     </span>
-                    <span style="background:var(--bg-cream);padding:0.5rem 1rem;border-radius:20px;">
+                    <span class="modal-info-badge" style="background:var(--bg-light);">
                         إجمالي الساعات: <strong>${program.total_hours}</strong>
                     </span>
                 </div>
             `;
 
-            const levelNames = {
-                1: 'المستوى الأول',
-                2: 'المستوى الثاني', 
-                3: 'المستوى الثالث',
-                4: 'المستوى الرابع',
-                5: 'المستوى الخامس',
-                6: 'المستوى السادس',
-                7: 'المستوى السابع',
-                8: 'المستوى الثامن'
-            };
-
             Object.keys(coursesByLevel).sort((a, b) => a - b).forEach(level => {
                 const courses = coursesByLevel[level];
                 const totalHours = courses.reduce((sum, c) => sum + c.hours, 0);
-                
+
                 html += `
                     <div class="courses-by-level">
                         <div class="level-header">
                             <span class="level-number">${level}</span>
                             <span class="level-title">${levelNames[level] || `المستوى ${level}`}</span>
-                            <span style="margin-right:auto;color:var(--text-muted);">${totalHours} ساعة</span>
+                            <span class="level-hours">${totalHours} ساعة</span>
                         </div>
                         <table class="courses-table">
                             <thead>
@@ -1303,7 +1597,8 @@ const planLabel = planTypes.length
                                     let typeClass = 'type-theory';
                                     if (course.type === 'عملي') typeClass = 'type-practical';
                                     if (course.type === 'بحث') typeClass = 'type-research';
-                                    
+                                    if (course.type === 'تدريب') typeClass = 'type-training';
+
                                     return `
                                         <tr>
                                             <td><code class="course-code">${course.code}</code></td>
@@ -1330,6 +1625,7 @@ const planLabel = planTypes.length
         function closeModal() {
             document.getElementById('modalOverlay').classList.remove('active');
             document.body.style.overflow = '';
+            currentProgram = null;
         }
 
         // Close modal on overlay click
@@ -1345,6 +1641,241 @@ const planLabel = planTypes.length
                 closeModal();
             }
         });
+
+        // Download PDF function
+        async function downloadPDF() {
+            if (!currentProgram) return;
+
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF({
+                orientation: 'portrait',
+                unit: 'mm',
+                format: 'a4'
+            });
+
+            // Add Amiri font for Arabic support
+            doc.addFont('https://fonts.gstatic.com/s/amiri/v27/J7aRnpd8CGxBHqUpvrIw74NL.ttf', 'Amiri', 'normal');
+            doc.setFont('Amiri');
+
+            const pageWidth = doc.internal.pageSize.getWidth();
+            const pageHeight = doc.internal.pageSize.getHeight();
+            const margin = 15;
+
+            // Header
+            doc.setFillColor(27, 94, 59);
+            doc.rect(0, 0, pageWidth, 35, 'F');
+
+            doc.setTextColor(255, 255, 255);
+            doc.setFontSize(18);
+            doc.text('جامعة الطائف - كلية الشريعة والأنظمة', pageWidth / 2, 15, { align: 'center' });
+
+            doc.setFontSize(14);
+            doc.text(`خطة برنامج ${currentProgram.name}`, pageWidth / 2, 25, { align: 'center' });
+
+            doc.setFontSize(10);
+            doc.text(`${canonicalDegreeLabel(currentProgram.degree)} - الخطة ${currentProgram.plan_type} (إصدار ${currentProgram.version})`, pageWidth / 2, 32, { align: 'center' });
+
+            // Program info
+            doc.setTextColor(0, 0, 0);
+            doc.setFontSize(11);
+            let yPos = 45;
+
+            doc.text(`إجمالي الساعات: ${currentProgram.total_hours} ساعة`, pageWidth - margin, yPos, { align: 'right' });
+            doc.text(`عدد المقررات: ${currentProgram.courses.length} مقرر`, pageWidth - margin, yPos + 7, { align: 'right' });
+
+            yPos = 60;
+
+            // Group courses by level
+            const coursesByLevel = {};
+            currentProgram.courses.forEach(course => {
+                if (!coursesByLevel[course.level]) {
+                    coursesByLevel[course.level] = [];
+                }
+                coursesByLevel[course.level].push(course);
+            });
+
+            const levelNames = {
+                1: 'المستوى الأول', 2: 'المستوى الثاني', 3: 'المستوى الثالث',
+                4: 'المستوى الرابع', 5: 'المستوى الخامس', 6: 'المستوى السادس',
+                7: 'المستوى السابع', 8: 'المستوى الثامن'
+            };
+
+            // Create tables for each level
+            Object.keys(coursesByLevel).sort((a, b) => a - b).forEach(level => {
+                const courses = coursesByLevel[level];
+                const totalHours = courses.reduce((sum, c) => sum + c.hours, 0);
+
+                // Check if we need a new page
+                if (yPos > pageHeight - 60) {
+                    doc.addPage();
+                    yPos = 20;
+                }
+
+                // Level header
+                doc.setFillColor(27, 94, 59);
+                doc.setTextColor(255, 255, 255);
+                doc.setFontSize(11);
+                doc.rect(margin, yPos, pageWidth - 2 * margin, 8, 'F');
+                doc.text(`${levelNames[level] || `المستوى ${level}`} - ${totalHours} ساعة`, pageWidth - margin - 5, yPos + 5.5, { align: 'right' });
+
+                yPos += 10;
+
+                // Table data
+                const tableData = courses.map(course => [
+                    course.type,
+                    course.hours.toString(),
+                    course.name,
+                    course.code
+                ]);
+
+                doc.autoTable({
+                    startY: yPos,
+                    head: [['النوع', 'الساعات', 'اسم المقرر', 'رمز المقرر']],
+                    body: tableData,
+                    theme: 'grid',
+                    styles: {
+                        font: 'Amiri',
+                        fontSize: 9,
+                        cellPadding: 3,
+                        halign: 'right',
+                        textColor: [0, 0, 0]
+                    },
+                    headStyles: {
+                        fillColor: [240, 240, 240],
+                        textColor: [0, 0, 0],
+                        fontStyle: 'bold'
+                    },
+                    columnStyles: {
+                        0: { cellWidth: 20 },
+                        1: { cellWidth: 20, halign: 'center' },
+                        2: { cellWidth: 'auto' },
+                        3: { cellWidth: 35 }
+                    },
+                    margin: { left: margin, right: margin },
+                    tableWidth: 'auto'
+                });
+
+                yPos = doc.lastAutoTable.finalY + 10;
+            });
+
+            // Footer
+            const totalPages = doc.internal.getNumberOfPages();
+            for (let i = 1; i <= totalPages; i++) {
+                doc.setPage(i);
+                doc.setFontSize(8);
+                doc.setTextColor(128, 128, 128);
+                doc.text(`صفحة ${i} من ${totalPages}`, pageWidth / 2, pageHeight - 10, { align: 'center' });
+            }
+
+            // Save
+            doc.save(`خطة_${currentProgram.name}_${currentProgram.plan_type}.pdf`);
+        }
+
+        // Download Excel function
+        function downloadExcel() {
+            if (!currentProgram) return;
+
+            // Create workbook
+            const wb = XLSX.utils.book_new();
+
+            // Program info sheet
+            const infoData = [
+                ['معلومات البرنامج'],
+                ['اسم البرنامج', currentProgram.name],
+                ['الاسم بالإنجليزية', currentProgram.name_en || ''],
+                ['الدرجة العلمية', canonicalDegreeLabel(currentProgram.degree)],
+                ['نوع الخطة', currentProgram.plan_type],
+                ['إصدار الخطة', currentProgram.version],
+                ['إجمالي الساعات', currentProgram.total_hours],
+                ['عدد المقررات', currentProgram.courses.length],
+                ['القسم', currentProgram.department || '']
+            ];
+
+            const infoSheet = XLSX.utils.aoa_to_sheet(infoData);
+            XLSX.utils.book_append_sheet(wb, infoSheet, 'معلومات البرنامج');
+
+            // Courses sheet
+            const coursesData = [
+                ['رمز المقرر', 'اسم المقرر', 'الاسم بالإنجليزية', 'الساعات', 'المستوى', 'النوع', 'التصنيف']
+            ];
+
+            currentProgram.courses.forEach(course => {
+                coursesData.push([
+                    course.code,
+                    course.name,
+                    course.name_en || '',
+                    course.hours,
+                    course.level,
+                    course.type,
+                    course.category || ''
+                ]);
+            });
+
+            const coursesSheet = XLSX.utils.aoa_to_sheet(coursesData);
+
+            // Set column widths
+            coursesSheet['!cols'] = [
+                { wch: 15 },  // رمز المقرر
+                { wch: 40 },  // اسم المقرر
+                { wch: 35 },  // الاسم بالإنجليزية
+                { wch: 10 },  // الساعات
+                { wch: 10 },  // المستوى
+                { wch: 12 },  // النوع
+                { wch: 20 }   // التصنيف
+            ];
+
+            XLSX.utils.book_append_sheet(wb, coursesSheet, 'المقررات');
+
+            // Courses by level sheets
+            const coursesByLevel = {};
+            currentProgram.courses.forEach(course => {
+                if (!coursesByLevel[course.level]) {
+                    coursesByLevel[course.level] = [];
+                }
+                coursesByLevel[course.level].push(course);
+            });
+
+            const levelNames = {
+                1: 'المستوى الأول', 2: 'المستوى الثاني', 3: 'المستوى الثالث',
+                4: 'المستوى الرابع', 5: 'المستوى الخامس', 6: 'المستوى السادس',
+                7: 'المستوى السابع', 8: 'المستوى الثامن'
+            };
+
+            Object.keys(coursesByLevel).sort((a, b) => a - b).forEach(level => {
+                const courses = coursesByLevel[level];
+                const levelData = [
+                    ['رمز المقرر', 'اسم المقرر', 'الساعات', 'النوع', 'التصنيف']
+                ];
+
+                courses.forEach(course => {
+                    levelData.push([
+                        course.code,
+                        course.name,
+                        course.hours,
+                        course.type,
+                        course.category || ''
+                    ]);
+                });
+
+                // Add total row
+                const totalHours = courses.reduce((sum, c) => sum + c.hours, 0);
+                levelData.push(['', 'المجموع', totalHours, '', '']);
+
+                const levelSheet = XLSX.utils.aoa_to_sheet(levelData);
+                levelSheet['!cols'] = [
+                    { wch: 15 },
+                    { wch: 40 },
+                    { wch: 10 },
+                    { wch: 12 },
+                    { wch: 20 }
+                ];
+
+                XLSX.utils.book_append_sheet(wb, levelSheet, levelNames[level] || `المستوى ${level}`);
+            });
+
+            // Save file
+            XLSX.writeFile(wb, `خطة_${currentProgram.name}_${currentProgram.plan_type}.xlsx`);
+        }
 
         // Initialize
         loadData();
