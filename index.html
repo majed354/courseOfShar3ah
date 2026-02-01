@@ -1569,17 +1569,29 @@
 
             let html = `
                 <div class="download-actions">
-                    <button class="download-btn pdf" onclick="downloadPDF()">
+                    <button class="download-btn pdf" onclick="printPDF()">
                         <svg viewBox="0 0 24 24" fill="currentColor">
                             <path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/>
                         </svg>
-                        تنزيل PDF
+                        حفظ PDF (طباعة)
+                    </button>
+                    <button class="download-btn pdf" style="background:#7C3AED;" onclick="downloadPDF()">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/>
+                        </svg>
+                        تنزيل PDF مباشر
                     </button>
                     <button class="download-btn excel" onclick="downloadExcel()">
                         <svg viewBox="0 0 24 24" fill="currentColor">
                             <path d="M21.17 3.25Q21.5 3.25 21.76 3.5 22 3.74 22 4.08V19.92Q22 20.26 21.76 20.5 21.5 20.75 21.17 20.75H7.83Q7.5 20.75 7.24 20.5 7 20.26 7 19.92V17H2.83Q2.5 17 2.24 16.76 2 16.5 2 16.17V7.83Q2 7.5 2.24 7.24 2.5 7 2.83 7H7V4.08Q7 3.74 7.24 3.5 7.5 3.25 7.83 3.25M7 13.06L8.18 15.28H9.97L8 12.06L9.93 8.89H8.22L7.13 10.9L7.09 10.96L7.06 11.03Q6.8 10.5 6.5 9.96 6.25 9.43 5.97 8.89H4.16L6.05 12.08L4 15.28H5.78M13.88 19.5V17H8.25V19.5M13.88 15.75V12.63H12V15.75M13.88 11.38V8.25H12V11.38M13.88 7V4.5H8.25V7M20.75 19.5V17H15.13V19.5M20.75 15.75V12.63H15.13V15.75M20.75 11.38V8.25H15.13V11.38M20.75 7V4.5H15.13V7Z"/>
                         </svg>
                         تنزيل Excel
+                    </button>
+                    <button class="download-btn" style="background:#0EA5E9;color:#fff;" onclick="downloadCSV()">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm1 7V3.5L19.5 9H15zM8 13h8v2H8v-2zm0 4h8v2H8v-2z"/>
+                        </svg>
+                        تنزيل CSV
                     </button>
                 </div>
 
@@ -1699,6 +1711,71 @@
                 closeModal();
             }
         });
+
+
+        // Print (Save as PDF) - often more reliable on mobile/webviews
+        function printPDF() {
+            if (!currentProgram) {
+                alert('لم يتم تحديد برنامج');
+                return;
+            }
+            window.print(); // ثم اختر "Save as PDF" / "حفظ كـ PDF"
+        }
+
+        // Download CSV (fallback when Excel download is blocked)
+        function downloadCSV() {
+            if (!currentProgram) {
+                alert('لم يتم تحديد برنامج');
+                return;
+            }
+
+            const safePlan = currentProgram.plan_type === 'جديدة' ? 'new' : (currentProgram.plan_type === 'قديمة' ? 'old' : 'plan');
+            const safeName = (currentProgram.name_en || currentProgram.name).toString()
+                .replace(/[^a-zA-Z0-9]+/g, '_')
+                .replace(/^_+|_+$/g, '') || 'plan';
+            const fileName = safeName + '_' + safePlan + '.csv';
+
+            const rows = [
+                ['Program', (currentProgram.name_en || currentProgram.name)],
+                ['Degree', canonicalDegreeLabel(currentProgram.degree)],
+                ['Plan', currentProgram.plan_type],
+                ['Version', currentProgram.version],
+                ['Total Hours', currentProgram.total_hours],
+                [],
+                ['Level', 'Code', 'Course Name', 'English Name', 'Hours', 'Type', 'Category']
+            ];
+
+            (currentProgram.courses || []).forEach(c => {
+                rows.push([
+                    c.level,
+                    c.code,
+                    c.name,
+                    (c.name_en || ''),
+                    c.hours,
+                    c.type,
+                    (c.category || '')
+                ]);
+            });
+
+            const csv = rows.map(r => r.map(v => {
+                const s = (v === null || v === undefined) ? '' : String(v);
+                return '"' + s.replace(/"/g, '""') + '"';
+            }).join(',')).join('\n');
+
+            const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = fileName;
+            document.body.appendChild(a);
+            a.click();
+
+            setTimeout(() => {
+                URL.revokeObjectURL(url);
+                a.remove();
+            }, 1000);
+        }
 
         // Download PDF function
         function downloadPDF() {
@@ -1824,7 +1901,8 @@
                 }
 
                 // Save
-                const fileName = (currentProgram.name_en || currentProgram.name).replace(/[^a-zA-Z0-9]/g, '_') + '_' + currentProgram.plan_type + '.pdf';
+                const safePlan = currentProgram.plan_type === 'جديدة' ? 'new' : (currentProgram.plan_type === 'قديمة' ? 'old' : 'plan');
+                const fileName = (currentProgram.name_en || currentProgram.name).toString().replace(/[^a-zA-Z0-9]/g, '_') + '_' + safePlan + '.pdf';
                 doc.save(fileName);
 
             } catch (error) {
@@ -1962,9 +2040,27 @@
                     XLSX.utils.book_append_sheet(wb, levelSheet, levelNames[level] || 'المستوى ' + level);
                 });
 
-                // Save file
-                const fileName = currentProgram.name.replace(/\s+/g, '_') + '_' + currentProgram.plan_type + '.xlsx';
-                XLSX.writeFile(wb, fileName);
+                // Save file (safer filename + blob download)
+                const safePlan = currentProgram.plan_type === 'جديدة' ? 'new' : (currentProgram.plan_type === 'قديمة' ? 'old' : 'plan');
+                const safeName = (currentProgram.name_en || currentProgram.name).toString()
+                    .replace(/[^a-zA-Z0-9]+/g, '_')
+                    .replace(/^_+|_+$/g, '') || 'plan';
+                const fileName = safeName + '_' + safePlan + '.xlsx';
+
+                const wbout = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
+                const blob = new Blob([wbout], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+                const url = URL.createObjectURL(blob);
+
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = fileName;
+                document.body.appendChild(a);
+                a.click();
+
+                setTimeout(() => {
+                    URL.revokeObjectURL(url);
+                    a.remove();
+                }, 1000);
 
             } catch (error) {
                 console.error('Excel Error:', error);
