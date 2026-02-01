@@ -8,11 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Kufi+Arabic:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- SheetJS for Excel generation -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-    <!-- jsPDF for PDF generation -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.1/jspdf.plugin.autotable.min.js"></script>
-    <style>
+<!-- jsPDF for PDF generation -->
+<style>
         :root {
             --primary: #1B5E3B;
             --primary-light: #2E8B57;
@@ -752,6 +749,18 @@
             flex-wrap: wrap;
         }
 
+.global-actions {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.global-actions .download-btn {
+    width: auto;
+}
+
         .download-btn {
             display: inline-flex;
             align-items: center;
@@ -1096,26 +1105,47 @@
 
         /* Print Styles */
         @media print {
-            .stats-bar,
-            .search-section,
-            .degree-tabs,
-            .download-actions,
-            .modal-close,
-            footer {
-                display: none !important;
-            }
+    /* Defaults: don't print page UI chrome */
+    .stats-bar,
+    .search-section,
+    .degree-tabs,
+    footer {
+        display: none !important;
+    }
 
-            .modal-overlay {
-                position: static;
-                background: none;
-                backdrop-filter: none;
-            }
+    /* When printing a single plan from داخل النافذة */
+    body.print-plan * {
+        visibility: hidden !important;
+    }
 
-            .modal {
-                max-height: none;
-                box-shadow: none;
-            }
-        }
+    body.print-plan .modal-overlay,
+    body.print-plan .modal-overlay * {
+        visibility: visible !important;
+    }
+
+    body.print-plan .modal-overlay {
+        position: static !important;
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        background: none !important;
+        backdrop-filter: none !important;
+        padding: 0 !important;
+    }
+
+    body.print-plan .modal {
+        max-height: none !important;
+        box-shadow: none !important;
+        width: 100% !important;
+        margin: 0 !important;
+        border: none !important;
+    }
+
+    body.print-plan .download-actions,
+    body.print-plan .modal-close {
+        display: none !important;
+    }
+}
     </style>
 </head>
 <body>
@@ -1165,6 +1195,15 @@
                     <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
                 </svg>
             </div>
+
+<div class="global-actions">
+    <button class="download-btn" style="background:#0EA5E9;color:#fff;" onclick="downloadAllCSV()">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm1 7V3.5L19.5 9H15zM8 13h8v2H8v-2zm0 4h8v2H8v-2z"/>
+        </svg>
+        تنزيل جميع الخطط CSV
+    </button>
+</div>
 
             <div class="search-results" id="searchResults">
                 <div class="results-header">
@@ -1569,33 +1608,21 @@
 
             let html = `
                 <div class="download-actions">
-                    <button class="download-btn pdf" onclick="printPDF()">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/>
-                        </svg>
-                        حفظ PDF (طباعة)
-                    </button>
-                    <button class="download-btn pdf" style="background:#7C3AED;" onclick="downloadPDF()">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/>
-                        </svg>
-                        تنزيل PDF مباشر
-                    </button>
-                    <button class="download-btn excel" onclick="downloadExcel()">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M21.17 3.25Q21.5 3.25 21.76 3.5 22 3.74 22 4.08V19.92Q22 20.26 21.76 20.5 21.5 20.75 21.17 20.75H7.83Q7.5 20.75 7.24 20.5 7 20.26 7 19.92V17H2.83Q2.5 17 2.24 16.76 2 16.5 2 16.17V7.83Q2 7.5 2.24 7.24 2.5 7 2.83 7H7V4.08Q7 3.74 7.24 3.5 7.5 3.25 7.83 3.25M7 13.06L8.18 15.28H9.97L8 12.06L9.93 8.89H8.22L7.13 10.9L7.09 10.96L7.06 11.03Q6.8 10.5 6.5 9.96 6.25 9.43 5.97 8.89H4.16L6.05 12.08L4 15.28H5.78M13.88 19.5V17H8.25V19.5M13.88 15.75V12.63H12V15.75M13.88 11.38V8.25H12V11.38M13.88 7V4.5H8.25V7M20.75 19.5V17H15.13V19.5M20.75 15.75V12.63H15.13V15.75M20.75 11.38V8.25H15.13V11.38M20.75 7V4.5H15.13V7Z"/>
-                        </svg>
-                        تنزيل Excel
-                    </button>
-                    <button class="download-btn" style="background:#0EA5E9;color:#fff;" onclick="downloadCSV()">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm1 7V3.5L19.5 9H15zM8 13h8v2H8v-2zm0 4h8v2H8v-2z"/>
-                        </svg>
-                        تنزيل CSV
-                    </button>
-                </div>
+    <button class="download-btn pdf" onclick="printPlanOnly()">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/>
+        </svg>
+        طباعة / حفظ PDF
+    </button>
+    <button class="download-btn" style="background:#0EA5E9;color:#fff;" onclick="downloadCSV()">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm1 7V3.5L19.5 9H15zM8 13h8v2H8v-2zm0 4h8v2H8v-2z"/>
+        </svg>
+        تنزيل CSV
+    </button>
+</div>
 
-                <div class="modal-info">
+<div class="modal-info">
                     <span class="modal-info-badge ${program.plan_type === 'جديدة' ? 'plan-new' : 'plan-old'}">
                         الخطة ${program.plan_type} (إصدار ${program.version})
                     </span>
@@ -1714,13 +1741,26 @@
 
 
         // Print (Save as PDF) - often more reliable on mobile/webviews
-        function printPDF() {
-            if (!currentProgram) {
-                alert('لم يتم تحديد برنامج');
-                return;
-            }
-            window.print(); // ثم اختر "Save as PDF" / "حفظ كـ PDF"
-        }
+        function printPlanOnly() {
+    if (!currentProgram) {
+        alert('لم يتم تحديد برنامج');
+        return;
+    }
+
+    // اجعل الطباعة تقتصر على نافذة الخطة فقط
+    document.body.classList.add('print-plan');
+
+    // بعض المتصفحات تحتاج مهلة بسيطة لتطبيق الـ CSS قبل الطباعة
+    setTimeout(() => {
+        window.print(); // ثم اختر "Save as PDF" / "حفظ كـ PDF"
+    }, 50);
+}
+
+// إزالة حالة الطباعة بعد الانتهاء
+window.addEventListener('afterprint', () => {
+    document.body.classList.remove('print-plan');
+});
+
 
         // Download CSV (fallback when Excel download is blocked)
         function downloadCSV() {
@@ -1777,296 +1817,78 @@
             }, 1000);
         }
 
-        // Download PDF function
-        function downloadPDF() {
-            if (!currentProgram) {
-                alert('لم يتم تحديد برنامج');
-                return;
-            }
+// Download ALL plans as one CSV (from the main page)
+function downloadAllCSV() {
+    if (!programsData || !programsData.programs || !programsData.programs.length) {
+        alert('لا توجد بيانات لتحميلها');
+        return;
+    }
 
-            // Check if jsPDF is loaded
-            if (typeof window.jspdf === 'undefined') {
-                alert('جاري تحميل مكتبة PDF، يرجى المحاولة مرة أخرى بعد لحظات');
-                return;
-            }
+    const fileName = 'all_plans.csv';
 
-            try {
-                const { jsPDF } = window.jspdf;
-                const doc = new jsPDF({
-                    orientation: 'portrait',
-                    unit: 'mm',
-                    format: 'a4'
-                });
+    const rows = [
+        ['Program', 'Program EN', 'Degree', 'Plan', 'Version', 'Total Hours',
+         'Level', 'Code', 'Course Name', 'English Name', 'Hours', 'Type', 'Category']
+    ];
 
-                const pageWidth = doc.internal.pageSize.getWidth();
-                const pageHeight = doc.internal.pageSize.getHeight();
-                const margin = 15;
-                let yPos = 15;
+    programsData.programs.forEach(p => {
+        const programName = (p.name_en || p.name || '');
+        const degree = canonicalDegreeLabel(p.degree);
+        const planType = p.plan_type || '';
+        const version = p.version || '';
+        const totalHours = p.total_hours || '';
 
-                // Header
-                doc.setFillColor(27, 94, 59);
-                doc.rect(0, 0, pageWidth, 40, 'F');
-
-                doc.setTextColor(255, 255, 255);
-                doc.setFontSize(14);
-                doc.text('Taif University - College of Sharia and Law', pageWidth / 2, 12, { align: 'center' });
-
-                doc.setFontSize(12);
-                const progName = currentProgram.name_en || currentProgram.name;
-                doc.text(progName, pageWidth / 2, 22, { align: 'center' });
-
-                doc.setFontSize(10);
-                doc.text(canonicalDegreeLabel(currentProgram.degree) + ' - ' + currentProgram.plan_type + ' (v' + currentProgram.version + ')', pageWidth / 2, 30, { align: 'center' });
-                doc.text('Total Hours: ' + currentProgram.total_hours + ' | Courses: ' + currentProgram.courses.length, pageWidth / 2, 37, { align: 'center' });
-
-                yPos = 50;
-
-                // Group courses by level
-                const coursesByLevel = {};
-                currentProgram.courses.forEach(course => {
-                    if (!coursesByLevel[course.level]) {
-                        coursesByLevel[course.level] = [];
-                    }
-                    coursesByLevel[course.level].push(course);
-                });
-
-                // Create content for each level
-                Object.keys(coursesByLevel).sort((a, b) => a - b).forEach(level => {
-                    const courses = coursesByLevel[level];
-                    const totalHours = courses.reduce((sum, c) => sum + c.hours, 0);
-
-                    // Check if we need a new page
-                    if (yPos > pageHeight - 40) {
-                        doc.addPage();
-                        yPos = 15;
-                    }
-
-                    // Level header
-                    doc.setFillColor(27, 94, 59);
-                    doc.setTextColor(255, 255, 255);
-                    doc.setFontSize(10);
-                    doc.rect(margin, yPos, pageWidth - 2 * margin, 7, 'F');
-                    doc.text('Level ' + level + ' (' + totalHours + ' Hours)', margin + 3, yPos + 5);
-
-                    yPos += 10;
-
-                    // Table header
-                    doc.setFillColor(240, 240, 240);
-                    doc.setTextColor(0, 0, 0);
-                    doc.rect(margin, yPos, pageWidth - 2 * margin, 7, 'F');
-                    doc.setFontSize(9);
-                    doc.text('Code', margin + 3, yPos + 5);
-                    doc.text('Course Name', margin + 35, yPos + 5);
-                    doc.text('Hrs', margin + 140, yPos + 5);
-                    doc.text('Type', margin + 155, yPos + 5);
-
-                    yPos += 8;
-
-                    // Course rows
-                    doc.setFontSize(8);
-                    courses.forEach(course => {
-                        if (yPos > pageHeight - 20) {
-                            doc.addPage();
-                            yPos = 15;
-                        }
-
-                        const courseName = course.name_en || course.name;
-                        const displayName = courseName.length > 50 ? courseName.substring(0, 47) + '...' : courseName;
-                        const isElective = course.category && course.category.includes('اختيارية');
-
-                        if (isElective) {
-                            doc.setFillColor(255, 251, 235);
-                            doc.rect(margin, yPos - 3, pageWidth - 2 * margin, 6, 'F');
-                        }
-
-                        doc.setTextColor(0, 0, 0);
-                        doc.text(course.code, margin + 3, yPos);
-                        doc.text(displayName, margin + 35, yPos);
-                        doc.text(course.hours.toString(), margin + 142, yPos);
-                        doc.text(isElective ? 'Elective' : course.type, margin + 155, yPos);
-
-                        yPos += 6;
-                    });
-
-                    yPos += 5;
-                });
-
-                // Footer on all pages
-                const totalPages = doc.internal.getNumberOfPages();
-                for (let i = 1; i <= totalPages; i++) {
-                    doc.setPage(i);
-                    doc.setFontSize(8);
-                    doc.setTextColor(128, 128, 128);
-                    doc.text('Page ' + i + ' of ' + totalPages, pageWidth / 2, pageHeight - 10, { align: 'center' });
-                }
-
-                // Save
-                const safePlan = currentProgram.plan_type === 'جديدة' ? 'new' : (currentProgram.plan_type === 'قديمة' ? 'old' : 'plan');
-                const fileName = (currentProgram.name_en || currentProgram.name).toString().replace(/[^a-zA-Z0-9]/g, '_') + '_' + safePlan + '.pdf';
-                doc.save(fileName);
-
-            } catch (error) {
-                console.error('PDF Error:', error);
-                alert('حدث خطأ: ' + error.message);
-            }
+        const courses = (p.courses || []);
+        if (!courses.length) {
+            rows.push([programName, (p.name_en || ''), degree, planType, version, totalHours, '', '', '', '', '', '', '']);
+            return;
         }
+
+        courses.forEach(c => {
+            rows.push([
+                programName,
+                (p.name_en || ''),
+                degree,
+                planType,
+                version,
+                totalHours,
+                (c.level ?? ''),
+                (c.code ?? ''),
+                (c.name ?? ''),
+                (c.name_en ?? ''),
+                (c.hours ?? ''),
+                (c.type ?? ''),
+                (c.category ?? '')
+            ]);
+        });
+    });
+
+    const csv = rows.map(r => r.map(v => {
+        const s = (v === null || v === undefined) ? '' : String(v);
+        return '"' + s.replace(/"/g, '""') + '"';
+    }).join(',')).join('\n');
+
+    const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = fileName;
+    document.body.appendChild(a);
+    a.click();
+
+    setTimeout(() => {
+        URL.revokeObjectURL(url);
+        a.remove();
+    }, 1000);
+}
+
+
+        // Download PDF function
+        
 
         // Download Excel function
-        function downloadExcel() {
-            if (!currentProgram) {
-                alert('لم يتم تحديد برنامج');
-                return;
-            }
-
-            // Check if XLSX is loaded
-            if (typeof XLSX === 'undefined') {
-                alert('جاري تحميل مكتبة Excel، يرجى المحاولة مرة أخرى بعد لحظات');
-                return;
-            }
-
-            try {
-                // Create workbook
-                const wb = XLSX.utils.book_new();
-
-                // Program info sheet
-                const infoData = [
-                    ['معلومات البرنامج', 'Program Information'],
-                    ['اسم البرنامج', currentProgram.name],
-                    ['الاسم بالإنجليزية', currentProgram.name_en || ''],
-                    ['الدرجة العلمية', canonicalDegreeLabel(currentProgram.degree)],
-                    ['نوع الخطة', currentProgram.plan_type],
-                    ['إصدار الخطة', currentProgram.version],
-                    ['إجمالي الساعات', currentProgram.total_hours],
-                    ['عدد المقررات', currentProgram.courses.length],
-                    ['القسم', currentProgram.department || '']
-                ];
-
-                const infoSheet = XLSX.utils.aoa_to_sheet(infoData);
-                infoSheet['!cols'] = [{ wch: 25 }, { wch: 40 }];
-                XLSX.utils.book_append_sheet(wb, infoSheet, 'معلومات البرنامج');
-
-                // All courses sheet
-                const coursesData = [
-                    ['رمز المقرر', 'اسم المقرر', 'الاسم بالإنجليزية', 'الساعات', 'المستوى', 'النوع', 'التصنيف']
-                ];
-
-                currentProgram.courses.forEach(course => {
-                    coursesData.push([
-                        course.code,
-                        course.name,
-                        course.name_en || '',
-                        course.hours,
-                        course.level,
-                        course.type,
-                        course.category || ''
-                    ]);
-                });
-
-                const coursesSheet = XLSX.utils.aoa_to_sheet(coursesData);
-                coursesSheet['!cols'] = [
-                    { wch: 15 },
-                    { wch: 40 },
-                    { wch: 35 },
-                    { wch: 10 },
-                    { wch: 10 },
-                    { wch: 12 },
-                    { wch: 20 }
-                ];
-                XLSX.utils.book_append_sheet(wb, coursesSheet, 'جميع المقررات');
-
-                // Courses by level sheets
-                const coursesByLevel = {};
-                currentProgram.courses.forEach(course => {
-                    if (!coursesByLevel[course.level]) {
-                        coursesByLevel[course.level] = [];
-                    }
-                    coursesByLevel[course.level].push(course);
-                });
-
-                const levelNames = {
-                    1: 'المستوى الأول', 2: 'المستوى الثاني', 3: 'المستوى الثالث',
-                    4: 'المستوى الرابع', 5: 'المستوى الخامس', 6: 'المستوى السادس',
-                    7: 'المستوى السابع', 8: 'المستوى الثامن'
-                };
-
-                Object.keys(coursesByLevel).sort((a, b) => a - b).forEach(level => {
-                    const courses = coursesByLevel[level];
-                    const levelData = [
-                        ['رمز المقرر', 'اسم المقرر', 'الساعات', 'النوع', 'التصنيف']
-                    ];
-
-                    // Separate required and elective courses
-                    const required = courses.filter(c => !c.category || !c.category.includes('اختيارية'));
-                    const electives = courses.filter(c => c.category && c.category.includes('اختيارية'));
-
-                    required.forEach(course => {
-                        levelData.push([
-                            course.code,
-                            course.name,
-                            course.hours,
-                            course.type,
-                            course.category || ''
-                        ]);
-                    });
-
-                    // Add required total
-                    const requiredHours = required.reduce((sum, c) => sum + c.hours, 0);
-                    levelData.push(['', 'مجموع الإجباري', requiredHours, '', '']);
-
-                    // Add electives if any
-                    if (electives.length > 0) {
-                        levelData.push(['', '', '', '', '']);
-                        levelData.push(['', '--- المقررات الاختيارية ---', '', '', '']);
-                        electives.forEach(course => {
-                            levelData.push([
-                                course.code,
-                                course.name,
-                                course.hours,
-                                'اختياري',
-                                course.category || ''
-                            ]);
-                        });
-                    }
-
-                    const levelSheet = XLSX.utils.aoa_to_sheet(levelData);
-                    levelSheet['!cols'] = [
-                        { wch: 15 },
-                        { wch: 40 },
-                        { wch: 10 },
-                        { wch: 12 },
-                        { wch: 20 }
-                    ];
-
-                    XLSX.utils.book_append_sheet(wb, levelSheet, levelNames[level] || 'المستوى ' + level);
-                });
-
-                // Save file (safer filename + blob download)
-                const safePlan = currentProgram.plan_type === 'جديدة' ? 'new' : (currentProgram.plan_type === 'قديمة' ? 'old' : 'plan');
-                const safeName = (currentProgram.name_en || currentProgram.name).toString()
-                    .replace(/[^a-zA-Z0-9]+/g, '_')
-                    .replace(/^_+|_+$/g, '') || 'plan';
-                const fileName = safeName + '_' + safePlan + '.xlsx';
-
-                const wbout = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
-                const blob = new Blob([wbout], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
-                const url = URL.createObjectURL(blob);
-
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = fileName;
-                document.body.appendChild(a);
-                a.click();
-
-                setTimeout(() => {
-                    URL.revokeObjectURL(url);
-                    a.remove();
-                }, 1000);
-
-            } catch (error) {
-                console.error('Excel Error:', error);
-                alert('حدث خطأ: ' + error.message);
-            }
-        }
+        
 
         // Initialize
         loadData();
