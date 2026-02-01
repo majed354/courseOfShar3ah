@@ -1144,6 +1144,10 @@
                 <span class="stat-number" id="coursesCount">-</span>
                 <span class="stat-label">مقرر دراسي</span>
             </div>
+            <div class="stat-item">
+                <span class="stat-number" id="degreesCount">-</span>
+                <span class="stat-label">درجة علمية</span>
+            </div>
         </div>
     </div>
 
@@ -1292,8 +1296,12 @@
             const uniqueProgramKeys = new Set(
                 programsData.programs.map(p => `${normalizeText(p.name)}||${canonicalDegreeLabel(p.degree)}`)
             );
+            const uniqueDegrees = new Set(
+                programsData.programs.map(p => canonicalDegreeLabel(p.degree))
+            );
             document.getElementById('programsCount').textContent = uniqueProgramKeys.size;
             document.getElementById('coursesCount').textContent = totalCourses;
+            document.getElementById('degreesCount').textContent = uniqueDegrees.size;
         }
 
         // Initialize UI
@@ -1528,13 +1536,25 @@
 
             modalTitle.textContent = `${program.name} - ${canonicalDegreeLabel(program.degree)}`;
 
-            // Group courses by level
+            // Group courses by level, separating electives
             const coursesByLevel = {};
+            const electivesByLevel = {};
+            
             program.courses.forEach(course => {
-                if (!coursesByLevel[course.level]) {
-                    coursesByLevel[course.level] = [];
+                const isElective = course.category && course.category.includes('اختيارية');
+                const level = course.level;
+                
+                if (isElective) {
+                    if (!electivesByLevel[level]) {
+                        electivesByLevel[level] = [];
+                    }
+                    electivesByLevel[level].push(course);
+                } else {
+                    if (!coursesByLevel[level]) {
+                        coursesByLevel[level] = [];
+                    }
+                    coursesByLevel[level].push(course);
                 }
-                coursesByLevel[course.level].push(course);
             });
 
             const levelNames = {
@@ -1542,6 +1562,10 @@
                 4: 'المستوى الرابع', 5: 'المستوى الخامس', 6: 'المستوى السادس',
                 7: 'المستوى السابع', 8: 'المستوى الثامن'
             };
+
+            // Calculate total electives info
+            const allElectives = Object.values(electivesByLevel).flat();
+            const hasElectives = allElectives.length > 0;
 
             let html = `
                 <div class="download-actions">
@@ -1569,16 +1593,33 @@
                 </div>
             `;
 
-            Object.keys(coursesByLevel).sort((a, b) => a - b).forEach(level => {
-                const courses = coursesByLevel[level];
-                const totalHours = courses.reduce((sum, c) => sum + c.hours, 0);
+            // Show elective note if there are electives
+            if (hasElectives) {
+                html += `
+                    <div style="background:#FEF3C7;border:1px solid #F59E0B;border-radius:var(--radius-sm);padding:0.75rem 1rem;margin-bottom:1.5rem;font-size:0.85rem;">
+                        <strong style="color:#92400E;">📌 ملاحظة:</strong>
+                        <span style="color:#78350F;">المقررات الاختيارية المعروضة هي جميع الخيارات المتاحة. يختار الطالب منها حسب متطلبات الخطة (عادةً 10 ساعات من 5 مقررات تقريباً).</span>
+                    </div>
+                `;
+            }
+
+            // Get all levels
+            const allLevels = [...new Set([...Object.keys(coursesByLevel), ...Object.keys(electivesByLevel)])].sort((a, b) => a - b);
+
+            allLevels.forEach(level => {
+                const courses = coursesByLevel[level] || [];
+                const electives = electivesByLevel[level] || [];
+                
+                // Calculate hours (required courses only for level total)
+                const requiredHours = courses.reduce((sum, c) => sum + c.hours, 0);
+                const electiveHours = electives.reduce((sum, c) => sum + c.hours, 0);
 
                 html += `
                     <div class="courses-by-level">
                         <div class="level-header">
                             <span class="level-number">${level}</span>
                             <span class="level-title">${levelNames[level] || `المستوى ${level}`}</span>
-                            <span class="level-hours">${totalHours} ساعة</span>
+                            <span class="level-hours">${requiredHours} ساعة${electives.length > 0 ? ` + اختياري` : ''}</span>
                         </div>
                         <table class="courses-table">
                             <thead>
@@ -1608,6 +1649,26 @@
                                         </tr>
                                     `;
                                 }).join('')}
+                                ${electives.length > 0 ? `
+                                    <tr style="background:#FEF9E7;">
+                                        <td colspan="4" style="padding:0.5rem;font-weight:600;color:#92400E;font-size:0.8rem;">
+                                            📚 مقررات اختيارية (اختر حسب الخطة)
+                                        </td>
+                                    </tr>
+                                    ${electives.map(course => {
+                                        return `
+                                            <tr style="background:#FFFBEB;">
+                                                <td><code class="course-code" style="color:#92400E;">${course.code}</code></td>
+                                                <td>
+                                                    <span style="color:#78350F;">${course.name}</span>
+                                                    ${course.name_en ? `<br><small style="color:#A16207;">${course.name_en}</small>` : ''}
+                                                </td>
+                                                <td style="color:#92400E;">${course.hours}</td>
+                                                <td><span class="course-type-badge" style="background:#FEF3C7;color:#92400E;">اختياري</span></td>
+                                            </tr>
+                                        `;
+                                    }).join('')}
+                                ` : ''}
                             </tbody>
                         </table>
                     </div>
@@ -1646,6 +1707,12 @@
                 return;
             }
 
+            // Check if jsPDF is loaded
+            if (typeof window.jspdf === 'undefined') {
+                alert('جاري تحميل مكتبة PDF، يرجى المحاولة مرة أخرى بعد لحظات');
+                return;
+            }
+
             try {
                 const { jsPDF } = window.jspdf;
                 const doc = new jsPDF({
@@ -1657,31 +1724,25 @@
                 const pageWidth = doc.internal.pageSize.getWidth();
                 const pageHeight = doc.internal.pageSize.getHeight();
                 const margin = 15;
+                let yPos = 15;
 
                 // Header
                 doc.setFillColor(27, 94, 59);
-                doc.rect(0, 0, pageWidth, 35, 'F');
+                doc.rect(0, 0, pageWidth, 40, 'F');
 
                 doc.setTextColor(255, 255, 255);
-                doc.setFontSize(16);
+                doc.setFontSize(14);
                 doc.text('Taif University - College of Sharia and Law', pageWidth / 2, 12, { align: 'center' });
 
-                doc.setFontSize(14);
-                doc.text(currentProgram.name + ' - ' + currentProgram.name_en, pageWidth / 2, 22, { align: 'center' });
+                doc.setFontSize(12);
+                const progName = currentProgram.name_en || currentProgram.name;
+                doc.text(progName, pageWidth / 2, 22, { align: 'center' });
 
                 doc.setFontSize(10);
-                const planInfo = canonicalDegreeLabel(currentProgram.degree) + ' - Plan: ' + currentProgram.plan_type + ' (v' + currentProgram.version + ')';
-                doc.text(planInfo, pageWidth / 2, 30, { align: 'center' });
+                doc.text(canonicalDegreeLabel(currentProgram.degree) + ' - ' + currentProgram.plan_type + ' (v' + currentProgram.version + ')', pageWidth / 2, 30, { align: 'center' });
+                doc.text('Total Hours: ' + currentProgram.total_hours + ' | Courses: ' + currentProgram.courses.length, pageWidth / 2, 37, { align: 'center' });
 
-                // Program info
-                doc.setTextColor(0, 0, 0);
-                doc.setFontSize(11);
-                let yPos = 45;
-
-                doc.text('Total Hours: ' + currentProgram.total_hours, margin, yPos);
-                doc.text('Total Courses: ' + currentProgram.courses.length, margin, yPos + 7);
-
-                yPos = 60;
+                yPos = 50;
 
                 // Group courses by level
                 const coursesByLevel = {};
@@ -1692,62 +1753,68 @@
                     coursesByLevel[course.level].push(course);
                 });
 
-                // Create tables for each level
+                // Create content for each level
                 Object.keys(coursesByLevel).sort((a, b) => a - b).forEach(level => {
                     const courses = coursesByLevel[level];
                     const totalHours = courses.reduce((sum, c) => sum + c.hours, 0);
 
                     // Check if we need a new page
-                    if (yPos > pageHeight - 60) {
+                    if (yPos > pageHeight - 40) {
                         doc.addPage();
-                        yPos = 20;
+                        yPos = 15;
                     }
 
                     // Level header
                     doc.setFillColor(27, 94, 59);
                     doc.setTextColor(255, 255, 255);
-                    doc.setFontSize(11);
-                    doc.rect(margin, yPos, pageWidth - 2 * margin, 8, 'F');
-                    doc.text('Level ' + level + ' - ' + totalHours + ' Hours', margin + 5, yPos + 5.5);
+                    doc.setFontSize(10);
+                    doc.rect(margin, yPos, pageWidth - 2 * margin, 7, 'F');
+                    doc.text('Level ' + level + ' (' + totalHours + ' Hours)', margin + 3, yPos + 5);
 
                     yPos += 10;
 
-                    // Table data
-                    const tableData = courses.map(course => [
-                        course.code,
-                        course.name_en || course.name,
-                        course.hours.toString(),
-                        course.type
-                    ]);
+                    // Table header
+                    doc.setFillColor(240, 240, 240);
+                    doc.setTextColor(0, 0, 0);
+                    doc.rect(margin, yPos, pageWidth - 2 * margin, 7, 'F');
+                    doc.setFontSize(9);
+                    doc.text('Code', margin + 3, yPos + 5);
+                    doc.text('Course Name', margin + 35, yPos + 5);
+                    doc.text('Hrs', margin + 140, yPos + 5);
+                    doc.text('Type', margin + 155, yPos + 5);
 
-                    doc.autoTable({
-                        startY: yPos,
-                        head: [['Code', 'Course Name', 'Hours', 'Type']],
-                        body: tableData,
-                        theme: 'grid',
-                        styles: {
-                            fontSize: 9,
-                            cellPadding: 3,
-                            textColor: [0, 0, 0]
-                        },
-                        headStyles: {
-                            fillColor: [240, 240, 240],
-                            textColor: [0, 0, 0],
-                            fontStyle: 'bold'
-                        },
-                        columnStyles: {
-                            0: { cellWidth: 30 },
-                            1: { cellWidth: 'auto' },
-                            2: { cellWidth: 20, halign: 'center' },
-                            3: { cellWidth: 25 }
-                        },
-                        margin: { left: margin, right: margin }
+                    yPos += 8;
+
+                    // Course rows
+                    doc.setFontSize(8);
+                    courses.forEach(course => {
+                        if (yPos > pageHeight - 20) {
+                            doc.addPage();
+                            yPos = 15;
+                        }
+
+                        const courseName = course.name_en || course.name;
+                        const displayName = courseName.length > 50 ? courseName.substring(0, 47) + '...' : courseName;
+                        const isElective = course.category && course.category.includes('اختيارية');
+
+                        if (isElective) {
+                            doc.setFillColor(255, 251, 235);
+                            doc.rect(margin, yPos - 3, pageWidth - 2 * margin, 6, 'F');
+                        }
+
+                        doc.setTextColor(0, 0, 0);
+                        doc.text(course.code, margin + 3, yPos);
+                        doc.text(displayName, margin + 35, yPos);
+                        doc.text(course.hours.toString(), margin + 142, yPos);
+                        doc.text(isElective ? 'Elective' : course.type, margin + 155, yPos);
+
+                        yPos += 6;
                     });
 
-                    yPos = doc.lastAutoTable.finalY + 10;
+                    yPos += 5;
                 });
 
-                // Footer
+                // Footer on all pages
                 const totalPages = doc.internal.getNumberOfPages();
                 for (let i = 1; i <= totalPages; i++) {
                     doc.setPage(i);
@@ -1757,12 +1824,12 @@
                 }
 
                 // Save
-                const fileName = currentProgram.name.replace(/\s+/g, '_') + '_' + currentProgram.plan_type + '.pdf';
+                const fileName = (currentProgram.name_en || currentProgram.name).replace(/[^a-zA-Z0-9]/g, '_') + '_' + currentProgram.plan_type + '.pdf';
                 doc.save(fileName);
 
             } catch (error) {
                 console.error('PDF Error:', error);
-                alert('حدث خطأ أثناء إنشاء ملف PDF. يرجى المحاولة مرة أخرى.');
+                alert('حدث خطأ: ' + error.message);
             }
         }
 
@@ -1770,6 +1837,12 @@
         function downloadExcel() {
             if (!currentProgram) {
                 alert('لم يتم تحديد برنامج');
+                return;
+            }
+
+            // Check if XLSX is loaded
+            if (typeof XLSX === 'undefined') {
+                alert('جاري تحميل مكتبة Excel، يرجى المحاولة مرة أخرى بعد لحظات');
                 return;
             }
 
@@ -1844,7 +1917,11 @@
                         ['رمز المقرر', 'اسم المقرر', 'الساعات', 'النوع', 'التصنيف']
                     ];
 
-                    courses.forEach(course => {
+                    // Separate required and elective courses
+                    const required = courses.filter(c => !c.category || !c.category.includes('اختيارية'));
+                    const electives = courses.filter(c => c.category && c.category.includes('اختيارية'));
+
+                    required.forEach(course => {
                         levelData.push([
                             course.code,
                             course.name,
@@ -1854,9 +1931,24 @@
                         ]);
                     });
 
-                    // Add total row
-                    const totalHours = courses.reduce((sum, c) => sum + c.hours, 0);
-                    levelData.push(['', 'المجموع', totalHours, '', '']);
+                    // Add required total
+                    const requiredHours = required.reduce((sum, c) => sum + c.hours, 0);
+                    levelData.push(['', 'مجموع الإجباري', requiredHours, '', '']);
+
+                    // Add electives if any
+                    if (electives.length > 0) {
+                        levelData.push(['', '', '', '', '']);
+                        levelData.push(['', '--- المقررات الاختيارية ---', '', '', '']);
+                        electives.forEach(course => {
+                            levelData.push([
+                                course.code,
+                                course.name,
+                                course.hours,
+                                'اختياري',
+                                course.category || ''
+                            ]);
+                        });
+                    }
 
                     const levelSheet = XLSX.utils.aoa_to_sheet(levelData);
                     levelSheet['!cols'] = [
@@ -1876,7 +1968,7 @@
 
             } catch (error) {
                 console.error('Excel Error:', error);
-                alert('حدث خطأ أثناء إنشاء ملف Excel. يرجى المحاولة مرة أخرى.');
+                alert('حدث خطأ: ' + error.message);
             }
         }
 
