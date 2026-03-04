@@ -1528,6 +1528,26 @@
             return (s || '').toString().trim().replace(/\s+/g, ' ');
         }
 
+        function normalizePasswordInput(value) {
+            const westernDigits = '0123456789';
+            const arabicIndicDigits = '٠١٢٣٤٥٦٧٨٩';
+            const easternArabicDigits = '۰۱۲۳۴۵۶۷۸۹';
+
+            return normalizeText(value)
+                .split('')
+                .map(char => {
+                    const arabicIndex = arabicIndicDigits.indexOf(char);
+                    if (arabicIndex !== -1) return westernDigits[arabicIndex];
+
+                    const easternIndex = easternArabicDigits.indexOf(char);
+                    if (easternIndex !== -1) return westernDigits[easternIndex];
+
+                    return char;
+                })
+                .join('')
+                .replace(/\s+/g, '');
+        }
+
         function escapeHtml(value) {
             return (value === null || value === undefined ? '' : String(value))
                 .replace(/&/g, '&amp;')
@@ -1682,7 +1702,7 @@
             if (editAccessGranted) return true;
             const entered = window.prompt('أدخل كلمة المرور لتفعيل التعديل:');
             if (entered === null) return false;
-            if (normalizeText(entered) !== EDIT_PASSWORD) {
+            if (normalizePasswordInput(entered) !== normalizePasswordInput(EDIT_PASSWORD)) {
                 alert('كلمة المرور غير صحيحة');
                 return false;
             }
