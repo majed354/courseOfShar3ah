@@ -358,6 +358,23 @@
             box-shadow: 4px 0 0 var(--accent);
         }
 
+        .result-item.quick-edit-target {
+            cursor: pointer;
+        }
+
+        .result-item.quick-edit-target::after {
+            content: 'انقر للتعديل السريع';
+            display: inline-block;
+            margin-top: 0.55rem;
+            color: #1E40AF;
+            background: #DBEAFE;
+            border: 1px solid #BFDBFE;
+            border-radius: 999px;
+            padding: 0.2rem 0.65rem;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
         .result-course-name {
             font-weight: 700;
             font-size: 1.05rem;
@@ -410,6 +427,16 @@
             background: var(--bg-card);
             color: var(--text-dark);
             line-height: 1.3;
+            font-family: inherit;
+            appearance: none;
+            cursor: pointer;
+            text-align: right;
+            text-decoration: none;
+        }
+
+        .program-chip:hover {
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-sm);
         }
 
         .program-chip .chip-degree {
@@ -919,6 +946,17 @@
             background: var(--bg-light);
         }
 
+        .course-row-highlight {
+            background: #EFF6FF !important;
+            box-shadow: inset 0 0 0 2px #60A5FA;
+            animation: rowPulse 1.5s ease;
+        }
+
+        @keyframes rowPulse {
+            0% { box-shadow: inset 0 0 0 2px #2563EB; }
+            100% { box-shadow: inset 0 0 0 2px #60A5FA; }
+        }
+
         .edit-input,
         .edit-select {
             width: 100%;
@@ -1021,6 +1059,42 @@
         .hours-compare-badge {
             background: #EEF2FF;
             color: #3730A3;
+        }
+
+        .floating-edit-btn {
+            position: fixed;
+            left: 1rem;
+            bottom: 1rem;
+            z-index: 1200;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+            border: none;
+            border-radius: 999px;
+            padding: 0.72rem 1rem;
+            background: #0F172A;
+            color: #fff;
+            box-shadow: 0 14px 30px rgba(15, 23, 42, 0.35);
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.82rem;
+            font-weight: 700;
+            transition: transform var(--transition-fast), background var(--transition-fast), box-shadow var(--transition-fast);
+        }
+
+        .floating-edit-btn svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .floating-edit-btn:hover {
+            transform: translateY(-2px);
+            background: #1E293B;
+        }
+
+        .floating-edit-btn.active {
+            background: #B45309;
+            box-shadow: 0 14px 30px rgba(180, 83, 9, 0.35);
         }
 
         .course-type-badge {
@@ -1248,6 +1322,17 @@
                 font-size: 0.68rem;
                 padding: 0.3rem 0.5rem;
             }
+
+            .floating-edit-btn {
+                left: 0.75rem;
+                bottom: 0.75rem;
+                padding: 0.7rem;
+                border-radius: 50%;
+            }
+
+            .floating-edit-btn span {
+                display: none;
+            }
         }
 
         /* Print Styles */
@@ -1256,7 +1341,8 @@
     .stats-bar,
     .search-section,
     .degree-tabs,
-    footer {
+    footer,
+    .floating-edit-btn {
         display: none !important;
     }
 
@@ -1404,6 +1490,13 @@
         </div>
     </div>
 
+    <button id="floatingEditBtn" class="floating-edit-btn" type="button" onclick="toggleFloatingEditMode()" title="تفعيل وضع التعديل">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M22.7 19.3l-4-4a1 1 0 0 0-1.4 0l-1 1-2.9-2.9 1-1a1 1 0 0 0 0-1.4l-4-4a1 1 0 0 0-1.4 0L7 8.3l-.7-.7A4.5 4.5 0 1 0 4.9 9l.7.7L2.8 12.5a1 1 0 0 0 0 1.4l4 4a1 1 0 0 0 1.4 0l2.8-2.8.7.7A4.5 4.5 0 1 0 13.1 14l-.7-.7 2.8-2.8 2.9 2.9-1 1a1 1 0 0 0 0 1.4l4 4a1 1 0 0 0 1.4-1.4z"/>
+        </svg>
+        <span id="floatingEditBtnLabel">وضع التعديل</span>
+    </button>
+
     <footer>
         <div class="footer-content">
             <p class="footer-title">كلية الشريعة والأنظمة - جامعة الطائف</p>
@@ -1423,6 +1516,9 @@
         let activeDegreeFilter = 'all';
         let editAccessGranted = false;
         let editModeEnabled = false;
+        let quickEditModeEnabled = false;
+        let highlightedCourseIndex = null;
+        let lastSearchResults = [];
 
         function deepClone(value) {
             return JSON.parse(JSON.stringify(value));
@@ -1582,6 +1678,57 @@
             return currentProgram;
         }
 
+        function requestEditAccess() {
+            if (editAccessGranted) return true;
+            const entered = window.prompt('أدخل كلمة المرور لتفعيل التعديل:');
+            if (entered === null) return false;
+            if (normalizeText(entered) !== EDIT_PASSWORD) {
+                alert('كلمة المرور غير صحيحة');
+                return false;
+            }
+            editAccessGranted = true;
+            return true;
+        }
+
+        function updateFloatingEditButton() {
+            const btn = document.getElementById('floatingEditBtn');
+            const label = document.getElementById('floatingEditBtnLabel');
+            if (!btn || !label) return;
+            btn.classList.toggle('active', quickEditModeEnabled);
+            btn.title = quickEditModeEnabled ? 'إيقاف وضع التعديل' : 'تفعيل وضع التعديل';
+            label.textContent = quickEditModeEnabled ? 'إيقاف التعديل' : 'وضع التعديل';
+        }
+
+        function setQuickEditState(nextState) {
+            quickEditModeEnabled = Boolean(nextState);
+            if (!quickEditModeEnabled) {
+                highlightedCourseIndex = null;
+            }
+            updateFloatingEditButton();
+
+            const modal = document.getElementById('modalOverlay');
+            if (modal && modal.classList.contains('active') && getCurrentProgram()) {
+                editModeEnabled = quickEditModeEnabled;
+                renderCurrentProgramModal();
+            }
+        }
+
+        function toggleFloatingEditMode() {
+            if (quickEditModeEnabled) {
+                setQuickEditState(false);
+                return;
+            }
+            if (!requestEditAccess()) return;
+            setQuickEditState(true);
+        }
+
+        function ensureQuickEditEnabled() {
+            if (quickEditModeEnabled) return true;
+            if (!requestEditAccess()) return false;
+            setQuickEditState(true);
+            return true;
+        }
+
         function applyProgramMutation() {
             saveCustomData();
             updateStats();
@@ -1640,6 +1787,7 @@
         function initializeUI() {
             if (!programsData || !Array.isArray(programsData.programs)) return;
             updateStats();
+            updateFloatingEditButton();
 
             const degrees = [...new Set(programsData.programs.map(p => canonicalDegreeLabel(p.degree)).filter(Boolean))];
             const tabsContainer = document.getElementById('degreeTabs');
@@ -1741,12 +1889,13 @@
             const query = queryRaw.toLowerCase();
             if (query.length < 2) {
                 searchResults.classList.remove('active');
+                lastSearchResults = [];
                 return;
             }
 
             const grouped = new Map();
-            programsData.programs.forEach(program => {
-                (program.courses || []).forEach(course => {
+            programsData.programs.forEach((program, programIndex) => {
+                (program.courses || []).forEach((course, courseIndex) => {
                     const nameAr = normalizeText(course.name).toLowerCase();
                     const code = normalizeText(course.code).toLowerCase();
                     const nameEn = normalizeText(course.name_en).toLowerCase();
@@ -1768,7 +1917,9 @@
                         program: normalizeText(program.name),
                         degree: canonicalDegreeLabel(program.degree),
                         plan_type: normalizeText(program.plan_type),
-                        category: course.category || null
+                        category: course.category || null,
+                        programIndex,
+                        courseIndex
                     });
                 });
             });
@@ -1777,15 +1928,34 @@
                 const programGroups = groupProgramsForCourse(item.occurrences);
                 const reqSet = new Set(item.occurrences.map(o => requirementFromCategory(o.category)));
                 const catSet = new Set(item.occurrences.map(o => normalizeText(o.category)).filter(Boolean));
+                const uniqueRefs = [];
+                const seenRefs = new Set();
+
+                item.occurrences.forEach(o => {
+                    const key = `${o.programIndex}:${o.courseIndex}`;
+                    if (seenRefs.has(key)) return;
+                    seenRefs.add(key);
+                    uniqueRefs.push({
+                        program: o.program,
+                        degree: o.degree,
+                        plan_type: o.plan_type,
+                        category: o.category || null,
+                        programIndex: o.programIndex,
+                        courseIndex: o.courseIndex
+                    });
+                });
+
                 return {
                     ...item,
                     program_groups: programGroups,
                     programs_count: programGroups.length,
+                    occurrence_refs: uniqueRefs,
                     requirement_summary: reqSet.size === 1 ? Array.from(reqSet)[0] : 'يختلف حسب البرنامج',
                     category_summary: catSet.size === 0 ? null : (catSet.size === 1 ? Array.from(catSet)[0] : 'يختلف حسب البرنامج')
                 };
             });
 
+            lastSearchResults = results;
             displayResults(results);
         }
 
@@ -1804,28 +1974,21 @@
                 return;
             }
 
-            resultsContainer.innerHTML = results.map(result => {
-                const programsHtml = (result.program_groups || []).map(pg => {
-                    const planTypes = (pg.plan_types || []).slice();
-                    planTypes.sort((a, b) => {
-                        const rank = x => (x === 'قديمة' ? 0 : (x === 'جديدة' ? 1 : 2));
-                        return rank(a) - rank(b);
-                    });
-                    const planLabel = planTypes.length
-                        ? (planTypes.length === 1 ? `الخطة ${planTypes[0]}` : `الخطة ${planTypes.join(' + ')}`)
-                        : '';
-                    const chipClass = chipClassForPlans(pg.plan_types);
+            resultsContainer.innerHTML = results.map((result, resultIndex) => {
+                const programsHtml = (result.occurrence_refs || []).map((ref, refIndex) => {
+                    const chipClass = chipClassForPlans([ref.plan_type]);
+                    const planLabel = ref.plan_type ? `الخطة ${ref.plan_type}` : '';
                     return `
-                        <span class="program-chip ${chipClass}">
-                            <span class="chip-name">${escapeHtml(pg.program)}</span>
-                            <span class="chip-degree">${escapeHtml(pg.degree)}</span>
+                        <button type="button" class="program-chip ${chipClass}" onclick="quickEditOccurrence(${resultIndex}, ${refIndex}, event)">
+                            <span class="chip-name">${escapeHtml(ref.program)}</span>
+                            <span class="chip-degree">${escapeHtml(ref.degree)}</span>
                             ${planLabel ? `<span class="chip-plans">${escapeHtml(planLabel)}</span>` : ''}
-                        </span>
+                        </button>
                     `;
                 }).join('');
 
                 return `
-                    <div class="result-item">
+                    <div class="result-item quick-edit-target" onclick="quickEditFromSearch(${resultIndex})">
                         <div class="result-course-name">${escapeHtml(result.name)}</div>
                         <div class="result-meta">
                             <span class="result-tag"><code class="course-code">${escapeHtml(result.code)}</code></span>
@@ -1843,6 +2006,26 @@
         function clearSearch() {
             searchInput.value = '';
             searchResults.classList.remove('active');
+            lastSearchResults = [];
+        }
+
+        function quickEditFromSearch(resultIndex) {
+            const result = lastSearchResults[resultIndex];
+            if (!result || !Array.isArray(result.occurrence_refs) || !result.occurrence_refs.length) {
+                return;
+            }
+            quickEditOccurrence(resultIndex, 0);
+        }
+
+        function quickEditOccurrence(resultIndex, referenceIndex, evt) {
+            if (evt) evt.stopPropagation();
+            const result = lastSearchResults[resultIndex];
+            if (!result || !Array.isArray(result.occurrence_refs)) return;
+            const target = result.occurrence_refs[referenceIndex];
+            if (!target) return;
+
+            if (!ensureQuickEditEnabled()) return;
+            openProgramModal(target.programIndex, target.courseIndex);
         }
 
         function splitCoursesByLocation(program) {
@@ -1876,10 +2059,11 @@
             const inOutsidePool = isOutsideLevelElective(course);
             const levelValue = Math.max(1, Math.round(toNumber(course.level, 1)));
             const typeValue = normalizeText(course.type) || 'نظري';
+            const rowClass = highlightedCourseIndex === courseIndex ? 'course-row-highlight' : '';
 
             if (!editModeEnabled) {
                 return `
-                    <tr>
+                    <tr class="${rowClass}" data-course-index="${courseIndex}">
                         <td><code class="course-code">${escapeHtml(course.code)}</code></td>
                         <td>
                             <strong>${escapeHtml(course.name)}</strong>
@@ -1893,7 +2077,7 @@
             }
 
             return `
-                <tr>
+                <tr class="${rowClass}" data-course-index="${courseIndex}">
                     <td>
                         <input class="edit-input" value="${escapeHtml(course.code)}" placeholder="رمز المقرر" onchange="setCourseField(${courseIndex}, 'code', this.value)">
                     </td>
@@ -2060,15 +2244,24 @@
             `;
 
             modalBody.innerHTML = html;
+            if (highlightedCourseIndex !== null) {
+                requestAnimationFrame(() => {
+                    const targetRow = modalBody.querySelector(`[data-course-index="${highlightedCourseIndex}"]`);
+                    if (targetRow) {
+                        targetRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                });
+            }
         }
 
-        function openProgramModal(programIndex) {
+        function openProgramModal(programIndex, focusCourseIndex = null) {
             const program = programsData && programsData.programs ? programsData.programs[programIndex] : null;
             if (!program) return;
 
             currentProgramIndex = programIndex;
             currentProgram = program;
-            editModeEnabled = false;
+            highlightedCourseIndex = Number.isInteger(focusCourseIndex) ? focusCourseIndex : null;
+            editModeEnabled = quickEditModeEnabled;
             renderCurrentProgramModal();
 
             const modal = document.getElementById('modalOverlay');
@@ -2079,19 +2272,12 @@
         function toggleEditMode() {
             const program = getCurrentProgram();
             if (!program) return;
-
-            if (!editAccessGranted) {
-                const entered = window.prompt('أدخل كلمة المرور لتفعيل التعديل:');
-                if (entered === null) return;
-                if (normalizeText(entered) !== EDIT_PASSWORD) {
-                    alert('كلمة المرور غير صحيحة');
-                    return;
-                }
-                editAccessGranted = true;
+            if (!quickEditModeEnabled) {
+                if (!requestEditAccess()) return;
+                setQuickEditState(true);
+                return;
             }
-
-            editModeEnabled = !editModeEnabled;
-            renderCurrentProgramModal();
+            setQuickEditState(false);
         }
 
         function setCourseField(courseIndex, field, value) {
@@ -2187,6 +2373,7 @@
             document.body.style.overflow = '';
             currentProgram = null;
             currentProgramIndex = null;
+            highlightedCourseIndex = null;
             editModeEnabled = false;
         }
 
