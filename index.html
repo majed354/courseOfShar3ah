@@ -800,6 +800,40 @@
             transform: translateY(-2px);
         }
 
+        .download-btn.edit-toggle {
+            background: #2563EB;
+            color: #fff;
+        }
+
+        .download-btn.edit-toggle:hover {
+            background: #1D4ED8;
+            transform: translateY(-2px);
+        }
+
+        .download-btn.edit-on {
+            background: #B45309;
+        }
+
+        .download-btn.save-edit {
+            background: #0F766E;
+            color: #fff;
+        }
+
+        .download-btn.save-edit:hover {
+            background: #115E59;
+            transform: translateY(-2px);
+        }
+
+        .download-btn.add-course {
+            background: #334155;
+            color: #fff;
+        }
+
+        .download-btn.add-course:hover {
+            background: #1E293B;
+            transform: translateY(-2px);
+        }
+
         .modal-info {
             display: flex;
             gap: 0.75rem;
@@ -883,6 +917,110 @@
 
         .courses-table tbody tr:hover {
             background: var(--bg-light);
+        }
+
+        .edit-input,
+        .edit-select {
+            width: 100%;
+            border: 1px solid var(--border-medium);
+            border-radius: var(--radius-xs);
+            padding: 0.35rem 0.5rem;
+            font-family: inherit;
+            font-size: 0.78rem;
+            background: #fff;
+            color: var(--text-dark);
+        }
+
+        .edit-input:focus,
+        .edit-select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(27, 94, 59, 0.12);
+        }
+
+        .edit-input + .edit-input {
+            margin-top: 0.35rem;
+        }
+
+        .row-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 0.45rem;
+            min-width: 170px;
+        }
+
+        .action-inline {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.72rem;
+            color: var(--text-medium);
+        }
+
+        .action-inline input[type="checkbox"] {
+            width: 15px;
+            height: 15px;
+            accent-color: var(--primary);
+        }
+
+        .mini-btn {
+            border: none;
+            border-radius: var(--radius-xs);
+            padding: 0.35rem 0.5rem;
+            font-family: inherit;
+            font-size: 0.72rem;
+            font-weight: 600;
+            cursor: pointer;
+            color: #fff;
+            background: #B91C1C;
+            transition: transform var(--transition-fast), background var(--transition-fast);
+        }
+
+        .mini-btn:hover {
+            transform: translateY(-1px);
+            background: #991B1B;
+        }
+
+        .course-meta {
+            display: block;
+            margin-top: 0.2rem;
+            color: var(--text-muted);
+            font-size: 0.72rem;
+            line-height: 1.45;
+        }
+
+        .edit-help {
+            background: #EFF6FF;
+            border: 1px solid #BFDBFE;
+            border-radius: var(--radius-sm);
+            padding: 0.75rem 0.9rem;
+            color: #1E3A8A;
+            font-size: 0.83rem;
+            margin-bottom: 1rem;
+        }
+
+        .optional-pool-section .level-header {
+            background: #FEF3C7;
+            border: 1px solid #FCD34D;
+        }
+
+        .optional-pool-section .level-number {
+            background: #B45309;
+        }
+
+        .optional-pool-note {
+            background: #FFFBEB;
+            border: 1px solid #FDE68A;
+            color: #92400E;
+            border-radius: var(--radius-sm);
+            padding: 0.7rem 0.9rem;
+            font-size: 0.82rem;
+            margin-bottom: 1rem;
+        }
+
+        .hours-compare-badge {
+            background: #EEF2FF;
+            color: #3730A3;
         }
 
         .course-type-badge {
@@ -1044,6 +1182,15 @@
                 width: 100%;
             }
 
+            .row-actions {
+                min-width: 145px;
+            }
+
+            .edit-input,
+            .edit-select {
+                font-size: 0.72rem;
+            }
+
             .courses-table {
                 font-size: 0.75rem;
             }
@@ -1203,6 +1350,18 @@
         </svg>
         تنزيل جميع الخطط CSV
     </button>
+    <button class="download-btn" style="background:#0F766E;color:#fff;" onclick="downloadEditedJSON()">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 3a1 1 0 0 1 1 1v8.59l2.3-2.29a1 1 0 1 1 1.4 1.42l-4 3.98a1 1 0 0 1-1.4 0l-4-3.98a1 1 0 1 1 1.4-1.42L11 12.59V4a1 1 0 0 1 1-1zm-7 14a1 1 0 0 1 1 1v1h12v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1z"/>
+        </svg>
+        تنزيل JSON المعدل
+    </button>
+    <button class="download-btn" style="background:#B91C1C;color:#fff;" onclick="resetToOriginalData()">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 6V3L8 7l4 4V8c2.76 0 5 2.24 5 5a5 5 0 0 1-8.66 3.54 1 1 0 0 0-1.42 1.42A7 7 0 1 0 12 6z"/>
+        </svg>
+        استعادة البيانات الأصلية
+    </button>
 </div>
 
             <div class="search-results" id="searchResults">
@@ -1253,13 +1412,38 @@
     </footer>
 
     <script>
-        // Global data store - keep original structure
-        let programsData = null;
-        let currentProgram = null;
+        const EDIT_PASSWORD = '140505';
+        const LOCAL_STORAGE_KEY = 'courseOfShar3ah_custom_data_v2';
+        const MAX_LEVEL = 12;
 
-        // Utility functions (same as original)
+        let programsData = null;
+        let originalProgramsData = null;
+        let currentProgram = null;
+        let currentProgramIndex = null;
+        let activeDegreeFilter = 'all';
+        let editAccessGranted = false;
+        let editModeEnabled = false;
+
+        function deepClone(value) {
+            return JSON.parse(JSON.stringify(value));
+        }
+
         function normalizeText(s) {
             return (s || '').toString().trim().replace(/\s+/g, ' ');
+        }
+
+        function escapeHtml(value) {
+            return (value === null || value === undefined ? '' : String(value))
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function toNumber(value, fallback = 0) {
+            const parsed = Number(value);
+            return Number.isFinite(parsed) ? parsed : fallback;
         }
 
         function canonicalDegreeLabel(degree) {
@@ -1290,7 +1474,11 @@
             (occurrences || []).forEach(o => {
                 const key = `${normalizeText(o.program)}||${canonicalDegreeLabel(o.degree)}`;
                 if (!map.has(key)) {
-                    map.set(key, { program: normalizeText(o.program), degree: canonicalDegreeLabel(o.degree), planTypes: new Set() });
+                    map.set(key, {
+                        program: normalizeText(o.program),
+                        degree: canonicalDegreeLabel(o.degree),
+                        planTypes: new Set()
+                    });
                 }
                 if (o.plan_type) map.get(key).planTypes.add(o.plan_type);
             });
@@ -1301,7 +1489,109 @@
             }));
         }
 
-        // Stats bar scroll effect
+        function sanitizeDataShape(data) {
+            if (!data || typeof data !== 'object') return { programs: [] };
+            if (!Array.isArray(data.programs)) data.programs = [];
+            data.programs.forEach(program => {
+                if (!Array.isArray(program.courses)) {
+                    program.courses = [];
+                }
+            });
+            return data;
+        }
+
+        function readStoredData(fallbackData) {
+            try {
+                const raw = localStorage.getItem(LOCAL_STORAGE_KEY);
+                if (!raw) return deepClone(fallbackData);
+                const parsed = JSON.parse(raw);
+                sanitizeDataShape(parsed);
+                return parsed;
+            } catch (error) {
+                console.warn('Stored data ignored:', error);
+                localStorage.removeItem(LOCAL_STORAGE_KEY);
+                return deepClone(fallbackData);
+            }
+        }
+
+        function saveCustomData() {
+            try {
+                localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(programsData));
+            } catch (error) {
+                console.warn('Could not save custom data:', error);
+            }
+        }
+
+        function clearCustomData() {
+            localStorage.removeItem(LOCAL_STORAGE_KEY);
+        }
+
+        function isCountedElectivePlaceholder(course) {
+            const text = `${normalizeText(course && course.name)} ${normalizeText(course && course.category)}`;
+            return /(?:جامعي|جامعة|كلية|برنامج)\s*اختياري|اختياري\s*(?:جامعي|جامعة|كلية|برنامج)/.test(text);
+        }
+
+        function isOutsideLevelElective(course) {
+            if (!course || typeof course !== 'object') return false;
+            if (course.optional_pool === true) return true;
+            if (course.optional_pool === false) return false;
+            const category = normalizeText(course.category);
+            if (!category.includes('اختيار')) return false;
+            return !isCountedElectivePlaceholder(course);
+        }
+
+        function getCourseTypeClass(type) {
+            if (type === 'عملي') return 'type-practical';
+            if (type === 'بحث') return 'type-research';
+            if (type === 'تدريب') return 'type-training';
+            return 'type-theory';
+        }
+
+        function getLevelTitle(level) {
+            const map = {
+                1: 'المستوى الأول',
+                2: 'المستوى الثاني',
+                3: 'المستوى الثالث',
+                4: 'المستوى الرابع',
+                5: 'المستوى الخامس',
+                6: 'المستوى السادس',
+                7: 'المستوى السابع',
+                8: 'المستوى الثامن',
+                9: 'المستوى التاسع',
+                10: 'المستوى العاشر',
+                11: 'المستوى الحادي عشر',
+                12: 'المستوى الثاني عشر'
+            };
+            return map[level] || `المستوى ${level}`;
+        }
+
+        function levelOptionsHtml(selectedLevel) {
+            const current = Math.max(1, Math.round(toNumber(selectedLevel, 1)));
+            let options = '';
+            for (let level = 1; level <= MAX_LEVEL; level += 1) {
+                options += `<option value="${level}" ${current === level ? 'selected' : ''}>${level}</option>`;
+            }
+            return options;
+        }
+
+        function getCurrentProgram() {
+            if (currentProgramIndex === null || !programsData || !Array.isArray(programsData.programs)) {
+                return null;
+            }
+            currentProgram = programsData.programs[currentProgramIndex] || null;
+            return currentProgram;
+        }
+
+        function applyProgramMutation() {
+            saveCustomData();
+            updateStats();
+            renderPrograms(activeDegreeFilter);
+            const modal = document.getElementById('modalOverlay');
+            if (modal.classList.contains('active')) {
+                renderCurrentProgramModal();
+            }
+        }
+
         window.addEventListener('scroll', () => {
             const statsBar = document.getElementById('statsBar');
             if (window.scrollY > 100) {
@@ -1311,12 +1601,14 @@
             }
         });
 
-        // Load data
         async function loadData() {
             try {
                 const response = await fetch('data.json');
                 const data = await response.json();
-                programsData = data;
+                sanitizeDataShape(data);
+                originalProgramsData = deepClone(data);
+                programsData = readStoredData(data);
+                sanitizeDataShape(programsData);
                 initializeUI();
             } catch (error) {
                 console.error('Error loading data:', error);
@@ -1329,9 +1621,11 @@
             }
         }
 
-        // Update stats (same logic as original)
         function updateStats() {
-            const totalCourses = programsData.programs.reduce((sum, p) => sum + ((p.courses && p.courses.length) ? p.courses.length : 0), 0);
+            if (!programsData || !Array.isArray(programsData.programs)) return;
+            const totalCourses = programsData.programs.reduce((sum, p) => {
+                return sum + ((p.courses && p.courses.length) ? p.courses.length : 0);
+            }, 0);
             const uniqueProgramKeys = new Set(
                 programsData.programs.map(p => `${normalizeText(p.name)}||${canonicalDegreeLabel(p.degree)}`)
             );
@@ -1343,42 +1637,41 @@
             document.getElementById('degreesCount').textContent = uniqueDegrees.size;
         }
 
-        // Initialize UI
         function initializeUI() {
+            if (!programsData || !Array.isArray(programsData.programs)) return;
             updateStats();
 
-            // Get unique degrees
-            const degrees = [...new Set(programsData.programs.map(p => canonicalDegreeLabel(p.degree)))];
-
-            // Create degree tabs
+            const degrees = [...new Set(programsData.programs.map(p => canonicalDegreeLabel(p.degree)).filter(Boolean))];
             const tabsContainer = document.getElementById('degreeTabs');
             tabsContainer.innerHTML = `
-                <button class="degree-tab active" data-degree="all">الكل</button>
-                ${degrees.map(d => `<button class="degree-tab" data-degree="${d}">${d}</button>`).join('')}
+                <button class="degree-tab ${activeDegreeFilter === 'all' ? 'active' : ''}" data-degree="all">الكل</button>
+                ${degrees.map(d => `<button class="degree-tab ${activeDegreeFilter === d ? 'active' : ''}" data-degree="${escapeHtml(d)}">${escapeHtml(d)}</button>`).join('')}
             `;
 
-            // Tab click handlers
             tabsContainer.querySelectorAll('.degree-tab').forEach(tab => {
                 tab.addEventListener('click', () => {
-                    tabsContainer.querySelectorAll('.degree-tab').forEach(t => t.classList.remove('active'));
-                    tab.classList.add('active');
                     renderPrograms(tab.dataset.degree);
                 });
             });
 
-            // Initial render
-            renderPrograms('all');
+            renderPrograms(activeDegreeFilter);
         }
 
-        // Render programs
-        function renderPrograms(degreeFilter) {
-            const filtered = degreeFilter === 'all' 
-                ? programsData.programs 
-                : programsData.programs.filter(p => canonicalDegreeLabel(p.degree) === degreeFilter);
+        function renderPrograms(degreeFilter = activeDegreeFilter) {
+            if (!programsData || !Array.isArray(programsData.programs)) return;
+            activeDegreeFilter = degreeFilter;
+
+            document.querySelectorAll('#degreeTabs .degree-tab').forEach(tab => {
+                tab.classList.toggle('active', tab.dataset.degree === activeDegreeFilter);
+            });
+
+            const allWithIndex = programsData.programs.map((program, index) => ({ program, index }));
+            const filtered = activeDegreeFilter === 'all'
+                ? allWithIndex
+                : allWithIndex.filter(({ program }) => canonicalDegreeLabel(program.degree) === activeDegreeFilter);
 
             const grid = document.getElementById('programsGrid');
-            
-            if (filtered.length === 0) {
+            if (!filtered.length) {
                 grid.innerHTML = `
                     <div class="no-results">
                         <div class="no-results-icon">📚</div>
@@ -1388,81 +1681,79 @@
                 return;
             }
 
-            grid.innerHTML = filtered.map((program, index) => `
-                <div class="program-card" onclick="openProgramModal(${index}, '${degreeFilter}')">
-                    <div class="program-header">
-                        <span class="program-degree-badge">${canonicalDegreeLabel(program.degree)}</span>
-                        <div class="program-name">${program.name}</div>
-                        ${program.name_en ? `<div class="program-name-en">${program.name_en}</div>` : ''}
-                    </div>
-                    <div class="program-body">
-                        <div class="program-stats">
-                            <div class="program-stat">
-                                <span class="program-stat-value">${program.total_hours}</span>
-                                <span class="program-stat-label">ساعة</span>
+            grid.innerHTML = filtered.map(({ program, index }) => {
+                const planType = normalizeText(program.plan_type) || 'غير محددة';
+                const planClass = planType === 'جديدة' ? 'plan-new' : 'plan-old';
+                const courseCount = Array.isArray(program.courses) ? program.courses.length : 0;
+                return `
+                    <div class="program-card" onclick="openProgramModal(${index})">
+                        <div class="program-header">
+                            <span class="program-degree-badge">${escapeHtml(canonicalDegreeLabel(program.degree))}</span>
+                            <div class="program-name">${escapeHtml(program.name)}</div>
+                            ${program.name_en ? `<div class="program-name-en">${escapeHtml(program.name_en)}</div>` : ''}
+                        </div>
+                        <div class="program-body">
+                            <div class="program-stats">
+                                <div class="program-stat">
+                                    <span class="program-stat-value">${escapeHtml(program.total_hours)}</span>
+                                    <span class="program-stat-label">ساعة</span>
+                                </div>
+                                <div class="program-stat">
+                                    <span class="program-stat-value">${courseCount}</span>
+                                    <span class="program-stat-label">مقرر</span>
+                                </div>
+                                <div class="program-stat">
+                                    <span class="program-stat-value">${escapeHtml(program.version)}</span>
+                                    <span class="program-stat-label">إصدار</span>
+                                </div>
                             </div>
-                            <div class="program-stat">
-                                <span class="program-stat-value">${program.courses.length}</span>
-                                <span class="program-stat-label">مقرر</span>
-                            </div>
-                            <div class="program-stat">
-                                <span class="program-stat-value">${program.version}</span>
-                                <span class="program-stat-label">إصدار</span>
+                            <div class="program-footer">
+                                <span class="program-plan-badge ${planClass}">
+                                    الخطة ${escapeHtml(planType)}
+                                </span>
+                                <span class="view-btn">
+                                    عرض التفاصيل
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+                                    </svg>
+                                </span>
                             </div>
                         </div>
-                        <div class="program-footer">
-                            <span class="program-plan-badge ${program.plan_type === 'جديدة' ? 'plan-new' : 'plan-old'}">
-                                الخطة ${program.plan_type}
-                            </span>
-                            <span class="view-btn">
-                                عرض التفاصيل
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-                                </svg>
-                            </span>
-                        </div>
                     </div>
-                </div>
-            `).join('');
+                `;
+            }).join('');
         }
 
-        // Search functionality
         const searchInput = document.getElementById('searchInput');
         const searchResults = document.getElementById('searchResults');
         const resultsContainer = document.getElementById('resultsContainer');
         const resultsCount = document.getElementById('resultsCount');
-
         let searchTimeout;
+
         searchInput.addEventListener('input', () => {
             clearTimeout(searchTimeout);
             searchTimeout = setTimeout(performSearch, 300);
         });
 
         function performSearch() {
+            if (!programsData || !Array.isArray(programsData.programs)) return;
             const queryRaw = searchInput.value.trim();
             const query = queryRaw.toLowerCase();
-
             if (query.length < 2) {
                 searchResults.classList.remove('active');
                 return;
             }
 
             const grouped = new Map();
-
             programsData.programs.forEach(program => {
-                program.courses.forEach(course => {
+                (program.courses || []).forEach(course => {
                     const nameAr = normalizeText(course.name).toLowerCase();
                     const code = normalizeText(course.code).toLowerCase();
                     const nameEn = normalizeText(course.name_en).toLowerCase();
-
-                    const isMatch = nameAr.includes(query) ||
-                        code.includes(query) ||
-                        (nameEn && nameEn.includes(query));
-
+                    const isMatch = nameAr.includes(query) || code.includes(query) || (nameEn && nameEn.includes(query));
                     if (!isMatch) return;
 
                     const key = `${code}||${normalizeText(course.name)}`;
-
                     if (!grouped.has(key)) {
                         grouped.set(key, {
                             code: course.code,
@@ -1473,7 +1764,6 @@
                             occurrences: []
                         });
                     }
-
                     grouped.get(key).occurrences.push({
                         program: normalizeText(program.name),
                         degree: canonicalDegreeLabel(program.degree),
@@ -1487,7 +1777,6 @@
                 const programGroups = groupProgramsForCourse(item.occurrences);
                 const reqSet = new Set(item.occurrences.map(o => requirementFromCategory(o.category)));
                 const catSet = new Set(item.occurrences.map(o => normalizeText(o.category)).filter(Boolean));
-
                 return {
                     ...item,
                     program_groups: programGroups,
@@ -1504,7 +1793,7 @@
             searchResults.classList.add('active');
             resultsCount.textContent = `${results.length} نتيجة`;
 
-            if (results.length === 0) {
+            if (!results.length) {
                 resultsContainer.innerHTML = `
                     <div class="no-results">
                         <div class="no-results-icon">🔍</div>
@@ -1519,33 +1808,30 @@
                 const programsHtml = (result.program_groups || []).map(pg => {
                     const planTypes = (pg.plan_types || []).slice();
                     planTypes.sort((a, b) => {
-                        const rank = (x) => x === 'قديمة' ? 0 : (x === 'جديدة' ? 1 : 2);
+                        const rank = x => (x === 'قديمة' ? 0 : (x === 'جديدة' ? 1 : 2));
                         return rank(a) - rank(b);
                     });
-
                     const planLabel = planTypes.length
                         ? (planTypes.length === 1 ? `الخطة ${planTypes[0]}` : `الخطة ${planTypes.join(' + ')}`)
                         : '';
-
                     const chipClass = chipClassForPlans(pg.plan_types);
-
                     return `
                         <span class="program-chip ${chipClass}">
-                            <span class="chip-name">${pg.program}</span>
-                            <span class="chip-degree">${pg.degree}</span>
-                            ${planLabel ? `<span class="chip-plans">${planLabel}</span>` : ''}
+                            <span class="chip-name">${escapeHtml(pg.program)}</span>
+                            <span class="chip-degree">${escapeHtml(pg.degree)}</span>
+                            ${planLabel ? `<span class="chip-plans">${escapeHtml(planLabel)}</span>` : ''}
                         </span>
                     `;
                 }).join('');
 
                 return `
                     <div class="result-item">
-                        <div class="result-course-name">${result.name}</div>
+                        <div class="result-course-name">${escapeHtml(result.name)}</div>
                         <div class="result-meta">
-                            <span class="result-tag"><code class="course-code">${result.code}</code></span>
-                            <span class="result-tag">${result.hours} ساعة</span>
-                            <span class="result-tag">${result.requirement_summary}</span>
-                            ${result.category_summary ? `<span class="result-tag">${result.category_summary}</span>` : ''}
+                            <span class="result-tag"><code class="course-code">${escapeHtml(result.code)}</code></span>
+                            <span class="result-tag">${escapeHtml(result.hours)} ساعة</span>
+                            <span class="result-tag">${escapeHtml(result.requirement_summary)}</span>
+                            ${result.category_summary ? `<span class="result-tag">${escapeHtml(result.category_summary)}</span>` : ''}
                             <span class="result-tag">موجود في ${result.programs_count} برامج</span>
                         </div>
                         <div class="result-programs">${programsHtml}</div>
@@ -1559,338 +1845,549 @@
             searchResults.classList.remove('active');
         }
 
-        // Modal functionality
-        function openProgramModal(index, degreeFilter) {
-            const filtered = degreeFilter === 'all' 
-                ? programsData.programs 
-                : programsData.programs.filter(p => canonicalDegreeLabel(p.degree) === degreeFilter);
-            
-            const program = filtered[index];
-            if (!program) return;
-
-            currentProgram = program;
-            const modal = document.getElementById('modalOverlay');
-            const modalTitle = document.getElementById('modalTitle');
-            const modalBody = document.getElementById('modalBody');
-
-            modalTitle.textContent = `${program.name} - ${canonicalDegreeLabel(program.degree)}`;
-
-            // Group courses by level, separating electives
+        function splitCoursesByLocation(program) {
             const coursesByLevel = {};
-            const electivesByLevel = {};
-            
-            program.courses.forEach(course => {
-                const isElective = course.category && course.category.includes('اختيارية');
-                const level = course.level;
-                
-                if (isElective) {
-                    if (!electivesByLevel[level]) {
-                        electivesByLevel[level] = [];
-                    }
-                    electivesByLevel[level].push(course);
-                } else {
-                    if (!coursesByLevel[level]) {
-                        coursesByLevel[level] = [];
-                    }
-                    coursesByLevel[level].push(course);
+            const outsideOptionals = [];
+
+            (program.courses || []).forEach((course, courseIndex) => {
+                const item = { course, courseIndex };
+                if (isOutsideLevelElective(course)) {
+                    outsideOptionals.push(item);
+                    return;
                 }
+                const level = Math.max(1, Math.round(toNumber(course.level, 1)));
+                if (!coursesByLevel[level]) {
+                    coursesByLevel[level] = [];
+                }
+                coursesByLevel[level].push(item);
             });
 
-            const levelNames = {
-                1: 'المستوى الأول', 2: 'المستوى الثاني', 3: 'المستوى الثالث',
-                4: 'المستوى الرابع', 5: 'المستوى الخامس', 6: 'المستوى السادس',
-                7: 'المستوى السابع', 8: 'المستوى الثامن'
-            };
+            const levelNumbers = Object.keys(coursesByLevel).map(Number).sort((a, b) => a - b);
+            return { coursesByLevel, outsideOptionals, levelNumbers };
+        }
 
-            // Calculate total electives info
-            const allElectives = Object.values(electivesByLevel).flat();
-            const hasElectives = allElectives.length > 0;
+        function sumCourseHours(items) {
+            return (items || []).reduce((sum, item) => sum + toNumber(item.course && item.course.hours, 0), 0);
+        }
+
+        function renderCourseRow(item) {
+            const course = item.course || {};
+            const courseIndex = item.courseIndex;
+            const inOutsidePool = isOutsideLevelElective(course);
+            const levelValue = Math.max(1, Math.round(toNumber(course.level, 1)));
+            const typeValue = normalizeText(course.type) || 'نظري';
+
+            if (!editModeEnabled) {
+                return `
+                    <tr>
+                        <td><code class="course-code">${escapeHtml(course.code)}</code></td>
+                        <td>
+                            <strong>${escapeHtml(course.name)}</strong>
+                            ${course.name_en ? `<br><small style="color:var(--text-muted)">${escapeHtml(course.name_en)}</small>` : ''}
+                            ${course.category ? `<span class="course-meta">${escapeHtml(course.category)}</span>` : ''}
+                        </td>
+                        <td>${escapeHtml(course.hours)}</td>
+                        <td><span class="course-type-badge ${getCourseTypeClass(typeValue)}">${escapeHtml(typeValue)}</span></td>
+                    </tr>
+                `;
+            }
+
+            return `
+                <tr>
+                    <td>
+                        <input class="edit-input" value="${escapeHtml(course.code)}" placeholder="رمز المقرر" onchange="setCourseField(${courseIndex}, 'code', this.value)">
+                    </td>
+                    <td>
+                        <input class="edit-input" value="${escapeHtml(course.name)}" placeholder="اسم المقرر" onchange="setCourseField(${courseIndex}, 'name', this.value)">
+                        <input class="edit-input" value="${escapeHtml(course.name_en || '')}" placeholder="الاسم بالإنجليزية" onchange="setCourseField(${courseIndex}, 'name_en', this.value)">
+                        <input class="edit-input" value="${escapeHtml(course.category || '')}" placeholder="التصنيف" onchange="setCourseField(${courseIndex}, 'category', this.value)">
+                    </td>
+                    <td>
+                        <input type="number" min="0" step="1" class="edit-input" value="${toNumber(course.hours, 0)}" onchange="setCourseField(${courseIndex}, 'hours', this.value)">
+                    </td>
+                    <td>
+                        <input class="edit-input" value="${escapeHtml(typeValue)}" placeholder="نوع المقرر" onchange="setCourseField(${courseIndex}, 'type', this.value)">
+                    </td>
+                    <td>
+                        <div class="row-actions">
+                            <div class="action-inline">
+                                <span>المستوى</span>
+                                <select class="edit-select" onchange="moveCourseLevel(${courseIndex}, this.value)">
+                                    ${levelOptionsHtml(levelValue)}
+                                </select>
+                            </div>
+                            <label class="action-inline">
+                                <input type="checkbox" ${inOutsidePool ? 'checked' : ''} onchange="setCourseOutsidePool(${courseIndex}, this.checked)">
+                                خارج المستويات
+                            </label>
+                            <button type="button" class="mini-btn" onclick="removeCourse(${courseIndex})">حذف</button>
+                        </div>
+                    </td>
+                </tr>
+            `;
+        }
+
+        function renderCoursesTable(items, emptyLabel) {
+            const colCount = editModeEnabled ? 5 : 4;
+            return `
+                <table class="courses-table">
+                    <thead>
+                        <tr>
+                            <th>رمز المقرر</th>
+                            <th>اسم المقرر</th>
+                            <th>الساعات</th>
+                            <th>النوع</th>
+                            ${editModeEnabled ? '<th>إجراءات</th>' : ''}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${items.length
+                            ? items.map(renderCourseRow).join('')
+                            : `<tr><td colspan="${colCount}" style="text-align:center;color:var(--text-muted);">${escapeHtml(emptyLabel)}</td></tr>`
+                        }
+                    </tbody>
+                </table>
+            `;
+        }
+
+        function renderCurrentProgramModal() {
+            const program = getCurrentProgram();
+            if (!program) return;
+
+            const modalTitle = document.getElementById('modalTitle');
+            const modalBody = document.getElementById('modalBody');
+            modalTitle.textContent = `${normalizeText(program.name)} - ${canonicalDegreeLabel(program.degree)}`;
+
+            const { coursesByLevel, outsideOptionals, levelNumbers } = splitCoursesByLocation(program);
+            const levelItems = levelNumbers.flatMap(level => coursesByLevel[level] || []);
+            const countedHours = sumCourseHours(levelItems);
+            const outsideHours = sumCourseHours(outsideOptionals);
+            const planHours = toNumber(program.total_hours, 0);
 
             let html = `
                 <div class="download-actions">
-    <button class="download-btn pdf" onclick="printPlanOnly()">
-        <svg viewBox="0 0 24 24" fill="currentColor">
-            <path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/>
-        </svg>
-        طباعة / حفظ PDF
-    </button>
-    <button class="download-btn" style="background:#0EA5E9;color:#fff;" onclick="downloadCSV()">
-        <svg viewBox="0 0 24 24" fill="currentColor">
-            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm1 7V3.5L19.5 9H15zM8 13h8v2H8v-2zm0 4h8v2H8v-2z"/>
-        </svg>
-        تنزيل CSV
-    </button>
-</div>
-
-<div class="modal-info">
-                    <span class="modal-info-badge ${program.plan_type === 'جديدة' ? 'plan-new' : 'plan-old'}">
-                        الخطة ${program.plan_type} (إصدار ${program.version})
-                    </span>
-                    <span class="modal-info-badge" style="background:var(--bg-light);">
-                        إجمالي الساعات: <strong>${program.total_hours}</strong>
-                    </span>
+                    <button class="download-btn pdf" onclick="printPlanOnly()">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/>
+                        </svg>
+                        طباعة / حفظ PDF
+                    </button>
+                    <button class="download-btn" style="background:#0EA5E9;color:#fff;" onclick="downloadCSV()">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm1 7V3.5L19.5 9H15zM8 13h8v2H8v-2zm0 4h8v2H8v-2z"/>
+                        </svg>
+                        تنزيل CSV
+                    </button>
+                    <button class="download-btn edit-toggle ${editModeEnabled ? 'edit-on' : ''}" onclick="toggleEditMode()">
+                        ${editModeEnabled ? 'إيقاف التعديل' : 'زر التعديل'}
+                    </button>
+                    ${editModeEnabled ? `
+                        <button class="download-btn add-course" onclick="addCourseToProgram(false)">إضافة مقرر داخل مستوى</button>
+                        <button class="download-btn add-course" onclick="addCourseToProgram(true)">إضافة اختياري خارج المستويات</button>
+                        <button class="download-btn save-edit" onclick="saveEditsNow()">حفظ التعديلات</button>
+                    ` : ''}
                 </div>
             `;
 
-            // Show elective note if there are electives
-            if (hasElectives) {
+            if (editModeEnabled) {
                 html += `
-                    <div style="background:#FEF3C7;border:1px solid #F59E0B;border-radius:var(--radius-sm);padding:0.75rem 1rem;margin-bottom:1.5rem;font-size:0.85rem;">
-                        <strong style="color:#92400E;">📌 ملاحظة:</strong>
-                        <span style="color:#78350F;">المقررات الاختيارية المعروضة هي جميع الخيارات المتاحة. يختار الطالب منها حسب متطلبات الخطة (عادةً 10 ساعات من 5 مقررات تقريباً).</span>
+                    <div class="edit-help">
+                        وضع التعديل مفعّل: يمكنك تعديل اسم/رمز/ساعات المقرر، ونقله بين المستويات، أو تحويله إلى "اختياري خارج المستويات" غير محسوب في الساعات.
                     </div>
                 `;
             }
 
-            // Get all levels
-            const allLevels = [...new Set([...Object.keys(coursesByLevel), ...Object.keys(electivesByLevel)])].sort((a, b) => a - b);
+            html += `
+                <div class="modal-info">
+                    <span class="modal-info-badge ${program.plan_type === 'جديدة' ? 'plan-new' : 'plan-old'}">
+                        الخطة ${escapeHtml(program.plan_type)} (إصدار ${escapeHtml(program.version)})
+                    </span>
+                    <span class="modal-info-badge" style="background:var(--bg-light);">
+                        إجمالي الساعات بالخطة: <strong>${escapeHtml(program.total_hours)}</strong>
+                    </span>
+                    <span class="modal-info-badge hours-compare-badge">
+                        الساعات المحتسبة فعليًا: <strong>${countedHours}</strong>
+                    </span>
+                    <span class="modal-info-badge" style="background:#FEF3C7;color:#92400E;">
+                        اختياري خارج المستويات: <strong>${outsideOptionals.length}</strong> مقرر (${outsideHours} ساعة غير محتسبة)
+                    </span>
+                </div>
+            `;
 
-            allLevels.forEach(level => {
-                const courses = coursesByLevel[level] || [];
-                const electives = electivesByLevel[level] || [];
-                
-                // Calculate hours (required courses only for level total)
-                const requiredHours = courses.reduce((sum, c) => sum + c.hours, 0);
-                const electiveHours = electives.reduce((sum, c) => sum + c.hours, 0);
+            if (planHours && countedHours !== planHours) {
+                html += `
+                    <div class="optional-pool-note">
+                        ملاحظة: ساعات المقررات الاختيارية خارج المستويات لا تدخل في حساب "الساعات المحتسبة فعليًا".
+                    </div>
+                `;
+            }
 
+            if (!levelNumbers.length) {
+                html += `
+                    <div class="no-results" style="padding:1.5rem 1rem;">
+                        <p>لا توجد مقررات ضمن المستويات حاليًا.</p>
+                    </div>
+                `;
+            }
+
+            levelNumbers.forEach(level => {
+                const items = coursesByLevel[level] || [];
+                const levelHours = sumCourseHours(items);
                 html += `
                     <div class="courses-by-level">
                         <div class="level-header">
                             <span class="level-number">${level}</span>
-                            <span class="level-title">${levelNames[level] || `المستوى ${level}`}</span>
-                            <span class="level-hours">${requiredHours} ساعة${electives.length > 0 ? ` + اختياري` : ''}</span>
+                            <span class="level-title">${getLevelTitle(level)}</span>
+                            <span class="level-hours">${levelHours} ساعة محتسبة</span>
                         </div>
-                        <table class="courses-table">
-                            <thead>
-                                <tr>
-                                    <th>رمز المقرر</th>
-                                    <th>اسم المقرر</th>
-                                    <th>الساعات</th>
-                                    <th>النوع</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                ${courses.map(course => {
-                                    let typeClass = 'type-theory';
-                                    if (course.type === 'عملي') typeClass = 'type-practical';
-                                    if (course.type === 'بحث') typeClass = 'type-research';
-                                    if (course.type === 'تدريب') typeClass = 'type-training';
-
-                                    return `
-                                        <tr>
-                                            <td><code class="course-code">${course.code}</code></td>
-                                            <td>
-                                                <strong>${course.name}</strong>
-                                                ${course.name_en ? `<br><small style="color:var(--text-muted)">${course.name_en}</small>` : ''}
-                                            </td>
-                                            <td>${course.hours}</td>
-                                            <td><span class="course-type-badge ${typeClass}">${course.type}</span></td>
-                                        </tr>
-                                    `;
-                                }).join('')}
-                                ${electives.length > 0 ? `
-                                    <tr style="background:#FEF9E7;">
-                                        <td colspan="4" style="padding:0.5rem;font-weight:600;color:#92400E;font-size:0.8rem;">
-                                            📚 مقررات اختيارية (اختر حسب الخطة)
-                                        </td>
-                                    </tr>
-                                    ${electives.map(course => {
-                                        return `
-                                            <tr style="background:#FFFBEB;">
-                                                <td><code class="course-code" style="color:#92400E;">${course.code}</code></td>
-                                                <td>
-                                                    <span style="color:#78350F;">${course.name}</span>
-                                                    ${course.name_en ? `<br><small style="color:#A16207;">${course.name_en}</small>` : ''}
-                                                </td>
-                                                <td style="color:#92400E;">${course.hours}</td>
-                                                <td><span class="course-type-badge" style="background:#FEF3C7;color:#92400E;">اختياري</span></td>
-                                            </tr>
-                                        `;
-                                    }).join('')}
-                                ` : ''}
-                            </tbody>
-                        </table>
+                        ${renderCoursesTable(items, 'لا توجد مقررات في هذا المستوى')}
                     </div>
                 `;
             });
 
+            html += `
+                <div class="courses-by-level optional-pool-section">
+                    <div class="level-header">
+                        <span class="level-number">م</span>
+                        <span class="level-title">مقررات اختيارية خارج المستويات</span>
+                        <span class="level-hours">غير محسوبة ضمن ساعات الخطة</span>
+                    </div>
+                    <div class="optional-pool-note" style="margin-top:0;margin-bottom:0.75rem;">
+                        هذه المقررات تمثل بنك اختيارات، يختار الطالب منها حسب متطلبات الخطة، ولا يُفترض دراسة جميعها.
+                    </div>
+                    ${renderCoursesTable(outsideOptionals, 'لا توجد مقررات اختيارية خارج المستويات حتى الآن')}
+                </div>
+            `;
+
             modalBody.innerHTML = html;
+        }
+
+        function openProgramModal(programIndex) {
+            const program = programsData && programsData.programs ? programsData.programs[programIndex] : null;
+            if (!program) return;
+
+            currentProgramIndex = programIndex;
+            currentProgram = program;
+            editModeEnabled = false;
+            renderCurrentProgramModal();
+
+            const modal = document.getElementById('modalOverlay');
             modal.classList.add('active');
             document.body.style.overflow = 'hidden';
+        }
+
+        function toggleEditMode() {
+            const program = getCurrentProgram();
+            if (!program) return;
+
+            if (!editAccessGranted) {
+                const entered = window.prompt('أدخل كلمة المرور لتفعيل التعديل:');
+                if (entered === null) return;
+                if (normalizeText(entered) !== EDIT_PASSWORD) {
+                    alert('كلمة المرور غير صحيحة');
+                    return;
+                }
+                editAccessGranted = true;
+            }
+
+            editModeEnabled = !editModeEnabled;
+            renderCurrentProgramModal();
+        }
+
+        function setCourseField(courseIndex, field, value) {
+            const program = getCurrentProgram();
+            if (!program || !program.courses || !program.courses[courseIndex]) return;
+
+            const course = program.courses[courseIndex];
+            if (field === 'hours') {
+                course.hours = Math.max(0, Math.round(toNumber(value, 0)));
+            } else if (field === 'level') {
+                course.level = Math.max(1, Math.round(toNumber(value, 1)));
+            } else {
+                course[field] = value;
+            }
+
+            if (!normalizeText(course.type)) {
+                course.type = 'نظري';
+            }
+            if (!toNumber(course.level, 0)) {
+                course.level = 1;
+            }
+
+            applyProgramMutation();
+        }
+
+        function moveCourseLevel(courseIndex, levelValue) {
+            const program = getCurrentProgram();
+            if (!program || !program.courses || !program.courses[courseIndex]) return;
+
+            const course = program.courses[courseIndex];
+            course.level = Math.max(1, Math.round(toNumber(levelValue, 1)));
+            course.optional_pool = false;
+            applyProgramMutation();
+        }
+
+        function setCourseOutsidePool(courseIndex, isOutside) {
+            const program = getCurrentProgram();
+            if (!program || !program.courses || !program.courses[courseIndex]) return;
+
+            const course = program.courses[courseIndex];
+            course.optional_pool = Boolean(isOutside);
+            if (!course.level || toNumber(course.level, 0) < 1) {
+                course.level = 1;
+            }
+            applyProgramMutation();
+        }
+
+        function addCourseToProgram(asOutsidePool) {
+            const program = getCurrentProgram();
+            if (!program) return;
+
+            const serial = (program.courses ? program.courses.length : 0) + 1;
+            const newCourse = {
+                code: `NEW-${serial}`,
+                name: asOutsidePool ? 'مقرر اختياري جديد' : 'مقرر جديد',
+                name_en: '',
+                hours: 2,
+                level: 1,
+                type: 'نظري',
+                category: asOutsidePool ? 'اختيارية القسم' : 'إجبارية القسم'
+            };
+
+            if (asOutsidePool) {
+                newCourse.optional_pool = true;
+            }
+
+            if (!Array.isArray(program.courses)) {
+                program.courses = [];
+            }
+            program.courses.push(newCourse);
+            applyProgramMutation();
+        }
+
+        function removeCourse(courseIndex) {
+            const program = getCurrentProgram();
+            if (!program || !program.courses || !program.courses[courseIndex]) return;
+
+            const course = program.courses[courseIndex];
+            const ok = confirm(`هل تريد حذف المقرر: ${normalizeText(course.name) || normalizeText(course.code)} ؟`);
+            if (!ok) return;
+
+            program.courses.splice(courseIndex, 1);
+            applyProgramMutation();
+        }
+
+        function saveEditsNow() {
+            saveCustomData();
+            alert('تم حفظ التعديلات محليًا على هذا الجهاز.');
         }
 
         function closeModal() {
             document.getElementById('modalOverlay').classList.remove('active');
             document.body.style.overflow = '';
             currentProgram = null;
+            currentProgramIndex = null;
+            editModeEnabled = false;
         }
 
-        // Close modal on overlay click
-        document.getElementById('modalOverlay').addEventListener('click', (e) => {
+        document.getElementById('modalOverlay').addEventListener('click', e => {
             if (e.target.id === 'modalOverlay') {
                 closeModal();
             }
         });
 
-        // Close modal on Escape key
-        document.addEventListener('keydown', (e) => {
+        document.addEventListener('keydown', e => {
             if (e.key === 'Escape') {
                 closeModal();
             }
         });
 
-
-        // Print (Save as PDF) - often more reliable on mobile/webviews
         function printPlanOnly() {
-    if (!currentProgram) {
-        alert('لم يتم تحديد برنامج');
-        return;
-    }
+            if (!getCurrentProgram()) {
+                alert('لم يتم تحديد برنامج');
+                return;
+            }
+            document.body.classList.add('print-plan');
+            setTimeout(() => {
+                window.print();
+            }, 50);
+        }
 
-    // اجعل الطباعة تقتصر على نافذة الخطة فقط
-    document.body.classList.add('print-plan');
+        window.addEventListener('afterprint', () => {
+            document.body.classList.remove('print-plan');
+        });
 
-    // بعض المتصفحات تحتاج مهلة بسيطة لتطبيق الـ CSS قبل الطباعة
-    setTimeout(() => {
-        window.print(); // ثم اختر "Save as PDF" / "حفظ كـ PDF"
-    }, 50);
-}
-
-// إزالة حالة الطباعة بعد الانتهاء
-window.addEventListener('afterprint', () => {
-    document.body.classList.remove('print-plan');
-});
-
-
-        // Download CSV (fallback when Excel download is blocked)
         function downloadCSV() {
-            if (!currentProgram) {
+            const program = getCurrentProgram();
+            if (!program) {
                 alert('لم يتم تحديد برنامج');
                 return;
             }
 
-            const safePlan = currentProgram.plan_type === 'جديدة' ? 'new' : (currentProgram.plan_type === 'قديمة' ? 'old' : 'plan');
-            const safeName = (currentProgram.name_en || currentProgram.name).toString()
+            const safePlan = program.plan_type === 'جديدة' ? 'new' : (program.plan_type === 'قديمة' ? 'old' : 'plan');
+            const safeName = (program.name_en || program.name).toString()
                 .replace(/[^a-zA-Z0-9]+/g, '_')
                 .replace(/^_+|_+$/g, '') || 'plan';
-            const fileName = safeName + '_' + safePlan + '.csv';
+            const fileName = `${safeName}_${safePlan}.csv`;
 
             const rows = [
-                ['Program', (currentProgram.name_en || currentProgram.name)],
-                ['Degree', canonicalDegreeLabel(currentProgram.degree)],
-                ['Plan', currentProgram.plan_type],
-                ['Version', currentProgram.version],
-                ['Total Hours', currentProgram.total_hours],
+                ['Program', (program.name_en || program.name)],
+                ['Degree', canonicalDegreeLabel(program.degree)],
+                ['Plan', program.plan_type],
+                ['Version', program.version],
+                ['Total Hours', program.total_hours],
                 [],
-                ['Level', 'Code', 'Course Name', 'English Name', 'Hours', 'Type', 'Category']
+                ['Level', 'Code', 'Course Name', 'English Name', 'Hours', 'Type', 'Category', 'Optional Pool', 'Counted In Hours']
             ];
 
-            (currentProgram.courses || []).forEach(c => {
+            (program.courses || []).forEach(course => {
+                const outside = isOutsideLevelElective(course);
                 rows.push([
-                    c.level,
-                    c.code,
-                    c.name,
-                    (c.name_en || ''),
-                    c.hours,
-                    c.type,
-                    (c.category || '')
+                    outside ? 'Outside Elective Pool' : Math.max(1, Math.round(toNumber(course.level, 1))),
+                    course.code ?? '',
+                    course.name ?? '',
+                    course.name_en ?? '',
+                    course.hours ?? '',
+                    course.type ?? '',
+                    course.category ?? '',
+                    outside ? 'Yes' : 'No',
+                    outside ? 'No' : 'Yes'
                 ]);
             });
 
             const csv = rows.map(r => r.map(v => {
                 const s = (v === null || v === undefined) ? '' : String(v);
-                return '"' + s.replace(/"/g, '""') + '"';
+                return `"${s.replace(/"/g, '""')}"`;
             }).join(',')).join('\n');
 
             const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
             const url = URL.createObjectURL(blob);
-
             const a = document.createElement('a');
             a.href = url;
             a.download = fileName;
             document.body.appendChild(a);
             a.click();
-
             setTimeout(() => {
                 URL.revokeObjectURL(url);
                 a.remove();
             }, 1000);
         }
 
-// Download ALL plans as one CSV (from the main page)
-function downloadAllCSV() {
-    if (!programsData || !programsData.programs || !programsData.programs.length) {
-        alert('لا توجد بيانات لتحميلها');
-        return;
-    }
+        function downloadAllCSV() {
+            if (!programsData || !programsData.programs || !programsData.programs.length) {
+                alert('لا توجد بيانات لتحميلها');
+                return;
+            }
 
-    const fileName = 'all_plans.csv';
+            const rows = [[
+                'Program',
+                'Program EN',
+                'Degree',
+                'Plan',
+                'Version',
+                'Total Hours',
+                'Level',
+                'Code',
+                'Course Name',
+                'English Name',
+                'Hours',
+                'Type',
+                'Category',
+                'Optional Pool',
+                'Counted In Hours'
+            ]];
 
-    const rows = [
-        ['Program', 'Program EN', 'Degree', 'Plan', 'Version', 'Total Hours',
-         'Level', 'Code', 'Course Name', 'English Name', 'Hours', 'Type', 'Category']
-    ];
+            programsData.programs.forEach(program => {
+                const programName = (program.name_en || program.name || '');
+                const degree = canonicalDegreeLabel(program.degree);
+                const planType = program.plan_type || '';
+                const version = program.version || '';
+                const totalHours = program.total_hours || '';
+                const courses = (program.courses || []);
 
-    programsData.programs.forEach(p => {
-        const programName = (p.name_en || p.name || '');
-        const degree = canonicalDegreeLabel(p.degree);
-        const planType = p.plan_type || '';
-        const version = p.version || '';
-        const totalHours = p.total_hours || '';
+                if (!courses.length) {
+                    rows.push([programName, (program.name_en || ''), degree, planType, version, totalHours, '', '', '', '', '', '', '', '', '']);
+                    return;
+                }
 
-        const courses = (p.courses || []);
-        if (!courses.length) {
-            rows.push([programName, (p.name_en || ''), degree, planType, version, totalHours, '', '', '', '', '', '', '']);
-            return;
+                courses.forEach(course => {
+                    const outside = isOutsideLevelElective(course);
+                    rows.push([
+                        programName,
+                        (program.name_en || ''),
+                        degree,
+                        planType,
+                        version,
+                        totalHours,
+                        outside ? 'Outside Elective Pool' : (course.level ?? ''),
+                        (course.code ?? ''),
+                        (course.name ?? ''),
+                        (course.name_en ?? ''),
+                        (course.hours ?? ''),
+                        (course.type ?? ''),
+                        (course.category ?? ''),
+                        outside ? 'Yes' : 'No',
+                        outside ? 'No' : 'Yes'
+                    ]);
+                });
+            });
+
+            const csv = rows.map(r => r.map(v => {
+                const s = (v === null || v === undefined) ? '' : String(v);
+                return `"${s.replace(/"/g, '""')}"`;
+            }).join(',')).join('\n');
+
+            const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'all_plans.csv';
+            document.body.appendChild(a);
+            a.click();
+            setTimeout(() => {
+                URL.revokeObjectURL(url);
+                a.remove();
+            }, 1000);
         }
 
-        courses.forEach(c => {
-            rows.push([
-                programName,
-                (p.name_en || ''),
-                degree,
-                planType,
-                version,
-                totalHours,
-                (c.level ?? ''),
-                (c.code ?? ''),
-                (c.name ?? ''),
-                (c.name_en ?? ''),
-                (c.hours ?? ''),
-                (c.type ?? ''),
-                (c.category ?? '')
-            ]);
-        });
-    });
+        function downloadEditedJSON() {
+            if (!programsData) {
+                alert('لا توجد بيانات متاحة');
+                return;
+            }
+            const blob = new Blob([JSON.stringify(programsData, null, 2)], {
+                type: 'application/json;charset=utf-8;'
+            });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'data-edited.json';
+            document.body.appendChild(a);
+            a.click();
+            setTimeout(() => {
+                URL.revokeObjectURL(url);
+                a.remove();
+            }, 1000);
+        }
 
-    const csv = rows.map(r => r.map(v => {
-        const s = (v === null || v === undefined) ? '' : String(v);
-        return '"' + s.replace(/"/g, '""') + '"';
-    }).join(',')).join('\n');
+        function resetToOriginalData() {
+            if (!originalProgramsData) {
+                alert('البيانات الأصلية غير متوفرة');
+                return;
+            }
+            const ok = confirm('سيتم حذف جميع التعديلات المحلية والعودة للبيانات الأصلية. هل تريد المتابعة؟');
+            if (!ok) return;
 
-    const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
-    const url = URL.createObjectURL(blob);
+            programsData = deepClone(originalProgramsData);
+            sanitizeDataShape(programsData);
+            clearCustomData();
+            closeModal();
+            clearSearch();
+            activeDegreeFilter = 'all';
+            initializeUI();
+            alert('تمت استعادة البيانات الأصلية بنجاح.');
+        }
 
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = fileName;
-    document.body.appendChild(a);
-    a.click();
-
-    setTimeout(() => {
-        URL.revokeObjectURL(url);
-        a.remove();
-    }, 1000);
-}
-
-
-        // Download PDF function
-        
-
-        // Download Excel function
-        
-
-        // Initialize
         loadData();
     </script>
 </body>
