@@ -392,10 +392,7 @@
         }
 
         .result-equivalents {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 0.4rem;
+            display: block;
             margin-bottom: 0.7rem;
         }
 
@@ -403,6 +400,41 @@
             font-size: 0.78rem;
             font-weight: 700;
             color: #065F46;
+            display: block;
+            margin-bottom: 0.35rem;
+        }
+
+        .equivalent-context-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.35rem;
+        }
+
+        .equivalent-context-line {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+            font-size: 0.73rem;
+            color: #065F46;
+        }
+
+        .equivalent-context-label {
+            font-weight: 700;
+            color: #0F766E;
+        }
+
+        .equivalent-context-options {
+            display: inline-flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+        }
+
+        .equivalent-or {
+            font-size: 0.68rem;
+            color: #0F766E;
+            font-weight: 700;
         }
 
         .equivalent-chip {
@@ -1546,8 +1578,7 @@
         let highlightedCourseIndex = null;
         let lastSearchResults = [];
         let courseCatalogByCode = new Map();
-        let equivalentCodeMap = new Map();
-        let freeEquivalentLabelMap = new Map();
+        let equivalencyRulesBySource = new Map();
 
         function deepClone(value) {
             return JSON.parse(JSON.stringify(value));
@@ -1682,9 +1713,9 @@
             return parsed ? [parsed] : [];
         }
 
-        function ensureSet(map, key) {
+        function ensureListMap(map, key) {
             if (!map.has(key)) {
-                map.set(key, new Set());
+                map.set(key, []);
             }
             return map.get(key);
         }
@@ -1713,16 +1744,195 @@
             return codeKey;
         }
 
-        function linkEquivalentCodes(sourceKey, targetKey) {
-            if (!sourceKey || !targetKey || sourceKey === targetKey) return;
-            ensureSet(equivalentCodeMap, sourceKey).add(targetKey);
-            ensureSet(equivalentCodeMap, targetKey).add(sourceKey);
+        function dedupeEquivalentEntries(entries) {
+            const map = new Map();
+            (entries || []).forEach(entry => {
+                if (!entry) return;
+                const codeKey = normalizeCourseCode(entry.code || entry.codeKey || '');
+                const label = normalizeText(entry.label || entry.code || '');
+                const uniqueKey = codeKey ? `code:${codeKey}` : `label:${label.toLowerCase()}`;
+                if (!label || !uniqueKey) return;
+                if (!map.has(uniqueKey)) {
+                    map.set(uniqueKey, {
+                        code: normalizeText(entry.code || ''),
+                        codeKey,
+                        name: normalizeText(entry.name || ''),
+                        label
+                    });
+                }
+            });
+            return Array.from(map.values());
+        }
+
+        function parseEquivalencyRule(rawRule, fallbackScope = {}) {
+            if (!rawRule || typeof rawRule !== 'object' || Array.isArray(rawRule)) {
+                return null;
+            }
+
+            const fallbackProgram = normalizeText(fallbackScope.program || '');
+            const fallbackDegree = canonicalDegreeLabel(fallbackScope.degree || '');
+            const fallbackPlanType = normalizeText(fallbackScope.plan_type || '');
+            const fallbackVersion = normalizeText(fallbackScope.version || '');
+
+            const program = normalizeText(rawRule.program || rawRule.program_name || fallbackProgram || '');
+            const degree = canonicalDegreeLabel(rawRule.degree || fallbackDegree || '');
+            const planType = normalizeText(rawRule.plan_type || rawRule.plan || fallbackPlanType || '');
+            const version = normalizeText(rawRule.version || rawRule.plan_version || fallbackVersion || '');
+            const note = normalizeText(rawRule.note || rawRule.notes || '');
+
+            const optionsRaw =
+                rawRule.options ??
+                rawRule.equivalents ??
+                rawRule.equivalent_courses ??
+                rawRule.alternatives ??
+                rawRule.any_of ??
+                rawRule.courses ??
+                rawRule.codes ??
+                null;
+
+            let options = parseEquivalentsList(optionsRaw);
+            if (!options.length) {
+                const single = parseEquivalentItem(rawRule);
+                if (single && (single.codeKey || single.label)) {
+                    options = [single];
+                }
+            }
+            options = dedupeEquivalentEntries(options);
+            if (!options.length) return null;
+
+            return {
+                program,
+                degree,
+                plan_type: planType,
+                version,
+                note,
+                options
+            };
+        }
+
+        function addEquivalencyRule(sourceCodeRaw, rawRule, fallbackScope = {}) {
+            const sourceKey = registerCourseInCatalog(sourceCodeRaw, '', '');
+            if (!sourceKey) return;
+
+            const parsedRule = parseEquivalencyRule(rawRule, fallbackScope);
+            if (!parsedRule || !parsedRule.options.length) return;
+
+            parsedRule.options = parsedRule.options
+                .map(option => {
+                    if (option.codeKey) {
+                        registerCourseInCatalog(option.code || option.codeKey, option.name || '', '');
+                    }
+                    return option;
+                })
+                .filter(Boolean);
+
+            if (!parsedRule.options.length) return;
+
+            const signature = JSON.stringify({
+                program: parsedRule.program,
+                degree: parsedRule.degree,
+                plan_type: parsedRule.plan_type,
+                version: parsedRule.version,
+                note: parsedRule.note,
+                options: parsedRule.options.map(opt => ({
+                    codeKey: opt.codeKey || '',
+                    label: normalizeText(opt.label || '')
+                }))
+            });
+
+            const rules = ensureListMap(equivalencyRulesBySource, sourceKey);
+            if (rules.some(rule => rule.signature === signature)) return;
+
+            rules.push({
+                ...parsedRule,
+                signature
+            });
+        }
+
+        function addSimpleEquivalencyEntries(sourceCodeRaw, rawEntries, fallbackScope = {}) {
+            const entries = dedupeEquivalentEntries(parseEquivalentsList(rawEntries));
+            if (!entries.length) return;
+            addEquivalencyRule(sourceCodeRaw, { options: entries }, fallbackScope);
+        }
+
+        function hasRuleScope(rule) {
+            return Boolean(
+                normalizeText(rule.program) ||
+                normalizeText(rule.degree) ||
+                normalizeText(rule.plan_type) ||
+                normalizeText(rule.version)
+            );
+        }
+
+        function normalizeContext(context = {}) {
+            return {
+                program: normalizeText(context.program || ''),
+                degree: canonicalDegreeLabel(context.degree || ''),
+                plan_type: normalizeText(context.plan_type || ''),
+                version: normalizeText(context.version || '')
+            };
+        }
+
+        function buildProgramContext(program) {
+            if (!program || typeof program !== 'object') {
+                return normalizeContext({});
+            }
+            return normalizeContext({
+                program: program.name,
+                degree: program.degree,
+                plan_type: program.plan_type,
+                version: program.version
+            });
+        }
+
+        function ruleMatchesContext(rule, context = {}) {
+            const normalizedContext = normalizeContext(context);
+
+            if (normalizeText(rule.program) && normalizeText(rule.program) !== normalizedContext.program) {
+                return false;
+            }
+            if (canonicalDegreeLabel(rule.degree) && canonicalDegreeLabel(rule.degree) !== normalizedContext.degree) {
+                return false;
+            }
+            if (normalizeText(rule.plan_type) && normalizeText(rule.plan_type) !== normalizedContext.plan_type) {
+                return false;
+            }
+            if (normalizeText(rule.version) && normalizeText(rule.version) !== normalizedContext.version) {
+                return false;
+            }
+
+            return true;
+        }
+
+        function buildEquivalencyContextLabel(context = {}) {
+            const normalizedContext = normalizeContext(context);
+            const parts = [];
+
+            if (normalizedContext.program) parts.push(normalizedContext.program);
+            if (normalizedContext.degree) parts.push(normalizedContext.degree);
+            if (normalizedContext.plan_type) parts.push(`الخطة ${normalizedContext.plan_type}`);
+            if (normalizedContext.version) parts.push(`إصدار ${normalizedContext.version}`);
+
+            return parts.join(' | ') || 'جميع البرامج والخطط';
+        }
+
+        function formatEquivalentOption(entry) {
+            if (!entry) return '';
+
+            if (entry.codeKey) {
+                const info = courseCatalogByCode.get(entry.codeKey);
+                const code = normalizeText(entry.code || (info && info.code) || entry.codeKey);
+                const name = normalizeText(entry.name || (info && info.name) || '');
+                if (code && name) return `${code} - ${name}`;
+                return code || normalizeText(entry.label || '');
+            }
+
+            return normalizeText(entry.label || '');
         }
 
         function rebuildCourseIndexes() {
             courseCatalogByCode = new Map();
-            equivalentCodeMap = new Map();
-            freeEquivalentLabelMap = new Map();
+            equivalencyRulesBySource = new Map();
 
             if (!programsData || !Array.isArray(programsData.programs)) return;
 
@@ -1739,23 +1949,40 @@
             ) ? programsData.equivalencies : {};
 
             Object.entries(globalEquivalencies).forEach(([sourceCode, rawEquivalents]) => {
-                const sourceKey = registerCourseInCatalog(sourceCode, '', '');
-                if (!sourceKey) return;
-
-                parseEquivalentsList(rawEquivalents).forEach(entry => {
-                    if (entry.codeKey) {
-                        registerCourseInCatalog(entry.code || entry.codeKey, entry.name || '', '');
-                        linkEquivalentCodes(sourceKey, entry.codeKey);
-                    } else if (entry.label) {
-                        ensureSet(freeEquivalentLabelMap, sourceKey).add(entry.label);
+                if (rawEquivalents && typeof rawEquivalents === 'object' && !Array.isArray(rawEquivalents)) {
+                    if (Array.isArray(rawEquivalents.rules)) {
+                        rawEquivalents.rules.forEach(rule => {
+                            addEquivalencyRule(sourceCode, rule, {});
+                        });
                     }
-                });
+
+                    if (rawEquivalents.default !== undefined) {
+                        addSimpleEquivalencyEntries(sourceCode, rawEquivalents.default, {});
+                    }
+
+                    addEquivalencyRule(sourceCode, rawEquivalents, {});
+                    return;
+                }
+
+                if (Array.isArray(rawEquivalents)) {
+                    rawEquivalents.forEach(item => {
+                        if (item && typeof item === 'object' && !Array.isArray(item)) {
+                            addEquivalencyRule(sourceCode, item, {});
+                        } else {
+                            addSimpleEquivalencyEntries(sourceCode, item, {});
+                        }
+                    });
+                    return;
+                }
+
+                addSimpleEquivalencyEntries(sourceCode, rawEquivalents, {});
             });
 
             programsData.programs.forEach(program => {
+                const programContext = buildProgramContext(program);
+
                 (program.courses || []).forEach(course => {
-                    const sourceKey = registerCourseInCatalog(course.code, course.name, course.name_en);
-                    if (!sourceKey) return;
+                    registerCourseInCatalog(course.code, course.name, course.name_en);
 
                     const rawLocalEquivs = (
                         course.equivalents ??
@@ -1764,51 +1991,90 @@
                         null
                     );
 
-                    parseEquivalentsList(rawLocalEquivs).forEach(entry => {
-                        if (entry.codeKey) {
-                            registerCourseInCatalog(entry.code || entry.codeKey, entry.name || '', '');
-                            linkEquivalentCodes(sourceKey, entry.codeKey);
-                        } else if (entry.label) {
-                            ensureSet(freeEquivalentLabelMap, sourceKey).add(entry.label);
-                        }
-                    });
+                    addSimpleEquivalencyEntries(course.code, rawLocalEquivs, programContext);
+
+                    const rawLocalRules = course.equivalency_rules ?? course.equivalency_rule ?? null;
+                    if (Array.isArray(rawLocalRules)) {
+                        rawLocalRules.forEach(rule => addEquivalencyRule(course.code, rule, programContext));
+                    } else if (rawLocalRules && typeof rawLocalRules === 'object') {
+                        addEquivalencyRule(course.code, rawLocalRules, programContext);
+                    }
                 });
             });
         }
 
-        function getEquivalentDisplayListByCode(codeRaw) {
+        function getEquivalentOptionsForContext(codeRaw, context = {}) {
             const courseKey = normalizeCourseCode(codeRaw);
             if (!courseKey) return [];
 
             const labelsMap = new Map();
-            const linkedCodes = equivalentCodeMap.get(courseKey) || new Set();
-            linkedCodes.forEach(linkedKey => {
-                if (linkedKey === courseKey) return;
-                const info = courseCatalogByCode.get(linkedKey);
-                const code = normalizeText(info && info.code ? info.code : linkedKey);
-                const name = normalizeText(info && info.name ? info.name : '');
-                const label = name ? `${code} - ${name}` : code;
-                if (!labelsMap.has(label)) {
-                    labelsMap.set(label, { code, name, label });
-                }
-            });
+            const rules = equivalencyRulesBySource.get(courseKey) || [];
 
-            const freeLabels = freeEquivalentLabelMap.get(courseKey) || new Set();
-            freeLabels.forEach(labelRaw => {
-                const label = normalizeText(labelRaw);
-                if (!label || labelsMap.has(label)) return;
-                labelsMap.set(label, { code: '', name: '', label });
+            rules.forEach(rule => {
+                if (!ruleMatchesContext(rule, context)) return;
+                (rule.options || []).forEach(option => {
+                    const label = formatEquivalentOption(option);
+                    if (!label) return;
+                    if (!labelsMap.has(label)) {
+                        labelsMap.set(label, {
+                            code: normalizeText(option.code || ''),
+                            name: normalizeText(option.name || ''),
+                            label
+                        });
+                    }
+                });
             });
 
             return Array.from(labelsMap.values()).sort((a, b) => a.label.localeCompare(b.label, 'ar'));
+        }
+
+        function getEquivalentContextsForSearch(codeRaw, references) {
+            const courseKey = normalizeCourseCode(codeRaw);
+            if (!courseKey) return [];
+
+            return (references || [])
+                .map(ref => {
+                    const context = normalizeContext({
+                        program: ref.program,
+                        degree: ref.degree,
+                        plan_type: ref.plan_type,
+                        version: ref.version
+                    });
+
+                    const options = getEquivalentOptionsForContext(courseKey, context);
+                    if (!options.length) return null;
+
+                    return {
+                        context_label: buildEquivalencyContextLabel(context),
+                        options
+                    };
+                })
+                .filter(Boolean);
         }
 
         function getCourseEquivalentInputValue(course) {
             const raw = course
                 ? (course.equivalents ?? course.equivalent_to ?? course.equivalent_courses ?? null)
                 : null;
-            const values = parseEquivalentsList(raw).map(entry => normalizeText(entry.code || entry.label)).filter(Boolean);
+            const values = parseEquivalentsList(raw).map(entry => {
+                if (entry.code) {
+                    const code = normalizeText(entry.code);
+                    const name = normalizeText(entry.name || '');
+                    return name ? `${code} - ${name}` : code;
+                }
+                return normalizeText(entry.label || '');
+            }).filter(Boolean);
             return values.join(', ');
+        }
+
+        function splitEquivalentsInput(rawValue) {
+            const text = normalizeText(rawValue);
+            if (!text) return [];
+
+            return text
+                .split(/(?:\s+أو\s+|\s+او\s+|[,\n;،|]+)/)
+                .map(part => normalizeText(part))
+                .filter(Boolean);
         }
 
         function canonicalDegreeLabel(degree) {
@@ -2191,6 +2457,7 @@
                         program: normalizeText(program.name),
                         degree: canonicalDegreeLabel(program.degree),
                         plan_type: normalizeText(program.plan_type),
+                        version: normalizeText(program.version),
                         category: course.category || null,
                         programIndex,
                         courseIndex
@@ -2202,7 +2469,6 @@
                 const programGroups = groupProgramsForCourse(item.occurrences);
                 const reqSet = new Set(item.occurrences.map(o => requirementFromCategory(o.category)));
                 const catSet = new Set(item.occurrences.map(o => normalizeText(o.category)).filter(Boolean));
-                const equivalentCourses = getEquivalentDisplayListByCode(item.code);
                 const uniqueRefs = [];
                 const seenRefs = new Set();
 
@@ -2214,18 +2480,21 @@
                         program: o.program,
                         degree: o.degree,
                         plan_type: o.plan_type,
+                        version: o.version || '',
                         category: o.category || null,
                         programIndex: o.programIndex,
                         courseIndex: o.courseIndex
                     });
                 });
 
+                const equivalentContexts = getEquivalentContextsForSearch(item.code, uniqueRefs);
+
                 return {
                     ...item,
                     program_groups: programGroups,
                     programs_count: programGroups.length,
                     occurrence_refs: uniqueRefs,
-                    equivalent_courses: equivalentCourses,
+                    equivalent_contexts: equivalentContexts,
                     requirement_summary: reqSet.size === 1 ? Array.from(reqSet)[0] : 'يختلف حسب البرنامج',
                     category_summary: catSet.size === 0 ? null : (catSet.size === 1 ? Array.from(catSet)[0] : 'يختلف حسب البرنامج')
                 };
@@ -2262,9 +2531,19 @@
                         </button>
                     `;
                 }).join('');
-                const equivalentCoursesHtml = (result.equivalent_courses || []).map(eq => `
-                    <span class="equivalent-chip">${escapeHtml(eq.label)}</span>
-                `).join('');
+                const equivalentContextsHtml = (result.equivalent_contexts || []).map(contextInfo => {
+                    const optionsHtml = (contextInfo.options || []).map((option, optionIndex) => {
+                        const separator = optionIndex > 0 ? '<span class="equivalent-or">أو</span>' : '';
+                        return `${separator}<span class="equivalent-chip">${escapeHtml(option.label)}</span>`;
+                    }).join('');
+
+                    return `
+                        <div class="equivalent-context-line">
+                            <span class="equivalent-context-label">${escapeHtml(contextInfo.context_label)}:</span>
+                            <span class="equivalent-context-options">${optionsHtml}</span>
+                        </div>
+                    `;
+                }).join('');
 
                 return `
                     <div class="result-item quick-edit-target" onclick="quickEditFromSearch(${resultIndex})">
@@ -2275,11 +2554,12 @@
                             <span class="result-tag">${escapeHtml(result.requirement_summary)}</span>
                             ${result.category_summary ? `<span class="result-tag">${escapeHtml(result.category_summary)}</span>` : ''}
                             <span class="result-tag">موجود في ${result.programs_count} برامج</span>
+                            ${equivalentContextsHtml ? `<span class="result-tag">معادلات حسب الخطة</span>` : ''}
                         </div>
-                        ${equivalentCoursesHtml ? `
+                        ${equivalentContextsHtml ? `
                             <div class="result-equivalents">
-                                <span class="result-equivalents-label">يعادل:</span>
-                                ${equivalentCoursesHtml}
+                                <span class="result-equivalents-label">المعادلات:</span>
+                                <div class="equivalent-context-list">${equivalentContextsHtml}</div>
                             </div>
                         ` : ''}
                         <div class="result-programs">${programsHtml}</div>
@@ -2344,8 +2624,9 @@
             const inOutsidePool = isOutsideLevelElective(course);
             const levelValue = Math.max(1, Math.round(toNumber(course.level, 1)));
             const typeValue = normalizeText(course.type) || 'نظري';
-            const equivalentList = getEquivalentDisplayListByCode(course.code);
-            const equivalentMeta = equivalentList.map(eq => eq.label).join(' | ');
+            const programContext = buildProgramContext(getCurrentProgram() || {});
+            const equivalentList = getEquivalentOptionsForContext(course.code, programContext);
+            const equivalentMeta = equivalentList.map(eq => eq.label).join(' أو ');
             const rowClass = highlightedCourseIndex === courseIndex ? 'course-row-highlight' : '';
 
             if (!editModeEnabled) {
@@ -2373,7 +2654,7 @@
                         <input class="edit-input" value="${escapeHtml(course.name)}" placeholder="اسم المقرر" onchange="setCourseField(${courseIndex}, 'name', this.value)">
                         <input class="edit-input" value="${escapeHtml(course.name_en || '')}" placeholder="الاسم بالإنجليزية" onchange="setCourseField(${courseIndex}, 'name_en', this.value)">
                         <input class="edit-input" value="${escapeHtml(course.category || '')}" placeholder="التصنيف" onchange="setCourseField(${courseIndex}, 'category', this.value)">
-                        <input class="edit-input" value="${escapeHtml(getCourseEquivalentInputValue(course))}" placeholder="المعادلات (أكواد مفصولة بفاصلة)" onchange="setCourseEquivalents(${courseIndex}, this.value)">
+                        <input class="edit-input" value="${escapeHtml(getCourseEquivalentInputValue(course))}" placeholder="معادلات هذه الخطة (مثال: 2001001-3 أو 2001002-3)" onchange="setCourseEquivalents(${courseIndex}, this.value)">
                     </td>
                     <td>
                         <input type="number" min="0" step="1" class="edit-input" value="${toNumber(course.hours, 0)}" onchange="setCourseField(${courseIndex}, 'hours', this.value)">
@@ -2597,9 +2878,17 @@
             if (!program || !program.courses || !program.courses[courseIndex]) return;
 
             const course = program.courses[courseIndex];
-            const values = rawValue
-                .split(/[,\n;،]+/)
-                .map(part => normalizeText(part))
+            const values = splitEquivalentsInput(rawValue)
+                .map(part => {
+                    const parsed = parseEquivalentItem(part);
+                    if (!parsed) return '';
+                    if (parsed.code) {
+                        const code = normalizeText(parsed.code);
+                        const name = normalizeText(parsed.name || '');
+                        return name ? `${code} - ${name}` : code;
+                    }
+                    return normalizeText(parsed.label || '');
+                })
                 .filter(Boolean);
 
             if (!values.length) {
@@ -2738,10 +3027,11 @@
                 [],
                 ['Level', 'Code', 'Course Name', 'English Name', 'Hours', 'Type', 'Category', 'Equivalent Courses', 'Optional Pool', 'Counted In Hours']
             ];
+            const context = buildProgramContext(program);
 
             (program.courses || []).forEach(course => {
                 const outside = isOutsideLevelElective(course);
-                const equivalentsText = getEquivalentDisplayListByCode(course.code).map(eq => eq.label).join(' | ');
+                const equivalentsText = getEquivalentOptionsForContext(course.code, context).map(eq => eq.label).join(' | ');
                 rows.push([
                     outside ? 'Outside Elective Pool' : Math.max(1, Math.round(toNumber(course.level, 1))),
                     course.code ?? '',
@@ -2806,6 +3096,7 @@
                 const version = program.version || '';
                 const totalHours = program.total_hours || '';
                 const courses = (program.courses || []);
+                const context = buildProgramContext(program);
 
                 if (!courses.length) {
                     rows.push([programName, (program.name_en || ''), degree, planType, version, totalHours, '', '', '', '', '', '', '', '', '', '']);
@@ -2814,7 +3105,7 @@
 
                 courses.forEach(course => {
                     const outside = isOutsideLevelElective(course);
-                    const equivalentsText = getEquivalentDisplayListByCode(course.code).map(eq => eq.label).join(' | ');
+                    const equivalentsText = getEquivalentOptionsForContext(course.code, context).map(eq => eq.label).join(' | ');
                     rows.push([
                         programName,
                         (program.name_en || ''),
