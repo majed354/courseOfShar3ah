@@ -1077,12 +1077,79 @@
             background: #991B1B;
         }
 
+        .mini-btn.mini-btn-add {
+            background: #0F766E;
+        }
+
+        .mini-btn.mini-btn-add:hover {
+            background: #115E59;
+        }
+
         .course-meta {
             display: block;
             margin-top: 0.2rem;
             color: var(--text-muted);
             font-size: 0.72rem;
             line-height: 1.45;
+        }
+
+        .equivalency-editor {
+            margin-top: 0.35rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.45rem;
+            background: #F8FAFC;
+            border: 1px dashed #CBD5E1;
+            border-radius: var(--radius-xs);
+            padding: 0.45rem;
+        }
+
+        .equivalency-builder {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
+
+        .equivalency-builder-actions {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 0.4rem;
+            align-items: center;
+        }
+
+        .selected-equivalents-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+        }
+
+        .selected-equivalent-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            background: #ECFDF5;
+            border: 1px solid #A7F3D0;
+            color: #065F46;
+            border-radius: 999px;
+            padding: 0.15rem 0.5rem;
+            font-size: 0.68rem;
+            line-height: 1.2;
+        }
+
+        .remove-equivalent-btn {
+            border: none;
+            background: transparent;
+            color: #DC2626;
+            font-weight: 700;
+            cursor: pointer;
+            padding: 0;
+            line-height: 1;
+            font-size: 0.8rem;
+        }
+
+        .selected-equivalent-empty {
+            color: #64748B;
+            font-size: 0.7rem;
         }
 
         .edit-help {
@@ -1321,6 +1388,10 @@
             .edit-input,
             .edit-select {
                 font-size: 0.72rem;
+            }
+
+            .equivalency-builder-actions {
+                grid-template-columns: 1fr;
             }
 
             .courses-table {
@@ -1579,6 +1650,7 @@
         let lastSearchResults = [];
         let courseCatalogByCode = new Map();
         let equivalencyRulesBySource = new Map();
+        let equivalencyUiState = new Map();
 
         function deepClone(value) {
             return JSON.parse(JSON.stringify(value));
@@ -2032,39 +2104,48 @@
             const courseKey = normalizeCourseCode(codeRaw);
             if (!courseKey) return [];
 
-            return (references || [])
-                .map(ref => {
-                    const context = normalizeContext({
-                        program: ref.program,
-                        degree: ref.degree,
-                        plan_type: ref.plan_type,
-                        version: ref.version
-                    });
+            const contextsMap = new Map();
+            (references || []).forEach(ref => {
+                const context = normalizeContext({
+                    program: ref.program,
+                    degree: ref.degree,
+                    plan_type: ref.plan_type,
+                    version: ref.version
+                });
+                const signature = JSON.stringify(context);
+                if (contextsMap.has(signature)) return;
 
-                    const options = getEquivalentOptionsForContext(courseKey, context);
-                    if (!options.length) return null;
+                const options = getEquivalentOptionsForContext(courseKey, context);
+                if (!options.length) return;
 
-                    return {
-                        context_label: buildEquivalencyContextLabel(context),
-                        options
-                    };
-                })
-                .filter(Boolean);
+                contextsMap.set(signature, {
+                    context_label: buildEquivalencyContextLabel(context),
+                    options
+                });
+            });
+
+            return Array.from(contextsMap.values());
         }
 
-        function getCourseEquivalentInputValue(course) {
+        function getCourseEquivalentEntries(course) {
             const raw = course
                 ? (course.equivalents ?? course.equivalent_to ?? course.equivalent_courses ?? null)
                 : null;
-            const values = parseEquivalentsList(raw).map(entry => {
-                if (entry.code) {
-                    const code = normalizeText(entry.code);
-                    const name = normalizeText(entry.name || '');
-                    return name ? `${code} - ${name}` : code;
-                }
-                return normalizeText(entry.label || '');
-            }).filter(Boolean);
-            return values.join(', ');
+            return dedupeEquivalentEntries(parseEquivalentsList(raw));
+        }
+
+        function getCourseEquivalentInputValue(course) {
+            return getCourseEquivalentEntries(course)
+                .map(entry => {
+                    if (entry.code) {
+                        const code = normalizeText(entry.code);
+                        const name = normalizeText(entry.name || '');
+                        return name ? `${code} - ${name}` : code;
+                    }
+                    return normalizeText(entry.label || '');
+                })
+                .filter(Boolean)
+                .join(' أو ');
         }
 
         function splitEquivalentsInput(rawValue) {
@@ -2075,6 +2156,255 @@
                 .split(/(?:\s+أو\s+|\s+او\s+|[,\n;،|]+)/)
                 .map(part => normalizeText(part))
                 .filter(Boolean);
+        }
+
+        function saveCourseEquivalentEntries(course, entries) {
+            const deduped = dedupeEquivalentEntries(entries);
+            if (!deduped.length) {
+                delete course.equivalents;
+                delete course.equivalent_to;
+                delete course.equivalent_courses;
+                return;
+            }
+
+            course.equivalents = deduped.map(entry => {
+                if (entry.code) {
+                    const code = normalizeText(entry.code);
+                    const name = normalizeText(entry.name || '');
+                    return name ? `${code} - ${name}` : code;
+                }
+                return normalizeText(entry.label || '');
+            }).filter(Boolean);
+
+            delete course.equivalent_to;
+            delete course.equivalent_courses;
+        }
+
+        function getEquivalencyStateKey(courseIndex) {
+            return `${currentProgramIndex ?? -1}:${courseIndex}`;
+        }
+
+        function normalizeProgramIndexForEquivalency(value) {
+            const parsed = Number(value);
+            if (!Number.isInteger(parsed) || parsed < 0 || !programsData || !Array.isArray(programsData.programs)) {
+                return (currentProgramIndex ?? 0);
+            }
+            if (parsed >= programsData.programs.length) {
+                return (currentProgramIndex ?? 0);
+            }
+            return parsed;
+        }
+
+        function getEquivalencyState(courseIndex) {
+            const key = getEquivalencyStateKey(courseIndex);
+            if (!equivalencyUiState.has(key)) {
+                equivalencyUiState.set(key, {
+                    programIndex: normalizeProgramIndexForEquivalency(currentProgramIndex ?? 0),
+                    search: '',
+                    selectedCode: ''
+                });
+            }
+
+            const state = equivalencyUiState.get(key);
+            state.programIndex = normalizeProgramIndexForEquivalency(state.programIndex);
+            if (typeof state.search !== 'string') state.search = '';
+            if (typeof state.selectedCode !== 'string') state.selectedCode = '';
+            return state;
+        }
+
+        function getProgramLabelForEquivalency(program) {
+            const programName = normalizeText(program && program.name);
+            const degree = canonicalDegreeLabel(program && program.degree);
+            const planType = normalizeText(program && program.plan_type);
+            const version = normalizeText(program && program.version);
+            const parts = [programName, degree];
+            if (planType) parts.push(`الخطة ${planType}`);
+            if (version) parts.push(`إصدار ${version}`);
+            return parts.filter(Boolean).join(' | ');
+        }
+
+        function getEquivalentCourseCandidates(courseIndex) {
+            const state = getEquivalencyState(courseIndex);
+            const sourceProgram = getCurrentProgram();
+            const sourceCourse = sourceProgram && sourceProgram.courses ? sourceProgram.courses[courseIndex] : null;
+            const sourceKey = normalizeCourseCode(sourceCourse && sourceCourse.code);
+
+            const targetProgram = programsData && programsData.programs ? programsData.programs[state.programIndex] : null;
+            if (!targetProgram || !Array.isArray(targetProgram.courses)) return [];
+
+            const query = normalizeText(state.search).toLowerCase();
+            const deduped = new Map();
+
+            targetProgram.courses.forEach(candidate => {
+                const code = normalizeText(candidate.code);
+                const codeKey = normalizeCourseCode(code);
+                if (!codeKey) return;
+                if (sourceKey && codeKey === sourceKey) return;
+                if (deduped.has(codeKey)) return;
+
+                const name = normalizeText(candidate.name);
+                const nameEn = normalizeText(candidate.name_en);
+                const haystack = `${code} ${name} ${nameEn}`.toLowerCase();
+                if (query && !haystack.includes(query)) return;
+
+                deduped.set(codeKey, {
+                    code,
+                    codeKey,
+                    name,
+                    name_en: nameEn
+                });
+            });
+
+            return Array.from(deduped.values()).sort((a, b) => a.code.localeCompare(b.code, 'en'));
+        }
+
+        function renderEquivalentCourseOptionsHtml(courseIndex) {
+            const state = getEquivalencyState(courseIndex);
+            const candidates = getEquivalentCourseCandidates(courseIndex);
+
+            if (!candidates.length) {
+                return '<option value="">لا توجد مقررات مطابقة</option>';
+            }
+
+            const options = candidates.map(item => {
+                const selected = state.selectedCode === item.codeKey ? 'selected' : '';
+                const label = item.name ? `${item.code} - ${item.name}` : item.code;
+                return `<option value="${escapeHtml(item.codeKey)}" ${selected}>${escapeHtml(label)}</option>`;
+            }).join('');
+
+            return `<option value="">اختر المقرر المعادل...</option>${options}`;
+        }
+
+        function refreshEquivalentCourseOptions(courseIndex) {
+            const state = getEquivalencyState(courseIndex);
+            const selectId = `equivCourseSelect-${currentProgramIndex}-${courseIndex}`;
+            const select = document.getElementById(selectId);
+            if (!select) return;
+
+            select.innerHTML = renderEquivalentCourseOptionsHtml(courseIndex);
+
+            if (state.selectedCode) {
+                const exists = Array.from(select.options).some(option => option.value === state.selectedCode);
+                if (exists) {
+                    select.value = state.selectedCode;
+                } else {
+                    state.selectedCode = '';
+                    select.value = '';
+                }
+            } else {
+                select.value = '';
+            }
+        }
+
+        function setEquivalentProgramFilter(courseIndex, programIndexValue) {
+            const state = getEquivalencyState(courseIndex);
+            state.programIndex = normalizeProgramIndexForEquivalency(programIndexValue);
+            state.search = '';
+            state.selectedCode = '';
+
+            const searchId = `equivCourseSearch-${currentProgramIndex}-${courseIndex}`;
+            const searchInput = document.getElementById(searchId);
+            if (searchInput) searchInput.value = '';
+
+            refreshEquivalentCourseOptions(courseIndex);
+        }
+
+        function setEquivalentSearchFilter(courseIndex, queryValue) {
+            const state = getEquivalencyState(courseIndex);
+            state.search = normalizeText(queryValue);
+            state.selectedCode = '';
+            refreshEquivalentCourseOptions(courseIndex);
+        }
+
+        function setEquivalentCandidate(courseIndex, codeKeyValue) {
+            const state = getEquivalencyState(courseIndex);
+            state.selectedCode = normalizeCourseCode(codeKeyValue);
+        }
+
+        function addEquivalentFromPicker(courseIndex) {
+            const program = getCurrentProgram();
+            if (!program || !program.courses || !program.courses[courseIndex]) return;
+
+            const state = getEquivalencyState(courseIndex);
+            const selectedCodeKey = normalizeCourseCode(state.selectedCode);
+            if (!selectedCodeKey) return;
+
+            const candidates = getEquivalentCourseCandidates(courseIndex);
+            const selectedCandidate = candidates.find(item => item.codeKey === selectedCodeKey);
+            if (!selectedCandidate) return;
+
+            const course = program.courses[courseIndex];
+            const entries = getCourseEquivalentEntries(course);
+            const exists = entries.some(entry => normalizeCourseCode(entry.code || entry.codeKey || '') === selectedCandidate.codeKey);
+            if (exists) return;
+
+            entries.push({
+                code: selectedCandidate.code,
+                codeKey: selectedCandidate.codeKey,
+                name: selectedCandidate.name,
+                label: selectedCandidate.name ? `${selectedCandidate.code} - ${selectedCandidate.name}` : selectedCandidate.code
+            });
+
+            saveCourseEquivalentEntries(course, entries);
+            state.selectedCode = '';
+            applyProgramMutation();
+        }
+
+        function removeEquivalentByIndex(courseIndex, entryIndex) {
+            const program = getCurrentProgram();
+            if (!program || !program.courses || !program.courses[courseIndex]) return;
+
+            const course = program.courses[courseIndex];
+            const entries = getCourseEquivalentEntries(course);
+            if (entryIndex < 0 || entryIndex >= entries.length) return;
+
+            entries.splice(entryIndex, 1);
+            saveCourseEquivalentEntries(course, entries);
+            applyProgramMutation();
+        }
+
+        function renderEquivalencyEditor(course, courseIndex) {
+            const state = getEquivalencyState(courseIndex);
+            const currentEntries = getCourseEquivalentEntries(course);
+
+            const programOptionsHtml = (programsData && Array.isArray(programsData.programs)
+                ? programsData.programs
+                : []
+            ).map((program, index) => {
+                const selected = state.programIndex === index ? 'selected' : '';
+                return `<option value="${index}" ${selected}>${escapeHtml(getProgramLabelForEquivalency(program))}</option>`;
+            }).join('');
+
+            const selectedChipsHtml = currentEntries.length
+                ? currentEntries.map((entry, entryIndex) => {
+                    const label = formatEquivalentOption(entry);
+                    return `
+                        <span class="selected-equivalent-chip">
+                            <span>${escapeHtml(label)}</span>
+                            <button type="button" class="remove-equivalent-btn" onclick="removeEquivalentByIndex(${courseIndex}, ${entryIndex})">×</button>
+                        </span>
+                    `;
+                }).join('')
+                : '<span class="selected-equivalent-empty">لا توجد معادلات محددة بعد</span>';
+
+            return `
+                <div class="equivalency-editor">
+                    <input class="edit-input" value="${escapeHtml(getCourseEquivalentInputValue(course))}" placeholder="إدخال يدوي: 2001001-3 أو 2001002-3" onchange="setCourseEquivalents(${courseIndex}, this.value)">
+                    <div class="equivalency-builder">
+                        <select class="edit-select" onchange="setEquivalentProgramFilter(${courseIndex}, this.value)">
+                            ${programOptionsHtml}
+                        </select>
+                        <input id="equivCourseSearch-${currentProgramIndex}-${courseIndex}" class="edit-input" value="${escapeHtml(state.search)}" placeholder="ابحث داخل مقررات البرنامج..." oninput="setEquivalentSearchFilter(${courseIndex}, this.value)">
+                        <div class="equivalency-builder-actions">
+                            <select id="equivCourseSelect-${currentProgramIndex}-${courseIndex}" class="edit-select" onchange="setEquivalentCandidate(${courseIndex}, this.value)">
+                                ${renderEquivalentCourseOptionsHtml(courseIndex)}
+                            </select>
+                            <button type="button" class="mini-btn mini-btn-add" onclick="addEquivalentFromPicker(${courseIndex})">إضافة معادلة</button>
+                        </div>
+                    </div>
+                    <div class="selected-equivalents-list">${selectedChipsHtml}</div>
+                </div>
+            `;
         }
 
         function canonicalDegreeLabel(degree) {
@@ -2654,7 +2984,7 @@
                         <input class="edit-input" value="${escapeHtml(course.name)}" placeholder="اسم المقرر" onchange="setCourseField(${courseIndex}, 'name', this.value)">
                         <input class="edit-input" value="${escapeHtml(course.name_en || '')}" placeholder="الاسم بالإنجليزية" onchange="setCourseField(${courseIndex}, 'name_en', this.value)">
                         <input class="edit-input" value="${escapeHtml(course.category || '')}" placeholder="التصنيف" onchange="setCourseField(${courseIndex}, 'category', this.value)">
-                        <input class="edit-input" value="${escapeHtml(getCourseEquivalentInputValue(course))}" placeholder="معادلات هذه الخطة (مثال: 2001001-3 أو 2001002-3)" onchange="setCourseEquivalents(${courseIndex}, this.value)">
+                        ${renderEquivalencyEditor(course, courseIndex)}
                     </td>
                     <td>
                         <input type="number" min="0" step="1" class="edit-input" value="${toNumber(course.hours, 0)}" onchange="setCourseField(${courseIndex}, 'hours', this.value)">
@@ -2878,29 +3208,13 @@
             if (!program || !program.courses || !program.courses[courseIndex]) return;
 
             const course = program.courses[courseIndex];
-            const values = splitEquivalentsInput(rawValue)
+            const entries = splitEquivalentsInput(rawValue)
                 .map(part => {
-                    const parsed = parseEquivalentItem(part);
-                    if (!parsed) return '';
-                    if (parsed.code) {
-                        const code = normalizeText(parsed.code);
-                        const name = normalizeText(parsed.name || '');
-                        return name ? `${code} - ${name}` : code;
-                    }
-                    return normalizeText(parsed.label || '');
+                    return parseEquivalentItem(part);
                 })
                 .filter(Boolean);
 
-            if (!values.length) {
-                delete course.equivalents;
-                delete course.equivalent_to;
-                delete course.equivalent_courses;
-            } else {
-                course.equivalents = values;
-                delete course.equivalent_to;
-                delete course.equivalent_courses;
-            }
-
+            saveCourseEquivalentEntries(course, entries);
             applyProgramMutation();
         }
 
