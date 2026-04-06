@@ -1635,7 +1635,8 @@
 
     <script>
         const EDIT_PASSWORD = '140505';
-        const LOCAL_STORAGE_KEY = 'courseOfShar3ah_custom_data_v2';
+        const LOCAL_STORAGE_KEY = 'courseOfShar3ah_custom_data_v3';
+        const LEGACY_LOCAL_STORAGE_KEYS = ['courseOfShar3ah_custom_data_v2'];
         const MAX_LEVEL = 12;
 
         let programsData = null;
@@ -2490,6 +2491,16 @@
             localStorage.removeItem(LOCAL_STORAGE_KEY);
         }
 
+        function clearLegacyCustomData() {
+            LEGACY_LOCAL_STORAGE_KEYS.forEach(key => {
+                try {
+                    localStorage.removeItem(key);
+                } catch (error) {
+                    console.warn('Could not clear legacy stored data:', error);
+                }
+            });
+        }
+
         function isCountedElectivePlaceholder(course) {
             const text = `${normalizeText(course && course.name)} ${normalizeText(course && course.category)}`;
             return /(?:جامعي|جامعة|كلية|برنامج)\s*اختياري|اختياري\s*(?:جامعي|جامعة|كلية|برنامج)/.test(text);
@@ -2622,6 +2633,7 @@
                 const response = await fetch('data.json');
                 const data = await response.json();
                 sanitizeDataShape(data);
+                clearLegacyCustomData();
                 originalProgramsData = deepClone(data);
                 programsData = readStoredData(data);
                 sanitizeDataShape(programsData);
