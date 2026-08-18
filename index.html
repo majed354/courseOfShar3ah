@@ -358,28 +358,114 @@
             box-shadow: 4px 0 0 var(--accent);
         }
 
-        .result-item.quick-edit-target {
+        .result-item.course-details-target {
             cursor: pointer;
+            outline: none;
         }
 
-        .result-item.quick-edit-target::after {
-            content: 'انقر للتعديل السريع';
+        .result-item.course-details-target:focus-visible {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(26, 77, 46, 0.18);
+        }
+
+        .result-item.course-details-target::after {
+            content: 'انقر لعرض نبذة المقرر';
             display: inline-block;
             margin-top: 0.55rem;
-            color: #1E40AF;
-            background: #DBEAFE;
-            border: 1px solid #BFDBFE;
+            color: #065F46;
+            background: #ECFDF5;
+            border: 1px solid #A7F3D0;
             border-radius: 999px;
             padding: 0.2rem 0.65rem;
             font-size: 0.7rem;
             font-weight: 600;
         }
 
+        .result-course-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+
         .result-course-name {
             font-weight: 700;
             font-size: 1.05rem;
             color: var(--primary-dark);
-            margin-bottom: 0.5rem;
+        }
+
+        .course-pdf-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+            flex-shrink: 0;
+            padding: 0.55rem 0.8rem;
+            border-radius: var(--radius-sm);
+            background: #DC2626;
+            color: #fff;
+            text-decoration: none;
+            border: 1px solid #B91C1C;
+            font-family: inherit;
+            font-size: 0.78rem;
+            font-weight: 700;
+            transition: all var(--transition-fast);
+        }
+
+        .course-pdf-btn:hover {
+            background: #B91C1C;
+            transform: translateY(-1px);
+        }
+
+        .course-pdf-btn.warning {
+            background: #B45309;
+            border-color: #92400E;
+        }
+
+        .course-pdf-btn.warning:hover {
+            background: #92400E;
+        }
+
+        .course-pdf-btn svg {
+            width: 17px;
+            height: 17px;
+        }
+
+        .specification-status-chip,
+        .equivalency-status-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            border-radius: 999px;
+            padding: 0.25rem 0.65rem;
+            font-size: 0.72rem;
+            font-weight: 700;
+            border: 1px solid transparent;
+        }
+
+        .specification-status-chip.verified {
+            color: #065F46;
+            background: #ECFDF5;
+            border-color: #A7F3D0;
+        }
+
+        .specification-status-chip.warning {
+            color: #92400E;
+            background: #FFFBEB;
+            border-color: #FCD34D;
+        }
+
+        .equivalency-status-chip.has-equivalency {
+            color: #065F46;
+            background: #ECFDF5;
+            border-color: #A7F3D0;
+        }
+
+        .equivalency-status-chip.no-equivalency {
+            color: #475569;
+            background: #F8FAFC;
+            border-color: #CBD5E1;
         }
 
         .result-meta {
@@ -465,6 +551,8 @@
             font-weight: 600;
             color: var(--primary);
             direction: ltr;
+            unicode-bidi: isolate;
+            display: inline-block;
         }
 
         .result-programs {
@@ -824,6 +912,89 @@
             padding: 1.5rem;
             overflow-y: auto;
             flex: 1;
+        }
+
+        .course-details-modal {
+            max-width: 760px;
+        }
+
+        .course-detail-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.55rem;
+            margin-bottom: 1rem;
+        }
+
+        .course-detail-section {
+            background: var(--bg-light);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-md);
+            padding: 1rem 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .course-detail-heading {
+            color: var(--primary-dark);
+            font-size: 1rem;
+            font-weight: 800;
+            margin-bottom: 0.55rem;
+        }
+
+        .course-detail-summary {
+            color: var(--text-medium);
+            line-height: 1.95;
+            font-size: 0.95rem;
+        }
+
+        .course-detail-status-panel {
+            border-radius: var(--radius-md);
+            padding: 0.9rem 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid;
+        }
+
+        .course-detail-status-panel.verified {
+            color: #065F46;
+            background: #ECFDF5;
+            border-color: #A7F3D0;
+        }
+
+        .course-detail-status-panel.warning {
+            color: #92400E;
+            background: #FFFBEB;
+            border-color: #FCD34D;
+        }
+
+        .course-detail-status-title {
+            display: block;
+            font-weight: 800;
+            margin-bottom: 0.25rem;
+        }
+
+        .course-detail-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .course-detail-actions .course-pdf-btn {
+            padding: 0.75rem 1.15rem;
+            font-size: 0.9rem;
+        }
+
+        .course-detail-empty {
+            color: var(--text-muted);
+            line-height: 1.8;
+        }
+
+        .course-row-clickable {
+            cursor: pointer;
+        }
+
+        .course-row-clickable:focus-visible {
+            outline: 3px solid rgba(26, 77, 46, 0.22);
+            outline-offset: -3px;
         }
 
         /* Download Buttons */
@@ -1442,6 +1613,14 @@
                 font-size: 0.95rem;
             }
 
+            .result-course-header {
+                flex-direction: column;
+            }
+
+            .result-course-header .course-pdf-btn {
+                width: 100%;
+            }
+
             .result-tag {
                 font-size: 0.7rem;
                 padding: 0.2rem 0.5rem;
@@ -1480,12 +1659,12 @@
         visibility: hidden !important;
     }
 
-    body.print-plan .modal-overlay,
-    body.print-plan .modal-overlay * {
+    body.print-plan #modalOverlay,
+    body.print-plan #modalOverlay * {
         visibility: visible !important;
     }
 
-    body.print-plan .modal-overlay {
+    body.print-plan #modalOverlay {
         position: static !important;
         display: block !important;
         opacity: 1 !important;
@@ -1619,6 +1798,21 @@
         </div>
     </div>
 
+    <!-- Course details modal -->
+    <div class="modal-overlay" id="courseDetailsOverlay" aria-hidden="true">
+        <div class="modal course-details-modal" role="dialog" aria-modal="true" aria-labelledby="courseDetailsTitle">
+            <div class="modal-header">
+                <h3 class="modal-title" id="courseDetailsTitle"></h3>
+                <button class="modal-close" type="button" onclick="closeCourseDetailsModal()" aria-label="إغلاق تفاصيل المقرر">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body" id="courseDetailsBody"></div>
+        </div>
+    </div>
+
     <button id="floatingEditBtn" class="floating-edit-btn" type="button" onclick="toggleFloatingEditMode()" title="تفعيل وضع التعديل">
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M22.7 19.3l-4-4a1 1 0 0 0-1.4 0l-1 1-2.9-2.9 1-1a1 1 0 0 0 0-1.4l-4-4a1 1 0 0 0-1.4 0L7 8.3l-.7-.7A4.5 4.5 0 1 0 4.9 9l.7.7L2.8 12.5a1 1 0 0 0 0 1.4l4 4a1 1 0 0 0 1.4 0l2.8-2.8.7.7A4.5 4.5 0 1 0 13.1 14l-.7-.7 2.8-2.8 2.9 2.9-1 1a1 1 0 0 0 0 1.4l4 4a1 1 0 0 0 1.4-1.4z"/>
@@ -1634,7 +1828,7 @@
     </footer>
 
     <script>
-        const EDIT_PASSWORD = '2008';
+        const EDIT_PASSWORD = '140505';
         const LOCAL_STORAGE_KEY = 'courseOfShar3ah_custom_data_v3';
         const LEGACY_LOCAL_STORAGE_KEYS = ['courseOfShar3ah_custom_data_v2'];
         const MAX_LEVEL = 12;
@@ -1652,6 +1846,7 @@
         let courseCatalogByCode = new Map();
         let equivalencyRulesBySource = new Map();
         let equivalencyUiState = new Map();
+        let lastCourseDetailsTrigger = null;
 
         function deepClone(value) {
             return JSON.parse(JSON.stringify(value));
@@ -1697,6 +1892,59 @@
 
         function normalizeCourseCode(code) {
             return normalizeText(code).replace(/\s+/g, '').toUpperCase();
+        }
+
+        function getCourseDetails(codeRaw) {
+            const codeKey = normalizeCourseCode(codeRaw);
+            if (!codeKey || !programsData || !programsData.course_details) return null;
+            const details = programsData.course_details[codeKey];
+            return details && typeof details === 'object' ? details : null;
+        }
+
+        function sanitizeResourceUrl(value) {
+            const url = normalizeText(value);
+            if (!url) return '';
+            if (/^https?:\/\//i.test(url) || /^(?:\.\/)?assets\//i.test(url)) return url;
+            return '';
+        }
+
+        function getSpecificationStatusInfo(details) {
+            const status = normalizeText(details && details.match_status);
+            if (status === 'verified') {
+                return { cssClass: 'verified', label: 'رمز التوصيف مطابق' };
+            }
+            if (status === 'code_match_name_diff') {
+                return { cssClass: 'warning', label: 'الرمز مطابق والاسم مختلف' };
+            }
+            if (status === 'code_mismatch') {
+                return { cssClass: 'warning', label: 'مطابقة اسمية والرمز مختلف' };
+            }
+            if (status === 'name_only') {
+                return { cssClass: 'warning', label: 'مطابقة اسمية والرمز غير مذكور' };
+            }
+            return { cssClass: 'warning', label: 'مطابقة التوصيف تحتاج مراجعة' };
+        }
+
+        function renderCoursePdfButton(details) {
+            const url = sanitizeResourceUrl(details && details.pdf_url);
+            if (!url) return '';
+
+            const statusInfo = getSpecificationStatusInfo(details);
+            const warningClass = statusInfo.cssClass === 'verified' ? '' : ' warning';
+            return `
+                <a class="course-pdf-btn${warningClass}" href="${escapeHtml(url)}" download onclick="event.stopPropagation()" title="${escapeHtml(statusInfo.label)}">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm1 7V3.5L19.5 9H15zM12 12v4.17l1.59-1.58L15 16l-4 4-4-4 1.41-1.41L10 16.17V12h2z"/>
+                    </svg>
+                    تحميل التوصيف
+                </a>
+            `;
+        }
+
+        function renderSpecificationStatusChip(details) {
+            if (!details) return '';
+            const statusInfo = getSpecificationStatusInfo(details);
+            return `<span class="specification-status-chip ${statusInfo.cssClass}">${escapeHtml(statusInfo.label)}</span>`;
         }
 
         function looksLikeCourseCode(value) {
@@ -2457,6 +2705,9 @@
             if (!data.equivalencies || typeof data.equivalencies !== 'object' || Array.isArray(data.equivalencies)) {
                 data.equivalencies = {};
             }
+            if (!data.course_details || typeof data.course_details !== 'object' || Array.isArray(data.course_details)) {
+                data.course_details = {};
+            }
             data.programs.forEach(program => {
                 if (!Array.isArray(program.courses)) {
                     program.courses = [];
@@ -2467,15 +2718,21 @@
 
         function readStoredData(fallbackData) {
             try {
+                const fallback = sanitizeDataShape(deepClone(fallbackData));
                 const raw = localStorage.getItem(LOCAL_STORAGE_KEY);
-                if (!raw) return deepClone(fallbackData);
+                if (!raw) return fallback;
                 const parsed = JSON.parse(raw);
                 sanitizeDataShape(parsed);
+                parsed.course_details = deepClone(fallback.course_details);
+                parsed.equivalencies = {
+                    ...deepClone(fallback.equivalencies),
+                    ...parsed.equivalencies
+                };
                 return parsed;
             } catch (error) {
                 console.warn('Stored data ignored:', error);
                 localStorage.removeItem(LOCAL_STORAGE_KEY);
-                return deepClone(fallbackData);
+                return sanitizeDataShape(deepClone(fallbackData));
             }
         }
 
@@ -2837,6 +3094,7 @@
                     programs_count: programGroups.length,
                     occurrence_refs: uniqueRefs,
                     equivalent_contexts: equivalentContexts,
+                    course_details: getCourseDetails(item.code),
                     requirement_summary: reqSet.size === 1 ? Array.from(reqSet)[0] : 'يختلف حسب البرنامج',
                     category_summary: catSet.size === 0 ? null : (catSet.size === 1 ? Array.from(catSet)[0] : 'يختلف حسب البرنامج')
                 };
@@ -2866,7 +3124,7 @@
                     const chipClass = chipClassForPlans([ref.plan_type]);
                     const planLabel = ref.plan_type ? `الخطة ${ref.plan_type}` : '';
                     return `
-                        <button type="button" class="program-chip ${chipClass}" onclick="quickEditOccurrence(${resultIndex}, ${refIndex}, event)">
+                        <button type="button" class="program-chip ${chipClass}" onclick="openProgramFromSearch(${resultIndex}, ${refIndex}, event)" title="فتح الخطة عند هذا المقرر">
                             <span class="chip-name">${escapeHtml(ref.program)}</span>
                             <span class="chip-degree">${escapeHtml(ref.degree)}</span>
                             ${planLabel ? `<span class="chip-plans">${escapeHtml(planLabel)}</span>` : ''}
@@ -2886,17 +3144,28 @@
                         </div>
                     `;
                 }).join('');
+                const hasEquivalency = Boolean(equivalentContextsHtml);
+                const details = result.course_details;
+                const pdfButtonHtml = renderCoursePdfButton(details);
+                const specificationChipHtml = renderSpecificationStatusChip(details);
+                const equivalencyChipHtml = hasEquivalency
+                    ? '<span class="equivalency-status-chip has-equivalency">توجد معادلة مسجلة</span>'
+                    : '<span class="equivalency-status-chip no-equivalency">لا توجد معادلة مسجلة</span>';
 
                 return `
-                    <div class="result-item quick-edit-target" onclick="quickEditFromSearch(${resultIndex})">
-                        <div class="result-course-name">${escapeHtml(result.name)}</div>
+                    <div class="result-item course-details-target" tabindex="0" aria-label="عرض تفاصيل ${escapeHtml(result.name)}" onclick="openCourseDetailsFromSearch(${resultIndex})" onkeydown="handleCourseDetailsKeydown(event, ${resultIndex})">
+                        <div class="result-course-header">
+                            <div class="result-course-name">${escapeHtml(result.name)}</div>
+                            ${pdfButtonHtml}
+                        </div>
                         <div class="result-meta">
                             <span class="result-tag"><code class="course-code">${escapeHtml(result.code)}</code></span>
                             <span class="result-tag">${escapeHtml(result.hours)} ساعة</span>
                             <span class="result-tag">${escapeHtml(result.requirement_summary)}</span>
                             ${result.category_summary ? `<span class="result-tag">${escapeHtml(result.category_summary)}</span>` : ''}
                             <span class="result-tag">موجود في ${result.programs_count} برامج</span>
-                            ${equivalentContextsHtml ? `<span class="result-tag">معادلات حسب الخطة</span>` : ''}
+                            ${specificationChipHtml}
+                            ${equivalencyChipHtml}
                         </div>
                         ${equivalentContextsHtml ? `
                             <div class="result-equivalents">
@@ -2911,28 +3180,205 @@
         }
 
         function clearSearch() {
+            clearTimeout(searchTimeout);
+            searchTimeout = null;
             searchInput.value = '';
             searchResults.classList.remove('active');
+            resultsContainer.innerHTML = '';
+            resultsCount.textContent = '0 نتيجة';
             lastSearchResults = [];
+            searchInput.focus();
         }
 
-        function quickEditFromSearch(resultIndex) {
-            const result = lastSearchResults[resultIndex];
-            if (!result || !Array.isArray(result.occurrence_refs) || !result.occurrence_refs.length) {
-                return;
+        function handleCourseDetailsKeydown(evt, resultIndex) {
+            if (evt.target !== evt.currentTarget) return;
+            if (evt.key === 'Enter' || evt.key === ' ') {
+                evt.preventDefault();
+                openCourseDetailsFromSearch(resultIndex);
             }
-            quickEditOccurrence(resultIndex, 0);
         }
 
-        function quickEditOccurrence(resultIndex, referenceIndex, evt) {
+        function openCourseDetailsFromSearch(resultIndex) {
+            const result = lastSearchResults[resultIndex];
+            if (!result) return;
+            openCourseDetails(result);
+        }
+
+        function openProgramFromSearch(resultIndex, referenceIndex, evt) {
             if (evt) evt.stopPropagation();
             const result = lastSearchResults[resultIndex];
             if (!result || !Array.isArray(result.occurrence_refs)) return;
             const target = result.occurrence_refs[referenceIndex];
             if (!target) return;
 
-            if (!ensureQuickEditEnabled()) return;
             openProgramModal(target.programIndex, target.courseIndex);
+        }
+
+        function renderCourseDetailEquivalencies(equivalentContexts) {
+            if (!Array.isArray(equivalentContexts) || !equivalentContexts.length) {
+                return `
+                    <div class="course-detail-status-panel no-equivalency" style="color:#475569;background:#F8FAFC;border-color:#CBD5E1;">
+                        <span class="course-detail-status-title">المعادلة</span>
+                        لا توجد معادلة مسجلة لهذا المقرر في البيانات الحالية.
+                    </div>
+                `;
+            }
+
+            const contextsHtml = equivalentContexts.map(contextInfo => {
+                const optionsHtml = (contextInfo.options || []).map((option, optionIndex) => {
+                    const separator = optionIndex > 0 ? '<span class="equivalent-or">أو</span>' : '';
+                    return `${separator}<span class="equivalent-chip">${escapeHtml(option.label)}</span>`;
+                }).join('');
+
+                return `
+                    <div class="equivalent-context-line">
+                        <span class="equivalent-context-label">${escapeHtml(contextInfo.context_label)}:</span>
+                        <span class="equivalent-context-options">${optionsHtml}</span>
+                    </div>
+                `;
+            }).join('');
+
+            return `
+                <div class="course-detail-status-panel verified">
+                    <span class="course-detail-status-title">توجد معادلة مسجلة</span>
+                    <div class="equivalent-context-list">${contextsHtml}</div>
+                </div>
+            `;
+        }
+
+        function openCourseDetails(result) {
+            if (!result) return;
+
+            const details = result.course_details || getCourseDetails(result.code);
+            const statusInfo = details ? getSpecificationStatusInfo(details) : null;
+            const safePdfUrl = sanitizeResourceUrl(details && details.pdf_url);
+            const equivalentContexts = Array.isArray(result.equivalent_contexts) ? result.equivalent_contexts : [];
+            const refs = Array.isArray(result.occurrence_refs) ? result.occurrence_refs : [];
+            const programsHtml = refs.map(ref => {
+                const chipClass = chipClassForPlans([ref.plan_type]);
+                const planLabel = ref.plan_type ? `الخطة ${ref.plan_type}` : '';
+                return `
+                    <button type="button" class="program-chip ${chipClass}" onclick="openProgramFromCourseDetails(${ref.programIndex}, ${ref.courseIndex})">
+                        <span class="chip-name">${escapeHtml(ref.program)}</span>
+                        <span class="chip-degree">${escapeHtml(ref.degree)}</span>
+                        ${planLabel ? `<span class="chip-plans">${escapeHtml(planLabel)}</span>` : ''}
+                    </button>
+                `;
+            }).join('');
+
+            const specificationHtml = details ? `
+                <div class="course-detail-status-panel ${statusInfo.cssClass}">
+                    <span class="course-detail-status-title">${escapeHtml(statusInfo.label)}</span>
+                    <div>
+                        رمز التوصيف:
+                        <bdi dir="ltr"><code class="course-code">${escapeHtml(details.specification_code || 'غير مذكور')}</code></bdi>
+                    </div>
+                    ${details.match_note ? `<div style="margin-top:0.35rem;line-height:1.7;">${escapeHtml(details.match_note)}</div>` : ''}
+                </div>
+                ${safePdfUrl ? `<div class="course-detail-actions">${renderCoursePdfButton(details)}</div>` : ''}
+            ` : `
+                <div class="course-detail-section">
+                    <h4 class="course-detail-heading">التوصيف الكامل</h4>
+                    <p class="course-detail-empty">لا يتوفر حاليًا ملف PDF مطابق لرمز هذا المقرر.</p>
+                </div>
+            `;
+
+            const title = normalizeText(result.name || (details && details.title) || result.code || 'تفاصيل المقرر');
+            const summary = normalizeText(details && details.summary);
+            const courseDetailsTitle = document.getElementById('courseDetailsTitle');
+            const courseDetailsBody = document.getElementById('courseDetailsBody');
+
+            courseDetailsTitle.textContent = title;
+            courseDetailsBody.innerHTML = `
+                <div class="course-detail-meta">
+                    <span class="result-tag"><code class="course-code">${escapeHtml(result.code || '')}</code></span>
+                    ${result.hours !== undefined ? `<span class="result-tag">${escapeHtml(result.hours)} ساعة</span>` : ''}
+                    ${result.type ? `<span class="result-tag">${escapeHtml(result.type)}</span>` : ''}
+                    ${result.requirement_summary ? `<span class="result-tag">${escapeHtml(result.requirement_summary)}</span>` : ''}
+                    ${details ? renderSpecificationStatusChip(details) : ''}
+                </div>
+                <div class="course-detail-section">
+                    <h4 class="course-detail-heading">نبذة مختصرة عن محتوى المقرر</h4>
+                    <p class="course-detail-summary">${summary ? escapeHtml(summary) : 'لا تتوفر نبذة موثقة لهذا المقرر حتى الآن.'}</p>
+                </div>
+                ${renderCourseDetailEquivalencies(equivalentContexts)}
+                ${specificationHtml}
+                ${programsHtml ? `
+                    <div class="course-detail-section">
+                        <h4 class="course-detail-heading">ظهور المقرر في الخطط</h4>
+                        <div class="result-programs">${programsHtml}</div>
+                    </div>
+                ` : ''}
+            `;
+
+            lastCourseDetailsTrigger = document.activeElement;
+            const overlay = document.getElementById('courseDetailsOverlay');
+            overlay.classList.add('active');
+            overlay.setAttribute('aria-hidden', 'false');
+            document.body.style.overflow = 'hidden';
+            requestAnimationFrame(() => {
+                const closeButton = overlay.querySelector('.modal-close');
+                if (closeButton) closeButton.focus();
+            });
+        }
+
+        function openCourseDetailsFromProgram(courseIndex) {
+            const program = getCurrentProgram();
+            if (!program || !program.courses || !program.courses[courseIndex]) return;
+
+            const course = program.courses[courseIndex];
+            const context = buildProgramContext(program);
+            const equivalentOptions = getEquivalentOptionsForContext(course.code, context);
+            const equivalentContexts = equivalentOptions.length ? [{
+                context_label: buildEquivalencyContextLabel(context),
+                options: equivalentOptions
+            }] : [];
+
+            openCourseDetails({
+                code: course.code,
+                name: course.name,
+                hours: course.hours,
+                type: course.type,
+                requirement_summary: requirementFromCategory(course.category),
+                category_summary: course.category || null,
+                course_details: getCourseDetails(course.code),
+                equivalent_contexts: equivalentContexts,
+                occurrence_refs: [{
+                    program: normalizeText(program.name),
+                    degree: canonicalDegreeLabel(program.degree),
+                    plan_type: normalizeText(program.plan_type),
+                    version: normalizeText(program.version),
+                    category: course.category || null,
+                    programIndex: currentProgramIndex,
+                    courseIndex
+                }]
+            });
+        }
+
+        function handleCourseRowKeydown(evt, courseIndex) {
+            if (evt.key === 'Enter' || evt.key === ' ') {
+                evt.preventDefault();
+                openCourseDetailsFromProgram(courseIndex);
+            }
+        }
+
+        function openProgramFromCourseDetails(programIndex, courseIndex) {
+            closeCourseDetailsModal();
+            openProgramModal(programIndex, courseIndex);
+        }
+
+        function closeCourseDetailsModal() {
+            const overlay = document.getElementById('courseDetailsOverlay');
+            overlay.classList.remove('active');
+            overlay.setAttribute('aria-hidden', 'true');
+
+            const planModalIsOpen = document.getElementById('modalOverlay').classList.contains('active');
+            document.body.style.overflow = planModalIsOpen ? 'hidden' : '';
+
+            if (lastCourseDetailsTrigger && document.contains(lastCourseDetailsTrigger)) {
+                lastCourseDetailsTrigger.focus();
+            }
+            lastCourseDetailsTrigger = null;
         }
 
         function splitCoursesByLocation(program) {
@@ -2973,7 +3419,7 @@
 
             if (!editModeEnabled) {
                 return `
-                    <tr class="${rowClass}" data-course-index="${courseIndex}">
+                    <tr class="${rowClass} course-row-clickable" data-course-index="${courseIndex}" tabindex="0" onclick="openCourseDetailsFromProgram(${courseIndex})" onkeydown="handleCourseRowKeydown(event, ${courseIndex})" aria-label="عرض تفاصيل ${escapeHtml(course.name)}">
                         <td><code class="course-code">${escapeHtml(course.code)}</code></td>
                         <td>
                             <strong>${escapeHtml(course.name)}</strong>
@@ -3297,7 +3743,8 @@
 
         function closeModal() {
             document.getElementById('modalOverlay').classList.remove('active');
-            document.body.style.overflow = '';
+            const courseDetailsIsOpen = document.getElementById('courseDetailsOverlay').classList.contains('active');
+            document.body.style.overflow = courseDetailsIsOpen ? 'hidden' : '';
             currentProgram = null;
             currentProgramIndex = null;
             highlightedCourseIndex = null;
@@ -3310,9 +3757,22 @@
             }
         });
 
+        document.getElementById('courseDetailsOverlay').addEventListener('click', e => {
+            if (e.target.id === 'courseDetailsOverlay') {
+                closeCourseDetailsModal();
+            }
+        });
+
         document.addEventListener('keydown', e => {
             if (e.key === 'Escape') {
-                closeModal();
+                const courseDetailsOverlay = document.getElementById('courseDetailsOverlay');
+                if (courseDetailsOverlay.classList.contains('active')) {
+                    closeCourseDetailsModal();
+                    return;
+                }
+                if (document.getElementById('modalOverlay').classList.contains('active')) {
+                    closeModal();
+                }
             }
         });
 
