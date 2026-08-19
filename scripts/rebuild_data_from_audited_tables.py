@@ -5,7 +5,9 @@ import argparse
 import csv
 import json
 import re
+import unicodedata
 from collections import defaultdict
+from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
@@ -113,6 +115,13 @@ def normalize_space(text: str) -> str:
     return re.sub(r"\s+", " ", (text or "").strip())
 
 
+def normalize_course_identity_name(text: str | None) -> str:
+    """Normalize only non-semantic formatting in a course identity name."""
+    value = unicodedata.normalize("NFC", text or "")
+    value = re.sub(r"[\u200e\u200f\u202a-\u202e\u2066-\u2069]", "", value)
+    return normalize_space(value)
+
+
 def normalize_digits(text: str) -> str:
     return (text or "").translate(str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789"))
 
@@ -171,6 +180,9 @@ def infer_category(
     existing_category: str | None,
     optional_pool: bool,
 ) -> str:
+    # Existing values include reviewed corrections that must survive rebuilds.
+    if existing_category:
+        return existing_category
     if optional_pool:
         return "اختيارية القسم"
 
@@ -180,8 +192,6 @@ def infer_category(
 
     if raw_category == "متطلبات الكلية":
         return "متطلبات الكلية"
-    if existing_category:
-        return existing_category
     if code.startswith(COMMON_REQUIREMENT_PREFIXES):
         return "متطلبات جامعية"
     if any(token in name for token in ("البلاغة", "البالغة", "النحو", "الصرف", "التحرير العربي")):
@@ -209,29 +219,19 @@ def make_default_label(name: str, degree: str, version: int, plan_type: str, dup
     return name
 
 
-def normalize_name_key(text: str | None) -> str:
-    value = normalize_digits(text or "")
-    value = normalize_space(value)
-    value = value.replace("أ", "ا").replace("إ", "ا").replace("آ", "ا")
-    value = value.replace("ى", "ي").replace("ة", "ه")
-    value = value.replace("(", "").replace(")", "")
-    return value
-
-
-def choose_name_en(existing_meta: dict[str, Any], course_name_ar: str) -> str | None:
-    if normalize_name_key(existing_meta.get("name")) == normalize_name_key(course_name_ar):
-        return existing_meta.get("name_en")
-    return None
-
-
 def build_current_metadata(current_data: dict[str, Any]) -> tuple[
     dict[tuple[str, str, int, str], dict[str, Any]],
     dict[tuple[str, str], dict[str, Any]],
-    dict[str, dict[str, Any]],
+    dict[tuple[tuple[str, str, int, str], str], list[dict[str, Any]]],
+    dict[tuple[str, str], dict[str, Any]],
 ]:
     programs_by_identity: dict[tuple[str, str, int, str], dict[str, Any]] = {}
     programs_by_name_degree: dict[tuple[str, str], dict[str, Any]] = {}
-    course_meta_by_code: dict[str, dict[str, Any]] = {}
+    course_meta_by_program_code: defaultdict[
+        tuple[tuple[str, str, int, str], str],
+        list[dict[str, Any]],
+    ] = defaultdict(list)
+    shared_meta_by_course_identity: dict[tuple[str, str], dict[str, Any]] = {}
 
     for program in current_data.get("programs", []):
         identity = (
@@ -248,16 +248,86 @@ def build_current_metadata(current_data: dict[str, Any]) -> tuple[
 
         for course in program.get("courses", []):
             code = normalize_space(course.get("code", ""))
-            if not code or code in course_meta_by_code:
+            name = normalize_space(course.get("name", ""))
+            if not code or not name:
                 continue
-            course_meta_by_code[code] = {
-                "name": course.get("name"),
+            metadata = {
+                "name": name,
                 "name_en": course.get("name_en"),
                 "type": course.get("type"),
                 "category": course.get("category"),
             }
+            course_meta_by_program_code[(identity, code)].append(metadata)
+            shared_meta_by_course_identity.setdefault(
+                (code, normalize_course_identity_name(name)),
+                {
+                    "name_en": course.get("name_en"),
+                    "type": course.get("type"),
+                },
+            )
 
-    return programs_by_identity, programs_by_name_degree, course_meta_by_code
+    # Catalog-only courses participate in the compound identity lookup, but
+    # never contribute a plan category because they are not assigned to a plan.
+    for course in current_data.get("courses_catalog", []):
+        if not isinstance(course, dict):
+            continue
+        code = normalize_space(course.get("code", ""))
+        name = normalize_space(course.get("name", ""))
+        if not code or not name:
+            continue
+        shared_meta_by_course_identity.setdefault(
+            (code, normalize_course_identity_name(name)),
+            {
+                "name_en": course.get("name_en"),
+                "type": course.get("type"),
+            },
+        )
+
+    return (
+        programs_by_identity,
+        programs_by_name_degree,
+        dict(course_meta_by_program_code),
+        shared_meta_by_course_identity,
+    )
+
+
+def choose_existing_course_metadata(
+    program_identity: tuple[str, str, int, str],
+    code: str,
+    source_name: str,
+    source_variant_count: int,
+    course_meta_by_program_code: dict[
+        tuple[tuple[str, str, int, str], str],
+        list[dict[str, Any]],
+    ],
+    shared_meta_by_course_identity: dict[tuple[str, str], dict[str, Any]],
+) -> dict[str, Any]:
+    """Return metadata without conflating two names that share one code.
+
+    An exact compound-identity match always wins. A sole existing course in
+    the same program/code slot may supply a manually corrected display name,
+    but only when the audited source also contains one name for that code.
+    This preserves corrections such as OCR fixes while keeping two genuine
+    renamed courses as two records.
+    """
+    candidates = course_meta_by_program_code.get((program_identity, code), [])
+    source_identity_name = normalize_course_identity_name(source_name)
+    exact_matches = [
+        candidate
+        for candidate in candidates
+        if normalize_course_identity_name(candidate.get("name")) == source_identity_name
+    ]
+    if len(exact_matches) == 1:
+        return dict(exact_matches[0])
+
+    if source_variant_count == 1 and len(candidates) == 1:
+        return dict(candidates[0])
+
+    shared = shared_meta_by_course_identity.get((code, source_identity_name), {})
+    return {
+        "name_en": shared.get("name_en"),
+        "type": shared.get("type"),
+    }
 
 
 def build_program_position_maps(
@@ -331,17 +401,34 @@ def parse_args() -> argparse.Namespace:
         default=ROOT / "data.json",
         help="Target data.json path to overwrite.",
     )
+    parser.add_argument(
+        "--plans-csv",
+        type=Path,
+        default=PLANS_CSV,
+        help="Audited plans CSV. The default points to the workspace extraction output.",
+    )
+    parser.add_argument(
+        "--courses-csv",
+        type=Path,
+        default=None,
+        help="Matched courses CSV. When omitted, the latest workspace extraction is used.",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
     current_data = load_json(args.metadata_json)
-    matched_courses_csv = find_latest_matched_courses_csv()
-    plans_rows = read_csv(PLANS_CSV)
+    matched_courses_csv = args.courses_csv or find_latest_matched_courses_csv()
+    plans_rows = read_csv(args.plans_csv)
     course_rows = read_csv(matched_courses_csv)
 
-    current_programs, current_programs_by_name, current_course_meta = build_current_metadata(current_data)
+    (
+        current_programs,
+        current_programs_by_name,
+        course_meta_by_program_code,
+        shared_meta_by_course_identity,
+    ) = build_current_metadata(current_data)
     identity_positions, group_positions, name_degree_positions = build_program_position_maps(current_data)
 
     real_plans = [
@@ -389,21 +476,43 @@ def main() -> None:
             else f"قسم {normalize_space(plan.get('القسم', ''))}"
         )
 
-        seen_course_keys: set[tuple[str, str]] = set()
+        plan_course_rows = rows_by_plan.get(plan["معرف_الخطة"], [])
+        source_names_by_code: defaultdict[str, set[str]] = defaultdict(set)
+        for row in plan_course_rows:
+            code = normalize_space(row.get("رمز_المقرر", ""))
+            source_name = normalize_course_identity_name(row.get("اسم_المقرر_عربي", ""))
+            if code and source_name:
+                source_names_by_code[code].add(source_name)
+
+        seen_source_course_keys: set[tuple[str, str]] = set()
+        seen_output_course_keys: set[tuple[str, str]] = set()
         courses_output: list[dict[str, Any]] = []
 
-        for row in rows_by_plan.get(plan["معرف_الخطة"], []):
+        for row in plan_course_rows:
             code = normalize_space(row.get("رمز_المقرر", ""))
-            name_ar = normalize_space(row.get("اسم_المقرر_عربي", ""))
-            if not code or not name_ar:
+            source_name_ar = normalize_space(row.get("اسم_المقرر_عربي", ""))
+            if not code or not source_name_ar:
                 continue
 
-            course_key = (code, name_ar)
-            if course_key in seen_course_keys:
+            source_course_key = (code, normalize_course_identity_name(source_name_ar))
+            if source_course_key in seen_source_course_keys:
                 continue
-            seen_course_keys.add(course_key)
+            seen_source_course_keys.add(source_course_key)
 
-            existing_meta = current_course_meta.get(code, {})
+            existing_meta = choose_existing_course_metadata(
+                identity,
+                code,
+                source_name_ar,
+                len(source_names_by_code[code]),
+                course_meta_by_program_code,
+                shared_meta_by_course_identity,
+            )
+            name_ar = normalize_space(existing_meta.get("name", "")) or source_name_ar
+            output_course_key = (code, normalize_course_identity_name(name_ar))
+            if output_course_key in seen_output_course_keys:
+                continue
+            seen_output_course_keys.add(output_course_key)
+
             hours = parse_intish(row.get("الساعات_س", "") or row.get("ساعات_المقرر", ""))
             optional_pool = is_optional_course(row)
             level = parse_level(row.get("المستوى", ""))
@@ -411,7 +520,7 @@ def main() -> None:
             course = {
                 "code": code,
                 "name": name_ar,
-                "name_en": choose_name_en(existing_meta, name_ar),
+                "name_en": existing_meta.get("name_en"),
                 "hours": hours or 0,
                 "level": level or 0,
                 "type": clean_type(row.get("نوع_الساعات", ""), name_ar, existing_meta.get("type")),
@@ -456,12 +565,16 @@ def main() -> None:
     for index, program in enumerate(programs_output, start=1):
         program["id"] = index
 
-    catalog_map: dict[str, dict[str, Any]] = {}
+    catalog_map: dict[tuple[str, str], dict[str, Any]] = {}
     for program in programs_output:
         program_label = program["label"]
         for course in program["courses"]:
+            catalog_key = (
+                normalize_space(course["code"]),
+                normalize_course_identity_name(course["name"]),
+            )
             entry = catalog_map.setdefault(
-                course["code"],
+                catalog_key,
                 {
                     "code": course["code"],
                     "name": course["name"],
@@ -478,9 +591,24 @@ def main() -> None:
             entry["levels_by_program"][program_label] = course["level"]
             entry["categories_by_program"][program_label] = course["category"]
 
+    # Keep audited records that are intentionally searchable but are not yet
+    # assigned to a specific plan. Their absence from programs[].courses means
+    # they never affect plan hours or occurrence counts.
+    for course in current_data.get("courses_catalog", []):
+        if not isinstance(course, dict) or not course.get("catalog_only"):
+            continue
+        catalog_key = (
+            normalize_space(course.get("code", "")),
+            normalize_course_identity_name(course.get("name", "")),
+        )
+        if not all(catalog_key) or catalog_key in catalog_map:
+            continue
+        catalog_map[catalog_key] = deepcopy(course)
+
     new_data = {
         "university": current_data.get("university", {}),
         "equivalencies": current_data.get("equivalencies", {}),
+        "course_details": current_data.get("course_details", {}),
         "programs": programs_output,
         "courses_catalog": [catalog_map[key] for key in sorted(catalog_map)],
     }

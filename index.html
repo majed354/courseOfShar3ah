@@ -1923,15 +1923,37 @@
             return normalizeText(code).replace(/\s+/g, '').toUpperCase();
         }
 
-        function getCourseDetailVariants(codeRaw) {
+        function normalizeCourseIdentityName(value) {
+            const withoutBidiControls = normalizeText(value)
+                .normalize('NFC')
+                .replace(/[\u200E\u200F\u202A-\u202E\u2066-\u2069]/g, '');
+            return normalizeText(withoutBidiControls);
+        }
+
+        function getCourseIdentityKey(codeRaw, nameRaw) {
+            return `${normalizeCourseCode(codeRaw)}||${normalizeCourseIdentityName(nameRaw)}`;
+        }
+
+        function getCourseDetailVariants(codeRaw, courseNameRaw = '') {
             const codeKey = normalizeCourseCode(codeRaw);
             if (!codeKey || !programsData || !programsData.course_details) return [];
             const entry = programsData.course_details[codeKey];
             if (!entry || typeof entry !== 'object' || Array.isArray(entry)) return [];
-            if (Array.isArray(entry.variants)) {
-                return entry.variants.filter(variant => variant && typeof variant === 'object' && !Array.isArray(variant));
-            }
-            return [entry];
+            const variants = Array.isArray(entry.variants)
+                ? entry.variants.filter(variant => variant && typeof variant === 'object' && !Array.isArray(variant))
+                : [entry];
+            const courseName = normalizeCourseIdentityName(courseNameRaw);
+            if (!courseName) return variants;
+
+            const exactMatches = variants.filter(details =>
+                normalizeCourseIdentityName(details.title) === courseName
+            );
+            if (exactMatches.length) return exactMatches;
+
+            const distinctTitles = new Set(
+                variants.map(details => normalizeCourseIdentityName(details.title)).filter(Boolean)
+            );
+            return distinctTitles.size > 1 ? [] : variants;
         }
 
         function getCourseDetailScopes(details) {
@@ -1965,8 +1987,8 @@
             return getCourseDetailScopes(details).some(scope => ruleMatchesContext(scope, context));
         }
 
-        function getCourseDetails(codeRaw, context = null) {
-            const variants = getCourseDetailVariants(codeRaw);
+        function getCourseDetails(codeRaw, context = null, courseNameRaw = '') {
+            const variants = getCourseDetailVariants(codeRaw, courseNameRaw);
             if (!variants.length) return null;
 
             if (context) {
@@ -1977,11 +1999,11 @@
             return variants.find(details => !courseDetailHasScope(details)) || null;
         }
 
-        function getCourseDetailContextsForSearch(codeRaw, references) {
+        function getCourseDetailContextsForSearch(codeRaw, references, courseNameRaw = '') {
             const contexts = [];
             const seen = new Set();
 
-            getCourseDetailVariants(codeRaw).forEach(details => {
+            getCourseDetailVariants(codeRaw, courseNameRaw).forEach(details => {
                 const scoped = courseDetailHasScope(details);
                 const matchedScopes = scoped
                     ? getCourseDetailScopes(details).filter(scope => (references || []).some(ref => ruleMatchesContext(scope, ref)))
@@ -2010,9 +2032,10 @@
                         : `تحميل التوصيف${programLabel ? ` — ${programLabel}` : ' المشترك'}`;
                 }
 
+                const sourceContext = normalizeText(details.source_context);
                 contexts.push({
                     details,
-                    context_label: matchedScopes.map(scope => buildEquivalencyContextLabel(scope)).join('؛ '),
+                    context_label: matchedScopes.map(scope => buildEquivalencyContextLabel(scope)).join('؛ ') || sourceContext,
                     download_label: downloadLabel
                 });
             });
@@ -2031,6 +2054,9 @@
             const status = normalizeText(details && details.match_status);
             if (status === 'verified') {
                 return { cssClass: 'verified', label: 'رمز التوصيف مطابق' };
+            }
+            if (status === 'verified_catalog_only') {
+                return { cssClass: 'verified', label: 'توصيف موثق مستقل' };
             }
             if (status === 'verified_with_hours_warning') {
                 return { cssClass: 'warning', label: 'الرمز مطابق مع تعارض في الساعات' };
@@ -2176,11 +2202,20 @@
                 courseCatalogByCode.set(codeKey, {
                     code,
                     name,
-                    name_en: nameEn
+                    name_en: nameEn,
+                    variants: name ? [{ code, name, name_en: nameEn }] : []
                 });
                 return codeKey;
             }
 
+            const identityName = normalizeCourseIdentityName(name);
+            const variantExists = (existing.variants || []).some(variant =>
+                normalizeCourseIdentityName(variant.name) === identityName
+            );
+            if (identityName && !variantExists) {
+                if (!Array.isArray(existing.variants)) existing.variants = [];
+                existing.variants.push({ code, name, name_en: nameEn });
+            }
             if (!existing.name && name) existing.name = name;
             if (!existing.name_en && nameEn) existing.name_en = nameEn;
             if (!existing.code && code) existing.code = code;
@@ -2253,8 +2288,48 @@
             };
         }
 
-        function addEquivalencyRule(sourceCodeRaw, rawRule, fallbackScope = {}) {
-            const sourceKey = registerCourseInCatalog(sourceCodeRaw, '', '');
+        function getEquivalencySourceName(rawRule, fallbackNameRaw = '') {
+            if (!rawRule || typeof rawRule !== 'object' || Array.isArray(rawRule)) {
+                return normalizeText(fallbackNameRaw);
+            }
+
+            const nestedSource = (
+                rawRule.source_course && typeof rawRule.source_course === 'object'
+                    ? rawRule.source_course
+                    : (rawRule.source && typeof rawRule.source === 'object' ? rawRule.source : null)
+            );
+            const explicitSourceName = normalizeText(
+                rawRule.source_course_name ??
+                rawRule.source_name ??
+                rawRule.sourceCourseName ??
+                rawRule.course_name ??
+                (nestedSource && (nestedSource.name ?? nestedSource.title)) ??
+                ''
+            );
+            return explicitSourceName || normalizeText(fallbackNameRaw);
+        }
+
+        function getEquivalencySourceKey(codeRaw, sourceNameRaw = '') {
+            const codeKey = normalizeCourseCode(codeRaw);
+            if (!codeKey) return '';
+            return normalizeCourseIdentityName(sourceNameRaw)
+                ? getCourseIdentityKey(codeKey, sourceNameRaw)
+                : codeKey;
+        }
+
+        function isCourseCodeIdentityAmbiguous(codeRaw) {
+            const codeKey = normalizeCourseCode(codeRaw);
+            const catalogEntry = codeKey ? courseCatalogByCode.get(codeKey) : null;
+            const variants = catalogEntry && Array.isArray(catalogEntry.variants)
+                ? catalogEntry.variants
+                : [];
+            return variants.length > 1;
+        }
+
+        function addEquivalencyRule(sourceCodeRaw, rawRule, fallbackScope = {}, sourceNameRaw = '') {
+            const sourceName = getEquivalencySourceName(rawRule, sourceNameRaw);
+            const sourceCodeKey = registerCourseInCatalog(sourceCodeRaw, sourceName, '');
+            const sourceKey = getEquivalencySourceKey(sourceCodeKey, sourceName);
             if (!sourceKey) return;
 
             const parsedRule = parseEquivalencyRule(rawRule, fallbackScope);
@@ -2292,10 +2367,10 @@
             });
         }
 
-        function addSimpleEquivalencyEntries(sourceCodeRaw, rawEntries, fallbackScope = {}) {
+        function addSimpleEquivalencyEntries(sourceCodeRaw, rawEntries, fallbackScope = {}, sourceNameRaw = '') {
             const entries = dedupeEquivalentEntries(parseEquivalentsList(rawEntries));
             if (!entries.length) return;
-            addEquivalencyRule(sourceCodeRaw, { options: entries }, fallbackScope);
+            addEquivalencyRule(sourceCodeRaw, { options: entries }, fallbackScope, sourceNameRaw);
         }
 
         function hasRuleScope(rule) {
@@ -2370,7 +2445,10 @@
             if (entry.codeKey) {
                 const info = courseCatalogByCode.get(entry.codeKey);
                 const code = normalizeText(entry.code || (info && info.code) || entry.codeKey);
-                const name = normalizeText(entry.name || (info && info.name) || '');
+                const inferredName = info && Array.isArray(info.variants)
+                    ? (info.variants.length === 1 ? info.variants[0].name : '')
+                    : (info && info.name);
+                const name = normalizeText(entry.name || inferredName || '');
                 if (code && name) return `${code} - ${name}`;
                 return code || normalizeText(entry.label || '');
             }
@@ -2383,6 +2461,10 @@
             equivalencyRulesBySource = new Map();
 
             if (!programsData || !Array.isArray(programsData.programs)) return;
+
+            (programsData.courses_catalog || []).forEach(course => {
+                registerCourseInCatalog(course.code, course.name, course.name_en);
+            });
 
             programsData.programs.forEach(program => {
                 (program.courses || []).forEach(course => {
@@ -2398,17 +2480,18 @@
 
             Object.entries(globalEquivalencies).forEach(([sourceCode, rawEquivalents]) => {
                 if (rawEquivalents && typeof rawEquivalents === 'object' && !Array.isArray(rawEquivalents)) {
+                    const sourceName = getEquivalencySourceName(rawEquivalents);
                     if (Array.isArray(rawEquivalents.rules)) {
                         rawEquivalents.rules.forEach(rule => {
-                            addEquivalencyRule(sourceCode, rule, {});
+                            addEquivalencyRule(sourceCode, rule, {}, sourceName);
                         });
                     }
 
                     if (rawEquivalents.default !== undefined) {
-                        addSimpleEquivalencyEntries(sourceCode, rawEquivalents.default, {});
+                        addSimpleEquivalencyEntries(sourceCode, rawEquivalents.default, {}, sourceName);
                     }
 
-                    addEquivalencyRule(sourceCode, rawEquivalents, {});
+                    addEquivalencyRule(sourceCode, rawEquivalents, {}, sourceName);
                     return;
                 }
 
@@ -2439,24 +2522,32 @@
                         null
                     );
 
-                    addSimpleEquivalencyEntries(course.code, rawLocalEquivs, programContext);
+                    addSimpleEquivalencyEntries(course.code, rawLocalEquivs, programContext, course.name);
 
                     const rawLocalRules = course.equivalency_rules ?? course.equivalency_rule ?? null;
                     if (Array.isArray(rawLocalRules)) {
-                        rawLocalRules.forEach(rule => addEquivalencyRule(course.code, rule, programContext));
+                        rawLocalRules.forEach(rule => addEquivalencyRule(course.code, rule, programContext, course.name));
                     } else if (rawLocalRules && typeof rawLocalRules === 'object') {
-                        addEquivalencyRule(course.code, rawLocalRules, programContext);
+                        addEquivalencyRule(course.code, rawLocalRules, programContext, course.name);
                     }
                 });
             });
         }
 
-        function getEquivalentOptionsForContext(codeRaw, context = {}) {
+        function getEquivalentOptionsForContext(codeRaw, context = {}, sourceNameRaw = '') {
             const courseKey = normalizeCourseCode(codeRaw);
             if (!courseKey) return [];
 
             const labelsMap = new Map();
-            const rules = equivalencyRulesBySource.get(courseKey) || [];
+            const identityKey = getEquivalencySourceKey(courseKey, sourceNameRaw);
+            const identityRules = identityKey !== courseKey
+                ? (equivalencyRulesBySource.get(identityKey) || [])
+                : [];
+            const canUseLegacyCodeRules = !normalizeCourseIdentityName(sourceNameRaw) ||
+                !isCourseCodeIdentityAmbiguous(courseKey);
+            const rules = identityRules.length
+                ? identityRules
+                : (canUseLegacyCodeRules ? (equivalencyRulesBySource.get(courseKey) || []) : []);
 
             rules.forEach(rule => {
                 if (!ruleMatchesContext(rule, context)) return;
@@ -2476,7 +2567,7 @@
             return Array.from(labelsMap.values()).sort((a, b) => a.label.localeCompare(b.label, 'ar'));
         }
 
-        function getEquivalentContextsForSearch(codeRaw, references) {
+        function getEquivalentContextsForSearch(codeRaw, references, sourceNameRaw = '') {
             const courseKey = normalizeCourseCode(codeRaw);
             if (!courseKey) return [];
 
@@ -2491,7 +2582,7 @@
                 const signature = JSON.stringify(context);
                 if (contextsMap.has(signature)) return;
 
-                const options = getEquivalentOptionsForContext(courseKey, context);
+                const options = getEquivalentOptionsForContext(courseKey, context, sourceNameRaw);
                 if (!options.length) return;
 
                 contextsMap.set(signature, {
@@ -2829,6 +2920,7 @@
         function sanitizeDataShape(data) {
             if (!data || typeof data !== 'object') return { programs: [] };
             if (!Array.isArray(data.programs)) data.programs = [];
+            if (!Array.isArray(data.courses_catalog)) data.courses_catalog = [];
             if (!data.equivalencies || typeof data.equivalencies !== 'object' || Array.isArray(data.equivalencies)) {
                 data.equivalencies = {};
             }
@@ -2851,6 +2943,7 @@
                 const parsed = JSON.parse(raw);
                 sanitizeDataShape(parsed);
                 parsed.course_details = deepClone(fallback.course_details);
+                parsed.courses_catalog = deepClone(fallback.courses_catalog);
                 parsed.equivalencies = {
                     ...deepClone(fallback.equivalencies),
                     ...parsed.equivalencies
@@ -3168,7 +3261,7 @@
                     const isMatch = nameAr.includes(query) || code.includes(query) || (nameEn && nameEn.includes(query));
                     if (!isMatch) return;
 
-                    const key = `${code}||${normalizeText(course.name)}`;
+                    const key = getCourseIdentityKey(course.code, course.name);
                     if (!grouped.has(key)) {
                         grouped.set(key, {
                             code: course.code,
@@ -3176,7 +3269,8 @@
                             name_en: course.name_en || null,
                             hours: course.hours,
                             type: course.type,
-                            occurrences: []
+                            occurrences: [],
+                            catalog_only: false
                         });
                     }
                     grouped.get(key).occurrences.push({
@@ -3191,10 +3285,40 @@
                 });
             });
 
+            (programsData.courses_catalog || []).forEach(course => {
+                if (!course || !course.catalog_only) return;
+                const nameAr = normalizeText(course.name).toLowerCase();
+                const code = normalizeText(course.code).toLowerCase();
+                const nameEn = normalizeText(course.name_en).toLowerCase();
+                const aliases = Array.isArray(course.aliases)
+                    ? course.aliases.map(alias => normalizeText(alias).toLowerCase()).filter(Boolean)
+                    : [];
+                const isMatch = nameAr.includes(query) || code.includes(query) ||
+                    (nameEn && nameEn.includes(query)) || aliases.some(alias => alias.includes(query));
+                if (!isMatch) return;
+
+                const key = getCourseIdentityKey(course.code, course.name);
+                if (grouped.has(key)) return;
+                grouped.set(key, {
+                    code: course.code,
+                    name: course.name,
+                    name_en: course.name_en || null,
+                    hours: course.hours,
+                    type: course.type,
+                    occurrences: [],
+                    catalog_only: true,
+                    catalog_note: normalizeText(course.catalog_note),
+                    catalog_requirement: normalizeText(course.requirement || course.category),
+                    catalog_category: normalizeText(course.category)
+                });
+            });
+
             const results = Array.from(grouped.values()).map(item => {
                 const programGroups = groupProgramsForCourse(item.occurrences);
                 const reqSet = new Set(item.occurrences.map(o => requirementFromCategory(o.category)));
                 const catSet = new Set(item.occurrences.map(o => normalizeText(o.category)).filter(Boolean));
+                if (!reqSet.size && item.catalog_requirement) reqSet.add(item.catalog_requirement);
+                if (!catSet.size && item.catalog_category) catSet.add(item.catalog_category);
                 const uniqueRefs = [];
                 const seenRefs = new Set();
 
@@ -3213,8 +3337,8 @@
                     });
                 });
 
-                const equivalentContexts = getEquivalentContextsForSearch(item.code, uniqueRefs);
-                const courseDetailContexts = getCourseDetailContextsForSearch(item.code, uniqueRefs);
+                const equivalentContexts = getEquivalentContextsForSearch(item.code, uniqueRefs, item.name);
+                const courseDetailContexts = getCourseDetailContextsForSearch(item.code, uniqueRefs, item.name);
 
                 return {
                     ...item,
@@ -3224,7 +3348,9 @@
                     equivalent_contexts: equivalentContexts,
                     course_detail_contexts: courseDetailContexts,
                     course_details: courseDetailContexts.length ? courseDetailContexts[0].details : null,
-                    requirement_summary: reqSet.size === 1 ? Array.from(reqSet)[0] : 'يختلف حسب البرنامج',
+                    requirement_summary: reqSet.size === 0
+                        ? null
+                        : (reqSet.size === 1 ? Array.from(reqSet)[0] : 'يختلف حسب البرنامج'),
                     category_summary: catSet.size === 0 ? null : (catSet.size === 1 ? Array.from(catSet)[0] : 'يختلف حسب البرنامج')
                 };
             });
@@ -3295,19 +3421,26 @@
                         <div class="result-meta">
                             <span class="result-tag"><code class="course-code">${escapeHtml(result.code)}</code></span>
                             <span class="result-tag">${escapeHtml(result.hours)} ساعة</span>
-                            <span class="result-tag">${escapeHtml(result.requirement_summary)}</span>
+                            ${result.requirement_summary ? `<span class="result-tag">${escapeHtml(result.requirement_summary)}</span>` : ''}
                             ${result.category_summary ? `<span class="result-tag">${escapeHtml(result.category_summary)}</span>` : ''}
-                            <span class="result-tag">موجود في ${result.programs_count} برامج</span>
+                            ${result.catalog_only
+                                ? '<span class="result-tag">في الفهرس العام — غير مربوط بخطة محددة</span>'
+                                : `<span class="result-tag">موجود في ${result.programs_count} برامج</span>`}
                             ${specificationChipHtml}
                             ${equivalencyChipHtml}
                         </div>
+                        ${result.catalog_note ? `
+                            <div class="course-detail-status-panel" style="margin-top:0.75rem;color:#475569;background:#F8FAFC;border-color:#CBD5E1;">
+                                ${escapeHtml(result.catalog_note)}
+                            </div>
+                        ` : ''}
                         ${equivalentContextsHtml ? `
                             <div class="result-equivalents">
                                 <span class="result-equivalents-label">المعادلات:</span>
                                 <div class="equivalent-context-list">${equivalentContextsHtml}</div>
                             </div>
                         ` : ''}
-                        <div class="result-programs">${programsHtml}</div>
+                        ${programsHtml ? `<div class="result-programs">${programsHtml}</div>` : ''}
                     </div>
                 `;
             }).join('');
@@ -3476,6 +3609,12 @@
                     ${detailContexts.length > 1 ? `<span class="specification-status-chip verified">${detailContexts.length} توصيفات متاحة</span>` : ''}
                 </div>
                 ${renderCourseSummaryContexts(detailContexts)}
+                ${result.catalog_note ? `
+                    <div class="course-detail-status-panel" style="color:#475569;background:#F8FAFC;border-color:#CBD5E1;">
+                        <span class="course-detail-status-title">حالة الربط بالخطط</span>
+                        ${escapeHtml(result.catalog_note)}
+                    </div>
+                ` : ''}
                 ${renderCourseDetailEquivalencies(equivalentContexts)}
                 ${specificationHtml}
                 ${programsHtml ? `
@@ -3503,8 +3642,8 @@
 
             const course = program.courses[courseIndex];
             const context = buildProgramContext(program);
-            const equivalentOptions = getEquivalentOptionsForContext(course.code, context);
-            const courseDetailContexts = getCourseDetailContextsForSearch(course.code, [context]);
+            const equivalentOptions = getEquivalentOptionsForContext(course.code, context, course.name);
+            const courseDetailContexts = getCourseDetailContextsForSearch(course.code, [context], course.name);
             const equivalentContexts = equivalentOptions.length ? [{
                 context_label: buildEquivalencyContextLabel(context),
                 options: equivalentOptions
@@ -3590,7 +3729,7 @@
             const levelValue = Math.max(1, Math.round(toNumber(course.level, 1)));
             const typeValue = normalizeText(course.type) || 'نظري';
             const programContext = buildProgramContext(getCurrentProgram() || {});
-            const equivalentList = getEquivalentOptionsForContext(course.code, programContext);
+            const equivalentList = getEquivalentOptionsForContext(course.code, programContext, course.name);
             const equivalentMeta = equivalentList.map(eq => eq.label).join(' أو ');
             const rowClass = highlightedCourseIndex === courseIndex ? 'course-row-highlight' : '';
 
@@ -3994,7 +4133,7 @@
 
             (program.courses || []).forEach(course => {
                 const outside = isOutsideLevelElective(course);
-                const equivalentsText = getEquivalentOptionsForContext(course.code, context).map(eq => eq.label).join(' | ');
+                const equivalentsText = getEquivalentOptionsForContext(course.code, context, course.name).map(eq => eq.label).join(' | ');
                 rows.push([
                     outside ? 'Outside Elective Pool' : Math.max(1, Math.round(toNumber(course.level, 1))),
                     course.code ?? '',
@@ -4068,7 +4207,7 @@
 
                 courses.forEach(course => {
                     const outside = isOutsideLevelElective(course);
-                    const equivalentsText = getEquivalentOptionsForContext(course.code, context).map(eq => eq.label).join(' | ');
+                    const equivalentsText = getEquivalentOptionsForContext(course.code, context, course.name).map(eq => eq.label).join(' | ');
                     rows.push([
                         programName,
                         (program.name_en || ''),
