@@ -1,0 +1,2215 @@
+{
+  "schema": "qiraat-publication-package-manifest/v2",
+  "bundle_slug": "qiraat-source-1445",
+  "matching_policy": {
+    "attach_rule": "المساواة في رمز المقرر الكامل واسمه معًا بعد التطبيع المحافظ فقط.",
+    "name_normalization": "Unicode NFC، حذف محارف اتجاه النص وعلامات التشكيل الناتجة عن الاستخراج، توحيد أشكال الأرقام لأغراض المقارنة، ضبط المسافة حول رقم الجزء بين القوسين، وطي المسافات. لا يجري تبديل كلمات أو قبول تشابه دلالي.",
+    "code_normalization": "لا تغيير في الرمز؛ يلزم تطابق السلسلة الكاملة بما فيها الساعات بعد الشرطة.",
+    "not_accepted": [
+      "مطابقة الرمز وحده",
+      "مطابقة الاسم وحده",
+      "تشابه الاسم",
+      "التكافؤ الدلالي"
+    ]
+  },
+  "approval_policy": {
+    "agency": "قسم القراءات",
+    "session": "1",
+    "date": "7/2/1445هـ",
+    "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى."
+  },
+  "counts": {
+    "pdf_files": 35,
+    "strict_course_details_records": 34,
+    "strict_scopes": 51,
+    "old_plan_strict_records": 34,
+    "new_plan_strict_records": 17,
+    "excluded_from_course_details": 1,
+    "hours_warning_records": 1
+  },
+  "program_coverage": [
+    {
+      "program_id": 9,
+      "program": "القراءات",
+      "degree": "بكالوريوس",
+      "plan_type": "قديمة",
+      "version": "38",
+      "plan_courses": 72,
+      "strictly_covered_courses_from_bundle": 34,
+      "coverage_percent_from_bundle": 47.22,
+      "matched_codes": [
+        "2002104-2",
+        "2002250-2",
+        "2002102-4",
+        "2002105-4",
+        "2002456-2",
+        "2002410-2",
+        "2002106-2",
+        "2002204-2",
+        "2002208-2",
+        "2002306-2",
+        "2002454-2",
+        "2002406-2",
+        "2002401-2",
+        "2002407-2",
+        "2002503-2",
+        "2002305-2",
+        "2002309-2",
+        "2002402-4",
+        "2002408-4",
+        "2002203-4",
+        "2002207-4",
+        "2002302-4",
+        "2002308-4",
+        "2002425-2",
+        "2002409-2",
+        "2002131-2",
+        "2002232-2",
+        "2002201-2",
+        "2002206-2",
+        "2002301-2",
+        "2002307-2",
+        "2002412-2",
+        "2002110-2",
+        "2002405-2"
+      ]
+    },
+    {
+      "program_id": 14,
+      "program": "القراءات",
+      "degree": "بكالوريوس",
+      "plan_type": "جديدة",
+      "version": "47",
+      "plan_courses": 89,
+      "strictly_covered_courses_from_bundle": 17,
+      "coverage_percent_from_bundle": 19.1,
+      "matched_codes": [
+        "2002104-2",
+        "2002250-2",
+        "2002102-4",
+        "2002105-4",
+        "2002456-2",
+        "2002106-2",
+        "2002401-2",
+        "2002407-2",
+        "2002305-2",
+        "2002309-2",
+        "2002425-2",
+        "2002409-2",
+        "2002201-2",
+        "2002206-2",
+        "2002301-2",
+        "2002307-2",
+        "2002110-2"
+      ]
+    }
+  ],
+  "generated_at_utc": "2026-08-19T12:44:55.822724+00:00",
+  "repository_modified": true,
+  "published_repo_directory": "assets/course-specifications/qiraat-source-1445",
+  "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+  "global_verification": {
+    "pdf_files": 35,
+    "pages": 257,
+    "qpdf_ok": 35,
+    "approval_tables_complete_on_final_page": 35,
+    "rtl_visual_check": "35/35 final approval pages plus all covers reviewed",
+    "restricted_or_confidential_labels": 0,
+    "template_placeholders": 0,
+    "layout_repairs": 1
+  },
+  "records": [
+    {
+      "index": 1,
+      "source_filename": "آداب حملة القرآن.pdf",
+      "source_sha256_before_session_patch": "7862d33510760670dd925dc9c370d6d64784cb4ff2cffb33472978962db97a84",
+      "source_page_count": 7,
+      "title": "آداب حملة القرآن",
+      "specification_code": "2002104-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "َّ الطالب في هذا َّ َّ املقرر معنى اآلداب وأهميتها ،وفضل القرآن ،والتخلق بآدابه ،وآداب املتعلم مع نفسه وشيخه يدرس َّ و أقرانه واملسجد ،وآداب املعلم كذلك ،وآداب اإلقراء واإلجازة وشروطها ،وأحكام املصحف الفقهية. -5",
+      "summary": "يتناول معنى الآداب وأهميتها وفضل القرآن، وآداب المتعلم مع نفسه وشيخه وأقرانه والمسجد، وآداب المعلم والإقراء والإجازة وشروطها، وأحكام المصحف الفقهية.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002104-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002104-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002104-2.pdf",
+      "published_sha256": "d55268a68edd0523bf196d02c9bfebe6e6d528965fd94bb4a6b59ee17e548889",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 2,
+      "source_filename": "أصول التفسير ومناهجه.pdf",
+      "source_sha256_before_session_patch": "138b9433379ae323a285beade2771fd129077557ad5fee973e9da5de851fd127",
+      "source_page_count": 9,
+      "title": "أصول التفسير ومناهجه",
+      "specification_code": "2002250-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "َّ يدرس الطالب بعض األحكام والقضايا املتعلقة بأصول التفسير مثل التعريف بعلم أصول التفسير ،وتاريخه ومصادره وأهم املؤلفات فيه ،وحكمه ،و أقسامه ،وأسباب اختالف املفسرين ،وطرق التفسير ،واألصول التي يدورعليها هذا العلم ،وقواعد التفسير ،ومناهج املفسرين ...وغيرذلك. -5",
+      "summary": "يتناول التعريف بعلم أصول التفسير وتاريخه ومصادره وأهم مؤلفاته وحكمه وأقسامه، وأسباب اختلاف المفسرين وطرق التفسير وقواعده ومناهج المفسرين.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": "جُمعت كتلة الاعتماد المتجزئة في الصفحة الأخيرة مع الحفاظ على عناصر القالب الأصلية."
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002250-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002250-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002250-2.pdf",
+      "published_sha256": "79ed74f1a223b7e2ac1b7409ce9c5abfc45a4c34e59e8730e138414a77f05da7",
+      "published_page_count": 9,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 3,
+      "source_filename": "أصول القراءات السبع 1.pdf",
+      "source_sha256_before_session_patch": "cdb408cac60e0a5ab954624850236d1229500f53799b973b98c81e59aeb03f09",
+      "source_page_count": 9,
+      "title": "أصول القراءات السبع (1)",
+      "specification_code": "2002102-4",
+      "credit_hours_in_source": 4,
+      "general_description_raw_extraction": "َّ َّ َّ َّ والتعريف بمنهجه فيها ،ورموز َّ القراء ،وأهم شروحات النظم ،ويحفظ متن يدرس الطالب مقد َّمة اإلمام الشاطبي ، َّ ً اطبية من بداية خطبة الكتاب إلى نهاية باب نقل الهمزة إلى َّ الساكن قبلها ،وعدد األبيات َّ َّ الش َّ املقررة )234( :بيتا مع الشرح والتطبيق ألصول َّ َّ القراء. العلمي لها، -5",
+      "summary": "يدرس مقدمة الشاطبية ومنهجها ورموز القراء وأبرز شروحها، مع حفظ وشرح وتطبيق أبواب الأصول من أول النظم إلى نهاية باب نقل الهمزة إلى الساكن قبلها.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002102-4.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002102-4.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002102-4.pdf",
+      "published_sha256": "cc736ecb11bb3727bba8e8ab38cbd6612a37872763642e407fb16368ac812d82",
+      "published_page_count": 9,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 4,
+      "source_filename": "أصول القراءات السبع 2.pdf",
+      "source_sha256_before_session_patch": "66a052e3ebdf11bcc92050afb9d329c140b12134e6d3145e48b9cf383ae84fd2",
+      "source_page_count": 9,
+      "title": "أصول القراءات السبع (2)",
+      "specification_code": "2002105-4",
+      "credit_hours_in_source": 4,
+      "general_description_raw_extraction": "َّ َّ يدرس الطالب ما تبقى من أبواب األصول من بداية :باب وقف حمزة وهشام على الهمز إلى آخر :باب ياءات الزوائد، والتطبيق ألصول ََّّ َّ الش ََّّ القراء ،وعدد اطبية من البيت رقم )235( :إلى البيت رقم ،)444( :مع الشرح العلمي لها، ويحفظ متن األبيات املقررة )210( :بيتا. -5",
+      "summary": "يستكمل أبواب أصول الشاطبية من وقف حمزة وهشام على الهمز إلى ياءات الزوائد، مع حفظ الأبيات المقررة وشرحها وتطبيق أصول القراء.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002105-4.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002105-4.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002105-4.pdf",
+      "published_sha256": "b941a5461779301338e950b6671ebc1ba7a01676117aa0986c18a4f8f4f625df",
+      "published_page_count": 9,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 5,
+      "source_filename": "إعجاز القرآن الكريم.pdf",
+      "source_sha256_before_session_patch": "30f6fba57048c7f7d9ebd2f70f3268b63945bd277eb540f669822bc779d9f0a1",
+      "source_page_count": 8,
+      "title": "إعجاز القرآن الكريم",
+      "specification_code": "2002456-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "َّ يدرس الطالب في هذا املقرربعض املباحث املتعلقة بإعجازالقرآن كتعريفه ،ونشأته ،وأشهرمؤلفاته ،وأهميته ،ومعرفة مراحل التحدي بالقرآن ،وأنواع اإلعجاز. -5",
+      "summary": "يتناول مفهوم إعجاز القرآن ونشأته وأشهر مؤلفاته وأهميته، ومراحل التحدي بالقرآن، وأنواع الإعجاز.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002456-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002456-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002456-2.pdf",
+      "published_sha256": "a932ed2461015a4fc8add8a78ab95c00f0c1c7f90ad930be1ecc75b07d5d4703",
+      "published_page_count": 8,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 6,
+      "source_filename": "الانتصار للقرآن.pdf",
+      "source_sha256_before_session_patch": "4526d29237281cb2b1a3fbc5a809c9f82c3afca47f3d5be596c6cb4602fe9c29",
+      "source_page_count": 7,
+      "title": "الانتصار للقرآن",
+      "specification_code": "2002410-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "َّ يدرس الطالب بعض األحكام والقضايا املتعلقة بالشبهات املثارة حول القرآن الكريم ،وكيفية الدفاع عنه. -5",
+      "summary": "يدرس أبرز الشبهات المثارة حول القرآن الكريم، ويعرّف الأسس والأساليب العلمية للدفاع عنه والرد على تلك الشبهات.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 14,
+            "program": "القراءات",
+            "label": "القراءات (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "الانتصار للقرآن",
+          "plan_code": "2002429-2",
+          "plan_hours": 2
+        }
+      ],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002410-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002410-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002410-2.pdf",
+      "published_sha256": "be948beff37a02621330578b2b9f0ca4a2b341f4fbc6ae6e4eedb1b28a1fa75e",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 7,
+      "source_filename": "التجويد 1.pdf",
+      "source_sha256_before_session_patch": "f6899bc2e5607a37350bdec86c3adea06e012d26b57ca90bab3348416fd7cd39",
+      "source_page_count": 7,
+      "title": "التجويد (1)",
+      "specification_code": "2002102-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "ًّ وعمليا ،وذلك من خالل دراسة أحكام التجويد كأحكام النون أن يدرس الطالب أحكام تجويد القرآن الكريم ًّ نظريا ًّ ً عمليا ،وبذلك الساكنة والتنوين ،وأحكام املدود ،والتفخيم والترقيق وما يتبع من أحكام التجويد ،وتطبيق ذلك تطبيقا ً ً ً يتمكن الطالب من تالوة كتاب هللا تعالى تالوة صحيحة محكمة ومتقنة. -5",
+      "summary": "يتناول أحكام التجويد نظريًا وعمليًا، ومنها أحكام النون الساكنة والتنوين والمدود والتفخيم والترقيق، للوصول إلى تلاوة صحيحة متقنة.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 9,
+            "program": "القراءات",
+            "label": "القراءات",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "التجويد (1)",
+          "plan_code": "2002103-2",
+          "plan_hours": 2
+        },
+        {
+          "scope": {
+            "program_id": 14,
+            "program": "القراءات",
+            "label": "القراءات (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "التجويد (1)",
+          "plan_code": "2002103-2",
+          "plan_hours": 2
+        }
+      ],
+      "match_status": "not_linked_code_name_mismatch",
+      "include_in_course_details": false,
+      "exclusion_reason": "لم يوجد في خطتي القراءات القديمة والجديدة مقرر يطابق رمز التوصيف واسمه معًا؛ اسم المقرر موجود برمز آخر 2002103-2.",
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002102-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002102-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002102-2.pdf",
+      "published_sha256": "2594fe0b7ba39309887790db3d42f57cec91dc5653697c03256206a1eb032b19",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 8,
+      "source_filename": "التجويد 2.pdf",
+      "source_sha256_before_session_patch": "b130ee10f294e1fe7c58ca9323c9e82c559907bafc96b3c0fde3c859d7a42b0a",
+      "source_page_count": 7,
+      "title": "التجويد (2)",
+      "specification_code": "2002106-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "ًّ وعمليا ،وذلك من خالل دراسة أحكام التجويد كأحكام النون الساكنة أن يدرس الطالب أحكام تجويد القرآن الكريم ًّ نظريا ً تطبيقا ًّ عمليا ،وبذلك يتمكن الطالب والتنوين ،وأحكام املدود ،والتفخيم والترقيق وما يتبع من أحكام التجويد ،وتطبيق ذلك ً ً ً من تالوة كتاب هللا تعالى تالوة صحيحة محكمة ومتقنة. -5",
+      "summary": "يعمق دراسة أحكام التجويد وتطبيقها عمليًا، بما يشمل أحكام النون الساكنة والتنوين والمدود والتفخيم والترقيق، لإتقان التلاوة.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002106-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002106-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002106-2.pdf",
+      "published_sha256": "c285351e675f66de37b84c6fa4332056a9edc778bfa4a6a469a31fbdb721ae03",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 9,
+      "source_filename": "التفسير 1.pdf",
+      "source_sha256_before_session_patch": "7d087edc2c766a7726db34ab7e4f01c27b5e8e5a1b2f9185ce98aee27ba7e557",
+      "source_page_count": 7,
+      "title": "التفسير (1)",
+      "specification_code": "2002204-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "َّ يدرس الطالب تفسيرا تحليليا لالستعاذة ،والبسملة ،والفاتحة مع مائة آية من سورة البقرة ،مع الوقوف على الحكم التشريعية ََّّ املهمة ،وربط املادة العلمية املكتسبة بالو اقع املعاصر. -5",
+      "summary": "يقدم تفسيرًا تحليليًا للاستعاذة والبسملة والفاتحة ومائة آية من سورة البقرة، مع استنباط الحكم التشريعية وربطها بالواقع المعاصر.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002204-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002204-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002204-2.pdf",
+      "published_sha256": "d8255317a2128328053254627ed8a6de507b82359bef07fd591e16533f4fb3db",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 10,
+      "source_filename": "التفسير 2.pdf",
+      "source_sha256_before_session_patch": "3335b64026fa8b1567fd7492707b2d4edfcb3627b89ba1a59f57c19cc1e6ac4f",
+      "source_page_count": 7,
+      "title": "التفسير (2)",
+      "specification_code": "2002208-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "َّ ً ً َّ تحليليا لسورة يوسف – عليه السالم – مع الوقوف على الحكم التشريعية املهمة ،وربط املادة تفسيرا يدرس الطالب العلمية املكتسبة بالو اقع املعاصر. -5",
+      "summary": "يقدم تفسيرًا تحليليًا لسورة يوسف عليه السلام، مع الوقوف على الحكم التشريعية المهمة وربط المادة العلمية بالواقع المعاصر.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002208-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002208-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002208-2.pdf",
+      "published_sha256": "788bcb5dc28bef796886165d42da2d9f92008d500143c5882572631726773033",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 11,
+      "source_filename": "التفسير 3.pdf",
+      "source_sha256_before_session_patch": "d2d0cc8dd949ca662d56f0fe307fe128f427eff82057c9c78c04f23c147351e5",
+      "source_page_count": 7,
+      "title": "التفسير (3)",
+      "specification_code": "2002306-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "ً ُّ ور َّ ً َّ تفسيرا تحليليا الس التالية :لقمان ،والسجدة ،واألحزاب دراسة تحليلية ،مع الوقوف على الحكم يدرس الطالب التشريعية املهمة ،وربط املادة العلمي املكتسبة بالو اقع املعاصر. -5",
+      "summary": "يقدم تفسيرًا تحليليًا لسور لقمان والسجدة والأحزاب، مع الوقوف على الحكم التشريعية المهمة وربطها بالواقع المعاصر.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002306-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002306-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002306-2.pdf",
+      "published_sha256": "7a8a5be817149b0ef89e72949f08857ad4b77012ba0c2ed995f67b506e8ee8bb",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 12,
+      "source_filename": "التفسير الموضوعي.pdf",
+      "source_sha256_before_session_patch": "de653d8cb18f951710c0480506f1859f2593333b580b4dba762c3c0e0482bdac",
+      "source_page_count": 7,
+      "title": "التفسير الموضوعي",
+      "specification_code": "2002454-2",
+      "credit_hours_in_source": 4,
+      "general_description_raw_extraction": "يدرس الطالب في هذا املقررتعريف التفسيراملوضوعي ،وأهميته ،نشأته وتطوره ،وعالقة التفسيراملوضوعي بأنواع التفاسير األخرى ،وأنواع التفسير املوضوعي باإلضافة لدراسة ثالث سور من القرآن الكريم شاملة للسور املكية واملدنية وهى (الكهف ومحمد والحجرات ) مع الكتابة في خمس موضوعات من موضوعات التفسير املوضوعي. -5",
+      "summary": "يتناول مفهوم التفسير الموضوعي وأهميته ونشأته وعلاقته بأنواع التفسير الأخرى، مع دراسة سور الكهف ومحمد والحجرات والكتابة في موضوعات قرآنية مختارة.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [
+        {
+          "scope": {
+            "program_id": 9,
+            "program": "القراءات",
+            "label": "القراءات",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 2
+        }
+      ],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified_with_hours_warning",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002454-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002454-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002454-2.pdf",
+      "published_sha256": "9f740b9cfdd5ac3882a77dad434e61e34a9c21b6e5daea0b09009bfc61e2acce",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 13,
+      "source_filename": "التقنيات الحديثة في الدراسات القرآنية.pdf",
+      "source_sha256_before_session_patch": "7ca3b8eb1c51d7eb76e3649c01a7e5841f8a488ba732f68360cdec865c81b7a7",
+      "source_page_count": 7,
+      "title": "التقنيات الحديثة في الدراسات القرآنية",
+      "specification_code": "2002406-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "يعنى املقرر بدراسة البحث القرآني في التقنيات املعاصرة ومجاالته ،والتعريف بأشهر البرامج واملو اقع والتطبيقات اإللكترونية املتعلقة بالبحث وتوظيف التقنية املعاصرة في خدمة البحث القرآني ،وتطبيقات بحثية من خالل التقنيات املعلوماتية املعاصرة. -5",
+      "summary": "يعرض مجالات البحث القرآني بالتقنيات المعاصرة، وأبرز البرامج والمواقع والتطبيقات الإلكترونية، مع تطبيقات عملية لتوظيف التقنية في خدمة البحث القرآني.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 14,
+            "program": "القراءات",
+            "label": "القراءات (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "التقنيات الحديثة في الدراسات القرآنية",
+          "plan_code": "2002416-2",
+          "plan_hours": 2
+        }
+      ],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002406-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002406-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002406-2.pdf",
+      "published_sha256": "1ed050d7cb5d87e9ffc407a27e0aaf943946d50786ab02c5c044dae9a9fcfbfa",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 14,
+      "source_filename": "القراءات الثلاث 1.pdf",
+      "source_sha256_before_session_patch": "2ffbc25ac3f14ff0b7721a00ea52efc01458c10e2e7fd04c33d6891a3b18f590",
+      "source_page_count": 8,
+      "title": "القراءات الثلاث (1)",
+      "specification_code": "2002401-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "يدرس الطالب في هذا املقرر :ترجمة موجزة لإلمام ابن الجزري ،والتعريف بمنظومته :الدرة املضيئة في القراءات الثالث املتواترة ،ودراسة مقدمة متن (الدرة املضيئة في القراءات الثالث املرضية) ،وشرح أبواب األصول ،ومن باب فرش سورة البقرة إلى نهاية سورة التوبة شرحا علميا مع حفظ األبيات ،وتوجيه القراءات بإيجاز ،وعدد األبيات املقررة ( )127بيتا. -5",
+      "summary": "يعرّف بالإمام ابن الجزري ومنظومة الدرة، ويدرس مقدمتها وأبواب الأصول وفرش السور من البقرة إلى التوبة، مع الحفظ والشرح والتوجيه الموجز.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002401-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002401-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002401-2.pdf",
+      "published_sha256": "3193648c93de6bf9650068108842c5a3a5f4eb54bdfb6bf85a41969a1ae403d3",
+      "published_page_count": 8,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 15,
+      "source_filename": "القراءات الثلاث 2.pdf",
+      "source_sha256_before_session_patch": "087670240f6e48cc2ba9b81c7ec03c385bf1307a950b2484e995ff3aa4996e70",
+      "source_page_count": 7,
+      "title": "القراءات الثلاث (2)",
+      "specification_code": "2002407-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "ُّ يدرس الطالب في هذا املقرر :شرح األبيات من متن الدرة املضيئة في القراءات الثالث املرضية من أول سورة يونس عليه ً السالم إلى نهاية املنظومة مع حفظ املتن ،والتوجيه بإيجاز ،وعدد األبيات املقررة ( )114بيتا. -5",
+      "summary": "يستكمل شرح متن الدرة المضيئة في القراءات الثلاث من أول سورة يونس إلى نهاية المنظومة، مع حفظ الأبيات والتوجيه الموجز للقراءات.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002407-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002407-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002407-2.pdf",
+      "published_sha256": "4a13d8d163edf1316b2a2831b008fbca4b6e5dd18a8a8c1ed3a8e4f998e6b134",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 16,
+      "source_filename": "توجيه القراءات.pdf",
+      "source_sha256_before_session_patch": "76b0be97894505a53fae661e712a3bd2c9c435829b4869b49c40d1602888132b",
+      "source_page_count": 7,
+      "title": "توجيه القراءات",
+      "specification_code": "2002503-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "يدرس الطالب في هذا املقرر :معنى توجيه القراءات ،وإطالقاته ،وأهميته ،ونشأته ،والدو افع للتأليف فيه ،وأهم املؤلفات، وأخذ فكرة عامة عن توجيه األصول ،وأثرالتوجيه في التفسير ،واألحكام الفقهية ،والعقيدة ،واللغة العربية. -5",
+      "summary": "يتناول معنى توجيه القراءات وإطلاقاته وأهميته ونشأته ودوافع التأليف فيه وأبرز مؤلفاته، وأثر التوجيه في التفسير والفقه والعقيدة واللغة.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 14,
+            "program": "القراءات",
+            "label": "القراءات (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "توجيه القراءات",
+          "plan_code": "2002318-2",
+          "plan_hours": 2
+        }
+      ],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002503-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002503-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002503-2.pdf",
+      "published_sha256": "8d7c7f3280148b619148fc26613ef6c9798fdcdcf1c9ae590f4f248735c3f156",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 17,
+      "source_filename": "رسم المصحف 1.pdf",
+      "source_sha256_before_session_patch": "a954f0fd1e8078b283bef8c500e2e25c1c9956bfd6f3b7ed58d72608abacb6b7",
+      "source_page_count": 7,
+      "title": "رسم المصحف (1)",
+      "specification_code": "2002305-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "ُ َّ َّ َّ َّ يدرس الطالب في هذا املقرر :مقدمة عن الرسم العثماني وأهميته ،وأصوله ،ومصادره ،وقواعده ،واملؤلفات فيه ،وي ِّ ميـز الرسم اإلمالئي ،ويدرس قاعدة من قاعدة الحذف (حذف األلف) من خالل شرح أبيات مورد الظمآن في رسم القرآن بينه وبين َّ َّ َّ لإلمام الخرازمن َّأول املنظومة إلى البيت رقم ،)254( :مع التعريف بالنظم ومصطلحاته ،وشروحه ،وترجمة ناظمه ،ويتدرب َّ القرآنية َّ بالرسم العثماني. على كتابة اآليات -5",
+      "summary": "يعرّف بالرسم العثماني وأهميته وأصوله ومصادره وقواعده ومؤلفاته، ويميّزه عن الرسم الإملائي، مع دراسة قاعدة حذف الألف والتدريب على كتابة الآيات.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002305-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002305-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002305-2.pdf",
+      "published_sha256": "408b5104d976ab1e5d8133a3715dc910e5b9370eee3d821a90564d82ef2dde02",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 18,
+      "source_filename": "رسم المصحف 2.pdf",
+      "source_sha256_before_session_patch": "714de8f71a1520c49d85a0cd3931cd448f21c5547d91af11bf7a8b705b571a8f",
+      "source_page_count": 7,
+      "title": "رسم المصحف (2)",
+      "specification_code": "2002309-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "َّ املقرر :تكملة قواعد َّ َّ الطالب في هذا َّ الرسم بالتفصيل من حذف (الياء والواو) ،وحذف إحدى (الالمين) ،وأحكام يدرس ً ياء) ،ورسم (األلف واوا) ،والفصل والوصل ،وهاءاتياء) ،ورسم (الواو ً رسما ،ورسم (األلف ً َّ رسم الهمز ،والحروف الز ائدة ً النظم ،ويتدرب على ذلك َّ َّ َّ التأنيث املرسومة ً بالرسم العثماني. تاء ،وخاتمة -5",
+      "summary": "يستكمل قواعد الرسم العثماني، ومنها الحذف والهمز والحروف الزائدة والإبدال والفصل والوصل وهاء التأنيث، مع تطبيقات على كتابة الآيات.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002309-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002309-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002309-2.pdf",
+      "published_sha256": "0730371bdb4f4f576fd71e8e58d20b3a099042222a16dbb732e5331a011daa23",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 19,
+      "source_filename": "عرض القراءات الثلاث 1.pdf",
+      "source_sha256_before_session_patch": "a396331c4ee52a09876f22d7a51d43fe8db3238cd07c0345e1bc761fc08b614d",
+      "source_page_count": 7,
+      "title": "عرض القراءات الثلاث (1)",
+      "specification_code": "2002402-4",
+      "credit_hours_in_source": 4,
+      "general_description_raw_extraction": "ً يدرس الطالب في هذا املقرر :عرض القراءات الثالثة من سورة البقرة إلى نهاية سورة التوبة تطبيقا عمليا بالقراءة بالجمع. -5",
+      "summary": "يدرّب على عرض القراءات الثلاث من سورة البقرة إلى نهاية سورة التوبة تطبيقًا عمليًا بطريقة الجمع.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 14,
+            "program": "القراءات",
+            "label": "القراءات (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "عرض القراءات الثلاث (١)",
+          "plan_code": "2002460-2",
+          "plan_hours": 2
+        }
+      ],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002402-4.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002402-4.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002402-4.pdf",
+      "published_sha256": "255fe5fb6f33bc870668fdba6a6fc143681c8189709c7c64d829625794b553a0",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 20,
+      "source_filename": "عرض القراءات الثلاث 2.pdf",
+      "source_sha256_before_session_patch": "04665e6cf1a07c54b180fbe7ff6f38d74f87205b06fc76a0e1d8e7e531033378",
+      "source_page_count": 7,
+      "title": "عرض القراءات الثلاث (2)",
+      "specification_code": "2002408-4",
+      "credit_hours_in_source": 4,
+      "general_description_raw_extraction": "ً يدرس الطالب في هذا املقرر :عرض القراءات الثالثة من أول سورة يونس عليه السالم إلى نهاية سورة الناس تطبيقا عمليا بالقراءة بالجمع. -5",
+      "summary": "يدرّب على عرض القراءات الثلاث من أول سورة يونس إلى نهاية سورة الناس تطبيقًا عمليًا بطريقة الجمع.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 14,
+            "program": "القراءات",
+            "label": "القراءات (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "عرض القراءات الثلاث (٢)",
+          "plan_code": "2002461-2",
+          "plan_hours": 2
+        }
+      ],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002408-4.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002408-4.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002408-4.pdf",
+      "published_sha256": "86dfbca225825e1b23d34b92bc2379afd60419a797fa963a74d0c167f49bacf2",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 21,
+      "source_filename": "عرض القراءات السبع 1.pdf",
+      "source_sha256_before_session_patch": "a12ce8d660c4c21db47eab2b7501c39707342c942e23f9906c383e8b80122b31",
+      "source_page_count": 7,
+      "title": "عرض القراءات السبع (1)",
+      "specification_code": "2002203-4",
+      "credit_hours_in_source": 4,
+      "general_description_raw_extraction": "َّ ويتعرف على معناه ،مع التطبيق العملي بالجمع للقراءات َّ َّ َّ الطالب في هذا َّ السبع الواردة من املقرر :الجمع وطرقه، يدرس بداية سورة الفاتحة إلى نهاية سورة النِّ ساء. -5",
+      "summary": "يعرّف بالجمع وطرقه، ويدرّب عمليًا على جمع القراءات السبع من سورة الفاتحة إلى نهاية سورة النساء.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 14,
+            "program": "القراءات",
+            "label": "القراءات (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "عرض القراءات السبع (١)",
+          "plan_code": "2002111-3",
+          "plan_hours": 3
+        }
+      ],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002203-4.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002203-4.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002203-4.pdf",
+      "published_sha256": "e6ec4ea2357003082890f38660da3774a1689ea064332fc980bb5781b249b093",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 22,
+      "source_filename": "عرض القراءات السبع 2.pdf",
+      "source_sha256_before_session_patch": "b99643b1cc211a0d8614621d96899e4db2149f0c3b36be64e7b3979a2f4c8702",
+      "source_page_count": 7,
+      "title": "عرض القراءات السبع (2)",
+      "specification_code": "2002207-4",
+      "credit_hours_in_source": 4,
+      "general_description_raw_extraction": "عمليا بالجمع للقراءات َّ ً املقرر :عرض القراءات تطبيقا ًّ الطالب في هذا َّ َّ السبع الواردة من بداية سورة املائدة إلى يدرس نهاية سورة هود عليه السالم. -5",
+      "summary": "يدرّب عمليًا على عرض القراءات السبع بطريقة الجمع من سورة المائدة إلى نهاية سورة هود.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 14,
+            "program": "القراءات",
+            "label": "القراءات (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "عرض القراءات السبع (٢)",
+          "plan_code": "2002112-3",
+          "plan_hours": 3
+        }
+      ],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002207-4.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002207-4.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002207-4.pdf",
+      "published_sha256": "67ae1b00bb2933b88294a2110c01895314998d9ea96932ae2ee63801a2709d6b",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 23,
+      "source_filename": "عرض القراءات السبع 3.pdf",
+      "source_sha256_before_session_patch": "b2d9a993d3045c751abcee179e1cdcae4ea6877e33bb9d0828ddfc4668878ff7",
+      "source_page_count": 7,
+      "title": "عرض القراءات السبع (3)",
+      "specification_code": "2002302-4",
+      "credit_hours_in_source": 4,
+      "general_description_raw_extraction": "عمليا بالجمع للقراءات َّ ً املقرر :عرض القراءات تطبيقا ًّ َّ الطالب في هذا َّ السبع الواردة من بداية سورة يوسف يدرس عليه السالم إلى نهاية سورة القصص. -5",
+      "summary": "يدرّب عمليًا على عرض القراءات السبع بطريقة الجمع من سورة يوسف إلى نهاية سورة القصص.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 14,
+            "program": "القراءات",
+            "label": "القراءات (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "عرض القراءات السبع (٣)",
+          "plan_code": "2002113-3",
+          "plan_hours": 3
+        }
+      ],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002302-4.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002302-4.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002302-4.pdf",
+      "published_sha256": "0979c85876e19c7f0ec09a832a8b889d107f6c5458442838aa339c3a14f16da3",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 24,
+      "source_filename": "عرض القراءات السبع 4.pdf",
+      "source_sha256_before_session_patch": "3b9726a748d63103af2b305a69f970433e7cb03a7dbd9b353575efc10875ee00",
+      "source_page_count": 7,
+      "title": "عرض القراءات السبع (4)",
+      "specification_code": "2002308-4",
+      "credit_hours_in_source": 4,
+      "general_description_raw_extraction": "َّ املقرر :عرض القراءات بالتطبيق العملي بالجمع للقراءات َّ الطالب في هذا َّ َّ السبع الواردة من بداية سورة يدرس َّ العنكبوت إلى نهاية سورة الناس. -5",
+      "summary": "يدرّب عمليًا على عرض القراءات السبع بطريقة الجمع من سورة العنكبوت إلى نهاية سورة الناس.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 14,
+            "program": "القراءات",
+            "label": "القراءات (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "عرض القراءات السبع (٤)",
+          "plan_code": "2002114-3",
+          "plan_hours": 3
+        }
+      ],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002308-4.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002308-4.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002308-4.pdf",
+      "published_sha256": "60be70a6a96851e46697f5e5a85cf0944ad82f494ed10b8dc3dfbc9c2fac07be",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 25,
+      "source_filename": "علم الضبط.pdf",
+      "source_sha256_before_session_patch": "c3e2c9ca5165232d839b361fea0c903f006ad745a5f94c56f239e6e278c61e36",
+      "source_page_count": 7,
+      "title": "علم الضبط",
+      "specification_code": "2002425-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "َّ َّ َّ الطالب في هذا َّ املقرر :مقدمة عن علم الضبط ،وأهميته ،وأصوله ،ومصادره ،وقواعده ،واملؤلفات فيه ،ويميز يدرس ويتدرب على كتابة اآليات القرآنية َّ بالرسم العثماني وضبطه. َّ َّ بينه وبين الضبط اإلمالئي، -5",
+      "summary": "يعرّف بعلم ضبط المصحف وأهميته وأصوله ومصادره وقواعده ومؤلفاته، ويميّزه عن الضبط الإملائي، مع تدريب على كتابة الآيات وضبطها بالرسم العثماني.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002425-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002425-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002425-2.pdf",
+      "published_sha256": "38814200d73b3ac31e3fbd5200995bd4cf3ae439cd8d7f48b3ce2b8c8c242590",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 26,
+      "source_filename": "علم عد الآي.pdf",
+      "source_sha256_before_session_patch": "b805af7ee44998f2884c74a4bb3d2e7a849490e6fb2282b2b90c177f114137f3",
+      "source_page_count": 7,
+      "title": "علم عد الآي",
+      "specification_code": "2002409-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "َّ الطالب في هذا َّ املقرر :مقدمات علم الفواصل ،وتعريفه ،والفرق بين اآلية والفاصلة ،وبيان علماء العدد ،واختالف يدرس َّ َّ علماء العدد في عدد آي سورالقرآن الكريم من سورة الفاتحة إلى سورة الناس ،مع نماذج تعليلية لبعض فواصل اآليات املختلف فيها. -5",
+      "summary": "يتناول مقدمات علم الفواصل والفرق بين الآية والفاصلة وعلماء العدد، ومواضع اختلافهم في عد آي القرآن، مع نماذج تعليلية للفواصل المختلف فيها.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002409-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002409-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002409-2.pdf",
+      "published_sha256": "7e98f9f78c6e8a3733a54e8caba25a8cc88b704e4fc068d8e04fb7b473103e07",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 27,
+      "source_filename": "علوم القرآن 1.pdf",
+      "source_sha256_before_session_patch": "8e39e41b5719cb1d3c990f1dd687f38dead0a7e69e22ab1e7ec568384c4f247c",
+      "source_page_count": 9,
+      "title": "علوم القرآن (1)",
+      "specification_code": "2002131-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "َّ يدرس الطالب في هذا املقرر بعض املباحث املتعلقة بعلوم القرآن الكريم مثل :التعريف بهذا العلم ،ونشأته ،وتطوره، واملؤلفات فيه ،نزول القرآن ،والوحي ،وأسباب النزول ،وجمع القرآن ،املكي واملدني ،وغيرها. -5",
+      "summary": "يعرّف بعلوم القرآن ونشأتها وتطورها ومؤلفاتها، ويتناول نزول القرآن والوحي وأسباب النزول وجمع القرآن والمكي والمدني.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002131-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002131-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002131-2.pdf",
+      "published_sha256": "de6aad73351df909eeb143c33b921a24560f7b27160cc69ad141f52d91de12f6",
+      "published_page_count": 9,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 28,
+      "source_filename": "علوم القرآن 2.pdf",
+      "source_sha256_before_session_patch": "296469b93e9fe4195a9d3fdf1cba845e77464cf1cb63b932521a434f4f2ae87f",
+      "source_page_count": 8,
+      "title": "علوم القرآن (2)",
+      "specification_code": "2002232-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "يدرس الطالب في هذا املقرربعض املباحث املتعلقة بعلوم القرآن الكريم مثل :قصص القرآن ،األمثال ،القسم ،وغيرها. -5",
+      "summary": "يستكمل مباحث علوم القرآن، ويتناول موضوعات قصص القرآن وأمثاله وأقسامه وغيرها من القضايا المتصلة بهذا العلم.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002232-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002232-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002232-2.pdf",
+      "published_sha256": "e86805c335f71cacc2f02b59ac3d74c36e28b91d39288b54dde95a75640c44d8",
+      "published_page_count": 8,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 29,
+      "source_filename": "فرش القراءات السبع 1.pdf",
+      "source_sha256_before_session_patch": "49e397ae8e1cf87f8a221dce943d16e48bd43e019da7e6223e4b0d3615a013b9",
+      "source_page_count": 7,
+      "title": "فرش القراءات السبع (1)",
+      "specification_code": "2002201-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "يدرس الطالب في هذا املقرر :شرح فرش القراءات الواردة من بداية سورة البقرة إلى نهاية سورة النِّ ساء مع حفظ أبيات ً الشاطبية من البيت رقم )445( :إلى البيت رقم ،)613( :والتوجيه بإيجاز ،وعدد األبيات املقررة ( )169بيتا. -5",
+      "summary": "يشرح فرش القراءات من سورة البقرة إلى نهاية النساء، مع حفظ أبيات الشاطبية المقررة وتوجيه القراءات بإيجاز.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002201-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002201-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002201-2.pdf",
+      "published_sha256": "ec397650305192183d7d5798c6c3f5e2ffabe7dff30a33d0c9f82485348b98e2",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 30,
+      "source_filename": "فرش القراءات السبع 2.pdf",
+      "source_sha256_before_session_patch": "a6e5cac6aaec1bdd339ce76f9eccf74debad56130779717fe0f7cfe01dea0caf",
+      "source_page_count": 7,
+      "title": "فرش القراءات السبع (2)",
+      "specification_code": "2002206-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "َّ الطالب في هذا َّ املقرر :شرح فرش القراءات الواردة من بداية سورة املائدة إلى نهاية سورة هود عليه السالم مع يدرس ً َّ والتوجيه بإيجاز ،وعدد األبيات َّ الش َّ َّ املقررة ( )158بيتا. اطبية من البيت رقم )614( :إلى البيت رقم،)771( : حفظ أبيات -5",
+      "summary": "يشرح فرش القراءات من سورة المائدة إلى نهاية هود، مع حفظ أبيات الشاطبية المقررة وتوجيه القراءات بإيجاز.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002206-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002206-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002206-2.pdf",
+      "published_sha256": "e9da2214fbb8e86ec9b93ef246d77a7c50fed922529df96c92d6af74f1bb33da",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 31,
+      "source_filename": "فرش القراءات السبع 3.pdf",
+      "source_sha256_before_session_patch": "e22ab732df08fb37c156d3ab307cb67a4d564cdcd43f45004e193c3ea6aa10c2",
+      "source_page_count": 7,
+      "title": "فرش القراءات السبع (3)",
+      "specification_code": "2002301-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "يدرس الطالب في هذا املقرر :شرح فرش القراءات الواردة من بداية سورة يوسف عليه السالم إلى نهاية سورة القصص ً مع حفظ أبيات الشاطبية من البيت رقم )772( :إلى البيت رقم ،)951( :والتوجيه بإيجاز ،وعدد األبيات املقررة ( )180بيتا. -5",
+      "summary": "يشرح فرش القراءات من سورة يوسف إلى نهاية القصص، مع حفظ أبيات الشاطبية المقررة وتوجيه القراءات بإيجاز.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002301-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002301-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002301-2.pdf",
+      "published_sha256": "a9a01d6e88e42b24d5fa5ab1c106065534be77a1bee0b6ca6501c32b9f779676",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 32,
+      "source_filename": "فرش القراءات السبع 4.pdf",
+      "source_sha256_before_session_patch": "9d30d675af170b0077cc5fe7eb98b196ca1ee4ccec451c1528a022a9f4e0f5bc",
+      "source_page_count": 7,
+      "title": "فرش القراءات السبع (4)",
+      "specification_code": "2002307-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "يدرس الطالب في هذا املقرر :شرح فرش القراءات الواردة من بداية سورة العنكبوت إلى نهاية املنظومة (باب التكبير) ً مع حفظ أبيات الشاطبية من البيت رقم )952( :إلى البيت رقم ،)1173( :والتوجيه بإيجاز ،وعدد األبيات املقررة ( )222بيتا. -5",
+      "summary": "يشرح فرش القراءات من سورة العنكبوت إلى نهاية منظومة الشاطبية، مع حفظ الأبيات المقررة وتوجيه القراءات بإيجاز.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002307-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002307-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002307-2.pdf",
+      "published_sha256": "3d8f097e2e9ec2848eb127a5ec9e3c33e635906ee803d7f533159ea5ee09cb29",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 33,
+      "source_filename": "قاعة بحث قراءات.pdf",
+      "source_sha256_before_session_patch": "078eb6ab4819c0686f9b2ea3a63074997235dc0372a5375498a68c0e581575c7",
+      "source_page_count": 7,
+      "title": "قاعة بحث قراءات",
+      "specification_code": "2002412-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "يدرس الطالب في هذه املادة مصادرالقراءات القرآنية بنوعيها املتواترة والشاذة والعلوم املتعلقة بها كعلم الضبط والتوجيه وعد اآلي وعلم الرسم ،واملوسوعات ومصادرتراجم القراء. -5",
+      "summary": "يعرّف بمصادر القراءات المتواترة والشاذة والعلوم المتصلة بها، ومنها الضبط والتوجيه وعد الآي والرسم، والموسوعات ومصادر تراجم القراء.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002412-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002412-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002412-2.pdf",
+      "published_sha256": "d356a1ae0a2d09c74aefa0fd66dc337aa56ea35b6a08a0305ad6124f3becba7c",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 34,
+      "source_filename": "مدخل إلى علوم القراءات.pdf",
+      "source_sha256_before_session_patch": "72c887c74d71739b68b1af27c52e3c620f31d21828fcf1859bff73c8f89cba27",
+      "source_page_count": 7,
+      "title": "مدخل إلى علوم القراءات",
+      "specification_code": "2002110-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "يدرس الطالب في هذا املقرر التعريف بالقراءات ،واألحرف السبعة ومفهومها ،ومصدر القراءات ،ونشأتها ،ومراحل التدوين ،و أقسام القراءات ،وأركان قبولها ،ومفهوم القراءات الشاذة وحكم العمل بالشاذ والقراءة به في الصالة وخارجها، وعالقة رسم املصحف بالقراءات ،وتراجم موجزة لبعض مشاهيرالقراء. -5",
+      "summary": "يتناول مفهوم القراءات والأحرف السبعة، ونشأة القراءات وتدوينها وأقسامها وشروط قبولها، والقراءات الشاذة، وعلاقة رسم المصحف بالقراءات، وتراجم مشاهير القراء.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002110-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002110-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002110-2.pdf",
+      "published_sha256": "45616c5d46bd7c11b0b5fca1252ea30e7e5c1783ad803380e53c7f7d6b17e683",
+      "published_page_count": 7,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 35,
+      "source_filename": "مناهج البحث.pdf",
+      "source_sha256_before_session_patch": "5048641d66db7ca6b1d51e73d4fd7b303009ec2ad24cca550e356ab5d9cdcfe8",
+      "source_page_count": 8,
+      "title": "مناهج البحث",
+      "specification_code": "2002405-2",
+      "credit_hours_in_source": 2,
+      "general_description_raw_extraction": "يدرس الطالب في هذه املادة مفهوم البحث العلمي ،وأهميته ،وأهدافه ،وأهم مراحله ،وكيفية اختيارموضوع البحث، والتخطيط له وكذلك يدرس الطالب كيفية تحقيق املخطوطات تحقيقا علميا سليما وآليات التحقيق. -5",
+      "summary": "يتناول مفهوم البحث العلمي وأهميته وأهدافه ومراحله، واختيار موضوع البحث والتخطيط له، وأسس تحقيق المخطوطات وآلياته.",
+      "summary_basis": "تحرير موجز أمين للنص الوارد في خانة الوصف العام للمقرر.",
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "1",
+        "date": "7/2/1445هـ",
+        "source_session_before_patch": "",
+        "authorization_basis": "تعليمات المستخدم الصريحة: جلسة القراءات ستكون الأولى.",
+        "verified_complete_on_final_page": true,
+        "layout_repair": null
+      },
+      "strict_scopes": [
+        {
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 14,
+            "program": "القراءات",
+            "label": "القراءات (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "مناهج البحث",
+          "plan_code": "2002419-2",
+          "plan_hours": 2
+        }
+      ],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002405-2.pdf",
+      "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
+      "published_file": "2002405-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002405-2.pdf",
+      "published_sha256": "08aec6b04452cc39a12f86c9dd0575d1785c64fb326bc43ab79c2b4e7f518e37",
+      "published_page_count": 8,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    }
+  ]
+}
