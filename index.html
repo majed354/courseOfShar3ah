@@ -1831,7 +1831,7 @@
     <div class="modal-overlay" id="courseDetailsOverlay" aria-hidden="true">
         <div class="modal course-details-modal" role="dialog" aria-modal="true" aria-labelledby="courseDetailsTitle">
             <div class="modal-header">
-                <h3 class="modal-title" id="courseDetailsTitle"></h3>
+                <h3 class="modal-title" id="courseDetailsTitle" dir="auto"></h3>
                 <button class="modal-close" type="button" onclick="closeCourseDetailsModal()" aria-label="إغلاق تفاصيل المقرر">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                         <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
@@ -3289,7 +3289,7 @@
                 return `
                     <div class="result-item course-details-target" tabindex="0" aria-label="عرض تفاصيل ${escapeHtml(result.name)}" onclick="openCourseDetailsFromSearch(${resultIndex})" onkeydown="handleCourseDetailsKeydown(event, ${resultIndex})">
                         <div class="result-course-header">
-                            <div class="result-course-name">${escapeHtml(result.name)}</div>
+                            <div class="result-course-name" dir="auto">${escapeHtml(result.name)}</div>
                             ${pdfButtonHtml ? `<div class="result-course-actions">${pdfButtonHtml}</div>` : ''}
                         </div>
                         <div class="result-meta">
@@ -3599,8 +3599,8 @@
                     <tr class="${rowClass} course-row-clickable" data-course-index="${courseIndex}" tabindex="0" onclick="openCourseDetailsFromProgram(${courseIndex})" onkeydown="handleCourseRowKeydown(event, ${courseIndex})" aria-label="عرض تفاصيل ${escapeHtml(course.name)}">
                         <td><code class="course-code">${escapeHtml(course.code)}</code></td>
                         <td>
-                            <strong>${escapeHtml(course.name)}</strong>
-                            ${course.name_en ? `<br><small style="color:var(--text-muted)">${escapeHtml(course.name_en)}</small>` : ''}
+                            <strong dir="auto">${escapeHtml(course.name)}</strong>
+                            ${course.name_en ? `<br><small dir="ltr" lang="en" style="color:var(--text-muted)">${escapeHtml(course.name_en)}</small>` : ''}
                             ${course.category ? `<span class="course-meta">${escapeHtml(course.category)}</span>` : ''}
                             ${equivalentMeta ? `<span class="course-meta">يعادل: ${escapeHtml(equivalentMeta)}</span>` : ''}
                         </td>

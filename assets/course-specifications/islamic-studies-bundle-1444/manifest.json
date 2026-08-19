@@ -32,20 +32,20 @@
   "matching_policy": "لا يربط التوصيف بأي خطة إلا عند تطابق رمز المقرر واسمه معًا بعد توحيد شكلي محافظ للأرقام والتشكيل والتطويل والهمزات والمسافات وعلامات الترقيم، من دون حذف أو إضافة كلمات أو أل التعريف أو توحيد التاء المربوطة والهاء.",
   "audit_counts": {
     "total_specifications": 58,
-    "strictly_linked": 39,
-    "shared_between_versions": 11,
+    "strictly_linked": 40,
+    "shared_between_versions": 12,
     "old_only": 21,
     "new_only": 7,
-    "not_linked": 19,
-    "old_code_only": 2,
+    "not_linked": 18,
+    "old_code_only": 1,
     "old_name_only": 20,
-    "new_code_only": 4,
+    "new_code_only": 3,
     "new_name_only": 10
   },
   "audit_notes": [
     "الصفحات 1–4 هي الغلاف والفهرس، والتوصيفات تغطي الصفحات الفيزيائية 5–485 دون فجوات أو تداخل.",
     "طابقت رموز صفحات العنوان بصريًا، ووحّدت الأرقام والشرطة في أسماء الملفات فقط.",
-    "كل توصيفات الملف تذكر ساعتين معتمدتين، وجميع المقررات الـ39 المرتبطة مسجلة بساعتين في خططها.",
+    "كل توصيفات الملف تذكر ساعتين معتمدتين، وجميع المقررات الـ40 المرتبطة مسجلة بساعتين في خططها.",
     "لم تربط الحالات التي تطابق فيها الرمز وحده أو الاسم وحده، التزامًا بشرط المطابقة المزدوجة."
   ],
   "specifications": [
@@ -139,9 +139,12 @@
       "code": "20041103-2",
       "title": "مقدمات علم العقيدة",
       "file": "20041103-2.pdf",
-      "old_plan_match": "code_only",
-      "new_plan_match": "code_only",
-      "eligible_versions": [],
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
       "source_pdf_pages": [
         39,
         46
@@ -152,7 +155,7 @@
       ],
       "page_count": 8,
       "pdf_hours": 2,
-      "status": "not_linked_strict_mismatch"
+      "status": "verified"
     },
     {
       "code": "20011104-2",
