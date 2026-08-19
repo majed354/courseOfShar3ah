@@ -1,0 +1,745 @@
+{
+  "schema": "quranic-studies-master-publication-manifest/v1",
+  "bundle_slug": "quranic-studies-master-1447",
+  "source_program": {
+    "program": "الدراسات القرآنية المعاصرة",
+    "degree": "ماجستير",
+    "department": "قسم القراءات",
+    "plan_type": "جديدة",
+    "version": "1"
+  },
+  "matching_policy": {
+    "attach_rule": "لا يربط التوصيف إلا عند التطابق التام لاسم المقرر ورمزه معًا.",
+    "normalization": "Unicode NFC، إزالة محارف اتجاه النص غير المرئية، وطي المسافات فقط؛ لا توحيد للهمزات ولا حذف أو إضافة كلمات أو أرقام أجزاء.",
+    "code_only_or_name_only": "محفوظ في الحزمة دون ربط."
+  },
+  "source_archive": "ماجستير الدراسات القرآنية/drive-download-20260819T131258Z-1-001.zip",
+  "source_archive_sha256": "a4918f6116e9332ebab6818f884b64622233b6f79e91e7278335b79216d353e6",
+  "compiled_source": "ماجستير الدراسات القرآنية/drive-download-20260819T131258Z-1-001/التوصيف الجديد/توصيف المقررات بعد المراجعة الشاملة.pdf",
+  "compiled_source_sha256": "4857ffe864b049a9e4afeaadfd609d72a80e56496a00be1257e7a67e7391dce0",
+  "compiled_source_pages": 112,
+  "counts": {
+    "published_pdf_files": 16,
+    "published_pages": 112,
+    "strict_course_details_records": 5,
+    "strict_scopes": 5,
+    "code_only_not_linked": 4,
+    "other_not_linked": 7,
+    "hours_warning_records": 1
+  },
+  "legacy_word_sources": {
+    "directory": "ماجستير الدراسات القرآنية/drive-download-20260819T131258Z-1-001/التوصيف القديم",
+    "files": 13,
+    "exact_identity_matches_to_current_plan": 12,
+    "code_only_matches": 1,
+    "approval_tables_with_missing_session_and_date": 12,
+    "publication_status": "withheld",
+    "reason": "لم تُنشر أو تُربط النسخ القديمة المطابقة لأن رقم جلسة الاعتماد وتاريخها فارغان في الملفات الاثني عشر؛ الملف الثالث عشر مكتمل الاعتماد لكنه لا يطابق اسم الخطة تمامًا. لم تُنسب إلى الملفات الناقصة بيانات جلسة من الخطة المنقحة دون دليل.",
+    "exact_matches_still_withheld_after_using_new_strict_matches": [
+      "2002852-2",
+      "2002853-2",
+      "2002854-2",
+      "2002855-2",
+      "2002862-2",
+      "2002863-2",
+      "2002864-2"
+    ]
+  },
+  "approval_observation": {
+    "agency": "قسم القراءات",
+    "date": "13/08/1447هـ",
+    "session_11_files": 14,
+    "session_6_files": 2,
+    "session_6_titles": [
+      "التفسير التحليلي (1)",
+      "التفسير التحليلي (2)"
+    ],
+    "policy": "حُفظت القيم المثبتة في كل ملف كما وردت، دون تعميم أو تعديل."
+  },
+  "program_coverage_from_bundle": {
+    "plan_courses": 14,
+    "strictly_covered_courses": 5,
+    "coverage_percent": 35.71
+  },
+  "generated_on": "2026-08-19",
+  "records": [
+    {
+      "index": 1,
+      "level": "المستوى الأول",
+      "title": "أصول التفسير",
+      "specification_code": "2002851-4",
+      "credit_hours_in_source": 2,
+      "summary": "يتناول القضايا المنهجية لأصول التفسير من حيث المفاهيم والمصادر وضوابط الاستدلال ومدارس المفسرين واتجاهاتهم، مع تطبيق قواعد الترجيح ونقد الأقوال والاستفادة من المصادر التراثية والرقمية.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الأول/أصول التفسير.pdf",
+      "source_sha256": "9a54175bc1727ba9b0b72e9a6bdb29a4f538b965b548316eec9c57565ea67007",
+      "compiled_source_pdf_pages": [
+        1,
+        7
+      ],
+      "published_file": "2002851-4.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002851-4.pdf",
+      "published_sha256": "959e9be46a0610c2fe080fca4e2b9ff3c5f5ca9925fdb0dd7036b6cc95cfea99",
+      "page_count": 7,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "11",
+        "session_text": "الحادية عشرة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [
+        {
+          "program": "الدراسات القرآنية المعاصرة",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "match_status": "verified_with_hours_warning",
+      "hours_conflict": {
+        "source_hours": 2,
+        "plan_hours": 4
+      },
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 2,
+      "level": "المستوى الأول",
+      "title": "التفسير التحليلي (1)",
+      "specification_code": "2002861-4",
+      "credit_hours_in_source": 2,
+      "summary": "يدرس سورة الأنبياء دراسة تحليلية من خلال نماذج من تفاسير الطبري وابن عطية وابن كثير، مع إبراز منهج التفسير التحليلي وربطه بأصول التفسير وقواعده.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الأول/التفسير التحليلي (1).pdf",
+      "source_sha256": "c26712272de5e14874b398c0422b3d910fec1fad0ed69f9c4a6919fbc05e6b3c",
+      "compiled_source_pdf_pages": [
+        8,
+        14
+      ],
+      "published_file": "2002861-4--tafsir-tahlili-1.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002861-4--tafsir-tahlili-1.pdf",
+      "published_sha256": "59a8431dd837504084547012fe64702c23619b2ab074b3401a066d3c35e29773",
+      "page_count": 7,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "6",
+        "session_text": "السادسة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [],
+      "match_status": "not_linked_name_mismatch",
+      "hours_conflict": null,
+      "include_in_course_details": false,
+      "exclusion_reason": "الرمز موجود في الخطة باسم «التفسير التحليلي»، بينما اسم التوصيف «التفسير التحليلي (1)»؛ لم يُربط لأن المستخدم اشترط تطابق الاسم والرمز تمامًا.",
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 3,
+      "level": "المستوى الأول",
+      "title": "دراسات في علوم القرآن (1)",
+      "specification_code": "2002853-2",
+      "credit_hours_in_source": 2,
+      "summary": "يتناول المباحث التأسيسية في علوم القرآن، ومنها النزول والمكي والمدني وجمع القرآن ورسمه العثماني، وقضايا القراءات والتجويد والوقف والابتداء وفواصل الآي، مع مناقشة أبرز الشبهات.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الأول/دراسات في علوم القرآن 1.pdf",
+      "source_sha256": "298d192a0ca87f1dcc65de5e53a4f11a06fefb59b6e134c097717f399f1f5239",
+      "compiled_source_pdf_pages": [
+        29,
+        35
+      ],
+      "published_file": "2002853-2--ulum-al-quran-1.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002853-2--ulum-al-quran-1.pdf",
+      "published_sha256": "95920ef20c25c72a3db8827887b05372e8344884acc9bb0e9c256eaaf98f3b6f",
+      "page_count": 7,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "11",
+        "session_text": "الحادية عشرة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [],
+      "match_status": "not_linked_name_mismatch",
+      "hours_conflict": null,
+      "include_in_course_details": false,
+      "exclusion_reason": "الرمز موجود في الخطة باسم «دراسات في علوم القرآن»، بينما اسم التوصيف «دراسات في علوم القرآن (1)»؛ لم يُربط لأن المستخدم اشترط تطابق الاسم والرمز تمامًا.",
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 4,
+      "level": "المستوى الأول",
+      "title": "القراءات وأثرها في التفسير",
+      "specification_code": "2002854-2",
+      "credit_hours_in_source": 2,
+      "summary": "يقدم دراسة تحليلية متقدمة لقضايا القراءات القرآنية وأثر اختلافها في توجيه المعنى واستنباط الأحكام، مع بحث الأحرف السبعة والرسم العثماني والقراءات الشاذة ونقد مصادر توثيق القراءات.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الأول/القراءات وأثرها في التفسير.pdf",
+      "source_sha256": "85a74e151485ffffe81183a14d47f7e5a3c18cfeea0a4d9003ad458374842630",
+      "compiled_source_pdf_pages": [
+        22,
+        28
+      ],
+      "published_file": "2002854-2--qiraat-wa-atharuha-fi-al-tafsir.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002854-2--qiraat-wa-atharuha-fi-al-tafsir.pdf",
+      "published_sha256": "9e8dcadb75b82bee715a1935e5ff8834216cdfd7c260e73e7eb4033cd3f0011f",
+      "page_count": 7,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "11",
+        "session_text": "الحادية عشرة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [],
+      "match_status": "not_linked_name_mismatch",
+      "hours_conflict": null,
+      "include_in_course_details": false,
+      "exclusion_reason": "الرمز موجود في الخطة باسم «علم القراءات دراية»، بينما اسم التوصيف «القراءات وأثرها في التفسير»؛ لم يُربط لأن المستخدم اشترط تطابق الاسم والرمز تمامًا.",
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 5,
+      "level": "المستوى الأول",
+      "title": "التقنيات المعاصرة في الدراسات القرآنية",
+      "specification_code": "مستحدث",
+      "credit_hours_in_source": 2,
+      "summary": "يتناول التقنيات الرقمية المعاصرة في خدمة الدراسات القرآنية ومصادر البيانات الرقمية وبناءها وتوثيقها، مع تطبيقات عملية للذكاء الاصطناعي ونماذج اللغة وهندسة التعليمات وبناء مساعد بحثي مدعوم بالمصادر.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الأول/التقنيات المعاصرة في الدراسات القرآنية .pdf",
+      "source_sha256": "c14f9bec56246386296b76aef7fbeb4419f92992be66e2dd2e9ca9ed89f0e169",
+      "compiled_source_pdf_pages": [
+        15,
+        21
+      ],
+      "published_file": "pending-code-contemporary-technologies.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/pending-code-contemporary-technologies.pdf",
+      "published_sha256": "28fed6443f488e1e10e51ae46452cc842b823920f923e5dffd15fd4b335e6a03",
+      "page_count": 7,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "11",
+        "session_text": "الحادية عشرة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [],
+      "match_status": "not_linked_no_exact_code_name",
+      "hours_conflict": null,
+      "include_in_course_details": false,
+      "exclusion_reason": "لا يوجد في الخطة الحالية مقرر يطابق اسم التوصيف ورمزه معًا.",
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 6,
+      "level": "المستوى الثاني",
+      "title": "منهج البحث",
+      "specification_code": "2002863-2",
+      "credit_hours_in_source": 2,
+      "summary": "يتناول أسس البحث العلمي في الدراسات القرآنية من تحديد الإشكالية وصياغة الأسئلة وبناء الخطة إلى تقويم المصادر واختيار المناهج وتحليل البيانات، مع التدريب على الكتابة الأكاديمية والتوثيق وأخلاقيات البحث.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الثاني/منهج البحث.pdf",
+      "source_sha256": "e6ba1baa39a1a16bba0ae744bcdc9f893c19b9e6feeebe09cef04005b8687886",
+      "compiled_source_pdf_pages": [
+        57,
+        63
+      ],
+      "published_file": "2002863-2--manhaj-al-bahth.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002863-2--manhaj-al-bahth.pdf",
+      "published_sha256": "ca918e87ad7a59a3c616eaeb2db73215bff6bd5e36c0ecf48dfd6e915b06b3b1",
+      "page_count": 7,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "11",
+        "session_text": "الحادية عشرة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [],
+      "match_status": "not_linked_name_mismatch",
+      "hours_conflict": null,
+      "include_in_course_details": false,
+      "exclusion_reason": "الرمز موجود في الخطة باسم «منهج البحث والتحقيق»، بينما اسم التوصيف «منهج البحث»؛ لم يُربط لأن المستخدم اشترط تطابق الاسم والرمز تمامًا.",
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 7,
+      "level": "المستوى الثاني",
+      "title": "دراسات في إعجاز القرآن",
+      "specification_code": "2002873-2",
+      "credit_hours_in_source": 2,
+      "summary": "يتناول مفهوم الإعجاز القرآني وأصوله التاريخية ومناهج دراسته ومواقف العلماء من وجوه الإعجاز ونصوص التحدي، مع دراسة نقدية للإعجاز البياني والعلمي والغيبي والتشريعي واتجاهات المعاصرين.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الثاني/دراسات في إعجاز القرآن.pdf",
+      "source_sha256": "845c5db69acff83a478da4ccda920e9bfc984583cac31674866b2b9eb4f1dc6b",
+      "compiled_source_pdf_pages": [
+        43,
+        49
+      ],
+      "published_file": "2002873-2.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf",
+      "published_sha256": "ed32ec1743a70e06044faf58dec23ca53711dc501725d83ba2a659133278e28a",
+      "page_count": 7,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "11",
+        "session_text": "الحادية عشرة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [
+        {
+          "program": "الدراسات القرآنية المعاصرة",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "match_status": "verified",
+      "hours_conflict": null,
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 8,
+      "level": "المستوى الثاني",
+      "title": "مهارات تفسيرية",
+      "specification_code": "مستحدث",
+      "credit_hours_in_source": 2,
+      "summary": "ينمي الملكة التفسيرية عبر تدريب تطبيقي على استخراج المقاصد والمناسبات وتحليل الألفاظ والتراكيب ودلالاتها، وجمع أقوال المفسرين وتوثيقها وتحليل أسباب الخلاف وبناء أجوبة علمية محكمة.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الثاني/‏‏مهارات تفسيرية.pdf",
+      "source_sha256": "b5f112e4797486a9a4b72b041573d3e8775d4754a2df18c159cf6d81d231a24a",
+      "compiled_source_pdf_pages": [
+        64,
+        71
+      ],
+      "published_file": "pending-code-tafsir-skills.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/pending-code-tafsir-skills.pdf",
+      "published_sha256": "1233a08fa840e62bc24898a9c1fd3c14c0a71afef66824b17ba8a2d6d55941c3",
+      "page_count": 8,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "11",
+        "session_text": "الحادية عشرة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [],
+      "match_status": "not_linked_no_exact_code_name",
+      "hours_conflict": null,
+      "include_in_course_details": false,
+      "exclusion_reason": "لا يوجد في الخطة الحالية مقرر يطابق اسم التوصيف ورمزه معًا.",
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 9,
+      "level": "المستوى الثاني",
+      "title": "دراسات في لغة القرآن",
+      "specification_code": "2002874-2",
+      "credit_hours_in_source": 2,
+      "summary": "يتناول قضايا لغة القرآن وبلاغته، وعلاقة اللسان القرشي بلهجات العرب والمعرب والحقيقة والمجاز وأساليب البيان والبديع، مع بيان أثر الظواهر اللغوية والبلاغية في فهم النص وتوجيه دلالاته.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الثاني/دراسات في لغة القرآن.pdf",
+      "source_sha256": "e2678f616a1dd0d1368d954b98bc82039114b93c3b5d7bd0828f837e6605e3e5",
+      "compiled_source_pdf_pages": [
+        50,
+        56
+      ],
+      "published_file": "2002874-2.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002874-2.pdf",
+      "published_sha256": "cd48576eff6e4fb6245479bbe18cd7df0649cf03e793bacb99f4fca694163456",
+      "page_count": 7,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "11",
+        "session_text": "الحادية عشرة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [
+        {
+          "program": "الدراسات القرآنية المعاصرة",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "match_status": "verified",
+      "hours_conflict": null,
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 10,
+      "level": "المستوى الثاني",
+      "title": "التفسير الموضوعي",
+      "specification_code": "2002871-2",
+      "credit_hours_in_source": 2,
+      "summary": "يتناول مفهوم التفسير الموضوعي ونشأته وأنواعه وأسس بنائه وخطوات البحث فيه وعلاقته بأنواع التفسير الأخرى، مع تقويم نماذج معاصرة وتدريب عملي على بناء دراسة موضوعية لسورة أو قضية قرآنية.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الثاني/التفسير الموضوعي.pdf",
+      "source_sha256": "a6f539e942f3115b8dde4c1b35d7287987e66cc39315ac4f2579a34d0ccbcacb",
+      "compiled_source_pdf_pages": [
+        36,
+        42
+      ],
+      "published_file": "2002871-2.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002871-2.pdf",
+      "published_sha256": "4eca82ccbbab5a00e58dbd1a5b5b726e2844da33fd732e814792dd3b50cacbf0",
+      "page_count": 7,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "11",
+        "session_text": "الحادية عشرة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [
+        {
+          "program": "الدراسات القرآنية المعاصرة",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "match_status": "verified",
+      "hours_conflict": null,
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 11,
+      "level": "المستوى الثالث",
+      "title": "التفسير التحليلي (2)",
+      "specification_code": "مستحدث",
+      "credit_hours_in_source": 2,
+      "summary": "يدرس سورة الزمر دراسة تحليلية من خلال تفاسير الرازي والآلوسي وابن عاشور، مع إبراز منهج التفسير التحليلي وربطه بأصول التفسير وقواعده.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الثالث/‏‏التفسير التحليلي (2).pdf",
+      "source_sha256": "97b4581ff87662ae6e60efaf071ee14720c4857b24e53b7669b7897a7ae2d799",
+      "compiled_source_pdf_pages": [
+        93,
+        98
+      ],
+      "published_file": "pending-code-tafsir-tahlili-2.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/pending-code-tafsir-tahlili-2.pdf",
+      "published_sha256": "90eeabb4c2bb38a82403241382f0d263e88b84f2ba6b41ed338e6b10e061575b",
+      "page_count": 6,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "6",
+        "session_text": "السادسة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [],
+      "match_status": "not_linked_no_exact_code_name",
+      "hours_conflict": null,
+      "include_in_course_details": false,
+      "exclusion_reason": "لا يوجد في الخطة الحالية مقرر يطابق اسم التوصيف ورمزه معًا.",
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 12,
+      "level": "المستوى الثالث",
+      "title": "النظريات الحداثية في القرآن",
+      "specification_code": "2002872-2",
+      "credit_hours_in_source": 2,
+      "summary": "يتناول النظريات والمناهج الحداثية في قراءة النص القرآني وجذورها وأدواتها التأويلية، ومنها التاريخانية والهرمنيوطيقا واللسانيات والبنيوية والتفكيكية، مع تقويم تطبيقاتها نقديًا في ضوء أصول التفسير وعلوم القرآن.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الثالث/النظريات الحداثية في القرآن.pdf",
+      "source_sha256": "cede454a6385c6278bdb287716f2cc787da1950aec0c8801ca8067cbcfece268",
+      "compiled_source_pdf_pages": [
+        72,
+        78
+      ],
+      "published_file": "2002872-2.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf",
+      "published_sha256": "0d6cd1ab5bba35d06499935b2fbd1a2c54ed68081e6e73d00185abe893f9d8c7",
+      "page_count": 7,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "11",
+        "session_text": "الحادية عشرة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [
+        {
+          "program": "الدراسات القرآنية المعاصرة",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "match_status": "verified",
+      "hours_conflict": null,
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 13,
+      "level": "المستوى الثالث",
+      "title": "دراسات في علوم القرآن (2)",
+      "specification_code": "مستحدث",
+      "credit_hours_in_source": 2,
+      "summary": "يركز على المباحث المنهجية والدلالية في علوم القرآن، ومنها بناء السورة والمناسبات والمحكم والمتشابه والعام والخاص والنسخ والاستنباط والتدبر وموهم الاختلاف وأمثال القرآن، مع تدريب بحثي تطبيقي.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الثالث/‏‏دراسات في علوم القرآن 2.pdf",
+      "source_sha256": "595a2359b231f8bcff154fe991d70fe9af131ec09d95b46100c67b8d1446210e",
+      "compiled_source_pdf_pages": [
+        99,
+        105
+      ],
+      "published_file": "pending-code-ulum-al-quran-2.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/pending-code-ulum-al-quran-2.pdf",
+      "published_sha256": "dd85c1a37f4b57a621c3ccb1a462489987f4c0c1063b150a3c5e1d60e5dc081c",
+      "page_count": 7,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "11",
+        "session_text": "الحادية عشرة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [],
+      "match_status": "not_linked_no_exact_code_name",
+      "hours_conflict": null,
+      "include_in_course_details": false,
+      "exclusion_reason": "لا يوجد في الخطة الحالية مقرر يطابق اسم التوصيف ورمزه معًا.",
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 14,
+      "level": "المستوى الثالث",
+      "title": "مشروع بحثي (1)",
+      "specification_code": "مستحدث",
+      "credit_hours_in_source": 2,
+      "summary": "يدرّب على إعداد مشروع الرسالة من اختيار الموضوع وبناء الإشكالية وصياغة الأسئلة والأهداف إلى تقويم الدراسات السابقة واستخلاص الفجوة البحثية وإعداد خطة تفصيلية ومقدمة علمية موثقة.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الثالث/مشروع بحثي 1.pdf",
+      "source_sha256": "0602578e7e9ccecafc0bd2cb4eda3fde032f1631226491390a6d23b0d7c4ffde",
+      "compiled_source_pdf_pages": [
+        86,
+        92
+      ],
+      "published_file": "pending-code-research-project-1.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/pending-code-research-project-1.pdf",
+      "published_sha256": "a62af82252b0ff0592891e355b3d4f130fb6312bfd2bf7e54929a6dfa221084e",
+      "page_count": 7,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "11",
+        "session_text": "الحادية عشرة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [],
+      "match_status": "not_linked_no_exact_code_name",
+      "hours_conflict": null,
+      "include_in_course_details": false,
+      "exclusion_reason": "لا يوجد في الخطة الحالية مقرر يطابق اسم التوصيف ورمزه معًا.",
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 15,
+      "level": "المستوى الثالث",
+      "title": "تحقيق المخطوطات",
+      "specification_code": "مستحدث",
+      "credit_hours_in_source": 2,
+      "summary": "يعالج مبادئ تحقيق المخطوطات مع تطبيقات في الدراسات القرآنية، من تقويم النصوص واختيار النسخ وقراءة الخطوط والرموز إلى المقابلة والترجيح وضبط النص والتعليق العلمي وإخراجه وفهرسته.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الثالث/تحقيق المخطوطات.pdf",
+      "source_sha256": "f3bc6134fa08dcf513e4a3a7da4ccb05b7acaab4553c1cfea9571275997683de",
+      "compiled_source_pdf_pages": [
+        79,
+        85
+      ],
+      "published_file": "pending-code-manuscript-verification.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/pending-code-manuscript-verification.pdf",
+      "published_sha256": "1a68b7a3b59b59c7bf674da5f4fc44336c67ac485a9d35af3ef28c4c9c328a58",
+      "page_count": 7,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "11",
+        "session_text": "الحادية عشرة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [],
+      "match_status": "not_linked_no_exact_code_name",
+      "hours_conflict": null,
+      "include_in_course_details": false,
+      "exclusion_reason": "لا يوجد في الخطة الحالية مقرر يطابق اسم التوصيف ورمزه معًا.",
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    },
+    {
+      "index": 16,
+      "level": "المستوى الرابع",
+      "title": "مشروع بحثي (2)",
+      "specification_code": "2002888-2",
+      "credit_hours_in_source": 2,
+      "summary": "يركز على تحويل المقترح البحثي إلى كتابة فعلية للرسالة عبر بناء الفصول وتحليل المادة ومناقشتها وصياغة النتائج والخاتمة، ثم تحرير البحث وإخراجه وفق معايير الدراسات العليا.",
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف.",
+      "source_relative_path": "التوصيف الجديد/المستوى الرابع/مشروع بحثي 2.pdf",
+      "source_sha256": "05a88839ed820a3f796c33eba398062f3145d6eca5404e598a966bd44f15aec2",
+      "compiled_source_pdf_pages": [
+        106,
+        112
+      ],
+      "published_file": "2002888-2--research-project-2.pdf",
+      "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002888-2--research-project-2.pdf",
+      "published_sha256": "213a4f88a36dc09fa3c9f241b93439ff26b1925f6c79f9b2783d4e715ceb2e0e",
+      "page_count": 7,
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "11",
+        "session_text": "الحادية عشرة",
+        "date": "13/08/1447هـ",
+        "verified_complete_on_final_page": true,
+        "source_preserved_without_approval_edit": true
+      },
+      "strict_scopes": [],
+      "match_status": "not_linked_no_exact_code_name",
+      "hours_conflict": null,
+      "include_in_course_details": false,
+      "exclusion_reason": "لا يوجد في الخطة الحالية مقرر يطابق اسم التوصيف ورمزه معًا.",
+      "publication_verification": {
+        "qpdf_ok": true,
+        "a4_portrait": true,
+        "rtl_visual_check": true,
+        "approval_table_complete": true,
+        "sensitivity_label_absent": true,
+        "placeholders_absent": true
+      }
+    }
+  ]
+}
