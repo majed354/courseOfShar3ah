@@ -1,0 +1,819 @@
+{
+  "source_file": "توصيفات_مقررات_القرآن_وعلومه_المحدّث (1).pdf",
+  "source_sha256": "1f78ad66d385c9e3c62b88449490b22de46f830fca53e6d963b873f4cfc441f0",
+  "source_pages": 215,
+  "excluded_source_pdf_page_range": [
+    1,
+    5
+  ],
+  "checked_on": "2026-08-19",
+  "source_program_scope": {
+    "program_id": 10,
+    "program": "القرآن وعلومه",
+    "degree": "بكالوريوس",
+    "plan_type": "قديمة",
+    "version": 39
+  },
+  "reuse_program_scope": {
+    "program_id": 15,
+    "program": "القرآن وعلومه",
+    "degree": "بكالوريوس",
+    "plan_type": "جديدة",
+    "version": 47
+  },
+  "matching_policy": "تظل الملفات من حزمة الإصدار 39، ولا يعاد استخدامها في الإصدار 47 إلا عند تطابق رمز المقرر واسمه معًا بعد توحيد شكلي محافظ للأرقام والتشكيل والهمزات والمسافات والأقواس، من دون إسقاط كلمات أو أل التعريف.",
+  "audit_notes": [
+    "أرقام الصفحات المطبوعة أقل بصفحة واحدة من أرقام صفحات PDF الفعلية بسبب صفحة الغلاف غير المرقمة.",
+    "طابق الرمز والاسم معًا في 25 توصيفًا من أصل 38 بين الإصدارين 39 و47؛ أما 13 رمزًا فغير موجودة في الإصدار 47 ولم تربط به.",
+    "التوصيفان القديمان 2002115-2 و2002125-2 يطابق اسماهما مقررين جديدين، لكن رمزيهما تغيرا؛ لذلك لم يربطا بهما.",
+    "اسم 2002313-2 في التوصيف «علوم القرآن (5)» وفي بيانات خطة 39 «علوم قرآن (5)»؛ أبقي الملف ضمن حزمة المصدر لكنه لم يربط بأي خطة لأن الاسم والرمز يجب أن يتطابقا معًا.",
+    "التوصيف 2002454-2 يذكر 4 ساعات، بينما الخطتان والرمز تسجل ساعتين؛ أبقيت ساعات الخطتين وسجلت التعارض للتحقق."
+  ],
+  "specifications": [
+    {
+      "code": "2002110-2",
+      "title": "مدخل إلى علوم القراءات",
+      "file": "2002110-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        6,
+        11
+      ],
+      "source_printed_pages": [
+        5,
+        10
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002114-2",
+      "title": "تلاوة وحفظ (1)",
+      "file": "2002114-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        12,
+        16
+      ],
+      "source_printed_pages": [
+        11,
+        15
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002115-2",
+      "title": "التجويد (1)",
+      "file": "2002115-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_absent",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        17,
+        21
+      ],
+      "source_printed_pages": [
+        16,
+        20
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002116-2",
+      "title": "آداب حملة القرآن",
+      "file": "2002116-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        22,
+        26
+      ],
+      "source_printed_pages": [
+        21,
+        25
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002117-2",
+      "title": "تاريخ التفسير",
+      "file": "2002117-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        27,
+        32
+      ],
+      "source_printed_pages": [
+        26,
+        31
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002131-2",
+      "title": "علوم القرآن (1)",
+      "file": "2002131-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_absent",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        33,
+        37
+      ],
+      "source_printed_pages": [
+        32,
+        36
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002124-2",
+      "title": "تلاوة وحفظ (2)",
+      "file": "2002124-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        38,
+        43
+      ],
+      "source_printed_pages": [
+        37,
+        42
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002125-2",
+      "title": "التجويد (2)",
+      "file": "2002125-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_absent",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        44,
+        48
+      ],
+      "source_printed_pages": [
+        43,
+        47
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002204-2",
+      "title": "التفسير (1)",
+      "file": "2002204-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        49,
+        53
+      ],
+      "source_printed_pages": [
+        48,
+        52
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002232-2",
+      "title": "علوم القرآن (2)",
+      "file": "2002232-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_absent",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        54,
+        59
+      ],
+      "source_printed_pages": [
+        53,
+        58
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002250-2",
+      "title": "أصول التفسير ومناهجه",
+      "file": "2002250-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_absent",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        60,
+        65
+      ],
+      "source_printed_pages": [
+        59,
+        64
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002208-2",
+      "title": "التفسير (2)",
+      "file": "2002208-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        66,
+        70
+      ],
+      "source_printed_pages": [
+        65,
+        69
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002212-2",
+      "title": "قواعد التفسير",
+      "file": "2002212-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        71,
+        76
+      ],
+      "source_printed_pages": [
+        70,
+        75
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002215-2",
+      "title": "تلاوة وحفظ (3)",
+      "file": "2002215-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        77,
+        82
+      ],
+      "source_printed_pages": [
+        76,
+        81
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002333-2",
+      "title": "علوم القرآن (3)",
+      "file": "2002333-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_absent",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        83,
+        88
+      ],
+      "source_printed_pages": [
+        82,
+        87
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002222-2",
+      "title": "مناهج المفسرين",
+      "file": "2002222-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        89,
+        94
+      ],
+      "source_printed_pages": [
+        88,
+        93
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002223-2",
+      "title": "علوم القرآن (4)",
+      "file": "2002223-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_absent",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        95,
+        99
+      ],
+      "source_printed_pages": [
+        94,
+        98
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002224-2",
+      "title": "تلاوة وحفظ (4)",
+      "file": "2002224-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        100,
+        105
+      ],
+      "source_printed_pages": [
+        99,
+        104
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002306-2",
+      "title": "التفسير (3)",
+      "file": "2002306-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        106,
+        110
+      ],
+      "source_printed_pages": [
+        105,
+        109
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002240-2",
+      "title": "تفسير آيات الأحكام",
+      "file": "2002240-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_absent",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        111,
+        116
+      ],
+      "source_printed_pages": [
+        110,
+        115
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002313-2",
+      "title": "علوم القرآن (5)",
+      "file": "2002313-2.pdf",
+      "source_plan_match": "code_match_name_diff",
+      "new_plan_match": "code_absent",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        117,
+        122
+      ],
+      "source_printed_pages": [
+        116,
+        121
+      ],
+      "page_count": 6,
+      "status": "not_linked_name_mismatch"
+    },
+    {
+      "code": "2002314-2",
+      "title": "تلاوة وحفظ (5)",
+      "file": "2002314-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        123,
+        127
+      ],
+      "source_printed_pages": [
+        122,
+        126
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002317-2",
+      "title": "التفسير (4)",
+      "file": "2002317-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        128,
+        132
+      ],
+      "source_printed_pages": [
+        127,
+        131
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002318-2",
+      "title": "توجيه القراءات",
+      "file": "2002318-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        133,
+        138
+      ],
+      "source_printed_pages": [
+        132,
+        137
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002325-2",
+      "title": "تلاوة وحفظ (6)",
+      "file": "2002325-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        139,
+        144
+      ],
+      "source_printed_pages": [
+        138,
+        143
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002326-2",
+      "title": "علوم القرآن (6)",
+      "file": "2002326-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_absent",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        145,
+        150
+      ],
+      "source_printed_pages": [
+        144,
+        149
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002327-2",
+      "title": "التفسير (5)",
+      "file": "2002327-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        151,
+        155
+      ],
+      "source_printed_pages": [
+        150,
+        154
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002454-2",
+      "title": "التفسير الموضوعي",
+      "file": "2002454-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        156,
+        160
+      ],
+      "source_printed_pages": [
+        155,
+        159
+      ],
+      "page_count": 5,
+      "status": "verified_with_hours_warning",
+      "specification_hours": 4,
+      "plan_hours": 2
+    },
+    {
+      "code": "2002413-2",
+      "title": "التفسير (6)",
+      "file": "2002413-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        161,
+        165
+      ],
+      "source_printed_pages": [
+        160,
+        164
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002414-2",
+      "title": "تلاوة وحفظ (7)",
+      "file": "2002414-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        166,
+        171
+      ],
+      "source_printed_pages": [
+        165,
+        170
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002415-2",
+      "title": "القراءات القرآنية",
+      "file": "2002415-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_absent",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        172,
+        176
+      ],
+      "source_printed_pages": [
+        171,
+        175
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002416-2",
+      "title": "التقنيات الحديثة في الدراسات القرآنية",
+      "file": "2002416-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        177,
+        181
+      ],
+      "source_printed_pages": [
+        176,
+        180
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002419-2",
+      "title": "مناهج البحث",
+      "file": "2002419-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        182,
+        187
+      ],
+      "source_printed_pages": [
+        181,
+        186
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002412-2",
+      "title": "قاعة بحث قراءات",
+      "file": "2002412-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_absent",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        188,
+        193
+      ],
+      "source_printed_pages": [
+        187,
+        192
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002420-2",
+      "title": "تلاوة وحفظ (8)",
+      "file": "2002420-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        194,
+        199
+      ],
+      "source_printed_pages": [
+        193,
+        198
+      ],
+      "page_count": 6,
+      "status": "verified"
+    },
+    {
+      "code": "2002427-2",
+      "title": "التفسير (8)",
+      "file": "2002427-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_absent",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        200,
+        204
+      ],
+      "source_printed_pages": [
+        199,
+        203
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002429-2",
+      "title": "الانتصار للقرآن",
+      "file": "2002429-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        205,
+        209
+      ],
+      "source_printed_pages": [
+        204,
+        208
+      ],
+      "page_count": 5,
+      "status": "verified"
+    },
+    {
+      "code": "2002456-2",
+      "title": "إعجاز القرآن الكريم",
+      "file": "2002456-2.pdf",
+      "source_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        210,
+        215
+      ],
+      "source_printed_pages": [
+        209,
+        214
+      ],
+      "page_count": 6,
+      "status": "verified"
+    }
+  ]
+}

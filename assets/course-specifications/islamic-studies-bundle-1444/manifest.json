@@ -1,0 +1,1244 @@
+{
+  "source_file": "توصيفات برنامج الدراسات الإسلامية.pdf",
+  "source_sha256": "979de4cafe38f11ca6f4e98fc2931c9518d3603de9fd91bc81f37e95d5e28f1e",
+  "source_pages": 485,
+  "excluded_source_pdf_page_range": [
+    1,
+    4
+  ],
+  "checked_on": "2026-08-19",
+  "source_program": {
+    "program": "الدراسات الإسلامية",
+    "degree": "بكالوريوس",
+    "department": "قسم الثقافة الإسلامية",
+    "course_count": 58
+  },
+  "comparison_scopes": [
+    {
+      "program_id": 8,
+      "program": "الدراسات الإسلامية",
+      "degree": "بكالوريوس",
+      "plan_type": "قديمة",
+      "version": 39
+    },
+    {
+      "program_id": 12,
+      "program": "الدراسات الإسلامية",
+      "degree": "بكالوريوس",
+      "plan_type": "جديدة",
+      "version": 47
+    }
+  ],
+  "matching_policy": "لا يربط التوصيف بأي خطة إلا عند تطابق رمز المقرر واسمه معًا بعد توحيد شكلي محافظ للأرقام والتشكيل والتطويل والهمزات والمسافات وعلامات الترقيم، من دون حذف أو إضافة كلمات أو أل التعريف أو توحيد التاء المربوطة والهاء.",
+  "audit_counts": {
+    "total_specifications": 58,
+    "strictly_linked": 39,
+    "shared_between_versions": 11,
+    "old_only": 21,
+    "new_only": 7,
+    "not_linked": 19,
+    "old_code_only": 2,
+    "old_name_only": 20,
+    "new_code_only": 4,
+    "new_name_only": 10
+  },
+  "audit_notes": [
+    "الصفحات 1–4 هي الغلاف والفهرس، والتوصيفات تغطي الصفحات الفيزيائية 5–485 دون فجوات أو تداخل.",
+    "طابقت رموز صفحات العنوان بصريًا، ووحّدت الأرقام والشرطة في أسماء الملفات فقط.",
+    "كل توصيفات الملف تذكر ساعتين معتمدتين، وجميع المقررات الـ39 المرتبطة مسجلة بساعتين في خططها.",
+    "لم تربط الحالات التي تطابق فيها الرمز وحده أو الاسم وحده، التزامًا بشرط المطابقة المزدوجة."
+  ],
+  "specifications": [
+    {
+      "code": "20021105-2",
+      "title": "قرآن كريم حفظ وتلاوة (1)",
+      "file": "20021105-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        5,
+        12
+      ],
+      "source_printed_pages": [
+        5,
+        12
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "2002131-2",
+      "title": "علوم القرآن (1)",
+      "file": "2002131-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        13,
+        21
+      ],
+      "source_printed_pages": [
+        13,
+        21
+      ],
+      "page_count": 9,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "2002250-2",
+      "title": "أصول التفسير ومناهجه",
+      "file": "2002250-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        22,
+        30
+      ],
+      "source_printed_pages": [
+        22,
+        30
+      ],
+      "page_count": 9,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20041102-2",
+      "title": "علوم الحديث (1)",
+      "file": "20041102-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        31,
+        38
+      ],
+      "source_printed_pages": [
+        31,
+        38
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20041103-2",
+      "title": "مقدمات علم العقيدة",
+      "file": "20041103-2.pdf",
+      "old_plan_match": "code_only",
+      "new_plan_match": "code_only",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        39,
+        46
+      ],
+      "source_printed_pages": [
+        39,
+        46
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20011104-2",
+      "title": "المدخل للشريعة والفقه الإسلامي",
+      "file": "20011104-2.pdf",
+      "old_plan_match": "no_match",
+      "new_plan_match": "no_match",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        47,
+        53
+      ],
+      "source_printed_pages": [
+        47,
+        53
+      ],
+      "page_count": 7,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20021201-2",
+      "title": "قرآن كريم حفظ وتلاوة (2)",
+      "file": "20021201-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        54,
+        60
+      ],
+      "source_printed_pages": [
+        54,
+        60
+      ],
+      "page_count": 7,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20021202-2",
+      "title": "التجويد",
+      "file": "20021202-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        47
+      ],
+      "source_pdf_pages": [
+        61,
+        69
+      ],
+      "source_printed_pages": [
+        61,
+        69
+      ],
+      "page_count": 9,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20021203-2",
+      "title": "التفسير التحليلي (1)",
+      "file": "20021203-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        47
+      ],
+      "source_pdf_pages": [
+        70,
+        76
+      ],
+      "source_printed_pages": [
+        70,
+        76
+      ],
+      "page_count": 7,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20041204-2",
+      "title": "حديث (1)",
+      "file": "20041204-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        77,
+        85
+      ],
+      "source_printed_pages": [
+        77,
+        85
+      ],
+      "page_count": 9,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20011205-2",
+      "title": "الفقه (1)",
+      "file": "20011205-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "name_only",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        86,
+        94
+      ],
+      "source_printed_pages": [
+        86,
+        94
+      ],
+      "page_count": 9,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20041206-2",
+      "title": "العقيدة (1)",
+      "file": "20041206-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "name_only",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        95,
+        102
+      ],
+      "source_printed_pages": [
+        95,
+        102
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20022103-2",
+      "title": "قرآن كريم حفظ وتلاوة (3)",
+      "file": "20022103-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        103,
+        109
+      ],
+      "source_printed_pages": [
+        103,
+        109
+      ],
+      "page_count": 7,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20012102-2",
+      "title": "الفقه (2)",
+      "file": "20012102-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "name_only",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        110,
+        119
+      ],
+      "source_printed_pages": [
+        110,
+        119
+      ],
+      "page_count": 10,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20022104-2",
+      "title": "علوم القرآن (2)",
+      "file": "20022104-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "no_match",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        120,
+        128
+      ],
+      "source_printed_pages": [
+        120,
+        128
+      ],
+      "page_count": 9,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20042105-2",
+      "title": "العقيدة (2)",
+      "file": "20042105-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "name_only",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        129,
+        136
+      ],
+      "source_printed_pages": [
+        129,
+        136
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20012106-2",
+      "title": "أصول الفقه (1)",
+      "file": "20012106-2.pdf",
+      "old_plan_match": "no_match",
+      "new_plan_match": "code_only",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        137,
+        145
+      ],
+      "source_printed_pages": [
+        137,
+        145
+      ],
+      "page_count": 9,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20042107-2",
+      "title": "علوم الحديث (2)",
+      "file": "20042107-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        146,
+        154
+      ],
+      "source_printed_pages": [
+        146,
+        154
+      ],
+      "page_count": 9,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20022203-2",
+      "title": "قرآن كريم حفظ وتلاوة (4)",
+      "file": "20022203-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        155,
+        161
+      ],
+      "source_printed_pages": [
+        155,
+        161
+      ],
+      "page_count": 7,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20042201-2",
+      "title": "أحاديث أحكام (1)",
+      "file": "20042201-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        162,
+        169
+      ],
+      "source_printed_pages": [
+        162,
+        169
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20022202-2",
+      "title": "التفسير التحليلي (2)",
+      "file": "20022202-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "name_only",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        170,
+        176
+      ],
+      "source_printed_pages": [
+        170,
+        176
+      ],
+      "page_count": 7,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20042203-2",
+      "title": "العقيدة (3)",
+      "file": "20042203-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        177,
+        184
+      ],
+      "source_printed_pages": [
+        177,
+        184
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20012204-2",
+      "title": "الفقه (3)",
+      "file": "20012204-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "name_only",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        185,
+        194
+      ],
+      "source_printed_pages": [
+        185,
+        194
+      ],
+      "page_count": 10,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20042205-2",
+      "title": "حديث (2)",
+      "file": "20042205-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        195,
+        203
+      ],
+      "source_printed_pages": [
+        195,
+        203
+      ],
+      "page_count": 9,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20042206-2",
+      "title": "الدعوة والحسبة",
+      "file": "20042206-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "name_only",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        204,
+        211
+      ],
+      "source_printed_pages": [
+        204,
+        211
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20023103-2",
+      "title": "قرآن كريم حفظ وتلاوة (5)",
+      "file": "20023103-2.pdf",
+      "old_plan_match": "no_match",
+      "new_plan_match": "no_match",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        212,
+        218
+      ],
+      "source_printed_pages": [
+        212,
+        218
+      ],
+      "page_count": 7,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20023101-2",
+      "title": "التفسير الموضوعي",
+      "file": "20023101-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "no_match",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        219,
+        226
+      ],
+      "source_printed_pages": [
+        219,
+        226
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20043102-2",
+      "title": "العقيدة (4)",
+      "file": "20043102-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        227,
+        236
+      ],
+      "source_printed_pages": [
+        227,
+        236
+      ],
+      "page_count": 10,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20043103-2",
+      "title": "الأديان",
+      "file": "20043103-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        237,
+        244
+      ],
+      "source_printed_pages": [
+        237,
+        244
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20013104-2",
+      "title": "الفقه (4)",
+      "file": "20013104-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "name_only",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        245,
+        257
+      ],
+      "source_printed_pages": [
+        245,
+        257
+      ],
+      "page_count": 13,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20013105-2",
+      "title": "الفقه المقارن",
+      "file": "20013105-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        47
+      ],
+      "source_pdf_pages": [
+        258,
+        265
+      ],
+      "source_printed_pages": [
+        258,
+        265
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20013106-2",
+      "title": "أصول الفقه (2)",
+      "file": "20013106-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        47
+      ],
+      "source_pdf_pages": [
+        266,
+        273
+      ],
+      "source_printed_pages": [
+        266,
+        273
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20043107-2",
+      "title": "حديث (3)",
+      "file": "20043107-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        274,
+        282
+      ],
+      "source_printed_pages": [
+        274,
+        282
+      ],
+      "page_count": 9,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20013108-2",
+      "title": "علم المواريث (1)",
+      "file": "20013108-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        47
+      ],
+      "source_pdf_pages": [
+        283,
+        289
+      ],
+      "source_printed_pages": [
+        283,
+        289
+      ],
+      "page_count": 7,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20023203-2",
+      "title": "قرآن كريم حفظ وتلاوة (6)",
+      "file": "20023203-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        290,
+        297
+      ],
+      "source_printed_pages": [
+        290,
+        297
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20043201-2",
+      "title": "العقيدة (5)",
+      "file": "20043201-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        298,
+        306
+      ],
+      "source_printed_pages": [
+        298,
+        306
+      ],
+      "page_count": 9,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20013202-2",
+      "title": "القواعد الفقهية",
+      "file": "20013202-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        47
+      ],
+      "source_pdf_pages": [
+        307,
+        314
+      ],
+      "source_printed_pages": [
+        307,
+        314
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20043203-2",
+      "title": "أحاديث أحكام (2)",
+      "file": "20043203-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        315,
+        322
+      ],
+      "source_printed_pages": [
+        315,
+        322
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20013204-2",
+      "title": "الفقه (5)",
+      "file": "20013204-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "name_only",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        323,
+        331
+      ],
+      "source_printed_pages": [
+        323,
+        331
+      ],
+      "page_count": 9,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20023205-2",
+      "title": "التفسير التحليلي (3)",
+      "file": "20023205-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "name_only",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        332,
+        338
+      ],
+      "source_printed_pages": [
+        332,
+        338
+      ],
+      "page_count": 7,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20043206-2",
+      "title": "تخريج الحديث",
+      "file": "20043206-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        339,
+        347
+      ],
+      "source_printed_pages": [
+        339,
+        347
+      ],
+      "page_count": 9,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20024103-2",
+      "title": "قرآن كريم حفظ وتلاوة (7)",
+      "file": "20024103-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        348,
+        354
+      ],
+      "source_printed_pages": [
+        348,
+        354
+      ],
+      "page_count": 7,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20014101-2",
+      "title": "أصول الفقه (3)",
+      "file": "20014101-2.pdf",
+      "old_plan_match": "no_match",
+      "new_plan_match": "code_only",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        355,
+        362
+      ],
+      "source_printed_pages": [
+        355,
+        362
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20044102-2",
+      "title": "العقيدة (6)",
+      "file": "20044102-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        363,
+        370
+      ],
+      "source_printed_pages": [
+        363,
+        370
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20044103-2",
+      "title": "مناهج البحث",
+      "file": "20044103-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        371,
+        380
+      ],
+      "source_printed_pages": [
+        371,
+        380
+      ],
+      "page_count": 10,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20044104-2",
+      "title": "دراسة أسانيد",
+      "file": "20044104-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        381,
+        387
+      ],
+      "source_printed_pages": [
+        381,
+        387
+      ],
+      "page_count": 7,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20014105-2",
+      "title": "الفقه (6)",
+      "file": "20014105-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "no_match",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        388,
+        395
+      ],
+      "source_printed_pages": [
+        388,
+        395
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20014106-2",
+      "title": "فقه النوازل والمعاملات المصرفية",
+      "file": "20014106-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "no_match",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        396,
+        402
+      ],
+      "source_printed_pages": [
+        396,
+        402
+      ],
+      "page_count": 7,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20044107-2",
+      "title": "الحديث الموضوعي",
+      "file": "20044107-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        403,
+        410
+      ],
+      "source_printed_pages": [
+        403,
+        410
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20024203-2",
+      "title": "قرآن كريم حفظ وتلاوة (8)",
+      "file": "20024203-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        411,
+        418
+      ],
+      "source_printed_pages": [
+        411,
+        418
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20014200-2",
+      "title": "الفقه (7)",
+      "file": "20014200-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "no_match",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        419,
+        428
+      ],
+      "source_printed_pages": [
+        419,
+        428
+      ],
+      "page_count": 10,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20044202-2",
+      "title": "بحث تخرج",
+      "file": "20044202-2.pdf",
+      "old_plan_match": "code_only",
+      "new_plan_match": "code_only",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        429,
+        436
+      ],
+      "source_printed_pages": [
+        429,
+        436
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20024202-2",
+      "title": "تفسير آيات الأحكام",
+      "file": "20024202-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "no_match",
+      "eligible_versions": [],
+      "source_pdf_pages": [
+        437,
+        444
+      ],
+      "source_printed_pages": [
+        437,
+        444
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "not_linked_strict_mismatch"
+    },
+    {
+      "code": "20044204-2",
+      "title": "المذاهب والتيارات المعاصرة",
+      "file": "20044204-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        445,
+        452
+      ],
+      "source_printed_pages": [
+        445,
+        452
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20044205-2",
+      "title": "الفرق",
+      "file": "20044205-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        39,
+        47
+      ],
+      "source_pdf_pages": [
+        453,
+        461
+      ],
+      "source_printed_pages": [
+        453,
+        461
+      ],
+      "page_count": 9,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20014206-2",
+      "title": "علم المواريث (2)",
+      "file": "20014206-2.pdf",
+      "old_plan_match": "name_only",
+      "new_plan_match": "code_and_name",
+      "eligible_versions": [
+        47
+      ],
+      "source_pdf_pages": [
+        462,
+        468
+      ],
+      "source_printed_pages": [
+        462,
+        468
+      ],
+      "page_count": 7,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20044207-2",
+      "title": "السيرة النبوية",
+      "file": "20044207-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        469,
+        477
+      ],
+      "source_printed_pages": [
+        469,
+        477
+      ],
+      "page_count": 9,
+      "pdf_hours": 2,
+      "status": "verified"
+    },
+    {
+      "code": "20044208-2",
+      "title": "أحاديث أحكام (3)",
+      "file": "20044208-2.pdf",
+      "old_plan_match": "code_and_name",
+      "new_plan_match": "no_match",
+      "eligible_versions": [
+        39
+      ],
+      "source_pdf_pages": [
+        478,
+        485
+      ],
+      "source_printed_pages": [
+        478,
+        485
+      ],
+      "page_count": 8,
+      "pdf_hours": 2,
+      "status": "verified"
+    }
+  ]
+}

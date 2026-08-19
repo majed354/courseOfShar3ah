@@ -7,6 +7,846 @@
   },
   "equivalencies": {},
   "course_details": {
+    "2002110-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "مدخل إلى علوم القراءات",
+            "summary": "يتناول المقرر القراءات والأحرف السبعة، ونشأة القراءات وتدوينها، وأقسامها وشروط قبولها، والقراءات الشاذة، وعلاقة رسم المصحف بالقراءات، وتراجم موجزة لأشهر القراء.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002110-2.pdf",
+            "specification_code": "2002110-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002114-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "تلاوة وحفظ (1)",
+            "summary": "يدرّب المقرر على حفظ جزء ونصف من القرآن وتلاوة جزأين وربع، مع بيان معاني الكلمات الغريبة، وتحسين الأداء، والتطبيق العملي لأحكام التجويد.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002114-2.pdf",
+            "specification_code": "2002114-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002115-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "القرآن وعلومه",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "التجويد (1)",
+            "summary": "يتناول المقرر أحكام النون الساكنة والتنوين والمدود والتفخيم والترقيق، مع تطبيقها عمليًا للوصول إلى تلاوة صحيحة متقنة.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002115-2.pdf",
+            "specification_code": "2002115-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه القديمة، إصدار 39؛ الرمز غير موجود في الإصدار 47."
+          }
+        ]
+      },
+      "2002116-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "آداب حملة القرآن",
+            "summary": "يتناول المقرر فضل القرآن وآداب حملته، وآداب المتعلم مع نفسه وشيخه وأقرانه، وآداب المعلم والإقراء والإجازة، وأحكام المصحف الفقهية.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002116-2.pdf",
+            "specification_code": "2002116-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002117-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "تاريخ التفسير",
+            "summary": "يعرض المقرر تطور التفسير منذ العصر النبوي، ومراحله ومدارسه وأعلامه، وأبرز مؤلفاته عبر العصور.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002117-2.pdf",
+            "specification_code": "2002117-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002131-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "القرآن وعلومه",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "علوم القرآن (1)",
+            "summary": "يتناول المقرر خصائص القرآن وفضائله ونزوله، والأحرف السبعة والقراءات، وتاريخ النص القرآني في مراحله الأولى.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002131-2.pdf",
+            "specification_code": "2002131-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه القديمة، إصدار 39؛ الرمز غير موجود في الإصدار 47."
+          },
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "علوم القرآن (1)",
+            "summary": "يعرّف بمدخل علوم القرآن والوحي والمكي والمدني والمناسبات بين السور وجمع القرآن الكريم.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/2002131-2.pdf",
+            "specification_code": "2002131-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "2002124-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "تلاوة وحفظ (2)",
+            "summary": "يواصل المقرر تدريب الطالب على الحفظ والتلاوة، مع بيان معاني الغريب وتثبيت حسن الأداء والتطبيق العملي لأحكام التجويد.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002124-2.pdf",
+            "specification_code": "2002124-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002125-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "القرآن وعلومه",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "التجويد (2)",
+            "summary": "يستكمل المقرر أحكام التجويد النظرية وتطبيقاتها العملية؛ للوصول إلى تلاوة صحيحة محكمة ومتقنة.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002125-2.pdf",
+            "specification_code": "2002125-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه القديمة، إصدار 39؛ الرمز غير موجود في الإصدار 47."
+          }
+        ]
+      },
+      "2002204-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "التفسير (1)",
+            "summary": "يتناول المقرر التفسير التحليلي لسورة الفاتحة وبداية سورة البقرة حتى الآية 74، مع أسباب النزول والترجيح والاستنباط والفوائد البلاغية.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002204-2.pdf",
+            "specification_code": "2002204-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002232-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "القرآن وعلومه",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "علوم القرآن (2)",
+            "summary": "يتناول المقرر أسباب النزول، وجمع القرآن وترتيبه، والمكي والمدني، والناسخ والمنسوخ، وأثر هذه المباحث في فهم النص القرآني.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002232-2.pdf",
+            "specification_code": "2002232-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه القديمة، إصدار 39؛ الرمز غير موجود في الإصدار 47."
+          }
+        ]
+      },
+      "2002250-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "القرآن وعلومه",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "أصول التفسير ومناهجه",
+            "summary": "يتناول المقرر مصادر التفسير وأنواعه وكلياته، وأسباب اختلاف المفسرين، وشروط المفسر وآدابه، مع نماذج تطبيقية.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002250-2.pdf",
+            "specification_code": "2002250-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه القديمة، إصدار 39؛ الرمز غير موجود في الإصدار 47."
+          },
+          {
+            "scopes": [
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "أصول التفسير ومناهجه",
+            "summary": "يعرّف بأصول التفسير ومصادره وطرقه وقواعده وأدواته ومناهج المفسرين، مع دراسة أبرز كتب التفسير ومناهج مؤلفيها.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/2002250-2.pdf",
+            "specification_code": "2002250-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002208-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "التفسير (2)",
+            "summary": "يستكمل المقرر التفسير التحليلي لسورة البقرة من الآية 75 إلى 152، مع الترجيح بين الأقوال واستخراج الفوائد والهدايات واللمحات البلاغية.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002208-2.pdf",
+            "specification_code": "2002208-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002212-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "قواعد التفسير",
+            "summary": "يعرّف المقرر بمصطلحات التفسير ومصادره وطرقه، وأسباب اختلاف المفسرين، وأصول التفسير وقواعده ومناهجه.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002212-2.pdf",
+            "specification_code": "2002212-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002215-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "تلاوة وحفظ (3)",
+            "summary": "يواصل المقرر مرحلة ثالثة من الحفظ والتلاوة، مع معاني الكلمات الغريبة وتطبيق أحكام التجويد وتحسين الأداء.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002215-2.pdf",
+            "specification_code": "2002215-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002333-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "القرآن وعلومه",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "علوم القرآن (3)",
+            "summary": "يتناول المقرر المحكم والمتشابه، والعام والخاص، والمطلق والمقيد، والمنطوق والمفهوم، والمتشابه اللفظي في القرآن.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002333-2.pdf",
+            "specification_code": "2002333-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه القديمة، إصدار 39؛ الرمز غير موجود في الإصدار 47."
+          }
+        ]
+      },
+      "2002222-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "مناهج المفسرين",
+            "summary": "يعرض المقرر التفسير بالمأثور والتفسير بالرأي، واتجاهات التفسير ومناهج مؤلفاته ونقدها، والمدرسة العقلية المعاصرة.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002222-2.pdf",
+            "specification_code": "2002222-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002223-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "القرآن وعلومه",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "علوم القرآن (4)",
+            "summary": "يتناول المقرر القصص والأمثال والقسم والجدل في القرآن، وما تتضمنه من أساليب بلاغية وإقناعية وهدايات.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002223-2.pdf",
+            "specification_code": "2002223-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه القديمة، إصدار 39؛ الرمز غير موجود في الإصدار 47."
+          }
+        ]
+      },
+      "2002224-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "تلاوة وحفظ (4)",
+            "summary": "يواصل المقرر مرحلة رابعة من الحفظ والتلاوة، مع بيان الغريب وتحسين الأداء والتطبيق العملي للتجويد.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002224-2.pdf",
+            "specification_code": "2002224-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002306-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "التفسير (3)",
+            "summary": "يتناول المقرر التفسير التحليلي لسورة يوسف كاملة، مع دراسة أحداثها ورواياتها وبلاغتها واستخراج دروسها وعبرها.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002306-2.pdf",
+            "specification_code": "2002306-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002240-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "القرآن وعلومه",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "تفسير آيات الأحكام",
+            "summary": "يتناول المقرر تفسير آيات الأحكام واستنباط الأحكام الشرعية منها، ومنها أحكام الطهارة والصلاة والمساجد وغيرها.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002240-2.pdf",
+            "specification_code": "2002240-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه القديمة، إصدار 39؛ الرمز غير موجود في الإصدار 47."
+          }
+        ]
+      },
+      "2002314-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "تلاوة وحفظ (5)",
+            "summary": "يواصل المقرر مرحلة خامسة من الحفظ والتلاوة، مع معاني الغريب والتطبيق العملي لأحكام التجويد.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002314-2.pdf",
+            "specification_code": "2002314-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002317-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "التفسير (4)",
+            "summary": "يتناول المقرر التفسير التحليلي لسورة النور كاملة، مع أسباب النزول وقضاياها الاجتماعية وهداياتها وفوائدها البلاغية.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002317-2.pdf",
+            "specification_code": "2002317-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002318-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "توجيه القراءات",
+            "summary": "يتناول المقرر نشأة توجيه القراءات ومؤلفاته، وتوجيه الأصول، وأثر اختلاف القراءات في التفسير والفقه والعقيدة واللغة.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002318-2.pdf",
+            "specification_code": "2002318-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002325-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "تلاوة وحفظ (6)",
+            "summary": "يواصل المقرر مرحلة سادسة من الحفظ والتلاوة، مع بيان الغريب وضبط الأداء وتطبيق أحكام التجويد.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002325-2.pdf",
+            "specification_code": "2002325-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002326-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "القرآن وعلومه",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "علوم القرآن (6)",
+            "summary": "يتناول المقرر تدبر القرآن، ورسم المصحف وضبطه، وقواعد الرسم العثماني، وصلتها بالمصاحف الحديثة.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002326-2.pdf",
+            "specification_code": "2002326-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه القديمة، إصدار 39؛ الرمز غير موجود في الإصدار 47."
+          }
+        ]
+      },
+      "2002327-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "التفسير (5)",
+            "summary": "يتناول المقرر التفسير التحليلي لسورة الأحزاب، وما تضمنته من أحكام الأسرة والمجتمع والتوجيهات الأخلاقية والبلاغية.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002327-2.pdf",
+            "specification_code": "2002327-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002454-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "التفسير الموضوعي",
+            "summary": "يعرّف المقرر بالتفسير الموضوعي ونشأته وأنواعه، ويطبقه على سور الكهف ومحمد والحجرات، مع تدريب الطالب على إعداد موضوعات تفسيرية متكاملة.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002454-2.pdf",
+            "specification_code": "2002454-2",
+            "match_status": "verified_with_hours_warning",
+            "match_note": "الرمز والاسم مطابقان في الإصدارين 39 و47، لكن التوصيف يذكر 4 ساعات بينما الخطتان ورمز المقرر تسجلان ساعتين؛ لم تُغيّر ساعات الخطتين.",
+            "specification_hours": 4,
+            "plan_hours": 2
+          }
+        ]
+      },
+      "2002413-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "التفسير (6)",
+            "summary": "يتناول المقرر التفسير التحليلي لسورتي يس والصافات، مع موضوعاتهما العقدية والقصصية والبلاغية ووجوه الإعجاز.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002413-2.pdf",
+            "specification_code": "2002413-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002414-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "تلاوة وحفظ (7)",
+            "summary": "يواصل المقرر مرحلة سابعة من الحفظ والتلاوة، مع معاني الغريب وإتقان الأداء العملي لأحكام التجويد.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002414-2.pdf",
+            "specification_code": "2002414-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002415-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "القرآن وعلومه",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "القراءات القرآنية",
+            "summary": "يعرّف المقرر بمبادئ علم القراءات ومصطلحاته والقراء السبعة، ويدرّب على الأداء العملي للخلافات الأصولية بينهم.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002415-2.pdf",
+            "specification_code": "2002415-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه القديمة، إصدار 39؛ الرمز غير موجود في الإصدار 47."
+          }
+        ]
+      },
+      "2002416-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "التقنيات الحديثة في الدراسات القرآنية",
+            "summary": "يتناول المقرر توظيف التعليم الإلكتروني والتطبيقات وقواعد البيانات والإقراء الرقمي في الدراسات القرآنية، وخدمة ذوي الاحتياجات الخاصة.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002416-2.pdf",
+            "specification_code": "2002416-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002419-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "مناهج البحث",
+            "summary": "يعرّف المقرر بالبحث العلمي ومراحله، واختيار الموضوع والتخطيط له، ومناهج تحقيق المخطوطات وإخراجها علميًا.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002419-2.pdf",
+            "specification_code": "2002419-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002412-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "القرآن وعلومه",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "قاعة بحث قراءات",
+            "summary": "يدرّب المقرر على مصادر القراءات المتواترة والشاذة، وعلوم الرسم والضبط والتوجيه والتراجم، وإعداد بحث متخصص في القراءات.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002412-2.pdf",
+            "specification_code": "2002412-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه القديمة، إصدار 39؛ الرمز غير موجود في الإصدار 47."
+          }
+        ]
+      },
+      "2002420-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "تلاوة وحفظ (8)",
+            "summary": "يستكمل المقرر المرحلة الختامية من الحفظ والتلاوة، مع معاني الغريب وإتقان الأداء والتطبيق العملي للتجويد.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002420-2.pdf",
+            "specification_code": "2002420-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002427-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "القرآن وعلومه",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "التفسير (8)",
+            "summary": "يتناول المقرر التفسير التحليلي لجزء عم، مع الغريب وأسباب النزول والروايات والترجيح والاستنباط والهدايات.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002427-2.pdf",
+            "specification_code": "2002427-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه القديمة، إصدار 39؛ الرمز غير موجود في الإصدار 47."
+          }
+        ]
+      },
+      "2002429-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "الانتصار للقرآن",
+            "summary": "يدرس المقرر الشبهات المثارة حول نزول القرآن وجمعه وحرق المصاحف والنسخ، ويعرّف بمناهج الرد العلمي عليها.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002429-2.pdf",
+            "specification_code": "2002429-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "2002456-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "القرآن وعلومه",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "إعجاز القرآن الكريم",
+            "summary": "يعرّف المقرر بإعجاز القرآن ونشأته وأبرز مؤلفاته، ومراحل التحدي، وأنواع الإعجاز ووجوهه.",
+            "pdf_url": "assets/course-specifications/quran-old-v39/2002456-2.pdf",
+            "specification_code": "2002456-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة القرآن وعلومه في الإصدارين 39 و47."
+          }
+        ]
+      }
+    ,
     "20041303-2": {
       "title": "الثقافة الإسلامية (السنة في الإسلام)",
       "summary": "يتناول المقرر تعريف السنة النبوية وأنواعها ومكانتها، والتعريف بالنبي ﷺ وخصائصه وحقوقه، وثبوت السنة والهدي النبوي في شؤون الحياة، ومحاسن السنة والرد على أبرز الشبهات المثارة حولها.",
@@ -94,7 +934,706 @@
       "specification_code": "2003444-2",
       "match_status": "code_mismatch",
       "match_note": "الاسم والساعات متطابقان، لكن رمز التوصيف 2003444-2 غير موجود في بيانات الخطط ويختلف عن 2003215-2."
-    }
+    },
+      "20041102-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "علوم الحديث (1)",
+            "summary": "يعرّف بأنواع الحديث وأمثلتها وجهود المحدثين في خدمة السنة، والحديث الصحيح والحسن، وأهم المصنفات فيها.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20041102-2.pdf",
+            "specification_code": "20041102-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "20042107-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "علوم الحديث (2)",
+            "summary": "يتناول جهود المحدثين في مقاومة الوضع، وأنواع الحديث وأهم مصنفاته، وقبول الرواية ومراتب الجرح والتعديل وشروط أهلية الراوي للتحمل والأداء.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20042107-2.pdf",
+            "specification_code": "20042107-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "20042203-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "العقيدة (3)",
+            "summary": "يعرّف بالإيمان بالملائكة والكتب والرسل وحكم الإيمان بهم وأدلته وثمراته.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20042203-2.pdf",
+            "specification_code": "20042203-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "20043102-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "العقيدة (4)",
+            "summary": "يعرّف باليوم الآخر وأحواله وحكم الإيمان به وأدلته وثمراته.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20043102-2.pdf",
+            "specification_code": "20043102-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "20043103-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "الأديان",
+            "summary": "يتناول علم دراسة الأديان وفوائده ودعوة التقريب بينها، ويعرّف باليهودية والنصرانية والهندوسية والبوذية والطاوية والكونفوشيوسية وعقائدها وشعائرها وواقعها المعاصر.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20043103-2.pdf",
+            "specification_code": "20043103-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "20043203-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "أحاديث أحكام (2)",
+            "summary": "يعرّف بعلم أحاديث الأحكام، ويدرس أربعين حديثًا لاستنباط الأحكام الشرعية منها.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20043203-2.pdf",
+            "specification_code": "20043203-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "20044103-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "مناهج البحث",
+            "summary": "يعرّف بأسس ومبادئ كتابة البحث العلمي وخصائص أركانه من الباحث والموضوع والمنهج والإجراءات والمصادر، ومنهجية البحث في علوم الشريعة.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044103-2.pdf",
+            "specification_code": "20044103-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "20044107-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "الحديث الموضوعي",
+            "summary": "يعرّف بالحديث الموضوعي وجهود العلماء تجاهه والقراءة السليمة لأحاديث الرسول صلى الله عليه وسلم، ويشرح أحاديث في موضوعات متنوعة.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044107-2.pdf",
+            "specification_code": "20044107-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "20044204-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "المذاهب والتيارات المعاصرة",
+            "summary": "يعرّف بالمذاهب الفكرية وغاياتها ومناخ نشأتها وعناصر فسادها وأضرارها على المسلمين ومخالفتها للعقيدة الإسلامية.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044204-2.pdf",
+            "specification_code": "20044204-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "20044205-2": {
+        "variants": [
+          {
+            "scopes": [
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "قديمة",
+                "version": "39"
+              },
+              {
+                "program": "الدراسات الإسلامية",
+                "plan_type": "جديدة",
+                "version": "47"
+              }
+            ],
+            "title": "الفرق",
+            "summary": "يعرّف بمفهوم الافتراق وأسبابه وعوامل نشأة الفرق وصفات الفرقة الناجية والفرق الأخرى وأصولها العقدية، ونقدها في ضوء عقيدة أهل السنة والجماعة.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044205-2.pdf",
+            "specification_code": "20044205-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية في الإصدارين 39 و47."
+          }
+        ]
+      },
+      "20021105-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "قرآن كريم حفظ وتلاوة (1)",
+            "summary": "يتناول حفظ سور الجزء الثلاثين وتصحيحها وتسميعها، مع تلاوة الجزء الأول من القرآن الكريم وتجويده.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20021105-2.pdf",
+            "specification_code": "20021105-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20021201-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "قرآن كريم حفظ وتلاوة (2)",
+            "summary": "يتناول حفظ سور الجزء التاسع والعشرين وتصحيحها وتسميعها، مع تلاوة الجزء الثاني من القرآن الكريم وتجويده.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20021201-2.pdf",
+            "specification_code": "20021201-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20041204-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "حديث (1)",
+            "summary": "يعرّف بالإمام البخاري ومنهجه في الجامع الصحيح، ويدرس أربعين حديثًا من صحيحه دراسة تحليلية.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20041204-2.pdf",
+            "specification_code": "20041204-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20041206-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "العقيدة (1)",
+            "summary": "يعرّف بتوحيد المعرفة والإثبات وأدلته ومخالفيه قديمًا وحديثًا والرد عليهم.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20041206-2.pdf",
+            "specification_code": "20041206-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20022103-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "قرآن كريم حفظ وتلاوة (3)",
+            "summary": "يتناول حفظ سور الجزء الثامن والعشرين وتصحيحها وتسميعها، مع تلاوة الجزء الثالث من القرآن الكريم وتجويده.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20022103-2.pdf",
+            "specification_code": "20022103-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20042105-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "العقيدة (2)",
+            "summary": "يعرّف بتوحيد الألوهية وفضائله وثمراته وعلاقته بتوحيد الربوبية، وشبهات المخالفين ومظاهر الانحراف فيه والرد عليها.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20042105-2.pdf",
+            "specification_code": "20042105-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20022203-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "قرآن كريم حفظ وتلاوة (4)",
+            "summary": "يتناول حفظ سور الجزء السابع والعشرين وتصحيحها وتسميعها، مع تلاوة الجزء الرابع من القرآن الكريم وتجويده.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20022203-2.pdf",
+            "specification_code": "20022203-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20042201-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "أحاديث أحكام (1)",
+            "summary": "يعرّف بعلم أحاديث الأحكام، ويدرس أربعين حديثًا لاستنباط الأحكام الشرعية منها.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20042201-2.pdf",
+            "specification_code": "20042201-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20042205-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "حديث (2)",
+            "summary": "يعرّف بالإمام مسلم ومنهجه في الجامع الصحيح، ويدرس أربعين حديثًا من صحيحه دراسة تحليلية.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20042205-2.pdf",
+            "specification_code": "20042205-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20042206-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "الدعوة والحسبة",
+            "summary": "يعرّف بالدعوة ومنهجها ووسائلها وأساليبها وأخلاق الدعاة، وبنظام الحسبة وأخلاق المحتسب.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20042206-2.pdf",
+            "specification_code": "20042206-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20043107-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "حديث (3)",
+            "summary": "يعرّف بالإمام أبي داود ومنهجه في كتاب السنن، ويدرس أربعين حديثًا من سننه دراسة تحليلية.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20043107-2.pdf",
+            "specification_code": "20043107-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20023203-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "قرآن كريم حفظ وتلاوة (6)",
+            "summary": "يتناول حفظ سور الجزء الخامس والعشرين وتصحيحها وتسميعها، مع تلاوة الجزء السادس من القرآن الكريم وتجويده.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20023203-2.pdf",
+            "specification_code": "20023203-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20043201-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "العقيدة (5)",
+            "summary": "يعرّف بالإيمان بالقضاء والقدر ويقرر مسائله على مذهب أهل السنة والجماعة.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20043201-2.pdf",
+            "specification_code": "20043201-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20043206-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "تخريج الحديث",
+            "summary": "يتناول علم تخريج الحديث وكتب السنة ومراحل تدوينها وأبرز مدوناتها، ومعنى التخريج وطرقه وصلته بدراسة الأسانيد وقواعد صياغته.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20043206-2.pdf",
+            "specification_code": "20043206-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20024103-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "قرآن كريم حفظ وتلاوة (7)",
+            "summary": "يتناول حفظ سور الجزء الرابع والعشرين وتصحيحها وتسميعها، مع تلاوة الجزء السابع من القرآن الكريم وتجويده.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20024103-2.pdf",
+            "specification_code": "20024103-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20044102-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "العقيدة (6)",
+            "summary": "يعرّف بعقيدة أهل السنة والجماعة في المسائل التي خالفت فيها الفرق الحق الذي دل عليه الكتاب والسنة.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044102-2.pdf",
+            "specification_code": "20044102-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20044104-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "دراسة أسانيد",
+            "summary": "يعرّف بمراحل دراسة الإسناد واستثمار المتابعات والشواهد والحكم على الحديث وأنماط الكتب المؤلفة في تخريجه.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044104-2.pdf",
+            "specification_code": "20044104-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20024203-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "قرآن كريم حفظ وتلاوة (8)",
+            "summary": "يتناول حفظ سور الجزء الثالث والعشرين وتصحيحها وتسميعها، مع تلاوة الجزء الثامن من القرآن الكريم وتجويده.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20024203-2.pdf",
+            "specification_code": "20024203-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20044207-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "السيرة النبوية",
+            "summary": "يعرّف بمراحل السيرة النبوية وطبيعة الصراع بين الحق والباطل وما آل إليه أمر الدعوة وأعدائها من الانتصار والاندحار.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044207-2.pdf",
+            "specification_code": "20044207-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20044208-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            "title": "أحاديث أحكام (3)",
+            "summary": "يعرّف بعلم أحاديث الأحكام، ويدرس أربعين حديثًا لاستنباط الأحكام الشرعية منها.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044208-2.pdf",
+            "specification_code": "20044208-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية القديمة، إصدار 39؛ لم يطابقا معًا في الإصدار 47."
+          }
+        ]
+      },
+      "20021202-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            "title": "التجويد",
+            "summary": "يتناول أحكام تجويد القرآن الكريم بالتفصيل.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20021202-2.pdf",
+            "specification_code": "20021202-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية الجديدة، إصدار 47؛ لم يطابقا معًا في الإصدار 39."
+          }
+        ]
+      },
+      "20021203-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            "title": "التفسير التحليلي (1)",
+            "summary": "يتناول تفسير الاستعاذة والبسملة والفاتحة وسور جزء عم، وما تقرره من مسائل الألوهية والربوبية والأسماء والصفات واليوم الآخر والنبوة.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20021203-2.pdf",
+            "specification_code": "20021203-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية الجديدة، إصدار 47؛ لم يطابقا معًا في الإصدار 39."
+          }
+        ]
+      },
+      "20013105-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            "title": "الفقه المقارن",
+            "summary": "يعرّف بالفقه المقارن والفرق بينه وبين الفقه المذهبي وأسباب اختلاف الفقهاء وتاريخ المذاهب، مع دراسة مسائل فقهية مختلف فيها.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20013105-2.pdf",
+            "specification_code": "20013105-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية الجديدة، إصدار 47؛ لم يطابقا معًا في الإصدار 39."
+          }
+        ]
+      },
+      "20013106-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            "title": "أصول الفقه (2)",
+            "summary": "يتناول دلالات الألفاظ على المعاني من أمر ونهي وخاص وعام ومطلق ومقيد ومنطوق ومفهوم، والمسائل المتعلقة بها.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20013106-2.pdf",
+            "specification_code": "20013106-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية الجديدة، إصدار 47؛ لم يطابقا معًا في الإصدار 39."
+          }
+        ]
+      },
+      "20013108-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            "title": "علم المواريث (1)",
+            "summary": "يعرّف بمبادئ علم المواريث والوارثين من الرجال والنساء وأنصبتهم وشروط الإرث وموانعه والتعصيب والحجب.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20013108-2.pdf",
+            "specification_code": "20013108-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية الجديدة، إصدار 47؛ لم يطابقا معًا في الإصدار 39."
+          }
+        ]
+      },
+      "20013202-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            "title": "القواعد الفقهية",
+            "summary": "يتناول القواعد الفقهية الكبرى والكلية وصلتها بالفقه وأصوله ونشأتها وتطورها، وتطبيقها على الفروع والقضايا المستجدة.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20013202-2.pdf",
+            "specification_code": "20013202-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية الجديدة، إصدار 47؛ لم يطابقا معًا في الإصدار 39."
+          }
+        ]
+      },
+      "20014206-2": {
+        "variants": [
+          {
+            "scope": {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            "title": "علم المواريث (2)",
+            "summary": "يتناول حساب المواريث والتأصيل والعول والتصحيح وقسمة التركات والرد.",
+            "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20014206-2.pdf",
+            "specification_code": "20014206-2",
+            "match_status": "verified",
+            "match_note": "رمز واسم التوصيف مطابقان لخطة الدراسات الإسلامية الجديدة، إصدار 47؛ لم يطابقا معًا في الإصدار 39."
+          }
+        ]
+      }
   },
   "programs": [
     {

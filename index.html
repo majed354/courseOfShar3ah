@@ -395,6 +395,13 @@
             color: var(--primary-dark);
         }
 
+        .result-course-actions {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            gap: 0.5rem;
+        }
+
         .course-pdf-btn {
             display: inline-flex;
             align-items: center;
@@ -981,6 +988,24 @@
         .course-detail-actions .course-pdf-btn {
             padding: 0.75rem 1.15rem;
             font-size: 0.9rem;
+        }
+
+        .course-detail-scope {
+            display: inline-flex;
+            margin-bottom: 0.65rem;
+            padding: 0.25rem 0.65rem;
+            border-radius: 999px;
+            color: #1E3A5F;
+            background: #EFF6FF;
+            border: 1px solid #BFDBFE;
+            font-size: 0.78rem;
+            font-weight: 700;
+        }
+
+        .course-detail-variant + .course-detail-variant {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-light);
         }
 
         .course-detail-empty {
@@ -1617,6 +1642,10 @@
                 flex-direction: column;
             }
 
+            .result-course-actions {
+                width: 100%;
+            }
+
             .result-course-header .course-pdf-btn {
                 width: 100%;
             }
@@ -1894,11 +1923,101 @@
             return normalizeText(code).replace(/\s+/g, '').toUpperCase();
         }
 
-        function getCourseDetails(codeRaw) {
+        function getCourseDetailVariants(codeRaw) {
             const codeKey = normalizeCourseCode(codeRaw);
-            if (!codeKey || !programsData || !programsData.course_details) return null;
-            const details = programsData.course_details[codeKey];
-            return details && typeof details === 'object' ? details : null;
+            if (!codeKey || !programsData || !programsData.course_details) return [];
+            const entry = programsData.course_details[codeKey];
+            if (!entry || typeof entry !== 'object' || Array.isArray(entry)) return [];
+            if (Array.isArray(entry.variants)) {
+                return entry.variants.filter(variant => variant && typeof variant === 'object' && !Array.isArray(variant));
+            }
+            return [entry];
+        }
+
+        function getCourseDetailScopes(details) {
+            if (!details || typeof details !== 'object') return [];
+            if (Array.isArray(details.scopes)) {
+                return details.scopes.filter(scope => scope && typeof scope === 'object' && !Array.isArray(scope));
+            }
+            const scope = details.scope;
+            return scope && typeof scope === 'object' && !Array.isArray(scope) ? [scope] : [];
+        }
+
+        function getCourseDetailScope(details) {
+            return getCourseDetailScopes(details)[0] || {};
+        }
+
+        function isCourseDetailScopePopulated(scope) {
+            return Boolean(
+                normalizeText(scope && scope.program) ||
+                normalizeText(scope && scope.degree) ||
+                normalizeText(scope && scope.plan_type) ||
+                normalizeText(scope && scope.version)
+            );
+        }
+
+        function courseDetailHasScope(details) {
+            return getCourseDetailScopes(details).some(isCourseDetailScopePopulated);
+        }
+
+        function courseDetailMatchesContext(details, context = {}) {
+            if (!courseDetailHasScope(details)) return true;
+            return getCourseDetailScopes(details).some(scope => ruleMatchesContext(scope, context));
+        }
+
+        function getCourseDetails(codeRaw, context = null) {
+            const variants = getCourseDetailVariants(codeRaw);
+            if (!variants.length) return null;
+
+            if (context) {
+                const scopedMatch = variants.find(details => courseDetailHasScope(details) && courseDetailMatchesContext(details, context));
+                if (scopedMatch) return scopedMatch;
+            }
+
+            return variants.find(details => !courseDetailHasScope(details)) || null;
+        }
+
+        function getCourseDetailContextsForSearch(codeRaw, references) {
+            const contexts = [];
+            const seen = new Set();
+
+            getCourseDetailVariants(codeRaw).forEach(details => {
+                const scoped = courseDetailHasScope(details);
+                const matchedScopes = scoped
+                    ? getCourseDetailScopes(details).filter(scope => (references || []).some(ref => ruleMatchesContext(scope, ref)))
+                    : [];
+                if (scoped && !matchedScopes.length) return;
+
+                const normalizedScopes = matchedScopes.map(scope => normalizeContext(scope));
+                const signature = `${sanitizeResourceUrl(details.pdf_url)}||${JSON.stringify(normalizedScopes)}`;
+                if (seen.has(signature)) return;
+                seen.add(signature);
+
+                let downloadLabel = 'تحميل التوصيف';
+                const matchedPrograms = Array.from(new Set(
+                    matchedScopes.map(scope => normalizeText(scope.program)).filter(Boolean)
+                ));
+                const programLabel = matchedPrograms.length === 1 ? matchedPrograms[0] : '';
+                if (matchedScopes.length === 1) {
+                    const planType = normalizeText(matchedScopes[0].plan_type);
+                    const planTypeLabel = planType && !planType.startsWith('ال') ? `ال${planType}` : planType;
+                    const version = normalizeText(matchedScopes[0].version);
+                    downloadLabel = `تحميل توصيف ${programLabel ? `${programLabel} — ` : ''}الخطة ${planTypeLabel || ''}${version ? ` (${version})` : ''}`.replace(/\s+/g, ' ').trim();
+                } else if (matchedScopes.length > 1) {
+                    const versions = Array.from(new Set(matchedScopes.map(scope => normalizeText(scope.version)).filter(Boolean)));
+                    downloadLabel = versions.length
+                        ? `تحميل توصيف${programLabel ? ` ${programLabel}` : ''} (${versions.join(' و')})`
+                        : `تحميل التوصيف${programLabel ? ` — ${programLabel}` : ' المشترك'}`;
+                }
+
+                contexts.push({
+                    details,
+                    context_label: matchedScopes.map(scope => buildEquivalencyContextLabel(scope)).join('؛ '),
+                    download_label: downloadLabel
+                });
+            });
+
+            return contexts;
         }
 
         function sanitizeResourceUrl(value) {
@@ -1913,6 +2032,9 @@
             if (status === 'verified') {
                 return { cssClass: 'verified', label: 'رمز التوصيف مطابق' };
             }
+            if (status === 'verified_with_hours_warning') {
+                return { cssClass: 'warning', label: 'الرمز مطابق مع تعارض في الساعات' };
+            }
             if (status === 'code_match_name_diff') {
                 return { cssClass: 'warning', label: 'الرمز مطابق والاسم مختلف' };
             }
@@ -1925,7 +2047,7 @@
             return { cssClass: 'warning', label: 'مطابقة التوصيف تحتاج مراجعة' };
         }
 
-        function renderCoursePdfButton(details) {
+        function renderCoursePdfButton(details, label = 'تحميل التوصيف') {
             const url = sanitizeResourceUrl(details && details.pdf_url);
             if (!url) return '';
 
@@ -1936,7 +2058,7 @@
                     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm1 7V3.5L19.5 9H15zM12 12v4.17l1.59-1.58L15 16l-4 4-4-4 1.41-1.41L10 16.17V12h2z"/>
                     </svg>
-                    تحميل التوصيف
+                    ${escapeHtml(label)}
                 </a>
             `;
         }
@@ -2231,7 +2353,12 @@
 
             if (normalizedContext.program) parts.push(normalizedContext.program);
             if (normalizedContext.degree) parts.push(normalizedContext.degree);
-            if (normalizedContext.plan_type) parts.push(`الخطة ${normalizedContext.plan_type}`);
+            if (normalizedContext.plan_type) {
+                const planTypeLabel = normalizedContext.plan_type.startsWith('ال')
+                    ? normalizedContext.plan_type
+                    : `ال${normalizedContext.plan_type}`;
+                parts.push(`الخطة ${planTypeLabel}`);
+            }
             if (normalizedContext.version) parts.push(`إصدار ${normalizedContext.version}`);
 
             return parts.join(' | ') || 'جميع البرامج والخطط';
@@ -3087,6 +3214,7 @@
                 });
 
                 const equivalentContexts = getEquivalentContextsForSearch(item.code, uniqueRefs);
+                const courseDetailContexts = getCourseDetailContextsForSearch(item.code, uniqueRefs);
 
                 return {
                     ...item,
@@ -3094,7 +3222,8 @@
                     programs_count: programGroups.length,
                     occurrence_refs: uniqueRefs,
                     equivalent_contexts: equivalentContexts,
-                    course_details: getCourseDetails(item.code),
+                    course_detail_contexts: courseDetailContexts,
+                    course_details: courseDetailContexts.length ? courseDetailContexts[0].details : null,
                     requirement_summary: reqSet.size === 1 ? Array.from(reqSet)[0] : 'يختلف حسب البرنامج',
                     category_summary: catSet.size === 0 ? null : (catSet.size === 1 ? Array.from(catSet)[0] : 'يختلف حسب البرنامج')
                 };
@@ -3145,9 +3274,14 @@
                     `;
                 }).join('');
                 const hasEquivalency = Boolean(equivalentContextsHtml);
-                const details = result.course_details;
-                const pdfButtonHtml = renderCoursePdfButton(details);
-                const specificationChipHtml = renderSpecificationStatusChip(details);
+                const detailContexts = Array.isArray(result.course_detail_contexts) ? result.course_detail_contexts : [];
+                const details = detailContexts.length ? detailContexts[0].details : result.course_details;
+                const pdfButtonHtml = detailContexts.map(contextInfo =>
+                    renderCoursePdfButton(contextInfo.details, contextInfo.download_label)
+                ).join('');
+                const specificationChipHtml = detailContexts.length > 1
+                    ? `<span class="specification-status-chip verified">${detailContexts.length} توصيفات متاحة</span>`
+                    : renderSpecificationStatusChip(details);
                 const equivalencyChipHtml = hasEquivalency
                     ? '<span class="equivalency-status-chip has-equivalency">توجد معادلة مسجلة</span>'
                     : '<span class="equivalency-status-chip no-equivalency">لا توجد معادلة مسجلة</span>';
@@ -3156,7 +3290,7 @@
                     <div class="result-item course-details-target" tabindex="0" aria-label="عرض تفاصيل ${escapeHtml(result.name)}" onclick="openCourseDetailsFromSearch(${resultIndex})" onkeydown="handleCourseDetailsKeydown(event, ${resultIndex})">
                         <div class="result-course-header">
                             <div class="result-course-name">${escapeHtml(result.name)}</div>
-                            ${pdfButtonHtml}
+                            ${pdfButtonHtml ? `<div class="result-course-actions">${pdfButtonHtml}</div>` : ''}
                         </div>
                         <div class="result-meta">
                             <span class="result-tag"><code class="course-code">${escapeHtml(result.code)}</code></span>
@@ -3246,12 +3380,72 @@
             `;
         }
 
+        function renderCourseSummaryContexts(detailContexts) {
+            if (!detailContexts.length) {
+                return `
+                    <div class="course-detail-section">
+                        <h4 class="course-detail-heading">نبذة مختصرة عن محتوى المقرر</h4>
+                        <p class="course-detail-summary">لا تتوفر نبذة موثقة لهذا المقرر في هذه الخطة حتى الآن.</p>
+                    </div>
+                `;
+            }
+
+            return detailContexts.map(contextInfo => {
+                const details = contextInfo.details || {};
+                const summary = normalizeText(details.summary);
+                return `
+                    <div class="course-detail-section course-detail-variant">
+                        <h4 class="course-detail-heading">نبذة مختصرة عن محتوى المقرر</h4>
+                        ${contextInfo.context_label ? `<span class="course-detail-scope">نطاق التوصيف: ${escapeHtml(contextInfo.context_label)}</span>` : ''}
+                        <p class="course-detail-summary">${summary ? escapeHtml(summary) : 'لا تتوفر نبذة موثقة لهذا المقرر حتى الآن.'}</p>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function renderCourseSpecificationContexts(detailContexts) {
+            if (!detailContexts.length) {
+                return `
+                    <div class="course-detail-section">
+                        <h4 class="course-detail-heading">التوصيف الكامل</h4>
+                        <p class="course-detail-empty">لا يتوفر حاليًا ملف PDF مطابق لهذا المقرر في هذه الخطة.</p>
+                    </div>
+                `;
+            }
+
+            return detailContexts.map(contextInfo => {
+                const details = contextInfo.details || {};
+                const statusInfo = getSpecificationStatusInfo(details);
+                const safePdfUrl = sanitizeResourceUrl(details.pdf_url);
+                return `
+                    <div class="course-detail-status-panel ${statusInfo.cssClass} course-detail-variant">
+                        ${contextInfo.context_label ? `<span class="course-detail-scope">نطاق التوصيف: ${escapeHtml(contextInfo.context_label)}</span>` : ''}
+                        <span class="course-detail-status-title">${escapeHtml(statusInfo.label)}</span>
+                        <div>
+                            رمز التوصيف:
+                            <bdi dir="ltr"><code class="course-code">${escapeHtml(details.specification_code || 'غير مذكور')}</code></bdi>
+                        </div>
+                        ${details.match_note ? `<div style="margin-top:0.35rem;line-height:1.7;">${escapeHtml(details.match_note)}</div>` : ''}
+                        ${safePdfUrl ? `<div class="course-detail-actions">${renderCoursePdfButton(details, contextInfo.download_label)}</div>` : ''}
+                    </div>
+                `;
+            }).join('');
+        }
+
         function openCourseDetails(result) {
             if (!result) return;
 
-            const details = result.course_details || getCourseDetails(result.code);
-            const statusInfo = details ? getSpecificationStatusInfo(details) : null;
-            const safePdfUrl = sanitizeResourceUrl(details && details.pdf_url);
+            let detailContexts = Array.isArray(result.course_detail_contexts) ? result.course_detail_contexts : [];
+            if (!detailContexts.length && result.course_details) {
+                detailContexts = [{
+                    details: result.course_details,
+                    context_label: courseDetailHasScope(result.course_details)
+                        ? getCourseDetailScopes(result.course_details).map(scope => buildEquivalencyContextLabel(scope)).join('؛ ')
+                        : '',
+                    download_label: 'تحميل التوصيف'
+                }];
+            }
+            const primaryDetails = detailContexts.length ? detailContexts[0].details : null;
             const equivalentContexts = Array.isArray(result.equivalent_contexts) ? result.equivalent_contexts : [];
             const refs = Array.isArray(result.occurrence_refs) ? result.occurrence_refs : [];
             const programsHtml = refs.map(ref => {
@@ -3266,25 +3460,8 @@
                 `;
             }).join('');
 
-            const specificationHtml = details ? `
-                <div class="course-detail-status-panel ${statusInfo.cssClass}">
-                    <span class="course-detail-status-title">${escapeHtml(statusInfo.label)}</span>
-                    <div>
-                        رمز التوصيف:
-                        <bdi dir="ltr"><code class="course-code">${escapeHtml(details.specification_code || 'غير مذكور')}</code></bdi>
-                    </div>
-                    ${details.match_note ? `<div style="margin-top:0.35rem;line-height:1.7;">${escapeHtml(details.match_note)}</div>` : ''}
-                </div>
-                ${safePdfUrl ? `<div class="course-detail-actions">${renderCoursePdfButton(details)}</div>` : ''}
-            ` : `
-                <div class="course-detail-section">
-                    <h4 class="course-detail-heading">التوصيف الكامل</h4>
-                    <p class="course-detail-empty">لا يتوفر حاليًا ملف PDF مطابق لرمز هذا المقرر.</p>
-                </div>
-            `;
-
-            const title = normalizeText(result.name || (details && details.title) || result.code || 'تفاصيل المقرر');
-            const summary = normalizeText(details && details.summary);
+            const specificationHtml = renderCourseSpecificationContexts(detailContexts);
+            const title = normalizeText(result.name || (primaryDetails && primaryDetails.title) || result.code || 'تفاصيل المقرر');
             const courseDetailsTitle = document.getElementById('courseDetailsTitle');
             const courseDetailsBody = document.getElementById('courseDetailsBody');
 
@@ -3295,12 +3472,10 @@
                     ${result.hours !== undefined ? `<span class="result-tag">${escapeHtml(result.hours)} ساعة</span>` : ''}
                     ${result.type ? `<span class="result-tag">${escapeHtml(result.type)}</span>` : ''}
                     ${result.requirement_summary ? `<span class="result-tag">${escapeHtml(result.requirement_summary)}</span>` : ''}
-                    ${details ? renderSpecificationStatusChip(details) : ''}
+                    ${detailContexts.length === 1 ? renderSpecificationStatusChip(primaryDetails) : ''}
+                    ${detailContexts.length > 1 ? `<span class="specification-status-chip verified">${detailContexts.length} توصيفات متاحة</span>` : ''}
                 </div>
-                <div class="course-detail-section">
-                    <h4 class="course-detail-heading">نبذة مختصرة عن محتوى المقرر</h4>
-                    <p class="course-detail-summary">${summary ? escapeHtml(summary) : 'لا تتوفر نبذة موثقة لهذا المقرر حتى الآن.'}</p>
-                </div>
+                ${renderCourseSummaryContexts(detailContexts)}
                 ${renderCourseDetailEquivalencies(equivalentContexts)}
                 ${specificationHtml}
                 ${programsHtml ? `
@@ -3329,6 +3504,7 @@
             const course = program.courses[courseIndex];
             const context = buildProgramContext(program);
             const equivalentOptions = getEquivalentOptionsForContext(course.code, context);
+            const courseDetailContexts = getCourseDetailContextsForSearch(course.code, [context]);
             const equivalentContexts = equivalentOptions.length ? [{
                 context_label: buildEquivalencyContextLabel(context),
                 options: equivalentOptions
@@ -3341,7 +3517,8 @@
                 type: course.type,
                 requirement_summary: requirementFromCategory(course.category),
                 category_summary: course.category || null,
-                course_details: getCourseDetails(course.code),
+                course_detail_contexts: courseDetailContexts,
+                course_details: courseDetailContexts.length ? courseDetailContexts[0].details : null,
                 equivalent_contexts: equivalentContexts,
                 occurrence_refs: [{
                     program: normalizeText(program.name),
