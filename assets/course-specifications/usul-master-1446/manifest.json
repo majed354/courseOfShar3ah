@@ -1,0 +1,434 @@
+{
+  "bundle": "usul-master-1446",
+  "label": "ماجستير أصول الفقه 1446هـ",
+  "publication_policy": "Only exact course-code and conservative course-name matches are linked.",
+  "classification_label": "absent",
+  "rtl_visual": "pass",
+  "records": [
+    {
+      "type": "course-specification",
+      "title": "الأدلة الشرعية (1)",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في أصول الفقه 1446/أدلة الأحكام الشرعية (1) ماجستير 2024.pdf",
+      "file": "2001701-3.pdf",
+      "sha256": "4535abce7a21817b98aec55449347816ec26aaec86c9b9485964850cd3b0bdeb",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "3-2001701",
+      "specification_code": "2001701-3",
+      "declared_hours": 3,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "يحتوي هذا المقرر على ثلاثة معايير: المعيار الأول : القرآن الكريم المعيار الثاني : السنة النبوية المعيار الثالث : الإجماع",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "الأدلة الشرعية (2)",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في أصول الفقه 1446/أدلة الأحكام الشرعية (2) ماجستير 2024.pdf",
+      "file": "2001704-2.pdf",
+      "sha256": "0ceda73b1ff8495bf567e22bf2113d172063244eb936553613bb4bfb131672f1",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2- 2001704",
+      "specification_code": "2001704-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "بيان أهمية علم أصول الفقه ، ومعرفة مناهج في التأليف فيه ، والكتب المؤلفة على طريقة المتكلمين وعلى طريقة الفقهاء وعلى الطريقة الجامعة ، وأبرز الآراء تقويم التقسيم الأصولي",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "أصول المناظرة والجدل",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في أصول الفقه 1446/أصول المناظرة والجدل 2024.pdf",
+      "file": "2001708-2.pdf",
+      "sha256": "b5ddad7d2edff125543ebede09fe676afec6a93e067b8bdb8f38cc3231f8b0d8",
+      "page_count": 10,
+      "qpdf_check": "passed",
+      "source_code": "2ـ 2001708",
+      "specification_code": "2001708-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "يتناول هذا المقرر معيارا أساسيا هو: المبادئ العامة لأصول الجدل والمناظرة ،أركان الجدل والمناظرة، أنواع الحجج، نماذج تطبيقية لأهم المناظرات بين الأئمة",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "القياس",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في أصول الفقه 1446/القياس ع 2024.pdf",
+      "file": "2001715-3.pdf",
+      "sha256": "6986becba6c09ed4b1a89755dd081fbf0fae824028c416aae9afa9e4d9178850",
+      "page_count": 9,
+      "qpdf_check": "passed",
+      "source_code": "3- 2001715",
+      "specification_code": "2001715-3",
+      "declared_hours": 3,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "يتناول هذا المقرر معيارا أساسيا هو: بيان حد القياس ، وإثبات القياس ، وفيما يجري فيه القياس ، ومسالك العلة ، وأركان القياس وشروطها ، ومعارضة القياس للنصوص والأخبار ، وقوادح القياس",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "مصادر ومناهج أصولية",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في أصول الفقه 1446/المناهج والمصادر الأصولية ماجستير 2024.pdf",
+      "file": "2001700-2.pdf",
+      "sha256": "85ce30ae1b9b7341575ee27ebf69af5510420b32239a619c3f869992c73967fc",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2-2001700",
+      "specification_code": "2001700-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "بيان أهمية علم أصول الفقه ، ومعرفة مناهج في التأليف فيه ، والكتب المؤلفة على طريقة المتكلمين وعلى طريقة الفقهاء وعلى الطريقة الجامعة ، وأبرز الآراء تقويم التقسيم الأصولي",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "بناء الأصول على الأصول",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في أصول الفقه 1446/بناء الأصول 2024.pdf",
+      "file": "2001705-3.pdf",
+      "sha256": "fc7540d8da07ecfaf126b3cd7484f295e780c1967ab29eb02fc7c8a8fa654a00",
+      "page_count": 10,
+      "qpdf_check": "passed",
+      "source_code": "3- 2001705",
+      "specification_code": "2001705-3",
+      "declared_hours": 3,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "يتعرف الطالب على ماهية هذا العلم \" بناء الأصول على الأصول\" وبيان أهميته ،والفرق بينه وبين تخريج الفروع على الأصول ، وبيان أوجه الربط بين أمهات المسائل الأصولية والعلاقات بينها",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "تطبيقات أصولية",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في أصول الفقه 1446/تطبيقات أصولية ماجستير 2024.pdf",
+      "file": "2001707-2.pdf",
+      "sha256": "4e7fd2c581253b32be498611059f3f8128da6f971a929c77bf50e546bacad649",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2-2001707",
+      "specification_code": "2001707-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "يتناول هذا المقرر معيارا أساسيا هو: اختيار نصوص من الكتاب والسنة في موضوعات فقهية مختلفة؛ لتطبيق قواعد أصولية في استنباط الأحكام من هذه النصوص، ويتم الاستعانة في ذلك بكتب تخريج الفروع على الأصول وكتب تفسير آيات الأحكام وشروح أحاديث الأحكام وغيرها من الكتب المساعدة في ذلك",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "تنزيل الأحكام على الوقائع القضائية",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في أصول الفقه 1446/تنزيل الأحكام 2024.pdf",
+      "file": "2001712-2.pdf",
+      "sha256": "c282bca768f37c18b55d57da397e12bdd66da791876d40e66cc473d33e183a66",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "2ـ 2001712",
+      "specification_code": "2001712-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "يحتوي هذا المقرر على تعريف التطبيقات الأصولية القضائية والفرق بينها وبين الدراسة النظرية وفائدة الدراسة التطبيقية ، ودراسة وتحليل جملة من المسائل الأصولية من خلال تلك الدراسة التطبيقية",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "دراسة تحليلية في مصادر أصولية",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في أصول الفقه 1446/دراسة تحليلية في المصادر الأصولية ماجستير 2024.pdf",
+      "file": "2001711-4.pdf",
+      "sha256": "8e97362e37791243fab3df329555f3433d5eeab51f5777978215b433417764a2",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "4- 2001711",
+      "specification_code": "2001711-4",
+      "declared_hours": 4,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "يحتوي هذا المقرر على تعريف الدراسة التحليلية والفرق بينها وبين الدراسة النظرية وفائدة الدراسة التحليلية، ودراسة وتحليل جملة من المسائل الأصولية من خلال تلك الدراسة النصية",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "دلالات الألفاظ",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في أصول الفقه 1446/دلالات 2024.pdf",
+      "file": "2001709-3.pdf",
+      "sha256": "2dc5daf0cf1bd39f88b456950865e63bbd7fbfe3124cfd0c977b67a674829f4e",
+      "page_count": 9,
+      "qpdf_check": "passed",
+      "source_code": "3- 2001709",
+      "specification_code": "2001709-3",
+      "declared_hours": 3,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "يتناول هذا المقرر معيارا أساسيا هو: بيان المنهج العلمي الأصولي المعين على فهم النصوص الشرعية وتفسيرها التفسير الصحيح، من خلال مباحث قواعد دلالات الألفاظ بأنواعها ومراتبها المختلفة، وبيان المناهج المختلفة (الجمهور والحنفية) في تفسير النصوص",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "قواعد التعارض والترجيح",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في أصول الفقه 1446/قواعد دفع التعارض ماجستير 2024.pdf",
+      "file": "2001710-4.pdf",
+      "sha256": "b8cf7b7392105d3c663613e33049680cc6e92bba6d26e0b6243a221aae8988ed",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "4-2001710",
+      "specification_code": "2001710-4",
+      "declared_hours": 4,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "يحتوي هذا المقرر على معيارين: المعيار الأول : دفع التعارض المعيار الثاني : الترجيح",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "مقاصد الشريعة",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في أصول الفقه 1446/مقاصد 2024.pdf",
+      "file": "2001702-2.pdf",
+      "sha256": "ac3813c8b2b346ed315b9392be7f4e80ed11071658889faba9051d3406c4f03f",
+      "page_count": 9,
+      "qpdf_check": "passed",
+      "source_code": "2ـ 2001702",
+      "specification_code": "2001702-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "يتناول هذا المقرر معيارا أساسيا هو: تعريف الطالب بمقاصد الشارع ومقاصد المكلف، ومراتب المقاصد، وكيفية الاستفادة من المقاصد في التطبيقات الفقهية",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "مناهج البحث",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في أصول الفقه 1446/مناهج البحث ماجستير 2024.pdf",
+      "file": "2001706-2.pdf",
+      "sha256": "3aaf4fed2c20e286d3b1352c622d940fc677c74d5dab3593e65b7b7f50ff84fe",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001706-2",
+      "specification_code": "2001706-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "يتناول هذا المقرر معيارا أساسيا هو : كيفية كتابة البحث العلمي بطريقة صحيحة",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "program-specification",
+      "title": "نموذج توصيف برنامج ماجستير أصول الفقه 2024",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في أصول الفقه 1446/نموذج توصيف برنامج ماجستير أصول الفقه 2024.pdf",
+      "file": "program-specification.pdf",
+      "sha256": "89b330b92d361b98bbe507a44f6f1d9e5a39b226faba59a0ba3b106f58b653d9",
+      "page_count": 15,
+      "qpdf_check": "passed",
+      "source_code": "",
+      "specification_code": "",
+      "declared_hours": null,
+      "approval": {
+        "authority": "مجلس قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24 / 05 / 1446هـ",
+        "status": "complete"
+      },
+      "match_status": "program-specification",
+      "scopes": [],
+      "summary": "",
+      "classification_label": "absent",
+      "rtl_visual": "pass",
+      "reference_only": true,
+      "publication_note": "توصيف برنامج مرجعي؛ لم تُستخدم رموزه وحدها لربط توصيفات المقررات."
+    }
+  ],
+  "withheld_program_specifications": [],
+  "summary": {
+    "total_files": 14,
+    "course_specifications": 13,
+    "program_specifications": 1,
+    "strict_linked": 13,
+    "quarantined": 0,
+    "complete_approvals": 13,
+    "withheld_program_specifications": 0
+  }
+}

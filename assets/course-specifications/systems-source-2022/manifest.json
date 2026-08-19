@@ -1,0 +1,3459 @@
+{
+  "schema": "systems-publication-package-manifest/v1",
+  "generated_at_utc": "2026-08-19T04:42:39.372740+00:00",
+  "matching_policy": {
+    "attach_rule": "equality of the complete course code and course name after the approved conservative normalization",
+    "name_normalization": "Unicode NFC, bidi-control removal, whitespace collapse, plus conservative hamza-seat normalization (أ/إ/آ → ا) only when no other name difference remains",
+    "code_normalization": "canonical LTR course-code presentation only",
+    "not_accepted": [
+      "code-only when names still differ after approved normalization",
+      "name-only",
+      "near-name",
+      "semantic equivalence"
+    ],
+    "conservative_hamza_normalization_cases": [
+      {
+        "specification_code": "2003114-2",
+        "source_title": "اساسيات البحث القانوني",
+        "plan_title": "أساسيات البحث القانوني",
+        "scope": {
+          "program": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      },
+      {
+        "specification_code": "2003352-2",
+        "source_title": "وسائل الاثبات",
+        "plan_title": "وسائل الإثبات",
+        "scope": {
+          "program": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      }
+    ]
+  },
+  "source_selection": {
+    "standalone_specs_copied_full": 33,
+    "combined_pdf_published": false,
+    "combined_pdf_use": "only source pages 89–95 for نظام حماية البيئة",
+    "history_of_law_report": {
+      "title": "تاريخ القانون",
+      "combined_source_pages": "47–55",
+      "published": false,
+      "reason": "تقرير مقرر وليس توصيف مقرر؛ لا يدخل في حزمة توصيفات النشر."
+    }
+  },
+  "counts": {
+    "pdf_files": 34,
+    "standalone_byte_identical_copies": 33,
+    "extracted_course_pdfs": 1,
+    "complete_approval_tables": 34,
+    "strict_course_details_records": 24,
+    "strict_scopes": 35,
+    "excluded_from_course_details": 10,
+    "conflict_quarantine": 8,
+    "no_match_quarantine": 2,
+    "strict_with_hours_warning": 4,
+    "verified_after_conservative_hamza_normalization": 2
+  },
+  "program_coverage": {
+    "1/version38": {
+      "strict_courses": 23,
+      "plan_courses": 60,
+      "coverage_percent": 38.33
+    },
+    "11/version47": {
+      "strict_courses": 12,
+      "plan_courses": 76,
+      "coverage_percent": 15.79
+    }
+  },
+  "global_verification": {
+    "safe_ascii_unique_filenames": true,
+    "pdfinfo_passed": 34,
+    "qpdf_check_passed": 34,
+    "sha256_recorded": 34,
+    "standalone_hashes_equal_sources": 33,
+    "environment_pages_89_95_text_and_render_equal": true,
+    "restricted_confidential_marker_hits": 0,
+    "rtl_visual_failures": 0,
+    "rtl_basis": "33 byte-identical copies inherit full source visual QA; extracted environment pages 1–7 match source pages 89–95 pixel-for-pixel at 120 dpi.",
+    "system_scopes_have_degree_bachelors": true,
+    "verified_with_hours_warning_records": 4,
+    "json_only_correction_pdfs_touched": 0,
+    "verified_after_conservative_hamza_normalization_records": 2,
+    "remaining_course_details_exclusions_unchanged": true,
+    "json_only_update_pdfs_touched": 0
+  },
+  "records": [
+    {
+      "index": 1,
+      "safe_filename": "2003112-2.pdf",
+      "title": "النظام الدستوري",
+      "specification_code": "2003112-2",
+      "credit_hours_in_source": 2,
+      "general_description": "يتناول النظرية العامة للقانون الدستوري، ومصادر القاعدة الدستورية، ومفهوم الدستور والدولة وعناصرها، وأنظمة الحكم، والرقابة على دستورية القوانين وتطبيقاتها في المملكة العربية السعودية.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(1) المستوى الأول/الدستوري.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 7
+        },
+        "sha256": "4e7029e6d7bf1da9b764cda8f90539f9caad6beaf175833f31ca85489e968dae",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 582375,
+      "package_sha256": "4e7029e6d7bf1da9b764cda8f90539f9caad6beaf175833f31ca85489e968dae",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 7,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003112-2.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003112-2.pdf"
+    },
+    {
+      "index": 2,
+      "safe_filename": "2003225-2.pdf",
+      "title": "المنظمات الدولية",
+      "specification_code": "2003225-2",
+      "credit_hours_in_source": 2,
+      "general_description": "يعرض النظرية العامة لقانون المنظمات الدولية من حيث النشأة والشخصية والهيكل والأعمال القانونية، ويطبقها على الأمم المتحدة وجامعة الدول العربية ومجلس التعاون لدول الخليج العربية.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(1) المستوى الأول/المنظمات الدولية.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 10
+        },
+        "sha256": "7994255ae00f42fdb68c04c3028559e3dce714b1882c78a7504e273ace36ac4d",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 10
+      },
+      "package_page_count": 10,
+      "package_size_bytes": 570238,
+      "package_sha256": "7994255ae00f42fdb68c04c3028559e3dce714b1882c78a7504e273ace36ac4d",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 10,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 10,
+        "package_evidence_page": 10
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "المنظمات الدولية",
+          "plan_code": "2003211-3",
+          "plan_hours": 3
+        }
+      ],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003225-2.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003225-2.pdf"
+    },
+    {
+      "index": 3,
+      "safe_filename": "2003221-2.pdf",
+      "title": "علم الإجرام والعقاب",
+      "specification_code": "2003221-2",
+      "credit_hours_in_source": 2,
+      "general_description": "يدرس الظاهرة الإجرامية وأسبابها ووسائل الوقاية منها، ورد فعل المجتمع تجاهها، والجزاء الجنائي بصورتيه العقوبة والتدابير الاحترازية، والنظم والمؤسسات العقابية.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(1) المستوى الأول/علم الإجرام.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 8
+        },
+        "sha256": "424b684f127b9b327a08f2035d853597d1ad0bac215f33087144a417d942b8ca",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 8
+      },
+      "package_page_count": 8,
+      "package_size_bytes": 358880,
+      "package_sha256": "424b684f127b9b327a08f2035d853597d1ad0bac215f33087144a417d942b8ca",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 8,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 8,
+        "package_evidence_page": 8
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "علم الإجرام والعقاب",
+          "plan_code": "20032022-3",
+          "plan_hours": 3
+        }
+      ],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003221-2.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003221-2.pdf"
+    },
+    {
+      "index": 4,
+      "safe_filename": "2003111-3.pdf",
+      "title": "مبادئ القانون",
+      "specification_code": "2003111-3",
+      "credit_hours_in_source": 3,
+      "general_description": "يعرّف ماهية القانون وخصائص القاعدة القانونية وأنواعها ومصادرها، ويميّزها عن غيرها، ويتناول مفهوم الحقوق ومحلها وحمايتها القانونية.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(1) المستوى الأول/مبادئ القانون.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 30
+        },
+        "sha256": "3d29c08fb54a96963a563a29469661ce2e0e76006e44ad2bc42d03c12d6cd206",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 30
+      },
+      "package_page_count": 30,
+      "package_size_bytes": 1349586,
+      "package_sha256": "3d29c08fb54a96963a563a29469661ce2e0e76006e44ad2bc42d03c12d6cd206",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 30,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 30,
+        "package_evidence_page": 30
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 11,
+          "program": "الأنظمة",
+          "label": "الأنظمة (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "مبادئ القانون",
+          "plan_code": "20031301-2",
+          "plan_hours": 2
+        }
+      ],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003111-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003111-3.pdf"
+    },
+    {
+      "index": 5,
+      "safe_filename": "200324-3.pdf",
+      "title": "القانون الإداري",
+      "specification_code": "200324-3",
+      "credit_hours_in_source": 4,
+      "general_description": "يعرّف نشأة القانون الإداري السعودي وخصائصه ومصادره، والتنظيم الإداري المركزي واللامركزي، والمرافق العامة والوظيفة العامة والقرارات والعقود الإدارية.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(2) المستوى الثاني/__توصيف القانون الادارى 2020 -.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 8
+        },
+        "sha256": "1a2783b6471d4959ec1168ebc5be3ff764c564a364905bee3700672fd9b68a38",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 8
+      },
+      "package_page_count": 8,
+      "package_size_bytes": 636348,
+      "package_sha256": "1a2783b6471d4959ec1168ebc5be3ff764c564a364905bee3700672fd9b68a38",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 8,
+        "page_size": "595.32 x 842.04 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "no"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 8,
+        "package_evidence_page": 8
+      },
+      "strict_scopes": [],
+      "strict_hours_conflicts": [],
+      "match_status": "conflict",
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "القانون الإداري",
+          "plan_code": "2003243-3",
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "القانون الإداري",
+          "plan_code": "2003243-3",
+          "plan_hours": 3
+        }
+      ],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": false,
+      "exclusion_reason": "مطابقة الاسم فقط في الخطتين؛ رمز التوصيف 200324-3 بينما رمز الخطة 2003243-3، كما أن ساعات المصدر 4 وساعات الخطة 3.",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/200324-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "200324-3.pdf"
+    },
+    {
+      "index": 6,
+      "safe_filename": "2003210-3.pdf",
+      "title": "مصادر الالتزام",
+      "specification_code": "2003210-3",
+      "credit_hours_in_source": 4,
+      "general_description": "يتناول المصادر الإرادية وغير الإرادية للالتزام، ونظرية العقد وتقسيماته وأركانه وآثاره وبطلانه وإنهاءه، والمسؤولية العقدية، ونظرية الظروف الطارئة.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(2) المستوى الثاني/توصيف المقرر الدراسي مصادر الالتزام المعتمد 2020(1).pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 7
+        },
+        "sha256": "9026754ec498586df86a0ba2164af26426e26498d8ca896998906b3d6c7a143a",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 507273,
+      "package_sha256": "9026754ec498586df86a0ba2164af26426e26498d8ca896998906b3d6c7a143a",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.32 x 842.04 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "no"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 7,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 11,
+          "program": "الأنظمة",
+          "label": "الأنظمة (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        }
+      ],
+      "match_status": "verified_with_hours_warning",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003210-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003210-3.pdf"
+    },
+    {
+      "index": 7,
+      "safe_filename": "2003231-3.pdf",
+      "title": "القانون التجاري",
+      "specification_code": "2003231-3",
+      "credit_hours_in_source": 4,
+      "general_description": "يدرس النظرية العامة للأعمال التجارية والتاجر ومصادر القانون التجاري والتزامات التجار، وأحكام الشركات التجارية منذ نشأتها حتى تصفيتها وانقضائها.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(2) المستوى الثاني/توصيف مقرر القانون التجاري نموذج 2020.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 6
+        },
+        "sha256": "f8475c46fdc086bdeb8d78653cc460117921bd1a771ffdf84bad44e724dbf0ed",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 6
+      },
+      "package_page_count": 6,
+      "package_size_bytes": 463355,
+      "package_sha256": "f8475c46fdc086bdeb8d78653cc460117921bd1a771ffdf84bad44e724dbf0ed",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 6,
+        "page_size": "595.32 x 842.04 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "no"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 6,
+        "package_evidence_page": 6
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 11,
+          "program": "الأنظمة",
+          "label": "الأنظمة (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        }
+      ],
+      "match_status": "verified_with_hours_warning",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003231-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003231-3.pdf"
+    },
+    {
+      "index": 8,
+      "safe_filename": "2003313-3.pdf",
+      "title": "أحكام الالتزام",
+      "specification_code": "2003313-3",
+      "credit_hours_in_source": 3,
+      "general_description": "يتناول الضمان العام للدائن ووسائل المحافظة عليه، وأوصاف الالتزام وتعدد أطرافه ومحله، وانتقال الالتزام، وطرق انقضائه بالوفاء أو بما يعادله أو دونه.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(3) المستوى الثالث/أحكام الإلتزام.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 8
+        },
+        "sha256": "973e0eb8de0f4651b133025987650731e55d24976da55194e9579e6fcda8234c",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 8
+      },
+      "package_page_count": 8,
+      "package_size_bytes": 593014,
+      "package_sha256": "973e0eb8de0f4651b133025987650731e55d24976da55194e9579e6fcda8234c",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 8,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 8,
+        "package_evidence_page": 8
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 11,
+          "program": "الأنظمة",
+          "label": "الأنظمة (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003313-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003313-3.pdf"
+    },
+    {
+      "index": 9,
+      "safe_filename": "2003216-2.pdf",
+      "title": "المحاماة وأخلاقيات المهنة",
+      "specification_code": "2003216-2",
+      "credit_hours_in_source": 2,
+      "general_description": "يدرس تنظيم ممارسة مهنة المحاماة داخل المحاكم وخارجها، وواجبات المحامي تجاه المحكمة والموكل ونفسه، وحدود مسؤوليته التأديبية وأخلاقيات المهنة.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(3) المستوى الثالث/المحاماة.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 8
+        },
+        "sha256": "c055e4ba2cc2c2182b22f8b22eaf68b730b19b669e7d627a8bc5c5db4f7783a5",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 8
+      },
+      "package_page_count": 8,
+      "package_size_bytes": 645743,
+      "package_sha256": "c055e4ba2cc2c2182b22f8b22eaf68b730b19b669e7d627a8bc5c5db4f7783a5",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 8,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 8,
+        "package_evidence_page": 8
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "المحاماة وأخلاقيات المهنة",
+          "plan_code": "2003383-3",
+          "plan_hours": 3
+        }
+      ],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003216-2.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003216-2.pdf"
+    },
+    {
+      "index": 10,
+      "safe_filename": "2003215-2.pdf",
+      "title": "حقوق الإنسان",
+      "specification_code": "2003215-2",
+      "credit_hours_in_source": 2,
+      "general_description": "يتناول مفهوم حقوق الإنسان ونشأتها وأهم الاتفاقيات والإعلان العالمي، وآليات حمايتها دوليا ووطنيا، مع دراستها في إطار الشريعة الإسلامية والأنظمة السعودية.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(3) المستوى الثالث/حقوق الإنسان.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 9
+        },
+        "sha256": "775e9b37d705ce3e497c2b410c1951bed0954c104667e96773cdc67e1aac5e43",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 9
+      },
+      "package_page_count": 9,
+      "package_size_bytes": 534673,
+      "package_sha256": "775e9b37d705ce3e497c2b410c1951bed0954c104667e96773cdc67e1aac5e43",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 9,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 9,
+        "package_evidence_page": 9
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "حقوق الإنسان",
+          "plan_code": "2001276-3",
+          "plan_hours": 3
+        }
+      ],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003215-2.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003215-2.pdf"
+    },
+    {
+      "index": 11,
+      "safe_filename": "2003321-3.pdf",
+      "title": "نظام الأوراق التجارية والإفلاس",
+      "specification_code": "2003321-3",
+      "credit_hours_in_source": 3,
+      "general_description": "يدرس أحكام الأوراق التجارية وشروطها وتداولها والوفاء بها وضماناتها وانقضاءها، ثم إجراءات الإفلاس من التسوية الوقائية وإعادة التنظيم المالي إلى التصفية.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(4) المستوى الرابع/الأوراق التجارية.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 8
+        },
+        "sha256": "2cf4a86422eca8f80b6f7b5e89a639e56a4caee47830a2080e9bd0da8c263126",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 8
+      },
+      "package_page_count": 8,
+      "package_size_bytes": 633424,
+      "package_sha256": "2cf4a86422eca8f80b6f7b5e89a639e56a4caee47830a2080e9bd0da8c263126",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 8,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 8,
+        "package_evidence_page": 8
+      },
+      "strict_scopes": [],
+      "strict_hours_conflicts": [],
+      "match_status": "conflict",
+      "code_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "الأوراق التجارية والإفلاس",
+          "plan_code": "2003321-3",
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "الأوراق التجارية والإفلاس",
+          "plan_code": "2003321-3",
+          "plan_hours": 3
+        }
+      ],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": false,
+      "exclusion_reason": "مطابقة الرمز فقط في الخطتين؛ عنوان الخطة «الأوراق التجارية والإفلاس» بلا كلمة «نظام».",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/2003321-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003321-3.pdf"
+    },
+    {
+      "index": 12,
+      "safe_filename": "2003315-3.pdf",
+      "title": "العقود المدنية",
+      "specification_code": "2003315-3",
+      "credit_hours_in_source": 3,
+      "general_description": "يتناول التنظيم القانوني لعقدي البيع والإيجار، من حيث المفهوم والأركان والشروط والآثار، مع تطبيقات على أنواع البيوع والإيجارات.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(4) المستوى الرابع/العقود المدنية.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 16
+        },
+        "sha256": "99e6c86717b90371eafc4494cc2330a322a664bdce33aa269f8033437e607c5f",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 16
+      },
+      "package_page_count": 16,
+      "package_size_bytes": 914827,
+      "package_sha256": "99e6c86717b90371eafc4494cc2330a322a664bdce33aa269f8033437e607c5f",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 16,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 16,
+        "package_evidence_page": 16
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 11,
+          "program": "الأنظمة",
+          "label": "الأنظمة (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003315-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003315-3.pdf"
+    },
+    {
+      "index": 13,
+      "safe_filename": "2003006-3.pdf",
+      "title": "القانون الدولي العام",
+      "specification_code": "2003006-3",
+      "credit_hours_in_source": 3,
+      "general_description": "يتناول ماهية القانون الدولي العام ومصادره وقواعده وأشخاصه والمسؤولية الدولية، وتسوية المنازعات الدولية، والعلاقات الدبلوماسية والقنصلية.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(4) المستوى الرابع/القانون الدولي العام.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 7
+        },
+        "sha256": "0e422e4fdc39d155fdb99f50bd024612f509b83eddcf1742fd245af6399f2093",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 539399,
+      "package_sha256": "0e422e4fdc39d155fdb99f50bd024612f509b83eddcf1742fd245af6399f2093",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1444/11/1 هـ",
+        "source_evidence_page": 7,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [],
+      "strict_hours_conflicts": [],
+      "match_status": "conflict",
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "القانون الدولي العام",
+          "plan_code": "2003226-3",
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "القانون الدولي العام",
+          "plan_code": "2003226-3",
+          "plan_hours": 3
+        }
+      ],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": false,
+      "exclusion_reason": "مطابقة الاسم فقط؛ رمز التوصيف 2003006-3 بينما رمز الخطة في الإصدارين 2003226-3.",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/2003006-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003006-3.pdf"
+    },
+    {
+      "index": 14,
+      "safe_filename": "2003223-3.pdf",
+      "title": "النظام الجزائي العام",
+      "specification_code": "2003223-3",
+      "credit_hours_in_source": 3,
+      "general_description": "يدرس النظرية العامة للجريمة والعقوبة، بما يشمل تعريف الجريمة وأنواعها وأركانها الشرعي والمادي والمعنوي، والمسؤولية الجنائية، وأنواع العقوبات.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(4) المستوى الرابع/النظام الجزائي العام.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 7
+        },
+        "sha256": "59a5f8fcd726c4ca354b25d4f392e6e39549fcc92a49456057d36b3219330e80",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 552212,
+      "package_sha256": "59a5f8fcd726c4ca354b25d4f392e6e39549fcc92a49456057d36b3219330e80",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 7,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [],
+      "strict_hours_conflicts": [],
+      "match_status": "conflict",
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "النظام الجزائي العام",
+          "plan_code": "2003222-3",
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "النظام الجزائي العام",
+          "plan_code": "2003222-3",
+          "plan_hours": 3
+        }
+      ],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": false,
+      "exclusion_reason": "مطابقة الاسم فقط؛ رمز التوصيف 2003223-3 بينما رمز الخطة في الإصدارين 2003222-3.",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/2003223-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003223-3.pdf"
+    },
+    {
+      "index": 15,
+      "safe_filename": "2003352-2.pdf",
+      "title": "وسائل الاثبات",
+      "specification_code": "2003352-2",
+      "credit_hours_in_source": 2,
+      "general_description": "يعرّف نظرية الإثبات ووسائله التقليدية والحديثة، وقواعد تقدير الأدلة، ودور الإثبات في حماية الحقوق والفصل في المنازعات وتحقيق العدالة واستقرار التعامل.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(4) المستوى الرابع/وسائل الإثبات.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 8
+        },
+        "sha256": "f57f89818ce11a2917040381774ee0dc259cfca87ac0e502357ee13bcc213244",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 8
+      },
+      "package_page_count": 8,
+      "package_size_bytes": 598497,
+      "package_sha256": "f57f89818ce11a2917040381774ee0dc259cfca87ac0e502357ee13bcc213244",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 8,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 8,
+        "package_evidence_page": 8
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003352-2.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "orthographic_normalization_evidence": {
+        "normalization": "أ/إ/آ → ا فقط، بعد NFC وإزالة محارف الاتجاه وضم المسافات",
+        "source_title": "وسائل الاثبات",
+        "plan_title": "وسائل الإثبات",
+        "normalized_source_title": "وسائل الاثبات",
+        "normalized_plan_title": "وسائل الاثبات",
+        "code_exact": true,
+        "hours_equal": true,
+        "accepted_scope": {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        "match_note": "تطابق الرمز كاملًا، وتطابق الاسم بعد تطبيع إملائي محافظ للهمزة فقط: «وسائل الاثبات» في التوصيف تقابل «وسائل الإثبات» في الخطة القديمة 38؛ ولا يوجد اختلاف آخر."
+      },
+      "file": "2003352-2.pdf"
+    },
+    {
+      "index": 16,
+      "safe_filename": "2003440-3.pdf",
+      "title": "الحقوق العينية",
+      "specification_code": "2003440-3",
+      "credit_hours_in_source": 4,
+      "general_description": "يدرس الحقوق العينية الأصلية وفي مقدمتها الملكية وأسباب كسبها وقيودها، والحقوق العينية التبعية وبخاصة الرهن وأنواعه وأحكامه.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(5) المستوى الخامس/توصيف مقرر الحقوق العينية 11.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 6
+        },
+        "sha256": "ceaf7ef8f6cbb76706ca7e5a5f31d35590a243cb4b564cc45b7469dec30afc35",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 6
+      },
+      "package_page_count": 6,
+      "package_size_bytes": 457866,
+      "package_sha256": "ceaf7ef8f6cbb76706ca7e5a5f31d35590a243cb4b564cc45b7469dec30afc35",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 6,
+        "page_size": "595.32 x 842.04 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "no"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1444/11/1 هـ",
+        "source_evidence_page": 6,
+        "package_evidence_page": 6
+      },
+      "strict_scopes": [],
+      "strict_hours_conflicts": [],
+      "match_status": "conflict",
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "الحقوق العينية",
+          "plan_code": "2003441-3",
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "الحقوق العينية",
+          "plan_code": "2003441-3",
+          "plan_hours": 3
+        }
+      ],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": false,
+      "exclusion_reason": "مطابقة الاسم فقط؛ رمز التوصيف 2003440-3 بينما رمز الخطة 2003441-3، كما أن ساعات المصدر 4 وساعات الخطة 3.",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/2003440-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003440-3.pdf"
+    },
+    {
+      "index": 17,
+      "safe_filename": "2003433-3.pdf",
+      "title": "العقود التجارية وعمليات البنوك",
+      "specification_code": "2003433-3",
+      "credit_hours_in_source": 4,
+      "general_description": "يتناول العقود التجارية وخصائصها والتزاماتها، وعقود السمسرة والوكالة والنقل والرهن التجاري، والقواعد المنظمة للبنوك والحسابات والودائع والاعتمادات وخطابات الضمان.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(5) المستوى الخامس/توصيف مقرر العقود التجارية وعمليات البنوك.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 7
+        },
+        "sha256": "b7ac53bb73d705396bd7f9555fda41fbf861cfd62994e9b7665ab1f3cc356a5b",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 678668,
+      "package_sha256": "b7ac53bb73d705396bd7f9555fda41fbf861cfd62994e9b7665ab1f3cc356a5b",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "no"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 7,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 11,
+          "program": "الأنظمة",
+          "label": "الأنظمة (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        }
+      ],
+      "match_status": "verified_with_hours_warning",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003433-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003433-3.pdf"
+    },
+    {
+      "index": 18,
+      "safe_filename": "2003381-3.pdf",
+      "title": "القضاء الإداري",
+      "specification_code": "2003381-3",
+      "credit_hours_in_source": 4,
+      "general_description": "يركز على الجانب العملي للترافع أمام المحاكم الإدارية، واختصاص ديوان المظالم، ودعوى الإلغاء والتعويض والدعوى التأديبية، وإعداد صحف الدعوى والمذكرات والتظلمات.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(5) المستوى الخامس/توصيف مقرر القضاء الإداري.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 6
+        },
+        "sha256": "337f6b9f26dd8b7f4ea61c3be71e377e98f0d052ebf0283280302c4f6e0e1a6c",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 6
+      },
+      "package_page_count": 6,
+      "package_size_bytes": 558268,
+      "package_sha256": "337f6b9f26dd8b7f4ea61c3be71e377e98f0d052ebf0283280302c4f6e0e1a6c",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 6,
+        "page_size": "595.32 x 842.04 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "no"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 6,
+        "package_evidence_page": 6
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 11,
+          "program": "الأنظمة",
+          "label": "الأنظمة (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        }
+      ],
+      "match_status": "verified_with_hours_warning",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003381-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003381-3.pdf"
+    },
+    {
+      "index": 19,
+      "safe_filename": "2003114-2.pdf",
+      "title": "اساسيات البحث القانوني",
+      "specification_code": "2003114-2",
+      "credit_hours_in_source": 2,
+      "general_description": "يشرح اختيار موضوع البحث القانوني وبناء خطته ومنهجه ومصادره وكتابته حتى النتائج والتوصيات، مع التدريب على التعليق على الأحكام وصياغة العقود والاستشارات.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(6) المستوى السادس/البحث القانوني.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 7
+        },
+        "sha256": "905bde918c4d0fb51f4096ffdd92a9166bd06645a7fc67674f4fb72deb98fc6c",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 814462,
+      "package_sha256": "905bde918c4d0fb51f4096ffdd92a9166bd06645a7fc67674f4fb72deb98fc6c",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 7,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003114-2.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "orthographic_normalization_evidence": {
+        "normalization": "أ/إ/آ → ا فقط، بعد NFC وإزالة محارف الاتجاه وضم المسافات",
+        "source_title": "اساسيات البحث القانوني",
+        "plan_title": "أساسيات البحث القانوني",
+        "normalized_source_title": "اساسيات البحث القانوني",
+        "normalized_plan_title": "اساسيات البحث القانوني",
+        "code_exact": true,
+        "hours_equal": true,
+        "accepted_scope": {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        "match_note": "تطابق الرمز كاملًا، وتطابق الاسم بعد تطبيع إملائي محافظ للهمزة فقط: «اساسيات البحث القانوني» في التوصيف تقابل «أساسيات البحث القانوني» في الخطة القديمة 38؛ ولا يوجد اختلاف آخر."
+      },
+      "file": "2003114-2.pdf"
+    },
+    {
+      "index": 20,
+      "safe_filename": "2003329-2.pdf",
+      "title": "نظام التجارة الإلكترونية",
+      "specification_code": "2003329-2",
+      "credit_hours_in_source": 2,
+      "general_description": "يتناول عقود التجارة الإلكترونية من حيث الإبرام والتعبير عن الإرادة ووسائل الدفع والإثبات، والقانون الواجب التطبيق، وتسوية المنازعات إلكترونيا.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(6) المستوى السادس/التجارة الإلكترونية.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 7
+        },
+        "sha256": "95374b52cfac9def53621d7a715361241de47e61c437f973076b62d8769a95b0",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 946200,
+      "package_sha256": "95374b52cfac9def53621d7a715361241de47e61c437f973076b62d8769a95b0",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 7,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003329-2.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003329-2.pdf"
+    },
+    {
+      "index": 21,
+      "safe_filename": "2003426-2.pdf",
+      "title": "العقود الإدارية",
+      "specification_code": "2003426-2",
+      "credit_hours_in_source": 2,
+      "general_description": "يعرّف ماهية العقد الإداري وأركانه وآثاره وأنواعه وأساليب التعاقدات الحكومية، وحقوق والتزامات أطرافه، والجهة المختصة بمنازعاته.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(6) المستوى السادس/العقود الإدارية.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 7
+        },
+        "sha256": "07fd33c8a544c2898cd2b45c25efea931df462532f10d8eb26be05b130d9a5e5",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 666940,
+      "package_sha256": "07fd33c8a544c2898cd2b45c25efea931df462532f10d8eb26be05b130d9a5e5",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 7,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "العقود الإدارية",
+          "plan_code": "2003203-3",
+          "plan_hours": 3
+        }
+      ],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003426-2.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003426-2.pdf"
+    },
+    {
+      "index": 22,
+      "safe_filename": "20033201-3.pdf",
+      "title": "الملكية الفكرية",
+      "specification_code": "20033201-3",
+      "credit_hours_in_source": 3,
+      "general_description": "يتناول الملكية الصناعية والتجارية والأدبية والفنية، وشروط حماية براءات الاختراع والنماذج والعلامات وحقوق المؤلف وآثارها ووسائل حمايتها القانونية.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(6) المستوى السادس/الملكية الفكرية.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 7
+        },
+        "sha256": "a042e10737f31a011698554e5e080dd586b77bffc3c20e5a8faee99fa2c5f971",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 932423,
+      "package_sha256": "a042e10737f31a011698554e5e080dd586b77bffc3c20e5a8faee99fa2c5f971",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 7,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [
+        {
+          "program_id": 11,
+          "program": "الأنظمة",
+          "label": "الأنظمة (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "الملكية الفكرية",
+          "plan_code": "2003255-3",
+          "plan_hours": 2
+        }
+      ],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/20033201-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "20033201-3.pdf"
+    },
+    {
+      "index": 23,
+      "safe_filename": "2003323-3.pdf",
+      "title": "النظام الجزائي الخاص",
+      "specification_code": "2003323-3",
+      "credit_hours_in_source": 3,
+      "general_description": "يدرس بعض جرائم التعازير المنظمة في المملكة، وفي مقدمتها الرشوة والتزييف والتزوير وجرائم الشيك، مع بيان أركانها وأحكامها النظامية.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(6) المستوى السادس/النظام الجزائي الخاص.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 8
+        },
+        "sha256": "d773f2534bc53880b170c19240a1aa07c5f4dc1f103c73035fbc2c88aa9c51a9",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 8
+      },
+      "package_page_count": 8,
+      "package_size_bytes": 599540,
+      "package_sha256": "d773f2534bc53880b170c19240a1aa07c5f4dc1f103c73035fbc2c88aa9c51a9",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 8,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 8,
+        "package_evidence_page": 8
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 11,
+          "program": "الأنظمة",
+          "label": "الأنظمة (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003323-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003323-3.pdf"
+    },
+    {
+      "index": 24,
+      "safe_filename": "20034107-2.pdf",
+      "title": "نظام الزكاة والضريبة",
+      "specification_code": "20034107-2",
+      "credit_hours_in_source": 2,
+      "general_description": "يعرض المفاهيم الشرعية والمالية والنظامية للزكاة والضرائب، وأوعيتها ومكلفيها وطرق جبايتها ومصارفها، والعلاقة بين الزكاة والضريبة في النظام السعودي.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(7) المستوى السابع/الزكاة والضريبة.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 9
+        },
+        "sha256": "a6b10d74590f06d19efe5e3d0013a0033c8a8cec7b37d326c75cf8b6d8664fa1",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 9
+      },
+      "package_page_count": 9,
+      "package_size_bytes": 542431,
+      "package_sha256": "a6b10d74590f06d19efe5e3d0013a0033c8a8cec7b37d326c75cf8b6d8664fa1",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 9,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 9,
+        "package_evidence_page": 9
+      },
+      "strict_scopes": [],
+      "strict_hours_conflicts": [],
+      "match_status": "no_match",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": false,
+      "exclusion_reason": "لا توجد مطابقة صارمة ولا مرشح مطابق بالرمز أو الاسم في برنامجي الأنظمة المحددين.",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/20034107-2.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "20034107-2.pdf"
+    },
+    {
+      "index": 25,
+      "safe_filename": "20034101-3.pdf",
+      "title": "القانون البحري والجوي",
+      "specification_code": "20034101-3",
+      "credit_hours_in_source": 3,
+      "general_description": "يتناول النظام القانوني للسفينة والطائرة وأشخاصهما، وعقود النقل البحري والجوي ومسؤولية الناقل، والتصادم البحري، في ضوء الأنظمة الوطنية والمعاهدات الدولية.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(7) المستوى السابع/القانون البحري والجوي.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 7
+        },
+        "sha256": "4e6652741c6d4877de33b3531ad53fb787e2364a47d9f02ec8d458b117255df2",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 680147,
+      "package_sha256": "4e6652741c6d4877de33b3531ad53fb787e2364a47d9f02ec8d458b117255df2",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 7,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 11,
+          "program": "الأنظمة",
+          "label": "الأنظمة (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/20034101-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "20034101-3.pdf"
+    },
+    {
+      "index": 26,
+      "safe_filename": "2003417-3.pdf",
+      "title": "نظام العمل والتأمينات الاجتماعية",
+      "specification_code": "2003417-3",
+      "credit_hours_in_source": 3,
+      "general_description": "يعرّف نظامي العمل والتأمينات الاجتماعية وعقد العمل وأطرافه وحقوقهم والتزاماتهم، والفئات الخاضعة للتأمينات إلزاميا واختياريا والاستثناءات النظامية.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(7) المستوى السابع/نظام العمل والتأمينات الإجتماعية.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 7
+        },
+        "sha256": "efed179d592cf8480b7a40bc2d56192989dae122014ea3a331bfc890ab62a125",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 761675,
+      "package_sha256": "efed179d592cf8480b7a40bc2d56192989dae122014ea3a331bfc890ab62a125",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 7,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003417-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003417-3.pdf"
+    },
+    {
+      "index": 27,
+      "safe_filename": "2003453-3--nizam-al-murafaat.pdf",
+      "title": "نظام المرافعات",
+      "specification_code": "2003453-3",
+      "credit_hours_in_source": 3,
+      "general_description": "يتناول نظام المرافعات الشرعية والتنظيم القضائي والاختصاص والدعوى وشروط قبولها وإجراءاتها، والطلبات والدفوع والخصومة والأحكام وطرق الطعن.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(7) المستوى السابع/نظام المرافعات.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 10
+        },
+        "sha256": "f182b0063375b03def9f8e2921e6b69b103e183013080962201db3b9cc596bdb",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 10
+      },
+      "package_page_count": 10,
+      "package_size_bytes": 562357,
+      "package_sha256": "f182b0063375b03def9f8e2921e6b69b103e183013080962201db3b9cc596bdb",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 10,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 10,
+        "package_evidence_page": 10
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003453-3--nizam-al-murafaat.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003453-3--nizam-al-murafaat.pdf"
+    },
+    {
+      "index": 28,
+      "safe_filename": "2003453-3--ijraat-al-tanfidh.pdf",
+      "title": "اجراءات التنفيذ القضائي",
+      "specification_code": "2003453-3",
+      "credit_hours_in_source": 3,
+      "general_description": "يدرس الأحكام الموضوعية والإجرائية للتنفيذ الجبري، وقاضي التنفيذ وأعوانه والسندات التنفيذية وأطراف التنفيذ والحجز ومنازعات التنفيذ ودعوى الإعسار.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(8) المستوى الثامن/إجراءات التنفيذ القضائي.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 7
+        },
+        "sha256": "5f5c583398694ca98b96fbb3349cb6575438add5e121b39fd5ad3d6ffa6c8635",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 529788,
+      "package_sha256": "5f5c583398694ca98b96fbb3349cb6575438add5e121b39fd5ad3d6ffa6c8635",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 7,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [],
+      "strict_hours_conflicts": [],
+      "match_status": "conflict",
+      "code_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "نظام المرافعات",
+          "plan_code": "2003453-3",
+          "plan_hours": 3
+        }
+      ],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "إجراءات التنفيذ القضائي",
+          "plan_code": "2003492-3",
+          "plan_hours": 3,
+          "reason": "orthographic-only candidate; excluded from strict match"
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "إجراءات التنفيذ القضائي",
+          "plan_code": "2003492-3",
+          "plan_hours": 3,
+          "reason": "orthographic-only candidate; excluded from strict match"
+        }
+      ],
+      "include_in_course_details": false,
+      "exclusion_reason": "رمز التوصيف 2003453-3 متصادم مع توصيف «نظام المرافعات»؛ الخطة تستخدم 2003492-3 لـ«إجراءات التنفيذ القضائي»، والاسم أيضًا لا يطابق حرفيًا بسبب الهمزة.",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/2003453-3--ijraat-al-tanfidh.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003453-3--ijraat-al-tanfidh.pdf"
+    },
+    {
+      "index": 29,
+      "safe_filename": "2003489-3.pdf",
+      "title": "الإجراءات الجزائية",
+      "specification_code": "2003489-3",
+      "credit_hours_in_source": 3,
+      "general_description": "يتناول مراحل الدعوى الجزائية في المملكة، بدءا من الاستدلال ثم التحقيق ودور النيابة العامة وصولا إلى المحاكمة وإجراءاتها.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(8) المستوى الثامن/الإجراءات الجزائية.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 8
+        },
+        "sha256": "6d773224ec3fb208a6d045f2443d2fbde9c470fa42a1e5142ba79063caf52e5d",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 8
+      },
+      "package_page_count": 8,
+      "package_size_bytes": 610833,
+      "package_sha256": "6d773224ec3fb208a6d045f2443d2fbde9c470fa42a1e5142ba79063caf52e5d",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 8,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 8,
+        "package_evidence_page": 8
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 11,
+          "program": "الأنظمة",
+          "label": "الأنظمة (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003489-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003489-3.pdf"
+    },
+    {
+      "index": 30,
+      "safe_filename": "2003442-3.pdf",
+      "title": "القانون الدولي الخاص",
+      "specification_code": "2003442-3",
+      "credit_hours_in_source": 3,
+      "general_description": "يعرّف الجنسية والموطن ومركز الأجانب وتنازع القوانين والاختصاص القضائي الدولي وتنفيذ الأحكام الأجنبية في الأنظمة المقارنة والنظام السعودي.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(8) المستوى الثامن/القانون الدولي الخاص.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 7
+        },
+        "sha256": "c034c1a2c05cd06d29e03c7f188442445f62d96866a9173dc6dcd8ad82188cb0",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 705034,
+      "package_sha256": "c034c1a2c05cd06d29e03c7f188442445f62d96866a9173dc6dcd8ad82188cb0",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 7,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [],
+      "strict_hours_conflicts": [],
+      "match_status": "conflict",
+      "code_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "النظام الدولي الخاص",
+          "plan_code": "2003442-3",
+          "plan_hours": 3
+        }
+      ],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "القانون الدولي الخاص",
+          "plan_code": "2003105-3",
+          "plan_hours": 3
+        }
+      ],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": false,
+      "exclusion_reason": "في الخطة القديمة يطابق الرمز فقط عنوانًا مختلفًا «النظام الدولي الخاص»، وفي الخطة الجديدة يطابق الاسم فقط لكن برمز مختلف 2003105-3.",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/2003442-3.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003442-3.pdf"
+    },
+    {
+      "index": 31,
+      "safe_filename": "2003403-2.pdf",
+      "title": "القانون الرياضي",
+      "specification_code": "2003403-2",
+      "credit_hours_in_source": 2,
+      "general_description": "يتناول تنظيم النشاط الرياضي وعقوده والهيئات والاتحادات الرياضية والمسؤولية والتعويض، ووسائل فض المنازعات والقواعد التأديبية وأحكام بث المسابقات.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(8) المستوى الثامن/القانون الرياضي.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 8
+        },
+        "sha256": "8915f883144e78e898824f220e23df56364302cd28f1c25f754848514a8f65ef",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 8
+      },
+      "package_page_count": 8,
+      "package_size_bytes": 540173,
+      "package_sha256": "8915f883144e78e898824f220e23df56364302cd28f1c25f754848514a8f65ef",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 8,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 8,
+        "package_evidence_page": 8
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program_id": 11,
+          "program": "الأنظمة",
+          "label": "الأنظمة (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003403-2.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003403-2.pdf"
+    },
+    {
+      "index": 32,
+      "safe_filename": "2003404-2.pdf",
+      "title": "التدريبات القانونية",
+      "specification_code": "2003404-2",
+      "credit_hours_in_source": 2,
+      "general_description": "يدرّب على الترافع وكتابة صحف الدعاوى والمذكرات والدفوع والطعون والعقود والشكاوى والطلبات والتظلمات من خلال تطبيقات عملية.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(8) المستوى الثامن/تدريبات قانونية.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 7
+        },
+        "sha256": "a09c90f9d9cdc641eb5992151c2cb5ff2f0c782e4dd9a80127005de4a4e63a02",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 655667,
+      "package_sha256": "a09c90f9d9cdc641eb5992151c2cb5ff2f0c782e4dd9a80127005de4a4e63a02",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 7,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [],
+      "strict_hours_conflicts": [],
+      "match_status": "conflict",
+      "code_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "تدريبات قانونية",
+          "plan_code": "2003404-2",
+          "plan_hours": 2
+        }
+      ],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": false,
+      "exclusion_reason": "مطابقة الرمز فقط في الخطة القديمة؛ اسم الخطة «تدريبات قانونية» لا يطابق حرفيًا «التدريبات القانونية».",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/2003404-2.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003404-2.pdf"
+    },
+    {
+      "index": 33,
+      "safe_filename": "2003456-2.pdf",
+      "title": "نظام التحكيم",
+      "specification_code": "2003456-2",
+      "credit_hours_in_source": 2,
+      "general_description": "يتناول نطاق نظام التحكيم واتفاق التحكيم وهيئة التحكيم وإجراءاته وضمانات الخصوم، وإصدار الحكم وبطلانه وحجيته وتنفيذه.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(8) المستوى الثامن/نظام التحكيم.pdf",
+        "pages_inclusive": {
+          "start": 1,
+          "end": 7
+        },
+        "sha256": "8030a30911d24a9f6e8e373bb2832a282a5362b4fadd21d139c2d30dce7a13b2",
+        "action": "copy_full_pdf"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 674420,
+      "package_sha256": "8030a30911d24a9f6e8e373bb2832a282a5362b4fadd21d139c2d30dce7a13b2",
+      "byte_identical_to_full_source": true,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.32 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "yes"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/10/11 هـ",
+        "source_evidence_page": 7,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [
+        {
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003456-2.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "output is byte-identical to visually inspected clean source",
+        "status": "passed"
+      },
+      "file": "2003456-2.pdf"
+    },
+    {
+      "index": 34,
+      "safe_filename": "20034108-2.pdf",
+      "title": "نظام حماية البيئة",
+      "specification_code": "20034108-2",
+      "credit_hours_in_source": 2,
+      "general_description": "يتناول قانون البيئة وأقسامها وعناصرها، والاتفاقيات الدولية والإقليمية، والمسؤولية عن الأضرار البيئية، وجهود المملكة ونظامها في حماية البيئة.",
+      "source": {
+        "relative_path_clean": "(5) توصيف المقررات/(1) المستوى الأول/توصيف المقررات 1444(محدّث).pdf",
+        "pages_inclusive": {
+          "start": 89,
+          "end": 95
+        },
+        "sha256": "199b0b0da3626cefd97c91acbdcd056275a86ddffe6990fdf810ead8ad36c790",
+        "action": "extract_pages_inclusive"
+      },
+      "package_pages_inclusive": {
+        "start": 1,
+        "end": 7
+      },
+      "package_page_count": 7,
+      "package_size_bytes": 345274,
+      "package_sha256": "259c7e84a991cd2ad48add5c9eb859e6fb9b8ee3981a522793e7215b1d31e393",
+      "byte_identical_to_full_source": false,
+      "pdfinfo": {
+        "pages": 7,
+        "page_size": "595.44 x 841.92 pts (A4)",
+        "pdf_version": "1.5",
+        "encrypted": "no",
+        "tagged": "no"
+      },
+      "qpdf_check": "passed",
+      "approval": {
+        "complete": true,
+        "agency": "قسم الأنظمة",
+        "session": "11",
+        "date": "1443/11/1 هـ",
+        "source_evidence_page": 95,
+        "package_evidence_page": 7
+      },
+      "strict_scopes": [],
+      "strict_hours_conflicts": [],
+      "match_status": "no_match",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "near_name_candidates_not_strict": [],
+      "include_in_course_details": false,
+      "exclusion_reason": "لا توجد مطابقة صارمة؛ الخطة الجديدة تحتوي «نظام البيئة» برمز مختلف 2003347-2، ولا يوجد هذا الاسم والرمز معًا في النطاقين.",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/20034108-2.pdf",
+      "classification_scan": {
+        "source_clean_audit": true,
+        "package_pdftotext_marker_hits": [],
+        "status": "passed"
+      },
+      "rtl_visual_verification": {
+        "source_audit_status": "passed",
+        "inheritance_basis": "all extracted pages are render-compared below with source pages",
+        "status": "passed"
+      },
+      "extraction_fidelity": {
+        "all_7_pages_passed": true,
+        "page_comparisons": [
+          {
+            "source_page": 89,
+            "package_page": 1,
+            "normalized_extracted_text_identical": true,
+            "render_120dpi_identical": true,
+            "render": {
+              "width": 993,
+              "height": 1404,
+              "pixel_sha256": "80737d0f7da284e12760df8236375a04b6af96ad3aef319fe78a9249fd956823"
+            }
+          },
+          {
+            "source_page": 90,
+            "package_page": 2,
+            "normalized_extracted_text_identical": true,
+            "render_120dpi_identical": true,
+            "render": {
+              "width": 993,
+              "height": 1404,
+              "pixel_sha256": "dc3de0a35c1676928db110247cbc6d1d673fae078492276e0ed990b85d6709c1"
+            }
+          },
+          {
+            "source_page": 91,
+            "package_page": 3,
+            "normalized_extracted_text_identical": true,
+            "render_120dpi_identical": true,
+            "render": {
+              "width": 993,
+              "height": 1404,
+              "pixel_sha256": "070280a19467f2e777483a2cf2563a3fe7d1e0177e1f67bbd94db6fafc50bc1e"
+            }
+          },
+          {
+            "source_page": 92,
+            "package_page": 4,
+            "normalized_extracted_text_identical": true,
+            "render_120dpi_identical": true,
+            "render": {
+              "width": 993,
+              "height": 1404,
+              "pixel_sha256": "a1d157c68f457b4222d3a711a188c83db8f64a07bab4f4c4441a3466564a6539"
+            }
+          },
+          {
+            "source_page": 93,
+            "package_page": 5,
+            "normalized_extracted_text_identical": true,
+            "render_120dpi_identical": true,
+            "render": {
+              "width": 993,
+              "height": 1404,
+              "pixel_sha256": "5e65fd375fd3000f2637973bc204fd6dcb29790454005fd0c60b54d8622fa1ed"
+            }
+          },
+          {
+            "source_page": 94,
+            "package_page": 6,
+            "normalized_extracted_text_identical": true,
+            "render_120dpi_identical": true,
+            "render": {
+              "width": 993,
+              "height": 1404,
+              "pixel_sha256": "7d741f7de76c4f0a2bcc2f8817e1a969a8eb7b878c44832ebbd389b06388b0b8"
+            }
+          },
+          {
+            "source_page": 95,
+            "package_page": 7,
+            "normalized_extracted_text_identical": true,
+            "render_120dpi_identical": true,
+            "render": {
+              "width": 993,
+              "height": 1404,
+              "pixel_sha256": "1a9f06bc41ba384a826c530c8b3a211aedbd4feffe15ed1ab774aafedf3fdda5"
+            }
+          }
+        ]
+      },
+      "file": "20034108-2.pdf"
+    }
+  ],
+  "course_details_exclusions": [
+    {
+      "title": "القانون الإداري",
+      "specification_code": "200324-3",
+      "match_status": "conflict",
+      "package_pdf": "pdf/200324-3.pdf",
+      "reason": "مطابقة الاسم فقط في الخطتين؛ رمز التوصيف 200324-3 بينما رمز الخطة 2003243-3، كما أن ساعات المصدر 4 وساعات الخطة 3.",
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "القانون الإداري",
+          "plan_code": "2003243-3",
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "القانون الإداري",
+          "plan_code": "2003243-3",
+          "plan_hours": 3
+        }
+      ]
+    },
+    {
+      "title": "نظام الأوراق التجارية والإفلاس",
+      "specification_code": "2003321-3",
+      "match_status": "conflict",
+      "package_pdf": "pdf/2003321-3.pdf",
+      "reason": "مطابقة الرمز فقط في الخطتين؛ عنوان الخطة «الأوراق التجارية والإفلاس» بلا كلمة «نظام».",
+      "code_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "الأوراق التجارية والإفلاس",
+          "plan_code": "2003321-3",
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "الأوراق التجارية والإفلاس",
+          "plan_code": "2003321-3",
+          "plan_hours": 3
+        }
+      ],
+      "name_only_candidates": []
+    },
+    {
+      "title": "القانون الدولي العام",
+      "specification_code": "2003006-3",
+      "match_status": "conflict",
+      "package_pdf": "pdf/2003006-3.pdf",
+      "reason": "مطابقة الاسم فقط؛ رمز التوصيف 2003006-3 بينما رمز الخطة في الإصدارين 2003226-3.",
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "القانون الدولي العام",
+          "plan_code": "2003226-3",
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "القانون الدولي العام",
+          "plan_code": "2003226-3",
+          "plan_hours": 3
+        }
+      ]
+    },
+    {
+      "title": "النظام الجزائي العام",
+      "specification_code": "2003223-3",
+      "match_status": "conflict",
+      "package_pdf": "pdf/2003223-3.pdf",
+      "reason": "مطابقة الاسم فقط؛ رمز التوصيف 2003223-3 بينما رمز الخطة في الإصدارين 2003222-3.",
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "النظام الجزائي العام",
+          "plan_code": "2003222-3",
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "النظام الجزائي العام",
+          "plan_code": "2003222-3",
+          "plan_hours": 3
+        }
+      ]
+    },
+    {
+      "title": "الحقوق العينية",
+      "specification_code": "2003440-3",
+      "match_status": "conflict",
+      "package_pdf": "pdf/2003440-3.pdf",
+      "reason": "مطابقة الاسم فقط؛ رمز التوصيف 2003440-3 بينما رمز الخطة 2003441-3، كما أن ساعات المصدر 4 وساعات الخطة 3.",
+      "code_only_candidates": [],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "الحقوق العينية",
+          "plan_code": "2003441-3",
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "الحقوق العينية",
+          "plan_code": "2003441-3",
+          "plan_hours": 3
+        }
+      ]
+    },
+    {
+      "title": "نظام الزكاة والضريبة",
+      "specification_code": "20034107-2",
+      "match_status": "no_match",
+      "package_pdf": "pdf/20034107-2.pdf",
+      "reason": "لا توجد مطابقة صارمة ولا مرشح مطابق بالرمز أو الاسم في برنامجي الأنظمة المحددين.",
+      "code_only_candidates": [],
+      "name_only_candidates": []
+    },
+    {
+      "title": "اجراءات التنفيذ القضائي",
+      "specification_code": "2003453-3",
+      "match_status": "conflict",
+      "package_pdf": "pdf/2003453-3--ijraat-al-tanfidh.pdf",
+      "reason": "رمز التوصيف 2003453-3 متصادم مع توصيف «نظام المرافعات»؛ الخطة تستخدم 2003492-3 لـ«إجراءات التنفيذ القضائي»، والاسم أيضًا لا يطابق حرفيًا بسبب الهمزة.",
+      "code_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "نظام المرافعات",
+          "plan_code": "2003453-3",
+          "plan_hours": 3
+        }
+      ],
+      "name_only_candidates": []
+    },
+    {
+      "title": "القانون الدولي الخاص",
+      "specification_code": "2003442-3",
+      "match_status": "conflict",
+      "package_pdf": "pdf/2003442-3.pdf",
+      "reason": "في الخطة القديمة يطابق الرمز فقط عنوانًا مختلفًا «النظام الدولي الخاص»، وفي الخطة الجديدة يطابق الاسم فقط لكن برمز مختلف 2003105-3.",
+      "code_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "النظام الدولي الخاص",
+          "plan_code": "2003442-3",
+          "plan_hours": 3
+        }
+      ],
+      "name_only_candidates": [
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "القانون الدولي الخاص",
+          "plan_code": "2003105-3",
+          "plan_hours": 3
+        }
+      ]
+    },
+    {
+      "title": "التدريبات القانونية",
+      "specification_code": "2003404-2",
+      "match_status": "conflict",
+      "package_pdf": "pdf/2003404-2.pdf",
+      "reason": "مطابقة الرمز فقط في الخطة القديمة؛ اسم الخطة «تدريبات قانونية» لا يطابق حرفيًا «التدريبات القانونية».",
+      "code_only_candidates": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "plan_name": "تدريبات قانونية",
+          "plan_code": "2003404-2",
+          "plan_hours": 2
+        }
+      ],
+      "name_only_candidates": []
+    },
+    {
+      "title": "نظام حماية البيئة",
+      "specification_code": "20034108-2",
+      "match_status": "no_match",
+      "package_pdf": "pdf/20034108-2.pdf",
+      "reason": "لا توجد مطابقة صارمة؛ الخطة الجديدة تحتوي «نظام البيئة» برمز مختلف 2003347-2، ولا يوجد هذا الاسم والرمز معًا في النطاقين.",
+      "code_only_candidates": [],
+      "name_only_candidates": []
+    }
+  ],
+  "strict_hours_warnings": [
+    {
+      "title": "مصادر الالتزام",
+      "specification_code": "2003210-3",
+      "credit_hours_in_source": 4,
+      "strict_hours_conflicts": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        }
+      ],
+      "note": "يبقى التطابق صارمًا في الرمز والاسم؛ فرق الساعات مسجل للتدقيق.",
+      "match_status": "verified_with_hours_warning"
+    },
+    {
+      "title": "القانون التجاري",
+      "specification_code": "2003231-3",
+      "credit_hours_in_source": 4,
+      "strict_hours_conflicts": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        }
+      ],
+      "note": "يبقى التطابق صارمًا في الرمز والاسم؛ فرق الساعات مسجل للتدقيق.",
+      "match_status": "verified_with_hours_warning"
+    },
+    {
+      "title": "العقود التجارية وعمليات البنوك",
+      "specification_code": "2003433-3",
+      "credit_hours_in_source": 4,
+      "strict_hours_conflicts": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        }
+      ],
+      "note": "يبقى التطابق صارمًا في الرمز والاسم؛ فرق الساعات مسجل للتدقيق.",
+      "match_status": "verified_with_hours_warning"
+    },
+    {
+      "title": "القضاء الإداري",
+      "specification_code": "2003381-3",
+      "credit_hours_in_source": 4,
+      "strict_hours_conflicts": [
+        {
+          "scope": {
+            "program_id": 1,
+            "program": "الأنظمة",
+            "label": "الأنظمة",
+            "plan_type": "قديمة",
+            "version": "38",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        },
+        {
+          "scope": {
+            "program_id": 11,
+            "program": "الأنظمة",
+            "label": "الأنظمة (47 جديدة)",
+            "plan_type": "جديدة",
+            "version": "47",
+            "degree": "بكالوريوس"
+          },
+          "source_hours": 4,
+          "plan_hours": 3
+        }
+      ],
+      "note": "يبقى التطابق صارمًا في الرمز والاسم؛ فرق الساعات مسجل للتدقيق.",
+      "match_status": "verified_with_hours_warning"
+    }
+  ],
+  "json_only_correction": {
+    "corrected_at_utc": "2026-08-19T04:46:16.772271+00:00",
+    "hours_warning_codes": [
+      "2003210-3",
+      "2003231-3",
+      "2003381-3",
+      "2003433-3"
+    ],
+    "hours_warning_match_status": "verified_with_hours_warning",
+    "system_scope_degree": "بكالوريوس",
+    "course_details_fragment_sha256": "9586dd0682048c6e2cca3a38526676538868b229cc31407c2fd42f2545c9794e",
+    "pdf_files_changed": 0,
+    "pdf_hash_manifest_changed": false,
+    "last_updated_at_utc": "2026-08-19T04:55:59.863531+00:00"
+  },
+  "orthographic_normalization_update": {
+    "updated_at_utc": "2026-08-19T04:55:59.863531+00:00",
+    "codes": [
+      "2003114-2",
+      "2003352-2"
+    ],
+    "scope_added_per_code": {
+      "program": "الأنظمة",
+      "plan_type": "قديمة",
+      "version": "38",
+      "degree": "بكالوريوس"
+    },
+    "records_linked_after_update": 24,
+    "strict_scopes_after_update": 35,
+    "exclusions_after_update": 10,
+    "remaining_exclusions_unchanged": true,
+    "course_details_fragment_sha256": "9586dd0682048c6e2cca3a38526676538868b229cc31407c2fd42f2545c9794e",
+    "pdf_files_changed_or_touched": 0
+  }
+}

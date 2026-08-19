@@ -1,0 +1,181 @@
+{
+  "bundle": "fiqh-phd-1446",
+  "label": "دكتوراه الفقه 1446هـ",
+  "publication_policy": "Only exact course-code and conservative course-name matches are linked.",
+  "classification_label": "absent",
+  "rtl_visual": "pass",
+  "records": [
+    {
+      "type": "course-specification",
+      "title": "تطبيقات فقهية في الاجتهاد والفتوى",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات برنامج الدكتوراة في فقه 1446/توصيف المقرر الدراسي تطبيقات في الاجتهاد والفتوى 2024.pdf",
+      "file": "2001907-3.pdf",
+      "sha256": "82ee37b834bc6fc0cb0a2b7ab54836904fb5e1abd5984fa910bb80d2468cc88f",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001907-3",
+      "specification_code": "2001907-3",
+      "declared_hours": 3,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الفقه",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "ممارسة التطبيق الفقهي في المسائل الفقهية المتعلقة بالاجتهاد والفتوى وتعريفه بمسائلهما ومجالاتهما ومناهجهما",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "قضايا فقهية معاصرة",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات برنامج الدكتوراة في فقه 1446/توصيف المقرر الدراسي قضايا فقهية معاصرة 2024.pdf",
+      "file": "2001906-3.pdf",
+      "sha256": "65ef66426cf17604cfbafcfd30c09941b7544d1ad9162bd5e4aa51d8f60f7892",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001906-3",
+      "specification_code": "2001906-3",
+      "declared_hours": 3,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446 ه",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الفقه",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "مقدمة موجزة : عن مفهوم النوازل الفقهية ومنهج استنباطها ومراحل دراستها وأهم الضوابط التي ينبغي مراعاتها عند الاجتهاد فيها وتنزيل الحكم الفقهي عليها ، وابرز الهيئات الشرعية المعاصرة المعنية بدراسة النوازل الفقهية ، ومظانها . الجانب التطبيقي : ويتضمن دراسة بعض النوازل الفقهية المختلفة ومناهج العلماء المعاصرين في الاجتهاد فيها وتنزيل الحكم الشرعي عليها ، ونقد بعض الأبحاث فيها",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "متابعة الأبحاث والتحقيقات الفقهية ونقدها",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات برنامج الدكتوراة في فقه 1446/توصيف دكتوراه مقرر متابعة الأبحاث 2024.pdf",
+      "file": "2001908-3.pdf",
+      "sha256": "0bf27b9fed01b1da40ecd8cc0648317d7754a0c260fd81fa1d4f96d0bce1bc6d",
+      "page_count": 6,
+      "qpdf_check": "passed",
+      "source_code": "2001908-3",
+      "specification_code": "2001908-3",
+      "declared_hours": 3,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446ه",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الفقه",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "يعني المقرر بتدريب الطالب على التحرير الفقهي العلمي المنهجي ، وصولاً به إلى اتقان مهارات عرض ونقد وكتابة المسائل الفقهية والتأليف فيها بطريقة منهجية في كل مرحلة من مراحل عرض المسألة الفقهية بعرض متدرج منطقي وصولاً إلى النتيجة النهائية المنضبطة",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "الرسالة",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات برنامج الدكتوراة في فقه 1446/توصيف دكتوراه الرسالة 2024 -.pdf",
+      "file": "2001909-28.pdf",
+      "sha256": "4c163ef125387563e19a7b5cf51da20c6820e2992b3a4bddd9b0fcbe19b39c02",
+      "page_count": 6,
+      "qpdf_check": "passed",
+      "source_code": "2001909-28",
+      "specification_code": "2001909-28",
+      "declared_hours": 28,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446ه",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الفقه",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "تنمية وتطبيق المهارات البحثية والمعارف والقيم لمعالجة إحدى القضايا الفقهية وفق ضوابط ومعايير مناهج البحث العلمي وإجراءاته",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "التحرير الفقهي",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات برنامج الدكتوراة في فقه 1446/توصيف دكتوراه مقرر تحرير فقهي1 2024 - (2).pdf",
+      "file": "2001905-3.pdf",
+      "sha256": "9c9090de42bf0e713c2de549b18b342893134406b0870c156bc1697d21c30c69",
+      "page_count": 6,
+      "qpdf_check": "passed",
+      "source_code": "2001905-3",
+      "specification_code": "2001905-3",
+      "declared_hours": 3,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446ه",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الفقه",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "متابعة اوعية نشر الأبحاث والتحقيقات الفقهية ( المجلات العلمية والحوليات ، الرسائل العلمية ، المؤتمرات والندوات ، دور النشر ، المواقع الالكترونية المتخصصة ، الكتب المحققة تحقيقا علميا اكاديميا ) وكتابة التقارير التفصيلية عن كل وعاء وما نشر فيه من بحوث وكتب وتحقيقات في المجال الفقهي خلال العامين السابقين لعام الدراسة ، كما يعنى بجمع بعض الدراسات الفقهية التي تدور حول موضوع واحد ونقدها والموازنة بينها ومناقشة ذلك في قاعة الدرس بإشراف ومتابعة من استاذ المادة",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    }
+  ],
+  "withheld_program_specifications": [
+    {
+      "type": "program-specification",
+      "title": "توصيف برنامج دكتوراه الفقه",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات برنامج الدكتوراة في فقه 1446/نموذج توصيف برنامج الدكتوراه في الفقه 2024.pdf",
+      "publication_status": "withheld",
+      "missing_fields": [
+        "رمز البرنامج وفق التصنيف السعودي الموحد",
+        "تاريخ آخر مراجعة"
+      ],
+      "reason": "الحقلان ما زالا قالبين فارغين (اكتب هنا)، ولا يثبت تاريخ جلسة الاعتماد تاريخ آخر المراجعة."
+    }
+  ],
+  "summary": {
+    "total_files": 5,
+    "course_specifications": 5,
+    "program_specifications": 0,
+    "strict_linked": 5,
+    "quarantined": 0,
+    "complete_approvals": 5,
+    "withheld_program_specifications": 1
+  }
+}

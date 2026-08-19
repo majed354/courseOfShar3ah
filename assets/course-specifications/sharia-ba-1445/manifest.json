@@ -1,0 +1,1257 @@
+{
+  "bundle": "sharia-ba-1445",
+  "label": "بكالوريوس الشريعة 1445هـ",
+  "publication_policy": "Only exact course-code and conservative course-name matches are linked.",
+  "classification_label": "absent",
+  "rtl_visual": "pass",
+  "records": [
+    {
+      "type": "course-specification",
+      "title": "المقدمات الأصولية",
+      "source_relative_path": "بكالوريوس الشريعة/(1) المستوى الأول/المقدمات الاصولية.pdf",
+      "file": "2001110-2.pdf",
+      "sha256": "4a9483a1b1b107ea939173e12531088ce67a6e2de5b912fb47cd0bef40a70dc1",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "2ـ 2001110",
+      "specification_code": "2001110-2",
+      "declared_hours": null,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "يتناول هذا المقرر مبادئ علم أصول الفقه ونشأته ومؤلفاته، وأصول الاستنباط عند أئمة المذاهب الفقهية الأربعة، وأهم المصطلحات المنطقية التي يحتاج إليها الطالب في دراسته لعلم أصول الفقه",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "الفقه (1)",
+      "source_relative_path": "بكالوريوس الشريعة/(1) المستوى الأول/توصيف الفقه 1 جديد.pdf",
+      "file": "2001115-4.pdf",
+      "sha256": "7318f2019ec13e47ea07b4cee8587fb5922e63aced0563f3b7ed1a39d6579c94",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001115-4",
+      "specification_code": "2001115-4",
+      "declared_hours": 4,
+      "approval": {
+        "authority": "مجلس قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "يتناول هذا المقرر أربعة عشر موضوعا : يشمل معنى الطهارة وأنواعها وأحكام الماء المتطهر به، أنواع الأنية وأحكام استعمالها، أحكام الاستنجاء والاستجمار وآدابها، سنن الفطرة وأحكام السواك، أحكام الوضوء وشروطه وسننه ونواقضه، موجبات الغسل وصفته وأحكامه، أحكام المسح على الخفين والحوائل، معنى التيمم وصفته وأحكامه، معنى النجاسة وأقسامها وأحكامها، ومعنى الحيض والاستحاضة والنفاس وأحكام كل منها، ومسائل من نوازل الطهارة، وحقيقة الصلاة ومشروعيتها وأحكام النداء لها، وشروط الصلاة، وأركانها، وواجباتها، والمحرمات فيها والمكروهات من الأفعال والأقوال، وأحكام سجود السهو في الصلاة",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "التوحيد العملي",
+      "source_relative_path": "بكالوريوس الشريعة/(1) المستوى الأول/توصيف مقرر التوحيد العملي 2023.pdf",
+      "file": "2001108-2.pdf",
+      "sha256": "3d78a86d3edd7aaefce1281c07543a86c7dc253fe7dff875b123c244e5307af2",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001108 – 2",
+      "specification_code": "2001108-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "يقدم هذا المقرر تصور عام للطالب عن علم العقيدة، والمصطلحات العقدية، وأقسام التوحيد، ثم يركز على مفردات التوحيد العملي، وكيفية غرس المعتقد الصحيح وفقاً لمذهب أهل السنة والجماعة، مع بيان المخالفين لهم ، والرد على شبههم",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "المدخل لدراسة الشريعة",
+      "source_relative_path": "بكالوريوس الشريعة/(1) المستوى الأول/توصيف مقرر المدخل لدراسة الشريعة[1].pdf",
+      "file": "quarantine/2001260.pdf",
+      "sha256": "ab87362d6cb2953bf9d3f28c370b7afd1dfaf1f8947a2b7170a772a00f3a2bd3",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001260",
+      "specification_code": "2001260",
+      "declared_hours": null,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "name-only-code-mismatch",
+      "scopes": [],
+      "summary": "يتناول هذا المقرر (عشرة موضوعات) وتشمل مبادئ علم الفقه الإسلامي وخصائصه، وأثر عصر النبوة في تأسيس الفقه، وأثر الصحابة والتابعين في الفقه، ومسيرة الفقه في عصر الأئمة المجتهدين، ومسيرة الفقه بعد الأئمة المجتهدين، ومسيرة الفقه في العصر الحاضر، معالم المذهب الحنفي، ومعالم المذهب المالكي، ومعالم المذهب الشافعي، ومعالم المذهب الحنبلي",
+      "classification_label": "absent",
+      "rtl_visual": "pass",
+      "exclusion_note": {
+        "code_only_matches": [],
+        "name_only_matches": [
+          {
+            "program_id": 2,
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": 38,
+            "course_code": "2001260-2",
+            "course_name": "المدخل لدراسة الشريعة",
+            "hours": 2
+          },
+          {
+            "program_id": 3,
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": 39,
+            "course_code": "2001260-2",
+            "course_name": "المدخل لدراسة الشريعة",
+            "hours": 2
+          }
+        ],
+        "reason": "Not linked because both the full code and course name did not match the plan."
+      }
+    },
+    {
+      "type": "course-specification",
+      "title": "التوحيد العلمي",
+      "source_relative_path": "بكالوريوس الشريعة/(2) المستوى الثاني/توصيف مقرر التوحيد العلمي 2023.pdf",
+      "file": "2001107-2.pdf",
+      "sha256": "c5dacc47ffab478edc9eab89dc398f5af7872f07e2e79354226912e49a6717a3",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001107 – 2",
+      "specification_code": "2001107-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "يقدم هذا المقر تصوراً عاماً للطالب عن أدلة اثبات وجود الله، ومناقشة دعاوي المنكرين لوجود الله تعالى، وكذلك التعريف بقواعد وضوابط توحيد الأسماء و الصفات عند أهل السنة و الجماعة من خلال دراسة أهم صفات الله تعالى التي تميز أهل السنة و الجماعة بإثباتها دراسة مفصلة مع عرض شبهات المخالفين ونقدها نقداً مفصلاً",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "الحكم الشرعي والتكليف",
+      "source_relative_path": "بكالوريوس الشريعة/(2) المستوى الثاني/الحكم الشرعي والتكليفي.pdf",
+      "file": "2001127-2.pdf",
+      "sha256": "5cb940bd2a85490c4bc788e6d34e6650322b134df9f32a5a8c365925bc4fd578",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "2ـ 2001127",
+      "specification_code": "2001127-2",
+      "declared_hours": null,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "يتناول هذا المقرر حقيقة الحكم الشرعي وتقسيماته، والمسائل المهمة في كل قسم، وحقيقة التكليف، وشروطه",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "الفقه (2)",
+      "source_relative_path": "بكالوريوس الشريعة/(2) المستوى الثاني/توصيف فقه 2 جديد.pdf",
+      "file": "2001116-4.pdf",
+      "sha256": "2a2ff2bde1363726eaf7b65789d22bd7136ab01f65c55a2862f96d683f47b9a4",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001116-4",
+      "specification_code": "2001116-4",
+      "declared_hours": 4,
+      "approval": {
+        "authority": "مجلس قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "يشتمل هذا المقرر على تتمة كتاب الصلاة ؛ صلاة التطوع، والاستسقاء، والكسوف، والعيدين، والجنائز، كتاب الزكاة؛ الأموال التي تجب فيها الزكاة وشروط الزكاة فيها ، ومقدار الأنصبة، ومقدار الواجب في كل مال، وصدقة التطوع والأحكام المتعلقة بها، وأهل الزكاة – مصارف الزكاة-",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "فقه تاريخ عصر الخلفاء الراشدين",
+      "source_relative_path": "بكالوريوس الشريعة/(2) المستوى الثاني/توصيف مقرر الخلفاء الراشدين[1].pdf",
+      "file": "quarantine/2001126-2.pdf",
+      "sha256": "549b7ed9c123208de2d30d5f95b90430a2074a6b82b3f5c120bbaf89df612e0e",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001126-2",
+      "specification_code": "2001126-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "code-only-name-mismatch",
+      "scopes": [],
+      "summary": "يتناول هذا المقرر التعريف بالخلفاء الراشدين رضي الله عنهم ، ونظام الخلافة ونشأتها في عهدهم ، والحالة التاريخية لخلافة كلٍ منهم ، وحروب الردة وأسبابها ، ودور المسلمين في عصر الخلافة في مواجهة المرتدين ، والفتوحات الإسلامية ودوافعها ، وأسس الحكم في عصر الخلفاء ، ومصادر الفتيا والتشريع والقضاء في عصرهم ، وأنظمة الحكم في عصرهم (الإداري والمالي) ، الفتنة التي وقعت في عصر الخلفاء الراشدين وأسبابها – وموقف الصحابة رضي الله عنهم منها ، وتفنيد الشبهات حول الفتن التي وقعت بين الصحابة وبيان منهج أهل السنة والجماعة (السلف الصالح) من هذ الفتن ، والرد على شبهات الفرق",
+      "classification_label": "absent",
+      "rtl_visual": "pass",
+      "exclusion_note": {
+        "code_only_matches": [
+          {
+            "program_id": 2,
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": 38,
+            "course_code": "2001126-2",
+            "course_name": "فقه تاريخ عصر الراشدين",
+            "hours": 2
+          },
+          {
+            "program_id": 3,
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": 39,
+            "course_code": "2001126-2",
+            "course_name": "فقه تاريخ عصر الراشدين",
+            "hours": 2
+          },
+          {
+            "program_id": 13,
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": 47,
+            "course_code": "2001126-2",
+            "course_name": "فقه تاريخ عصر الراشدين",
+            "hours": 2
+          }
+        ],
+        "name_only_matches": [],
+        "reason": "Not linked because both the full code and course name did not match the plan."
+      }
+    },
+    {
+      "type": "course-specification",
+      "title": "فقه السيرة النبوية",
+      "source_relative_path": "بكالوريوس الشريعة/(2) المستوى الثاني/نموذج توصيف مقرر فقه السيره النبويه [1].pdf",
+      "file": "2001281-2.pdf",
+      "sha256": "59cfc28c4501297a518735195b671511bdda947739e0e8602f76f9b773fea61a",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001281-2",
+      "specification_code": "2001281-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "مجلس قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "يتناول هذا المقرر (عدداً من موضوعات) وتشمل أهمية وأهداف دراسة سيرة النبي محمد صلى الله عليه وسلم ، وأحوال العرب وغيرهم قبل الإسلام ، ومولده ونشأته وبعثته ونزول الوحي عليه ، وبداية الدعوة والأحداث المصاحبة لها ومراحلها ومعوقاتها ومحاربتها من المشركين ، وهجرة أصحابه للحبشة ، وهجرته للمدينة صلى الله عليه وسلم ، والأحداث التي وقعت في المدينة ، وتأسيس الدولة ، ودعوته للناس وجهاده وغزواته وسراياه ، ورسائله للملوك والرؤساء ودعوتهم للإسلام ، وحجة الوداع ، ووفاته صلى الله عليه وسلم ، وأخلاقه وصفاته وشمائله",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "النبوات والمعاد",
+      "source_relative_path": "بكالوريوس الشريعة/(3) المستوى الثالث/توصيف مقرر النبوات والمعاد 2023.pdf",
+      "file": "2001210-2.pdf",
+      "sha256": "edad23ecdab4ab490dabe820ebd7715c920825e275c586426db7f4697d9ae161",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001210 – 2",
+      "specification_code": "2001210-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "يقدم المقرر للطالب تصوراً عاماً عن أصلين من أهم أصول الاعتقاد عند أهل السنة والجماعة : هما النبوات و المعاد ، كما يناقش أصول المخالفين لأهل السنة والجماعة فيهما ، وآثارها الفكرية والواقعية ، مع بيان ما فيها من مخالفة لأدلة الشرع وهدي السلف الصالح، وكذلك دحض و تفنيد شبهات المنحرفين من الدهرية والفلاسفة ، ومن تأثر بهم من المتكلمين",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "الفقه (3)",
+      "source_relative_path": "بكالوريوس الشريعة/(3) المستوى الثالث/توصيف فقه 3 جديد.pdf",
+      "file": "2001215-4.pdf",
+      "sha256": "0832c0263d33f2a8aaab512cb3d4a3acfcccc1a9c21227314f996de34045d48b",
+      "page_count": 9,
+      "qpdf_check": "passed",
+      "source_code": "2001215 ـ 4",
+      "specification_code": "2001215-4",
+      "declared_hours": 4,
+      "approval": {
+        "authority": "مجلس قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "يتناول هذا المقرر حقيقة الصيام وأحكامه التفصيلية؛ طرق ثبوت الشهر، وأنواع المفطرات، وأقسام الأعذار المبيحة للفطر، وأحكام القضاء، وكفارة الفطر في رمضان، وأحكام الحج؛ أركانه وواجباته، وسننه، والإحرام ومحظوراته، والمواقيت الزمانية والمكانية وما يتعلق بها من أحكام، وأحكام الهدي والأضاحي، كتاب الجهاد، وأحكام أهل الذمة ، والأحكام المتعلقة ببدء الحرب، والعلاقات الدولية",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "قاعة بحث",
+      "source_relative_path": "بكالوريوس الشريعة/(3) المستوى الثالث/قاعة بحث.pdf",
+      "file": "2001482-2.pdf",
+      "sha256": "ab0d1b98f22090e1c7f2a7d2386498bad35f2b97f1387d4d8b8a34da2e52a456",
+      "page_count": 10,
+      "qpdf_check": "passed",
+      "source_code": "2-2001482",
+      "specification_code": "2001482-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "يشمل : مبادئ البحث العلمي، ومناهج البحث العلمي واختيار المناسب منها، وصياغة خطة البحث، وقواعد جمع المادة العلمية، وقواعد صياغة البحث، وقواعد التعليق والتهميش والتوثيق، وقواعد تحقيق المخطوطات، والمراجع والمصادر وطريقة ترتيبها وفهرستها، وطريقة طباعة البحث وإخراجه، والتدريب على إعداد بحث علمي",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "الفقه (4)",
+      "source_relative_path": "بكالوريوس الشريعة/(4) المستوى الرابع/توصيف فقه 4 جديد.pdf",
+      "file": "2001216-4.pdf",
+      "sha256": "1e14fa8b1685d41be1f321ce0c8e81141cbd6f8d33a253415d0e8fcb50380367",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001216-4",
+      "specification_code": "2001216-4",
+      "declared_hours": 4,
+      "approval": {
+        "authority": "مجلس قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "يتناول هذا المقرر أحكام البيع، والخيار وأنواعه، والصرف والربا، وبيع الأصول والثمار، والسلم وشروطه، والضمان، والصلح وأنواعه، والحجر والتفليس، والوكالة",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "الفقه المقارن",
+      "source_relative_path": "بكالوريوس الشريعة/(4) المستوى الرابع/فقه مقارن.pdf",
+      "file": "2001225-2.pdf",
+      "sha256": "53dec989ae58a0ee937375038ce7255f26b4dadb38ac88714f6e73e9ab2feff4",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2-2001225",
+      "specification_code": "2001225-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "مقدمة في تعريف الفقه المقارن، والفرق بينه وبين الفقه المذهبي، موجز عن أسباب اختلاف الفقهاء ، موجز عن تاريخ تكوين المذاهب الفقهية، ودراسة مسائل فقهية مختلف فيها وهي: اشتراط النية في الوضوء، المسح على الجورب, مس المرأة هل ينقض الوضوء ؟, قراءة الفاتحة في الصلاة، ثبوت شهر رمضان، التسعير، التعزير بالمال, الشروط في عقد النكاح، الطلاق الثلاث بكلمة واحدة، وحضانة الطفل",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "الإيمان والقدر",
+      "source_relative_path": "بكالوريوس الشريعة/(5) المستوى الخامس/توصيف مقرر الإيمان والقدر 2023.pdf",
+      "file": "2001312-2.pdf",
+      "sha256": "d167286f9f3326964db300b0c7dd6e40e805c8eb5da1f9fb3d91e3b43b40daf7",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "2001312 – 2",
+      "specification_code": "2001312-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "هذ المقرر يهتم بدراسة مسائل الإيمان وعلاقته بالعمل وكيفية زيادته ونقصانه، واختلاف فرق الإسلام في مسمى الإيمان، ومفهوم القضاء والقدر، واختلاف الناس فيه، ومعرفة أهم ثمرات الإيمان به. مع بيان مذهب السلف في خلق الله لأفعال الناس، وأدلتهم، والرد على من خالفهم",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "الفقه (5)",
+      "source_relative_path": "بكالوريوس الشريعة/(5) المستوى الخامس/توصيف فقه 5 جديد.pdf",
+      "file": "2001311-4.pdf",
+      "sha256": "1e52e1c72a878e7a288a8d01fe33bc69674bef6631c19691546031fdee1ea0ce",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001311-4",
+      "specification_code": "2001311-4",
+      "declared_hours": 4,
+      "approval": {
+        "authority": "مجلس قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "يتناول هذا المقرر أحكام الشركة ، والمزراعة والمساقاة، والإجارة، والجعالة، والغصب وأحكامه، والوصايا، والوديعة، والسبق",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "السياسة الشرعية",
+      "source_relative_path": "بكالوريوس الشريعة/(5) المستوى الخامس/توصيف مقرر السياسه الشرعية.pdf",
+      "file": "2001310-2.pdf",
+      "sha256": "8d28fdb40eb3c1e2231ee4a1cc8cf60bf2bb6ebaaa1d9195e00cce9b6a828589",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001310ــ 2",
+      "specification_code": "2001310-2",
+      "declared_hours": null,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "الوصف العام للمقرر: يتناول هذا المقرر مبادئ علم السياسة الشرعية ونشأته، وأبرز المؤلفات فيه وحكم العمل بالسياسة الشرعية وضوابط ذلك ومجالاته، والولايات العامة وأبرز خصائصها، وتطبيقات قديمة ومعاصرة للسياسة الشرعية ــ نماذج عمل الخلفاء الراشدين بالسياسة الشرعية - تطبيقات السياسة الشرعية في نظام الحكم - وتطبيقات السياسة الشرعية في النظام القضائي - وتطبيقات السياسة الشرعية في العقوبات - وتطبيقات السياسة الشرعية في النظام الإداري - وتطبيقات السياسة الشرعية في النظام الاقتصادي - وتطبيقات السياسة الشرعية في العلاقات الدولية",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "دلالات الألفاظ (1)",
+      "source_relative_path": "بكالوريوس الشريعة/(5) المستوى الخامس/دلالات الألفاظ 1.pdf",
+      "file": "2001319-3.pdf",
+      "sha256": "d501b4f75d0466f38810d180214a5faf3841541783b7ac2765dd5606825b0b55",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "3- 2001319",
+      "specification_code": "2001319-3",
+      "declared_hours": null,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "وصف عام للمقرر: يتناول هذا المقرر: دلالات الألفاظ وتقسيماتها، والبيان وما يتعلق به، والتأويل وشروطه وأنواعه ، وحروف المعاني ودلالاتها",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "علم المواريث (1)",
+      "source_relative_path": "بكالوريوس الشريعة/(5) المستوى الخامس/مواريث 1.pdf",
+      "file": "2001351-3.pdf",
+      "sha256": "ec4d12eded8dd9b93fb261d08c89768a069b489efecf83700413ae8392f0e2de",
+      "page_count": 9,
+      "qpdf_check": "passed",
+      "source_code": "3-2001351",
+      "specification_code": "2001351-3",
+      "declared_hours": 3,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "يتناول هذا المقرر التعريف بمبادئ علم المواريث، ومعرفة الوارثين من الرجال والنساء، ونصيب كل فرد منهم، وشروط الإرث ، وموانعه، ومعرفة التعصيب وأقسامة، والحجب وأنواعه، وميراث الجد مع الإخوة، العول، والتصحيح، والرد",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "الأديان والفرق",
+      "source_relative_path": "بكالوريوس الشريعة/(6) المستوى السادس/توصيف مقرر الأديان والفرق 2023.pdf",
+      "file": "2001476-2.pdf",
+      "sha256": "f60654eb7c9f0beb2ddf51eb7d03b471fefe4dca3b55e784b727a6ec1b23d7a1",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "2001476 – 2",
+      "specification_code": "2001476-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "يقدم المقرر للطالب تصوراً عاماً عن أصول الافتراق وأسبابه ودراسة تفصيلية لبعض الفرق التي انحرفت عن منهج السنة النبوية كالخوارج والشيعة والمرجئة وغيرها، ثم دراسة للأديان وأهميتها وفوائدها ودراسة تفصيلية لبعض الأديان كأديان الهند وأهل الكتاب",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "الفقه (6)",
+      "source_relative_path": "بكالوريوس الشريعة/(6) المستوى السادس/توصيف فقه 6 جديد.pdf",
+      "file": "2001321-4.pdf",
+      "sha256": "e348778d019f730c105c022d7fd8455f52817c7f6409a63cf959c03c7dbea313",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "2001321ـ 4",
+      "specification_code": "2001321-4",
+      "declared_hours": 4,
+      "approval": {
+        "authority": "مجلس قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "يتناول هذا المقرر الأحكام الفقهية المتعلقة بفقه الأسرة، عقد النكاح وما يتبعه من شروط وأركان، وحل العقد طلاقا وخلعاً، والرجعة ، والإيلاء",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "دلالات الألفاظ (2)",
+      "source_relative_path": "بكالوريوس الشريعة/(6) المستوى السادس/دلالات الالفاظ 2.pdf",
+      "file": "2001326-2.pdf",
+      "sha256": "428a1b6cda3eb51d29903a22135f43bd6100687b1ca7f2bf26123e8af27b4c79",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "2- 2001326",
+      "specification_code": "2001326-2",
+      "declared_hours": null,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "تناول هذا المقرر: أقسام دلالة اللفظ على معناه من حيث : العموم والخصوص والاشتراك، والإطلاق والتقييد، والمنطوق والمفهوم",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "علم المواريث (2)",
+      "source_relative_path": "بكالوريوس الشريعة/(6) المستوى السادس/مواريث 2.pdf",
+      "file": "2001352-2.pdf",
+      "sha256": "3baa653fd47ef0a5a8839f2e404831890d118463836bfdbb6295651a5ecb397f",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "2-2001352",
+      "specification_code": "2001352-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "يتناول هذا المقرر الأحكام المتعلقة بالمناسخات أحوالها وطرق حلها، وقسمة التركات ووجوه حلها، ميراث الحمل ، والغرقى والهدمى، وميراث المفقود ، والخنثى، وذوي الأرحام",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "القواعد الفقهية (1)",
+      "source_relative_path": "بكالوريوس الشريعة/(7) المستوى السابع/القواعد الفقهية 1.pdf",
+      "file": "2001419-2.pdf",
+      "sha256": "ba0190538290c6b1ef6a639132b8f3e4fc9a29d5b9c9697250533cca3a73cb17",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2-2001419",
+      "specification_code": "2001419-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "يتناول هذا المقرر أربعة معايير هي: مبادئ علم القواعد الفقهية ونشأته ومؤلفاته، حقيقة قاعدة (الأمور بمقاصدها) والقواعد المندرجة تحتها، حقيقة قاعدة (اليقين لا يزول بالشك) والقواعد المندرجة تحته، حقيقة قاعدة (المشقة تجلب التيسير) والقواعد المندرجة تحتها",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "الفقه (7)",
+      "source_relative_path": "بكالوريوس الشريعة/(7) المستوى السابع/توصيف فقه 7 جديد.pdf",
+      "file": "2001411-4.pdf",
+      "sha256": "2a33bddb0843be7fc813f7fcc21e29d13292694af255f4556de7c95d242d3aa3",
+      "page_count": 9,
+      "qpdf_check": "passed",
+      "source_code": "2001411ـ 4",
+      "specification_code": "2001411-4",
+      "declared_hours": 4,
+      "approval": {
+        "authority": "مجلس قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "معرفة الأحكام الفقهية المتعلقة باللعان والرضاع والنفقات والحضانة والجنايات والديات والقسامة تنمية الملكة الفقهية لاستنباط أحكام المسائل وخاصة ما يُستجد منها . ربط الفقه بالواقع . استشعار عظمة الشريعة في اهتمامها بدم الفرد المسلم، والمحافظة على النفس البشرية",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "مذاهب فكرية معاصرة",
+      "source_relative_path": "بكالوريوس الشريعة/(8) المستوى الثامن/توصيف مقرر مذاهب فكرية معاصرة 2023.pdf",
+      "file": "2001375-2.pdf",
+      "sha256": "46fd130cc86683b6b632ea3b5396afbfefb65dd96ee5a4a8057abbcc2a4e9889",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001375 – 2",
+      "specification_code": "2001375-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "يقدم المقرر للطالب تصوراً عاماً عن نشأة المذاهب الفكرية وسبب تأثر أوروبا بها ثم الاتجاه المادي الإلحادي والعداوة للدين النصراني ثم دراسة تفصيلية لبعض هذه المذاهب كالشيوعية والديمقراطية والعلمانية والعقلانية والحداثة وغيرها",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "القواعد الفقهية (2)",
+      "source_relative_path": "بكالوريوس الشريعة/(8) المستوى الثامن/القواعد الفقهية 2.pdf",
+      "file": "2001425-2.pdf",
+      "sha256": "7da8fe2c431aa6b0e3f2aa34a34a6a6518610a56b3bcc211f142f517b5868b36",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "2-2001425",
+      "specification_code": "2001425-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "يتناول هذا المقرر تتمة للمقرر السابق ثلاثة معايير هي: حقيقة قاعدة (لا ضرر ولا ضرار)، والقواعد المندرجة تحتها. وحقيقة قاعدة (العادة محكمة)، والقواعد المندرجة تحتها، وحقيقة جملة من القواعد الكلية، وضبط أحكامها",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "التدريبات العملية",
+      "source_relative_path": "بكالوريوس الشريعة/(8) المستوى الثامن/توصيف التدريبات العملية.pdf",
+      "file": "quarantine/2001435-3.pdf",
+      "sha256": "c136e71282ca6a5c4ff3bb6dd42ae35d270946a51d3ea6adca506a9da89f61e4",
+      "page_count": 6,
+      "qpdf_check": "passed",
+      "source_code": "2001435",
+      "specification_code": "2001435-3",
+      "declared_hours": 3,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "name-only-code-mismatch",
+      "scopes": [],
+      "summary": "يتناول هذا المقرر مقدمة في منهج فقه النوازل والمستجدات، ودراسة مسائل معاصرة منها : توسعة المطاف، وزراعة الأعضاء، والاستنساخ، والتورق المصرفي، والمتاجرة في البورصة والأسهم، والشركات الشبكية والهرمية، والتأمين التجاري والتعاوني، وطفل الأنابيب، وما يستجد من بعض المسائل المعاصرة",
+      "classification_label": "absent",
+      "rtl_visual": "pass",
+      "exclusion_note": {
+        "code_only_matches": [],
+        "name_only_matches": [
+          {
+            "program_id": 3,
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": 39,
+            "course_code": "20014201-2",
+            "course_name": "التدريبات العملية",
+            "hours": 2
+          }
+        ],
+        "reason": "Not linked because both the full code and course name did not match the plan."
+      }
+    },
+    {
+      "type": "course-specification",
+      "title": "الاقتصاد الإسلامي",
+      "source_relative_path": "بكالوريوس الشريعة/(8) المستوى الثامن/توصيف مقرر الاقتصاد الاسلامي.pdf",
+      "file": "2001383-2.pdf",
+      "sha256": "31b8bd42c339e7557f6cceae7eba0a81a747369f2c27bd0d396336f9df699b4d",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001383-2",
+      "specification_code": "2001383-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "مجلس قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "summary": "الوصف العام للمقرر: يتناول هذا المقرر أربعة موضوعات هي: دراسة مفهوم علم الاقتصاد وعلم الاقتصاد الإسلامي ومفهوم النظام الاقتصادي الإسلامي والمشكلة الاقتصادية في النظم الوضعية والنظام الإسلامي، والضوابط الإسلامية الحاكمة للسلوك الاقتصادي للفرد والمنشأة والمؤسسات الاقتصادية والحكومة في المجتمع الاسلامي",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "فقه النوازل",
+      "source_relative_path": "بكالوريوس الشريعة/(8) المستوى الثامن/توصيف مقرر فقه النوازل.pdf",
+      "file": "quarantine/2001465-3.pdf",
+      "sha256": "e6defdc56e70c37411f4e1e2c9d10d0ec65ce927b7170dc828106a75d3558e26",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001465",
+      "specification_code": "2001465-3",
+      "declared_hours": 3,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "6",
+        "session_date": "20/6/1445هـ",
+        "status": "complete"
+      },
+      "match_status": "name-only-code-mismatch",
+      "scopes": [],
+      "summary": "يتناول هذا المقرر مقدمة في منهج فقه النوازل والمستجدات، ودراسة مسائل معاصرة منها : توسعة المطاف، وزراعة الأعضاء، والاستنساخ، والتورق المصرفي، والمتاجرة في البورصة والأسهم، والشركات الشبكية والهرمية، والتأمين التجاري والتعاوني، وطفل الأنابيب، وما يستجد من بعض المسائل المعاصرة",
+      "classification_label": "absent",
+      "rtl_visual": "pass",
+      "exclusion_note": {
+        "code_only_matches": [],
+        "name_only_matches": [
+          {
+            "program_id": 2,
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": 38,
+            "course_code": "2001465-2",
+            "course_name": "فقه النوازل",
+            "hours": 2
+          },
+          {
+            "program_id": 3,
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": 39,
+            "course_code": "2001465-2",
+            "course_name": "فقه النوازل",
+            "hours": 2
+          },
+          {
+            "program_id": 13,
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": 47,
+            "course_code": "2001465-2",
+            "course_name": "فقه النوازل",
+            "hours": 2
+          }
+        ],
+        "reason": "Not linked because both the full code and course name did not match the plan."
+      }
+    }
+  ],
+  "withheld_program_specifications": [],
+  "summary": {
+    "total_files": 30,
+    "course_specifications": 30,
+    "program_specifications": 0,
+    "strict_linked": 26,
+    "quarantined": 4,
+    "complete_approvals": 30,
+    "withheld_program_specifications": 0
+  }
+}

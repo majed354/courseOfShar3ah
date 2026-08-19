@@ -1,0 +1,74 @@
+{
+  "bundle": "usul-phd-1446",
+  "label": "دكتوراه أصول الفقه 1446هـ",
+  "publication_policy": "Only exact course-code and conservative course-name matches are linked.",
+  "classification_label": "absent",
+  "rtl_visual": "pass",
+  "records": [
+    {
+      "type": "course-specification",
+      "title": "المصطلحات والفروق الأصولية",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات برنامج الدكتوراة في أصول الفقه 1446/توصيف المصطلحات والفروق الأصولية - دكتوراة.pdf",
+      "file": "2001900-3.pdf",
+      "sha256": "8ed06caf82f9bea135ec79ee2f395e2e911d360c6b21d03a44a5e9a5b5f2eea8",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "2001900-3",
+      "specification_code": "2001900-3",
+      "declared_hours": 3,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "أصول الفقه",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "تتناول هذه المادة أوجه الاتفاق والافتراق في القواعد و المصطلحات الأصولية وأسباب ذلك، تكوين الملكة العلمية التي تساعد في استنباط الأحكام والوقوف على مناهج العلماء في ذلك والتمييز بين الأشباه والنظائر، تكوين ملكة التمييز بين القواعد الأصولية المتشابهة والمصطلحات المتشابهة وبيان ما بينهما من وحوه التمايز",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "program-specification",
+      "title": "نموذج توصيف برنامج دكتوراه أصول فقه 2024",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات برنامج الدكتوراة في أصول الفقه 1446/نموذج توصيف برنامج دكتوراه أصول فقه 2024.pdf",
+      "file": "program-specification.pdf",
+      "sha256": "c288fa7e53ed9f955cc1a7a47d9a28b82e1dd89579d36bebfdbc2254430fda29",
+      "page_count": 16,
+      "qpdf_check": "passed",
+      "source_code": "",
+      "specification_code": "",
+      "declared_hours": null,
+      "approval": {
+        "authority": "مجلس قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24 / 05 / 1446هـ",
+        "status": "complete"
+      },
+      "match_status": "program-specification",
+      "scopes": [],
+      "summary": "",
+      "classification_label": "absent",
+      "rtl_visual": "pass",
+      "reference_only": true,
+      "publication_note": "توصيف برنامج مرجعي؛ لم تُستخدم رموزه وحدها لربط توصيفات المقررات."
+    }
+  ],
+  "withheld_program_specifications": [],
+  "summary": {
+    "total_files": 2,
+    "course_specifications": 1,
+    "program_specifications": 1,
+    "strict_linked": 1,
+    "quarantined": 0,
+    "complete_approvals": 1,
+    "withheld_program_specifications": 0
+  }
+}

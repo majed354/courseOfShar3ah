@@ -1,0 +1,210 @@
+{
+  "bundle": "fiqh-master-1446",
+  "label": "ماجستير الفقه 1446هـ",
+  "publication_policy": "Only exact course-code and conservative course-name matches are linked.",
+  "classification_label": "absent",
+  "rtl_visual": "pass",
+  "records": [
+    {
+      "type": "course-specification",
+      "title": "تخريج الفروع على الأصول",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في الفقه 1446/تخريج الفروع على الأصول لبرنامج الفقه 2024.pdf",
+      "file": "2001812-2.pdf",
+      "sha256": "91ba26fb74aef5d1de2e3a06e32f5cdd21464bb5bb916935d2fc382a3507726a",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "2-2001812",
+      "specification_code": "2001812-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "يركز المقرر على تعريف الطالب بعلم تخريج الفروع على الأصول من الناحية النظرية، وكذلك من الناحية التطبيقية من خلال دراسة الفروع الفقهية المبنية على القواعد الأصولية",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "أصول البحث العلمي",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في الفقه 1446/توصيف أصول البحث العلمي 2024.pdf",
+      "file": "2001801-2.pdf",
+      "sha256": "0c3630ca7a766522f7b9f2eef37a4c87ba93a17f10bef5f5000bbddc0bcdffa3",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "2-2001801",
+      "specification_code": "2001801-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "إعداد وكتابة أبحاث فقهية مذهبية، وفقهية مقارنة، وتحقيق مخطو طات بمنهجية علمية عملية",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "تدريبات منهجية عملية (قضائية - طبية)",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في الفقه 1446/توصيف المقرر الدراسي تدريبات قضائية 2024.pdf",
+      "file": "2001832-4.pdf",
+      "sha256": "afd19389c26001c6b208cd5b418b6fa289343b6dacf6fb7230fb082600900c4b",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "2001832-4",
+      "specification_code": "2001832-4",
+      "declared_hours": 4,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "يعتمد هذا المقرر في تقديمه على الممارسة العملية لما ينبغي للطالب تحصيله خلال دراسته في البرنامج من خلال الزيارات الميدانية للجهات العدلية (النيابة العامة ، المحاكم بشتى تخصصاتها ، جهات التوثيق ، الهيئات الشرعية الطبية ) وتطبيق ما درسه ، وإعداد مذكرات تطبيقية وتقارير تحليلية ، يطبق فيها ما درسه",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "فقه المعاملات المالية المعاصرة",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في الفقه 1446/توصيف المقرر الدراسي معاملات مصرفية 2024.pdf",
+      "file": "2001824-2.pdf",
+      "sha256": "7f0aa86f8e098e7756d340ddf3f7a23f9b8038c50689f5c22cf3055c92591647",
+      "page_count": 8,
+      "qpdf_check": "passed",
+      "source_code": "2-2001824",
+      "specification_code": "2001824-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "المقرر يركز على دراسة بعض النماذج من مفردات فقه المعاملات المالية وما يرتبط بها من تطبيقات معاصرة بحيث يكون الهدف من دراسة أصل المسائل الفقهية الربط بينها وبين التطبيقات المعاصرة",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "النظريات الفقهية",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في الفقه 1446/توصيف النظريات الفقهية 2024.pdf",
+      "file": "2001803-2.pdf",
+      "sha256": "2248b247a469eedac8465463145d591ac9bd0a8a21183cfa9c0fd3b759196194",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2-2001803",
+      "specification_code": "2001803-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "مجلس القسم",
+        "session_number": "7",
+        "session_date": "24/5/1446هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "هو مقرر يعنى بتناول مفهوم النظريات الفقهية وتاريخه , واستمداده , وفائدته , مع استعراض موجز لعدد من النظريات الفقهية",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    },
+    {
+      "type": "course-specification",
+      "title": "مشروع تخرج بحثي",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في الفقه 1446/توصيف مشروع تخرج بحثي 2024.pdf",
+      "file": "2001833-4.pdf",
+      "sha256": "d6b1a3c2e2b443956ac4cc279870f471d8b77c12fcbdfd31c04b3a98e5df11ca",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "4-2001833",
+      "specification_code": "2001833-4",
+      "declared_hours": 4,
+      "approval": {
+        "authority": "قسم الشريعة",
+        "session_number": "7",
+        "session_date": "24/5/1446 هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "كتابة وإعداد أبحاث فقهية على أسس وضوابط علمية وفق المنهجية التي يقرها القسم، تتميز بالجدة والأصالة في صياغة البحث؛ ابتداءً من اختيار الفكرة البحثية، وعنوان البحث، والمنهج العلمي المناسب له، مع اتقان مهارات العزو والتوثيق والتعامل مع الحواشي والفهرسة وفق قواعد البحث العلمي",
+      "classification_label": "absent",
+      "rtl_visual": "pass"
+    }
+  ],
+  "withheld_program_specifications": [
+    {
+      "type": "program-specification",
+      "title": "توصيف برنامج ماجستير الفقه",
+      "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في الفقه 1446/نموذج توصيف برنامج الماجستير في الفقه 2024.pdf",
+      "publication_status": "withheld",
+      "missing_fields": [
+        "رمز البرنامج وفق التصنيف السعودي الموحد"
+      ],
+      "reason": "حقل رمز البرنامج ما زال قالبًا فارغًا (اكتب هنا)، ولم يوجد دليل محلي على رمز التصنيف السعودي الموحد."
+    }
+  ],
+  "summary": {
+    "total_files": 6,
+    "course_specifications": 6,
+    "program_specifications": 0,
+    "strict_linked": 6,
+    "quarantined": 0,
+    "complete_approvals": 6,
+    "withheld_program_specifications": 1
+  }
+}
