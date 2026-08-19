@@ -1,0 +1,97 @@
+{
+  "schema": "course-specification-publication-manifest/v1",
+  "bundle_slug": "quranic-course-updates-1446",
+  "source_archive": "توصيفات أخرى/١١١١٢٢٢٢-20260819T144028Z-1-001.zip",
+  "source_archive_sha256": "b84290dc68e0f798fbe2518faf3ccd98d1b8fdc5ce4dbaf102298e432e9eacea",
+  "matching_policy": "لا يربط التوصيف إلا عند تطابق اسم المقرر ورمزه معًا تطابقًا حرفيًا بعد طي المسافات ومحارف الاتجاه غير المرئية فقط.",
+  "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر.",
+  "approval": {
+    "agency": "مجلس قسم القراءات",
+    "session": "13",
+    "date": "1446/10/10هـ"
+  },
+  "counts": {
+    "published_pdf_files": 4,
+    "published_pages": 31,
+    "strict_course_details_records": 4,
+    "strict_scopes": 4,
+    "duplicates_skipped": 2
+  },
+  "duplicates_skipped": [
+    {
+      "specification_code": "2002250-2",
+      "title": "أصول التفسير ومناهجه",
+      "reason": "موجود سابقًا في الموقع بتوصيفات مكتملة؛ لم تُضف نسخة مكررة."
+    },
+    {
+      "specification_code": "2002454-2",
+      "title": "التفسير الموضوعي",
+      "reason": "موجود سابقًا في الموقع بتوصيف مكتمل؛ لم تُضف نسخة مكررة."
+    }
+  ],
+  "generated_on": "2026-08-19",
+  "records": [
+    {
+      "title": "علوم تدوين القرآن",
+      "specification_code": "20021204-2",
+      "source_file": "١١١١٢٢٢٢/2-20021204 علوم تدوين القرآن.pdf",
+      "source_sha256": "5b6b48961f8a6828e6c815fab78190e414dcb28e339443223dac1599bef79dbf",
+      "published_file": "20021204-2.pdf",
+      "published_sha256": "211a70b9d8ff013bdfd89cdd2ee20048dce308c970f265e03adb17c8b65755c6",
+      "page_count": 8,
+      "credit_hours": 2,
+      "strict_scopes": [{"program":"القرآن وعلومه","degree":"بكالوريوس","plan_type":"جديدة","version":"47"}],
+      "match_status": "verified",
+      "approval_complete_on_final_page": true,
+      "rtl_visual_check": true,
+      "sensitivity_label_absent": true
+    },
+    {
+      "title": "لغة القرآن وأساليبه",
+      "specification_code": "20022201-2",
+      "source_file": "١١١١٢٢٢٢/2-20022201 لغة القرآن وأساليبه.pdf",
+      "source_sha256": "0b8f01586295efd523be4d9c136d8de68dd5bb6070213daa8a804264b1ceedab",
+      "published_file": "20022201-2.pdf",
+      "published_sha256": "5c4938dd01a2b530cb214dc36562f76f4633f29795b9c9bc1445746787758829",
+      "page_count": 8,
+      "credit_hours": 2,
+      "strict_scopes": [{"program":"القرآن وعلومه","degree":"بكالوريوس","plan_type":"جديدة","version":"47"}],
+      "match_status": "verified",
+      "approval_complete_on_final_page": true,
+      "rtl_visual_check": true,
+      "sensitivity_label_absent": true
+    },
+    {
+      "title": "أصول التفسير",
+      "specification_code": "20022250-2",
+      "source_file": "١١١١٢٢٢٢/2-2002251 أصول التفسير .pdf",
+      "source_sha256": "06e15cd6ca56c646bee2498e0fc0fbf98f20f11a3fcd873281bad6bd9ad4b4da",
+      "source_filename_note": "اسم الملف مضلل؛ الرمز الموثق داخل التوصيف هو 20022250-2.",
+      "published_file": "20022250-2.pdf",
+      "published_sha256": "116729839e37b623923e3b5490b2b599a5def79a3b117dcf78ccf8f4921682b9",
+      "page_count": 7,
+      "credit_hours": 2,
+      "strict_scopes": [{"program":"القرآن وعلومه","degree":"بكالوريوس","plan_type":"جديدة","version":"47"}],
+      "match_status": "verified",
+      "approval_complete_on_final_page": true,
+      "rtl_visual_check": true,
+      "sensitivity_label_absent": true
+    },
+    {
+      "title": "علوم دلالات القرآن",
+      "specification_code": "2007314-2",
+      "source_file": "١١١١٢٢٢٢/2-2007314 علوم دلالات القرآن.pdf",
+      "source_sha256": "2be3f4ae8dfe308677c60a9155da7d1e9246748e1dd064cb0309ed13b8e0cbd9",
+      "published_file": "2007314-2.pdf",
+      "published_sha256": "fc4f1736389e89ed6e673a348fdfea5f82f33785621bd92642b269874917ca4f",
+      "page_count": 8,
+      "credit_hours": 2,
+      "strict_scopes": [{"program":"القرآن وعلومه","degree":"بكالوريوس","plan_type":"جديدة","version":"47"}],
+      "match_status": "verified",
+      "approval_complete_on_final_page": true,
+      "rtl_visual_check": true,
+      "sensitivity_label_absent": true,
+      "word_muqayyad_note": "لفظ «المقيد» وارد في سياق علمي مع «المطلق»، وليس وسم حساسية."
+    }
+  ]
+}

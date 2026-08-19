@@ -1,0 +1,72 @@
+{
+  "schema": "course-specification-publication-manifest/v1",
+  "bundle_slug": "systems-updates-1446",
+  "sources": [
+    {
+      "file": "قسم الأنظمة/مقررات القانون الخاص.pdf",
+      "sha256": "97e11fe8c0649a0109210018585ac381d2ecbd63d4c981f2f1632372dd625b01",
+      "pages": 139
+    },
+    {
+      "file": "قسم الأنظمة/مقررات القانون العام.pdf",
+      "sha256": "c61c68ebb4f5ac7e0c6814ce357cbe188c8e2c6a4830366e1068d69fefb86b4e",
+      "pages": 104
+    }
+  ],
+  "matching_policy": "لا يربط التوصيف إلا عند تطابق اسم المقرر ورمزه معًا تطابقًا حرفيًا بعد طي المسافات ومحارف الاتجاه غير المرئية فقط.",
+  "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر.",
+  "approval": {
+    "agency": "قسم الأنظمة",
+    "session": "23",
+    "dates": [
+      "1446/9/4هـ",
+      "1446/9/10هـ"
+    ],
+    "policy": "حُفظ تاريخ كل ملف كما ورد في جدول اعتماده دون تعميم."
+  },
+  "counts": {
+    "published_pdf_files": 7,
+    "published_pages": 56,
+    "new_course_details_records": 3,
+    "replacement_records": 4,
+    "strict_scopes": 14,
+    "existing_complete_skipped": 7
+  },
+  "generated_on": "2026-08-19",
+  "records": [
+    {
+      "title":"مصادر الالتزام","specification_code":"2003210-3","source_file":"قسم الأنظمة/مقررات القانون الخاص.pdf","source_pdf_pages":[26,33],"published_file":"2003210-3.pdf","published_sha256":"eb83bef04a636f78feb4a7c58e53b9cd78c107f7547c61d44d8f1bf7b7641511","page_count":8,"credit_hours":3,"approval_date":"1446/9/4هـ","action":"replace_hours_warning","strict_versions":[38,47]
+    },
+    {
+      "title":"القانون التجاري","specification_code":"2003231-3","source_file":"قسم الأنظمة/مقررات القانون الخاص.pdf","source_pdf_pages":[83,90],"published_file":"2003231-3.pdf","published_sha256":"92bcd42f1d1286df6a778ff2182876f4893a74a60e95d9b905289bff950a6479","page_count":8,"credit_hours":3,"approval_date":"1446/9/10هـ","action":"replace_hours_warning","strict_versions":[38,47]
+    },
+    {
+      "title":"القانون الإداري","specification_code":"2003243-3","source_file":"قسم الأنظمة/مقررات القانون العام.pdf","source_pdf_pages":[43,50],"published_file":"2003243-3.pdf","published_sha256":"2c2c935a3d38ec4628db81d5235268c72973026ae89039eb6d731c86e7c6db81","page_count":8,"credit_hours":3,"approval_date":"1446/9/4هـ","action":"new","strict_versions":[38,47]
+    },
+    {
+      "title":"الأوراق التجارية والإفلاس","specification_code":"2003321-3","source_file":"قسم الأنظمة/مقررات القانون الخاص.pdf","source_pdf_pages":[50,57],"published_file":"2003321-3.pdf","published_sha256":"4c7a8532ab262fb27029c67089171597e0f6bef48f80d3602c3be710e41bdd5a","page_count":8,"credit_hours":3,"approval_date":"1446/9/4هـ","action":"new","strict_versions":[38,47]
+    },
+    {
+      "title":"القضاء الإداري","specification_code":"2003381-3","source_file":"قسم الأنظمة/مقررات القانون العام.pdf","source_pdf_pages":[17,24],"published_file":"2003381-3.pdf","published_sha256":"0b2df4f6084cb747194d2ac81deab8fc847e2dc73d859b6cd5c8398f149bc687","page_count":8,"credit_hours":3,"approval_date":"1446/9/4هـ","action":"replace_hours_warning","strict_versions":[38,47]
+    },
+    {
+      "title":"العقود التجارية وعمليات البنوك","specification_code":"2003433-3","source_file":"قسم الأنظمة/مقررات القانون الخاص.pdf","source_pdf_pages":[74,82],"published_file":"2003433-3.pdf","published_sha256":"5c5e8b9818820a1a448268ccce8a3b6db6f8ad50827a552048a6980f10313215","page_count":9,"credit_hours":3,"approval_date":"1446/9/10هـ","action":"replace_hours_warning","strict_versions":[38,47]
+    },
+    {
+      "title":"إجراءات التنفيذ القضائي","specification_code":"2003492-3","source_file":"قسم الأنظمة/مقررات القانون الخاص.pdf","source_pdf_pages":[43,49],"published_file":"2003492-3.pdf","published_sha256":"b2e59f52b9b991b7419ee04448020ac66af80b7f5b6d9f09e7e33840db7f3c93","page_count":7,"credit_hours":3,"approval_date":"1446/9/4هـ","action":"new","strict_versions":[38,47]
+    }
+  ],
+  "publication_verification": {
+    "qpdf_ok": true,
+    "a4_portrait": true,
+    "rtl_visual_check": true,
+    "approval_table_complete_on_final_page": true,
+    "sensitivity_label_absent": true,
+    "placeholders_absent": true
+  },
+  "withheld_notes": [
+    "أُبقيت النسخة المنشورة من 2003489-3 لأن النسخة الجديدة تسجل الساعات على أنها 45.",
+    "حُجب قانون التحكيم وقانون الشركات والحوكمة لأن المصدر يحمل وسم Restricted.",
+    "لم تُربط الحالات التي لا يطابق فيها الاسم والرمز معًا."
+  ]
+}
