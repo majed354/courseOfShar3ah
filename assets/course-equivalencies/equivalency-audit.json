@@ -25,8 +25,9 @@
     ]
   },
   "coverage": {
-    "published_specification_variants": 214,
-    "features_extracted": 214,
+    "initial_specification_variants_reviewed": 214,
+    "incremental_specifications_reviewed": 3,
+    "total_feature_reviews": 217,
     "unique_code_name_identities": 201,
     "bundle_counts": {
       "islamic_general": 55,
@@ -43,7 +44,7 @@
     "confirmed_bidirectional_pairs": 8,
     "exact_equivalent_pairs": 5,
     "similar_ge_80_pairs": 3,
-    "borderline_human_review_pairs": 0,
+    "borderline_human_review_pairs": 1,
     "explicit_cross_bundle_rejections": 30,
     "independent_topic_gate_rejections": 1,
     "template_false_positives_rejected": 3,
@@ -491,7 +492,7 @@
           "right_excerpt": "يدرس الطالب تفسيرًا تحليليًا لسورة يوسف –عليه السلام- مع الوقوف على الحكم التشريعية المهمة وربط المادة العلمية بالواقع المعاصر"
         }
       ],
-      "rationale_ar": "التفسير (3) في خطة القرآن وعلومه (2002306-2) والتفسير (2) في خطة القراءات (2002208-2) كلاهما تفسير تحليلي لسورة يوسف كاملة على سبعة عشر أسبوعًا بترتيب آيات متقارب ومخرجات متجانسة؛ خُفّضت الثقة ووجب المراجعة البشرية لاختلاف ترقيم المقرر بين الخطين (2 مقابل 3) فقد يرتبط بموقع مختلف في تسلسل التفسير.",
+      "rationale_ar": "التفسير (3) في خطة القرآن وعلومه (2002306-2) والتفسير (2) في خطة القراءات (2002208-2) كلاهما تفسير تحليلي لسورة يوسف كاملة على سبعة عشر أسبوعًا بترتيب آيات متقارب ومخرجات متجانسة؛ خُفّضت الدرجة تحفظًا لاختلاف ترقيم المقرر بين الخطين (2 مقابل 3)، مع بقاء تغطية سورة يوسف كاملة والساعات متطابقة فوق حد المعادلة.",
       "classification": "similar_ge_80",
       "bidirectional": true,
       "score_method": "topics35+outcomes25+description15+objective15+hours10; title=0; topics>=28 guardrail",
@@ -572,7 +573,30 @@
       "decision_note": "Independent PDF review found the same ten named legal issues, the same introduction and school-history material, and identical credit/semester hours; conservative similarity is 84–87%."
     }
   ],
-  "needs_human_review": [],
+  "needs_human_review": [
+    {
+      "left": {
+        "code": "2001260-2",
+        "name": "المدخل لدراسة الشريعة",
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001260-2.pdf",
+        "hours": 2
+      },
+      "right": {
+        "code": "20041104-2",
+        "name": "المدخل للشريعة والفقه الإسلامي",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20041104-2.pdf",
+        "hours": 2
+      },
+      "decision": "hold_for_human_review",
+      "published_to_data_json": false,
+      "reason": "الوصف العام والأهداف والساعات متقاربة، لكن جدول موضوعات 2001260-2 ناقص وينتهي بعلامة الاختصار؛ لذلك لا يمكن إثبات بوابة تغطية الموضوعات ≥80% من الحقول المكتملة.",
+      "review_provenance": [
+        "glm_5_3_incremental_review",
+        "independent_pdf_review",
+        "independent_full_corpus_screen"
+      ]
+    }
+  ],
   "rejected_template_false_positives": [
     {
       "left": {
