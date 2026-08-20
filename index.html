@@ -1950,10 +1950,10 @@
             );
             if (exactMatches.length) return exactMatches;
 
-            const distinctTitles = new Set(
-                variants.map(details => normalizeCourseIdentityName(details.title)).filter(Boolean)
-            );
-            return distinctTitles.size > 1 ? [] : variants;
+            // A supplied course name is part of the course identity. Never fall
+            // back from code+name to code-only: the same code can legitimately
+            // have a separate catalog-only specification under another title.
+            return [];
         }
 
         function getCourseDetailScopes(details) {
