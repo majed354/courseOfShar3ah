@@ -79,17 +79,48 @@
       }
     ]
   },
-  "2002131-2": {
+  "2002252-2": {
     "variants": [
       {
+        "scopes": [
+          {
+            "program": "الأنظمة",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          {
+            "program": "الدراسات الإسلامية",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          {
+            "program": "القراءات",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          {
+            "program": "القرآن وعلومه",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          }
+        ],
         "title": "علوم القرآن العامة",
         "summary": "يقدم المقرر مدخلًا شاملًا لعلوم القرآن وعلاقتها بأصول الفقه، ويتناول فضائل القرآن والوحي ونزوله وجمعه، والأحرف السبعة، والمكي والمدني، والناسخ والمنسوخ.",
-        "pdf_url": "assets/course-specifications/quranic-course-updates-1446/2002131-2-ulum-alquran-general.pdf",
-        "specification_code": "2002131-2",
-        "match_status": "verified_catalog_only",
+        "pdf_url": "assets/course-specifications/quranic-course-updates-1446/2002252-2-ulum-alquran-general.pdf",
+        "specification_code": "2002252-2",
+        "match_status": "verified",
         "source_context": "متعدد البرامج — متطلب كلية",
-        "catalog_only": true,
-        "match_note": "حُفظ كمقرر مستقل لأن الرمز نفسه مستخدم أيضًا لاسم «علوم القرآن (1)». لم يُضف إلى أي خطة حتى لا يؤثر في ساعاتها، ويظهر كهوية مستقلة بالرمز والاسم معًا."
+        "match_note": "صُحح رمز النسخة المنشورة إلى 2002252-2 ليتطابق اسمًا ورمزًا مع مقرر علوم القرآن العامة في خطط البكالوريوس الجديدة، إصدار 47."
       }
     ]
   }

@@ -6,7 +6,7 @@
     1,
     4
   ],
-  "checked_on": "2026-08-19",
+  "checked_on": "2026-08-20",
   "source_program": {
     "program": "الدراسات الإسلامية",
     "degree": "بكالوريوس",
@@ -32,20 +32,20 @@
   "matching_policy": "لا يربط التوصيف بأي خطة إلا عند تطابق رمز المقرر واسمه معًا بعد توحيد شكلي محافظ للأرقام والتشكيل والتطويل والهمزات والمسافات وعلامات الترقيم، من دون حذف أو إضافة كلمات أو أل التعريف أو توحيد التاء المربوطة والهاء.",
   "audit_counts": {
     "total_specifications": 58,
-    "strictly_linked": 40,
+    "strictly_linked": 54,
     "shared_between_versions": 12,
-    "old_only": 21,
+    "old_only": 35,
     "new_only": 7,
-    "not_linked": 18,
+    "not_linked": 4,
     "old_code_only": 1,
-    "old_name_only": 20,
+    "old_name_only": 7,
     "new_code_only": 3,
     "new_name_only": 10
   },
   "audit_notes": [
     "الصفحات 1–4 هي الغلاف والفهرس، والتوصيفات تغطي الصفحات الفيزيائية 5–485 دون فجوات أو تداخل.",
     "طابقت رموز صفحات العنوان بصريًا، ووحّدت الأرقام والشرطة في أسماء الملفات فقط.",
-    "كل توصيفات الملف تذكر ساعتين معتمدتين، وجميع المقررات الـ40 المرتبطة مسجلة بساعتين في خططها.",
+    "كل توصيفات الملف تذكر ساعتين معتمدتين، وجميع المقررات الـ54 المرتبطة مسجلة بساعتين في خططها.",
     "لم تربط الحالات التي تطابق فيها الرمز وحده أو الاسم وحده، التزامًا بشرط المطابقة المزدوجة."
   ],
   "specifications": [
@@ -158,12 +158,14 @@
       "status": "verified"
     },
     {
-      "code": "20011104-2",
+      "code": "20041104-2",
       "title": "المدخل للشريعة والفقه الإسلامي",
-      "file": "20011104-2.pdf",
-      "old_plan_match": "no_match",
+      "file": "20041104-2.pdf",
+      "old_plan_match": "code_and_name",
       "new_plan_match": "no_match",
-      "eligible_versions": [],
+      "eligible_versions": [
+        39
+      ],
       "source_pdf_pages": [
         47,
         53
@@ -174,7 +176,21 @@
       ],
       "page_count": 8,
       "pdf_hours": 2,
-      "status": "not_linked_strict_mismatch"
+      "status": "verified",
+      "corrected_from_code": "20011104-2",
+      "source_published_file": "20011104-2.pdf",
+      "specification_code": "20041104-2",
+      "strict_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "التعريف بالشريعة إجمالاً والفقه الإسلامي خصوصاً من حيث التعريف والمصادر والمدارس والمذاهب والعصور التي مر بها الفقه عبر التاريخ الإسلامي.",
+      "sha256": "12d118ea9f805bea1eb46bde303bdb7506b863292d2b78d9017a1e902957a365",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
     },
     {
       "code": "20021201-2",
@@ -261,12 +277,14 @@
       "status": "verified"
     },
     {
-      "code": "20011205-2",
+      "code": "20041205-2",
       "title": "الفقه (1)",
-      "file": "20011205-2.pdf",
-      "old_plan_match": "name_only",
+      "file": "20041205-2.pdf",
+      "old_plan_match": "code_and_name",
       "new_plan_match": "name_only",
-      "eligible_versions": [],
+      "eligible_versions": [
+        39
+      ],
       "source_pdf_pages": [
         86,
         94
@@ -277,7 +295,21 @@
       ],
       "page_count": 9,
       "pdf_hours": 2,
-      "status": "not_linked_strict_mismatch"
+      "status": "verified",
+      "corrected_from_code": "20011205-2",
+      "source_published_file": "20011205-2.pdf",
+      "specification_code": "20041205-2",
+      "strict_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "بيان أحكام العبادات من وضوء وغسل وتيمم، وكيفيتها وسننها وواجباتها، وبيان أحكام النجاسة، وبيان الأحكام الشرعية المتعلقة بالمرأة من حيض ونفاس واستحاضة وغير ذلك.",
+      "sha256": "a0975856f8331a101593be51406945ba6fe97032d41950c74155db23310331a9",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
     },
     {
       "code": "20041206-2",
@@ -322,12 +354,14 @@
       "status": "verified"
     },
     {
-      "code": "20012102-2",
+      "code": "20042102-2",
       "title": "الفقه (2)",
-      "file": "20012102-2.pdf",
-      "old_plan_match": "name_only",
+      "file": "20042102-2.pdf",
+      "old_plan_match": "code_and_name",
       "new_plan_match": "name_only",
-      "eligible_versions": [],
+      "eligible_versions": [
+        39
+      ],
       "source_pdf_pages": [
         110,
         119
@@ -338,15 +372,31 @@
       ],
       "page_count": 10,
       "pdf_hours": 2,
-      "status": "not_linked_strict_mismatch"
+      "status": "verified",
+      "corrected_from_code": "20012102-2",
+      "source_published_file": "20012102-2.pdf",
+      "specification_code": "20042102-2",
+      "strict_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "التعريف بالصلاة وواجباتها وفروضها وسننها والزكاة وأركانها، وإخراج الزكاة، وكيفيتها وأصنافها وشروط وجوبها، وبيان أحكام زكاة التطوع وصدقة التطوع، وزكاة عروض التجارة وشروطها، والجنائز وأحكامها، وأحكام الخسوف والكسوف، وبيان الأحكام الشرعية المتعلقة بكل مسألة من مسائل المقرر.",
+      "sha256": "bdacca7b4f4708289d50de39889badb7667bc356be5523c5a61e3e674a030cc5",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
     },
     {
-      "code": "20022104-2",
+      "code": "20042104-2",
       "title": "علوم القرآن (2)",
-      "file": "20022104-2.pdf",
-      "old_plan_match": "name_only",
+      "file": "20042104-2.pdf",
+      "old_plan_match": "code_and_name",
       "new_plan_match": "no_match",
-      "eligible_versions": [],
+      "eligible_versions": [
+        39
+      ],
       "source_pdf_pages": [
         120,
         128
@@ -357,7 +407,21 @@
       ],
       "page_count": 10,
       "pdf_hours": 2,
-      "status": "not_linked_strict_mismatch"
+      "status": "verified",
+      "corrected_from_code": "20022104-2",
+      "source_published_file": "20022104-2.pdf",
+      "specification_code": "20042104-2",
+      "strict_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "يهدف المقرر إلى التعريف بمجموعة من مباحث علوم القرآن المتعددة، التي تساعد على فهم كتاب الله تعالى.",
+      "sha256": "d9b6a5c3b1a05c5e5aea4eb94d21fb6ef8f1c17e33d68f60998c2962dadfc81d",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
     },
     {
       "code": "20042105-2",
@@ -464,12 +528,14 @@
       "status": "verified"
     },
     {
-      "code": "20022202-2",
+      "code": "20042202-2",
       "title": "التفسير التحليلي (2)",
-      "file": "20022202-2.pdf",
-      "old_plan_match": "name_only",
+      "file": "20042202-2.pdf",
+      "old_plan_match": "code_and_name",
       "new_plan_match": "name_only",
-      "eligible_versions": [],
+      "eligible_versions": [
+        39
+      ],
       "source_pdf_pages": [
         170,
         176
@@ -480,7 +546,21 @@
       ],
       "page_count": 7,
       "pdf_hours": 2,
-      "status": "not_linked_strict_mismatch"
+      "status": "verified",
+      "corrected_from_code": "20022202-2",
+      "source_published_file": "20022202-2.pdf",
+      "specification_code": "20042202-2",
+      "strict_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "يهدف المقرر إلى دراسة الطالب تفسير آيات من سور مدنية تتضمن مجادلة أهل الكتاب من (اليهود) و(النصارى)، وآيات من سورة مكية تتضمن مجادلة (الدهرية)، وجملة الآيات (١٦٨) آية.",
+      "sha256": "30ca2ad39646ae794709607ba27351e5625c4edc8dc49dad488e784d58755018",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
     },
     {
       "code": "20042203-2",
@@ -505,12 +585,14 @@
       "status": "verified"
     },
     {
-      "code": "20012204-2",
+      "code": "20042204-2",
       "title": "الفقه (3)",
-      "file": "20012204-2.pdf",
-      "old_plan_match": "name_only",
+      "file": "20042204-2.pdf",
+      "old_plan_match": "code_and_name",
       "new_plan_match": "name_only",
-      "eligible_versions": [],
+      "eligible_versions": [
+        39
+      ],
       "source_pdf_pages": [
         185,
         194
@@ -521,7 +603,21 @@
       ],
       "page_count": 10,
       "pdf_hours": 2,
-      "status": "not_linked_strict_mismatch"
+      "status": "verified",
+      "corrected_from_code": "20012204-2",
+      "source_published_file": "20012204-2.pdf",
+      "specification_code": "20042204-2",
+      "strict_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "التعريف بحقيقة الصوم ومفسداته وقضائه، وبيان أحكام الاعتكاف وما يستحب فيه وبيان أحكام الحج ومواقيته الزمانية، والعمرة وكيفيتها وتكرارها وشروط وجوبها، وبيان أحكام قلب النسك والإحرام وحكم زيارة المسجد النبوي وآدابها، وبيان الأحكام الشرعية المتعلقة بكل مسألة من مسائل المقرر.",
+      "sha256": "002b05373ad27c12bc80df620ee0c66098dc95a6fa8d7a789688d3270f1f0b74",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
     },
     {
       "code": "20042205-2",
@@ -585,12 +681,14 @@
       "status": "not_linked_strict_mismatch"
     },
     {
-      "code": "20023101-2",
+      "code": "20043101-2",
       "title": "التفسير الموضوعي",
-      "file": "20023101-2.pdf",
-      "old_plan_match": "name_only",
+      "file": "20043101-2.pdf",
+      "old_plan_match": "code_and_name",
       "new_plan_match": "no_match",
-      "eligible_versions": [],
+      "eligible_versions": [
+        39
+      ],
       "source_pdf_pages": [
         219,
         226
@@ -601,7 +699,21 @@
       ],
       "page_count": 8,
       "pdf_hours": 2,
-      "status": "not_linked_strict_mismatch"
+      "status": "verified",
+      "corrected_from_code": "20023101-2",
+      "source_published_file": "20023101-2.pdf",
+      "specification_code": "20043101-2",
+      "strict_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "تأصيل التفسير الموضوعي من حيث التعريف والتقسيم ومنهج البحث والدراسة ومعرفة علم المناسبات، ودراسة موضوعات: الشرك بالله والعلم والعلماء والآخرة ومشاهدها في ضوء القرآن الكريم وتفسير موضوعي لسورة الكهف.",
+      "sha256": "50424e60ca842a72f46f3cde69b1bbbfbe5a2cef1376300d4d8412649400afe8",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
     },
     {
       "code": "20043102-2",
@@ -648,12 +760,14 @@
       "status": "verified"
     },
     {
-      "code": "20013104-2",
+      "code": "20043104-2",
       "title": "الفقه (4)",
-      "file": "20013104-2.pdf",
-      "old_plan_match": "name_only",
+      "file": "20043104-2.pdf",
+      "old_plan_match": "code_and_name",
       "new_plan_match": "name_only",
-      "eligible_versions": [],
+      "eligible_versions": [
+        39
+      ],
       "source_pdf_pages": [
         245,
         257
@@ -664,7 +778,21 @@
       ],
       "page_count": 13,
       "pdf_hours": 2,
-      "status": "not_linked_strict_mismatch"
+      "status": "verified",
+      "corrected_from_code": "20013104-2",
+      "source_published_file": "20013104-2.pdf",
+      "specification_code": "20043104-2",
+      "strict_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "التعريف بحقيقة البيع وشروطه والبيوع المنهي عنها والعقود المالية المعاصرة، وبيان أحكام الربا والصرف والسلم وبيان أحكام الضمان وعقد الكفالة والحوالة والعارية والوكالة والصلح والحجر والسباق والجعالة واللقطة والوصية والهبة والوقف والشفعة، وبيان الأحكام الشرعية المتعلقة بكل مسألة من مسائل المقرر.",
+      "sha256": "01879e5d4fc0f094eec18c0f7e86acb616c5780e9b3866bf73486a6e9867205f",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
     },
     {
       "code": "20013105-2",
@@ -836,12 +964,14 @@
       "status": "verified"
     },
     {
-      "code": "20013204-2",
+      "code": "20043204-2",
       "title": "الفقه (5)",
-      "file": "20013204-2.pdf",
-      "old_plan_match": "name_only",
+      "file": "20043204-2.pdf",
+      "old_plan_match": "code_and_name",
       "new_plan_match": "name_only",
-      "eligible_versions": [],
+      "eligible_versions": [
+        39
+      ],
       "source_pdf_pages": [
         323,
         331
@@ -852,15 +982,31 @@
       ],
       "page_count": 9,
       "pdf_hours": 2,
-      "status": "not_linked_strict_mismatch"
+      "status": "verified",
+      "corrected_from_code": "20013204-2",
+      "source_published_file": "20013204-2.pdf",
+      "specification_code": "20043204-2",
+      "strict_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "التعريف بحقيقة النكاح وأحكامه وآثاره وأنواعه والحقوق المشتركة بين الزوجين وبيان أحكام العضل والنشوز، وبيان الطلاق وأحكامه، والرجعة والظهار والحضانة، والنفقات وأحكامها ومسقطاتها، وبيان الأحكام الشرعية المتعلقة بكل مسألة من مسائل المقرر.",
+      "sha256": "de968ea247ac9ec10b398c6ee8cb1098577d4c595990807cac7d1ccbe556f06e",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
     },
     {
-      "code": "20023205-2",
+      "code": "20043205-2",
       "title": "التفسير التحليلي (3)",
-      "file": "20023205-2.pdf",
-      "old_plan_match": "name_only",
+      "file": "20043205-2.pdf",
+      "old_plan_match": "code_and_name",
       "new_plan_match": "name_only",
-      "eligible_versions": [],
+      "eligible_versions": [
+        39
+      ],
       "source_pdf_pages": [
         332,
         338
@@ -871,7 +1017,21 @@
       ],
       "page_count": 7,
       "pdf_hours": 2,
-      "status": "not_linked_strict_mismatch"
+      "status": "verified",
+      "corrected_from_code": "20023205-2",
+      "source_published_file": "20023205-2.pdf",
+      "specification_code": "20043205-2",
+      "strict_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "يهدف المقرر إلى دراسة الطالب تفسير آيات من سور مدنية تتضمن الحديث عن النفاق وأهله، وآيات من سور مكية تتضمن تقرير مسائل عقدية في الألوهية والربوبية والأسماء والصفات والإيمان باليوم الآخر والنبوة، وتفسير سورة كاملة منها، وهي سورة (الروم)، وجملة الآيات (١٩٦) آية.",
+      "sha256": "bfd71f4633414b8c0ab0207bb1844e7c1c7ad2fb7564ae5d5948980e31fdff6a",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
     },
     {
       "code": "20043206-2",
@@ -999,12 +1159,14 @@
       "status": "verified"
     },
     {
-      "code": "20014105-2",
+      "code": "20044105-2",
       "title": "الفقه (6)",
-      "file": "20014105-2.pdf",
-      "old_plan_match": "name_only",
+      "file": "20044105-2.pdf",
+      "old_plan_match": "code_and_name",
       "new_plan_match": "no_match",
-      "eligible_versions": [],
+      "eligible_versions": [
+        39
+      ],
       "source_pdf_pages": [
         388,
         395
@@ -1015,15 +1177,31 @@
       ],
       "page_count": 9,
       "pdf_hours": 2,
-      "status": "not_linked_strict_mismatch"
+      "status": "verified",
+      "corrected_from_code": "20014105-2",
+      "source_published_file": "20014105-2.pdf",
+      "specification_code": "20044105-2",
+      "strict_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "التعريف بحقيقة الأطعمة والأشربة المباحة والمحرمة شرعاً، وبيان الذكاة وآداب الذبح، والصيد وأحكامه، وبيان اليمين وأنواعها وأحكامها والاستثناءات الواردة عليه، وبيان النذر وأحكامه وأنواعه، والجنايات وأحكامها، والعاقلة والدية والحكومة، وبيان الأحكام الشرعية المتعلقة بكل مسألة من مسائل المقرر.",
+      "sha256": "5c3828e076f04c6319efa323137f7d0b6857b7228074facd263e52b1b478b9bd",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
     },
     {
-      "code": "20014106-2",
+      "code": "20044106-2",
       "title": "فقه النوازل والمعاملات المصرفية",
-      "file": "20014106-2.pdf",
-      "old_plan_match": "name_only",
+      "file": "20044106-2.pdf",
+      "old_plan_match": "code_and_name",
       "new_plan_match": "no_match",
-      "eligible_versions": [],
+      "eligible_versions": [
+        39
+      ],
       "source_pdf_pages": [
         396,
         402
@@ -1034,7 +1212,21 @@
       ],
       "page_count": 7,
       "pdf_hours": 2,
-      "status": "not_linked_strict_mismatch"
+      "status": "verified",
+      "corrected_from_code": "20014106-2",
+      "source_published_file": "20014106-2.pdf",
+      "specification_code": "20044106-2",
+      "strict_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "يتناول هذا المقرر مقدمة في منهج فقه النوازل والمعاملات المصرفية، ودراسة لبعض المسائل المعاصرة كزراعة الأعضاء، والاستنساخ، والمتاجرة في البورصة والأسهم، والتأمين التجاري والتعاوني، وأطفال الأنابيب، وما يستجد من مسائل معاصرة.",
+      "sha256": "2e1be0434f8898c7dbaec45a17b6587ca8d97bb1186068bc30ba3045625d43e5",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
     },
     {
       "code": "20044107-2",
@@ -1080,12 +1272,14 @@
       "status": "verified"
     },
     {
-      "code": "20014200-2",
+      "code": "20044201-2",
       "title": "الفقه (7)",
-      "file": "20014200-2.pdf",
-      "old_plan_match": "name_only",
+      "file": "20044201-2.pdf",
+      "old_plan_match": "code_and_name",
       "new_plan_match": "no_match",
-      "eligible_versions": [],
+      "eligible_versions": [
+        39
+      ],
       "source_pdf_pages": [
         419,
         428
@@ -1096,7 +1290,21 @@
       ],
       "page_count": 10,
       "pdf_hours": 2,
-      "status": "not_linked_strict_mismatch"
+      "status": "verified",
+      "corrected_from_code": "20014200-2",
+      "source_published_file": "20014200-2.pdf",
+      "specification_code": "20044201-2",
+      "strict_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "التعريف بحد الزنا والقذف والشرب، وبيان أحكام المخدرات وحد الردة، وبيان أحكام الجهاد، وبيان أحكام التعازير، وبيان أحكام الجهاد، والشهادات وردها واليمين والقسمة، وبيان الأحكام الشرعية المتعلقة بكل مسألة من مسائل المقرر.",
+      "sha256": "36878dd58f4d05bb8b4ba8d695fd888f1c3b68fbfc430f9563b21d9f06b8c5a3",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
     },
     {
       "code": "20044202-2",
@@ -1118,12 +1326,14 @@
       "status": "not_linked_strict_mismatch"
     },
     {
-      "code": "20024202-2",
+      "code": "20044203-2",
       "title": "تفسير آيات الأحكام",
-      "file": "20024202-2.pdf",
-      "old_plan_match": "name_only",
+      "file": "20044203-2.pdf",
+      "old_plan_match": "code_and_name",
       "new_plan_match": "no_match",
-      "eligible_versions": [],
+      "eligible_versions": [
+        39
+      ],
       "source_pdf_pages": [
         437,
         444
@@ -1134,7 +1344,21 @@
       ],
       "page_count": 8,
       "pdf_hours": 2,
-      "status": "not_linked_strict_mismatch"
+      "status": "verified",
+      "corrected_from_code": "20024202-2",
+      "source_published_file": "20024202-2.pdf",
+      "specification_code": "20044203-2",
+      "strict_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "summary": "يهدف المقرر إلى دراسة الطالب تفسير عدة موضوعات من تفسير آيات الأحكام، ومنها: مقدمة عن تفسير آيات الأحكام، نشأته، وتطوره، والمؤلفات فيه، وأحكام القصاص، وأحكام الصيام، والاعتكاف، والقتال، والحج، وحكم الربا، والدين، وأحكام أموال اليتامى، والتعدد، والصداق، وإيتاء السفهاء الأموال، وحكم التصرف في أموال اليتامى، وحكم إعطاء من يحضر القسمة، والتحذير من أكل أموال اليتامى ظلماً، وحكم منع المرأة من الزواج حتى تموت فيرثها وليها، وحكم القتل الخطأ والعمد، وحكم قبول قول من ادعى الإيمان إذا ظفر به عند الجهاد في سبيل الله، وأحكام صلاة الخوف، وأحكام الحجاب، وكذا الفيء، وصلاة الجمعة وما يتعلق بها من أحكام.",
+      "sha256": "4128b0ccf955797100810d9867d6d02008ff57c25e06eaa4446d52c3f3e424f2",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
     },
     {
       "code": "20044204-2",

@@ -1,6 +1,6 @@
 {
   "schema": "systems-publication-package-manifest/v1",
-  "generated_at_utc": "2026-08-19T04:42:39.372740+00:00",
+  "generated_at_utc": "2026-08-20T02:01:57.203009+00:00",
   "matching_policy": {
     "attach_rule": "equality of the complete course code and course name after the approved conservative normalization",
     "name_normalization": "Unicode NFC, bidi-control removal, whitespace collapse, plus conservative hamza-seat normalization (أ/إ/آ → ا) only when no other name difference remains",
@@ -49,27 +49,29 @@
   },
   "counts": {
     "pdf_files": 34,
-    "standalone_byte_identical_copies": 33,
+    "standalone_byte_identical_copies": 0,
+    "standalone_files_unchanged_by_this_code_update": 30,
+    "conservatively_code_corrected_pdfs": 3,
     "extracted_course_pdfs": 1,
     "complete_approval_tables": 34,
-    "strict_course_details_records": 24,
-    "strict_scopes": 35,
-    "excluded_from_course_details": 10,
-    "conflict_quarantine": 8,
+    "strict_course_details_records": 27,
+    "strict_scopes": 40,
+    "excluded_from_course_details": 7,
+    "conflict_quarantine": 5,
     "no_match_quarantine": 2,
     "strict_with_hours_warning": 4,
     "verified_after_conservative_hamza_normalization": 2
   },
   "program_coverage": {
     "1/version38": {
-      "strict_courses": 23,
+      "strict_courses": 26,
       "plan_courses": 60,
-      "coverage_percent": 38.33
+      "coverage_percent": 43.33
     },
     "11/version47": {
-      "strict_courses": 12,
+      "strict_courses": 14,
       "plan_courses": 76,
-      "coverage_percent": 15.79
+      "coverage_percent": 18.42
     }
   },
   "global_verification": {
@@ -77,17 +79,20 @@
     "pdfinfo_passed": 34,
     "qpdf_check_passed": 34,
     "sha256_recorded": 34,
-    "standalone_hashes_equal_sources": 33,
+    "standalone_hashes_equal_sources": 0,
+    "standalone_files_unchanged_by_this_code_update": 31,
     "environment_pages_89_95_text_and_render_equal": true,
     "restricted_confidential_marker_hits": 0,
     "rtl_visual_failures": 0,
-    "rtl_basis": "33 byte-identical copies inherit full source visual QA; extracted environment pages 1–7 match source pages 89–95 pixel-for-pixel at 120 dpi.",
+    "rtl_basis": "31 نسخة منفردة غير متأثرة ترث فحص المصدر؛ ملفان صُحح صف الرمز فيهما محافظًا وفُحصا عند 300 dpi، والصفحات 2-7 مطابقة بكسليًا؛ ملف البيئة المستخرج مطابق بصريًا لصفحات المصدر.",
     "system_scopes_have_degree_bachelors": true,
     "verified_with_hours_warning_records": 4,
     "json_only_correction_pdfs_touched": 0,
     "verified_after_conservative_hamza_normalization_records": 2,
-    "remaining_course_details_exclusions_unchanged": true,
-    "json_only_update_pdfs_touched": 0
+    "remaining_course_details_exclusions_unchanged": false,
+    "json_only_update_pdfs_touched": 0,
+    "code_correction_pdfs_touched": 2,
+    "course_details_exclusions_after_update": 8
   },
   "records": [
     {
@@ -495,7 +500,7 @@
       "near_name_candidates_not_strict": [],
       "include_in_course_details": false,
       "exclusion_reason": "مطابقة الاسم فقط في الخطتين؛ رمز التوصيف 200324-3 بينما رمز الخطة 2003243-3، كما أن ساعات المصدر 4 وساعات الخطة 3.",
-      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/200324-3.pdf",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/200324-3.pdf",
       "classification_scan": {
         "source_clean_audit": true,
         "package_pdftotext_marker_hits": [],
@@ -1035,7 +1040,7 @@
       "near_name_candidates_not_strict": [],
       "include_in_course_details": false,
       "exclusion_reason": "مطابقة الرمز فقط في الخطتين؛ عنوان الخطة «الأوراق التجارية والإفلاس» بلا كلمة «نظام».",
-      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/2003321-3.pdf",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003321-3.pdf",
       "classification_scan": {
         "source_clean_audit": true,
         "package_pdftotext_marker_hits": [],
@@ -1128,9 +1133,9 @@
     },
     {
       "index": 13,
-      "safe_filename": "2003006-3.pdf",
+      "safe_filename": "2003226-3.pdf",
       "title": "القانون الدولي العام",
-      "specification_code": "2003006-3",
+      "specification_code": "2003226-3",
       "credit_hours_in_source": 3,
       "general_description": "يتناول ماهية القانون الدولي العام ومصادره وقواعده وأشخاصه والمسؤولية الدولية، وتسوية المنازعات الدولية، والعلاقات الدبلوماسية والقنصلية.",
       "source": {
@@ -1147,8 +1152,8 @@
         "end": 7
       },
       "package_page_count": 7,
-      "package_size_bytes": 741538,
-      "package_sha256": "33fdcbc58e5d5b7907fde78916a2324562124c35bbda241d0d3abb76bc89b5ec",
+      "package_size_bytes": 949458,
+      "package_sha256": "d339414f826da13511b3c82c5b1c8b17a3e07f473de4bbcb2cd301e6c6a469fb",
       "byte_identical_to_full_source": false,
       "pdfinfo": {
         "tagged": "yes",
@@ -1166,42 +1171,32 @@
         "source_evidence_page": 7,
         "package_evidence_page": 7
       },
-      "strict_scopes": [],
-      "strict_hours_conflicts": [],
-      "match_status": "conflict",
-      "code_only_candidates": [],
-      "name_only_candidates": [
+      "strict_scopes": [
         {
-          "scope": {
-            "program_id": 1,
-            "program": "الأنظمة",
-            "label": "الأنظمة",
-            "plan_type": "قديمة",
-            "version": "38",
-            "degree": "بكالوريوس"
-          },
-          "plan_name": "القانون الدولي العام",
-          "plan_code": "2003226-3",
-          "plan_hours": 3
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
         },
         {
-          "scope": {
-            "program_id": 11,
-            "program": "الأنظمة",
-            "label": "الأنظمة (47 جديدة)",
-            "plan_type": "جديدة",
-            "version": "47",
-            "degree": "بكالوريوس"
-          },
-          "plan_name": "القانون الدولي العام",
-          "plan_code": "2003226-3",
-          "plan_hours": 3
+          "program_id": 11,
+          "program": "الأنظمة",
+          "label": "الأنظمة (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
         }
       ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
       "near_name_candidates_not_strict": [],
-      "include_in_course_details": false,
-      "exclusion_reason": "مطابقة الاسم فقط؛ رمز التوصيف 2003006-3 بينما رمز الخطة في الإصدارين 2003226-3.",
-      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/2003006-3.pdf",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003226-3.pdf",
       "classification_scan": {
         "source_clean_audit": true,
         "package_pdftotext_marker_hits": [],
@@ -1210,15 +1205,24 @@
       "rtl_visual_verification": {
         "source_audit_status": "passed",
         "inheritance_basis": "source visual audit plus department-stamp verification: original pages are unchanged outside the seal rectangle; any added seal-only page was visually checked",
-        "status": "passed"
+        "status": "passed",
+        "code_row_ltr_visual_check": "passed at 300 dpi"
       },
-      "file": "2003006-3.pdf"
+      "file": "2003226-3.pdf",
+      "code_correction": {
+        "visible_code_before": "2003006-3",
+        "visible_code_after": "2003226-3",
+        "previous_package_sha256": "33fdcbc58e5d5b7907fde78916a2324562124c35bbda241d0d3abb76bc89b5ec",
+        "basis": "رمز الخطة المعتمد مع تطابق اسم المقرر في خطتي الأنظمة 38 و47.",
+        "method": "تعديل محافظ لطبقة النص في الصفحة الأولى وترتيب مقاطع الرمز LTR؛ الصفحات 2-7 مطابقة بكسليًا.",
+        "verified_at_utc": "2026-08-20T02:01:57.203009+00:00"
+      }
     },
     {
       "index": 14,
-      "safe_filename": "2003223-3.pdf",
+      "safe_filename": "2003222-3.pdf",
       "title": "النظام الجزائي العام",
-      "specification_code": "2003223-3",
+      "specification_code": "2003222-3",
       "credit_hours_in_source": 3,
       "general_description": "يدرس النظرية العامة للجريمة والعقوبة، بما يشمل تعريف الجريمة وأنواعها وأركانها الشرعي والمادي والمعنوي، والمسؤولية الجنائية، وأنواع العقوبات.",
       "source": {
@@ -1235,8 +1239,8 @@
         "end": 7
       },
       "package_page_count": 7,
-      "package_size_bytes": 754866,
-      "package_sha256": "da015044d672a79442b65663876b84b93f8d6e0eb6a73902aa5e7e2b1369724b",
+      "package_size_bytes": 957526,
+      "package_sha256": "8746fd10322eb97e78f4c1b7d0fb1e97ea73fce0c3597cbd174c9b173364f539",
       "byte_identical_to_full_source": false,
       "pdfinfo": {
         "tagged": "yes",
@@ -1254,42 +1258,32 @@
         "source_evidence_page": 7,
         "package_evidence_page": 7
       },
-      "strict_scopes": [],
-      "strict_hours_conflicts": [],
-      "match_status": "conflict",
-      "code_only_candidates": [],
-      "name_only_candidates": [
+      "strict_scopes": [
         {
-          "scope": {
-            "program_id": 1,
-            "program": "الأنظمة",
-            "label": "الأنظمة",
-            "plan_type": "قديمة",
-            "version": "38",
-            "degree": "بكالوريوس"
-          },
-          "plan_name": "النظام الجزائي العام",
-          "plan_code": "2003222-3",
-          "plan_hours": 3
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
         },
         {
-          "scope": {
-            "program_id": 11,
-            "program": "الأنظمة",
-            "label": "الأنظمة (47 جديدة)",
-            "plan_type": "جديدة",
-            "version": "47",
-            "degree": "بكالوريوس"
-          },
-          "plan_name": "النظام الجزائي العام",
-          "plan_code": "2003222-3",
-          "plan_hours": 3
+          "program_id": 11,
+          "program": "الأنظمة",
+          "label": "الأنظمة (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
         }
       ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
+      "name_only_candidates": [],
       "near_name_candidates_not_strict": [],
-      "include_in_course_details": false,
-      "exclusion_reason": "مطابقة الاسم فقط؛ رمز التوصيف 2003223-3 بينما رمز الخطة في الإصدارين 2003222-3.",
-      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/2003223-3.pdf",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003222-3.pdf",
       "classification_scan": {
         "source_clean_audit": true,
         "package_pdftotext_marker_hits": [],
@@ -1298,9 +1292,18 @@
       "rtl_visual_verification": {
         "source_audit_status": "passed",
         "inheritance_basis": "source visual audit plus department-stamp verification: original pages are unchanged outside the seal rectangle; any added seal-only page was visually checked",
-        "status": "passed"
+        "status": "passed",
+        "code_row_ltr_visual_check": "passed at 300 dpi"
       },
-      "file": "2003223-3.pdf"
+      "file": "2003222-3.pdf",
+      "code_correction": {
+        "visible_code_before": "2003223-3",
+        "visible_code_after": "2003222-3",
+        "previous_package_sha256": "da015044d672a79442b65663876b84b93f8d6e0eb6a73902aa5e7e2b1369724b",
+        "basis": "رمز الخطة المعتمد مع تطابق اسم المقرر في خطتي الأنظمة 38 و47.",
+        "method": "تعديل محافظ لطبقة النص في الصفحة الأولى وترتيب مقاطع الرمز LTR؛ الصفحات 2-7 مطابقة بكسليًا.",
+        "verified_at_utc": "2026-08-20T02:01:57.203009+00:00"
+      }
     },
     {
       "index": 15,
@@ -1465,7 +1468,7 @@
       "near_name_candidates_not_strict": [],
       "include_in_course_details": false,
       "exclusion_reason": "مطابقة الاسم فقط؛ رمز التوصيف 2003440-3 بينما رمز الخطة 2003441-3، كما أن ساعات المصدر 4 وساعات الخطة 3.",
-      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/2003440-3.pdf",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003440-3.pdf",
       "classification_scan": {
         "source_clean_audit": true,
         "package_pdftotext_marker_hits": [],
@@ -2136,7 +2139,7 @@
       "near_name_candidates_not_strict": [],
       "include_in_course_details": false,
       "exclusion_reason": "لا توجد مطابقة صارمة ولا مرشح مطابق بالرمز أو الاسم في برنامجي الأنظمة المحددين.",
-      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/20034107-2.pdf",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/20034107-2.pdf",
       "classification_scan": {
         "source_clean_audit": true,
         "package_pdftotext_marker_hits": [],
@@ -2458,7 +2461,7 @@
       ],
       "include_in_course_details": false,
       "exclusion_reason": "رمز التوصيف 2003453-3 متصادم مع توصيف «نظام المرافعات»؛ الخطة تستخدم 2003492-3 لـ«إجراءات التنفيذ القضائي»، والاسم أيضًا لا يطابق حرفيًا بسبب الهمزة.",
-      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/2003453-3--ijraat-al-tanfidh.pdf",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003453-3--ijraat-al-tanfidh.pdf",
       "classification_scan": {
         "source_clean_audit": true,
         "package_pdftotext_marker_hits": [],
@@ -2625,7 +2628,7 @@
       "near_name_candidates_not_strict": [],
       "include_in_course_details": false,
       "exclusion_reason": "في الخطة القديمة يطابق الرمز فقط عنوانًا مختلفًا «النظام الدولي الخاص»، وفي الخطة الجديدة يطابق الاسم فقط لكن برمز مختلف 2003105-3.",
-      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/2003442-3.pdf",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003442-3.pdf",
       "classification_scan": {
         "source_clean_audit": true,
         "package_pdftotext_marker_hits": [],
@@ -2719,7 +2722,7 @@
     {
       "index": 32,
       "safe_filename": "2003404-2.pdf",
-      "title": "التدريبات القانونية",
+      "title": "تدريبات قانونية",
       "specification_code": "2003404-2",
       "credit_hours_in_source": 2,
       "general_description": "يدرّب على الترافع وكتابة صحف الدعاوى والمذكرات والدفوع والطعون والعقود والشكاوى والطلبات والتظلمات من خلال تطبيقات عملية.",
@@ -2737,8 +2740,8 @@
         "end": 7
       },
       "package_page_count": 7,
-      "package_size_bytes": 857701,
-      "package_sha256": "5b44af9492ba2b1502aff946da2060962d39e8d8bd7fef00f57f0257244ef66f",
+      "package_size_bytes": 1085792,
+      "package_sha256": "4fb681cba2412e85937af29302c228965071dcaebf68f1ef921ed4111670c42f",
       "byte_identical_to_full_source": false,
       "pdfinfo": {
         "tagged": "yes",
@@ -2756,29 +2759,24 @@
         "source_evidence_page": 7,
         "package_evidence_page": 7
       },
-      "strict_scopes": [],
-      "strict_hours_conflicts": [],
-      "match_status": "conflict",
-      "code_only_candidates": [
+      "strict_scopes": [
         {
-          "scope": {
-            "program_id": 1,
-            "program": "الأنظمة",
-            "label": "الأنظمة",
-            "plan_type": "قديمة",
-            "version": "38",
-            "degree": "بكالوريوس"
-          },
-          "plan_name": "تدريبات قانونية",
-          "plan_code": "2003404-2",
-          "plan_hours": 2
+          "program_id": 1,
+          "program": "الأنظمة",
+          "label": "الأنظمة",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
         }
       ],
+      "strict_hours_conflicts": [],
+      "match_status": "verified",
+      "code_only_candidates": [],
       "name_only_candidates": [],
       "near_name_candidates_not_strict": [],
-      "include_in_course_details": false,
-      "exclusion_reason": "مطابقة الرمز فقط في الخطة القديمة؛ اسم الخطة «تدريبات قانونية» لا يطابق حرفيًا «التدريبات القانونية».",
-      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/2003404-2.pdf",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/2003404-2.pdf",
       "classification_scan": {
         "source_clean_audit": true,
         "package_pdftotext_marker_hits": [],
@@ -2909,7 +2907,7 @@
       "near_name_candidates_not_strict": [],
       "include_in_course_details": false,
       "exclusion_reason": "لا توجد مطابقة صارمة؛ الخطة الجديدة تحتوي «نظام البيئة» برمز مختلف 2003347-2، ولا يوجد هذا الاسم والرمز معًا في النطاقين.",
-      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/quarantine/20034108-2.pdf",
+      "planned_repo_pdf_url": "assets/course-specifications/systems-source-2022/20034108-2.pdf",
       "classification_scan": {
         "source_clean_audit": true,
         "package_pdftotext_marker_hits": [],
@@ -3079,78 +3077,6 @@
       "name_only_candidates": []
     },
     {
-      "title": "القانون الدولي العام",
-      "specification_code": "2003006-3",
-      "match_status": "conflict",
-      "package_pdf": "pdf/2003006-3.pdf",
-      "reason": "مطابقة الاسم فقط؛ رمز التوصيف 2003006-3 بينما رمز الخطة في الإصدارين 2003226-3.",
-      "code_only_candidates": [],
-      "name_only_candidates": [
-        {
-          "scope": {
-            "program_id": 1,
-            "program": "الأنظمة",
-            "label": "الأنظمة",
-            "plan_type": "قديمة",
-            "version": "38",
-            "degree": "بكالوريوس"
-          },
-          "plan_name": "القانون الدولي العام",
-          "plan_code": "2003226-3",
-          "plan_hours": 3
-        },
-        {
-          "scope": {
-            "program_id": 11,
-            "program": "الأنظمة",
-            "label": "الأنظمة (47 جديدة)",
-            "plan_type": "جديدة",
-            "version": "47",
-            "degree": "بكالوريوس"
-          },
-          "plan_name": "القانون الدولي العام",
-          "plan_code": "2003226-3",
-          "plan_hours": 3
-        }
-      ]
-    },
-    {
-      "title": "النظام الجزائي العام",
-      "specification_code": "2003223-3",
-      "match_status": "conflict",
-      "package_pdf": "pdf/2003223-3.pdf",
-      "reason": "مطابقة الاسم فقط؛ رمز التوصيف 2003223-3 بينما رمز الخطة في الإصدارين 2003222-3.",
-      "code_only_candidates": [],
-      "name_only_candidates": [
-        {
-          "scope": {
-            "program_id": 1,
-            "program": "الأنظمة",
-            "label": "الأنظمة",
-            "plan_type": "قديمة",
-            "version": "38",
-            "degree": "بكالوريوس"
-          },
-          "plan_name": "النظام الجزائي العام",
-          "plan_code": "2003222-3",
-          "plan_hours": 3
-        },
-        {
-          "scope": {
-            "program_id": 11,
-            "program": "الأنظمة",
-            "label": "الأنظمة (47 جديدة)",
-            "plan_type": "جديدة",
-            "version": "47",
-            "degree": "بكالوريوس"
-          },
-          "plan_name": "النظام الجزائي العام",
-          "plan_code": "2003222-3",
-          "plan_hours": 3
-        }
-      ]
-    },
-    {
       "title": "الحقوق العينية",
       "specification_code": "2003440-3",
       "match_status": "conflict",
@@ -3254,29 +3180,6 @@
           "plan_hours": 3
         }
       ]
-    },
-    {
-      "title": "التدريبات القانونية",
-      "specification_code": "2003404-2",
-      "match_status": "conflict",
-      "package_pdf": "pdf/2003404-2.pdf",
-      "reason": "مطابقة الرمز فقط في الخطة القديمة؛ اسم الخطة «تدريبات قانونية» لا يطابق حرفيًا «التدريبات القانونية».",
-      "code_only_candidates": [
-        {
-          "scope": {
-            "program_id": 1,
-            "program": "الأنظمة",
-            "label": "الأنظمة",
-            "plan_type": "قديمة",
-            "version": "38",
-            "degree": "بكالوريوس"
-          },
-          "plan_name": "تدريبات قانونية",
-          "plan_code": "2003404-2",
-          "plan_hours": 2
-        }
-      ],
-      "name_only_candidates": []
     },
     {
       "title": "نظام حماية البيئة",
@@ -3455,5 +3358,45 @@
     "remaining_exclusions_unchanged": true,
     "course_details_fragment_sha256": "9586dd0682048c6e2cca3a38526676538868b229cc31407c2fd42f2545c9794e",
     "pdf_files_changed_or_touched": 0
+  },
+  "code_correction_update": {
+    "updated_at_utc": "2026-08-20T02:01:57.203009+00:00",
+    "corrected_pdf_count": 2,
+    "corrections": [
+      {
+        "title": "القانون الدولي العام",
+        "code_before": "2003006-3",
+        "code_after": "2003226-3"
+      },
+      {
+        "title": "النظام الجزائي العام",
+        "code_before": "2003223-3",
+        "code_after": "2003222-3"
+      }
+    ],
+    "strict_records_after_update": 26,
+    "strict_scopes_after_update": 39,
+    "exclusions_after_update": 8,
+    "data_course_details_merge_fragment": "data.course_details.merge.fragment.json",
+    "data_course_details_merge_fragment_sha256": "dd813096430239f5743dc63a70160012952a464f6e9831d0b6951252e6dedb73",
+    "explicitly_unchanged": {
+      "specification_code": "2003404-2",
+      "reason": "الغلاف الأصلي صحيح بصريًا؛ اختلاف الاستخراج CMap فقط، والاسم غير مطابق للخطة."
+    }
+  },
+  "title_correction_update": {
+    "updated_at_utc": "2026-08-20T02:48:22.684288+00:00",
+    "correction": {
+      "specification_code": "2003404-2",
+      "title_before": "التدريبات القانونية",
+      "title_after": "تدريبات قانونية",
+      "visual_code_unchanged": true,
+      "text_layer_code_normalized": true
+    },
+    "strict_records_after_update": 27,
+    "strict_scopes_after_update": 40,
+    "exclusions_after_update": 7,
+    "data_course_details_merge_fragment": "data.course_details.merge.fragment.json",
+    "data_course_details_merge_fragment_sha256": "e4df40f727442cc806b71db1a43ab009a643b7619671ca7b283f8b7b8da550a7"
   }
 }

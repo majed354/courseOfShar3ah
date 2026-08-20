@@ -129,50 +129,37 @@
       "type": "course-specification",
       "title": "المدخل لدراسة الشريعة",
       "source_relative_path": "بكالوريوس الشريعة/(1) المستوى الأول/توصيف مقرر المدخل لدراسة الشريعة[1].pdf",
-      "file": "quarantine/2001260.pdf",
-      "sha256": "fd96ea94ef52f34c05948573a4b4ca4d5ca1f19653162f6118cde734cbf85235",
+      "file": "2001260-2.pdf",
+      "sha256": "868c1cb26975c9119b00157ce8b14cd01e67d70bf98cf18ad113e88cd572cfe2",
       "page_count": 7,
       "qpdf_check": "passed",
-      "source_code": "2001260",
-      "specification_code": "2001260",
-      "declared_hours": null,
+      "source_code": "2001260-2",
+      "specification_code": "2001260-2",
+      "declared_hours": 2,
       "approval": {
         "authority": "قسم الشريعة",
         "session_number": "6",
         "session_date": "20/6/1445هـ",
         "status": "complete"
       },
-      "match_status": "name-only-code-mismatch",
-      "scopes": [],
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
       "summary": "يتناول هذا المقرر (عشرة موضوعات) وتشمل مبادئ علم الفقه الإسلامي وخصائصه، وأثر عصر النبوة في تأسيس الفقه، وأثر الصحابة والتابعين في الفقه، ومسيرة الفقه في عصر الأئمة المجتهدين، ومسيرة الفقه بعد الأئمة المجتهدين، ومسيرة الفقه في العصر الحاضر، معالم المذهب الحنفي، ومعالم المذهب المالكي، ومعالم المذهب الشافعي، ومعالم المذهب الحنبلي",
       "classification_label": "absent",
-      "rtl_visual": "pass",
-      "exclusion_note": {
-        "code_only_matches": [],
-        "name_only_matches": [
-          {
-            "program_id": 2,
-            "program": "الشريعة",
-            "degree": "بكالوريوس",
-            "plan_type": "قديمة",
-            "version": 38,
-            "course_code": "2001260-2",
-            "course_name": "المدخل لدراسة الشريعة",
-            "hours": 2
-          },
-          {
-            "program_id": 3,
-            "program": "الشريعة",
-            "degree": "بكالوريوس",
-            "plan_type": "قديمة",
-            "version": 39,
-            "course_code": "2001260-2",
-            "course_name": "المدخل لدراسة الشريعة",
-            "hours": 2
-          }
-        ],
-        "reason": "Not linked because both the full code and course name did not match the plan."
-      }
+      "rtl_visual": "pass"
     },
     {
       "type": "course-specification",
@@ -296,10 +283,10 @@
     },
     {
       "type": "course-specification",
-      "title": "فقه تاريخ عصر الخلفاء الراشدين",
+      "title": "فقه تاريخ عصر الراشدين",
       "source_relative_path": "بكالوريوس الشريعة/(2) المستوى الثاني/توصيف مقرر الخلفاء الراشدين[1].pdf",
-      "file": "quarantine/2001126-2.pdf",
-      "sha256": "512d7ee2ed3b315df7ded9f703690c7e2eff734e7ffe0690f5ee67c867b2254b",
+      "file": "2001126-2.pdf",
+      "sha256": "ca984ae280e183557225bc23d7e01d868351ae72cf77276570c81e7fb4356cde",
       "page_count": 7,
       "qpdf_check": "passed",
       "source_code": "2001126-2",
@@ -311,47 +298,30 @@
         "session_date": "20/6/1445هـ",
         "status": "complete"
       },
-      "match_status": "code-only-name-mismatch",
-      "scopes": [],
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
       "summary": "يتناول هذا المقرر التعريف بالخلفاء الراشدين رضي الله عنهم ، ونظام الخلافة ونشأتها في عهدهم ، والحالة التاريخية لخلافة كلٍ منهم ، وحروب الردة وأسبابها ، ودور المسلمين في عصر الخلافة في مواجهة المرتدين ، والفتوحات الإسلامية ودوافعها ، وأسس الحكم في عصر الخلفاء ، ومصادر الفتيا والتشريع والقضاء في عصرهم ، وأنظمة الحكم في عصرهم (الإداري والمالي) ، الفتنة التي وقعت في عصر الخلفاء الراشدين وأسبابها – وموقف الصحابة رضي الله عنهم منها ، وتفنيد الشبهات حول الفتن التي وقعت بين الصحابة وبيان منهج أهل السنة والجماعة (السلف الصالح) من هذ الفتن ، والرد على شبهات الفرق",
       "classification_label": "absent",
-      "rtl_visual": "pass",
-      "exclusion_note": {
-        "code_only_matches": [
-          {
-            "program_id": 2,
-            "program": "الشريعة",
-            "degree": "بكالوريوس",
-            "plan_type": "قديمة",
-            "version": 38,
-            "course_code": "2001126-2",
-            "course_name": "فقه تاريخ عصر الراشدين",
-            "hours": 2
-          },
-          {
-            "program_id": 3,
-            "program": "الشريعة",
-            "degree": "بكالوريوس",
-            "plan_type": "قديمة",
-            "version": 39,
-            "course_code": "2001126-2",
-            "course_name": "فقه تاريخ عصر الراشدين",
-            "hours": 2
-          },
-          {
-            "program_id": 13,
-            "program": "الشريعة",
-            "degree": "بكالوريوس",
-            "plan_type": "جديدة",
-            "version": 47,
-            "course_code": "2001126-2",
-            "course_name": "فقه تاريخ عصر الراشدين",
-            "hours": 2
-          }
-        ],
-        "name_only_matches": [],
-        "reason": "Not linked because both the full code and course name did not match the plan."
-      }
+      "rtl_visual": "pass"
     },
     {
       "type": "course-specification",
@@ -1249,8 +1219,8 @@
     "total_files": 30,
     "course_specifications": 30,
     "program_specifications": 0,
-    "strict_linked": 26,
-    "quarantined": 4,
+    "strict_linked": 28,
+    "quarantined": 2,
     "complete_approvals": 30,
     "withheld_program_specifications": 0
   }

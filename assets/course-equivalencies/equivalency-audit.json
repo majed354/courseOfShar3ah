@@ -1,0 +1,2676 @@
+{
+  "status": "published_to_data_json",
+  "agent_model": "zai-coding-plan/glm-5.3",
+  "methodology": {
+    "version": "equivalency-weighted-topic-floor-v2",
+    "eligibility": [
+      "the same substantive specification under a new code and/or name",
+      "weighted similarity >=80 with substantive topic coverage >=80%"
+    ],
+    "weights": {
+      "topics": 35,
+      "learning_outcomes": 25,
+      "general_description": 15,
+      "main_objective": 15,
+      "credit_hours": 10,
+      "title": 0
+    },
+    "guardrails": [
+      "topics_score must be >=28/35 unless the two specifications are demonstrably the same content under a renamed/recoded identity",
+      "copied template language cannot compensate for different taught material",
+      "hours mismatch prevents automatic acceptance unless proven to be a clerical difference in the same specification",
+      "code+name is the identity; code alone is never sufficient when names vary",
+      "equivalency is bidirectional by default and must be explicitly published in both directions",
+      "2004313-2 title normalization is an identity correction, not an equivalency"
+    ]
+  },
+  "coverage": {
+    "published_specification_variants": 214,
+    "features_extracted": 214,
+    "unique_code_name_identities": 201,
+    "bundle_counts": {
+      "islamic_general": 55,
+      "quran_qiraat": 81,
+      "sharia_usul_fiqh": 51,
+      "systems_law": 27
+    },
+    "independent_review_files": [
+      "GLM 5.3 cross-bundle review",
+      "independent PDF review"
+    ]
+  },
+  "summary": {
+    "confirmed_bidirectional_pairs": 8,
+    "exact_equivalent_pairs": 5,
+    "similar_ge_80_pairs": 3,
+    "borderline_human_review_pairs": 0,
+    "explicit_cross_bundle_rejections": 30,
+    "independent_topic_gate_rejections": 1,
+    "template_false_positives_rejected": 3,
+    "data_json_modified": true
+  },
+  "confirmed": [
+    {
+      "left": {
+        "id": "r0005",
+        "code": "2002116-2",
+        "name": "آداب حملة القرآن",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002116-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0172",
+        "code": "2002104-2",
+        "name": "آداب حملة القرآن",
+        "pdf_url": "assets/course-specifications/qiraat-source-1445/2002104-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "exact_spec_renamed_or_recoded",
+      "score_breakdown": {
+        "topics": 33.95,
+        "learning_outcomes": 22.5,
+        "description": 13.5,
+        "objective": 14.25,
+        "hours": 10,
+        "weighted_total": 94.2
+      },
+      "confidence": "high",
+      "decision": "automatic_accept",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "topics",
+          "left_excerpt": "تعريف الآداب وأهميتها، وفضل القرآن وتعلمه — آداب المتعلم في نفسه ومع شيخه — الإجازة وشروطها وآدابها — حكم وقف القرآن ودخول الخلاء به",
+          "right_excerpt": "تعريف الآداب وأهميتها، وفضل القرآن وتعلمه — آداب المتعلم في نفسه ومع شيخه — الإجازة وشروطها وآدابها — حكم وقف القرآن ودخول الخلاء به (قائمة من 17 موضوعًا متطابقة)"
+        },
+        {
+          "field": "objective",
+          "left_excerpt": "أن يسمي الطالب آداب حامل القرآن… أن يتقن آداب الإقراء والإجازة… أحكام المصحف",
+          "right_excerpt": "نفس الأهداف الثلاثة بصياغة مطابقة تقريبًا"
+        },
+        {
+          "field": "learning_outcomes",
+          "left_excerpt": "أن يوضح الطالب معاني الآداب — أن يصف الطالب آداب الإقراء — أن يلتزم بقيم الأمانة",
+          "right_excerpt": "المجموعة نفسها (يوضح المعاني/يشرح آداب المتعلم/يصف آداب الإقراء/يلتزم بالأمانة)"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "التوصيفان متطابقان موضوعًا وهدفًا ونواتج؛ تغيّر الرمز فقط (2002116-2 ← 2002104-2) مع تحرير لفظي طفيف وإضافة المسجد في موضع واحد. معادلة كاملة.",
+      "classification": "exact_equivalent",
+      "bidirectional": true,
+      "score_method": "topics35+outcomes25+description15+objective15+hours10; title=0; topics>=28 guardrail",
+      "review_provenance": [
+        "agent_cross_bundle",
+        "bundle_feature_extractions"
+      ]
+    },
+    {
+      "left": {
+        "id": "r0037",
+        "code": "2002318-2",
+        "name": "توجيه القراءات",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002318-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0180",
+        "code": "2002503-2",
+        "name": "توجيه القراءات",
+        "pdf_url": "assets/course-specifications/qiraat-source-1445/2002503-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "exact_spec_renamed_or_recoded",
+      "score_breakdown": {
+        "topics": 33.95,
+        "learning_outcomes": 22.5,
+        "description": 14.25,
+        "objective": 14.25,
+        "hours": 10,
+        "weighted_total": 94.95
+      },
+      "confidence": "high",
+      "decision": "automatic_accept",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "يدرس الطالب معنى توجيه القراءات وإطلاقاته وأهميته ونشأته والدوافع للتأليف فيه وأهم المؤلفات… وأثر التوجيه في التفسير والأحكام الفقهية والعقيدة واللغة العربية",
+          "right_excerpt": "الجملة نفسها حرفيًا تقريبًا في نسخة المصدر"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "تعريف التوجيه ومصطلحاته وأهميته ونشأته وتطوره (×2) — أسباب التأليف — أهم المؤلفات — أثر التوجيه في التفسير والأحكام (×3) — في البلاغة (×2) — في اللغة (×2) — في الإعراب (×2) — نماذج المشكلة والعقيدة — مراجعة",
+          "right_excerpt": "القائمة نفسها بترتيبها كاملة (17 أسبوعًا) مع فرق تهجئة (التوجير/التوجيه)"
+        },
+        {
+          "field": "objective",
+          "left_excerpt": "تعريف الطالب بمعنى توجيه القراءات وأهميته ونشأته وأهم المؤلفات — توجيه بعض أبواب أصول القراءات — معرفة أثر القراءات في التفسير والفقه والعقيدة واللغة",
+          "right_excerpt": "الأهداف الثلاثة نفسها"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "نفس التوصيف حرفيًا تقريبًا مع تغيّر الرمز (2002318-2 ← 2002503-2). أعلى درجات التطابق في هذه المراجعة.",
+      "classification": "exact_equivalent",
+      "bidirectional": true,
+      "score_method": "topics35+outcomes25+description15+objective15+hours10; title=0; topics>=28 guardrail",
+      "review_provenance": [
+        "agent_cross_bundle",
+        "bundle_feature_extractions"
+      ]
+    },
+    {
+      "left": {
+        "id": "r0011",
+        "code": "2002125-2",
+        "name": "التجويد (2)",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002125-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0176",
+        "code": "2002106-2",
+        "name": "التجويد (2)",
+        "pdf_url": "assets/course-specifications/qiraat-source-1445/2002106-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "exact_spec_renamed_or_recoded",
+      "score_breakdown": {
+        "topics": 33.25,
+        "learning_outcomes": 22.5,
+        "description": 14.25,
+        "objective": 14.25,
+        "hours": 10,
+        "weighted_total": 94.25
+      },
+      "confidence": "high",
+      "decision": "automatic_accept",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "يدرس الطالب أحكام تجويد القرآن نظريًا وعمليًا… أحكام النون الساكنة والتنوين وأحكام المدود والتفخيم والترقيق… يتلو كتاب الله تلاوة صحيحة محكمة متقنة",
+          "right_excerpt": "الفقرة نفسها بترتيب أعيد تنظيمه فقط"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "صفات الحروف (الهمس/الجهر/الشدة/الشفير…) — التفخيم والترقيق وأحوالهما — المتماثلان والمتقاربان… — اللامات الساكنة — المدود وأقسامها — الوقف وأقسامه — الابتداء والروم والإشمام",
+          "right_excerpt": "القائمة الأسبوعية نفسها بندًا بندًا (17 أسبوعًا)"
+        },
+        {
+          "field": "objective",
+          "left_excerpt": "أن يكون الطالب قادرًا على تطبيق أحكام التجويد — تلاوة صحيحة — صون اللسان عن اللحن الجلي والخفي",
+          "right_excerpt": "الأهداف الثلاثة نفسها"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "توصيف التجويد (2) نفسه بين الخطة القديمة ونسخة المصدر 1445 مع ترميز جديد (2002125-2 ← 2002106-2).",
+      "classification": "exact_equivalent",
+      "bidirectional": true,
+      "score_method": "topics35+outcomes25+description15+objective15+hours10; title=0; topics>=28 guardrail",
+      "review_provenance": [
+        "agent_cross_bundle",
+        "bundle_feature_extractions"
+      ]
+    },
+    {
+      "left": {
+        "id": "r0047",
+        "code": "2002419-2",
+        "name": "مناهج البحث",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002419-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0195",
+        "code": "2002405-2",
+        "name": "مناهج البحث",
+        "pdf_url": "assets/course-specifications/qiraat-source-1445/2002405-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "exact_spec_renamed_or_recoded",
+      "score_breakdown": {
+        "topics": 33.25,
+        "learning_outcomes": 22.5,
+        "description": 14.25,
+        "objective": 14.25,
+        "hours": 10,
+        "weighted_total": 94.25
+      },
+      "confidence": "high",
+      "decision": "automatic_accept",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "يدرس الطالب في هذه المادة مفهوم البحث العلمي وأهميته وأهدافه وأهم مراحله وكيفية اختيار موضوع البحث والتخطيط له وكذلك كيفية تحقيق المخطوطات تحقيقًا علميًا سليمًا وآليات التحقيق",
+          "right_excerpt": "الجملة نفسها حرفيًا"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "المراد بالبحث العلمي وأهدافه وصفات الباحث — تصنيف مناهج البحث — الأفكار البحثية والدراسات السابقة — اختيار الموضوع وصياغة العنوان — أدوات البحث — جمع المادة العلمية — الاقتباس والتوثيق — كتابة المسودة — تحقيق المخطوطات",
+          "right_excerpt": "القائمة نفسها بتمامها مع إعادة تنسيق"
+        },
+        {
+          "field": "objective",
+          "left_excerpt": "ترسيخ وتعزيز أهمية وأهداف البحث العلمي — التأكيد على خطوات الإعداد ومعرفة طرق ومناهج البحث",
+          "right_excerpt": "الهدفان نفساهما"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "نفس التوصيف مع ترميز جديد (2002419-2 ← 2002405-2). ولا تنطبق العلاقة على نسخ «مناهج البحث» في حزم الدراسات الإسلامية والأصول (انظر السجلات المرفوضة).",
+      "classification": "exact_equivalent",
+      "bidirectional": true,
+      "score_method": "topics35+outcomes25+description15+objective15+hours10; title=0; topics>=28 guardrail",
+      "review_provenance": [
+        "agent_cross_bundle",
+        "bundle_feature_extractions"
+      ]
+    },
+    {
+      "left": {
+        "id": "r0016",
+        "code": "2002250-2",
+        "name": "أصول التفسير ومناهجه",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002250-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0022",
+        "code": "20022250-2",
+        "name": "أصول التفسير",
+        "pdf_url": "assets/course-specifications/quranic-course-updates-1446/20022250-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "exact_spec_renamed_or_recoded",
+      "score_breakdown": {
+        "topics": 33.25,
+        "learning_outcomes": 23.75,
+        "description": 13.8,
+        "objective": 13.8,
+        "hours": 10,
+        "weighted_total": 94.6
+      },
+      "confidence": "high",
+      "decision": "automatic_accept",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "دراسة شاملة لأصول التفسير… مصادر التفسير المختلفة، أنواع التفسير، كليات التفسير، الإجماع والاختلاف في التفسير، وشروط وآداب المفسر",
+          "right_excerpt": "الصياغة نفسها تقريبًا حرفيًا مع حذف «ومناهجه» من الاسم"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "علم أصول التفسير مفهومه — مصادر التفسير (بالقرآن/بالسنة/بقول السلف/بلغة العرب/بواقع الحال) — التفسير على اللفظ والمعنى والإشارة — كليات التفسير — الإجماع في التفسير",
+          "right_excerpt": "القائمة الأسبوعية نفسها بندًا بندًا"
+        },
+        {
+          "field": "learning_outcomes",
+          "left_excerpt": "أن يوضح الطالب مفهوم علم أصول — أن يشرح أنواع تعبيرات — أن يذكر المقصود بإجماع — أن يطبق مصادر التفسير",
+          "right_excerpt": "النواتج نفسها حرفيًا (6 نواتج متطابقة)"
+        },
+        {
+          "field": "code",
+          "left_excerpt": "2002250-2",
+          "right_excerpt": "20022250-2 (إقحام خانة زائدة في الرمز مع تقصير الاسم)"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "إعادة ترميز وتغيير اسم للتوصيف نفسه (حذف «ومناهجه»). الإخراج الأمثل: قاعدة معادلة متبادلة بين الرمزين. أما نسختا الحزم الأخرى بنفس الرمز 2002250-2 (r0017 الدراسات الإسلامية وr0018 القراءات) فمختلفتان في البنية عن هذه النسخة (انظر السجلين المرفوضين).",
+      "classification": "exact_equivalent",
+      "bidirectional": true,
+      "score_method": "topics35+outcomes25+description15+objective15+hours10; title=0; topics>=28 guardrail",
+      "review_provenance": [
+        "agent_cross_bundle",
+        "bundle_feature_extractions"
+      ]
+    },
+    {
+      "left": {
+        "id": "r0052",
+        "code": "2002429-2",
+        "name": "الانتصار للقرآن",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002429-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0175",
+        "code": "2002410-2",
+        "name": "الانتصار للقرآن",
+        "pdf_url": "assets/course-specifications/qiraat-source-1445/2002410-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "exact_spec_renamed_or_recoded",
+      "score_breakdown": {
+        "topics": 29.75,
+        "learning_outcomes": 21.25,
+        "description": 13.5,
+        "objective": 14.25,
+        "hours": 10,
+        "weighted_total": 88.75
+      },
+      "confidence": "high",
+      "decision": "automatic_accept",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "يدرس الطالب بعض الأحكام والقضايا المتعلقة بالشبهات المثارة حول القرآن الكريم وكيفية الدفاع عنه",
+          "right_excerpt": "الجملة نفسها حرفيًا"
+        },
+        {
+          "field": "objective",
+          "left_excerpt": "أن يعرض الطالب الشبهات المتعلقة بنزول القرآن — الإشكالات المثارة حول تحريق المصاحف — أن يكون قادرًا على رد الشبهات — أن يحلل إشكالات النسخ",
+          "right_excerpt": "الأهداف الأربعة نفسها حرفيًا"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "مقدمة عن الانتصار للقرآن — نشأة العلم وأبرز المؤلفات — أصول الانتصار وضوابطه — الشبهات حول الوحي/جمع القرآن/تواتره/المكي والمدني والنسخ/القراءات/صلاحيته لكل زمان",
+          "right_excerpt": "الهيكل نفسه؛ النسخة الجديدة جزّأته إلى 17 أسبوعًا بدل 13 مع إضافة وضوح في بعض البنود"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "يتطابق المقرران في أصل بناء الانتصار للقرآن ومهارات رد الشبهات، وتغطي الموضوعات المشتركة 28 من 32 ساعة محتوى في النسخة المفصلة (87.5%)، مع إضافة وحدتي المتشابه وإعجاز القرآن؛ لذلك تصنف معادلة بالتشابه وليست معادلة تامة.",
+      "classification": "similar_ge_80",
+      "bidirectional": true,
+      "score_method": "topics35+outcomes25+description15+objective15+hours10; title=0; topics>=28 guardrail",
+      "review_provenance": [
+        "agent_cross_bundle",
+        "bundle_feature_extractions",
+        "independent_pdf_visual_qa"
+      ]
+    },
+    {
+      "left": {
+        "id": "r0032",
+        "code": "2002306-2",
+        "name": "التفسير (3)",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002306-2.pdf",
+        "hours": 2
+      },
+      "right": {
+        "id": "r0025",
+        "code": "2002208-2",
+        "name": "التفسير (2)",
+        "pdf_url": "assets/course-specifications/qiraat-source-1445/2002208-2.pdf",
+        "hours": 2
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics": 33,
+        "learning_outcomes": 21,
+        "description": 9,
+        "objective": 9,
+        "hours": 10,
+        "weighted_total": 82
+      },
+      "confidence": "medium",
+      "decision": "automatic_accept",
+      "symmetric": true,
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "evidence": [
+        {
+          "source_field": "topics",
+          "left_excerpt": "مقدمة عن سورة يوسف ثم تفسير الآيات (1-4، 5-14، ... 104-110) تفسيرًا تحليليًا حتى نهاية السورة",
+          "right_excerpt": "تعريف بسورة يوسف: نزولها وموضوعها وسبب تسميتها وعدد آياتها، ثم تفسير الآيات (1-6، 7-14، ... 99-110) تفسيرًا تحليليًا"
+        },
+        {
+          "source_field": "topics",
+          "left_excerpt": "تفسير يوسف (110-104) تفسيرًا تحليليًا + مراجعة عامة",
+          "right_excerpt": "تفسير الآيات م 110-99 سورة يوسف تفسيرًا تحليليًا + مراجعة عامة"
+        },
+        {
+          "source_field": "learning_outcomes",
+          "left_excerpt": "أن يطبق الطالب منهجية التفسير التحليلي على آيات من السور المدروسة / أن يستنبط الأحكام التشريعية ويربطها بالواقع المعاصر",
+          "right_excerpt": "أن يطبق الطالب منهجية التفسير التحليلي... / أن يستنبط الفوائد والأحكام من الآيات في الجزء المحدد"
+        },
+        {
+          "source_field": "general_description",
+          "left_excerpt": "يركز هذا المقرر على التفسير التحليلي لسورة يوسف بأكملها... مع الترجيح بين الأقوال المختلفة",
+          "right_excerpt": "يدرس الطالب تفسيرًا تحليليًا لسورة يوسف –عليه السلام- مع الوقوف على الحكم التشريعية المهمة وربط المادة العلمية بالواقع المعاصر"
+        }
+      ],
+      "rationale_ar": "التفسير (3) في خطة القرآن وعلومه (2002306-2) والتفسير (2) في خطة القراءات (2002208-2) كلاهما تفسير تحليلي لسورة يوسف كاملة على سبعة عشر أسبوعًا بترتيب آيات متقارب ومخرجات متجانسة؛ خُفّضت الثقة ووجب المراجعة البشرية لاختلاف ترقيم المقرر بين الخطين (2 مقابل 3) فقد يرتبط بموقع مختلف في تسلسل التفسير.",
+      "classification": "similar_ge_80",
+      "bidirectional": true,
+      "score_method": "topics35+outcomes25+description15+objective15+hours10; title=0; topics>=28 guardrail",
+      "review_provenance": [
+        "agent_quran_qiraat",
+        "manual_guardrail_check"
+      ],
+      "decision_note": "Both specifications teach analytical interpretation of the complete Surah Yusuf; sequence number differs across programs but content, hours, and topic coverage satisfy the rule."
+    },
+    {
+      "left": {
+        "id": "r0090",
+        "code": "20013105-2",
+        "name": "الفقه المقارن",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20013105-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0106",
+        "code": "2001225-2",
+        "name": "الفقه المقارن",
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001225-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics": 35,
+        "learning_outcomes": 15,
+        "description": 13,
+        "objective": 11,
+        "hours": 10,
+        "weighted_total": 84
+      },
+      "confidence": "medium",
+      "decision": "automatic_accept",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "التعريف بالفقه المقارن والفرق بينه وبين الفقه المذهبي وأسباب اختلاف الفقهاء وتاريخ تكوين المذاهب الفقهية ودراسة مسائل فقهية مختلف فيها",
+          "right_excerpt": "النص نفسه + تعداد المسائل نفسها (اشتراط النية في الوضوء/المسح على الجورب/مس المرأة/قراءة الفاتحة/ثبوت رمضان/التسعير/التعزير بالمال/الشروط في النكاح/الطلاق الثلاث/الحضانة)"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "مقدمة — مسائل العبادات (النية/الجورب/مس المرأة/الفاتحة/رمضان) — المعاملات (التسعير/التعزير) — الأسرة (الشروط/الطلاق الثلاث/الحضانة)",
+          "right_excerpt": "المسائل نفسها بالضبط في خطة مضغوطة (4 كتل بدل 15 أسبوعًا)"
+        },
+        {
+          "field": "objective",
+          "left_excerpt": "معرفة الطريقة الصحيحة لدراسة المسائل الخلافية وتنمية الملكة الفقهية لاستنباط الراجح",
+          "right_excerpt": "معرفة الأحكام بأقوال المذاهب وتنمية الملكة وربط الفقه المقارن بالواقع"
+        },
+        {
+          "field": "learning_outcomes",
+          "left_excerpt": "يذكر مفهوم الفقه المقارن — يوضح أسباب الاختلاف — يلتزم بآداب الخلاف — يقدر تنوع المذاهب",
+          "right_excerpt": "يشرح المقصود — يحدد آراء المذاهب — يستنتج الراجح — يقارن بين الفقهاء (صياغات أغنى)"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "يتناول التوصيفان المقدمات نفسها والمسائل الفقهية العشر نفسها في العبادات والمعاملات والأسرة، مع تطابق الساعات، وإنما يختلف تجميع الموضوعات الأسبوعية وصياغة بعض النواتج؛ لذلك قُدّر التشابه تحفظيًا بـ84% وتكون المعادلة في الاتجاهين.",
+      "classification": "similar_ge_80",
+      "bidirectional": true,
+      "score_method": "topics35+outcomes25+description15+objective15+hours10; title=0; topics>=28 guardrail",
+      "review_provenance": [
+        "agent_cross_bundle",
+        "independent_pdf_visual_qa"
+      ],
+      "decision_note": "Independent PDF review found the same ten named legal issues, the same introduction and school-history material, and identical credit/semester hours; conservative similarity is 84–87%."
+    }
+  ],
+  "needs_human_review": [],
+  "rejected_template_false_positives": [
+    {
+      "left": {
+        "id": "r0075",
+        "code": "20042201-2",
+        "name": "أحاديث أحكام (1)",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20042201-2.pdf",
+        "hours": 2
+      },
+      "right": {
+        "id": "r0063",
+        "code": "20043203-2",
+        "name": "أحاديث أحكام (2)",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20043203-2.pdf",
+        "hours": 2
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics": 17,
+        "learning_outcomes": 25,
+        "description": 15,
+        "objective": 15,
+        "hours": 10,
+        "weighted_total": 82
+      },
+      "confidence": "high",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "source_field": "general_description",
+          "left_excerpt": "يهدف المقرر إلى التعريف بعلم أحاديث الأحكام، ودراسة 40 حديثًا من أحاديث الأحكام واستنباط الأحكام الشرعية منها.",
+          "right_excerpt": "يهدف المقرر إلى التعريف بعلم أحاديث الأحكام، ودراسة 40 حديثًا من أحاديث الأحكام واستنباط الأحكام الشرعية منها."
+        },
+        {
+          "source_field": "main_objective",
+          "left_excerpt": "بناء التصور الصحيح عن علم أحاديث الأحكام، ودراسة جملة من أحاديث الأحكام.",
+          "right_excerpt": "بناء التصور الصحيح عن علم أحاديث الأحكام، ودراسة جملة من أحاديث الأحكام."
+        },
+        {
+          "source_field": "learning_outcomes",
+          "left_excerpt": "أن يستنبط الطالب وجه الدلالة من الحديث / أن يستخرج الحكم الشرعي الوارد في الحديث (النواتج الثمانية متطابقة نصًا)",
+          "right_excerpt": "أن يستنبط الطالب وجه الدلالة من الحديث / أن يستخرج الحكم الشرعي الوارد في الحديث (النواتج الثمانية متطابقة نصًا)"
+        },
+        {
+          "source_field": "topics.week1",
+          "left_excerpt": "أهم كتب الحديث الشريف ومناهجها / أشهر كتب أحاديث الأحكام ومنهج كل منها وأهم شروحها",
+          "right_excerpt": "أهم كتب الحديث الشريف ومناهجها / أشهر كتب أحاديث الأحكام ومنهج كل منها وأهم شروحها"
+        },
+        {
+          "source_field": "topics.weeks_2_3",
+          "left_excerpt": "التعريف بالإمام الترمذي... كتاب السنن للترمذي ومنهجه فيه والخصائص الفريدة التي امتاز بها",
+          "right_excerpt": "التعريف بالإمام النسائي... كتاب السنن للنسائي ومنهجه فيه ودرجة أحاديثه وشروحه"
+        },
+        {
+          "source_field": "topics.hadith_corpus",
+          "left_excerpt": "دراسة أحاديث الأحكام مستوعبة من أبواب المعاملات (البيعان بالخيار ما لم يتفرقا، لعن آكل الربا ومؤكله...)",
+          "right_excerpt": "دراسة أحاديث الأحكام مستوعبة من أبواب النكاح (كان عنده تسع نسوة فكان يقسم لثمان...)"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "توصيفان متطابقان حرفيًا في الوصف العام والهدف الرئيس وجميع نواتج التعلم والأسبوع الأول من الموضوعات، من سلسلة أحاديث الأحكام (المستويان الرابع والسادس). الخلاف الوحيد جوهري: الكتاب المدروس (سنن الترمذي مقابل سنن النسائي) ومتن الأربعين حديثًا (أبواب المعاملات مقابل أبواب النكاح) أي أن نحو 80% من ساعات المحتوى مادة مختلفة مع تطابق نوع النشاط التعليمي؛ لذا بلغ التشابه الموزون 82 لكن التكافؤ الأكاديمي على المحتوى المدروس غير محسوم، والقرار يحتاج مراجعة بشرية ولا يصح القبول التلقائي. العلاقة متناظرة إن قُبلت لأن كلا المقررين متساوٍ في الساعات والنواتج ولا يضم أحدهما محتوى الآخر.",
+      "classification": "rejected_below_content_guardrail",
+      "rejection_reason": "Generic description/objective/outcomes are copied, but approximately 80% of the taught hadith corpus differs; topics score 17/35 is below the required 28/35."
+    },
+    {
+      "left": {
+        "id": "r0075",
+        "code": "20042201-2",
+        "name": "أحاديث أحكام (1)",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20042201-2.pdf",
+        "hours": 2
+      },
+      "right": {
+        "id": "r0087",
+        "code": "20044208-2",
+        "name": "أحاديث أحكام (3)",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044208-2.pdf",
+        "hours": 2
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics": 17,
+        "learning_outcomes": 25,
+        "description": 15,
+        "objective": 15,
+        "hours": 10,
+        "weighted_total": 82
+      },
+      "confidence": "high",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "source_field": "general_description",
+          "left_excerpt": "يهدف المقرر إلى التعريف بعلم أحاديث الأحكام، ودراسة 40 حديثًا من أحاديث الأحكام واستنباط الأحكام الشرعية منها.",
+          "right_excerpt": "يهدف المقرر إلى التعريف بعلم أحاديث الأحكام، ودراسة 40 حديثًا من أحاديث الأحكام واستنباط الأحكام الشرعية منها."
+        },
+        {
+          "source_field": "main_objective",
+          "left_excerpt": "بناء التصور الصحيح عن علم أحاديث الأحكام، ودراسة جملة من أحاديث الأحكام.",
+          "right_excerpt": "بناء التصور الصحيح عن علم أحاديث الأحكام، ودراسة جملة من أحاديث الأحكام."
+        },
+        {
+          "source_field": "learning_outcomes",
+          "left_excerpt": "أن يذكر الطالب أسباب ورود الحديث إن وجدت / أن يتعاون مع زملائه في تخريج الأحاديث المقررة (متطابقة نصًا)",
+          "right_excerpt": "أن يذكر الطالب أسباب ورود الحديث إن وجدت / أن يتعاون مع زملائه في تخريج الأحاديث المقررة (متطابقة نصًا)"
+        },
+        {
+          "source_field": "topics.weeks_2_3",
+          "left_excerpt": "التعريف بالإمام الترمذي... كتاب السنن للترمذي ومنهجه فيه",
+          "right_excerpt": "التعريف بالإمام ابن ماجه... كتاب السنن لابن ماجه ومكانته ومنهجه فيه وشروحه"
+        },
+        {
+          "source_field": "topics.hadith_corpus",
+          "left_excerpt": "دراسة أحاديث الأحكام مستوعبة من أبواب المعاملات (البيوع والربا والاحتكار)",
+          "right_excerpt": "دراسة أحاديث الأحكام مستوعبة من أبواب الأحكام (القضاء: من جعل قاضيًا بين الناس فقد ذبح بغير سكين، الشهادات...)"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "توصيفان متطابقان حرفيًا في الوصف والهدف ونواتج التعلم والأسبوع الأول، من سلسلة أحاديث الأحكام (المستويان الرابع والثامن)، مع اختلاف الإمام والكتاب (الترمذي مقابل ابن ماجه) واختلاف كامل لمتن الأربعين حديثًا (المعاملات مقابل القضاء والشهادات)؛ فالتشابه الموزون 82 لكن تكافؤ المحتوى المدروس يحتاج قرارًا بشريًا ولا يقبل تلقائيًا، والعلاقة متناظرة إن قُبلت لتساوي المقررين في الساعات والنواتج.",
+      "classification": "rejected_below_content_guardrail",
+      "rejection_reason": "Generic description/objective/outcomes are copied, but approximately 80% of the taught hadith corpus differs; topics score 17/35 is below the required 28/35."
+    },
+    {
+      "left": {
+        "id": "r0063",
+        "code": "20043203-2",
+        "name": "أحاديث أحكام (2)",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20043203-2.pdf",
+        "hours": 2
+      },
+      "right": {
+        "id": "r0087",
+        "code": "20044208-2",
+        "name": "أحاديث أحكام (3)",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044208-2.pdf",
+        "hours": 2
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics": 17,
+        "learning_outcomes": 25,
+        "description": 15,
+        "objective": 15,
+        "hours": 10,
+        "weighted_total": 82
+      },
+      "confidence": "high",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "source_field": "general_description",
+          "left_excerpt": "يهدف المقرر إلى التعريف بعلم أحاديث الأحكام، ودراسة 40 حديثًا من أحاديث الأحكام واستنباط الأحكام الشرعية منها.",
+          "right_excerpt": "يهدف المقرر إلى التعريف بعلم أحاديث الأحكام، ودراسة 40 حديثًا من أحاديث الأحكام واستنباط الأحكام الشرعية منها."
+        },
+        {
+          "source_field": "main_objective",
+          "left_excerpt": "بناء التصور الصحيح عن علم أحاديث الأحكام، ودراسة جملة من أحاديث الأحكام.",
+          "right_excerpt": "بناء التصور الصحيح عن علم أحاديث الأحكام، ودراسة جملة من أحاديث الأحكام."
+        },
+        {
+          "source_field": "learning_outcomes",
+          "left_excerpt": "أن يستنبط وجه الدلالة من الحديث / أن يتوصل إلى ترجيح الفقهاء في تخريج الحديث (النواتج الثمانية متطابقة نصًا)",
+          "right_excerpt": "أن يستنبط وجه الدلالة من الحديث / أن يتوصل إلى ترجيح الفقهاء في تخريج الحديث (النواتج الثمانية متطابقة نصًا)"
+        },
+        {
+          "source_field": "topics.weeks_2_3",
+          "left_excerpt": "التعريف بالإمام النسائي... كتاب السنن للنسائي ومنهجه فيه ودرجة أحاديثه",
+          "right_excerpt": "التعريف بالإمام ابن ماجه... كتاب السنن لابن ماجه ومكانته ومنهجه فيه"
+        },
+        {
+          "source_field": "topics.hadith_corpus",
+          "left_excerpt": "دراسة أحاديث الأحكام مستوعبة من أبواب النكاح (كان عنده تسع نسوة...، الولود الودود...)",
+          "right_excerpt": "دراسة أحاديث الأحكام مستوعبة من أبواب الأحكام (القضاء والشهادات: القضاة ثلاثة...، لا ضرر ولا ضرار...)"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "توصيفان متطابقان حرفيًا في الوصف والهدف ونواتج التعلم والأسبوع الأول، من سلسلة أحاديث الأحكام (المستويان السادس والثامن)، مع اختلاف الإمام والكتاب (النسائي مقابل ابن ماجه) واختلاف كامل لمتن الأربعين حديثًا (النكاح مقابل القضاء والشهادات)؛ فالتشابه الموزون 82 لكن تكافؤ المحتوى المدروس يحتاج قرارًا بشريًا ولا يقبل تلقائيًا، والعلاقة متناظرة إن قُبلت.",
+      "classification": "rejected_below_content_guardrail",
+      "rejection_reason": "Generic description/objective/outcomes are copied, but approximately 80% of the taught hadith corpus differs; topics score 17/35 is below the required 28/35."
+    }
+  ],
+  "independent_topic_gate_rejections": [
+    {
+      "left": {
+        "id": "r0023",
+        "code": "2007314-2",
+        "name": "علوم دلالات القرآن",
+        "pdf_url": "assets/course-specifications/quranic-course-updates-1446/2007314-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0028",
+        "code": "2002333-2",
+        "name": "علوم القرآن (3)",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002333-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "exact_spec_renamed_or_recoded",
+      "score_breakdown": {
+        "topics": 26.9,
+        "learning_outcomes": 18.75,
+        "description": 12.75,
+        "objective": 12,
+        "hours": 10,
+        "weighted_total": 80.4
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "topics",
+          "left_excerpt": "المحكم والمتشابه (تعريفه وأنواعه والخلاف في معرفته وتطبيقاته) — العام والخاص (الصيغ والأقسام والتخصيص والفرق بينه وبين النسخ ودلالة خطاب النبي) — المطلق والمقيد — المنطوق والمفهوم والمفاهيم الملغاة — المجمل والمبين — مبهمات القرآن",
+          "right_excerpt": "المباحث نفسها بترتيب مختلف مع إضافة «مقدمة عن تدبر القرآن» (أسبوعان) في النسخة المحدثة"
+        },
+        {
+          "field": "description",
+          "left_excerpt": "يركز هذا المقرر على دراسة دلالات القرآن الكريم… المحكم والمتشابه والمجمل والمبين والعام والخاص والمطلق والمقيد",
+          "right_excerpt": "مدخل علوم القرآن (3) القديم: الأدوات اللغوية والتفسيرية… المحكم والمتشابه والعام والخاص والمنطوق والمفهوم والمتشابه اللفظي"
+        },
+        {
+          "field": "objective",
+          "left_excerpt": "تعزيز فهم الطالب لدلالات القرآن وتطبيق مهارات التحليل والتدبر",
+          "right_excerpt": "تزويد الطالب بالأدوات اللغوية والتفسيرية اللازمة لفهم دقائق النص واستنباط الأحكام والمعاني"
+        },
+        {
+          "field": "code",
+          "left_excerpt": "2002333-2 (علوم القرآن 3)",
+          "right_excerpt": "2007314-2 (علوم دلالات القرآن — إعادة تسمية وترميز في حزمة التحديثات 1446)"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "إعادة تسمية وترميز لمقرر علوم القرآن (3) بصيغة «علوم دلالات القرآن» مع استمرار نحو 80% من قائمة الموضوعات (أُضيف التدبر وبُقي مبهمات القرآن وأُسقط المتشابه اللفظي). يتجاوز العتبة مع ثقة متوسطة.",
+      "classification": "below_hard_topic_gate",
+      "topic_overlap": "20/26 substantive revised topic hours = 76.9%",
+      "rejection_reason": "The revised course adds four hours of Quran reflection and two hours of Quran ambiguities; substantive topic coverage is below the mandatory 80% floor.",
+      "publication_action": "do_not_publish_without_explicit_academic_committee_override",
+      "review_provenance": [
+        "independent_pdf_visual_qa"
+      ]
+    }
+  ],
+  "cross_bundle_rejections": [
+    {
+      "left": {
+        "id": "r0041",
+        "code": "2002454-2",
+        "name": "التفسير الموضوعي",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002454-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0207",
+        "code": "20043101-2",
+        "name": "التفسير الموضوعي",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20043101-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 65,
+        "learning_outcomes_score": 65,
+        "description_score": 70,
+        "objective_score": 70,
+        "hours_score": 10,
+        "points": {
+          "topics": 22.75,
+          "learning_outcomes": 16.25,
+          "description": 10.5,
+          "objective": 10.5,
+          "hours": 10,
+          "weighted_total": 70.0
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "تعريف التفسير الموضوعي وأهميته ونشأته وعلاقته بأنواع التفاسير + دراسة ثلاث سور (الكهف ومحمد والحجرات)",
+          "right_excerpt": "تأصيل التفسير الموضوعي (تعريف/تقسيم/منهج بحث/مناسبات) + موضوعات الشرك والعلم والعلماء والآخرة + تفسير موضوعي لسورة الكهف"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "تعريف/أهمية/نشأة التفسير الموضوعي — علاقته بالتفاسير الأخرى — أنواعه — خطوات جمع الآيات وتصنيفها — منهج دراسة السورة (الاسم/النزول/المحور/المقاطع/المناسبات) — الكهف ومحمد والحجرات",
+          "right_excerpt": "المنهجية نفسها + علم المناسبات لكن النماذج التطبيقية مختلفة (الشرك/العلم/الآخرة/الكهف بمقاطعها الأربعة)"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "تطابق منهجي عالٍ مع اختيار تطبيقي مختلف؛ لا يبلغ عتبة 80. العلاقة نفسها تنسحب على r0042 (نسخة القراءات بنفس الرمز 2002454-2)."
+    },
+    {
+      "left": {
+        "id": "r0003",
+        "code": "2002114-2",
+        "name": "تلاوة وحفظ (1)",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002114-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0068",
+        "code": "20021105-2",
+        "name": "قرآن كريم حفظ وتلاوة (1)",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20021105-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 75,
+        "learning_outcomes_score": 65,
+        "description_score": 65,
+        "objective_score": 65,
+        "hours_score": 10,
+        "points": {
+          "topics": 26.25,
+          "learning_outcomes": 16.25,
+          "description": 9.75,
+          "objective": 9.75,
+          "hours": 10,
+          "weighted_total": 72.0
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "حفظ جزء ونصف (وجهان أسبوعيًا من جزء عم) وتلاوة جزأين وربع (الفاتحة والبقرة حتى 269) بثلاثة أوجه مع بيان الغريب",
+          "right_excerpt": "حفظ سور الجزء الثلاثين تصحيحًا وتسميعًا وتلاوة الجزء الأول (الفاتحة والبقرة حتى 141) تجويدًا"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "تسميع وجهين أسبوعيًا (النبأ فالنازعات فعبس…) + تلاوة ثلاثة أوجه من البقرة تدريجيًا حتى 269",
+          "right_excerpt": "تلاوة سور جزء عم بالترتيب نفسه أسبوعيًا + البقرة حتى 141 فقط"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "البنية واحدة (جزء عم + الفاتحة والبقرة) لكن مدى التلاوة مختلف جوهريًا (269 مقابل 141)؛ والمستويات الأعلى تتباعد أكثر (مثال r0038↔r0079 للمستوى السادس: حفظ الأحزاب–فاطر مقابل الشورى–الجاثية بمجموع ≈40). لا معادلة."
+    },
+    {
+      "left": {
+        "id": "r0019",
+        "code": "2002252-2",
+        "name": "علوم القرآن العامة",
+        "pdf_url": "assets/course-specifications/quranic-course-updates-1446/2002252-2-ulum-alquran-general.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0007",
+        "code": "2002131-2",
+        "name": "علوم القرآن (1)",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002131-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 68,
+        "learning_outcomes_score": 75,
+        "description_score": 75,
+        "objective_score": 80,
+        "hours_score": 10,
+        "points": {
+          "topics": 23.8,
+          "learning_outcomes": 18.75,
+          "description": 11.25,
+          "objective": 12.0,
+          "hours": 10,
+          "weighted_total": 75.8
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "مدخل شامل لعلوم القرآن وعلاقتها بأصول الفقه: الفضائل والوحي والنزول والجمع والأحرف السبعة والمكي والمدني والناسخ والمنسوخ",
+          "right_excerpt": "مدخل شامل: الخصائص والفضائل والنزول والأحرف السبعة والقراءات وتاريخ النص القرآني في مراحله الأولى"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "تعريف علوم القرآن — المسائل المشتركة مع أصول الفقه — أسماء وخصائص — الفضائل — الوحي والنزول والتنجيم — جمع القرآن ومراحله — الأحرف السبعة — المكي والمدني — الناسخ والمنسوخ",
+          "right_excerpt": "المباحث نفسها تقريبًا لكن دون المكي/المدني/الناسخ، ومع إضافة القراءات وأركانها وأقسامها"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "نسخة التحديثات تعيد دمج محتوى علوم القرآن (1)+(2) القديمين فلا تطابق أيًّا منهما كاملًا (75.8 مع r0007، و≈75.75 مع r0008 نسخة الدراسات الإسلامية). دون العتبة."
+    },
+    {
+      "left": {
+        "id": "r0093",
+        "code": "20013202-2",
+        "name": "القواعد الفقهية",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20013202-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0116",
+        "code": "2001419-2",
+        "name": "القواعد الفقهية (1)",
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001419-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 60,
+        "learning_outcomes_score": 60,
+        "description_score": 70,
+        "objective_score": 70,
+        "hours_score": 10,
+        "points": {
+          "topics": 21.0,
+          "learning_outcomes": 15.0,
+          "description": 10.5,
+          "objective": 10.5,
+          "hours": 10,
+          "weighted_total": 67.0
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "القواعد الفقهية الكبرى والكلية وصلتها بالفقه وأصوله ونشأتها وتطورها وإلحاق الفروع",
+          "right_excerpt": "أربعة معايير: مبادئ العلم ونشأته ومؤلفاته + الأمور بمقاصدها + اليقين لا يزول بالشك + المشقة تجلب التيسير"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "مقدمات — الكبرى الخمس (بمقاصدها/اليقين/المشقة/لا ضرر/العادة) + قواعد صغرى كثيرة",
+          "right_excerpt": "المقدمات نفسها + ثلاث من الكبرى فقط بتوسع (مع النية وشروطها وأنواع التخفيف)"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "تداخل كبير في المقدمات وثلاث قواعد كبرى، لكن النسختين تختلفان في السعة والاتجاه (نسخة الدراسات الإسلامية أضيق وتتوسع في قواعد بعينها)."
+    },
+    {
+      "left": {
+        "id": "r0086",
+        "code": "20044207-2",
+        "name": "السيرة النبوية",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044207-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0101",
+        "code": "2001281-2",
+        "name": "فقه السيرة النبوية",
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001281-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 65,
+        "learning_outcomes_score": 60,
+        "description_score": 70,
+        "objective_score": 75,
+        "hours_score": 10,
+        "points": {
+          "topics": 22.75,
+          "learning_outcomes": 15.0,
+          "description": 10.5,
+          "objective": 11.25,
+          "hours": 10,
+          "weighted_total": 69.5
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "التعريف بمراحل السيرة النبوية وطبيعة الصراع بين الحق والباطل",
+          "right_excerpt": "أهمية وأهداف دراسة السيرة، أحوال العرب قبل الإسلام، المولد والنشأة والبعثة، الدعوة ومراحلها ومشركوها، الهجرتان، أحداث المدينة وتأسيس الدولة، الغزوات، حجة الوداع والوفاة"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "مدخل إلى السيرة (مصادرها ومنهج المحدثين) — ما قبل البعثة — المولد والنشأة — الشباب — الوحي — الدعوة السرية والجهرية — الإسراء والمعراج — الهجرتان…",
+          "right_excerpt": "التغطية نفسها تقريبًا (من الأهمية والنسب والمولد إلى الوفاة والخلق) بصياغة مختلفة"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "المجال واحد والتغطية متقاربة؛ لكن نسخة الدراسات الإسلامية تميزت بمدخل منهجي (مصادر/منهج المحدث/ضوابط الاستنباط) ونسخة الشريعة بصبغة «فقه السيرة». دون العتبة."
+    },
+    {
+      "left": {
+        "id": "r0064",
+        "code": "20044103-2",
+        "name": "مناهج البحث",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044103-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0047",
+        "code": "2002419-2",
+        "name": "مناهج البحث",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002419-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 70,
+        "learning_outcomes_score": 60,
+        "description_score": 60,
+        "objective_score": 65,
+        "hours_score": 10,
+        "points": {
+          "topics": 24.5,
+          "learning_outcomes": 15.0,
+          "description": 9.0,
+          "objective": 9.75,
+          "hours": 10,
+          "weighted_total": 68.25
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "topics",
+          "left_excerpt": "مبادئ البحث العلمي (المراد/الأهمية/الخصائص/الأنواع/الأخلاقيات/صفات الباحث/أهم الكتب) — مناهج البحث وتصنيفها — مناهج مناسبة لمسائل الفقه وأصوله — إعداد فكرة البحث…",
+          "right_excerpt": "القائمة نفسها تقريبًا مع فصل باب تحقيق المخطوطات (غير موجود في نسخة الدراسات الإسلامية)"
+        },
+        {
+          "field": "description",
+          "left_excerpt": "أسس ومبادئ كتابة البحث العلمي وخصائص أركانه + منهجية البحث في علوم الشريعة",
+          "right_excerpt": "البحث العلمي وأهميته ومراحله واختيار الموضوع + تحقيق المخطوطات"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "تطابق في أغلب المباحث مع اختلاف التمركز (علوم الشريعة مقابل تحقيق المخطوطات). 68.25 دون العتبة؛ العلاقة مماثلة مع r0195."
+    },
+    {
+      "left": {
+        "id": "r0047",
+        "code": "2002419-2",
+        "name": "مناهج البحث",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002419-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0133",
+        "code": "2001706-2",
+        "name": "مناهج البحث",
+        "pdf_url": "assets/course-specifications/usul-master-1446/2001706-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 45,
+        "learning_outcomes_score": 55,
+        "description_score": 50,
+        "objective_score": 70,
+        "hours_score": 10,
+        "points": {
+          "topics": 15.75,
+          "learning_outcomes": 13.75,
+          "description": 7.5,
+          "objective": 10.5,
+          "hours": 10,
+          "weighted_total": 57.5
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "topics",
+          "left_excerpt": "17 أسبوعًا مفصلًا (مناهج البحث، الأفكار، الموضوع، الأدوات، الجمع، التوثيق، المسودة، تحقيق المخطوطات…)",
+          "right_excerpt": "8 أسابيع موجزة (أهمية المنهج، سمات البحث، الأركان، المصادر، المناهج، الصياغة، الملاحق، الإخراج) دون تحقيق المخطوطات"
+        },
+        {
+          "field": "description",
+          "left_excerpt": "مفهوم البحث العلمي وأهميته وأهدافه ومراحله واختيار الموضوع وتحقيق المخطوطات",
+          "right_excerpt": "جملة واحدة: كيفية كتابة البحث العلمي بطريقة صحيحة"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "مقرر ماجستير أصول مختصر لا يوازي التوصيف التفصيلي للبكالوريوس. العلاقة نفسها مع r0064 (68.25) وr0195."
+    },
+    {
+      "left": {
+        "id": "r0110",
+        "code": "2001319-3",
+        "name": "دلالات الألفاظ (1)",
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001319-3.pdf",
+        "hours": [
+          3
+        ]
+      },
+      "right": {
+        "id": "r0130",
+        "code": "2001709-3",
+        "name": "دلالات الألفاظ",
+        "pdf_url": "assets/course-specifications/usul-master-1446/2001709-3.pdf",
+        "hours": [
+          3
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 45,
+        "learning_outcomes_score": 50,
+        "description_score": 50,
+        "objective_score": 85,
+        "hours_score": 10,
+        "points": {
+          "topics": 15.75,
+          "learning_outcomes": 12.5,
+          "description": 7.5,
+          "objective": 12.75,
+          "hours": 10,
+          "weighted_total": 58.5
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "objective",
+          "left_excerpt": "التعريف بدلالات الألفاظ وتقسيماتها والبيان وما يتعلق به والتأويل وشروطه وأنواعه وحروف المعاني ودلالاتها",
+          "right_excerpt": "نص الهدف نفسه حرفيًا في نسخة الماجستير"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "مناهج اللغويين والأصوليين — الدلالة اللفظية والمعنوية — الحقيقة والمجاز — النص والظاهر والمجمل والمبين — التأويل — حروف المعاني",
+          "right_excerpt": "مناهج الأصوليين والفروق بينها — فلسفة القيد — مفهوم المخالفة تحليليًا — العام والخلاف الحنفي/الجمهوري — التخصيص والقصر — أدلة التخصيص (معالجة مقارنة معمقة)"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "3",
+          "right_excerpt": "3"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "الهدف منقول حرفيًا لكن محتوى الماجستير مقارن تحليلي (جمهور/حنفية) بينما النسخة تعريفية تطبيقية. أما r0114 (دلالات الألفاظ 2، ساعتان) فأبعد (≈40.75) مع اختلاف ساعات."
+    },
+    {
+      "left": {
+        "id": "r0053",
+        "code": "2002456-2",
+        "name": "إعجاز القرآن الكريم",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002456-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0197",
+        "code": "2002873-2",
+        "name": "دراسات في إعجاز القرآن",
+        "pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 55,
+        "learning_outcomes_score": 45,
+        "description_score": 60,
+        "objective_score": 50,
+        "hours_score": 10,
+        "points": {
+          "topics": 19.25,
+          "learning_outcomes": 11.25,
+          "description": 9.0,
+          "objective": 7.5,
+          "hours": 10,
+          "weighted_total": 57.0
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "مباحث الإعجاز: تعريفه ونشأته وأشهر مؤلفاته وأهميته ومراحل التحدي وأنواع الإعجاز",
+          "right_excerpt": "المفهوم والأصول التاريخية والمناهج + دراسة نقدية للصرفة والبياني والعلمي والغيبي والتشريعي واتجاهات المعاصرين"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "تعريف الإعجاز والمعجزة — الصرفة وإبطالها — الإعجاز البياني (النظم/الفاصلة/التناسب/البلاغة) بتوسع — مراحل التحدي",
+          "right_excerpt": "المناهج والمدارس — آيات التحدي ودلالاتها الحجاجية — الصرفة تقويمًا — البياني/التشريعي/الغيبي/العلمي بمنهج نقدي — الدراسات الأكاديمية المعاصرة"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "مجال واحد بمستويين مختلفين (بكالوريوس وصفي مقابل ماجستير نقدي)."
+    },
+    {
+      "left": {
+        "id": "r0042",
+        "code": "2002454-2",
+        "name": "التفسير الموضوعي",
+        "pdf_url": "assets/course-specifications/qiraat-source-1445/2002454-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0199",
+        "code": "2002871-2",
+        "name": "التفسير الموضوعي",
+        "pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002871-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 60,
+        "learning_outcomes_score": 55,
+        "description_score": 70,
+        "objective_score": 60,
+        "hours_score": 10,
+        "points": {
+          "topics": 21.0,
+          "learning_outcomes": 13.75,
+          "description": 10.5,
+          "objective": 9.0,
+          "hours": 10,
+          "weighted_total": 64.25
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "تعريف التفسير الموضوعي وأهميته ونشأته وعلاقته بالأنواع + دراسة ثلاث سور + الكتابة في خمسة موضوعات",
+          "right_excerpt": "المفهوم والنشأة والأنواع وأسس البناء المنهجي وخطوات البحث + تقويم نماذج معاصرة + تدريب عملي على بناء دراسة موضوعية"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "المدخل — الأنواع — خطوات جمع الآيات وتصنيفها — منهج دراسة السورة — الكهف ومحمد والحجرات",
+          "right_excerpt": "المدخل — الأسس المنهجية — المصادر والأدوات — بناء خطة البحث — الضوابط وأخطاء الممارسة — تقويم الدراسات المعاصرة — تطبيقات (مصطلح/قضية معاصرة)"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "ماجستير منهجي نقدي مقابل بكالوريوس تطبيقي؛ العلاقة نفسها مع r0041."
+    },
+    {
+      "left": {
+        "id": "r0022",
+        "code": "20022250-2",
+        "name": "أصول التفسير",
+        "pdf_url": "assets/course-specifications/quranic-course-updates-1446/20022250-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0196",
+        "code": "2002851-4",
+        "name": "أصول التفسير",
+        "pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002851-4.pdf",
+        "hours": [
+          4
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 40,
+        "learning_outcomes_score": 35,
+        "description_score": 45,
+        "objective_score": 40,
+        "hours_score": 0,
+        "points": {
+          "topics": 14.0,
+          "learning_outcomes": 8.75,
+          "description": 6.75,
+          "objective": 6.0,
+          "hours": 0,
+          "weighted_total": 35.5
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": false,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "دراسة شاملة لأصول التفسير: المفاهيم والمصادر والأنواع والكليات وشروط المفسر",
+          "right_excerpt": "القضايا المنهجية: المفاهيم والمصادر وضوابط الاستدلال ومدارس المفسرين + قواعد الترجيح ونقد الأقوال والمصادر التراثية والرقمية"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "مصادر التفسير الخمسة — التفسير على اللفظ/المعنى/الإشارة — الكليات — الإجماع",
+          "right_excerpt": "مصادر التفسير وقيمتها — التفسير بالمأثور والتثبت — قواعد الترجيح العامة والخاصة — توظيف علوم القرآن — الاتجاهات المعاصرة — المصادر الرقمية — مشروع تطبيقي"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "4 (ماجستير)"
+        }
+      ],
+      "hours_compatible": false,
+      "hours_exception_reason": "اختلاف الساعات 2 مقابل 4؛ ولأن المحتوى أدنى من عتبة القبول أصلًا فلم تُحوَّل العلاقة إلى مراجعة بشرية بل رُفضَت مع تسجيل الاستثناء.",
+      "rationale_ar": "المحتوى الماجستيري أوسع وأعمق (ترجيح ونقد ومشروع بحثي) والساعات مختلفة (2/4)."
+    },
+    {
+      "left": {
+        "id": "r0012",
+        "code": "2002204-2",
+        "name": "التفسير (1)",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002204-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0089",
+        "code": "20021203-2",
+        "name": "التفسير التحليلي (1)",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20021203-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 30,
+        "learning_outcomes_score": 45,
+        "description_score": 40,
+        "objective_score": 45,
+        "hours_score": 10,
+        "points": {
+          "topics": 10.5,
+          "learning_outcomes": 11.25,
+          "description": 6.0,
+          "objective": 6.75,
+          "hours": 10,
+          "weighted_total": 44.5
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "التفسير التحليلي لسورة الفاتحة والآيات 1-74 من البقرة مع أسباب النزول والترجيح والاستنباط والفوائد البلاغية",
+          "right_excerpt": "تفسير الاستعاذة والبسملة والفاتحة وسور جزء عم وما تقرره من مسائل الألوهية والربوبية والأسماء والصفات واليوم الآخر والنبوة"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "مقدمة التفسير التحليلي — الاستعاذة والبسملة — الفاتحة — البقرة 1-74 أسبوعًا بأسبوع",
+          "right_excerpt": "المقدمة نفسها — الاستعاذة والبسملة — الفاتحة — ثم سور جزء عم كاملة أسبوعًا بأسبوع"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "نفس القالب المنهجي لكن النص القرآني المقروء مختلف كليًا (البقرة مقابل جزء عم). النمط نفسه في المستويات كلها (r0013↔r0089، r0024/r0025↔r0205، r0032/r0033↔r0210)."
+    },
+    {
+      "left": {
+        "id": "r0014",
+        "code": "2002232-2",
+        "name": "علوم القرآن (2)",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002232-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0204",
+        "code": "20042104-2",
+        "name": "علوم القرآن (2)",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20042104-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 15,
+        "learning_outcomes_score": 15,
+        "description_score": 30,
+        "objective_score": 20,
+        "hours_score": 10,
+        "points": {
+          "topics": 5.25,
+          "learning_outcomes": 3.75,
+          "description": 4.5,
+          "objective": 3.0,
+          "hours": 10,
+          "weighted_total": 26.5
+        }
+      },
+      "confidence": "high",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "أسباب النزول وجمع القرآن وترتيبه والمكي والمدني والناسخ والمنسوخ وأثرها في فهم النص",
+          "right_excerpt": "جملة عامة: التعريف بمجموعة من مباحث علوم القرآن المتعددة"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "أسباب النزول (3 أسابيع) — جمع القرآن وترتيبه وتحزيزه — السورة والآية — عد الآي",
+          "right_excerpt": "النسخ (12 بندًا) — المحكم والمتشابه — العام والتخصيص — المطلق والمقيد — المنطوق والمفهوم — مبهمات القرآن"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "تطابق اسم تام مع اختلاف كامل في الخريطة المعرفية — نموذج صارخ لخطر الاكتفاء بالاسم."
+    },
+    {
+      "left": {
+        "id": "r0015",
+        "code": "2002232-2",
+        "name": "علوم القرآن (2)",
+        "pdf_url": "assets/course-specifications/qiraat-source-1445/2002232-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0204",
+        "code": "20042104-2",
+        "name": "علوم القرآن (2)",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20042104-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 10,
+        "learning_outcomes_score": 15,
+        "description_score": 20,
+        "objective_score": 20,
+        "hours_score": 10,
+        "points": {
+          "topics": 3.5,
+          "learning_outcomes": 3.75,
+          "description": 3.0,
+          "objective": 3.0,
+          "hours": 10,
+          "weighted_total": 23.25
+        }
+      },
+      "confidence": "high",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "topics",
+          "left_excerpt": "قصص القرآن — الأمثال — القسم — الجدل — المتشابه اللفظي",
+          "right_excerpt": "النسخ والمحكم والمتشابه والعام والخاص والمطلق والمقيد والمنطوق والمفهوم"
+        },
+        {
+          "field": "description",
+          "left_excerpt": "مباحث علوم القرآن: قصص القرآن والأمثال والقسم وغيرها",
+          "right_excerpt": "مباحث علوم القرآن المتعددة التي تساعد على فهم كتاب الله"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "الاسم والرمز (2002232-2) متطابقان عبر الحزم لكن نسخة القراءات مختلفة أيضًا عن نسخة الخطة القديمة (قصص/أمثال/قسم) — راجع أيضًا r0015↔r0021."
+    },
+    {
+      "left": {
+        "id": "r0015",
+        "code": "2002232-2",
+        "name": "علوم القرآن (2)",
+        "pdf_url": "assets/course-specifications/qiraat-source-1445/2002232-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0021",
+        "code": "20022201-2",
+        "name": "لغة القرآن وأساليبه",
+        "pdf_url": "assets/course-specifications/quranic-course-updates-1446/20022201-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 40,
+        "learning_outcomes_score": 40,
+        "description_score": 50,
+        "objective_score": 45,
+        "hours_score": 10,
+        "points": {
+          "topics": 14.0,
+          "learning_outcomes": 10.0,
+          "description": 7.5,
+          "objective": 6.75,
+          "hours": 10,
+          "weighted_total": 48.25
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "قصص القرآن والأمثال والقسم وغيرها",
+          "right_excerpt": "غريب القرآن والمعرب والمتشابه اللفظي + أساليب القسم والأمثال والجدل والقصة"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "القصص — الأمثال — القسم (صيغه وأركانه) — الجدل — المتشابه اللفظي",
+          "right_excerpt": "الغريب — المعرب — المتشابه اللفظي — الوجوه والنظائر — إعراب القرآن + القسم والأمثال والجدل والقصة"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "أساليب القسم والأمثال والقصص مشتركة، لكن نسخة التحديثات أضافت علوم لغة القرآن ووسّعت المدى؛ دون العتبة."
+    },
+    {
+      "left": {
+        "id": "r0034",
+        "code": "2002240-2",
+        "name": "تفسير آيات الأحكام",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002240-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0214",
+        "code": "20044203-2",
+        "name": "تفسير آيات الأحكام",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044203-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 20,
+        "learning_outcomes_score": 60,
+        "description_score": 35,
+        "objective_score": 50,
+        "hours_score": 10,
+        "points": {
+          "topics": 7.0,
+          "learning_outcomes": 15.0,
+          "description": 5.25,
+          "objective": 7.5,
+          "hours": 10,
+          "weighted_total": 44.75
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "دراسة آيات الأحكام مع التركيز على الطهارة والصلاة وأحكام المساجد والقراءات وأثرها في الاستنباط",
+          "right_excerpt": "مقدمة عن تفسير آيات الأحكام ونشأته + القصاص والصيام والاعتكاف والقتال والحج والربا والدين وأموال اليتامى والتعدد والصداق…"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "نشأة العلم — طرق دلالة القرآن — آيات الطهارة (الوضوء/اللباس/الحيض) — آيات الصلاة (الأوقات/القبلة/المساجد/الجمعة)",
+          "right_excerpt": "مقدمة + البقرة 177-283 (القصاص/الصيام/الحج/الربا) + النساء (اليتامى/القتل/الخوف) + المائدة + النور + الأحزاب + الحشر + الجمعة"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "نفس المهارة العامة ومدخل مشترك، ثم افتراق كامل في الآيات المقررة."
+    },
+    {
+      "left": {
+        "id": "r0004",
+        "code": "2002115-2",
+        "name": "التجويد (1)",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002115-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0088",
+        "code": "20021202-2",
+        "name": "التجويد",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20021202-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 65,
+        "learning_outcomes_score": 50,
+        "description_score": 50,
+        "objective_score": 55,
+        "hours_score": 10,
+        "points": {
+          "topics": 22.75,
+          "learning_outcomes": 12.5,
+          "description": 7.5,
+          "objective": 8.25,
+          "hours": 10,
+          "weighted_total": 61.0
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "topics",
+          "left_excerpt": "المدخل — آداب التلاوة — اللحن — الاستعاذة والبسملة — النون الساكنة والتنوين — الميم الساكنة — المشددتان والغنة — مخارج الحروف…",
+          "right_excerpt": "المدخل — آداب التلاوة — اللحن — الاستعاذة والبسملة — النون الساكنة بأقسامها (الإظهار/الإدغام/الإقلاب/الإخفاء) — المشددتان — الميم الساكنة…"
+        },
+        {
+          "field": "description",
+          "left_excerpt": "دراسة أحكام النون الساكنة والتنوين والمدود والتفخيم والترقيق مع التطبيق",
+          "right_excerpt": "جملة واحدة: دراسة أحكام تجويد القرآن الكريم بالتفصيل"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "مقرر «التجويد» في الدراسات الإسلامية يدمج مستويي التجويد (1) و(2) بقالب مكثف؛ تداخل جزئي مع كل منهما دون تطابق. النمط نفسه مع r0011/r0176."
+    },
+    {
+      "left": {
+        "id": "r0046",
+        "code": "2002416-2",
+        "name": "التقنيات الحديثة في الدراسات القرآنية",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002416-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0177",
+        "code": "2002406-2",
+        "name": "التقنيات الحديثة في الدراسات القرآنية",
+        "pdf_url": "assets/course-specifications/qiraat-source-1445/2002406-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 18,
+        "learning_outcomes_score": 40,
+        "description_score": 45,
+        "objective_score": 35,
+        "hours_score": 10,
+        "points": {
+          "topics": 6.3,
+          "learning_outcomes": 10.0,
+          "description": 6.75,
+          "objective": 5.25,
+          "hours": 10,
+          "weighted_total": 38.3
+        }
+      },
+      "confidence": "high",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "توظيف التقنية في تعليم القرآن (الوسائل التعليمية، التصميم التعليمي، البرمجيات، الإقراء الإلكتروني، ذوو الاحتياجات الخاصة)",
+          "right_excerpt": "البحث القرآني بالتقنيات المعاصرة وأشهر البرامج والمواقع وتوظيفها في خدمة البحث القرآني"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "قنوات التواصل — تقنية المعلومات — التصميم التعليمي — البرمجيات التعليمية — الإنترنت والشبكات — التعليم الإلكتروني — الإقراء الإلكتروني — البودكاست والمحاكاة — المستحدثات لذوي الاحتياجات",
+          "right_excerpt": "المكتبة الشاملة — الرسم العثماني — محركات البحث — المواقع الخاصة بالمخطوطات — ملتقى أهل التفسير — برامج تخريج الأحاديث — برامج كتابة البحث العلمي"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "الاسم نفسه تمامًا مع انزياح كامل في التوجه (تعليم القرآن مقابل البحث القرآني) — مثال آخر لخطر الاسم."
+    },
+    {
+      "left": {
+        "id": "r0094",
+        "code": "20014206-2",
+        "name": "علم المواريث (2)",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20014206-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0115",
+        "code": "2001352-2",
+        "name": "علم المواريث (2)",
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001352-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 40,
+        "learning_outcomes_score": 40,
+        "description_score": 40,
+        "objective_score": 45,
+        "hours_score": 10,
+        "points": {
+          "topics": 14.0,
+          "learning_outcomes": 10.0,
+          "description": 6.0,
+          "objective": 6.75,
+          "hours": 10,
+          "weighted_total": 46.75
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "حساب المواريث والتأصيل والعول والتصحيح وقسمة التركات والرد",
+          "right_excerpt": "المناسخات وقسمة التركات وميراث الحمل والغرقى والهدمى والمفقود والخنثى وذوي الأرحام"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "حساب المواريث — التأصيل — العول — التصحيح — الرد — قسمة التركات — المناسخة (أسبوعان) — ميراث الحمل",
+          "right_excerpt": "المناسخات (6 أسابيع بتوسع) — قسمة التركات — الخنثي والحمل والمفقود ومن لحق بهم (15 أسبوعًا مفصلة)"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "الاسم (علم المواريث 2) متطابق لكن أحدهما فرائض حسابية والآخر مناسخات وعوارض."
+    },
+    {
+      "left": {
+        "id": "r0092",
+        "code": "20013108-2",
+        "name": "علم المواريث (1)",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20013108-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0111",
+        "code": "2001351-3",
+        "name": "علم المواريث (1)",
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001351-3.pdf",
+        "hours": [
+          3
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 70,
+        "learning_outcomes_score": 60,
+        "description_score": 85,
+        "objective_score": 70,
+        "hours_score": 0,
+        "points": {
+          "topics": 24.5,
+          "learning_outcomes": 15.0,
+          "description": 12.75,
+          "objective": 10.5,
+          "hours": 0,
+          "weighted_total": 62.75
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": false,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "التعريف بمبادئ علم المواريث ومعرفة الوارثين من الرجال والنساء ونصيب كل فرد وشروط الإرث وموانعه والتعصيب والحجب",
+          "right_excerpt": "النص نفسه حرفيًا + إضافات: وميراث الجد مع الإخوة، العول، والتصحيح، والرد"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "مبادئ الفرائض — الحقوق المتعلقة بالتركة — أسباب الإرث وموانعه — أصحاب الفروض الستة بتطبيقاتها — التعصيب — الحجب",
+          "right_excerpt": "المباحث نفسها مفصلة (45 ساعة) + ميراث الجد مع الإخوة والعول والتصحيح والرد (وهي عند الدراسات الإسلامية في المواريث 2)"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "3"
+        }
+      ],
+      "hours_compatible": false,
+      "hours_exception_reason": "اختلاف الساعات 2 مقابل 3؛ ولأن المحتوى دون العتبة (62.75) رُفضت مع تسجيل الاستثناء: نسخة الشريعة (3 ساعات) مجموعة أوسع تشمل جزءًا من المواريث (2) عند الدراسات الإسلامية.",
+      "rationale_ar": "تطابق نصي في الوصف مع توسعة محتوى وساعات؛ علاقة احتواء لا تكافؤ."
+    },
+    {
+      "left": {
+        "id": "r0096",
+        "code": "2001115-4",
+        "name": "الفقه (1)",
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001115-4.pdf",
+        "hours": [
+          4
+        ]
+      },
+      "right": {
+        "id": "r0202",
+        "code": "20041205-2",
+        "name": "الفقه (1)",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20041205-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 55,
+        "learning_outcomes_score": 55,
+        "description_score": 65,
+        "objective_score": 70,
+        "hours_score": 0,
+        "points": {
+          "topics": 19.25,
+          "learning_outcomes": 13.75,
+          "description": 9.75,
+          "objective": 10.5,
+          "hours": 0,
+          "weighted_total": 53.25
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": false,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "أربعة عشر موضوعًا: الطهارة وأنواعها وأحكام الماء والآنية والاستنجاء وسنن الفطرة والوضوء وموجبات الغسل والمسح والتيمم والنجاسة والحيض والاستحاضة والنفاس والصلاة وشروطها وأركانها وأحكام السهو",
+          "right_excerpt": "أحكام العبادات (وضوء وغسل وتيمم) وأحكام النجاسة وأحكام المرأة من حيض ونفاس واستحاضة"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "الطهارة مفصلة (14 موضوعًا) + الصلاة (النداء/الشروط/الأركان/السهو)",
+          "right_excerpt": "مدخل لفقه العبادات + الطهارة مفصلة أكثر (أقسام المياه والآنية والشك…) دون كتلة الصلاة"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "4",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": false,
+      "hours_exception_reason": "اختلاف الساعات 4 مقابل 2 لكل مستويات السلسلة (الفقه 1-7): نسخة الشريعة 4 ساعات أوسع من نسخة الدراسات الإسلامية 2 ساعة؛ المحتوى دون العتبة أصلًا فرفضت مع تسجيل الاستثناء.",
+      "rationale_ar": "سلسلة الفقه في الشريعة (4 ساعات) أوسع من مثيلتها في الدراسات الإسلامية (ساعتان) وتختلف خريطة الموضوعات في كل المستويات (1-7)."
+    },
+    {
+      "left": {
+        "id": "r0018",
+        "code": "2002250-2",
+        "name": "أصول التفسير ومناهجه",
+        "pdf_url": "assets/course-specifications/qiraat-source-1445/2002250-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0022",
+        "code": "20022250-2",
+        "name": "أصول التفسير",
+        "pdf_url": "assets/course-specifications/quranic-course-updates-1446/20022250-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 65,
+        "learning_outcomes_score": 55,
+        "description_score": 75,
+        "objective_score": 60,
+        "hours_score": 10,
+        "points": {
+          "topics": 22.75,
+          "learning_outcomes": 13.75,
+          "description": 11.25,
+          "objective": 9.0,
+          "hours": 10,
+          "weighted_total": 66.75
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "التعريف بعلم أصول التفسير وتاريخه ومصادره وأهم مؤلفاته وأسباب اختلاف المفسرين وطرق التفسير وقواعده ومناهج المفسرين",
+          "right_excerpt": "دراسة شاملة لأصول التفسير: المفاهيم والمصادر والأنواع والكليات وشروط المفسر"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "تعريف أصول التفسير مفردًا ومركبًا والفرق بين التفسير والتأويل والاستنباط + مصادر التفسير (بالقرآن/بالسنة/بأقوال الصحابة)…",
+          "right_excerpt": "الهيكل نفسه (المصادر الخمسة والتفسير على اللفظ/المعنى/الإشارة والكليات والإجماع) بترتيب ومستوى تفصيل مختلف"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "نفس الرمز والاسم (2002250-2) لنسخة الخطة القديمة التي تطابق r0022 حرفيًا، لكن نسخة القراءات أعيدت هيكلتها فبقيت دون العتبة — دليل إضافي على عدم كفاية الرمز هويةً."
+    },
+    {
+      "left": {
+        "id": "r0017",
+        "code": "2002250-2",
+        "name": "أصول التفسير ومناهجه",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/2002250-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0022",
+        "code": "20022250-2",
+        "name": "أصول التفسير",
+        "pdf_url": "assets/course-specifications/quranic-course-updates-1446/20022250-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 70,
+        "learning_outcomes_score": 50,
+        "description_score": 65,
+        "objective_score": 55,
+        "hours_score": 10,
+        "points": {
+          "topics": 24.5,
+          "learning_outcomes": 12.5,
+          "description": 9.75,
+          "objective": 8.25,
+          "hours": 10,
+          "weighted_total": 65.0
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "topics",
+          "left_excerpt": "مدخل إلى أصول التفسير — مصادر التفسير (بالقرآن/بالسنة/بأقوال الصحابة) + مناهج المؤلفين",
+          "right_excerpt": "المدخل والمصادر نفسها + التفسير على اللفظ/المعنى/الإشارة + الكليات + الإجماع"
+        },
+        {
+          "field": "description",
+          "left_excerpt": "التعريف بأصول التفسير ومصادره وطرقه وأشهر المؤلفات فيه والقواعد والأدوات ومناهج المفسرين مع دراسة أبرز كتب التفسير ومناهج مؤلفيها",
+          "right_excerpt": "دراسة شاملة لأصول التفسير… مصادره وأنواعه وكلياته وشروط المفسر"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "نسخة الدراسات الإسلامية (بنفس الرمز 2002250-2) تقارب نسخة التحديثات لكن دون العتبة؛ ترجيح مناهج المؤلفين على حساب كليات التفسير."
+    },
+    {
+      "left": {
+        "id": "r0021",
+        "code": "20022201-2",
+        "name": "لغة القرآن وأساليبه",
+        "pdf_url": "assets/course-specifications/quranic-course-updates-1446/20022201-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0198",
+        "code": "2002874-2",
+        "name": "دراسات في لغة القرآن",
+        "pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002874-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 35,
+        "learning_outcomes_score": 40,
+        "description_score": 45,
+        "objective_score": 50,
+        "hours_score": 10,
+        "points": {
+          "topics": 12.25,
+          "learning_outcomes": 10.0,
+          "description": 6.75,
+          "objective": 7.5,
+          "hours": 10,
+          "weighted_total": 46.5
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "علوم لغة القرآن (الغريب والمعرب والمتشابه اللفظي) + أساليبه (القسم والأمثال والجدل والقصة)",
+          "right_excerpt": "قضايا لغة القرآن وبلاغته: اللسان القرشي ولهجات العرب والمعرب والحقيقة والمجاز وأساليب البيان والبديع"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "الغريب — المعرب — المتشابه اللفظي — الوجوه والنظائر — إعراب القرآن — الأساليب",
+          "right_excerpt": "اللسان القرشي — المعرب — الحقيقة والمجاز — التشبيه — الاستعارة — الكناية — الحصر — الإيجاز والإطناب — الخبر والإنشاء"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "المعرب مشترك والبقية منزلقتان (علوم لغة/أساليب مقابل بلاغة بيان وبديع بمستوى ماجستير)."
+    },
+    {
+      "left": {
+        "id": "r0026",
+        "code": "2002212-2",
+        "name": "قواعد التفسير",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002212-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0022",
+        "code": "20022250-2",
+        "name": "أصول التفسير",
+        "pdf_url": "assets/course-specifications/quranic-course-updates-1446/20022250-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 25,
+        "learning_outcomes_score": 45,
+        "description_score": 55,
+        "objective_score": 50,
+        "hours_score": 10,
+        "points": {
+          "topics": 8.75,
+          "learning_outcomes": 11.25,
+          "description": 8.25,
+          "objective": 7.5,
+          "hours": 10,
+          "weighted_total": 45.75
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "مصطلحات التفسير ومصادره وطرقه وأسباب اختلاف المفسرين وأصول التفسير وقواعده ومناهجه",
+          "right_excerpt": "أصول التفسير ومصادره وأنواعه وكلياته وشروط المفسر"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "قواعد التفسير (تعريفها ونشأتها وتقسيماتها) + دراسة قواعد عامة (الآثار/السياق/الظروف/اللغة) وقواعد ترجيحية",
+          "right_excerpt": "مصادر التفسير الخمسة + التفسير على اللفظ/المعنى/الإشارة + الكليات + الإجماع"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "مقرران متمايزان داخل الحقل نفسه (قواعد التفسير مقابل مصادره)."
+    },
+    {
+      "left": {
+        "id": "r0135",
+        "code": "2001801-2",
+        "name": "أصول البحث العلمي",
+        "pdf_url": "assets/course-specifications/fiqh-master-1446/2001801-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0195",
+        "code": "2002405-2",
+        "name": "مناهج البحث",
+        "pdf_url": "assets/course-specifications/qiraat-source-1445/2002405-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 40,
+        "learning_outcomes_score": 50,
+        "description_score": 55,
+        "objective_score": 50,
+        "hours_score": 10,
+        "points": {
+          "topics": 14.0,
+          "learning_outcomes": 12.5,
+          "description": 8.25,
+          "objective": 7.5,
+          "hours": 10,
+          "weighted_total": 52.25
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "إعداد وكتابة أبحاث فقهية مذهبية ومقارنة وتحقيق مخطوطات بمنهجية عملية",
+          "right_excerpt": "مفهوم البحث العلمي ومراحله واختيار الموضوع وتحقيق المخطوطات وآلياته"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "أسس البحث (الخطة/الجمع/الصياغة/التوثيق) + أهم المصادر الرئيسة للبحث الفقهي + مهارات البحث الفقهي (تحرير النزاع…)",
+          "right_excerpt": "مناهج البحث عامة مفصلة + تحقيق المخطوطات"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "مقرر ماجستير فقه متخصص (مصادر ومهارات الفقه) مقابل مقرر مناهج عام."
+    },
+    {
+      "left": {
+        "id": "r0212",
+        "code": "20044106-2",
+        "name": "فقه النوازل والمعاملات المصرفية",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044106-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0137",
+        "code": "2001824-2",
+        "name": "فقه المعاملات المالية المعاصرة",
+        "pdf_url": "assets/course-specifications/fiqh-master-1446/2001824-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 30,
+        "learning_outcomes_score": 40,
+        "description_score": 45,
+        "objective_score": 50,
+        "hours_score": 10,
+        "points": {
+          "topics": 10.5,
+          "learning_outcomes": 10.0,
+          "description": 6.75,
+          "objective": 7.5,
+          "hours": 10,
+          "weighted_total": 44.75
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "مقدمة في منهج فقه النوازل والمعاملات المصرفية + زراعة الأعضاء والاستنساخ والبورصة والأسهم والتأمين وأطفال الأنابيب",
+          "right_excerpt": "دراسة مفردات فقه المعاملات المالية وربط أصل المسألة الفقهية بالتطبيقات المعاصرة"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "مقدمة النوازل + ضوابط الاجتهاد + نوازل العبادات والمعاملات (التورق المصرفي/البورصة/الشركات الشبكية والهرمية) والجنايات (إعادة العضو)",
+          "right_excerpt": "أصل المعاملات والشروط في البيع + البيع الإنجليزي/الرقمي/التقسيط/المرابحة + الحقوق المعنوية + الخيارات + الربا والتورق"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "مجال متقارب (معاملات معاصرة) باختيارات موضوعية مختلفة ومستويين (بكالوريوس/ماجستير)."
+    },
+    {
+      "left": {
+        "id": "r0095",
+        "code": "2001110-2",
+        "name": "المقدمات الأصولية",
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001110-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0125",
+        "code": "2001700-2",
+        "name": "مصادر ومناهج أصولية",
+        "pdf_url": "assets/course-specifications/usul-master-1446/2001700-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 35,
+        "learning_outcomes_score": 40,
+        "description_score": 45,
+        "objective_score": 55,
+        "hours_score": 10,
+        "points": {
+          "topics": 12.25,
+          "learning_outcomes": 10.0,
+          "description": 6.75,
+          "objective": 8.25,
+          "hours": 10,
+          "weighted_total": 47.25
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "مبادئ أصول الفقه ونشأته ومؤلفاته وأصول الاستنباط عند أئمة المذاهب الأربعة والمصطلحات المنطقية",
+          "right_excerpt": "مناهج التأليف في الأصول وطريقة المتكلمين والفقهاء والجامعة وتقويم التقسيم الأصولي"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "مبادئ الأصول ونشأته + مناهج الأصوليين في التأليف + أصول مذاهب الأئمة الأربعة + المصطلحات المنطقية (التصور والتصديق)",
+          "right_excerpt": "مصادر الأصول عند المتكلمين/الفقهاء/الجمع + الأعمال العلمية على كل مصدر + تقويم التقسيم الأصولي (ابن خلدون)"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "تداخل في مناهج التأليف لكن أحدهما تمهيدي والمخر ماجستيري توثيقي."
+    },
+    {
+      "left": {
+        "id": "r0112",
+        "code": "2001476-2",
+        "name": "الأديان والفرق",
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001476-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0062",
+        "code": "20043103-2",
+        "name": "الأديان",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20043103-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 40,
+        "learning_outcomes_score": 45,
+        "description_score": 50,
+        "objective_score": 55,
+        "hours_score": 10,
+        "points": {
+          "topics": 14.0,
+          "learning_outcomes": 11.25,
+          "description": 7.5,
+          "objective": 8.25,
+          "hours": 10,
+          "weighted_total": 51.0
+        }
+      },
+      "confidence": "medium",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "أصول الافتراق ودراسة الفرق (الخوارج والشيعة والمرجئة) ثم الأديان وأهميتها ودراسة بعضها (الهند وأهل الكتاب)",
+          "right_excerpt": "علم دراسة الأديان وفوائده ودعوة التقريب + اليهودية والنصرانية والهندوسية والبوذية والطاوية والكونفوشيوسية"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "مدخل الأديان + اليهودية + النصرانية (+ الهندوسية) + كتلة الفرق",
+          "right_excerpt": "مدخل الأديان + التقريب + اليهودية + النصرانية + الهندوسية والبوذية والطاوية والكونفوشيوسية"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "نصف الأديان متقارب ونصف الفرق غير موجود في نسخة الدراسات الإسلامية."
+    },
+    {
+      "left": {
+        "id": "r0104",
+        "code": "2001482-2",
+        "name": "قاعة بحث",
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001482-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "r0048",
+        "code": "2002412-2",
+        "name": "قاعة بحث قراءات",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002412-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "high_similarity",
+      "score_breakdown": {
+        "topics_score": 10,
+        "learning_outcomes_score": 25,
+        "description_score": 25,
+        "objective_score": 25,
+        "hours_score": 10,
+        "points": {
+          "topics": 3.5,
+          "learning_outcomes": 6.25,
+          "description": 3.75,
+          "objective": 3.75,
+          "hours": 10,
+          "weighted_total": 27.25
+        }
+      },
+      "confidence": "high",
+      "decision": "reject",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "description",
+          "left_excerpt": "مبادئ البحث العلمي ومناهجه وصياغة الخطة وقواعد الجمع والصياغة والتعليق والتهميش والتوثيق وتحقيق المخطوطات",
+          "right_excerpt": "مصادر القراءات المتواترة والشاذة وعلوم الرسم والضبط والتوجيه والتراجم"
+        },
+        {
+          "field": "topics",
+          "left_excerpt": "مبادئ البحث — المناهج — خطة البحث — الجمع والصياغة — التوثيق — المخطوطات",
+          "right_excerpt": "مصادر القراءات المتواترة — الشاذة — شروح الشاطبية والدرة — مصادر التوجيه — كتب الرسم والضبط وعد الآي"
+        },
+        {
+          "field": "hours",
+          "left_excerpt": "2",
+          "right_excerpt": "2"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "اسم عام مشترك (قاعة بحث) لتخصصين مختلفين تمامًا (مناهج بحث عامة مقابل مصادر قراءات)."
+    }
+  ],
+  "schema_proposal": {
+    "parser_compatible": true,
+    "publication_shape": "equivalencies[code] = array of scoped rules; each rule has source_name and options[{code,name}]",
+    "bidirectionality": "emit explicit A→B and B→A rules; the current parser does not infer reverse equivalence",
+    "identity": "always include source_name and target name; scope each source variant when the same code+name has different substantive PDFs in different programs",
+    "audit_separation": "scores, evidence, confidence, and extraction notes remain in this audit report; data.json receives only compact parser-compatible rules",
+    "patch_proposal_path": "/private/tmp/course-equivalency-glm53/equivalencies.patch-proposal.json",
+    "parser_review": {
+      "parser_compatible": true,
+      "parser_evidence": "index.html:2475-2510 يقرأ programsData.equivalencies (خريطة مفتاحها رمز المصدر)، وindex.html:2245-2288 يقرأ من كل قاعدة program/degree/plan_type/version/note وoptions من equivalents/equivalent_courses/alternatives/any_of/courses/codes، وindex.html:2104-2159 يقبل عناصر options كائنات {code,name} أو نصوصًا «رمز - اسم»؛ وindex.html:2291-2318 يقرأ source_name لهوية code+name عبر getEquivalencySourceKey (CODE||NAME)؛ ولا يقرأ الموقع أي حقل score/evidence/classification (تحقق: grep لم يجد لها مستهلكًا)، لذا تبقى في التقرير فقط، ويمكن حمل classification داخل note لأنه يُقرأ (index.html:2259)",
+      "compact_example": {
+        "equivalencies": {
+          "2001704-2": [
+            {
+              "source_name": "الأدلة الشرعية (2)",
+              "options": [
+                {
+                  "code": "2001712-2",
+                  "name": "تنزيل الأحكام على الوقائع القضائية"
+                }
+              ],
+              "note": "مثال توضيحي فقط — المعادلة هنا افتراضية للبنية وليست مرشحًا مقبولًا"
+            }
+          ],
+          "2001712-2": [
+            {
+              "source_name": "تنزيل الأحكام على الوقائع القضائية",
+              "options": [
+                {
+                  "code": "2001704-2",
+                  "name": "الأدلة الشرعية (2)"
+                }
+              ],
+              "note": "مثال توضيحي فقط — الاتجاه المعاكس من القاعدة نفسها"
+            }
+          ]
+        }
+      },
+      "compact_example_notes": "القيمة مصفوفة قواعد (مسار index.html:2498-2507)؛ كل اتجاه قاعدة مستقلة؛ source_name إلزامي داخل كل قاعدة عند تكرار الرمز بأسماء مختلفة؛ عنصر options كائن {code,name} معروض كـ «رمز - اسم» عبر formatEquivalentOption",
+      "bidirectional_rule": "افتراضي A↔B: يُصدر اتجاهان منفصلان في data.json لأن المحلل لا يبني علاقة عكسية تلقائيًا (لا يوجد منطق reverse في index.html؛ البحث يتم بمفتاح المصدر فقط)؛ كل اتجاه يحمل نفس options معكوسة؛ الفصل exact_equivalent/similar_ge_80 يُحمل نصًا داخل note مثل «معادلة تامة» أو «معادلة جزئية ≥80%» مع الاحتفاظ بالتصنيف الرمزي في audit",
+      "same_code_multi_name_rule": "عند رمز له أكثر من اسم (أو يحتمل ذلك): يوضع source_name داخل كائن القاعدة نفسها (يقبلها المحلل في index.html:2301-2308) فيصبح مفتاح الهوية CODE||NAME (index.html:2333-2334)، وعند تعدد أسماء الرمز في الكتالوج يتجاهل المحلل القواعد المحددة بالرمز فقط دون اسم (index.html:2546-2550)؛ لذا الرمز وحده غير كافٍ ويمنع إصدار معادلة بين اسمين لنفس الرمز (كحالة 2004313-2)",
+      "audit_fields": [
+        "score_method",
+        "score_breakdown",
+        "evidence",
+        "confidence",
+        "hours_compatible",
+        "hours_exception_reason",
+        "classification_symbolic"
+      ],
+      "audit_fields_rule": "تبقى هذه الحقول في تقرير المراجعة/المرشحين فقط؛ الموقع لا يقرأها من data.json (المقروء فعليًا: source_name/program/degree/plan_type/version/note/options)"
+    }
+  },
+  "source_files": [
+    "GLM 5.3 partition review: Islamic/general",
+    "GLM 5.3 partition review: Quran/qiraat",
+    "GLM 5.3 partition review: sharia/usul/fiqh",
+    "GLM 5.3 partition review: systems/law",
+    "GLM 5.3 cross-bundle review",
+    "independent PDF review"
+  ],
+  "published_date": "2026-08-20",
+  "publication": {
+    "data_path": "data.json#/equivalencies",
+    "audit_path": "assets/course-equivalencies/equivalency-audit.json",
+    "bidirectional_pairs": 8,
+    "directed_identity_pairs": 16,
+    "scoped_rules": 25,
+    "all_rules_explicit_degree": true
+  }
+}

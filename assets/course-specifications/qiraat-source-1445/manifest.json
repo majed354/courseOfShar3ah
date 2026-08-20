@@ -20,11 +20,11 @@
   },
   "counts": {
     "pdf_files": 35,
-    "strict_course_details_records": 34,
-    "strict_scopes": 51,
-    "old_plan_strict_records": 34,
-    "new_plan_strict_records": 17,
-    "excluded_from_course_details": 1,
+    "strict_course_details_records": 35,
+    "strict_scopes": 53,
+    "old_plan_strict_records": 35,
+    "new_plan_strict_records": 18,
+    "excluded_from_course_details": 0,
     "hours_warning_records": 1
   },
   "program_coverage": [
@@ -35,8 +35,8 @@
       "plan_type": "قديمة",
       "version": "38",
       "plan_courses": 72,
-      "strictly_covered_courses_from_bundle": 34,
-      "coverage_percent_from_bundle": 47.22,
+      "strictly_covered_courses_from_bundle": 35,
+      "coverage_percent_from_bundle": 48.61,
       "matched_codes": [
         "2002104-2",
         "2002250-2",
@@ -44,6 +44,7 @@
         "2002105-4",
         "2002456-2",
         "2002410-2",
+        "2002103-2",
         "2002106-2",
         "2002204-2",
         "2002208-2",
@@ -81,14 +82,15 @@
       "plan_type": "جديدة",
       "version": "47",
       "plan_courses": 89,
-      "strictly_covered_courses_from_bundle": 17,
-      "coverage_percent_from_bundle": 19.1,
+      "strictly_covered_courses_from_bundle": 18,
+      "coverage_percent_from_bundle": 20.22,
       "matched_codes": [
         "2002104-2",
         "2002250-2",
         "2002102-4",
         "2002105-4",
         "2002456-2",
+        "2002103-2",
         "2002106-2",
         "2002401-2",
         "2002407-2",
@@ -104,7 +106,7 @@
       ]
     }
   ],
-  "generated_at_utc": "2026-08-19T12:44:55.822724+00:00",
+  "generated_at_utc": "2026-08-20T02:01:57.203009+00:00",
   "repository_modified": true,
   "published_repo_directory": "assets/course-specifications/qiraat-source-1445",
   "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
@@ -116,7 +118,8 @@
     "rtl_visual_check": "35/35 final approval pages plus all covers reviewed",
     "restricted_or_confidential_labels": 0,
     "template_placeholders": 0,
-    "layout_repairs": 1
+    "layout_repairs": 1,
+    "code_corrected_pdfs": 1
   },
   "records": [
     {
@@ -485,7 +488,7 @@
       "source_sha256_before_session_patch": "f6899bc2e5607a37350bdec86c3adea06e012d26b57ca90bab3348416fd7cd39",
       "source_page_count": 7,
       "title": "التجويد (1)",
-      "specification_code": "2002102-2",
+      "specification_code": "2002103-2",
       "credit_hours_in_source": 2,
       "general_description_raw_extraction": "ًّ وعمليا ،وذلك من خالل دراسة أحكام التجويد كأحكام النون أن يدرس الطالب أحكام تجويد القرآن الكريم ًّ نظريا ًّ ً عمليا ،وبذلك الساكنة والتنوين ،وأحكام املدود ،والتفخيم والترقيق وما يتبع من أحكام التجويد ،وتطبيق ذلك تطبيقا ً ً ً يتمكن الطالب من تالوة كتاب هللا تعالى تالوة صحيحة محكمة ومتقنة. -5",
       "summary": "يتناول أحكام التجويد نظريًا وعمليًا، ومنها أحكام النون الساكنة والتنوين والمدود والتفخيم والترقيق، للوصول إلى تلاوة صحيحة متقنة.",
@@ -499,45 +502,35 @@
         "verified_complete_on_final_page": true,
         "layout_repair": null
       },
-      "strict_scopes": [],
-      "strict_hours_conflicts": [],
-      "code_only_candidates": [],
-      "name_only_candidates": [
+      "strict_scopes": [
         {
-          "scope": {
-            "program_id": 9,
-            "program": "القراءات",
-            "label": "القراءات",
-            "plan_type": "قديمة",
-            "version": "38",
-            "degree": "بكالوريوس"
-          },
-          "plan_name": "التجويد (1)",
-          "plan_code": "2002103-2",
-          "plan_hours": 2
+          "program_id": 9,
+          "program": "القراءات",
+          "label": "القراءات",
+          "plan_type": "قديمة",
+          "version": "38",
+          "degree": "بكالوريوس"
         },
         {
-          "scope": {
-            "program_id": 14,
-            "program": "القراءات",
-            "label": "القراءات (47 جديدة)",
-            "plan_type": "جديدة",
-            "version": "47",
-            "degree": "بكالوريوس"
-          },
-          "plan_name": "التجويد (1)",
-          "plan_code": "2002103-2",
-          "plan_hours": 2
+          "program_id": 14,
+          "program": "القراءات",
+          "label": "القراءات (47 جديدة)",
+          "plan_type": "جديدة",
+          "version": "47",
+          "degree": "بكالوريوس"
         }
       ],
-      "match_status": "not_linked_code_name_mismatch",
-      "include_in_course_details": false,
-      "exclusion_reason": "لم يوجد في خطتي القراءات القديمة والجديدة مقرر يطابق رمز التوصيف واسمه معًا؛ اسم المقرر موجود برمز آخر 2002103-2.",
-      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002102-2.pdf",
+      "strict_hours_conflicts": [],
+      "code_only_candidates": [],
+      "name_only_candidates": [],
+      "match_status": "verified",
+      "include_in_course_details": true,
+      "exclusion_reason": null,
+      "planned_repo_pdf_url": "assets/course-specifications/qiraat-source-1445/2002103-2.pdf",
       "source_archive": "بكالوريس قراءات/OneDrive_2026-08-19.zip",
-      "published_file": "2002102-2.pdf",
-      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002102-2.pdf",
-      "published_sha256": "e818909e9400ec09109aa41672e91ec0d1b1a9ce7f500363a7a336858baff7a7",
+      "published_file": "2002103-2.pdf",
+      "published_pdf_url": "assets/course-specifications/qiraat-source-1445/2002103-2.pdf",
+      "published_sha256": "8354fb861a5d78cf00722e0658bd9364dac5409028dcf338316b9077c37b9251",
       "published_page_count": 7,
       "publication_verification": {
         "qpdf_ok": true,
@@ -546,6 +539,14 @@
         "approval_table_complete": true,
         "sensitivity_label_absent": true,
         "placeholders_absent": true
+      },
+      "code_correction": {
+        "visible_code_before": "2002102-2",
+        "visible_code_after": "2002103-2",
+        "previous_published_sha256": "e818909e9400ec09109aa41672e91ec0d1b1a9ce7f500363a7a336858baff7a7",
+        "basis": "رمز الخطة المعتمد مع تطابق اسم المقرر في خطتي القراءات 38 و47.",
+        "method": "تعديل محافظ لمحرف واحد داخل طبقة النص في الصفحة الأولى؛ بقية الصفحات مطابقة بكسليًا.",
+        "verified_at_utc": "2026-08-20T02:01:57.203009+00:00"
       }
     },
     {
@@ -2211,5 +2212,20 @@
         "placeholders_absent": true
       }
     }
-  ]
+  ],
+  "code_correction_update": {
+    "updated_at_utc": "2026-08-20T02:01:57.203009+00:00",
+    "corrected_pdf_count": 1,
+    "codes_before": [
+      "2002102-2"
+    ],
+    "codes_after": [
+      "2002103-2"
+    ],
+    "scope_policy": "نطاقا برنامج مصدر القراءات فقط: 38 القديمة و47 الجديدة.",
+    "course_details_fragment_sha256": "c9e93255288f9eb9aa0ad2f49df6f69744b31a7698e24b6ecc2e55bee9de24e7",
+    "strict_records_after_update": 35,
+    "strict_scopes_after_update": 53,
+    "exclusions_after_update": 0
+  }
 }

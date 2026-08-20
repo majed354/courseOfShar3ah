@@ -10,13 +10,13 @@
     "session": "13",
     "date": "1446/10/10هـ"
   },
-  "approval_note": "ينطبق الاعتماد الافتراضي على السجلات الأربعة المربوطة بالخطة؛ ويحمل سجل علوم القرآن العامة اعتماده الخاص داخل السجل.",
+  "approval_note": "ينطبق الاعتماد الافتراضي على السجلات الأربعة الأولى؛ ويحمل سجل علوم القرآن العامة اعتماده الخاص داخل السجل.",
   "counts": {
     "published_pdf_files": 5,
     "published_pages": 39,
-    "strict_course_details_records": 4,
-    "independent_catalog_records": 1,
-    "strict_scopes": 4,
+    "strict_course_details_records": 5,
+    "independent_catalog_records": 0,
+    "strict_scopes": 9,
     "duplicates_skipped": 2
   },
   "duplicates_skipped": [
@@ -97,18 +97,29 @@
     },
     {
       "title": "علوم القرآن العامة",
-      "specification_code": "2002131-2",
+      "specification_code": "2002252-2",
       "source_file": "١١١١٢٢٢٢/2-2002131 علوم القرآن العامة.pdf",
       "source_sha256": "1276b3acd5ae8d6a8c2ad55de5859526d8b67841884a8ffcfaa0d63c6e3cb660",
-      "published_file": "2002131-2-ulum-alquran-general.pdf",
-      "published_sha256": "1276b3acd5ae8d6a8c2ad55de5859526d8b67841884a8ffcfaa0d63c6e3cb660",
+      "published_file": "2002252-2-ulum-alquran-general.pdf",
+      "published_sha256": "08009f71daffcea8832d51af98d34def7008b2962a0c849bf11119e6e99994c8",
       "page_count": 8,
       "credit_hours": 2,
-      "catalog_only": true,
       "source_program": "متعدد البرامج",
       "source_requirement": "متطلب كلية",
-      "match_status": "verified_catalog_only",
-      "identity_note": "يُحفظ مستقلًا عن «علوم القرآن (1)» رغم اشتراكهما في الرمز.",
+      "strict_scopes": [
+        {"program":"الأنظمة","degree":"بكالوريوس","plan_type":"جديدة","version":"47"},
+        {"program":"الدراسات الإسلامية","degree":"بكالوريوس","plan_type":"جديدة","version":"47"},
+        {"program":"الشريعة","degree":"بكالوريوس","plan_type":"جديدة","version":"47"},
+        {"program":"القراءات","degree":"بكالوريوس","plan_type":"جديدة","version":"47"},
+        {"program":"القرآن وعلومه","degree":"بكالوريوس","plan_type":"جديدة","version":"47"}
+      ],
+      "match_status": "verified",
+      "identity_note": "صُحح رمز النسخة المنشورة من 2002131-2 إلى 2002252-2 وفق رمز مقرر علوم القرآن العامة المعتمد في خطط الموقع، مع إبقاء مقررات علوم القرآن (1) ذات الرمز 2002131-2 مستقلة.",
+      "published_code_correction": {
+        "source_code": "2002131-2",
+        "published_code": "2002252-2",
+        "basis": "تطابق اسم المقرر والساعات والسياق متعدد البرامج مع خطط البكالوريوس الجديدة في الموقع"
+      },
       "approval": {
         "agency": "مجلس قسم القراءات",
         "session": "15",
@@ -116,7 +127,7 @@
       },
       "approval_values_complete": true,
       "approval_table_split_across_pages": [7, 8],
-      "source_pdf_preserved_byte_for_byte": true,
+      "source_pdf_preserved_byte_for_byte": false,
       "rtl_visual_check": true,
       "sensitivity_label_absent": true
     }
