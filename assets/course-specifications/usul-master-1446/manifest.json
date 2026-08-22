@@ -419,16 +419,47 @@
       "rtl_visual": "pass",
       "reference_only": true,
       "publication_note": "توصيف برنامج مرجعي؛ لم تُستخدم رموزه وحدها لربط توصيفات المقررات."
+    },
+    {
+      "type": "course-specification",
+      "title": "الفقه المقارن",
+      "source_file_name": "توصيف قديم مادة_فقه مقارن.pdf",
+      "file": "2001703-2.pdf",
+      "sha256": "b5fe2cf6a1016d0dba876c8408103e98554c0d5103ac87fcb0ce9d189fa51b76",
+      "page_count": 7,
+      "qpdf_check": "passed",
+      "source_code": "2001703-2",
+      "specification_code": "2001703-2",
+      "declared_hours": 2,
+      "approval": {
+        "authority": "مجلس قسم الشريعة",
+        "session_number": "المجلس الرابع عشر",
+        "session_date": "1444/9/13هـ",
+        "status": "complete"
+      },
+      "match_status": "strict-match",
+      "scopes": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "summary": "يتناول مصادر الفقه المقارن، وأسباب الخلاف الفقهي واتجاهات المذاهب، وكتب آيات وأحاديث الأحكام، وتطبيقات مقارنة في مسائل فقهية مختارة.",
+      "classification_label": "absent",
+      "rtl_visual": "pass",
+      "department_stamp": "قسم الشريعة — added on separate final page"
     }
   ],
   "withheld_program_specifications": [],
   "summary": {
-    "total_files": 14,
-    "course_specifications": 13,
+    "total_files": 15,
+    "course_specifications": 14,
     "program_specifications": 1,
-    "strict_linked": 13,
+    "strict_linked": 14,
     "quarantined": 0,
-    "complete_approvals": 13,
+    "complete_approvals": 14,
     "withheld_program_specifications": 0
   }
 }

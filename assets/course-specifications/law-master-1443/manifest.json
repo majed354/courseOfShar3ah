@@ -1,0 +1,101 @@
+{
+  "schema": "graduate-course-publication-package/v1",
+  "generated_on": "2026-08-20",
+  "status": "ready_on_feature_branch",
+  "package": "law-master-1443",
+  "strict_policy": "exact code + exact title + complete approval; different identities remain catalog-only without scopes",
+  "counts": {
+    "pdfs": 3,
+    "strict_scoped": 3,
+    "catalog_only": 0
+  },
+  "records": [
+    {
+      "program": "القانون",
+      "degree": "ماجستير",
+      "code": "2003801-2",
+      "name": "الاختصاص القضائي وسندات التنفيذ",
+      "hours": 2,
+      "level": 1,
+      "source_file_name": "__توصيف مقرر - الاختصاص القضائي وسندات التنقيذ-23 --1.pdf",
+      "source_sharepoint_folder": "https://taifedusa-my.sharepoint.com/shared?listurl=https%3A%2F%2Ftaifedusa-my.sharepoint.com%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments&id=%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments%2FGraduate%20Studies%20Vice-Deanship%20-%20OneDrive%2F%D8%AC%D9%88%D8%AF%D8%A9%20%D8%B9%D9%84%D9%8A%D8%A7%2F%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%201446%2F%D9%83%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%2F%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%2F02%20%D8%AA%D9%88%D8%B5%D9%8A%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
+      "source_sha256": "174c229b6522558d0a48ffb0f2107ff9d888839c1e469a0b447175c268f1e5b2",
+      "page_count_source": 8,
+      "approval": {
+        "entity": "قسم الأنظمة",
+        "session": "الثانية",
+        "date_hijri": "1443/11/1هـ",
+        "complete": true
+      },
+      "department_stamp": {
+        "department": "الأنظمة",
+        "status_before": "missing",
+        "requested_action": "add_only",
+        "status_after": "added_and_verified"
+      },
+      "package_path": "assets/course-specifications/law-master-1443/2003801-2.pdf",
+      "selection": "strict_exact_complete",
+      "package_sha256": "d53bce9830395fae316150a82891e44e7b6a798556747dc1e113ad7f9827b8b3",
+      "package_size_bytes": 1017782,
+      "page_count_package": 8
+    },
+    {
+      "program": "القانون",
+      "degree": "ماجستير",
+      "code": "2003814-2",
+      "name": "التدريبات القانونية 2 (الاختصاص التجاري)",
+      "hours": 2,
+      "level": 2,
+      "source_file_name": "توصيف مقرر تدريبات قانونية (الاختصاص التجاري) (1).pdf",
+      "source_sharepoint_folder": "https://taifedusa-my.sharepoint.com/shared?listurl=https%3A%2F%2Ftaifedusa-my.sharepoint.com%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments&id=%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments%2FGraduate%20Studies%20Vice-Deanship%20-%20OneDrive%2F%D8%AC%D9%88%D8%AF%D8%A9%20%D8%B9%D9%84%D9%8A%D8%A7%2F%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%201446%2F%D9%83%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%2F%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%2F02%20%D8%AA%D9%88%D8%B5%D9%8A%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
+      "source_sha256": "500d7e9ee2f7f673acfa219b46e3f73153795e58b87a4255ca5c884ee1e870c8",
+      "page_count_source": 8,
+      "approval": {
+        "entity": "قسم الأنظمة",
+        "session": "14",
+        "date_hijri": "1443/11/1هـ",
+        "complete": true
+      },
+      "department_stamp": {
+        "department": "الأنظمة",
+        "status_before": "missing",
+        "requested_action": "add_only",
+        "status_after": "added_and_verified"
+      },
+      "package_path": "assets/course-specifications/law-master-1443/2003814-2.pdf",
+      "selection": "strict_exact_complete",
+      "package_sha256": "ca3512be7930712fe97da42f8757706ebaf02f84368344b1fd7fdee7bbb4fabd",
+      "package_size_bytes": 824555,
+      "page_count_package": 8
+    },
+    {
+      "program": "القانون",
+      "degree": "ماجستير",
+      "code": "2003813-2",
+      "name": "قانون الإفلاس",
+      "hours": 2,
+      "level": 2,
+      "source_file_name": "توصيف مقرر قانون الإفلاس (1).pdf",
+      "source_sharepoint_folder": "https://taifedusa-my.sharepoint.com/shared?listurl=https%3A%2F%2Ftaifedusa-my.sharepoint.com%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments&id=%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments%2FGraduate%20Studies%20Vice-Deanship%20-%20OneDrive%2F%D8%AC%D9%88%D8%AF%D8%A9%20%D8%B9%D9%84%D9%8A%D8%A7%2F%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%201446%2F%D9%83%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%2F%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%2F02%20%D8%AA%D9%88%D8%B5%D9%8A%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
+      "source_sha256": "06672e2e456e9f70d3c6193aa15ba7a436decab8f189b0e37f8dcfabeddfd48f",
+      "page_count_source": 9,
+      "approval": {
+        "entity": "قسم الأنظمة",
+        "session": "14",
+        "date_hijri": "1443/11/1هـ",
+        "complete": true
+      },
+      "department_stamp": {
+        "department": "الأنظمة",
+        "status_before": "missing",
+        "requested_action": "add_only",
+        "status_after": "added_and_verified"
+      },
+      "package_path": "assets/course-specifications/law-master-1443/2003813-2.pdf",
+      "selection": "strict_exact_complete",
+      "package_sha256": "6ef76c754ea264ccc497ec72a1d1767e77d187593eff4ae74b4d79efb9ffc3e4",
+      "package_size_bytes": 740675,
+      "page_count_package": 9
+    }
+  ]
+}

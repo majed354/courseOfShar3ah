@@ -1,0 +1,191 @@
+[
+  {
+    "program": "الأنظمة",
+    "degree": "بكالوريوس",
+    "plan_type": "قديمة",
+    "version": 38,
+    "covered": 33,
+    "total": 60,
+    "percent": 55.0
+  },
+  {
+    "program": "الشريعة",
+    "degree": "بكالوريوس",
+    "plan_type": "قديمة",
+    "version": 38,
+    "covered": 31,
+    "total": 84,
+    "percent": 36.9
+  },
+  {
+    "program": "الشريعة",
+    "degree": "بكالوريوس",
+    "plan_type": "قديمة",
+    "version": 39,
+    "covered": 32,
+    "total": 86,
+    "percent": 37.21
+  },
+  {
+    "program": "الدراسات القرآنية",
+    "degree": "دكتوراه",
+    "plan_type": "جديدة",
+    "version": 1,
+    "covered": 4,
+    "total": 6,
+    "percent": 66.67
+  },
+  {
+    "program": "القراءات",
+    "degree": "دكتوراه",
+    "plan_type": "جديدة",
+    "version": 1,
+    "covered": 3,
+    "total": 6,
+    "percent": 50.0
+  },
+  {
+    "program": "الدراسات القرآنية المعاصرة",
+    "degree": "ماجستير",
+    "plan_type": "جديدة",
+    "version": 1,
+    "covered": 13,
+    "total": 14,
+    "percent": 92.86
+  },
+  {
+    "program": "القراءات",
+    "degree": "ماجستير",
+    "plan_type": "جديدة",
+    "version": 1,
+    "covered": 7,
+    "total": 8,
+    "percent": 87.5
+  },
+  {
+    "program": "الدراسات الإسلامية",
+    "degree": "بكالوريوس",
+    "plan_type": "قديمة",
+    "version": 39,
+    "covered": 50,
+    "total": 77,
+    "percent": 64.94
+  },
+  {
+    "program": "القراءات",
+    "degree": "بكالوريوس",
+    "plan_type": "قديمة",
+    "version": 38,
+    "covered": 38,
+    "total": 72,
+    "percent": 52.78
+  },
+  {
+    "program": "القرآن وعلومه",
+    "degree": "بكالوريوس",
+    "plan_type": "قديمة",
+    "version": 39,
+    "covered": 40,
+    "total": 81,
+    "percent": 49.38
+  },
+  {
+    "program": "الأنظمة",
+    "degree": "بكالوريوس",
+    "plan_type": "جديدة",
+    "version": 47,
+    "covered": 38,
+    "total": 76,
+    "percent": 50.0
+  },
+  {
+    "program": "الدراسات الإسلامية",
+    "degree": "بكالوريوس",
+    "plan_type": "جديدة",
+    "version": 47,
+    "covered": 31,
+    "total": 86,
+    "percent": 36.05
+  },
+  {
+    "program": "الشريعة",
+    "degree": "بكالوريوس",
+    "plan_type": "جديدة",
+    "version": 47,
+    "covered": 28,
+    "total": 81,
+    "percent": 34.57
+  },
+  {
+    "program": "القراءات",
+    "degree": "بكالوريوس",
+    "plan_type": "جديدة",
+    "version": 47,
+    "covered": 31,
+    "total": 89,
+    "percent": 34.83
+  },
+  {
+    "program": "القرآن وعلومه",
+    "degree": "بكالوريوس",
+    "plan_type": "جديدة",
+    "version": 47,
+    "covered": 38,
+    "total": 89,
+    "percent": 42.7
+  },
+  {
+    "program": "أصول الفقه",
+    "degree": "ماجستير",
+    "plan_type": "جديدة",
+    "version": 1,
+    "covered": 14,
+    "total": 15,
+    "percent": 93.33
+  },
+  {
+    "program": "الفقه",
+    "degree": "ماجستير",
+    "plan_type": "جديدة",
+    "version": 1,
+    "covered": 7,
+    "total": 15,
+    "percent": 46.67
+  },
+  {
+    "program": "القانون",
+    "degree": "ماجستير",
+    "plan_type": "جديدة",
+    "version": 1,
+    "covered": 19,
+    "total": 21,
+    "percent": 90.48
+  },
+  {
+    "program": "العقيدة",
+    "degree": "ماجستير",
+    "plan_type": "جديدة",
+    "version": 1,
+    "covered": 14,
+    "total": 15,
+    "percent": 93.33
+  },
+  {
+    "program": "الفقه",
+    "degree": "دكتوراه",
+    "plan_type": "جديدة",
+    "version": 1,
+    "covered": 5,
+    "total": 6,
+    "percent": 83.33
+  },
+  {
+    "program": "أصول الفقه",
+    "degree": "دكتوراه",
+    "plan_type": "جديدة",
+    "version": 1,
+    "covered": 1,
+    "total": 6,
+    "percent": 16.67
+  }
+]

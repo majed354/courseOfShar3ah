@@ -1,0 +1,1047 @@
+{
+  "schema": "graduate-identity-correction-authoring-audit/v1",
+  "status": "qa_pass",
+  "policy": "fail-closed exact code + exact title + exact hours; historical different-name identities are preserved",
+  "counts": {
+    "outputs": 17,
+    "law": 16,
+    "creed": 1,
+    "code_edits": 14,
+    "title_edits": 4,
+    "new_stamp_pages": 2,
+    "preserved_existing_stamps": 15
+  },
+  "records": [
+    {
+      "source": "2003802-2--commercial-company-rules.pdf",
+      "output": "2003812-2.pdf",
+      "target_code": "2003812-2",
+      "target_title": "القواعد القانونية للشركات التجارية",
+      "page_count": 8,
+      "source_sha256": "d9e821f16e86e782d09ca08dc93319c3324a5e65364e2d39f3d1448990ced703",
+      "output_sha256": "00b1af29f0d9f83f48963d4e7c8f9352cb4f1837c0d41eb966b81355bf220d1b",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          369.79,
+          362.904,
+          440.615,
+          381.758
+        ],
+        "insert_rect_top_points": [
+          368.84,
+          362.17,
+          437.965,
+          380.21
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#52B5C2"
+      },
+      "title_edit": null,
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          369.7900085449219,
+          362.9037841796875,
+          440.6152099609375,
+          381.7583862304688
+        ],
+        [
+          368.8399707257652,
+          362.1699914932251,
+          437.9652099609375,
+          380.2099914550781
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 4,
+        "title_text_operations_removed": 0
+      },
+      "before_page1_text_sha256": "2fc562611b17f5460226bf2e5685c5d9718131dddaa08aed1d9dd9035073c0df",
+      "after_page1_text_sha256": "66bc82896aee47d4b5bc58a1146e9fff8c007f7ffd9ed6959388c7df7d45d89a",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 2,
+      "source_code": "2003802-2",
+      "source_title": "القواعد القانونية للشركات التجارية",
+      "stamp": "preserved_existing_verified_law_stamp",
+      "sensitivity_markers": []
+    },
+    {
+      "source": "2003803-2--research-methods.pdf",
+      "output": "2003803-2.pdf",
+      "target_code": "2003803-2",
+      "target_title": "أصول البحث القانوني",
+      "page_count": 8,
+      "source_sha256": "e688da614e8dd65e2eb80eafb0512920fc98d3b3c66a7f03f8a601ab9047b018",
+      "output_sha256": "301c03301021c3672c642aca57ce8765741244328db6d10c2abe21d392aca9dd",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          370.87,
+          333.024,
+          440.6,
+          351.878
+        ],
+        "insert_rect_top_points": [
+          368.825,
+          332.29,
+          437.95,
+          350.33
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#52B5C2"
+      },
+      "title_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          376.0,
+          302.4,
+          441.2,
+          322.1
+        ],
+        "insert_rect_top_points": [
+          250.0,
+          302.4,
+          441.2,
+          322.1
+        ],
+        "font": "Arial",
+        "font_size": 14.04,
+        "color_rgb": "#52B5C2",
+        "fit_result": [
+          4.000000190734909,
+          1.0
+        ]
+      },
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          370.8699951171875,
+          333.023779296875,
+          440.6000122070312,
+          351.8783813476563
+        ],
+        [
+          368.824772971859,
+          332.2899866104126,
+          437.95001220703125,
+          350.3299865722656
+        ],
+        [
+          250.0,
+          302.4,
+          441.2,
+          322.1
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 4,
+        "title_text_operations_removed": 4
+      },
+      "before_page1_text_sha256": "265fc8176b5d137243fda6d0e758d464f1310ad75b103183dcca495c5392c672",
+      "after_page1_text_sha256": "e848d5e17579a6ea66e64c0edc092cee9d7865e993fddf07b2350e790aa390d6",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 2,
+      "source_code": "2003803-2",
+      "source_title": "أصول البحث",
+      "stamp": "preserved_existing_verified_law_stamp",
+      "sensitivity_markers": []
+    },
+    {
+      "source": "2003804-2--real-estate-transactions.pdf",
+      "output": "2003805-2.pdf",
+      "target_code": "2003805-2",
+      "target_title": "المعاملات العقارية",
+      "page_count": 9,
+      "source_sha256": "55dc5bcac4222b52df7ed1887d2a34074c7c41abd077592c6beae1436861353f",
+      "output_sha256": "7af78e20544876c381d28caef4187c45c818de09d869dd47ce581219d5be1958",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          362.95,
+          362.064,
+          440.57,
+          380.918
+        ],
+        "insert_rect_top_points": [
+          368.795,
+          361.33,
+          437.92,
+          379.37
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#000000"
+      },
+      "title_edit": null,
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          362.95001220703125,
+          362.06378784179685,
+          440.5704406738281,
+          380.91838989257815
+        ],
+        [
+          368.79520143865585,
+          361.3299951553345,
+          437.9204406738281,
+          379.3699951171875
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 4,
+        "title_text_operations_removed": 0
+      },
+      "before_page1_text_sha256": "a56f15cc3eb7996e02115cd12969aa4454286807c2f08220218c99388410ae24",
+      "after_page1_text_sha256": "217b519e6231934f8e6e8825423d560e369eef2f22ddb2c8cac52c65085a537a",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 2,
+      "source_code": "2003804-2",
+      "source_title": "المعاملات العقارية",
+      "stamp": "preserved_existing_verified_law_stamp",
+      "sensitivity_markers": []
+    },
+    {
+      "source": "2003811-2--civil-liability.pdf",
+      "output": "2003802-2.pdf",
+      "target_code": "2003802-2",
+      "target_title": "المسئولية المدنية",
+      "page_count": 9,
+      "source_sha256": "b200669ea6b16e6433b4fdb858a4960fbd01e0009a498776746a5cb1f7634f37",
+      "output_sha256": "9319c7d489a2a4e72cded853e93fe775903bff038f58990045675d1d758e21dd",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          362.95,
+          333.024,
+          440.57,
+          351.878
+        ],
+        "insert_rect_top_points": [
+          368.795,
+          332.29,
+          437.92,
+          350.33
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#000000"
+      },
+      "title_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          340.0,
+          302.4,
+          433.3,
+          322.1
+        ],
+        "insert_rect_top_points": [
+          270.0,
+          302.4,
+          433.3,
+          322.1
+        ],
+        "font": "Arial Bold",
+        "font_size": 14.04,
+        "color_rgb": "#000000",
+        "fit_result": [
+          4.000000190734909,
+          1.0
+        ]
+      },
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          362.95001220703125,
+          333.023779296875,
+          440.5704406738281,
+          351.8783813476563
+        ],
+        [
+          368.79520143865585,
+          332.2899866104126,
+          437.9204406738281,
+          350.3299865722656
+        ],
+        [
+          270.0,
+          302.4,
+          433.3,
+          322.1
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 4,
+        "title_text_operations_removed": 6
+      },
+      "before_page1_text_sha256": "8a61b9227a328320e82c30c6d6bdf0395011afa95d5bc451c579f6618c730bb1",
+      "after_page1_text_sha256": "055d4d9fd30adde60ffe55f78689bf3140e2c4eb596ccbf086f6448fad3a7651",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 2,
+      "source_code": "2003811-2",
+      "source_title": "المسؤولية المدنية",
+      "stamp": "preserved_existing_verified_law_stamp",
+      "sensitivity_markers": []
+    },
+    {
+      "source": "2003812-2--legal-training-1-civil.pdf",
+      "output": "2003804-2.pdf",
+      "target_code": "2003804-2",
+      "target_title": "تدريبات قانونية 1 (الاختصاص المدني)",
+      "page_count": 8,
+      "source_sha256": "d09680ce990375da7d2d3fd57688554504e3dcef16505d5a7d6ba2407f1ccd51",
+      "output_sha256": "a00b45eb7ab222c28b99b8a69150777a90f92fa1c89c342d133c5708faf326bf",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          362.95,
+          362.904,
+          440.57,
+          381.758
+        ],
+        "insert_rect_top_points": [
+          368.795,
+          362.17,
+          437.92,
+          380.21
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#000000"
+      },
+      "title_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          226.0,
+          332.3,
+          441.2,
+          352.1
+        ],
+        "insert_rect_top_points": [
+          215.0,
+          332.3,
+          441.2,
+          352.1
+        ],
+        "font": "Arial Bold",
+        "font_size": 14.04,
+        "color_rgb": "#000000",
+        "fit_result": [
+          4.100000190734875,
+          1.0
+        ]
+      },
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          362.95001220703125,
+          362.9037841796875,
+          440.5704406738281,
+          381.7583862304688
+        ],
+        [
+          368.79520143865585,
+          362.1699914932251,
+          437.9204406738281,
+          380.2099914550781
+        ],
+        [
+          215.0,
+          332.3,
+          441.2,
+          352.1
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 4,
+        "title_text_operations_removed": 10
+      },
+      "before_page1_text_sha256": "852a30614ae9b2788593cd102291531420d345a3e4ffa334d9143255e36808b4",
+      "after_page1_text_sha256": "ed76b4226848119556746ab0f672aa09c800fec7f1a2887a2cd5ff0f9d74c906",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 2,
+      "source_code": "2003812-2",
+      "source_title": "التدريبات القانونية 1 (الاختصاص المدني)",
+      "stamp": "preserved_existing_verified_law_stamp",
+      "sensitivity_markers": []
+    },
+    {
+      "source": "2003821-2--commercial-dispute-resolution.pdf",
+      "output": "2003811-2.pdf",
+      "target_code": "2003811-2",
+      "target_title": "فض المنازعات التجارية",
+      "page_count": 10,
+      "source_sha256": "b908a48a3a5468ef372279c1389a2fb324c0061d19eecefdbcb9025acfd5c5b8",
+      "output_sha256": "b05e1c6ce2c8a8efcdd615e725ab4e129ef84d1a7fd60f1a3e2d6d56a7036bba",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          369.79,
+          363.624,
+          440.63,
+          382.478
+        ],
+        "insert_rect_top_points": [
+          368.855,
+          362.89,
+          437.98,
+          380.93
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#52B5C2"
+      },
+      "title_edit": null,
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          369.7900085449219,
+          363.6237854003906,
+          440.6300109863281,
+          382.4783874511719
+        ],
+        [
+          368.85477175115585,
+          362.8899927139282,
+          437.9800109863281,
+          380.92999267578125
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 5,
+        "title_text_operations_removed": 0
+      },
+      "before_page1_text_sha256": "2e20191045fda70ce0bd6b3769a050bdc9b4c04287ecd0738cd0b387dd86e947",
+      "after_page1_text_sha256": "0516e258e9a048d05def58d0d74cddf5cbc502c657945886d945b5d7fcbdd4dc",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 2,
+      "source_code": "2003821-2",
+      "source_title": "فض المنازعات التجارية",
+      "stamp": "preserved_existing_verified_law_stamp",
+      "sensitivity_markers": []
+    },
+    {
+      "source": "2003824-2--zakat-tax-law.pdf",
+      "output": "2003816-2.pdf",
+      "target_code": "2003816-2",
+      "target_title": "الزكاة والقانون الضريبي",
+      "page_count": 10,
+      "source_sha256": "c856a7328dedd71240a59541c3be7756ab4510af15740db67b26b7f37a5c71c7",
+      "output_sha256": "60f437a2f713198df636321dac66ede1c4b3e7c4cca554641e379784fdd998f8",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          365.83,
+          362.904,
+          440.6,
+          381.758
+        ],
+        "insert_rect_top_points": [
+          368.825,
+          362.17,
+          437.95,
+          380.21
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#52B5C2"
+      },
+      "title_edit": null,
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          365.8299865722656,
+          362.9037841796875,
+          440.600439453125,
+          381.7583862304688
+        ],
+        [
+          368.8252002179527,
+          362.1699914932251,
+          437.950439453125,
+          380.2099914550781
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 4,
+        "title_text_operations_removed": 0
+      },
+      "before_page1_text_sha256": "e56f0ad78d60c8c3fb446ce24adb3a456a51df5d01018d3af1699b28d09fa125",
+      "after_page1_text_sha256": "6b1de2cc24be2f2baca80ce0fde619af2d77303c4c713bb7ddd5beb0ef58e581",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 2,
+      "source_code": "2003824-2",
+      "source_title": "الزكاة والقانون الضريبي",
+      "stamp": "preserved_existing_verified_law_stamp",
+      "sensitivity_markers": []
+    },
+    {
+      "source": "2003832-2--administrative-discipline.pdf",
+      "output": "2003821-2.pdf",
+      "target_code": "2003821-2",
+      "target_title": "أصول التأديب الإداري وضماناته",
+      "page_count": 8,
+      "source_sha256": "d81431869766b5416b74e3d5b09ae7e8496ecd014b0147a7caff1c86587fba52",
+      "output_sha256": "935466d0addccfb95bac246a57e39eeb22e748032f16f8decbecf75ebf4a962c",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          362.95,
+          362.904,
+          440.57,
+          381.758
+        ],
+        "insert_rect_top_points": [
+          368.795,
+          362.17,
+          437.92,
+          380.21
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#000000"
+      },
+      "title_edit": null,
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          362.95001220703125,
+          362.9037841796875,
+          440.5704406738281,
+          381.7583862304688
+        ],
+        [
+          368.79520143865585,
+          362.1699914932251,
+          437.9204406738281,
+          380.2099914550781
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 4,
+        "title_text_operations_removed": 0
+      },
+      "before_page1_text_sha256": "1e821506fce8b17dbe852806e010c3dca47774c4c1c447b19d6670ed105624e5",
+      "after_page1_text_sha256": "2cccbf63c0cdc0396e6cc0320d6bf9f3bdae5c7aacf5359bf4f189e77d7fc74b",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 2,
+      "source_code": "2003832-2",
+      "source_title": "أصول التأديب الإداري وضماناته",
+      "stamp": "preserved_existing_verified_law_stamp",
+      "sensitivity_markers": []
+    },
+    {
+      "source": "2003832-2--international-trade-investment-law.pdf",
+      "output": "2003815-2.pdf",
+      "target_code": "2003815-2",
+      "target_title": "قانون التجارة والاستثمار الدولي",
+      "page_count": 9,
+      "source_sha256": "ef18753f166eacc1297a523d8343295e7a95575dc354d46a8d0384a3814a07f6",
+      "output_sha256": "960e5462b31a3f8ba51564aba78a6560b3e69e9c7680eaa16f7ae3f32bbc7d76",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          365.83,
+          362.904,
+          440.63,
+          381.758
+        ],
+        "insert_rect_top_points": [
+          368.855,
+          362.17,
+          437.98,
+          380.21
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#52B5C2"
+      },
+      "title_edit": null,
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          365.8299865722656,
+          362.9037841796875,
+          440.6300109863281,
+          381.7583862304688
+        ],
+        [
+          368.85477175115585,
+          362.1699914932251,
+          437.9800109863281,
+          380.2099914550781
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 6,
+        "title_text_operations_removed": 0
+      },
+      "before_page1_text_sha256": "2bc219536cee3e12232806269815b9bfb07729c14b7fdf1e177b8df7b156c301",
+      "after_page1_text_sha256": "6be528ea696a159952d087af57d09583aa277fd31b3afc6b882530cd3ff3f6f0",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 2,
+      "source_code": "2003832-2",
+      "source_title": "قانون التجارة والاستثمار الدولي",
+      "stamp": "preserved_existing_verified_law_stamp",
+      "sensitivity_markers": []
+    },
+    {
+      "source": "2003832-2--legal-training-3-administrative.pdf",
+      "output": "2003823-2.pdf",
+      "target_code": "2003823-2",
+      "target_title": "تدريبات قانونية 3 (الاختصاص الإداري)",
+      "page_count": 8,
+      "source_sha256": "c9049a20bda3dfdaaadde9643a5b2e486ce52ccab8419c0e345c20a512be5fab",
+      "output_sha256": "0cdb0663fa754c9de8372fe0cd6de63dcc82d0027c561f81fd85d7f7d5a1de5b",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          370.87,
+          362.904,
+          440.6,
+          381.758
+        ],
+        "insert_rect_top_points": [
+          368.825,
+          362.17,
+          437.95,
+          380.21
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#52B5C2"
+      },
+      "title_edit": null,
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          370.8699951171875,
+          362.9037841796875,
+          440.6000122070312,
+          381.7583862304688
+        ],
+        [
+          368.824772971859,
+          362.1699914932251,
+          437.95001220703125,
+          380.2099914550781
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 4,
+        "title_text_operations_removed": 0
+      },
+      "before_page1_text_sha256": "49366d2702f6b8e77f7abe153f7fa381b335f8b184f5faa357035d85fcaeb003",
+      "after_page1_text_sha256": "18cb8f509d290fc609d195f1d1db5cf076b38f0905ff32becbe62fc122db534f",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 2,
+      "source_code": "2003832-2",
+      "source_title": "تدريبات قانونية 3 (الاختصاص الإداري)",
+      "stamp": "preserved_existing_verified_law_stamp",
+      "sensitivity_markers": []
+    },
+    {
+      "source": "2003833-4--research-project.pdf",
+      "output": "2003833-4.pdf",
+      "target_code": "2003833-4",
+      "target_title": "مشروع بحثي",
+      "page_count": 7,
+      "source_sha256": "0a66cf594efac7c3595b8708ea3aec54797e113a099afe8c475960dd76100939",
+      "output_sha256": "e8ef7fc1b4093c85767c3d6ab4fe717bd4983a471188d4c516cd6e2d570d7f94",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          370.87,
+          362.904,
+          440.6,
+          381.758
+        ],
+        "insert_rect_top_points": [
+          368.825,
+          362.17,
+          437.95,
+          380.21
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#52B5C2"
+      },
+      "title_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          374.0,
+          332.3,
+          441.2,
+          352.1
+        ],
+        "insert_rect_top_points": [
+          310.0,
+          332.3,
+          441.2,
+          352.1
+        ],
+        "font": "Arial",
+        "font_size": 14.04,
+        "color_rgb": "#52B5C2",
+        "fit_result": [
+          4.100000190734875,
+          1.0
+        ]
+      },
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          370.8699951171875,
+          362.9037841796875,
+          440.6000122070312,
+          381.7583862304688
+        ],
+        [
+          368.824772971859,
+          362.1699914932251,
+          437.95001220703125,
+          380.2099914550781
+        ],
+        [
+          310.0,
+          332.3,
+          441.2,
+          352.1
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 4,
+        "title_text_operations_removed": 2
+      },
+      "before_page1_text_sha256": "9e2742406a8ba47868840fbe4c8b8111702594b1531c41be4001117dee1d9862",
+      "after_page1_text_sha256": "4fbcf0372bc6df2de784f95539da635a24adcd6d26aea0a05aa10126300f5974",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 4,
+      "source_code": "2003833-4",
+      "source_title": "مشروع بحثى",
+      "stamp": "preserved_existing_verified_law_stamp",
+      "sensitivity_markers": []
+    },
+    {
+      "source": "2003841-2--government-contracting.pdf",
+      "output": "2003822-2.pdf",
+      "target_code": "2003822-2",
+      "target_title": "أسس التعاقدات الحكومية",
+      "page_count": 8,
+      "source_sha256": "f04dd3cc3712825de29d226c80c76b84a366836e01c054ea51e81e94013c6e40",
+      "output_sha256": "3b0c2d84bf49ae0ed243c5d8b2992fd200d23a72863325d55bc5ae6241291a75",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          358.99,
+          362.904,
+          440.57,
+          381.758
+        ],
+        "insert_rect_top_points": [
+          368.795,
+          362.17,
+          437.92,
+          380.21
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#52B5C2"
+      },
+      "title_edit": null,
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          358.989990234375,
+          362.9037841796875,
+          440.5704406738281,
+          381.7583862304688
+        ],
+        [
+          368.79520143865585,
+          362.1699914932251,
+          437.9204406738281,
+          380.2099914550781
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 6,
+        "title_text_operations_removed": 0
+      },
+      "before_page1_text_sha256": "8e269a13bb55c78d394bf54ab1d94ae2c0166d70fd551942a50a17c64ea41bfd",
+      "after_page1_text_sha256": "e2132c0ebe759b3ea6a2baa6387a377c9d41f414808b8bc39e5da00dfb75f94a",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 2,
+      "source_code": "2003841-2",
+      "source_title": "أسس التعاقدات الحكومية",
+      "stamp": "preserved_existing_verified_law_stamp",
+      "sensitivity_markers": []
+    },
+    {
+      "source": "2003851-2--criminal-investigation-procedures.pdf",
+      "output": "2003831-2.pdf",
+      "target_code": "2003831-2",
+      "target_title": "إجراءات التحقيق الجزائي",
+      "page_count": 8,
+      "source_sha256": "5fed484ab056722918bfa3fafd85dbec3302603886162887d542e2ef6eca23e0",
+      "output_sha256": "ab587b0b395c49ec80ee4d5150d55da680c18966b4f3cb4668e79761f02793d2",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          366.91,
+          362.904,
+          440.6,
+          381.758
+        ],
+        "insert_rect_top_points": [
+          368.825,
+          362.17,
+          437.95,
+          380.21
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#000000"
+      },
+      "title_edit": null,
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          366.9100036621094,
+          362.9037841796875,
+          440.6000122070312,
+          381.7583862304688
+        ],
+        [
+          368.824772971859,
+          362.1699914932251,
+          437.95001220703125,
+          380.2099914550781
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 7,
+        "title_text_operations_removed": 0
+      },
+      "before_page1_text_sha256": "62ce9fc1f100286338ef66f8e9a9fc752e1990e6d446442d69bbb5250c509df6",
+      "after_page1_text_sha256": "7096f0faa3026ff8a75f0018e306905749e07ef061460d4ef6ce0fdaa810d531",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 2,
+      "source_code": "2003851-2",
+      "source_title": "إجراءات التحقيق الجزائي",
+      "stamp": "preserved_existing_verified_law_stamp",
+      "sensitivity_markers": []
+    },
+    {
+      "source": "2003852-2--criminal-liability.pdf",
+      "output": "2003832-2.pdf",
+      "target_code": "2003832-2",
+      "target_title": "المسئولية الجزائية",
+      "page_count": 8,
+      "source_sha256": "54aaf59119f78606049a7fc47bf55dfd14e03c0f8698a5239afd8dbb1ce5d8e6",
+      "output_sha256": "a66e444c15731f38b37f200d847cca62478bd824edaaeb508f4dd5fd17261964",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          366.91,
+          362.064,
+          440.6,
+          380.918
+        ],
+        "insert_rect_top_points": [
+          368.825,
+          361.33,
+          437.95,
+          379.37
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#000000"
+      },
+      "title_edit": null,
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          366.9100036621094,
+          362.06378784179685,
+          440.6000122070312,
+          380.91838989257815
+        ],
+        [
+          368.824772971859,
+          361.3299951553345,
+          437.95001220703125,
+          379.3699951171875
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 7,
+        "title_text_operations_removed": 0
+      },
+      "before_page1_text_sha256": "34870f00ad1b4cf287b0f7b201a7298fbf068745900305bc55b133a9306776de",
+      "after_page1_text_sha256": "66e3bb431fbb5df9176c21c2b326f3ca53ddedcc128dd4ac2df06b2806ff643d",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 2,
+      "source_code": "2003852-2",
+      "source_title": "المسئولية الجزائية",
+      "stamp": "preserved_existing_verified_law_stamp",
+      "sensitivity_markers": []
+    },
+    {
+      "source": "2003853-2--legal-training-4-criminal.pdf",
+      "output": "2003834-2.pdf",
+      "target_code": "2003834-2",
+      "target_title": "تدريبات قانونية 4 (الاختصاص الجزائي)",
+      "page_count": 9,
+      "source_sha256": "7534fe22dbae7f8eb80c92f353878b9488da58faef930a989fb8e5168961b90d",
+      "output_sha256": "b4a32f7459f43bb612e8d78c40943115b6d94b7453aff55b96c3589ff14f1e7f",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          369.79,
+          362.904,
+          440.63,
+          381.758
+        ],
+        "insert_rect_top_points": [
+          368.855,
+          362.17,
+          437.98,
+          380.21
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#000000"
+      },
+      "title_edit": null,
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          369.7900085449219,
+          362.9037841796875,
+          440.6300109863281,
+          381.7583862304688
+        ],
+        [
+          368.85477175115585,
+          362.1699914932251,
+          437.9800109863281,
+          380.2099914550781
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 6,
+        "title_text_operations_removed": 0
+      },
+      "before_page1_text_sha256": "64d6c93b1066df66339a20e325524b9b86880a447aaf1f64a4928a1ec60816d1",
+      "after_page1_text_sha256": "2d2fd41ecec78391c73a5012b319c20124842bd8420f65a7e37f0c3174ec418e",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 2,
+      "source_code": "2003853-2",
+      "source_title": "تدريبات قانونية 4 (الاختصاص الجزائي)",
+      "stamp": "preserved_existing_verified_law_stamp",
+      "sensitivity_markers": []
+    },
+    {
+      "source": "توصيف نظام المرافعات امام ديوان المظالم 2023 -.pdf",
+      "output": "2003824-2.pdf",
+      "target_code": "2003824-2",
+      "target_title": "نظام المرافعات أمام ديوان المظالم",
+      "page_count": 7,
+      "source_sha256": "039126a8a5d97e700ab49f989034cad494047588c1f2941111b7d861194221d4",
+      "output_sha256": "5853c194167a826446113a3bdd5e90d2ffac2d3e31a1e0c414d1f2e5f5eb1100",
+      "code_edit": {
+        "page": 1,
+        "redact_rect_top_points": [
+          374.71,
+          333.024,
+          440.585,
+          351.878
+        ],
+        "insert_rect_top_points": [
+          368.81,
+          332.29,
+          437.935,
+          350.33
+        ],
+        "font": "PDF Base-14 Helvetica",
+        "font_size": 14.04,
+        "color_rgb": "#5279BB"
+      },
+      "title_edit": null,
+      "allowed_pixel_diff_rects_top_points": [
+        [
+          374.7099914550781,
+          333.023779296875,
+          440.5852111816406,
+          351.8783813476563
+        ],
+        [
+          368.80997194646835,
+          332.2899866104126,
+          437.9352111816406,
+          350.3299865722656
+        ]
+      ],
+      "semantic_strip": {
+        "code_text_operations_removed": 5,
+        "title_text_operations_removed": 0
+      },
+      "before_page1_text_sha256": "fec456eb4d7b698bfe2e67c24c13e114920ca8a89f4bc9292051a08c9dc60c4d",
+      "after_page1_text_sha256": "d75dd4bad0c02706a3a54bd55df9384e774dae8d472eb0bd7ef5589e5f976829",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "hours": 2,
+      "source_code": "203843-2",
+      "source_title": "نظام المرافعات أمام ديوان المظالم",
+      "stamp": {
+        "stamp_donor": "2003802-2--commercial-company-rules.pdf",
+        "stamp_donor_sha256": "d9e821f16e86e782d09ca08dc93319c3324a5e65364e2d39f3d1448990ced703",
+        "placement": "appended_final_department_stamp_page",
+        "page_count_before_stamp": 6,
+        "page_count_after_stamp": 7
+      },
+      "sensitivity_markers": []
+    },
+    {
+      "source": "توصيف الفرق24.pdf",
+      "output": "2001714-3.pdf",
+      "target_code": "2001714-3",
+      "target_title": "الفرق",
+      "hours": 3,
+      "program": "العقيدة",
+      "degree": "ماجستير",
+      "source_program_cover": "ماجستير فرق",
+      "source_context_note": "الاسم والرمز والساعات تطابق خطة العقيدة حرفيًا، لكن الغلاف يسمي البرنامج ماجستير فرق.",
+      "source_sha256": "f221c8307f2c12bd9274ab3194d5188bb65bc538a847971447c586f3f9758eb2",
+      "output_sha256": "c0cde4dbda420dfadf8d4e87e68b0b4a1f38ad63ff16beb68280c75b3fbdbcd2",
+      "page_count": 12,
+      "code_edit": null,
+      "title_edit": null,
+      "allowed_pixel_diff_rects_top_points": [],
+      "stamp": {
+        "stamp_donor": "2001715-2.pdf",
+        "stamp_donor_sha256": "321c79af1fecb75f4b49467882d39917d20a081c886902d756756444aa61875f",
+        "placement": "appended_final_department_stamp_page",
+        "page_count_before_stamp": 11,
+        "page_count_after_stamp": 12
+      },
+      "sensitivity_markers": [],
+      "metadata_cleanup": {
+        "removed": [
+          "XMP metadata stream",
+          "classification metadata keys"
+        ],
+        "preserved": "standard document metadata, page content, and department stamp",
+        "raw_marker_count": 0,
+        "qdf_marker_count": 0,
+        "text_unchanged": true,
+        "visual_change": false,
+        "qpdf_check": "pass"
+      }
+    }
+  ]
+}

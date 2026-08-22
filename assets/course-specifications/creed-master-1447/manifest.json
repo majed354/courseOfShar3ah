@@ -1,0 +1,382 @@
+{
+  "schema": "graduate-course-publication-package/v1",
+  "generated_on": "2026-08-20",
+  "status": "ready_on_feature_branch",
+  "package": "creed-master-1447",
+  "strict_policy": "exact code + exact title + complete approval; different identities remain catalog-only without scopes",
+  "counts": {
+    "pdfs": 12,
+    "strict_scoped": 12,
+    "catalog_only": 0
+  },
+  "records": [
+    {
+      "program": "العقيدة",
+      "degree": "ماجستير",
+      "code": "2001711-2",
+      "name": "التوحيد العلمي",
+      "hours": 2,
+      "level": 1,
+      "source_file_name": "توصيف التوحيد العلمي ماجستير 24.pdf",
+      "source_sharepoint_folder": "https://taifedusa-my.sharepoint.com/shared?listurl=https%3A%2F%2Ftaifedusa-my.sharepoint.com%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments&id=%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments%2FGraduate%20Studies%20Vice-Deanship%20-%20OneDrive%2F%D8%AC%D9%88%D8%AF%D8%A9%20%D8%B9%D9%84%D9%8A%D8%A7%2F%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%201446%2F%D9%83%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%2F%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%2F02%20%D8%AA%D9%88%D8%B5%D9%8A%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
+      "source_sha256": "d5437af44840ca5bfc35037a0b5b23c18f67fccbbff840d00d084c62542f711e",
+      "page_count_source": 8,
+      "approval": {
+        "entity": "مجلس القسم",
+        "session": "العاشر",
+        "date_hijri": "1447/8/8هـ",
+        "complete": true
+      },
+      "department_stamp": {
+        "department": "الثقافة الإسلامية",
+        "status_before": "missing",
+        "requested_action": "add_only",
+        "status_after": "added_and_verified"
+      },
+      "package_path": "assets/course-specifications/creed-master-1447/2001711-2.pdf",
+      "selection": "strict_exact_complete",
+      "package_sha256": "288718f7c8fe913a574983e392cba2c7a9b977f69451239a0428664e501f5831",
+      "package_size_bytes": 536060,
+      "page_count_package": 8
+    },
+    {
+      "program": "العقيدة",
+      "degree": "ماجستير",
+      "code": "2001712-3",
+      "name": "الأديان",
+      "hours": 3,
+      "level": 1,
+      "source_file_name": "__توصيف الأديان ماجستير 24.pdf",
+      "source_sharepoint_folder": "https://taifedusa-my.sharepoint.com/shared?listurl=https%3A%2F%2Ftaifedusa-my.sharepoint.com%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments&id=%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments%2FGraduate%20Studies%20Vice-Deanship%20-%20OneDrive%2F%D8%AC%D9%88%D8%AF%D8%A9%20%D8%B9%D9%84%D9%8A%D8%A7%2F%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%201446%2F%D9%83%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%2F%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%2F02%20%D8%AA%D9%88%D8%B5%D9%8A%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
+      "source_sha256": "c933f1734cbd5cb71e3b0b478e3b05b19504ef4a84ea5ca6d7e84f05859a3c52",
+      "page_count_source": 11,
+      "approval": {
+        "entity": "مجلس القسم",
+        "session": "العاشر",
+        "date_hijri": "1447/8/8هـ",
+        "complete": true
+      },
+      "department_stamp": {
+        "department": "الثقافة الإسلامية",
+        "status_before": "missing",
+        "requested_action": "add_only",
+        "status_after": "added_and_verified"
+      },
+      "package_path": "assets/course-specifications/creed-master-1447/2001712-3.pdf",
+      "selection": "strict_exact_complete",
+      "package_sha256": "078814996aa9b4605293adf012285175573785487b8317079ac7f532da281fb7",
+      "package_size_bytes": 562326,
+      "page_count_package": 11
+    },
+    {
+      "program": "العقيدة",
+      "degree": "ماجستير",
+      "code": "2001715-2",
+      "name": "منهج البحث وتحقيق التراث",
+      "hours": 2,
+      "level": 1,
+      "source_file_name": "توصيف منهج البحث وتحقيق التراث ماجستير 24.pdf",
+      "source_sharepoint_folder": "https://taifedusa-my.sharepoint.com/shared?listurl=https%3A%2F%2Ftaifedusa-my.sharepoint.com%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments&id=%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments%2FGraduate%20Studies%20Vice-Deanship%20-%20OneDrive%2F%D8%AC%D9%88%D8%AF%D8%A9%20%D8%B9%D9%84%D9%8A%D8%A7%2F%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%201446%2F%D9%83%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%2F%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%2F02%20%D8%AA%D9%88%D8%B5%D9%8A%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
+      "source_sha256": "50505013395ccbe185f87fffe4ee7245a75fa096a431e1fa4079a813cb48b1ba",
+      "page_count_source": 9,
+      "approval": {
+        "entity": "مجلس القسم",
+        "session": "العاشر",
+        "date_hijri": "1447/8/8هـ",
+        "complete": true
+      },
+      "department_stamp": {
+        "department": "الثقافة الإسلامية",
+        "status_before": "missing",
+        "requested_action": "add_only",
+        "status_after": "added_and_verified"
+      },
+      "package_path": "assets/course-specifications/creed-master-1447/2001715-2.pdf",
+      "selection": "strict_exact_complete",
+      "package_sha256": "321c79af1fecb75f4b49467882d39917d20a081c886902d756756444aa61875f",
+      "package_size_bytes": 552300,
+      "page_count_package": 10
+    },
+    {
+      "program": "العقيدة",
+      "degree": "ماجستير",
+      "code": "2001726-2",
+      "name": "دراسة نصية في كتب العقيدة",
+      "hours": 2,
+      "level": 1,
+      "source_file_name": "توصيف دراسة نصية في كتب العقيدة  ماجستير 24.pdf",
+      "source_sharepoint_folder": "https://taifedusa-my.sharepoint.com/shared?listurl=https%3A%2F%2Ftaifedusa-my.sharepoint.com%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments&id=%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments%2FGraduate%20Studies%20Vice-Deanship%20-%20OneDrive%2F%D8%AC%D9%88%D8%AF%D8%A9%20%D8%B9%D9%84%D9%8A%D8%A7%2F%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%201446%2F%D9%83%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%2F%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%2F02%20%D8%AA%D9%88%D8%B5%D9%8A%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
+      "source_sha256": "d5653e3e68be290a4c1bbacfae0683b65e41a570164472134ae3b128f7de47f8",
+      "page_count_source": 8,
+      "approval": {
+        "entity": "مجلس القسم",
+        "session": "العاشر",
+        "date_hijri": "1447/8/8هـ",
+        "complete": true
+      },
+      "department_stamp": {
+        "department": "الثقافة الإسلامية",
+        "status_before": "missing",
+        "requested_action": "add_only",
+        "status_after": "added_and_verified"
+      },
+      "package_path": "assets/course-specifications/creed-master-1447/2001726-2.pdf",
+      "selection": "strict_exact_complete",
+      "package_sha256": "d2fb79b317f033997cdac3c35a03c383f58982653286b2b0844eb0d08ba276c3",
+      "package_size_bytes": 539715,
+      "page_count_package": 8
+    },
+    {
+      "program": "العقيدة",
+      "degree": "ماجستير",
+      "code": "2001734-2",
+      "name": "الأمن الفكري",
+      "hours": 2,
+      "level": 1,
+      "source_file_name": "توصيف الأمن الفكري ماجستير 2024.pdf",
+      "source_sharepoint_folder": "https://taifedusa-my.sharepoint.com/shared?listurl=https%3A%2F%2Ftaifedusa-my.sharepoint.com%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments&id=%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments%2FGraduate%20Studies%20Vice-Deanship%20-%20OneDrive%2F%D8%AC%D9%88%D8%AF%D8%A9%20%D8%B9%D9%84%D9%8A%D8%A7%2F%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%201446%2F%D9%83%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%2F%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%2F02%20%D8%AA%D9%88%D8%B5%D9%8A%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
+      "source_sha256": "2bc6cb6c25002d85196479657e297c3a58a9a31a19da1e03019bb12462a05ec1",
+      "page_count_source": 8,
+      "approval": {
+        "entity": "مجلس القسم",
+        "session": "العاشر",
+        "date_hijri": "1447/8/8هـ",
+        "complete": true
+      },
+      "department_stamp": {
+        "department": "الثقافة الإسلامية",
+        "status_before": "missing",
+        "requested_action": "add_only",
+        "status_after": "added_and_verified"
+      },
+      "package_path": "assets/course-specifications/creed-master-1447/2001734-2.pdf",
+      "selection": "strict_exact_complete",
+      "package_sha256": "048430cf5ae5ccd1233ffbd0330e4373d66521ea1c5e9740ba8329bcad04f245",
+      "package_size_bytes": 530303,
+      "page_count_package": 8
+    },
+    {
+      "program": "العقيدة",
+      "degree": "ماجستير",
+      "code": "2001717-2",
+      "name": "التخريج ودراسة الأسانيد",
+      "hours": 2,
+      "level": 2,
+      "source_file_name": "__توصيف التخريج ودراسة الأسانيد  ماجستير 24.pdf",
+      "source_sharepoint_folder": "https://taifedusa-my.sharepoint.com/shared?listurl=https%3A%2F%2Ftaifedusa-my.sharepoint.com%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments&id=%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments%2FGraduate%20Studies%20Vice-Deanship%20-%20OneDrive%2F%D8%AC%D9%88%D8%AF%D8%A9%20%D8%B9%D9%84%D9%8A%D8%A7%2F%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%201446%2F%D9%83%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%2F%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%2F02%20%D8%AA%D9%88%D8%B5%D9%8A%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
+      "source_sha256": "8dd6d912759d7ce1bb2c886d626f9050ed635faf512afefab9d8a134a2b918d2",
+      "page_count_source": 8,
+      "approval": {
+        "entity": "مجلس القسم",
+        "session": "العاشر",
+        "date_hijri": "1447/8/8هـ",
+        "complete": true
+      },
+      "department_stamp": {
+        "department": "الثقافة الإسلامية",
+        "status_before": "missing",
+        "requested_action": "add_only",
+        "status_after": "added_and_verified"
+      },
+      "package_path": "assets/course-specifications/creed-master-1447/2001717-2.pdf",
+      "selection": "strict_exact_complete",
+      "package_sha256": "bf2647e054988269474820a5201970295f182c2c37294e1f6b2622b66b3ecd78",
+      "package_size_bytes": 532948,
+      "page_count_package": 8
+    },
+    {
+      "program": "العقيدة",
+      "degree": "ماجستير",
+      "code": "2001721-2",
+      "name": "التوحيد العملي",
+      "hours": 2,
+      "level": 2,
+      "source_file_name": "__توصيف التوحيد العملي  ماجستير 24.pdf",
+      "source_sharepoint_folder": "https://taifedusa-my.sharepoint.com/shared?listurl=https%3A%2F%2Ftaifedusa-my.sharepoint.com%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments&id=%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments%2FGraduate%20Studies%20Vice-Deanship%20-%20OneDrive%2F%D8%AC%D9%88%D8%AF%D8%A9%20%D8%B9%D9%84%D9%8A%D8%A7%2F%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%201446%2F%D9%83%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%2F%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%2F02%20%D8%AA%D9%88%D8%B5%D9%8A%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
+      "source_sha256": "a4bce7f4fd438a387168d738c8994e4b56dc4feb1d9d898395c1ab9fa7939edf",
+      "page_count_source": 8,
+      "approval": {
+        "entity": "مجلس القسم",
+        "session": "العاشر",
+        "date_hijri": "1447/8/8هـ",
+        "complete": true
+      },
+      "department_stamp": {
+        "department": "الثقافة الإسلامية",
+        "status_before": "missing",
+        "requested_action": "add_only",
+        "status_after": "added_and_verified"
+      },
+      "package_path": "assets/course-specifications/creed-master-1447/2001721-2.pdf",
+      "selection": "strict_exact_complete",
+      "package_sha256": "0fbff588db66fbb5dd2b44d6cc97c44521d43af60a5a0ca7b1ac16f8e696b92e",
+      "package_size_bytes": 557893,
+      "page_count_package": 8
+    },
+    {
+      "program": "العقيدة",
+      "degree": "ماجستير",
+      "code": "2001725-2",
+      "name": "بحث عقدي",
+      "hours": 2,
+      "level": 2,
+      "source_file_name": "____توصيف بحث عقدي ماجستير 24.pdf",
+      "source_sharepoint_folder": "https://taifedusa-my.sharepoint.com/shared?listurl=https%3A%2F%2Ftaifedusa-my.sharepoint.com%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments&id=%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments%2FGraduate%20Studies%20Vice-Deanship%20-%20OneDrive%2F%D8%AC%D9%88%D8%AF%D8%A9%20%D8%B9%D9%84%D9%8A%D8%A7%2F%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%201446%2F%D9%83%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%2F%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%2F02%20%D8%AA%D9%88%D8%B5%D9%8A%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
+      "source_sha256": "a9e2ee6e711e5c6f7fd09d35c45469439ad3ee51856c9ad6391a3ecdd032d21f",
+      "page_count_source": 9,
+      "approval": {
+        "entity": "مجلس القسم",
+        "session": "العاشر",
+        "date_hijri": "1447/8/8هـ",
+        "complete": true
+      },
+      "department_stamp": {
+        "department": "الثقافة الإسلامية",
+        "status_before": "missing",
+        "requested_action": "add_only",
+        "status_after": "added_and_verified"
+      },
+      "package_path": "assets/course-specifications/creed-master-1447/2001725-2.pdf",
+      "selection": "strict_exact_complete",
+      "package_sha256": "1ccb3ad4688f9a7b93b9507b3a7aa419a02e96e2d154115ea0c0c542c9a1fb5e",
+      "package_size_bytes": 568735,
+      "page_count_package": 9
+    },
+    {
+      "program": "العقيدة",
+      "degree": "ماجستير",
+      "code": "2001731-2",
+      "name": "النبوة والمعاد",
+      "hours": 2,
+      "level": 2,
+      "source_file_name": "توصيف النبوة والمعاد  ماجستير 24.pdf",
+      "source_sharepoint_folder": "https://taifedusa-my.sharepoint.com/shared?listurl=https%3A%2F%2Ftaifedusa-my.sharepoint.com%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments&id=%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments%2FGraduate%20Studies%20Vice-Deanship%20-%20OneDrive%2F%D8%AC%D9%88%D8%AF%D8%A9%20%D8%B9%D9%84%D9%8A%D8%A7%2F%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%201446%2F%D9%83%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%2F%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%2F02%20%D8%AA%D9%88%D8%B5%D9%8A%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
+      "source_sha256": "e6e41bff57438ce53c62895854395b54f7a0a6f0656667e34be5d008840c9748",
+      "page_count_source": 9,
+      "approval": {
+        "entity": "مجلس القسم",
+        "session": "العاشر",
+        "date_hijri": "1447/8/8هـ",
+        "complete": true
+      },
+      "department_stamp": {
+        "department": "الثقافة الإسلامية",
+        "status_before": "missing",
+        "requested_action": "add_only",
+        "status_after": "added_and_verified"
+      },
+      "package_path": "assets/course-specifications/creed-master-1447/2001731-2.pdf",
+      "selection": "strict_exact_complete",
+      "package_sha256": "afd629e13289dc6a23ca35a0c94d47539d8abaf9f531a478326f9792b29ed71f",
+      "package_size_bytes": 583262,
+      "page_count_package": 9
+    },
+    {
+      "program": "العقيدة",
+      "degree": "ماجستير",
+      "code": "2001713-3",
+      "name": "مذاهب فكرية معاصرة",
+      "hours": 3,
+      "level": 3,
+      "source_file_name": "__توصيف مذاهب فكرية معاصرة  ماجستير 24.pdf",
+      "source_sharepoint_folder": "https://taifedusa-my.sharepoint.com/shared?listurl=https%3A%2F%2Ftaifedusa-my.sharepoint.com%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments&id=%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments%2FGraduate%20Studies%20Vice-Deanship%20-%20OneDrive%2F%D8%AC%D9%88%D8%AF%D8%A9%20%D8%B9%D9%84%D9%8A%D8%A7%2F%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%201446%2F%D9%83%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%2F%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%2F02%20%D8%AA%D9%88%D8%B5%D9%8A%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
+      "source_sha256": "dc75d44f8b7371f729185f1f3bc966f9ea16357858e301811f11d9b1e47a88b6",
+      "page_count_source": 10,
+      "approval": {
+        "entity": "مجلس القسم",
+        "session": "العاشر",
+        "date_hijri": "1447/8/8هـ",
+        "complete": true
+      },
+      "department_stamp": {
+        "department": "الثقافة الإسلامية",
+        "status_before": "missing",
+        "requested_action": "add_only",
+        "status_after": "added_and_verified"
+      },
+      "package_path": "assets/course-specifications/creed-master-1447/2001713-3.pdf",
+      "selection": "strict_exact_complete",
+      "package_sha256": "4eaad0928501c188ab6bd5b73b518c41f9d3e5cd39397c24dcad16863c490193",
+      "package_size_bytes": 550624,
+      "page_count_package": 10
+    },
+    {
+      "program": "العقيدة",
+      "degree": "ماجستير",
+      "code": "2001732-3",
+      "name": "المنطق القديم عرض ونقد",
+      "hours": 3,
+      "level": 3,
+      "source_file_name": "توصيف المنطق 24.pdf",
+      "source_sharepoint_folder": "https://taifedusa-my.sharepoint.com/shared?listurl=https%3A%2F%2Ftaifedusa-my.sharepoint.com%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments&id=%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments%2FGraduate%20Studies%20Vice-Deanship%20-%20OneDrive%2F%D8%AC%D9%88%D8%AF%D8%A9%20%D8%B9%D9%84%D9%8A%D8%A7%2F%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%201446%2F%D9%83%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%2F%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%2F02%20%D8%AA%D9%88%D8%B5%D9%8A%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
+      "source_sha256": "dfae4703a632cff3bcb0d1cc112b27176562532c35be32be3b2ae661bbc719ec",
+      "page_count_source": 9,
+      "approval": {
+        "entity": "مجلس القسم",
+        "session": "العاشر",
+        "date_hijri": "1447/8/8هـ",
+        "complete": true
+      },
+      "department_stamp": {
+        "department": "الثقافة الإسلامية",
+        "status_before": "missing",
+        "requested_action": "add_only",
+        "status_after": "added_and_verified"
+      },
+      "package_path": "assets/course-specifications/creed-master-1447/2001732-3.pdf",
+      "selection": "strict_exact_complete",
+      "package_sha256": "b3358779bea278d3ab38b376cc20c20908981f5a864604652d5d747651905e49",
+      "package_size_bytes": 539479,
+      "page_count_package": 9
+    },
+    {
+      "program": "العقيدة",
+      "degree": "ماجستير",
+      "code": "2001733-2",
+      "name": "الإيمان والقدر",
+      "hours": 2,
+      "level": 3,
+      "source_file_name": "توصيف الإيمان والقدر ماجستير 2024.pdf",
+      "source_sharepoint_folder": "https://taifedusa-my.sharepoint.com/shared?listurl=https%3A%2F%2Ftaifedusa-my.sharepoint.com%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments&id=%2Fpersonal%2Fgraduatestudies_tu_edu_sa%2FDocuments%2FGraduate%20Studies%20Vice-Deanship%20-%20OneDrive%2F%D8%AC%D9%88%D8%AF%D8%A9%20%D8%B9%D9%84%D9%8A%D8%A7%2F%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%201446%2F%D9%83%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%2F%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%2F02%20%D8%AA%D9%88%D8%B5%D9%8A%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
+      "source_sha256": "be26f638dba66b380f6598f64936439a19f778a6e0432291581f0d93d47b64e1",
+      "page_count_source": 9,
+      "approval": {
+        "entity": "مجلس القسم",
+        "session": "العاشر",
+        "date_hijri": "1447/8/8هـ",
+        "complete": true
+      },
+      "department_stamp": {
+        "department": "الثقافة الإسلامية",
+        "status_before": "missing",
+        "requested_action": "add_only",
+        "status_after": "added_and_verified"
+      },
+      "package_path": "assets/course-specifications/creed-master-1447/2001733-2.pdf",
+      "selection": "strict_exact_complete",
+      "package_sha256": "3c45a18bee0ba1978d43538a7e00c5e9ca1ae5d4d9a28fb0f62d34fdf2e2f829",
+      "package_size_bytes": 580223,
+      "page_count_package": 9
+    }
+  ],
+  "metadata_sanitization": {
+    "date": "2026-08-20",
+    "scope": "all 12 package PDFs",
+    "method": "qpdf lossless removal of all PDF metadata streams plus selective removal of Microsoft Purview/MSIP/Sensitivity keys from the Info dictionary; ordinary Author/Creator/Producer/date fields preserved; deterministic document IDs",
+    "removed": [
+      "XMP metadata streams",
+      "Microsoft Purview/MSIP/Sensitivity custom Info keys"
+    ],
+    "visible_content_changed": false,
+    "qa": {
+      "qpdf_check": "12/12 pass",
+      "pdfinfo_custom_metadata": "no on 12/12",
+      "pdfinfo_metadata_stream": "no on 12/12",
+      "sensitive_raw_and_qdf_scan_hits": 0,
+      "page_count_boxes_text_content_streams": "identical on 107/107 pages",
+      "rendered_pixels": "byte-identical PNGs on 107/107 pages at 120 DPI",
+      "links": "84/84 preserved",
+      "signatures": "none in source or output"
+    }
+  }
+}

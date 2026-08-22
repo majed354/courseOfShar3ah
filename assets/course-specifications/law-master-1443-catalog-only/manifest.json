@@ -1,0 +1,659 @@
+{
+  "schema": "graduate-course-publication-package/v1",
+  "generated_on": "2026-08-20",
+  "status": "ready_on_feature_branch",
+  "package": "law-master-1443-catalog-only",
+  "strict_policy": "exact code + exact title + complete approval; different identities remain catalog-only without scopes",
+  "counts": {
+    "pdfs": 15,
+    "strict_scoped": 0,
+    "catalog_only": 15
+  },
+  "records": [
+    {
+      "catalog_id": "2003802-2::commercial-company-rules",
+      "catalog_only": true,
+      "code": "2003802-2",
+      "title": "القواعد القانونية للشركات التجارية",
+      "hours": 2,
+      "type": "نظري",
+      "source_program_context": "ماجستير القانون",
+      "department_stamp": "قسم الأنظمة",
+      "plan_reference": {
+        "code": "2003812-2",
+        "title": "القواعد القانونية للشركات التجارية"
+      },
+      "identity_mismatch": "same_title_different_code",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true
+      },
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "توصيف مقرر القواعد القانونية للشركات التجارية.pdf",
+        "sha256": "3e551720966ac54a9f485c4b0845d51004cfed3b49925b341db1a6f5c183e1bd",
+        "page_count": 7
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page"
+      },
+      "output": {
+        "package_file": "pdf/law-master-1443-catalog-only/2003802-2--commercial-company-rules.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443-catalog-only/2003802-2--commercial-company-rules.pdf",
+        "sha256": "d9e821f16e86e782d09ca08dc93319c3324a5e65364e2d39f3d1448990ced703",
+        "page_count": 8
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    },
+    {
+      "catalog_id": "2003803-2::research-methods",
+      "catalog_only": true,
+      "code": "2003803-2",
+      "title": "أصول البحث",
+      "hours": 2,
+      "type": "نظري",
+      "source_program_context": "ماجستير القانون",
+      "department_stamp": "قسم الأنظمة",
+      "plan_reference": {
+        "code": "2003803-2",
+        "title": "أصول البحث القانوني"
+      },
+      "identity_mismatch": "same_code_different_title",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true
+      },
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "توصيف أصول البحث.pdf",
+        "sha256": "92a2417e640d0ec1385eb37f88e1e10c19ab448cc6631fff809802136925a808",
+        "page_count": 7
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page"
+      },
+      "output": {
+        "package_file": "pdf/law-master-1443-catalog-only/2003803-2--research-methods.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443-catalog-only/2003803-2--research-methods.pdf",
+        "sha256": "e688da614e8dd65e2eb80eafb0512920fc98d3b3c66a7f03f8a601ab9047b018",
+        "page_count": 8
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    },
+    {
+      "catalog_id": "2003804-2::real-estate-transactions",
+      "catalog_only": true,
+      "code": "2003804-2",
+      "title": "المعاملات العقارية",
+      "hours": 2,
+      "type": "نظري",
+      "source_program_context": "ماجستير القانون",
+      "department_stamp": "قسم الأنظمة",
+      "plan_reference": {
+        "code": "2003805-2",
+        "title": "المعاملات العقارية"
+      },
+      "identity_mismatch": "same_title_different_code",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true
+      },
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "الثانية",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "توصيف مقرر - المعاملات العقارية.pdf",
+        "sha256": "518bacd825c3076c60e6bf1849179afc0219574bb9144d286a228d67ddbb4cae",
+        "page_count": 8
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page"
+      },
+      "output": {
+        "package_file": "pdf/law-master-1443-catalog-only/2003804-2--real-estate-transactions.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443-catalog-only/2003804-2--real-estate-transactions.pdf",
+        "sha256": "55dc5bcac4222b52df7ed1887d2a34074c7c41abd077592c6beae1436861353f",
+        "page_count": 9
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    },
+    {
+      "catalog_id": "2003811-2::civil-liability",
+      "catalog_only": true,
+      "code": "2003811-2",
+      "title": "المسؤولية المدنية",
+      "hours": 2,
+      "type": "نظري",
+      "source_program_context": "ماجستير القانون",
+      "department_stamp": "قسم الأنظمة",
+      "plan_reference": {
+        "code": "2003802-2",
+        "title": "المسئولية المدنية"
+      },
+      "identity_mismatch": "code_and_exact_title_orthography_differ",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true
+      },
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "توصيف المقرر - المسؤولية المدنية-ماستر.pdf",
+        "sha256": "cb8e9530a27ccd44345938e7276d37385b720123365ea2ed0650e3ae25e2b870",
+        "page_count": 8
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page"
+      },
+      "output": {
+        "package_file": "pdf/law-master-1443-catalog-only/2003811-2--civil-liability.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443-catalog-only/2003811-2--civil-liability.pdf",
+        "sha256": "b200669ea6b16e6433b4fdb858a4960fbd01e0009a498776746a5cb1f7634f37",
+        "page_count": 9
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    },
+    {
+      "catalog_id": "2003812-2::legal-training-1-civil",
+      "catalog_only": true,
+      "code": "2003812-2",
+      "title": "التدريبات القانونية 1 (الاختصاص المدني)",
+      "hours": 2,
+      "type": "نظري",
+      "source_program_context": "ماجستير القانون",
+      "department_stamp": "قسم الأنظمة",
+      "plan_reference": {
+        "code": "2003804-2",
+        "title": "تدريبات قانونية 1 (الاختصاص المدني)"
+      },
+      "identity_mismatch": "same_title_different_code",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true
+      },
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "توصيف_مقرر_-_التدريبات_القانونية_(مدني)-23[1].pdf",
+        "sha256": "d3ca984d065602cea3871b0c885177f035b19662605835440f4a45b3bbee5301",
+        "page_count": 7
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page"
+      },
+      "output": {
+        "package_file": "pdf/law-master-1443-catalog-only/2003812-2--legal-training-1-civil.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443-catalog-only/2003812-2--legal-training-1-civil.pdf",
+        "sha256": "d09680ce990375da7d2d3fd57688554504e3dcef16505d5a7d6ba2407f1ccd51",
+        "page_count": 8
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    },
+    {
+      "catalog_id": "2003821-2::commercial-dispute-resolution",
+      "catalog_only": true,
+      "code": "2003821-2",
+      "title": "فض المنازعات التجارية",
+      "hours": 2,
+      "type": "نظري",
+      "source_program_context": "ماجستير القانون",
+      "department_stamp": "قسم الأنظمة",
+      "plan_reference": {
+        "code": "2003811-2",
+        "title": "فض المنازعات التجارية"
+      },
+      "identity_mismatch": "same_title_different_code",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true
+      },
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "توصيف مقرر فض المنازعات التجارية.pdf",
+        "sha256": "83b2b4c32fdd39a37cf4d11f36799094e5b56265f3710230fad94b77025b2106",
+        "page_count": 9
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page"
+      },
+      "output": {
+        "package_file": "pdf/law-master-1443-catalog-only/2003821-2--commercial-dispute-resolution.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443-catalog-only/2003821-2--commercial-dispute-resolution.pdf",
+        "sha256": "b908a48a3a5468ef372279c1389a2fb324c0061d19eecefdbcb9025acfd5c5b8",
+        "page_count": 10
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    },
+    {
+      "catalog_id": "2003824-2::zakat-tax-law",
+      "catalog_only": true,
+      "code": "2003824-2",
+      "title": "الزكاة والقانون الضريبي",
+      "hours": 2,
+      "type": "نظري",
+      "source_program_context": "ماجستير القانون",
+      "department_stamp": "قسم الأنظمة",
+      "plan_reference": {
+        "code": "2003816-2",
+        "title": "الزكاة والقانون الضريبي"
+      },
+      "identity_mismatch": "same_title_different_code_and_same_code_used_by_other_plan_title",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true
+      },
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "الثانية",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "توصيف زكاة ماجستير 2022م (1).pdf",
+        "sha256": "67fd5808a222fddfe36de7cbfe090bf11498fb36c05a76f2fc6a9519f10dc491",
+        "page_count": 9
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page"
+      },
+      "output": {
+        "package_file": "pdf/law-master-1443-catalog-only/2003824-2--zakat-tax-law.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443-catalog-only/2003824-2--zakat-tax-law.pdf",
+        "sha256": "c856a7328dedd71240a59541c3be7756ab4510af15740db67b26b7f37a5c71c7",
+        "page_count": 10
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    },
+    {
+      "catalog_id": "2003832-2::administrative-discipline",
+      "catalog_only": true,
+      "code": "2003832-2",
+      "title": "أصول التأديب الإداري وضماناته",
+      "hours": 2,
+      "type": "نظري",
+      "source_program_context": "ماجستير القانون",
+      "department_stamp": "قسم الأنظمة",
+      "plan_reference": {
+        "code": "2003821-2",
+        "title": "أصول التأديب الإداري وضماناته"
+      },
+      "identity_mismatch": "same_title_different_code",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true
+      },
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "توصيف اصول التأديب الاداري وضماناته2023 م.pdf",
+        "sha256": "9de0984835ffd2a6f51dc565bd132c8749776402f43c3976c9b83d1fbae0e62e",
+        "page_count": 7
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page"
+      },
+      "output": {
+        "package_file": "pdf/law-master-1443-catalog-only/2003832-2--administrative-discipline.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443-catalog-only/2003832-2--administrative-discipline.pdf",
+        "sha256": "d81431869766b5416b74e3d5b09ae7e8496ecd014b0147a7caff1c86587fba52",
+        "page_count": 8
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    },
+    {
+      "catalog_id": "2003832-2::international-trade-investment-law",
+      "catalog_only": true,
+      "code": "2003832-2",
+      "title": "قانون التجارة والاستثمار الدولي",
+      "hours": 2,
+      "type": "نظري",
+      "source_program_context": "ماجستير القانون",
+      "department_stamp": "قسم الأنظمة",
+      "plan_reference": {
+        "code": "2003815-2",
+        "title": "قانون التجارة والاستثمار الدولي"
+      },
+      "identity_mismatch": "same_title_different_code",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true
+      },
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "توصيف مقرر قانون التجارة والاستثمار الدولي (1).pdf",
+        "sha256": "46515f85892be7659eecaf5ea6490fcd0238b52b591f62771d551ae7b9081220",
+        "page_count": 8
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page"
+      },
+      "output": {
+        "package_file": "pdf/law-master-1443-catalog-only/2003832-2--international-trade-investment-law.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443-catalog-only/2003832-2--international-trade-investment-law.pdf",
+        "sha256": "ef18753f166eacc1297a523d8343295e7a95575dc354d46a8d0384a3814a07f6",
+        "page_count": 9
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    },
+    {
+      "catalog_id": "2003832-2::legal-training-3-administrative",
+      "catalog_only": true,
+      "code": "2003832-2",
+      "title": "تدريبات قانونية 3 (الاختصاص الإداري)",
+      "hours": 2,
+      "type": "نظري",
+      "source_program_context": "ماجستير القانون",
+      "department_stamp": "قسم الأنظمة",
+      "plan_reference": {
+        "code": "2003823-2",
+        "title": "تدريبات قانونية 3 (الاختصاص الإداري)"
+      },
+      "identity_mismatch": "same_title_different_code",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true
+      },
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "توصيف التدريبات القانونية 3 ( الاختصاص الإداري).pdf",
+        "sha256": "015e70e4d436f4f095390b160282843f2f1e303a70cd2a2b1a5d6123b3b25b10",
+        "page_count": 7
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page"
+      },
+      "output": {
+        "package_file": "pdf/law-master-1443-catalog-only/2003832-2--legal-training-3-administrative.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443-catalog-only/2003832-2--legal-training-3-administrative.pdf",
+        "sha256": "c9049a20bda3dfdaaadde9643a5b2e486ce52ccab8419c0e345c20a512be5fab",
+        "page_count": 8
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    },
+    {
+      "catalog_id": "2003833-4::research-project",
+      "catalog_only": true,
+      "code": "2003833-4",
+      "title": "مشروع بحثى",
+      "hours": 4,
+      "type": "بحث",
+      "source_program_context": "ماجستير القانون",
+      "department_stamp": "قسم الأنظمة",
+      "plan_reference": {
+        "code": "2003833-4",
+        "title": "مشروع بحثي"
+      },
+      "identity_mismatch": "same_code_exact_title_spelling_diff",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true
+      },
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "توصيف مقرر المشروع البحثى 2023م  (1).pdf",
+        "sha256": "31993d2c81dd1994b8f9dd6afb4b8490146e72ba26bdaefbf39cd082fe285f0d",
+        "page_count": 6
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page"
+      },
+      "output": {
+        "package_file": "pdf/law-master-1443-catalog-only/2003833-4--research-project.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443-catalog-only/2003833-4--research-project.pdf",
+        "sha256": "0a66cf594efac7c3595b8708ea3aec54797e113a099afe8c475960dd76100939",
+        "page_count": 7
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    },
+    {
+      "catalog_id": "2003841-2::government-contracting",
+      "catalog_only": true,
+      "code": "2003841-2",
+      "title": "أسس التعاقدات الحكومية",
+      "hours": 2,
+      "type": "نظري",
+      "source_program_context": "ماجستير القانون",
+      "department_stamp": "قسم الأنظمة",
+      "plan_reference": {
+        "code": "2003822-2",
+        "title": "أسس التعاقدات الحكومية"
+      },
+      "identity_mismatch": "same_title_different_code",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true
+      },
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "توصيف مقرر اسس التعاقدات الحكومية.pdf",
+        "sha256": "f752255349612e98645f6d2224e21bbf7ce71ceceef79d0910c8c9f5fce8f529",
+        "page_count": 7
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page"
+      },
+      "output": {
+        "package_file": "pdf/law-master-1443-catalog-only/2003841-2--government-contracting.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443-catalog-only/2003841-2--government-contracting.pdf",
+        "sha256": "f04dd3cc3712825de29d226c80c76b84a366836e01c054ea51e81e94013c6e40",
+        "page_count": 8
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    },
+    {
+      "catalog_id": "2003851-2::criminal-investigation-procedures",
+      "catalog_only": true,
+      "code": "2003851-2",
+      "title": "إجراءات التحقيق الجزائي",
+      "hours": 2,
+      "type": "نظري",
+      "source_program_context": "ماجستير القانون",
+      "department_stamp": "قسم الأنظمة",
+      "plan_reference": {
+        "code": "2003831-2",
+        "title": "إجراءات التحقيق الجزائي"
+      },
+      "identity_mismatch": "same_title_different_code",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true
+      },
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "الثانية",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "توصيف إجراءات التحقيق الجزائي.pdf",
+        "sha256": "3f6a0c3dce5c3b6112df7ef22dfbec1127f8e44ae7c835361ed2047f4657aa38",
+        "page_count": 7
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page"
+      },
+      "output": {
+        "package_file": "pdf/law-master-1443-catalog-only/2003851-2--criminal-investigation-procedures.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443-catalog-only/2003851-2--criminal-investigation-procedures.pdf",
+        "sha256": "5fed484ab056722918bfa3fafd85dbec3302603886162887d542e2ef6eca23e0",
+        "page_count": 8
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    },
+    {
+      "catalog_id": "2003852-2::criminal-liability",
+      "catalog_only": true,
+      "code": "2003852-2",
+      "title": "المسئولية الجزائية",
+      "hours": 2,
+      "type": "نظري",
+      "source_program_context": "ماجستير القانون",
+      "department_stamp": "قسم الأنظمة",
+      "plan_reference": {
+        "code": "2003832-2",
+        "title": "المسئولية الجزائية"
+      },
+      "identity_mismatch": "same_title_different_code",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true
+      },
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "الثانية",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "توصيف المسئولية الجزائية.pdf",
+        "sha256": "8bb66d326ae679fbb1c170e1aafa4978b65c64d19af2d19936dac05fe3de6e18",
+        "page_count": 7
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page"
+      },
+      "output": {
+        "package_file": "pdf/law-master-1443-catalog-only/2003852-2--criminal-liability.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443-catalog-only/2003852-2--criminal-liability.pdf",
+        "sha256": "54aaf59119f78606049a7fc47bf55dfd14e03c0f8698a5239afd8dbb1ce5d8e6",
+        "page_count": 8
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    },
+    {
+      "catalog_id": "2003853-2::legal-training-4-criminal",
+      "catalog_only": true,
+      "code": "2003853-2",
+      "title": "تدريبات قانونية 4 (الاختصاص الجزائي)",
+      "hours": 2,
+      "type": "نظري",
+      "source_program_context": "ماجستير القانون",
+      "department_stamp": "قسم الأنظمة",
+      "plan_reference": {
+        "code": "2003834-2",
+        "title": "تدريبات قانونية 4 (الاختصاص الجزائي)"
+      },
+      "identity_mismatch": "same_title_different_code",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true
+      },
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "توصيف التدريبات القانونية جزائي (2).pdf",
+        "sha256": "86b35e995366f745786317984a1858e8b2749b060aca590d53b2c7dd27f37ecf",
+        "page_count": 8
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page"
+      },
+      "output": {
+        "package_file": "pdf/law-master-1443-catalog-only/2003853-2--legal-training-4-criminal.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443-catalog-only/2003853-2--legal-training-4-criminal.pdf",
+        "sha256": "7534fe22dbae7f8eb80c92f353878b9488da58faef930a989fb8e5168961b90d",
+        "page_count": 9
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    }
+  ]
+}

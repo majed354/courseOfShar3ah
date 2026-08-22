@@ -1,0 +1,647 @@
+{
+  "package": "approval-quran-culture",
+  "generated": "2026-08-22T22:10:00+03:00",
+  "pdf_count": 12,
+  "all_pass": true,
+  "required_checks": [
+    "qpdf/pdfinfo",
+    "code+title+hours",
+    "approval+stamp",
+    "zero Restricted/MSIP",
+    "pixel diff confined",
+    "visual first+last"
+  ],
+  "visual_contact_sheets": [
+    "after-first-contact.png",
+    "after-last-contact.png",
+    "after-hours-contact.png"
+  ],
+  "files": [
+    {
+      "code": "2002210-2",
+      "file": "2002210-2.pdf",
+      "sha256": "2c3c483937c93e04d28635eb37bb52d9dbce4ac1c82ae509f5013a7e7c5cd2a7",
+      "checks": {
+        "qpdf_check": true,
+        "pdfinfo_readable": true,
+        "page_count": true,
+        "a4_unrotated": true,
+        "exact_code_text": true,
+        "title_tokens_text": true,
+        "hours_text": true,
+        "approval_values_text": true,
+        "stamp_image_objects": true,
+        "zero_restricted_msip": true,
+        "pixel_diff_confined": true
+      },
+      "pass": true,
+      "qpdf_output": "passed",
+      "pdfinfo_pages": 8,
+      "restricted_hits": [],
+      "last_page_image_objects": 3,
+      "pixel_diff": {
+        "dpi": 144,
+        "changed_pixels": 94628,
+        "outside_allowed_regions": 0,
+        "changed_pages": [
+          {
+            "page": 1,
+            "changed_pixels": 413,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              417.5,
+              446.5,
+              449.0,
+              454.5
+            ]
+          },
+          {
+            "page": 8,
+            "changed_pixels": 94215,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              112.5,
+              346.0,
+              483.0,
+              417.0
+            ]
+          }
+        ],
+        "pass": true
+      },
+      "visual_review": {
+        "first_page": "pass",
+        "last_page": "pass",
+        "reviewed_at_dpi": 120
+      }
+    },
+    {
+      "code": "2004111-2",
+      "file": "2004111-2.pdf",
+      "sha256": "9ff964ed19ba9191ba2e8af83378189d2a09f0fa98ceef1ee03bd2404f7ad11a",
+      "checks": {
+        "qpdf_check": true,
+        "pdfinfo_readable": true,
+        "page_count": true,
+        "a4_unrotated": true,
+        "exact_code_text": true,
+        "title_tokens_text": true,
+        "hours_text": true,
+        "approval_values_text": true,
+        "stamp_image_objects": true,
+        "zero_restricted_msip": true,
+        "pixel_diff_confined": true
+      },
+      "pass": true,
+      "qpdf_output": "passed",
+      "pdfinfo_pages": 6,
+      "restricted_hits": [],
+      "last_page_image_objects": 4,
+      "pixel_diff": {
+        "dpi": 144,
+        "changed_pixels": 52123,
+        "outside_allowed_regions": 0,
+        "changed_pages": [
+          {
+            "page": 6,
+            "changed_pixels": 52123,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              207.5,
+              606.0,
+              388.0,
+              736.0
+            ]
+          }
+        ],
+        "pass": true
+      },
+      "visual_review": {
+        "first_page": "pass",
+        "last_page": "pass",
+        "reviewed_at_dpi": 120
+      }
+    },
+    {
+      "code": "20023101-3",
+      "file": "20023101-3.pdf",
+      "sha256": "755e0026acdb95ae8be63be37ab79b2170036a9765b4b95ebc017b8fc4c78ca0",
+      "checks": {
+        "qpdf_check": true,
+        "pdfinfo_readable": true,
+        "page_count": true,
+        "a4_unrotated": true,
+        "exact_code_text": true,
+        "title_tokens_text": true,
+        "hours_text": true,
+        "approval_values_text": true,
+        "stamp_image_objects": true,
+        "zero_restricted_msip": true,
+        "pixel_diff_confined": true
+      },
+      "pass": true,
+      "qpdf_output": "passed",
+      "pdfinfo_pages": 7,
+      "restricted_hits": [],
+      "last_page_image_objects": 4,
+      "pixel_diff": {
+        "dpi": 144,
+        "changed_pixels": 54690,
+        "outside_allowed_regions": 0,
+        "changed_pages": [
+          {
+            "page": 1,
+            "changed_pixels": 2484,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              362.5,
+              416.0,
+              448.5,
+              456.0
+            ]
+          },
+          {
+            "page": 7,
+            "changed_pixels": 52206,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              130.0,
+              447.0,
+              388.0,
+              577.0
+            ]
+          }
+        ],
+        "pass": true
+      },
+      "visual_review": {
+        "first_page": "pass",
+        "last_page": "pass",
+        "reviewed_at_dpi": 120
+      }
+    },
+    {
+      "code": "2002863-2",
+      "file": "2002863-2.pdf",
+      "sha256": "f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457",
+      "checks": {
+        "qpdf_check": true,
+        "pdfinfo_readable": true,
+        "page_count": true,
+        "a4_unrotated": true,
+        "exact_code_text": true,
+        "title_tokens_text": true,
+        "hours_text": true,
+        "approval_values_text": true,
+        "stamp_image_objects": true,
+        "zero_restricted_msip": true,
+        "pixel_diff_confined": true
+      },
+      "pass": true,
+      "qpdf_output": "passed",
+      "pdfinfo_pages": 8,
+      "restricted_hits": [],
+      "last_page_image_objects": 4,
+      "pixel_diff": {
+        "dpi": 144,
+        "changed_pixels": 43682,
+        "outside_allowed_regions": 0,
+        "changed_pages": [
+          {
+            "page": 8,
+            "changed_pixels": 43682,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              212.5,
+              492.5,
+              383.0,
+              618.0
+            ]
+          }
+        ],
+        "pass": true
+      },
+      "visual_review": {
+        "first_page": "pass",
+        "last_page": "pass",
+        "reviewed_at_dpi": 120
+      }
+    },
+    {
+      "code": "2002705-3",
+      "file": "2002705-3.pdf",
+      "sha256": "1fefbf23a61559412f06c3e3e628eb976fc5917b3c3810f51ee29dca1ecc0546",
+      "checks": {
+        "qpdf_check": true,
+        "pdfinfo_readable": true,
+        "page_count": true,
+        "a4_unrotated": true,
+        "exact_code_text": true,
+        "title_tokens_text": true,
+        "hours_text": true,
+        "approval_values_text": true,
+        "stamp_image_objects": true,
+        "zero_restricted_msip": true,
+        "pixel_diff_confined": true
+      },
+      "pass": true,
+      "qpdf_output": "passed",
+      "pdfinfo_pages": 8,
+      "restricted_hits": [],
+      "last_page_image_objects": 4,
+      "pixel_diff": {
+        "dpi": 144,
+        "changed_pixels": 43340,
+        "outside_allowed_regions": 0,
+        "changed_pages": [
+          {
+            "page": 8,
+            "changed_pixels": 43340,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              212.5,
+              499.5,
+              383.0,
+              625.5
+            ]
+          }
+        ],
+        "pass": true
+      },
+      "visual_review": {
+        "first_page": "pass",
+        "last_page": "pass",
+        "reviewed_at_dpi": 120
+      }
+    },
+    {
+      "code": "2002706-3",
+      "file": "2002706-3.pdf",
+      "sha256": "8921d323d4bd83160d78e3ca7d935d44f598798b634c3a49464eb941d393265d",
+      "checks": {
+        "qpdf_check": true,
+        "pdfinfo_readable": true,
+        "page_count": true,
+        "a4_unrotated": true,
+        "exact_code_text": true,
+        "title_tokens_text": true,
+        "hours_text": true,
+        "approval_values_text": true,
+        "stamp_image_objects": true,
+        "zero_restricted_msip": true,
+        "pixel_diff_confined": true
+      },
+      "pass": true,
+      "qpdf_output": "passed",
+      "pdfinfo_pages": 8,
+      "restricted_hits": [],
+      "last_page_image_objects": 4,
+      "pixel_diff": {
+        "dpi": 144,
+        "changed_pixels": 43689,
+        "outside_allowed_regions": 0,
+        "changed_pages": [
+          {
+            "page": 8,
+            "changed_pixels": 43689,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              212.5,
+              292.5,
+              383.0,
+              419.0
+            ]
+          }
+        ],
+        "pass": true
+      },
+      "visual_review": {
+        "first_page": "pass",
+        "last_page": "pass",
+        "reviewed_at_dpi": 120
+      }
+    },
+    {
+      "code": "2002707-3",
+      "file": "2002707-3.pdf",
+      "sha256": "cdd59d174a6cf95599d4a147e276e0b457bc312f32dcb89d80d39a2c61ac3713",
+      "checks": {
+        "qpdf_check": true,
+        "pdfinfo_readable": true,
+        "page_count": true,
+        "a4_unrotated": true,
+        "exact_code_text": true,
+        "title_tokens_text": true,
+        "hours_text": true,
+        "approval_values_text": true,
+        "stamp_image_objects": true,
+        "zero_restricted_msip": true,
+        "pixel_diff_confined": true
+      },
+      "pass": true,
+      "qpdf_output": "passed",
+      "pdfinfo_pages": 8,
+      "restricted_hits": [],
+      "last_page_image_objects": 4,
+      "pixel_diff": {
+        "dpi": 144,
+        "changed_pixels": 43340,
+        "outside_allowed_regions": 0,
+        "changed_pages": [
+          {
+            "page": 8,
+            "changed_pixels": 43340,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              212.5,
+              269.0,
+              383.0,
+              395.0
+            ]
+          }
+        ],
+        "pass": true
+      },
+      "visual_review": {
+        "first_page": "pass",
+        "last_page": "pass",
+        "reviewed_at_dpi": 120
+      }
+    },
+    {
+      "code": "2002708-3",
+      "file": "2002708-3.pdf",
+      "sha256": "618d5af444faf8665436286c547abfa52d4124c66c38dcea2199b50c79d31e87",
+      "checks": {
+        "qpdf_check": true,
+        "pdfinfo_readable": true,
+        "page_count": true,
+        "a4_unrotated": true,
+        "exact_code_text": true,
+        "title_tokens_text": true,
+        "hours_text": true,
+        "approval_values_text": true,
+        "stamp_image_objects": true,
+        "zero_restricted_msip": true,
+        "pixel_diff_confined": true
+      },
+      "pass": true,
+      "qpdf_output": "passed",
+      "pdfinfo_pages": 8,
+      "restricted_hits": [],
+      "last_page_image_objects": 4,
+      "pixel_diff": {
+        "dpi": 144,
+        "changed_pixels": 43340,
+        "outside_allowed_regions": 0,
+        "changed_pages": [
+          {
+            "page": 8,
+            "changed_pixels": 43340,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              212.5,
+              389.5,
+              383.0,
+              515.5
+            ]
+          }
+        ],
+        "pass": true
+      },
+      "visual_review": {
+        "first_page": "pass",
+        "last_page": "pass",
+        "reviewed_at_dpi": 120
+      }
+    },
+    {
+      "code": "2002700-4",
+      "file": "2002700-4.pdf",
+      "sha256": "ba528e998da4d971a1bbca4820af3cfc815ae79a87baadd08c972b062604e150",
+      "checks": {
+        "qpdf_check": true,
+        "pdfinfo_readable": true,
+        "page_count": true,
+        "a4_unrotated": true,
+        "exact_code_text": true,
+        "title_tokens_text": true,
+        "hours_text": true,
+        "approval_values_text": true,
+        "stamp_image_objects": true,
+        "zero_restricted_msip": true,
+        "pixel_diff_confined": true
+      },
+      "pass": true,
+      "qpdf_output": "passed",
+      "pdfinfo_pages": 8,
+      "restricted_hits": [],
+      "last_page_image_objects": 4,
+      "pixel_diff": {
+        "dpi": 144,
+        "changed_pixels": 44407,
+        "outside_allowed_regions": 0,
+        "changed_pages": [
+          {
+            "page": 3,
+            "changed_pixels": 255,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              432.5,
+              161.0,
+              442.5,
+              177.0
+            ]
+          },
+          {
+            "page": 8,
+            "changed_pixels": 44152,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              212.5,
+              616.0,
+              383.0,
+              737.5
+            ]
+          }
+        ],
+        "pass": true
+      },
+      "visual_review": {
+        "first_page": "pass",
+        "last_page": "pass",
+        "reviewed_at_dpi": 120
+      }
+    },
+    {
+      "code": "2002701-4",
+      "file": "2002701-4.pdf",
+      "sha256": "2da8842b555012a47537a2d3e3d45b58c1b4a95e44f28c231d20a73cecc336e1",
+      "checks": {
+        "qpdf_check": true,
+        "pdfinfo_readable": true,
+        "page_count": true,
+        "a4_unrotated": true,
+        "exact_code_text": true,
+        "title_tokens_text": true,
+        "hours_text": true,
+        "approval_values_text": true,
+        "stamp_image_objects": true,
+        "zero_restricted_msip": true,
+        "pixel_diff_confined": true
+      },
+      "pass": true,
+      "qpdf_output": "passed",
+      "pdfinfo_pages": 8,
+      "restricted_hits": [],
+      "last_page_image_objects": 4,
+      "pixel_diff": {
+        "dpi": 144,
+        "changed_pixels": 44749,
+        "outside_allowed_regions": 0,
+        "changed_pages": [
+          {
+            "page": 3,
+            "changed_pixels": 255,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              432.5,
+              161.0,
+              442.5,
+              177.0
+            ]
+          },
+          {
+            "page": 8,
+            "changed_pixels": 44494,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              212.5,
+              321.0,
+              383.0,
+              442.5
+            ]
+          }
+        ],
+        "pass": true
+      },
+      "visual_review": {
+        "first_page": "pass",
+        "last_page": "pass",
+        "reviewed_at_dpi": 120
+      }
+    },
+    {
+      "code": "2002702-2",
+      "file": "2002702-2.pdf",
+      "sha256": "6d48f0dbb3d42db1ad04ca637cf485337a500bf91556c547f92fadc6ff659a22",
+      "checks": {
+        "qpdf_check": true,
+        "pdfinfo_readable": true,
+        "page_count": true,
+        "a4_unrotated": true,
+        "exact_code_text": true,
+        "title_tokens_text": true,
+        "hours_text": true,
+        "approval_values_text": true,
+        "stamp_image_objects": true,
+        "zero_restricted_msip": true,
+        "pixel_diff_confined": true
+      },
+      "pass": true,
+      "qpdf_output": "passed",
+      "pdfinfo_pages": 8,
+      "restricted_hits": [],
+      "last_page_image_objects": 4,
+      "pixel_diff": {
+        "dpi": 144,
+        "changed_pixels": 44377,
+        "outside_allowed_regions": 0,
+        "changed_pages": [
+          {
+            "page": 1,
+            "changed_pixels": 225,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              442.0,
+              451.5,
+              451.5,
+              468.5
+            ]
+          },
+          {
+            "page": 8,
+            "changed_pixels": 44152,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              212.5,
+              177.5,
+              383.0,
+              299.0
+            ]
+          }
+        ],
+        "pass": true
+      },
+      "visual_review": {
+        "first_page": "pass",
+        "last_page": "pass",
+        "reviewed_at_dpi": 120
+      }
+    },
+    {
+      "code": "2001716-3",
+      "file": "2001716-3.pdf",
+      "sha256": "a0dcf8e3d2fa5cf0fb12e0c786844b56ca365dc63faef5994fabfedced4b249e",
+      "checks": {
+        "qpdf_check": true,
+        "pdfinfo_readable": true,
+        "page_count": true,
+        "a4_unrotated": true,
+        "exact_code_text": true,
+        "title_tokens_text": true,
+        "hours_text": true,
+        "approval_values_text": true,
+        "stamp_image_objects": true,
+        "zero_restricted_msip": true,
+        "pixel_diff_confined": true,
+        "metadata_cleanup_pixel_identical": true
+      },
+      "pass": true,
+      "qpdf_output": "passed",
+      "pdfinfo_pages": 10,
+      "restricted_hits": [],
+      "last_page_image_objects": 3,
+      "pixel_diff": {
+        "dpi": 144,
+        "changed_pixels": 51962,
+        "outside_allowed_regions": 0,
+        "changed_pages": [
+          {
+            "page": 10,
+            "changed_pixels": 51962,
+            "outside_allowed_regions": 0,
+            "actual_diff_bbox": [
+              207.5,
+              632.0,
+              388.0,
+              736.0
+            ]
+          }
+        ],
+        "pass": true
+      },
+      "visual_review": {
+        "first_page": "pass",
+        "last_page": "pass",
+        "reviewed_at_dpi": 120
+      },
+      "metadata_cleanup": {
+        "raw_qdf_sensitive_hits": 0,
+        "rendered_pages_pixel_identical": "10/10 at 120 dpi",
+        "text_sha256_unchanged": true,
+        "page_boxes_unchanged": true
+      }
+    }
+  ]
+}

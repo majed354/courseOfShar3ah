@@ -1,0 +1,2889 @@
+{
+  "schema": "remaining-specialty-course-specifications/v1",
+  "generated_on": "2026-08-22",
+  "definition": "مقررات الأقسام التخصصية ذات الرموز 200*، مع الاستثناء التخصصي 101221-2؛ استُبعدت مقررات الأقسام الخارجية.",
+  "summary": {
+    "covered_identities": 288,
+    "total_identities": 479,
+    "remaining_identities": 191,
+    "covered_occurrences": 477,
+    "total_occurrences": 765,
+    "remaining_occurrences": 288
+  },
+  "remaining": [
+    {
+      "code": "101221-2",
+      "title": "الفقه (1)",
+      "occurrences": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001101-2",
+      "title": "مصطلح الحديث",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001105-2",
+      "title": "المدخل لدراسة الفقه الإسلامي",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        }
+      ]
+    },
+    {
+      "code": "2001106-2",
+      "title": "السيرة النبوية",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001112-2",
+      "title": "المدخل لدراسة الفقه",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001113-2",
+      "title": "أصول الفقه (1)",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001128-2",
+      "title": "فقه آيات وأحاديث الأحكام (1)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001148-2",
+      "title": "الخلاف والمناظرة",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001160-2",
+      "title": "المدخل لدراسة الشريعة",
+      "occurrences": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001171-2",
+      "title": "العقيدة (1)",
+      "occurrences": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001192-2",
+      "title": "علوم الحديث (2)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001193-2",
+      "title": "علوم الحديث (1)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001205-2",
+      "title": "الحديث (1)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001209-2",
+      "title": "الحديث (2)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "20012102-2",
+      "title": "الفقه (2)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20012106-2",
+      "title": "أصول فقه (1)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001217-4",
+      "title": "أدلة الأحكام الشرعية (2)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001218-2",
+      "title": "قاعة بحث (تطبيقي)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        }
+      ]
+    },
+    {
+      "code": "2001219-3",
+      "title": "أدلة الأحكام الشرعية (1)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001220-3",
+      "title": "فقه المعاملات",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        }
+      ]
+    },
+    {
+      "code": "2001221-2",
+      "title": "الفقه (1)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001231-2",
+      "title": "أحاديث الأحكام (1)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001237-4",
+      "title": "التدريب العملي",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001245-2",
+      "title": "العقيدة (2)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001250-4",
+      "title": "أدلة الأحكام الشرعية (١)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001255-2",
+      "title": "قاعة بحث في الفقه وأصوله",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001256-2",
+      "title": "فقه آيات وأحاديث الأحكام (٢)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001257-2",
+      "title": "فقه آيات وأحاديث الأحكام (٣)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001258-2",
+      "title": "فقه آيات وأحاديث الأحكام (٤)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001259-2",
+      "title": "فقه آيات وأحاديث الأحكام (٥)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001261-2",
+      "title": "أدلة الأحكام الشرعية (٢)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001263-4",
+      "title": "دلالات الألفاظ (٢)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001265-3",
+      "title": "الفقه (٣)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001270-2",
+      "title": "فقه النوازل",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001273-2",
+      "title": "العقيدة (1)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        }
+      ]
+    },
+    {
+      "code": "2001280-2",
+      "title": "أصول الدعوة والحسبة",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001301-2",
+      "title": "تدوين السنة",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001301-3",
+      "title": "الفقه (1)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001302-3",
+      "title": "الفقه (٢)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20013101-3",
+      "title": "الفقه (٤)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001317-2",
+      "title": "الفقه (3)",
+      "occurrences": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001318-3",
+      "title": "فقه الجنايات",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        }
+      ]
+    },
+    {
+      "code": "2001320-2",
+      "title": "الحديث (3)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "20013201-4",
+      "title": "الفقه (٥)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001322-2",
+      "title": "الفقه (2)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001327-3",
+      "title": "فقه الأحوال الشخصية",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        }
+      ]
+    },
+    {
+      "code": "2001328-2",
+      "title": "القواعد الفقهية",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        }
+      ]
+    },
+    {
+      "code": "2001330-2",
+      "title": "أصول الفقه (2)",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001332-2",
+      "title": "أحاديث الأحكام (2)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001340-2",
+      "title": "التخريج",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001346-2",
+      "title": "مقاصد الشريعة",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001350-2",
+      "title": "دلالات الألفاظ (١)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001373-2",
+      "title": "العقيدة (3)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001401-2",
+      "title": "المواريث والوصايا",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        }
+      ]
+    },
+    {
+      "code": "2001403-2",
+      "title": "الأديان والفرق والمذاهب المعاصرة",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "20014101-2",
+      "title": "أصول فقه (3)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001413-2",
+      "title": "تخريج الفروع على الأصول",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001414-4",
+      "title": "القياس",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20014201-2",
+      "title": "التدريبات العملية",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001421-4",
+      "title": "الفقه (8)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001424-2",
+      "title": "الفقه (4)",
+      "occurrences": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001433-2",
+      "title": "الاجتهاد والتعارض والترجيح",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001445-2",
+      "title": "أصول الفقه",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001465-2",
+      "title": "فقه النوازل",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2001474-2",
+      "title": "العقيدة (4)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001493-2",
+      "title": "تخريج ودراسة الأسانيد",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2001713-4",
+      "title": "مشروع بحث التخرج",
+      "occurrences": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2001741-10",
+      "title": "الرسالة",
+      "occurrences": [
+        {
+          "program": "العقيدة",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2001802-2",
+      "title": "الفقه المقارن",
+      "occurrences": [
+        {
+          "program": "الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2001804-2",
+      "title": "دراسة تحليلية للمذاهب الفقهية (1)",
+      "occurrences": [
+        {
+          "program": "الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2001813-2",
+      "title": "فقه النوازل (1)",
+      "occurrences": [
+        {
+          "program": "الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2001814-2",
+      "title": "دراسة تحليلية للمذاهب الفقهية (2)",
+      "occurrences": [
+        {
+          "program": "الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2001822-2",
+      "title": "تطبيقات في القواعد الفقهية",
+      "occurrences": [
+        {
+          "program": "الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2001823-2",
+      "title": "فقه النوازل (2)",
+      "occurrences": [
+        {
+          "program": "الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2001831-4",
+      "title": "تدريبات منهجية عملية (مصرفية)",
+      "occurrences": [
+        {
+          "program": "الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2001880-2",
+      "title": "أصول الفقه (دلالات الألفاظ)",
+      "occurrences": [
+        {
+          "program": "القانون",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2001881-2",
+      "title": "فقه المعاملات",
+      "occurrences": [
+        {
+          "program": "القانون",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2001901-2",
+      "title": "دراسات مقاصدية",
+      "occurrences": [
+        {
+          "program": "أصول الفقه",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2001902-3",
+      "title": "دراسة تحليلية أصولية",
+      "occurrences": [
+        {
+          "program": "أصول الفقه",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2001903-4",
+      "title": "الاجتهاد الاستدلالي والفتوى",
+      "occurrences": [
+        {
+          "program": "أصول الفقه",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2001904-30",
+      "title": "الرسالة",
+      "occurrences": [
+        {
+          "program": "أصول الفقه",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "20019999-0",
+      "title": "الاختبار الشامل",
+      "occurrences": [
+        {
+          "program": "الفقه",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": 1
+        },
+        {
+          "program": "أصول الفقه",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2002111-3",
+      "title": "عرض القراءات السبع (١)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002112-3",
+      "title": "عرض القراءات السبع (٢)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002113-3",
+      "title": "عرض القراءات السبع (٣)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002114-3",
+      "title": "عرض القراءات السبع (٤)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002128-1",
+      "title": "القرآن الكريم (1)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2002129-1",
+      "title": "القرآن الكريم (2)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2002200-2",
+      "title": "المدخل إلى التفسير الموضوعي",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002202-2",
+      "title": "القرآن الكريم (2)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002211-1",
+      "title": "القرآن الكريم (3)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2002220-2",
+      "title": "القرآن الكريم (1)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002221-1",
+      "title": "القرآن الكريم (4)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2002221-2",
+      "title": "القرآن الكريم (2)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002225-2",
+      "title": "القرآن الكريم (٣)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002226-2",
+      "title": "القرآن الكريم (٤)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002228-2",
+      "title": "القرآن الكريم (٥)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002229-2",
+      "title": "القرآن الكريم (٦)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002230-2",
+      "title": "علوم قرآن",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2002235-2",
+      "title": "القرآن الكريم (٧)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002236-2",
+      "title": "القرآن الكريم (٨)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002238-2",
+      "title": "الوقف والابتداء",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002239-2",
+      "title": "مصادر ومناهج المؤلفين في القراءات",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002241-2",
+      "title": "تفسير آيات الأحكام (1)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2002242-2",
+      "title": "تفسير آيات الأحكام (2)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2002266-5",
+      "title": "التدريب التعاوني",
+      "occurrences": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002266-6",
+      "title": "التدريب التعاوني",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002280-2",
+      "title": "تدريبات على الجمع والكيفيات",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002310-2",
+      "title": "قرآن كريم حفظ وتلاوة",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2002310-3",
+      "title": "التفسير التحليلي (٣)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002311-1",
+      "title": "القرآن الكريم (5)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "20023110-2",
+      "title": "مشروع التخرج",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002312-1",
+      "title": "القرآن الكريم (6)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2002313-2",
+      "title": "علوم قرآن (5)",
+      "occurrences": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "20023205-2",
+      "title": "التفسير التحليلي (3)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002343-2",
+      "title": "تفسير آيات الأحكام (3)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2002352-2",
+      "title": "التفسير التحليلي (2)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20024101-2",
+      "title": "قاعة بحث",
+      "occurrences": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20024102-2",
+      "title": "تفسير جزء عم",
+      "occurrences": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002411-1",
+      "title": "القرآن الكريم (7)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2002421-1",
+      "title": "القرآن الكريم (8)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2002460-2",
+      "title": "عرض القراءات الثلاث (١)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002461-2",
+      "title": "عرض القراءات الثلاث (٢)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2002703-2",
+      "title": "دراسات في طبقات القراء وأسانيدهم",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2002704-48",
+      "title": "الرسالة",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2002709-48",
+      "title": "الرسالة",
+      "occurrences": [
+        {
+          "program": "الدراسات القرآنية",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2002831-4",
+      "title": "مشروع بحثي",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2002888-4",
+      "title": "مشروع بحثي",
+      "occurrences": [
+        {
+          "program": "الدراسات القرآنية المعاصرة",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "20029999-0",
+      "title": "الاختبار الشامل",
+      "occurrences": [
+        {
+          "program": "الدراسات القرآنية",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": 1
+        },
+        {
+          "program": "القراءات",
+          "degree": "دكتوراه",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2003102-3",
+      "title": "قانون العمل والتأمينات الاجتماعية",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003103-3",
+      "title": "الكتابة المهنية القانونية",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003106-3",
+      "title": "تدريبات قانونية ١",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003107-3",
+      "title": "تدريبات قانونية ٢",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003108-2",
+      "title": "قانون التحكيم",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003114-3",
+      "title": "القانون الدستوري",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003204-3",
+      "title": "الكاديمية القانونية الكتابة",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003205-3",
+      "title": "العقود التجارية الدولية",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003220-2",
+      "title": "المدخل لدراسة الأنظمة",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20032202-2",
+      "title": "المدخل إلى دراسة الأنظمة",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2003228-3",
+      "title": "القانون المالي",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003229-2",
+      "title": "نظام الإجراءات الجزائية",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003229-3",
+      "title": "تحليل النصوص القانونية",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003230-2",
+      "title": "مبادئ القانون التجاري",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003243-2",
+      "title": "مبادئ القانون الإداري",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        }
+      ]
+    },
+    {
+      "code": "2003255-3",
+      "title": "الملكية الفكرية",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        }
+      ]
+    },
+    {
+      "code": "20033201-2",
+      "title": "القانون الدبلوماسي والقنصلي",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003325-1",
+      "title": "نظام المرافعات الشرعية",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2003328-1",
+      "title": "نظام الإجراءات الجزائية",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2003347-2",
+      "title": "نظام البيئة",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003383-3",
+      "title": "المحاماة وأخلاقيات المهنة",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003402-2",
+      "title": "مادة اختيارية للقسم",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        }
+      ]
+    },
+    {
+      "code": "20034102-2",
+      "title": "النظام القضائي في المملكة",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20034202-2",
+      "title": "القانون الصحي",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2003442-3",
+      "title": "النظام الدولي الخاص",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        }
+      ]
+    },
+    {
+      "code": "2003880-2",
+      "title": "الأنظمة العدلية في السعودية",
+      "occurrences": [
+        {
+          "program": "الفقه",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "code": "2004102-2",
+      "title": "مصطلح الحديث",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20041201-2",
+      "title": "التجويد",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "20041203-2",
+      "title": "التفسير التحليلي (1)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2004205-2",
+      "title": "الحديث (1)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004209-2",
+      "title": "الحديث (2)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20042106-2",
+      "title": "أصول فقه (1)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2004211-4",
+      "title": "العقيدة (1)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20042111-2",
+      "title": "العقيدة (٢)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004245-2",
+      "title": "العقيدة (2)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004252-4",
+      "title": "الحديث التحليلي (1)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004256-2",
+      "title": "الحديث التحليلي (٢)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004258-2",
+      "title": "دراسات في السيرة النبوية",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004262-2",
+      "title": "الدعوة والحسبة",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004269-4",
+      "title": "التخريج ودراسة الأسانيد",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004272-2",
+      "title": "العمل الخيري",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004273-2",
+      "title": "العقيدة (1)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004301-2",
+      "title": "تدوين السنة",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004305-4",
+      "title": "أحاديث الأحكام (١)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20043105-2",
+      "title": "الفقه المقارن",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "20043106-2",
+      "title": "أصول الفقه (2)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "20043108-2",
+      "title": "علم المواريث (1)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "20043109-2",
+      "title": "دراسات في سير السلف",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20043110-2",
+      "title": "محاسن الإسلام",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20043111-2",
+      "title": "الأمن الفكري",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004320-2",
+      "title": "الحديث (3)",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20043202-2",
+      "title": "القواعد الفقهية",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2004373-2",
+      "title": "العقيدة (3)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004403-2",
+      "title": "الأديان والفرق والمذاهب المعاصرة",
+      "occurrences": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20044101-2",
+      "title": "أصول فقه (3)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "2004414-2",
+      "title": "ثقافة إسلامية (حقوق الإنسان)",
+      "occurrences": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 38
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "20044202-2",
+      "title": "بحث التخرج",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        },
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "20044206-2",
+      "title": "علم المواريث (2)",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": 39
+        }
+      ]
+    },
+    {
+      "code": "20044220-4",
+      "title": "التدريب التعاوني",
+      "occurrences": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004474-2",
+      "title": "العقيدة (4)",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004476-2",
+      "title": "الأديان والفرق",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    },
+    {
+      "code": "2004493-2",
+      "title": "تخريج ودراسة الأسانيد",
+      "occurrences": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": 47
+        }
+      ]
+    }
+  ]
+}

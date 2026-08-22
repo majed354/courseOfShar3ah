@@ -1,0 +1,513 @@
+{
+  "schema": "graduate-course-publication-package/v1",
+  "generated_on": "2026-08-20",
+  "status": "ready_on_feature_branch",
+  "package": "quranic-studies-master-1445-approved",
+  "strict_policy": "exact code + exact title + complete approval; different identities remain catalog-only without scopes",
+  "counts": {
+    "pdfs": 7,
+    "strict_scoped": 7,
+    "catalog_only": 0
+  },
+  "records": [
+    {
+      "program": "الدراسات القرآنية المعاصرة",
+      "degree": "ماجستير",
+      "code": "2002852-2",
+      "name": "تاريخ التفسير",
+      "hours": 2,
+      "level": 1,
+      "selection": "strict_exact_identity_and_complete_approval",
+      "current_site_state_before_package": "course_details_absent",
+      "output": {
+        "package_file": "pdf/quranic-studies-master-1445-approved/2002852-2.pdf",
+        "publication_target": "assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf",
+        "sha256": "c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477",
+        "page_count": 8
+      },
+      "source": {
+        "compilation_file_name": "توصيفات مقررات ماجستير الدراسات المعاصرة مجمعة 2023.pdf",
+        "compilation_sha256": "9a3611873722843821b325b3178a202b1c4b65309882b1c2e08d028d7aef8284",
+        "source_pages_inclusive": [
+          38,
+          45
+        ],
+        "pristine_slice_file": "provenance/source-segments/quranic-studies-master-1445-approved/2002852-2.pdf",
+        "pristine_slice_sha256": "59de42c86749ebd049ad2b7e7e376545528d9227d588bcf68004530a72b2023f",
+        "pristine_slice_page_count": 8,
+        "decoded_page_content_streams_identical_to_source": true
+      },
+      "identity": {
+        "plan_course_found": true,
+        "code_exact": true,
+        "title_exact": true,
+        "hours_exact": true,
+        "site_course_details_absent_before_package": true
+      },
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "13",
+        "date_literal": "1445/9/15هـ",
+        "status": "complete"
+      },
+      "department_stamp": {
+        "department": "قسم القراءات",
+        "source_state": "missing",
+        "action": "add_only",
+        "asset_file_name": "photo_1448-03-06 21.11.19.jpeg",
+        "asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          212.66,
+          606.75,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "source_ink_pixels_with_margin": 0
+      },
+      "qa": {
+        "qpdf": "pass",
+        "source_text": "identical",
+        "original_page_boxes_rotation_annotations": "identical_on_all_original_pages",
+        "changed_pixels_outside_stamp_bbox": 0,
+        "manual_visual_review": "pass",
+        "sensitivity_and_placeholder_scan": "pass"
+      },
+      "exceptions": [],
+      "plan_type": "جديدة",
+      "version": "1"
+    },
+    {
+      "program": "الدراسات القرآنية المعاصرة",
+      "degree": "ماجستير",
+      "code": "2002853-2",
+      "name": "دراسات في علوم القرآن",
+      "hours": 2,
+      "level": 1,
+      "selection": "strict_exact_identity_and_complete_approval",
+      "current_site_state_before_package": "course_details_absent",
+      "output": {
+        "package_file": "pdf/quranic-studies-master-1445-approved/2002853-2.pdf",
+        "publication_target": "assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf",
+        "sha256": "b1538ba0b8131456cfe0b0d3d958465791703fde019166aec14fd70f035ed22a",
+        "page_count": 9
+      },
+      "source": {
+        "compilation_file_name": "توصيفات مقررات ماجستير الدراسات المعاصرة مجمعة 2023.pdf",
+        "compilation_sha256": "9a3611873722843821b325b3178a202b1c4b65309882b1c2e08d028d7aef8284",
+        "source_pages_inclusive": [
+          54,
+          61
+        ],
+        "pristine_slice_file": "provenance/source-segments/quranic-studies-master-1445-approved/2002853-2.pdf",
+        "pristine_slice_sha256": "ff647cdce4ba8752a2098cad4b59316508f301e071b7a61e20e09a7c3a743ad4",
+        "pristine_slice_page_count": 8,
+        "decoded_page_content_streams_identical_to_source": true
+      },
+      "identity": {
+        "plan_course_found": true,
+        "code_exact": true,
+        "title_exact": true,
+        "hours_exact": true,
+        "site_course_details_absent_before_package": true
+      },
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "13",
+        "date_literal": "1445/9/15هـ",
+        "status": "complete"
+      },
+      "department_stamp": {
+        "department": "قسم القراءات",
+        "source_state": "missing",
+        "action": "add_only",
+        "asset_file_name": "photo_1448-03-06 21.11.19.jpeg",
+        "asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "placement": "appended_final_stamp_page",
+        "target_page_1_based": 9,
+        "bbox_top_points": [
+          212.66,
+          96.0,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "source_ink_pixels_with_margin": 0
+      },
+      "qa": {
+        "qpdf": "pass",
+        "source_text": "identical",
+        "original_page_boxes_rotation_annotations": "identical_on_all_original_pages",
+        "changed_pixels_outside_stamp_bbox": 0,
+        "manual_visual_review": "pass",
+        "sensitivity_and_placeholder_scan": "pass"
+      },
+      "exceptions": [
+        {
+          "type": "source_page_mixed_with_next_course_cover",
+          "action": "media_and_crop_boxes_only",
+          "box": [
+            0.0,
+            430.0,
+            595.32,
+            841.92
+          ],
+          "reason": "صفحة المصدر 61 تجمع أعلى اعتماد هذا المقرر وأسفل غلاف المقرر التالي؛ ضُبط MediaBox/CropBox إلى الجزء العلوي فقط دون إعادة تصيير أو تغيير محتوى الصفحة."
+        },
+        {
+          "type": "stamp_appended_on_separate_a4_page",
+          "reason": "لا توجد مساحة خالية آمنة أسفل جدول الاعتماد؛ أضيفت صفحة ختم مستقلة لمنع المساس بالجداول أو حجب محتوى أصلي."
+        }
+      ],
+      "plan_type": "جديدة",
+      "version": "1"
+    },
+    {
+      "program": "الدراسات القرآنية المعاصرة",
+      "degree": "ماجستير",
+      "code": "2002854-2",
+      "name": "علم القراءات دراية",
+      "hours": 2,
+      "level": 1,
+      "selection": "strict_exact_identity_and_complete_approval",
+      "current_site_state_before_package": "course_details_absent",
+      "output": {
+        "package_file": "pdf/quranic-studies-master-1445-approved/2002854-2.pdf",
+        "publication_target": "assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf",
+        "sha256": "cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7",
+        "page_count": 8
+      },
+      "source": {
+        "compilation_file_name": "توصيفات مقررات ماجستير الدراسات المعاصرة مجمعة 2023.pdf",
+        "compilation_sha256": "9a3611873722843821b325b3178a202b1c4b65309882b1c2e08d028d7aef8284",
+        "source_pages_inclusive": [
+          76,
+          83
+        ],
+        "pristine_slice_file": "provenance/source-segments/quranic-studies-master-1445-approved/2002854-2.pdf",
+        "pristine_slice_sha256": "48ace1306d2f348fe89624019b1ab5ff8f7e39cf545eb014c064e2bfb3dd80d1",
+        "pristine_slice_page_count": 8,
+        "decoded_page_content_streams_identical_to_source": true
+      },
+      "identity": {
+        "plan_course_found": true,
+        "code_exact": true,
+        "title_exact": true,
+        "hours_exact": true,
+        "site_course_details_absent_before_package": true
+      },
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "13",
+        "date_literal": "1445/9/15هـ",
+        "status": "complete"
+      },
+      "department_stamp": {
+        "department": "قسم القراءات",
+        "source_state": "missing",
+        "action": "add_only",
+        "asset_file_name": "photo_1448-03-06 21.11.19.jpeg",
+        "asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          212.66,
+          654.113,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "source_ink_pixels_with_margin": 0
+      },
+      "qa": {
+        "qpdf": "pass",
+        "source_text": "identical",
+        "original_page_boxes_rotation_annotations": "identical_on_all_original_pages",
+        "changed_pixels_outside_stamp_bbox": 0,
+        "manual_visual_review": "pass",
+        "sensitivity_and_placeholder_scan": "pass"
+      },
+      "exceptions": [],
+      "plan_type": "جديدة",
+      "version": "1"
+    },
+    {
+      "program": "الدراسات القرآنية المعاصرة",
+      "degree": "ماجستير",
+      "code": "2002855-2",
+      "name": "مصادر الدراسات القرآنية",
+      "hours": 2,
+      "level": 1,
+      "selection": "strict_exact_identity_and_complete_approval",
+      "current_site_state_before_package": "course_details_absent",
+      "output": {
+        "package_file": "pdf/quranic-studies-master-1445-approved/2002855-2.pdf",
+        "publication_target": "assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf",
+        "sha256": "d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38",
+        "page_count": 7
+      },
+      "source": {
+        "compilation_file_name": "توصيفات مقررات ماجستير الدراسات المعاصرة مجمعة 2023.pdf",
+        "compilation_sha256": "9a3611873722843821b325b3178a202b1c4b65309882b1c2e08d028d7aef8284",
+        "source_pages_inclusive": [
+          84,
+          90
+        ],
+        "pristine_slice_file": "provenance/source-segments/quranic-studies-master-1445-approved/2002855-2.pdf",
+        "pristine_slice_sha256": "5af707d96ec0a49a8d1f106e146d34a198109659fc412c439cdddd28609f5f44",
+        "pristine_slice_page_count": 7,
+        "decoded_page_content_streams_identical_to_source": true
+      },
+      "identity": {
+        "plan_course_found": true,
+        "code_exact": true,
+        "title_exact": true,
+        "hours_exact": true,
+        "site_course_details_absent_before_package": true
+      },
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "13",
+        "date_literal": "1445/9/15هـ",
+        "status": "complete"
+      },
+      "department_stamp": {
+        "department": "قسم القراءات",
+        "source_state": "missing",
+        "action": "add_only",
+        "asset_file_name": "photo_1448-03-06 21.11.19.jpeg",
+        "asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          212.66,
+          582.177,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "source_ink_pixels_with_margin": 0
+      },
+      "qa": {
+        "qpdf": "pass",
+        "source_text": "identical",
+        "original_page_boxes_rotation_annotations": "identical_on_all_original_pages",
+        "changed_pixels_outside_stamp_bbox": 0,
+        "manual_visual_review": "pass",
+        "sensitivity_and_placeholder_scan": "pass"
+      },
+      "exceptions": [],
+      "plan_type": "جديدة",
+      "version": "1"
+    },
+    {
+      "program": "الدراسات القرآنية المعاصرة",
+      "degree": "ماجستير",
+      "code": "2002861-4",
+      "name": "التفسير التحليلي",
+      "hours": 4,
+      "level": 2,
+      "selection": "strict_exact_identity_and_complete_approval",
+      "current_site_state_before_package": "course_details_absent",
+      "output": {
+        "package_file": "pdf/quranic-studies-master-1445-approved/2002861-4.pdf",
+        "publication_target": "assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf",
+        "sha256": "943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5",
+        "page_count": 8
+      },
+      "source": {
+        "compilation_file_name": "توصيفات مقررات ماجستير الدراسات المعاصرة مجمعة 2023.pdf",
+        "compilation_sha256": "9a3611873722843821b325b3178a202b1c4b65309882b1c2e08d028d7aef8284",
+        "source_pages_inclusive": [
+          9,
+          16
+        ],
+        "pristine_slice_file": "provenance/source-segments/quranic-studies-master-1445-approved/2002861-4.pdf",
+        "pristine_slice_sha256": "58325fb0ad7c9242513ab1a8cdade5151822aa20f5ac913bbc6ec3f37074c963",
+        "pristine_slice_page_count": 8,
+        "decoded_page_content_streams_identical_to_source": true
+      },
+      "identity": {
+        "plan_course_found": true,
+        "code_exact": true,
+        "title_exact": true,
+        "hours_exact": true,
+        "site_course_details_absent_before_package": true
+      },
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "13",
+        "date_literal": "1445/9/15هـ",
+        "status": "complete"
+      },
+      "department_stamp": {
+        "department": "قسم القراءات",
+        "source_state": "missing",
+        "action": "add_only",
+        "asset_file_name": "photo_1448-03-06 21.11.19.jpeg",
+        "asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          212.66,
+          402.37,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "source_ink_pixels_with_margin": 0
+      },
+      "qa": {
+        "qpdf": "pass",
+        "source_text": "identical",
+        "original_page_boxes_rotation_annotations": "identical_on_all_original_pages",
+        "changed_pixels_outside_stamp_bbox": 0,
+        "manual_visual_review": "pass",
+        "sensitivity_and_placeholder_scan": "pass"
+      },
+      "exceptions": [],
+      "plan_type": "جديدة",
+      "version": "1"
+    },
+    {
+      "program": "الدراسات القرآنية المعاصرة",
+      "degree": "ماجستير",
+      "code": "2002862-2",
+      "name": "الدراسات القرآنية عند المستشرقين",
+      "hours": 2,
+      "level": 2,
+      "selection": "strict_exact_identity_and_complete_approval",
+      "current_site_state_before_package": "course_details_absent",
+      "output": {
+        "package_file": "pdf/quranic-studies-master-1445-approved/2002862-2.pdf",
+        "publication_target": "assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf",
+        "sha256": "36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26",
+        "page_count": 7
+      },
+      "source": {
+        "compilation_file_name": "توصيفات مقررات ماجستير الدراسات المعاصرة مجمعة 2023.pdf",
+        "compilation_sha256": "9a3611873722843821b325b3178a202b1c4b65309882b1c2e08d028d7aef8284",
+        "source_pages_inclusive": [
+          24,
+          30
+        ],
+        "pristine_slice_file": "provenance/source-segments/quranic-studies-master-1445-approved/2002862-2.pdf",
+        "pristine_slice_sha256": "16cecac08598de8e1a8639b1a517a9b9c44ec4ecbd85f8b1a63eb6dee27e5c15",
+        "pristine_slice_page_count": 7,
+        "decoded_page_content_streams_identical_to_source": true
+      },
+      "identity": {
+        "plan_course_found": true,
+        "code_exact": true,
+        "title_exact": true,
+        "hours_exact": true,
+        "site_course_details_absent_before_package": true
+      },
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "13",
+        "date_literal": "1445/9/15هـ",
+        "status": "complete"
+      },
+      "department_stamp": {
+        "department": "قسم القراءات",
+        "source_state": "missing",
+        "action": "add_only",
+        "asset_file_name": "photo_1448-03-06 21.11.19.jpeg",
+        "asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          212.66,
+          561.083,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "source_ink_pixels_with_margin": 0
+      },
+      "qa": {
+        "qpdf": "pass",
+        "source_text": "identical",
+        "original_page_boxes_rotation_annotations": "identical_on_all_original_pages",
+        "changed_pixels_outside_stamp_bbox": 0,
+        "manual_visual_review": "pass",
+        "sensitivity_and_placeholder_scan": "pass"
+      },
+      "exceptions": [],
+      "plan_type": "جديدة",
+      "version": "1"
+    },
+    {
+      "program": "الدراسات القرآنية المعاصرة",
+      "degree": "ماجستير",
+      "code": "2002864-2",
+      "name": "دراسات في مناهج المفسرين",
+      "hours": 2,
+      "level": 2,
+      "selection": "strict_exact_identity_and_complete_approval",
+      "current_site_state_before_package": "course_details_absent",
+      "output": {
+        "package_file": "pdf/quranic-studies-master-1445-approved/2002864-2.pdf",
+        "publication_target": "assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf",
+        "sha256": "179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8",
+        "page_count": 7
+      },
+      "source": {
+        "compilation_file_name": "توصيفات مقررات ماجستير الدراسات المعاصرة مجمعة 2023.pdf",
+        "compilation_sha256": "9a3611873722843821b325b3178a202b1c4b65309882b1c2e08d028d7aef8284",
+        "source_pages_inclusive": [
+          69,
+          75
+        ],
+        "pristine_slice_file": "provenance/source-segments/quranic-studies-master-1445-approved/2002864-2.pdf",
+        "pristine_slice_sha256": "a2d423d1dc637b7fb89769a01712ce417bf960eeffc319b3f14e2beb84246c0b",
+        "pristine_slice_page_count": 7,
+        "decoded_page_content_streams_identical_to_source": true
+      },
+      "identity": {
+        "plan_course_found": true,
+        "code_exact": true,
+        "title_exact": true,
+        "hours_exact": true,
+        "site_course_details_absent_before_package": true
+      },
+      "approval": {
+        "agency": "قسم القراءات",
+        "session": "13",
+        "date_literal": "1445/9/15هـ",
+        "status": "complete"
+      },
+      "department_stamp": {
+        "department": "قسم القراءات",
+        "source_state": "missing",
+        "action": "add_only",
+        "asset_file_name": "photo_1448-03-06 21.11.19.jpeg",
+        "asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          212.66,
+          678.18,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "source_ink_pixels_with_margin": 0
+      },
+      "qa": {
+        "qpdf": "pass",
+        "source_text": "identical",
+        "original_page_boxes_rotation_annotations": "identical_on_all_original_pages",
+        "changed_pixels_outside_stamp_bbox": 0,
+        "manual_visual_review": "pass",
+        "sensitivity_and_placeholder_scan": "pass"
+      },
+      "exceptions": [],
+      "plan_type": "جديدة",
+      "version": "1"
+    }
+  ]
+}

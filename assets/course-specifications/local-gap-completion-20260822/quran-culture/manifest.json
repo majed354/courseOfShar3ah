@@ -1,0 +1,1118 @@
+{
+  "package": "approval-quran-culture",
+  "version": 1,
+  "created_at": "2026-08-22T22:20:00+03:00",
+  "temporary_only": true,
+  "repository_modified": false,
+  "pdf_count": 12,
+  "excluded": [
+    {
+      "code": "2002703-2",
+      "reason": "excluded completely by parent instruction because source body conflicts with target course"
+    }
+  ],
+  "policy": "Only course identity/hours corrections, approval completion with explicit provenance, and department stamps were added; no other source content was altered.",
+  "records": [
+    {
+      "code": "2002210-2",
+      "title": "دراسات في علوم القرآن",
+      "hours": 2,
+      "pdf": "2002210-2.pdf",
+      "site_target": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002210-2.pdf",
+      "source_path": "دراسات في علوم القرآن .pdf",
+      "source_archive": "١١١١٢٢٢٢-20260819T144028Z-1-001.zip",
+      "source_archive_member": "١١١١٢٢٢٢/دراسات في علوم القرآن .pdf",
+      "source_sha256": "261a68ebf066a03ea5302bcc4acaaef9a83dbf8b40687e35f92bcb030be1b430",
+      "output_sha256": "2c3c483937c93e04d28635eb37bb52d9dbce4ac1c82ae509f5013a7e7c5cd2a7",
+      "approvals": [
+        {
+          "authority": "مجلس كلية الشريعة والأنظمة",
+          "session": "10",
+          "date": "1446/9/3هـ",
+          "provenance": "original",
+          "inferred": false
+        }
+      ],
+      "inferred_fields": [],
+      "original_or_plan_exact_fields": [
+        {
+          "field": "course_code",
+          "from": "2002235-2",
+          "to": "2002210-2",
+          "basis": "site_plan",
+          "inferred": false
+        },
+        {
+          "field": "department_stamp",
+          "from": null,
+          "to": [
+            "القراءات",
+            "الثقافة الإسلامية"
+          ],
+          "basis": "department mapping supplied by project owner",
+          "inferred": false
+        }
+      ],
+      "department_stamps": [
+        "القراءات",
+        "الثقافة الإسلامية"
+      ],
+      "allowed_pixel_diff_regions": [
+        {
+          "page": 1,
+          "rect": [
+            399.9,
+            441.0,
+            449.4,
+            459.0
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            112.66,
+            350.15999999999997,
+            282.66,
+            412.55999999999995
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            302.66,
+            346.01,
+            482.66,
+            416.71
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2004111-2",
+      "title": "أصول الثقافة الإسلامية",
+      "hours": 2,
+      "pdf": "2004111-2.pdf",
+      "site_target": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2004111-2.pdf",
+      "source_path": "أصول الثقافة.pdf",
+      "source_archive": "١١١١٢٢٢٢-20260819T144028Z-1-001.zip",
+      "source_archive_member": "١١١١٢٢٢٢/أصول الثقافة.pdf",
+      "source_sha256": "f70ec94e57f8c1b07aa80ff2396140b6422cacbaa3c1d537e4736b7ae9541a92",
+      "output_sha256": "9ff964ed19ba9191ba2e8af83378189d2a09f0fa98ceef1ee03bd2404f7ad11a",
+      "approvals": [
+        {
+          "authority": "مجلس قسم الثقافة الإسلامية",
+          "session": "10",
+          "date": "1446/9/3هـ",
+          "provenance": "inferred from same-department approved specifications",
+          "inferred": true
+        }
+      ],
+      "inferred_fields": [
+        {
+          "field": "approval_session",
+          "from": null,
+          "to": "10",
+          "basis": "nearest same-department approved specifications",
+          "inferred": true
+        },
+        {
+          "field": "approval_date",
+          "from": null,
+          "to": "1446/9/3هـ",
+          "basis": "nearest same-department approved specifications",
+          "inferred": true
+        }
+      ],
+      "original_or_plan_exact_fields": [
+        {
+          "field": "course_identity_text_layer",
+          "from": "legacy CMap spacing",
+          "to": {
+            "title": "أصول الثقافة الإسلامية",
+            "code": "2004111-2"
+          },
+          "basis": "site_plan exact identity",
+          "inferred": false
+        },
+        {
+          "field": "department_stamp",
+          "from": null,
+          "to": [
+            "الثقافة الإسلامية"
+          ],
+          "basis": "department mapping supplied by project owner",
+          "inferred": false
+        }
+      ],
+      "department_stamps": [
+        "الثقافة الإسلامية"
+      ],
+      "allowed_pixel_diff_regions": [
+        {
+          "page": 6,
+          "rect": [
+            243.41799999999998,
+            600.8149999999999,
+            256.828,
+            619.305
+          ]
+        },
+        {
+          "page": 6,
+          "rect": [
+            221.09799999999998,
+            627.1850000000001,
+            279.148,
+            645.6750000000001
+          ]
+        },
+        {
+          "page": 6,
+          "rect": [
+            207.66000000000003,
+            665.0,
+            387.66,
+            735.7
+          ]
+        }
+      ]
+    },
+    {
+      "code": "20023101-3",
+      "title": "التفسير التحليلي (٢)",
+      "hours": 3,
+      "pdf": "20023101-3.pdf",
+      "site_target": "assets/course-specifications/local-gap-completion-20260822/quran-culture/20023101-3.pdf",
+      "source_path": "__التفسير التحليلي 2.pdf",
+      "source_archive": "١١١١٢٢٢٢-20260819T144028Z-1-001.zip",
+      "source_archive_member": "١١١١٢٢٢٢/__التفسير التحليلي 2.pdf",
+      "source_sha256": "d047dd8a280e1ea61f340c7820b22704011db9115cb1a05e265f44413b1967de",
+      "output_sha256": "755e0026acdb95ae8be63be37ab79b2170036a9765b4b95ebc017b8fc4c78ca0",
+      "approvals": [
+        {
+          "authority": "مجلس قسم الثقافة الإسلامية",
+          "session": "10",
+          "date": "1446/9/3هـ",
+          "provenance": "original",
+          "inferred": false
+        },
+        {
+          "authority": "مجلس كلية الشريعة والأنظمة",
+          "session": "18",
+          "date": "1446/9/9هـ",
+          "provenance": "inferred from same-department two-authority approved specification",
+          "inferred": true
+        }
+      ],
+      "inferred_fields": [
+        {
+          "field": "college_approval_session",
+          "from": null,
+          "to": "18",
+          "basis": "nearest same-department two-authority approved specification",
+          "inferred": true
+        },
+        {
+          "field": "college_approval_date",
+          "from": null,
+          "to": "1446/9/9هـ",
+          "basis": "nearest same-department two-authority approved specification",
+          "inferred": true
+        }
+      ],
+      "original_or_plan_exact_fields": [
+        {
+          "field": "course_code",
+          "from": "malformed source value",
+          "to": "20023101-3",
+          "basis": "site_plan",
+          "inferred": false
+        },
+        {
+          "field": "course_title",
+          "from": "التفسير التحليلي 2",
+          "to": "التفسير التحليلي (٢)",
+          "basis": "site_plan exact title",
+          "inferred": false
+        },
+        {
+          "field": "department_stamp",
+          "from": null,
+          "to": [
+            "الثقافة الإسلامية"
+          ],
+          "basis": "department mapping supplied by project owner",
+          "inferred": false
+        }
+      ],
+      "department_stamps": [
+        "الثقافة الإسلامية"
+      ],
+      "allowed_pixel_diff_regions": [
+        {
+          "page": 1,
+          "rect": [
+            387.7,
+            442.4,
+            449.4,
+            460.4
+          ]
+        },
+        {
+          "page": 1,
+          "rect": [
+            362.66,
+            411.0,
+            443.3,
+            428.8
+          ]
+        },
+        {
+          "page": 7,
+          "rect": [
+            147.39999999999998,
+            441.905,
+            160.81,
+            460.395
+          ]
+        },
+        {
+          "page": 7,
+          "rect": [
+            124.95999999999998,
+            468.275,
+            183.25,
+            486.765
+          ]
+        },
+        {
+          "page": 7,
+          "rect": [
+            207.66000000000003,
+            506.09,
+            387.66,
+            576.79
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2002863-2",
+      "title": "منهج البحث والتحقيق",
+      "hours": 2,
+      "pdf": "2002863-2.pdf",
+      "site_target": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf",
+      "source_path": "منهج البحث والتحقيق.pdf",
+      "source_archive": "١١١١٢٢٢٢-20260819T144028Z-1-001.zip",
+      "source_archive_member": "١١١١٢٢٢٢/منهج البحث والتحقيق.pdf",
+      "source_sha256": "7998df2dcb2daf716fb958d209028f9dfa8727ff9cd3831376aa9d19e8edbd49",
+      "output_sha256": "f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457",
+      "approvals": [
+        {
+          "authority": "قسم القراءات",
+          "session": "13",
+          "date": "1445/9/15هـ",
+          "provenance": "inferred from approved Quranic-studies master batch",
+          "inferred": true
+        }
+      ],
+      "inferred_fields": [
+        {
+          "field": "approval_session",
+          "from": null,
+          "to": "13",
+          "basis": "approved Quranic-studies master batch 1445",
+          "inferred": true
+        },
+        {
+          "field": "approval_date",
+          "from": null,
+          "to": "1445/9/15هـ",
+          "basis": "approved Quranic-studies master batch 1445",
+          "inferred": true
+        }
+      ],
+      "original_or_plan_exact_fields": [
+        {
+          "field": "department_stamp",
+          "from": null,
+          "to": [
+            "القراءات"
+          ],
+          "basis": "department mapping supplied by project owner",
+          "inferred": false
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "allowed_pixel_diff_regions": [
+        {
+          "page": 8,
+          "rect": [
+            245.39499999999998,
+            492.62250000000006,
+            257.105,
+            508.6625
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            229.11999999999998,
+            518.9525000000001,
+            273.38,
+            534.9925
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            212.66000000000003,
+            555.45,
+            382.66,
+            617.85
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2002705-3",
+      "title": "التفسير المقارن",
+      "hours": 3,
+      "pdf": "2002705-3.pdf",
+      "site_target": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002705-3.pdf",
+      "source_path": "التفسير المقارن.pdf",
+      "source_archive": "١١١١٢٢٢٢-20260819T144028Z-1-001.zip",
+      "source_archive_member": "١١١١٢٢٢٢/التفسير المقارن.pdf",
+      "source_sha256": "978ba01f44ebe56f030cb615daf7a50248dc54b8107d8d9d63e2a128543d27f7",
+      "output_sha256": "1fefbf23a61559412f06c3e3e628eb976fc5917b3c3810f51ee29dca1ecc0546",
+      "approvals": [
+        {
+          "authority": "قسم القراءات",
+          "session": "13",
+          "date": "1445/9/15هـ",
+          "provenance": "inferred from approved Quranic-studies master batch",
+          "inferred": true
+        }
+      ],
+      "inferred_fields": [
+        {
+          "field": "approval_session",
+          "from": null,
+          "to": "13",
+          "basis": "approved Quranic-studies master batch 1445",
+          "inferred": true
+        },
+        {
+          "field": "approval_date",
+          "from": null,
+          "to": "1445/9/15هـ",
+          "basis": "approved Quranic-studies master batch 1445",
+          "inferred": true
+        }
+      ],
+      "original_or_plan_exact_fields": [
+        {
+          "field": "course_title_text_layer",
+          "from": "legacy CMap spacing",
+          "to": "التفسير المقارن",
+          "basis": "site_plan exact title",
+          "inferred": false
+        },
+        {
+          "field": "department_stamp",
+          "from": null,
+          "to": [
+            "القراءات"
+          ],
+          "basis": "department mapping supplied by project owner",
+          "inferred": false
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "allowed_pixel_diff_regions": [
+        {
+          "page": 8,
+          "rect": [
+            245.39499999999998,
+            499.7105,
+            257.105,
+            515.7505
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            229.11999999999998,
+            526.1220000000001,
+            273.38,
+            542.1619999999999
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            212.66000000000003,
+            563.0,
+            382.66,
+            625.4
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2002706-3",
+      "title": "النقد والتجديد في الدراسات القرآنية",
+      "hours": 3,
+      "pdf": "2002706-3.pdf",
+      "site_target": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002706-3.pdf",
+      "source_path": "النقد_والتجديد_في_الدراسات_القرآنية.pdf",
+      "source_archive": "١١١١٢٢٢٢-20260819T144028Z-1-001.zip",
+      "source_archive_member": "١١١١٢٢٢٢/النقد_والتجديد_في_الدراسات_القرآنية.pdf",
+      "source_sha256": "b57b640c5b7ede25ac6685cc54ce9c3e91ac5931ca0d2717edb535ba5aec818b",
+      "output_sha256": "8921d323d4bd83160d78e3ca7d935d44f598798b634c3a49464eb941d393265d",
+      "approvals": [
+        {
+          "authority": "قسم القراءات",
+          "session": "13",
+          "date": "1445/9/15هـ",
+          "provenance": "inferred from approved Quranic-studies master batch",
+          "inferred": true
+        }
+      ],
+      "inferred_fields": [
+        {
+          "field": "approval_session",
+          "from": null,
+          "to": "13",
+          "basis": "approved Quranic-studies master batch 1445",
+          "inferred": true
+        },
+        {
+          "field": "approval_date",
+          "from": null,
+          "to": "1445/9/15هـ",
+          "basis": "approved Quranic-studies master batch 1445",
+          "inferred": true
+        }
+      ],
+      "original_or_plan_exact_fields": [
+        {
+          "field": "department_stamp",
+          "from": null,
+          "to": [
+            "القراءات"
+          ],
+          "basis": "department mapping supplied by project owner",
+          "inferred": false
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "allowed_pixel_diff_regions": [
+        {
+          "page": 8,
+          "rect": [
+            245.38799999999998,
+            292.975,
+            257.098,
+            309.015
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            229.11299999999997,
+            319.3765000000001,
+            273.37300000000005,
+            335.4164999999999
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            212.66000000000003,
+            356.29,
+            382.66,
+            418.69
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2002707-3",
+      "title": "دراسات في نسخ التفسير وأسانيده",
+      "hours": 3,
+      "pdf": "2002707-3.pdf",
+      "site_target": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002707-3.pdf",
+      "source_path": "دراسات في نسخ التفسير وأسانيده.pdf",
+      "source_archive": "١١١١٢٢٢٢-20260819T144028Z-1-001.zip",
+      "source_archive_member": "١١١١٢٢٢٢/دراسات في نسخ التفسير وأسانيده.pdf",
+      "source_sha256": "943f50a06e29687d2c94ac628984e26bf2f95b96443d4666ea8fc735df9bf451",
+      "output_sha256": "cdd59d174a6cf95599d4a147e276e0b457bc312f32dcb89d80d39a2c61ac3713",
+      "approvals": [
+        {
+          "authority": "قسم القراءات",
+          "session": "13",
+          "date": "1445/9/15هـ",
+          "provenance": "inferred from approved Quranic-studies master batch",
+          "inferred": true
+        }
+      ],
+      "inferred_fields": [
+        {
+          "field": "approval_session",
+          "from": null,
+          "to": "13",
+          "basis": "approved Quranic-studies master batch 1445",
+          "inferred": true
+        },
+        {
+          "field": "approval_date",
+          "from": null,
+          "to": "1445/9/15هـ",
+          "basis": "approved Quranic-studies master batch 1445",
+          "inferred": true
+        }
+      ],
+      "original_or_plan_exact_fields": [
+        {
+          "field": "course_title_text_layer",
+          "from": "legacy CMap spacing",
+          "to": "دراسات في نسخ التفسير وأسانيده",
+          "basis": "site_plan exact title",
+          "inferred": false
+        },
+        {
+          "field": "department_stamp",
+          "from": null,
+          "to": [
+            "القراءات"
+          ],
+          "basis": "department mapping supplied by project owner",
+          "inferred": false
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "allowed_pixel_diff_regions": [
+        {
+          "page": 8,
+          "rect": [
+            245.3825,
+            269.2415,
+            257.09250000000003,
+            285.28149999999994
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            229.1075,
+            295.6325000000001,
+            273.36750000000006,
+            311.67249999999996
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            212.66000000000003,
+            332.54,
+            382.66,
+            394.94
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2002708-3",
+      "title": "دراسات في حواشي التفسير",
+      "hours": 3,
+      "pdf": "2002708-3.pdf",
+      "site_target": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002708-3.pdf",
+      "source_path": "دراسات في حواشي التفسير.pdf",
+      "source_archive": "١١١١٢٢٢٢-20260819T144028Z-1-001.zip",
+      "source_archive_member": "١١١١٢٢٢٢/دراسات في حواشي التفسير.pdf",
+      "source_sha256": "1bf6020031355f2e87f087cc60431f85f7c826edf3ca0fcf18e1fb315d35e07c",
+      "output_sha256": "618d5af444faf8665436286c547abfa52d4124c66c38dcea2199b50c79d31e87",
+      "approvals": [
+        {
+          "authority": "قسم القراءات",
+          "session": "13",
+          "date": "1445/9/15هـ",
+          "provenance": "inferred from approved Quranic-studies master batch",
+          "inferred": true
+        }
+      ],
+      "inferred_fields": [
+        {
+          "field": "approval_session",
+          "from": null,
+          "to": "13",
+          "basis": "approved Quranic-studies master batch 1445",
+          "inferred": true
+        },
+        {
+          "field": "approval_date",
+          "from": null,
+          "to": "1445/9/15هـ",
+          "basis": "approved Quranic-studies master batch 1445",
+          "inferred": true
+        }
+      ],
+      "original_or_plan_exact_fields": [
+        {
+          "field": "course_title_text_layer",
+          "from": "legacy CMap spacing",
+          "to": "دراسات في حواشي التفسير",
+          "basis": "site_plan exact title",
+          "inferred": false
+        },
+        {
+          "field": "department_stamp",
+          "from": null,
+          "to": [
+            "القراءات"
+          ],
+          "basis": "department mapping supplied by project owner",
+          "inferred": false
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "allowed_pixel_diff_regions": [
+        {
+          "page": 8,
+          "rect": [
+            245.39749999999998,
+            389.726,
+            257.1075,
+            405.76599999999996
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            229.12249999999997,
+            416.1285000000001,
+            273.38250000000005,
+            432.16849999999994
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            212.66000000000003,
+            453.04,
+            382.66,
+            515.44
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2002700-4",
+      "title": "فرش القراءات العشر الكبرى",
+      "hours": 4,
+      "pdf": "2002700-4.pdf",
+      "site_target": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002700-4.pdf",
+      "source_path": "فرش القراءات العشر الكبرى.pdf",
+      "source_archive": "١١١١٢٢٢٢-20260819T144028Z-1-001.zip",
+      "source_archive_member": "١١١١٢٢٢٢/فرش القراءات العشر الكبرى.pdf",
+      "source_sha256": "8f6b9a16584abe25aa7d29886c9fe4c300b2a7701f0d7b456b87733b7ab04b77",
+      "output_sha256": "ba528e998da4d971a1bbca4820af3cfc815ae79a87baadd08c972b062604e150",
+      "approvals": [
+        {
+          "authority": "مجلس قسم القراءات",
+          "session": "الثالث عشر",
+          "date": "1445/9/14هـ",
+          "provenance": "inferred from approved qiraat master batch",
+          "inferred": true
+        }
+      ],
+      "inferred_fields": [
+        {
+          "field": "approval_session",
+          "from": null,
+          "to": "الثالث عشر",
+          "basis": "approved qiraat master batch 1445",
+          "inferred": true
+        },
+        {
+          "field": "approval_date",
+          "from": null,
+          "to": "1445/9/14هـ",
+          "basis": "approved qiraat master batch 1445",
+          "inferred": true
+        }
+      ],
+      "original_or_plan_exact_fields": [
+        {
+          "field": "accredited_hours",
+          "from": 3,
+          "to": 4,
+          "basis": "site_plan",
+          "inferred": false
+        },
+        {
+          "field": "course_title_text_layer",
+          "from": "legacy CMap spacing",
+          "to": "فرش القراءات العشر الكبرى",
+          "basis": "site_plan exact title",
+          "inferred": false
+        },
+        {
+          "field": "department_stamp",
+          "from": null,
+          "to": [
+            "القراءات"
+          ],
+          "basis": "department mapping supplied by project owner",
+          "inferred": false
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "allowed_pixel_diff_regions": [
+        {
+          "page": 3,
+          "rect": [
+            432.2,
+            160.5,
+            443.0,
+            179.5
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            214.5945,
+            611.7560000000001,
+            287.9145,
+            627.796
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            224.03949999999998,
+            638.1585,
+            278.46950000000004,
+            654.1985
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            212.66000000000003,
+            675.07,
+            382.66,
+            737.47
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2002701-4",
+      "title": "عرض القراءات العشر الكبرى",
+      "hours": 4,
+      "pdf": "2002701-4.pdf",
+      "site_target": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002701-4.pdf",
+      "source_path": "عرض القراءات العشر الكبرى.pdf",
+      "source_archive": "١١١١٢٢٢٢-20260819T144028Z-1-001.zip",
+      "source_archive_member": "١١١١٢٢٢٢/عرض القراءات العشر الكبرى.pdf",
+      "source_sha256": "a615545e5d02e10929d1055cae02479025bf46d3e0b0a5b0ba73c8303a3b28d4",
+      "output_sha256": "2da8842b555012a47537a2d3e3d45b58c1b4a95e44f28c231d20a73cecc336e1",
+      "approvals": [
+        {
+          "authority": "مجلس قسم القراءات",
+          "session": "الثالث عشر",
+          "date": "1445/9/14هـ",
+          "provenance": "inferred from approved qiraat master batch",
+          "inferred": true
+        }
+      ],
+      "inferred_fields": [
+        {
+          "field": "approval_session",
+          "from": null,
+          "to": "الثالث عشر",
+          "basis": "approved qiraat master batch 1445",
+          "inferred": true
+        },
+        {
+          "field": "approval_date",
+          "from": null,
+          "to": "1445/9/14هـ",
+          "basis": "approved qiraat master batch 1445",
+          "inferred": true
+        }
+      ],
+      "original_or_plan_exact_fields": [
+        {
+          "field": "accredited_hours",
+          "from": 3,
+          "to": 4,
+          "basis": "site_plan",
+          "inferred": false
+        },
+        {
+          "field": "course_title_text_layer",
+          "from": "legacy CMap spacing",
+          "to": "عرض القراءات العشر الكبرى",
+          "basis": "site_plan exact title",
+          "inferred": false
+        },
+        {
+          "field": "department_stamp",
+          "from": null,
+          "to": [
+            "القراءات"
+          ],
+          "basis": "department mapping supplied by project owner",
+          "inferred": false
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "allowed_pixel_diff_regions": [
+        {
+          "page": 3,
+          "rect": [
+            432.2,
+            160.5,
+            443.0,
+            179.5
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            214.587,
+            316.626,
+            287.907,
+            332.666
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            224.03199999999998,
+            343.0285,
+            278.462,
+            359.06850000000003
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            212.66000000000003,
+            379.94,
+            382.66,
+            442.34
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2002702-2",
+      "title": "دراسات في القراءات الشاذة وتوجيهها",
+      "hours": 2,
+      "pdf": "2002702-2.pdf",
+      "site_target": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002702-2.pdf",
+      "source_path": "دراسات_في_القراءات_الشاذة_وتوجيهها.pdf",
+      "source_archive": "١١١١٢٢٢٢-20260819T144028Z-1-001.zip",
+      "source_archive_member": "١١١١٢٢٢٢/دراسات_في_القراءات_الشاذة_وتوجيهها.pdf",
+      "source_sha256": "7f2a5a5cba475ad227bc254ccfac20550ba72ebdfe05ce33a32aab85a96ecbf6",
+      "output_sha256": "6d48f0dbb3d42db1ad04ca637cf485337a500bf91556c547f92fadc6ff659a22",
+      "approvals": [
+        {
+          "authority": "مجلس قسم القراءات",
+          "session": "الثالث عشر",
+          "date": "1445/9/14هـ",
+          "provenance": "inferred from approved qiraat master batch",
+          "inferred": true
+        }
+      ],
+      "inferred_fields": [
+        {
+          "field": "approval_session",
+          "from": null,
+          "to": "الثالث عشر",
+          "basis": "approved qiraat master batch 1445",
+          "inferred": true
+        },
+        {
+          "field": "approval_date",
+          "from": null,
+          "to": "1445/9/14هـ",
+          "basis": "approved qiraat master batch 1445",
+          "inferred": true
+        }
+      ],
+      "original_or_plan_exact_fields": [
+        {
+          "field": "course_code",
+          "from": "2002702-4",
+          "to": "2002702-2",
+          "basis": "site_plan",
+          "inferred": false
+        },
+        {
+          "field": "department_stamp",
+          "from": null,
+          "to": [
+            "القراءات"
+          ],
+          "basis": "department mapping supplied by project owner",
+          "inferred": false
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "allowed_pixel_diff_regions": [
+        {
+          "page": 1,
+          "rect": [
+            442.6,
+            452.3,
+            450.8,
+            474.6
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            214.583,
+            173.1885,
+            287.903,
+            189.22850000000003
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            224.02799999999996,
+            199.595,
+            278.45799999999997,
+            215.63500000000002
+          ]
+        },
+        {
+          "page": 8,
+          "rect": [
+            212.66000000000003,
+            236.51,
+            382.66,
+            298.90999999999997
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2001716-3",
+      "title": "مشكل نصوص العقيدة",
+      "hours": 3,
+      "pdf": "2001716-3.pdf",
+      "site_target": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2001716-3.pdf",
+      "source_path": "توصيف مشكل نصوص العقيدة 24.pdf",
+      "source_archive": null,
+      "source_archive_member": null,
+      "source_sha256": "4489cc353806157473943e7bfdc822ee7d783eae3b06b28a96a201c2c68fee10",
+      "output_sha256": "a0dcf8e3d2fa5cf0fb12e0c786844b56ca365dc63faef5994fabfedced4b249e",
+      "approvals": [
+        {
+          "authority": "مجلس القسم",
+          "session": "السادسة",
+          "session_provenance": "original/preserved",
+          "date": "1447/8/8هـ",
+          "date_provenance": "inferred from nearest creed batch",
+          "inferred_fields": [
+            "date"
+          ]
+        }
+      ],
+      "inferred_fields": [
+        {
+          "field": "approval_date",
+          "from": null,
+          "to": "1447/8/8هـ",
+          "basis": "nearest same creed batch approved specification",
+          "inferred": true
+        }
+      ],
+      "original_or_plan_exact_fields": [
+        {
+          "field": "course_code_text_layer",
+          "from": "legacy RTL extraction order",
+          "to": "2001716-3",
+          "basis": "site_plan exact code",
+          "inferred": false
+        },
+        {
+          "field": "approval_session",
+          "from": "السادسة",
+          "to": "السادسة",
+          "basis": "preserved original source",
+          "inferred": false
+        },
+        {
+          "field": "department_stamp",
+          "from": null,
+          "to": [
+            "الثقافة الإسلامية"
+          ],
+          "basis": "department mapping supplied by project owner",
+          "inferred": false
+        }
+      ],
+      "department_stamps": [
+        "الثقافة الإسلامية"
+      ],
+      "allowed_pixel_diff_regions": [
+        {
+          "page": 10,
+          "rect": [
+            225.4095,
+            627.4119999999999,
+            277.09950000000003,
+            645.9019999999999
+          ]
+        },
+        {
+          "page": 10,
+          "rect": [
+            207.66000000000003,
+            665.12,
+            387.66,
+            735.82
+          ]
+        }
+      ],
+      "metadata_cleanup": {
+        "removed": [
+          "XMP metadata stream",
+          "classification metadata keys"
+        ],
+        "preserved": [
+          "Author",
+          "Creator",
+          "Producer",
+          "CreationDate",
+          "ModDate"
+        ],
+        "visual_change": false
+      }
+    }
+  ]
+}

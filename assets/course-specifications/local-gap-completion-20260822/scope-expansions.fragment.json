@@ -1,0 +1,241 @@
+{
+  "schema_version": "1.0",
+  "operation": "append_scopes_to_existing_course_detail_variants",
+  "source_data": "data.json",
+  "constraints": {
+    "exact_course_code_required": true,
+    "exact_course_title_required": true,
+    "append_only": true,
+    "preserve_existing_variants": true,
+    "preserve_existing_scopes": true,
+    "do_not_replace_pdf": true,
+    "deduplicate_scope_on": [
+      "program",
+      "degree",
+      "plan_type",
+      "version"
+    ]
+  },
+  "summary": {
+    "course_identities": 11,
+    "scope_occurrences_to_append": 12,
+    "blocking_issues": 0
+  },
+  "updates": [
+    {
+      "course_code": "2002250-2",
+      "expected_title": "أصول التفسير ومناهجه",
+      "variant_selector": {
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002250-2.pdf",
+        "specification_code": "2002250-2",
+        "title": "أصول التفسير ومناهجه"
+      },
+      "scope_container_action": "promote_singular_scope_to_scopes_then_append",
+      "append_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "suggested_match_note_append": "رمز التوصيف واسمه مطابقان تمامًا كذلك لمقرر أصول التفسير ومناهجه في خطتي الشريعة القديمة 39 والجديدة 47؛ رُبطتا بالتوصيف المطابق الأحدث بين النسخ المتاحة."
+    },
+    {
+      "course_code": "20041102-2",
+      "expected_title": "علوم الحديث (1)",
+      "variant_selector": {
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20041102-2.pdf",
+        "specification_code": "20041102-2",
+        "title": "علوم الحديث (1)"
+      },
+      "scope_container_action": "append_to_scopes",
+      "append_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "suggested_match_note_append": "رمز التوصيف واسمه مطابقان تمامًا كذلك لخطة الشريعة الجديدة، إصدار 47."
+    },
+    {
+      "course_code": "20042107-2",
+      "expected_title": "علوم الحديث (2)",
+      "variant_selector": {
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20042107-2.pdf",
+        "specification_code": "20042107-2",
+        "title": "علوم الحديث (2)"
+      },
+      "scope_container_action": "append_to_scopes",
+      "append_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "suggested_match_note_append": "رمز التوصيف واسمه مطابقان تمامًا كذلك لخطة الشريعة الجديدة، إصدار 47."
+    },
+    {
+      "course_code": "20044204-2",
+      "expected_title": "المذاهب والتيارات المعاصرة",
+      "variant_selector": {
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044204-2.pdf",
+        "specification_code": "20044204-2",
+        "title": "المذاهب والتيارات المعاصرة"
+      },
+      "scope_container_action": "append_to_scopes",
+      "append_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "suggested_match_note_append": "رمز التوصيف واسمه مطابقان تمامًا كذلك لخطة الشريعة الجديدة، إصدار 47."
+    },
+    {
+      "course_code": "20021203-2",
+      "expected_title": "التفسير التحليلي (1)",
+      "variant_selector": {
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20021203-2.pdf",
+        "specification_code": "20021203-2",
+        "title": "التفسير التحليلي (1)"
+      },
+      "scope_container_action": "promote_singular_scope_to_scopes_then_append",
+      "append_scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "suggested_match_note_append": "رمز التوصيف واسمه مطابقان تمامًا كذلك لخطة القراءات الجديدة، إصدار 47."
+    },
+    {
+      "course_code": "2002318-2",
+      "expected_title": "توجيه القراءات",
+      "variant_selector": {
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002318-2.pdf",
+        "specification_code": "2002318-2",
+        "title": "توجيه القراءات"
+      },
+      "scope_container_action": "append_to_scopes",
+      "append_scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "suggested_match_note_append": "رمز التوصيف واسمه مطابقان تمامًا كذلك لخطة القراءات الجديدة، إصدار 47."
+    },
+    {
+      "course_code": "2002416-2",
+      "expected_title": "التقنيات الحديثة في الدراسات القرآنية",
+      "variant_selector": {
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002416-2.pdf",
+        "specification_code": "2002416-2",
+        "title": "التقنيات الحديثة في الدراسات القرآنية"
+      },
+      "scope_container_action": "append_to_scopes",
+      "append_scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "suggested_match_note_append": "رمز التوصيف واسمه مطابقان تمامًا كذلك لخطة القراءات الجديدة، إصدار 47."
+    },
+    {
+      "course_code": "2002419-2",
+      "expected_title": "مناهج البحث",
+      "variant_selector": {
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002419-2.pdf",
+        "specification_code": "2002419-2",
+        "title": "مناهج البحث"
+      },
+      "scope_container_action": "append_to_scopes",
+      "append_scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "suggested_match_note_append": "رمز التوصيف واسمه مطابقان تمامًا كذلك لخطة القراءات الجديدة، إصدار 47."
+    },
+    {
+      "course_code": "2002429-2",
+      "expected_title": "الانتصار للقرآن",
+      "variant_selector": {
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002429-2.pdf",
+        "specification_code": "2002429-2",
+        "title": "الانتصار للقرآن"
+      },
+      "scope_container_action": "append_to_scopes",
+      "append_scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "suggested_match_note_append": "رمز التوصيف واسمه مطابقان تمامًا كذلك لخطة القراءات الجديدة، إصدار 47."
+    },
+    {
+      "course_code": "2002103-2",
+      "expected_title": "التجويد (1)",
+      "variant_selector": {
+        "pdf_url": "assets/course-specifications/qiraat-source-1445/2002103-2.pdf",
+        "specification_code": "2002103-2",
+        "title": "التجويد (1)"
+      },
+      "scope_container_action": "append_to_scopes",
+      "append_scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "suggested_match_note_append": "رمز التوصيف واسمه مطابقان تمامًا كذلك لخطة القرآن وعلومه الجديدة، إصدار 47."
+    },
+    {
+      "course_code": "2002106-2",
+      "expected_title": "التجويد (2)",
+      "variant_selector": {
+        "pdf_url": "assets/course-specifications/qiraat-source-1445/2002106-2.pdf",
+        "specification_code": "2002106-2",
+        "title": "التجويد (2)"
+      },
+      "scope_container_action": "append_to_scopes",
+      "append_scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "suggested_match_note_append": "رمز التوصيف واسمه مطابقان تمامًا كذلك لخطة القرآن وعلومه الجديدة، إصدار 47."
+    }
+  ]
+}

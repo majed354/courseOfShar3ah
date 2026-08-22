@@ -1,0 +1,3836 @@
+{
+  "schema": "independent-pdf-qa-26/v1",
+  "generated_at": "2026-08-22T22:51:11.098961+03:00",
+  "mode": "fail-closed",
+  "scope": {
+    "expected_pdf_count": 26,
+    "actual_pdf_count": 26,
+    "catalog": "data.json",
+    "batches": {
+      "approval-quran-culture": 12,
+      "law-bachelor": 13,
+      "fiqh-master-1446": 1
+    }
+  },
+  "status": "PASS",
+  "summary": {
+    "passed": 26,
+    "blocked": 0,
+    "blocker_count": 0,
+    "all_qpdf_pass": true,
+    "all_unencrypted": true,
+    "all_pages_a4": true,
+    "all_catalog_identities_exact": true,
+    "all_classification_placeholder_checks_pass": true,
+    "all_visual_reviews_pass": true
+  },
+  "blockers": [],
+  "non_blocking_preserved_source_notes": {
+    "broken_word_toc_marker_files": [
+      "2001276-3",
+      "2003104-3",
+      "2003211-3",
+      "20033303-2",
+      "2003382-4",
+      "20034201-2"
+    ],
+    "dotted_source_blank_files": [],
+    "rationale": "These are pre-existing legacy source artifacts, not approval-table placeholders or newly introduced edits; they were preserved under the no-redo policy for previously completed PDFs.",
+    "academic_muqayyad": "The single word مقيد in 2003227-3 is legitimate academic course-description context, not a sensitivity label."
+  },
+  "cross_report_reconciliation": {
+    "approval_qa_all_pass": true,
+    "approval_qa_pdf_count": 12,
+    "approval_qa_reconciled": true,
+    "law_qa_status": "pass",
+    "law_qa_record_count": 13,
+    "law_qa_reconciled": true,
+    "law_pixel_report": {
+      "source_file_name": "pixel-diff-300dpi.json",
+      "summary": {
+        "files": 13,
+        "passed": 13,
+        "failed": 0,
+        "outside_allowed_masks": 0
+      },
+      "reconciled": true
+    },
+    "law_2003105_assembly": {
+      "source_file_name": "2003105-final-assembly.json",
+      "reconciled": true,
+      "final_sha256": "54e11a651c18a53dd6b7bd7d99642d9e4e8d34d0f84600e836faa24b1575cf5f"
+    },
+    "law_2003380_cleaner": {
+      "source_file_name": "2003380-3.custom-cleaner.json",
+      "loaded": true,
+      "reconciled": true,
+      "independent_notes": "Normalized academic text is identical source-to-clean after removing the Restricted label; pages 2-8 retain exact word boxes, page 1 changes only the target code. PyMuPDF 300dpi pixel QA reports zero pixels outside approved masks. Tiny Poppler-only glyph-edge antialiasing noise is nonmaterial."
+    }
+  },
+  "manual_visual_review_method": {
+    "render_root": "render",
+    "contact_sheet_root": "sheets",
+    "reviewed": "First and last page of every PDF; every edited/approval/stamp location; all eight pages of 2003380-3; repaired cover of 2003105-3."
+  },
+  "records": [
+    {
+      "code": "2001276-3",
+      "title": "حقوق الإنسان",
+      "hours": 3,
+      "batch": "law-bachelor",
+      "source_file_name": "2001276-3.pdf",
+      "sha256": "9dfe9fef37b31c7a4e32b8591d8ac2cd0b1cbb2d915d7a5911f0afcd953ca908",
+      "expected_sha256": "9dfe9fef37b31c7a4e32b8591d8ac2cd0b1cbb2d915d7a5911f0afcd953ca908",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 10,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 9,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 10,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2001276-3",
+          "title": "حقوق الإنسان",
+          "hours": 3
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الأنظمة",
+            "code": "2001276-3",
+            "title": "حقوق الإنسان",
+            "hours": 3
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2001276-3",
+            "title": "حقوق الإنسان",
+            "hours": 3,
+            "programs": [
+              "الأنظمة (47 جديدة)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [
+          "Erreur ! Signet non défini."
+        ],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الأنظمة",
+          "session": "23",
+          "date": "1446/9/4هـ"
+        }
+      ],
+      "department_stamps": [
+        "الأنظمة"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2001716-3",
+      "title": "مشكل نصوص العقيدة",
+      "hours": 3,
+      "batch": "approval-quran-culture",
+      "source_file_name": "2001716-3.pdf",
+      "sha256": "a0dcf8e3d2fa5cf0fb12e0c786844b56ca365dc63faef5994fabfedced4b249e",
+      "expected_sha256": "a0dcf8e3d2fa5cf0fb12e0c786844b56ca365dc63faef5994fabfedced4b249e",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 10,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 9,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 10,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2001716-3",
+          "title": "مشكل نصوص العقيدة",
+          "hours": 3
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "العقيدة",
+            "code": "2001716-3",
+            "title": "مشكل نصوص العقيدة",
+            "hours": 3
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2001716-3",
+            "title": "مشكل نصوص العقيدة",
+            "hours": 3,
+            "programs": [
+              "العقيدة (ماجستير)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس القسم",
+          "session": "السادسة",
+          "session_provenance": "original/preserved",
+          "date": "1447/8/8هـ",
+          "date_provenance": "inferred from nearest creed batch",
+          "inferred_fields": [
+            "date"
+          ]
+        }
+      ],
+      "department_stamps": [
+        "الثقافة الإسلامية"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2001811-2",
+      "title": "فقه المآلات",
+      "hours": 2,
+      "batch": "fiqh-master-1446",
+      "source_file_name": "2001811-2.pdf",
+      "sha256": "8be2333b822d6d3a6e7e56f63e8fc05f387db5612bebdfccebac5cfe2d6f9dbe",
+      "expected_sha256": "8be2333b822d6d3a6e7e56f63e8fc05f387db5612bebdfccebac5cfe2d6f9dbe",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 7,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.304,
+            "height_pt": 841.89,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.304,
+            "height_pt": 841.89,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.304,
+            "height_pt": 841.89,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.304,
+            "height_pt": 841.89,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.304,
+            "height_pt": 841.89,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.304,
+            "height_pt": 841.89,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.304,
+            "height_pt": 841.89,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2001811-2",
+          "title": "فقه المآلات",
+          "hours": 2
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الفقه",
+            "code": "2001811-2",
+            "title": "فقه المآلات",
+            "hours": 2
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2001811-2",
+            "title": "فقه المآلات",
+            "hours": 2,
+            "programs": [
+              "الفقه (ماجستير)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الشريعة",
+          "session": "5",
+          "date": "1447/5/4هـ"
+        }
+      ],
+      "department_stamps": [
+        "الشريعة"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": "Post-review code-order repair verified: the first page now displays and extracts 2001811-2 exactly; pages 2-7 remain pixel-identical and page 1 differs only inside the code row."
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2002210-2",
+      "title": "دراسات في علوم القرآن",
+      "hours": 2,
+      "batch": "approval-quran-culture",
+      "source_file_name": "2002210-2.pdf",
+      "sha256": "2c3c483937c93e04d28635eb37bb52d9dbce4ac1c82ae509f5013a7e7c5cd2a7",
+      "expected_sha256": "2c3c483937c93e04d28635eb37bb52d9dbce4ac1c82ae509f5013a7e7c5cd2a7",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2002210-2",
+          "title": "دراسات في علوم القرآن",
+          "hours": 2
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الدراسات الإسلامية",
+            "code": "2002210-2",
+            "title": "دراسات في علوم القرآن",
+            "hours": 2
+          },
+          {
+            "program": "القراءات",
+            "code": "2002210-2",
+            "title": "دراسات في علوم القرآن",
+            "hours": 2
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2002210-2",
+            "title": "دراسات في علوم القرآن",
+            "hours": 2,
+            "programs": [
+              "الدراسات الإسلامية (47 جديدة)",
+              "القراءات (47 جديدة)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس كلية الشريعة والأنظمة",
+          "session": "10",
+          "date": "1446/9/3هـ",
+          "provenance": "original",
+          "inferred": false
+        }
+      ],
+      "department_stamps": [
+        "القراءات",
+        "الثقافة الإسلامية"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": "Both required department stamps (Quranic Recitation and Islamic Culture) are present and clear."
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "20023101-3",
+      "title": "التفسير التحليلي (٢)",
+      "hours": 3,
+      "batch": "approval-quran-culture",
+      "source_file_name": "20023101-3.pdf",
+      "sha256": "755e0026acdb95ae8be63be37ab79b2170036a9765b4b95ebc017b8fc4c78ca0",
+      "expected_sha256": "755e0026acdb95ae8be63be37ab79b2170036a9765b4b95ebc017b8fc4c78ca0",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 7,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "20023101-3",
+          "title": "التفسير التحليلي (٢)",
+          "hours": 3
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الدراسات الإسلامية",
+            "code": "20023101-3",
+            "title": "التفسير التحليلي (٢)",
+            "hours": 3
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "20023101-3",
+            "title": "التفسير التحليلي (٢)",
+            "hours": 3,
+            "programs": [
+              "الدراسات الإسلامية (47 جديدة)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الثقافة الإسلامية",
+          "session": "10",
+          "date": "1446/9/3هـ",
+          "provenance": "original",
+          "inferred": false
+        },
+        {
+          "authority": "مجلس كلية الشريعة والأنظمة",
+          "session": "18",
+          "date": "1446/9/9هـ",
+          "provenance": "inferred from same-department two-authority approved specification",
+          "inferred": true
+        }
+      ],
+      "department_stamps": [
+        "الثقافة الإسلامية"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2002700-4",
+      "title": "فرش القراءات العشر الكبرى",
+      "hours": 4,
+      "batch": "approval-quran-culture",
+      "source_file_name": "2002700-4.pdf",
+      "sha256": "ba528e998da4d971a1bbca4820af3cfc815ae79a87baadd08c972b062604e150",
+      "expected_sha256": "ba528e998da4d971a1bbca4820af3cfc815ae79a87baadd08c972b062604e150",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2002700-4",
+          "title": "فرش القراءات العشر الكبرى",
+          "hours": 4
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "القراءات",
+            "code": "2002700-4",
+            "title": "فرش القراءات العشر الكبرى",
+            "hours": 4
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2002700-4",
+            "title": "فرش القراءات العشر الكبرى",
+            "hours": 4,
+            "programs": [
+              "القراءات (دكتوراه)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم القراءات",
+          "session": "الثالث عشر",
+          "date": "1445/9/14هـ",
+          "provenance": "inferred from approved qiraat master batch",
+          "inferred": true
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2002701-4",
+      "title": "عرض القراءات العشر الكبرى",
+      "hours": 4,
+      "batch": "approval-quran-culture",
+      "source_file_name": "2002701-4.pdf",
+      "sha256": "2da8842b555012a47537a2d3e3d45b58c1b4a95e44f28c231d20a73cecc336e1",
+      "expected_sha256": "2da8842b555012a47537a2d3e3d45b58c1b4a95e44f28c231d20a73cecc336e1",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2002701-4",
+          "title": "عرض القراءات العشر الكبرى",
+          "hours": 4
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "القراءات",
+            "code": "2002701-4",
+            "title": "عرض القراءات العشر الكبرى",
+            "hours": 4
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2002701-4",
+            "title": "عرض القراءات العشر الكبرى",
+            "hours": 4,
+            "programs": [
+              "القراءات (دكتوراه)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم القراءات",
+          "session": "الثالث عشر",
+          "date": "1445/9/14هـ",
+          "provenance": "inferred from approved qiraat master batch",
+          "inferred": true
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2002702-2",
+      "title": "دراسات في القراءات الشاذة وتوجيهها",
+      "hours": 2,
+      "batch": "approval-quran-culture",
+      "source_file_name": "2002702-2.pdf",
+      "sha256": "6d48f0dbb3d42db1ad04ca637cf485337a500bf91556c547f92fadc6ff659a22",
+      "expected_sha256": "6d48f0dbb3d42db1ad04ca637cf485337a500bf91556c547f92fadc6ff659a22",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2002702-2",
+          "title": "دراسات في القراءات الشاذة وتوجيهها",
+          "hours": 2
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "القراءات",
+            "code": "2002702-2",
+            "title": "دراسات في القراءات الشاذة وتوجيهها",
+            "hours": 2
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2002702-2",
+            "title": "دراسات في القراءات الشاذة وتوجيهها",
+            "hours": 2,
+            "programs": [
+              "القراءات (دكتوراه)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم القراءات",
+          "session": "الثالث عشر",
+          "date": "1445/9/14هـ",
+          "provenance": "inferred from approved qiraat master batch",
+          "inferred": true
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2002705-3",
+      "title": "التفسير المقارن",
+      "hours": 3,
+      "batch": "approval-quran-culture",
+      "source_file_name": "2002705-3.pdf",
+      "sha256": "1fefbf23a61559412f06c3e3e628eb976fc5917b3c3810f51ee29dca1ecc0546",
+      "expected_sha256": "1fefbf23a61559412f06c3e3e628eb976fc5917b3c3810f51ee29dca1ecc0546",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2002705-3",
+          "title": "التفسير المقارن",
+          "hours": 3
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الدراسات القرآنية",
+            "code": "2002705-3",
+            "title": "التفسير المقارن",
+            "hours": 3
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2002705-3",
+            "title": "التفسير المقارن",
+            "hours": 3,
+            "programs": [
+              "الدراسات القرآنية (دكتوراه)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "قسم القراءات",
+          "session": "13",
+          "date": "1445/9/15هـ",
+          "provenance": "inferred from approved Quranic-studies master batch",
+          "inferred": true
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2002706-3",
+      "title": "النقد والتجديد في الدراسات القرآنية",
+      "hours": 3,
+      "batch": "approval-quran-culture",
+      "source_file_name": "2002706-3.pdf",
+      "sha256": "8921d323d4bd83160d78e3ca7d935d44f598798b634c3a49464eb941d393265d",
+      "expected_sha256": "8921d323d4bd83160d78e3ca7d935d44f598798b634c3a49464eb941d393265d",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2002706-3",
+          "title": "النقد والتجديد في الدراسات القرآنية",
+          "hours": 3
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الدراسات القرآنية",
+            "code": "2002706-3",
+            "title": "النقد والتجديد في الدراسات القرآنية",
+            "hours": 3
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2002706-3",
+            "title": "النقد والتجديد في الدراسات القرآنية",
+            "hours": 3,
+            "programs": [
+              "الدراسات القرآنية (دكتوراه)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "قسم القراءات",
+          "session": "13",
+          "date": "1445/9/15هـ",
+          "provenance": "inferred from approved Quranic-studies master batch",
+          "inferred": true
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2002707-3",
+      "title": "دراسات في نسخ التفسير وأسانيده",
+      "hours": 3,
+      "batch": "approval-quran-culture",
+      "source_file_name": "2002707-3.pdf",
+      "sha256": "cdd59d174a6cf95599d4a147e276e0b457bc312f32dcb89d80d39a2c61ac3713",
+      "expected_sha256": "cdd59d174a6cf95599d4a147e276e0b457bc312f32dcb89d80d39a2c61ac3713",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2002707-3",
+          "title": "دراسات في نسخ التفسير وأسانيده",
+          "hours": 3
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الدراسات القرآنية",
+            "code": "2002707-3",
+            "title": "دراسات في نسخ التفسير وأسانيده",
+            "hours": 3
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2002707-3",
+            "title": "دراسات في نسخ التفسير وأسانيده",
+            "hours": 3,
+            "programs": [
+              "الدراسات القرآنية (دكتوراه)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "قسم القراءات",
+          "session": "13",
+          "date": "1445/9/15هـ",
+          "provenance": "inferred from approved Quranic-studies master batch",
+          "inferred": true
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2002708-3",
+      "title": "دراسات في حواشي التفسير",
+      "hours": 3,
+      "batch": "approval-quran-culture",
+      "source_file_name": "2002708-3.pdf",
+      "sha256": "618d5af444faf8665436286c547abfa52d4124c66c38dcea2199b50c79d31e87",
+      "expected_sha256": "618d5af444faf8665436286c547abfa52d4124c66c38dcea2199b50c79d31e87",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2002708-3",
+          "title": "دراسات في حواشي التفسير",
+          "hours": 3
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الدراسات القرآنية",
+            "code": "2002708-3",
+            "title": "دراسات في حواشي التفسير",
+            "hours": 3
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2002708-3",
+            "title": "دراسات في حواشي التفسير",
+            "hours": 3,
+            "programs": [
+              "الدراسات القرآنية (دكتوراه)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "قسم القراءات",
+          "session": "13",
+          "date": "1445/9/15هـ",
+          "provenance": "inferred from approved Quranic-studies master batch",
+          "inferred": true
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2002863-2",
+      "title": "منهج البحث والتحقيق",
+      "hours": 2,
+      "batch": "approval-quran-culture",
+      "source_file_name": "2002863-2.pdf",
+      "sha256": "f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457",
+      "expected_sha256": "f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2002863-2",
+          "title": "منهج البحث والتحقيق",
+          "hours": 2
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الدراسات القرآنية المعاصرة",
+            "code": "2002863-2",
+            "title": "منهج البحث والتحقيق",
+            "hours": 2
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2002863-2",
+            "title": "منهج البحث والتحقيق",
+            "hours": 2,
+            "programs": [
+              "الدراسات القرآنية المعاصرة"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": true,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "قسم القراءات",
+          "session": "13",
+          "date": "1445/9/15هـ",
+          "provenance": "inferred from approved Quranic-studies master batch",
+          "inferred": true
+        }
+      ],
+      "department_stamps": [
+        "القراءات"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2003104-3",
+      "title": "قانون المرافعات",
+      "hours": 3,
+      "batch": "law-bachelor",
+      "source_file_name": "2003104-3.pdf",
+      "sha256": "7cdb3d4e31767ac70dcde08a624cc8d4a10f05da130d6c3470bfaa0009be8112",
+      "expected_sha256": "7cdb3d4e31767ac70dcde08a624cc8d4a10f05da130d6c3470bfaa0009be8112",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 10,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 9,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 10,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2003104-3",
+          "title": "قانون المرافعات",
+          "hours": 3
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الأنظمة",
+            "code": "2003104-3",
+            "title": "قانون المرافعات",
+            "hours": 3
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2003104-3",
+            "title": "قانون المرافعات",
+            "hours": 3,
+            "programs": [
+              "الأنظمة (47 جديدة)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [
+          "Erreur ! Signet non défini."
+        ],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الأنظمة",
+          "session": "23",
+          "date": "1446/9/4هـ"
+        }
+      ],
+      "department_stamps": [
+        "الأنظمة"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2003105-3",
+      "title": "القانون الدولي الخاص",
+      "hours": 3,
+      "batch": "law-bachelor",
+      "source_file_name": "2003105-3.pdf",
+      "sha256": "54e11a651c18a53dd6b7bd7d99642d9e4e8d34d0f84600e836faa24b1575cf5f",
+      "expected_sha256": "54e11a651c18a53dd6b7bd7d99642d9e4e8d34d0f84600e836faa24b1575cf5f",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2003105-3",
+          "title": "القانون الدولي الخاص",
+          "hours": 3
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الأنظمة",
+            "code": "2003105-3",
+            "title": "القانون الدولي الخاص",
+            "hours": 3
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2003105-3",
+            "title": "القانون الدولي الخاص",
+            "hours": 3,
+            "programs": [
+              "الأنظمة (47 جديدة)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الأنظمة",
+          "session": "14",
+          "date": "1443-11-1هـ"
+        }
+      ],
+      "department_stamps": [
+        "الأنظمة"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": "Visible cover title independently rechecked after repair; approval remains on page 7 and the correct Law Department stamp is safely appended on page 8."
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2003202-2",
+      "title": "القانون الدولي الإنساني",
+      "hours": 2,
+      "batch": "law-bachelor",
+      "source_file_name": "2003202-2.pdf",
+      "sha256": "ed68bdf65247573f7e2d496ad35e504df7d6abdffed676518a45f5aec102bad9",
+      "expected_sha256": "ed68bdf65247573f7e2d496ad35e504df7d6abdffed676518a45f5aec102bad9",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2003202-2",
+          "title": "القانون الدولي الإنساني",
+          "hours": 2
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الأنظمة",
+            "code": "2003202-2",
+            "title": "القانون الدولي الإنساني",
+            "hours": 2
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2003202-2",
+            "title": "القانون الدولي الإنساني",
+            "hours": 2,
+            "programs": [
+              "الأنظمة (47 جديدة)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الأنظمة",
+          "session": "23",
+          "date": "1446/9/4هـ"
+        }
+      ],
+      "department_stamps": [
+        "الأنظمة"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "20032022-3",
+      "title": "علم الإجرام والعقاب",
+      "hours": 3,
+      "batch": "law-bachelor",
+      "source_file_name": "20032022-3.pdf",
+      "sha256": "4c431ad2f5e45e8d2d1f0e1d0f012d06a56e877cfe82959406bd725f434dd72d",
+      "expected_sha256": "4c431ad2f5e45e8d2d1f0e1d0f012d06a56e877cfe82959406bd725f434dd72d",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "20032022-3",
+          "title": "علم الإجرام والعقاب",
+          "hours": 3
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الأنظمة",
+            "code": "20032022-3",
+            "title": "علم الإجرام والعقاب",
+            "hours": 3
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "20032022-3",
+            "title": "علم الإجرام والعقاب",
+            "hours": 3,
+            "programs": [
+              "الأنظمة (47 جديدة)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الأنظمة",
+          "session": "23",
+          "date": "1446/9/10هـ"
+        }
+      ],
+      "department_stamps": [
+        "الأنظمة"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2003203-3",
+      "title": "العقود الإدارية",
+      "hours": 3,
+      "batch": "law-bachelor",
+      "source_file_name": "2003203-3.pdf",
+      "sha256": "941b9175d0647d0ddf4e6410d2520538c04218877774fecab22bbf3357bb0310",
+      "expected_sha256": "941b9175d0647d0ddf4e6410d2520538c04218877774fecab22bbf3357bb0310",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2003203-3",
+          "title": "العقود الإدارية",
+          "hours": 3
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الأنظمة",
+            "code": "2003203-3",
+            "title": "العقود الإدارية",
+            "hours": 3
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2003203-3",
+            "title": "العقود الإدارية",
+            "hours": 3,
+            "programs": [
+              "الأنظمة (47 جديدة)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الأنظمة",
+          "session": "23",
+          "date": "1446/9/4هـ"
+        }
+      ],
+      "department_stamps": [
+        "الأنظمة"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2003211-3",
+      "title": "المنظمات الدولية",
+      "hours": 3,
+      "batch": "law-bachelor",
+      "source_file_name": "2003211-3.pdf",
+      "sha256": "0001dfe1692e2b2fa2d938dc964ed4b53ee1105302edbdc4eca7162ec1467a6c",
+      "expected_sha256": "0001dfe1692e2b2fa2d938dc964ed4b53ee1105302edbdc4eca7162ec1467a6c",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 10,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 9,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 10,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2003211-3",
+          "title": "المنظمات الدولية",
+          "hours": 3
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الأنظمة",
+            "code": "2003211-3",
+            "title": "المنظمات الدولية",
+            "hours": 3
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2003211-3",
+            "title": "المنظمات الدولية",
+            "hours": 3,
+            "programs": [
+              "الأنظمة (47 جديدة)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [
+          "Erreur ! Signet non défini."
+        ],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الأنظمة",
+          "session": "23",
+          "date": "1446/9/10هـ"
+        }
+      ],
+      "department_stamps": [
+        "الأنظمة"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2003227-3",
+      "title": "قانون الإثبات",
+      "hours": 3,
+      "batch": "law-bachelor",
+      "source_file_name": "2003227-3.pdf",
+      "sha256": "975a983c5883fb81c2d7ddaca278186a2961e571e9c622e9657438d06a523069",
+      "expected_sha256": "975a983c5883fb81c2d7ddaca278186a2961e571e9c622e9657438d06a523069",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2003227-3",
+          "title": "قانون الإثبات",
+          "hours": 3
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الأنظمة",
+            "code": "2003227-3",
+            "title": "قانون الإثبات",
+            "hours": 3
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2003227-3",
+            "title": "قانون الإثبات",
+            "hours": 3,
+            "programs": [
+              "الأنظمة (47 جديدة)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 1,
+        "academic_muqayyad_exception": true,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الأنظمة",
+          "session": "23",
+          "date": "1446/9/10هـ"
+        }
+      ],
+      "department_stamps": [
+        "الأنظمة"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "20033303-2",
+      "title": "قانون أعالي البحار",
+      "hours": 2,
+      "batch": "law-bachelor",
+      "source_file_name": "20033303-2.pdf",
+      "sha256": "4f6953b80e08e34ea642a8ae7483248c2080b27743ebdac4c55f15807c079a3c",
+      "expected_sha256": "4f6953b80e08e34ea642a8ae7483248c2080b27743ebdac4c55f15807c079a3c",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 9,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 9,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "20033303-2",
+          "title": "قانون أعالي البحار",
+          "hours": 2
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الأنظمة",
+            "code": "20033303-2",
+            "title": "قانون أعالي البحار",
+            "hours": 2
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "20033303-2",
+            "title": "قانون أعالي البحار",
+            "hours": 2,
+            "programs": [
+              "الأنظمة (47 جديدة)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [
+          "Erreur ! Signet non défini."
+        ],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الأنظمة",
+          "session": "23",
+          "date": "1446/9/4هـ"
+        }
+      ],
+      "department_stamps": [
+        "الأنظمة"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2003380-3",
+      "title": "قانون الشركات والحوكمة",
+      "hours": 3,
+      "batch": "law-bachelor",
+      "source_file_name": "2003380-3.pdf",
+      "sha256": "4f7fa640db76f389a86be1335da2228321b0d608f7738c2a5f8f8d18f73bc8a8",
+      "expected_sha256": "4f7fa640db76f389a86be1335da2228321b0d608f7738c2a5f8f8d18f73bc8a8",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2003380-3",
+          "title": "قانون الشركات والحوكمة",
+          "hours": 3
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الأنظمة",
+            "code": "2003380-3",
+            "title": "قانون الشركات والحوكمة",
+            "hours": 3
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2003380-3",
+            "title": "قانون الشركات والحوكمة",
+            "hours": 3,
+            "programs": [
+              "الأنظمة (47 جديدة)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الأنظمة",
+          "session": "23",
+          "date": "1446/9/4هـ"
+        }
+      ],
+      "department_stamps": [
+        "الأنظمة"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": "All eight pages independently inspected; title/code field, approval, tables, and stamp are intact and no sensitivity label/watermark remains."
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2003382-4",
+      "title": "قانون الأحوال الشخصية",
+      "hours": 4,
+      "batch": "law-bachelor",
+      "source_file_name": "2003382-4.pdf",
+      "sha256": "249a051d81f67c76a863d0ece14aaea32107b5ffe3444b3646368ffb5a76f1c6",
+      "expected_sha256": "249a051d81f67c76a863d0ece14aaea32107b5ffe3444b3646368ffb5a76f1c6",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 9,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 9,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2003382-4",
+          "title": "قانون الأحوال الشخصية",
+          "hours": 4
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الأنظمة",
+            "code": "2003382-4",
+            "title": "قانون الأحوال الشخصية",
+            "hours": 4
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2003382-4",
+            "title": "قانون الأحوال الشخصية",
+            "hours": 4,
+            "programs": [
+              "الأنظمة (47 جديدة)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [
+          "Erreur ! Signet non défini."
+        ],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الأنظمة",
+          "session": "23",
+          "date": "1446/9/4هـ"
+        }
+      ],
+      "department_stamps": [
+        "الأنظمة"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "20034201-2",
+      "title": "نظام حماية المستهلك",
+      "hours": 2,
+      "batch": "law-bachelor",
+      "source_file_name": "20034201-2.pdf",
+      "sha256": "e59a0396e311ecd9e2cd5b92f86307e43339042730b51c9e4414310ddc20504d",
+      "expected_sha256": "e59a0396e311ecd9e2cd5b92f86307e43339042730b51c9e4414310ddc20504d",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 9,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 9,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "20034201-2",
+          "title": "نظام حماية المستهلك",
+          "hours": 2
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الأنظمة",
+            "code": "20034201-2",
+            "title": "نظام حماية المستهلك",
+            "hours": 2
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "20034201-2",
+            "title": "نظام حماية المستهلك",
+            "hours": 2,
+            "programs": [
+              "الأنظمة (47 جديدة)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [
+          "Erreur ! Signet non défini."
+        ],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الأنظمة",
+          "session": "23",
+          "date": "1446/9/4هـ"
+        }
+      ],
+      "department_stamps": [
+        "الأنظمة"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2003441-3",
+      "title": "الحقوق العينية",
+      "hours": 3,
+      "batch": "law-bachelor",
+      "source_file_name": "2003441-3.pdf",
+      "sha256": "8bd559cfb63b6fffd79e1ecd7aa910130ef6aee6275737f8a88ed3724b42c085",
+      "expected_sha256": "8bd559cfb63b6fffd79e1ecd7aa910130ef6aee6275737f8a88ed3724b42c085",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 8,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 7,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 8,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2003441-3",
+          "title": "الحقوق العينية",
+          "hours": 3
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الأنظمة",
+            "code": "2003441-3",
+            "title": "الحقوق العينية",
+            "hours": 3
+          },
+          {
+            "program": "الأنظمة",
+            "code": "2003441-3",
+            "title": "الحقوق العينية",
+            "hours": 3
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2003441-3",
+            "title": "الحقوق العينية",
+            "hours": 3,
+            "programs": [
+              "الأنظمة",
+              "الأنظمة (47 جديدة)"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الأنظمة",
+          "session": "23",
+          "date": "1446/9/4هـ"
+        }
+      ],
+      "department_stamps": [
+        "الأنظمة"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": "Pre-existing rotated Law Department stamp is legible, department-correct, and does not overlap table content."
+      },
+      "manifest_hash_match": true
+    },
+    {
+      "code": "2004111-2",
+      "title": "أصول الثقافة الإسلامية",
+      "hours": 2,
+      "batch": "approval-quran-culture",
+      "source_file_name": "2004111-2.pdf",
+      "sha256": "9ff964ed19ba9191ba2e8af83378189d2a09f0fa98ceef1ee03bd2404f7ad11a",
+      "expected_sha256": "9ff964ed19ba9191ba2e8af83378189d2a09f0fa98ceef1ee03bd2404f7ad11a",
+      "status": "PASS",
+      "blockers": [],
+      "structural": {
+        "qpdf_check": true,
+        "pdfinfo_unencrypted": true,
+        "page_count": 6,
+        "all_pages_a4": true,
+        "all_pages_rotation_zero": true,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 2,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 3,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 4,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 5,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          },
+          {
+            "page": 6,
+            "width_pt": 595.32,
+            "height_pt": 841.92,
+            "rotation": 0,
+            "a4": true
+          }
+        ]
+      },
+      "identity": {
+        "expected": {
+          "code": "2004111-2",
+          "title": "أصول الثقافة الإسلامية",
+          "hours": 2
+        },
+        "exact_program_occurrences": [
+          {
+            "program": "الأنظمة",
+            "code": "2004111-2",
+            "title": "أصول الثقافة الإسلامية",
+            "hours": 2
+          },
+          {
+            "program": "الشريعة",
+            "code": "2004111-2",
+            "title": "أصول الثقافة الإسلامية",
+            "hours": 2
+          },
+          {
+            "program": "الشريعة",
+            "code": "2004111-2",
+            "title": "أصول الثقافة الإسلامية",
+            "hours": 2
+          },
+          {
+            "program": "الدراسات الإسلامية",
+            "code": "2004111-2",
+            "title": "أصول الثقافة الإسلامية",
+            "hours": 2
+          },
+          {
+            "program": "القراءات",
+            "code": "2004111-2",
+            "title": "أصول الثقافة الإسلامية",
+            "hours": 2
+          },
+          {
+            "program": "القرآن وعلومه",
+            "code": "2004111-2",
+            "title": "أصول الثقافة الإسلامية",
+            "hours": 2
+          }
+        ],
+        "exact_non_catalog_only_catalog_occurrences": [
+          {
+            "catalog_id": null,
+            "code": "2004111-2",
+            "title": "أصول الثقافة الإسلامية",
+            "hours": 2,
+            "programs": [
+              "الأنظمة",
+              "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+              "الشريعة",
+              "الدراسات الإسلامية",
+              "القراءات (بكالوريوس)",
+              "القرآن وعلومه"
+            ]
+          }
+        ],
+        "catalog_only_variants_excluded_by_policy": false,
+        "pass": true
+      },
+      "classification_and_placeholders": {
+        "raw_encoded_hits": [],
+        "qdf_encoded_hits": [],
+        "raw_placeholder_hits": [],
+        "qdf_placeholder_hits": [],
+        "visible_sensitive_hits": [],
+        "visible_placeholder_hits": [],
+        "academic_muqayyad_occurrences": 0,
+        "academic_muqayyad_exception": false,
+        "obsolete_code_hits": [],
+        "legacy_source_warnings": [],
+        "legacy_dotted_blank_present": false,
+        "targeted_approval_placeholders": [],
+        "pass": true
+      },
+      "approval": [
+        {
+          "authority": "مجلس قسم الثقافة الإسلامية",
+          "session": "10",
+          "date": "1446/9/3هـ",
+          "provenance": "inferred from same-department approved specifications",
+          "inferred": true
+        }
+      ],
+      "department_stamps": [
+        "الثقافة الإسلامية"
+      ],
+      "visual_review": {
+        "first_page_title_code_hours_exact": true,
+        "last_page_reviewed": true,
+        "all_edited_locations_reviewed": true,
+        "approval_table_complete_and_unobstructed": true,
+        "department_stamp_correct_legible_and_unobstructed": true,
+        "tables_not_damaged": true,
+        "notes": null
+      },
+      "manifest_hash_match": true
+    }
+  ]
+}

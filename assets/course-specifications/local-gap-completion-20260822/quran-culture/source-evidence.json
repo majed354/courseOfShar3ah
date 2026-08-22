@@ -1,0 +1,256 @@
+{
+  "package": "approval-quran-culture",
+  "evidence_sources": [
+    {
+      "id": "site-plan",
+      "source_file_name": "data.json",
+      "sha256": "00035e2257834b66c0f48ef28dbc0c0b72b15206ff7fdbdba73890ac4773a237",
+      "supports": "exact code, title, hours, and scope"
+    },
+    {
+      "id": "culture-approved",
+      "source_file_name": "2004112-2.pdf",
+      "sha256": "54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997",
+      "supports": [
+        "2004111-2 approval 10 / 1446/9/3",
+        "20023101-3 college approval 18 / 1446/9/9"
+      ]
+    },
+    {
+      "id": "culture-approved-second",
+      "source_file_name": "2004313-2.pdf",
+      "sha256": "b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0",
+      "supports": "culture batch corroboration"
+    },
+    {
+      "id": "quran-approved",
+      "source_file_name": "2002852-2.pdf",
+      "sha256": "c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477",
+      "supports": "Quranic-studies approval session 13 / 1445/9/15"
+    },
+    {
+      "id": "quran-manifest",
+      "source_file_name": "manifest.json",
+      "sha256": "cb91455cab989cc658011ef8652dcf193adaa3d17fe60c2399e08c769a40ccbd",
+      "supports": "Quranic-studies batch identity and approval provenance"
+    },
+    {
+      "id": "qiraat-approved",
+      "source_file_name": "2002801-8.pdf",
+      "sha256": "3535a080f3b9f011a1e23289da576cbb491abf6cd434908d1961ba5aad3ac85e",
+      "supports": "qiraat approval thirdteenth / 1445/9/14"
+    },
+    {
+      "id": "qiraat-manifest",
+      "source_file_name": "manifest.json",
+      "sha256": "7d8d5187434c444d0fa3e21fa777b87db9f2a181c774c14fc43b98983fe2927c",
+      "supports": "qiraat batch identity and approval provenance"
+    },
+    {
+      "id": "creed-approved",
+      "source_file_name": "2001711-2.pdf",
+      "sha256": "288718f7c8fe913a574983e392cba2c7a9b977f69451239a0428664e501f5831",
+      "supports": "creed batch date 1447/8/8; session on 2001716 remains original السادسة"
+    },
+    {
+      "id": "creed-manifest",
+      "source_file_name": "manifest.json",
+      "sha256": "e70372d66e5f0a0ee00de22a661f1c402a1373f86a07376be89a04c645aba52d",
+      "supports": "creed batch provenance"
+    },
+    {
+      "id": "stamp-qiraat",
+      "source_file_name": "photo_1448-03-06 21.11.19.jpeg",
+      "sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+      "supports": "Qiraat department stamp"
+    },
+    {
+      "id": "stamp-culture",
+      "source_file_name": "photo_1448-03-06 21.11.32.jpeg",
+      "sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1",
+      "supports": "Islamic Culture department stamp"
+    }
+  ],
+  "course_approval_map": {
+    "2002210-2": [
+      {
+        "authority": "مجلس كلية الشريعة والأنظمة",
+        "session": "10",
+        "date": "1446/9/3هـ",
+        "provenance": "original",
+        "inferred": false
+      }
+    ],
+    "2004111-2": [
+      {
+        "authority": "مجلس قسم الثقافة الإسلامية",
+        "session": "10",
+        "date": "1446/9/3هـ",
+        "provenance": "inferred from same-department approved specifications",
+        "inferred": true
+      }
+    ],
+    "20023101-3": [
+      {
+        "authority": "مجلس قسم الثقافة الإسلامية",
+        "session": "10",
+        "date": "1446/9/3هـ",
+        "provenance": "original",
+        "inferred": false
+      },
+      {
+        "authority": "مجلس كلية الشريعة والأنظمة",
+        "session": "18",
+        "date": "1446/9/9هـ",
+        "provenance": "inferred from same-department two-authority approved specification",
+        "inferred": true
+      }
+    ],
+    "2002863-2": [
+      {
+        "authority": "قسم القراءات",
+        "session": "13",
+        "date": "1445/9/15هـ",
+        "provenance": "inferred from approved Quranic-studies master batch",
+        "inferred": true
+      }
+    ],
+    "2002705-3": [
+      {
+        "authority": "قسم القراءات",
+        "session": "13",
+        "date": "1445/9/15هـ",
+        "provenance": "inferred from approved Quranic-studies master batch",
+        "inferred": true
+      }
+    ],
+    "2002706-3": [
+      {
+        "authority": "قسم القراءات",
+        "session": "13",
+        "date": "1445/9/15هـ",
+        "provenance": "inferred from approved Quranic-studies master batch",
+        "inferred": true
+      }
+    ],
+    "2002707-3": [
+      {
+        "authority": "قسم القراءات",
+        "session": "13",
+        "date": "1445/9/15هـ",
+        "provenance": "inferred from approved Quranic-studies master batch",
+        "inferred": true
+      }
+    ],
+    "2002708-3": [
+      {
+        "authority": "قسم القراءات",
+        "session": "13",
+        "date": "1445/9/15هـ",
+        "provenance": "inferred from approved Quranic-studies master batch",
+        "inferred": true
+      }
+    ],
+    "2002700-4": [
+      {
+        "authority": "مجلس قسم القراءات",
+        "session": "الثالث عشر",
+        "date": "1445/9/14هـ",
+        "provenance": "inferred from approved qiraat master batch",
+        "inferred": true
+      }
+    ],
+    "2002701-4": [
+      {
+        "authority": "مجلس قسم القراءات",
+        "session": "الثالث عشر",
+        "date": "1445/9/14هـ",
+        "provenance": "inferred from approved qiraat master batch",
+        "inferred": true
+      }
+    ],
+    "2002702-2": [
+      {
+        "authority": "مجلس قسم القراءات",
+        "session": "الثالث عشر",
+        "date": "1445/9/14هـ",
+        "provenance": "inferred from approved qiraat master batch",
+        "inferred": true
+      }
+    ],
+    "2001716-3": [
+      {
+        "authority": "مجلس القسم",
+        "session": "السادسة",
+        "session_provenance": "original/preserved",
+        "date": "1447/8/8هـ",
+        "date_provenance": "inferred from nearest creed batch",
+        "inferred_fields": [
+          "date"
+        ]
+      }
+    ]
+  },
+  "summary_provenance": {
+    "2002210-2": {
+      "source_path": "دراسات في علوم القرآن .pdf",
+      "section": "الوصف العام للمقرر",
+      "summary": "يتناول المباحث المتعلقة بدلالات ألفاظ القرآن الكريم وأساليبه المتنوعة، ومنها المحكم والمتشابه والمتشابه اللفظي، والعام والخاص، والمطلق والمقيد، والمنطوق والمفهوم، والمجمل والمبين، والوجوه والنظائر، وغريب القرآن والمعرّب، والمناسبات والأساليب القرآنية، ورسم المصحف والقراءات وإعراب القرآن وترجمة معانيه وإعجازه وتدبره."
+    },
+    "2004111-2": {
+      "source_path": "أصول الثقافة.pdf",
+      "section": "الوصف العام للمقرر",
+      "summary": "يعرّف بأصول الثقافة الإسلامية وخصائصها، وأصول الإيمان والعبادات الإسلامية، وأبرز مقاصد الشريعة، والتحديات الثقافية المعاصرة وكيفية التعامل معها."
+    },
+    "20023101-3": {
+      "source_path": "__التفسير التحليلي 2.pdf",
+      "section": "الوصف العام للمقرر",
+      "summary": "يتناول دراسة تفسيرية تحليلية لمجموعة مختارة من آيات القرآن الكريم من سور البقرة والنساء والأنعام، مع بيان غريب الألفاظ والمعنى العام وأسباب النزول والمرويات، والترجيح بين الأقوال والجمع بين الآيات، وتطبيق قواعد التفسير واستنباط الفوائد."
+    },
+    "2002863-2": {
+      "source_path": "منهج البحث والتحقيق.pdf",
+      "section": "الوصف العام للمقرر",
+      "summary": "يتناول مفهوم البحث العلمي ومناهجه ومصادره وجمع مادته وتدوينها، والتعامل مع المخطوطات وفحصها وتحقيق النصوص وإخراجها علميًا."
+    },
+    "2002705-3": {
+      "source_path": "التفسير المقارن.pdf",
+      "section": "الوصف العام للمقرر",
+      "summary": "يعرّف بمفهوم التفسير المقارن وأسباب الاختلاف في التفسير والمنهجية الصحيحة للتعامل مع الأقوال المختلفة، وينمّي ملكة نقد أقوال المفسرين والترجيح بينها بناءً على قواعد التفسير وأصوله."
+    },
+    "2002706-3": {
+      "source_path": "النقد_والتجديد_في_الدراسات_القرآنية.pdf",
+      "section": "الوصف العام للمقرر",
+      "summary": "يعرّف بمفهوم النقد في الدراسات القرآنية وتاريخه ومجالاته، ومفهوم التجديد في الدراسات القرآنية ومجالاته وأنواعه، مع التعريف بأبرز كتب النقد والتجديد."
+    },
+    "2002707-3": {
+      "source_path": "دراسات في نسخ التفسير وأسانيده.pdf",
+      "section": "الوصف العام للمقرر",
+      "summary": "يتناول مفهوم نسخ التفسير وأسانيده وأهم مؤلفاتهما، ومناهج نقد المرويات التفسيرية في نسخ التفسير وأسانيدها، مع دراسة أهم النسخ والكتب الجامعة."
+    },
+    "2002708-3": {
+      "source_path": "دراسات في حواشي التفسير.pdf",
+      "section": "الوصف العام للمقرر",
+      "summary": "يعرّف بحواشي التفسير والفرق بينها وبين الدراسة التحليلية في التفسير، مع دراسة تطبيقية على نماذج من حواشي التفسير."
+    },
+    "2002700-4": {
+      "source_path": "فرش القراءات العشر الكبرى.pdf",
+      "section": "الوصف العام للمقرر",
+      "summary": "يشرح متن طيبة النشر في القراءات العشر من بداية فرش حروف سورة مريم إلى نهاية باب التكبير، مع حفظ الأبيات المقررة والتطبيق العملي لوجوه الخلاف للقراء العشرة."
+    },
+    "2002701-4": {
+      "source_path": "عرض القراءات العشر الكبرى.pdf",
+      "section": "الوصف العام للمقرر",
+      "summary": "يدرّب على عرض القراءات العشر الكبرى تطبيقًا عمليًا بطريقة الجمع من طريق طيبة النشر، من بداية سورة مريم إلى نهاية القرآن الكريم."
+    },
+    "2002702-2": {
+      "source_path": "دراسات_في_القراءات_الشاذة_وتوجيهها.pdf",
+      "section": "الوصف العام للمقرر",
+      "summary": "يتناول تعريف القراءات الشاذة وأنواعها والاحتجاج بها وتوجيهها، وحكم القراءة بها في الصلاة وغيرها، وأشهر من نُسبت إليهم، مع دراسة تطبيقية لنماذج منها."
+    },
+    "2001716-3": {
+      "source_path": "توصيف مشكل نصوص العقيدة 24.pdf",
+      "section": "الوصف العام للمقرر",
+      "summary": "يعرّف المشكل لغةً واصطلاحًا، ويدرس نصوصًا مختارة من مشكل نصوص التوحيد والقدر والنبوة والمعاد والإيمان."
+    }
+  }
+}

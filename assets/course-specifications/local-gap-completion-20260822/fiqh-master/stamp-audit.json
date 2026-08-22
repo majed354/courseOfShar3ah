@@ -1,0 +1,60 @@
+{
+  "schema": "department-stamp-application-audit-v1",
+  "source_inventory": "stamp-inventory.json",
+  "policy": {
+    "qiraat": "Qiraat and Quranic studies at all degrees",
+    "sharia": "Sharia, Fiqh, and Usul al-Fiqh",
+    "law": "Regulations and Law",
+    "islamic_culture": "Islamic Studies and Creed"
+  },
+  "stamp_size_points": {
+    "qiraat": [
+      170.0,
+      62.4
+    ],
+    "sharia": [
+      180.0,
+      77.1
+    ],
+    "law": [
+      180.0,
+      77.1
+    ],
+    "islamic_culture": [
+      180.0,
+      70.7
+    ]
+  },
+  "safety_margin_points": 12.0,
+  "records": [
+    {
+      "relative_path": "fiqh-master-1446/2001811-2.pdf",
+      "department_key": "sharia",
+      "stamp_asset": "photo_1448-03-06 21.11.36.jpeg",
+      "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+      "status": "stamp_added",
+      "placement": "below_approval_table",
+      "target_page_1_based": 7,
+      "bbox_top_points": [
+        207.652,
+        429.079,
+        180.0,
+        77.1
+      ],
+      "safety_margin_points": 12.0,
+      "ink_pixels_with_margin": 0,
+      "checked_pixels_with_margin": 90524,
+      "ink_fraction_with_margin": 0.0,
+      "baseline_sha256": "ac9b2be0be1a57c80aac405e0f2626f170c195d929be03a9113f013ccfe5e07e",
+      "output_sha256": "8be2333b822d6d3a6e7e56f63e8fc05f387db5612bebdfccebac5cfe2d6f9dbe",
+      "page_count_before": 7,
+      "page_count_after": 7
+    }
+  ],
+  "counts": {
+    "total": 1,
+    "preserved_existing": 0,
+    "stamped": 1,
+    "appended_pages": 0
+  }
+}

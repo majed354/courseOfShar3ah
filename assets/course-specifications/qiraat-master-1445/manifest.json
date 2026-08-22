@@ -1,0 +1,554 @@
+{
+  "schema": "graduate-course-publication-package/v1",
+  "generated_on": "2026-08-20",
+  "status": "ready_on_feature_branch",
+  "package": "qiraat-master-1445",
+  "strict_policy": "exact code + exact title + complete approval; different identities remain catalog-only without scopes",
+  "counts": {
+    "pdfs": 8,
+    "strict_scoped": 7,
+    "catalog_only": 1
+  },
+  "records": [
+    {
+      "program": "القراءات",
+      "degree": "ماجستير",
+      "code": "2002801-8",
+      "name": "القراءات العشر الكبرى (1)",
+      "hours": 8,
+      "level": 1,
+      "selection": "strict_exact_identity_and_complete_approval",
+      "current_site_state_before_package": "course_details_absent",
+      "output": {
+        "package_file": "pdf/qiraat-master-1445/2002801-8.pdf",
+        "publication_target": "assets/course-specifications/qiraat-master-1445/2002801-8.pdf",
+        "sha256": "3535a080f3b9f011a1e23289da576cbb491abf6cd434908d1961ba5aad3ac85e",
+        "page_count": 6
+      },
+      "source": {
+        "compilation_file_name": "توصيف مقررات ماجستير القراءات (محدثةمجمع) 1445هـ.pdf",
+        "compilation_sha256": "9b06be13821ca971516f9cf66ba9d4a3ba773ad12eabe2570aa521e8f64c6b0d",
+        "source_pages_inclusive": [
+          5,
+          10
+        ],
+        "pristine_slice_file": "provenance/source-segments/qiraat-master-1445/2002801-8.pdf",
+        "pristine_slice_sha256": "e96c708eb460393dfe05bf45d2b7ae772fb24d0b9a65eb5c5cd95ce77bc773e7",
+        "pristine_slice_page_count": 6,
+        "decoded_page_content_streams_identical_to_source": true
+      },
+      "identity": {
+        "plan_course_found": true,
+        "code_exact": true,
+        "title_exact": true,
+        "hours_exact": true,
+        "site_course_details_absent_before_package": true
+      },
+      "approval": {
+        "agency": "مجلس قسم القراءات",
+        "session": "الثالث عشر",
+        "date_literal": "1445/9/14هـ",
+        "status": "complete"
+      },
+      "department_stamp": {
+        "department": "قسم القراءات",
+        "source_state": "missing",
+        "action": "add_only",
+        "asset_file_name": "photo_1448-03-06 21.11.19.jpeg",
+        "asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "placement": "below_approval_table",
+        "target_page_1_based": 6,
+        "bbox_top_points": [
+          212.66,
+          506.81,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "source_ink_pixels_with_margin": 0
+      },
+      "qa": {
+        "qpdf": "pass",
+        "source_text": "identical",
+        "original_page_boxes_rotation_annotations": "identical_on_all_original_pages",
+        "changed_pixels_outside_stamp_bbox": 0,
+        "manual_visual_review": "pass",
+        "sensitivity_and_placeholder_scan": "pass"
+      },
+      "exceptions": [],
+      "plan_type": "جديدة",
+      "version": "1"
+    },
+    {
+      "program": "القراءات",
+      "degree": "ماجستير",
+      "code": "2002802-2",
+      "name": "علم القراءات دراية",
+      "hours": 2,
+      "level": 1,
+      "selection": "strict_exact_identity_and_complete_approval",
+      "current_site_state_before_package": "course_details_absent",
+      "output": {
+        "package_file": "pdf/qiraat-master-1445/2002802-2.pdf",
+        "publication_target": "assets/course-specifications/qiraat-master-1445/2002802-2.pdf",
+        "sha256": "ca85f9d128c56a3868a02e6e95c6c3057f6d31a45e0dfd3d7a95f25812b2f60d",
+        "page_count": 6
+      },
+      "source": {
+        "compilation_file_name": "توصيف مقررات ماجستير القراءات (محدثةمجمع) 1445هـ.pdf",
+        "compilation_sha256": "9b06be13821ca971516f9cf66ba9d4a3ba773ad12eabe2570aa521e8f64c6b0d",
+        "source_pages_inclusive": [
+          11,
+          16
+        ],
+        "pristine_slice_file": "provenance/source-segments/qiraat-master-1445/2002802-2.pdf",
+        "pristine_slice_sha256": "ba18792761e3ed81620f189d50f2fb1058dd69efad30387fc31b30664f9bd4c6",
+        "pristine_slice_page_count": 6,
+        "decoded_page_content_streams_identical_to_source": true
+      },
+      "identity": {
+        "plan_course_found": true,
+        "code_exact": true,
+        "title_exact": true,
+        "hours_exact": true,
+        "site_course_details_absent_before_package": true
+      },
+      "approval": {
+        "agency": "مجلس قسم القراءات",
+        "session": "الثالث عشر",
+        "date_literal": "1445/9/14هـ",
+        "status": "complete"
+      },
+      "department_stamp": {
+        "department": "قسم القراءات",
+        "source_state": "missing",
+        "action": "add_only",
+        "asset_file_name": "photo_1448-03-06 21.11.19.jpeg",
+        "asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "placement": "below_approval_table",
+        "target_page_1_based": 6,
+        "bbox_top_points": [
+          212.66,
+          216.0,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "source_ink_pixels_with_margin": 0
+      },
+      "qa": {
+        "qpdf": "pass",
+        "source_text": "identical",
+        "original_page_boxes_rotation_annotations": "identical_on_all_original_pages",
+        "changed_pixels_outside_stamp_bbox": 0,
+        "manual_visual_review": "pass",
+        "sensitivity_and_placeholder_scan": "pass"
+      },
+      "exceptions": [],
+      "plan_type": "جديدة",
+      "version": "1"
+    },
+    {
+      "program": "القراءات",
+      "degree": "ماجستير",
+      "code": "2002803-2",
+      "name": "دراسات في توجيه القراءات",
+      "hours": 2,
+      "level": 1,
+      "selection": "strict_exact_identity_and_complete_approval",
+      "current_site_state_before_package": "course_details_absent",
+      "output": {
+        "package_file": "pdf/qiraat-master-1445/2002803-2.pdf",
+        "publication_target": "assets/course-specifications/qiraat-master-1445/2002803-2.pdf",
+        "sha256": "7c7b9f5d429eb37804fff90cb4c9c017089ca35e95fb90065c88400e63bf0ea6",
+        "page_count": 6
+      },
+      "source": {
+        "compilation_file_name": "توصيف مقررات ماجستير القراءات (محدثةمجمع) 1445هـ.pdf",
+        "compilation_sha256": "9b06be13821ca971516f9cf66ba9d4a3ba773ad12eabe2570aa521e8f64c6b0d",
+        "source_pages_inclusive": [
+          17,
+          21
+        ],
+        "pristine_slice_file": "provenance/source-segments/qiraat-master-1445/2002803-2.pdf",
+        "pristine_slice_sha256": "d9b970db75718ab3fe08ee014388748b597b80e731ef9ac400195c773e83bf22",
+        "pristine_slice_page_count": 5,
+        "decoded_page_content_streams_identical_to_source": true
+      },
+      "identity": {
+        "plan_course_found": true,
+        "code_exact": true,
+        "title_exact": true,
+        "hours_exact": true,
+        "site_course_details_absent_before_package": true
+      },
+      "approval": {
+        "agency": "مجلس قسم القراءات",
+        "session": "الثالث عشر",
+        "date_literal": "1445/9/14هـ",
+        "status": "complete"
+      },
+      "department_stamp": {
+        "department": "قسم القراءات",
+        "source_state": "missing",
+        "action": "add_only",
+        "asset_file_name": "photo_1448-03-06 21.11.19.jpeg",
+        "asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "placement": "appended_final_stamp_page",
+        "target_page_1_based": 6,
+        "bbox_top_points": [
+          212.66,
+          96.0,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "source_ink_pixels_with_margin": 0
+      },
+      "qa": {
+        "qpdf": "pass",
+        "source_text": "identical",
+        "original_page_boxes_rotation_annotations": "identical_on_all_original_pages",
+        "changed_pixels_outside_stamp_bbox": 0,
+        "manual_visual_review": "pass",
+        "sensitivity_and_placeholder_scan": "pass"
+      },
+      "exceptions": [
+        {
+          "type": "stamp_appended_on_separate_a4_page",
+          "reason": "لا توجد مساحة خالية آمنة أسفل جدول الاعتماد؛ أضيفت صفحة ختم مستقلة لمنع المساس بالجداول أو حجب محتوى أصلي."
+        }
+      ],
+      "plan_type": "جديدة",
+      "version": "1"
+    },
+    {
+      "program": "القراءات",
+      "degree": "ماجستير",
+      "code": "2002811-8",
+      "name": "القراءات العشر الكبرى (2)",
+      "hours": 8,
+      "level": 2,
+      "selection": "strict_exact_identity_and_complete_approval",
+      "current_site_state_before_package": "course_details_absent",
+      "output": {
+        "package_file": "pdf/qiraat-master-1445/2002811-8.pdf",
+        "publication_target": "assets/course-specifications/qiraat-master-1445/2002811-8.pdf",
+        "sha256": "479153b85f1ee73965768b19124ca28606bcc57e071c691bfdaaddb40ce85f0a",
+        "page_count": 6
+      },
+      "source": {
+        "compilation_file_name": "توصيف مقررات ماجستير القراءات (محدثةمجمع) 1445هـ.pdf",
+        "compilation_sha256": "9b06be13821ca971516f9cf66ba9d4a3ba773ad12eabe2570aa521e8f64c6b0d",
+        "source_pages_inclusive": [
+          23,
+          28
+        ],
+        "pristine_slice_file": "provenance/source-segments/qiraat-master-1445/2002811-8.pdf",
+        "pristine_slice_sha256": "9d76e652f5b26589d0e822f00a8a14f7fee34933986aa84e8a93adaf6b677be1",
+        "pristine_slice_page_count": 6,
+        "decoded_page_content_streams_identical_to_source": true
+      },
+      "identity": {
+        "plan_course_found": true,
+        "code_exact": true,
+        "title_exact": true,
+        "hours_exact": true,
+        "site_course_details_absent_before_package": true
+      },
+      "approval": {
+        "agency": "مجلس قسم القراءات",
+        "session": "الثالث عشر",
+        "date_literal": "14445/9/14هـ",
+        "status": "complete_with_source_date_typo",
+        "warning": "التاريخ مطبوع في المصدر بخمسة أرقام للسنة: 14445؛ لم يُصحح أو يُعمم من بقية الملفات."
+      },
+      "department_stamp": {
+        "department": "قسم القراءات",
+        "source_state": "missing",
+        "action": "add_only",
+        "asset_file_name": "photo_1448-03-06 21.11.19.jpeg",
+        "asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "placement": "below_approval_table",
+        "target_page_1_based": 6,
+        "bbox_top_points": [
+          212.66,
+          633.32,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "source_ink_pixels_with_margin": 0
+      },
+      "qa": {
+        "qpdf": "pass",
+        "source_text": "identical",
+        "original_page_boxes_rotation_annotations": "identical_on_all_original_pages",
+        "changed_pixels_outside_stamp_bbox": 0,
+        "manual_visual_review": "pass",
+        "sensitivity_and_placeholder_scan": "pass"
+      },
+      "exceptions": [
+        {
+          "type": "source_literal_date_typo",
+          "literal": "14445/9/14هـ",
+          "note": "التاريخ مطبوع في المصدر بخمسة أرقام للسنة: 14445؛ لم يُصحح أو يُعمم من بقية الملفات.",
+          "action": "preserved_and_flagged"
+        }
+      ],
+      "plan_type": "جديدة",
+      "version": "1"
+    },
+    {
+      "program": "القراءات",
+      "degree": "ماجستير",
+      "code": "2002812-2",
+      "name": "دراسات في المصاحف القرآنية",
+      "hours": 2,
+      "level": 2,
+      "selection": "strict_exact_identity_and_complete_approval",
+      "current_site_state_before_package": "course_details_absent",
+      "output": {
+        "package_file": "pdf/qiraat-master-1445/2002812-2.pdf",
+        "publication_target": "assets/course-specifications/qiraat-master-1445/2002812-2.pdf",
+        "sha256": "0c2699ec4db2dd141065cb802d303ed7df43b88081fa11ff13416c4ee2108903",
+        "page_count": 6
+      },
+      "source": {
+        "compilation_file_name": "توصيف مقررات ماجستير القراءات (محدثةمجمع) 1445هـ.pdf",
+        "compilation_sha256": "9b06be13821ca971516f9cf66ba9d4a3ba773ad12eabe2570aa521e8f64c6b0d",
+        "source_pages_inclusive": [
+          29,
+          34
+        ],
+        "pristine_slice_file": "provenance/source-segments/qiraat-master-1445/2002812-2.pdf",
+        "pristine_slice_sha256": "31d8b999dbce5e90fc28c86334e00f73a127248dfea24df927ab1eb1d1643086",
+        "pristine_slice_page_count": 6,
+        "decoded_page_content_streams_identical_to_source": true
+      },
+      "identity": {
+        "plan_course_found": true,
+        "code_exact": true,
+        "title_exact": true,
+        "hours_exact": true,
+        "site_course_details_absent_before_package": true
+      },
+      "approval": {
+        "agency": "مجلس قسم القراءات",
+        "session": "الثالث عشر",
+        "date_literal": "1445/9/14هـ",
+        "status": "complete"
+      },
+      "department_stamp": {
+        "department": "قسم القراءات",
+        "source_state": "missing",
+        "action": "add_only",
+        "asset_file_name": "photo_1448-03-06 21.11.19.jpeg",
+        "asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "placement": "below_approval_table",
+        "target_page_1_based": 6,
+        "bbox_top_points": [
+          212.66,
+          334.11,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "source_ink_pixels_with_margin": 0
+      },
+      "qa": {
+        "qpdf": "pass",
+        "source_text": "identical",
+        "original_page_boxes_rotation_annotations": "identical_on_all_original_pages",
+        "changed_pixels_outside_stamp_bbox": 0,
+        "manual_visual_review": "pass",
+        "sensitivity_and_placeholder_scan": "pass"
+      },
+      "exceptions": [],
+      "plan_type": "جديدة",
+      "version": "1"
+    },
+    {
+      "program": "القراءات",
+      "degree": "ماجستير",
+      "code": "2002813-2",
+      "name": "منهج البحث والتحقيق",
+      "hours": 2,
+      "level": 2,
+      "selection": "strict_exact_identity_and_complete_approval",
+      "current_site_state_before_package": "course_details_absent",
+      "output": {
+        "package_file": "pdf/qiraat-master-1445/2002813-2.pdf",
+        "publication_target": "assets/course-specifications/qiraat-master-1445/2002813-2.pdf",
+        "sha256": "3f80b50f80bb11671def44f31905d54e35e572b28eefd7c9bfd01763cf060aa5",
+        "page_count": 6
+      },
+      "source": {
+        "compilation_file_name": "توصيف مقررات ماجستير القراءات (محدثةمجمع) 1445هـ.pdf",
+        "compilation_sha256": "9b06be13821ca971516f9cf66ba9d4a3ba773ad12eabe2570aa521e8f64c6b0d",
+        "source_pages_inclusive": [
+          35,
+          40
+        ],
+        "pristine_slice_file": "provenance/source-segments/qiraat-master-1445/2002813-2.pdf",
+        "pristine_slice_sha256": "807b83a4158e14b0da79eb702e1653228240469bd4cfb382e7f71b6bfdbbe9e2",
+        "pristine_slice_page_count": 6,
+        "decoded_page_content_streams_identical_to_source": true
+      },
+      "identity": {
+        "plan_course_found": true,
+        "code_exact": true,
+        "title_exact": true,
+        "hours_exact": true,
+        "site_course_details_absent_before_package": true
+      },
+      "approval": {
+        "agency": "مجلس قسم القراءات",
+        "session": "الثالث عشر",
+        "date_literal": "1445/9/14هـ",
+        "status": "complete"
+      },
+      "department_stamp": {
+        "department": "قسم القراءات",
+        "source_state": "missing",
+        "action": "add_only",
+        "asset_file_name": "photo_1448-03-06 21.11.19.jpeg",
+        "asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "placement": "below_approval_table",
+        "target_page_1_based": 6,
+        "bbox_top_points": [
+          212.66,
+          457.97,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "source_ink_pixels_with_margin": 0
+      },
+      "qa": {
+        "qpdf": "pass",
+        "source_text": "identical",
+        "original_page_boxes_rotation_annotations": "identical_on_all_original_pages",
+        "changed_pixels_outside_stamp_bbox": 0,
+        "manual_visual_review": "pass",
+        "sensitivity_and_placeholder_scan": "pass"
+      },
+      "exceptions": [],
+      "plan_type": "جديدة",
+      "version": "1"
+    },
+    {
+      "program": "القراءات",
+      "degree": "ماجستير",
+      "code": "2002821-8",
+      "name": "القراءات العشر الكبرى (3)",
+      "hours": 8,
+      "level": 3,
+      "selection": "strict_exact_identity_and_complete_approval",
+      "current_site_state_before_package": "course_details_absent",
+      "output": {
+        "package_file": "pdf/qiraat-master-1445/2002821-8.pdf",
+        "publication_target": "assets/course-specifications/qiraat-master-1445/2002821-8.pdf",
+        "sha256": "7c2ec99ec9cc1ffb52b8022102165cd4c96e00413381ee656480be1f66a093d3",
+        "page_count": 6
+      },
+      "source": {
+        "compilation_file_name": "توصيف مقررات ماجستير القراءات (محدثةمجمع) 1445هـ.pdf",
+        "compilation_sha256": "9b06be13821ca971516f9cf66ba9d4a3ba773ad12eabe2570aa521e8f64c6b0d",
+        "source_pages_inclusive": [
+          42,
+          47
+        ],
+        "pristine_slice_file": "provenance/source-segments/qiraat-master-1445/2002821-8.pdf",
+        "pristine_slice_sha256": "118076b730d17a0cbf48c3957bc284f0dc1ad868228243134132d118552ff7f1",
+        "pristine_slice_page_count": 6,
+        "decoded_page_content_streams_identical_to_source": true
+      },
+      "identity": {
+        "plan_course_found": true,
+        "code_exact": true,
+        "title_exact": true,
+        "hours_exact": true,
+        "site_course_details_absent_before_package": true
+      },
+      "approval": {
+        "agency": "مجلس قسم القراءات",
+        "session": "الثالث عشر",
+        "date_literal": "1445/9/14هـ",
+        "status": "complete"
+      },
+      "department_stamp": {
+        "department": "قسم القراءات",
+        "source_state": "missing",
+        "action": "add_only",
+        "asset_file_name": "photo_1448-03-06 21.11.19.jpeg",
+        "asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "placement": "below_approval_table",
+        "target_page_1_based": 6,
+        "bbox_top_points": [
+          212.66,
+          593.72,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "source_ink_pixels_with_margin": 0
+      },
+      "qa": {
+        "qpdf": "pass",
+        "source_text": "identical",
+        "original_page_boxes_rotation_annotations": "identical_on_all_original_pages",
+        "changed_pixels_outside_stamp_bbox": 0,
+        "manual_visual_review": "pass",
+        "sensitivity_and_placeholder_scan": "pass"
+      },
+      "exceptions": [],
+      "plan_type": "جديدة",
+      "version": "1"
+    },
+    {
+      "catalog_id": "2002831-4::المشروع-البحثي",
+      "catalog_only": true,
+      "code": "2002831-4",
+      "title": "المشروع البحثي",
+      "hours": 4,
+      "type": "بحث",
+      "source_program_context": "ماجستير القراءات",
+      "department_stamp": "قسم القراءات",
+      "plan_reference": {
+        "code": "2002831-4",
+        "title": "مشروع بحثي"
+      },
+      "identity_mismatch": "same_code_different_title",
+      "integration_policy": {
+        "link_to_program_plan": false,
+        "course_details_scopes_omitted": true,
+        "reuse_existing_or_staged_pdf": true
+      },
+      "approval": {
+        "agency": "مجلس قسم القراءات",
+        "session": "المجلس الثالث عشر",
+        "date": "1445/9/14هـ",
+        "complete": true
+      },
+      "source": {
+        "source_file_name": "2002831-4.pdf",
+        "sha256": "d5e15feae05c811a29d341a2ab37f0810ce4bfd94bad59391130d227e2fb86fc",
+        "page_count": 5
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "stamp": {
+        "status": "preserved_existing_correct_department_stamp"
+      },
+      "output": {
+        "package_file": "pdf/qiraat-master-1445-catalog-only/2002831-4--al-mashru-al-bahthi.pdf",
+        "publication_target": "assets/course-specifications/qiraat-master-1445/2002831-4.pdf",
+        "sha256": "d5e15feae05c811a29d341a2ab37f0810ce4bfd94bad59391130d227e2fb86fc",
+        "page_count": 5
+      },
+      "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في التوصيف."
+    }
+  ]
+}

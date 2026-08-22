@@ -1,0 +1,333 @@
+{
+  "schema": "course-specification-publication-manifest/v1",
+  "bundle_slug": "systems-completion-20260822",
+  "generated_on": "2026-08-22",
+  "authoritative_data": {
+    "file": "data.json",
+    "sha256": "00035e2257834b66c0f48ef28dbc0c0b72b15206ff7fdbdba73890ac4773a237"
+  },
+  "sources": [
+    {
+      "file": "مقررات القانون الخاص.pdf",
+      "sha256": "97e11fe8c0649a0109210018585ac381d2ecbd63d4c981f2f1632372dd625b01",
+      "pages": 139
+    },
+    {
+      "file": "مقررات القانون العام.pdf",
+      "sha256": "c61c68ebb4f5ac7e0c6814ce357cbe188c8e2c6a4830366e1068d69fefb86b4e",
+      "pages": 104
+    },
+    {
+      "file": "OneDrive_2026-08-19 (1).zip",
+      "sha256": "bd8b3b1e96ee78c4336f61d5c7c7b262f6de0c196a0e35b79316c82c991f412f",
+      "member": "(5) توصيف المقررات/(8) المستوى الثامن/القانون الدولي الخاص.pdf",
+      "member_sha256": "c034c1a2c05cd06d29e03c7f188442445f62d96866a9173dc6dcd8ad82188cb0",
+      "pages": 7
+    }
+  ],
+  "matching_policy": "اعتمد الاسم والرمز والساعات من data.json الحالي؛ عُدّل رمز التوصيف فقط عند ثبوت تطابق عنوانه ومحتواه مع المقرر المعتمد، وعولج اختلاف الاسم في قانون الإثبات إلى الصيغة المعتمدة حرفيًا.",
+  "editing_policy": "فصلت المقاطع المطلوبة دون إعادة بناء الصفحات، وحُصرت الفروق البصرية في حقول الرمز والعنوان المصحح ومواضع وسم الحساسية المثبتة وصفحة الختم المضافة فقط.",
+  "summary_basis": "تحرير موجز أمين لخانة الوصف العام للمقرر في كل توصيف.",
+  "approval": {
+    "agency": "قسم الأنظمة",
+    "sessions": [
+      "14",
+      "23"
+    ],
+    "dates": [
+      "1443-11-1هـ",
+      "1446/9/4هـ",
+      "1446/9/10هـ"
+    ],
+    "policy": "حُفظت جهة الاعتماد ورقم الجلسة وتاريخها كما وردت في كل توصيف."
+  },
+  "counts": {
+    "published_pdf_files": 13,
+    "published_pages": 113,
+    "new_course_details_records": 13,
+    "strict_scopes": 14,
+    "code_fields_corrected": 13,
+    "title_fields_corrected": 1,
+    "sensitivity_labels_removed": 1,
+    "stamp_pages_appended": 1
+  },
+  "records": [
+    {
+      "title": "حقوق الإنسان",
+      "specification_code": "2001276-3",
+      "source_file": "قسم الأنظمة/مقررات القانون العام.pdf",
+      "source_pdf_pages": [
+        86,
+        95
+      ],
+      "source_code": "2003215-3",
+      "published_file": "2001276-3.pdf",
+      "published_sha256": "9dfe9fef37b31c7a4e32b8591d8ac2cd0b1cbb2d915d7a5911f0afcd953ca908",
+      "page_count": 10,
+      "credit_hours": 3,
+      "approval_session": "23",
+      "approval_date": "1446/9/4هـ",
+      "action": "correct_code",
+      "strict_versions": [
+        47
+      ]
+    },
+    {
+      "title": "قانون المرافعات",
+      "specification_code": "2003104-3",
+      "source_file": "قسم الأنظمة/مقررات القانون الخاص.pdf",
+      "source_pdf_pages": [
+        1,
+        10
+      ],
+      "source_code": "2003453-3",
+      "published_file": "2003104-3.pdf",
+      "published_sha256": "7cdb3d4e31767ac70dcde08a624cc8d4a10f05da130d6c3470bfaa0009be8112",
+      "page_count": 10,
+      "credit_hours": 3,
+      "approval_session": "23",
+      "approval_date": "1446/9/4هـ",
+      "action": "correct_code",
+      "strict_versions": [
+        47
+      ]
+    },
+    {
+      "title": "القانون الدولي الخاص",
+      "specification_code": "2003105-3",
+      "source_file": "توصيفات بكالوريوس أنظمة/OneDrive_2026-08-19 (1).zip",
+      "source_pdf_pages": [
+        1,
+        7
+      ],
+      "source_code": "2003442-3",
+      "published_file": "2003105-3.pdf",
+      "published_sha256": "54e11a651c18a53dd6b7bd7d99642d9e4e8d34d0f84600e836faa24b1575cf5f",
+      "page_count": 8,
+      "credit_hours": 3,
+      "approval_session": "14",
+      "approval_date": "1443-11-1هـ",
+      "action": "correct_code_preserve_exact_visible_title_add_logical_layer_and_append_stamp_page",
+      "strict_versions": [
+        47
+      ]
+    },
+    {
+      "title": "القانون الدولي الإنساني",
+      "specification_code": "2003202-2",
+      "source_file": "قسم الأنظمة/مقررات القانون العام.pdf",
+      "source_pdf_pages": [
+        1,
+        8
+      ],
+      "source_code": null,
+      "published_file": "2003202-2.pdf",
+      "published_sha256": "ed68bdf65247573f7e2d496ad35e504df7d6abdffed676518a45f5aec102bad9",
+      "page_count": 8,
+      "credit_hours": 2,
+      "approval_session": "23",
+      "approval_date": "1446/9/4هـ",
+      "action": "add_code",
+      "strict_versions": [
+        47
+      ]
+    },
+    {
+      "title": "علم الإجرام والعقاب",
+      "specification_code": "20032022-3",
+      "source_file": "قسم الأنظمة/مقررات القانون العام.pdf",
+      "source_pdf_pages": [
+        35,
+        42
+      ],
+      "source_code": "2003221-3",
+      "published_file": "20032022-3.pdf",
+      "published_sha256": "4c431ad2f5e45e8d2d1f0e1d0f012d06a56e877cfe82959406bd725f434dd72d",
+      "page_count": 8,
+      "credit_hours": 3,
+      "approval_session": "23",
+      "approval_date": "1446/9/10هـ",
+      "action": "correct_code",
+      "strict_versions": [
+        47
+      ]
+    },
+    {
+      "title": "العقود الإدارية",
+      "specification_code": "2003203-3",
+      "source_file": "قسم الأنظمة/مقررات القانون العام.pdf",
+      "source_pdf_pages": [
+        9,
+        16
+      ],
+      "source_code": "2003426-3",
+      "published_file": "2003203-3.pdf",
+      "published_sha256": "941b9175d0647d0ddf4e6410d2520538c04218877774fecab22bbf3357bb0310",
+      "page_count": 8,
+      "credit_hours": 3,
+      "approval_session": "23",
+      "approval_date": "1446/9/4هـ",
+      "action": "correct_code",
+      "strict_versions": [
+        47
+      ]
+    },
+    {
+      "title": "المنظمات الدولية",
+      "specification_code": "2003211-3",
+      "source_file": "قسم الأنظمة/مقررات القانون العام.pdf",
+      "source_pdf_pages": [
+        60,
+        69
+      ],
+      "source_code": "2003225-3",
+      "published_file": "2003211-3.pdf",
+      "published_sha256": "0001dfe1692e2b2fa2d938dc964ed4b53ee1105302edbdc4eca7162ec1467a6c",
+      "page_count": 10,
+      "credit_hours": 3,
+      "approval_session": "23",
+      "approval_date": "1446/9/10هـ",
+      "action": "correct_code",
+      "strict_versions": [
+        47
+      ]
+    },
+    {
+      "title": "قانون الإثبات",
+      "specification_code": "2003227-3",
+      "source_file": "قسم الأنظمة/مقررات القانون الخاص.pdf",
+      "source_pdf_pages": [
+        18,
+        25
+      ],
+      "source_code": "2003353-3",
+      "source_title": "قانون الاثبات",
+      "published_file": "2003227-3.pdf",
+      "published_sha256": "975a983c5883fb81c2d7ddaca278186a2961e571e9c622e9657438d06a523069",
+      "page_count": 8,
+      "credit_hours": 3,
+      "approval_session": "23",
+      "approval_date": "1446/9/10هـ",
+      "action": "correct_code_and_exact_title",
+      "strict_versions": [
+        47
+      ]
+    },
+    {
+      "title": "قانون أعالي البحار",
+      "specification_code": "20033303-2",
+      "source_file": "قسم الأنظمة/مقررات القانون العام.pdf",
+      "source_pdf_pages": [
+        96,
+        104
+      ],
+      "source_code": null,
+      "published_file": "20033303-2.pdf",
+      "published_sha256": "4f6953b80e08e34ea642a8ae7483248c2080b27743ebdac4c55f15807c079a3c",
+      "page_count": 9,
+      "credit_hours": 2,
+      "approval_session": "23",
+      "approval_date": "1446/9/4هـ",
+      "action": "add_code",
+      "strict_versions": [
+        47
+      ]
+    },
+    {
+      "title": "قانون الشركات والحوكمة",
+      "specification_code": "2003380-3",
+      "source_file": "قسم الأنظمة/مقررات القانون الخاص.pdf",
+      "source_pdf_pages": [
+        115,
+        122
+      ],
+      "source_code": null,
+      "published_file": "2003380-3.pdf",
+      "published_sha256": "4f7fa640db76f389a86be1335da2228321b0d608f7738c2a5f8f8d18f73bc8a8",
+      "page_count": 8,
+      "credit_hours": 3,
+      "approval_session": "23",
+      "approval_date": "1446/9/4هـ",
+      "action": "remove_proven_sensitivity_blocks_and_add_code",
+      "strict_versions": [
+        47
+      ]
+    },
+    {
+      "title": "قانون الأحوال الشخصية",
+      "specification_code": "2003382-4",
+      "source_file": "قسم الأنظمة/مقررات القانون الخاص.pdf",
+      "source_pdf_pages": [
+        99,
+        107
+      ],
+      "source_code": null,
+      "published_file": "2003382-4.pdf",
+      "published_sha256": "249a051d81f67c76a863d0ece14aaea32107b5ffe3444b3646368ffb5a76f1c6",
+      "page_count": 9,
+      "credit_hours": 4,
+      "approval_session": "23",
+      "approval_date": "1446/9/4هـ",
+      "action": "add_code",
+      "strict_versions": [
+        47
+      ]
+    },
+    {
+      "title": "نظام حماية المستهلك",
+      "specification_code": "20034201-2",
+      "source_file": "قسم الأنظمة/مقررات القانون الخاص.pdf",
+      "source_pdf_pages": [
+        131,
+        139
+      ],
+      "source_code": null,
+      "published_file": "20034201-2.pdf",
+      "published_sha256": "e59a0396e311ecd9e2cd5b92f86307e43339042730b51c9e4414310ddc20504d",
+      "page_count": 9,
+      "credit_hours": 2,
+      "approval_session": "23",
+      "approval_date": "1446/9/4هـ",
+      "action": "add_code",
+      "strict_versions": [
+        47
+      ]
+    },
+    {
+      "title": "الحقوق العينية",
+      "specification_code": "2003441-3",
+      "source_file": "قسم الأنظمة/مقررات القانون الخاص.pdf",
+      "source_pdf_pages": [
+        66,
+        73
+      ],
+      "source_code": "2003440-3",
+      "published_file": "2003441-3.pdf",
+      "published_sha256": "8bd559cfb63b6fffd79e1ecd7aa910130ef6aee6275737f8a88ed3724b42c085",
+      "page_count": 8,
+      "credit_hours": 3,
+      "approval_session": "23",
+      "approval_date": "1446/9/4هـ",
+      "action": "correct_code",
+      "strict_versions": [
+        38,
+        47
+      ]
+    }
+  ],
+  "publication_verification": {
+    "qpdf_ok": true,
+    "pdfinfo_ok": true,
+    "a4_portrait": true,
+    "title_code_hours_verified": true,
+    "approval_and_department_stamp_verified": true,
+    "sensitivity_label_absent": true,
+    "pixel_diff_outside_allowed_regions": 0,
+    "first_and_last_page_visual_check": true
+  },
+  "notes": [
+    "صفحات المصدر السبع لمقرر 2003105-3 حُفظت كما هي، وأضيفت صفحة ثامنة للختم فقط.",
+    "اللفظ «مقيد» في متن الوصف الأكاديمي لمقرر قانون الإثبات عبارة علمية مشروعة، وليس وسم حساسية.",
+    "لم يُعدّل أي ملف داخل المستودع أو مجلد المصادر."
+  ]
+}

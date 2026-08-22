@@ -1,0 +1,73 @@
+{
+  "schema": "local-course-gap-completion-package/v1",
+  "package": "local-gap-completion-20260822",
+  "generated_on": "2026-08-22",
+  "status": "qa_pass_ready_for_repository",
+  "policy": {
+    "authoritative_identity": "exact site course code + exact site course title",
+    "program_rows_modified": false,
+    "existing_different_name_identities_preserved": true,
+    "stamp_mapping": {
+      "qiraat": "القراءات والدراسات القرآنية بجميع الدرجات",
+      "sharia": "الشريعة والفقه وأصول الفقه",
+      "systems": "الأنظمة والقانون",
+      "islamic_culture": "الدراسات الإسلامية والعقيدة"
+    },
+    "approval_completion": "أي قيمة مستكملة من النظائر موسومة صراحة في منافيست المجموعة ولا تُعرض بوصفها منقولة من المصدر الأصلي."
+  },
+  "counts": {
+    "pdfs": 43,
+    "new_exact_course_detail_variants": 43,
+    "existing_scope_occurrences_appended": 12,
+    "newly_covered_course_identities": 43,
+    "newly_covered_plan_occurrences": 62,
+    "program_rows_changed": 0,
+    "groups": {
+      "quran-culture": {
+        "pdfs": 12,
+        "course_detail_variants": 12
+      },
+      "law-bachelor": {
+        "pdfs": 13,
+        "course_detail_variants": 13
+      },
+      "fiqh-master": {
+        "pdfs": 1,
+        "course_detail_variants": 1
+      },
+      "law-creed-master": {
+        "pdfs": 17,
+        "course_detail_variants": 17
+      }
+    }
+  },
+  "coverage_after_integration": {
+    "all_plan_identities": {
+      "covered": 288,
+      "total": 536,
+      "percent": 53.73
+    },
+    "all_plan_occurrences": {
+      "covered": 477,
+      "total": 993,
+      "percent": 48.04
+    },
+    "specialty_plan_identities": {
+      "covered": 288,
+      "total": 479,
+      "percent": 60.13
+    },
+    "specialty_plan_occurrences": {
+      "covered": 477,
+      "total": 765,
+      "percent": 62.35
+    }
+  },
+  "quality": {
+    "qpdf_pass": "43/43",
+    "classification_metadata_or_visible_label_hits": 0,
+    "department_stamp_present": "43/43",
+    "exact_code_title_scope_records": "43/43",
+    "independent_scope_expansion_checks": "12/12"
+  }
+}

@@ -1,0 +1,917 @@
+{
+  "schema": "graduate-course-publication-package/v1",
+  "bundle_slug": "new-creed-law-completion-20260822",
+  "generated_on": "2026-08-22",
+  "status": "qa_pass_ready_for_integration",
+  "authoritative_data": {
+    "file": "data.json",
+    "sha256": "00035e2257834b66c0f48ef28dbc0c0b72b15206ff7fdbdba73890ac4773a237"
+  },
+  "source_archive": {
+    "file": "ماجستير العقيدة والقانون.zip",
+    "sha256": "1f0fec0a5a440afab73a217f6bd46fc60b7635757eb83e5fade942657ea2370a"
+  },
+  "identity_policy": "exact code + exact title + exact hours; same-code/different-title historical identities remain as separate catalog variants",
+  "counts": {
+    "pdfs": 17,
+    "law_master": 16,
+    "creed_master": 1,
+    "code_corrected": 14,
+    "title_corrected": 4,
+    "approval_complete": 17,
+    "department_stamp_present": 17,
+    "sensitivity_markers_found": 0
+  },
+  "qa": {
+    "status": "pass",
+    "report": "qa-report.json",
+    "qpdf_structure": "17/17 pass",
+    "visual_review": "pass",
+    "out_of_scope_pixel_changes": 0,
+    "new_stamp_pages_pixel_identical_to_verified_donors": "2/2"
+  },
+  "records": [
+    {
+      "code": "2001714-3",
+      "title": "الفرق",
+      "hours": 3,
+      "type": "نظري",
+      "program": "العقيدة",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "العقيدة",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 2,
+      "source": {
+        "original_file": "توصيف الفرق24.pdf",
+        "original_sha256": "f221c8307f2c12bd9274ab3194d5188bb65bc538a847971447c586f3f9758eb2",
+        "original_page_count": 11,
+        "source_code": "2001714-3",
+        "source_title": "الفرق",
+        "source_program_cover": "ماجستير فرق"
+      },
+      "action": "preserve_exact_identity",
+      "approval": {
+        "agency": "مجلس القسم",
+        "session": "العاشر",
+        "date": "1447/8/8هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page",
+        "department": "قسم الثقافة الإسلامية",
+        "donor": "2001715-2.pdf",
+        "donor_sha256": "321c79af1fecb75f4b49467882d39917d20a081c886902d756756444aa61875f"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2001714-3.pdf",
+        "publication_target": "assets/course-specifications/creed-master-1447/2001714-3.pdf",
+        "sha256": "c0cde4dbda420dfadf8d4e87e68b0b4a1f38ad63ff16beb68280c75b3fbdbcd2",
+        "page_count": 12
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": true
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity",
+      "source_context_caveat": "الاسم والرمز والساعات تطابق خطة العقيدة حرفيًا، لكن الغلاف يسمي البرنامج ماجستير فرق.",
+      "classification_decision": "نُسب إلى ماجستير العقيدة وفق قاعدة المستخدم لأن الاسم والرمز والساعات تطابق صف الخطة حرفيًا، مع إبقاء تحفظ تسمية الغلاف ظاهرًا.",
+      "metadata_cleanup": {
+        "removed": [
+          "XMP metadata stream",
+          "classification metadata keys"
+        ],
+        "preserved": "standard document metadata, page content, and department stamp",
+        "raw_marker_count": 0,
+        "qdf_marker_count": 0,
+        "text_unchanged": true,
+        "visual_change": false,
+        "qpdf_check": "pass"
+      }
+    },
+    {
+      "code": "2003802-2",
+      "title": "المسئولية المدنية",
+      "hours": 2,
+      "type": "نظري",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 1,
+      "source": {
+        "original_file_name": "توصيف المقرر - المسؤولية المدنية-ماستر.pdf",
+        "original_sha256": "cb8e9530a27ccd44345938e7276d37385b720123365ea2ed0650e3ae25e2b870",
+        "original_page_count": 8,
+        "working_published_file": "2003811-2--civil-liability.pdf",
+        "working_published_sha256": "b200669ea6b16e6433b4fdb858a4960fbd01e0009a498776746a5cb1f7634f37",
+        "source_code": "2003811-2",
+        "source_title": "المسؤولية المدنية"
+      },
+      "action": "correct_code_and_title",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "preserved_existing_verified_law_stamp",
+        "department": "قسم الأنظمة"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003802-2.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003802-2.pdf",
+        "sha256": "9319c7d489a2a4e72cded853e93fe775903bff038f58990045675d1d758e21dd",
+        "page_count": 9
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": false
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    },
+    {
+      "code": "2003803-2",
+      "title": "أصول البحث القانوني",
+      "hours": 2,
+      "type": "نظري",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 1,
+      "source": {
+        "original_file_name": "توصيف أصول البحث.pdf",
+        "original_sha256": "92a2417e640d0ec1385eb37f88e1e10c19ab448cc6631fff809802136925a808",
+        "original_page_count": 7,
+        "working_published_file": "2003803-2--research-methods.pdf",
+        "working_published_sha256": "e688da614e8dd65e2eb80eafb0512920fc98d3b3c66a7f03f8a601ab9047b018",
+        "source_code": "2003803-2",
+        "source_title": "أصول البحث"
+      },
+      "action": "correct_title",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "preserved_existing_verified_law_stamp",
+        "department": "قسم الأنظمة"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003803-2.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003803-2.pdf",
+        "sha256": "301c03301021c3672c642aca57ce8765741244328db6d10c2abe21d392aca9dd",
+        "page_count": 8
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": false
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    },
+    {
+      "code": "2003804-2",
+      "title": "تدريبات قانونية 1 (الاختصاص المدني)",
+      "hours": 2,
+      "type": "نظري",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 1,
+      "source": {
+        "original_file_name": "توصيف_مقرر_-_التدريبات_القانونية_(مدني)-23[1].pdf",
+        "original_sha256": "d3ca984d065602cea3871b0c885177f035b19662605835440f4a45b3bbee5301",
+        "original_page_count": 7,
+        "working_published_file": "2003812-2--legal-training-1-civil.pdf",
+        "working_published_sha256": "d09680ce990375da7d2d3fd57688554504e3dcef16505d5a7d6ba2407f1ccd51",
+        "source_code": "2003812-2",
+        "source_title": "التدريبات القانونية 1 (الاختصاص المدني)"
+      },
+      "action": "correct_code_and_title",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "preserved_existing_verified_law_stamp",
+        "department": "قسم الأنظمة"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003804-2.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003804-2.pdf",
+        "sha256": "a00b45eb7ab222c28b99b8a69150777a90f92fa1c89c342d133c5708faf326bf",
+        "page_count": 8
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": false
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    },
+    {
+      "code": "2003805-2",
+      "title": "المعاملات العقارية",
+      "hours": 2,
+      "type": "نظري",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 1,
+      "source": {
+        "original_file_name": "توصيف مقرر - المعاملات العقارية.pdf",
+        "original_sha256": "518bacd825c3076c60e6bf1849179afc0219574bb9144d286a228d67ddbb4cae",
+        "original_page_count": 8,
+        "working_published_file": "2003804-2--real-estate-transactions.pdf",
+        "working_published_sha256": "55dc5bcac4222b52df7ed1887d2a34074c7c41abd077592c6beae1436861353f",
+        "source_code": "2003804-2",
+        "source_title": "المعاملات العقارية"
+      },
+      "action": "correct_code",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "الثانية",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "preserved_existing_verified_law_stamp",
+        "department": "قسم الأنظمة"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003805-2.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003805-2.pdf",
+        "sha256": "7af78e20544876c381d28caef4187c45c818de09d869dd47ce581219d5be1958",
+        "page_count": 9
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": false
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    },
+    {
+      "code": "2003811-2",
+      "title": "فض المنازعات التجارية",
+      "hours": 2,
+      "type": "نظري",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 2,
+      "source": {
+        "original_file_name": "توصيف مقرر فض المنازعات التجارية.pdf",
+        "original_sha256": "83b2b4c32fdd39a37cf4d11f36799094e5b56265f3710230fad94b77025b2106",
+        "original_page_count": 9,
+        "working_published_file": "2003821-2--commercial-dispute-resolution.pdf",
+        "working_published_sha256": "b908a48a3a5468ef372279c1389a2fb324c0061d19eecefdbcb9025acfd5c5b8",
+        "source_code": "2003821-2",
+        "source_title": "فض المنازعات التجارية"
+      },
+      "action": "correct_code",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "preserved_existing_verified_law_stamp",
+        "department": "قسم الأنظمة"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003811-2.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003811-2.pdf",
+        "sha256": "b05e1c6ce2c8a8efcdd615e725ab4e129ef84d1a7fd60f1a3e2d6d56a7036bba",
+        "page_count": 10
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": false
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    },
+    {
+      "code": "2003812-2",
+      "title": "القواعد القانونية للشركات التجارية",
+      "hours": 2,
+      "type": "نظري",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 2,
+      "source": {
+        "original_file_name": "توصيف مقرر القواعد القانونية للشركات التجارية.pdf",
+        "original_sha256": "3e551720966ac54a9f485c4b0845d51004cfed3b49925b341db1a6f5c183e1bd",
+        "original_page_count": 7,
+        "working_published_file": "2003802-2--commercial-company-rules.pdf",
+        "working_published_sha256": "d9e821f16e86e782d09ca08dc93319c3324a5e65364e2d39f3d1448990ced703",
+        "source_code": "2003802-2",
+        "source_title": "القواعد القانونية للشركات التجارية"
+      },
+      "action": "correct_code",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "preserved_existing_verified_law_stamp",
+        "department": "قسم الأنظمة"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003812-2.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003812-2.pdf",
+        "sha256": "00b1af29f0d9f83f48963d4e7c8f9352cb4f1837c0d41eb966b81355bf220d1b",
+        "page_count": 8
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": false
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    },
+    {
+      "code": "2003815-2",
+      "title": "قانون التجارة والاستثمار الدولي",
+      "hours": 2,
+      "type": "نظري",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 2,
+      "source": {
+        "original_file_name": "توصيف مقرر قانون التجارة والاستثمار الدولي (1).pdf",
+        "original_sha256": "46515f85892be7659eecaf5ea6490fcd0238b52b591f62771d551ae7b9081220",
+        "original_page_count": 8,
+        "working_published_file": "2003832-2--international-trade-investment-law.pdf",
+        "working_published_sha256": "ef18753f166eacc1297a523d8343295e7a95575dc354d46a8d0384a3814a07f6",
+        "source_code": "2003832-2",
+        "source_title": "قانون التجارة والاستثمار الدولي"
+      },
+      "action": "correct_code",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "preserved_existing_verified_law_stamp",
+        "department": "قسم الأنظمة"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003815-2.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003815-2.pdf",
+        "sha256": "960e5462b31a3f8ba51564aba78a6560b3e69e9c7680eaa16f7ae3f32bbc7d76",
+        "page_count": 9
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": false
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    },
+    {
+      "code": "2003816-2",
+      "title": "الزكاة والقانون الضريبي",
+      "hours": 2,
+      "type": "نظري",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 2,
+      "source": {
+        "original_file_name": "توصيف زكاة ماجستير 2022م (1).pdf",
+        "original_sha256": "67fd5808a222fddfe36de7cbfe090bf11498fb36c05a76f2fc6a9519f10dc491",
+        "original_page_count": 9,
+        "working_published_file": "2003824-2--zakat-tax-law.pdf",
+        "working_published_sha256": "c856a7328dedd71240a59541c3be7756ab4510af15740db67b26b7f37a5c71c7",
+        "source_code": "2003824-2",
+        "source_title": "الزكاة والقانون الضريبي"
+      },
+      "action": "correct_code",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "الثانية",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "preserved_existing_verified_law_stamp",
+        "department": "قسم الأنظمة"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003816-2.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003816-2.pdf",
+        "sha256": "60f437a2f713198df636321dac66ede1c4b3e7c4cca554641e379784fdd998f8",
+        "page_count": 10
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": false
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    },
+    {
+      "code": "2003821-2",
+      "title": "أصول التأديب الإداري وضماناته",
+      "hours": 2,
+      "type": "نظري",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 3,
+      "source": {
+        "original_file_name": "توصيف اصول التأديب الاداري وضماناته2023 م.pdf",
+        "original_sha256": "9de0984835ffd2a6f51dc565bd132c8749776402f43c3976c9b83d1fbae0e62e",
+        "original_page_count": 7,
+        "working_published_file": "2003832-2--administrative-discipline.pdf",
+        "working_published_sha256": "d81431869766b5416b74e3d5b09ae7e8496ecd014b0147a7caff1c86587fba52",
+        "source_code": "2003832-2",
+        "source_title": "أصول التأديب الإداري وضماناته"
+      },
+      "action": "correct_code",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "preserved_existing_verified_law_stamp",
+        "department": "قسم الأنظمة"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003821-2.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003821-2.pdf",
+        "sha256": "935466d0addccfb95bac246a57e39eeb22e748032f16f8decbecf75ebf4a962c",
+        "page_count": 8
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": false
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    },
+    {
+      "code": "2003822-2",
+      "title": "أسس التعاقدات الحكومية",
+      "hours": 2,
+      "type": "نظري",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 3,
+      "source": {
+        "original_file_name": "توصيف مقرر اسس التعاقدات الحكومية.pdf",
+        "original_sha256": "f752255349612e98645f6d2224e21bbf7ce71ceceef79d0910c8c9f5fce8f529",
+        "original_page_count": 7,
+        "working_published_file": "2003841-2--government-contracting.pdf",
+        "working_published_sha256": "f04dd3cc3712825de29d226c80c76b84a366836e01c054ea51e81e94013c6e40",
+        "source_code": "2003841-2",
+        "source_title": "أسس التعاقدات الحكومية"
+      },
+      "action": "correct_code",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "preserved_existing_verified_law_stamp",
+        "department": "قسم الأنظمة"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003822-2.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003822-2.pdf",
+        "sha256": "3b0c2d84bf49ae0ed243c5d8b2992fd200d23a72863325d55bc5ae6241291a75",
+        "page_count": 8
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": false
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    },
+    {
+      "code": "2003823-2",
+      "title": "تدريبات قانونية 3 (الاختصاص الإداري)",
+      "hours": 2,
+      "type": "نظري",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 3,
+      "source": {
+        "original_file_name": "توصيف التدريبات القانونية 3 ( الاختصاص الإداري).pdf",
+        "original_sha256": "015e70e4d436f4f095390b160282843f2f1e303a70cd2a2b1a5d6123b3b25b10",
+        "original_page_count": 7,
+        "working_published_file": "2003832-2--legal-training-3-administrative.pdf",
+        "working_published_sha256": "c9049a20bda3dfdaaadde9643a5b2e486ce52ccab8419c0e345c20a512be5fab",
+        "source_code": "2003832-2",
+        "source_title": "تدريبات قانونية 3 (الاختصاص الإداري)"
+      },
+      "action": "correct_code",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "preserved_existing_verified_law_stamp",
+        "department": "قسم الأنظمة"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003823-2.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003823-2.pdf",
+        "sha256": "0cdb0663fa754c9de8372fe0cd6de63dcc82d0027c561f81fd85d7f7d5a1de5b",
+        "page_count": 8
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": false
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    },
+    {
+      "code": "2003824-2",
+      "title": "نظام المرافعات أمام ديوان المظالم",
+      "hours": 2,
+      "type": "نظري",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 3,
+      "source": {
+        "original_file": "توصيف نظام المرافعات امام ديوان المظالم 2023 -.pdf",
+        "original_sha256": "039126a8a5d97e700ab49f989034cad494047588c1f2941111b7d861194221d4",
+        "original_page_count": 6,
+        "source_code": "203843-2",
+        "source_title": "نظام المرافعات أمام ديوان المظالم"
+      },
+      "action": "correct_code",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443-11-1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "appended_final_department_stamp_page",
+        "department": "قسم الأنظمة",
+        "donor": "2003802-2--commercial-company-rules.pdf",
+        "donor_sha256": "d9e821f16e86e782d09ca08dc93319c3324a5e65364e2d39f3d1448990ced703"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003824-2.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003824-2.pdf",
+        "sha256": "5853c194167a826446113a3bdd5e90d2ffac2d3e31a1e0c414d1f2e5f5eb1100",
+        "page_count": 7
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": true
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    },
+    {
+      "code": "2003831-2",
+      "title": "إجراءات التحقيق الجزائي",
+      "hours": 2,
+      "type": "نظري",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 4,
+      "source": {
+        "original_file_name": "توصيف إجراءات التحقيق الجزائي.pdf",
+        "original_sha256": "3f6a0c3dce5c3b6112df7ef22dfbec1127f8e44ae7c835361ed2047f4657aa38",
+        "original_page_count": 7,
+        "working_published_file": "2003851-2--criminal-investigation-procedures.pdf",
+        "working_published_sha256": "5fed484ab056722918bfa3fafd85dbec3302603886162887d542e2ef6eca23e0",
+        "source_code": "2003851-2",
+        "source_title": "إجراءات التحقيق الجزائي"
+      },
+      "action": "correct_code",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "الثانية",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "preserved_existing_verified_law_stamp",
+        "department": "قسم الأنظمة"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003831-2.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003831-2.pdf",
+        "sha256": "ab587b0b395c49ec80ee4d5150d55da680c18966b4f3cb4668e79761f02793d2",
+        "page_count": 8
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": false
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    },
+    {
+      "code": "2003832-2",
+      "title": "المسئولية الجزائية",
+      "hours": 2,
+      "type": "نظري",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 4,
+      "source": {
+        "original_file_name": "توصيف المسئولية الجزائية.pdf",
+        "original_sha256": "8bb66d326ae679fbb1c170e1aafa4978b65c64d19af2d19936dac05fe3de6e18",
+        "original_page_count": 7,
+        "working_published_file": "2003852-2--criminal-liability.pdf",
+        "working_published_sha256": "54aaf59119f78606049a7fc47bf55dfd14e03c0f8698a5239afd8dbb1ce5d8e6",
+        "source_code": "2003852-2",
+        "source_title": "المسئولية الجزائية"
+      },
+      "action": "correct_code",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "الثانية",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "preserved_existing_verified_law_stamp",
+        "department": "قسم الأنظمة"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003832-2.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003832-2.pdf",
+        "sha256": "a66e444c15731f38b37f200d847cca62478bd824edaaeb508f4dd5fd17261964",
+        "page_count": 8
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": false
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    },
+    {
+      "code": "2003833-4",
+      "title": "مشروع بحثي",
+      "hours": 4,
+      "type": "بحث",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 4,
+      "source": {
+        "original_file_name": "توصيف مقرر المشروع البحثى 2023م  (1).pdf",
+        "original_sha256": "31993d2c81dd1994b8f9dd6afb4b8490146e72ba26bdaefbf39cd082fe285f0d",
+        "original_page_count": 6,
+        "working_published_file": "2003833-4--research-project.pdf",
+        "working_published_sha256": "0a66cf594efac7c3595b8708ea3aec54797e113a099afe8c475960dd76100939",
+        "source_code": "2003833-4",
+        "source_title": "مشروع بحثى"
+      },
+      "action": "correct_title",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "preserved_existing_verified_law_stamp",
+        "department": "قسم الأنظمة"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003833-4.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003833-4.pdf",
+        "sha256": "e8ef7fc1b4093c85767c3d6ab4fe717bd4983a471188d4c516cd6e2d570d7f94",
+        "page_count": 7
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": false
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    },
+    {
+      "code": "2003834-2",
+      "title": "تدريبات قانونية 4 (الاختصاص الجزائي)",
+      "hours": 2,
+      "type": "نظري",
+      "program": "القانون",
+      "degree": "ماجستير",
+      "scope": {
+        "program": "القانون",
+        "degree": "ماجستير",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "level": 4,
+      "source": {
+        "original_file_name": "توصيف التدريبات القانونية جزائي (2).pdf",
+        "original_sha256": "86b35e995366f745786317984a1858e8b2749b060aca590d53b2c7dd27f37ecf",
+        "original_page_count": 8,
+        "working_published_file": "2003853-2--legal-training-4-criminal.pdf",
+        "working_published_sha256": "7534fe22dbae7f8eb80c92f353878b9488da58faef930a989fb8e5168961b90d",
+        "source_code": "2003853-2",
+        "source_title": "تدريبات قانونية 4 (الاختصاص الجزائي)"
+      },
+      "action": "correct_code",
+      "approval": {
+        "agency": "قسم الأنظمة",
+        "session": "14",
+        "date": "1443/11/1هـ",
+        "complete": true
+      },
+      "stamp": {
+        "status": "preserved_existing_verified_law_stamp",
+        "department": "قسم الأنظمة"
+      },
+      "sensitivity_scan": {
+        "classification_markers_found": []
+      },
+      "output": {
+        "staging_file": "2003834-2.pdf",
+        "publication_target": "assets/course-specifications/law-master-1443/2003834-2.pdf",
+        "sha256": "b4a32f7459f43bb612e8d78c40943115b6d94b7453aff55b96c3589ff14f1e7f",
+        "page_count": 9
+      },
+      "qa": {
+        "qpdf_check": "pass",
+        "out_of_scope_pixel_changes": 0,
+        "non_first_academic_page_changes": 0,
+        "stamp_page_pixel_identical_to_donor": false
+      },
+      "historical_catalog_policy": "retain_prior different-code/different-title catalog identity; add this exact plan identity"
+    }
+  ]
+}
