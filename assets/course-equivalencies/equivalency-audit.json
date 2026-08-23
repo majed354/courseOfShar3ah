@@ -2633,7 +2633,6 @@
     "bidirectionality": "emit explicit A→B and B→A rules; the current parser does not infer reverse equivalence",
     "identity": "always include source_name and target name; scope each source variant when the same code+name has different substantive PDFs in different programs",
     "audit_separation": "scores, evidence, confidence, and extraction notes remain in this audit report; data.json receives only compact parser-compatible rules",
-    "patch_proposal_path": "/private/tmp/course-equivalency-glm53/equivalencies.patch-proposal.json",
     "parser_review": {
       "parser_compatible": true,
       "parser_evidence": "index.html:2475-2510 يقرأ programsData.equivalencies (خريطة مفتاحها رمز المصدر)، وindex.html:2245-2288 يقرأ من كل قاعدة program/degree/plan_type/version/note وoptions من equivalents/equivalent_courses/alternatives/any_of/courses/codes، وindex.html:2104-2159 يقبل عناصر options كائنات {code,name} أو نصوصًا «رمز - اسم»؛ وindex.html:2291-2318 يقرأ source_name لهوية code+name عبر getEquivalencySourceKey (CODE||NAME)؛ ولا يقرأ الموقع أي حقل score/evidence/classification (تحقق: grep لم يجد لها مستهلكًا)، لذا تبقى في التقرير فقط، ويمكن حمل classification داخل note لأنه يُقرأ (index.html:2259)",

@@ -1,0 +1,30 @@
+{
+  "schema": "graduate-program-plan-evidence/v1",
+  "generated_on": "2026-08-23",
+  "status": "evidence_only",
+  "policy": "These official plan exports are authoritative for plan code, title, and hours, but they are not course specifications and cannot supply topics, learning outcomes, or approval records.",
+  "source_directory": "الخطط للبرامج",
+  "files": [
+    {"file":"٢٠٠١٨٢ العقيدة.pdf","degree":"ماجستير","program":"العقيدة","sha256":"49a7f24b3e09aae065f5d563abc07c3371a4b298bb0d10185c5b233642aed266"},
+    {"file":"٢٠٠١٨٣ الفقه.pdf","degree":"ماجستير","program":"الفقه","sha256":"cef3e4115a56ed87764d5583988b7b5fbe361f6e3dd3962bd369303ad8ffd3d8"},
+    {"file":"٢٠٠١٨٤ أصول الفقه.pdf","degree":"ماجستير","program":"أصول الفقه","sha256":"3bcddea90e15883ac03b281a611bb14ab08ce3423e267ea3e83e574b9a69350c"},
+    {"file":"٢٠٠١٩٠ أصول الفقه دكتوراه.pdf","degree":"دكتوراه","program":"أصول الفقه","sha256":"3f023d51eef4d56d6a95b33f9a5824752e1bf9b7bfa89ef90d7eea20d8052a46"},
+    {"file":"٢٠٠١٩١ الفقه دكتوراه.pdf","degree":"دكتوراه","program":"الفقه","sha256":"69b8978c61614cec3cbbe02de60446d633f0ae570bab52e7b82a33f0e5d9efc2"},
+    {"file":"٢٠٠٢٨٠ القراءات.pdf","degree":"ماجستير","program":"القراءات","sha256":"97f3495f626f57a4bcdbe52432061d684f6f297c5ff2a385e9032f0a657c0d19"},
+    {"file":"٢٠٠٢٨١ الدراسات القرآنية المعاصرة.pdf","degree":"ماجستير","program":"الدراسات القرآنية المعاصرة","sha256":"9ad53d22f91b8e9ad5ed579b607c35e0eb934e60a6dc3aa3b54b2a77ee088788"},
+    {"file":"٢٠٠٢٨٢ القراءات دكتوراه.pdf","degree":"دكتوراه","program":"القراءات","sha256":"e31606a295e9cece9f4291fa9cc43fbfc9a6028eb76f96a7b3becf2ccd6147cc"},
+    {"file":"٢٠٠٢٨٣ الدراسات القرأنية دكتوراه.pdf","degree":"دكتوراه","program":"الدراسات القرآنية","sha256":"1105342202f56c60b10a48835d845dd89e26f04a9ec60e1d7db8280f8ff51dec"},
+    {"file":"٢٠٠٣٨٠ القانون.pdf","degree":"ماجستير","program":"القانون","sha256":"ba0d365c92dc37b7996b294361eea27b7ba03fed45b461322053bbd0467c0956"}
+  ],
+  "resolved_plan_facts": [
+    {"code":"2001813-2","title":"فقه النوازل (1)","hours":2,"program":"الفقه","publication_status":"adapted_and_published"},
+    {"code":"2001823-2","title":"فقه النوازل (2)","hours":2,"program":"الفقه","publication_status":"adapted_and_published"},
+    {"code":"2003880-2","title":"الأنظمة العدلية في السعودية","hours":2,"program":"الفقه","publication_status":"blocked_missing_independent_specification"},
+    {"code":"2001713-4","title":"مشروع بحث التخرج","hours":4,"program":"أصول الفقه","publication_status":"adapted_and_published"},
+    {"code":"2001880-2","title":"أصول الفقه (دلالات الألفاظ)","hours":2,"program":"القانون","publication_status":"exact_official_source_published"},
+    {"code":"2001881-2","title":"فقه المعاملات","hours":2,"program":"القانون","publication_status":"adapted_and_published"},
+    {"code":"2001741-10","title":"الرسالة","hours":10,"program":"العقيدة","publication_status":"not_a_taught_course_specification"},
+    {"code":"2002888-4","title":"مشروع بحثي","hours":4,"program":"الدراسات القرآنية المعاصرة","publication_status":"adapted_and_published"},
+    {"code":"2002831-4","title":"مشروع بحثي","hours":4,"program":"القراءات","publication_status":"resolved_and_published"}
+  ]
+}

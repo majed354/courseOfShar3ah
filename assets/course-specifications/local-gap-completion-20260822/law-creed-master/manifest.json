@@ -71,7 +71,7 @@
       },
       "output": {
         "staging_file": "2001714-3.pdf",
-        "publication_target": "assets/course-specifications/creed-master-1447/2001714-3.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2001714-3.pdf",
         "sha256": "c0cde4dbda420dfadf8d4e87e68b0b4a1f38ad63ff16beb68280c75b3fbdbcd2",
         "page_count": 12
       },
@@ -136,7 +136,7 @@
       },
       "output": {
         "staging_file": "2003802-2.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003802-2.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003802-2.pdf",
         "sha256": "9319c7d489a2a4e72cded853e93fe775903bff038f58990045675d1d758e21dd",
         "page_count": 9
       },
@@ -187,7 +187,7 @@
       },
       "output": {
         "staging_file": "2003803-2.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003803-2.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003803-2.pdf",
         "sha256": "301c03301021c3672c642aca57ce8765741244328db6d10c2abe21d392aca9dd",
         "page_count": 8
       },
@@ -238,7 +238,7 @@
       },
       "output": {
         "staging_file": "2003804-2.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003804-2.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003804-2.pdf",
         "sha256": "a00b45eb7ab222c28b99b8a69150777a90f92fa1c89c342d133c5708faf326bf",
         "page_count": 8
       },
@@ -289,7 +289,7 @@
       },
       "output": {
         "staging_file": "2003805-2.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003805-2.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003805-2.pdf",
         "sha256": "7af78e20544876c381d28caef4187c45c818de09d869dd47ce581219d5be1958",
         "page_count": 9
       },
@@ -340,7 +340,7 @@
       },
       "output": {
         "staging_file": "2003811-2.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003811-2.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003811-2.pdf",
         "sha256": "b05e1c6ce2c8a8efcdd615e725ab4e129ef84d1a7fd60f1a3e2d6d56a7036bba",
         "page_count": 10
       },
@@ -391,7 +391,7 @@
       },
       "output": {
         "staging_file": "2003812-2.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003812-2.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003812-2.pdf",
         "sha256": "00b1af29f0d9f83f48963d4e7c8f9352cb4f1837c0d41eb966b81355bf220d1b",
         "page_count": 8
       },
@@ -442,7 +442,7 @@
       },
       "output": {
         "staging_file": "2003815-2.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003815-2.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003815-2.pdf",
         "sha256": "960e5462b31a3f8ba51564aba78a6560b3e69e9c7680eaa16f7ae3f32bbc7d76",
         "page_count": 9
       },
@@ -493,7 +493,7 @@
       },
       "output": {
         "staging_file": "2003816-2.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003816-2.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003816-2.pdf",
         "sha256": "60f437a2f713198df636321dac66ede1c4b3e7c4cca554641e379784fdd998f8",
         "page_count": 10
       },
@@ -544,7 +544,7 @@
       },
       "output": {
         "staging_file": "2003821-2.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003821-2.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003821-2.pdf",
         "sha256": "935466d0addccfb95bac246a57e39eeb22e748032f16f8decbecf75ebf4a962c",
         "page_count": 8
       },
@@ -595,7 +595,7 @@
       },
       "output": {
         "staging_file": "2003822-2.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003822-2.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003822-2.pdf",
         "sha256": "3b0c2d84bf49ae0ed243c5d8b2992fd200d23a72863325d55bc5ae6241291a75",
         "page_count": 8
       },
@@ -646,7 +646,7 @@
       },
       "output": {
         "staging_file": "2003823-2.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003823-2.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003823-2.pdf",
         "sha256": "0cdb0663fa754c9de8372fe0cd6de63dcc82d0027c561f81fd85d7f7d5a1de5b",
         "page_count": 8
       },
@@ -697,7 +697,7 @@
       },
       "output": {
         "staging_file": "2003824-2.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003824-2.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003824-2.pdf",
         "sha256": "5853c194167a826446113a3bdd5e90d2ffac2d3e31a1e0c414d1f2e5f5eb1100",
         "page_count": 7
       },
@@ -748,7 +748,7 @@
       },
       "output": {
         "staging_file": "2003831-2.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003831-2.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003831-2.pdf",
         "sha256": "ab587b0b395c49ec80ee4d5150d55da680c18966b4f3cb4668e79761f02793d2",
         "page_count": 8
       },
@@ -799,7 +799,7 @@
       },
       "output": {
         "staging_file": "2003832-2.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003832-2.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003832-2.pdf",
         "sha256": "a66e444c15731f38b37f200d847cca62478bd824edaaeb508f4dd5fd17261964",
         "page_count": 8
       },
@@ -850,7 +850,7 @@
       },
       "output": {
         "staging_file": "2003833-4.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003833-4.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003833-4.pdf",
         "sha256": "e8ef7fc1b4093c85767c3d6ab4fe717bd4983a471188d4c516cd6e2d570d7f94",
         "page_count": 7
       },
@@ -901,7 +901,7 @@
       },
       "output": {
         "staging_file": "2003834-2.pdf",
-        "publication_target": "assets/course-specifications/law-master-1443/2003834-2.pdf",
+        "publication_target": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003834-2.pdf",
         "sha256": "b4a32f7459f43bb612e8d78c40943115b6d94b7453aff55b96c3589ff14f1e7f",
         "page_count": 9
       },

@@ -1,0 +1,42 @@
+{
+  "schema": "graduate-all-qa/v2",
+  "generated_on": "2026-08-23",
+  "status": "pass_with_documented_warnings",
+  "files_checked": 12,
+  "total_pages": 85,
+  "pages_visually_reviewed": 85,
+  "checks": {
+    "qpdf": "12/12 pass",
+    "a4_rotation_zero": "12/12 pass",
+    "not_encrypted": "12/12 pass",
+    "tagged_pdfs": "9/12; 2001822-2, 2001831-4, and 2002831-4 are untagged source-derived PDFs",
+    "exact_code_title_hours_scope": "12/12 pass",
+    "approval_and_department_stamp": "12/12 pass",
+    "topic_and_assessment_totals": "12/12 pass; every repaired total was reconciled to its row values while preserving source topics",
+    "raw_and_qdf_sensitive_labels": "0 findings",
+    "visual_pages": "85/85 pages rendered and reviewed; targeted edit regions were additionally checked at 300 dpi",
+    "tables_and_borders": "pass",
+    "hash_ledger": "12/12 pass",
+    "independent_repair_reviews": "all seven final repair outputs passed independent 300 dpi review; 0 blocking findings"
+  },
+  "resolved_findings": [
+    "2001813-2: corrected the source assessment total from 110% to 100% without changing any topic.",
+    "2001880-2: corrected study-mode percentages to 73.33% and 26.67% for 22 and 8 hours out of 30.",
+    "2002888-4: matched the edited cover backgrounds and restored continuous table borders.",
+    "2001802-2: completed the first-year/first-level field and the empty learning-hour and assessment values to 30 hours and 100%, preserving its two source topic groups.",
+    "2001804-2: retained the valid 30 lecture hours plus 8 additional hours rather than forcing an incorrect 30-hour activity total.",
+    "2001814-2: corrected the teaching total to 38 and lecture share to 80%, preserving the documented additional 8 hours/20%.",
+    "2001822-2: removed template placeholders and completed the 30-hour topic/activity and 100% assessment tables without adding topics.",
+    "2001831-4: completed 60-hour tables, replaced copied judicial wording with banking-specific wording supported by the source, and removed stray floating template logos from pages 2 and 6.",
+    "2002831-4: corrected code direction and the two stale 30/120 totals to 60/60.",
+    "2001880-2: removed stale hidden 33 totals so both visible and extracted totals are 30."
+  ],
+  "warnings": [
+    "Some approval session/date values are explicitly inferred from complete specifications in the same program batch.",
+    "The two Nawazil extracts retain legacy printed page numbering from their official source bundle.",
+    "A few source fonts are not embedded, but independent Poppler rendering was clean.",
+    "2001822-2, 2001831-4, and 2002831-4 are not tagged PDFs; their visible content, approval, stamps, and extraction remain valid.",
+    "Three legacy templates show only low-amplitude antialias variation after standards-compliant rerendering; full-page visual review found no content or layout change."
+  ],
+  "blocking_findings": []
+}

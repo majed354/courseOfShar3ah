@@ -2064,6 +2064,9 @@
             if (status === 'verified_catalog_only') {
                 return { cssClass: 'verified', label: 'توصيف موثق مستقل' };
             }
+            if (status === 'adapted_verified') {
+                return { cssClass: 'verified', label: 'توصيف مكيّف ومطابق للخطة' };
+            }
             if (status === 'verified_with_hours_warning') {
                 return { cssClass: 'warning', label: 'الرمز مطابق مع تعارض في الساعات' };
             }
