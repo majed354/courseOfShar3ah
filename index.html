@@ -347,8 +347,8 @@
             background: var(--bg-light);
             border: 1px solid var(--border-light);
             border-radius: var(--radius-md);
-            padding: 1.25rem;
-            margin-bottom: 0.75rem;
+            padding: 1rem;
+            margin-bottom: 0.6rem;
             transition: all var(--transition-smooth);
         }
 
@@ -368,25 +368,12 @@
             box-shadow: 0 0 0 3px rgba(26, 77, 46, 0.18);
         }
 
-        .result-item.course-details-target::after {
-            content: 'انقر لعرض نبذة المقرر';
-            display: inline-block;
-            margin-top: 0.55rem;
-            color: #065F46;
-            background: #ECFDF5;
-            border: 1px solid #A7F3D0;
-            border-radius: 999px;
-            padding: 0.2rem 0.65rem;
-            font-size: 0.7rem;
-            font-weight: 600;
-        }
-
         .result-course-header {
             display: flex;
             align-items: flex-start;
             justify-content: space-between;
             gap: 0.75rem;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.4rem;
         }
 
         .result-course-name {
@@ -417,6 +404,7 @@
             font-family: inherit;
             font-size: 0.78rem;
             font-weight: 700;
+            cursor: pointer;
             transition: all var(--transition-fast);
         }
 
@@ -445,7 +433,7 @@
             height: 17px;
         }
 
-        .specification-status-chip,
+        .course-warning-chip,
         .equivalency-status-chip {
             display: inline-flex;
             align-items: center;
@@ -457,13 +445,7 @@
             border: 1px solid transparent;
         }
 
-        .specification-status-chip.verified {
-            color: #065F46;
-            background: #ECFDF5;
-            border-color: #A7F3D0;
-        }
-
-        .specification-status-chip.warning {
+        .course-warning-chip {
             color: #92400E;
             background: #FFFBEB;
             border-color: #FCD34D;
@@ -475,32 +457,13 @@
             border-color: #A7F3D0;
         }
 
-        .equivalency-status-chip.no-equivalency {
-            color: #475569;
-            background: #F8FAFC;
-            border-color: #CBD5E1;
-        }
-
         .result-meta {
             display: flex;
             flex-wrap: wrap;
             gap: 0.5rem;
             font-size: 0.85rem;
             color: var(--text-muted);
-            margin-bottom: 0.75rem;
-        }
-
-        .result-equivalents {
-            display: block;
-            margin-bottom: 0.7rem;
-        }
-
-        .result-equivalents-label {
-            font-size: 0.78rem;
-            font-weight: 700;
-            color: #065F46;
-            display: block;
-            margin-bottom: 0.35rem;
+            margin-bottom: 0.55rem;
         }
 
         .equivalent-context-list {
@@ -571,7 +534,19 @@
         .result-programs {
             display: flex;
             flex-wrap: wrap;
-            gap: 0.5rem;
+            gap: 0.35rem;
+        }
+
+        .result-more-programs {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.3rem 0.55rem;
+            border-radius: var(--radius-sm);
+            color: var(--text-muted);
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            font-size: 0.7rem;
+            font-weight: 700;
         }
 
         .program-chip {
@@ -935,15 +910,15 @@
             display: flex;
             flex-wrap: wrap;
             gap: 0.55rem;
-            margin-bottom: 1rem;
+            margin-bottom: 0.75rem;
         }
 
         .course-detail-section {
             background: var(--bg-light);
             border: 1px solid var(--border-light);
             border-radius: var(--radius-md);
-            padding: 1rem 1.1rem;
-            margin-bottom: 1rem;
+            padding: 0.85rem 1rem;
+            margin-bottom: 0.75rem;
         }
 
         .course-detail-heading {
@@ -959,36 +934,22 @@
             font-size: 0.95rem;
         }
 
-        .course-detail-status-panel {
-            border-radius: var(--radius-md);
-            padding: 0.9rem 1rem;
-            margin-bottom: 1rem;
-            border: 1px solid;
-        }
-
-        .course-detail-status-panel.verified {
-            color: #065F46;
-            background: #ECFDF5;
-            border-color: #A7F3D0;
-        }
-
-        .course-detail-status-panel.warning {
+        .course-detail-public-warning {
             color: #92400E;
             background: #FFFBEB;
-            border-color: #FCD34D;
-        }
-
-        .course-detail-status-title {
-            display: block;
-            font-weight: 800;
-            margin-bottom: 0.25rem;
+            border: 1px solid #FCD34D;
+            border-radius: var(--radius-sm);
+            padding: 0.55rem 0.7rem;
+            margin-bottom: 0.65rem;
+            font-size: 0.82rem;
+            font-weight: 700;
         }
 
         .course-detail-actions {
             display: flex;
             flex-wrap: wrap;
             gap: 0.75rem;
-            margin-top: 1rem;
+            margin-top: 0.65rem;
         }
 
         .course-detail-actions .course-pdf-btn {
@@ -1009,8 +970,8 @@
         }
 
         .course-detail-variant + .course-detail-variant {
-            margin-top: 1rem;
-            padding-top: 1rem;
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
             border-top: 1px solid var(--border-light);
         }
 
@@ -2021,7 +1982,7 @@
                 if (seen.has(signature)) return;
                 seen.add(signature);
 
-                let downloadLabel = 'تحميل التوصيف';
+                let downloadLabel = 'التوصيف';
                 const matchedPrograms = Array.from(new Set(
                     matchedScopes.map(scope => normalizeText(scope.program)).filter(Boolean)
                 ));
@@ -2030,18 +1991,17 @@
                     const planType = normalizeText(matchedScopes[0].plan_type);
                     const planTypeLabel = planType && !planType.startsWith('ال') ? `ال${planType}` : planType;
                     const version = normalizeText(matchedScopes[0].version);
-                    downloadLabel = `تحميل توصيف ${programLabel ? `${programLabel} — ` : ''}الخطة ${planTypeLabel || ''}${version ? ` (${version})` : ''}`.replace(/\s+/g, ' ').trim();
+                    downloadLabel = `توصيف${programLabel ? ` ${programLabel}` : ''}${version ? ` (${version})` : (planTypeLabel ? ` — ${planTypeLabel}` : '')}`.replace(/\s+/g, ' ').trim();
                 } else if (matchedScopes.length > 1) {
                     const versions = Array.from(new Set(matchedScopes.map(scope => normalizeText(scope.version)).filter(Boolean)));
                     downloadLabel = versions.length
-                        ? `تحميل توصيف${programLabel ? ` ${programLabel}` : ''} (${versions.join(' و')})`
-                        : `تحميل التوصيف${programLabel ? ` — ${programLabel}` : ' المشترك'}`;
+                        ? `توصيف${programLabel ? ` ${programLabel}` : ''} (${versions.join('، ')})`
+                        : `التوصيف${programLabel ? ` — ${programLabel}` : ''}`;
                 }
 
-                const sourceContext = normalizeText(details.source_context);
                 contexts.push({
                     details,
-                    context_label: matchedScopes.map(scope => buildEquivalencyContextLabel(scope)).join('؛ ') || sourceContext,
+                    context_label: matchedScopes.map(scope => buildEquivalencyContextLabel(scope)).join('؛ '),
                     download_label: downloadLabel
                 });
             });
@@ -2056,40 +2016,28 @@
             return '';
         }
 
-        function getSpecificationStatusInfo(details) {
+        function getSpecificationPublicWarning(details) {
             const status = normalizeText(details && details.match_status);
-            if (status === 'verified') {
-                return { cssClass: 'verified', label: 'رمز التوصيف مطابق' };
-            }
-            if (status === 'verified_catalog_only') {
-                return { cssClass: 'verified', label: 'توصيف موثق مستقل' };
-            }
-            if (status === 'adapted_verified') {
-                return { cssClass: 'verified', label: 'توصيف مكيّف ومطابق للخطة' };
-            }
             if (status === 'verified_with_hours_warning') {
-                return { cssClass: 'warning', label: 'الرمز مطابق مع تعارض في الساعات' };
+                return 'اختلاف في عدد الساعات بين الخطة والتوصيف';
             }
-            if (status === 'code_match_name_diff') {
-                return { cssClass: 'warning', label: 'الرمز مطابق والاسم مختلف' };
+            if (['code_match_name_diff', 'code_mismatch', 'name_only'].includes(status)) {
+                return 'تختلف بعض بيانات التوصيف عن بيانات المقرر';
             }
-            if (status === 'code_mismatch') {
-                return { cssClass: 'warning', label: 'مطابقة اسمية والرمز مختلف' };
-            }
-            if (status === 'name_only') {
-                return { cssClass: 'warning', label: 'مطابقة اسمية والرمز غير مذكور' };
-            }
-            return { cssClass: 'warning', label: 'مطابقة التوصيف تحتاج مراجعة' };
+            return '';
         }
 
-        function renderCoursePdfButton(details, label = 'تحميل التوصيف') {
+        function renderCoursePdfButton(details, label = 'تحميل التوصيف', accessibleLabel = label) {
             const url = sanitizeResourceUrl(details && details.pdf_url);
             if (!url) return '';
 
-            const statusInfo = getSpecificationStatusInfo(details);
-            const warningClass = statusInfo.cssClass === 'verified' ? '' : ' warning';
+            const publicWarning = getSpecificationPublicWarning(details);
+            const warningClass = publicWarning ? ' warning' : '';
+            const ariaLabel = normalizeText(accessibleLabel).startsWith('تحميل')
+                ? normalizeText(accessibleLabel)
+                : `تحميل ${normalizeText(accessibleLabel)}`;
             return `
-                <a class="course-pdf-btn${warningClass}" href="${escapeHtml(url)}" download onclick="event.stopPropagation()" title="${escapeHtml(statusInfo.label)}">
+                <a class="course-pdf-btn${warningClass}" href="${escapeHtml(url)}" download onclick="event.stopPropagation()" title="تحميل توصيف المقرر بصيغة PDF" aria-label="${escapeHtml(ariaLabel)} بصيغة PDF">
                     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm1 7V3.5L19.5 9H15zM12 12v4.17l1.59-1.58L15 16l-4 4-4-4 1.41-1.41L10 16.17V12h2z"/>
                     </svg>
@@ -2098,10 +2046,9 @@
             `;
         }
 
-        function renderSpecificationStatusChip(details) {
-            if (!details) return '';
-            const statusInfo = getSpecificationStatusInfo(details);
-            return `<span class="specification-status-chip ${statusInfo.cssClass}">${escapeHtml(statusInfo.label)}</span>`;
+        function renderSpecificationWarningChip(details) {
+            const warning = getSpecificationPublicWarning(details);
+            return warning ? `<span class="course-warning-chip">${escapeHtml(warning)}</span>` : '';
         }
 
         function looksLikeCourseCode(value) {
@@ -3316,7 +3263,6 @@
                     type: course.type,
                     occurrences: [],
                     catalog_only: true,
-                    catalog_note: normalizeText(course.catalog_note),
                     catalog_requirement: normalizeText(course.requirement || course.category),
                     catalog_category: normalizeText(course.category)
                 });
@@ -3384,7 +3330,9 @@
             }
 
             resultsContainer.innerHTML = results.map((result, resultIndex) => {
-                const programsHtml = (result.occurrence_refs || []).map((ref, refIndex) => {
+                const occurrenceRefs = Array.isArray(result.occurrence_refs) ? result.occurrence_refs : [];
+                const visibleProgramRefs = occurrenceRefs.slice(0, 2);
+                const programsHtml = visibleProgramRefs.map((ref, refIndex) => {
                     const chipClass = chipClassForPlans([ref.plan_type]);
                     const planLabel = ref.plan_type ? `الخطة ${ref.plan_type}` : '';
                     return `
@@ -3395,31 +3343,28 @@
                         </button>
                     `;
                 }).join('');
-                const equivalentContextsHtml = (result.equivalent_contexts || []).map(contextInfo => {
-                    const optionsHtml = (contextInfo.options || []).map((option, optionIndex) => {
-                        const separator = optionIndex > 0 ? '<span class="equivalent-or">أو</span>' : '';
-                        return `${separator}<span class="equivalent-chip">${escapeHtml(option.label)}</span>`;
-                    }).join('');
-
-                    return `
-                        <div class="equivalent-context-line">
-                            <span class="equivalent-context-label">${escapeHtml(contextInfo.context_label)}:</span>
-                            <span class="equivalent-context-options">${optionsHtml}</span>
-                        </div>
-                    `;
-                }).join('');
-                const hasEquivalency = Boolean(equivalentContextsHtml);
+                const hiddenProgramsCount = Math.max(0, occurrenceRefs.length - visibleProgramRefs.length);
+                const hasEquivalency = Array.isArray(result.equivalent_contexts) && result.equivalent_contexts.length > 0;
                 const detailContexts = Array.isArray(result.course_detail_contexts) ? result.course_detail_contexts : [];
-                const details = detailContexts.length ? detailContexts[0].details : result.course_details;
-                const pdfButtonHtml = detailContexts.map(contextInfo =>
-                    renderCoursePdfButton(contextInfo.details, contextInfo.download_label)
-                ).join('');
-                const specificationChipHtml = detailContexts.length > 1
-                    ? `<span class="specification-status-chip verified">${detailContexts.length} توصيفات متاحة</span>`
-                    : renderSpecificationStatusChip(details);
-                const equivalencyChipHtml = hasEquivalency
-                    ? '<span class="equivalency-status-chip has-equivalency">توجد معادلة مسجلة</span>'
-                    : '<span class="equivalency-status-chip no-equivalency">لا توجد معادلة مسجلة</span>';
+                const warningDetails = detailContexts
+                    .map(contextInfo => contextInfo.details)
+                    .find(details => getSpecificationPublicWarning(details));
+                const specificationWarningHtml = renderSpecificationWarningChip(warningDetails);
+                const pdfButtonHtml = detailContexts.length === 1
+                    ? renderCoursePdfButton(detailContexts[0].details, 'التوصيف', detailContexts[0].download_label)
+                    : (detailContexts.length > 1 ? `
+                        <button type="button" class="course-pdf-btn${warningDetails ? ' warning' : ''}" onclick="event.stopPropagation(); openCourseDetailsFromSearch(${resultIndex})" title="عرض ملفات التوصيف" aria-label="عرض ${detailContexts.length} توصيفات للمقرر">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm1 7V3.5L19.5 9H15z"/>
+                            </svg>
+                            التوصيفات (${detailContexts.length})
+                        </button>
+                    ` : '');
+                const categoryLabel = result.category_summary && result.category_summary !== 'يختلف حسب البرنامج'
+                    ? result.category_summary
+                    : (result.requirement_summary && result.requirement_summary !== 'يختلف حسب البرنامج'
+                        ? result.requirement_summary
+                        : '');
 
                 return `
                     <div class="result-item course-details-target" tabindex="0" aria-label="عرض تفاصيل ${escapeHtml(result.name)}" onclick="openCourseDetailsFromSearch(${resultIndex})" onkeydown="handleCourseDetailsKeydown(event, ${resultIndex})">
@@ -3430,26 +3375,17 @@
                         <div class="result-meta">
                             <span class="result-tag"><code class="course-code">${escapeHtml(result.code)}</code></span>
                             <span class="result-tag">${escapeHtml(result.hours)} ساعة</span>
-                            ${result.requirement_summary ? `<span class="result-tag">${escapeHtml(result.requirement_summary)}</span>` : ''}
-                            ${result.category_summary ? `<span class="result-tag">${escapeHtml(result.category_summary)}</span>` : ''}
-                            ${result.catalog_only
-                                ? '<span class="result-tag">في الفهرس العام — غير مربوط بخطة محددة</span>'
-                                : `<span class="result-tag">موجود في ${result.programs_count} برامج</span>`}
-                            ${specificationChipHtml}
-                            ${equivalencyChipHtml}
+                            ${categoryLabel ? `<span class="result-tag">${escapeHtml(categoryLabel)}</span>` : ''}
+                            ${result.catalog_only ? '<span class="result-tag">فهرس المقررات</span>' : ''}
+                            ${specificationWarningHtml}
+                            ${hasEquivalency ? '<span class="equivalency-status-chip has-equivalency">معادلة</span>' : ''}
                         </div>
-                        ${result.catalog_note ? `
-                            <div class="course-detail-status-panel" style="margin-top:0.75rem;color:#475569;background:#F8FAFC;border-color:#CBD5E1;">
-                                ${escapeHtml(result.catalog_note)}
+                        ${(programsHtml || hiddenProgramsCount) ? `
+                            <div class="result-programs">
+                                ${programsHtml}
+                                ${hiddenProgramsCount ? `<span class="result-more-programs">+${hiddenProgramsCount} من الخطط</span>` : ''}
                             </div>
                         ` : ''}
-                        ${equivalentContextsHtml ? `
-                            <div class="result-equivalents">
-                                <span class="result-equivalents-label">المعادلات:</span>
-                                <div class="equivalent-context-list">${equivalentContextsHtml}</div>
-                            </div>
-                        ` : ''}
-                        ${programsHtml ? `<div class="result-programs">${programsHtml}</div>` : ''}
                     </div>
                 `;
             }).join('');
@@ -3492,12 +3428,7 @@
 
         function renderCourseDetailEquivalencies(equivalentContexts) {
             if (!Array.isArray(equivalentContexts) || !equivalentContexts.length) {
-                return `
-                    <div class="course-detail-status-panel no-equivalency" style="color:#475569;background:#F8FAFC;border-color:#CBD5E1;">
-                        <span class="course-detail-status-title">المعادلة</span>
-                        لا توجد معادلة مسجلة لهذا المقرر في البيانات الحالية.
-                    </div>
-                `;
+                return '';
             }
 
             const contextsHtml = equivalentContexts.map(contextInfo => {
@@ -3515,63 +3446,69 @@
             }).join('');
 
             return `
-                <div class="course-detail-status-panel verified">
-                    <span class="course-detail-status-title">توجد معادلة مسجلة</span>
+                <div class="course-detail-section">
+                    <h4 class="course-detail-heading">المعادلات</h4>
                     <div class="equivalent-context-list">${contextsHtml}</div>
                 </div>
             `;
         }
 
         function renderCourseSummaryContexts(detailContexts) {
-            if (!detailContexts.length) {
-                return `
-                    <div class="course-detail-section">
-                        <h4 class="course-detail-heading">نبذة مختصرة عن محتوى المقرر</h4>
-                        <p class="course-detail-summary">لا تتوفر نبذة موثقة لهذا المقرر في هذه الخطة حتى الآن.</p>
-                    </div>
-                `;
-            }
+            const summaryContexts = (detailContexts || []).filter(contextInfo =>
+                normalizeText(contextInfo && contextInfo.details && contextInfo.details.summary)
+            );
+            if (!summaryContexts.length) return '';
 
-            return detailContexts.map(contextInfo => {
+            const summariesHtml = summaryContexts.map(contextInfo => {
                 const details = contextInfo.details || {};
                 const summary = normalizeText(details.summary);
                 return `
-                    <div class="course-detail-section course-detail-variant">
-                        <h4 class="course-detail-heading">نبذة مختصرة عن محتوى المقرر</h4>
-                        ${contextInfo.context_label ? `<span class="course-detail-scope">نطاق التوصيف: ${escapeHtml(contextInfo.context_label)}</span>` : ''}
-                        <p class="course-detail-summary">${summary ? escapeHtml(summary) : 'لا تتوفر نبذة موثقة لهذا المقرر حتى الآن.'}</p>
+                    <div class="course-detail-variant">
+                        ${summaryContexts.length > 1 && contextInfo.context_label ? `<span class="course-detail-scope">${escapeHtml(contextInfo.context_label)}</span>` : ''}
+                        <p class="course-detail-summary">${escapeHtml(summary)}</p>
                     </div>
                 `;
             }).join('');
+
+            return `
+                <div class="course-detail-section">
+                    <h4 class="course-detail-heading">نبذة المقرر</h4>
+                    ${summariesHtml}
+                </div>
+            `;
         }
 
         function renderCourseSpecificationContexts(detailContexts) {
             if (!detailContexts.length) {
                 return `
                     <div class="course-detail-section">
-                        <h4 class="course-detail-heading">التوصيف الكامل</h4>
-                        <p class="course-detail-empty">لا يتوفر حاليًا ملف PDF مطابق لهذا المقرر في هذه الخطة.</p>
+                        <h4 class="course-detail-heading">التوصيف</h4>
+                        <p class="course-detail-empty">لا يتوفر ملف توصيف لهذا المقرر.</p>
                     </div>
                 `;
             }
 
-            return detailContexts.map(contextInfo => {
+            const publicWarnings = Array.from(new Set(
+                detailContexts.map(contextInfo => getSpecificationPublicWarning(contextInfo.details || {})).filter(Boolean)
+            ));
+            const variantsHtml = detailContexts.map(contextInfo => {
                 const details = contextInfo.details || {};
-                const statusInfo = getSpecificationStatusInfo(details);
                 const safePdfUrl = sanitizeResourceUrl(details.pdf_url);
                 return `
-                    <div class="course-detail-status-panel ${statusInfo.cssClass} course-detail-variant">
-                        ${contextInfo.context_label ? `<span class="course-detail-scope">نطاق التوصيف: ${escapeHtml(contextInfo.context_label)}</span>` : ''}
-                        <span class="course-detail-status-title">${escapeHtml(statusInfo.label)}</span>
-                        <div>
-                            رمز التوصيف:
-                            <bdi dir="ltr"><code class="course-code">${escapeHtml(details.specification_code || 'غير مذكور')}</code></bdi>
-                        </div>
-                        ${details.match_note ? `<div style="margin-top:0.35rem;line-height:1.7;">${escapeHtml(details.match_note)}</div>` : ''}
-                        ${safePdfUrl ? `<div class="course-detail-actions">${renderCoursePdfButton(details, contextInfo.download_label)}</div>` : ''}
+                    <div class="course-detail-variant">
+                        ${detailContexts.length > 1 && contextInfo.context_label ? `<span class="course-detail-scope">${escapeHtml(contextInfo.context_label)}</span>` : ''}
+                        ${safePdfUrl ? `<div class="course-detail-actions">${renderCoursePdfButton(details, 'تحميل التوصيف', contextInfo.download_label)}</div>` : ''}
                     </div>
                 `;
             }).join('');
+
+            return `
+                <div class="course-detail-section">
+                    <h4 class="course-detail-heading">التوصيف</h4>
+                    ${publicWarnings.map(warning => `<div class="course-detail-public-warning">${escapeHtml(warning)}</div>`).join('')}
+                    ${variantsHtml}
+                </div>
+            `;
         }
 
         function openCourseDetails(result) {
@@ -3584,7 +3521,7 @@
                     context_label: courseDetailHasScope(result.course_details)
                         ? getCourseDetailScopes(result.course_details).map(scope => buildEquivalencyContextLabel(scope)).join('؛ ')
                         : '',
-                    download_label: 'تحميل التوصيف'
+                    download_label: 'التوصيف'
                 }];
             }
             const primaryDetails = detailContexts.length ? detailContexts[0].details : null;
@@ -3614,16 +3551,8 @@
                     ${result.hours !== undefined ? `<span class="result-tag">${escapeHtml(result.hours)} ساعة</span>` : ''}
                     ${result.type ? `<span class="result-tag">${escapeHtml(result.type)}</span>` : ''}
                     ${result.requirement_summary ? `<span class="result-tag">${escapeHtml(result.requirement_summary)}</span>` : ''}
-                    ${detailContexts.length === 1 ? renderSpecificationStatusChip(primaryDetails) : ''}
-                    ${detailContexts.length > 1 ? `<span class="specification-status-chip verified">${detailContexts.length} توصيفات متاحة</span>` : ''}
                 </div>
                 ${renderCourseSummaryContexts(detailContexts)}
-                ${result.catalog_note ? `
-                    <div class="course-detail-status-panel" style="color:#475569;background:#F8FAFC;border-color:#CBD5E1;">
-                        <span class="course-detail-status-title">حالة الربط بالخطط</span>
-                        ${escapeHtml(result.catalog_note)}
-                    </div>
-                ` : ''}
                 ${renderCourseDetailEquivalencies(equivalentContexts)}
                 ${specificationHtml}
                 ${programsHtml ? `
