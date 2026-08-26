@@ -36,6 +36,13 @@ class PublicCourseCardCopyTest(unittest.TestCase):
         self.assertIn("نبذة المقرر", self.index_html)
         self.assertIn("ظهور المقرر في الخطط", self.index_html)
 
+    def test_pdf_files_are_clearly_labeled(self):
+        self.assertIn("renderCoursePdfButton(detailContexts[0].details, 'PDF'", self.index_html)
+        self.assertIn("ملفات PDF (${detailContexts.length})", self.index_html)
+        self.assertIn("renderCoursePdfButton(details, 'تحميل PDF'", self.index_html)
+        self.assertIn('aria-label="طباعة الخطة أو حفظها بصيغة PDF"', self.index_html)
+        self.assertIn('.course-detail-actions .course-pdf-btn', self.index_html)
+
 
 if __name__ == "__main__":
     unittest.main()
