@@ -1856,6 +1856,108 @@
             return (s || '').toString().trim().replace(/\s+/g, ' ');
         }
 
+        // Deliberately permissive search-only normalization. Course identity,
+        // PDF matching, and equivalency scopes must keep using the strict helpers.
+        function cleanSearchText(value) {
+            const westernDigits = '0123456789';
+            const arabicIndicDigits = '٠١٢٣٤٥٦٧٨٩';
+            const easternArabicDigits = '۰۱۲۳۴۵۶۷۸۹';
+
+            return (value === null || value === undefined ? '' : String(value))
+                .normalize('NFKC')
+                .toLowerCase()
+                .replace(/[\u061C\u200E\u200F\u202A-\u202E\u2066-\u2069]/g, '')
+                .replace(/ـ/g, '')
+                .replace(/[٠-٩۰-۹]/g, char => {
+                    const arabicIndex = arabicIndicDigits.indexOf(char);
+                    if (arabicIndex !== -1) return westernDigits[arabicIndex];
+                    const easternIndex = easternArabicDigits.indexOf(char);
+                    return easternIndex === -1 ? char : westernDigits[easternIndex];
+                })
+                .replace(/\p{M}+/gu, '')
+                .replace(/[^\p{L}\p{N}]+/gu, ' ')
+                .replace(/(\p{L})(\p{N})/gu, '$1 $2')
+                .replace(/(\p{N})(\p{L})/gu, '$1 $2')
+                .trim();
+        }
+
+        function foldSearchToken(value) {
+            return (value || '')
+                .replace(/[أإآٱ]/g, 'ا')
+                .replace(/[ؤئ]/g, 'ء')
+                .replace(/[ىيی]/g, 'ي')
+                .replace(/[ةۀہ]/g, 'ه')
+                .replace(/[كک]/g, 'ك')
+                .trim();
+        }
+
+        function getSearchTokens(value) {
+            const cleaned = cleanSearchText(value);
+            if (!cleaned) return [];
+
+            return cleaned.split(/\s+/).map(rawToken => {
+                const base = foldSearchToken(rawToken);
+                const forms = new Set([base]);
+                const directArticle = rawToken.match(/^(?:ال|ٱل)(.{2,})$/u);
+                const prefixedArticle = rawToken.match(/^([وفبكل])(?:ال|ٱل)(.{2,})$/u);
+                const assimilatedLam = rawToken.match(/^لل(.{2,})$/u);
+
+                if (directArticle) forms.add(foldSearchToken(directArticle[1]));
+                if (prefixedArticle) {
+                    forms.add(foldSearchToken(`${prefixedArticle[1]}${prefixedArticle[2]}`));
+                    forms.add(foldSearchToken(prefixedArticle[2]));
+                }
+                if (assimilatedLam) forms.add(foldSearchToken(assimilatedLam[1]));
+
+                Array.from(forms).forEach(form => {
+                    if (!form.includes('ء')) return;
+                    forms.add(form.replace(/ء/g, ''));
+                    forms.add(form.replace(/ء/g, 'و'));
+                    forms.add(form.replace(/ء/g, 'ي'));
+                });
+
+                return {
+                    base,
+                    forms: Array.from(forms).filter(Boolean),
+                    numeric: /^\d+$/.test(base)
+                };
+            }).filter(token => token.base && token.base !== 'ال');
+        }
+
+        function normalizeSearchText(value) {
+            return getSearchTokens(value).map(token => token.base).join(' ');
+        }
+
+        function matchesFlexibleSearch(queryValue, candidateValues) {
+            const queryTokens = getSearchTokens(queryValue);
+            const query = queryTokens.map(token => token.base).join(' ');
+            const compactQuery = query.replace(/\s+/g, '');
+            if (compactQuery.length < 2) return false;
+
+            const candidateInputs = Array.isArray(candidateValues) ? candidateValues : [candidateValues];
+            const candidateGroups = candidateInputs.map(value => ({
+                normalized: normalizeSearchText(value),
+                tokens: getSearchTokens(value)
+            })).filter(group => group.normalized);
+            if (!candidateGroups.length) return false;
+
+            const queryHasDigits = /\d/.test(compactQuery);
+            if (candidateGroups.some(group => {
+                const compactCandidate = group.normalized.replace(/\s+/g, '');
+                return queryHasDigits
+                    ? compactCandidate === compactQuery
+                    : compactCandidate.includes(compactQuery);
+            })) return true;
+
+            const candidateTokens = candidateGroups.flatMap(group => group.tokens);
+            return queryTokens.every(queryToken => candidateTokens.some(candidateToken => {
+                if (queryToken.numeric) return candidateToken.numeric && candidateToken.base === queryToken.base;
+                return queryToken.forms.some(queryForm =>
+                    candidateToken.forms.some(candidateForm => candidateForm.includes(queryForm))
+                );
+            }));
+        }
+
         function normalizePasswordInput(value) {
             const westernDigits = '0123456789';
             const arabicIndicDigits = '٠١٢٣٤٥٦٧٨٩';
@@ -2659,7 +2761,7 @@
             const targetProgram = programsData && programsData.programs ? programsData.programs[state.programIndex] : null;
             if (!targetProgram || !Array.isArray(targetProgram.courses)) return [];
 
-            const query = normalizeText(state.search).toLowerCase();
+            const query = normalizeSearchText(state.search);
             const deduped = new Map();
 
             targetProgram.courses.forEach(candidate => {
@@ -2671,8 +2773,7 @@
 
                 const name = normalizeText(candidate.name);
                 const nameEn = normalizeText(candidate.name_en);
-                const haystack = `${code} ${name} ${nameEn}`.toLowerCase();
-                if (query && !haystack.includes(query)) return;
+                if (query && !matchesFlexibleSearch(state.search, [code, name, nameEn])) return;
 
                 deduped.set(codeKey, {
                     code,
@@ -3205,8 +3306,8 @@
         function performSearch() {
             if (!programsData || !Array.isArray(programsData.programs)) return;
             const queryRaw = searchInput.value.trim();
-            const query = queryRaw.toLowerCase();
-            if (query.length < 2) {
+            const query = normalizeSearchText(queryRaw);
+            if (query.replace(/\s+/g, '').length < 2) {
                 searchResults.classList.remove('active');
                 lastSearchResults = [];
                 return;
@@ -3215,10 +3316,7 @@
             const grouped = new Map();
             programsData.programs.forEach((program, programIndex) => {
                 (program.courses || []).forEach((course, courseIndex) => {
-                    const nameAr = normalizeText(course.name).toLowerCase();
-                    const code = normalizeText(course.code).toLowerCase();
-                    const nameEn = normalizeText(course.name_en).toLowerCase();
-                    const isMatch = nameAr.includes(query) || code.includes(query) || (nameEn && nameEn.includes(query));
+                    const isMatch = matchesFlexibleSearch(queryRaw, [course.name, course.code, course.name_en]);
                     if (!isMatch) return;
 
                     const key = getCourseIdentityKey(course.code, course.name);
@@ -3247,14 +3345,10 @@
 
             (programsData.courses_catalog || []).forEach(course => {
                 if (!course || !course.catalog_only) return;
-                const nameAr = normalizeText(course.name).toLowerCase();
-                const code = normalizeText(course.code).toLowerCase();
-                const nameEn = normalizeText(course.name_en).toLowerCase();
                 const aliases = Array.isArray(course.aliases)
-                    ? course.aliases.map(alias => normalizeText(alias).toLowerCase()).filter(Boolean)
+                    ? course.aliases
                     : [];
-                const isMatch = nameAr.includes(query) || code.includes(query) ||
-                    (nameEn && nameEn.includes(query)) || aliases.some(alias => alias.includes(query));
+                const isMatch = matchesFlexibleSearch(queryRaw, [course.name, course.code, course.name_en, ...aliases]);
                 if (!isMatch) return;
 
                 const key = getCourseIdentityKey(course.code, course.name);
