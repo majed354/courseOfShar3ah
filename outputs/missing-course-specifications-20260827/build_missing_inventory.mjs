@@ -8,13 +8,50 @@ const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(scriptDir, "..", "..");
 const recoveryEntriesPath = path.join(repoRoot, "assets", "course-specifications", "raw-recovery-20260827", "data-entries.json");
 const outputDir = path.join(repoRoot, "outputs", "missing-course-specifications-20260827");
-const outputPath = path.join(outputDir, "تفاصيل-التوصيفات-المفقودة-2026-08-27.xlsx");
+const outputPath = path.join(outputDir, "تفاصيل-التوصيفات-المطلوبة-2026-08-27.xlsx");
 
 const raw = JSON.parse(await fs.readFile(sourcePath, "utf8"));
 const recovered = JSON.parse(await fs.readFile(recoveryEntriesPath, "utf8"));
 const recoveredCodes = new Set(Object.keys(recovered.course_details));
-const missing = raw.missing_no_source_or_candidate.filter(item => !recoveredCodes.has(item.code));
-const ambiguous = raw.ambiguous_excluded.filter(item => !recoveredCodes.has(item.code));
+
+const foldArabic = value => String(value ?? "")
+  .normalize("NFKD")
+  .replace(/\p{M}+/gu, "")
+  .replace(/ـ/g, "")
+  .replace(/[أإآٱٲٳ]/g, "ا")
+  .replace(/[ةۀہ]/g, "ه")
+  .replace(/\s+/g, " ")
+  .trim();
+const thesisTitles = new Set([
+  "الرساله",
+  "رساله",
+  "الرساله العلميه",
+  "رساله الماجستير",
+  "الاطروحه",
+  "اطروحه الدكتوراه",
+]);
+const comprehensiveExamTitles = new Set(["الاختبار الشامل", "اختبار شامل"]);
+const isGraduateRequirementWithoutCourseSpecification = item => {
+  const occurrences = item.occurrences || [];
+  if (!occurrences.length || occurrences.some(occurrence => occurrence.degree === "بكالوريوس")) return false;
+  const title = foldArabic(item.title);
+  if (thesisTitles.has(title)) {
+    return occurrences.every(occurrence => occurrence.course_type === "بحث" && Number(occurrence.hours) >= 6);
+  }
+  if (comprehensiveExamTitles.has(title)) {
+    return occurrences.every(occurrence =>
+      Number(occurrence.hours) === 0 && foldArabic(occurrence.course_type) === "الاختبار الشامل"
+    );
+  }
+  return false;
+};
+
+const unresolvedCandidates = raw.missing_no_source_or_candidate.filter(item => !recoveredCodes.has(item.code));
+const ambiguousCandidates = raw.ambiguous_excluded.filter(item => !recoveredCodes.has(item.code));
+const excludedNonCourseRequirements = [...unresolvedCandidates, ...ambiguousCandidates]
+  .filter(isGraduateRequirementWithoutCourseSpecification);
+const missing = unresolvedCandidates.filter(item => !isGraduateRequirementWithoutCourseSpecification(item));
+const ambiguous = ambiguousCandidates.filter(item => !isGraduateRequirementWithoutCourseSpecification(item));
 
 const planLabel = value => value === "جديدة" ? "حديثة" : value;
 const unique = values => [...new Set(values.filter(value => value !== null && value !== undefined && value !== ""))];
@@ -60,6 +97,8 @@ const identityClassOccurrenceCounts = missing.reduce((acc, item) => {
 }, {});
 
 const checks = {
+  excludedNonCourseIdentities: excludedNonCourseRequirements.length,
+  excludedNonCourseOccurrences: excludedNonCourseRequirements.reduce((sum, item) => sum + item.occurrence_count, 0),
   missingIdentities: missing.length,
   missingOccurrences: missingOccurrences.length,
   ambiguousIdentities: ambiguous.length,
@@ -77,20 +116,22 @@ const checks = {
 };
 
 const expected = {
-  missingIdentities: 122,
-  missingOccurrences: 166,
+  excludedNonCourseIdentities: 6,
+  excludedNonCourseOccurrences: 8,
+  missingIdentities: 116,
+  missingOccurrences: 158,
   ambiguousIdentities: 5,
   ambiguousOccurrences: 6,
-  allUncoveredIdentities: 127,
-  allUncoveredOccurrences: 172,
+  allUncoveredIdentities: 121,
+  allUncoveredOccurrences: 164,
   oldOnly: 49,
-  newOnly: 67,
+  newOnly: 61,
   shared: 6,
   oldOnlyOccurrences: 75,
-  newOnlyOccurrences: 74,
+  newOnlyOccurrences: 66,
   sharedOccurrences: 17,
   oldOccurrences: 85,
-  newOccurrences: 81,
+  newOccurrences: 73,
 };
 for (const [name, expectedValue] of Object.entries(expected)) {
   if (checks[name] !== expectedValue) {
@@ -343,7 +384,7 @@ const programIdentityMemberships = programDegreeRows.reduce((sum, row) => sum + 
 const sharedProgramMemberships = programIdentityMemberships - missing.length;
 styleNote(summary, "H31:L33", `مجموع هويات البرامج = ${programIdentityMemberships} لا ${missing.length} لأن ${sharedProgramMemberships} هوية مشتركة بين برنامجين. المرجع الإجمالي الصحيح هو ${missing.length} هوية و${missingOccurrences.length} ظهورًا.`);
 
-styleNote(summary, "A37:L39", `المصدر: data.json وCOURSE_SPECIFICATIONS_AUDIT.md — تاريخ الحصر: 27 أغسطس 2026م. المطلوب لكل صف في ورقة «${missingSheetName}»: ملف PDF معتمد يحمل رمز المقرر واسمه، مع تعبئة حالة التوفير ومسار الملف.`);
+styleNote(summary, "A37:L39", `المصدر: data.json وCOURSE_SPECIFICATIONS_AUDIT.md — تاريخ الحصر: 27 أغسطس 2026م. المطلوب لكل صف في ورقة «${missingSheetName}»: ملف PDF معتمد يحمل رمز المقرر واسمه. استُبعدت ${checks.excludedNonCourseIdentities} هويات تمثل ${checks.excludedNonCourseOccurrences} ظهورات للرسالة والاختبار الشامل لأنها متطلبات دراسات عليا غير تدريسية لا تحتاج توصيف مقرر.`);
 summary.getRange("A1:L39").format.verticalAlignment = "center";
 summary.getRange("A1:L39").format.wrapText = true;
 summary.getRange("A1:L1").format.font.color = colors.white;
@@ -364,7 +405,7 @@ summary.freezePanes.freezeRows(2);
 // Missing identities sheet.
 missingSheet.showGridLines = false;
 styleTitle(missingSheet, "A1:S1", `المفقودات التي يلزم توفير توصيف PDF لها — ${missing.length} هوية`);
-styleNote(missingSheet, "A2:S2", "صف واحد لكل هوية (الرمز + الاسم). استخدم حالة التوفير والرابط/المسار وملاحظات التزويد للمتابعة. تفاصيل كل موضع في الخطة موجودة في ورقة «مواضع الظهور».");
+styleNote(missingSheet, "A2:S2", "صف واحد لكل هوية (الرمز + الاسم). استخدم حالة التوفير والرابط/المسار وملاحظات التزويد للمتابعة. لا تشمل القائمة الرسالة والاختبار الشامل؛ وتفاصيل كل موضع في الخطة موجودة في ورقة «مواضع الظهور».");
 const missingHeaders = [
   "م", "رمز المقرر", "اسم المقرر", "نطاق الخطة", "ظهورات قديمة", "ظهورات حديثة", "إجمالي الظهورات",
   "البرامج", "الدرجات", "الإصدارات", "الساعات", "المستويات", "الفئات", "تنبيه الساعات",
@@ -436,7 +477,7 @@ missingSheet.getRange(missingDataRange).format.rowHeight = 38;
 // All unresolved occurrences sheet.
 occurrencesSheet.showGridLines = false;
 styleTitle(occurrencesSheet, "A1:P1", `مواضع ظهور المقررات غير المكتملة في الخطط — ${allOccurrences.length} ظهورًا`);
-styleNote(occurrencesSheet, "A2:P2", `تشمل ${missingOccurrences.length} ظهورًا للـ${missing.length} التي يلزم توفيرها، و${ambiguousOccurrences.length} ظهورات للحالات ${ambiguous.length} التي لها مرشح يحتاج حسمًا. الساعات مأخوذة من صفوف الخطط، لا من لاحقة الرمز.`);
+styleNote(occurrencesSheet, "A2:P2", `تشمل ${missingOccurrences.length} ظهورًا للـ${missing.length} التي يلزم توفيرها، و${ambiguousOccurrences.length} ظهورات للحالات ${ambiguous.length} التي لها مرشح يحتاج حسمًا. لا تشمل الرسالة والاختبار الشامل؛ والساعات مأخوذة من صفوف الخطط، لا من لاحقة الرمز.`);
 const occurrenceHeaders = [
   "م", "المجموعة", "رمز المقرر", "اسم المقرر", "البرنامج", "الدرجة", "نوع الخطة", "الإصدار",
   "المستوى", "الفصل", "الساعات", "نوع المقرر", "الفئة", "القسم", "ملف مصدر الخطة", "مفتاح الهوية"
@@ -593,6 +634,29 @@ for (const [sheetName, fileName, range] of [
 const xlsx = await SpreadsheetFile.exportXlsx(workbook);
 await xlsx.save(outputPath);
 const roundTrip = await SpreadsheetFile.importXlsx(await FileBlob.load(outputPath));
+const roundTripSummary = roundTrip.worksheets.getItem("ملخص");
+const headlineValues = roundTripSummary.getRange("A5:G5").values[0];
+const expectedHeadlineValues = [
+  [0, checks.missingIdentities],
+  [2, checks.missingOccurrences],
+  [4, checks.ambiguousIdentities],
+  [6, checks.allUncoveredIdentities],
+];
+for (const [columnIndex, expectedValue] of expectedHeadlineValues) {
+  if (Number(headlineValues[columnIndex]) !== expectedValue) {
+    throw new Error(`Round-trip summary mismatch at column ${columnIndex}: got ${headlineValues[columnIndex]}, expected ${expectedValue}`);
+  }
+}
+const classValues = roundTripSummary.getRange("B10:C13").values;
+const expectedClassValues = [
+  [checks.oldOnly, checks.oldOnlyOccurrences],
+  [checks.newOnly, checks.newOnlyOccurrences],
+  [checks.shared, checks.sharedOccurrences],
+  [checks.missingIdentities, checks.missingOccurrences],
+];
+if (JSON.stringify(classValues.map(row => row.map(Number))) !== JSON.stringify(expectedClassValues)) {
+  throw new Error(`Round-trip plan classification mismatch: ${JSON.stringify(classValues)}`);
+}
 const roundTripCheck = await roundTrip.inspect({
   kind: "table",
   range: "ملخص!A4:L14",

@@ -81,6 +81,42 @@ process.stdout.write(JSON.stringify(result));
         )
         self.assertEqual([True] * len(queries), results)
 
+    def test_quran_alef_hamza_madda_unicode_variants_are_flexible(self):
+        queries = [
+            "القرآن",
+            "القرأن",
+            "القران",
+            "قران",
+            "قرإن",
+            "القرءان",
+            "القرؤان",
+            "القرئان",
+            "ٱلْقُرْآن",
+            "القرا\u0653ن",
+            "ﺍﻟﻘﺮﺁﻥ",
+            "القرٲن",
+            "القرٳن",
+            "القرٵن",
+            "والقرآن",
+            "للقرآن",
+        ]
+        results = self.run_search_helpers(
+            f"{json.dumps(queries, ensure_ascii=False)}.map(query => "
+            "matchesFlexibleSearch(query, ['القرآن الكريم']))"
+        )
+        self.assertEqual([True] * len(queries), results)
+
+    def test_hamza_flexibility_does_not_merge_distinct_words(self):
+        cases = [
+            ["القرين الكريم", ["القرآن الكريم"]],
+            ["قرون الكريم", ["القرآن الكريم"]],
+        ]
+        results = self.run_search_helpers(
+            f"{json.dumps(cases, ensure_ascii=False)}.map(([query, values]) => "
+            "matchesFlexibleSearch(query, values))"
+        )
+        self.assertEqual([False, False], results)
+
     def test_arabic_and_eastern_arabic_digits_match_course_code(self):
         queries = ["٢٠٠١٢١٠٢-٢", "۲۰۰۱۲۱۰۲-۲", "20012102 2"]
         results = self.run_search_helpers(
