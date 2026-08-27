@@ -1,0 +1,83 @@
+{
+  "schema": "department-stamp-application-audit-v1",
+  "source_inventory": "tmp/pdfs/specialty-recovery/exact-stamp-inventory.json",
+  "policy": {
+    "qiraat": "Qiraat and Quranic studies at all degrees",
+    "sharia": "Sharia, Fiqh, and Usul al-Fiqh",
+    "law": "Regulations and Law",
+    "islamic_culture": "Islamic Studies and Creed"
+  },
+  "stamp_size_points": {
+    "qiraat": [
+      170.0,
+      62.4
+    ],
+    "sharia": [
+      180.0,
+      77.1
+    ],
+    "law": [
+      180.0,
+      77.1
+    ],
+    "islamic_culture": [
+      180.0,
+      70.7
+    ]
+  },
+  "safety_margin_points": 12.0,
+  "records": [
+    {
+      "relative_path": "20012102-2.pdf",
+      "department_key": "islamic_culture",
+      "stamp_asset": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+      "stamp_asset_sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1",
+      "status": "stamp_added",
+      "placement": "below_approval_table",
+      "target_page_1_based": 10,
+      "bbox_top_points": [
+        207.66,
+        607.03,
+        180.0,
+        70.7
+      ],
+      "safety_margin_points": 12.0,
+      "ink_pixels_with_margin": 0,
+      "checked_pixels_with_margin": 84546,
+      "ink_fraction_with_margin": 0.0,
+      "baseline_sha256": "6ddf233a4cae3a66d0510e51147ccc0e4dd9c39deb1f2b2e158252d3678c6705",
+      "output_sha256": "c6c31b6d763d38cbf57de03bdbbd0b476462f0e560b69534f19986ea25a224b8",
+      "page_count_before": 10,
+      "page_count_after": 10
+    },
+    {
+      "relative_path": "20023205-2.pdf",
+      "department_key": "islamic_culture",
+      "stamp_asset": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+      "stamp_asset_sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1",
+      "status": "stamp_added",
+      "placement": "below_approval_table",
+      "target_page_1_based": 7,
+      "bbox_top_points": [
+        207.66,
+        700.52,
+        180.0,
+        70.7
+      ],
+      "safety_margin_points": 12.0,
+      "ink_pixels_with_margin": 0,
+      "checked_pixels_with_margin": 84546,
+      "ink_fraction_with_margin": 0.0,
+      "baseline_sha256": "73d3d0cc254668fc3142088a3cfdf6c55244112de6e10f1266556c7c37f7df6b",
+      "output_sha256": "b0ddbb1e896f681c3867b5a6d639eeb23592b72975e698ed712a318058beaf57",
+      "page_count_before": 7,
+      "page_count_after": 7
+    }
+  ],
+  "counts": {
+    "total": 2,
+    "preserved_existing": 0,
+    "stamped": 2,
+    "appended_pages": 0
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "schema": "specialty-recovery-qa-v1",
+  "status": "pass",
+  "counts": {
+    "pdfs": 7,
+    "qpdf_pass": 7,
+    "unicode_identity_pass": 7,
+    "target_outline_pass": 7,
+    "a4_rotation_zero_pass": 7,
+    "classification_marker_absent": 7,
+    "approval_and_department_stamp_visual_pass": 7
+  },
+  "page_counts": {
+    "20012102-2": 10,
+    "20023205-2": 7,
+    "20012106-2": 9,
+    "20014101-2": 8,
+    "20044202-2": 8,
+    "2002313-2": 6,
+    "2003442-3": 8
+  },
+  "visual_review": {
+    "render_dpi": 300,
+    "reviewed": "First and last page of all seven PDFs, including every edited title, approval table, and department stamp.",
+    "result": "pass: Arabic titles are correctly shaped and unclipped; approval tables and stamps are legible and unobstructed."
+  },
+  "pixel_isolation": {
+    "comparison_dpi": 150,
+    "result": "pass: every unchanged page is pixel-identical to its source or pre-stamp baseline; changed pixels occur only in the approved title or stamp rectangle.",
+    "records": [
+      {
+        "code": "20012102-2",
+        "changed_pages": [10],
+        "changed_bbox_top_points": [207.36, 606.72, 387.36, 677.28]
+      },
+      {
+        "code": "20023205-2",
+        "changed_pages": [7],
+        "changed_bbox_top_points": [207.36, 700.32, 387.36, 770.88]
+      },
+      {
+        "code": "20012106-2",
+        "changed_pages": [1],
+        "changed_bbox_top_points": [359.52, 408.48, 448.8, 430.08]
+      },
+      {
+        "code": "20014101-2",
+        "changed_pages": [1],
+        "changed_bbox_top_points": [359.52, 408.48, 448.8, 430.08]
+      },
+      {
+        "code": "20044202-2",
+        "changed_pages": [1],
+        "changed_bbox_top_points": [359.52, 408.48, 448.8, 430.08]
+      },
+      {
+        "code": "2002313-2",
+        "changed_pages": [1],
+        "changed_bbox_top_points": [328.8, 154.08, 434.4, 179.52]
+      },
+      {
+        "code": "2003442-3",
+        "changed_pages": [1],
+        "changed_bbox_top_points": [283.68, 331.2, 408.96, 352.32]
+      }
+    ]
+  },
+  "identity_checks": {
+    "target_title_and_code_extract_as_unicode": "7/7 pass",
+    "old_exact_cover_title_absent_from_page_1_text": "5/5 adapted-title PDFs pass",
+    "target_title_outline_points_to_page_1": "7/7 pass"
+  },
+  "stamp_checks": {
+    "new_islamic_culture_stamps": "2/2 pass",
+    "existing_correct_department_stamps_preserved": "5/5 pass",
+    "stamp_audit_hashes_match_final_pdfs": true
+  },
+  "coverage_after_linking": {
+    "all_unique": "307/536 (57.28%)",
+    "all_occurrences": "497/993 (50.05%)",
+    "specialty_unique": "307/479 (64.09%)",
+    "specialty_occurrences": "497/765 (64.97%)"
+  }
+}

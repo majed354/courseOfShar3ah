@@ -1,0 +1,674 @@
+{
+  "schema": "department-stamp-verification-v1",
+  "render_dpi": 96,
+  "counts": {
+    "total": 52,
+    "passed": 52,
+    "failed": 0
+  },
+  "errors": [],
+  "records": [
+    {
+      "relative_path": "103131-3.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 21654,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "103141-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [],
+      "changed_pixels_inside_stamp_bbox": 0,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "103281-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 21590,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "103282-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        7
+      ],
+      "changed_pixels_inside_stamp_bbox": 21592,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "103349-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 21590,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "103411-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 21831,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001101-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        11
+      ],
+      "changed_pixels_inside_stamp_bbox": 19152,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001112-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        7
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001128-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001148-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [],
+      "changed_pixels_inside_stamp_bbox": 0,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001171-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        7
+      ],
+      "changed_pixels_inside_stamp_bbox": 22895,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001237-4.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [],
+      "changed_pixels_inside_stamp_bbox": 0,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001245-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [],
+      "changed_pixels_inside_stamp_bbox": 0,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001250-4.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        9
+      ],
+      "changed_pixels_inside_stamp_bbox": 24823,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001255-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        10
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001256-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001257-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001258-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        9
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001259-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        10
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001261-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001263-4.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 24823,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001340-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [],
+      "changed_pixels_inside_stamp_bbox": 0,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001346-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001350-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 24823,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001373-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 22895,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001403-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        10
+      ],
+      "changed_pixels_inside_stamp_bbox": 23135,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001413-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        7
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001414-4.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        7
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001421-4.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        13
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001433-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 24823,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001445-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        7
+      ],
+      "changed_pixels_inside_stamp_bbox": 19152,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001465-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        7
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2001474-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 22895,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2002200-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 19152,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2002220-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        7
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2002221-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        7
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2002225-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        7
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2002226-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        7
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "20023110-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 19152,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2003229-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        9
+      ],
+      "changed_pixels_inside_stamp_bbox": 24960,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2003230-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 24960,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "20034102-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        9
+      ],
+      "changed_pixels_inside_stamp_bbox": 24720,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "20042106-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [],
+      "changed_pixels_inside_stamp_bbox": 0,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2004245-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2004258-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        9
+      ],
+      "changed_pixels_inside_stamp_bbox": 23135,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2004273-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        7
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "20043106-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 12632,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2004373-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [],
+      "changed_pixels_inside_stamp_bbox": 0,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2004414-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        7
+      ],
+      "changed_pixels_inside_stamp_bbox": 22895,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2004474-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        8
+      ],
+      "changed_pixels_inside_stamp_bbox": 25064,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "2004493-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        12
+      ],
+      "changed_pixels_inside_stamp_bbox": 22895,
+      "changed_pixels_outside_stamp_bbox": 0
+    },
+    {
+      "relative_path": "990415-2.pdf",
+      "status": "pass_stamped",
+      "qpdf": "pass",
+      "text": "identical",
+      "page_boxes_rotation_annotations": "identical_on_all_original_pages",
+      "document_metadata_catalog_bookmarks": "identical",
+      "changed_original_pages": [
+        7
+      ],
+      "changed_pixels_inside_stamp_bbox": 19152,
+      "changed_pixels_outside_stamp_bbox": 0
+    }
+  ]
+}

@@ -1,0 +1,3461 @@
+{
+  "schema": "raw-missing-course-recovery-bundle-v1",
+  "selection_rule": "Courses currently missing course_details in data.json with matching raw identity by code and title, plus two verified same-identity code migrations explicitly requested.",
+  "records": [
+    {
+      "code": "103131-3",
+      "title": "النحو (١)",
+      "hours": 3,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/نحو ( 1 ).pdf",
+      "source_sha256": "27c2297ecffc19bc1ed98fc05eacc5ada9a8fbbcbbfefd416fe6ac9d9b7e50bd",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            409.639,
+            448.9,
+            429.889
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "نحو (1)",
+          "to": "النحو (١)"
+        }
+      ],
+      "stamp_status": "add_from_recovered_embedded_asset",
+      "baseline_sha256": "e58792e8232b1240617ce0142e8241bace1b0e4b17607834fb3a30f49d1cfb4e",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "103131-3.pdf",
+        "department_key": "arabic_language",
+        "stamp_asset": "tmp/pdfs/raw-recovery-20260827/arabic-language-stamp.jpg",
+        "stamp_asset_sha256": "2f1d2e0e536cd7ad29c568c75f6578341f5c31b3c1d7f54b643a4d8cd78413b6",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.66,
+          427.85,
+          180.0,
+          67.0
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 81130,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "e58792e8232b1240617ce0142e8241bace1b0e4b17607834fb3a30f49d1cfb4e",
+        "output_sha256": "92203326a17446100a957a2afb719e76b1414cd3ef069be5a3a4b8f40e2498bf",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "92203326a17446100a957a2afb719e76b1414cd3ef069be5a3a4b8f40e2498bf",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "103141-2",
+      "title": "البلاغة",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف البلاغة برنامج القراءات ).pdf",
+      "source_sha256": "43e1e1303f433136f911ec9aec0bfff5b7d2583fbc8e9462e892e8023557f126",
+      "source_pages_inclusive": "1-6",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 6,
+        "output_page_1_based": 6
+      },
+      "edits_applied": [
+        {
+          "kind": "extract_pages",
+          "source_pages_inclusive": "1-6"
+        }
+      ],
+      "stamp_status": "add_from_recovered_embedded_asset",
+      "baseline_sha256": "be2ee9b070e774ff62182c2f14ec02ae505158471435da70c16fc6420d73578e",
+      "page_count_before_stamp": 6,
+      "department_stamp": {
+        "relative_path": "103141-2.pdf",
+        "department_key": "arabic_language",
+        "stamp_asset": "tmp/pdfs/raw-recovery-20260827/arabic-language-stamp.jpg",
+        "stamp_asset_sha256": "2f1d2e0e536cd7ad29c568c75f6578341f5c31b3c1d7f54b643a4d8cd78413b6",
+        "status": "stamp_added",
+        "placement": "appended_final_stamp_page",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          207.66,
+          96.0,
+          180.0,
+          67.0
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 0,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "be2ee9b070e774ff62182c2f14ec02ae505158471435da70c16fc6420d73578e",
+        "output_sha256": "4e2f115d343d5da0d3a763f9dad7f3fbccb303c6829326c18f31b6ee65671937",
+        "page_count_before": 6,
+        "page_count_after": 7
+      },
+      "output_sha256": "4e2f115d343d5da0d3a763f9dad7f3fbccb303c6829326c18f31b6ee65671937",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "103171-2",
+      "title": "التحرير العربي",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف التحرير العربي برنامج القراءات  لكلية الشريعة 2024.pdf",
+      "source_sha256": "19fca17c5e1ed49ed857d57dd01050e03d1feb9b90d1e6d74e6429392a344242",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [],
+      "stamp_status": "preserve_existing_correct_stamp",
+      "baseline_sha256": "0659564173c2889c569539f6c1338b97d9d067bf5aafe63071be3f43f78cd53b",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "status": "preserved_existing_correct_stamp"
+      },
+      "output_sha256": "0659564173c2889c569539f6c1338b97d9d067bf5aafe63071be3f43f78cd53b",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "103213-3",
+      "title": "النحو (٣)",
+      "hours": 3,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/مقرر النحو ( 3 ).pdf",
+      "source_sha256": "f667ca79c9d68fc330cb504b923b4ef79d323d242012a3920628d6d910ebe232",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            409.674,
+            421.15,
+            429.916
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "مقرر النحو (3)",
+          "to": "النحو (٣)"
+        }
+      ],
+      "stamp_status": "preserve_existing_correct_stamp",
+      "baseline_sha256": "e431caf05b3433e9a9cb260a62d00306d4e3ccdaff17a7eba4c7b92bc3b45759",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "status": "preserved_existing_correct_stamp"
+      },
+      "output_sha256": "e431caf05b3433e9a9cb260a62d00306d4e3ccdaff17a7eba4c7b92bc3b45759",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "103245-2",
+      "title": "النحو (٣)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف نحو (3) برنامج القراءات  لكلية الشريعة 2024.pdf",
+      "source_sha256": "861612b1548cda554ab1bad9648c5e01a681203fb26d62948ba2158b16944d3e",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            409.662,
+            421.3,
+            429.84
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "مقرر النحو (3)",
+          "to": "النحو (٣)"
+        }
+      ],
+      "stamp_status": "preserve_existing_correct_stamp",
+      "baseline_sha256": "9ce334f78ecf67d832ff3b3405b35f6a79a92814274c342e5bc61b20e448f206",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "status": "preserved_existing_correct_stamp"
+      },
+      "output_sha256": "9ce334f78ecf67d832ff3b3405b35f6a79a92814274c342e5bc61b20e448f206",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "103281-2",
+      "title": "النحو (١)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف نحو (1) برنامج القراءات لكلية الشريعة 2024.pdf",
+      "source_sha256": "93a0e8bbdc354c98a1c5be63164eeddbd11d723931b9083e660a014ea9f6a879",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            409.662,
+            449.22,
+            429.84
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "نحو (1)",
+          "to": "النحو (١)"
+        }
+      ],
+      "stamp_status": "add_from_recovered_embedded_asset",
+      "baseline_sha256": "175bd32c3ecfdb1151f85c5b8812d58c4d866845c1bee14463f6079f80ac5c88",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "103281-2.pdf",
+        "department_key": "arabic_language",
+        "stamp_asset": "tmp/pdfs/raw-recovery-20260827/arabic-language-stamp.jpg",
+        "stamp_asset_sha256": "2f1d2e0e536cd7ad29c568c75f6578341f5c31b3c1d7f54b643a4d8cd78413b6",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.66,
+          427.827,
+          180.0,
+          67.0
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 81130,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "175bd32c3ecfdb1151f85c5b8812d58c4d866845c1bee14463f6079f80ac5c88",
+        "output_sha256": "5754e83ea6d6fd6562c8d4ef1c753371a2369e4a3d4a298183fa84d89aad07dc",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "5754e83ea6d6fd6562c8d4ef1c753371a2369e4a3d4a298183fa84d89aad07dc",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "103282-2",
+      "title": "النحو (٢)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف نحو (2)  برنامج القراءات لكلية الشريعة 2024.pdf",
+      "source_sha256": "07900d52f7f01185867175bd1e781e0dd241962dff6c6abe83252515f524f38b",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            409.662,
+            449.22,
+            429.84
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "نحو 2",
+          "to": "النحو (٢)"
+        }
+      ],
+      "stamp_status": "add_from_recovered_embedded_asset",
+      "baseline_sha256": "a47c313698203e0d99bb36131fc70b4d3783a840920ed4adbacb01419affba21",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "103282-2.pdf",
+        "department_key": "arabic_language",
+        "stamp_asset": "tmp/pdfs/raw-recovery-20260827/arabic-language-stamp.jpg",
+        "stamp_asset_sha256": "2f1d2e0e536cd7ad29c568c75f6578341f5c31b3c1d7f54b643a4d8cd78413b6",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          207.66,
+          712.6,
+          180.0,
+          67.0
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 81557,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "a47c313698203e0d99bb36131fc70b4d3783a840920ed4adbacb01419affba21",
+        "output_sha256": "30805da13e5cbac1443ff5a897e3863a97ff8f8ea08202a5200274ab9d7eb817",
+        "page_count_before": 7,
+        "page_count_after": 7
+      },
+      "output_sha256": "30805da13e5cbac1443ff5a897e3863a97ff8f8ea08202a5200274ab9d7eb817",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "103349-2",
+      "title": "النحو (٤)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف نحو (4) برنامج القراءات لكلية الشريعة 2024.pdf",
+      "source_sha256": "de26f099f8393c6dc474ef8e44150bb7a0018bf0f29fd16b058589667ded7209",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [],
+      "stamp_status": "add_from_recovered_embedded_asset",
+      "baseline_sha256": "9fc5e66ebe3812be381a375c9312436dc1ce72ba5f97eaf95f247a9ee1b49890",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "103349-2.pdf",
+        "department_key": "arabic_language",
+        "stamp_asset": "tmp/pdfs/raw-recovery-20260827/arabic-language-stamp.jpg",
+        "stamp_asset_sha256": "2f1d2e0e536cd7ad29c568c75f6578341f5c31b3c1d7f54b643a4d8cd78413b6",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.66,
+          640.82,
+          180.0,
+          67.0
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 81130,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "9fc5e66ebe3812be381a375c9312436dc1ce72ba5f97eaf95f247a9ee1b49890",
+        "output_sha256": "b4916b9b316ad84084a7912ff6c4c1eebc7862865ab04a7f882c88a6e4663e4d",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "b4916b9b316ad84084a7912ff6c4c1eebc7862865ab04a7f882c88a6e4663e4d",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "103411-2",
+      "title": "الصرف",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف مقرر الصرف برنامج القراءات لكلية الشريعة إصدار 2024م (1).pdf",
+      "source_sha256": "01c23803272bf7239923d427a9243cd34bd7a6a3077ead97823117257392bc68",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "fill_required",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "same-directory Arabic-course peers",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [
+        {
+          "kind": "complete_approval_table",
+          "page_1_based": 8,
+          "values": {
+            "authority": [
+              "مجلس القسم (قسم اللغة العربية)"
+            ],
+            "session": [
+              "11"
+            ],
+            "date": [
+              "1446/9/10هـ الموافق 2025/3/10م"
+            ]
+          },
+          "evidence": "same-directory Arabic-course peers",
+          "cells": [
+            {
+              "row": "authority",
+              "value": "مجلس القسم (قسم اللغة العربية)",
+              "rect_top_points": [
+                61.183,
+                492.72,
+                441.16,
+                516.5
+              ],
+              "htmlbox_scale": 1.0
+            },
+            {
+              "row": "session",
+              "value": "11",
+              "rect_top_points": [
+                61.183,
+                520.5,
+                441.16,
+                543.68
+              ],
+              "htmlbox_scale": 1.0
+            },
+            {
+              "row": "date",
+              "value": "1446/9/10هـ الموافق 2025/3/10م",
+              "rect_top_points": [
+                61.183,
+                547.68,
+                441.16,
+                569.78
+              ],
+              "htmlbox_scale": 1.0
+            }
+          ]
+        }
+      ],
+      "stamp_status": "add_from_recovered_embedded_asset",
+      "baseline_sha256": "640b5302aa8f9fcfac8d9c2a81ab1ac535635fd2d0349f46546532c9a0a21c7e",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "103411-2.pdf",
+        "department_key": "arabic_language",
+        "stamp_asset": "tmp/pdfs/raw-recovery-20260827/arabic-language-stamp.jpg",
+        "stamp_asset_sha256": "2f1d2e0e536cd7ad29c568c75f6578341f5c31b3c1d7f54b643a4d8cd78413b6",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.66,
+          587.78,
+          180.0,
+          67.0
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 81557,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "640b5302aa8f9fcfac8d9c2a81ab1ac535635fd2d0349f46546532c9a0a21c7e",
+        "output_sha256": "3e03f6253863a53e1d25f55053ff1f64e20772732ab609a569b054586d1356f7",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "3e03f6253863a53e1d25f55053ff1f64e20772732ab609a569b054586d1356f7",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2001101-2",
+      "title": "مصطلح الحديث",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف المقررات/توصيفات مقدمة من الدراسات الإسلامية/توصيفات الحديث وعلومه برنامج القرآن وعلومه/توصيف مصطلح الحديث قسم القرآن وعلومه.docx",
+      "source_sha256": "ebbf797e18f15d30e1fe4ba2d800f64f57e9c4d4edaa47335c10240c2cdadfa5",
+      "source_pages_inclusive": null,
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم القراءات",
+          "مجلس كلية الشريعة والأنظمة"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "4fb3e228e5e88d4e47b08b0984f468036ea07892ab93f27ac5d5b3e22477d16b",
+      "page_count_before_stamp": 11,
+      "department_stamp": {
+        "relative_path": "2001101-2.pdf",
+        "department_key": "qiraat",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+        "stamp_asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 11,
+        "bbox_top_points": [
+          212.652,
+          470.479,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 73305,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "4fb3e228e5e88d4e47b08b0984f468036ea07892ab93f27ac5d5b3e22477d16b",
+        "output_sha256": "471c8082c4a093ac531666ac6ffc7129b44f06ed07499a6864c85559475cd712",
+        "page_count_before": 11,
+        "page_count_after": 11
+      },
+      "output_sha256": "471c8082c4a093ac531666ac6ffc7129b44f06ed07499a6864c85559475cd712",
+      "page_count_after_stamp": 11
+    },
+    {
+      "code": "2001112-2",
+      "title": "المدخل لدراسة الفقه",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/المدخل لدراسة الفقه ( متطلب كلية).pdf",
+      "source_sha256": "d232009fbbd338121667c7b1833503a3dbf3cd1517f685338781baeb408ce607",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [
+        {
+          "kind": "extract_pages",
+          "source_pages_inclusive": "1-7"
+        },
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            367.739,
+            448.9,
+            388.349
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "المدخل لدراسة الفقه (متطلب كلية)",
+          "to": "المدخل لدراسة الفقه"
+        },
+        {
+          "kind": "remove_nonpublic_link_annotations",
+          "count": 3,
+          "pages_1_based": [
+            6
+          ],
+          "targets": [
+            "about:blank"
+          ]
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "c45ce52caea07edfb96b1ffde382c0022bcb371ceeeab08824fe41ff6610c112",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "2001112-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          207.66,
+          387.51,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90097,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "c45ce52caea07edfb96b1ffde382c0022bcb371ceeeab08824fe41ff6610c112",
+        "output_sha256": "2c61cc5cd856ab38bef825cacbe60cc69b483c0b0766508b0de2dc805834d0a1",
+        "page_count_before": 7,
+        "page_count_after": 7
+      },
+      "output_sha256": "2c61cc5cd856ab38bef825cacbe60cc69b483c0b0766508b0de2dc805834d0a1",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "2001128-2",
+      "title": "فقه آيات وأحاديث الأحكام (1)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/فقه آيات وأحاديث الأحكام 1.pdf",
+      "source_sha256": "cccfe94933dadb04c3f03de954cfdf1d53b043edb97cec14b5152442dbfe5724",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            406.744,
+            449.45,
+            426.836
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "فقه آيات وأحاديث الأحكام 1",
+          "to": "فقه آيات وأحاديث الأحكام (1)"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "b63d1ef28596cc33d5590544ffb60ecd3fc2f3de2760987a7a910b56c57600b4",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2001128-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.625,
+          300.288,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90524,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "b63d1ef28596cc33d5590544ffb60ecd3fc2f3de2760987a7a910b56c57600b4",
+        "output_sha256": "c9c2d85a27d857f067e5eac06206424e14bbe61d7abd151e96a65188b3a9cf71",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "c9c2d85a27d857f067e5eac06206424e14bbe61d7abd151e96a65188b3a9cf71",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2001148-2",
+      "title": "الخلاف والمناظرة",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/الخلاف والمناظرة.pdf",
+      "source_sha256": "9e2ccbb8200cb22aa504cc348caaae12cdbfeb1719f9fc576dbc38d595aae611",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "414816610a407ea6d9e2252c1d5632c196b3f9d6c91f4a3f386950b75c111b87",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "2001148-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "appended_final_stamp_page",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.65,
+          96.0,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 0,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "414816610a407ea6d9e2252c1d5632c196b3f9d6c91f4a3f386950b75c111b87",
+        "output_sha256": "41c0fa5034291c46f2cb3ec2feb365a8872a5790c779d07e14b305318fc23365",
+        "page_count_before": 7,
+        "page_count_after": 8
+      },
+      "output_sha256": "41c0fa5034291c46f2cb3ec2feb365a8872a5790c779d07e14b305318fc23365",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2001171-2",
+      "title": "العقيدة (1)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف المقررات/توصيفات مقدمة من الدراسات الإسلامية/توصيفات العقيدة ببرنامج القرآن وعلومه/توصيف العقيدة 1 في قسم القرآن وعلومه.docx",
+      "source_sha256": "2fc9a9e0cb2f7f14992b2d7dd0819ce36bb847c391f4999408c9bea00df019f0",
+      "source_pages_inclusive": null,
+      "approval": {
+        "status": "fill_required",
+        "authority": [
+          "مجلس قسم الثقافة الإسلامية",
+          "مجلس كلية الشريعة والأنظمة"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "creed-course peers 2001373-2 and 2001474-2",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "to": "العقيدة (1)"
+        },
+        {
+          "kind": "complete_approval_table",
+          "values": {
+            "authority": [
+              "مجلس قسم الثقافة الإسلامية",
+              "مجلس كلية الشريعة والأنظمة"
+            ],
+            "session": [
+              "10"
+            ],
+            "date": [
+              "1446/9/3هـ"
+            ]
+          },
+          "evidence": "creed-course peers 2001373-2 and 2001474-2"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "f7c2ca39b99eeebc9d54d7b434e3630163e30706bdd0669f345445d4fdeb0578",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "2001171-2.pdf",
+        "department_key": "islamic_culture",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+        "stamp_asset_sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          207.652,
+          714.891,
+          180.0,
+          70.7
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 84546,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "f7c2ca39b99eeebc9d54d7b434e3630163e30706bdd0669f345445d4fdeb0578",
+        "output_sha256": "4f6c620dc944121d7e321c45f6c8ab0aabbf62b4d190d91e41bdd35dd66f4295",
+        "page_count_before": 7,
+        "page_count_after": 7
+      },
+      "output_sha256": "4f6c620dc944121d7e321c45f6c8ab0aabbf62b4d190d91e41bdd35dd66f4295",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "2001237-4",
+      "title": "التدريب العملي",
+      "hours": 4,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/النظام القضائي في المملكة.pdf",
+      "source_sha256": "fc92455dd49a2e7e8bc023a8c9e1ba2350c5e863128aa19db1f97b47139b515e",
+      "source_pages_inclusive": "10-16",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 16,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [
+        {
+          "kind": "extract_pages",
+          "source_pages_inclusive": "10-16"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "985adac3612b975d65eec4ee3cdd3fcf3f81ed42cbf034d5124bc91e03f66561",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "2001237-4.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "appended_final_stamp_page",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.65,
+          96.0,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 0,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "985adac3612b975d65eec4ee3cdd3fcf3f81ed42cbf034d5124bc91e03f66561",
+        "output_sha256": "40924902df0719b1bee2babbd434873ffb7c34adfa1638148c9f9a340e1e3bdb",
+        "page_count_before": 7,
+        "page_count_after": 8
+      },
+      "output_sha256": "40924902df0719b1bee2babbd434873ffb7c34adfa1638148c9f9a340e1e3bdb",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2001245-2",
+      "title": "العقيدة (2)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف المقررات/توصيفات مقدمة من الدراسات الإسلامية/توصيفات العقيدة ببرنامج القرآن وعلومه/توصيف العقيدة 2 في قسم القرآن وعلومه.docx",
+      "source_sha256": "2ccc48761169dfb0886e4a63b72ae0be1d5d368ebc7e066be309d119d6b3c857",
+      "source_pages_inclusive": null,
+      "approval": {
+        "status": "fill_required",
+        "authority": [
+          "مجلس قسم الثقافة الإسلامية",
+          "مجلس كلية الشريعة والأنظمة"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "creed-course peers 2001373-2 and 2001474-2",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "to": "العقيدة (2)"
+        },
+        {
+          "kind": "complete_approval_table",
+          "values": {
+            "authority": [
+              "مجلس قسم الثقافة الإسلامية",
+              "مجلس كلية الشريعة والأنظمة"
+            ],
+            "session": [
+              "10"
+            ],
+            "date": [
+              "1446/9/3هـ"
+            ]
+          },
+          "evidence": "creed-course peers 2001373-2 and 2001474-2"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "16f5bba8b109c2e14d76912363f389a7582c73a3784f4438d2a60ac2fd1cb2c7",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2001245-2.pdf",
+        "department_key": "islamic_culture",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+        "stamp_asset_sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1",
+        "status": "stamp_added",
+        "placement": "appended_final_stamp_page",
+        "target_page_1_based": 9,
+        "bbox_top_points": [
+          207.652,
+          96.0,
+          180.0,
+          70.7
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 0,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "16f5bba8b109c2e14d76912363f389a7582c73a3784f4438d2a60ac2fd1cb2c7",
+        "output_sha256": "1cd507f2197ea19747279c821a41ae09b99924e4357c9cbe78fe7b2d2be3ce87",
+        "page_count_before": 8,
+        "page_count_after": 9
+      },
+      "output_sha256": "1cd507f2197ea19747279c821a41ae09b99924e4357c9cbe78fe7b2d2be3ce87",
+      "page_count_after_stamp": 9
+    },
+    {
+      "code": "2001250-4",
+      "title": "أدلة الأحكام الشرعية (١)",
+      "hours": 4,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/أدلة الأحكام الشرعية 1.pdf",
+      "source_sha256": "58072d1610226d2352f1deb69bfff1c0f1c33ac1b70d2b5b5e05bf2cf35d2c36",
+      "source_pages_inclusive": "1-9",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 9,
+        "output_page_1_based": 9
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            409.639,
+            448.9,
+            429.889
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "أدلة الأحكام الشرعية 1",
+          "to": "أدلة الأحكام الشرعية (١)"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "46808ab1ab9b016ff531a50106d7019f3048a9ecfe521eea7c3ec92c07dcc8c1",
+      "page_count_before_stamp": 9,
+      "department_stamp": {
+        "relative_path": "2001250-4.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 9,
+        "bbox_top_points": [
+          207.66,
+          234.74,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90097,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "46808ab1ab9b016ff531a50106d7019f3048a9ecfe521eea7c3ec92c07dcc8c1",
+        "output_sha256": "c3787a1a784863c34edeb8a335680ef762f312b106576feb305e456a81330b3e",
+        "page_count_before": 9,
+        "page_count_after": 9
+      },
+      "output_sha256": "c3787a1a784863c34edeb8a335680ef762f312b106576feb305e456a81330b3e",
+      "page_count_after_stamp": 9
+    },
+    {
+      "code": "2001255-2",
+      "title": "قاعة بحث في الفقه وأصوله",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/قاعة بحث في الفقه واصوله.pdf",
+      "source_sha256": "60e8ec8ff9e85dc382dc2b44ed48c6a1a6787640f08ff252d684e5c95420df5c",
+      "source_pages_inclusive": "1-10",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 10,
+        "output_page_1_based": 10
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            409.639,
+            448.9,
+            429.889
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "قاعة بحث في الفقه واصوله",
+          "to": "قاعة بحث في الفقه وأصوله"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "67d2ad37b242e39b0c084a0cc5a5ac3b3549b8a5ba75691428e83e527e6b48df",
+      "page_count_before_stamp": 10,
+      "department_stamp": {
+        "relative_path": "2001255-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 10,
+        "bbox_top_points": [
+          207.66,
+          300.515,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90097,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "67d2ad37b242e39b0c084a0cc5a5ac3b3549b8a5ba75691428e83e527e6b48df",
+        "output_sha256": "75546f5fcef613416566c46f46c6c7efabb59f4fb161ed0d65b97490ceec34f7",
+        "page_count_before": 10,
+        "page_count_after": 10
+      },
+      "output_sha256": "75546f5fcef613416566c46f46c6c7efabb59f4fb161ed0d65b97490ceec34f7",
+      "page_count_after_stamp": 10
+    },
+    {
+      "code": "2001256-2",
+      "title": "فقه آيات وأحاديث الأحكام (٢)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/فقه آيات وأحاديث الأحكام2.pdf",
+      "source_sha256": "4eab88e357e9d9b245a0aae03285eab82013e56570ae67c672b4ee40cdd2ce38",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            409.744,
+            449.45,
+            429.836
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "فقه آيات وأحاديث الأحكام2",
+          "to": "فقه آيات وأحاديث الأحكام (٢)"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "07fee9387e1d905f64b582f8faf964301a493de3ff95729c5f9c12b03210a221",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2001256-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.625,
+          387.558,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90524,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "07fee9387e1d905f64b582f8faf964301a493de3ff95729c5f9c12b03210a221",
+        "output_sha256": "95f908d981ed595adfe56b7f22accc9d6a21ccbb56a466bd4c644de9e2852ef5",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "95f908d981ed595adfe56b7f22accc9d6a21ccbb56a466bd4c644de9e2852ef5",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2001257-2",
+      "title": "فقه آيات وأحاديث الأحكام (٣)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/فقه آيات وأحاديث الأحكام3.pdf",
+      "source_sha256": "02f3c8bb3f6facb8d11db2c914b205d7bff03cdd604081c6667cdf4faf4bbd90",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            409.744,
+            449.45,
+            429.836
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "فقه آيات وأحاديث الأحكام3",
+          "to": "فقه آيات وأحاديث الأحكام (٣)"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "8b4b54985005fc716a14a840cb8fcded69acf1e0814484ae702f709891515cbb",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2001257-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.625,
+          300.288,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90524,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "8b4b54985005fc716a14a840cb8fcded69acf1e0814484ae702f709891515cbb",
+        "output_sha256": "7b8cfdebf6d88e34ef7a19c4cc7fcc30de7f2de134d90a2fc697d2963d284d2f",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "7b8cfdebf6d88e34ef7a19c4cc7fcc30de7f2de134d90a2fc697d2963d284d2f",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2001258-2",
+      "title": "فقه آيات وأحاديث الأحكام (٤)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/فقه آيات وأحاديث الأحكام4.pdf",
+      "source_sha256": "d3b82ec881b27f32930c47497b0bb26e82fde92358c6113594f444c463763efa",
+      "source_pages_inclusive": "1-9",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 9,
+        "output_page_1_based": 9
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            367.774,
+            449.18,
+            388.016
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "فقه آيات وأحاديث الأحكام4",
+          "to": "فقه آيات وأحاديث الأحكام (٤)"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "c232965df72f0cd40ed71251f893384c9ee5185d107b4494f5b7afbaf1b768dc",
+      "page_count_before_stamp": 9,
+      "department_stamp": {
+        "relative_path": "2001258-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 9,
+        "bbox_top_points": [
+          207.65,
+          408.3,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90524,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "c232965df72f0cd40ed71251f893384c9ee5185d107b4494f5b7afbaf1b768dc",
+        "output_sha256": "84e4018a6158f6901860bf6f4a14377d7454534758a7ef2c0c636535679e57bc",
+        "page_count_before": 9,
+        "page_count_after": 9
+      },
+      "output_sha256": "84e4018a6158f6901860bf6f4a14377d7454534758a7ef2c0c636535679e57bc",
+      "page_count_after_stamp": 9
+    },
+    {
+      "code": "2001259-2",
+      "title": "فقه آيات وأحاديث الأحكام (٥)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/فقه آيات وأحاديث الأحكام5.pdf",
+      "source_sha256": "cd0771d2d16f213e98fe6d6248ebab82206e5f734afefba743ddea22a9f19111",
+      "source_pages_inclusive": "1-10",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 10,
+        "output_page_1_based": 10
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            409.674,
+            449.18,
+            429.916
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "فقه آيات وأحاديث الأحكام5",
+          "to": "فقه آيات وأحاديث الأحكام (٥)"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "50804e69315863d76247621523fd48963b0218bf1e9548a59ca87483099b3f8e",
+      "page_count_before_stamp": 10,
+      "department_stamp": {
+        "relative_path": "2001259-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 10,
+        "bbox_top_points": [
+          207.65,
+          408.3,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90524,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "50804e69315863d76247621523fd48963b0218bf1e9548a59ca87483099b3f8e",
+        "output_sha256": "329a3a9f3d3969354f58729383d4b4f6467c92e403897f8d80976450448ac85c",
+        "page_count_before": 10,
+        "page_count_after": 10
+      },
+      "output_sha256": "329a3a9f3d3969354f58729383d4b4f6467c92e403897f8d80976450448ac85c",
+      "page_count_after_stamp": 10
+    },
+    {
+      "code": "2001261-2",
+      "title": "أدلة الأحكام الشرعية (٢)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/أدلة الأحكام الشرعية 2.pdf",
+      "source_sha256": "28f51dd0e5b51734b8dbd18f829675ba840adfb54cfb5a43f19bd99a0fb0ded2",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            409.744,
+            449.45,
+            429.836
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "أدلة الأحكام الشرعية 2",
+          "to": "أدلة الأحكام الشرعية (٢)"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "7f8fa09b865071377195b92497da249ce81ee81668b2c8348d33c3e2dd44b519",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2001261-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.625,
+          177.467,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90524,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "7f8fa09b865071377195b92497da249ce81ee81668b2c8348d33c3e2dd44b519",
+        "output_sha256": "22978d5a352aa2e4fb5bff48ec08c3415e7e9b24f3f1ec3ae7a98d7e5fc70fca",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "22978d5a352aa2e4fb5bff48ec08c3415e7e9b24f3f1ec3ae7a98d7e5fc70fca",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2001263-4",
+      "title": "دلالات الألفاظ (٢)",
+      "hours": 4,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/دلالات الألفاظ ( 2 ).pdf",
+      "source_sha256": "f4f5e280d696b96d0c3c249d42de6b982fcf320af7b359b0923b40185836fee1",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "90f1404a479d90d989dd89b7558235e39d651359794728a10e6472a65d23b4ff",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2001263-4.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.65,
+          366.797,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90097,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "90f1404a479d90d989dd89b7558235e39d651359794728a10e6472a65d23b4ff",
+        "output_sha256": "16f41c0ce7e81e36e2809911003ce52b8f2f03ab62a3b52ef8d99d7d65f07afc",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "16f41c0ce7e81e36e2809911003ce52b8f2f03ab62a3b52ef8d99d7d65f07afc",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2001340-2",
+      "title": "التخريج",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات الحديث وعلومه ببرنامج القرءات/توصيف مقرر التخريج قسم القراءات.docx",
+      "source_sha256": "aae8515827153e3bb8925e482d9f4e4e18470b8fbcde14f10ecf36dc6cc442bb",
+      "source_pages_inclusive": null,
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم القراءات",
+          "مجلس كلية الشريعة والأنظمة"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "117bf8b83cc5285184996e7b8b24e90721021f99946e0d8a67f454260c6f349f",
+      "page_count_before_stamp": 12,
+      "department_stamp": {
+        "relative_path": "2001340-2.pdf",
+        "department_key": "qiraat",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+        "stamp_asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "status": "stamp_added",
+        "placement": "appended_final_stamp_page",
+        "target_page_1_based": 13,
+        "bbox_top_points": [
+          212.652,
+          96.0,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 0,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "117bf8b83cc5285184996e7b8b24e90721021f99946e0d8a67f454260c6f349f",
+        "output_sha256": "4a721e10a8b2240ad66bfcadfca855b0a497dfc89a4924425885b86379798107",
+        "page_count_before": 12,
+        "page_count_after": 13
+      },
+      "output_sha256": "4a721e10a8b2240ad66bfcadfca855b0a497dfc89a4924425885b86379798107",
+      "page_count_after_stamp": 13
+    },
+    {
+      "code": "2001346-2",
+      "title": "مقاصد الشريعة",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/مقاصد الشريعة.pdf",
+      "source_sha256": "af57d5caa7a7de66b85b757c5a6795f38110fb0df4660e5b45f8784105aed7dc",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "3bd509d957a50338a44b293539c0d3c3156686f3f0ab02a8387433a7c523b931",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2001346-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.65,
+          300.253,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90524,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "3bd509d957a50338a44b293539c0d3c3156686f3f0ab02a8387433a7c523b931",
+        "output_sha256": "260b6cc20c29deaf7c3d77f004547a238c27f4dd993ae165a1d2920d58dfb251",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "260b6cc20c29deaf7c3d77f004547a238c27f4dd993ae165a1d2920d58dfb251",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2001350-2",
+      "title": "دلالات الألفاظ (١)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/دلالات الألفاظ (1).pdf",
+      "source_sha256": "576f0c670a37e1b1bed9cc09f1c5e8db744f0bfd3f37f6f5bd73cff6f3bf984f",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "b335b23fdb629fbcf2c1fc7ab79bb581203b55845ad9df3adad6c6d7b4b5af4c",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2001350-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.65,
+          283.653,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90524,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "b335b23fdb629fbcf2c1fc7ab79bb581203b55845ad9df3adad6c6d7b4b5af4c",
+        "output_sha256": "844d1e27ce0befc7dc27c7dd8b355bf8cd922f6987482abd134ecb6de0eb8bbf",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "844d1e27ce0befc7dc27c7dd8b355bf8cd922f6987482abd134ecb6de0eb8bbf",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2001373-2",
+      "title": "العقيدة (3)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات العقيدة ببرنامج القراءات/توصيف مقرر العقيدة 3 برنامج القراءات.docx",
+      "source_sha256": "f180b6dfcf7da5baba686f50c9984ecdbaefcc2e12a6b3e6f1636d3f9bfaceff",
+      "source_pages_inclusive": null,
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الثقافة الإسلامية"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "86e19ec3c58ce6d855fbdd0bf32c818b92a321fb8f24072d667b65e530e1de09",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2001373-2.pdf",
+        "department_key": "islamic_culture",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+        "stamp_asset_sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.652,
+          438.479,
+          180.0,
+          70.7
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 84546,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "86e19ec3c58ce6d855fbdd0bf32c818b92a321fb8f24072d667b65e530e1de09",
+        "output_sha256": "29187e773841039bf8b2d0f644ff2919e4ceb6cf75a9c0bf3c19505511487653",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "29187e773841039bf8b2d0f644ff2919e4ceb6cf75a9c0bf3c19505511487653",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2001403-2",
+      "title": "الأديان والفرق والمذاهب المعاصرة",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات العقيدة ببرنامج القراءات/الفرق والأديان والمذاهب الفكرية المعاصرة ببرنامج القراءات.docx",
+      "source_sha256": "8bc5f464cf1947351c142192b9bd7568e7a1a173df6b64e5e0045a3f74ee6df4",
+      "source_pages_inclusive": null,
+      "approval": {
+        "status": "fill_required",
+        "authority": [
+          "مجلس قسم القراءات",
+          "مجلس قسم الثقافة الإسلامية"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "same-source-family culture-course peers",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "to": "الأديان والفرق والمذاهب المعاصرة"
+        },
+        {
+          "kind": "complete_approval_table",
+          "values": {
+            "authority": [
+              "مجلس قسم القراءات",
+              "مجلس قسم الثقافة الإسلامية"
+            ],
+            "session": [
+              "10"
+            ],
+            "date": [
+              "1446/9/3هـ"
+            ]
+          },
+          "evidence": "same-source-family culture-course peers"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "bda586cd1372f31e818992d4d9c77713f80fa71bc3d2ed55ec7f6fac473a699f",
+      "page_count_before_stamp": 10,
+      "department_stamp": {
+        "relative_path": "2001403-2.pdf",
+        "department_key": "islamic_culture",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+        "stamp_asset_sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 10,
+        "bbox_top_points": [
+          207.652,
+          248.079,
+          180.0,
+          70.7
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 84973,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "bda586cd1372f31e818992d4d9c77713f80fa71bc3d2ed55ec7f6fac473a699f",
+        "output_sha256": "7cc4ed1643a8afb655ffe4710e23c20c3e69d933591b382d257dbe37b51e9652",
+        "page_count_before": 10,
+        "page_count_after": 10
+      },
+      "output_sha256": "7cc4ed1643a8afb655ffe4710e23c20c3e69d933591b382d257dbe37b51e9652",
+      "page_count_after_stamp": 10
+    },
+    {
+      "code": "2001413-2",
+      "title": "تخريج الفروع على الأصول",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/تخريج الفروع على الأصول.pdf",
+      "source_sha256": "a0da5c8749c128fadbe8c206ac2c1db7e68de1b63c7a6c560a24f2e173dfd03c",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "f59c09184239a1259be3c3e8647a0ddd6be7b26ac0dceb23ec42888e0cca3fc1",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "2001413-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          207.65,
+          596.8,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90097,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "f59c09184239a1259be3c3e8647a0ddd6be7b26ac0dceb23ec42888e0cca3fc1",
+        "output_sha256": "81bfed5f47f432baed2bebfdab883a108227d90d8c634e26e0f4066235cba846",
+        "page_count_before": 7,
+        "page_count_after": 7
+      },
+      "output_sha256": "81bfed5f47f432baed2bebfdab883a108227d90d8c634e26e0f4066235cba846",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "2001414-4",
+      "title": "القياس",
+      "hours": 4,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/القياس.pdf",
+      "source_sha256": "adbcddadfa60de3ed90c2391bde8b22eac69e0e0ec6b05051c300c495f8d3ed8",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_credit_hours",
+          "page_1_based": 3,
+          "from": 2,
+          "to": 4,
+          "rect_top_points": [
+            344.55,
+            168.644,
+            455.792,
+            189.486
+          ],
+          "htmlbox_scale": 1.0
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "f88b7ae3555a112c6cc44f98541044e296153cfaafc849f1c726abc10e27f2a2",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "2001414-4.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          207.65,
+          453.183,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90097,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "f88b7ae3555a112c6cc44f98541044e296153cfaafc849f1c726abc10e27f2a2",
+        "output_sha256": "bad5fe6305ec867f8a084fdf9a6c5cbe900b541d450950e388a195543b15ee87",
+        "page_count_before": 7,
+        "page_count_after": 7
+      },
+      "output_sha256": "bad5fe6305ec867f8a084fdf9a6c5cbe900b541d450950e388a195543b15ee87",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "2001421-4",
+      "title": "الفقه (8)",
+      "hours": 4,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/الفقه8.pdf",
+      "source_sha256": "52a6d4cb2dacd3fd99107346154f8c6d2456f4ac8cebac0cdf7d8a38807f9f57",
+      "source_pages_inclusive": "1-13",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 13,
+        "output_page_1_based": 13
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            367.774,
+            449.18,
+            388.016
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "الفقه8",
+          "to": "الفقه (8)"
+        },
+        {
+          "kind": "remove_nonpublic_link_annotations",
+          "count": 3,
+          "pages_1_based": [
+            12
+          ],
+          "targets": [
+            "about:blank"
+          ]
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "13407b402eb8a7fc038e57bd33dfaf38858dd4afb740cd5cd571cfe2b8a3719a",
+      "page_count_before_stamp": 13,
+      "department_stamp": {
+        "relative_path": "2001421-4.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 13,
+        "bbox_top_points": [
+          207.65,
+          346.055,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90524,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "13407b402eb8a7fc038e57bd33dfaf38858dd4afb740cd5cd571cfe2b8a3719a",
+        "output_sha256": "a08d001c8f4e1df4e259e63365fe4a59deed75016e723c7f64cd74626dcbbf3f",
+        "page_count_before": 13,
+        "page_count_after": 13
+      },
+      "output_sha256": "a08d001c8f4e1df4e259e63365fe4a59deed75016e723c7f64cd74626dcbbf3f",
+      "page_count_after_stamp": 13
+    },
+    {
+      "code": "2001433-2",
+      "title": "الاجتهاد والتعارض والترجيح",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/الاجتهاد والتعارض والترجيح.pdf",
+      "source_sha256": "b356f0d17d144054711dbd601198cff24e2c92341c2e4b0f08dc79793995a9c7",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "b81b21216b9230e7e5dd2fc4df302847615f6f4359ff08b22e057fcc654df646",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2001433-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.65,
+          366.797,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90097,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "b81b21216b9230e7e5dd2fc4df302847615f6f4359ff08b22e057fcc654df646",
+        "output_sha256": "e841882b6256c1068a28cb65d0aeddd00117c50b4d12815654711997d0d641de",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "e841882b6256c1068a28cb65d0aeddd00117c50b4d12815654711997d0d641de",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2001445-2",
+      "title": "أصول الفقه",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم الشريعة/توصيف مقرر أصول الفقه في برنامج القراءات.docx",
+      "source_sha256": "58a60bb4c27dea35cc74b346e0548eaba89fed39523b3fb7cf6569a44e206bdc",
+      "source_pages_inclusive": null,
+      "approval": {
+        "status": "fill_required",
+        "authority": [
+          "مجلس قسم القراءات",
+          "مجلس كلية الشريعة والأنظمة"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "broader 1446 Qiraat approval batch; medium-confidence inference",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "edits_applied": [
+        {
+          "kind": "complete_approval_table",
+          "values": {
+            "authority": [
+              "مجلس قسم القراءات",
+              "مجلس كلية الشريعة والأنظمة"
+            ],
+            "session": [
+              "10"
+            ],
+            "date": [
+              "1446/9/3هـ"
+            ]
+          },
+          "evidence": "broader 1446 Qiraat approval batch; medium-confidence inference"
+        },
+        {
+          "kind": "remove_stray_cover_code",
+          "value": "2-2001445"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "7a466243e6f91f83d525ccc4df6f046360b9ecc8c076ba32982790f3bc5647c6",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "2001445-2.pdf",
+        "department_key": "qiraat",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+        "stamp_asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          212.652,
+          371.391,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 73305,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "7a466243e6f91f83d525ccc4df6f046360b9ecc8c076ba32982790f3bc5647c6",
+        "output_sha256": "413ea59cbdf22fef7fc6e52d37bf45dff965028f5da510683b99a546b83324c5",
+        "page_count_before": 7,
+        "page_count_after": 7
+      },
+      "output_sha256": "413ea59cbdf22fef7fc6e52d37bf45dff965028f5da510683b99a546b83324c5",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "2001465-2",
+      "title": "فقه النوازل",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/فقه النوازل.pdf",
+      "source_sha256": "74be1b75ced7e0966c37263ec607f9b1986f91fa0e22e8cc4efc0b2595a39a21",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "da2ef42d173c7e42f7a8884c7ac490905fc2c1d8558f9c2d6dc3be26631a0900",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "2001465-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          207.65,
+          408.3,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90524,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "da2ef42d173c7e42f7a8884c7ac490905fc2c1d8558f9c2d6dc3be26631a0900",
+        "output_sha256": "9a3ef9552a5568e9a4b56d3b54890d35510338fa3afc25137496a68ccb606969",
+        "page_count_before": 7,
+        "page_count_after": 7
+      },
+      "output_sha256": "9a3ef9552a5568e9a4b56d3b54890d35510338fa3afc25137496a68ccb606969",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "2001474-2",
+      "title": "العقيدة (4)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات العقيدة ببرنامج القراءات/توصيف مقرر العقيدة 4 برنامج القراءات.docx",
+      "source_sha256": "599e71a3a92521294c3c0d789d142b11f43b9de0366fd6f06bda1a37e81b4f07",
+      "source_pages_inclusive": null,
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الثقافة الإسلامية"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "fe01c961612b3f82de31eb252818d30d1ababb398440d4c05c925732c4179045",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2001474-2.pdf",
+        "department_key": "islamic_culture",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+        "stamp_asset_sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.652,
+          665.479,
+          180.0,
+          70.7
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 84546,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "fe01c961612b3f82de31eb252818d30d1ababb398440d4c05c925732c4179045",
+        "output_sha256": "8c0c753ff64271aa39d2a27751d35d58405b222142033a4b2209b3541ded76bf",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "8c0c753ff64271aa39d2a27751d35d58405b222142033a4b2209b3541ded76bf",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2002200-2",
+      "title": "المدخل إلى التفسير الموضوعي",
+      "hours": 2,
+      "match_type": "approved_code_change_same_identity",
+      "source_relative_path": "OneDrive_1447-05-011/مقررات مقدمة من برنامج القران وعلومه/2_2002455_المدخل_إلى_التفسير_الموضوعي.docx",
+      "source_sha256": "78f6424c1dfffd21c48c071e5247298bbca492f558cdb9deff33a882e5201d47",
+      "source_pages_inclusive": null,
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم القراءات"
+        ],
+        "session": [
+          "15"
+        ],
+        "date": [
+          "1446/9/2هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_course_code",
+          "to": "2002200-2"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "2c59ddb866fd0bb6a7a45e6bf5db11e1984c5cdd569bb2a6073942be6b7877b5",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2002200-2.pdf",
+        "department_key": "qiraat",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+        "stamp_asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          212.652,
+          489.091,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 73305,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "2c59ddb866fd0bb6a7a45e6bf5db11e1984c5cdd569bb2a6073942be6b7877b5",
+        "output_sha256": "47727ddc8313b5ba85b9c85eb25d942e44cdb74f0dac6721e64ce318b8347738",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "47727ddc8313b5ba85b9c85eb25d942e44cdb74f0dac6721e64ce318b8347738",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2002220-2",
+      "title": "القرآن الكريم (1)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/القرآن الكريم.pdf",
+      "source_sha256": "10552b560ccbf5100de51e5cdfb7a043afbdeab63568b131c6de833ba05ee177",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            409.744,
+            449.45,
+            429.836
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "القرآن الكريم",
+          "to": "القرآن الكريم (1)"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "3ff17d21e8d43274f39063aa0a46f578b097b9290fd9f8d3c438f9a7a2b14509",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "2002220-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          207.625,
+          590.128,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90097,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "3ff17d21e8d43274f39063aa0a46f578b097b9290fd9f8d3c438f9a7a2b14509",
+        "output_sha256": "f9ef2786fd27623a5bcbf655ae8762eaf71c7c59df0cf3826e3eda6b13d766af",
+        "page_count_before": 7,
+        "page_count_after": 7
+      },
+      "output_sha256": "f9ef2786fd27623a5bcbf655ae8762eaf71c7c59df0cf3826e3eda6b13d766af",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "2002221-2",
+      "title": "القرآن الكريم (2)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/القرآن الكريم (2).pdf",
+      "source_sha256": "6c97e5a5b2cfba7364e65670b9c2fad933c1ca14a1d2d77d5c8374dc4fc32a02",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "26922b955a6f5a7c364f3c7bf9c321ced4e25a5eaf892d94df495fa86343ddf5",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "2002221-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          207.625,
+          590.128,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90097,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "26922b955a6f5a7c364f3c7bf9c321ced4e25a5eaf892d94df495fa86343ddf5",
+        "output_sha256": "e47af0ee18cad9cac4e174d0e42d30907a54c806161c332d14b1ab818ec33390",
+        "page_count_before": 7,
+        "page_count_after": 7
+      },
+      "output_sha256": "e47af0ee18cad9cac4e174d0e42d30907a54c806161c332d14b1ab818ec33390",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "2002225-2",
+      "title": "القرآن الكريم (٣)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/القرآن الكريم (3).pdf",
+      "source_sha256": "1bfd7fca4b0265744365075ecced6682eddf0fae7783c5b296f71feab0cf2019",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "d715b78a32690ad3de0b1592c1f9f17fa7ce5cfc4d1316df00446120fc534ca7",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "2002225-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          207.625,
+          590.128,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90097,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "d715b78a32690ad3de0b1592c1f9f17fa7ce5cfc4d1316df00446120fc534ca7",
+        "output_sha256": "fec5aafebaba6ffa9444216f123e224b408d5b78c0242db838dd3e1429891cad",
+        "page_count_before": 7,
+        "page_count_after": 7
+      },
+      "output_sha256": "fec5aafebaba6ffa9444216f123e224b408d5b78c0242db838dd3e1429891cad",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "2002226-2",
+      "title": "القرآن الكريم (٤)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/القرآن الكريم (4).pdf",
+      "source_sha256": "582b3d5be4e5598c530a2e650c5355aa7072c747f4af4246dec5d13610824030",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "f298d714d795408791d08bcf748ab0588983b58f86aede3c27035a862d9f3736",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "2002226-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          207.65,
+          701.82,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90097,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "f298d714d795408791d08bcf748ab0588983b58f86aede3c27035a862d9f3736",
+        "output_sha256": "c2764ca19f5f8165fae31caffd35a8890a8e7f76f0d45d4f418fb8ba61bd44d5",
+        "page_count_before": 7,
+        "page_count_after": 7
+      },
+      "output_sha256": "c2764ca19f5f8165fae31caffd35a8890a8e7f76f0d45d4f418fb8ba61bd44d5",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "20023110-2",
+      "title": "مشروع التخرج",
+      "hours": 2,
+      "match_type": "approved_code_change_same_identity",
+      "source_relative_path": "OneDrive_1447-05-011/مقررات التخصص/توصيف مادة مشروع التخرج.docx",
+      "source_sha256": "a6996180fff92a8e0ae7a361a3384287b2285f0d9c9d4f49523044a3ebb7adca",
+      "source_pages_inclusive": null,
+      "approval": {
+        "status": "fill_required",
+        "authority": [
+          "مجلس قسم القراءات"
+        ],
+        "session": [
+          "الثالث عشر"
+        ],
+        "date": [
+          "1446/10/10هـ"
+        ],
+        "evidence": "same-directory 2024 Qiraat specialty-course peers",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_course_code",
+          "to": "20023110-2"
+        },
+        {
+          "kind": "complete_approval_table",
+          "values": {
+            "authority": [
+              "مجلس قسم القراءات"
+            ],
+            "session": [
+              "الثالث عشر"
+            ],
+            "date": [
+              "1446/10/10هـ"
+            ]
+          },
+          "evidence": "same-directory 2024 Qiraat specialty-course peers"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "51f4461b35c4dbd27517fcd219654c2d1aaf966743b095a8c40536fd8710cd28",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "20023110-2.pdf",
+        "department_key": "qiraat",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+        "stamp_asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          212.652,
+          407.011,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 73305,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "51f4461b35c4dbd27517fcd219654c2d1aaf966743b095a8c40536fd8710cd28",
+        "output_sha256": "8e9f19fcafb9f644691be80c0dc45c3c8c0376248633ff7ee60a6da188736812",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "8e9f19fcafb9f644691be80c0dc45c3c8c0376248633ff7ee60a6da188736812",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2003229-2",
+      "title": "نظام الإجراءات الجزائية",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/نظام الإجراءات الجزائية.pdf",
+      "source_sha256": "f1bc8206b348e721c15ae8e09ac1744c7fb751ca28684db1e73a66856b005961",
+      "source_pages_inclusive": "1-9",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "قسم الأنظمة"
+        ],
+        "session": [
+          "23"
+        ],
+        "date": [
+          "1446/9/10هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 9,
+        "output_page_1_based": 9
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "2c86511c63728118d021339707a3f17a4c8df6e950626a261aae315c0eade274",
+      "page_count_before_stamp": 9,
+      "department_stamp": {
+        "relative_path": "2003229-2.pdf",
+        "department_key": "law",
+        "stamp_asset": "الأختام/ChatGPT Image 19 أغسطس 2026، 09_16_42 م.png",
+        "stamp_asset_sha256": "6ba9079ca48b86b2dba233b6f6626fc6346b1a4d3ce71e42fda6e6d660d156ef",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 9,
+        "bbox_top_points": [
+          207.65,
+          674.103,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90524,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "2c86511c63728118d021339707a3f17a4c8df6e950626a261aae315c0eade274",
+        "output_sha256": "177cebf8a7a122b8da09b8967f87daa9cf7b44c275f6e088ce8a9ab127adcdcb",
+        "page_count_before": 9,
+        "page_count_after": 9
+      },
+      "output_sha256": "177cebf8a7a122b8da09b8967f87daa9cf7b44c275f6e088ce8a9ab127adcdcb",
+      "page_count_after_stamp": 9
+    },
+    {
+      "code": "2003230-2",
+      "title": "مبادئ القانون التجاري",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/مبادىء القانون التجاري.pdf",
+      "source_sha256": "27760a20d07c6685372fb39e16da0c4a84194cc38c06cd22955986389c3278b5",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "قسم الأنظمة"
+        ],
+        "session": [
+          "23"
+        ],
+        "date": [
+          "1446/9/10هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            451.174,
+            450.97,
+            471.816
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "مبادىء القانون التجاري",
+          "to": "مبادئ القانون التجاري"
+        },
+        {
+          "kind": "remove_nonpublic_link_annotations",
+          "count": 7,
+          "pages_1_based": [
+            2
+          ],
+          "targets": [
+            "local-file-link",
+            "local-file-link",
+            "local-file-link",
+            "local-file-link",
+            "local-file-link",
+            "local-file-link",
+            "local-file-link"
+          ]
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "9609a75de3815a8800df56638870636776c3717c4b7c59802ad4e69ad6e16ea7",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2003230-2.pdf",
+        "department_key": "law",
+        "stamp_asset": "الأختام/ChatGPT Image 19 أغسطس 2026، 09_16_42 م.png",
+        "stamp_asset_sha256": "6ba9079ca48b86b2dba233b6f6626fc6346b1a4d3ce71e42fda6e6d660d156ef",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.65,
+          534.6,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90524,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "9609a75de3815a8800df56638870636776c3717c4b7c59802ad4e69ad6e16ea7",
+        "output_sha256": "92c96f53e7d7a472034dd7cd4e5176645542f96f63f80f48addff0cc22f67e2e",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "92c96f53e7d7a472034dd7cd4e5176645542f96f63f80f48addff0cc22f67e2e",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "20034102-2",
+      "title": "النظام القضائي في المملكة",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/النظام القضائي في المملكة.pdf",
+      "source_sha256": "fc92455dd49a2e7e8bc023a8c9e1ba2350c5e863128aa19db1f97b47139b515e",
+      "source_pages_inclusive": "1-9",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "قسم الأنظمة"
+        ],
+        "session": [
+          "23"
+        ],
+        "date": [
+          "1446/9/10هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 9,
+        "output_page_1_based": 9
+      },
+      "edits_applied": [
+        {
+          "kind": "extract_pages",
+          "source_pages_inclusive": "1-9"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "dc4add4401171483fb29a1e339ed1d3975d0e6f8bbb70f058cd77186cf0725ff",
+      "page_count_before_stamp": 9,
+      "department_stamp": {
+        "relative_path": "20034102-2.pdf",
+        "department_key": "law",
+        "stamp_asset": "الأختام/ChatGPT Image 19 أغسطس 2026، 09_16_42 م.png",
+        "stamp_asset_sha256": "6ba9079ca48b86b2dba233b6f6626fc6346b1a4d3ce71e42fda6e6d660d156ef",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 9,
+        "bbox_top_points": [
+          207.65,
+          234.77,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90097,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "dc4add4401171483fb29a1e339ed1d3975d0e6f8bbb70f058cd77186cf0725ff",
+        "output_sha256": "fb81eb4006c03e45e07a7f66e2e1a6483648df9284508addc4d25b3aab485192",
+        "page_count_before": 9,
+        "page_count_after": 9
+      },
+      "output_sha256": "fb81eb4006c03e45e07a7f66e2e1a6483648df9284508addc4d25b3aab485192",
+      "page_count_after_stamp": 9
+    },
+    {
+      "code": "20042106-2",
+      "title": "أصول فقه (1)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/أصول الفقه 1.pdf",
+      "source_sha256": "bfab28630785c864140b982c51ef5f6e56ab8011fe3b8b3c18d00bd979072f59",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "قسم الثقافة الإسلامية"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1440/7/12هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            465.085,
+            469.255,
+            484.69
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "أصول الفقه (1)",
+          "to": "أصول فقه (1)"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "6253278caa383461efae4193bb068ae894ff18d44b8f2a3a08ac087d1493f659",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "20042106-2.pdf",
+        "department_key": "islamic_culture",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+        "stamp_asset_sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1",
+        "status": "stamp_added",
+        "placement": "appended_final_stamp_page",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.66,
+          96.0,
+          180.0,
+          70.7
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 0,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "6253278caa383461efae4193bb068ae894ff18d44b8f2a3a08ac087d1493f659",
+        "output_sha256": "125fd82938e18355dca30033f182b368733c6f0b6ef0594235752f8ee5723075",
+        "page_count_before": 7,
+        "page_count_after": 8
+      },
+      "output_sha256": "125fd82938e18355dca30033f182b368733c6f0b6ef0594235752f8ee5723075",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2004245-2",
+      "title": "العقيدة (2)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/العقيدة2.pdf",
+      "source_sha256": "c2691be2047de75a5d3806c33b17f8a0a54b99e88da11cd91eaf78177fadd615",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            408.541,
+            448.9,
+            430.741
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "العقيدة2",
+          "to": "العقيدة (2)"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "8d96a2a32bea3940c935f786191677c099848848c2c8ebd6f3f3da87b43a07f1",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2004245-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.66,
+          283.48,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90524,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "8d96a2a32bea3940c935f786191677c099848848c2c8ebd6f3f3da87b43a07f1",
+        "output_sha256": "e05f75bcc425929761f4e00d06f9dc6a0713c4d601e269ca8fde95cb541b6760",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "e05f75bcc425929761f4e00d06f9dc6a0713c4d601e269ca8fde95cb541b6760",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2004258-2",
+      "title": "دراسات في السيرة النبوية",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/دراسات في السيرة النبوية.pdf",
+      "source_sha256": "8d65bc24569195e2664799ae64a344bf2a0fe46d17453bff081130e03f13b4b1",
+      "source_pages_inclusive": "1-9",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الثقافة الإسلامية",
+          "مجلس كلية الشريعة والأنظمة"
+        ],
+        "session": [
+          "10",
+          "20"
+        ],
+        "date": [
+          "1446/9/3هـ",
+          "1446/10/11هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 9,
+        "output_page_1_based": 9
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "6cea55b9ab08d51f25605e454a82b2f70f69df6e37d4e32fc2dd2d225356af5d",
+      "page_count_before_stamp": 9,
+      "department_stamp": {
+        "relative_path": "2004258-2.pdf",
+        "department_key": "islamic_culture",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+        "stamp_asset_sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 9,
+        "bbox_top_points": [
+          207.66,
+          182.247,
+          180.0,
+          70.7
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 84546,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "6cea55b9ab08d51f25605e454a82b2f70f69df6e37d4e32fc2dd2d225356af5d",
+        "output_sha256": "85507cd7c69e94cba9356fef5ed37d904e8eff8053781d255523e426d94b28b0",
+        "page_count_before": 9,
+        "page_count_after": 9
+      },
+      "output_sha256": "85507cd7c69e94cba9356fef5ed37d904e8eff8053781d255523e426d94b28b0",
+      "page_count_after_stamp": 9
+    },
+    {
+      "code": "2004273-2",
+      "title": "العقيدة (1)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/العقيدة1.pdf",
+      "source_sha256": "34c3b9ad5ef28c93c1e712fb629aa7d26dc0686c3071728dc7a437bcfdcb8895",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            408.541,
+            448.9,
+            430.741
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "العقيدة1",
+          "to": "العقيدة (1)"
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "d15a95e7ded99abb6041612404af0adde49230b48c168c4ee6a297385be077d6",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "2004273-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          207.66,
+          703.18,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90524,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "d15a95e7ded99abb6041612404af0adde49230b48c168c4ee6a297385be077d6",
+        "output_sha256": "0fea5790322da85c1db2a8cbdd5930ebff9269e1fc933d0d8ddb74d1d2cd7585",
+        "page_count_before": 7,
+        "page_count_after": 7
+      },
+      "output_sha256": "0fea5790322da85c1db2a8cbdd5930ebff9269e1fc933d0d8ddb74d1d2cd7585",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "20043106-2",
+      "title": "أصول الفقه (2)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/أصول الفقه 2.pdf",
+      "source_sha256": "b2a26589568e4f67d0d60d1a6862da74ef67c8345eaeacfb4f918cec190fa101",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "قسم الثقافة الإسلامية"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1440/7/12هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "4414a31dfa8fe16f40656b18e4ec1415f80f0ff4c16bf84970bd08215e7afb75",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "20043106-2.pdf",
+        "department_key": "islamic_culture",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+        "stamp_asset_sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.66,
+          156.81,
+          180.0,
+          70.7
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 84973,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "4414a31dfa8fe16f40656b18e4ec1415f80f0ff4c16bf84970bd08215e7afb75",
+        "output_sha256": "f142ecf4b76990ab091f773365f662c0cb9cb51a39cc0396c5149f2b744f1dcb",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "f142ecf4b76990ab091f773365f662c0cb9cb51a39cc0396c5149f2b744f1dcb",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2004373-2",
+      "title": "العقيدة (3)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/العقيدة (3).pdf",
+      "source_sha256": "de2135c020c9553d22c60ca859783a4668b943af247c35adaf77ab800e5c0ef8",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "8f3978ab09cc93c13bf6e7e4a2cccb365b0a6e448555ddf6e94ebe7d0a3bd0b9",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2004373-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "appended_final_stamp_page",
+        "target_page_1_based": 9,
+        "bbox_top_points": [
+          207.66,
+          96.0,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 0,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "8f3978ab09cc93c13bf6e7e4a2cccb365b0a6e448555ddf6e94ebe7d0a3bd0b9",
+        "output_sha256": "8398d8d9b05ecb612faa93c4a3a0b749594801a35880e936be4df8e40370a02c",
+        "page_count_before": 8,
+        "page_count_after": 9
+      },
+      "output_sha256": "8398d8d9b05ecb612faa93c4a3a0b749594801a35880e936be4df8e40370a02c",
+      "page_count_after_stamp": 9
+    },
+    {
+      "code": "2004414-2",
+      "title": "ثقافة إسلامية (حقوق الإنسان)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف المقررات/حقوق الإنسان.pdf",
+      "source_sha256": "d54507b0684c1981af3304612131ade1aed61697e1e5d734d8cf5ca4a5ae8ba0",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "fill_required",
+        "authority": [
+          "قسم الثقافة الإسلامية"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "same-batch culture-course peers",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            367.985,
+            452.38,
+            388.829
+          ],
+          "htmlbox_scale": 1.0,
+          "from": "الثقافة الإسلامية: حقوق الإنسان",
+          "to": "ثقافة إسلامية (حقوق الإنسان)"
+        },
+        {
+          "kind": "complete_approval_table",
+          "page_1_based": 7,
+          "values": {
+            "authority": [
+              "قسم الثقافة الإسلامية"
+            ],
+            "session": [
+              "10"
+            ],
+            "date": [
+              "1446/9/3هـ"
+            ]
+          },
+          "evidence": "same-batch culture-course peers",
+          "cells": [
+            {
+              "row": "authority",
+              "value": "قسم الثقافة الإسلامية",
+              "rect_top_points": [
+                55.106,
+                269.65,
+                445.14,
+                293.37
+              ],
+              "htmlbox_scale": 1.0
+            },
+            {
+              "row": "session",
+              "value": "10",
+              "rect_top_points": [
+                55.106,
+                297.37,
+                445.14,
+                320.97
+              ],
+              "htmlbox_scale": 1.0
+            },
+            {
+              "row": "date",
+              "value": "1446/9/3هـ",
+              "rect_top_points": [
+                55.106,
+                324.97,
+                445.14,
+                346.11
+              ],
+              "htmlbox_scale": 1.0
+            }
+          ]
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "478e9d3ed442bc9306e7d84b7525f053947893cbc3b0e13303789ab5280193d1",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "2004414-2.pdf",
+        "department_key": "islamic_culture",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+        "stamp_asset_sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          207.66,
+          364.11,
+          180.0,
+          70.7
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 84546,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "478e9d3ed442bc9306e7d84b7525f053947893cbc3b0e13303789ab5280193d1",
+        "output_sha256": "51269b1a7e2246e118111a2411852e99ade9030349aa8e4ec5dbfdcc1d8270a0",
+        "page_count_before": 7,
+        "page_count_after": 7
+      },
+      "output_sha256": "51269b1a7e2246e118111a2411852e99ade9030349aa8e4ec5dbfdcc1d8270a0",
+      "page_count_after_stamp": 7
+    },
+    {
+      "code": "2004474-2",
+      "title": "العقيدة (4)",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/العقيدة (4).pdf",
+      "source_sha256": "f9563ef173b793b43e7e3a35c96072ae540defb1a8f3e09d4f1cd3a5e8edc0f4",
+      "source_pages_inclusive": "1-8",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "b45e7519533b6f3af387ed082ecc05fd31b371db86107f96970251217a5aea22",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2004474-2.pdf",
+        "department_key": "sharia",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+        "stamp_asset_sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          207.65,
+          695.966,
+          180.0,
+          77.1
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 90524,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "b45e7519533b6f3af387ed082ecc05fd31b371db86107f96970251217a5aea22",
+        "output_sha256": "1c4ef8d511f7aaea4012229adf1f96ff3f8ed95ef74efdb6fa85467639c64213",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "1c4ef8d511f7aaea4012229adf1f96ff3f8ed95ef74efdb6fa85467639c64213",
+      "page_count_after_stamp": 8
+    },
+    {
+      "code": "2004493-2",
+      "title": "تخريج ودراسة الأسانيد",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف يدوي/مقررات الشريعة/التخريج ودراسة الأسانيد.pdf",
+      "source_sha256": "64fdd42d50ab008257acefba8e2ccbbf7d858f577d02219c4ac0f67c2464d36b",
+      "source_pages_inclusive": "1-12",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الثقافة الإسلامية"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 12,
+        "output_page_1_based": 12
+      },
+      "edits_applied": [
+        {
+          "kind": "replace_credit_hours",
+          "page_1_based": 3,
+          "from": 4,
+          "to": 2,
+          "rect_top_points": [
+            492.82,
+            186.369,
+            548.488,
+            207.619
+          ],
+          "htmlbox_scale": 1.0
+        }
+      ],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "20c5c9dcc809de762a9f064dca39e504b7d1658dbdf25554733b7fcb12f00490",
+      "page_count_before_stamp": 12,
+      "department_stamp": {
+        "relative_path": "2004493-2.pdf",
+        "department_key": "islamic_culture",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+        "stamp_asset_sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 12,
+        "bbox_top_points": [
+          207.66,
+          477.29,
+          180.0,
+          70.7
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 84546,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "20c5c9dcc809de762a9f064dca39e504b7d1658dbdf25554733b7fcb12f00490",
+        "output_sha256": "bceaacb6968e38df0a457d29fcf7ffa8be16f69aec2a0210031fa6d3cc9183ef",
+        "page_count_before": 12,
+        "page_count_after": 12
+      },
+      "output_sha256": "bceaacb6968e38df0a457d29fcf7ffa8be16f69aec2a0210031fa6d3cc9183ef",
+      "page_count_after_stamp": 12
+    },
+    {
+      "code": "990415-2",
+      "title": "تلاوة وتجويد",
+      "hours": 2,
+      "match_type": "exact_code_and_identity",
+      "source_relative_path": "توصيف المقررات/المواد العامة/تلاوة وتجويد.pdf",
+      "source_sha256": "b5964ab3c09ba2be28e249f552686cc312fb5cd0c5fd3dd1ae2138e8551520bf",
+      "source_pages_inclusive": "1-7",
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم القراءات"
+        ],
+        "session": [
+          "13"
+        ],
+        "date": [
+          "1445/10/10هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "edits_applied": [],
+      "stamp_status": "missing_add_from_supplied_asset",
+      "baseline_sha256": "4935e4b3c0be00c5a89a2ffb80fe69fcfc2e2a01f0294954411997dc297c9277",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "relative_path": "990415-2.pdf",
+        "department_key": "qiraat",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+        "stamp_asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          212.66,
+          155.28,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 73305,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "4935e4b3c0be00c5a89a2ffb80fe69fcfc2e2a01f0294954411997dc297c9277",
+        "output_sha256": "0783aca877441f28887fa61d5d2cf1e3f7402ff2aee1ff289df49c5e1d76e9e1",
+        "page_count_before": 7,
+        "page_count_after": 7
+      },
+      "output_sha256": "0783aca877441f28887fa61d5d2cf1e3f7402ff2aee1ff289df49c5e1d76e9e1",
+      "page_count_after_stamp": 7
+    }
+  ],
+  "excluded_exact_code_conflicts": [
+    {
+      "target_code": "105125-2",
+      "target_title": "تاريخ المملكة العربية السعودية",
+      "raw_context": "Program-specification tables only; no course specification document was found.",
+      "decision": "exclude"
+    },
+    {
+      "target_code": "2002235-2",
+      "target_title": "القرآن الكريم (٧)",
+      "raw_source_title": "دراسات في علوم القرآن",
+      "decision": "exclude_identity_conflict"
+    }
+  ],
+  "counts": {
+    "total": 55,
+    "exact_identity": 53,
+    "approved_code_changes": 2,
+    "stamps_added": 52,
+    "stamps_preserved": 3,
+    "approval_tables_completed": 7,
+    "credit_hours_corrected": 2
+  }
+}

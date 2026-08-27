@@ -1,0 +1,218 @@
+{
+  "schema": "specialty-recovery-bundle-v1",
+  "policy": "Original PDFs are preserved. Exact specifications are sliced from the combined source and stamped; title adaptations remove only the old cover title and insert the catalogue title while preserving all other pages, approvals, and stamps.",
+  "records": [
+    {
+      "code": "20012102-2",
+      "title": "الفقه (2)",
+      "source": "توصيفات برنامج الدراسات الإسلامية.pdf",
+      "source_sha256": "979de4cafe38f11ca6f4e98fc2931c9518d3603de9fd91bc81f37e95d5e28f1e",
+      "source_pages_inclusive": "110-119",
+      "adaptation": "exact_slice_plus_department_stamp",
+      "baseline_sha256": "6ddf233a4cae3a66d0510e51147ccc0e4dd9c39deb1f2b2e158252d3678c6705",
+      "page_count": 10,
+      "department_stamp": {
+        "relative_path": "20012102-2.pdf",
+        "department_key": "islamic_culture",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+        "stamp_asset_sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 10,
+        "bbox_top_points": [
+          207.66,
+          607.03,
+          180.0,
+          70.7
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 84546,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "6ddf233a4cae3a66d0510e51147ccc0e4dd9c39deb1f2b2e158252d3678c6705",
+        "output_sha256": "c6c31b6d763d38cbf57de03bdbbd0b476462f0e560b69534f19986ea25a224b8",
+        "page_count_before": 10,
+        "page_count_after": 10
+      },
+      "output_sha256": "c6c31b6d763d38cbf57de03bdbbd0b476462f0e560b69534f19986ea25a224b8"
+    },
+    {
+      "code": "20023205-2",
+      "title": "التفسير التحليلي (3)",
+      "source": "توصيفات برنامج الدراسات الإسلامية.pdf",
+      "source_sha256": "979de4cafe38f11ca6f4e98fc2931c9518d3603de9fd91bc81f37e95d5e28f1e",
+      "source_pages_inclusive": "332-338",
+      "adaptation": "exact_slice_plus_department_stamp",
+      "baseline_sha256": "73d3d0cc254668fc3142088a3cfdf6c55244112de6e10f1266556c7c37f7df6b",
+      "page_count": 7,
+      "department_stamp": {
+        "relative_path": "20023205-2.pdf",
+        "department_key": "islamic_culture",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+        "stamp_asset_sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 7,
+        "bbox_top_points": [
+          207.66,
+          700.52,
+          180.0,
+          70.7
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 84546,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "73d3d0cc254668fc3142088a3cfdf6c55244112de6e10f1266556c7c37f7df6b",
+        "output_sha256": "b0ddbb1e896f681c3867b5a6d639eeb23592b72975e698ed712a318058beaf57",
+        "page_count_before": 7,
+        "page_count_after": 7
+      },
+      "output_sha256": "b0ddbb1e896f681c3867b5a6d639eeb23592b72975e698ed712a318058beaf57"
+    },
+    {
+      "code": "20012106-2",
+      "title": "أصول فقه (1)",
+      "source": "assets/course-specifications/islamic-studies-bundle-1444/20012106-2.pdf",
+      "source_sha256": "fc87bca6486dc26f9b0cd18d5a1c3a518aa5730fdd6284eccd703792307a1e13",
+      "adaptation": "cover_title_only",
+      "source_title": "أصول الفقه (1)",
+      "mask_top_points": [
+        360.0,
+        409.0,
+        448.7,
+        430.2
+      ],
+      "text_box_top_points": [
+        360.0,
+        407.8,
+        448.2,
+        431.0
+      ],
+      "font": "local-asset/33893302280.ttf",
+      "font_sha256": "c6aa8a2b5aeecde03a10a8f683d485ca147c4ed7f0ce121cbb3fb02f1f28c5b8",
+      "htmlbox_scale": 1.0,
+      "outline_titles_updated": 1,
+      "accessible_identity_actual_text": true,
+      "page_count": 9,
+      "output_sha256": "1022395a7b641b3a2e0550749d19964c51199e4f412464e6f17a9bbb377bfa2d",
+      "approval_and_stamp": "preserved from source"
+    },
+    {
+      "code": "20014101-2",
+      "title": "أصول فقه (3)",
+      "source": "assets/course-specifications/islamic-studies-bundle-1444/20014101-2.pdf",
+      "source_sha256": "025458b9fde41fc1c64acb615d496acc8bb9594aada2b344448bb232dee02286",
+      "adaptation": "cover_title_only",
+      "source_title": "أصول الفقه (3)",
+      "mask_top_points": [
+        360.0,
+        409.0,
+        448.7,
+        430.2
+      ],
+      "text_box_top_points": [
+        360.0,
+        407.8,
+        448.2,
+        431.0
+      ],
+      "font": "local-asset/33893302280.ttf",
+      "font_sha256": "c6aa8a2b5aeecde03a10a8f683d485ca147c4ed7f0ce121cbb3fb02f1f28c5b8",
+      "htmlbox_scale": 1.0,
+      "outline_titles_updated": 1,
+      "accessible_identity_actual_text": true,
+      "page_count": 8,
+      "output_sha256": "ff8e6edba79fb53f8c05e9a37fdd6e2e2aacbe65a94b3abd646e136868651afb",
+      "approval_and_stamp": "preserved from source"
+    },
+    {
+      "code": "20044202-2",
+      "title": "بحث التخرج",
+      "source": "assets/course-specifications/islamic-studies-bundle-1444/20044202-2.pdf",
+      "source_sha256": "3cc8f3fb0be89031f7aeebf626d53dbff3a14f1ac1483feeb2d3b913b4af72b7",
+      "adaptation": "cover_title_only",
+      "source_title": "بحث تخرج",
+      "mask_top_points": [
+        360.0,
+        409.0,
+        448.7,
+        430.2
+      ],
+      "text_box_top_points": [
+        360.0,
+        407.8,
+        448.2,
+        431.0
+      ],
+      "font": "local-asset/33893302280.ttf",
+      "font_sha256": "c6aa8a2b5aeecde03a10a8f683d485ca147c4ed7f0ce121cbb3fb02f1f28c5b8",
+      "htmlbox_scale": 1.0,
+      "outline_titles_updated": 1,
+      "accessible_identity_actual_text": true,
+      "page_count": 8,
+      "output_sha256": "a44e0da5dfb8f8796d35a6e4dfd541672dd0f1e8afda79a01cd5f560ffc2ae06",
+      "approval_and_stamp": "preserved from source"
+    },
+    {
+      "code": "2002313-2",
+      "title": "علوم قرآن (5)",
+      "source": "assets/course-specifications/quran-old-v39/2002313-2.pdf",
+      "source_sha256": "39ed4612453e0dfae88930a2181eee63173e7642d462484181c8dc2c0219ce4a",
+      "adaptation": "legacy_cover_title_overlay",
+      "source_title": "علوم القرآن (5)",
+      "mask_top_points": [
+        329.0,
+        154.0,
+        435.0,
+        180.0
+      ],
+      "text_box_top_points": [
+        329.0,
+        151.5,
+        434.0,
+        181.5
+      ],
+      "font": "local-asset/34866040251.ttf",
+      "font_sha256": "0da5b4d322ebe1381960796299cbc04cf0407e52218c1c0e4afddd66f4fe1401",
+      "outline_titles_updated": 0,
+      "accessible_identity_actual_text": true,
+      "page_count": 6,
+      "output_sha256": "52c5b6568e00e83cd981ff8e443ed15422c881b2db27a7b53bdea3ebef4eeaae",
+      "approval_and_stamp": "preserved from source"
+    },
+    {
+      "code": "2003442-3",
+      "title": "النظام الدولي الخاص",
+      "source": "assets/course-specifications/systems-source-2022/2003442-3.pdf",
+      "source_sha256": "bcb01cd286049e4e49caa36c32240c2252729e109b4b2c5b22c2456052456057",
+      "adaptation": "cover_title_only",
+      "source_title": "القانون الدولي الخاص",
+      "mask_top_points": [
+        284.0,
+        332.5,
+        408.8,
+        352.4
+      ],
+      "text_box_top_points": [
+        284.0,
+        331.0,
+        408.0,
+        353.5
+      ],
+      "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+      "font_sha256": "525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9",
+      "htmlbox_scale": 1.0,
+      "outline_titles_updated": 1,
+      "accessible_identity_actual_text": true,
+      "page_count": 8,
+      "output_sha256": "0e81f70213d19bb6daa93ba4f489dde9cde4b80df34610bfc915903bde5fbfb8",
+      "approval_and_stamp": "preserved from source"
+    }
+  ],
+  "counts": {
+    "total": 7,
+    "exact_slices_stamped": 2,
+    "cover_titles_adapted": 5
+  }
+}

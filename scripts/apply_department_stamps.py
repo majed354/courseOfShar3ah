@@ -29,6 +29,7 @@ STAMP_SIZE_PT = {
     "sharia": (180.0, 77.1),
     "law": (180.0, 77.1),
     "islamic_culture": (180.0, 70.7),
+    "arabic_language": (180.0, 67.0),
 }
 
 SAFETY_MARGIN_PT = 12.0
@@ -332,7 +333,7 @@ def main() -> None:
         stamp = Path(record["expected_stamp_asset"])
         stamp_width, stamp_height = STAMP_SIZE_PT[department]
         target_page = int(record["stamp_target_page_1_based"])
-        append = relative.as_posix() in FORCE_APPEND_PAGE
+        append = bool(record.get("force_append_page")) or relative.as_posix() in FORCE_APPEND_PAGE
 
         # Five source files have a blank trailing template page. Put the stamp
         # there instead of touching the crowded approval table on the prior page.
@@ -365,23 +366,38 @@ def main() -> None:
                 )
             else:
                 table_bottom = last_table_bottom(source, target_page - 1)
-                if table_bottom is None:
-                    raise RuntimeError(f"Approval table not detected: {relative}")
-                stamp_top = table_bottom + AFTER_TABLE_GAP_PT
-                placement = "below_approval_table"
-                if stamp_top + stamp_height + SAFETY_MARGIN_PT > page_height:
-                    raise RuntimeError(f"Stamp exceeds page boundary: {relative}")
-                collision = collision_stats(
-                    rendered,
-                    (x, stamp_top, stamp_width, stamp_height),
-                    page_width,
-                    page_height,
+                stamp_top = (
+                    table_bottom + AFTER_TABLE_GAP_PT
+                    if table_bottom is not None
+                    else page_height
                 )
+                if stamp_top + stamp_height + SAFETY_MARGIN_PT <= page_height:
+                    placement = "below_approval_table"
+                    collision = collision_stats(
+                        rendered,
+                        (x, stamp_top, stamp_width, stamp_height),
+                        page_width,
+                        page_height,
+                    )
+                else:
+                    append = True
+                    stamp_top = 96.0
+                    placement = "appended_final_stamp_page"
+                    collision = {
+                        "ink_pixels_with_margin": 0,
+                        "checked_pixels_with_margin": 0,
+                        "ink_fraction_with_margin": 0.0,
+                    }
 
             if collision["ink_pixels_with_margin"] != 0:
-                raise RuntimeError(
-                    f"Ink collision ({collision['ink_pixels_with_margin']} px): {relative}"
-                )
+                append = True
+                stamp_top = 96.0
+                placement = "appended_final_stamp_page"
+                collision = {
+                    "ink_pixels_with_margin": 0,
+                    "checked_pixels_with_margin": 0,
+                    "ink_fraction_with_margin": 0.0,
+                }
 
             overlay = temp / "stamp.pdf"
             prepared_stamp = publication_stamp(stamp, temp)
@@ -436,6 +452,7 @@ def main() -> None:
             "sharia": "Sharia, Fiqh, and Usul al-Fiqh",
             "law": "Regulations and Law",
             "islamic_culture": "Islamic Studies and Creed",
+            "arabic_language": "Arabic language courses",
         },
         "stamp_size_points": STAMP_SIZE_PT,
         "safety_margin_points": SAFETY_MARGIN_PT,

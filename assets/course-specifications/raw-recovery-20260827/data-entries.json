@@ -1,0 +1,1607 @@
+{
+  "course_details": {
+    "103131-3": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "النحو (١)",
+          "summary": "يتناول أقسام الكلمة وعلاماتها، والمعرب والمبني، والإعراب الأصلي والفرعي والنيابي، والنكرة والمعرفة وأنواع المعارف.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/103131-3.pdf",
+          "specification_code": "103131-3",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "103141-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "البلاغة",
+          "summary": "يتناول البلاغة العربية وأبوابها ومفاهيمها، ويوظفها في تذوق إعجاز القرآن الكريم.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/103141-2.pdf",
+          "specification_code": "103141-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "103171-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "التحرير العربي",
+          "summary": "يدرّب على أسس الكتابة الإملائية الصحيحة وقواعدها، ومعالجة الأخطاء الشائعة في التحرير العربي.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/103171-2.pdf",
+          "specification_code": "103171-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "103213-3": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "النحو (٣)",
+          "summary": "يتناول الفاعل ونائب الفاعل والمنادى والمفاعيل والحال والتمييز والاستثناء وأحكامها في الجملة الفعلية.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/103213-3.pdf",
+          "specification_code": "103213-3",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "103245-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "النحو (٣)",
+          "summary": "يتناول الفاعل ونائب الفاعل والمفاعيل في الجملة الفعلية وأحكامها وتطبيقاتها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/103245-2.pdf",
+          "specification_code": "103245-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "103281-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "النحو (١)",
+          "summary": "يتناول أقسام الكلمة وعلاماتها، والمعرب والمبني، والإعراب الأصلي والفرعي والنيابي، والنكرة والمعرفة وأنواع المعارف.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/103281-2.pdf",
+          "specification_code": "103281-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "103282-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "النحو (٢)",
+          "summary": "يتناول الجملة الاسمية وركنيها، وأحكام المبتدأ والخبر، ونواسخ الجملة الاسمية وتطبيقاتها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/103282-2.pdf",
+          "specification_code": "103282-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "103349-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "النحو (٤)",
+          "summary": "يتناول حروف الجر والإضافة، وإعمال المصادر والمشتقات، والتوابع، وأحكام العدد.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/103349-2.pdf",
+          "specification_code": "103349-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "103411-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "الصرف",
+          "summary": "يعرّف بعلم الصرف والميزان الصرفي، ويدرس بنية الفعل والاسم من حيث التجرد والزيادة والصحة والاعتلال والاشتقاق، مع التصغير والنسب.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/103411-2.pdf",
+          "specification_code": "103411-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001101-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "مصطلح الحديث",
+          "summary": "يتناول مبادئ علوم الحديث، وأقسام الحديث باعتبارات مختلفة، والحديث المقبول، والمتابعات والشواهد، وأسباب رد الحديث، والعلوم المتعلقة بالمتن.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001101-2.pdf",
+          "specification_code": "2001101-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001112-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الأنظمة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "المدخل لدراسة الفقه",
+          "summary": "يتناول مبادئ الفقه الإسلامي وخصائصه وتطوره التاريخي، ومعالم المذاهب الحنفي والمالكي والشافعي والحنبلي.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001112-2.pdf",
+          "specification_code": "2001112-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001128-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "فقه آيات وأحاديث الأحكام (1)",
+          "summary": "يدرس أحاديث الأحكام المتعلقة بالطهارة، مع شرحها واستنباط الأحكام الفقهية منها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001128-2.pdf",
+          "specification_code": "2001128-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001148-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "الخلاف والمناظرة",
+          "summary": "يتناول حقيقة الخلاف وأنواعه وأحكامه وآدابه، وحقيقة المناظرة وأهدافها وأصولها، وأسس الحوار العلمي.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001148-2.pdf",
+          "specification_code": "2001148-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001171-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "العقيدة (1)",
+          "summary": "يتناول مبادئ علم العقيدة وتوحيد الألوهية، مع بيان مذاهب المخالفين لأهل السنة والرد على شبهاتهم.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001171-2.pdf",
+          "specification_code": "2001171-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001245-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "العقيدة (2)",
+          "summary": "يتناول توحيد الربوبية والأسماء والصفات وقضية وجود الله، مع بيان مذاهب المخالفين والرد على شبهاتهم.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001245-2.pdf",
+          "specification_code": "2001245-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001250-4": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "أدلة الأحكام الشرعية (١)",
+          "summary": "يتناول الأدلة الشرعية المتفق عليها وأبرز مسائلها، وحقيقة النسخ وأهم أحكامه.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001250-4.pdf",
+          "specification_code": "2001250-4",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001255-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "قاعة بحث في الفقه وأصوله",
+          "summary": "يدرّب على مناهج البحث العلمي واختيار الموضوع وصياغة الخطة وجمع المادة والتوثيق والفهرسة وإعداد بحث علمي.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001255-2.pdf",
+          "specification_code": "2001255-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001256-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "فقه آيات وأحاديث الأحكام (٢)",
+          "summary": "يدرس أحاديث الأحكام المتعلقة بالزكاة والصيام والحج، مع شرحها واستنباط الأحكام الفقهية منها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001256-2.pdf",
+          "specification_code": "2001256-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001257-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "فقه آيات وأحاديث الأحكام (٣)",
+          "summary": "يدرس أحاديث الأحكام المتعلقة بالبيوع والمعاملات، مع شرحها واستنباط الأحكام الفقهية منها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001257-2.pdf",
+          "specification_code": "2001257-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001258-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "فقه آيات وأحاديث الأحكام (٤)",
+          "summary": "يدرس أحاديث الأحكام المتعلقة بالنكاح والأسرة، مع شرحها واستنباط الأحكام الفقهية منها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001258-2.pdf",
+          "specification_code": "2001258-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001259-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "فقه آيات وأحاديث الأحكام (٥)",
+          "summary": "يدرس أحاديث الأحكام المتعلقة بالحدود والجهاد، مع شرحها واستنباط الأحكام الفقهية منها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001259-2.pdf",
+          "specification_code": "2001259-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001261-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "أدلة الأحكام الشرعية (٢)",
+          "summary": "يتناول أبرز الأدلة الشرعية المختلف فيها، وحجيتها وضوابط الاستدلال بها وتطبيقاتها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001261-2.pdf",
+          "specification_code": "2001261-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001263-4": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "دلالات الألفاظ (٢)",
+          "summary": "يتناول دلالات الألفاظ من حيث العموم والخصوص والاشتراك، والإطلاق والتقييد، والمنطوق والمفهوم.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001263-4.pdf",
+          "specification_code": "2001263-4",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001340-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "التخريج",
+          "summary": "يعرّف بتخريج الحديث وطرقه ومصنفاته وقواعد صياغته، ودراسة الأسانيد والجرح والتعديل والحكم على الحديث.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001340-2.pdf",
+          "specification_code": "2001340-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001346-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "مقاصد الشريعة",
+          "summary": "يتناول مبادئ مقاصد الشريعة وأدلة اعتبارها وطرق معرفتها وتقسيماتها وقواعدها، وعلاقتها بالأدلة والاجتهاد.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001346-2.pdf",
+          "specification_code": "2001346-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001350-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "دلالات الألفاظ (١)",
+          "summary": "يتناول دلالات الألفاظ وتقسيماتها، والبيان والتأويل وشروطه وأنواعه، وحروف المعاني ودلالاتها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001350-2.pdf",
+          "specification_code": "2001350-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001373-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "العقيدة (3)",
+          "summary": "يعرّف بالإيمان بالملائكة والكتب والرسل واليوم الآخر، وأدلته وأحكامه وثمراته.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001373-2.pdf",
+          "specification_code": "2001373-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001403-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "الأديان والفرق والمذاهب المعاصرة",
+          "summary": "يعرّف بالأديان والفرق والمذاهب الفكرية، ويعرض أبرز عقائدها ونشأتها وآثارها، ومنهج أهل السنة في نقدها والرد عليها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001403-2.pdf",
+          "specification_code": "2001403-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001413-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "تخريج الفروع على الأصول",
+          "summary": "يتناول مبادئ علم تخريج الفروع على الأصول ونشأته ومؤلفاته، والتدريب على تطبيقه في مسائل أصولية وفقهية.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001413-2.pdf",
+          "specification_code": "2001413-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001414-4": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "القياس",
+          "summary": "يتناول مفهوم القياس الأصولي وأنواعه وأركانه وشروطه، والعلة ومسالكها وتحقيق المناط وتنقيحه وتخريجه.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001414-4.pdf",
+          "specification_code": "2001414-4",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001421-4": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "الفقه (8)",
+          "summary": "يتناول الأحكام الفقهية المتعلقة باللعان والرضاع والنفقات والحضانة والجنايات والديات والقسامة، مع ربطها بالواقع.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001421-4.pdf",
+          "specification_code": "2001421-4",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001433-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "الاجتهاد والتعارض والترجيح",
+          "summary": "يتناول الاجتهاد وشروطه وأحكامه، والتقليد والفتوى، والتعارض بين الأدلة وطرق الترجيح بينها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001433-2.pdf",
+          "specification_code": "2001433-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001445-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "أصول الفقه",
+          "summary": "يتناول مدخل علم أصول الفقه والحكم الشرعي والتكليف وأدلة الأحكام وأبرز مسائل دلالات الألفاظ والاجتهاد والتقليد.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001445-2.pdf",
+          "specification_code": "2001445-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001465-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "فقه النوازل",
+          "summary": "يتناول منهج فقه النوازل ودراسة مسائل معاصرة في الطب والمال والمعاملات، وضوابط تنزيل الأحكام عليها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001465-2.pdf",
+          "specification_code": "2001465-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2001474-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "العقيدة (4)",
+          "summary": "يتناول مسائل الإيمان وعلاقته بالعمل وزيادته ونقصانه، والقضاء والقدر، ومذهب السلف في أفعال العباد والرد على المخالفين.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001474-2.pdf",
+          "specification_code": "2001474-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2002220-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "القرآن الكريم (1)",
+          "summary": "يدرّب على تصحيح تلاوة سور الجزء الثلاثين وتسميعها، وتلاوة الجزء الأول من القرآن مع تطبيق أحكام التجويد.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2002220-2.pdf",
+          "specification_code": "2002220-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2002221-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "القرآن الكريم (2)",
+          "summary": "يدرّب على تصحيح تلاوة سور الجزء التاسع والعشرين وتسميعها، وتلاوة الجزء الثاني من القرآن مع تطبيق أحكام التجويد.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2002221-2.pdf",
+          "specification_code": "2002221-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2002225-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "القرآن الكريم (٣)",
+          "summary": "يدرّب على تصحيح تلاوة سور الجزء الثامن والعشرين وتسميعها، وتلاوة الجزء الثالث من القرآن مع تطبيق أحكام التجويد.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2002225-2.pdf",
+          "specification_code": "2002225-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2003229-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "نظام الإجراءات الجزائية",
+          "summary": "يتناول نظام الإجراءات الجزائية، ومراحل الاستدلال والتحقيق والمحاكمة، وضمانات المتهم، والأحكام وطرق الاعتراض عليها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2003229-2.pdf",
+          "specification_code": "2003229-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2003230-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "مبادئ القانون التجاري",
+          "summary": "يتناول مفهوم القانون التجاري ونطاقه ومصادره، والأعمال التجارية والتاجر والتزاماته، والشركات التجارية حتى انقضائها وتصفيتها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2003230-2.pdf",
+          "specification_code": "2003230-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "20034102-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "النظام القضائي في المملكة",
+          "summary": "يتناول تنظيم القضاء في المملكة، والاختصاص القضائي، والدعوى والطلبات والدفوع، والخصومة والأحكام وطرق الطعن فيها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/20034102-2.pdf",
+          "specification_code": "20034102-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "20042106-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "أصول فقه (1)",
+          "summary": "يتناول علم أصول الفقه والحكم الشرعي وأقسامه، والحكم التكليفي والوضعي، والأدلة الأصولية وحجيتها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/20042106-2.pdf",
+          "specification_code": "20042106-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2004245-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "العقيدة (2)",
+          "summary": "يتناول توحيد الربوبية والأسماء والصفات وقضية وجود الله، مع بيان مذاهب المخالفين والرد على شبهاتهم.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2004245-2.pdf",
+          "specification_code": "2004245-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2004258-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الأنظمة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "دراسات في السيرة النبوية",
+          "summary": "يتناول مراحل حياة النبي ﷺ، ويستخلص الفوائد والدروس والعبر من مواقف مختارة من السيرة النبوية.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2004258-2.pdf",
+          "specification_code": "2004258-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2004273-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "العقيدة (1)",
+          "summary": "يتناول مبادئ علم العقيدة وتوحيد الألوهية، مع بيان مذاهب المخالفين لأهل السنة والرد على شبهاتهم.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2004273-2.pdf",
+          "specification_code": "2004273-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "20043106-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "أصول الفقه (2)",
+          "summary": "يتناول دلالات الألفاظ من الأمر والنهي والخاص والعام والمطلق والمقيد والمنطوق والمفهوم، والمسائل الأصولية المتعلقة بها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/20043106-2.pdf",
+          "specification_code": "20043106-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2004373-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "العقيدة (3)",
+          "summary": "يعرّف بالإيمان بالملائكة والكتب والرسل واليوم الآخر، وأدلته وأحكامه وثمراته.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2004373-2.pdf",
+          "specification_code": "2004373-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2004414-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الأنظمة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "ثقافة إسلامية (حقوق الإنسان)",
+          "summary": "يعرّف بحقوق الإنسان ومصادرها ومجالاتها، ويعرض موقف الإسلام من تقريرها وحمايتها.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2004414-2.pdf",
+          "specification_code": "2004414-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2004474-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "العقيدة (4)",
+          "summary": "يتناول مسائل الإيمان وعلاقته بالعمل وزيادته ونقصانه، والقضاء والقدر، ومذهب السلف في أفعال العباد والرد على المخالفين.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2004474-2.pdf",
+          "specification_code": "2004474-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2004493-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "تخريج ودراسة الأسانيد",
+          "summary": "يتناول تخريج الحديث وطرقه ومصنفاته وقواعده، ومراحل دراسة الإسناد والجرح والتعديل والحكم على الحديث.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2004493-2.pdf",
+          "specification_code": "2004493-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "990415-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الأنظمة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "تلاوة وتجويد",
+          "summary": "يدرّب عمليًا على تلاوة جزء عم وآيات مختارة، مع تطبيق أحكام النون الساكنة والتنوين والمدود.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/990415-2.pdf",
+          "specification_code": "990415-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "20023110-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "مشروع التخرج",
+          "summary": "يدرّب على الرجوع إلى المصادر الأصيلة في القراءات وعلومها، وتصنيفها والإفادة منها في إعداد مشروع بحث علمي.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/20023110-2.pdf",
+          "specification_code": "20023110-2",
+          "match_status": "adapted_verified"
+        }
+      ]
+    },
+    "2002200-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "القراءات",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "المدخل إلى التفسير الموضوعي",
+          "summary": "يتناول أسس التفسير الموضوعي وأنواعه ومناهجه وضوابطه ومصادره، مع تطبيقات على السور والمصطلحات والقضايا القرآنية وإعداد بحوث موضوعية.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2002200-2.pdf",
+          "specification_code": "2002200-2",
+          "match_status": "adapted_verified"
+        }
+      ]
+    },
+    "2001237-4": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "التدريب العملي",
+          "summary": "يدرّب ميدانيًا على تطبيق المفاهيم الفقهية والنظريات الشرعية والمهارات المكتسبة في مواقف عمل واقعية، وتحليل القضايا المعاصرة وإعداد التقارير المهنية.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2001237-4.pdf",
+          "specification_code": "2001237-4",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2002226-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "القرآن الكريم (٤)",
+          "summary": "يدرّب على تصحيح تلاوة سور الجزء السادس والعشرين وتسميعها، وتلاوة الجزء الخامس من القرآن الكريم مع تطبيق أحكام التجويد.",
+          "pdf_url": "assets/course-specifications/raw-recovery-20260827/2002226-2.pdf",
+          "specification_code": "2002226-2",
+          "match_status": "verified"
+        }
+      ]
+    }
+  }
+}

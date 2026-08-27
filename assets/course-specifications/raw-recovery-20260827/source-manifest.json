@@ -1,0 +1,4134 @@
+{
+  "schema": "raw-course-recovery-manifest-v1",
+  "generated_on": "2026-08-27",
+  "workspace_root": ".",
+  "source_root": "ااااالملفات الخام",
+  "data_snapshot": {
+    "path": "data.json",
+    "sha256": "80be9500e33f2232c8225011592daebc171ce38d245186a5ca3b0607b78bcfa0"
+  },
+  "selection_rule": "Courses currently missing course_details in data.json with matching raw identity by code and title, plus two verified same-identity code migrations explicitly requested.",
+  "counts": {
+    "total_records": 55,
+    "exact_code_and_identity": 53,
+    "approved_code_changes": 2,
+    "pdf_sources": 45,
+    "docx_sources": 10,
+    "page_slices": 4,
+    "approval_complete_in_source": 48,
+    "approval_fill_required": 7,
+    "existing_correct_stamps_preserved": 3,
+    "stamps_to_add": 52,
+    "arabic_stamp_reuse_from_embedded_source": 6,
+    "credit_hour_corrections": 2,
+    "course_code_corrections": 2,
+    "excluded_exact_code_conflicts": 2
+  },
+  "stamp_assets": {
+    "sharia": {
+      "label": "قسم الشريعة",
+      "type": "file",
+      "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+      "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+    },
+    "law": {
+      "label": "قسم الأنظمة",
+      "type": "file",
+      "path": "الأختام/ChatGPT Image 19 أغسطس 2026، 09_16_42 م.png",
+      "sha256": "6ba9079ca48b86b2dba233b6f6626fc6346b1a4d3ce71e42fda6e6d660d156ef"
+    },
+    "islamic_culture": {
+      "label": "قسم الثقافة الإسلامية",
+      "type": "file",
+      "path": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+      "sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1"
+    },
+    "qiraat": {
+      "label": "قسم القراءات",
+      "type": "file",
+      "path": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+      "sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994"
+    },
+    "arabic_language": {
+      "label": "قسم اللغة العربية",
+      "type": "embedded_pdf_image",
+      "path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف التحرير العربي برنامج القراءات  لكلية الشريعة 2024.pdf",
+      "page_1_based": 8,
+      "image_name": "Image76.jp2",
+      "dimensions_pixels": [
+        250,
+        93
+      ],
+      "rgba_sha256": "506024d969d89a2e0c2045e130544f2adafece70bddd40933e9efd25a75d58c2",
+      "note": "Official Arabic Language Department stamp embedded in an authoritative raw source; extract losslessly before reuse."
+    }
+  },
+  "warnings": [
+    {
+      "severity": "critical",
+      "code": "2001433-2",
+      "message": "Do not convert 2001414-4 to 2001433-2: 2001414-4 is القياس. Use the exact 2001433-2 الاجتهاد والتعارض والترجيح source recorded below."
+    },
+    {
+      "severity": "high",
+      "code": "2001414-4",
+      "message": "The source identity and schedule are for a 4-hour course (60 total hours), but the credit-hours cell says two hours; change that cell to 4."
+    },
+    {
+      "severity": "high",
+      "code": "2004493-2",
+      "message": "The site/code and 30-hour teaching total require 2 hours, but the credit-hours cell says four hours; change that cell to 2."
+    },
+    {
+      "severity": "medium",
+      "code": "2001112-2",
+      "message": "The source PDF contains a selectable-text copy on pages 1-7 followed by a scanned duplicate on pages 8-14; publish only pages 1-7."
+    },
+    {
+      "severity": "medium",
+      "code": "20034102-2/2001237-4",
+      "message": "One 16-page container holds two specifications: pages 1-9 Judicial System in the Kingdom and pages 10-16 Practical Training."
+    },
+    {
+      "severity": "medium",
+      "code": "Arabic courses",
+      "message": "The standalone stamps folder has no Arabic Language Department asset. An official embedded stamp was verified in 103171-2/103213-3/103245-2 and can be extracted losslessly from the 103171-2 source reference recorded here."
+    }
+  ],
+  "rejected_requested_mappings": [
+    {
+      "target_code": "2001433-2",
+      "proposed_source_code": "2001414-4",
+      "status": "rejected_identity_conflict",
+      "correct_source_code": "2001433-2"
+    }
+  ],
+  "records": [
+    {
+      "target": {
+        "code": "103131-3",
+        "title": "النحو (١)",
+        "hours": 3,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "103131-3",
+        "source_title": "نحو (1)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/نحو ( 1 ).pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/نحو ( 1 ).pdf",
+        "sha256": "27c2297ecffc19bc1ed98fc05eacc5ada9a8fbbcbbfefd416fe6ac9d9b7e50bd",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 3
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "arabic_language",
+        "department_label": "قسم اللغة العربية",
+        "status": "add_from_recovered_embedded_asset",
+        "asset": {
+          "label": "قسم اللغة العربية",
+          "type": "embedded_pdf_image",
+          "path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف التحرير العربي برنامج القراءات  لكلية الشريعة 2024.pdf",
+          "page_1_based": 8,
+          "image_name": "Image76.jp2",
+          "dimensions_pixels": [
+            250,
+            93
+          ],
+          "rgba_sha256": "506024d969d89a2e0c2045e130544f2adafece70bddd40933e9efd25a75d58c2",
+          "note": "Official Arabic Language Department stamp embedded in an authoritative raw source; extract losslessly before reuse."
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "نحو (1)",
+          "to_value": "النحو (١)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "extract_asset_then_add",
+          "department": "قسم اللغة العربية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "103141-2",
+        "title": "البلاغة",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الشريعة",
+          "الشريعة (47 جديدة)",
+          "القراءات (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "103141-2",
+        "source_title": "البلاغة",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف البلاغة برنامج القراءات ).pdf",
+        "raw_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف البلاغة برنامج القراءات ).pdf",
+        "sha256": "43e1e1303f433136f911ec9aec0bfff5b7d2583fbc8e9462e892e8023557f126",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-6",
+        "output_page_count_before_stamp": 6,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 6,
+        "output_page_1_based": 6
+      },
+      "stamp": {
+        "department_key": "arabic_language",
+        "department_label": "قسم اللغة العربية",
+        "status": "add_from_recovered_embedded_asset",
+        "asset": {
+          "label": "قسم اللغة العربية",
+          "type": "embedded_pdf_image",
+          "path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف التحرير العربي برنامج القراءات  لكلية الشريعة 2024.pdf",
+          "page_1_based": 8,
+          "image_name": "Image76.jp2",
+          "dimensions_pixels": [
+            250,
+            93
+          ],
+          "rgba_sha256": "506024d969d89a2e0c2045e130544f2adafece70bddd40933e9efd25a75d58c2",
+          "note": "Official Arabic Language Department stamp embedded in an authoritative raw source; extract losslessly before reuse."
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "extract_pages",
+          "required": true,
+          "source_pages_inclusive": "1-6",
+          "reason": "trim trailing blank page 7; approval is on page 6"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "extract_asset_then_add",
+          "department": "قسم اللغة العربية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "103171-2",
+        "title": "التحرير العربي",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الشريعة",
+          "الدراسات الإسلامية",
+          "القراءات (بكالوريوس)",
+          "القرآن وعلومه",
+          "الدراسات الإسلامية (47 جديدة)",
+          "القراءات (47 جديدة)",
+          "القرآن وعلومه (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "103171-2",
+        "source_title": "التحرير العربي",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف التحرير العربي برنامج القراءات  لكلية الشريعة 2024.pdf",
+        "raw_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف التحرير العربي برنامج القراءات  لكلية الشريعة 2024.pdf",
+        "sha256": "19fca17c5e1ed49ed857d57dd01050e03d1feb9b90d1e6d74e6429392a344242",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "arabic_language",
+        "department_label": "قسم اللغة العربية",
+        "status": "preserve_existing_correct_stamp",
+        "asset": {
+          "label": "قسم اللغة العربية",
+          "type": "embedded_pdf_image",
+          "path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف التحرير العربي برنامج القراءات  لكلية الشريعة 2024.pdf",
+          "page_1_based": 8,
+          "image_name": "Image76.jp2",
+          "dimensions_pixels": [
+            250,
+            93
+          ],
+          "rgba_sha256": "506024d969d89a2e0c2045e130544f2adafece70bddd40933e9efd25a75d58c2",
+          "note": "Official Arabic Language Department stamp embedded in an authoritative raw source; extract losslessly before reuse."
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": false,
+          "action": "preserve",
+          "department": "قسم اللغة العربية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "103213-3",
+        "title": "النحو (٣)",
+        "hours": 3,
+        "type": "نظري",
+        "programs": [
+          "الشريعة",
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "103213-3",
+        "source_title": "مقرر النحو (3)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/مقرر النحو ( 3 ).pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/مقرر النحو ( 3 ).pdf",
+        "sha256": "f667ca79c9d68fc330cb504b923b4ef79d323d242012a3920628d6d910ebe232",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 3
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "arabic_language",
+        "department_label": "قسم اللغة العربية",
+        "status": "preserve_existing_correct_stamp",
+        "asset": {
+          "label": "قسم اللغة العربية",
+          "type": "embedded_pdf_image",
+          "path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف التحرير العربي برنامج القراءات  لكلية الشريعة 2024.pdf",
+          "page_1_based": 8,
+          "image_name": "Image76.jp2",
+          "dimensions_pixels": [
+            250,
+            93
+          ],
+          "rgba_sha256": "506024d969d89a2e0c2045e130544f2adafece70bddd40933e9efd25a75d58c2",
+          "note": "Official Arabic Language Department stamp embedded in an authoritative raw source; extract losslessly before reuse."
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "مقرر النحو (3)",
+          "to_value": "النحو (٣)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": false,
+          "action": "preserve",
+          "department": "قسم اللغة العربية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "103245-2",
+        "title": "النحو (٣)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الدراسات الإسلامية",
+          "القراءات (بكالوريوس)",
+          "القرآن وعلومه",
+          "الدراسات الإسلامية (47 جديدة)",
+          "القراءات (47 جديدة)",
+          "القرآن وعلومه (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "103245-2",
+        "source_title": "مقرر النحو (3)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف نحو (3) برنامج القراءات  لكلية الشريعة 2024.pdf",
+        "raw_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف نحو (3) برنامج القراءات  لكلية الشريعة 2024.pdf",
+        "sha256": "861612b1548cda554ab1bad9648c5e01a681203fb26d62948ba2158b16944d3e",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "arabic_language",
+        "department_label": "قسم اللغة العربية",
+        "status": "preserve_existing_correct_stamp",
+        "asset": {
+          "label": "قسم اللغة العربية",
+          "type": "embedded_pdf_image",
+          "path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف التحرير العربي برنامج القراءات  لكلية الشريعة 2024.pdf",
+          "page_1_based": 8,
+          "image_name": "Image76.jp2",
+          "dimensions_pixels": [
+            250,
+            93
+          ],
+          "rgba_sha256": "506024d969d89a2e0c2045e130544f2adafece70bddd40933e9efd25a75d58c2",
+          "note": "Official Arabic Language Department stamp embedded in an authoritative raw source; extract losslessly before reuse."
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "مقرر النحو (3)",
+          "to_value": "النحو (٣)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": false,
+          "action": "preserve",
+          "department": "قسم اللغة العربية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "103281-2",
+        "title": "النحو (١)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الشريعة",
+          "الدراسات الإسلامية",
+          "القراءات (بكالوريوس)",
+          "القرآن وعلومه",
+          "الدراسات الإسلامية (47 جديدة)",
+          "القراءات (47 جديدة)",
+          "القرآن وعلومه (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "103281-2",
+        "source_title": "نحو (1)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف نحو (1) برنامج القراءات لكلية الشريعة 2024.pdf",
+        "raw_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف نحو (1) برنامج القراءات لكلية الشريعة 2024.pdf",
+        "sha256": "93a0e8bbdc354c98a1c5be63164eeddbd11d723931b9083e660a014ea9f6a879",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "arabic_language",
+        "department_label": "قسم اللغة العربية",
+        "status": "add_from_recovered_embedded_asset",
+        "asset": {
+          "label": "قسم اللغة العربية",
+          "type": "embedded_pdf_image",
+          "path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف التحرير العربي برنامج القراءات  لكلية الشريعة 2024.pdf",
+          "page_1_based": 8,
+          "image_name": "Image76.jp2",
+          "dimensions_pixels": [
+            250,
+            93
+          ],
+          "rgba_sha256": "506024d969d89a2e0c2045e130544f2adafece70bddd40933e9efd25a75d58c2",
+          "note": "Official Arabic Language Department stamp embedded in an authoritative raw source; extract losslessly before reuse."
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "نحو (1)",
+          "to_value": "النحو (١)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "extract_asset_then_add",
+          "department": "قسم اللغة العربية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "103282-2",
+        "title": "النحو (٢)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الشريعة",
+          "الدراسات الإسلامية",
+          "القراءات (بكالوريوس)",
+          "القرآن وعلومه",
+          "الدراسات الإسلامية (47 جديدة)",
+          "القراءات (47 جديدة)",
+          "القرآن وعلومه (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "103282-2",
+        "source_title": "نحو 2",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف نحو (2)  برنامج القراءات لكلية الشريعة 2024.pdf",
+        "raw_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف نحو (2)  برنامج القراءات لكلية الشريعة 2024.pdf",
+        "sha256": "07900d52f7f01185867175bd1e781e0dd241962dff6c6abe83252515f524f38b",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "arabic_language",
+        "department_label": "قسم اللغة العربية",
+        "status": "add_from_recovered_embedded_asset",
+        "asset": {
+          "label": "قسم اللغة العربية",
+          "type": "embedded_pdf_image",
+          "path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف التحرير العربي برنامج القراءات  لكلية الشريعة 2024.pdf",
+          "page_1_based": 8,
+          "image_name": "Image76.jp2",
+          "dimensions_pixels": [
+            250,
+            93
+          ],
+          "rgba_sha256": "506024d969d89a2e0c2045e130544f2adafece70bddd40933e9efd25a75d58c2",
+          "note": "Official Arabic Language Department stamp embedded in an authoritative raw source; extract losslessly before reuse."
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "نحو 2",
+          "to_value": "النحو (٢)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "extract_asset_then_add",
+          "department": "قسم اللغة العربية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "103349-2",
+        "title": "النحو (٤)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الشريعة",
+          "القراءات (بكالوريوس)",
+          "القرآن وعلومه",
+          "القراءات (47 جديدة)",
+          "القرآن وعلومه (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "103349-2",
+        "source_title": "النحو (4)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف نحو (4) برنامج القراءات لكلية الشريعة 2024.pdf",
+        "raw_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف نحو (4) برنامج القراءات لكلية الشريعة 2024.pdf",
+        "sha256": "de26f099f8393c6dc474ef8e44150bb7a0018bf0f29fd16b058589667ded7209",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "arabic_language",
+        "department_label": "قسم اللغة العربية",
+        "status": "add_from_recovered_embedded_asset",
+        "asset": {
+          "label": "قسم اللغة العربية",
+          "type": "embedded_pdf_image",
+          "path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف التحرير العربي برنامج القراءات  لكلية الشريعة 2024.pdf",
+          "page_1_based": 8,
+          "image_name": "Image76.jp2",
+          "dimensions_pixels": [
+            250,
+            93
+          ],
+          "rgba_sha256": "506024d969d89a2e0c2045e130544f2adafece70bddd40933e9efd25a75d58c2",
+          "note": "Official Arabic Language Department stamp embedded in an authoritative raw source; extract losslessly before reuse."
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "extract_asset_then_add",
+          "department": "قسم اللغة العربية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "103411-2",
+        "title": "الصرف",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "القرآن وعلومه",
+          "القراءات (47 جديدة)",
+          "القرآن وعلومه (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "103411-2",
+        "source_title": "الصرف",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف مقرر الصرف برنامج القراءات لكلية الشريعة إصدار 2024م (1).pdf",
+        "raw_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف مقرر الصرف برنامج القراءات لكلية الشريعة إصدار 2024م (1).pdf",
+        "sha256": "01c23803272bf7239923d427a9243cd34bd7a6a3077ead97823117257392bc68",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "fill_required",
+        "authority": [
+          "مجلس القسم (قسم اللغة العربية)"
+        ],
+        "session": [
+          "11"
+        ],
+        "date": [
+          "1446/9/10هـ الموافق 2025/3/10م"
+        ],
+        "evidence": "same-directory Arabic-course peers",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "arabic_language",
+        "department_label": "قسم اللغة العربية",
+        "status": "add_from_recovered_embedded_asset",
+        "asset": {
+          "label": "قسم اللغة العربية",
+          "type": "embedded_pdf_image",
+          "path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم اللغة العربية/توصيف التحرير العربي برنامج القراءات  لكلية الشريعة 2024.pdf",
+          "page_1_based": 8,
+          "image_name": "Image76.jp2",
+          "dimensions_pixels": [
+            250,
+            93
+          ],
+          "rgba_sha256": "506024d969d89a2e0c2045e130544f2adafece70bddd40933e9efd25a75d58c2",
+          "note": "Official Arabic Language Department stamp embedded in an authoritative raw source; extract losslessly before reuse."
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "complete_approval_table",
+          "required": true,
+          "values": {
+            "authority": [
+              "مجلس القسم (قسم اللغة العربية)"
+            ],
+            "session": [
+              "11"
+            ],
+            "date": [
+              "1446/9/10هـ الموافق 2025/3/10م"
+            ]
+          },
+          "evidence": "same-directory Arabic-course peers"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "extract_asset_then_add",
+          "department": "قسم اللغة العربية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001101-2",
+        "title": "مصطلح الحديث",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "القراءات (بكالوريوس)",
+          "القرآن وعلومه"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001101-2",
+        "source_title": "مصطلح الحديث",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "docx",
+        "absolute_path": "ااااالملفات الخام/توصيف المقررات/توصيفات مقدمة من الدراسات الإسلامية/توصيفات الحديث وعلومه برنامج القرآن وعلومه/توصيف مصطلح الحديث قسم القرآن وعلومه.docx",
+        "raw_relative_path": "توصيف المقررات/توصيفات مقدمة من الدراسات الإسلامية/توصيفات الحديث وعلومه برنامج القرآن وعلومه/توصيف مصطلح الحديث قسم القرآن وعلومه.docx",
+        "sha256": "ebbf797e18f15d30e1fe4ba2d800f64f57e9c4d4edaa47335c10240c2cdadfa5",
+        "container_page_count": null,
+        "source_pages_inclusive": null,
+        "output_page_count_before_stamp": null,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم القراءات",
+          "مجلس كلية الشريعة والأنظمة"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "stamp": {
+        "department_key": "qiraat",
+        "department_label": "قسم القراءات",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم القراءات",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+          "sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "convert_docx_to_pdf",
+          "required": true
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم القراءات"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001112-2",
+        "title": "المدخل لدراسة الفقه",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الأنظمة (47 جديدة)",
+          "الدراسات الإسلامية (47 جديدة)",
+          "الشريعة (47 جديدة)",
+          "القراءات (47 جديدة)",
+          "القرآن وعلومه (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001112-2",
+        "source_title": "المدخل لدراسة الفقه (متطلب كلية)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/المدخل لدراسة الفقه ( متطلب كلية).pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/المدخل لدراسة الفقه ( متطلب كلية).pdf",
+        "sha256": "d232009fbbd338121667c7b1833503a3dbf3cd1517f685338781baeb408ce607",
+        "container_page_count": 14,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "extract_pages",
+          "required": true,
+          "source_pages_inclusive": "1-7",
+          "reason": "keep the selectable-text copy on pages 1-7; pages 8-14 are a scanned duplicate"
+        },
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "المدخل لدراسة الفقه (متطلب كلية)",
+          "to_value": "المدخل لدراسة الفقه",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001128-2",
+        "title": "فقه آيات وأحاديث الأحكام (1)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001128-2",
+        "source_title": "فقه آيات وأحاديث الأحكام 1",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/فقه آيات وأحاديث الأحكام 1.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/فقه آيات وأحاديث الأحكام 1.pdf",
+        "sha256": "cccfe94933dadb04c3f03de954cfdf1d53b043edb97cec14b5152442dbfe5724",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "فقه آيات وأحاديث الأحكام 1",
+          "to_value": "فقه آيات وأحاديث الأحكام (1)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001148-2",
+        "title": "الخلاف والمناظرة",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الشريعة",
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001148-2",
+        "source_title": "الخلاف والمناظرة",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/الخلاف والمناظرة.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/الخلاف والمناظرة.pdf",
+        "sha256": "9e2ccbb8200cb22aa504cc348caaae12cdbfeb1719f9fc576dbc38d595aae611",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001171-2",
+        "title": "العقيدة (1)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "القرآن وعلومه"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001171-2",
+        "source_title": "العقيدة1",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "docx",
+        "absolute_path": "ااااالملفات الخام/توصيف المقررات/توصيفات مقدمة من الدراسات الإسلامية/توصيفات العقيدة ببرنامج القرآن وعلومه/توصيف العقيدة 1 في قسم القرآن وعلومه.docx",
+        "raw_relative_path": "توصيف المقررات/توصيفات مقدمة من الدراسات الإسلامية/توصيفات العقيدة ببرنامج القرآن وعلومه/توصيف العقيدة 1 في قسم القرآن وعلومه.docx",
+        "sha256": "2fc9a9e0cb2f7f14992b2d7dd0819ce36bb847c391f4999408c9bea00df019f0",
+        "container_page_count": null,
+        "source_pages_inclusive": null,
+        "output_page_count_before_stamp": null,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "fill_required",
+        "authority": [
+          "مجلس قسم الثقافة الإسلامية",
+          "مجلس كلية الشريعة والأنظمة"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "creed-course peers 2001373-2 and 2001474-2",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "stamp": {
+        "department_key": "islamic_culture",
+        "department_label": "قسم الثقافة الإسلامية",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الثقافة الإسلامية",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+          "sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "convert_docx_to_pdf",
+          "required": true
+        },
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "العقيدة1",
+          "to_value": "العقيدة (1)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "complete_approval_table",
+          "required": true,
+          "values": {
+            "authority": [
+              "مجلس قسم الثقافة الإسلامية",
+              "مجلس كلية الشريعة والأنظمة"
+            ],
+            "session": [
+              "10"
+            ],
+            "date": [
+              "1446/9/3هـ"
+            ]
+          },
+          "evidence": "creed-course peers 2001373-2 and 2001474-2"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الثقافة الإسلامية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001237-4",
+        "title": "التدريب العملي",
+        "hours": 4,
+        "type": "تدريب",
+        "programs": [
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001237-4",
+        "source_title": "التدريب العملي",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/النظام القضائي في المملكة.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/النظام القضائي في المملكة.pdf",
+        "sha256": "fc92455dd49a2e7e8bc023a8c9e1ba2350c5e863128aa19db1f97b47139b515e",
+        "container_page_count": 16,
+        "source_pages_inclusive": "10-16",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 4
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 16,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "extract_pages",
+          "required": true,
+          "source_pages_inclusive": "10-16",
+          "reason": "extract the embedded Practical Training specification; pages 1-9 are Judicial System in the Kingdom"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001245-2",
+        "title": "العقيدة (2)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "القراءات (بكالوريوس)",
+          "القرآن وعلومه"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001245-2",
+        "source_title": "العقيدة2",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "docx",
+        "absolute_path": "ااااالملفات الخام/توصيف المقررات/توصيفات مقدمة من الدراسات الإسلامية/توصيفات العقيدة ببرنامج القرآن وعلومه/توصيف العقيدة 2 في قسم القرآن وعلومه.docx",
+        "raw_relative_path": "توصيف المقررات/توصيفات مقدمة من الدراسات الإسلامية/توصيفات العقيدة ببرنامج القرآن وعلومه/توصيف العقيدة 2 في قسم القرآن وعلومه.docx",
+        "sha256": "2ccc48761169dfb0886e4a63b72ae0be1d5d368ebc7e066be309d119d6b3c857",
+        "container_page_count": null,
+        "source_pages_inclusive": null,
+        "output_page_count_before_stamp": null,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "fill_required",
+        "authority": [
+          "مجلس قسم الثقافة الإسلامية",
+          "مجلس كلية الشريعة والأنظمة"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "creed-course peers 2001373-2 and 2001474-2",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "stamp": {
+        "department_key": "islamic_culture",
+        "department_label": "قسم الثقافة الإسلامية",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الثقافة الإسلامية",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+          "sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "convert_docx_to_pdf",
+          "required": true
+        },
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "العقيدة2",
+          "to_value": "العقيدة (2)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "complete_approval_table",
+          "required": true,
+          "values": {
+            "authority": [
+              "مجلس قسم الثقافة الإسلامية",
+              "مجلس كلية الشريعة والأنظمة"
+            ],
+            "session": [
+              "10"
+            ],
+            "date": [
+              "1446/9/3هـ"
+            ]
+          },
+          "evidence": "creed-course peers 2001373-2 and 2001474-2"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الثقافة الإسلامية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001250-4",
+        "title": "أدلة الأحكام الشرعية (١)",
+        "hours": 4,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001250-4",
+        "source_title": "أدلة الأحكام الشرعية 1",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/أدلة الأحكام الشرعية 1.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/أدلة الأحكام الشرعية 1.pdf",
+        "sha256": "58072d1610226d2352f1deb69bfff1c0f1c33ac1b70d2b5b5e05bf2cf35d2c36",
+        "container_page_count": 9,
+        "source_pages_inclusive": "1-9",
+        "output_page_count_before_stamp": 9,
+        "source_credit_hours": 4
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 9,
+        "output_page_1_based": 9
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "أدلة الأحكام الشرعية 1",
+          "to_value": "أدلة الأحكام الشرعية (١)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001255-2",
+        "title": "قاعة بحث في الفقه وأصوله",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001255-2",
+        "source_title": "قاعة بحث في الفقه واصوله",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/قاعة بحث في الفقه واصوله.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/قاعة بحث في الفقه واصوله.pdf",
+        "sha256": "60e8ec8ff9e85dc382dc2b44ed48c6a1a6787640f08ff252d684e5c95420df5c",
+        "container_page_count": 10,
+        "source_pages_inclusive": "1-10",
+        "output_page_count_before_stamp": 10,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 10,
+        "output_page_1_based": 10
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "قاعة بحث في الفقه واصوله",
+          "to_value": "قاعة بحث في الفقه وأصوله",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001256-2",
+        "title": "فقه آيات وأحاديث الأحكام (٢)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001256-2",
+        "source_title": "فقه آيات وأحاديث الأحكام2",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/فقه آيات وأحاديث الأحكام2.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/فقه آيات وأحاديث الأحكام2.pdf",
+        "sha256": "4eab88e357e9d9b245a0aae03285eab82013e56570ae67c672b4ee40cdd2ce38",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "فقه آيات وأحاديث الأحكام2",
+          "to_value": "فقه آيات وأحاديث الأحكام (٢)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001257-2",
+        "title": "فقه آيات وأحاديث الأحكام (٣)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001257-2",
+        "source_title": "فقه آيات وأحاديث الأحكام3",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/فقه آيات وأحاديث الأحكام3.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/فقه آيات وأحاديث الأحكام3.pdf",
+        "sha256": "02f3c8bb3f6facb8d11db2c914b205d7bff03cdd604081c6667cdf4faf4bbd90",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "فقه آيات وأحاديث الأحكام3",
+          "to_value": "فقه آيات وأحاديث الأحكام (٣)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001258-2",
+        "title": "فقه آيات وأحاديث الأحكام (٤)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001258-2",
+        "source_title": "فقه آيات وأحاديث الأحكام4",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/فقه آيات وأحاديث الأحكام4.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/فقه آيات وأحاديث الأحكام4.pdf",
+        "sha256": "d3b82ec881b27f32930c47497b0bb26e82fde92358c6113594f444c463763efa",
+        "container_page_count": 9,
+        "source_pages_inclusive": "1-9",
+        "output_page_count_before_stamp": 9,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 9,
+        "output_page_1_based": 9
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "فقه آيات وأحاديث الأحكام4",
+          "to_value": "فقه آيات وأحاديث الأحكام (٤)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001259-2",
+        "title": "فقه آيات وأحاديث الأحكام (٥)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001259-2",
+        "source_title": "فقه آيات وأحاديث الأحكام5",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/فقه آيات وأحاديث الأحكام5.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/فقه آيات وأحاديث الأحكام5.pdf",
+        "sha256": "cd0771d2d16f213e98fe6d6248ebab82206e5f734afefba743ddea22a9f19111",
+        "container_page_count": 10,
+        "source_pages_inclusive": "1-10",
+        "output_page_count_before_stamp": 10,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 10,
+        "output_page_1_based": 10
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "فقه آيات وأحاديث الأحكام5",
+          "to_value": "فقه آيات وأحاديث الأحكام (٥)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001261-2",
+        "title": "أدلة الأحكام الشرعية (٢)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001261-2",
+        "source_title": "أدلة الأحكام الشرعية 2",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/أدلة الأحكام الشرعية 2.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/أدلة الأحكام الشرعية 2.pdf",
+        "sha256": "28f51dd0e5b51734b8dbd18f829675ba840adfb54cfb5a43f19bd99a0fb0ded2",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "أدلة الأحكام الشرعية 2",
+          "to_value": "أدلة الأحكام الشرعية (٢)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001263-4",
+        "title": "دلالات الألفاظ (٢)",
+        "hours": 4,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001263-4",
+        "source_title": "دلالات الألفاظ (2)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/دلالات الألفاظ ( 2 ).pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/دلالات الألفاظ ( 2 ).pdf",
+        "sha256": "f4f5e280d696b96d0c3c249d42de6b982fcf320af7b359b0923b40185836fee1",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 4
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001340-2",
+        "title": "التخريج",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "القراءات (بكالوريوس)",
+          "القرآن وعلومه"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001340-2",
+        "source_title": "التخريج",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "docx",
+        "absolute_path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات الحديث وعلومه ببرنامج القرءات/توصيف مقرر التخريج قسم القراءات.docx",
+        "raw_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات الحديث وعلومه ببرنامج القرءات/توصيف مقرر التخريج قسم القراءات.docx",
+        "sha256": "aae8515827153e3bb8925e482d9f4e4e18470b8fbcde14f10ecf36dc6cc442bb",
+        "container_page_count": null,
+        "source_pages_inclusive": null,
+        "output_page_count_before_stamp": null,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم القراءات",
+          "مجلس كلية الشريعة والأنظمة"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "stamp": {
+        "department_key": "qiraat",
+        "department_label": "قسم القراءات",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم القراءات",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+          "sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "convert_docx_to_pdf",
+          "required": true
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم القراءات"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001346-2",
+        "title": "مقاصد الشريعة",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الشريعة",
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001346-2",
+        "source_title": "مقاصد الشريعة",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/مقاصد الشريعة.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/مقاصد الشريعة.pdf",
+        "sha256": "af57d5caa7a7de66b85b757c5a6795f38110fb0df4660e5b45f8784105aed7dc",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001350-2",
+        "title": "دلالات الألفاظ (١)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001350-2",
+        "source_title": "دلالات الألفاظ (1)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/دلالات الألفاظ (1).pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/دلالات الألفاظ (1).pdf",
+        "sha256": "576f0c670a37e1b1bed9cc09f1c5e8db744f0bfd3f37f6f5bd73cff6f3bf984f",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001373-2",
+        "title": "العقيدة (3)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "القراءات (بكالوريوس)",
+          "القرآن وعلومه"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001373-2",
+        "source_title": "العقيدة (3)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "docx",
+        "absolute_path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات العقيدة ببرنامج القراءات/توصيف مقرر العقيدة 3 برنامج القراءات.docx",
+        "raw_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات العقيدة ببرنامج القراءات/توصيف مقرر العقيدة 3 برنامج القراءات.docx",
+        "sha256": "f180b6dfcf7da5baba686f50c9984ecdbaefcc2e12a6b3e6f1636d3f9bfaceff",
+        "container_page_count": null,
+        "source_pages_inclusive": null,
+        "output_page_count_before_stamp": null,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الثقافة الإسلامية"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "stamp": {
+        "department_key": "islamic_culture",
+        "department_label": "قسم الثقافة الإسلامية",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الثقافة الإسلامية",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+          "sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "convert_docx_to_pdf",
+          "required": true
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الثقافة الإسلامية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001403-2",
+        "title": "الأديان والفرق والمذاهب المعاصرة",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "القراءات (بكالوريوس)",
+          "القرآن وعلومه"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001403-2",
+        "source_title": "الفرق والأديان والمذاهب الفكرية المعاصرة",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "docx",
+        "absolute_path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات العقيدة ببرنامج القراءات/الفرق والأديان والمذاهب الفكرية المعاصرة ببرنامج القراءات.docx",
+        "raw_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات العقيدة ببرنامج القراءات/الفرق والأديان والمذاهب الفكرية المعاصرة ببرنامج القراءات.docx",
+        "sha256": "8bc5f464cf1947351c142192b9bd7568e7a1a173df6b64e5e0045a3f74ee6df4",
+        "container_page_count": null,
+        "source_pages_inclusive": null,
+        "output_page_count_before_stamp": null,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "fill_required",
+        "authority": [
+          "مجلس قسم القراءات",
+          "مجلس قسم الثقافة الإسلامية"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "same-source-family culture-course peers",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "stamp": {
+        "department_key": "islamic_culture",
+        "department_label": "قسم الثقافة الإسلامية",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الثقافة الإسلامية",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+          "sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "convert_docx_to_pdf",
+          "required": true
+        },
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "الفرق والأديان والمذاهب الفكرية المعاصرة",
+          "to_value": "الأديان والفرق والمذاهب المعاصرة",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "complete_approval_table",
+          "required": true,
+          "values": {
+            "authority": [
+              "مجلس قسم القراءات",
+              "مجلس قسم الثقافة الإسلامية"
+            ],
+            "session": [
+              "10"
+            ],
+            "date": [
+              "1446/9/3هـ"
+            ]
+          },
+          "evidence": "same-source-family culture-course peers"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الثقافة الإسلامية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001413-2",
+        "title": "تخريج الفروع على الأصول",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الشريعة",
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001413-2",
+        "source_title": "تخريج الفروع على الأصول",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/تخريج الفروع على الأصول.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/تخريج الفروع على الأصول.pdf",
+        "sha256": "a0da5c8749c128fadbe8c206ac2c1db7e68de1b63c7a6c560a24f2e173dfd03c",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001414-4",
+        "title": "القياس",
+        "hours": 4,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الشريعة",
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001414-4",
+        "source_title": "القياس",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/القياس.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/القياس.pdf",
+        "sha256": "adbcddadfa60de3ed90c2391bde8b22eac69e0e0ec6b05051c300c495f8d3ed8",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_credit_hours",
+          "required": true,
+          "from_value": 2,
+          "to_value": 4,
+          "page_in_output": 3,
+          "evidence": "Source code and both 60-hour totals support 4 hours; only the credit-hours text incorrectly says two hours."
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001421-4",
+        "title": "الفقه (8)",
+        "hours": 4,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الشريعة",
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001421-4",
+        "source_title": "الفقه8",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/الفقه8.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/الفقه8.pdf",
+        "sha256": "52a6d4cb2dacd3fd99107346154f8c6d2456f4ac8cebac0cdf7d8a38807f9f57",
+        "container_page_count": 13,
+        "source_pages_inclusive": "1-13",
+        "output_page_count_before_stamp": 13,
+        "source_credit_hours": 4
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 13,
+        "output_page_1_based": 13
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "الفقه8",
+          "to_value": "الفقه (8)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001433-2",
+        "title": "الاجتهاد والتعارض والترجيح",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الشريعة",
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001433-2",
+        "source_title": "الاجتهاد والتعارض والترجيح",
+        "identity_decision": "safe",
+        "rejected_alternative": {
+          "source_code": "2001414-4",
+          "reason": "2001414-4 is القياس, a different course; the exact 2001433-2 source must be used."
+        }
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/الاجتهاد والتعارض والترجيح.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/الاجتهاد والتعارض والترجيح.pdf",
+        "sha256": "b356f0d17d144054711dbd601198cff24e2c92341c2e4b0f08dc79793995a9c7",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001445-2",
+        "title": "أصول الفقه",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "القراءات (بكالوريوس)",
+          "القراءات (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001445-2",
+        "source_title": "أصول الفقه",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "docx",
+        "absolute_path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم الشريعة/توصيف مقرر أصول الفقه في برنامج القراءات.docx",
+        "raw_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات المقررات المقدمة من قسم الشريعة/توصيف مقرر أصول الفقه في برنامج القراءات.docx",
+        "sha256": "58a60bb4c27dea35cc74b346e0548eaba89fed39523b3fb7cf6569a44e206bdc",
+        "container_page_count": null,
+        "source_pages_inclusive": null,
+        "output_page_count_before_stamp": null,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "fill_required",
+        "authority": [
+          "مجلس قسم القراءات",
+          "مجلس كلية الشريعة والأنظمة"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "broader 1446 Qiraat approval batch; medium-confidence inference",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "stamp": {
+        "department_key": "qiraat",
+        "department_label": "قسم القراءات",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم القراءات",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+          "sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "convert_docx_to_pdf",
+          "required": true
+        },
+        {
+          "kind": "complete_approval_table",
+          "required": true,
+          "values": {
+            "authority": [
+              "مجلس قسم القراءات",
+              "مجلس كلية الشريعة والأنظمة"
+            ],
+            "session": [
+              "10"
+            ],
+            "date": [
+              "1446/9/3هـ"
+            ]
+          },
+          "evidence": "broader 1446 Qiraat approval batch; medium-confidence inference"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم القراءات"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001465-2",
+        "title": "فقه النوازل",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الشريعة",
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001465-2",
+        "source_title": "فقه النوازل",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/فقه النوازل.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/فقه النوازل.pdf",
+        "sha256": "74be1b75ced7e0966c37263ec607f9b1986f91fa0e22e8cc4efc0b2595a39a21",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2001474-2",
+        "title": "العقيدة (4)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "القراءات (بكالوريوس)",
+          "القرآن وعلومه"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2001474-2",
+        "source_title": "العقيدة (4)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "docx",
+        "absolute_path": "ااااالملفات الخام/OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات العقيدة ببرنامج القراءات/توصيف مقرر العقيدة 4 برنامج القراءات.docx",
+        "raw_relative_path": "OneDrive_1447-05-011/المقررات المقدمة من الأقسام الاخرى/توصيفات العقيدة ببرنامج القراءات/توصيف مقرر العقيدة 4 برنامج القراءات.docx",
+        "sha256": "599e71a3a92521294c3c0d789d142b11f43b9de0366fd6f06bda1a37e81b4f07",
+        "container_page_count": null,
+        "source_pages_inclusive": null,
+        "output_page_count_before_stamp": null,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الثقافة الإسلامية"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "stamp": {
+        "department_key": "islamic_culture",
+        "department_label": "قسم الثقافة الإسلامية",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الثقافة الإسلامية",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+          "sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "convert_docx_to_pdf",
+          "required": true
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الثقافة الإسلامية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2002200-2",
+        "title": "المدخل إلى التفسير الموضوعي",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الدراسات الإسلامية (47 جديدة)",
+          "القراءات (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "approved_code_change_same_identity",
+        "source_code": "2002454-2",
+        "source_title": "المدخل إلى التفسير الموضوعي",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "docx",
+        "absolute_path": "ااااالملفات الخام/OneDrive_1447-05-011/مقررات مقدمة من برنامج القران وعلومه/2_2002455_المدخل_إلى_التفسير_الموضوعي.docx",
+        "raw_relative_path": "OneDrive_1447-05-011/مقررات مقدمة من برنامج القران وعلومه/2_2002455_المدخل_إلى_التفسير_الموضوعي.docx",
+        "sha256": "78f6424c1dfffd21c48c071e5247298bbca492f558cdb9deff33a882e5201d47",
+        "container_page_count": null,
+        "source_pages_inclusive": null,
+        "output_page_count_before_stamp": null,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم القراءات"
+        ],
+        "session": [
+          "15"
+        ],
+        "date": [
+          "1446/9/2هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "stamp": {
+        "department_key": "qiraat",
+        "department_label": "قسم القراءات",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم القراءات",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+          "sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "convert_docx_to_pdf",
+          "required": true
+        },
+        {
+          "kind": "replace_course_code",
+          "required": true,
+          "from_value": "2002454-2",
+          "to_value": "2002200-2",
+          "scope": "cover identity field only unless duplicated elsewhere"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم القراءات"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2002220-2",
+        "title": "القرآن الكريم (1)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الدراسات الإسلامية (47 جديدة)",
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2002220-2",
+        "source_title": "القرآن الكريم",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/القرآن الكريم.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/القرآن الكريم.pdf",
+        "sha256": "10552b560ccbf5100de51e5cdfb7a043afbdeab63568b131c6de833ba05ee177",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "القرآن الكريم",
+          "to_value": "القرآن الكريم (1)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2002221-2",
+        "title": "القرآن الكريم (2)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2002221-2",
+        "source_title": "القرآن الكريم (2)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/القرآن الكريم (2).pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/القرآن الكريم (2).pdf",
+        "sha256": "6c97e5a5b2cfba7364e65670b9c2fad933c1ca14a1d2d77d5c8374dc4fc32a02",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2002225-2",
+        "title": "القرآن الكريم (٣)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الدراسات الإسلامية (47 جديدة)",
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2002225-2",
+        "source_title": "القرآن الكريم (3)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/القرآن الكريم (3).pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/القرآن الكريم (3).pdf",
+        "sha256": "1bfd7fca4b0265744365075ecced6682eddf0fae7783c5b296f71feab0cf2019",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2002226-2",
+        "title": "القرآن الكريم (٤)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الدراسات الإسلامية (47 جديدة)",
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2002226-2",
+        "source_title": "القرآن الكريم (4)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/القرآن الكريم (4).pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/القرآن الكريم (4).pdf",
+        "sha256": "582b3d5be4e5598c530a2e650c5355aa7072c747f4af4246dec5d13610824030",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "20023110-2",
+        "title": "مشروع التخرج",
+        "hours": 2,
+        "type": "بحث",
+        "programs": [
+          "القراءات (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "approved_code_change_same_identity",
+        "source_code": "2002412-2",
+        "source_title": "مشروع التخرج",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "docx",
+        "absolute_path": "ااااالملفات الخام/OneDrive_1447-05-011/مقررات التخصص/توصيف مادة مشروع التخرج.docx",
+        "raw_relative_path": "OneDrive_1447-05-011/مقررات التخصص/توصيف مادة مشروع التخرج.docx",
+        "sha256": "a6996180fff92a8e0ae7a361a3384287b2285f0d9c9d4f49523044a3ebb7adca",
+        "container_page_count": null,
+        "source_pages_inclusive": null,
+        "output_page_count_before_stamp": null,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "fill_required",
+        "authority": [
+          "مجلس قسم القراءات"
+        ],
+        "session": [
+          "الثالث عشر"
+        ],
+        "date": [
+          "1446/10/10هـ"
+        ],
+        "evidence": "same-directory 2024 Qiraat specialty-course peers",
+        "source_page_1_based": null,
+        "output_page_1_based": null
+      },
+      "stamp": {
+        "department_key": "qiraat",
+        "department_label": "قسم القراءات",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم القراءات",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+          "sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "convert_docx_to_pdf",
+          "required": true
+        },
+        {
+          "kind": "replace_course_code",
+          "required": true,
+          "from_value": "2002412-2",
+          "to_value": "20023110-2",
+          "scope": "cover identity field only unless duplicated elsewhere"
+        },
+        {
+          "kind": "complete_approval_table",
+          "required": true,
+          "values": {
+            "authority": [
+              "مجلس قسم القراءات"
+            ],
+            "session": [
+              "الثالث عشر"
+            ],
+            "date": [
+              "1446/10/10هـ"
+            ]
+          },
+          "evidence": "same-directory 2024 Qiraat specialty-course peers"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم القراءات"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2003229-2",
+        "title": "نظام الإجراءات الجزائية",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2003229-2",
+        "source_title": "نظام الإجراءات الجزائية",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/نظام الإجراءات الجزائية.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/نظام الإجراءات الجزائية.pdf",
+        "sha256": "f1bc8206b348e721c15ae8e09ac1744c7fb751ca28684db1e73a66856b005961",
+        "container_page_count": 9,
+        "source_pages_inclusive": "1-9",
+        "output_page_count_before_stamp": 9,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "قسم الأنظمة"
+        ],
+        "session": [
+          "23"
+        ],
+        "date": [
+          "1446/9/10هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 9,
+        "output_page_1_based": 9
+      },
+      "stamp": {
+        "department_key": "law",
+        "department_label": "قسم الأنظمة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الأنظمة",
+          "type": "file",
+          "path": "الأختام/ChatGPT Image 19 أغسطس 2026، 09_16_42 م.png",
+          "sha256": "6ba9079ca48b86b2dba233b6f6626fc6346b1a4d3ce71e42fda6e6d660d156ef"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الأنظمة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2003230-2",
+        "title": "مبادئ القانون التجاري",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الشريعة",
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2003230-2",
+        "source_title": "مبادىء القانون التجاري",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/مبادىء القانون التجاري.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/مبادىء القانون التجاري.pdf",
+        "sha256": "27760a20d07c6685372fb39e16da0c4a84194cc38c06cd22955986389c3278b5",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "قسم الأنظمة"
+        ],
+        "session": [
+          "23"
+        ],
+        "date": [
+          "1446/9/10هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "law",
+        "department_label": "قسم الأنظمة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الأنظمة",
+          "type": "file",
+          "path": "الأختام/ChatGPT Image 19 أغسطس 2026، 09_16_42 م.png",
+          "sha256": "6ba9079ca48b86b2dba233b6f6626fc6346b1a4d3ce71e42fda6e6d660d156ef"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "مبادىء القانون التجاري",
+          "to_value": "مبادئ القانون التجاري",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الأنظمة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "20034102-2",
+        "title": "النظام القضائي في المملكة",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة",
+          "الشريعة (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "20034102-2",
+        "source_title": "النظام القضائي في المملكة",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/النظام القضائي في المملكة.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/النظام القضائي في المملكة.pdf",
+        "sha256": "fc92455dd49a2e7e8bc023a8c9e1ba2350c5e863128aa19db1f97b47139b515e",
+        "container_page_count": 16,
+        "source_pages_inclusive": "1-9",
+        "output_page_count_before_stamp": 9,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "قسم الأنظمة"
+        ],
+        "session": [
+          "23"
+        ],
+        "date": [
+          "1446/9/10هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 9,
+        "output_page_1_based": 9
+      },
+      "stamp": {
+        "department_key": "law",
+        "department_label": "قسم الأنظمة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الأنظمة",
+          "type": "file",
+          "path": "الأختام/ChatGPT Image 19 أغسطس 2026، 09_16_42 م.png",
+          "sha256": "6ba9079ca48b86b2dba233b6f6626fc6346b1a4d3ce71e42fda6e6d660d156ef"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "extract_pages",
+          "required": true,
+          "source_pages_inclusive": "1-9",
+          "reason": "extract only the system-judiciary specification; pages 10-16 are Practical Training"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الأنظمة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "20042106-2",
+        "title": "أصول فقه (1)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الدراسات الإسلامية"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "20042106-2",
+        "source_title": "أصول الفقه (1)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/أصول الفقه 1.pdf",
+        "raw_relative_path": "توصيف يدوي/أصول الفقه 1.pdf",
+        "sha256": "bfab28630785c864140b982c51ef5f6e56ab8011fe3b8b3c18d00bd979072f59",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "قسم الثقافة الإسلامية"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1440/7/12هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "islamic_culture",
+        "department_label": "قسم الثقافة الإسلامية",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الثقافة الإسلامية",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+          "sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "أصول الفقه (1)",
+          "to_value": "أصول فقه (1)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الثقافة الإسلامية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2004245-2",
+        "title": "العقيدة (2)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)",
+          "القراءات (47 جديدة)",
+          "القرآن وعلومه (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2004245-2",
+        "source_title": "العقيدة2",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/العقيدة2.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/العقيدة2.pdf",
+        "sha256": "c2691be2047de75a5d3806c33b17f8a0a54b99e88da11cd91eaf78177fadd615",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "العقيدة2",
+          "to_value": "العقيدة (2)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2004258-2",
+        "title": "دراسات في السيرة النبوية",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الأنظمة (47 جديدة)",
+          "الدراسات الإسلامية (47 جديدة)",
+          "الشريعة (47 جديدة)",
+          "القراءات (47 جديدة)",
+          "القرآن وعلومه (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2004258-2",
+        "source_title": "دراسات في السيرة النبوية",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/دراسات في السيرة النبوية.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/دراسات في السيرة النبوية.pdf",
+        "sha256": "8d65bc24569195e2664799ae64a344bf2a0fe46d17453bff081130e03f13b4b1",
+        "container_page_count": 9,
+        "source_pages_inclusive": "1-9",
+        "output_page_count_before_stamp": 9,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الثقافة الإسلامية",
+          "مجلس كلية الشريعة والأنظمة"
+        ],
+        "session": [
+          "10",
+          "20"
+        ],
+        "date": [
+          "1446/9/3هـ",
+          "1446/10/11هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 9,
+        "output_page_1_based": 9
+      },
+      "stamp": {
+        "department_key": "islamic_culture",
+        "department_label": "قسم الثقافة الإسلامية",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الثقافة الإسلامية",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+          "sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الثقافة الإسلامية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2004273-2",
+        "title": "العقيدة (1)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)",
+          "القراءات (47 جديدة)",
+          "القرآن وعلومه (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2004273-2",
+        "source_title": "العقيدة1",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/العقيدة1.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/العقيدة1.pdf",
+        "sha256": "34c3b9ad5ef28c93c1e712fb629aa7d26dc0686c3071728dc7a437bcfdcb8895",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "العقيدة1",
+          "to_value": "العقيدة (1)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "20043106-2",
+        "title": "أصول الفقه (2)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الدراسات الإسلامية"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "20043106-2",
+        "source_title": "أصول الفقه (2)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/أصول الفقه 2.pdf",
+        "raw_relative_path": "توصيف يدوي/أصول الفقه 2.pdf",
+        "sha256": "b2a26589568e4f67d0d60d1a6862da74ef67c8345eaeacfb4f918cec190fa101",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "قسم الثقافة الإسلامية"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1440/7/12هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "islamic_culture",
+        "department_label": "قسم الثقافة الإسلامية",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الثقافة الإسلامية",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+          "sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الثقافة الإسلامية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2004373-2",
+        "title": "العقيدة (3)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)",
+          "القراءات (47 جديدة)",
+          "القرآن وعلومه (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2004373-2",
+        "source_title": "العقيدة (3)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/العقيدة (3).pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/العقيدة (3).pdf",
+        "sha256": "de2135c020c9553d22c60ca859783a4668b943af247c35adaf77ab800e5c0ef8",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2004414-2",
+        "title": "ثقافة إسلامية (حقوق الإنسان)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الأنظمة",
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الشريعة",
+          "الدراسات الإسلامية",
+          "القراءات (بكالوريوس)",
+          "القرآن وعلومه"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2004414-2",
+        "source_title": "الثقافة الإسلامية: حقوق الإنسان",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف المقررات/حقوق الإنسان.pdf",
+        "raw_relative_path": "توصيف المقررات/حقوق الإنسان.pdf",
+        "sha256": "d54507b0684c1981af3304612131ade1aed61697e1e5d734d8cf5ca4a5ae8ba0",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "fill_required",
+        "authority": [
+          "قسم الثقافة الإسلامية"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "same-batch culture-course peers",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "islamic_culture",
+        "department_label": "قسم الثقافة الإسلامية",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الثقافة الإسلامية",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+          "sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_cover_title",
+          "required": true,
+          "from_value": "الثقافة الإسلامية: حقوق الإنسان",
+          "to_value": "ثقافة إسلامية (حقوق الإنسان)",
+          "reason": "catalog/site title is authoritative"
+        },
+        {
+          "kind": "complete_approval_table",
+          "required": true,
+          "values": {
+            "authority": [
+              "قسم الثقافة الإسلامية"
+            ],
+            "session": [
+              "10"
+            ],
+            "date": [
+              "1446/9/3هـ"
+            ]
+          },
+          "evidence": "same-batch culture-course peers"
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الثقافة الإسلامية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2004474-2",
+        "title": "العقيدة (4)",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)",
+          "القراءات (47 جديدة)",
+          "القرآن وعلومه (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2004474-2",
+        "source_title": "العقيدة (4)",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/العقيدة (4).pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/العقيدة (4).pdf",
+        "sha256": "f9563ef173b793b43e7e3a35c96072ae540defb1a8f3e09d4f1cd3a5e8edc0f4",
+        "container_page_count": 8,
+        "source_pages_inclusive": "1-8",
+        "output_page_count_before_stamp": 8,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الشريعة"
+        ],
+        "session": [
+          "7"
+        ],
+        "date": [
+          "1446/5/24هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 8,
+        "output_page_1_based": 8
+      },
+      "stamp": {
+        "department_key": "sharia",
+        "department_label": "قسم الشريعة",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الشريعة",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.36.jpeg",
+          "sha256": "733a54954fd12d90165ab940d29e9a20af13293046bc69de7582fdc10f7b9237"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الشريعة"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "2004493-2",
+        "title": "تخريج ودراسة الأسانيد",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الشريعة (47 جديدة)",
+          "القراءات (47 جديدة)",
+          "القرآن وعلومه (47 جديدة)"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "2004493-2",
+        "source_title": "تخريج ودراسة الأسانيد",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف يدوي/مقررات الشريعة/التخريج ودراسة الأسانيد.pdf",
+        "raw_relative_path": "توصيف يدوي/مقررات الشريعة/التخريج ودراسة الأسانيد.pdf",
+        "sha256": "64fdd42d50ab008257acefba8e2ccbbf7d858f577d02219c4ac0f67c2464d36b",
+        "container_page_count": 12,
+        "source_pages_inclusive": "1-12",
+        "output_page_count_before_stamp": 12,
+        "source_credit_hours": 4
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم الثقافة الإسلامية"
+        ],
+        "session": [
+          "10"
+        ],
+        "date": [
+          "1446/9/3هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 12,
+        "output_page_1_based": 12
+      },
+      "stamp": {
+        "department_key": "islamic_culture",
+        "department_label": "قسم الثقافة الإسلامية",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم الثقافة الإسلامية",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.32.jpeg",
+          "sha256": "2ebe3364b8b8abccd1f77bcd8dbdc576f55ad66aa60038ab909e7ff749f169c1"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "replace_credit_hours",
+          "required": true,
+          "from_value": 4,
+          "to_value": 2,
+          "page_in_output": 3,
+          "evidence": "Source teaching-activity total is 30 hours and the site/code require 2 hours; only the credit-hours text incorrectly says four hours."
+        },
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم الثقافة الإسلامية"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    },
+    {
+      "target": {
+        "code": "990415-2",
+        "title": "تلاوة وتجويد",
+        "hours": 2,
+        "type": "نظري",
+        "programs": [
+          "الأنظمة",
+          "الشريعة (بكالوريوس - إصدار 38 - قديمة)",
+          "الشريعة",
+          "القراءات (بكالوريوس)",
+          "القرآن وعلومه"
+        ],
+        "current_course_details_present": false
+      },
+      "match": {
+        "type": "exact_code_and_identity",
+        "source_code": "990415-2",
+        "source_title": "تلاوة وتجويد",
+        "identity_decision": "safe"
+      },
+      "source": {
+        "format": "pdf",
+        "absolute_path": "ااااالملفات الخام/توصيف المقررات/المواد العامة/تلاوة وتجويد.pdf",
+        "raw_relative_path": "توصيف المقررات/المواد العامة/تلاوة وتجويد.pdf",
+        "sha256": "b5964ab3c09ba2be28e249f552686cc312fb5cd0c5fd3dd1ae2138e8551520bf",
+        "container_page_count": 7,
+        "source_pages_inclusive": "1-7",
+        "output_page_count_before_stamp": 7,
+        "source_credit_hours": 2
+      },
+      "approval": {
+        "status": "complete_in_source",
+        "authority": [
+          "مجلس قسم القراءات"
+        ],
+        "session": [
+          "13"
+        ],
+        "date": [
+          "1445/10/10هـ"
+        ],
+        "evidence": "source",
+        "source_page_1_based": 7,
+        "output_page_1_based": 7
+      },
+      "stamp": {
+        "department_key": "qiraat",
+        "department_label": "قسم القراءات",
+        "status": "missing_add_from_supplied_asset",
+        "asset": {
+          "label": "قسم القراءات",
+          "type": "file",
+          "path": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+          "sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994"
+        }
+      },
+      "required_edits": [
+        {
+          "kind": "department_stamp",
+          "required": true,
+          "action": "add",
+          "department": "قسم القراءات"
+        }
+      ],
+      "publish_readiness": "safe_with_listed_edits"
+    }
+  ],
+  "excluded_exact_code_conflicts": [
+    {
+      "target_code": "105125-2",
+      "target_title": "تاريخ المملكة العربية السعودية",
+      "raw_context": "Program-specification tables only; no course specification document was found.",
+      "decision": "exclude"
+    },
+    {
+      "target_code": "2002235-2",
+      "target_title": "القرآن الكريم (٧)",
+      "raw_source_title": "دراسات في علوم القرآن",
+      "decision": "exclude_identity_conflict"
+    }
+  ]
+}
