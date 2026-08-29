@@ -20,12 +20,12 @@
   "compiled_source_pages": 112,
   "counts": {
     "published_pdf_files": 16,
-    "published_pages": 112,
+    "published_pages": 113,
     "strict_course_details_records": 5,
     "strict_scopes": 5,
     "code_only_not_linked": 4,
     "other_not_linked": 7,
-    "hours_warning_records": 1
+    "hours_warning_records": 0
   },
   "legacy_word_sources": {
     "directory": "ماجستير الدراسات القرآنية/drive-download-20260819T131258Z-1-001/التوصيف القديم",
@@ -79,7 +79,7 @@
       ],
       "published_file": "2002851-4.pdf",
       "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002851-4.pdf",
-      "published_sha256": "2c0ee393a9528f29578e8021a856fef6ca28f8aac9bb1bf798174f58e74c58f9",
+      "published_sha256": "f64fe2a9aed97a2e3e8c0985a426f3217969aa5a1eaa6914a0115d643441f0dc",
       "page_count": 7,
       "approval": {
         "agency": "قسم القراءات",
@@ -97,11 +97,8 @@
           "version": "1"
         }
       ],
-      "match_status": "verified_with_hours_warning",
-      "hours_conflict": {
-        "source_hours": 2,
-        "plan_hours": 4
-      },
+      "match_status": "verified",
+      "hours_conflict": null,
       "include_in_course_details": true,
       "exclusion_reason": null,
       "publication_verification": {
@@ -111,6 +108,326 @@
         "approval_table_complete": true,
         "sensitivity_label_absent": true,
         "placeholders_absent": true
+      },
+      "credit_hours_in_published_pdf": 4,
+      "approved_corrections": {
+        "corrected_on": "2026-08-29",
+        "basis": "published university plan and approved user decision",
+        "source_credit_hours_preserved_in_provenance": 2,
+        "published_credit_hours": 4,
+        "teaching_model": {
+          "topic_rows": 15,
+          "hours_per_topic": 4,
+          "lecture_hours": 60,
+          "additional_hours": 4,
+          "total_learning_hours": 64
+        },
+        "edits": [
+          {
+            "value": "(أربع ساعات في الأسبوع)",
+            "rect_top_points": [
+              357.0,
+              159.0,
+              450.0,
+              181.5
+            ],
+            "htmlbox_scale": 1.0,
+            "text_rect_top_points": [
+              357.0,
+              161.5,
+              450.0,
+              181.5
+            ],
+            "kind": "replace_course_hour_value",
+            "page_1_based": 3,
+            "field": "credit_hours",
+            "from": "ساعتان في الأسبوع",
+            "to": "(أربع ساعات في الأسبوع)"
+          },
+          {
+            "value": "60 ساعة",
+            "rect_top_points": [
+              236.5,
+              664.4,
+              270.9,
+              682.2
+            ],
+            "htmlbox_scale": 1.0,
+            "text_rect_top_points": [
+              147.2,
+              663.7,
+              330.0,
+              683.4
+            ],
+            "kind": "replace_course_hour_value",
+            "page_1_based": 3,
+            "field": "ordinary_instruction_hours",
+            "from": "30 ساعة",
+            "to": "60 ساعة"
+          },
+          {
+            "value": "93.75%",
+            "rect_top_points": [
+              111.5,
+              664.4,
+              133.9,
+              682.2
+            ],
+            "htmlbox_scale": 1.0,
+            "text_rect_top_points": [
+              59.3,
+              663.7,
+              145.7,
+              683.4
+            ],
+            "kind": "replace_course_hour_value",
+            "page_1_based": 3,
+            "field": "ordinary_instruction_percentage",
+            "from": "88%",
+            "to": "93.75%"
+          },
+          {
+            "value": "6.25%",
+            "rect_top_points": [
+              111.5,
+              686.7,
+              133.9,
+              704.5
+            ],
+            "htmlbox_scale": 1.0,
+            "text_rect_top_points": [
+              59.3,
+              686.9,
+              145.7,
+              706.0
+            ],
+            "kind": "replace_course_hour_value",
+            "page_1_based": 3,
+            "field": "electronic_instruction_percentage",
+            "from": "12%",
+            "to": "6.25%"
+          },
+          {
+            "value": "60 ساعة",
+            "rect_top_points": [
+              183.8,
+              226.3,
+              218.2,
+              244.1
+            ],
+            "htmlbox_scale": 1.0,
+            "text_rect_top_points": [
+              147.2,
+              226.8,
+              260.0,
+              246.0
+            ],
+            "kind": "replace_course_hour_value",
+            "page_1_based": 4,
+            "field": "lecture_hours",
+            "from": "30 ساعة",
+            "to": "60 ساعة"
+          },
+          {
+            "value": "93.75%",
+            "rect_top_points": [
+              94.0,
+              226.3,
+              116.3,
+              244.1
+            ],
+            "htmlbox_scale": 1.0,
+            "text_rect_top_points": [
+              59.3,
+              226.8,
+              145.7,
+              246.0
+            ],
+            "kind": "replace_course_hour_value",
+            "page_1_based": 4,
+            "field": "lecture_percentage",
+            "from": "88%",
+            "to": "93.75%"
+          },
+          {
+            "value": "6.25%",
+            "rect_top_points": [
+              94.0,
+              288.5,
+              116.3,
+              306.3
+            ],
+            "htmlbox_scale": 1.0,
+            "text_rect_top_points": [
+              59.3,
+              289.1,
+              145.7,
+              308.2
+            ],
+            "kind": "replace_course_hour_value",
+            "page_1_based": 4,
+            "field": "additional_lesson_percentage",
+            "from": "12%",
+            "to": "6.25%"
+          },
+          {
+            "value": "64 ساعة",
+            "rect_top_points": [
+              184.9,
+              332.0,
+              216.8,
+              348.8
+            ],
+            "htmlbox_scale": 1.0,
+            "text_rect_top_points": [
+              147.2,
+              332.5,
+              260.0,
+              351.5
+            ],
+            "kind": "replace_course_hour_value",
+            "page_1_based": 4,
+            "field": "total_learning_hours",
+            "from": "34 ساعة",
+            "to": "64 ساعة"
+          },
+          {
+            "kind": "replace_topic_hours",
+            "page_1_based": 5,
+            "rows": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "from": "ساعتان",
+            "to": "أربع ساعات",
+            "rects_top_points": [
+              [
+                87.4,
+                319.8,
+                117.0,
+                344.96
+              ],
+              [
+                87.4,
+                347.156,
+                117.0,
+                372.1
+              ],
+              [
+                87.4,
+                374.3,
+                117.0,
+                399.46
+              ],
+              [
+                87.4,
+                401.66,
+                117.0,
+                426.82
+              ],
+              [
+                87.4,
+                429.016,
+                117.0,
+                453.96
+              ],
+              [
+                87.4,
+                456.16,
+                117.0,
+                481.32
+              ],
+              [
+                87.4,
+                483.52,
+                117.0,
+                508.68
+              ],
+              [
+                87.4,
+                510.886,
+                117.0,
+                535.83
+              ],
+              [
+                87.4,
+                538.03,
+                117.0,
+                563.19
+              ],
+              [
+                87.4,
+                565.39,
+                117.0,
+                590.55
+              ],
+              [
+                87.4,
+                592.746,
+                117.0,
+                617.93
+              ],
+              [
+                87.4,
+                620.13,
+                117.0,
+                645.05
+              ],
+              [
+                87.4,
+                647.25,
+                117.0,
+                672.41
+              ],
+              [
+                87.4,
+                674.616,
+                117.0,
+                699.8
+              ],
+              [
+                87.4,
+                702.0,
+                117.0,
+                726.92
+              ]
+            ]
+          },
+          {
+            "value": "60 ساعة",
+            "rect_top_points": [
+              79.5,
+              729.1,
+              124.5,
+              760.3
+            ],
+            "htmlbox_scale": 1.0,
+            "text_rect_top_points": [
+              58.6,
+              739.516,
+              142.2,
+              760.776
+            ],
+            "kind": "replace_course_hour_value",
+            "page_1_based": 5,
+            "field": "topic_hours_total",
+            "from": 30,
+            "to": 60
+          }
+        ]
       }
     },
     {

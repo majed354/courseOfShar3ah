@@ -15,6 +15,7 @@ import json
 import shutil
 import subprocess
 import sys
+from collections import Counter
 from pathlib import Path
 from typing import Any
 
@@ -715,6 +716,126 @@ def complete_topic_hours(
     }
 
 
+def correct_qiraat_topical_assessment_and_references(
+    path: Path,
+    helpers: dict[str, Any],
+    working: Path,
+) -> list[dict[str, Any]]:
+    """Remove the duplicated 10% row and complete references from the matching course."""
+    document = pymupdf.open(path)
+    page = document[5]
+
+    # Use the exact page gray rather than the quantized helper value: this
+    # page renders its background as RGB 242, while quantization returned 244
+    # and exposed the cleanup as a conspicuous pale rectangle.
+    background_sample = pymupdf.Rect(43.0, 480.0, 51.0, 494.0)
+    pixmap = page.get_pixmap(
+        clip=background_sample,
+        colorspace=pymupdf.csRGB,
+        alpha=False,
+    )
+    pixels = zip(
+        pixmap.samples[0::3],
+        pixmap.samples[1::3],
+        pixmap.samples[2::3],
+    )
+    page_background_rgb = Counter(pixels).most_common(1)[0][0]
+    page_background = tuple(channel / 255 for channel in page_background_rgb)
+
+    duplicate_row = pymupdf.Rect(57.27, 458.47, 537.94, 479.03)
+    old_note_rect = pymupdf.Rect(269.5, 480.7, 539.2, 494.2)
+    cleanup_rect = pymupdf.Rect(57.27, 458.47, 537.94, 494.2)
+    page.add_redact_annot(cleanup_rect, fill=page_background, cross_out=False)
+    page.apply_redactions(
+        images=pymupdf.PDF_REDACT_IMAGE_NONE,
+        graphics=pymupdf.PDF_REDACT_LINE_ART_NONE,
+        text=pymupdf.PDF_REDACT_TEXT_REMOVE,
+    )
+    # Preserve a clean closing rule under the fourth and final assessment row.
+    page.draw_line(
+        pymupdf.Point(57.27, 458.47),
+        pymupdf.Point(537.94, 458.47),
+        color=(1.0, 1.0, 1.0),
+        width=0.75,
+        overlay=True,
+    )
+    note_rect = pymupdf.Rect(255.0, 460.0, 537.0, 476.8)
+    note_text = (
+        "أنشطة التقييم (اختبار تحريري، شفهي، عرض تقديمي، مشروع جماعي، "
+        "ورقة عمل وغيره)."
+    )
+    note_scale = helpers["insert_arabic_html"](
+        page,
+        note_rect,
+        note_text,
+        align="right",
+        font_size=8.3,
+    )
+
+    references = [
+        (
+            "primary",
+            pymupdf.Rect(64.0, 562.0, 394.0, 577.6),
+            "التفسير الموضوعي (أسس تأصيلية ونماذج تطبيقية): لعبد الله سالم بافرج",
+        ),
+        (
+            "supporting",
+            pymupdf.Rect(64.0, 585.6, 394.0, 601.2),
+            "التفسير الموضوعي للقرآن الكريم للدكتور أحمد سيد الكومي",
+        ),
+    ]
+    reference_font_size = 8.5
+    reference_edits: list[dict[str, Any]] = []
+    for row, rect, value in references:
+        scale = helpers["insert_arabic_html"](
+            page,
+            rect,
+            value,
+            align="right",
+            font_size=reference_font_size,
+        )
+        reference_edits.append(
+            {
+                "row": row,
+                "value": value,
+                "rect_top_points": [round(number, 3) for number in rect],
+                "font_size": reference_font_size,
+                "htmlbox_scale": scale,
+            }
+        )
+
+    temporary = working / f"{path.stem}-assessment-references.pdf"
+    document.save(temporary, garbage=4, deflate=True, clean=True)
+    document.close()
+    temporary.replace(path)
+    return [
+        {
+            "kind": "remove_duplicate_assessment_row",
+            "page_1_based": 6,
+            "removed_row": 5,
+            "removed_activity": "التقويم الأسبوعي",
+            "removed_percentage": 10,
+            "percentage_total_before": 110,
+            "percentage_total_after": 100,
+            "rect_top_points": [round(number, 3) for number in duplicate_row],
+            "cleanup_rect_top_points": [round(number, 3) for number in cleanup_rect],
+            "fill_rgb_255": list(page_background_rgb),
+            "assessment_note": {
+                "value": note_text,
+                "from_rect_top_points": [round(number, 3) for number in old_note_rect],
+                "to_rect_top_points": [round(number, 3) for number in note_rect],
+                "htmlbox_scale": note_scale,
+            },
+        },
+        {
+            "kind": "complete_course_references",
+            "page_1_based": 6,
+            "basis": "matching Quran and its Sciences specification for the same course code and content",
+            "rows": reference_edits,
+        },
+    ]
+
+
 def set_cell_text(cell: Any, value: str) -> None:
     paragraph = cell.paragraphs[0] if cell.paragraphs else cell.add_paragraph()
     if paragraph.runs:
@@ -1054,6 +1175,14 @@ def main() -> None:
                 working=working,
             )
         )
+        if item["filename"] == "2002454-2--qiraat.pdf":
+            edits.extend(
+                correct_qiraat_topical_assessment_and_references(
+                    path,
+                    helpers,
+                    working,
+                )
+            )
         add_record(
             filename=item["filename"],
             code="2002454-2",
@@ -1159,12 +1288,14 @@ def main() -> None:
         "policy": [
             "Source files remain untouched.",
             "One PDF is emitted for each program-specific identity.",
-            "Ambiguous graduate Usul al-Tafsir hours/code is deliberately excluded pending a decision.",
+            "Graduate-course corrections are maintained in the Quranic Studies master's bundle.",
         ],
         "counts": {
             "outputs": len(records),
             "program_specific_variants": 4,
             "credit_hours_corrected": 2,
+            "assessment_tables_corrected": 1,
+            "reference_sections_completed": 1,
             "stamps_added": len(stamp_inventory["records"]),
         },
         "records": records,

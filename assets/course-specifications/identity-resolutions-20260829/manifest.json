@@ -4,12 +4,14 @@
   "policy": [
     "Source files remain untouched.",
     "One PDF is emitted for each program-specific identity.",
-    "Ambiguous graduate Usul al-Tafsir hours/code is deliberately excluded pending a decision."
+    "Graduate-course corrections are maintained in the Quranic Studies master's bundle."
   ],
   "counts": {
     "outputs": 8,
     "program_specific_variants": 4,
     "credit_hours_corrected": 2,
+    "assessment_tables_corrected": 1,
+    "reference_sections_completed": 1,
     "stamps_added": 3
   },
   "records": [
@@ -604,17 +606,90 @@
           "htmlbox_scale": 1.0
         },
         {
+          "kind": "remove_duplicate_assessment_row",
+          "page_1_based": 6,
+          "removed_row": 5,
+          "removed_activity": "التقويم الأسبوعي",
+          "removed_percentage": 10,
+          "percentage_total_before": 110,
+          "percentage_total_after": 100,
+          "rect_top_points": [
+            57.27,
+            458.47,
+            537.94,
+            479.03
+          ],
+          "cleanup_rect_top_points": [
+            57.27,
+            458.47,
+            537.94,
+            494.2
+          ],
+          "fill_rgb_255": [
+            242,
+            242,
+            242
+          ],
+          "assessment_note": {
+            "value": "أنشطة التقييم (اختبار تحريري، شفهي، عرض تقديمي، مشروع جماعي، ورقة عمل وغيره).",
+            "from_rect_top_points": [
+              269.5,
+              480.7,
+              539.2,
+              494.2
+            ],
+            "to_rect_top_points": [
+              255.0,
+              460.0,
+              537.0,
+              476.8
+            ],
+            "htmlbox_scale": 1.0
+          }
+        },
+        {
+          "kind": "complete_course_references",
+          "page_1_based": 6,
+          "basis": "matching Quran and its Sciences specification for the same course code and content",
+          "rows": [
+            {
+              "row": "primary",
+              "value": "التفسير الموضوعي (أسس تأصيلية ونماذج تطبيقية): لعبد الله سالم بافرج",
+              "rect_top_points": [
+                64.0,
+                562.0,
+                394.0,
+                577.6
+              ],
+              "font_size": 8.5,
+              "htmlbox_scale": 1.0
+            },
+            {
+              "row": "supporting",
+              "value": "التفسير الموضوعي للقرآن الكريم للدكتور أحمد سيد الكومي",
+              "rect_top_points": [
+                64.0,
+                585.6,
+                394.0,
+                601.2
+              ],
+              "font_size": 8.5,
+              "htmlbox_scale": 1.0
+            }
+          ]
+        },
+        {
           "kind": "set_pdf_title_metadata",
           "value": "التفسير الموضوعي",
           "subject": "توصيف مقرر التفسير الموضوعي"
         }
       ],
-      "baseline_sha256": "76f93005141844129409528b413368a6c4c2cf0daf6dcbc31098bc9c31564037",
+      "baseline_sha256": "82bd4e3859c5bc27e440d35175a87aba0d958988da3be3930d78a901e73e10f7",
       "page_count_before_stamp": 7,
       "department_stamp": {
         "status": "preserved_existing_correct_stamp"
       },
-      "output_sha256": "dd4a4125b42ccf5b967a84e371f08aec02aa49405be97e82618a390baba5fddd",
+      "output_sha256": "5cf7971e504279cfa60a5dc8ecd77c3f3307a65f9d163fb9fc0e0c0a5206e72d",
       "page_count_after_stamp": 7
     },
     {
