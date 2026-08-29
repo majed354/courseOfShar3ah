@@ -22,8 +22,8 @@ class EquivalencyRulesTest(unittest.TestCase):
         cls.rules = cls.data.get('equivalencies', {})
 
     def test_expected_counts_and_forbidden_pairs(self) -> None:
-        self.assertEqual(16, len(self.rules))
-        self.assertEqual(25, sum(len(items) for items in self.rules.values()))
+        self.assertEqual(22, len(self.rules))
+        self.assertEqual(32, sum(len(items) for items in self.rules.values()))
         for forbidden in ('2004313-2', '2007314-2', '2002333-2'):
             self.assertNotIn(forbidden, self.rules)
 
@@ -69,13 +69,13 @@ class EquivalencyRulesTest(unittest.TestCase):
             tuple(sorted(((source_code, source_name), (target_code, target_name))))
             for source_code, source_name, target_code, target_name in directed
         }
-        self.assertEqual(16, len(directed))
-        self.assertEqual(8, len(undirected))
+        self.assertEqual(22, len(directed))
+        self.assertEqual(11, len(undirected))
 
     def test_validation_manifest(self) -> None:
         validation = json.loads(VALIDATION.read_text(encoding='utf-8'))
         self.assertEqual('PASS', validation['validation_status'])
-        self.assertEqual(8, validation['undirected_pairs'])
+        self.assertEqual(11, validation['undirected_pairs'])
         self.assertTrue(validation['all_rules_explicit_degree'])
         self.assertFalse(validation['removed_2007314_2002333_pair_present_in_patch'])
 

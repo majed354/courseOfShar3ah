@@ -26,9 +26,9 @@
   },
   "coverage": {
     "initial_specification_variants_reviewed": 214,
-    "incremental_specifications_reviewed": 3,
-    "total_feature_reviews": 217,
-    "unique_code_name_identities": 201,
+    "incremental_specifications_reviewed": 11,
+    "total_feature_reviews": 225,
+    "unique_code_name_identities": 206,
     "bundle_counts": {
       "islamic_general": 55,
       "quran_qiraat": 81,
@@ -41,8 +41,8 @@
     ]
   },
   "summary": {
-    "confirmed_bidirectional_pairs": 8,
-    "exact_equivalent_pairs": 5,
+    "confirmed_bidirectional_pairs": 11,
+    "exact_equivalent_pairs": 8,
     "similar_ge_80_pairs": 3,
     "borderline_human_review_pairs": 1,
     "explicit_cross_bundle_rejections": 30,
@@ -571,6 +571,153 @@
         "independent_pdf_visual_qa"
       ],
       "decision_note": "Independent PDF review found the same ten named legal issues, the same introduction and school-history material, and identical credit/semester hours; conservative similarity is 84–87%."
+    },
+    {
+      "left": {
+        "id": "identity-resolution-20260829-tafsir-old",
+        "code": "2002427-2",
+        "name": "التفسير (8)",
+        "pdf_url": "assets/course-specifications/quran-old-v39/2002427-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "identity-resolution-20260829-tafsir-new",
+        "code": "20024102-2",
+        "name": "تفسير جزء عم",
+        "pdf_url": "assets/course-specifications/identity-resolutions-20260829/20024102-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "exact_spec_renamed_or_recoded",
+      "score_breakdown": {
+        "topics": 35,
+        "learning_outcomes": 25,
+        "description": 15,
+        "objective": 15,
+        "hours": 10,
+        "weighted_total": 100
+      },
+      "confidence": "high",
+      "decision": "explicit_user_confirmed_exact_identity",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "full_specification",
+          "left_excerpt": "التفسير التحليلي لجزء عم ومباحثه وهداياته",
+          "right_excerpt": "نسخة نشر مطابقة من التوصيف نفسه مع تغيير الاسم والرمز فقط"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "أكد المستخدم أن «التفسير (8)» في الخطة القديمة هو محتوى «تفسير جزء عم» في الخطة الجديدة، ونسخة النشر من التوصيف نفسه.",
+      "classification": "exact_equivalent",
+      "bidirectional": true,
+      "score_method": "same full specification under the approved new name/code",
+      "review_provenance": [
+        "explicit_user_confirmation",
+        "full_pdf_identity_review"
+      ]
+    },
+    {
+      "left": {
+        "id": "identity-resolution-20260829-quran-seven-old",
+        "code": "20024103-2",
+        "name": "قرآن كريم حفظ وتلاوة (7)",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20024103-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "identity-resolution-20260829-quran-seven-new",
+        "code": "2002235-2",
+        "name": "القرآن الكريم (٧)",
+        "pdf_url": "assets/course-specifications/identity-resolutions-20260829/2002235-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "exact_spec_renamed_or_recoded",
+      "score_breakdown": {
+        "topics": 35,
+        "learning_outcomes": 25,
+        "description": 15,
+        "objective": 15,
+        "hours": 10,
+        "weighted_total": 100
+      },
+      "confidence": "high",
+      "decision": "approved_same_program_plan_transition",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "full_specification",
+          "left_excerpt": "بكالوريوس الدراسات الإسلامية، حفظ الجزء الرابع والعشرين وتلاوة الجزء السابع",
+          "right_excerpt": "نسخة نشر مطابقة للبرنامج نفسه مع الرمز والاسم الجديدين"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "المقرران في خطتي الدراسات الإسلامية القديمة والجديدة، ونسخة النشر من التوصيف نفسه مع تغيير الهوية الظاهرة فقط.",
+      "classification": "exact_equivalent",
+      "bidirectional": true,
+      "score_method": "same full specification under the approved new name/code",
+      "review_provenance": [
+        "plan_scope_audit",
+        "full_pdf_identity_review"
+      ]
+    },
+    {
+      "left": {
+        "id": "identity-resolution-20260829-sira-islamic-studies",
+        "code": "20044207-2",
+        "name": "السيرة النبوية",
+        "pdf_url": "assets/course-specifications/islamic-studies-bundle-1444/20044207-2.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "right": {
+        "id": "identity-resolution-20260829-sira-qiraat-programs",
+        "code": "2001106-2",
+        "name": "السيرة النبوية",
+        "pdf_url": "assets/course-specifications/identity-resolutions-20260829/2001106-2--quran.pdf",
+        "hours": [
+          2
+        ]
+      },
+      "pair_type": "exact_spec_renamed_or_recoded",
+      "score_breakdown": {
+        "topics": 35,
+        "learning_outcomes": 25,
+        "description": 15,
+        "objective": 15,
+        "hours": 10,
+        "weighted_total": 100
+      },
+      "confidence": "high",
+      "decision": "explicit_user_approved_program_specific_reuse",
+      "symmetric": true,
+      "evidence": [
+        {
+          "field": "full_specification",
+          "left_excerpt": "توصيف السيرة النبوية بساعتين وجميع جداوله ونواتجه",
+          "right_excerpt": "نسختان برنامجيتان من التوصيف نفسه للقرآن وعلومه والقراءات"
+        }
+      ],
+      "hours_compatible": true,
+      "hours_exception_reason": null,
+      "rationale_ar": "المحتوى والساعات والنواتج هي نفسها، وأُنشئت نسختان مستقلتان باسم البرنامج واعتماده لمنع الخلط بين البرامج.",
+      "classification": "exact_equivalent",
+      "bidirectional": true,
+      "score_method": "same full specification under program-specific publication identities",
+      "review_provenance": [
+        "explicit_user_approval",
+        "full_pdf_identity_review"
+      ]
     }
   ],
   "needs_human_review": [
@@ -2687,13 +2834,13 @@
     "GLM 5.3 cross-bundle review",
     "independent PDF review"
   ],
-  "published_date": "2026-08-20",
+  "published_date": "2026-08-29",
   "publication": {
     "data_path": "data.json#/equivalencies",
     "audit_path": "assets/course-equivalencies/equivalency-audit.json",
-    "bidirectional_pairs": 8,
-    "directed_identity_pairs": 16,
-    "scoped_rules": 25,
+    "bidirectional_pairs": 11,
+    "directed_identity_pairs": 22,
+    "scoped_rules": 32,
     "all_rules_explicit_degree": true
   }
 }

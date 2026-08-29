@@ -1,0 +1,111 @@
+{
+  "schema": "department-stamp-application-audit-v1",
+  "source_inventory": "tmp/pdfs/identity-resolutions-20260829/stamp-inventory.json",
+  "policy": {
+    "qiraat": "Qiraat and Quranic studies at all degrees",
+    "sharia": "Sharia, Fiqh, and Usul al-Fiqh",
+    "law": "Regulations and Law",
+    "islamic_culture": "Islamic Studies and Creed",
+    "arabic_language": "Arabic language courses"
+  },
+  "stamp_size_points": {
+    "qiraat": [
+      170.0,
+      62.4
+    ],
+    "sharia": [
+      180.0,
+      77.1
+    ],
+    "law": [
+      180.0,
+      77.1
+    ],
+    "islamic_culture": [
+      180.0,
+      70.7
+    ],
+    "arabic_language": [
+      180.0,
+      67.0
+    ]
+  },
+  "safety_margin_points": 12.0,
+  "records": [
+    {
+      "relative_path": "2001106-2--quran.pdf",
+      "department_key": "qiraat",
+      "stamp_asset": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+      "stamp_asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+      "status": "stamp_added",
+      "placement": "below_approval_table",
+      "target_page_1_based": 9,
+      "bbox_top_points": [
+        212.66,
+        496.97,
+        170.0,
+        62.4
+      ],
+      "safety_margin_points": 12.0,
+      "ink_pixels_with_margin": 0,
+      "checked_pixels_with_margin": 73305,
+      "ink_fraction_with_margin": 0.0,
+      "baseline_sha256": "c7556b623f3cb65ce1e01e17673cf6b3074010c10942732bcedc49f4e93fe577",
+      "output_sha256": "bf5e2696fa1b05b7d4fd41f41ae6246b34cf4f3503a14c3d8dc1f387280ed5e6",
+      "page_count_before": 9,
+      "page_count_after": 9
+    },
+    {
+      "relative_path": "2001106-2--qiraat.pdf",
+      "department_key": "qiraat",
+      "stamp_asset": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+      "stamp_asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+      "status": "stamp_added",
+      "placement": "below_approval_table",
+      "target_page_1_based": 9,
+      "bbox_top_points": [
+        212.66,
+        496.97,
+        170.0,
+        62.4
+      ],
+      "safety_margin_points": 12.0,
+      "ink_pixels_with_margin": 0,
+      "checked_pixels_with_margin": 73305,
+      "ink_fraction_with_margin": 0.0,
+      "baseline_sha256": "255871f2b5f7db8131d1d17e924b059e9eb5faa60f84ac98c47bb5de39c4bcb3",
+      "output_sha256": "5f7479e291c3db48057a162701f7648e5fff813c032ed415e0ff56ddda4335d2",
+      "page_count_before": 9,
+      "page_count_after": 9
+    },
+    {
+      "relative_path": "2002703-2.pdf",
+      "department_key": "qiraat",
+      "stamp_asset": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+      "stamp_asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+      "status": "stamp_added",
+      "placement": "below_approval_table",
+      "target_page_1_based": 8,
+      "bbox_top_points": [
+        212.652,
+        602.491,
+        170.0,
+        62.4
+      ],
+      "safety_margin_points": 12.0,
+      "ink_pixels_with_margin": 0,
+      "checked_pixels_with_margin": 73305,
+      "ink_fraction_with_margin": 0.0,
+      "baseline_sha256": "4ddab00c7058e9e08be7718d955803bc4f25c3148add0c20e8d28a8de1a22fad",
+      "output_sha256": "fdfaad44448e1bcd5deaea3c03108394e5307c956ea425f49748ba83f3173f8f",
+      "page_count_before": 8,
+      "page_count_after": 8
+    }
+  ],
+  "counts": {
+    "total": 3,
+    "preserved_existing": 0,
+    "stamped": 3,
+    "appended_pages": 0
+  }
+}

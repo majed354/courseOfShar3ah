@@ -1,0 +1,707 @@
+{
+  "schema": "course-identity-resolution-bundle-v1",
+  "created_for": "approved identity and credit-hour resolutions on 2026-08-29",
+  "policy": [
+    "Source files remain untouched.",
+    "One PDF is emitted for each program-specific identity.",
+    "Ambiguous graduate Usul al-Tafsir hours/code is deliberately excluded pending a decision."
+  ],
+  "counts": {
+    "outputs": 8,
+    "program_specific_variants": 4,
+    "credit_hours_corrected": 2,
+    "stamps_added": 3
+  },
+  "records": [
+    {
+      "filename": "2001106-2--quran.pdf",
+      "code": "2001106-2",
+      "title": "السيرة النبوية",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "version": "39"
+      },
+      "source_relative_path": "توصيفات برنامج الدراسات الإسلامية.pdf",
+      "source_sha256": "979de4cafe38f11ca6f4e98fc2931c9518d3603de9fd91bc81f37e95d5e28f1e",
+      "edits": [
+        {
+          "kind": "extract_pages",
+          "source_pages_inclusive": "469-477"
+        },
+        {
+          "kind": "replace_course_code",
+          "rect_top_points": [
+            390.5,
+            439.5,
+            452.5,
+            460.5
+          ],
+          "value": "2001106-2",
+          "htmlbox_scale": 1.0
+        },
+        {
+          "kind": "replace_program",
+          "rect_top_points": [
+            220.0,
+            469.5,
+            458.0,
+            491.0
+          ],
+          "value": "بكالوريوس في القرآن وعلومه",
+          "htmlbox_scale": 1.0
+        },
+        {
+          "kind": "replace_department",
+          "rect_top_points": [
+            220.0,
+            499.5,
+            436.5,
+            521.0
+          ],
+          "value": "قسم القراءات",
+          "htmlbox_scale": 1.0
+        },
+        {
+          "kind": "complete_total_learning_hours",
+          "page_1_based": 4,
+          "value": 30,
+          "rect_top_points": [
+            158.2,
+            270.65,
+            241.6,
+            293.1
+          ],
+          "htmlbox_scale": 1.0
+        },
+        {
+          "kind": "complete_approval_table",
+          "page_1_based": 9,
+          "values": {
+            "authority": [
+              "مجلس قسم القراءات"
+            ],
+            "session": [
+              "١٥"
+            ],
+            "date": [
+              "١١/١١/١٤٤٥هـ"
+            ]
+          },
+          "cells": [
+            {
+              "row": "authority",
+              "value": "مجلس قسم القراءات",
+              "rect_top_points": [
+                61.24,
+                402.49,
+                441.26,
+                426.209
+              ],
+              "htmlbox_scale": 1.0
+            },
+            {
+              "row": "session",
+              "value": "١٥",
+              "rect_top_points": [
+                61.24,
+                430.209,
+                441.26,
+                453.83
+              ],
+              "htmlbox_scale": 1.0
+            },
+            {
+              "row": "date",
+              "value": "١١/١١/١٤٤٥هـ",
+              "rect_top_points": [
+                61.24,
+                457.83,
+                441.26,
+                478.97
+              ],
+              "htmlbox_scale": 1.0
+            }
+          ]
+        },
+        {
+          "kind": "set_pdf_title_metadata",
+          "value": "السيرة النبوية",
+          "subject": "توصيف مقرر السيرة النبوية"
+        }
+      ],
+      "baseline_sha256": "c7556b623f3cb65ce1e01e17673cf6b3074010c10942732bcedc49f4e93fe577",
+      "page_count_before_stamp": 9,
+      "department_stamp": {
+        "relative_path": "2001106-2--quran.pdf",
+        "department_key": "qiraat",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+        "stamp_asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 9,
+        "bbox_top_points": [
+          212.66,
+          496.97,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 73305,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "c7556b623f3cb65ce1e01e17673cf6b3074010c10942732bcedc49f4e93fe577",
+        "output_sha256": "bf5e2696fa1b05b7d4fd41f41ae6246b34cf4f3503a14c3d8dc1f387280ed5e6",
+        "page_count_before": 9,
+        "page_count_after": 9
+      },
+      "output_sha256": "1ef54b315912742b3e0b73544e11c2486792b6b3c4db696d677b3f2c0f9b3ca2",
+      "page_count_after_stamp": 9
+    },
+    {
+      "filename": "2001106-2--qiraat.pdf",
+      "code": "2001106-2",
+      "title": "السيرة النبوية",
+      "scope": {
+        "program": "القراءات",
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "version": "38"
+      },
+      "source_relative_path": "توصيفات برنامج الدراسات الإسلامية.pdf",
+      "source_sha256": "979de4cafe38f11ca6f4e98fc2931c9518d3603de9fd91bc81f37e95d5e28f1e",
+      "edits": [
+        {
+          "kind": "extract_pages",
+          "source_pages_inclusive": "469-477"
+        },
+        {
+          "kind": "replace_course_code",
+          "rect_top_points": [
+            390.5,
+            439.5,
+            452.5,
+            460.5
+          ],
+          "value": "2001106-2",
+          "htmlbox_scale": 1.0
+        },
+        {
+          "kind": "replace_program",
+          "rect_top_points": [
+            220.0,
+            469.5,
+            458.0,
+            491.0
+          ],
+          "value": "البكالوريوس - القراءات",
+          "htmlbox_scale": 1.0
+        },
+        {
+          "kind": "replace_department",
+          "rect_top_points": [
+            220.0,
+            499.5,
+            436.5,
+            521.0
+          ],
+          "value": "قسم القراءات",
+          "htmlbox_scale": 1.0
+        },
+        {
+          "kind": "complete_total_learning_hours",
+          "page_1_based": 4,
+          "value": 30,
+          "rect_top_points": [
+            158.2,
+            270.65,
+            241.6,
+            293.1
+          ],
+          "htmlbox_scale": 1.0
+        },
+        {
+          "kind": "complete_approval_table",
+          "page_1_based": 9,
+          "values": {
+            "authority": [
+              "قسم القراءات"
+            ],
+            "session": [
+              "١"
+            ],
+            "date": [
+              "٧/٢/١٤٤٥هـ"
+            ]
+          },
+          "cells": [
+            {
+              "row": "authority",
+              "value": "قسم القراءات",
+              "rect_top_points": [
+                61.24,
+                402.49,
+                441.26,
+                426.209
+              ],
+              "htmlbox_scale": 1.0
+            },
+            {
+              "row": "session",
+              "value": "١",
+              "rect_top_points": [
+                61.24,
+                430.209,
+                441.26,
+                453.83
+              ],
+              "htmlbox_scale": 1.0
+            },
+            {
+              "row": "date",
+              "value": "٧/٢/١٤٤٥هـ",
+              "rect_top_points": [
+                61.24,
+                457.83,
+                441.26,
+                478.97
+              ],
+              "htmlbox_scale": 1.0
+            }
+          ]
+        },
+        {
+          "kind": "set_pdf_title_metadata",
+          "value": "السيرة النبوية",
+          "subject": "توصيف مقرر السيرة النبوية"
+        }
+      ],
+      "baseline_sha256": "255871f2b5f7db8131d1d17e924b059e9eb5faa60f84ac98c47bb5de39c4bcb3",
+      "page_count_before_stamp": 9,
+      "department_stamp": {
+        "relative_path": "2001106-2--qiraat.pdf",
+        "department_key": "qiraat",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+        "stamp_asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 9,
+        "bbox_top_points": [
+          212.66,
+          496.97,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 73305,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "255871f2b5f7db8131d1d17e924b059e9eb5faa60f84ac98c47bb5de39c4bcb3",
+        "output_sha256": "5f7479e291c3db48057a162701f7648e5fff813c032ed415e0ff56ddda4335d2",
+        "page_count_before": 9,
+        "page_count_after": 9
+      },
+      "output_sha256": "80155bd74375c5e3da0cd8a8cbce2c29e2b6e775d4fdf70554ca32ab06e72503",
+      "page_count_after_stamp": 9
+    },
+    {
+      "filename": "2002235-2.pdf",
+      "code": "2002235-2",
+      "title": "القرآن الكريم (٧)",
+      "scope": {
+        "program": "الدراسات الإسلامية",
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "version": "47"
+      },
+      "source_relative_path": "assets/course-specifications/islamic-studies-bundle-1444/20024103-2.pdf",
+      "source_sha256": "5dacaccdddb0cc9aea32645e8cebb603e57875412944a106b71c5bcb436b50d4",
+      "edits": [
+        {
+          "kind": "replace_cover_title",
+          "rect_top_points": [
+            220.0,
+            409.619,
+            448.9,
+            429.869
+          ],
+          "htmlbox_scale": 1.0,
+          "to": "القرآن الكريم (٧)"
+        },
+        {
+          "kind": "replace_course_code",
+          "rect_top_points": [
+            390.75,
+            439.639,
+            452.5,
+            460.249
+          ],
+          "htmlbox_scale": 0.9928602908770384,
+          "to": "2002235-2"
+        },
+        {
+          "kind": "complete_total_learning_hours",
+          "page_1_based": 4,
+          "value": 30,
+          "rect_top_points": [
+            158.2,
+            270.65,
+            241.6,
+            293.1
+          ],
+          "htmlbox_scale": 1.0
+        },
+        {
+          "kind": "set_pdf_title_metadata",
+          "value": "القرآن الكريم (٧)",
+          "subject": "توصيف مقرر القرآن الكريم (٧)"
+        },
+        {
+          "kind": "replace_broken_outline",
+          "entries": 1,
+          "value": "القرآن الكريم (٧) — 2002235-2"
+        }
+      ],
+      "baseline_sha256": "a2fd9a53bb7d17622557425626c12aee1314dd92f0c8dbaa6dab24acc241ee77",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "status": "preserved_existing_correct_stamp"
+      },
+      "output_sha256": "2f56ec3a2f143910b7598d78ccb2ac13c4e5f8de31f21004063e040aaad64fb3",
+      "page_count_after_stamp": 8
+    },
+    {
+      "filename": "20024102-2.pdf",
+      "code": "20024102-2",
+      "title": "تفسير جزء عم",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "version": "47"
+      },
+      "source_relative_path": "assets/course-specifications/quran-old-v39/2002427-2.pdf",
+      "source_sha256": "98e94d90d4afbfe5eb3022e17ded34c1238f0dbc4e5b98d1d51465861fe01de0",
+      "edits": [
+        {
+          "kind": "remove_hidden_legacy_cover_identity",
+          "title_text_blocks": 5,
+          "code_text_blocks": 5,
+          "from_title": "التفسير (8)",
+          "from_code": "2002427-2"
+        },
+        {
+          "kind": "replace_cover_title_overlay",
+          "to": "تفسير جزء عم",
+          "rect_top_points": [
+            315.0,
+            194.66,
+            436.5,
+            223.57
+          ]
+        },
+        {
+          "kind": "replace_course_code_overlay",
+          "to": "20024102-2",
+          "rect_top_points": [
+            315.0,
+            224.78,
+            436.5,
+            253.69
+          ]
+        },
+        {
+          "kind": "restore_cover_row_separator",
+          "rects_top_points": [
+            [
+              315.0,
+              223.58,
+              436.5,
+              223.82
+            ],
+            [
+              315.0,
+              224.54,
+              436.5,
+              224.78
+            ]
+          ]
+        },
+        {
+          "rect_top_points": [
+            49.5,
+            296.0,
+            545.0,
+            354.0
+          ],
+          "value": "يركز مقرر تفسير جزء عم على دراسة الجزء الأخير (الثلاثون) من القرآن الكريم، المعروف بجزء عم؛ ويتناول تفسير الألفاظ الغريبة وفهم المعنى العام للآيات. كما يشمل المقرر دراسة أسباب النزول، والمرويات المتعلقة بالآيات، والترجيح بين الأقوال المختلفة. ويهتم أيضًا بالجمع بين الآيات التي قد تبدو متعارضة، وتطبيق قواعد التفسير، واستنباط الفوائد من الآيات.",
+          "htmlbox_scale": 1.0,
+          "kind": "replace_course_title_reference",
+          "page_1_based": 2,
+          "from": "التفسير (8)",
+          "to": "تفسير جزء عم"
+        },
+        {
+          "kind": "set_pdf_title_metadata",
+          "value": "تفسير جزء عم",
+          "subject": "توصيف مقرر تفسير جزء عم"
+        }
+      ],
+      "baseline_sha256": "8e5c053164964bbb2c63e87af44ce0ded718641aed76dcf09f238994d05c38c6",
+      "page_count_before_stamp": 5,
+      "department_stamp": {
+        "status": "preserved_existing_correct_stamp"
+      },
+      "output_sha256": "fb4b03e82e5367304e4c2dd7d6c9298cb5ff8ff9a71ff1c9902d60f97bf41770",
+      "page_count_after_stamp": 5
+    },
+    {
+      "filename": "2003347-2.pdf",
+      "code": "2003347-2",
+      "title": "نظام البيئة",
+      "scope": {
+        "program": "الأنظمة",
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "version": "47"
+      },
+      "source_relative_path": "assets/course-specifications/systems-source-2022/20034108-2.pdf",
+      "source_sha256": "db99460211b289cfa65152e148fdc60fa2376f895f6f4dc1948b52c250ab81f5",
+      "edits": [
+        {
+          "rect_top_points": [
+            52.0,
+            475.65,
+            398.65,
+            500.95
+          ],
+          "value": "نظام البيئة",
+          "htmlbox_scale": 1.0,
+          "kind": "replace_cover_title",
+          "to": "نظام البيئة"
+        },
+        {
+          "rect_top_points": [
+            52.0,
+            501.55,
+            398.65,
+            526.85
+          ],
+          "value": "2003347-2",
+          "htmlbox_scale": 1.0,
+          "kind": "replace_course_code",
+          "to": "2003347-2"
+        },
+        {
+          "kind": "restore_cover_column_separator",
+          "rect_top_points": [
+            398.81,
+            475.556,
+            399.29,
+            501.02
+          ]
+        },
+        {
+          "kind": "set_pdf_title_metadata",
+          "value": "نظام البيئة",
+          "subject": "توصيف مقرر نظام البيئة"
+        }
+      ],
+      "baseline_sha256": "5f4072ac3fee2057a6412f217d3e122ecc10e3a70e43ee055e25280ffc551b9f",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "status": "preserved_existing_correct_stamp"
+      },
+      "output_sha256": "e8d7f3ea70195617d09246ed60d649c40ed0635e6f57f758a07996995e04e14c",
+      "page_count_after_stamp": 8
+    },
+    {
+      "filename": "2002454-2--quran.pdf",
+      "code": "2002454-2",
+      "title": "التفسير الموضوعي",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة/جديدة",
+        "version": "39/47"
+      },
+      "source_relative_path": "assets/course-specifications/quran-old-v39/2002454-2.pdf",
+      "source_sha256": "feb0f3fa455329a398a169b184284c323b012aa162fd6c62091cc04b5a9d7d65",
+      "edits": [
+        {
+          "kind": "replace_credit_hours_glyph",
+          "page_1_based": 2,
+          "from": 4,
+          "to": 2,
+          "glyph_bytes": "0572 -> 0570",
+          "text_matrix": "1 0 0 1 445.3 708.22 Tm"
+        },
+        {
+          "kind": "repair_digit_text_extraction",
+          "glyph_bytes": "056E-0571",
+          "unicode_values": "0030-0033"
+        },
+        {
+          "kind": "complete_topic_hours",
+          "page_1_based": 4,
+          "topic_number": 7,
+          "value": "ساعتان",
+          "rect_top_points": [
+            57.4,
+            274.05,
+            152.7,
+            297.7
+          ],
+          "htmlbox_scale": 1.0
+        },
+        {
+          "kind": "set_pdf_title_metadata",
+          "value": "التفسير الموضوعي",
+          "subject": "توصيف مقرر التفسير الموضوعي"
+        }
+      ],
+      "baseline_sha256": "252bd33016ea1af8abf57ae30dfbd88a8f5b68d06d9be62e4835c56daf857e3f",
+      "page_count_before_stamp": 5,
+      "department_stamp": {
+        "status": "preserved_existing_correct_stamp"
+      },
+      "output_sha256": "aba2cb946d9a3fc3aa7ad56dec56e30116a7c1e344dc7664a9fe0d226928ecca",
+      "page_count_after_stamp": 5
+    },
+    {
+      "filename": "2002454-2--qiraat.pdf",
+      "code": "2002454-2",
+      "title": "التفسير الموضوعي",
+      "scope": {
+        "program": "القراءات",
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "version": "38"
+      },
+      "source_relative_path": "assets/course-specifications/qiraat-source-1445/2002454-2.pdf",
+      "source_sha256": "2b98525a1bdf34cd3936ca04c2578375927dff498cad4241af4d6581bb2257fa",
+      "edits": [
+        {
+          "kind": "replace_credit_hours_glyph",
+          "page_1_based": 3,
+          "from": 4,
+          "to": 2,
+          "glyph_bytes": "0572 -> 0570",
+          "text_matrix": "1 0 0 1 445.66 658.9 Tm"
+        },
+        {
+          "kind": "complete_topic_hours",
+          "page_1_based": 5,
+          "topic_number": 7,
+          "value": "ساعتان",
+          "rect_top_points": [
+            57.4,
+            639.05,
+            152.8,
+            662.55
+          ],
+          "htmlbox_scale": 1.0
+        },
+        {
+          "kind": "set_pdf_title_metadata",
+          "value": "التفسير الموضوعي",
+          "subject": "توصيف مقرر التفسير الموضوعي"
+        }
+      ],
+      "baseline_sha256": "76f93005141844129409528b413368a6c4c2cf0daf6dcbc31098bc9c31564037",
+      "page_count_before_stamp": 7,
+      "department_stamp": {
+        "status": "preserved_existing_correct_stamp"
+      },
+      "output_sha256": "dd4a4125b42ccf5b967a84e371f08aec02aa49405be97e82618a390baba5fddd",
+      "page_count_after_stamp": 7
+    },
+    {
+      "filename": "2002703-2.pdf",
+      "code": "2002703-2",
+      "title": "دراسات في طبقات القراء وأسانيدهم",
+      "scope": {
+        "program": "القراءات",
+        "degree": "دكتوراه",
+        "plan_type": "جديدة",
+        "version": "1"
+      },
+      "source_relative_path": "ااااالملفات الخام/توصيف المقررات/توصيفات دكتوراة القراءات/دراسات في طبقات القراء وأسانيدهم.docx",
+      "source_sha256": "f43960152841978e6584653f7a61ba8bf1b7a5f5ee77113bc9db907258646da0",
+      "edits": [
+        {
+          "kind": "replace_cover_title",
+          "to": "دراسات في طبقات القراء وأسانيدهم"
+        },
+        {
+          "kind": "replace_course_code",
+          "to": "2002703-2"
+        },
+        {
+          "kind": "remove_empty_learning_outcome_template_rows",
+          "labels": [
+            "2.4",
+            "3.3"
+          ]
+        },
+        {
+          "kind": "prevent_topic_number_wrapping",
+          "font_size_points": 11,
+          "number_column_width_inches": 0.65
+        },
+        {
+          "kind": "fit_table_of_contents",
+          "entries": 7,
+          "font_size_points": 13
+        },
+        {
+          "kind": "complete_approval_table",
+          "values": {
+            "authority": [
+              "مجلس قسم القراءات"
+            ],
+            "session": [
+              "الثالث عشر"
+            ],
+            "date": [
+              "14/9/1445هـ"
+            ]
+          }
+        },
+        {
+          "kind": "set_pdf_title_metadata",
+          "value": "دراسات في طبقات القراء وأسانيدهم",
+          "subject": "توصيف مقرر دراسات في طبقات القراء وأسانيدهم"
+        }
+      ],
+      "baseline_sha256": "4ddab00c7058e9e08be7718d955803bc4f25c3148add0c20e8d28a8de1a22fad",
+      "page_count_before_stamp": 8,
+      "department_stamp": {
+        "relative_path": "2002703-2.pdf",
+        "department_key": "qiraat",
+        "stamp_asset": "الأختام/photo_1448-03-06 21.11.19.jpeg",
+        "stamp_asset_sha256": "81e1415b8d35b965bd9ba0586003307c839e24f2b498469a80a34327fe6ab994",
+        "status": "stamp_added",
+        "placement": "below_approval_table",
+        "target_page_1_based": 8,
+        "bbox_top_points": [
+          212.652,
+          602.491,
+          170.0,
+          62.4
+        ],
+        "safety_margin_points": 12.0,
+        "ink_pixels_with_margin": 0,
+        "checked_pixels_with_margin": 73305,
+        "ink_fraction_with_margin": 0.0,
+        "baseline_sha256": "4ddab00c7058e9e08be7718d955803bc4f25c3148add0c20e8d28a8de1a22fad",
+        "output_sha256": "fdfaad44448e1bcd5deaea3c03108394e5307c956ea425f49748ba83f3173f8f",
+        "page_count_before": 8,
+        "page_count_after": 8
+      },
+      "output_sha256": "98610fcf556f87f2adebeb189d057df2a62a29479882a2710dd04237ee45e1bd",
+      "page_count_after_stamp": 8
+    }
+  ]
+}
