@@ -1,0 +1,1734 @@
+{
+  "generated_at": "2026-09-01",
+  "policy": "تعديلات موضعية فقط للمخرج السيئ أو البعيد عن الموضوعات أو المصاغ خطأً أو المربوط بناتج برنامج غير صحيح.",
+  "output_count": 31,
+  "data_changes": {
+    "changed_variants": 31,
+    "split_source_variants": 17
+  },
+  "records": [
+    {
+      "course_key": "103171-2",
+      "tag": "quran-old-v39",
+      "source": "assets/course-specifications/raw-recovery-20260827/103171-2.pdf",
+      "source_sha256": "0659564173c2889c569539f6c1338b97d9d067bf5aafe63071be3f43f78cd53b",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/103171-2--quran-old-v39.pdf",
+      "output_sha256": "aec76fbe075042975c0bda53d1b837dcd56d533b165c3a979a7919b6dca2ebc9",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "القرآن وعلومه",
+          "version": "39"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/القرآن وعلومه قديم.pdf",
+        "pages": [
+          5,
+          9
+        ]
+      },
+      "reason": "المصفوفة تربط المقرر بقيم البرنامج، ولا يوجد في البرنامج مخرج قيمي بالرمز ق3.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.1",
+          "plo_from": "ق3",
+          "plo_to": "ق2",
+          "text_from": "أن يـبـحــي الـطــالــب فـي اإلنـتـرنــ عـن املعلومات املتصلة باملقرر.",
+          "mapping_rect": [
+            277.06,
+            244.442,
+            340.54,
+            287.622
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يتحمل الطالب مسؤولية التحقق من سلامة المعلومات التي يوظفها في التحرير.",
+          "outcome_rect": [
+            346.54,
+            244.442,
+            497.88,
+            287.622
+          ],
+          "text_scale": 1.0
+        },
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق3",
+          "plo_to": "ق2",
+          "text_from": "أن يعمــل الطــالــب ورقــة عمــل ويقوم بعرضها أمام.زمالئه",
+          "mapping_rect": [
+            277.077,
+            287.598,
+            340.523,
+            331.002
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يبادر الطالب إلى تطوير مهاراته في التحرير العربي باستمرار.",
+          "outcome_rect": [
+            346.579,
+            287.598,
+            497.845,
+            331.002
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "103281-2",
+      "tag": "quran-old-v39",
+      "source": "assets/course-specifications/raw-recovery-20260827/103281-2.pdf",
+      "source_sha256": "5754e83ea6d6fd6562c8d4ef1c753371a2369e4a3d4a298183fa84d89aad07dc",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/103281-2--quran-old-v39.pdf",
+      "output_sha256": "0e2ef26c5fcdc743e1863ac48a5d700b755d2dc3209e29ad99a8a8df37aa38bd",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "القرآن وعلومه",
+          "version": "39"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/القرآن وعلومه قديم.pdf",
+        "pages": [
+          5,
+          10
+        ]
+      },
+      "reason": "مخرجات القيم العامة بعيدة عن موضوعات النحو، وقيم البرنامج المعتمدة هي ق2.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.1",
+          "plo_from": "ق2",
+          "plo_to": "ق2",
+          "text_from": "أن يااحااتاارم الااطااالااب راء زماوئااهل واخاتاوف وجاهااات .النظر",
+          "mapping_rect": [
+            251.95,
+            423.302,
+            376.21,
+            508.686
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يتحمل الطالب مسؤولية إنجاز التكليفات النحوية بدقة.",
+          "outcome_rect": [
+            376.21,
+            423.302,
+            492.48,
+            508.686
+          ],
+          "text_scale": 1.0
+        },
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق3",
+          "plo_to": "ق2",
+          "text_from": "أن ياااتاااحاااماااي الاااطااالاااب املساااااا ااولاايااة الاالاارديااةل والجماعيا ةل والحرى ع ى .الزموء ْظ",
+          "mapping_rect": [
+            251.959,
+            508.658,
+            376.21,
+            594.33
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يبادر الطالب إلى معالجة أخطائه النحوية في التعبير.",
+          "outcome_rect": [
+            382.24,
+            508.658,
+            486.48,
+            594.33
+          ],
+          "text_scale": 1.0
+        },
+        {
+          "page_1_based": 5,
+          "clo_from": "3.3",
+          "plo_from": "ق3",
+          "plo_to": "ق2",
+          "text_from": "أن ياوِّا ل ف الاطااالااب لاغااة الاجسااااااد بالاااعالاياا ة أ اناااء .الت عبير عن محتوى الد رس",
+          "mapping_rect": [
+            251.969,
+            594.303,
+            376.201,
+            701.112
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يطور الطالب أداءه في تطبيق القواعد النحوية باستمرار.",
+          "outcome_rect": [
+            376.201,
+            594.303,
+            492.471,
+            701.112
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "103282-2",
+      "tag": "quran-old-v39",
+      "source": "assets/course-specifications/raw-recovery-20260827/103282-2.pdf",
+      "source_sha256": "30805da13e5cbac1443ff5a897e3863a97ff8f8ea08202a5200274ab9d7eb817",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/103282-2--quran-old-v39.pdf",
+      "output_sha256": "5d4426dc5e261116be49a224a6c48a2c057ec59c864a031b010f1cdfc38e6c66",
+      "page_count": 7,
+      "selectors": [
+        {
+          "program": "القرآن وعلومه",
+          "version": "39"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/القرآن وعلومه قديم.pdf",
+        "pages": [
+          5,
+          10
+        ]
+      },
+      "reason": "مخرجات القيم العامة بعيدة عن موضوعات النحو، والرمز ق3 غير موجود في قيم البرنامج.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.1",
+          "plo_from": "ق2",
+          "plo_to": "ق2",
+          "text_from": "أن يااحااتاارم الااطااالاا زماا ء ويااتااقااباال .اخت ف وجهات النظر ن",
+          "mapping_rect": [
+            241.42,
+            223.322,
+            326.44,
+            315.128
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يتحمل الطالب مسؤولية تطبيق القواعد النحوية في كتاباته.",
+          "outcome_rect": [
+            326.44,
+            223.322,
+            492.48,
+            315.128
+          ],
+          "text_scale": 1.0
+        },
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق2",
+          "plo_to": "ق2",
+          "text_from": "أن ياتاحالاى الاطااالاا بارو الاتاعاااون ماع زم ئااه في أداء التكليفاات واألنشااااطااة .اة ماعية",
+          "mapping_rect": [
+            241.434,
+            315.103,
+            326.44,
+            379.712
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يبادر الطالب إلى تصحيح أخطائه النحوية.",
+          "outcome_rect": [
+            332.44,
+            315.103,
+            486.48,
+            379.712
+          ],
+          "text_scale": 1.0
+        },
+        {
+          "page_1_based": 5,
+          "clo_from": "3.3",
+          "plo_from": "ق3",
+          "plo_to": "ق2",
+          "text_from": "أن يوظف لغاة اة ساااااد بفعالياة أ ناء التعبير عن محتوى.الدرس",
+          "mapping_rect": [
+            241.447,
+            379.686,
+            326.427,
+            423.146
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يطور الطالب أداءه في التحليل النحوي باستمرار.",
+          "outcome_rect": [
+            332.465,
+            379.686,
+            486.457,
+            423.146
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "103349-2",
+      "tag": "quran-old-v39",
+      "source": "assets/course-specifications/raw-recovery-20260827/103349-2.pdf",
+      "source_sha256": "b4916b9b316ad84084a7912ff6c4c1eebc7862865ab04a7f882c88a6e4663e4d",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/103349-2--quran-old-v39.pdf",
+      "output_sha256": "971cbdb25bd911d86c2a520b11cbdfe68eaace84f515912d5d7d3886738d83fa",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "القرآن وعلومه",
+          "version": "39"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/القرآن وعلومه قديم.pdf",
+        "pages": [
+          5,
+          10
+        ]
+      },
+      "reason": "الربط بـ22 هو المخرج القيمي المعتمد للمقرر، والرمز ق3 غير موجود.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.1",
+          "plo_from": "ق2",
+          "plo_to": "ق2",
+          "text_from": "أن يحترم الطـالـب آراء زمًلئـه، مع تقبـص .اختًلف وجهات النظر ّ",
+          "mapping_rect": [
+            277.06,
+            673.642,
+            340.54,
+            716.892
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يتحمل الطالب مسؤولية تطبيق القواعد النحوية المتقدمة بدقة.",
+          "outcome_rect": [
+            346.54,
+            673.642,
+            497.88,
+            716.892
+          ],
+          "text_scale": 1.0
+        },
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق3",
+          "plo_to": "ق2",
+          "text_from": "،أن يتحمص الطالب املســ ولية الاردية والجماعيّة، والحرص على الزمًلء.",
+          "mapping_rect": [
+            277.069,
+            716.866,
+            340.531,
+            759.917
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يبادر الطالب إلى تطوير أدائه في التحليل النحوي.",
+          "outcome_rect": [
+            346.558,
+            716.866,
+            497.864,
+            759.917
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "103411-2",
+      "tag": "quran-old-v39",
+      "source": "assets/course-specifications/raw-recovery-20260827/103411-2.pdf",
+      "source_sha256": "3e03f6253863a53e1d25f55053ff1f64e20772732ab609a569b054586d1356f7",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/103411-2--quran-old-v39.pdf",
+      "output_sha256": "5d4f5e8699293891ab83e48fb2f1aa57e4e0753d07281dd289d179f75eace14f",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "القرآن وعلومه",
+          "version": "39"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/القرآن وعلومه قديم.pdf",
+        "pages": [
+          5,
+          10
+        ]
+      },
+      "reason": "تخصيص مخرجات القيم لموضوعات الصرف وربطها بـ22 المعتمد.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.1",
+          "plo_from": "ق2",
+          "plo_to": "ق2",
+          "text_from": "أن يحترم آراء زمالئه ويتقبل اختالف وجهات .النظر",
+          "mapping_rect": [
+            290.56,
+            586.886,
+            362.08,
+            640.247
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يتحمل الطالب مسؤولية ضبط صيغ الكلمات في كتاباته.",
+          "outcome_rect": [
+            368.08,
+            586.886,
+            493.38,
+            640.247
+          ],
+          "text_scale": 1.0
+        },
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق3",
+          "plo_to": "ق2",
+          "text_from": "أن يوضح مسؤوليته عن تصرفاته في العالقات .الشخصية والمهنية",
+          "mapping_rect": [
+            290.571,
+            640.222,
+            362.069,
+            710.972
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يبادر الطالب إلى تطوير مهاراته الصرفية باستمرار.",
+          "outcome_rect": [
+            362.069,
+            640.222,
+            499.38,
+            710.972
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001101-2",
+      "tag": "quran-old-v39",
+      "source": "assets/course-specifications/raw-recovery-20260827/2001101-2.pdf",
+      "source_sha256": "471c8082c4a093ac531666ac6ffc7129b44f06ed07499a6864c85559475cd712",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001101-2--quran-old-v39.pdf",
+      "output_sha256": "f3a01ef929c1171477e6c9a16a1ee3410c2e261afd39f399598b16d6b58cbac5",
+      "page_count": 11,
+      "selectors": [
+        {
+          "program": "القرآن وعلومه",
+          "version": "39"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/القرآن وعلومه قديم.pdf",
+        "pages": [
+          5,
+          10
+        ]
+      },
+      "reason": "النص القيمي مشوش ومربوط برمز غير موجود في البرنامج.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.1",
+          "plo_from": "ق3",
+          "plo_to": "ق2",
+          "text_from": "ادرة إلىBBBBBالمب ذاتيBBBم الBBBالتعل اBBا ومهاريBBمعرفي اللBBBBBن خBBBBBم نBBBة بيBBBالمقارن تيBBBد الBBBالقواع نيعBBBها وصBBBدرس رحمهم- المحدثين .-الله",
+          "mapping_rect": [
+            252.085,
+            397.807,
+            376.277,
+            534.501
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يبادر الطالب إلى تطوير مهاراته في تطبيق قواعد مصطلح الحديث.",
+          "outcome_rect": [
+            376.277,
+            397.807,
+            492.576,
+            534.501
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001403-2",
+      "tag": "quran-old-v39",
+      "source": "assets/course-specifications/raw-recovery-20260827/2001403-2.pdf",
+      "source_sha256": "7cc4ed1643a8afb655ffe4710e23c20c3e69d933591b382d257dbe37b51e9652",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001403-2--quran-old-v39.pdf",
+      "output_sha256": "3a9fbba30932f5363c1ad5da8327094509277ff73842db934240c99d3f96df00",
+      "page_count": 10,
+      "selectors": [
+        {
+          "program": "القرآن وعلومه",
+          "version": "39"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/القرآن وعلومه قديم.pdf",
+        "pages": [
+          5,
+          11
+        ]
+      },
+      "reason": "النصوص القيمية مشوشة، والربط الأنسب للسلوك الأخلاقي هو ق1.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.1",
+          "plo_from": "ق1",
+          "plo_to": "ق1",
+          "text_from": "درالمش��اركة في ال��ّ ع����لى الش����بهات الباطل����ة لألدي����ان والف��رق والم��ذاهب .الفكرية",
+          "mapping_rect": [
+            255.385,
+            461.907,
+            354.977,
+            545.601
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يلتزم الطالب بالمنهج العلمي في مناقشة شبهات الأديان والفرق والمذاهب الفكرية.",
+          "outcome_rect": [
+            354.977,
+            461.907,
+            492.576,
+            545.601
+          ],
+          "text_scale": 1.0
+        },
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق2",
+          "plo_to": "ق1",
+          "text_from": "ع�ن مش�اركةفالك�ّ أه���ل الباط���ل في . شعائر هم",
+          "mapping_rect": [
+            255.398,
+            545.557,
+            354.977,
+            599.001
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يتحلى الطالب بالأمانة العلمية عند عرض معتقدات الأديان والفرق والمذاهب.",
+          "outcome_rect": [
+            354.977,
+            545.557,
+            492.567,
+            599.001
+          ],
+          "text_scale": 1.0
+        },
+        {
+          "page_1_based": 5,
+          "clo_from": "3.3",
+          "plo_from": "ق3",
+          "plo_to": "ق1",
+          "text_from": "المبادرة إلى ال�براءة من العقائد واألفك�ار الباطلة عن�د األدي�ان والف��رق والم��ذاهب .الفكرية",
+          "mapping_rect": [
+            255.41,
+            598.957,
+            354.977,
+            682.692
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يلتزم الطالب بالموقف الشرعي المنضبط تجاه العقائد والأفكار الباطلة.",
+          "outcome_rect": [
+            354.977,
+            598.957,
+            492.559,
+            682.692
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2002412-2",
+      "tag": "qiraat-old-v38",
+      "source": "assets/course-specifications/qiraat-source-1445/2002412-2.pdf",
+      "source_sha256": "e1278e593994606ffb5e5e95a380a7fcfb859ec0104692bd2b46a63d805d992a",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2002412-2--qiraat-old-v38.pdf",
+      "output_sha256": "e06731d6551195a0437b4a2abc3979e11ad500d618546e9ff926770aad48cfa0",
+      "page_count": 7,
+      "selectors": [
+        {
+          "program": "القراءات",
+          "version": "38"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/القراءات القديم.pdf",
+        "pages": [
+          7,
+          12
+        ]
+      },
+      "reason": "المصفوفة تخصص لقاعة البحث ع3 وم4، والرمزان ع6/م6 غير موجودين، والرمز 3.3 مكتوب في مجال المهارات.",
+      "edits": [
+        {
+          "page_1_based": 4,
+          "clo_from": "1.1",
+          "plo_from": "ع1",
+          "plo_to": "ع3",
+          "text_from": "أن ي حد د الطد الدب املصدددددادر وا ملراجع األصيلة في علوم القراءات.",
+          "mapping_rect": [
+            249.679,
+            456.304,
+            354.61,
+            502.453
+          ],
+          "mapping_scale": 1.0
+        },
+        {
+          "page_1_based": 4,
+          "clo_from": "1.2",
+          "plo_from": "ع6",
+          "plo_to": "ع3",
+          "text_from": "أن ي صدن ف الط الب املصد ادر واملراجع حسب علومها ومادتها.",
+          "mapping_rect": [
+            249.685,
+            502.436,
+            354.596,
+            548.138
+          ],
+          "mapping_scale": 1.0
+        },
+        {
+          "page_1_based": 4,
+          "clo_from": "2.1",
+          "plo_from": "م6",
+          "plo_to": "م4",
+          "text_from": "أن يسددددتخدددم الطدد الددب املصددددددادر واملراجع في األبحاث العلمي ة. ق",
+          "mapping_rect": [
+            249.69,
+            570.88,
+            354.583,
+            614.18
+          ],
+          "mapping_scale": 1.0
+        },
+        {
+          "page_1_based": 4,
+          "clo_from": "2.2",
+          "plo_from": "م6",
+          "plo_to": "م4",
+          "text_from": "أن يد فدر ق الدطدد الددب بد دن املصددددددادر األسدددددداسددددديددة والدفدرعديددة فدي عدلدوم القراءات.",
+          "mapping_rect": [
+            249.696,
+            614.158,
+            354.57,
+            678.579
+          ],
+          "mapping_scale": 1.0
+        },
+        {
+          "page_1_based": 4,
+          "clo_from": "3.3",
+          "plo_from": "م6",
+          "plo_to": "م4",
+          "text_from": "أن ي مي دددد ز الط الب املصادر األساسية األ صددددديدلددة فدي كددل عدلدم مد عدلدوم القراءات.",
+          "mapping_rect": [
+            249.701,
+            678.559,
+            354.557,
+            743.005
+          ],
+          "mapping_scale": 1.0,
+          "clo_to": "2.3",
+          "code_rect": [
+            501.739,
+            678.559,
+            538.103,
+            743.005
+          ],
+          "code_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001110-2",
+      "tag": "sharia-all",
+      "source": "assets/course-specifications/sharia-ba-1445/2001110-2.pdf",
+      "source_sha256": "063ccdd73c17f27288a0209bd8c5efca0de8652eeb3945c21569185505f365ee",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001110-2--sharia-all.pdf",
+      "output_sha256": "b81949b00e6aa13f5befac72cfbfd9062b7c95877f0f6f2ea35bc91cae3915dd",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة القديم ٠١.pdf",
+        "pages": [
+          4,
+          8
+        ]
+      },
+      "reason": "المخرج 1.2 يجمع فعلين ومضمونين في خلية واحدة، وخلية الربط فارغة.",
+      "edits": [
+        {
+          "page_1_based": 4,
+          "clo_from": "1.2",
+          "plo_from": "",
+          "plo_to": "ع1",
+          "text_from": "- أن يذكر الطالع أصول االستنباط عند أئمة املذاهع الفقهية األربعة - أن يوضح الطالع أهم املصطلحان املنطقية",
+          "mapping_rect": [
+            252.509,
+            596.519,
+            376.338,
+            688.392
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يوضح الطالب أصول الاستنباط عند أئمة المذاهب الفقهية الأربعة وأهم مصطلحاتها.",
+          "outcome_rect": [
+            382.43,
+            596.519,
+            493.509,
+            688.392
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001148-2",
+      "tag": "sharia-all",
+      "source": "assets/course-specifications/raw-recovery-20260827/2001148-2.pdf",
+      "source_sha256": "41c0fa5034291c46f2cb3ec2feb365a8872a5790c779d07e14b305318fc23365",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001148-2--sharia-all.pdf",
+      "output_sha256": "d1922269e16bf310d87bd9baaa54f52bb5405372cb3b7bb5bf115812394519a2",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة القديم ٠١.pdf",
+        "pages": [
+          4,
+          10
+        ]
+      },
+      "reason": "مخرجات المعرفة 1.x مربوطة خطأً بمخرجات المهارات، والمصفوفة تربط المقرر بع1.",
+      "edits": [
+        {
+          "page_1_based": 4,
+          "clo_from": "1.1",
+          "plo_from": "م1",
+          "plo_to": "ع1",
+          "text_from": "أن ي شرر حقيقة الخالف وأنواعه وآدابرره، وحقيقررة املنرراظرة وآدا هررا . وفائدتها",
+          "mapping_rect": [
+            249.433,
+            515.675,
+            376.25,
+            570.898
+          ],
+          "mapping_scale": 1.0
+        },
+        {
+          "page_1_based": 4,
+          "clo_from": "1.2",
+          "plo_from": "م3",
+          "plo_to": "ع1",
+          "text_from": "أن ير لرخر ترراريري الرخرالف ويربر رن املحمود منه واملذموم..",
+          "mapping_rect": [
+            249.437,
+            570.884,
+            376.236,
+            626.401
+          ],
+          "mapping_scale": 1.0
+        },
+        {
+          "page_1_based": 4,
+          "clo_from": "1.3",
+          "plo_from": "م1",
+          "plo_to": "ع1",
+          "text_from": "أن ي فرّق ب ن طرق املناظرة.",
+          "mapping_rect": [
+            249.442,
+            626.387,
+            376.223,
+            663.722
+          ],
+          "mapping_scale": 1.0
+        },
+        {
+          "page_1_based": 4,
+          "clo_from": "1.4",
+          "plo_from": "م1",
+          "plo_to": "ع1",
+          "text_from": "أن ي رتب نقاط الصرواب والخطف ي املناظرة .",
+          "mapping_rect": [
+            249.447,
+            663.708,
+            376.21,
+            700.893
+          ],
+          "mapping_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001346-2",
+      "tag": "sharia-old-v38-v39",
+      "source": "assets/course-specifications/raw-recovery-20260827/2001346-2.pdf",
+      "source_sha256": "260b6cc20c29deaf7c3d77f004547a238c27f4dd993ae165a1d2920d58dfb251",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001346-2--sharia-old-v38-v39.pdf",
+      "output_sha256": "bdceec2043441ae843024e0299cbad5af2e97ff88badab63e7ad3346fe25bedc",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "version": "39"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة القديم ٠١.pdf",
+        "pages": [
+          4,
+          11
+        ]
+      },
+      "reason": "ع5 وم4 خارج مخرجات الشريعة القديمة؛ الربط الملائم للنصين هو ع1 وم3.",
+      "edits": [
+        {
+          "page_1_based": 4,
+          "clo_from": "1.3",
+          "plo_from": "ع5",
+          "plo_to": "ع1",
+          "text_from": "أن يحححدد أدلححة اعتبححار مقححاصححححححد ،الشححححححريححعححة، وطححرق مححعححرفححتححهححا وتقسيماتها",
+          "mapping_rect": [
+            249.386,
+            669.996,
+            376.25,
+            725.428
+          ],
+          "mapping_scale": 1.0
+        },
+        {
+          "page_1_based": 5,
+          "clo_from": "2.2",
+          "plo_from": "م4",
+          "plo_to": "م3",
+          "text_from": "أن يححظححهححر الححخححريححج أهححمححيححة عححلححم مقحاصحححححد الشححححريعحة ي األصححححول والحفحروع مسحححححتح ححدمححا الحتحقحنحيححة .الرقمية ي االستقصاء والتتبع",
+          "mapping_rect": [
+            251.967,
+            253.249,
+            376.25,
+            326.664
+          ],
+          "mapping_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001346-2",
+      "tag": "sharia-new-v47",
+      "source": "assets/course-specifications/raw-recovery-20260827/2001346-2.pdf",
+      "source_sha256": "260b6cc20c29deaf7c3d77f004547a238c27f4dd993ae165a1d2920d58dfb251",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001346-2--sharia-new-v47.pdf",
+      "output_sha256": "e47bf4e3ebd2b9651b6b90f10327b8f23bfbb6a24247eccc8446a04485a6fbf8",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة جديد.pdf",
+        "pages": [
+          4,
+          9
+        ]
+      },
+      "reason": "ع5 في البرنامج الجديد مخصص لموضوع آخر، ونص المهارة يحتاج فعلًا تطبيقيًا.",
+      "edits": [
+        {
+          "page_1_based": 4,
+          "clo_from": "1.3",
+          "plo_from": "ع5",
+          "plo_to": "ع1",
+          "text_from": "أن يحححدد أدلححة اعتبححار مقححاصححححححد ،الشححححححريححعححة، وطححرق مححعححرفححتححهححا وتقسيماتها",
+          "mapping_rect": [
+            249.386,
+            669.996,
+            376.25,
+            725.428
+          ],
+          "mapping_scale": 1.0
+        },
+        {
+          "page_1_based": 5,
+          "clo_from": "2.2",
+          "plo_from": "م4",
+          "plo_to": "م2",
+          "text_from": "أن يححظححهححر الححخححريححج أهححمححيححة عححلححم مقحاصحححححد الشححححريعحة ي األصححححول والحفحروع مسحححححتح ححدمححا الحتحقحنحيححة .الرقمية ي االستقصاء والتتبع",
+          "mapping_rect": [
+            251.967,
+            253.249,
+            376.25,
+            326.664
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يطبق الطالب مقاصد الشريعة في تحليل المسائل الأصولية.",
+          "outcome_rect": [
+            382.25,
+            253.249,
+            497.48,
+            326.664
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001465-2",
+      "tag": "sharia-old-v38-v39",
+      "source": "assets/course-specifications/raw-recovery-20260827/2001465-2.pdf",
+      "source_sha256": "9a3ef9552a5568e9a4b56d3b54890d35510338fa3afc25137496a68ccb606969",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001465-2--sharia-old-v38-v39.pdf",
+      "output_sha256": "e405020f6bd1c44021c508330ea136491ed0340a15e14c2f098609c9092dd469",
+      "page_count": 7,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "version": "39"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة القديم ٠١.pdf",
+        "pages": [
+          4,
+          11
+        ]
+      },
+      "reason": "نص المخرج غير مقروء، وعلاقته بع5 غير صالحة للبرنامج القديم.",
+      "edits": [
+        {
+          "page_1_based": 4,
+          "clo_from": "1.2",
+          "plo_from": "ع4",
+          "plo_to": "ع1",
+          "text_from": "أن يبي ر طابيا بوهج طسععطوبي أحعععوعععيه طاعععوعععاطل طاععع عععقعععهععع ععع طاع عرعععيض مأبعةع ععع تعبعبع عقع ععع اذاك",
+          "mapping_rect": [
+            249.674,
+            545.275,
+            354.55,
+            609.511
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يبين الطالب مفهوم فقه النوازل وضوابطه.",
+          "outcome_rect": [
+            360.55,
+            545.275,
+            483.27,
+            609.511
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001465-2",
+      "tag": "sharia-new-v47",
+      "source": "assets/course-specifications/raw-recovery-20260827/2001465-2.pdf",
+      "source_sha256": "9a3ef9552a5568e9a4b56d3b54890d35510338fa3afc25137496a68ccb606969",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001465-2--sharia-new-v47.pdf",
+      "output_sha256": "fc2ae80d9c5af2f93593673ccbdeb50fdb19a3799cd0197d86a39c603f3b6673",
+      "page_count": 7,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة جديد.pdf",
+        "pages": [
+          4,
+          9
+        ]
+      },
+      "reason": "نص المخرج غير مقروء؛ صيغ في نطاق موضوعات النوازل وربط بع4.",
+      "edits": [
+        {
+          "page_1_based": 4,
+          "clo_from": "1.2",
+          "plo_from": "ع4",
+          "plo_to": "ع4",
+          "text_from": "أن يبي ر طابيا بوهج طسععطوبي أحعععوعععيه طاعععوعععاطل طاععع عععقعععهععع ععع طاع عرعععيض مأبعةع ععع تعبعبع عقع ععع اذاك",
+          "mapping_rect": [
+            249.674,
+            545.275,
+            354.55,
+            609.511
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يبين الطالب أحكام النوازل الفقهية المعاصرة وضوابطها.",
+          "outcome_rect": [
+            360.55,
+            545.275,
+            483.27,
+            609.511
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001128-2",
+      "tag": "sharia-new-v47",
+      "source": "assets/course-specifications/raw-recovery-20260827/2001128-2.pdf",
+      "source_sha256": "c9c2d85a27d857f067e5eac06206424e14bbe61d7abd151e96a65188b3a9cf71",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001128-2--sharia-new-v47.pdf",
+      "output_sha256": "3d77c056414d74c9a39c820b8527808b19528885a3ce2eee920d063f0ac3969d",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة جديد.pdf",
+        "pages": [
+          5,
+          8,
+          9,
+          10
+        ]
+      },
+      "reason": "ق4 في نسخة المقرر المشتركة لا يطابق قيم الشريعة الجديدة؛ نص النزاهة المهنية يطابق ق1.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق4",
+          "plo_to": "ق1",
+          "text_from": "أن يتمثل الخريج بالنزاهة المهنية واألخالقيات والمواطنة واألكاديمية .المسؤولة",
+          "mapping_rect": [
+            252.04,
+            157.505,
+            376.338,
+            214.174
+          ],
+          "mapping_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001256-2",
+      "tag": "sharia-new-v47",
+      "source": "assets/course-specifications/raw-recovery-20260827/2001256-2.pdf",
+      "source_sha256": "95f908d981ed595adfe56b7f22accc9d6a21ccbb56a466bd4c644de9e2852ef5",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001256-2--sharia-new-v47.pdf",
+      "output_sha256": "89202ced39296a715984e9ab52142f9f9e71080fd1710af71ade6f95f51286ec",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة جديد.pdf",
+        "pages": [
+          5,
+          8,
+          9,
+          10
+        ]
+      },
+      "reason": "ق4 في نسخة المقرر المشتركة لا يطابق قيم الشريعة الجديدة؛ نص النزاهة المهنية يطابق ق1.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق4",
+          "plo_to": "ق1",
+          "text_from": "أن يتمثل الخريج بالنزاهة المهنية واألخالقيات والمواطنة واألكاديمية .المسؤولة",
+          "mapping_rect": [
+            252.04,
+            157.505,
+            376.338,
+            214.174
+          ],
+          "mapping_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001257-2",
+      "tag": "sharia-new-v47",
+      "source": "assets/course-specifications/raw-recovery-20260827/2001257-2.pdf",
+      "source_sha256": "7b8cfdebf6d88e34ef7a19c4cc7fcc30de7f2de134d90a2fc697d2963d284d2f",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001257-2--sharia-new-v47.pdf",
+      "output_sha256": "025f65a60dfa7d69f78dee7fd6b8e4d4f19dab9bbbc4b95c63ac779510abbbac",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة جديد.pdf",
+        "pages": [
+          5,
+          8,
+          9,
+          10
+        ]
+      },
+      "reason": "ق4 في نسخة المقرر المشتركة لا يطابق قيم الشريعة الجديدة؛ نص النزاهة المهنية يطابق ق1.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق4",
+          "plo_to": "ق1",
+          "text_from": "أن يتمثل الخريج بالنزاهة المهنية واألخالقيات والمواطنة واألكاديمية .المسؤولة",
+          "mapping_rect": [
+            252.04,
+            157.505,
+            376.338,
+            214.174
+          ],
+          "mapping_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001115-4",
+      "tag": "sharia-new-v47",
+      "source": "assets/course-specifications/sharia-ba-1445/2001115-4.pdf",
+      "source_sha256": "f826cba832afa713299c8d09bdfb6e2474e8ef6f4be8b3dbb0ab54b254c894f0",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001115-4--sharia-new-v47.pdf",
+      "output_sha256": "ca08b916a669e1a338e12976e0364c20b353bcbe3f719695a27be736752ca16b",
+      "page_count": 7,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة جديد.pdf",
+        "pages": [
+          5,
+          8,
+          9,
+          10
+        ]
+      },
+      "reason": "ق4 في نسخة المقرر المشتركة لا يطابق قيم الشريعة الجديدة؛ نص النزاهة المهنية يطابق ق1.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق4",
+          "plo_to": "ق1",
+          "text_from": "أن يتمثل الخريج بالنزاهة المهنية واألخالقيات والمواطنة واألكاديمية .المسؤولة",
+          "mapping_rect": [
+            252.165,
+            352.197,
+            376.463,
+            408.87
+          ],
+          "mapping_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001116-4",
+      "tag": "sharia-new-v47",
+      "source": "assets/course-specifications/sharia-ba-1445/2001116-4.pdf",
+      "source_sha256": "e10f6a3eaa0bd1684d25de8e19696cd807714c8b452684522d4e9198293f1478",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001116-4--sharia-new-v47.pdf",
+      "output_sha256": "663458e7e0a7815698fdb8f4af068b6d7fc8f3ab053e0f23cf951803c9ca6b23",
+      "page_count": 7,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة جديد.pdf",
+        "pages": [
+          5,
+          8,
+          9,
+          10
+        ]
+      },
+      "reason": "ق4 في نسخة المقرر المشتركة لا يطابق قيم الشريعة الجديدة؛ نص النزاهة المهنية يطابق ق1.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق4",
+          "plo_to": "ق1",
+          "text_from": "أن يتمثل الخريج بالنزاهة المهنية واألخالقيات والمواطنة واألكاديمية .المسؤولة",
+          "mapping_rect": [
+            252.165,
+            208.572,
+            376.463,
+            265.272
+          ],
+          "mapping_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001215-4",
+      "tag": "sharia-new-v47",
+      "source": "assets/course-specifications/sharia-ba-1445/2001215-4.pdf",
+      "source_sha256": "2b7dc2cd579fc921c2c77e8e03c56bffa87261379ab1894e4d64ae65beec5f3f",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001215-4--sharia-new-v47.pdf",
+      "output_sha256": "6550ca84bf6f8682487d4c09bdf338444c9709ffed807c1e3dccd52de509a240",
+      "page_count": 9,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة جديد.pdf",
+        "pages": [
+          5,
+          8,
+          9,
+          10
+        ]
+      },
+      "reason": "ق4 في نسخة المقرر المشتركة لا يطابق قيم الشريعة الجديدة؛ نص النزاهة المهنية يطابق ق1.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق4",
+          "plo_to": "ق1",
+          "text_from": "أن يتمثل الخريج بالنزاهة المهنية واألخالقيات والمواطنة واألكاديمية .المسؤولة",
+          "mapping_rect": [
+            252.165,
+            245.927,
+            376.463,
+            302.542
+          ],
+          "mapping_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001216-4",
+      "tag": "sharia-new-v47",
+      "source": "assets/course-specifications/sharia-ba-1445/2001216-4.pdf",
+      "source_sha256": "384dc0fe52b3de86bdada2175760ee35ded702b79e3761561bae5fdd87f875e1",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001216-4--sharia-new-v47.pdf",
+      "output_sha256": "d7e24194e3a0254072169c75410f99c5c2b3ae7d4a02842d76f961d6fa69ef91",
+      "page_count": 7,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة جديد.pdf",
+        "pages": [
+          5,
+          8,
+          9,
+          10
+        ]
+      },
+      "reason": "ق4 في نسخة المقرر المشتركة لا يطابق قيم الشريعة الجديدة؛ نص النزاهة المهنية يطابق ق1.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق4",
+          "plo_to": "ق1",
+          "text_from": "أن يتمثل الخريج بالنزاهة المهنية واألخالقيات والمواطنة واألكاديمية .المسؤولة",
+          "mapping_rect": [
+            252.165,
+            230.926,
+            376.463,
+            287.52
+          ],
+          "mapping_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001311-4",
+      "tag": "sharia-new-v47",
+      "source": "assets/course-specifications/sharia-ba-1445/2001311-4.pdf",
+      "source_sha256": "4bddc2978040a99ebc9f323a1ce0bacb413f0d3c480b8909fda5e7f7a43d0427",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001311-4--sharia-new-v47.pdf",
+      "output_sha256": "ceddd0c27ef40505ad2a98d6e9f72df78f517addd069f8c1329282a574a64963",
+      "page_count": 7,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة جديد.pdf",
+        "pages": [
+          5,
+          8,
+          9,
+          10
+        ]
+      },
+      "reason": "ق4 في نسخة المقرر المشتركة لا يطابق قيم الشريعة الجديدة؛ نص النزاهة المهنية يطابق ق1.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق4",
+          "plo_to": "ق1",
+          "text_from": "أن يتمثل الخريج بالنزاهة المهنية واألخالقيات والمواطنة واألكاديمية .المسؤولة",
+          "mapping_rect": [
+            252.165,
+            208.572,
+            376.463,
+            265.272
+          ],
+          "mapping_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001321-4",
+      "tag": "sharia-new-v47",
+      "source": "assets/course-specifications/sharia-ba-1445/2001321-4.pdf",
+      "source_sha256": "1e0c6c0839476b3a09b47c8696ca1e3cf9bca6a061b70fcaa421268833a2a81e",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001321-4--sharia-new-v47.pdf",
+      "output_sha256": "ce9b0d32e1c88aa1e7ab9f9046f5dc3f61a2480e8507f8356facb54a0d91f01f",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة جديد.pdf",
+        "pages": [
+          5,
+          8,
+          9,
+          10
+        ]
+      },
+      "reason": "ق4 في نسخة المقرر المشتركة لا يطابق قيم الشريعة الجديدة؛ نص النزاهة المهنية يطابق ق1.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق4",
+          "plo_to": "ق1",
+          "text_from": "أن يتمثل الخريج بالنزاهة المهنية واألخالقيات والمواطنة واألكاديمية .المسؤولة",
+          "mapping_rect": [
+            252.165,
+            245.927,
+            376.463,
+            302.542
+          ],
+          "mapping_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001411-4",
+      "tag": "sharia-new-v47",
+      "source": "assets/course-specifications/sharia-ba-1445/2001411-4.pdf",
+      "source_sha256": "2f4f63dc53a84d521d0bd96798ce9297ad7095a8a5280e089aa2da924b025647",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001411-4--sharia-new-v47.pdf",
+      "output_sha256": "46990136898f5a9b33349b167b12f26fdc580bc5944e1584ca106e1af7465634",
+      "page_count": 9,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة جديد.pdf",
+        "pages": [
+          5,
+          8,
+          9,
+          10
+        ]
+      },
+      "reason": "ق4 في نسخة المقرر المشتركة لا يطابق قيم الشريعة الجديدة؛ نص النزاهة المهنية يطابق ق1.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق4",
+          "plo_to": "ق1",
+          "text_from": "أن يتمثل الخريج بالنزاهة المهنية واألخالقيات والمواطنة واألكاديمية .المسؤولة",
+          "mapping_rect": [
+            252.165,
+            273.535,
+            376.463,
+            330.196
+          ],
+          "mapping_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "20044204-2",
+      "tag": "sharia-new-v47",
+      "source": "assets/course-specifications/islamic-studies-bundle-1444/20044204-2.pdf",
+      "source_sha256": "b3739cde207c7227f0029a5fc94ff16548503bed26e6674ec06d01d69b5b6fbf",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/20044204-2--sharia-new-v47.pdf",
+      "output_sha256": "2d35671589333b881b85def243b0d89b821ee265ce0a743263eb38383d1555cf",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/الشريعة جديد.pdf",
+        "pages": [
+          5,
+          8,
+          9,
+          10
+        ]
+      },
+      "reason": "ق5 مخصص لبرنامج آخر، وليس من قيم الشريعة الجديدة.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.1",
+          "plo_from": "ق5",
+          "plo_to": "ق3",
+          "text_from": "أن يسذذذذاعد الطالذ ي اشذذذذف مذذوقذذف املذذذاهذذذ والذذتذذيذذارات .الفكرية من القضايا الشرعية",
+          "mapping_rect": [
+            251.987,
+            157.486,
+            376.27,
+            212.927
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يتحمل الطالب مسؤولية التحقق العلمي عند نقد المذاهب والتيارات المعاصرة.",
+          "outcome_rect": [
+            382.27,
+            157.486,
+            486.57,
+            212.927
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001700-2",
+      "tag": "usul-master",
+      "source": "assets/course-specifications/usul-master-1446/2001700-2.pdf",
+      "source_sha256": "79a237c296218ce8e24d4daf6e72acf5d5a0dbe8f6ab424a8ec8d9ae9a13ba52",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001700-2--usul-master.pdf",
+      "output_sha256": "1b1729dd88bdbe9fc02598730f60711ff82be7fee12f68d16b027c05dc0f367e",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/ماجستير أصول الفقه.pdf",
+        "pages": [
+          5,
+          7
+        ]
+      },
+      "reason": "ق4 غير موجود في البرنامج، ونص التخطيط الذاتي لا يطابق قيمه المعتمدة.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق4",
+          "plo_to": "ق2",
+          "text_from": "أن يخطط لتطوير مهاراته وقدراته في مجال القضايا .األصولية",
+          "mapping_rect": [
+            252.04,
+            317.198,
+            361.838,
+            377.117
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يشارك الطالب بفاعلية في فريق عمل لمعالجة القضايا الأصولية.",
+          "outcome_rect": [
+            367.65,
+            317.198,
+            486.7,
+            377.117
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001701-3",
+      "tag": "usul-master",
+      "source": "assets/course-specifications/usul-master-1446/2001701-3.pdf",
+      "source_sha256": "d461f445df138d66432d4bf6465f3bc2b3fa5f0b43a707d66c884401e31ca7ed",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001701-3--usul-master.pdf",
+      "output_sha256": "e802ca66de97f421fba0cb6cfa245e7bed5e6b9001fa0f44c6539bf217fa262f",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/ماجستير أصول الفقه.pdf",
+        "pages": [
+          5,
+          7
+        ]
+      },
+      "reason": "ق4 غير موجود في البرنامج، ونص التخطيط الذاتي لا يطابق قيمه المعتمدة.",
+      "edits": [
+        {
+          "page_1_based": 5,
+          "clo_from": "3.2",
+          "plo_from": "ق4",
+          "plo_to": "ق2",
+          "text_from": "أن يخطط لتطوير مهاراته وقدراته في مجال القضايا .األصولية",
+          "mapping_rect": [
+            252.04,
+            317.198,
+            347.588,
+            377.117
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يشارك الطالب بفاعلية في فريق عمل لمعالجة القضايا الأصولية.",
+          "outcome_rect": [
+            353.65,
+            317.198,
+            486.7,
+            377.117
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001704-2",
+      "tag": "usul-master",
+      "source": "assets/course-specifications/usul-master-1446/2001704-2.pdf",
+      "source_sha256": "e43724166e3d0670a7bfac9d495241e30b247b1767fdf1533fa907cdd72c683c",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001704-2--usul-master.pdf",
+      "output_sha256": "60505ec4415daaf43726eec84f54d3170b3d3808e4700c38577c62306ad3782a",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/ماجستير أصول الفقه.pdf",
+        "pages": [
+          5,
+          7
+        ]
+      },
+      "reason": "ع4 غير موجود، والفعل في 1.2 مهاري فأعيدت صياغته معرفيًا.",
+      "edits": [
+        {
+          "page_1_based": 4,
+          "clo_from": "1.2",
+          "plo_from": "ع4",
+          "plo_to": "ع1",
+          "text_from": "أن يتبع خطوات امل نهج العلمي .في إعمال األدلة املختلف فيها",
+          "mapping_rect": [
+            250.12,
+            538.869,
+            361.838,
+            598.958
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يشرح الطالب خطوات المنهج العلمي في إعمال الأدلة المختلف فيها.",
+          "outcome_rect": [
+            361.838,
+            538.869,
+            496.108,
+            598.958
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001706-2",
+      "tag": "usul-master",
+      "source": "assets/course-specifications/usul-master-1446/2001706-2.pdf",
+      "source_sha256": "e12297cf9612fedd49a81a0343209bce194930cd45a5f1147b943bc898b3dec8",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001706-2--usul-master.pdf",
+      "output_sha256": "377403a8f429932e16059880bdc2100f29df471e2414cd99b4ed60805172819a",
+      "page_count": 7,
+      "selectors": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/ماجستير أصول الفقه.pdf",
+        "pages": [
+          5,
+          7
+        ]
+      },
+      "reason": "م6 غير موجود في البرنامج، وصياغة المخرج مقلوبة الترتيب.",
+      "edits": [
+        {
+          "page_1_based": 4,
+          "clo_from": "2.1",
+          "plo_from": "م6",
+          "plo_to": "م2",
+          "text_from": "أن يكون الطالب قادرا على وضع في صحيحة علمية خطة تخصصه. باستخدام أساليب متخصصة للبحث واالستقصاء . ن",
+          "mapping_rect": [
+            249.948,
+            555.834,
+            347.588,
+            635.128
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يعد الطالب خطة بحث علمية صحيحة في الدراسات الأصولية.",
+          "outcome_rect": [
+            353.65,
+            555.834,
+            486.701,
+            635.128
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001710-4",
+      "tag": "usul-master",
+      "source": "assets/course-specifications/usul-master-1446/2001710-4.pdf",
+      "source_sha256": "e1f8d4d04dffb55eab2d471aea5170286200ee67f39dc07b3a2e6c8dd2709c26",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001710-4--usul-master.pdf",
+      "output_sha256": "5cbe5a19c92aa0692e2e7b8436fc3ba61f2d4ac9311ead1504ff45c827efa696",
+      "page_count": 8,
+      "selectors": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/ماجستير أصول الفقه.pdf",
+        "pages": [
+          5,
+          7
+        ]
+      },
+      "reason": "ع4 غير موجود، والنص يصف قضايا علم أصول الفقه فيناسب ع1.",
+      "edits": [
+        {
+          "page_1_based": 4,
+          "clo_from": "1.2",
+          "plo_from": "ع4",
+          "plo_to": "ع1",
+          "text_from": "أن يشرح الطالب كيفية دفع التعارض بين النصوص واآلراء املتعارضة ، والترجيح، ومناهج األصوليين في ذلك.",
+          "mapping_rect": [
+            249.856,
+            537.273,
+            354.614,
+            628.596
+          ],
+          "mapping_scale": 1.0
+        }
+      ]
+    },
+    {
+      "course_key": "2001711-4",
+      "tag": "usul-master",
+      "source": "assets/course-specifications/usul-master-1446/2001711-4.pdf",
+      "source_sha256": "b71ae005f8f44d9d144a5d7ab72d65ea9280120ac6020af7fdb053d6fec5ff39",
+      "output": "assets/course-specifications/clo-plo-corrections-20260901/2001711-4--usul-master.pdf",
+      "output_sha256": "636626124c0c1fd9a7dfdff2cc5d6ce5fc0811db84534bdb783c2c826a2979f3",
+      "page_count": 7,
+      "selectors": [
+        {
+          "program": "أصول الفقه",
+          "degree": "ماجستير"
+        }
+      ],
+      "program_evidence": {
+        "file": "توصيفات البرامج/ماجستير أصول الفقه.pdf",
+        "pages": [
+          5,
+          7
+        ]
+      },
+      "reason": "ق4 غير موجود، ونص خدمة المجتمع يطابق التواصل في ق2.",
+      "edits": [
+        {
+          "page_1_based": 4,
+          "clo_from": "3.2",
+          "plo_from": "ق4",
+          "plo_to": "ق2",
+          "text_from": "أ يشارك في اإلفادة من تخصصه .بتعليم وتوعية املجتمع",
+          "mapping_rect": [
+            258.1,
+            717.298,
+            327.4,
+            757.623
+          ],
+          "mapping_scale": 1.0,
+          "text_to": "أن يشارك الطالب في الإفادة من تخصصه بتعليم المجتمع وتوعيته.",
+          "outcome_rect": [
+            339.4,
+            717.298,
+            490.451,
+            757.623
+          ],
+          "text_scale": 1.0
+        }
+      ]
+    }
+  ]
+}

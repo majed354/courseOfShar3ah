@@ -43,30 +43,45 @@ class RawRecoveryBundleTest(unittest.TestCase):
         bundle_pdfs = {path.stem for path in self.bundle.glob("*.pdf")}
         self.assertEqual(set(self.entries), bundle_pdfs)
         for code, detail in self.entries.items():
-            self.assertEqual(detail, self.data["course_details"][code])
-            variant = detail["variants"][0]
-            self.assertEqual(code, variant["specification_code"])
-            self.assertTrue((ROOT / variant["pdf_url"]).is_file())
-            self.assertFalse(
-                {"match_note", "verification_note", "internal_note"}.intersection(variant)
-            )
+            # data.json may later split one recovered description into
+            # program-specific variants (for example, to correct CLO/PLO
+            # mappings without changing another program's copy).  Preserve the
+            # historical bundle snapshot, but validate every current variant.
+            current = self.data["course_details"][code]
+            self.assertEqual(detail["variants"][0]["title"], current["variants"][0]["title"])
+            for variant in current["variants"]:
+                self.assertEqual(code, variant["specification_code"])
+                self.assertTrue((ROOT / variant["pdf_url"]).is_file())
+            for variant in detail["variants"]:
+                self.assertFalse(
+                    {"match_note", "verification_note", "internal_note"}.intersection(variant)
+                )
 
     def test_statuses_and_scopes_match_the_audited_identity_decisions(self):
         match_types = {record["code"]: record["match_type"] for record in self.manifest["records"]}
         adapted = set()
         for code, detail in self.entries.items():
-            variant = detail["variants"][0]
             expected_status = (
                 "adapted_verified"
                 if match_types[code] == "approved_code_change_same_identity"
                 else "verified"
             )
-            self.assertEqual(expected_status, variant["match_status"])
+            current_variants = self.data["course_details"][code]["variants"]
+            self.assertTrue(
+                all(variant["match_status"] == expected_status for variant in current_variants)
+            )
             if expected_status == "adapted_verified":
                 adapted.add(code)
 
-            actual = {scope_key(scope) for scope in variant["scopes"]}
-            expected = expected_scopes(self.data, code, variant["title"])
+            actual = {
+                scope_key(scope)
+                for variant in current_variants
+                for scope in (
+                    variant.get("scopes")
+                    or ([variant["scope"]] if isinstance(variant.get("scope"), dict) else [])
+                )
+            }
+            expected = expected_scopes(self.data, code, detail["variants"][0]["title"])
             self.assertEqual(expected, actual, code)
 
         self.assertEqual({"2002200-2", "20023110-2"}, adapted)
