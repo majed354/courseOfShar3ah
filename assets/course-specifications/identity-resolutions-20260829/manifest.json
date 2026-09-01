@@ -568,19 +568,8 @@
       "department_stamp": {
         "status": "preserved_existing_correct_stamp"
       },
-      "output_sha256": "103e0bf0a3f4a55533b4075c2af20198724d0301d6a079278d2811a4ed1637b5",
-      "page_count_after_stamp": 5,
-      "post_publication_reference_cleanup": {
-        "date": "2026-09-01",
-        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
-        "removed_reference_count": 1,
-        "replacement_added": false,
-        "qa": {
-          "qpdf_check": "passed",
-          "page_count_preserved": true,
-          "edited_page_visual_review": "passed"
-        }
-      }
+      "output_sha256": "aba2cb946d9a3fc3aa7ad56dec56e30116a7c1e344dc7664a9fe0d226928ecca",
+      "page_count_after_stamp": 5
     },
     {
       "filename": "2002454-2--qiraat.pdf",
@@ -700,19 +689,8 @@
       "department_stamp": {
         "status": "preserved_existing_correct_stamp"
       },
-      "output_sha256": "ad87f29caa3f81b7471454f67046a46c65928cc2f08db78a48383c896aa22876",
-      "page_count_after_stamp": 7,
-      "post_publication_reference_cleanup": {
-        "date": "2026-09-01",
-        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
-        "removed_reference_count": 1,
-        "replacement_added": false,
-        "qa": {
-          "qpdf_check": "passed",
-          "page_count_preserved": true,
-          "edited_page_visual_review": "passed"
-        }
-      }
+      "output_sha256": "5cf7971e504279cfa60a5dc8ecd77c3f3307a65f9d163fb9fc0e0c0a5206e72d",
+      "page_count_after_stamp": 7
     },
     {
       "filename": "2002703-2.pdf",

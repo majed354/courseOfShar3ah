@@ -26,11 +26,13 @@ class ReferenceExclusionCleanupTest(unittest.TestCase):
         scope = self.manifest["scope"]
         records = self.manifest["records"]
         self.assertEqual(410, scope["published_pdf_count_scanned"])
-        self.assertEqual(16, scope["affected_pdf_count"])
-        self.assertEqual(27, scope["removed_reference_entry_count"])
+        self.assertEqual(7, scope["affected_pdf_count"])
+        self.assertEqual(13, scope["removed_reference_entry_count"])
         self.assertEqual(1, scope["heritage_replacement_count"])
-        self.assertEqual(16, len(records))
-        self.assertEqual(27, sum(len(record["removed"]) for record in records))
+        self.assertEqual(9, scope["restored_pdf_count_after_availability_exception_review"])
+        self.assertEqual(14, scope["restored_reference_entry_count"])
+        self.assertEqual(7, len(records))
+        self.assertEqual(13, sum(len(record["removed"]) for record in records))
 
         for record in records:
             path = ROOT / record["path"]
@@ -61,7 +63,7 @@ class ReferenceExclusionCleanupTest(unittest.TestCase):
         for line in (BUNDLE / "hashes.sha256").read_text(encoding="utf-8").splitlines():
             digest, relative_path = line.split(None, 1)
             ledger[(BUNDLE / relative_path.strip()).resolve()] = digest
-        self.assertEqual(16, len(ledger))
+        self.assertEqual(7, len(ledger))
         for record in self.manifest["records"]:
             path = (ROOT / record["path"]).resolve()
             self.assertEqual(record["output_sha256"], ledger[path])

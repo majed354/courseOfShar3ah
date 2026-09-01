@@ -1169,19 +1169,7 @@
       ],
       "page_count": 10,
       "pdf_hours": 2,
-      "status": "verified",
-      "sha256": "4b638243d2208b17721f9d5751802bcf47f33ef38ea6298dcc051f7cb5208245",
-      "post_publication_reference_cleanup": {
-        "date": "2026-09-01",
-        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
-        "removed_reference_count": 1,
-        "replacement_added": false,
-        "qa": {
-          "qpdf_check": "passed",
-          "page_count_preserved": true,
-          "edited_page_visual_review": "passed"
-        }
-      }
+      "status": "verified"
     },
     {
       "code": "20044104-2",

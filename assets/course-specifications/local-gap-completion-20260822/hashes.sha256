@@ -5,7 +5,7 @@ e5e42a7061c5db10b4ac69f25fcfbe8c44a38361e68adfb42bb5cdf85ae7eef6  ./README.md
 fc5d57fdf7e37383c3010648be65872e1622df2e5479821e3a66520f7ab40989  ./fiqh-master/hashes.sha256
 c467bf73eee67d569290fb3bb93230abb3d809d7eb09e4653ff8e766bdbd90db  ./fiqh-master/record.json
 33d799b2be558c6a065825ebcea41cf451a6ea8c27cdaef53173d8fc514cdb99  ./fiqh-master/stamp-audit.json
-51341d6cd7f39da655b93f1fa459d1490996a469a807ae87a993815d65e1fea5  ./independent-qa-26.json
+bc05ce68146375ad624c194deb8edcdc4a8298888813275716bb490fee3c0345  ./independent-qa-26.json
 9dfe9fef37b31c7a4e32b8591d8ac2cd0b1cbb2d915d7a5911f0afcd953ca908  ./law-bachelor/2001276-3.pdf
 7cdb3d4e31767ac70dcde08a624cc8d4a10f05da130d6c3470bfaa0009be8112  ./law-bachelor/2003104-3.pdf
 54e11a651c18a53dd6b7bd7d99642d9e4e8d34d0f84600e836faa24b1575cf5f  ./law-bachelor/2003105-3.pdf
@@ -58,12 +58,12 @@ ba528e998da4d971a1bbca4820af3cfc815ae79a87baadd08c972b062604e150  ./quran-cultur
 8921d323d4bd83160d78e3ca7d935d44f598798b634c3a49464eb941d393265d  ./quran-culture/2002706-3.pdf
 c774efa8d3ed74cdfaf840fe63c6ef0a573db5c42281abacdb34f5c84a991659  ./quran-culture/2002707-3.pdf
 618d5af444faf8665436286c547abfa52d4124c66c38dcea2199b50c79d31e87  ./quran-culture/2002708-3.pdf
-e4a6da635890dcf3e8f91d06a3db881bdb800afaff109a902765c0ae570e377c  ./quran-culture/2002863-2.pdf
+f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457  ./quran-culture/2002863-2.pdf
 9ff964ed19ba9191ba2e8af83378189d2a09f0fa98ceef1ee03bd2404f7ad11a  ./quran-culture/2004111-2.pdf
 57e5b7253266130598e402188b5ce06e68624e1d19bd04fb8053f72f155b4e3e  ./quran-culture/course_details.fragment.json
-168a8bfbded61fb51a3adea654372d6fdf8bbf87834ed53c351087eb44e5a591  ./quran-culture/hashes.sha256
-3c48c4f1b9a3dd6ae5b48e1d183e08aacce54cb6e172e10345b359e661c1b301  ./quran-culture/manifest.json
-989b285ec47506c8a2896d48c597e30a23387dc37bf073a85e6ba2fcb17760a2  ./quran-culture/qa-report.json
+ed342168170c78c5f712ad50ba272e4d708d702607d7141601b55a80cd4e9358  ./quran-culture/hashes.sha256
+a6e3ed8a40300aaa3fadc17aec64c5ad38f20663755b791a3911338b800d3f66  ./quran-culture/manifest.json
+5074582eb2fe3baeb304d5e6d6fdd8cceefa02bd9c780be2762924708e22a810  ./quran-culture/qa-report.json
 37f7c2267f6340ea48c9431332b6decb0ee4aa6e02acdb5fbb11a004f11fd4f1  ./quran-culture/source-evidence.json
 73ec4421efa20b829543ad69b1137870bc45f99845082138d87af2e39940bd70  ./remaining-specialty.json
 efa89130ee8accba79139b573ee55d60a9f92c3033b90b5203dc301c9f90562a  ./scope-expansions.fragment.json

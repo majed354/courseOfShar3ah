@@ -606,7 +606,7 @@
       ],
       "published_file": "2002863-2--manhaj-al-bahth.pdf",
       "published_pdf_url": "assets/course-specifications/quranic-studies-master-1447/2002863-2--manhaj-al-bahth.pdf",
-      "published_sha256": "40c246340f9f350faf26d5d5f9bfa5ea75d4af0525945bb6d7bdfcb2039a17a7",
+      "published_sha256": "af73190b7cd6304a8db57a47913e7fad7316f433f0a3a322b06420bf3de82b2d",
       "page_count": 7,
       "approval": {
         "agency": "قسم القراءات",
@@ -628,17 +628,6 @@
         "approval_table_complete": true,
         "sensitivity_label_absent": true,
         "placeholders_absent": true
-      },
-      "post_publication_reference_cleanup": {
-        "date": "2026-09-01",
-        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
-        "removed_reference_count": 2,
-        "replacement_added": false,
-        "qa": {
-          "qpdf_check": "passed",
-          "page_count_preserved": true,
-          "edited_page_visual_review": "passed"
-        }
       }
     },
     {

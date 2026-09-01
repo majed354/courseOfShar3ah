@@ -2383,7 +2383,7 @@
       "title": "المدخل إلى التفسير الموضوعي",
       "path": "assets/course-specifications/raw-recovery-20260827/2002200-2.pdf",
       "input_sha256": "47727ddc8313b5ba85b9c85eb25d942e44cdb74f0dac6721e64ce318b8347738",
-      "output_sha256": "45bbfe1fa2d8cdde896ec48e4b8a5be6c922b9f61e6740143a3295668bbced66",
+      "output_sha256": "baad2e7a4708c1c6be85261a3a048ba626b76b5dc78ab6ae7de916be059062d3",
       "programs": [
         "القراءات",
         "الدراسات الإسلامية"
@@ -2498,18 +2498,7 @@
           ],
           "mapping_scale": 1.0
         }
-      ],
-      "post_publication_reference_cleanup": {
-        "date": "2026-09-01",
-        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
-        "removed_reference_count": 1,
-        "replacement_added": false,
-        "qa": {
-          "qpdf_check": "passed",
-          "page_count_preserved": true,
-          "edited_page_visual_review": "passed"
-        }
-      }
+      ]
     },
     {
       "course_key": "2002220-2",
