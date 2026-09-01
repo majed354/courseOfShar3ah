@@ -1,0 +1,483 @@
+{
+  "generated_at": "2026-09-01",
+  "policy": "تعميم أحدث نسخة مدققة على الخطتين عند اتفاق البرنامج والاسم والرمز والساعات والمضمون.",
+  "scope": {
+    "course_count": 9,
+    "variant_count_before": 407,
+    "variant_count_after": 398,
+    "removed_public_variant_count": 9,
+    "deleted_pdf_count": 0,
+    "archived_pdf_count": 9,
+    "different_code_course_count": 0
+  },
+  "records": [
+    {
+      "course_code": "2001115-4",
+      "title": "الفقه (1)",
+      "program": "الشريعة",
+      "degree": "بكالوريوس",
+      "archived_pdf": "assets/course-specifications/sharia-ba-1445/2001115-4.pdf",
+      "archived_sha256": "f826cba832afa713299c8d09bdfb6e2474e8ef6f4be8b3dbb0ab54b254c894f0",
+      "selected_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001115-4--sharia-new-v47.pdf",
+      "selected_sha256": "ca08b916a669e1a338e12976e0364c20b353bcbe3f719695a27be736752ca16b",
+      "published_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "removed_public_variant": {
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001115-4.pdf",
+        "scopes": [
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "38"
+          },
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "39"
+          }
+        ]
+      },
+      "selection_basis": {
+        "plan_version": "47",
+        "audit_date": "2026-09-01",
+        "internal_review_date_policy": "عند تعادل التاريخ الداخلي تُقدَّم الخطة الأحدث المدققة."
+      }
+    },
+    {
+      "course_code": "2001116-4",
+      "title": "الفقه (2)",
+      "program": "الشريعة",
+      "degree": "بكالوريوس",
+      "archived_pdf": "assets/course-specifications/sharia-ba-1445/2001116-4.pdf",
+      "archived_sha256": "e10f6a3eaa0bd1684d25de8e19696cd807714c8b452684522d4e9198293f1478",
+      "selected_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001116-4--sharia-new-v47.pdf",
+      "selected_sha256": "663458e7e0a7815698fdb8f4af068b6d7fc8f3ab053e0f23cf951803c9ca6b23",
+      "published_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "removed_public_variant": {
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001116-4.pdf",
+        "scopes": [
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "38"
+          },
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "39"
+          }
+        ]
+      },
+      "selection_basis": {
+        "plan_version": "47",
+        "audit_date": "2026-09-01",
+        "internal_review_date_policy": "عند تعادل التاريخ الداخلي تُقدَّم الخطة الأحدث المدققة."
+      }
+    },
+    {
+      "course_code": "2001215-4",
+      "title": "الفقه (3)",
+      "program": "الشريعة",
+      "degree": "بكالوريوس",
+      "archived_pdf": "assets/course-specifications/sharia-ba-1445/2001215-4.pdf",
+      "archived_sha256": "2b7dc2cd579fc921c2c77e8e03c56bffa87261379ab1894e4d64ae65beec5f3f",
+      "selected_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001215-4--sharia-new-v47.pdf",
+      "selected_sha256": "6550ca84bf6f8682487d4c09bdf338444c9709ffed807c1e3dccd52de509a240",
+      "published_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "removed_public_variant": {
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001215-4.pdf",
+        "scopes": [
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "38"
+          },
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "39"
+          }
+        ]
+      },
+      "selection_basis": {
+        "plan_version": "47",
+        "audit_date": "2026-09-01",
+        "internal_review_date_policy": "عند تعادل التاريخ الداخلي تُقدَّم الخطة الأحدث المدققة."
+      }
+    },
+    {
+      "course_code": "2001216-4",
+      "title": "الفقه (4)",
+      "program": "الشريعة",
+      "degree": "بكالوريوس",
+      "archived_pdf": "assets/course-specifications/sharia-ba-1445/2001216-4.pdf",
+      "archived_sha256": "384dc0fe52b3de86bdada2175760ee35ded702b79e3761561bae5fdd87f875e1",
+      "selected_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001216-4--sharia-new-v47.pdf",
+      "selected_sha256": "d7e24194e3a0254072169c75410f99c5c2b3ae7d4a02842d76f961d6fa69ef91",
+      "published_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "removed_public_variant": {
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001216-4.pdf",
+        "scopes": [
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "38"
+          },
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "39"
+          }
+        ]
+      },
+      "selection_basis": {
+        "plan_version": "47",
+        "audit_date": "2026-09-01",
+        "internal_review_date_policy": "عند تعادل التاريخ الداخلي تُقدَّم الخطة الأحدث المدققة."
+      }
+    },
+    {
+      "course_code": "2001311-4",
+      "title": "الفقه (5)",
+      "program": "الشريعة",
+      "degree": "بكالوريوس",
+      "archived_pdf": "assets/course-specifications/sharia-ba-1445/2001311-4.pdf",
+      "archived_sha256": "4bddc2978040a99ebc9f323a1ce0bacb413f0d3c480b8909fda5e7f7a43d0427",
+      "selected_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001311-4--sharia-new-v47.pdf",
+      "selected_sha256": "ceddd0c27ef40505ad2a98d6e9f72df78f517addd069f8c1329282a574a64963",
+      "published_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "removed_public_variant": {
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001311-4.pdf",
+        "scopes": [
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "38"
+          },
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "39"
+          }
+        ]
+      },
+      "selection_basis": {
+        "plan_version": "47",
+        "audit_date": "2026-09-01",
+        "internal_review_date_policy": "عند تعادل التاريخ الداخلي تُقدَّم الخطة الأحدث المدققة."
+      }
+    },
+    {
+      "course_code": "2001321-4",
+      "title": "الفقه (6)",
+      "program": "الشريعة",
+      "degree": "بكالوريوس",
+      "archived_pdf": "assets/course-specifications/sharia-ba-1445/2001321-4.pdf",
+      "archived_sha256": "1e0c6c0839476b3a09b47c8696ca1e3cf9bca6a061b70fcaa421268833a2a81e",
+      "selected_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001321-4--sharia-new-v47.pdf",
+      "selected_sha256": "ce9b0d32e1c88aa1e7ab9f9046f5dc3f61a2480e8507f8356facb54a0d91f01f",
+      "published_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "removed_public_variant": {
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001321-4.pdf",
+        "scopes": [
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "38"
+          },
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "39"
+          }
+        ]
+      },
+      "selection_basis": {
+        "plan_version": "47",
+        "audit_date": "2026-09-01",
+        "internal_review_date_policy": "عند تعادل التاريخ الداخلي تُقدَّم الخطة الأحدث المدققة."
+      }
+    },
+    {
+      "course_code": "2001411-4",
+      "title": "الفقه (7)",
+      "program": "الشريعة",
+      "degree": "بكالوريوس",
+      "archived_pdf": "assets/course-specifications/sharia-ba-1445/2001411-4.pdf",
+      "archived_sha256": "2f4f63dc53a84d521d0bd96798ce9297ad7095a8a5280e089aa2da924b025647",
+      "selected_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001411-4--sharia-new-v47.pdf",
+      "selected_sha256": "46990136898f5a9b33349b167b12f26fdc580bc5944e1584ca106e1af7465634",
+      "published_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "removed_public_variant": {
+        "pdf_url": "assets/course-specifications/sharia-ba-1445/2001411-4.pdf",
+        "scopes": [
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "38"
+          },
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "39"
+          }
+        ]
+      },
+      "selection_basis": {
+        "plan_version": "47",
+        "audit_date": "2026-09-01",
+        "internal_review_date_policy": "عند تعادل التاريخ الداخلي تُقدَّم الخطة الأحدث المدققة."
+      }
+    },
+    {
+      "course_code": "2001346-2",
+      "title": "مقاصد الشريعة",
+      "program": "الشريعة",
+      "degree": "بكالوريوس",
+      "archived_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001346-2--sharia-old-v38-v39.pdf",
+      "archived_sha256": "bdceec2043441ae843024e0299cbad5af2e97ff88badab63e7ad3346fe25bedc",
+      "selected_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001346-2--sharia-new-v47.pdf",
+      "selected_sha256": "e47bf4e3ebd2b9651b6b90f10327b8f23bfbb6a24247eccc8446a04485a6fbf8",
+      "published_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "removed_public_variant": {
+        "pdf_url": "assets/course-specifications/clo-plo-corrections-20260901/2001346-2--sharia-old-v38-v39.pdf",
+        "scopes": [
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "38"
+          },
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "39"
+          }
+        ]
+      },
+      "selection_basis": {
+        "plan_version": "47",
+        "audit_date": "2026-09-01",
+        "internal_review_date_policy": "عند تعادل التاريخ الداخلي تُقدَّم الخطة الأحدث المدققة."
+      }
+    },
+    {
+      "course_code": "2001465-2",
+      "title": "فقه النوازل",
+      "program": "الشريعة",
+      "degree": "بكالوريوس",
+      "archived_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001465-2--sharia-old-v38-v39.pdf",
+      "archived_sha256": "e405020f6bd1c44021c508330ea136491ed0340a15e14c2f098609c9092dd469",
+      "selected_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001465-2--sharia-new-v47.pdf",
+      "selected_sha256": "fc2ae80d9c5af2f93593673ccbdeb50fdb19a3799cd0197d86a39c603f3b6673",
+      "published_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "removed_public_variant": {
+        "pdf_url": "assets/course-specifications/clo-plo-corrections-20260901/2001465-2--sharia-old-v38-v39.pdf",
+        "scopes": [
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "38"
+          },
+          {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "قديمة",
+            "version": "39"
+          }
+        ]
+      },
+      "selection_basis": {
+        "plan_version": "47",
+        "audit_date": "2026-09-01",
+        "internal_review_date_policy": "عند تعادل التاريخ الداخلي تُقدَّم الخطة الأحدث المدققة."
+      }
+    }
+  ]
+}

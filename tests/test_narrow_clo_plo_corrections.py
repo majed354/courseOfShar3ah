@@ -8,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 BUNDLE = ROOT / "assets" / "course-specifications" / "clo-plo-corrections-20260901"
 UNIFIED_MANIFEST = ROOT / "assets" / "course-specifications" / "unified-new-program-mappings-20260901.json"
+SAME_IDENTITY_MANIFEST = ROOT / "assets" / "course-specifications" / "same-identity-unification-20260901.json"
 
 
 def sha256(path):
@@ -66,6 +67,15 @@ class NarrowCloPloCorrectionsTest(unittest.TestCase):
             record["path"]
             for record in json.loads(UNIFIED_MANIFEST.read_text(encoding="utf-8"))["records"]
         }
+        same_identity_records = json.loads(
+            SAME_IDENTITY_MANIFEST.read_text(encoding="utf-8")
+        )["records"]
+        selected_same_identity = {
+            record["selected_pdf"]: record for record in same_identity_records
+        }
+        archived_same_identity = {
+            record["archived_pdf"] for record in same_identity_records
+        }
         variants_by_pdf = {}
         for detail in self.data["course_details"].values():
             for variant in detail.get("variants", []):
@@ -74,13 +84,24 @@ class NarrowCloPloCorrectionsTest(unittest.TestCase):
         scope_count = 0
         for record in self.manifest["records"]:
             linked = variants_by_pdf.get(record["output"], [])
-            if record["source"] in unified_sources:
+            if record["source"] in unified_sources or record["output"] in archived_same_identity:
                 self.assertEqual([], linked, record["output"])
                 continue
             self.assertEqual(1, len(linked), record["output"])
             scopes = variant_scopes(linked[0])
             self.assertTrue(scopes, record["output"])
             scope_count += len(scopes)
+            if record["output"] in selected_same_identity:
+                expected = {
+                    json.dumps(scope, ensure_ascii=False, sort_keys=True)
+                    for scope in selected_same_identity[record["output"]]["published_scopes"]
+                }
+                actual = {
+                    json.dumps(scope, ensure_ascii=False, sort_keys=True)
+                    for scope in scopes
+                }
+                self.assertEqual(expected, actual, record["output"])
+                continue
             for scope in scopes:
                 self.assertTrue(
                     any(
@@ -89,7 +110,7 @@ class NarrowCloPloCorrectionsTest(unittest.TestCase):
                     ),
                     (record["output"], scope),
                 )
-        self.assertEqual(32, scope_count)
+        self.assertEqual(46, scope_count)
 
     def test_course_scopes_remain_unique(self):
         for code, detail in self.data["course_details"].items():
