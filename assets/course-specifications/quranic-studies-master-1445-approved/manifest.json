@@ -91,7 +91,7 @@
       "output": {
         "package_file": "pdf/quranic-studies-master-1445-approved/2002853-2.pdf",
         "publication_target": "assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf",
-        "sha256": "b1538ba0b8131456cfe0b0d3d958465791703fde019166aec14fd70f035ed22a",
+        "sha256": "9d4ea31836421e0fabef4fd11778031106ef6797bbb850d75b0297adb11ad4af",
         "page_count": 9
       },
       "source": {
@@ -162,7 +162,18 @@
         }
       ],
       "plan_type": "جديدة",
-      "version": "1"
+      "version": "1",
+      "post_publication_reference_cleanup": {
+        "date": "2026-09-01",
+        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
+        "removed_reference_count": 1,
+        "replacement_added": false,
+        "qa": {
+          "qpdf_check": "passed",
+          "page_count_preserved": true,
+          "edited_page_visual_review": "passed"
+        }
+      }
     },
     {
       "program": "الدراسات القرآنية المعاصرة",
@@ -176,7 +187,7 @@
       "output": {
         "package_file": "pdf/quranic-studies-master-1445-approved/2002854-2.pdf",
         "publication_target": "assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf",
-        "sha256": "cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7",
+        "sha256": "85c11fa91c9fa4180d0bffeaf3354d8ebbd0e23b749e691c8a01f2c80f2ae914",
         "page_count": 8
       },
       "source": {
@@ -231,7 +242,18 @@
       },
       "exceptions": [],
       "plan_type": "جديدة",
-      "version": "1"
+      "version": "1",
+      "post_publication_reference_cleanup": {
+        "date": "2026-09-01",
+        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
+        "removed_reference_count": 1,
+        "replacement_added": false,
+        "qa": {
+          "qpdf_check": "passed",
+          "page_count_preserved": true,
+          "edited_page_visual_review": "passed"
+        }
+      }
     },
     {
       "program": "الدراسات القرآنية المعاصرة",

@@ -311,7 +311,7 @@
       "output": {
         "package_file": "pdf/qiraat-master-1445/2002812-2.pdf",
         "publication_target": "assets/course-specifications/qiraat-master-1445/2002812-2.pdf",
-        "sha256": "0c2699ec4db2dd141065cb802d303ed7df43b88081fa11ff13416c4ee2108903",
+        "sha256": "3a24638c55a9cbbb3b64f14f58569f7ab498e751b9acd867c331cb5c6bd03987",
         "page_count": 6
       },
       "source": {
@@ -366,7 +366,18 @@
       },
       "exceptions": [],
       "plan_type": "جديدة",
-      "version": "1"
+      "version": "1",
+      "post_publication_reference_cleanup": {
+        "date": "2026-09-01",
+        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
+        "removed_reference_count": 1,
+        "replacement_added": false,
+        "qa": {
+          "qpdf_check": "passed",
+          "page_count_preserved": true,
+          "edited_page_visual_review": "passed"
+        }
+      }
     },
     {
       "program": "القراءات",

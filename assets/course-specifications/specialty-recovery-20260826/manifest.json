@@ -151,8 +151,19 @@
       "outline_titles_updated": 1,
       "accessible_identity_actual_text": true,
       "page_count": 8,
-      "output_sha256": "a44e0da5dfb8f8796d35a6e4dfd541672dd0f1e8afda79a01cd5f560ffc2ae06",
-      "approval_and_stamp": "preserved from source"
+      "output_sha256": "788dacc85c6af9b97a918c7c2f07e5455a8141e3b87020fe4c7f099e43b716c1",
+      "approval_and_stamp": "preserved from source",
+      "post_publication_reference_cleanup": {
+        "date": "2026-09-01",
+        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
+        "removed_reference_count": 1,
+        "replacement_added": false,
+        "qa": {
+          "qpdf_check": "passed",
+          "page_count_preserved": true,
+          "edited_page_visual_review": "passed"
+        }
+      }
     },
     {
       "code": "2002313-2",

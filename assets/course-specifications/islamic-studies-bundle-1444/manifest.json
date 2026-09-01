@@ -111,7 +111,19 @@
       ],
       "page_count": 9,
       "pdf_hours": 2,
-      "status": "verified"
+      "status": "verified",
+      "sha256": "8bcc923be7271ec1d5a971344dd28165cad71e8778807853be3979dd50c54e8c",
+      "post_publication_reference_cleanup": {
+        "date": "2026-09-01",
+        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
+        "removed_reference_count": 1,
+        "replacement_added": false,
+        "qa": {
+          "qpdf_check": "passed",
+          "page_count_preserved": true,
+          "edited_page_visual_review": "passed"
+        }
+      }
     },
     {
       "code": "20041102-2",
@@ -420,8 +432,19 @@
         }
       ],
       "summary": "يهدف المقرر إلى التعريف بمجموعة من مباحث علوم القرآن المتعددة، التي تساعد على فهم كتاب الله تعالى.",
-      "sha256": "d9b6a5c3b1a05c5e5aea4eb94d21fb6ef8f1c17e33d68f60998c2962dadfc81d",
-      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
+      "sha256": "0e609c9c5adaa1575df152adda14c48f8a3bf7cbcfdb263ae2f0175e02cf3d07",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47.",
+      "post_publication_reference_cleanup": {
+        "date": "2026-09-01",
+        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
+        "removed_reference_count": 1,
+        "replacement_added": false,
+        "qa": {
+          "qpdf_check": "passed",
+          "page_count_preserved": true,
+          "edited_page_visual_review": "passed"
+        }
+      }
     },
     {
       "code": "20042105-2",
@@ -712,8 +735,19 @@
         }
       ],
       "summary": "تأصيل التفسير الموضوعي من حيث التعريف والتقسيم ومنهج البحث والدراسة ومعرفة علم المناسبات، ودراسة موضوعات: الشرك بالله والعلم والعلماء والآخرة ومشاهدها في ضوء القرآن الكريم وتفسير موضوعي لسورة الكهف.",
-      "sha256": "50424e60ca842a72f46f3cde69b1bbbfbe5a2cef1376300d4d8412649400afe8",
-      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47."
+      "sha256": "59107153b32bd1baae4e8b5c85039376fa51cf6581fb390340881496cc7d933f",
+      "correction_note": "صُحح رمز الغلاف فقط بعد تطابق الاسم والبرنامج والساعتين مع الخطة القديمة 39؛ لا يمتد الربط إلى الخطة 47.",
+      "post_publication_reference_cleanup": {
+        "date": "2026-09-01",
+        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
+        "removed_reference_count": 2,
+        "replacement_added": true,
+        "qa": {
+          "qpdf_check": "passed",
+          "page_count_preserved": true,
+          "edited_page_visual_review": "passed"
+        }
+      }
     },
     {
       "code": "20043102-2",
@@ -1135,7 +1169,19 @@
       ],
       "page_count": 10,
       "pdf_hours": 2,
-      "status": "verified"
+      "status": "verified",
+      "sha256": "4b638243d2208b17721f9d5751802bcf47f33ef38ea6298dcc051f7cb5208245",
+      "post_publication_reference_cleanup": {
+        "date": "2026-09-01",
+        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
+        "removed_reference_count": 1,
+        "replacement_added": false,
+        "qa": {
+          "qpdf_check": "passed",
+          "page_count_preserved": true,
+          "edited_page_visual_review": "passed"
+        }
+      }
     },
     {
       "code": "20044104-2",

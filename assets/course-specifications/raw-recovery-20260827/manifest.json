@@ -866,8 +866,19 @@
         "page_count_before": 7,
         "page_count_after": 7
       },
-      "output_sha256": "4f6c620dc944121d7e321c45f6c8ab0aabbf62b4d190d91e41bdd35dd66f4295",
-      "page_count_after_stamp": 7
+      "output_sha256": "eb30e68a2a7009d77d0b86cef15a4755b33ee96e5c372bd33f1def2a4027eb71",
+      "page_count_after_stamp": 7,
+      "post_publication_reference_cleanup": {
+        "date": "2026-09-01",
+        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
+        "removed_reference_count": 1,
+        "replacement_added": false,
+        "qa": {
+          "qpdf_check": "passed",
+          "page_count_preserved": true,
+          "edited_page_visual_review": "passed"
+        }
+      }
     },
     {
       "code": "2001237-4",

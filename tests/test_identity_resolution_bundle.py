@@ -286,7 +286,7 @@ class IdentityResolutionBundleTest(unittest.TestCase):
         )
         self.assertEqual(2, catalog["levels_by_program"]["الدراسات القرآنية المعاصرة"])
 
-    def test_qiraat_topical_assessment_and_references_are_complete(self):
+    def test_qiraat_topical_assessment_and_references_are_current(self):
         path = self.bundle / "2002454-2--qiraat.pdf"
         text = subprocess.run(
             ["pdftotext", "-f", "6", "-l", "6", "-layout", str(path), "-"],
@@ -302,7 +302,7 @@ class IdentityResolutionBundleTest(unittest.TestCase):
         self.assertEqual(100, sum(percentages))
         normalized = normalized_pdf_text(text)
         self.assertIn("عبداللهسالمبافرج", normalized)
-        self.assertIn("أحمدسيدالكومي", normalized)
+        self.assertNotIn("أحمدسيدالكومي", normalized)
         self.assertIn("املكتبةالشاملة", normalized)
         record = next(
             item

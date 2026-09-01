@@ -1,0 +1,251 @@
+{
+  "audit_id": "reference-exclusion-cleanup-20260901",
+  "date": "2026-09-01",
+  "source_exclusion_list": "المراجع المستبعدة/المراجع المستبعدة 24.10.pdf",
+  "scope": {
+    "published_pdf_count_scanned": 410,
+    "affected_pdf_count": 16,
+    "removed_reference_entry_count": 27,
+    "heritage_replacement_count": 1
+  },
+  "policy": {
+    "matching": "مطابقة عناوين المراجع المستبعدة، مع تطبيق الاستبعاد العام للمؤلف عند النص عليه في القائمة، ثم مراجعة النتائج يدويًا لاستبعاد التطابقات الاسمية الكاذبة.",
+    "replacement": "إذا بقي كتاب صالح آخر في التوصيف فلا يضاف بديل. وإذا لم يبق أي كتاب، يضاف مرجع تراثي غير مستبعد.",
+    "layout": "حُفظ هيكل جدول مصادر التعلم، واقتصرت التعديلات على نصوص المراجع المستبعدة والبديل اللازم فقط."
+  },
+  "qa": {
+    "qpdf_check": "passed_all",
+    "page_count_preserved": true,
+    "edited_pages_rendered": 16,
+    "edited_pages_visual_review": "passed_all"
+  },
+  "records": [
+    {
+      "course_code": "2001832-4",
+      "course_title": "تدريبات منهجية عملية (قضائية - طبية)",
+      "scope": "الفقه/ماجستير/الخطة الجديدة 1",
+      "path": "assets/course-specifications/fiqh-master-1446/2001832-4.pdf",
+      "page_1_based": 7,
+      "before_sha256": "f386c04cb46761868db74867d3851d7114accbc7ca45b758be442d6cb57b7394",
+      "output_sha256": "670d4876f9996e0620016078b394932c67e73d8cc09e3c73e9b59cc57622c1ad",
+      "removed": ["نظام القضاء في الشريعة الإسلامية، عبد الكريم زيدان"],
+      "reason": "المؤلف عبد الكريم زيدان مستبعد استبعادًا عامًا.",
+      "after": "حُذف المرجع فقط؛ بقيت كتب وأنظمة ومراجع أخرى صالحة، لذلك لم يضف بديل.",
+      "replacement": null
+    },
+    {
+      "course_code": "2002454-2",
+      "course_title": "التفسير الموضوعي",
+      "scope": "القراءات/بكالوريوس/الخطة القديمة 38",
+      "path": "assets/course-specifications/identity-resolutions-20260829/2002454-2--qiraat.pdf",
+      "page_1_based": 6,
+      "before_sha256": "5cf7971e504279cfa60a5dc8ecd77c3f3307a65f9d163fb9fc0e0c0a5206e72d",
+      "output_sha256": "ad87f29caa3f81b7471454f67046a46c65928cc2f08db78a48383c896aa22876",
+      "removed": ["التفسير الموضوعي للقرآن الكريم، أحمد سيد الكومي"],
+      "reason": "العنوان وارد صراحة في قائمة المراجع المستبعدة.",
+      "after": "بقي المرجع الرئيس لعبد الله سالم بافرج، لذلك لم يضف بديل.",
+      "replacement": null
+    },
+    {
+      "course_code": "2002454-2",
+      "course_title": "التفسير الموضوعي",
+      "scope": "القرآن وعلومه/بكالوريوس/الخطتان 39 و47",
+      "path": "assets/course-specifications/identity-resolutions-20260829/2002454-2--quran.pdf",
+      "page_1_based": 5,
+      "before_sha256": "aba2cb946d9a3fc3aa7ad56dec56e30116a7c1e344dc7664a9fe0d226928ecca",
+      "output_sha256": "103e0bf0a3f4a55533b4075c2af20198724d0301d6a079278d2811a4ed1637b5",
+      "removed": ["التفسير الموضوعي للقرآن الكريم، أحمد سيد الكومي"],
+      "reason": "العنوان وارد صراحة في قائمة المراجع المستبعدة.",
+      "after": "بقي المرجع الرئيس لعبد الله سالم بافرج، لذلك لم يضف بديل.",
+      "replacement": null
+    },
+    {
+      "course_code": "2002250-2",
+      "course_title": "أصول التفسير ومناهجه",
+      "scope": "الدراسات الإسلامية/الخطتان 39 و47",
+      "path": "assets/course-specifications/islamic-studies-bundle-1444/2002250-2.pdf",
+      "page_1_based": 8,
+      "before_sha256": "e350993be83a96eb8d32f31a108005de1cfc164a52be8da56b65588488bc43e7",
+      "output_sha256": "8bcc923be7271ec1d5a971344dd28165cad71e8778807853be3979dd50c54e8c",
+      "removed": ["تفسير القرآن الكريم – أصوله وضوابطه، علي بن سليمان العبيد"],
+      "reason": "العنوان وارد صراحة في قائمة المراجع المستبعدة.",
+      "after": "بقيت مراجع الذهبي ومساعد الطيار وابن عثيمين، لذلك لم يضف بديل.",
+      "replacement": null
+    },
+    {
+      "course_code": "20042104-2",
+      "course_title": "علوم القرآن (2)",
+      "scope": "الدراسات الإسلامية/بكالوريوس/الخطة القديمة 39",
+      "path": "assets/course-specifications/islamic-studies-bundle-1444/20042104-2.pdf",
+      "page_1_based": 8,
+      "before_sha256": "d9b6a5c3b1a05c5e5aea4eb94d21fb6ef8f1c17e33d68f60998c2962dadfc81d",
+      "output_sha256": "0e609c9c5adaa1575df152adda14c48f8a3bf7cbcfdb263ae2f0175e02cf3d07",
+      "removed": ["المحرر في علوم القرآن، مساعد الطيار"],
+      "reason": "العنوان وارد صراحة في قائمة المراجع المستبعدة.",
+      "after": "بقي الإتقان والبرهان ومقدمات كتب التفسير التراثية، لذلك لم يضف بديل.",
+      "replacement": null
+    },
+    {
+      "course_code": "20043101-2",
+      "course_title": "التفسير الموضوعي",
+      "scope": "الدراسات الإسلامية/بكالوريوس/الخطة القديمة 39",
+      "path": "assets/course-specifications/islamic-studies-bundle-1444/20043101-2.pdf",
+      "page_1_based": 6,
+      "before_sha256": "50424e60ca842a72f46f3cde69b1bbbfbe5a2cef1376300d4d8412649400afe8",
+      "output_sha256": "59107153b32bd1baae4e8b5c85039376fa51cf6581fb390340881496cc7d933f",
+      "removed": [
+        "مباحث في التفسير الموضوعي، مصطفى مسلم",
+        "موسوعة التفسير الموضوعي، مركز تفسير"
+      ],
+      "reason": "العنوانان واردان صراحة في قائمة المراجع المستبعدة، ولم يبق بعد حذفهما كتاب آخر.",
+      "after": "أضيف مرجع تراثي واحد غير مستبعد في خانة المرجع الرئيس.",
+      "replacement": "نظم الدرر في تناسب الآيات والسور، لإبراهيم بن عمر البقاعي."
+    },
+    {
+      "course_code": "20044103-2",
+      "course_title": "مناهج البحث",
+      "scope": "الدراسات الإسلامية/الخطتان 39 و47",
+      "path": "assets/course-specifications/islamic-studies-bundle-1444/20044103-2.pdf",
+      "page_1_based": 8,
+      "before_sha256": "8144d1414dd86df652d6f12311285a6bf9d89218c76c7bcdd4ebac3dc27805f8",
+      "output_sha256": "4b638243d2208b17721f9d5751802bcf47f33ef38ea6298dcc051f7cb5208245",
+      "removed": ["كيف تكتب بحثًا أو رسالة، أحمد شلبي"],
+      "reason": "العنوان وارد صراحة في قائمة المراجع المستبعدة.",
+      "after": "بقيت كتب بحث وتحقيق أخرى صالحة، لذلك لم يضف بديل.",
+      "replacement": null
+    },
+    {
+      "course_code": "2002812-2",
+      "course_title": "دراسات في المصاحف القرآنية",
+      "scope": "القراءات/ماجستير/الخطة الجديدة 1",
+      "path": "assets/course-specifications/qiraat-master-1445/2002812-2.pdf",
+      "page_1_based": 5,
+      "before_sha256": "0c2699ec4db2dd141065cb802d303ed7df43b88081fa11ff13416c4ee2108903",
+      "output_sha256": "3a24638c55a9cbbb3b64f14f58569f7ab498e751b9acd867c331cb5c6bd03987",
+      "removed": ["رسم المصحف (دراسة لغوية تاريخية)، غانم قدوري الحمد"],
+      "reason": "العنوان وارد صراحة في قائمة المراجع المستبعدة.",
+      "after": "بقي معجم الرسم العثماني لبشير حسن الحميري، لذلك لم يضف بديل.",
+      "replacement": null
+    },
+    {
+      "course_code": "2002853-2",
+      "course_title": "دراسات في علوم القرآن",
+      "scope": "الدراسات القرآنية المعاصرة/ماجستير/الخطة الجديدة 1",
+      "path": "assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf",
+      "page_1_based": 7,
+      "before_sha256": "b1538ba0b8131456cfe0b0d3d958465791703fde019166aec14fd70f035ed22a",
+      "output_sha256": "9d4ea31836421e0fabef4fd11778031106ef6797bbb850d75b0297adb11ad4af",
+      "removed": ["الظاهرة القرآنية، مالك بن نبي"],
+      "reason": "العنوان والمؤلف واردان في قائمة المراجع المستبعدة.",
+      "after": "بقي مناهل العرفان والإتقان والبرهان، لذلك لم يضف بديل.",
+      "replacement": null
+    },
+    {
+      "course_code": "2002854-2",
+      "course_title": "علم القراءات دراية",
+      "scope": "الدراسات القرآنية المعاصرة/ماجستير/الخطة الجديدة 1",
+      "path": "assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf",
+      "page_1_based": 7,
+      "before_sha256": "cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7",
+      "output_sha256": "85c11fa91c9fa4180d0bffeaf3354d8ebbd0e23b749e691c8a01f2c80f2ae914",
+      "removed": ["حديث الأحرف السبعة، عبد العزيز القارئ"],
+      "reason": "العنوان وارد صراحة في قائمة المراجع المستبعدة.",
+      "after": "بقي منجد المقرئين والنشر في القراءات العشر وغيرها، لذلك لم يضف بديل.",
+      "replacement": null
+    },
+    {
+      "course_code": "2002863-2",
+      "course_title": "منهج البحث",
+      "scope": "حزمة ماجستير الدراسات القرآنية المعاصرة 1447",
+      "path": "assets/course-specifications/quranic-studies-master-1447/2002863-2--manhaj-al-bahth.pdf",
+      "page_1_based": 6,
+      "before_sha256": "af73190b7cd6304a8db57a47913e7fad7316f433f0a3a322b06420bf3de82b2d",
+      "output_sha256": "40c246340f9f350faf26d5d5f9bfa5ea75d4af0525945bb6d7bdfcb2039a17a7",
+      "removed": [
+        "كيف تكتب بحثًا أو رسالة، أحمد شلبي",
+        "البحث العلمي: منهجه وتقنياته، محمد زيان عمر"
+      ],
+      "reason": "العنوانان واردان صراحة في قائمة المراجع المستبعدة.",
+      "after": "بقي كتاب عبد الوهاب أبو سليمان مرجعًا رئيسًا، لذلك لم يضف بديل.",
+      "replacement": null
+    },
+    {
+      "course_code": "2002707-3",
+      "course_title": "دراسات في نسخ التفسير وأسانيده",
+      "scope": "الدراسات القرآنية/دكتوراه/الخطة الجديدة 1",
+      "path": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002707-3.pdf",
+      "page_1_based": 7,
+      "before_sha256": "cdd59d174a6cf95599d4a147e276e0b457bc312f32dcb89d80d39a2c61ac3713",
+      "output_sha256": "c774efa8d3ed74cdfaf840fe63c6ef0a573db5c42281abacdb34f5c84a991659",
+      "removed": [
+        "القول المحرر في ترجمة أبي صالح باذام، حاتم العوني",
+        "صحيفة علي بن أبي طلحة عن ابن عباس، مساعد الطيار",
+        "مقالات: تفسير يحيى بن سلام، مساعد الطيار",
+        "مقالات: كلام ابن أبي حاتم عن أسانيد التفسير، مساعد الطيار",
+        "مقالات: من نقل من تفسير بقي بن مخلد، مساعد الطيار",
+        "ملخص في منهج ابن جرير الطبري، مساعد الطيار"
+      ],
+      "reason": "العناوين الستة واردة صراحة في قائمة المراجع المستبعدة.",
+      "after": "بقي التيسير لمعرفة المشهور من أسانيد وكتب التفسير لأبي الحسن الرازحي، لذلك لم يضف بديل.",
+      "replacement": null
+    },
+    {
+      "course_code": "2002863-2",
+      "course_title": "منهج البحث والتحقيق",
+      "scope": "الدراسات القرآنية المعاصرة/ماجستير/الخطة الجديدة 1",
+      "path": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf",
+      "page_1_based": 7,
+      "before_sha256": "f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457",
+      "output_sha256": "e4a6da635890dcf3e8f91d06a3db881bdb800afaff109a902765c0ae570e377c",
+      "removed": [
+        "البحث العلمي: منهجه وتقنياته، محمد زيان عمر",
+        "مناهج البحث عند مفكري الإسلام، علي سامي النشار",
+        "مناهج تحقيق التراث بين القدامى والمحدثين، رمضان عبد التواب",
+        "ضبط النص والتعليق عليه، بشار عواد معروف",
+        "كيف تكتب بحثًا أو رسالة، أحمد شلبي"
+      ],
+      "reason": "العناوين الخمسة واردة صراحة في قائمة المراجع المستبعدة.",
+      "after": "بقي كتاب عبد الوهاب أبو سليمان وكتاب تحقيق النصوص ونشرها لعبد السلام هارون، لذلك لم يضف بديل.",
+      "replacement": null
+    },
+    {
+      "course_code": "20044202-2",
+      "course_title": "بحث التخرج",
+      "scope": "الدراسات الإسلامية/بكالوريوس/الخطتان 39 و47",
+      "path": "assets/course-specifications/specialty-recovery-20260826/20044202-2.pdf",
+      "page_1_based": 6,
+      "before_sha256": "a44e0da5dfb8f8796d35a6e4dfd541672dd0f1e8afda79a01cd5f560ffc2ae06",
+      "output_sha256": "788dacc85c6af9b97a918c7c2f07e5455a8141e3b87020fe4c7f099e43b716c1",
+      "removed": ["كيف تكتب بحثًا أو رسالة، أحمد شلبي"],
+      "reason": "العنوان وارد صراحة في قائمة المراجع المستبعدة.",
+      "after": "بقيت كتب مناهج البحث وتحقيق النصوص الأخرى، لذلك لم يضف بديل.",
+      "replacement": null
+    },
+    {
+      "course_code": "2001171-2",
+      "course_title": "العقيدة (1)",
+      "scope": "القرآن وعلومه/بكالوريوس/الخطة القديمة 39",
+      "path": "assets/course-specifications/raw-recovery-20260827/2001171-2.pdf",
+      "page_1_based": 6,
+      "before_sha256": "4f6c620dc944121d7e321c45f6c8ab0aabbf62b4d190d91e41bdd35dd66f4295",
+      "output_sha256": "eb30e68a2a7009d77d0b86cef15a4755b33ee96e5c372bd33f1def2a4027eb71",
+      "removed": ["دعاوى المناوئين للشيخ، عبد العزيز آل عبد اللطيف"],
+      "reason": "المؤلف عبد العزيز عبد اللطيف مستبعد استبعادًا عامًا، بعد التحقق من اختلافه عن الأسماء المتشابهة.",
+      "after": "بقيت مراجع عقدية وتراثية متعددة، لذلك لم يضف بديل.",
+      "replacement": null
+    },
+    {
+      "course_code": "2002200-2",
+      "course_title": "المدخل إلى التفسير الموضوعي",
+      "scope": "الدراسات الإسلامية والقراءات/بكالوريوس/الخطة الجديدة 47",
+      "path": "assets/course-specifications/raw-recovery-20260827/2002200-2.pdf",
+      "page_1_based": 7,
+      "before_sha256": "baad2e7a4708c1c6be85261a3a048ba626b76b5dc78ab6ae7de916be059062d3",
+      "output_sha256": "45bbfe1fa2d8cdde896ec48e4b8a5be6c922b9f61e6740143a3295668bbced66",
+      "removed": ["التفسير الموضوعي للقرآن الكريم، أحمد سيد الكومي"],
+      "reason": "العنوان وارد صراحة في قائمة المراجع المستبعدة.",
+      "after": "بقي المرجع الرئيس لعبد الله سالم بافرج، لذلك لم يضف بديل.",
+      "replacement": null
+    }
+  ]
+}

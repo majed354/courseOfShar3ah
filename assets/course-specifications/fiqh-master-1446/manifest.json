@@ -70,7 +70,7 @@
       "title": "تدريبات منهجية عملية (قضائية - طبية)",
       "source_relative_path": "الدراسات العليا/توصيفات مقررات الماجستير في الفقه 1446/توصيف المقرر الدراسي تدريبات قضائية 2024.pdf",
       "file": "2001832-4.pdf",
-      "sha256": "f386c04cb46761868db74867d3851d7114accbc7ca45b758be442d6cb57b7394",
+      "sha256": "670d4876f9996e0620016078b394932c67e73d8cc09e3c73e9b59cc57622c1ad",
       "page_count": 8,
       "qpdf_check": "passed",
       "source_code": "2001832-4",
@@ -93,7 +93,18 @@
       ],
       "summary": "يعتمد هذا المقرر في تقديمه على الممارسة العملية لما ينبغي للطالب تحصيله خلال دراسته في البرنامج من خلال الزيارات الميدانية للجهات العدلية (النيابة العامة ، المحاكم بشتى تخصصاتها ، جهات التوثيق ، الهيئات الشرعية الطبية ) وتطبيق ما درسه ، وإعداد مذكرات تطبيقية وتقارير تحليلية ، يطبق فيها ما درسه",
       "classification_label": "absent",
-      "rtl_visual": "pass"
+      "rtl_visual": "pass",
+      "post_publication_reference_cleanup": {
+        "date": "2026-09-01",
+        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
+        "removed_reference_count": 1,
+        "replacement_added": false,
+        "qa": {
+          "qpdf_check": "passed",
+          "page_count_preserved": true,
+          "edited_page_visual_review": "passed"
+        }
+      }
     },
     {
       "type": "course-specification",

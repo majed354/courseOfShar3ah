@@ -183,7 +183,7 @@
     {
       "code": "2002863-2",
       "file": "2002863-2.pdf",
-      "sha256": "f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457",
+      "sha256": "e4a6da635890dcf3e8f91d06a3db881bdb800afaff109a902765c0ae570e377c",
       "checks": {
         "qpdf_check": true,
         "pdfinfo_readable": true,
@@ -225,6 +225,17 @@
         "first_page": "pass",
         "last_page": "pass",
         "reviewed_at_dpi": 120
+      },
+      "post_publication_reference_cleanup": {
+        "date": "2026-09-01",
+        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
+        "removed_reference_count": 5,
+        "replacement_added": false,
+        "qa": {
+          "qpdf_check": "passed",
+          "page_count_preserved": true,
+          "edited_page_visual_review": "passed"
+        }
       }
     },
     {
@@ -324,7 +335,7 @@
     {
       "code": "2002707-3",
       "file": "2002707-3.pdf",
-      "sha256": "cdd59d174a6cf95599d4a147e276e0b457bc312f32dcb89d80d39a2c61ac3713",
+      "sha256": "c774efa8d3ed74cdfaf840fe63c6ef0a573db5c42281abacdb34f5c84a991659",
       "checks": {
         "qpdf_check": true,
         "pdfinfo_readable": true,
@@ -366,6 +377,17 @@
         "first_page": "pass",
         "last_page": "pass",
         "reviewed_at_dpi": 120
+      },
+      "post_publication_reference_cleanup": {
+        "date": "2026-09-01",
+        "audit_manifest": "assets/course-specifications/reference-exclusion-cleanup-20260901/manifest.json",
+        "removed_reference_count": 6,
+        "replacement_added": false,
+        "qa": {
+          "qpdf_check": "passed",
+          "page_count_preserved": true,
+          "edited_page_visual_review": "passed"
+        }
       }
     },
     {
