@@ -3168,7 +3168,7 @@
 
         async function loadData() {
             try {
-                const response = await fetch('data.json');
+                const response = await fetch('data.json', { cache: 'no-store' });
                 const data = await response.json();
                 sanitizeDataShape(data);
                 clearLegacyCustomData();
