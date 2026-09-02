@@ -1,5 +1,6 @@
 {
-  "generated_at": "2026-09-01",
+  "generated_at": "2026-09-02",
+  "academic_mapping_date": "2026-09-01",
   "policy": "ملف مقرر واحد، وبرنامج جديد واحد في كل سطر داخل خلية الربط الحالية، دون ذكر الخطط القديمة.",
   "file_count": 23,
   "mapping_cell_count": 182,
@@ -67,7 +68,7 @@
       "title": "حقوق الإنسان",
       "path": "assets/course-specifications/2003215-2.pdf",
       "input_sha256": "9b2e0abe033321bf98c2346e688acfb820d38e4f988adb301c16302e07c4f0e7",
-      "output_sha256": "961a1e1caea76245807088d9835b43e8ee00e9cc416b738a9cb8234975c57b42",
+      "output_sha256": "192af762f583d14d2b189fe210f60d1d2dd2a51f12f2699e15f2e386c3ac5c59",
       "programs": [
         "القرآن وعلومه",
         "القراءات",
@@ -75,6 +76,7 @@
         "الشريعة"
       ],
       "page_count": 10,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 5,
@@ -89,12 +91,14 @@
             "الشريعة": "ع1"
           },
           "mapping_rect": [
-            251.987,
-            208.043,
-            376.27,
-            389.956
+            252.046,
+            208.061,
+            376.212,
+            389.955
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -109,12 +113,14 @@
             "الشريعة": "ع1"
           },
           "mapping_rect": [
-            252.008,
-            389.941,
-            376.249,
+            252.063,
+            389.942,
+            376.194,
             535.777
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -129,12 +135,14 @@
             "الشريعة": "ع1"
           },
           "mapping_rect": [
-            252.028,
+            252.08,
             535.763,
-            376.23,
-            753.752
+            376.177,
+            753.733
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 6,
@@ -149,12 +157,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            251.987,
-            217.356,
-            376.27,
-            345.196
+            252.044,
+            217.375,
+            376.213,
+            345.195
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 6,
@@ -169,12 +179,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.0,
-            345.181,
-            376.258,
-            473.016
+            252.054,
+            345.182,
+            376.203,
+            473.015
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 6,
@@ -189,12 +201,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.011,
-            473.001,
-            376.246,
-            600.636
+            252.064,
+            473.002,
+            376.193,
+            600.617
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 6,
@@ -209,12 +223,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.023,
-            623.366,
-            376.235,
-            730.085
+            252.074,
+            623.385,
+            376.183,
+            730.084
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 6,
@@ -229,12 +245,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.033,
-            730.07,
-            376.224,
-            774.992
+            252.084,
+            730.071,
+            376.174,
+            774.973
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 7,
@@ -249,12 +267,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            251.987,
-            195.071,
-            376.27,
-            286.53
+            252.014,
+            195.085,
+            376.243,
+            286.512
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -263,12 +283,13 @@
       "title": "دراسات في علوم القرآن",
       "path": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002210-2.pdf",
       "input_sha256": "2c3c483937c93e04d28635eb37bb52d9dbce4ac1c82ae509f5013a7e7c5cd2a7",
-      "output_sha256": "2a1b8448f4dc97815cba921a99f5ced4cd32a8e6d8654ba0fd209cae63acc24c",
+      "output_sha256": "1b3ed9c12881111bf0670463b908a9b01d00d14c4e660921deb7336c0bfbc72d",
       "programs": [
         "القراءات",
         "الدراسات الإسلامية"
       ],
       "page_count": 8,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -281,12 +302,14 @@
             "الدراسات الإسلامية": "ع2"
           },
           "mapping_rect": [
-            249.03,
-            514.572,
-            376.27,
-            648.372
+            249.043,
+            514.59,
+            376.218,
+            648.371
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -299,12 +322,14 @@
             "الدراسات الإسلامية": "ع2"
           },
           "mapping_rect": [
-            249.037,
-            648.354,
-            376.243,
-            781.856
+            249.049,
+            648.355,
+            376.195,
+            781.837
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -317,12 +342,14 @@
             "الدراسات الإسلامية": "ع2"
           },
           "mapping_rect": [
-            252.023,
-            157.445,
-            376.27,
-            291.135
+            252.088,
+            157.461,
+            376.208,
+            291.115
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -335,12 +362,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            252.04,
-            313.789,
-            376.253,
-            381.105
+            252.103,
+            313.808,
+            376.194,
+            381.104
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -353,12 +382,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            252.057,
-            381.086,
-            376.237,
-            448.475
+            252.117,
+            381.087,
+            376.18,
+            448.455
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -371,12 +402,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            252.073,
-            471.132,
-            376.222,
-            554.804
+            252.13,
+            471.15,
+            376.167,
+            554.784
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -385,12 +418,13 @@
       "title": "التجويد (1)",
       "path": "assets/course-specifications/qiraat-source-1445/2002103-2.pdf",
       "input_sha256": "8354fb861a5d78cf00722e0658bd9364dac5409028dcf338316b9077c37b9251",
-      "output_sha256": "6b80ca4393314813e2d43fc0334c62eb3618c1e5deb4635a3f7bc0b80964091c",
+      "output_sha256": "2b57fe43b2ff54634acec9fa6b9135a3837b5ba74fce26befe36f70ef69fe381",
       "programs": [
         "القرآن وعلومه",
         "القراءات"
       ],
       "page_count": 7,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -403,12 +437,14 @@
             "القراءات": "ع3"
           },
           "mapping_rect": [
-            249.504,
-            477.424,
-            354.61,
-            519.436
+            249.523,
+            477.441,
+            354.552,
+            519.419
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -421,12 +457,14 @@
             "القراءات": "م2"
           },
           "mapping_rect": [
-            249.511,
-            542.292,
-            354.589,
-            579.28
+            249.528,
+            542.31,
+            354.534,
+            579.262
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -439,12 +477,14 @@
             "القراءات": "ق2"
           },
           "mapping_rect": [
-            249.517,
-            601.96,
-            354.57,
-            675.164
+            249.534,
+            601.978,
+            354.517,
+            675.144
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -453,12 +493,13 @@
       "title": "التجويد (2)",
       "path": "assets/course-specifications/qiraat-source-1445/2002106-2.pdf",
       "input_sha256": "f7a483a2c8f15ed9498bc64c8bf568ca7910c7027a8ed3762343519f2b4df198",
-      "output_sha256": "6411ae93d24255916c9c12c5d5d371db9140ccf8089870979677cf12db2f0323",
+      "output_sha256": "6cf93fa3ed784203f0617bb05fd98d6286385ba12d7ef3007edeb6c507230b54",
       "programs": [
         "القرآن وعلومه",
         "القراءات"
       ],
       "page_count": 7,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -471,12 +512,14 @@
             "القراءات": "ع3"
           },
           "mapping_rect": [
-            249.504,
-            456.436,
-            354.61,
-            498.436
+            249.523,
+            456.454,
+            354.552,
+            498.419
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -489,12 +532,14 @@
             "القراءات": "م2"
           },
           "mapping_rect": [
-            249.511,
-            521.29,
-            354.589,
-            558.251
+            249.528,
+            521.308,
+            354.534,
+            558.233
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -507,12 +552,14 @@
             "القراءات": "ق2"
           },
           "mapping_rect": [
-            249.517,
-            580.935,
-            354.57,
-            654.164
+            249.534,
+            580.955,
+            354.517,
+            654.144
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -521,7 +568,7 @@
       "title": "علوم القرآن العامة",
       "path": "assets/course-specifications/quranic-course-updates-1446/2002252-2-ulum-alquran-general.pdf",
       "input_sha256": "08009f71daffcea8832d51af98d34def7008b2962a0c849bf11119e6e99994c8",
-      "output_sha256": "ed6d791803bcf76a554f0648f5d53a14b1f43c85bf36faba50d0df5cd892fffa",
+      "output_sha256": "b3432527f7f0916b22bd5ffcc390937e26993bda7c3028dd842e9d1af0769dbc",
       "programs": [
         "القرآن وعلومه",
         "القراءات",
@@ -530,6 +577,7 @@
         "الأنظمة"
       ],
       "page_count": 8,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -545,12 +593,14 @@
             "الأنظمة": "ع2"
           },
           "mapping_rect": [
-            269.69,
-            472.692,
-            354.791,
-            539.766
+            269.752,
+            472.71,
+            354.729,
+            539.765
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -566,12 +616,14 @@
             "الأنظمة": "ع2"
           },
           "mapping_rect": [
-            269.707,
-            539.751,
-            354.774,
+            269.766,
+            539.752,
+            354.715,
             606.965
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -587,12 +639,14 @@
             "الأنظمة": "ع2"
           },
           "mapping_rect": [
-            269.723,
+            269.78,
             606.951,
-            354.758,
-            691.645
+            354.701,
+            691.625
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -608,12 +662,14 @@
             "الأنظمة": "م3"
           },
           "mapping_rect": [
-            269.738,
-            714.3,
-            354.743,
-            781.016
+            269.793,
+            714.318,
+            354.688,
+            780.997
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -629,12 +685,14 @@
             "الأنظمة": "م3"
           },
           "mapping_rect": [
-            269.69,
-            173.927,
-            354.791,
-            240.975
+            269.742,
+            173.942,
+            354.739,
+            240.955
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -650,12 +708,14 @@
             "الأنظمة": "ق1"
           },
           "mapping_rect": [
-            269.717,
-            263.532,
-            354.764,
-            322.17
+            269.765,
+            263.55,
+            354.716,
+            322.152
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -664,12 +724,13 @@
       "title": "البلاغة",
       "path": "assets/course-specifications/raw-recovery-20260827/103141-2.pdf",
       "input_sha256": "4e2f115d343d5da0d3a763f9dad7f3fbccb303c6829326c18f31b6ee65671937",
-      "output_sha256": "54bcd80fc22c573d6e7c35504a2e9a6519527dd5ad20c2a807557b4b44c0b53a",
+      "output_sha256": "c85f5eeb49ad30053a893ebf10855e674592e3283bc3ed93154952b791931d23",
       "programs": [
         "القراءات",
         "الشريعة"
       ],
       "page_count": 7,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -682,12 +743,14 @@
             "الشريعة": "ع1"
           },
           "mapping_rect": [
-            252.336,
-            364.982,
-            376.21,
-            426.232
+            252.388,
+            364.999,
+            376.145,
+            426.231
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -700,12 +763,14 @@
             "الشريعة": "ع1"
           },
           "mapping_rect": [
-            252.347,
+            252.397,
             426.219,
-            376.196,
-            490.505
+            376.133,
+            490.485
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -718,12 +783,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.358,
-            513.142,
-            376.183,
+            252.406,
+            513.159,
+            376.122,
             577.446
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -736,12 +803,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.368,
+            252.415,
             577.432,
-            376.17,
-            641.792
+            376.111,
+            641.772
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -754,12 +823,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.378,
-            664.462,
-            376.157,
-            749.704
+            252.424,
+            664.479,
+            376.101,
+            749.684
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -768,13 +839,14 @@
       "title": "التحرير العربي",
       "path": "assets/course-specifications/raw-recovery-20260827/103171-2.pdf",
       "input_sha256": "0659564173c2889c569539f6c1338b97d9d067bf5aafe63071be3f43f78cd53b",
-      "output_sha256": "e67cec7903081eab07c60adc235586e55140e8b312395d5f7a71aeb3348c5aaa",
+      "output_sha256": "2a1b0252350a3eb1b68dad9b7df69c3385c2270de7c23f69aeee039b70eff3fe",
       "programs": [
         "القرآن وعلومه",
         "القراءات",
         "الدراسات الإسلامية"
       ],
       "page_count": 8,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -788,12 +860,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            277.06,
-            429.28,
-            340.54,
+            277.11,
+            429.291,
+            340.49,
             472.752
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.7594561186650185,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 8.126
         },
         {
           "page_1_based": 4,
@@ -807,12 +881,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            277.071,
-            472.739,
-            340.529,
-            516.132
+            277.119,
+            472.74,
+            340.481,
+            516.119
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.7591276950639402,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 8.123
         },
         {
           "page_1_based": 4,
@@ -826,12 +902,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            277.081,
-            560.86,
-            340.519,
-            644.74
+            277.128,
+            560.876,
+            340.472,
+            644.739
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.7697801165194512,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 8.237
         },
         {
           "page_1_based": 4,
@@ -845,12 +923,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            277.091,
+            277.137,
             644.727,
-            340.509,
+            340.463,
             730.352
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.76944270507201,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 8.233
         },
         {
           "page_1_based": 4,
@@ -864,12 +944,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            277.101,
-            730.339,
-            340.499,
-            773.32
+            277.146,
+            730.34,
+            340.454,
+            773.302
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.7691055892845966,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 8.229
         },
         {
           "page_1_based": 5,
@@ -883,12 +965,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            277.06,
-            244.442,
-            340.54,
-            287.622
+            277.108,
+            244.474,
+            340.492,
+            287.621
           ],
-          "mapping_scale": 1.0,
+          "mapping_scale": 0.7594561186650185,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 8.126,
           "text_to": "أن يتحمل الطالب مسؤولية التحقق من سلامة المعلومات التي يوظفها في التحرير.",
           "outcome_rect": [
             346.54,
@@ -910,12 +994,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            277.077,
-            287.598,
-            340.523,
-            331.002
+            277.122,
+            287.61,
+            340.478,
+            330.99
           ],
-          "mapping_scale": 1.0,
+          "mapping_scale": 0.7591276950639402,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 8.123,
           "text_to": "أن يبادر الطالب إلى تطوير مهاراته في التحرير العربي باستمرار.",
           "outcome_rect": [
             346.579,
@@ -937,12 +1023,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            277.093,
+            277.136,
             330.978,
-            340.507,
-            374.22
+            340.464,
+            374.202
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.7587995553908855,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 8.119
         }
       ]
     },
@@ -951,13 +1039,14 @@
       "title": "النحو (3)",
       "path": "assets/course-specifications/raw-recovery-20260827/103245-2.pdf",
       "input_sha256": "9ce334f78ecf67d832ff3b3405b35f6a79a92814274c342e5bc61b20e448f206",
-      "output_sha256": "6217295a645bb607d5d534ed9b6621d079a51afbf623eba57118fe2d4d18d21e",
+      "output_sha256": "fca31a6caa913febff5957453a7e1a6c41e3a1fd5a23d6c9a9446c7f75d22708",
       "programs": [
         "القرآن وعلومه",
         "القراءات",
         "الدراسات الإسلامية"
       ],
       "page_count": 7,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -971,12 +1060,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            252.257,
-            475.522,
-            376.21,
+            252.314,
+            475.539,
+            376.142,
             512.68
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -990,12 +1081,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            252.266,
+            252.321,
             512.667,
-            376.199,
+            376.133,
             550.106
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -1009,12 +1102,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            252.274,
-            550.093,
-            376.189,
+            252.329,
+            550.094,
+            376.124,
             587.68
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -1028,12 +1123,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            252.283,
+            252.336,
             587.667,
-            376.179,
-            625.12
+            376.116,
+            625.102
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -1047,12 +1144,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            252.291,
-            647.822,
-            376.169,
-            685.0
+            252.343,
+            647.84,
+            376.108,
+            684.999
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -1066,12 +1165,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            252.299,
+            252.35,
             684.986,
-            376.16,
-            722.412
+            376.1,
+            722.411
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -1085,12 +1186,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            252.306,
+            252.357,
             722.399,
-            376.151,
-            759.493
+            376.092,
+            759.475
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -1104,12 +1207,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            251.95,
-            157.582,
-            376.21,
-            194.818
+            252.012,
+            157.596,
+            376.148,
+            194.8
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -1123,12 +1228,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            251.967,
-            217.542,
-            376.193,
+            252.026,
+            217.56,
+            376.134,
             254.744
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -1142,12 +1249,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            251.983,
+            252.04,
             254.731,
-            376.177,
-            292.1
+            376.12,
+            292.099
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -1161,12 +1270,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            251.998,
+            252.053,
             292.086,
-            376.162,
-            347.364
+            376.107,
+            347.344
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -1175,13 +1286,14 @@
       "title": "النحو (1)",
       "path": "assets/course-specifications/raw-recovery-20260827/103281-2.pdf",
       "input_sha256": "5754e83ea6d6fd6562c8d4ef1c753371a2369e4a3d4a298183fa84d89aad07dc",
-      "output_sha256": "0472224bc33b53a11b3f6c2bdf7bf2c57adac8de788638d3628656a6cc0c3fed",
+      "output_sha256": "89fcfa50365b741a819a8a4c6bbf3b641735f7d7da06dea12f679778e546177b",
       "programs": [
         "القرآن وعلومه",
         "القراءات",
         "الدراسات الإسلامية"
       ],
       "page_count": 8,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -1195,12 +1307,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            252.393,
-            456.242,
-            376.21,
-            541.71
+            252.441,
+            456.26,
+            376.148,
+            541.709
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -1214,12 +1328,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            252.406,
+            252.452,
             541.696,
-            376.193,
-            648.39
+            376.134,
+            648.389
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -1233,12 +1349,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            252.418,
+            252.462,
             648.376,
-            376.177,
-            712.886
+            376.12,
+            712.885
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -1252,12 +1370,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            252.43,
-            712.871,
-            376.162,
-            756.085
+            252.473,
+            712.872,
+            376.107,
+            756.065
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -1271,12 +1391,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            251.95,
-            157.472,
-            376.21,
-            243.092
+            252.019,
+            157.485,
+            376.158,
+            243.091
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -1290,12 +1412,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            251.959,
+            252.027,
             243.079,
-            376.201,
-            307.544
+            376.15,
+            307.543
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -1309,12 +1433,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            251.969,
+            252.035,
             307.531,
-            376.191,
-            357.452
+            376.143,
+            357.451
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -1328,12 +1454,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            251.978,
+            252.042,
             357.439,
-            376.182,
-            400.58
+            376.136,
+            400.562
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -1347,12 +1475,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            251.986,
-            423.302,
-            376.174,
-            508.686
+            252.049,
+            423.335,
+            376.129,
+            508.684
           ],
           "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7,
           "text_to": "أن يتحمل الطالب مسؤولية إنجاز التكليفات النحوية بدقة.",
           "outcome_rect": [
             376.174,
@@ -1374,12 +1504,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            251.995,
-            508.658,
-            376.174,
-            594.33
+            252.057,
+            508.672,
+            376.122,
+            594.328
           ],
           "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7,
           "text_to": "أن يبادر الطالب إلى معالجة أخطائه النحوية في التعبير.",
           "outcome_rect": [
             382.24,
@@ -1401,12 +1533,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            252.003,
-            594.303,
-            376.165,
-            701.112
+            252.064,
+            594.316,
+            376.115,
+            701.099
           ],
           "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7,
           "text_to": "أن يطور الطالب أداءه في تطبيق القواعد النحوية باستمرار.",
           "outcome_rect": [
             376.165,
@@ -1428,12 +1562,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            252.011,
+            252.07,
             701.086,
-            376.165,
-            744.06
+            376.109,
+            744.042
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -1442,13 +1578,14 @@
       "title": "النحو (2)",
       "path": "assets/course-specifications/raw-recovery-20260827/103282-2.pdf",
       "input_sha256": "30805da13e5cbac1443ff5a897e3863a97ff8f8ea08202a5200274ab9d7eb817",
-      "output_sha256": "215bd32bf3d70ab1e094768a99bf55cdf96ed6fe52cfba029207c7c9f7d3ba41",
+      "output_sha256": "bee4ed9d73199acedda7b413d890b690e3bfa6eb884cbe3111ecfbfbe8ad9c4c",
       "programs": [
         "القرآن وعلومه",
         "القراءات",
         "الدراسات الإسلامية"
       ],
       "page_count": 7,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -1462,12 +1599,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            241.463,
-            396.902,
-            326.44,
-            440.212
+            241.52,
+            396.919,
+            326.372,
+            440.211
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -1481,12 +1620,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            241.472,
+            241.528,
             440.199,
-            326.429,
-            483.592
+            326.363,
+            483.591
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -1500,12 +1641,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            241.48,
+            241.535,
             483.579,
-            326.419,
-            526.972
+            326.354,
+            526.971
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -1519,12 +1662,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            241.489,
+            241.542,
             526.959,
-            326.409,
-            570.125
+            326.346,
+            570.105
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -1538,12 +1683,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            241.497,
-            592.822,
-            326.399,
+            241.549,
+            592.839,
+            326.338,
             636.026
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -1557,12 +1704,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            241.505,
-            636.013,
-            326.39,
-            700.572
+            241.556,
+            636.014,
+            326.33,
+            700.571
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -1576,12 +1725,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            241.513,
+            241.563,
             700.559,
-            326.381,
-            771.176
+            326.322,
+            771.157
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -1595,12 +1746,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            241.42,
-            157.472,
-            326.44,
-            200.66
+            241.485,
+            157.485,
+            326.39,
+            200.642
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -1614,12 +1767,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            241.434,
-            223.322,
-            326.426,
-            315.128
+            241.497,
+            223.354,
+            326.378,
+            315.127
           ],
           "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7,
           "text_to": "أن يتحمل الطالب مسؤولية تطبيق القواعد النحوية في كتاباته.",
           "outcome_rect": [
             326.426,
@@ -1641,12 +1796,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            241.447,
-            315.103,
-            326.426,
-            379.712
+            241.508,
+            315.115,
+            326.368,
+            379.71
           ],
           "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7,
           "text_to": "أن يبادر الطالب إلى تصحيح أخطائه النحوية.",
           "outcome_rect": [
             332.44,
@@ -1668,12 +1825,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            241.46,
-            379.686,
-            326.413,
-            423.146
+            241.519,
+            379.699,
+            326.357,
+            423.133
           ],
           "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7,
           "text_to": "أن يطور الطالب أداءه في التحليل النحوي باستمرار.",
           "outcome_rect": [
             332.465,
@@ -1695,12 +1854,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            241.473,
-            423.121,
-            326.401,
-            487.364
+            241.529,
+            423.122,
+            326.347,
+            487.344
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -1709,12 +1870,13 @@
       "title": "النحو (4)",
       "path": "assets/course-specifications/raw-recovery-20260827/103349-2.pdf",
       "input_sha256": "b4916b9b316ad84084a7912ff6c4c1eebc7862865ab04a7f882c88a6e4663e4d",
-      "output_sha256": "fff13a98bcf82e2e42c7601ebe2ed87ead1ce73d2e83327d32759787aa584a61",
+      "output_sha256": "7e2c5dea4dc9d1889c87377219398cef34f5164b0c15f3a2b33b22bf3c05e9ca",
       "programs": [
         "القرآن وعلومه",
         "القراءات"
       ],
       "page_count": 8,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -1727,12 +1889,14 @@
             "القراءات": "ع2"
           },
           "mapping_rect": [
-            277.06,
-            439.18,
-            340.54,
+            277.122,
+            439.196,
+            340.478,
             524.592
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.937013878298002,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.026
         },
         {
           "page_1_based": 4,
@@ -1745,12 +1909,14 @@
             "القراءات": "ع2"
           },
           "mapping_rect": [
-            277.077,
-            524.579,
-            340.523,
-            610.187
+            277.136,
+            524.58,
+            340.464,
+            610.186
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.9365139852145415,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.021
         },
         {
           "page_1_based": 4,
@@ -1763,12 +1929,14 @@
             "القراءات": "ع2"
           },
           "mapping_rect": [
-            277.093,
-            610.174,
-            340.507,
+            277.15,
+            610.175,
+            340.45,
             695.792
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.9360146252285192,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.015
         },
         {
           "page_1_based": 4,
@@ -1781,12 +1949,14 @@
             "القراءات": "ع2"
           },
           "mapping_rect": [
-            277.108,
-            695.779,
-            340.492,
-            781.016
+            277.163,
+            695.78,
+            340.437,
+            780.997
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.9355157974876284,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.01
         },
         {
           "page_1_based": 5,
@@ -1799,12 +1969,14 @@
             "القراءات": "ع2"
           },
           "mapping_rect": [
-            277.06,
-            199.732,
-            340.54,
+            277.129,
+            199.745,
+            340.471,
             285.292
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.9365139852145415,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.021
         },
         {
           "page_1_based": 5,
@@ -1817,12 +1989,14 @@
             "القراءات": "ع2"
           },
           "mapping_rect": [
-            277.069,
-            285.279,
-            340.531,
-            370.665
+            277.137,
+            285.28,
+            340.463,
+            370.645
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.9365139852145415,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.021
         },
         {
           "page_1_based": 5,
@@ -1835,12 +2009,14 @@
             "القراءات": "م2"
           },
           "mapping_rect": [
-            277.079,
-            393.32,
-            340.521,
-            478.787
+            277.145,
+            393.336,
+            340.455,
+            478.786
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.9517465726899542,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.184
         },
         {
           "page_1_based": 5,
@@ -1853,12 +2029,14 @@
             "القراءات": "م2"
           },
           "mapping_rect": [
-            277.088,
-            478.774,
-            340.512,
+            277.152,
+            478.775,
+            340.448,
             543.312
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.9512308406874129,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.178
         },
         {
           "page_1_based": 5,
@@ -1871,12 +2049,14 @@
             "القراءات": "م2"
           },
           "mapping_rect": [
-            277.096,
-            543.299,
-            340.504,
+            277.159,
+            543.3,
+            340.441,
             586.622
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.9512308406874129,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.178
         },
         {
           "page_1_based": 5,
@@ -1889,12 +2069,14 @@
             "القراءات": "م2"
           },
           "mapping_rect": [
-            277.105,
+            277.167,
             586.61,
-            340.495,
-            650.92
+            340.433,
+            650.902
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.9507156673114119,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.173
         },
         {
           "page_1_based": 5,
@@ -1907,12 +2089,14 @@
             "القراءات": "ق1"
           },
           "mapping_rect": [
-            277.113,
-            673.642,
-            340.487,
-            716.892
+            277.174,
+            673.674,
+            340.426,
+            716.89
           ],
-          "mapping_scale": 1.0,
+          "mapping_scale": 0.9295710719419017,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 9.946,
           "text_to": "أن يتحمل الطالب مسؤولية تطبيق القواعد النحوية المتقدمة بدقة.",
           "outcome_rect": [
             346.54,
@@ -1933,12 +2117,14 @@
             "القراءات": "ق1"
           },
           "mapping_rect": [
-            277.121,
-            716.866,
-            340.479,
-            759.917
+            277.18,
+            716.879,
+            340.42,
+            759.882
           ],
-          "mapping_scale": 1.0,
+          "mapping_scale": 0.9295710719419017,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 9.946,
           "text_to": "أن يبادر الطالب إلى تطوير أدائه في التحليل النحوي.",
           "outcome_rect": [
             346.558,
@@ -1959,12 +2145,14 @@
             "القراءات": "ق1"
           },
           "mapping_rect": [
-            277.06,
-            199.69,
-            340.54,
-            263.964
+            277.099,
+            199.704,
+            340.501,
+            263.944
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.9320388349514562,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 9.973
         }
       ]
     },
@@ -1973,12 +2161,13 @@
       "title": "الصرف",
       "path": "assets/course-specifications/raw-recovery-20260827/103411-2.pdf",
       "input_sha256": "3e03f6253863a53e1d25f55053ff1f64e20772732ab609a569b054586d1356f7",
-      "output_sha256": "b34ff8c9bdf84ebe2dc493c2d119798ddf4ab81ab40d06373e4f5e144b60e61d",
+      "output_sha256": "568846d0b896d0e4ce4c4543f486c41d11f7163e674873aa57fd947e3eec0f60",
       "programs": [
         "القرآن وعلومه",
         "القراءات"
       ],
       "page_count": 8,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -1991,12 +2180,14 @@
             "القراءات": "ع2"
           },
           "mapping_rect": [
-            290.586,
-            472.18,
-            362.08,
-            507.955
+            290.654,
+            472.196,
+            362.015,
+            507.954
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2009,12 +2200,14 @@
             "القراءات": "ع2"
           },
           "mapping_rect": [
-            290.601,
-            507.934,
-            362.066,
+            290.666,
+            507.935,
+            362.003,
             566.666
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2027,12 +2220,14 @@
             "القراءات": "ع2"
           },
           "mapping_rect": [
-            290.615,
-            566.653,
-            362.053,
-            602.584
+            290.677,
+            566.654,
+            361.992,
+            602.583
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2045,12 +2240,14 @@
             "القراءات": "ع2"
           },
           "mapping_rect": [
-            290.628,
+            290.689,
             602.571,
-            362.04,
-            708.072
+            361.981,
+            708.071
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2063,12 +2260,14 @@
             "القراءات": "ع2"
           },
           "mapping_rect": [
-            290.641,
+            290.7,
             708.059,
-            362.027,
-            743.76
+            361.971,
+            743.742
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -2081,12 +2280,14 @@
             "القراءات": "م2"
           },
           "mapping_rect": [
-            290.56,
-            178.612,
-            362.08,
+            290.628,
+            178.625,
+            362.021,
             284.032
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -2099,12 +2300,14 @@
             "القراءات": "م2"
           },
           "mapping_rect": [
-            290.571,
-            284.019,
-            362.069,
+            290.637,
+            284.02,
+            362.013,
             389.512
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -2117,12 +2320,14 @@
             "القراءات": "م2"
           },
           "mapping_rect": [
-            290.581,
-            389.499,
-            362.059,
+            290.646,
+            389.5,
+            362.004,
             477.552
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -2135,12 +2340,14 @@
             "القراءات": "م2"
           },
           "mapping_rect": [
-            290.591,
-            477.539,
-            362.049,
-            565.466
+            290.654,
+            477.54,
+            361.996,
+            565.446
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -2153,12 +2360,14 @@
             "القراءات": "ق1"
           },
           "mapping_rect": [
-            290.601,
-            586.886,
-            362.039,
-            640.247
+            290.662,
+            586.916,
+            361.988,
+            640.245
           ],
           "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7,
           "text_to": "أن يتحمل الطالب مسؤولية ضبط صيغ الكلمات في كتاباته.",
           "outcome_rect": [
             368.08,
@@ -2179,12 +2388,14 @@
             "القراءات": "ق1"
           },
           "mapping_rect": [
-            290.61,
-            640.222,
-            362.03,
-            710.972
+            290.67,
+            640.234,
+            361.98,
+            710.959
           ],
           "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7,
           "text_to": "أن يبادر الطالب إلى تطوير مهاراته الصرفية باستمرار.",
           "outcome_rect": [
             362.03,
@@ -2205,12 +2416,14 @@
             "القراءات": "ق1"
           },
           "mapping_rect": [
-            290.619,
-            710.947,
-            362.03,
-            764.044
+            290.678,
+            710.948,
+            361.973,
+            764.024
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -2219,7 +2432,7 @@
       "title": "المدخل لدراسة الفقه",
       "path": "assets/course-specifications/raw-recovery-20260827/2001112-2.pdf",
       "input_sha256": "2c61cc5cd856ab38bef825cacbe60cc69b483c0b0766508b0de2dc805834d0a1",
-      "output_sha256": "28edc9116aaee1231cd8d4cda03c76ddab28710fda5bc4f8103737944f62c8b2",
+      "output_sha256": "6b0438c41c3c9e19e11403c1564124d161983859040abd35518a8d00edb47b45",
       "programs": [
         "القرآن وعلومه",
         "القراءات",
@@ -2228,6 +2441,7 @@
         "الأنظمة"
       ],
       "page_count": 7,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -2243,12 +2457,14 @@
             "الأنظمة": "ع3"
           },
           "mapping_rect": [
-            249.641,
-            514.57,
-            354.61,
-            551.858
+            249.666,
+            514.588,
+            354.545,
+            551.857
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.6740167845976633,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 7.212
         },
         {
           "page_1_based": 4,
@@ -2264,12 +2480,14 @@
             "الأنظمة": "ع2"
           },
           "mapping_rect": [
-            249.646,
-            551.843,
-            354.596,
-            589.206
+            249.67,
+            551.844,
+            354.533,
+            589.205
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.6758332416675833,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 7.231
         },
         {
           "page_1_based": 4,
@@ -2285,12 +2503,14 @@
             "الأنظمة": "ع2"
           },
           "mapping_rect": [
-            249.651,
-            589.191,
-            354.583,
-            626.465
+            249.675,
+            589.192,
+            354.522,
+            626.445
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.6737580875095953,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 7.209
         },
         {
           "page_1_based": 4,
@@ -2306,12 +2526,14 @@
             "الأنظمة": "م1"
           },
           "mapping_rect": [
-            249.656,
-            649.022,
-            354.57,
+            249.68,
+            649.04,
+            354.511,
             704.405
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2327,12 +2549,14 @@
             "الأنظمة": "م3"
           },
           "mapping_rect": [
-            249.661,
+            249.684,
             704.391,
-            354.557,
-            759.685
+            354.501,
+            759.665
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -2348,12 +2572,14 @@
             "الأنظمة": "ق1"
           },
           "mapping_rect": [
-            251.616,
-            157.51,
-            354.61,
+            251.658,
+            157.524,
+            354.558,
             212.901
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -2369,12 +2595,14 @@
             "الأنظمة": "ق2"
           },
           "mapping_rect": [
-            251.638,
-            212.887,
-            354.583,
-            245.513
+            251.678,
+            212.888,
+            354.535,
+            245.494
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.5870157168107771,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 6.281
         }
       ]
     },
@@ -2383,12 +2611,13 @@
       "title": "المدخل إلى التفسير الموضوعي",
       "path": "assets/course-specifications/raw-recovery-20260827/2002200-2.pdf",
       "input_sha256": "47727ddc8313b5ba85b9c85eb25d942e44cdb74f0dac6721e64ce318b8347738",
-      "output_sha256": "baad2e7a4708c1c6be85261a3a048ba626b76b5dc78ab6ae7de916be059062d3",
+      "output_sha256": "b8cf597ba75631fb4cfd0862a5bbe9dc02382e1e7bcd2b157221b52169ec84ac",
       "programs": [
         "القراءات",
         "الدراسات الإسلامية"
       ],
       "page_count": 8,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -2401,12 +2630,14 @@
             "الدراسات الإسلامية": "ع2"
           },
           "mapping_rect": [
-            252.079,
-            616.707,
-            376.179,
-            714.892
+            252.124,
+            616.728,
+            376.133,
+            714.891
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2419,12 +2650,14 @@
             "الدراسات الإسلامية": "ع2"
           },
           "mapping_rect": [
-            252.102,
-            714.876,
-            376.155,
-            777.792
+            252.144,
+            714.877,
+            376.113,
+            777.766
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -2437,12 +2670,14 @@
             "الدراسات الإسلامية": "ع2"
           },
           "mapping_rect": [
-            252.078,
-            214.392,
-            376.178,
-            312.588
+            252.125,
+            214.407,
+            376.13,
+            312.568
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -2455,12 +2690,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            252.09,
-            332.007,
-            376.165,
-            430.192
+            252.136,
+            332.028,
+            376.119,
+            430.191
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -2473,12 +2710,14 @@
             "الدراسات الإسلامية": "م3"
           },
           "mapping_rect": [
-            252.102,
-            430.176,
-            376.153,
-            528.388
+            252.147,
+            430.177,
+            376.109,
+            528.368
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -2491,12 +2730,14 @@
             "الدراسات الإسلامية": "—"
           },
           "mapping_rect": [
-            252.114,
-            548.707,
-            376.142,
-            650.492
+            252.157,
+            548.728,
+            376.098,
+            650.466
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -2505,12 +2746,13 @@
       "title": "القرآن الكريم (1)",
       "path": "assets/course-specifications/raw-recovery-20260827/2002220-2.pdf",
       "input_sha256": "f9ef2786fd27623a5bcbf655ae8762eaf71c7c59df0cf3826e3eda6b13d766af",
-      "output_sha256": "0cd2f78e19d3c1a94aecb72dab834d8f68973a8f8b3ac8035b45a71fdf6f7e87",
+      "output_sha256": "ae2abe09070172449452b4bc37b944c4be5fc0fbb3ef0e5a0c3dfe2c74533714",
       "programs": [
         "الدراسات الإسلامية",
         "الشريعة"
       ],
       "page_count": 7,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -2523,12 +2765,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.402,
-            364.938,
-            340.463,
-            435.969
+            252.457,
+            364.957,
+            340.396,
+            435.968
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2541,12 +2785,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.412,
-            435.954,
-            340.45,
-            472.084
+            252.465,
+            435.955,
+            340.386,
+            472.064
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2559,12 +2805,14 @@
             "الشريعة": "م5"
           },
           "mapping_rect": [
-            252.421,
-            494.642,
-            340.439,
-            565.692
+            252.473,
+            494.66,
+            340.376,
+            565.691
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2577,12 +2825,14 @@
             "الشريعة": "م5"
           },
           "mapping_rect": [
-            252.43,
-            565.677,
-            340.427,
-            620.958
+            252.481,
+            565.678,
+            340.366,
+            620.938
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2595,12 +2845,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.439,
-            643.596,
-            340.417,
+            252.489,
+            643.614,
+            340.357,
             698.961
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2613,12 +2865,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.448,
-            698.947,
-            340.406,
-            737.452
+            252.496,
+            698.948,
+            340.348,
+            737.434
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -2627,12 +2881,13 @@
       "title": "القرآن الكريم (3)",
       "path": "assets/course-specifications/raw-recovery-20260827/2002225-2.pdf",
       "input_sha256": "fec5aafebaba6ffa9444216f123e224b408d5b78c0242db838dd3e1429891cad",
-      "output_sha256": "9b364023ed5fcc40784a8511788fc9d4f34965b744c42bdfa87573c68125930c",
+      "output_sha256": "9e0a1b2457a50b29c283883a90b6eb9bcb56d3bdc3be448b8dc81f317b15d26d",
       "programs": [
         "الدراسات الإسلامية",
         "الشريعة"
       ],
       "page_count": 7,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -2645,12 +2900,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.402,
-            365.026,
-            340.463,
-            438.319
+            252.457,
+            365.043,
+            340.396,
+            438.318
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2663,12 +2920,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.412,
+            252.465,
             438.305,
-            340.45,
-            474.437
+            340.386,
+            474.417
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2681,12 +2940,14 @@
             "الشريعة": "م5"
           },
           "mapping_rect": [
-            252.421,
-            497.044,
-            340.439,
-            568.127
+            252.473,
+            497.063,
+            340.376,
+            568.126
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2699,12 +2960,14 @@
             "الشريعة": "م5"
           },
           "mapping_rect": [
-            252.43,
-            568.112,
-            340.427,
-            623.355
+            252.481,
+            568.113,
+            340.366,
+            623.336
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2717,12 +2980,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.439,
-            646.04,
-            340.417,
+            252.489,
+            646.059,
+            340.357,
             701.357
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2735,12 +3000,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.448,
-            701.343,
-            340.406,
-            739.855
+            252.496,
+            701.344,
+            340.348,
+            739.837
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -2749,12 +3016,13 @@
       "title": "القرآن الكريم (4)",
       "path": "assets/course-specifications/raw-recovery-20260827/2002226-2.pdf",
       "input_sha256": "c2764ca19f5f8165fae31caffd35a8890a8e7f76f0d45d4f418fb8ba61bd44d5",
-      "output_sha256": "7ac23864a3da98020c6cfc624007baff9b578b4bbf6549250c83ecb45c625b2b",
+      "output_sha256": "ccb40bbfccf329e4154c3efd0a77942ad741feea8eb307030d3d8c3670e622e3",
       "programs": [
         "الدراسات الإسلامية",
         "الشريعة"
       ],
       "page_count": 7,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -2767,12 +3035,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            249.507,
-            478.532,
-            376.25,
-            570.36
+            249.527,
+            478.551,
+            376.197,
+            570.359
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2785,12 +3055,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            249.517,
+            249.532,
             570.342,
-            376.223,
-            607.48
+            376.185,
+            607.461
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2803,12 +3075,14 @@
             "الشريعة": "م5"
           },
           "mapping_rect": [
-            249.512,
-            652.154,
-            376.236,
-            707.848
+            249.537,
+            652.172,
+            376.173,
+            707.847
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2821,12 +3095,14 @@
             "الشريعة": "م5"
           },
           "mapping_rect": [
-            249.522,
+            249.542,
             707.831,
-            376.21,
-            780.628
+            376.162,
+            780.609
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -2839,12 +3115,14 @@
             "الشريعة": "ق3"
           },
           "mapping_rect": [
-            251.981,
-            202.206,
-            376.25,
-            257.457
+            252.023,
+            202.224,
+            376.21,
+            257.456
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -2857,12 +3135,14 @@
             "الشريعة": "ق3"
           },
           "mapping_rect": [
-            252.003,
-            257.438,
-            376.229,
-            312.745
+            252.043,
+            257.439,
+            376.192,
+            312.726
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -2871,13 +3151,14 @@
       "title": "العقيدة (2)",
       "path": "assets/course-specifications/raw-recovery-20260827/2004245-2.pdf",
       "input_sha256": "e05f75bcc425929761f4e00d06f9dc6a0713c4d601e269ca8fde95cb541b6760",
-      "output_sha256": "d6067133196c8d29a92a1528a391d325341435c510b368a4feb99aa2fe29aa1c",
+      "output_sha256": "f152ca2b71fbec26bfb9b400f5ca744cd7f6a8096cf7fc0e1fe631c12181cb0d",
       "programs": [
         "القرآن وعلومه",
         "القراءات",
         "الشريعة"
       ],
       "page_count": 8,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -2891,12 +3172,14 @@
             "الشريعة": "ع3"
           },
           "mapping_rect": [
-            249.625,
-            456.251,
-            376.27,
-            491.011
+            249.655,
+            456.27,
+            376.203,
+            491.01
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2910,12 +3193,14 @@
             "الشريعة": "ع5"
           },
           "mapping_rect": [
-            249.63,
-            490.992,
-            376.258,
-            542.272
+            249.659,
+            490.993,
+            376.193,
+            542.27
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2929,12 +3214,14 @@
             "الشريعة": "ع5"
           },
           "mapping_rect": [
-            249.635,
-            542.25,
-            376.246,
-            601.385
+            249.664,
+            542.251,
+            376.183,
+            601.365
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2948,12 +3235,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            249.64,
-            624.04,
-            376.235,
-            675.195
+            249.668,
+            624.058,
+            376.174,
+            675.194
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2967,12 +3256,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            249.645,
-            675.177,
-            376.224,
-            727.08
+            249.673,
+            675.178,
+            376.165,
+            727.079
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -2986,12 +3277,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            249.65,
+            249.677,
             727.061,
-            376.213,
-            760.856
+            376.156,
+            760.837
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3005,12 +3298,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.062,
-            214.522,
-            376.27,
-            249.125
+            252.114,
+            214.541,
+            376.222,
+            249.124
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3024,12 +3319,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.08,
-            249.104,
-            376.253,
-            284.216
+            252.13,
+            249.105,
+            376.208,
+            284.215
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3043,12 +3340,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.098,
-            284.199,
-            376.237,
-            357.114
+            252.145,
+            284.2,
+            376.194,
+            357.094
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -3057,7 +3356,7 @@
       "title": "دراسات في السيرة النبوية",
       "path": "assets/course-specifications/raw-recovery-20260827/2004258-2.pdf",
       "input_sha256": "85507cd7c69e94cba9356fef5ed37d904e8eff8053781d255523e426d94b28b0",
-      "output_sha256": "1e0f8a815d25a58070e657a4a2e11d3713382f5c91c760e48238f2f4dda04d8c",
+      "output_sha256": "7fe4fbbd1dc49f589cc38c0d30ba50122a0e5a62b1a1df9cfb58ec53681ec052",
       "programs": [
         "القرآن وعلومه",
         "القراءات",
@@ -3066,6 +3365,7 @@
         "الأنظمة"
       ],
       "page_count": 9,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -3081,12 +3381,14 @@
             "الأنظمة": "ع3"
           },
           "mapping_rect": [
-            249.476,
-            396.97,
-            376.27,
-            452.782
+            249.508,
+            396.988,
+            376.201,
+            452.781
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -3102,12 +3404,14 @@
             "الأنظمة": "ع3"
           },
           "mapping_rect": [
-            249.488,
-            452.765,
-            376.242,
-            474.143
+            249.512,
+            452.766,
+            376.193,
+            474.142
           ],
-          "mapping_scale": 0.6547314578005116
+          "mapping_scale": 0.37707131459432913,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 4.035
         },
         {
           "page_1_based": 4,
@@ -3123,12 +3427,14 @@
             "الأنظمة": "ع3"
           },
           "mapping_rect": [
-            249.496,
-            474.125,
-            376.225,
-            511.715
+            249.515,
+            474.126,
+            376.185,
+            511.695
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.6797588095369806,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 7.273
         },
         {
           "page_1_based": 4,
@@ -3144,12 +3450,14 @@
             "الأنظمة": "م1"
           },
           "mapping_rect": [
-            249.48,
-            534.347,
-            376.261,
-            589.476
+            249.519,
+            534.366,
+            376.178,
+            589.475
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -3165,12 +3473,14 @@
             "الأنظمة": "م3"
           },
           "mapping_rect": [
-            249.492,
-            589.454,
-            376.234,
-            645.1
+            249.523,
+            589.455,
+            376.171,
+            645.099
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -3186,12 +3496,14 @@
             "الأنظمة": "م2"
           },
           "mapping_rect": [
-            249.5,
-            645.077,
-            376.217,
-            682.419
+            249.526,
+            645.078,
+            376.163,
+            682.418
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.6753132556605846,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 7.226
         },
         {
           "page_1_based": 4,
@@ -3207,12 +3519,14 @@
             "الأنظمة": "م2"
           },
           "mapping_rect": [
-            249.504,
-            682.396,
-            376.209,
-            719.725
+            249.53,
+            682.397,
+            376.156,
+            719.705
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.6747940691927512,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 7.22
         },
         {
           "page_1_based": 4,
@@ -3228,12 +3542,14 @@
             "الأنظمة": "ق1"
           },
           "mapping_rect": [
-            249.484,
-            742.355,
-            376.251,
-            779.216
+            249.534,
+            742.375,
+            376.15,
+            779.197
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.6658358168518016,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 7.124
         },
         {
           "page_1_based": 5,
@@ -3249,12 +3565,14 @@
             "الأنظمة": "ق3"
           },
           "mapping_rect": [
-            251.987,
-            157.465,
-            376.27,
-            194.844
+            252.026,
+            157.481,
+            376.231,
+            194.824
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.6755731486063005,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 7.229
         }
       ]
     },
@@ -3263,13 +3581,14 @@
       "title": "العقيدة (1)",
       "path": "assets/course-specifications/raw-recovery-20260827/2004273-2.pdf",
       "input_sha256": "0fea5790322da85c1db2a8cbdd5930ebff9269e1fc933d0d8ddb74d1d2cd7585",
-      "output_sha256": "3191e303aa3335a0a7dbc9507f84e91dfe6511cedff10e95b5e98017e54a7af3",
+      "output_sha256": "cde9b8345c6a688fdc7c3e90bd40054e49d1c4ee84576b6f66afac0f431cf2f4",
       "programs": [
         "القرآن وعلومه",
         "القراءات",
         "الشريعة"
       ],
       "page_count": 7,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -3283,12 +3602,14 @@
             "الشريعة": "ع3"
           },
           "mapping_rect": [
-            249.625,
-            456.251,
-            376.27,
-            490.79
+            249.655,
+            456.27,
+            376.203,
+            490.789
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -3302,12 +3623,14 @@
             "الشريعة": "ع3"
           },
           "mapping_rect": [
-            249.63,
-            490.768,
-            376.258,
-            559.107
+            249.659,
+            490.769,
+            376.193,
+            559.106
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -3321,12 +3644,14 @@
             "الشريعة": "ع3"
           },
           "mapping_rect": [
-            249.635,
-            559.087,
-            376.246,
-            581.225
+            249.664,
+            559.088,
+            376.183,
+            581.205
           ],
-          "mapping_scale": 0.8434925864909391
+          "mapping_scale": 0.6515031016383013,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 6.971
         },
         {
           "page_1_based": 4,
@@ -3340,12 +3665,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            249.64,
-            603.88,
-            376.235,
-            654.813
+            249.668,
+            603.898,
+            376.174,
+            654.812
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -3359,12 +3686,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            249.645,
-            654.793,
-            376.224,
-            706.647
+            249.673,
+            654.794,
+            376.165,
+            706.646
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -3378,12 +3707,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            249.65,
-            706.629,
-            376.213,
-            773.816
+            249.677,
+            706.63,
+            376.156,
+            773.797
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3397,12 +3728,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.083,
-            179.841,
-            376.27,
-            214.536
+            252.149,
+            179.86,
+            376.212,
+            214.535
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3416,12 +3749,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.106,
-            214.516,
-            376.249,
-            249.631
+            252.168,
+            214.517,
+            376.194,
+            249.63
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3435,12 +3770,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.128,
+            252.187,
             249.614,
-            376.23,
-            322.554
+            376.177,
+            322.534
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -3449,13 +3786,14 @@
       "title": "العقيدة (3)",
       "path": "assets/course-specifications/raw-recovery-20260827/2004373-2.pdf",
       "input_sha256": "8398d8d9b05ecb612faa93c4a3a0b749594801a35880e936be4df8e40370a02c",
-      "output_sha256": "32ebc1d34d1619ef2feefb97ef362c1d6c5ece0bbad036dbaf825193c4fd838c",
+      "output_sha256": "90c2a7f17544b5e3cc9da81c2c6586851a56cdf6f547cd133ae85b9630606e29",
       "programs": [
         "القرآن وعلومه",
         "القراءات",
         "الشريعة"
       ],
       "page_count": 9,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -3469,12 +3807,14 @@
             "الشريعة": "ع3"
           },
           "mapping_rect": [
-            249.267,
-            514.572,
-            376.27,
-            579.932
+            249.288,
+            514.591,
+            376.208,
+            579.931
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -3488,12 +3828,14 @@
             "الشريعة": "ع3"
           },
           "mapping_rect": [
-            249.278,
-            579.912,
-            376.237,
-            647.245
+            249.293,
+            579.913,
+            376.194,
+            647.244
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -3507,12 +3849,14 @@
             "الشريعة": "ع3"
           },
           "mapping_rect": [
-            249.283,
-            647.224,
-            376.222,
-            712.68
+            249.298,
+            647.225,
+            376.18,
+            712.661
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -3526,12 +3870,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            249.273,
-            737.28,
-            376.253,
-            781.016
+            249.303,
+            737.298,
+            376.167,
+            780.997
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3545,12 +3891,14 @@
             "الشريعة": "ق1"
           },
           "mapping_rect": [
-            252.039,
-            268.91,
-            376.27,
-            334.29
+            252.064,
+            268.928,
+            376.246,
+            334.289
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3564,12 +3912,14 @@
             "الشريعة": "ق1"
           },
           "mapping_rect": [
-            252.052,
-            334.268,
-            376.258,
-            400.053
+            252.076,
+            334.269,
+            376.235,
+            400.033
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -3578,13 +3928,14 @@
       "title": "العقيدة (4)",
       "path": "assets/course-specifications/raw-recovery-20260827/2004474-2.pdf",
       "input_sha256": "1c4ef8d511f7aaea4012229adf1f96ff3f8ed95ef74efdb6fa85467639c64213",
-      "output_sha256": "52eda1cc11b5d02e61d0a31b3d9963ad6fae28f2c0eb6a8bc9bf5f18f1daf13e",
+      "output_sha256": "dcfa8dff348de33e4e5653c4d9a695e125efa90657b0656547a6466236cfd67f",
       "programs": [
         "القرآن وعلومه",
         "القراءات",
         "الشريعة"
       ],
       "page_count": 8,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -3598,12 +3949,14 @@
             "الشريعة": "ع5"
           },
           "mapping_rect": [
-            249.376,
-            456.232,
-            376.25,
-            498.674
+            249.394,
+            456.251,
+            376.204,
+            498.673
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -3617,12 +3970,14 @@
             "الشريعة": "ع5"
           },
           "mapping_rect": [
-            249.385,
-            498.654,
-            376.226,
-            565.887
+            249.398,
+            498.655,
+            376.193,
+            565.885
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -3636,12 +3991,14 @@
             "الشريعة": "ع5"
           },
           "mapping_rect": [
-            249.39,
-            565.866,
-            376.215,
-            594.572
+            249.403,
+            565.867,
+            376.183,
+            594.552
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 0.8561276388211523,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 9.161
         },
         {
           "page_1_based": 4,
@@ -3655,12 +4012,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            249.381,
-            619.197,
-            376.238,
-            706.283
+            249.407,
+            619.215,
+            376.173,
+            706.27
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3674,12 +4033,14 @@
             "الشريعة": "ق2"
           },
           "mapping_rect": [
-            252.027,
-            157.447,
-            376.25,
-            223.064
+            252.072,
+            157.462,
+            376.21,
+            223.063
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3693,12 +4054,14 @@
             "الشريعة": "ق2"
           },
           "mapping_rect": [
-            252.05,
-            223.042,
-            376.229,
-            288.666
+            252.093,
+            223.043,
+            376.192,
+            288.646
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         }
       ]
     },
@@ -3707,13 +4070,14 @@
       "title": "تخريج ودراسة الأسانيد",
       "path": "assets/course-specifications/raw-recovery-20260827/2004493-2.pdf",
       "input_sha256": "bceaacb6968e38df0a457d29fcf7ffa8be16f69aec2a0210031fa6d3cc9183ef",
-      "output_sha256": "de049cc70efeb2d6fd9c40979f4dcf29258ad41fbeac141e61670f524b7a6c84",
+      "output_sha256": "351cb2da88b5e1038313e93a1be1f341fd09650ccee89d273141cedb06c64cee",
       "programs": [
         "القرآن وعلومه",
         "القراءات",
         "الشريعة"
       ],
       "page_count": 12,
+      "mapping_style_version": "2026-09-02-legible-10.7pt",
       "edits": [
         {
           "page_1_based": 4,
@@ -3727,12 +4091,14 @@
             "الشريعة": "ع1"
           },
           "mapping_rect": [
-            249.343,
-            561.875,
-            376.27,
-            580.86
+            257.98,
+            561.909,
+            370.22,
+            580.842
           ],
-          "mapping_scale": 0.7699248120300752
+          "mapping_scale": 0.5522944851453997,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 5.91
         },
         {
           "page_1_based": 4,
@@ -3746,12 +4112,14 @@
             "الشريعة": "ع3"
           },
           "mapping_rect": [
-            249.349,
-            580.842,
-            376.253,
-            636.5
+            249.365,
+            580.826,
+            376.208,
+            636.499
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -3765,12 +4133,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            249.354,
-            636.478,
-            376.237,
-            673.82
+            249.371,
+            636.479,
+            376.194,
+            673.819
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 4,
@@ -3784,12 +4154,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            249.36,
-            673.798,
-            376.222,
-            729.092
+            249.376,
+            673.799,
+            376.18,
+            729.073
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3803,12 +4175,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.121,
-            157.487,
-            376.27,
-            194.82
+            252.193,
+            157.502,
+            376.209,
+            194.819
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3822,12 +4196,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.132,
-            194.798,
-            376.261,
-            232.17
+            252.203,
+            194.799,
+            376.201,
+            232.169
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3841,12 +4217,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.143,
-            232.149,
-            376.251,
-            287.697
+            252.211,
+            232.15,
+            376.193,
+            287.696
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3860,12 +4238,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.154,
-            287.677,
-            376.242,
-            325.05
+            252.22,
+            287.678,
+            376.185,
+            325.049
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3879,12 +4259,14 @@
             "الشريعة": "—"
           },
           "mapping_rect": [
-            252.164,
-            325.028,
-            376.234,
-            362.175
+            252.229,
+            325.029,
+            376.178,
+            362.155
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3898,12 +4280,14 @@
             "الشريعة": "ق3"
           },
           "mapping_rect": [
-            252.174,
-            384.662,
-            376.225,
-            422.14
+            252.237,
+            384.68,
+            376.171,
+            422.139
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3917,12 +4301,14 @@
             "الشريعة": "ق3"
           },
           "mapping_rect": [
-            252.184,
-            422.119,
-            376.217,
-            459.505
+            252.245,
+            422.12,
+            376.163,
+            459.504
           ],
-          "mapping_scale": 1.0
+          "mapping_scale": 1.0,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 10.7
         },
         {
           "page_1_based": 5,
@@ -3936,12 +4322,14 @@
             "الشريعة": "ق3"
           },
           "mapping_rect": [
-            257.93,
-            459.484,
-            370.27,
-            478.529
+            257.962,
+            459.485,
+            370.238,
+            478.511
           ],
-          "mapping_scale": 0.7734138972809668
+          "mapping_scale": 0.5552643470402168,
+          "mapping_font_size_pt": 10.7,
+          "mapping_effective_font_size_pt": 5.941
         }
       ]
     }

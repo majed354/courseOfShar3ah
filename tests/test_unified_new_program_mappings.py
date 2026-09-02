@@ -62,6 +62,26 @@ class UnifiedNewProgramMappingsTest(unittest.TestCase):
                 self.assertNotIn("قديمة", edit["mapping_to"])
                 self.assertNotIn("القديمة", edit["mapping_to"])
 
+    def test_program_mapping_font_is_legible_and_audited(self):
+        for record in self.manifest["records"]:
+            self.assertEqual(
+                "2026-09-02-legible-10.7pt",
+                record.get("mapping_style_version"),
+                record["course_key"],
+            )
+            for edit in record["edits"]:
+                self.assertEqual(10.7, edit.get("mapping_font_size_pt"))
+                self.assertGreater(edit.get("mapping_effective_font_size_pt", 0), 0)
+
+        pictured = next(
+            record for record in self.manifest["records"]
+            if record["course_key"] == "2002252-2"
+        )
+        self.assertTrue(pictured["edits"])
+        for edit in pictured["edits"]:
+            self.assertEqual(1.0, edit["mapping_scale"], edit["clo"])
+            self.assertEqual(10.7, edit["mapping_effective_font_size_pt"], edit["clo"])
+
     def test_every_discoverable_clo_row_was_rewritten(self):
         for record in self.manifest["records"]:
             with pymupdf.open(ROOT / record["path"]) as document:

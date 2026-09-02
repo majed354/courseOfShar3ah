@@ -35,7 +35,10 @@ MANIFEST_PATH = ROOT / "assets/course-specifications/unified-new-program-mapping
 AUDIT_PATH = ROOT / "CLO_PLO_NEW_PROGRAM_UNIFIED_AUDIT.md"
 PRIOR_MANIFEST = ROOT / "assets/course-specifications/clo-plo-corrections-20260901/manifest.json"
 DATE = "2026-09-01"
+STYLE_DATE = "2026-09-02"
 CURRENT = "$current"
+MAPPING_STYLE_VERSION = "2026-09-02-legible-10.7pt"
+MAPPING_FONT_SIZE = 10.7
 PROGRAM_ORDER = [
     "القرآن وعلومه",
     "القراءات",
@@ -386,15 +389,20 @@ def replace_mapping_cell(page: pymupdf.Page, rect: pymupdf.Rect, lines: list[str
         graphics=pymupdf.PDF_REDACT_LINE_ART_NONE,
         text=pymupdf.PDF_REDACT_TEXT_REMOVE,
     )
-    font_size = {2: 8.8, 3: 7.2, 4: 6.6, 5: 5.8}.get(len(lines), 8.8)
-    insertion = pymupdf.Rect(rect.x0 + 1.2, rect.y0 + 1.0, rect.x1 - 1.2, rect.y1 - 1.0)
+    # Keep program mappings at the same nominal size as the outcome text.
+    # The previous line-count lookup shrank five-program cells to 5.8pt even
+    # when their actual rectangles had enough height for normal-sized text.
+    # Tight padding and line-height make five independent program lines fit;
+    # insert_htmlbox may make a final geometric adjustment only where legacy
+    # cell dimensions make the nominal size physically impossible.
+    insertion = pymupdf.Rect(rect.x0 + 0.6, rect.y0 + 0.6, rect.x1 - 0.6, rect.y1 - 0.6)
     css = f"""
         @font-face {{ font-family: SiteArabic; src: url('{ARIAL.name}'); }}
         html, body {{ width: 100%; height: 100%; margin: 0; padding: 0; }}
         .box {{ box-sizing: border-box; width: 100%; height: 100%; display: flex;
           flex-direction: column; justify-content: center; align-items: stretch;
-          padding: 1pt 4pt; direction: rtl; text-align: right;
-          font-family: SiteArabic; font-size: {font_size}pt; line-height: 1.02;
+          padding: 0.5pt 1pt; direction: rtl; text-align: right;
+          font-family: SiteArabic; font-size: {MAPPING_FONT_SIZE}pt; line-height: 1.0;
           color: #000000; white-space: nowrap; }}
     """
     body = "<br>".join(html.escape(line) for line in lines)
@@ -403,7 +411,10 @@ def replace_mapping_cell(page: pymupdf.Page, rect: pymupdf.Rect, lines: list[str
         f'<div class="box" dir="rtl">{body}</div>',
         css=css,
         archive=pymupdf.Archive(str(ARIAL.parent)),
-        scale_low=0.50,
+        # Some legacy rows are only ~21pt high yet must retain five program
+        # lines.  Keep the nominal size uniform and allow fitting down only as
+        # far as the physical cell requires; the effective size is audited.
+        scale_low=0.30,
         overlay=True,
     )
     if spare < 0:
@@ -477,32 +488,50 @@ def stage_one_pdf(course_key: str, item: dict[str, Any], programs: list[str]) ->
         raise RuntimeError(f"No CLO rows discovered in {item['source']}")
     previous_edits = {edit["clo"]: edit for edit in old_record.get("edits", [])} if incremental else {}
     missing_clos = [clo for clo in clos if clo not in previous_edits]
-    if incremental and not missing_clos:
+    refresh_existing_style = bool(
+        incremental and old_record.get("mapping_style_version") != MAPPING_STYLE_VERSION
+    )
+    if incremental and not missing_clos and not refresh_existing_style:
         document.close()
         return old_record, None
 
     edits = []
     for clo in clos:
-        if clo in previous_edits:
+        if clo in previous_edits and not refresh_existing_style:
             edits.append(previous_edits[clo])
             continue
         page, outcome_cell, mapping_cell, _, old_text, old_mapping = find_clo_cells_flexible(document, clo)
-        per_program = {
-            program: resolve_mapping(item["mappings"][program], clo, old_mapping)
-            for program in programs
-        }
+        previous_edit = previous_edits.get(clo)
+        if previous_edit:
+            # Preserve the previously evidenced per-program values.  In
+            # particular, $current must not read the already-expanded cell as
+            # though the whole multiline value belonged to one program.
+            per_program = dict(previous_edit["per_program"])
+        else:
+            per_program = {
+                program: resolve_mapping(item["mappings"][program], clo, old_mapping)
+                for program in programs
+            }
         lines = [f"{program}: {per_program[program]}" for program in programs]
         edit_record: dict[str, Any] = {
             "page_1_based": page.number + 1,
             "clo": clo,
-            "text_from": old_text,
-            "mapping_from": old_mapping,
+            "text_from": previous_edit.get("text_from", old_text) if previous_edit else old_text,
+            "mapping_from": previous_edit.get("mapping_from", old_mapping) if previous_edit else old_mapping,
             "mapping_to": "\n".join(lines),
             "per_program": per_program,
             "mapping_rect": [round(v, 3) for v in mapping_cell],
-            "mapping_scale": replace_mapping_cell(page, mapping_cell, lines),
         }
-        if clo in item["text_edits"]:
+        edit_record["mapping_scale"] = replace_mapping_cell(page, mapping_cell, lines)
+        edit_record["mapping_font_size_pt"] = MAPPING_FONT_SIZE
+        edit_record["mapping_effective_font_size_pt"] = round(
+            MAPPING_FONT_SIZE * edit_record["mapping_scale"], 3
+        )
+        if previous_edit and "text_to" in previous_edit:
+            edit_record["text_to"] = previous_edit["text_to"]
+            edit_record["outcome_rect"] = previous_edit.get("outcome_rect")
+            edit_record["text_scale"] = previous_edit.get("text_scale")
+        elif clo in item["text_edits"]:
             edit_record["text_to"] = item["text_edits"][clo]
             edit_record["outcome_rect"] = [round(v, 3) for v in outcome_cell]
             edit_record["text_scale"] = replace_outcome_cell(page, outcome_cell, item["text_edits"][clo])
@@ -524,6 +553,7 @@ def stage_one_pdf(course_key: str, item: dict[str, Any], programs: list[str]) ->
         "output_sha256": output_hash,
         "programs": programs,
         "page_count": page_count,
+        "mapping_style_version": MAPPING_STYLE_VERSION,
         "edits": edits,
     }, temporary
 
@@ -558,6 +588,10 @@ def markdown_cell(value: Any) -> str:
 def write_audit(manifest: dict[str, Any]) -> None:
     records = manifest["records"]
     edits = [edit for record in records for edit in record["edits"]]
+    effective_sizes = [float(edit["mapping_effective_font_size_pt"]) for edit in edits]
+    full_size_cells = sum(float(edit["mapping_scale"]) >= 0.999 for edit in edits)
+    at_least_nine = sum(size >= 9.0 for size in effective_sizes)
+    below_eight = sum(size < 8.0 for size in effective_sizes)
     rewritten = sum("text_to" in edit for edit in edits)
     blank_links = sum(
         value == "—"
@@ -567,12 +601,14 @@ def write_audit(manifest: dict[str, Any]) -> None:
     lines = [
         "# الحصر التفصيلي للربط الموحّد بمخرجات البرامج الجديدة",
         "",
-        f"تاريخ التنفيذ: {DATE}م.",
+        f"تاريخ آخر تنفيذ: {STYLE_DATE}م. (الربط الأكاديمي مؤرخ في {DATE}م).",
         "",
         "## الملخص",
         "",
         f"- عُدّل **{len(records)} ملف مقرر مشترك** في مكانه، من غير إنشاء نسخة مستقلة لكل برنامج.",
         f"- عولجت **{len(edits)} خلية ربط**، وأعيدت صياغة **{rewritten} مخرجات مقررات** كانت مشوشة أو بعيدة عن موضوع المقرر.",
+        f"- ضُبط حجم ربط البرامج على **{MAPPING_FONT_SIZE} نقطة اسميًا** مثل نص المخرج، ولا يحدث تصغير هندسي إلا عند ضيق الخلية القديمة.",
+        f"- ظهر الحجم كاملًا في **{full_size_cells} من {len(edits)} خلية**، وبلغ **9 نقاط فأكثر في {at_least_nine} خلية**؛ وبقيت **{below_eight} خلية دون 8 نقاط** بسبب قصر صفوف النموذج الأصلية (أدنى حجم فعلي {min(effective_sizes):.3f} نقطة).",
         "- يرد كل برنامج جديد في سطر مستقل داخل خلية الربط الحالية، حتى عند تطابق الرمز بين برنامجين.",
         "- لا ترد الخطط القديمة في خلية الربط. وعلامة «—» تعني أن مصفوفة البرنامج الجديدة لا تخصص ناتجًا في مجال ذلك المخرج.",
         f"- بلغ عدد حالات «—» **{blank_links}**؛ وهي امتناع مقصود عن اختراع ربط بين مجالين مختلفين.",
@@ -667,7 +703,8 @@ def main() -> None:
         previous_run_manifest.get("data_changes", {}).get("rerouted_variants", 0),
     )
     manifest = {
-        "generated_at": DATE,
+        "generated_at": STYLE_DATE,
+        "academic_mapping_date": DATE,
         "policy": "ملف مقرر واحد، وبرنامج جديد واحد في كل سطر داخل خلية الربط الحالية، دون ذكر الخطط القديمة.",
         "file_count": len(records),
         "mapping_cell_count": sum(len(record["edits"]) for record in records),
