@@ -24,7 +24,7 @@ from typing import Any, Dict, List, Optional, Sequence, Set, Tuple
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_VERSION = "course-outcomes-v1"
 EXTRACTOR_NAME = "course-outcomes-extractor"
-EXTRACTOR_VERSION = "1.0.0"
+EXTRACTOR_VERSION = "1.1.0"
 ROOT_FIELDS = {
     "schema_version",
     "generated_at",
@@ -40,6 +40,8 @@ EXTRACTOR_FIELDS = {
     "version",
     "script",
     "script_sha256",
+    "font_recovery_script",
+    "font_recovery_script_sha256",
     "pdfplumber",
     "pymupdf",
     "tesseract",
@@ -49,6 +51,7 @@ AUXILIARY_SOURCE_FIELDS = {"path", "sha256", "purpose"}
 AUXILIARY_SOURCES = {
     "assets/course-specifications/unified-new-program-mappings-20260901.json": "published multi-program PLO mapping cells",
     "assets/course-specifications/clo-plo-corrections-20260901/manifest.json": "published CLO/PLO correction cells",
+    "assets/course-specifications/shared-course-completions-20260904/manifest.json": "published shared-course CLO completions and scoped PLO mappings",
 }
 COURSE_FIELDS = {"variants"}
 EXCLUDED_SOURCE_FIELDS = {"source_pdf", "source_sha256", "reason"}
@@ -82,6 +85,7 @@ ARABIC_DIGIT_RE = re.compile(r"[٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹]")
 ARABIC_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹", "01234567890123456789")
 CONFIDENCE_VALUES = {"high", "medium", "low"}
 EXTRACTION_STATUSES = {"complete", "partial", "failed"}
+SOURCE_STATUSES = {"present", "source_blank", "unreadable"}
 MAPPING_STATUSES = {
     "mapped",
     "explicitly_unmapped",
@@ -100,11 +104,20 @@ TITLE_METHODS = {
 CLO_METHODS = {
     "geometric_pdf",
     "geometric_pdf_ocr_consensus",
+    "embedded_font_cmap",
+    "embedded_font_cmap_with_geometric_continuation",
     "plain_table",
     "plain_cell_fallback",
     "targeted_ocr",
     "hash_matched_manifest",
 }
+EMBEDDED_FONT_CMAP_METHODS = {
+    "embedded_font_cmap",
+    "embedded_font_cmap_with_geometric_continuation",
+}
+EMBEDDED_FONT_CMAP_SOURCE_SHA256 = (
+    "51269b1a7e2246e118111a2411852e99ade9030349aa8e4ec5dbfdcc1d8270a0"
+)
 CLO_CODE_RE = re.compile(r"^(?:[123]\.[1-9][0-9]?|[عمقك][1-9][0-9]?)$")
 SOURCE_CLO_MARKER_RE = re.compile(r"^(?:[123])?\.{3}$")
 PLO_CODE_RE = re.compile(r"^(?:[عمقك]|[KSVP])[0-9]{1,2}(?:\.[0-9]+)?$")
@@ -118,12 +131,16 @@ EXTRACTED_FIELDS = {
     "assessment_plan_complete",
     "warnings",
     "extraction_status",
+    "source_status",
+    "source_clo_row_count",
+    "captured_clo_row_count",
     "page_count",
 }
 COURSE_NAME_METADATA_FIELDS = {"confidence", "source_page", "extraction_method"}
 CLO_FIELDS = {
     "code",
     "text",
+    "source_status",
     "assessment",
     "assessment_source_page",
     "plo_mappings",
@@ -608,6 +625,39 @@ def validate_generated_metadata(
             except VerificationInputError as exc:
                 errors.add(str(exc))
 
+    font_recovery_script = extractor.get("font_recovery_script")
+    if font_recovery_script != "scripts/pdf_font_recovery.py":
+        errors.add(
+            "extractor.font_recovery_script: expected 'scripts/pdf_font_recovery.py'"
+        )
+    font_recovery_path = safe_repository_path(
+        root,
+        font_recovery_script,
+        "extractor.font_recovery_script",
+        errors,
+    )
+    font_recovery_digest = extractor.get("font_recovery_script_sha256")
+    font_recovery_digest_valid = validate_sha256(
+        font_recovery_digest,
+        "extractor.font_recovery_script_sha256",
+        errors,
+    )
+    if font_recovery_path is not None:
+        if not font_recovery_path.is_file():
+            errors.add(
+                "extractor.font_recovery_script: recorded helper script does not exist"
+            )
+        else:
+            try:
+                actual = sha256_file(font_recovery_path, hash_cache)
+                if font_recovery_digest_valid and font_recovery_digest != actual:
+                    errors.add(
+                        "extractor.font_recovery_script_sha256: mismatch with the "
+                        "current helper script"
+                    )
+            except VerificationInputError as exc:
+                errors.add(str(exc))
+
 
 def validate_page_number(
     value: Any,
@@ -688,6 +738,8 @@ def validate_extracted(
     scopes: Any,
     label: str,
     errors: ErrorCollector,
+    *,
+    source_sha256: Any = None,
 ) -> None:
     if not isinstance(value, dict):
         errors.add(f"{label}: extracted must be an object")
@@ -706,6 +758,32 @@ def validate_extracted(
         page_count = None
     else:
         page_count = page_count_value
+
+    source_row_count_value = value.get("source_clo_row_count")
+    if source_row_count_value is None:
+        source_row_count: Optional[int] = None
+    elif (
+        isinstance(source_row_count_value, bool)
+        or not isinstance(source_row_count_value, int)
+        or source_row_count_value < 0
+    ):
+        errors.add(
+            f"{label}.source_clo_row_count: expected a non-negative integer or null"
+        )
+        source_row_count = None
+    else:
+        source_row_count = source_row_count_value
+
+    captured_row_count_value = value.get("captured_clo_row_count")
+    if (
+        isinstance(captured_row_count_value, bool)
+        or not isinstance(captured_row_count_value, int)
+        or captured_row_count_value < 0
+    ):
+        errors.add(f"{label}.captured_clo_row_count: expected a non-negative integer")
+        captured_row_count: Optional[int] = None
+    else:
+        captured_row_count = captured_row_count_value
 
     course_name = value.get("course_name")
     validate_nonempty_nullable_string(course_name, f"{label}.course_name", errors)
@@ -802,6 +880,21 @@ def validate_extracted(
 
             text = clo.get("text")
             validate_nonempty_nullable_string(text, f"{clo_label}.text", errors)
+            clo_source_status = clo.get("source_status")
+            if clo_source_status not in SOURCE_STATUSES:
+                errors.add(
+                    f"{clo_label}.source_status: expected one of "
+                    f"{sorted(SOURCE_STATUSES)!r}"
+                )
+            elif text is not None and clo_source_status != "present":
+                errors.add(
+                    f"{clo_label}.source_status: a non-null CLO text requires 'present'"
+                )
+            elif text is None and clo_source_status == "present":
+                errors.add(
+                    f"{clo_label}.source_status: a null CLO text requires "
+                    "'source_blank' or 'unreadable'"
+                )
             assessment = clo.get("assessment")
             validate_nonempty_nullable_string(
                 assessment, f"{clo_label}.assessment", errors
@@ -849,9 +942,21 @@ def validate_extracted(
                     f"{clo_label}.extraction_method: expected one of "
                     f"{sorted(CLO_METHODS)!r}"
                 )
+            elif (
+                method in EMBEDDED_FONT_CMAP_METHODS
+                and source_sha256 != EMBEDDED_FONT_CMAP_SOURCE_SHA256
+            ):
+                errors.add(
+                    f"{clo_label}.extraction_method: {method!r} is permitted only "
+                    "for the reviewed embedded-font source_sha256 "
+                    f"{EMBEDDED_FONT_CMAP_SOURCE_SHA256!r}, found "
+                    f"{source_sha256!r}"
+                )
             expected_clo_confidence = {
                 "geometric_pdf": "medium",
                 "geometric_pdf_ocr_consensus": "medium",
+                "embedded_font_cmap": "high",
+                "embedded_font_cmap_with_geometric_continuation": "medium",
                 "plain_table": "low",
                 "plain_cell_fallback": "low",
                 "targeted_ocr": "medium",
@@ -1024,6 +1129,48 @@ def validate_extracted(
         ]
         if len(clo_pages) == len(clos) and clo_pages != sorted(clo_pages):
             errors.add(f"{label}.clos: records must be in source-page order")
+
+        if (
+            captured_row_count is not None
+            and len(valid_clos) == len(clos)
+            and captured_row_count != len(clos)
+        ):
+            errors.add(
+                f"{label}.captured_clo_row_count: expected {len(clos)} from clos, "
+                f"found {captured_row_count}"
+            )
+        if (
+            source_row_count is not None
+            and captured_row_count is not None
+            and captured_row_count > source_row_count
+        ):
+            errors.add(
+                f"{label}.source_clo_row_count: cannot be smaller than "
+                f"captured_clo_row_count ({source_row_count} < {captured_row_count})"
+            )
+
+    source_status = value.get("source_status")
+    if source_status not in SOURCE_STATUSES:
+        errors.add(
+            f"{label}.source_status: expected one of {sorted(SOURCE_STATUSES)!r}"
+        )
+    elif isinstance(clos, list) and len(valid_clos) == len(clos):
+        row_source_statuses = {
+            clo.get("source_status")
+            for clo in valid_clos
+            if clo.get("source_status") in SOURCE_STATUSES
+        }
+        if "unreadable" in row_source_statuses or not valid_clos:
+            expected_source_status = "unreadable"
+        elif "source_blank" in row_source_statuses:
+            expected_source_status = "source_blank"
+        else:
+            expected_source_status = "present"
+        if source_status != expected_source_status:
+            errors.add(
+                f"{label}.source_status: expected {expected_source_status!r} from "
+                f"the CLO rows, found {source_status!r}"
+            )
 
     assessment_plan = value.get("assessment_plan")
     valid_assessments: List[Dict[str, Any]] = []
@@ -1262,18 +1409,17 @@ def validate_extracted(
                     f"{label}.warnings: null CLO code at index {clo_index} requires "
                     f"{expected_code_warning}"
                 )
-        if (
-            clo.get("text") is None
-            and not has_pdf_failure
-            and (
-                "clo_text_unreadable",
-                clo_index,
+        if clo.get("text") is None and not has_pdf_failure:
+            expected_text_warning = (
+                "clo_text_blank_in_source"
+                if clo.get("source_status") == "source_blank"
+                else "clo_text_unreadable"
             )
-            not in warning_codes_by_index
-        ):
-            errors.add(
-                f"{label}.warnings: null text for CLO index {clo_index} is unexplained"
-            )
+            if (expected_text_warning, clo_index) not in warning_codes_by_index:
+                errors.add(
+                    f"{label}.warnings: null text for CLO index {clo_index} "
+                    f"requires {expected_text_warning}"
+                )
         mappings = clo.get("plo_mappings")
         if (
             isinstance(mappings, list)
@@ -1301,6 +1447,7 @@ def validate_extracted(
             )
 
     targeted_warning_codes = {
+        "clo_text_blank_in_source",
         "clo_text_unreadable",
         "plo_mapping_unresolved",
         "direct_assessment_unresolved",
@@ -1332,7 +1479,10 @@ def validate_extracted(
             for mapping in mappings
         )
         consistent = {
-            "clo_text_unreadable": target.get("text") is None,
+            "clo_text_blank_in_source": target.get("text") is None
+            and target.get("source_status") == "source_blank",
+            "clo_text_unreadable": target.get("text") is None
+            and target.get("source_status") == "unreadable",
             "plo_mapping_unresolved": unresolved,
             "direct_assessment_unresolved": target.get("assessment") is None,
             "clo_code_missing_in_source": target.get("code") is None
@@ -1498,38 +1648,73 @@ def validate_extracted(
                 f"{label}.warnings: pdf_extraction_failed requires "
                 "assessment_plan_complete=false"
             )
-    unresolved_text = any(clo.get("text") is None for clo in valid_clos)
-    unresolved_code = any(clo.get("code") is None for clo in valid_clos)
-    unresolved_assessment = any(clo.get("assessment") is None for clo in valid_clos)
-    unresolved_mapping = any(
-        isinstance(clo.get("plo_mappings"), list)
-        and any(
-            isinstance(mapping, dict)
-            and mapping.get("status") in UNRESOLVED_MAPPING_STATUSES
-            for mapping in clo["plo_mappings"]
-        )
-        for clo in valid_clos
-    )
-    if isinstance(clos, list) and not clos:
+        if source_row_count is not None:
+            errors.add(
+                f"{label}.source_clo_row_count: pdf_extraction_failed requires null"
+            )
+        if captured_row_count not in {None, 0}:
+            errors.add(
+                f"{label}.captured_clo_row_count: pdf_extraction_failed requires 0"
+            )
+        if source_status != "unreadable":
+            errors.add(
+                f"{label}.source_status: pdf_extraction_failed requires 'unreadable'"
+            )
+
+    # ``extraction_status`` answers one question only: did the extractor retain
+    # every physical CLO row in the document?  Missing source text, assessment
+    # cells, PLO mappings, titles, or assessment-plan values are represented by
+    # their own fields and warnings and must not turn a complete row capture
+    # into ``partial``.
+    expected_status: Optional[str]
+    if captured_row_count is None:
+        expected_status = None
+    elif captured_row_count == 0:
         expected_status = "failed"
     elif (
-        isinstance(clos, list)
-        and len(valid_clos) == len(clos)
-        and isinstance(scopes, list)
-        and bool(scopes)
-        and course_name is not None
-        and not unresolved_code
-        and not unresolved_text
-        and not unresolved_assessment
-        and not unresolved_mapping
-        and not duplicate_groups
-        and plan_complete is True
+        source_row_count is not None
+        and source_row_count > 0
+        and captured_row_count == source_row_count
     ):
         expected_status = "complete"
     else:
         expected_status = "partial"
+
+    row_count_warning_codes = {
+        warning.get("code")
+        for warning in valid_warnings
+        if warning.get("code") in {"clo_row_count_unverified", "clo_row_count_mismatch"}
+    }
+    if expected_status == "partial":
+        expected_count_warning = (
+            "clo_row_count_unverified"
+            if source_row_count is None
+            else "clo_row_count_mismatch"
+        )
+        if expected_count_warning not in row_count_warning_codes:
+            errors.add(
+                f"{label}.warnings: partial row capture requires "
+                f"{expected_count_warning}"
+            )
+    elif (
+        expected_status == "failed"
+        and not has_pdf_failure
+        and source_row_count is not None
+        and source_row_count > 0
+        and "clo_row_count_mismatch" not in row_count_warning_codes
+    ):
+        errors.add(
+            f"{label}.warnings: zero captured rows from a non-empty source requires "
+            "clo_row_count_mismatch"
+        )
+    if extraction_status == "complete" and row_count_warning_codes:
+        errors.add(
+            f"{label}.warnings: complete extraction cannot carry a CLO row-count "
+            "warning"
+        )
     if (
         extraction_status in EXTRACTION_STATUSES
+        and expected_status is not None
         and extraction_status != expected_status
     ):
         errors.add(
@@ -1855,7 +2040,13 @@ def validate_variant_record(
                 )
 
     extracted = variant.get("extracted")
-    validate_extracted(extracted, scopes, f"{label}.extracted", errors)
+    validate_extracted(
+        extracted,
+        scopes,
+        f"{label}.extracted",
+        errors,
+        source_sha256=digest_value,
+    )
     validate_overrides(
         variant.get("overrides"),
         extracted,
@@ -2177,6 +2368,8 @@ def recompute_statistics(
         variants.extend(course["variants"])
 
     statuses = {"complete": 0, "partial": 0, "failed": 0}
+    variant_source_status_counts = {status: 0 for status in sorted(SOURCE_STATUSES)}
+    clo_source_status_counts = {status: 0 for status in sorted(SOURCE_STATUSES)}
     clo_count = 0
     mappings = 0
     mapped = 0
@@ -2199,12 +2392,27 @@ def recompute_statistics(
             )
             return None
         statuses[status] += 1
+        source_status = extracted.get("source_status")
+        if source_status not in variant_source_status_counts:
+            errors.add(
+                f"statistics: cannot recompute unknown source_status {source_status!r}"
+            )
+            return None
+        variant_source_status_counts[source_status] += 1
         clos = extracted.get("clos")
         if not isinstance(clos, list) or not all(isinstance(clo, dict) for clo in clos):
             errors.add("statistics: cannot recompute malformed clos")
             return None
         clo_count += len(clos)
         for clo in clos:
+            clo_source_status = clo.get("source_status")
+            if clo_source_status not in clo_source_status_counts:
+                errors.add(
+                    "statistics: cannot recompute unknown CLO source_status "
+                    f"{clo_source_status!r}"
+                )
+                return None
+            clo_source_status_counts[clo_source_status] += 1
             plo_mappings = clo.get("plo_mappings")
             if not isinstance(plo_mappings, list) or not all(
                 isinstance(mapping, dict) for mapping in plo_mappings
@@ -2244,7 +2452,9 @@ def recompute_statistics(
         "complete_variants": statuses["complete"],
         "partial_variants": statuses["partial"],
         "failed_variants": statuses["failed"],
+        "variant_source_status_counts": variant_source_status_counts,
         "clos": clo_count,
+        "clo_source_status_counts": clo_source_status_counts,
         "scoped_clo_mappings": mappings,
         "plo_mappings_with_codes": mapped,
         "plo_code_assignments": plo_code_assignments,
