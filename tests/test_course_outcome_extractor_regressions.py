@@ -480,6 +480,38 @@ class CourseOutcomeExtractorRegressionTest(unittest.TestCase):
             )
         )
 
+    def test_allowlisted_file_keeps_legacy_continuation_without_a_strict_link(self):
+        header = ["طرق التقييم", "", "", "نواتج التعلم", "", "الرمز"]
+        first_page = synthetic_bundle(
+            [
+                header,
+                ["", "", "", "أن يشرح الطالب المفهوم", "", "1.1"],
+            ],
+            word_baseline=False,
+        )
+        next_page = synthetic_bundle(
+            [
+                header,
+                ["", "", "", "شرحا وافيا", "", ""],
+                ["", "", "", "المهارات", "", "2.0"],
+                ["", "", "", "أن يطبق الطالب المفهوم", "", "2.1"],
+            ],
+            word_baseline=False,
+        )
+
+        with patch.object(extractor, "_split_outcome_table_links", return_value={}):
+            records, _ = extractor.parse_outcome_tables(
+                [[first_page], [next_page]],
+                [],
+                None,
+                object(),
+                [None, None],
+                allow_split_table_stitch=True,
+            )
+
+        first = next(record for record in records if record["code"] == "1.1")
+        self.assertEqual("أن يشرح الطالب المفهوم شرحا وافيا", first["text"])
+
     def test_nested_duplicate_bbox_is_the_same_merged_code_cell(self):
         spanning = (505.381544, 227.363390, 537.931102, 301.339709)
         nested = (505.381544, 288.290004, 532.060010, 301.339709)
@@ -787,6 +819,43 @@ class CourseOutcomeExtractorRegressionTest(unittest.TestCase):
         self.assertEqual(
             [1, 2], [warning["source_page"] for warning in duplicate_warnings]
         )
+
+    def test_only_an_independent_physical_count_can_certify_completeness(self):
+        self.assertIsNone(extractor._verified_source_clo_row_count(None, 2))
+        self.assertIsNone(extractor._verified_source_clo_row_count(1, 2))
+        self.assertEqual(2, extractor._verified_source_clo_row_count(2, 2))
+        self.assertEqual(3, extractor._verified_source_clo_row_count(3, 2))
+
+    def test_visible_punctuation_or_vector_art_is_not_assumed_source_blank(self):
+        class Page:
+            chars = [{"x0": 10, "x1": 11, "top": 10, "bottom": 11, "text": "."}]
+            images = []
+            curves = []
+            lines = []
+            rects = []
+
+        region = (0, 0, 20, 20)
+        self.assertFalse(extractor._source_outcome_cell_is_blank(Page(), region, "."))
+
+        Page.chars = []
+        Page.curves = [{"x0": 10, "x1": 11, "top": 10, "bottom": 11}]
+        self.assertFalse(extractor._source_outcome_cell_is_blank(Page(), region, ""))
+
+        Page.curves = []
+        self.assertTrue(extractor._source_outcome_cell_is_blank(Page(), region, ""))
+
+    def test_split_table_construction_is_hash_allowlisted(self):
+        expected = {
+            "f019611c2345e5a0e477e2f26de6b23db4d4dd07377795c5f4863327ecdf4a9c",
+            "5d4f05de99aa6d7a7d0e5efd2373086b45678b66d66dc474916221d783f15da8",
+            "53d2fb5157a972ba279b4193c4f1248c5626df7eaf3f06a1dfbd3fae2b8ecd03",
+            "52c5b6568e00e83cd981ff8e443ed15422c881b2db27a7b53bdea3ebef4eeaae",
+            "fe9375cacd755098965a43e3eab8546a08adc3ddc8d87d978e54137c9e18ae4c",
+            "5c81d64d19889256d8a46fd35d4a302cb0e224de0e6dae87d9169125d9f5f060",
+            "b3ac65c88a6c4380e901c01b17e387eff61eb4f3bb192d5835e5043818d12355",
+            "51269b1a7e2246e118111a2411852e99ade9030349aa8e4ec5dbfdcc1d8270a0",
+        }
+        self.assertEqual(expected, set(extractor.SPLIT_OUTCOME_TABLE_SOURCE_SHA256))
 
 
 if __name__ == "__main__":

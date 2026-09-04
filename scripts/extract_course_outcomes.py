@@ -45,10 +45,30 @@ except ImportError as exc:  # pragma: no cover - dependency error is actionable
         "PyMuPDF is required for vector-overlay recovery; install the pymupdf package"
     ) from exc
 
+try:
+    from pdf_font_recovery import recover_embedded_font_text
+except ModuleNotFoundError:  # pragma: no cover - package-style test/import path
+    from scripts.pdf_font_recovery import recover_embedded_font_text
+
 
 SCHEMA_VERSION = "course-outcomes-v1"
 EXTRACTOR_NAME = "course-outcomes-extractor"
-EXTRACTOR_VERSION = "1.0.0"
+EXTRACTOR_VERSION = "1.1.0"
+SPLIT_OUTCOME_TABLE_SOURCE_SHA256 = frozenset(
+    {
+        "f019611c2345e5a0e477e2f26de6b23db4d4dd07377795c5f4863327ecdf4a9c",
+        "5d4f05de99aa6d7a7d0e5efd2373086b45678b66d66dc474916221d783f15da8",
+        "53d2fb5157a972ba279b4193c4f1248c5626df7eaf3f06a1dfbd3fae2b8ecd03",
+        "52c5b6568e00e83cd981ff8e443ed15422c881b2db27a7b53bdea3ebef4eeaae",
+        "fe9375cacd755098965a43e3eab8546a08adc3ddc8d87d978e54137c9e18ae4c",
+        "5c81d64d19889256d8a46fd35d4a302cb0e224de0e6dae87d9169125d9f5f060",
+        "b3ac65c88a6c4380e901c01b17e387eff61eb4f3bb192d5835e5043818d12355",
+        "51269b1a7e2246e118111a2411852e99ade9030349aa8e4ec5dbfdcc1d8270a0",
+    }
+)
+EMBEDDED_FONT_CMAP_SOURCE_SHA256 = frozenset(
+    {"51269b1a7e2246e118111a2411852e99ade9030349aa8e4ec5dbfdcc1d8270a0"}
+)
 ARABIC_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹", "01234567890123456789")
 ARABIC_EQUIVALENTS = str.maketrans({"ی": "ي", "ک": "ك", "ھ": "ه", "ہ": "ه"})
 CID_RE = re.compile(r"\(cid\s*:\s*\d+\)", re.IGNORECASE)
@@ -755,6 +775,11 @@ def load_auxiliary_sources(
             "published CLO/PLO correction cells",
             "correction",
         ),
+        (
+            "assets/course-specifications/shared-course-completions-20260904/manifest.json",
+            "published shared-course CLO completions and scoped PLO mappings",
+            "shared",
+        ),
     )
     lookup: dict[str, dict[str, Any]] = {}
     ledger: list[dict[str, str]] = []
@@ -828,17 +853,15 @@ def load_auxiliary_sources(
                         )
                     normalized_selector[str(key)] = clean_text(value)
                 selectors.append(normalized_selector)
-            if kind == "correction" and not selectors:
-                raise ValueError(
-                    f"correction manifest record has no selectors: {source}"
-                )
+            if kind in {"correction", "shared"} and not selectors:
+                raise ValueError(f"{kind} manifest record has no selectors: {source}")
             edits: dict[str, dict[str, Any]] = {}
             for edit in raw_edits:
                 if not isinstance(edit, Mapping):
                     raise ValueError(f"invalid edit for {source}: {edit!r}")
                 code = normalize_clo(
                     edit.get("clo")
-                    if kind == "unified"
+                    if kind in {"unified", "shared"}
                     else (edit.get("clo_to") or edit.get("clo_from"))
                 )
                 if not code or code.endswith(".0"):
@@ -860,7 +883,23 @@ def load_auxiliary_sources(
                         raise ValueError(
                             f"invalid replacement CLO text for {source} {code}"
                         )
-                if kind == "unified":
+                if "source_blank" in edit:
+                    if edit.get("source_blank") is not True or "text_to" in edit:
+                        raise ValueError(
+                            f"invalid source_blank assertion for {source} {code}"
+                        )
+                if "assessment_to" in edit:
+                    raw_assessment_to = edit.get("assessment_to")
+                    assessment_to = clean_text(raw_assessment_to)
+                    if (
+                        not isinstance(raw_assessment_to, str)
+                        or not assessment_to
+                        or _text_artifact_issue(assessment_to)
+                    ):
+                        raise ValueError(
+                            f"invalid replacement assessment text for {source} {code}"
+                        )
+                if kind in {"unified", "shared"}:
                     per_program = edit.get("per_program")
                     if not isinstance(per_program, Mapping) or not per_program:
                         raise ValueError(
@@ -1857,6 +1896,70 @@ def _physical_outcome_region(
     if x1 - x0 < 20 or vertical[3] - vertical[1] < 2:
         return None
     return x0, vertical[1], x1, vertical[3]
+
+
+def _substantive_source_text(value: Any) -> bool:
+    text = str(value or "")
+    return bool(
+        CID_RE.search(text)
+        or re.search(r"[\u0600-\u06ffA-Za-z0-9]", text)
+        or PRESENTATION_RE.search(text)
+    )
+
+
+def _source_outcome_cell_is_blank(
+    page: Any,
+    region: tuple[float, float, float, float] | None,
+    raw_text: Any,
+) -> bool:
+    """Prove a source CLO cell blank from its exact physical region.
+
+    A failed text read is not evidence of a blank source.  The classification
+    is made only when the region is known, contains no visible non-whitespace
+    glyph, and is not covered by raster or vector artwork whose text layer
+    could be absent.  A reviewed hash-matched manifest may separately attest
+    that a punctuation-only template mark is an intentionally blank cell.
+    """
+    if region is None or _substantive_source_text(raw_text):
+        return False
+    x0, top, x1, bottom = region
+    for character in getattr(page, "chars", []):
+        try:
+            center_x = (float(character["x0"]) + float(character["x1"])) / 2
+            center_y = (float(character["top"]) + float(character["bottom"])) / 2
+        except (KeyError, TypeError, ValueError):
+            continue
+        if (
+            x0 <= center_x <= x1
+            and top <= center_y <= bottom
+            and str(character.get("text") or "").strip()
+        ):
+            return False
+    for attribute in ("curves", "lines", "rects"):
+        for drawing in getattr(page, attribute, []):
+            try:
+                center_x = (float(drawing["x0"]) + float(drawing["x1"])) / 2
+                center_y = (float(drawing["top"]) + float(drawing["bottom"])) / 2
+            except (KeyError, TypeError, ValueError):
+                continue
+            if x0 < center_x < x1 and top < center_y < bottom:
+                return False
+    for image in getattr(page, "images", []):
+        try:
+            image_box = (
+                float(image["x0"]),
+                float(image["top"]),
+                float(image["x1"]),
+                float(image["bottom"]),
+            )
+        except (KeyError, TypeError, ValueError):
+            continue
+        overlap_width = max(0.0, min(x1, image_box[2]) - max(x0, image_box[0]))
+        overlap_height = max(0.0, min(bottom, image_box[3]) - max(top, image_box[1]))
+        region_area = max(1.0, (x1 - x0) * (bottom - top))
+        if overlap_width * overlap_height >= region_area * 0.05:
+            return False
+    return True
 
 
 def _run_tesseract(png: bytes, *, psm: int) -> str:
@@ -3881,6 +3984,235 @@ def _leading_outcome_continuation(
     return ""
 
 
+def _bundle_column_boundaries(bundle: Mapping[str, Any]) -> list[float]:
+    """Return stable x-boundaries for one physical table interpretation."""
+    raw = sorted(
+        value
+        for row in bundle.get("boxes", [])
+        for bbox in row
+        if bbox is not None
+        for value in (float(bbox[0]), float(bbox[2]))
+    )
+    clusters: list[list[float]] = []
+    for value in raw:
+        if clusters and value - clusters[-1][-1] <= 0.75:
+            clusters[-1].append(value)
+        else:
+            clusters.append([value])
+    return [statistics.median(cluster) for cluster in clusters]
+
+
+def _matching_grid_boundaries(left: Sequence[float], right: Sequence[float]) -> int:
+    used: set[int] = set()
+    matches = 0
+    for value in left:
+        candidate = next(
+            (
+                index
+                for index, other in enumerate(right)
+                if index not in used and abs(value - other) <= 2.0
+            ),
+            None,
+        )
+        if candidate is not None:
+            used.add(candidate)
+            matches += 1
+    return matches
+
+
+def _split_outcome_table_links(
+    pages: Sequence[Sequence[Mapping[str, Any]]],
+    pdf_pages: Sequence[Any],
+) -> dict[tuple[int, int], tuple[int, int]]:
+    """Link two page-local bundles only when their physical table grids agree.
+
+    Older Word exports repeat the table header after a page break, but their
+    ToUnicode map can make every header alias unreadable.  The row grid remains
+    exact, so use it as the continuation proof.  No CLO code is inferred here:
+    a readable code must still exist on one of the linked physical rows.
+    """
+    links: dict[tuple[int, int], tuple[int, int]] = {}
+    for page_index in range(len(pages) - 1):
+        if (
+            page_index >= len(pdf_pages)
+            or page_index + 1 >= len(pdf_pages)
+            or pdf_pages[page_index] is None
+            or pdf_pages[page_index + 1] is None
+        ):
+            continue
+        height = float(pdf_pages[page_index].height)
+        next_height = float(pdf_pages[page_index + 1].height)
+        candidates: list[tuple[tuple[int, int, float], int, int]] = []
+        for left_index, left in enumerate(pages[page_index]):
+            left_bbox = _bundle_bbox(left)
+            if left_bbox is None or left_bbox[3] < height * 0.90:
+                continue
+            left_groups = _table_code_groups(
+                left.get("rows", []),
+                boxes=left.get("boxes"),
+                allow_legacy=bool(left.get("word_baseline_fallback")),
+            )
+            left_nonzero = [
+                group
+                for group in left_groups
+                if not str(group.get("code") or "").endswith(".0")
+            ]
+            if len(left_nonzero) < 2:
+                continue
+            left_boundaries = _bundle_column_boundaries(left)
+            for right_index, right in enumerate(pages[page_index + 1]):
+                right_bbox = _bundle_bbox(right)
+                if right_bbox is None or right_bbox[1] > next_height * 0.18:
+                    continue
+                if (
+                    abs(left_bbox[0] - right_bbox[0]) > 2.0
+                    or abs(left_bbox[2] - right_bbox[2]) > 2.0
+                ):
+                    continue
+                right_groups = _table_code_groups(
+                    right.get("rows", []),
+                    boxes=right.get("boxes"),
+                    allow_legacy=bool(right.get("word_baseline_fallback")),
+                )
+                right_nonzero = [
+                    group
+                    for group in right_groups
+                    if not str(group.get("code") or "").endswith(".0")
+                ]
+                if len(right_nonzero) > 1:
+                    continue
+                right_boundaries = _bundle_column_boundaries(right)
+                shared = _matching_grid_boundaries(left_boundaries, right_boundaries)
+                denominator = max(1, min(len(left_boundaries), len(right_boundaries)))
+                ratio = shared / denominator
+                if shared < 6 or ratio < 0.60:
+                    continue
+                right_values = [
+                    clean_text(value)
+                    for row in right.get("rows", [])
+                    for value in row
+                    if clean_text(value)
+                ]
+                right_has_outcome_cue = any(
+                    _starts_like_outcome_boundary(value) for value in right_values
+                )
+                right_has_continuation_text = any(
+                    len(re.findall(r"[\u0600-\u06ffA-Za-z]", value)) >= 4
+                    and not normalize_clo(value)
+                    for value in right_values
+                )
+                if not right_has_outcome_cue and not right_has_continuation_text:
+                    continue
+                candidates.append(
+                    ((shared, int(ratio * 1000), -right_index), left_index, right_index)
+                )
+        if not candidates:
+            continue
+        candidates.sort(reverse=True)
+        best_score, left_index, right_index = candidates[0]
+        if len(candidates) > 1 and candidates[1][0] == best_score:
+            continue
+        links[(page_index, left_index)] = (page_index + 1, right_index)
+    return links
+
+
+def _inferred_outcome_band(
+    bundle: Mapping[str, Any],
+) -> tuple[float, float, float, float] | None:
+    candidates: list[tuple[float, float, float, float]] = []
+    for row_index, row in enumerate(bundle.get("rows", [])):
+        boxes = bundle.get("boxes", [])
+        box_row = boxes[row_index] if row_index < len(boxes) else []
+        for column, raw in enumerate(row):
+            value, _ = logical_cell(raw, geometric=bool(bundle.get("geometric")))
+            bbox = box_row[column] if column < len(box_row) else None
+            if bbox is not None and _starts_like_outcome_boundary(value):
+                candidates.append(tuple(map(float, bbox)))
+    if not candidates:
+        return None
+    grouped: dict[tuple[int, int], list[tuple[float, float, float, float]]] = (
+        defaultdict(list)
+    )
+    for bbox in candidates:
+        grouped[(round(bbox[0]), round(bbox[2]))].append(bbox)
+    best = max(
+        grouped.values(), key=lambda items: (len(items), items[0][2] - items[0][0])
+    )
+    x0 = statistics.median(item[0] for item in best)
+    x1 = statistics.median(item[2] for item in best)
+    return x0, 0.0, x1, 0.0
+
+
+def _linked_outcome_continuation(
+    bundle: Mapping[str, Any],
+    outcome_band: tuple[float, float, float, float] | None,
+    *,
+    require_outcome_start: bool,
+) -> str:
+    """Read only the outcome band at the head of a grid-matched next page."""
+    rows = bundle.get("rows", [])
+    boxes = bundle.get("boxes", [])
+    groups = _table_code_groups(
+        rows,
+        boxes=boxes,
+        allow_legacy=bool(bundle.get("word_baseline_fallback")),
+    )
+    limit = min((min(group["rows"]) for group in groups), default=len(rows))
+    active_band = outcome_band or _inferred_outcome_band(bundle)
+    header_bottom = 0.0
+    if boxes:
+        header_bottom = max(
+            (float(bbox[3]) for bbox in boxes[0] if bbox is not None),
+            default=0.0,
+        )
+    parts: list[str] = []
+    seen: set[str] = set()
+    started = not require_outcome_start
+    for row_index, row in enumerate(rows[:limit]):
+        box_row = boxes[row_index] if row_index < len(boxes) else []
+        for column, raw in enumerate(row):
+            value, _ = logical_cell(raw, geometric=bool(bundle.get("geometric")))
+            bbox = box_row[column] if column < len(box_row) else None
+            if not value or bbox is None:
+                continue
+            if float(bbox[1]) < header_bottom - 0.75:
+                continue
+            if (
+                active_band is not None
+                and _horizontal_overlap(bbox, active_band) < 0.55
+            ):
+                continue
+            if require_outcome_start and not started:
+                if not _starts_like_outcome_boundary(value):
+                    continue
+                started = True
+                if active_band is None:
+                    active_band = tuple(map(float, bbox))
+            identity = normalized(value)
+            if (
+                not started
+                or len(identity) < 4
+                or normalize_clo(
+                    value,
+                    allow_legacy=bool(bundle.get("word_baseline_fallback")),
+                )
+                or _looks_like_table_header(value)
+                or _is_section_heading(value)
+                or _is_course_topics_heading_fragment(value)
+                or (unique_plos(value) and len(identity) < 20)
+                or identity in seen
+            ):
+                continue
+            seen.add(identity)
+            parts.append(value)
+    continuation = clean_text(" ".join(parts)).strip(" ،؛:-")
+    if not continuation or _is_course_topics_heading_fragment(continuation):
+        return ""
+    if require_outcome_start:
+        return continuation if _starts_like_outcome(continuation) else ""
+    return "" if _starts_like_outcome(continuation) else continuation
+
+
 def _build_plo_mappings(
     scopes: Sequence[Mapping[str, str]],
     *,
@@ -3900,7 +4232,9 @@ def _build_plo_mappings(
 ) -> list[dict[str, Any]]:
     output: list[dict[str, Any]] = []
     kind = auxiliary.get("kind") if auxiliary else None
-    per_program = edit.get("per_program") if edit and kind == "unified" else None
+    per_program = (
+        edit.get("per_program") if edit and kind in {"unified", "shared"} else None
+    )
     correction = (
         unique_plos(edit.get("plo_to")) if edit and kind == "correction" else []
     )
@@ -3916,19 +4250,21 @@ def _build_plo_mappings(
         status = "missing"
         confidence = "low"
         evidence = "no unambiguous PLO value was recovered from the published cell"
-        correction_scope_covered = not (kind == "correction" and selectors) or any(
+        selector_scope_covered = not (
+            kind in {"correction", "shared"} and selectors
+        ) or any(
             all(
                 clean_text(scope.get(key)) == clean_text(expected)
                 for key, expected in selector.items()
             )
             for selector in selectors
         )
-        if kind == "correction" and not correction_scope_covered:
+        if kind in {"correction", "shared"} and not selector_scope_covered:
             status = "not_present_for_scope"
             confidence = "medium"
-            evidence = "the correction manifest selectors do not cover this scope"
+            evidence = f"the {kind} manifest selectors do not cover this scope"
         elif isinstance(per_program, Mapping):
-            if scope["plan_type"] != "جديدة":
+            if kind == "unified" and scope["plan_type"] != "جديدة":
                 status = "not_present_for_scope"
                 confidence = "medium"
                 evidence = "the unified published cell is explicitly limited to new-plan programs"
@@ -3938,21 +4274,21 @@ def _build_plo_mappings(
                     values = []
                     status = "explicitly_unmapped"
                     confidence = "medium"
-                    evidence = "hash-matched unified mapping manifest contains an explicit dash"
+                    evidence = f"hash-matched {kind} mapping manifest contains an explicit dash"
                 else:
                     parsed = unique_plos(raw)
                     values = parsed or None
                     status = "mapped" if parsed else "missing"
                     confidence = "medium" if parsed else "low"
                     evidence = (
-                        "hash-matched unified mapping manifest and published overlay"
+                        f"hash-matched {kind} mapping manifest and published overlay"
                         if parsed
                         else "the unified manifest value was empty or invalid"
                     )
             else:
                 status = "not_present_for_scope"
                 confidence = "medium"
-                evidence = "program is absent from the unified published mapping cell"
+                evidence = f"program is absent from the {kind} published mapping cell"
         elif correction:
             values = correction
             status = "mapped"
@@ -4111,6 +4447,141 @@ def _same_document_competency_match(
     return not competing or similarity - max(competing) >= 0.15
 
 
+def _geometric_source_clo_row_count(
+    pages: Sequence[Sequence[Mapping[str, Any]]],
+    split_table_links: Mapping[tuple[int, int], tuple[int, int]],
+) -> int | None:
+    """Count printed CLO-code cells before any outcome record is constructed.
+
+    This audit deliberately runs on the page-local table geometry, not on the
+    final ``clos`` list.  It therefore continues to see a code-only row that a
+    later text, assessment, or mapping rule might reject.  Overlapping
+    pdfplumber interpretations are collapsed only when they point to the same
+    physical code cell.  Distinct repeated tables remain counted; that can
+    conservatively make a variant ``partial``, but can never certify a missing
+    source row as complete.
+    """
+
+    linked_bundles = set(split_table_links) | set(split_table_links.values())
+    occurrences: list[
+        tuple[
+            int,
+            str | None,
+            tuple[float, float, float, float] | None,
+            int,
+            int,
+        ]
+    ] = []
+    for page_index, bundles in enumerate(pages):
+        page_number = page_index + 1
+        for bundle_index, bundle in enumerate(bundles):
+            rows = bundle.get("rows", [])
+            groups = _table_code_groups(
+                rows,
+                boxes=bundle.get("boxes"),
+                allow_legacy=bool(bundle.get("word_baseline_fallback")),
+            )
+            nonzero = [
+                group for group in groups if not str(group["code"]).endswith(".0")
+            ]
+            if not nonzero:
+                continue
+            flat = " ".join(cell for row in rows for cell in row if cell)
+            if not (
+                len(nonzero) >= 2
+                or contains_alias(flat, OUTCOME_HEADER_ALIASES)
+                or contains_alias(flat, PLO_HEADER_ALIASES)
+                or (page_index, bundle_index) in linked_bundles
+            ):
+                continue
+            for group in nonzero:
+                occurrences.append(
+                    (
+                        page_number,
+                        str(group.get("code") or "") or None,
+                        group.get("code_bbox"),
+                        bundle_index,
+                        min(group.get("rows") or [0]),
+                    )
+                )
+
+            outcome_column = _header_column(rows, OUTCOME_HEADER_ALIASES)
+            for block in _ellipsis_clo_blocks(
+                rows,
+                groups,
+                outcome_column,
+                word_baseline=bool(bundle.get("word_baseline_fallback")),
+            ):
+                marker_row = int(block["ellipsis_row"])
+                code_column = int(block["code_column"])
+                boxes = bundle.get("boxes", [])
+                marker_bbox = (
+                    boxes[marker_row][code_column]
+                    if marker_row < len(boxes) and code_column < len(boxes[marker_row])
+                    else None
+                )
+                occurrences.append(
+                    (
+                        page_number,
+                        None,
+                        marker_bbox,
+                        bundle_index,
+                        marker_row,
+                    )
+                )
+
+    unique: list[
+        tuple[
+            int,
+            str | None,
+            tuple[float, float, float, float] | None,
+            int,
+            int,
+        ]
+    ] = []
+    for occurrence in occurrences:
+        page_number, code, bbox, bundle_index, row_index = occurrence
+        duplicate = False
+        for existing in unique:
+            (
+                existing_page,
+                existing_code,
+                existing_bbox,
+                existing_bundle,
+                existing_row,
+            ) = existing
+            if page_number != existing_page or code != existing_code:
+                continue
+            if bbox is not None and _same_physical_cell(bbox, existing_bbox):
+                duplicate = True
+                break
+            if (
+                bbox is None
+                and existing_bbox is None
+                and bundle_index == existing_bundle
+                and row_index == existing_row
+            ):
+                duplicate = True
+                break
+        if not duplicate:
+            unique.append(occurrence)
+    return len(unique) or None
+
+
+def _verified_source_clo_row_count(
+    physical_count: int | None, captured_count: int
+) -> int | None:
+    """Return only an independently usable source-row count.
+
+    A count derived from final records is intentionally not accepted here.  A
+    physical count below the number already retained is itself inconsistent,
+    so it cannot certify completeness and is published as unverified instead.
+    """
+    if physical_count is None or physical_count < captured_count:
+        return None
+    return physical_count
+
+
 def parse_outcome_tables(
     pages: Sequence[Sequence[Mapping[str, Any]]],
     scopes: Sequence[Mapping[str, str]],
@@ -4119,6 +4590,9 @@ def parse_outcome_tables(
     pdf_pages: Sequence[Any],
     *,
     numeric_text_untrusted: bool = False,
+    capture_audit: dict[str, Any] | None = None,
+    allow_split_table_stitch: bool = False,
+    allow_embedded_font_recovery: bool = False,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     candidates: dict[str, list[dict[str, Any]]] = defaultdict(list)
     unlabeled_candidates: list[dict[str, Any]] = []
@@ -4126,6 +4600,18 @@ def parse_outcome_tables(
     aux_edits = auxiliary.get("edits", {}) if auxiliary else {}
     programs = [scope["program"] for scope in scopes]
     competency_summary = _corrupt_competency_summary_sentences(pages)
+    # Detect split tables for the independent source-row audit in every file.
+    # Only reviewed, hash-allowlisted sources may use the links to construct or
+    # extend output records; an unreviewed split therefore becomes ``partial``
+    # rather than silently certifying a truncated record list as complete.
+    audit_split_table_links = _split_outcome_table_links(pages, pdf_pages)
+    split_table_links = audit_split_table_links if allow_split_table_stitch else {}
+    geometric_source_clo_row_count = _geometric_source_clo_row_count(
+        pages, audit_split_table_links
+    )
+    continuation_targets = {
+        target: source for source, target in split_table_links.items()
+    }
     for page_index, bundles in enumerate(pages):
         page_number = page_index + 1
         page_row_aligned_plos = (
@@ -4170,10 +4656,15 @@ def parse_outcome_tables(
             ]
             if not nonzero:
                 continue
+            grid_matched_continuation = (
+                page_index,
+                bundle_index,
+            ) in continuation_targets
             if not (
                 len(nonzero) >= 2
                 or contains_alias(flat, OUTCOME_HEADER_ALIASES)
                 or contains_alias(flat, PLO_HEADER_ALIASES)
+                or grid_matched_continuation
             ):
                 continue
             assessment_column = _header_column(rows, ASSESSMENT_ALIASES)
@@ -4181,6 +4672,8 @@ def parse_outcome_tables(
             outcome_column = _header_column(rows, OUTCOME_HEADER_ALIASES)
             plo_band = _header_band(bundle, PLO_HEADER_ALIASES)
             outcome_band = _header_band(bundle, OUTCOME_HEADER_ALIASES)
+            if outcome_band is None:
+                outcome_band = _inferred_outcome_band(bundle)
             starts = _group_starts(groups, rows, outcome_column)
             inferred_plo = None
             if plo_column is None:
@@ -4440,8 +4933,10 @@ def parse_outcome_tables(
                         physical_diagnostics.get("extension_glyphs_suppressed", 0)
                     )
                 source_terminated = bool(re.search(r"[.؟!]\s*$", raw_outcome))
+                continuation_target = split_table_links.get((page_index, bundle_index))
                 if (
-                    group_index == len(groups) - 1
+                    continuation_target is None
+                    and group_index == len(groups) - 1
                     and page_index + 1 < len(pages)
                     and outcome
                     and not source_terminated
@@ -4449,6 +4944,18 @@ def parse_outcome_tables(
                     continuation = _leading_outcome_continuation(pages[page_index + 1])
                     if continuation:
                         outcome = clean_text(f"{outcome} {continuation}")
+                pending_continuation = ""
+                if (
+                    group_index == len(groups) - 1
+                    and continuation_target is not None
+                    and not source_terminated
+                ):
+                    target_page, target_bundle = continuation_target
+                    pending_continuation = _linked_outcome_continuation(
+                        pages[target_page][target_bundle],
+                        outcome_band,
+                        require_outcome_start=not bool(outcome),
+                    )
                 used_plain_fallback = any(
                     source.startswith("plain_") or source == "plain_table"
                     for _, _, source in selected
@@ -4489,61 +4996,130 @@ def parse_outcome_tables(
                 if issue:
                     if region is None:
                         region = _bbox_union(bbox for _, bbox, _ in selected)
-                    if bundle.get("image_curve_grid_fallback"):
-                        line_boxes = [
-                            bbox
-                            for row_index in range(start, end)
-                            for bbox in bundle.get("ocr_line_boxes", {}).get(
-                                f"{row_index}:{outcome_column}", []
-                            )
-                        ]
-                        ocr = _clean_outcome(
-                            ocr_strict_line_consensus(document, page_index, line_boxes),
+                    embedded_font_text = ""
+                    if (
+                        allow_embedded_font_recovery
+                        and not bundle.get("image_curve_grid_fallback")
+                        and region
+                    ):
+                        embedded_font_text = _clean_outcome(
+                            recover_embedded_font_text(
+                                document,
+                                page_index,
+                                region,
+                            ),
                             code,
                         )
+                    embedded_font_issue = _candidate_issue(embedded_font_text)
+                    if (
+                        not embedded_font_issue
+                        and len(normalized(embedded_font_text)) >= 8
+                    ):
+                        outcome = embedded_font_text
+                        outcome_source = "embedded_font_cmap"
+                        confidence = "high"
                     else:
-                        ocr = ocr_tight_outcome_line_consensus(
-                            pdf_pages[page_index],
-                            document,
-                            page_index,
-                            region,
-                            code,
-                        )
-                        if not ocr:
-                            whole_cell_ocr = ocr_tight_outcome_consensus(
+                        if bundle.get("image_curve_grid_fallback"):
+                            line_boxes = [
+                                bbox
+                                for row_index in range(start, end)
+                                for bbox in bundle.get("ocr_line_boxes", {}).get(
+                                    f"{row_index}:{outcome_column}", []
+                                )
+                            ]
+                            ocr = _clean_outcome(
+                                ocr_strict_line_consensus(
+                                    document, page_index, line_boxes
+                                ),
+                                code,
+                            )
+                        else:
+                            ocr = ocr_tight_outcome_line_consensus(
+                                pdf_pages[page_index],
                                 document,
                                 page_index,
                                 region,
                                 code,
                             )
-                            source_terminal = _source_terminal(raw_outcome)
-                            if (
-                                source_terminal
-                                and _source_terminal(whole_cell_ocr) == source_terminal
-                            ):
-                                ocr = whole_cell_ocr
-                    ocr_issue = (
-                        _ocr_candidate_issue(ocr)
-                        if bundle.get("image_curve_grid_fallback")
-                        else _tight_ocr_candidate_issue(ocr)
-                    )
-                    if not ocr_issue and len(normalized(ocr)) >= 8:
-                        outcome = ocr
-                        outcome_source = "targeted_ocr"
-                        confidence = "medium"
-                    else:
-                        outcome = ""
-                        confidence = "low"
-                        warnings.append(
-                            make_warning(
-                                "clo_text_unreadable",
-                                "CLO text was left null after vector and targeted OCR "
-                                f"checks (vector={issue}; ocr={ocr_issue or 'too_short'})",
-                                source_page=page_number,
-                                clo_code=code,
-                            )
+                            if not ocr:
+                                whole_cell_ocr = ocr_tight_outcome_consensus(
+                                    document,
+                                    page_index,
+                                    region,
+                                    code,
+                                )
+                                source_terminal = _source_terminal(raw_outcome)
+                                if (
+                                    whole_cell_ocr
+                                    and source_terminal
+                                    and _source_terminal(whole_cell_ocr)
+                                    == source_terminal
+                                ):
+                                    ocr = whole_cell_ocr
+                        ocr_issue = (
+                            _ocr_candidate_issue(ocr)
+                            if bundle.get("image_curve_grid_fallback")
+                            else _tight_ocr_candidate_issue(ocr)
                         )
+                        if not ocr_issue and len(normalized(ocr)) >= 8:
+                            outcome = ocr
+                            outcome_source = "targeted_ocr"
+                            confidence = "medium"
+                        else:
+                            outcome = ""
+                            confidence = "low"
+                            warnings.append(
+                                make_warning(
+                                    "clo_text_unreadable",
+                                    "CLO text was left null after embedded-font and targeted OCR "
+                                    f"checks (vector={issue}; font={embedded_font_issue or 'too_short'}; "
+                                    f"ocr={ocr_issue or 'too_short'})",
+                                    source_page=page_number,
+                                    clo_code=code,
+                                )
+                            )
                 outcome = _remove_orphan_combining_marks(outcome)
+                if pending_continuation:
+                    outcome = clean_text(
+                        f"{outcome} {pending_continuation}"
+                        if outcome
+                        else pending_continuation
+                    )
+                    if outcome_source == "embedded_font_cmap":
+                        outcome_source = (
+                            "embedded_font_cmap_with_geometric_continuation"
+                        )
+                        confidence = "medium"
+                    elif outcome_source != "hash_matched_manifest":
+                        outcome_source = "geometric_pdf"
+                        confidence = "medium"
+
+                if outcome:
+                    source_status = "present"
+                elif bool(edit and edit.get("source_blank")) or (
+                    _source_outcome_cell_is_blank(
+                        pdf_pages[page_index], region, raw_outcome
+                    )
+                ):
+                    source_status = "source_blank"
+                    warnings.append(
+                        make_warning(
+                            "clo_text_blank_in_source",
+                            "the published CLO row was captured, but its outcome-text cell is blank",
+                            source_page=page_number,
+                            clo_code=code,
+                        )
+                    )
+                else:
+                    source_status = "unreadable"
+                    warnings.append(
+                        make_warning(
+                            "clo_text_unreadable",
+                            "the published CLO row was captured, but its outcome text could not be read reliably",
+                            source_page=page_number,
+                            clo_code=code,
+                        )
+                    )
 
                 program_values: dict[str, set[tuple[str, ...] | None]] = defaultdict(
                     set
@@ -4657,6 +5233,11 @@ def parse_outcome_tables(
                     scalar_row_aligned=scalar_row_aligned,
                 )
                 assessment = _assessment_from_block(rows, start, end, assessment_column)
+                manifest_assessment = (
+                    clean_text(edit.get("assessment_to")) if edit else ""
+                )
+                if manifest_assessment:
+                    assessment = manifest_assessment
                 if bundle.get("image_curve_grid_fallback"):
                     assessment_line_boxes = [
                         bbox
@@ -4705,6 +5286,7 @@ def parse_outcome_tables(
                     {
                         "code": code,
                         "text": outcome or None,
+                        "source_status": source_status,
                         "assessment": assessment,
                         "plo_mappings": plo_mappings,
                         "document_plo_codes": scalar_plos,
@@ -4744,7 +5326,7 @@ def parse_outcome_tables(
                         "_synthetic_word_baseline": bool(
                             bundle.get("word_baseline_fallback")
                         ),
-                        "_source_substantive": bool(raw_outcome),
+                        "_source_substantive": _substantive_source_text(raw_outcome),
                     }
                 )
 
@@ -4998,6 +5580,29 @@ def parse_outcome_tables(
                     )
                 outcome = _remove_orphan_combining_marks(outcome)
 
+                if outcome:
+                    source_status = "present"
+                elif _source_outcome_cell_is_blank(
+                    pdf_pages[page_index], region, raw_unlabeled_outcome
+                ):
+                    source_status = "source_blank"
+                    warnings.append(
+                        make_warning(
+                            "clo_text_blank_in_source",
+                            "the published unlabelled CLO row was captured, but its outcome-text cell is blank",
+                            source_page=page_number,
+                        )
+                    )
+                else:
+                    source_status = "unreadable"
+                    warnings.append(
+                        make_warning(
+                            "clo_text_unreadable",
+                            "the published unlabelled CLO row was captured, but its outcome text could not be read reliably",
+                            source_page=page_number,
+                        )
+                    )
+
                 program_values: dict[str, set[tuple[str, ...] | None]] = defaultdict(
                     set
                 )
@@ -5144,6 +5749,7 @@ def parse_outcome_tables(
                 unlabeled = {
                     "code": None,
                     "text": outcome or None,
+                    "source_status": source_status,
                     "assessment": assessment,
                     "plo_mappings": plo_mappings,
                     "document_plo_codes": scalar_plos,
@@ -5159,7 +5765,9 @@ def parse_outcome_tables(
                             *(bbox for _, bbox, _ in selected_unlabeled),
                         ],
                     ),
-                    "_source_substantive": True,
+                    "_source_substantive": _substantive_source_text(
+                        raw_unlabeled_outcome
+                    ),
                 }
                 if source_code is not None:
                     unlabeled["source_code"] = source_code
@@ -5211,6 +5819,7 @@ def parse_outcome_tables(
             {
                 "code": code,
                 "text": text,
+                "source_status": "present",
                 "assessment": None,
                 "plo_mappings": mappings,
                 "document_plo_codes": [],
@@ -5451,21 +6060,9 @@ def parse_outcome_tables(
                 for option in distinct_options
             )
             continue
-        if (
-            chosen["text"] is None
-            and chosen["assessment"] is None
-            and not any(mapping["plo_codes"] for mapping in chosen["plo_mappings"])
-            and not chosen.get("_source_substantive")
-        ):
-            warnings.append(
-                make_warning(
-                    "placeholder_clo_row_omitted",
-                    "an empty template row with a CLO code but no text, PLO, or assessment was omitted",
-                    source_page=chosen["source_page"],
-                    clo_code=code,
-                )
-            )
-            continue
+        # A printed CLO code establishes a source row even when the document's
+        # own outcome cell is blank.  Keep the row and report that source state;
+        # never fill it from a different or inherited list.
         records.append(chosen)
     unique_unlabeled: dict[tuple[Any, ...], dict[str, Any]] = {}
     for item in unlabeled_candidates:
@@ -5496,6 +6093,17 @@ def parse_outcome_tables(
         item.pop("_code_unique_in_bundle", None)
         item.pop("_synthetic_word_baseline", None)
         item.pop("_source_substantive", None)
+    if capture_audit is not None:
+        # Only the page-local physical audit may certify completeness.  The
+        # number of records built below is deliberately not used as a fallback:
+        # equality with a count derived from those same records would be true by
+        # construction and could recreate a false ``complete`` label.  If the
+        # physical pass sees fewer rows than were retained, its count is not
+        # reliable enough to publish and the variant remains unverified.
+        capture_audit["source_clo_row_count"] = _verified_source_clo_row_count(
+            geometric_source_clo_row_count, len(records)
+        )
+        capture_audit["captured_clo_row_count"] = len(records)
     return records, _deduplicate_warnings(warnings)
 
 
@@ -5825,6 +6433,7 @@ def _reconcile_outcome_warnings(
 ) -> list[dict[str, Any]]:
     """Attach final CLO indexes and discard superseded candidate diagnostics."""
     targeted_codes = {
+        "clo_text_blank_in_source",
         "clo_text_unreadable",
         "plo_mapping_unresolved",
         "direct_assessment_unresolved",
@@ -5850,7 +6459,10 @@ def _reconcile_outcome_warnings(
             code = warning.get("code")
             mappings = clo.get("plo_mappings") or []
             condition = {
-                "clo_text_unreadable": clo.get("text") is None,
+                "clo_text_blank_in_source": clo.get("text") is None
+                and clo.get("source_status") == "source_blank",
+                "clo_text_unreadable": clo.get("text") is None
+                and clo.get("source_status") == "unreadable",
                 "plo_mapping_unresolved": any(
                     mapping.get("status")
                     in {"missing", "conflict", "ambiguous_for_scope"}
@@ -5999,6 +6611,7 @@ def extract_variant_worker(payload: Mapping[str, Any]) -> tuple[str, dict[str, A
                     )
                 )
 
+            capture_audit: dict[str, Any] = {}
             clos, clo_warnings = parse_outcome_tables(
                 pages,
                 scopes,
@@ -6007,6 +6620,13 @@ def extract_variant_worker(payload: Mapping[str, Any]) -> tuple[str, dict[str, A
                 pdf.pages,
                 numeric_text_untrusted=(
                     "/quranic-studies-master-1445-approved/" in source_pdf
+                ),
+                capture_audit=capture_audit,
+                allow_split_table_stitch=(
+                    expected_source_sha256 in SPLIT_OUTCOME_TABLE_SOURCE_SHA256
+                ),
+                allow_embedded_font_recovery=(
+                    expected_source_sha256 in EMBEDDED_FONT_CMAP_SOURCE_SHA256
                 ),
             )
             warnings.extend(clo_warnings)
@@ -6022,7 +6642,7 @@ def extract_variant_worker(payload: Mapping[str, Any]) -> tuple[str, dict[str, A
                 warnings.append(
                     make_warning(
                         "course_outcomes_missing",
-                        "no non-placeholder CLO code could be tied to a readable outcome row",
+                        "no published CLO row could be captured",
                     )
                 )
             for clo in clos:
@@ -6035,33 +6655,43 @@ def extract_variant_worker(payload: Mapping[str, Any]) -> tuple[str, dict[str, A
                             clo_code=clo["code"],
                         )
                     )
-            warnings = _reconcile_outcome_warnings(clos, warnings)
 
-            unresolved_text = any(item["text"] is None for item in clos)
-            unresolved_code = any(item["code"] is None for item in clos)
-            unresolved_assessment = any(item["assessment"] is None for item in clos)
-            unresolved_mapping = not scopes or any(
-                mapping["status"] in {"missing", "conflict", "ambiguous_for_scope"}
-                for clo in clos
-                for mapping in clo["plo_mappings"]
-            )
-            duplicate_source_code = any(
-                item["code"] == "duplicate_source_clo_code" for item in warnings
-            )
-            if not clos:
+            source_clo_row_count = capture_audit.get("source_clo_row_count")
+            captured_clo_row_count = len(clos)
+            if captured_clo_row_count == 0:
                 extraction_status = "failed"
             elif (
-                title
-                and not unresolved_code
-                and not unresolved_text
-                and not unresolved_assessment
-                and not unresolved_mapping
-                and not duplicate_source_code
-                and plan_complete
+                isinstance(source_clo_row_count, int)
+                and source_clo_row_count > 0
+                and source_clo_row_count == captured_clo_row_count
             ):
                 extraction_status = "complete"
             else:
                 extraction_status = "partial"
+                warnings.append(
+                    make_warning(
+                        (
+                            "clo_row_count_unverified"
+                            if source_clo_row_count is None
+                            else "clo_row_count_mismatch"
+                        ),
+                        (
+                            "the number of published CLO rows could not be verified independently"
+                            if source_clo_row_count is None
+                            else "the number of captured CLO rows does not equal the number of published rows"
+                        ),
+                    )
+                )
+
+            row_source_statuses = {item.get("source_status") for item in clos}
+            if not clos or "unreadable" in row_source_statuses:
+                source_status = "unreadable"
+            elif "source_blank" in row_source_statuses:
+                source_status = "source_blank"
+            else:
+                source_status = "present"
+
+            warnings = _reconcile_outcome_warnings(clos, warnings)
             extracted = {
                 "course_name": title or None,
                 "course_name_metadata": {
@@ -6077,6 +6707,9 @@ def extract_variant_worker(payload: Mapping[str, Any]) -> tuple[str, dict[str, A
                     else plan_total
                 ),
                 "assessment_plan_complete": plan_complete,
+                "source_status": source_status,
+                "source_clo_row_count": source_clo_row_count,
+                "captured_clo_row_count": captured_clo_row_count,
                 "warnings": warnings,
                 "extraction_status": extraction_status,
                 "page_count": len(pdf.pages),
@@ -6098,6 +6731,9 @@ def extract_variant_worker(payload: Mapping[str, Any]) -> tuple[str, dict[str, A
             "assessment_plan": [],
             "assessment_plan_total": None,
             "assessment_plan_complete": False,
+            "source_status": "unreadable",
+            "source_clo_row_count": None,
+            "captured_clo_row_count": 0,
             "warnings": [
                 make_warning(
                     "pdf_extraction_failed",
@@ -6344,6 +6980,16 @@ def _statistics(courses: Mapping[str, Any], excluded_count: int) -> dict[str, An
         for variant in course.get("variants") or []
     ]
     statuses = defaultdict(int)
+    variant_source_status_counts = {
+        "present": 0,
+        "source_blank": 0,
+        "unreadable": 0,
+    }
+    clo_source_status_counts = {
+        "present": 0,
+        "source_blank": 0,
+        "unreadable": 0,
+    }
     clo_count = 0
     mappings = 0
     mapped = 0
@@ -6361,9 +7007,11 @@ def _statistics(courses: Mapping[str, Any], excluded_count: int) -> dict[str, An
     for variant in variants:
         extracted = variant["extracted"]
         statuses[extracted["extraction_status"]] += 1
+        variant_source_status_counts[extracted["source_status"]] += 1
         clos = extracted["clos"]
         clo_count += len(clos)
         for clo in clos:
+            clo_source_status_counts[clo["source_status"]] += 1
             for mapping in clo["plo_mappings"]:
                 mappings += 1
                 plo_status_counts[mapping["status"]] += 1
@@ -6387,7 +7035,9 @@ def _statistics(courses: Mapping[str, Any], excluded_count: int) -> dict[str, An
         "complete_variants": statuses["complete"],
         "partial_variants": statuses["partial"],
         "failed_variants": statuses["failed"],
+        "variant_source_status_counts": variant_source_status_counts,
         "clos": clo_count,
+        "clo_source_status_counts": clo_source_status_counts,
         "scoped_clo_mappings": mappings,
         "plo_mappings_with_codes": mapped,
         "plo_code_assignments": plo_code_assignments,
@@ -6418,6 +7068,8 @@ def build_output(args: argparse.Namespace) -> dict[str, Any]:
     repo_root = args.repo_root.resolve()
     extractor_script = Path(__file__).resolve()
     extractor_script_sha256 = sha256_file(extractor_script)
+    font_recovery_script = extractor_script.with_name("pdf_font_recovery.py")
+    font_recovery_script_sha256 = sha256_file(font_recovery_script)
     data_path = (
         (repo_root / args.data).resolve() if not args.data.is_absolute() else args.data
     )
@@ -6541,6 +7193,10 @@ def build_output(args: argparse.Namespace) -> dict[str, Any]:
             "version": EXTRACTOR_VERSION,
             "script": extractor_script.relative_to(repo_root).as_posix(),
             "script_sha256": extractor_script_sha256,
+            "font_recovery_script": font_recovery_script.relative_to(
+                repo_root
+            ).as_posix(),
+            "font_recovery_script_sha256": font_recovery_script_sha256,
             "pdfplumber": getattr(pdfplumber, "__version__", "unknown"),
             "pymupdf": getattr(pymupdf, "VersionBind", "unknown"),
             "tesseract": _tesseract_version(),
@@ -6566,6 +7222,9 @@ def _assert_payload_sources_current(
     extractor_script = repo_root / extractor["script"]
     if sha256_file(extractor_script) != extractor["script_sha256"]:
         raise SourceChangedError("extractor script changed during extraction")
+    font_recovery_script = repo_root / extractor["font_recovery_script"]
+    if sha256_file(font_recovery_script) != extractor["font_recovery_script_sha256"]:
+        raise SourceChangedError("font-recovery script changed during extraction")
     source_data = payload["source_data"]
     if sha256_file(repo_root / source_data["path"]) != source_data["sha256"]:
         raise SourceChangedError("data.json changed after output verification")
