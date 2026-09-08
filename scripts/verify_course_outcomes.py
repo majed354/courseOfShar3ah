@@ -34,6 +34,19 @@ ROOT_FIELDS = {
     "courses",
     "excluded_sources",
     "statistics",
+    # طبقات الحوكمة المراجَعة بشريًّا. اختيارية: ملفٌ بلا مراجعةٍ بشرية صالحٌ،
+    # فلا تُفرض على استخراجٍ نقيّ.
+    "reference_policy",
+    "verified_repairs",
+    "shared_course_program_plo_mappings",
+    "source_correction_recommendations",
+}
+#: ما يُقبل غيابه من الجذر، فالمراجعة البشرية طبقةٌ زائدة لا شرطُ صحّة.
+OPTIONAL_ROOT_FIELDS = {
+    "reference_policy",
+    "verified_repairs",
+    "shared_course_program_plo_mappings",
+    "source_correction_recommendations",
 }
 EXTRACTOR_FIELDS = {
     "name",
@@ -72,8 +85,91 @@ VARIANT_FIELDS = {
     "source_sha256",
     "extracted",
     "overrides",
+    # وسمُ مطابقة النسخة لملف المصدر، وسجلُّ المراجعة البشرية إن جرت.
+    "source_alignment",
+    "source_review",
 }
+OPTIONAL_VARIANT_FIELDS = {"source_alignment", "source_review"}
+
+#: الشكل الأصلي: تصحيحٌ بشريٌّ منسوبٌ إلى مؤلِّفه.
 OVERRIDE_FIELDS = {"field", "value", "reason", "author", "date"}
+#: الشكل المراجَع: تصحيحٌ مسنَدٌ إلى دليلٍ مقروءٍ من المصدر لا إلى شخص. يُلزَم
+#: بذكر الدليل والسياسة وتاريخ المراجعة، فلا يمرّ تجاوزٌ بلا حجّة.
+REVIEW_OVERRIDE_FIELDS = {"field", "value", "evidence", "policy", "reviewed_at"}
+REVIEW_OVERRIDE_POLICIES = {
+    # المستخرِج أخطأ القراءة والملفُّ سليم: التصحيح يعيد المرجع إلى موافقة المصدر.
+    "verified_extraction_correction_matches_source",
+    # الملفُّ نفسه ناقص: التصحيح مراجَعٌ ويبقى بندُ إصلاح الأصل مفتوحًا.
+    "verified_reference_correction_pending_source_pdf_update",
+}
+SOURCE_ALIGNMENT_FIELDS = {"status", "label_ar"}
+SOURCE_ALIGNMENT_OPTIONAL = {
+    "correction_applied",
+    "source_sha256",
+    "source_update_recommended",
+}
+SOURCE_ALIGNMENT_STATUSES = {
+    "matches_source_pdf",
+    "corrected_from_source_pdf",
+    "source_pdf_gap_confirmed",
+    "extraction_requires_review",
+}
+SOURCE_REVIEW_FIELDS = {
+    "status",
+    "finding",
+    "evidence",
+    "reviewed_at",
+    "source_sha256",
+}
+SOURCE_REVIEW_STATUSES = {"needs_manual", "accepted_as_is"}
+#: ثلاثة ملامح للدليل، كُتبت في جولات مراجعة مختلفة. لا يُوحَّد نصُّها بأثر
+#: رجعي لئلا يضيع ما تفرّدت به (``clo_source_pages`` مثلًا)؛ وإنما يُفحص كلُّ
+#: ملمحٍ كاملًا، ويُلزم الجميع بنواةٍ واحدة وبمُعرِّف موضعٍ لا يقلّ عن واحد.
+SOURCE_REVIEW_EVIDENCE_CORE = {"sha256_verified"}
+SOURCE_REVIEW_EVIDENCE_PROFILES = (
+    ("file_pages", {"file", "pages", "review_method", "sha256_verified"}),
+    (
+        "file_pages_commit",
+        {
+            "file",
+            "page_count",
+            "pages",
+            "repository_commit",
+            "review_method",
+            "sha256_verified",
+        },
+    ),
+    (
+        "repository_render",
+        {
+            "assessment_source_pages",
+            "branch",
+            "clo_source_pages",
+            "commit",
+            "page_method",
+            "pages_reviewed",
+            "repository",
+            "sha256_verified",
+        },
+    ),
+)
+RECOMMENDATION_FIELDS = {
+    "id",
+    "course_code",
+    "variant_id",
+    "fields",
+    "issue_code",
+    "message",
+    "recommendation",
+    "source_pdf",
+    "source_sha256",
+    "status",
+    "created_at",
+}
+RECOMMENDATION_STATUSES = {"open", "closed"}
+DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+#: التزام Git بصمة SHA-1 من أربعين خانة، لا SHA-256.
+GIT_COMMIT_RE = re.compile(r"^[0-9a-f]{40}$")
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 FIELD_PATH_RE = re.compile(
     r"[A-Za-z_][A-Za-z0-9_]*(?:\[\d+\])*"
@@ -558,13 +654,363 @@ def validate_file_record(
     return raw_path if isinstance(raw_path, str) else None
 
 
+def _require_commit(value: Any, label: str, errors: ErrorCollector) -> None:
+    if not isinstance(value, str) or not GIT_COMMIT_RE.fullmatch(value):
+        errors.add(f"{label}: expected a 40-character lowercase git commit")
+
+
+def _require_sha256(value: Any, label: str, errors: ErrorCollector) -> None:
+    if not isinstance(value, str) or not SHA256_RE.fullmatch(value):
+        errors.add(f"{label}: expected a 64-character lowercase SHA-256")
+
+
+def _require_text(value: Any, label: str, errors: ErrorCollector) -> None:
+    if not isinstance(value, str) or not value.strip():
+        errors.add(f"{label}: expected a non-empty string")
+
+
+def _require_date(value: Any, label: str, errors: ErrorCollector) -> None:
+    """تاريخٌ صالح، سواءٌ كُتب يومًا أم طابعًا زمنيًّا كاملًا.
+
+    اختلافُ الصيغتين أثرُ جولتَي تسجيلٍ مختلفتين، وليس خللًا في الحجّة؛ فلا
+    يُعاد كتابة السجلّ لأجله.
+    """
+
+    if not isinstance(value, str) or not DATE_RE.match(value[:10]):
+        errors.add(f"{label}: expected a YYYY-MM-DD date or ISO-8601 timestamp")
+        return
+    try:
+        datetime.strptime(value[:10], "%Y-%m-%d")
+    except ValueError:
+        errors.add(f"{label}: expected a real calendar date")
+
+
+def validate_source_alignment(
+    value: Any, label: str, errors: ErrorCollector
+) -> None:
+    """وسمُ علاقة النسخة بملف مصدرها.
+
+    ``extraction_requires_review`` لا يحكم بأن الملف خاطئ؛ بل يقول إن شروط
+    إثبات المطابقة الكاملة لم تكتمل بعد. وهذا الفرق هو محلّ الوسم كلّه.
+    """
+
+    if value is None:
+        return
+    item = f"{label}.source_alignment"
+    if not isinstance(value, dict):
+        errors.add(f"{item}: expected an object")
+        return
+    missing = SOURCE_ALIGNMENT_FIELDS - set(value)
+    extra = set(value) - SOURCE_ALIGNMENT_FIELDS - SOURCE_ALIGNMENT_OPTIONAL
+    if missing:
+        errors.add(f"{item}: missing fields {sorted(missing)!r}")
+    if extra:
+        errors.add(f"{item}: unexpected fields {sorted(extra)!r}")
+
+    status = value.get("status")
+    if status not in SOURCE_ALIGNMENT_STATUSES:
+        errors.add(f"{item}.status: expected one of {sorted(SOURCE_ALIGNMENT_STATUSES)!r}")
+    _require_text(value.get("label_ar"), f"{item}.label_ar", errors)
+
+    for flag in ("correction_applied", "source_update_recommended"):
+        if flag in value and not isinstance(value[flag], bool):
+            errors.add(f"{item}.{flag}: expected a boolean")
+    if "source_sha256" in value:
+        _require_sha256(value["source_sha256"], f"{item}.source_sha256", errors)
+
+    # «مصحَّح» دعوى لا تُقبل بلا بصمة المصدر الذي انطبق عليه التصحيح.
+    if status == "corrected_from_source_pdf":
+        if not value.get("correction_applied"):
+            errors.add(f"{item}: a corrected variant must record correction_applied")
+        if "source_sha256" not in value:
+            errors.add(f"{item}: a corrected variant must record source_sha256")
+
+
+def validate_source_review(value: Any, label: str, errors: ErrorCollector) -> None:
+    """سجلُّ المراجعة البشرية لملف المصدر، إن جرت."""
+
+    if value is None:
+        return
+    item = f"{label}.source_review"
+    if not isinstance(value, dict):
+        errors.add(f"{item}: expected an object")
+        return
+    missing = SOURCE_REVIEW_FIELDS - set(value)
+    extra = set(value) - SOURCE_REVIEW_FIELDS
+    if missing:
+        errors.add(f"{item}: missing fields {sorted(missing)!r}")
+    if extra:
+        errors.add(f"{item}: unexpected fields {sorted(extra)!r}")
+
+    if value.get("status") not in SOURCE_REVIEW_STATUSES:
+        errors.add(f"{item}.status: expected one of {sorted(SOURCE_REVIEW_STATUSES)!r}")
+    _require_text(value.get("finding"), f"{item}.finding", errors)
+    _require_sha256(value.get("source_sha256"), f"{item}.source_sha256", errors)
+    reviewed_at = value.get("reviewed_at")
+    if not isinstance(reviewed_at, str) or not DATE_RE.match(reviewed_at[:10]):
+        errors.add(f"{item}.reviewed_at: expected an ISO-8601 timestamp")
+
+    evidence = value.get("evidence")
+    if not isinstance(evidence, dict):
+        errors.add(f"{item}.evidence: expected an object")
+        return
+
+    keys = set(evidence)
+    profile = next(
+        (name for name, fields in SOURCE_REVIEW_EVIDENCE_PROFILES if keys == fields),
+        None,
+    )
+    if profile is None:
+        errors.add(
+            f"{item}.evidence: field set {sorted(keys)!r} matches no known review "
+            f"profile {[name for name, _ in SOURCE_REVIEW_EVIDENCE_PROFILES]!r}"
+        )
+        return
+
+    if not isinstance(evidence.get("sha256_verified"), bool):
+        errors.add(f"{item}.evidence.sha256_verified: expected a boolean")
+
+    def check_pages(pages: Any, page_label: str, allow_empty: bool = False) -> None:
+        if not isinstance(pages, list) or (not pages and not allow_empty):
+            errors.add(f"{page_label}: expected a page list")
+            return
+        for position, page in enumerate(pages):
+            if not isinstance(page, int) or isinstance(page, bool) or page < 1:
+                errors.add(f"{page_label}[{position}]: expected a positive page number")
+
+    if profile in {"file_pages", "file_pages_commit"}:
+        _require_text(evidence.get("file"), f"{item}.evidence.file", errors)
+        _require_text(
+            evidence.get("review_method"), f"{item}.evidence.review_method", errors
+        )
+        check_pages(evidence.get("pages"), f"{item}.evidence.pages")
+        if profile == "file_pages_commit":
+            _require_commit(
+                evidence.get("repository_commit"),
+                f"{item}.evidence.repository_commit",
+                errors,
+            )
+            page_count = evidence.get("page_count")
+            if not isinstance(page_count, int) or isinstance(page_count, bool) or page_count < 1:
+                errors.add(f"{item}.evidence.page_count: expected a positive integer")
+    else:
+        # ملمحٌ يُعرِّف الموضع بالتزام المستودع وفرعه بدل مسار الملف.
+        _require_commit(evidence.get("commit"), f"{item}.evidence.commit", errors)
+        _require_text(evidence.get("branch"), f"{item}.evidence.branch", errors)
+        _require_text(evidence.get("repository"), f"{item}.evidence.repository", errors)
+        _require_text(evidence.get("page_method"), f"{item}.evidence.page_method", errors)
+        check_pages(evidence.get("pages_reviewed"), f"{item}.evidence.pages_reviewed")
+        check_pages(
+            evidence.get("clo_source_pages"),
+            f"{item}.evidence.clo_source_pages",
+            allow_empty=True,
+        )
+        check_pages(
+            evidence.get("assessment_source_pages"),
+            f"{item}.evidence.assessment_source_pages",
+            allow_empty=True,
+        )
+
+
+def validate_governance_layers(
+    outcomes: Dict[str, Any],
+    known_variant_ids: Set[str],
+    known_course_codes: Set[str],
+    errors: ErrorCollector,
+) -> None:
+    """طبقات الحوكمة الأربع: السياسة، والإصلاحات، والربط المشترك، والتوصيات.
+
+    كلُّها اختيارية. فإن وُجدت لزمها أن تشير إلى نسخٍ ومقرراتٍ قائمة، وأن تحمل
+    بصمة المصدر الذي تنطبق عليه؛ فتصحيحٌ بلا بصمةٍ لا يُعرف على أيّ ملفٍ يصحّ.
+    """
+
+    policy = outcomes.get("reference_policy")
+    if policy is not None:
+        if not isinstance(policy, dict):
+            errors.add("reference_policy: expected an object")
+        else:
+            _require_text(
+                policy.get("schema_version"), "reference_policy.schema_version", errors
+            )
+            _require_text(
+                policy.get("canonical_reference"),
+                "reference_policy.canonical_reference",
+                errors,
+            )
+            rules = policy.get("rules")
+            if not isinstance(rules, list) or not rules:
+                errors.add("reference_policy.rules: expected a non-empty list")
+            else:
+                for position, rule in enumerate(rules):
+                    _require_text(rule, f"reference_policy.rules[{position}]", errors)
+
+    repairs = outcomes.get("verified_repairs")
+    if repairs is not None:
+        if not isinstance(repairs, dict):
+            errors.add("verified_repairs: expected an object")
+        else:
+            _require_text(
+                repairs.get("schema_version"), "verified_repairs.schema_version", errors
+            )
+            _require_text(repairs.get("policy"), "verified_repairs.policy", errors)
+            _require_date(repairs.get("reviewed_at"), "verified_repairs.reviewed_at", errors)
+            entries = repairs.get("repairs")
+            if not isinstance(entries, list):
+                errors.add("verified_repairs.repairs: expected a list")
+            else:
+                for position, entry in enumerate(entries):
+                    item = f"verified_repairs.repairs[{position}]"
+                    if not isinstance(entry, dict):
+                        errors.add(f"{item}: expected an object")
+                        continue
+                    code = entry.get("course_code")
+                    if code not in known_course_codes:
+                        errors.add(f"{item}.course_code: unknown course {code!r}")
+                    variant_id = entry.get("variant_id")
+                    if variant_id not in known_variant_ids:
+                        errors.add(f"{item}.variant_id: unknown variant {variant_id!r}")
+                    _require_sha256(
+                        entry.get("source_sha256"), f"{item}.source_sha256", errors
+                    )
+                    if not isinstance(entry.get("rows"), dict) or not entry.get("rows"):
+                        errors.add(f"{item}.rows: expected a non-empty object")
+
+    shared = outcomes.get("shared_course_program_plo_mappings")
+    if shared is not None:
+        if not isinstance(shared, dict):
+            errors.add("shared_course_program_plo_mappings: expected an object")
+        else:
+            label = "shared_course_program_plo_mappings"
+            _require_text(shared.get("schema_version"), f"{label}.schema_version", errors)
+            mappings = shared.get("mappings")
+            if not isinstance(mappings, list):
+                errors.add(f"{label}.mappings: expected a list")
+            else:
+                seen_keys: Set[Tuple[str, ...]] = set()
+                for position, mapping in enumerate(mappings):
+                    item = f"{label}.mappings[{position}]"
+                    if not isinstance(mapping, dict):
+                        errors.add(f"{item}: expected an object")
+                        continue
+                    code = mapping.get("course_code")
+                    if code not in known_course_codes:
+                        errors.add(f"{item}.course_code: unknown course {code!r}")
+                    key = tuple(
+                        str(mapping.get(part) or "")
+                        for part in ("course_code", "program", "degree", "plan_type", "version")
+                    )
+                    if key in seen_keys:
+                        errors.add(f"{item}: duplicate scope key {key!r}")
+                    seen_keys.add(key)
+                    if mapping.get("coverage_mode") not in {"complete", "partial"}:
+                        errors.add(f"{item}.coverage_mode: expected 'complete' or 'partial'")
+                    evidence = mapping.get("evidence")
+                    if not isinstance(evidence, dict):
+                        errors.add(f"{item}.evidence: expected an object")
+                    else:
+                        _require_sha256(
+                            evidence.get("sha256"), f"{item}.evidence.sha256", errors
+                        )
+                        _require_text(
+                            evidence.get("document"), f"{item}.evidence.document", errors
+                        )
+                    rows = mapping.get("rows")
+                    if not isinstance(rows, dict) or not rows:
+                        errors.add(f"{item}.rows: expected a non-empty object")
+                    else:
+                        for row_code, row in rows.items():
+                            row_item = f"{item}.rows[{row_code!r}]"
+                            if not isinstance(row, dict):
+                                errors.add(f"{row_item}: expected an object")
+                                continue
+                            status = row.get("status")
+                            if status not in {"mapped", "explicitly_unmapped"}:
+                                errors.add(
+                                    f"{row_item}.status: expected 'mapped' or "
+                                    "'explicitly_unmapped'"
+                                )
+                            codes = row.get("plo_codes")
+                            if status == "mapped":
+                                if not isinstance(codes, list) or not codes:
+                                    errors.add(
+                                        f"{row_item}.plo_codes: a mapped row needs codes"
+                                    )
+                                else:
+                                    for cursor, plo in enumerate(codes):
+                                        if not isinstance(plo, str) or not PLO_CODE_RE.fullmatch(plo):
+                                            errors.add(
+                                                f"{row_item}.plo_codes[{cursor}]: "
+                                                "expected a normalized PLO code"
+                                            )
+                            elif codes:
+                                errors.add(
+                                    f"{row_item}.plo_codes: an explicitly unmapped row "
+                                    "must not carry codes"
+                                )
+
+    recommendations = outcomes.get("source_correction_recommendations")
+    if recommendations is not None:
+        if not isinstance(recommendations, list):
+            errors.add("source_correction_recommendations: expected a list")
+        else:
+            seen_ids: Set[str] = set()
+            for position, entry in enumerate(recommendations):
+                item = f"source_correction_recommendations[{position}]"
+                if not isinstance(entry, dict):
+                    errors.add(f"{item}: expected an object")
+                    continue
+                missing = RECOMMENDATION_FIELDS - set(entry)
+                extra = set(entry) - RECOMMENDATION_FIELDS
+                if missing:
+                    errors.add(f"{item}: missing fields {sorted(missing)!r}")
+                if extra:
+                    errors.add(f"{item}: unexpected fields {sorted(extra)!r}")
+                entry_id = entry.get("id")
+                _require_sha256(entry_id, f"{item}.id", errors)
+                if isinstance(entry_id, str):
+                    if entry_id in seen_ids:
+                        errors.add(f"{item}.id: duplicate recommendation id")
+                    seen_ids.add(entry_id)
+                if entry.get("course_code") not in known_course_codes:
+                    errors.add(
+                        f"{item}.course_code: unknown course "
+                        f"{entry.get('course_code')!r}"
+                    )
+                if entry.get("variant_id") not in known_variant_ids:
+                    errors.add(
+                        f"{item}.variant_id: unknown variant "
+                        f"{entry.get('variant_id')!r}"
+                    )
+                _require_sha256(entry.get("source_sha256"), f"{item}.source_sha256", errors)
+                _require_text(entry.get("source_pdf"), f"{item}.source_pdf", errors)
+                _require_text(entry.get("issue_code"), f"{item}.issue_code", errors)
+                _require_text(entry.get("message"), f"{item}.message", errors)
+                _require_text(entry.get("recommendation"), f"{item}.recommendation", errors)
+                _require_date(entry.get("created_at"), f"{item}.created_at", errors)
+                if entry.get("status") not in RECOMMENDATION_STATUSES:
+                    errors.add(
+                        f"{item}.status: expected one of {sorted(RECOMMENDATION_STATUSES)!r}"
+                    )
+                fields = entry.get("fields")
+                if not isinstance(fields, list) or not fields:
+                    errors.add(f"{item}.fields: expected a non-empty list")
+                else:
+                    for cursor, field_path in enumerate(fields):
+                        _require_text(field_path, f"{item}.fields[{cursor}]", errors)
+
+
 def validate_generated_metadata(
     outcomes: Dict[str, Any],
     root: Path,
     hash_cache: Dict[Path, str],
     errors: ErrorCollector,
 ) -> None:
-    validate_exact_fields(outcomes, ROOT_FIELDS, "root", errors)
+    validate_exact_fields(
+        outcomes,
+        ROOT_FIELDS - (OPTIONAL_ROOT_FIELDS - set(outcomes)),
+        "root",
+        errors,
+    )
     if outcomes.get("schema_version") != SCHEMA_VERSION:
         errors.add(
             f"schema_version: expected {SCHEMA_VERSION!r}, "
@@ -1764,6 +2210,108 @@ def resolve_field_path(root: Any, field: str) -> Any:
     return current
 
 
+PROVENANCE_LEAF_RE = re.compile(
+    r"clos\[\d+\]\.(?:source_status|extraction_method|confidence|document_plo_codes)"
+)
+CLO_MAPPINGS_CONTAINER_RE = re.compile(r"clos\[\d+\]\.plo_mappings")
+CLO_DELETE_RE = re.compile(r"clos\[\d+\]\.deleted")
+
+
+def validate_review_override_value(
+    field: str,
+    value: Any,
+    label: str,
+    errors: ErrorCollector,
+) -> bool:
+    """يتحقّق من الأوراق التي لا تُفتح إلا لمراجعةٍ بشريةٍ موثّقة.
+
+    يعيد ``True`` إن تولّى الحكم، و``False`` ليُحال إلى العقد الأصلي.
+
+    هذه الأوراق ممنوعةٌ في التصحيح الاعتيادي عمدًا؛ لأنّ ``extracted`` شهادة
+    المستخرِج عن نفسه. وإنما تُفتح هنا لأن المراجع فتح ملف المصدر ذا البصمة
+    المطابقة وقرأ الصفحة، فصار عنده ما ليس عند المستخرِج. ولذلك يلزم الدليل.
+    """
+
+    if PROVENANCE_LEAF_RE.fullmatch(field):
+        leaf = field.rsplit(".", 1)[1]
+        if leaf == "source_status":
+            if value not in SOURCE_STATUSES:
+                errors.add(
+                    f"{label}.value: expected one of {sorted(SOURCE_STATUSES)!r}"
+                )
+        elif leaf == "document_plo_codes":
+            if value is not None:
+                if not isinstance(value, list):
+                    errors.add(f"{label}.value: expected a PLO-code array or null")
+                else:
+                    for position, code in enumerate(value):
+                        if not isinstance(code, str) or not PLO_CODE_RE.fullmatch(code):
+                            errors.add(
+                                f"{label}.value[{position}]: expected a normalized PLO code"
+                            )
+        elif not isinstance(value, str) or not value.strip():
+            errors.add(f"{label}.value: expected a non-empty string")
+        return True
+
+    if CLO_MAPPINGS_CONTAINER_RE.fullmatch(field):
+        if not isinstance(value, list):
+            errors.add(f"{label}.value: expected a PLO-mapping array")
+            return True
+        for position, mapping in enumerate(value):
+            item = f"{label}.value[{position}]"
+            if not isinstance(mapping, dict):
+                errors.add(f"{item}: expected an object")
+                continue
+            unexpected = set(mapping) - PLO_MAPPING_FIELDS
+            if unexpected:
+                errors.add(f"{item}: unexpected fields {sorted(unexpected)!r}")
+        return True
+
+    if field == "assessment_plan":
+        if not isinstance(value, list):
+            errors.add(f"{label}.value: expected an assessment-plan array")
+            return True
+        for position, element in enumerate(value):
+            item = f"{label}.value[{position}]"
+            if not isinstance(element, dict):
+                errors.add(f"{item}: expected an object")
+                continue
+            unexpected = set(element) - ASSESSMENT_FIELDS
+            if unexpected:
+                errors.add(f"{item}: unexpected fields {sorted(unexpected)!r}")
+            weight = element.get("weight")
+            if weight is not None and (
+                not is_finite_number(weight) or not 0 < float(weight) <= 100
+            ):
+                errors.add(
+                    f"{item}.weight: must be null or a finite number in (0, 100]"
+                )
+        return True
+
+    # عمليتان بنيويتان لا ورقتان. تُسمَّيان باسمهما ولا تتنكّران في زيّ مسار.
+    if CLO_DELETE_RE.fullmatch(field):
+        if value is not True:
+            errors.add(f"{label}.value: a CLO deletion must record the literal true")
+        return True
+
+    if field == "clos.append":
+        if not isinstance(value, dict):
+            errors.add(f"{label}.value: an appended CLO must be an object")
+            return True
+        missing = {"code", "text"} - set(value)
+        unexpected = set(value) - CLO_FIELDS
+        if missing:
+            errors.add(f"{label}.value: appended CLO missing {sorted(missing)!r}")
+        if unexpected:
+            errors.add(f"{label}.value: unexpected fields {sorted(unexpected)!r}")
+        code = value.get("code")
+        if not isinstance(code, str) or not CLO_CODE_RE.fullmatch(code):
+            errors.add(f"{label}.value.code: expected a normalized CLO code")
+        return True
+
+    return False
+
+
 def validate_override_value(
     field: str,
     value: Any,
@@ -1844,8 +2392,10 @@ def validate_overrides(
         if not isinstance(override, dict):
             errors.add(f"{override_label}: expected an object")
             continue
-        missing = OVERRIDE_FIELDS - set(override)
-        extra = set(override) - OVERRIDE_FIELDS
+        reviewed = "policy" in override or "evidence" in override
+        expected_fields = REVIEW_OVERRIDE_FIELDS if reviewed else OVERRIDE_FIELDS
+        missing = expected_fields - set(override)
+        extra = set(override) - expected_fields
         if missing:
             errors.add(f"{override_label}: missing fields {sorted(missing)!r}")
         if extra:
@@ -1858,35 +2408,56 @@ def validate_overrides(
             if field in seen_fields:
                 errors.add(f"{override_label}.field: duplicate override path {field!r}")
             seen_fields.add(field)
-            try:
-                resolve_field_path(extracted, field)
-            except (ValueError, KeyError, IndexError):
-                errors.add(
-                    f"{override_label}.field: path does not resolve inside extracted: {field!r}"
-                )
-            validate_override_value(
-                field,
-                override.get("value"),
-                override_label,
-                errors,
+            handled = reviewed and validate_review_override_value(
+                field, override.get("value"), override_label, errors
             )
-
-        for required_text in ("reason", "author"):
-            item = override.get(required_text)
-            if not isinstance(item, str) or not item.strip():
-                errors.add(
-                    f"{override_label}.{required_text}: expected a non-empty string"
+            if not handled:
+                # العمليات البنيوية لا تُحلّ مسارًا داخل ``extracted`` بطبيعتها.
+                try:
+                    resolve_field_path(extracted, field)
+                except (ValueError, KeyError, IndexError):
+                    errors.add(
+                        f"{override_label}.field: path does not resolve inside extracted: {field!r}"
+                    )
+                validate_override_value(
+                    field,
+                    override.get("value"),
+                    override_label,
+                    errors,
                 )
-        raw_date = override.get("date")
-        if not isinstance(raw_date, str):
-            errors.add(f"{override_label}.date: expected YYYY-MM-DD")
+
+        if reviewed:
+            policy = override.get("policy")
+            if policy not in REVIEW_OVERRIDE_POLICIES:
+                errors.add(
+                    f"{override_label}.policy: expected one of "
+                    f"{sorted(REVIEW_OVERRIDE_POLICIES)!r}"
+                )
+            evidence = override.get("evidence")
+            if not isinstance(evidence, str) or not evidence.strip():
+                errors.add(f"{override_label}.evidence: expected a non-empty string")
+            date_fields = (("reviewed_at", override.get("reviewed_at")),)
         else:
+            for required_text in ("reason", "author"):
+                item = override.get(required_text)
+                if not isinstance(item, str) or not item.strip():
+                    errors.add(
+                        f"{override_label}.{required_text}: expected a non-empty string"
+                    )
+            date_fields = (("date", override.get("date")),)
+
+        for date_name, raw_date in date_fields:
+            if not isinstance(raw_date, str):
+                errors.add(f"{override_label}.{date_name}: expected YYYY-MM-DD")
+                continue
             try:
-                parsed_date = datetime.strptime(raw_date, "%Y-%m-%d").date()
-                if parsed_date.isoformat() != raw_date:
+                parsed_date = datetime.strptime(raw_date[:10], "%Y-%m-%d").date()
+                if parsed_date.isoformat() != raw_date[:10]:
                     raise ValueError
             except ValueError:
-                errors.add(f"{override_label}.date: expected a real YYYY-MM-DD date")
+                errors.add(
+                    f"{override_label}.{date_name}: expected a real YYYY-MM-DD date"
+                )
 
     if isinstance(extracted, dict) and isinstance(extracted.get("clos"), list):
         effective_codes = [
@@ -1943,7 +2514,14 @@ def validate_variant_record(
     if not isinstance(variant, dict):
         errors.add(f"{label}: expected an object")
         return None
-    validate_exact_fields(variant, VARIANT_FIELDS, label, errors)
+    validate_exact_fields(
+        variant,
+        VARIANT_FIELDS - (OPTIONAL_VARIANT_FIELDS - set(variant)),
+        label,
+        errors,
+    )
+    validate_source_alignment(variant.get("source_alignment"), label, errors)
+    validate_source_review(variant.get("source_review"), label, errors)
 
     variant_id_value = variant.get("variant_id")
     valid_id = isinstance(variant_id_value, str) and bool(
@@ -2367,6 +2945,18 @@ def recompute_statistics(
             return None
         variants.extend(course["variants"])
 
+    alignment_counts: Dict[str, int] = {}
+    review_counts: Dict[str, int] = {}
+    for variant in variants:
+        alignment = variant.get("source_alignment")
+        if isinstance(alignment, dict) and isinstance(alignment.get("status"), str):
+            alignment_counts[alignment["status"]] = (
+                alignment_counts.get(alignment["status"], 0) + 1
+            )
+        review = variant.get("source_review")
+        if isinstance(review, dict) and isinstance(review.get("status"), str):
+            review_counts[review["status"]] = review_counts.get(review["status"], 0) + 1
+
     statuses = {"complete": 0, "partial": 0, "failed": 0}
     variant_source_status_counts = {status: 0 for status in sorted(SOURCE_STATUSES)}
     clo_source_status_counts = {status: 0 for status in sorted(SOURCE_STATUSES)}
@@ -2444,7 +3034,14 @@ def recompute_statistics(
     )
     resolved_or_explicit_denominator = applicable + explicitly_unmapped
 
+    optional_counts: Dict[str, Any] = {}
+    if alignment_counts:
+        optional_counts["source_alignment_counts"] = dict(sorted(alignment_counts.items()))
+    if review_counts:
+        optional_counts["source_review_counts"] = dict(sorted(review_counts.items()))
+
     return {
+        **optional_counts,
         "course_codes": len(courses),
         "variants": len(variants),
         "active_pdf_sources": len(active_paths),
@@ -2576,6 +3173,19 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         root=root,
         hash_cache=hash_cache,
         errors=errors,
+    )
+    known_variant_ids = {
+        variant.get("variant_id")
+        for course in outcomes.get("courses", {}).values()
+        if isinstance(course, dict)
+        for variant in (course.get("variants") or [])
+        if isinstance(variant, dict)
+    }
+    validate_governance_layers(
+        outcomes,
+        known_variant_ids,
+        set(outcomes.get("courses", {})),
+        errors,
     )
     validate_statistics(outcomes, errors)
     expected_active = validate_inventory(
