@@ -6842,6 +6842,19 @@ def _resolve_override_field(root: Any, field: str) -> Any:
     for match in OVERRIDE_TOKEN_RE.finditer(field):
         key, raw_index = match.groups()
         if key is not None:
+            if key == "append" and match.end() == len(field) and isinstance(current, list):
+                # ``append`` is an override operation on a list rather than a
+                # member of the immutable extracted layer.
+                return None
+            if (
+                key == "deleted"
+                and match.end() == len(field)
+                and isinstance(current, Mapping)
+                and key not in current
+            ):
+                # ``deleted`` is an override-only tombstone.  It intentionally
+                # does not exist in the immutable extracted layer.
+                return False
             if not isinstance(current, Mapping) or key not in current:
                 raise ValueError(f"override field does not resolve: {field!r}")
             current = current[key]

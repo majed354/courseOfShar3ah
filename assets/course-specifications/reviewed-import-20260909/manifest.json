@@ -1,0 +1,1717 @@
+{
+  "schema": "course-specification-review-audit-v1",
+  "review_folder": "مقررات للمراجعة",
+  "reviewed_at": "2026-09-09",
+  "selection_rule": "استيراد التوصيف الرسمي المطابق لخطة حالية فقط عند غياب توصيف أحدث أو مكافئ، ومنع المطابقة الاسمية أو طمس رموز نواتج البرامج المشتركة.",
+  "counts": {
+    "reviewed": 155,
+    "already_present_same_normalized_content": 4,
+    "imported_and_linked": 10,
+    "not_linked_code_absent_from_current_plans": 2,
+    "not_selected_shared_mapping_ambiguous": 3,
+    "rejected_identity_conflict": 5,
+    "rejected_non_specification": 1,
+    "superseded_or_equivalent_active_specification_exists": 130
+  },
+  "records": [
+    {
+      "source_file": "2-2002110 مدخل إلى علوم القراءات.pdf",
+      "source_sha256": "d37a1391cda7b31d4f0929e254012eb3029ae2b016c507b4d15c88d778688c9e",
+      "pages": 7,
+      "extracted_code": "2002110-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002110-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002110-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002114 تلاوة وحفظ (1).pdf",
+      "source_sha256": "1b8386577c4384f43eae25febfa12aa98e636fae3c258a093ec728a50bb33519",
+      "pages": 7,
+      "extracted_code": "2002114-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002114-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002115 التجويد (1).pdf",
+      "source_sha256": "1f3798df1669e9af3c298c9ba2fc3ecea0fecf151d863d2fb71fbfe6dff6f133",
+      "pages": 7,
+      "extracted_code": "2002115-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002115-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002116 آداب حملة القرآن.pdf",
+      "source_sha256": "b9cbed681911fd3b65b2a7e3668725e16094c34ebeb51254e5fa67c19e913300",
+      "pages": 7,
+      "extracted_code": "2002116-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002116-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002117 تاريخ التفسير.pdf",
+      "source_sha256": "b55fd52d52f10b5cd67d4400e6b38fde6f6404ea1f6a9095273359e8e3d05e94",
+      "pages": 7,
+      "extracted_code": "2002117-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002117-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-20021204 علوم تدوين القرآن.pdf",
+      "source_sha256": "5b6b48961f8a6828e6c815fab78190e414dcb28e339443223dac1599bef79dbf",
+      "pages": 8,
+      "extracted_code": "20021204-2",
+      "decision": "already_present_same_normalized_content",
+      "existing_sources": [
+        "assets/course-specifications/quranic-course-updates-1446/20021204-2.pdf"
+      ],
+      "reason": "المحتوى النصي المطبع مطابق لمصدر محفوظ في المستودع."
+    },
+    {
+      "source_file": "2-2002124 تلاوة وحفظ (2).pdf",
+      "source_sha256": "81aad3e414693386f6f35b4b20f7cde0d8582c16e2ab3b18f93edab80c57148a",
+      "pages": 7,
+      "extracted_code": "2002124-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002124-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002125 التجويد (2).pdf",
+      "source_sha256": "7db227b1cf85525b751ea1f6f4e5952d2d358b51b9ad8e86bbfacb2662c48fa2",
+      "pages": 7,
+      "extracted_code": "2002125-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002125-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002131 علوم القرآن (1).pdf",
+      "source_sha256": "cd7f56ca25b045a7e9076da4871bda331884b979a3036bfb8d2f245708204e22",
+      "pages": 9,
+      "extracted_code": "2002131-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/islamic-studies-bundle-1444/2002131-2.pdf",
+        "assets/course-specifications/qiraat-source-1445/2002131-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002131-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002131 علوم القرآن العامة (1).pdf",
+      "source_sha256": "1276b3acd5ae8d6a8c2ad55de5859526d8b67841884a8ffcfaa0d63c6e3cb660",
+      "pages": 8,
+      "extracted_code": "2002131-2",
+      "decision": "not_selected_shared_mapping_ambiguous",
+      "reason": "توصيف متعدد البرامج يثبت رمز ناتج برنامج واحدًا لكل مخرج، ولا يفصل رموز البرامج؛ أبقيت النسخ النشطة الخاصة بكل برنامج."
+    },
+    {
+      "source_file": "2-2002131 علوم القرآن العامة.pdf",
+      "source_sha256": "1276b3acd5ae8d6a8c2ad55de5859526d8b67841884a8ffcfaa0d63c6e3cb660",
+      "pages": 8,
+      "extracted_code": "2002131-2",
+      "decision": "not_selected_shared_mapping_ambiguous",
+      "reason": "توصيف متعدد البرامج يثبت رمز ناتج برنامج واحدًا لكل مخرج، ولا يفصل رموز البرامج؛ أبقيت النسخ النشطة الخاصة بكل برنامج."
+    },
+    {
+      "source_file": "2-2002204 التفسير (1).pdf",
+      "source_sha256": "9922a01e685073b13c0f8a1bbe740dbffedf939760bf6382afc2c776ccede859",
+      "pages": 7,
+      "extracted_code": "2002204-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002204-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002204-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002208 التفسير (2).pdf",
+      "source_sha256": "de50c0c03315cd7f243b22651b85a50ab0c494ff521466fb3d4f4a8e7defaf2d",
+      "pages": 7,
+      "extracted_code": "2002208-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002208-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002208-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002212 قواعد التفسير.pdf",
+      "source_sha256": "4e4cf15d0fefba7301da45bdaa0cc625bf9265eeb8be8e3bd9561c91d9fe9539",
+      "pages": 7,
+      "extracted_code": "2002212-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002212-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002215 تلاوة وحفظ (3).pdf",
+      "source_sha256": "7ceb17777c1a5259644789995c03dd75accb0cc4194e3429a267cca1a30ca9a5",
+      "pages": 7,
+      "extracted_code": "2002215-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002215-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-20022201 لغة القرآن وأساليبه.pdf",
+      "source_sha256": "0b8f01586295efd523be4d9c136d8de68dd5bb6070213daa8a804264b1ceedab",
+      "pages": 8,
+      "extracted_code": "20022201-2",
+      "decision": "already_present_same_normalized_content",
+      "existing_sources": [
+        "assets/course-specifications/quranic-course-updates-1446/20022201-2.pdf"
+      ],
+      "reason": "المحتوى النصي المطبع مطابق لمصدر محفوظ في المستودع."
+    },
+    {
+      "source_file": "2-2002222 مناهج المفسرين.pdf",
+      "source_sha256": "24a6db6fdc1ab388eadcfadf0237d823ad5b339d273753e3e2250b67859de4f0",
+      "pages": 8,
+      "extracted_code": "2002222-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002222-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002223 علوم القرآن (4).pdf",
+      "source_sha256": "0c8296828e8c0d708fc3ff10d3ef8a9933d458be5556993c7143d9848024b7c0",
+      "pages": 7,
+      "extracted_code": "2002223-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002223-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002224 تلاوة وحفظ (4).pdf",
+      "source_sha256": "543cd1e5d915fa800583c1c27c6f3b9a3eb4dbcbce2a91eec0130b842d6996b4",
+      "pages": 7,
+      "extracted_code": "2002224-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002224-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002232 علوم القرآن (2).pdf",
+      "source_sha256": "9bf186042740d20767e27dd45540fded2a54bf5bc52387fa7c26896967a390c9",
+      "pages": 8,
+      "extracted_code": "2002232-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002232-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002232-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002240 تفسير آيات الأحكام.pdf",
+      "source_sha256": "02549196c0a4c3bc039677b242b9976e9feb6b371015644b409d019688cff196",
+      "pages": 8,
+      "extracted_code": "2002240-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002240-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002250 أصول التفسير ومناهجه (1).pdf",
+      "source_sha256": "82c4c6687728bfd2acecadcddb10dba5b6e12dfe50a27c6c5be48085665dab5a",
+      "pages": 9,
+      "extracted_code": "2002250-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/islamic-studies-bundle-1444/2002250-2.pdf",
+        "assets/course-specifications/qiraat-source-1445/2002250-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002250-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002250 أصول التفسير ومناهجه.pdf",
+      "source_sha256": "418f9e7446b1fab56db0aa227a15db0a135dabd9866bf0a6f0894c1d4f6d6c69",
+      "pages": 8,
+      "extracted_code": "2002250-2",
+      "decision": "not_selected_shared_mapping_ambiguous",
+      "reason": "توصيف متعدد البرامج لا يفصل رموز نواتج البرامج في جدول المخرجات؛ أبقيت النسخ النشطة ذات النطاقات البرنامجية المستقلة."
+    },
+    {
+      "source_file": "2-2002251 أصول التفسير .pdf",
+      "source_sha256": "06e15cd6ca56c646bee2498e0fc0fbf98f20f11a3fcd873281bad6bd9ad4b4da",
+      "pages": 7,
+      "extracted_code": "20022250-2",
+      "decision": "already_present_same_normalized_content",
+      "existing_sources": [
+        "assets/course-specifications/quranic-course-updates-1446/20022250-2.pdf"
+      ],
+      "reason": "المحتوى النصي المطبع مطابق لمصدر محفوظ في المستودع."
+    },
+    {
+      "source_file": "2-2002306 التفسير (3).pdf",
+      "source_sha256": "4890d2da361b2831add70f84a96b3893de467f1438732f069be07d48c8632fa8",
+      "pages": 6,
+      "extracted_code": "2002306-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002306-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002306-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002313 علوم القرآن (5).pdf",
+      "source_sha256": "ae5ed18381983b5112f65e6f922136aab70be3f48e566931d94d40939839edf3",
+      "pages": 7,
+      "extracted_code": "2002313-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/specialty-recovery-20260826/2002313-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002314 تلاوة وحفظ (5).pdf",
+      "source_sha256": "c46cf63cb6f11fd535deea8270ea250f48d087a5d092408dfd1e32ee653af8b1",
+      "pages": 7,
+      "extracted_code": "2002314-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002314-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002317 التفسير (4).pdf",
+      "source_sha256": "6bf56b5f197eb326a5bf44c0bb17075ca943a42cf9aa1b28e417d96a86e6286d",
+      "pages": 7,
+      "extracted_code": "2002317-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002317-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002318 توجيه القراءات.pdf",
+      "source_sha256": "2d5c3beff2608e10fff70a206a3382c5758018d266af89df2a9b698e417abe54",
+      "pages": 7,
+      "extracted_code": "2002318-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002318-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002325 تلاوة وحفظ (6).pdf",
+      "source_sha256": "9ea4be38a18a775a5de8953375447c2f7a0db88c5286d8f354cc0f4d6ef9ea34",
+      "pages": 7,
+      "extracted_code": "2002325-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002325-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002326 علوم القرآن (6).pdf",
+      "source_sha256": "9297c61502f66893ac5a2e64ba51f822c86b43316a283097641e38112c1ca549",
+      "pages": 7,
+      "extracted_code": "2002326-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002326-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002327 التفسير (5).pdf",
+      "source_sha256": "21986d63ce0b5020aa2d990c19d88f4b33ab43a26398614f983c04d7272b01f8",
+      "pages": 7,
+      "extracted_code": "2002327-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002327-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002333 علوم القرآن (3).pdf",
+      "source_sha256": "abb32990e20eb3cb51d45f56382febc5d91b44fb5f1fb4b38c01893e2cb3ffb9",
+      "pages": 7,
+      "extracted_code": "2002333-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002333-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-20024102 تفسير جزء عم.pdf",
+      "source_sha256": "d2bcb4b9f280858719a0b3b0dc38dad46f2c83375b26a2b44f840cbaa1270ab0",
+      "pages": 7,
+      "extracted_code": "20024102-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/identity-resolutions-20260829/20024102-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002412 قاعة بحث قراءات.pdf",
+      "source_sha256": "1dee5975a90a2843d3979cf3894800f64b23805b2e2371a82cbeea769190e449",
+      "pages": 7,
+      "extracted_code": "2002412-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/clo-plo-corrections-20260901/2002412-2--qiraat-old-v38.pdf",
+        "assets/course-specifications/quran-old-v39/2002412-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002413 التفسير (6).pdf",
+      "source_sha256": "ef5aaa0f81319718e3c869ad1d1c9774611d054385f9775b771b8ac4dbc5b0b8",
+      "pages": 7,
+      "extracted_code": "2002413-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002413-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002414 تلاوة وحفظ (7).pdf",
+      "source_sha256": "d5a384b2f609cb06d0b5fc2b079c4bca235128242c7a1b555da4e356a2f0fd86",
+      "pages": 7,
+      "extracted_code": "2002414-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002414-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002415 القراءات القرآنية.pdf",
+      "source_sha256": "6695ee21b8cc18cba0669d1a4f6922d3c1238dc9b1963e213e901caf31473680",
+      "pages": 7,
+      "extracted_code": "2002415-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002415-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002419 مناهج البحث.pdf",
+      "source_sha256": "e1d2210505187e1f0d65e2e8419cc53b511409b23d8ccecb403f8aa71d1d7062",
+      "pages": 8,
+      "extracted_code": "2002419-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002419-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002420 تلاوة وحفظ (8).pdf",
+      "source_sha256": "d2d7e1ce31fbb0464e5dd560e9e82bfbb590b9a55c698b57b5b03ee391074c59",
+      "pages": 7,
+      "extracted_code": "2002420-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002420-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002427 التفسير (8).pdf",
+      "source_sha256": "e63be12bc4920f2db5af9d4d174bf564c11afae4a30d2b3121bc0b98c85f3d7d",
+      "pages": 7,
+      "extracted_code": "2002427-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002427-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002429 الانتصار للقرآن.pdf",
+      "source_sha256": "df07a82dde28c8625df8ffe19c62eb90ba63c3c010080cdade69e51eab0d1953",
+      "pages": 7,
+      "extracted_code": "2002429-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002429-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002454 التفسير الموضوعي (1).pdf",
+      "source_sha256": "1a1077190c9d4d570c26adca39be50fdacff8d08904de6e9cbdccaa0afe984f9",
+      "pages": 7,
+      "extracted_code": "2002454-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/identity-resolutions-20260829/2002454-2--qiraat.pdf",
+        "assets/course-specifications/identity-resolutions-20260829/2002454-2--quran.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002454 التفسير الموضوعي.pdf",
+      "source_sha256": "8f9be30d3087be983f1cbb5c9b94cac47897b8e02c1d28be0a94940de40ca44d",
+      "pages": 8,
+      "extracted_code": "2002454-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/identity-resolutions-20260829/2002454-2--qiraat.pdf",
+        "assets/course-specifications/identity-resolutions-20260829/2002454-2--quran.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002456 إعجاز القرآن الكريم.pdf",
+      "source_sha256": "5e6717ad758a03521fed2533e3d965647b8b3fce594c1aad5da9a79cff2177b2",
+      "pages": 7,
+      "extracted_code": "2002456-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002456-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002456-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002852 تاريخ التفسير.pdf",
+      "source_sha256": "489a2e1d785d2ffd6c9d348dee104b135422b87b7f2921b3c3f63866245e9c85",
+      "pages": 7,
+      "extracted_code": "2002852-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002853 دراسات في علوم القرآن.pdf",
+      "source_sha256": "fecb5e1f742fe15911c817bdd0884a7e333de664230fcc3a279f1250e868c391",
+      "pages": 8,
+      "extracted_code": "2002853-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002854 علم القراءات دراية.pdf",
+      "source_sha256": "9ed2fb922f7a15bf9ffdc9be7b1b8d33d6b0c35fefd3d90d87b3c8fa895efb95",
+      "pages": 7,
+      "extracted_code": "2002854-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002855 مصادر الدراسات القرآنية.pdf",
+      "source_sha256": "35a8b656ccc40cf78007ed7421c05e4bc6185b25c87ccd28c72a88800446ae4f",
+      "pages": 7,
+      "extracted_code": "2002855-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002863 منهج البحث والتحقيق.pdf",
+      "source_sha256": "4109ff96a83968d39ac3135682b33836203a8d56230acf57046bffc860473180",
+      "pages": 8,
+      "extracted_code": "2002863-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf",
+        "assets/course-specifications/quranic-studies-master-1447/2002863-2--manhaj-al-bahth.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002864 دراسات في مناهج المفسرين.pdf",
+      "source_sha256": "9f838b1b2583a138cf8852ed7429d345318b34171c1f6afbca38347de2bd2ef7",
+      "pages": 7,
+      "extracted_code": "2002864-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002871 التفسير الموضوعي.pdf",
+      "source_sha256": "a8ca48edc7f25e2b792c0c5747b37868db2dfc853b3f0ea809094ac8d36ca81d",
+      "pages": 7,
+      "extracted_code": "2002871-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1447/2002871-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002873 دراسات في إعجاز القرآن.pdf",
+      "source_sha256": "0008a8da58142028df58d160f9cae066914e51223a53beaec7883460f5019e80",
+      "pages": 7,
+      "extracted_code": "2002873-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2002874 دراسات في لغة القرآن.pdf",
+      "source_sha256": "09d9c7d1a1a3ddcf21282b639566a47c5d571f37b688dfa930aae293b925cd26",
+      "pages": 7,
+      "extracted_code": "2002874-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1447/2002874-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2-2007314 علوم دلالات القرآن.pdf",
+      "source_sha256": "2be3f4ae8dfe308677c60a9155da7d1e9246748e1dd064cb0309ed13b8e0cbd9",
+      "pages": 8,
+      "extracted_code": "2007314-2",
+      "decision": "already_present_same_normalized_content",
+      "existing_sources": [
+        "assets/course-specifications/quranic-course-updates-1446/2007314-2.pdf"
+      ],
+      "reason": "المحتوى النصي المطبع مطابق لمصدر محفوظ في المستودع."
+    },
+    {
+      "source_file": "2_2002862_الدراسات_القرآنية_عند_المستشرقين.pdf",
+      "source_sha256": "c2f59b0ac2d29c0d642b42482b8aaa579b1cd173324600116a0ebd391458c756",
+      "pages": 7,
+      "extracted_code": "2002862-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "2_2002872_النظريات_الحداثية_في_القرآن.pdf",
+      "source_sha256": "1b94cfa6d4f0fbd7916316b873b7850c0782a167e7b26d3c13222a2b78d53aa7",
+      "pages": 7,
+      "extracted_code": "2002872-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "3-2002705 التفسير المقارن.pdf",
+      "source_sha256": "ee5596fa9f01e6a369677ba64a42f35bcce06c79514fdb3c472dbd95e7c43932",
+      "pages": 8,
+      "extracted_code": "2002705-3",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002705-3.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "3-2002708 دراسات في حواشي التفسير.pdf",
+      "source_sha256": "6053d3a76573d155b2e35dd147dbee28187f01041a89864808f0f8ef97887780",
+      "pages": 8,
+      "extracted_code": "2002708-3",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002708-3.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "3_2002706_النقد_والتجديد_في_الدراسات_القرآنية.pdf",
+      "source_sha256": "21124494a1183b838f306c88b9294e9395bfb8e974d388e3dfb98de757ea57bc",
+      "pages": 8,
+      "extracted_code": "2002706-3",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002706-3.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "3_2002707_دراسات_في_نسخ_التفسير_وأسانيده.pdf",
+      "source_sha256": "b284ba489eebaddc58a707268f237b46ef3ef97bdb0af1ebef0d8cc29509fb19",
+      "pages": 8,
+      "extracted_code": "2002707-3",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002707-3.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "4-2002851 أصول التفسير.pdf",
+      "source_sha256": "cdc76d4f285b30d23868d80a9cfb7c65ce7321add94891bffdc2866d7696dd27",
+      "pages": 7,
+      "extracted_code": "2002851-4",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1447/2002851-4.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "4-2002861 التفسير التحليلي.pdf",
+      "source_sha256": "6df4595497ce1877d41dea6be764668ae34b42815f6caf1cd5a2e71250484506",
+      "pages": 7,
+      "extracted_code": "2002861-4",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "__التفسير التحليلي 2.pdf",
+      "source_sha256": "d047dd8a280e1ea61f340c7820b22704011db9115cb1a05e265f44413b1967de",
+      "pages": 7,
+      "extracted_code": "20542202-2",
+      "decision": "not_linked_code_absent_from_current_plans",
+      "reason": "يحمل الغلاف رمزًا جديدًا غير موجود في بيانات الخطط الحالية؛ لم يُسقط على رمز الخطة القديمة بالتشابه الاسمي."
+    },
+    {
+      "source_file": "الانتصار للقرآن.pdf",
+      "source_sha256": "d7279e2b945fa0c18df4292bc15c29bb09f874ed5192fc2dfecdfddae1e58574",
+      "pages": 7,
+      "extracted_code": "2002410-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002410-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "الأخلاق والقيم.pdf",
+      "source_sha256": "5dc033b1bd1fe21fe9d67f5b5c81a5b27895dec864b78ee43abdfa7ccfedc3f0",
+      "pages": 7,
+      "extracted_code": "2004112-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/2004112-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "التجويد 1.pdf",
+      "source_sha256": "4b3ae4af607e0901cb210b9d1d67060a6bcad91696fe87af956a9b52a90a25c8",
+      "pages": 7,
+      "extracted_code": "2002102-2",
+      "decision": "rejected_identity_conflict",
+      "reason": "رمز الغلاف 2002102-2 غير موجود في الخطط الحالية، كما أنه يتعارض مع رمز مقرر آخر قريب الاسم."
+    },
+    {
+      "source_file": "التجويد 2.pdf",
+      "source_sha256": "5b054999bbef58cb16ae96c5dd10edcd391593380cdf125c26fdfa03f7424694",
+      "pages": 7,
+      "extracted_code": "2002106-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002106-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "التفسير 1.pdf",
+      "source_sha256": "3085156940ffbe402e9e8f08ed386b037d62fada17d8a5a560e382f06c40e0bd",
+      "pages": 7,
+      "extracted_code": "2002204-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002204-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002204-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "التفسير 2.pdf",
+      "source_sha256": "6249265f90cb5199cfd5389bd5256a6ab0eb43c16ad1c4717faba717763889ba",
+      "pages": 7,
+      "extracted_code": "2002208-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002208-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002208-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "التفسير 3.pdf",
+      "source_sha256": "f2fe15aef43b054a2452447eaa92e74816b7a85c814c75e085cc5e92040e16b5",
+      "pages": 6,
+      "extracted_code": "2002306-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002306-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002306-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "التفسير التحليلي 1.pdf",
+      "source_sha256": "210715e1c83c7bb07ba08b71510c863dd6d7c0727c6dfbf12e57762c689402ad",
+      "pages": 7,
+      "extracted_code": "20541203-2",
+      "decision": "not_linked_code_absent_from_current_plans",
+      "reason": "يحمل الغلاف رمزًا جديدًا غير موجود في بيانات الخطط الحالية؛ لم يُسقط على رمز الخطة القديمة بالتشابه الاسمي."
+    },
+    {
+      "source_file": "التفسير التحليلي.pdf",
+      "source_sha256": "eb04b3861ec5b3e74820c418b5846440c62dcdefee2b7f61407a13ff0f6c7243",
+      "pages": 7,
+      "extracted_code": "2002861-4",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "التفسير المقارن.pdf",
+      "source_sha256": "978ba01f44ebe56f030cb615daf7a50248dc54b8107d8d9d63e2a128543d27f7",
+      "pages": 8,
+      "extracted_code": "2002705-3",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002705-3.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "التفسير الموضوعي (1).pdf",
+      "source_sha256": "6445e2350240d3d5cd6fdff391d8ebcec9128e93b7ea5a9c39170d3e4b587855",
+      "pages": 7,
+      "extracted_code": "2002454-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/identity-resolutions-20260829/2002454-2--qiraat.pdf",
+        "assets/course-specifications/identity-resolutions-20260829/2002454-2--quran.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "التفسير الموضوعي.pdf",
+      "source_sha256": "45a6d33e46d26765194ba381ae43b385748c3c75b47940f70fd5acf581fc0b03",
+      "pages": 7,
+      "extracted_code": "2002871-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1447/2002871-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "التقنيات_الحديثة_في_الدراسات_القرآنية.pdf",
+      "source_sha256": "e8dae1eaf55faddb8687ac9c09bcb470bbfbf84504a8411e2a00a52a5eb76f6f",
+      "pages": 7,
+      "extracted_code": "2002406-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002406-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "الدراسات_القرآنية_عند_المستشرقين.pdf",
+      "source_sha256": "5a433d903a83c852fd8b05737f1ed74690a183ad2ffe718f239cb8d02802d202",
+      "pages": 7,
+      "extracted_code": "2002862-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "القراءات الثلاث 1.pdf",
+      "source_sha256": "625eba5599d37d6d446ede2839d34a2a3388548191530ae6127e5422a898f6c9",
+      "pages": 9,
+      "extracted_code": "2002401-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002401-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "القراءات الثلاث 2.pdf",
+      "source_sha256": "8778aca506ee3ffdc54e3e25e2ebafc29b0641af7da8750ffbeecf8bca3563f5",
+      "pages": 8,
+      "extracted_code": "2002407-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002407-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "القراءات العشر الكبرى 1.pdf",
+      "source_sha256": "876a61b434fa424c07838096c80f01d91f5e4945bc915bc31705e24ec7968aa0",
+      "pages": 8,
+      "extracted_code": "2002801-8",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-master-1445/2002801-8.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "القراءات العشر الكبرى 2.pdf",
+      "source_sha256": "d336cb91b910ab714e2e9a949fb50420b59b216ab077fe2eb8fda621c4b4b311",
+      "pages": 8,
+      "extracted_code": "2002811-8",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-master-1445/2002811-8.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "القراءات العشر الكبرى 3.pdf",
+      "source_sha256": "e07fd6ad99eacbb2a70733033f1dc315f951d6ec787bc7b6857445e1a4205b40",
+      "pages": 8,
+      "extracted_code": "2002821-8",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-master-1445/2002821-8.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "القرآن الكريم 1.pdf",
+      "source_sha256": "f5d58e37945050cd0dc8138f666bc3bbdbb09d3b411454dcdc6e6858143642ee",
+      "pages": 6,
+      "extracted_code": "2002128-1",
+      "decision": "imported_and_linked",
+      "repository_pdf": "assets/course-specifications/reviewed-import-20260909/2002128-1.pdf",
+      "repository_sha256": "01e81fe7d6411c012565fb0f5a02c93aeae42b226fe01e5c7c79647080cdcf86",
+      "preparation": "ocr_text_layer_added_without_visual_content_change",
+      "reason": "توصيف رسمي مطابق لمقرر في الخطة ولا يوجد له توصيف أحدث في قاعدة البيانات."
+    },
+    {
+      "source_file": "القرآن الكريم 2.pdf",
+      "source_sha256": "fd2c31242bc42be1756cd30627849e0c206fc2d3d44bbbd6972c02809cf78287",
+      "pages": 6,
+      "extracted_code": "2002129-1",
+      "decision": "imported_and_linked",
+      "repository_pdf": "assets/course-specifications/reviewed-import-20260909/2002129-1.pdf",
+      "repository_sha256": "7b63fb5a516d3beee9ce9207aa51d7ffa30d5b2d51ee60eceb3ff887b9804933",
+      "preparation": "ocr_text_layer_added_without_visual_content_change",
+      "reason": "توصيف رسمي مطابق لمقرر في الخطة ولا يوجد له توصيف أحدث في قاعدة البيانات."
+    },
+    {
+      "source_file": "القرآن الكريم 3.pdf",
+      "source_sha256": "d3e153295cc545d29ec37c6a28e4bbcc6c65d90c5a716f52019412e1f2e92de4",
+      "pages": 6,
+      "extracted_code": "2002211-1",
+      "decision": "imported_and_linked",
+      "repository_pdf": "assets/course-specifications/reviewed-import-20260909/2002211-1.pdf",
+      "repository_sha256": "8826b830dc7a39ee814e1ee704d6a7f143d52bba46901b7f3681c70b47441bbd",
+      "preparation": "ocr_text_layer_added_without_visual_content_change",
+      "reason": "توصيف رسمي مطابق لمقرر في الخطة ولا يوجد له توصيف أحدث في قاعدة البيانات."
+    },
+    {
+      "source_file": "القرآن الكريم 4.pdf",
+      "source_sha256": "781381e7f4bfd08494295c430ae581c6cf7ebe9195ee81f86c0d0c0259458739",
+      "pages": 6,
+      "extracted_code": "2002221-1",
+      "decision": "imported_and_linked",
+      "repository_pdf": "assets/course-specifications/reviewed-import-20260909/2002221-1.pdf",
+      "repository_sha256": "13af814e6e5d9a3fb7a6295777c965c945e7cba9bea049780553ad2e7e038761",
+      "preparation": "ocr_text_layer_added_without_visual_content_change",
+      "reason": "توصيف رسمي مطابق لمقرر في الخطة ولا يوجد له توصيف أحدث في قاعدة البيانات."
+    },
+    {
+      "source_file": "القرآن الكريم 5.pdf",
+      "source_sha256": "a17084c2361bc941f101183f15c06da19ae921cd8f33f36e597c75609c572c51",
+      "pages": 6,
+      "extracted_code": "2002311-1",
+      "decision": "imported_and_linked",
+      "repository_pdf": "assets/course-specifications/reviewed-import-20260909/2002311-1.pdf",
+      "repository_sha256": "48f8396c5e722c840d6fe7b8a1a09e1d2feded1e3183f9cada7d814594f70896",
+      "preparation": "ocr_text_layer_added_without_visual_content_change",
+      "reason": "توصيف رسمي مطابق لمقرر في الخطة ولا يوجد له توصيف أحدث في قاعدة البيانات."
+    },
+    {
+      "source_file": "القرآن الكريم 6.pdf",
+      "source_sha256": "c30168012e12a8cefb9506d5a15f68241ad58aacf7f3c2adef96b796e76c158e",
+      "pages": 6,
+      "extracted_code": "2002312-1",
+      "decision": "imported_and_linked",
+      "repository_pdf": "assets/course-specifications/reviewed-import-20260909/2002312-1.pdf",
+      "repository_sha256": "e0d09725991025ee9767c7b5a545e56a0616cebc3b161eee4546ff691fcd243e",
+      "preparation": "ocr_text_layer_added_without_visual_content_change",
+      "reason": "توصيف رسمي مطابق لمقرر في الخطة ولا يوجد له توصيف أحدث في قاعدة البيانات."
+    },
+    {
+      "source_file": "القرآن الكريم 7.pdf",
+      "source_sha256": "a8d54dc5c3c0548c83d4b05190e7a1b542013aa052c84878e1af567510aff006",
+      "pages": 6,
+      "extracted_code": "2002411-1",
+      "decision": "imported_and_linked",
+      "repository_pdf": "assets/course-specifications/reviewed-import-20260909/2002411-1.pdf",
+      "repository_sha256": "abe2f907433db5e85b81e78bd76648b9d0daa341e1b0c285f1259c4f4a2257bb",
+      "preparation": "ocr_text_layer_added_without_visual_content_change",
+      "reason": "توصيف رسمي مطابق لمقرر في الخطة ولا يوجد له توصيف أحدث في قاعدة البيانات."
+    },
+    {
+      "source_file": "القرآن الكريم 8.pdf",
+      "source_sha256": "ca527864e52f706f11b4d113305359aed61213929e80915edfcb2f186b5b4b21",
+      "pages": 6,
+      "extracted_code": "2002421-1",
+      "decision": "imported_and_linked",
+      "repository_pdf": "assets/course-specifications/reviewed-import-20260909/2002421-1.pdf",
+      "repository_sha256": "27439c582ea253d88046f2c7fa9a9d15e9203ee2dfa39f824481ca99bdf85e83",
+      "preparation": "ocr_text_layer_added_without_visual_content_change",
+      "reason": "توصيف رسمي مطابق لمقرر في الخطة ولا يوجد له توصيف أحدث في قاعدة البيانات."
+    },
+    {
+      "source_file": "النظام الاجتماعي.pdf",
+      "source_sha256": "a02d57f617f0eef708ad9db080711c353921822717fd6ca6d31cb7cf44ca464b",
+      "pages": 7,
+      "extracted_code": "2004313-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/2004313-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "النظريات الحداثية في القرآن.pdf",
+      "source_sha256": "93c9801bca37c3f20e353f4ba9e9ddc2c0a7509db7d272e3e748c4b6c218c089",
+      "pages": 7,
+      "extracted_code": "2002872-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "النقد_والتجديد_في_الدراسات_القرآنية.pdf",
+      "source_sha256": "b57b640c5b7ede25ac6685cc54ce9c3e91ac5931ca0d2717edb535ba5aec818b",
+      "pages": 8,
+      "extracted_code": "2002706-3",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002706-3.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "آداب حملة القرآن.pdf",
+      "source_sha256": "ecd828507fc5e803840255fd8706d7b47876618b4a99d593b762a291618f53b7",
+      "pages": 7,
+      "extracted_code": "2002104-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002104-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "أصول التفسير ومناهجه.pdf",
+      "source_sha256": "7009fde3ab228940b666a93cb37e5ddea2cbda6a6d7f36aab4d84ba62968b84a",
+      "pages": 9,
+      "extracted_code": "2002250-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/islamic-studies-bundle-1444/2002250-2.pdf",
+        "assets/course-specifications/qiraat-source-1445/2002250-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002250-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "أصول التفسير.pdf",
+      "source_sha256": "5a3f79cbed921b2e2f90d172261ab88f1d40fa1ca94f62aab34b018e54477a07",
+      "pages": 7,
+      "extracted_code": "2002851-4",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1447/2002851-4.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "أصول الثقافة.pdf",
+      "source_sha256": "f70ec94e57f8c1b07aa80ff2396140b6422cacbaa3c1d537e4736b7ae9541a92",
+      "pages": 6,
+      "extracted_code": "2004111-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/shared-course-completions-20260904/2004111-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "أصول القراءات السبع 1.pdf",
+      "source_sha256": "5a2655f3022f94716fb730cc031732856c65b2ab4d540ad19d3a2f30977ed11d",
+      "pages": 9,
+      "extracted_code": "2002102-4",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002102-4.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "أصول القراءات السبع 2.pdf",
+      "source_sha256": "09f5a61d3294c1d97dc315114ebcbc885450b5db1fee501eac49a227f537f904",
+      "pages": 10,
+      "extracted_code": "2002105-4",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002105-4.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "إعجاز القرآن الكريم.pdf",
+      "source_sha256": "d270f9b520ca8b25ff6361192382da748337a849d27065e0e397d2fd9b6e327b",
+      "pages": 7,
+      "extracted_code": "2002456-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002456-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002456-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "تاريخ التفسير.pdf",
+      "source_sha256": "e982e5a99b11dbba94f02fd817ee2717e52fa2ac9e8dd8ccad555604a79c1057",
+      "pages": 7,
+      "extracted_code": "2002852-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "توجيه القراءات.pdf",
+      "source_sha256": "17b151c7f842a34808518408d60cdd7ce8bc867c5a23537a0a182d87a01c4655",
+      "pages": 7,
+      "extracted_code": "2002503-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002503-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "توصيف_مقرر_القران_الكريم_تلاوة_وتجويد_متطلب_جامعي.pdf",
+      "source_sha256": "f87c5f57de905bb162aaee1f21cd27478e35b974f3eda6fa66c51443974598db",
+      "pages": 7,
+      "extracted_code": "20021304-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/20021304-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "حقوق الإنسان.pdf",
+      "source_sha256": "d54507b0684c1981af3304612131ade1aed61697e1e5d734d8cf5ca4a5ae8ba0",
+      "pages": 7,
+      "extracted_code": "2004414-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/raw-recovery-20260827/2004414-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "دراسات في المصاحف القرآنية.pdf",
+      "source_sha256": "fbbb713a0ea57f382af15655e1c49685581768db332650f88bc2d45b6db03cc3",
+      "pages": 7,
+      "extracted_code": "2002812-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-master-1445/2002812-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "دراسات في إعجاز القرآن.pdf",
+      "source_sha256": "495d4119758b3d979bd25ca9b5b999c89b3623a20412112b718ff1ef3d21c639",
+      "pages": 7,
+      "extracted_code": "2002873-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "دراسات في توجيه القراءات.pdf",
+      "source_sha256": "8342638e27d8b05d9012fe9736e5d53d9b95184e5c4b45842adb18f41a1a39b8",
+      "pages": 7,
+      "extracted_code": "2002803-2",
+      "decision": "rejected_identity_conflict",
+      "reason": "اسم الملف لا يطابق اسم المقرر المثبت داخل التوصيف."
+    },
+    {
+      "source_file": "دراسات في حواشي التفسير.pdf",
+      "source_sha256": "1bf6020031355f2e87f087cc60431f85f7c826edf3ca0fcf18e1fb315d35e07c",
+      "pages": 8,
+      "extracted_code": "2002708-3",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002708-3.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "دراسات في طبقات القراء وأسانيدهم.pdf",
+      "source_sha256": "d71cdc8cc89b1bae537244e047092a5cdadd161f4fd2461115ad699407397264",
+      "pages": 8,
+      "extracted_code": "2002703-4",
+      "decision": "rejected_identity_conflict",
+      "reason": "اسم الملف والساعات لا يطابقان هوية المقرر المثبتة داخل التوصيف أو الخطة."
+    },
+    {
+      "source_file": "دراسات في علوم القرآن .pdf",
+      "source_sha256": "261a68ebf066a03ea5302bcc4acaaef9a83dbf8b40687e35f92bcb030be1b430",
+      "pages": 8,
+      "extracted_code": "2002235-2",
+      "decision": "rejected_identity_conflict",
+      "reason": "رمز الغلاف 2002235-2 مستخدم في الخطة الحالية لمقرر القرآن الكريم (7)، فلا يجوز ربطه بهذا العنوان."
+    },
+    {
+      "source_file": "دراسات في علوم القرآن.pdf",
+      "source_sha256": "b47f0ba674962dbb52e2bdaa5e9cd377dafd68c229d4dd3b2492b811523d608a",
+      "pages": 8,
+      "extracted_code": "2002853-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "دراسات في لغة القرآن.pdf",
+      "source_sha256": "49537b8b7429e853abef95b83909d3b9a4b88b4c6da95733939e41d5a9844370",
+      "pages": 7,
+      "extracted_code": "2002874-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1447/2002874-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "دراسات في مناهج المفسرين.pdf",
+      "source_sha256": "ced85d5220a0d57be69a773c02c9ad74606924f0d5def2c465430cadceaa56a6",
+      "pages": 7,
+      "extracted_code": "2002864-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "دراسات في نسخ التفسير وأسانيده.pdf",
+      "source_sha256": "943f50a06e29687d2c94ac628984e26bf2f95b96443d4666ea8fc735df9bf451",
+      "pages": 8,
+      "extracted_code": "2002707-3",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002707-3.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "دراسات_في_القراءات_الشاذة_وتوجيهها.pdf",
+      "source_sha256": "7f2a5a5cba475ad227bc254ccfac20550ba72ebdfe05ce33a32aab85a96ecbf6",
+      "pages": 8,
+      "extracted_code": "2002702-4",
+      "decision": "rejected_identity_conflict",
+      "reason": "الساعات في رمز التوصيف لا تطابق رمز المقرر في الخطة الحالية."
+    },
+    {
+      "source_file": "رسم المصحف 1.pdf",
+      "source_sha256": "bd4f8bc5f0e1a30a7a95d6dd3bce9ca501a5bf405eafadb488c819d6007bc76a",
+      "pages": 8,
+      "extracted_code": "2002305-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002305-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "رسم المصحف 2.pdf",
+      "source_sha256": "fe93daad0b1dcf2014be1f780a7bb1c993b82ec1c1b064344ed319b2c414b6bf",
+      "pages": 7,
+      "extracted_code": "2002309-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002309-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "سفاري (1).pdf",
+      "source_sha256": "2fc12ed1c45359cb8022f81c8dc1443f86f1249fa157ce5d895ffb97e196dc63",
+      "pages": 7,
+      "extracted_code": "20042202-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/islamic-studies-bundle-1444/20042202-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "سفاري (2).pdf",
+      "source_sha256": "12fa49a945cdf487c5ff7e6fcff4e4bb730db4f9c006519221ca9b4cf79435fe",
+      "pages": 7,
+      "extracted_code": "20041203-2",
+      "decision": "imported_and_linked",
+      "repository_pdf": "assets/course-specifications/reviewed-import-20260909/20041203-2.pdf",
+      "repository_sha256": "12fa49a945cdf487c5ff7e6fcff4e4bb730db4f9c006519221ca9b4cf79435fe",
+      "preparation": "copied_without_content_change",
+      "reason": "توصيف رسمي مطابق لمقرر في الخطة ولا يوجد له توصيف أحدث في قاعدة البيانات."
+    },
+    {
+      "source_file": "سفاري.pdf",
+      "source_sha256": "9a2edc2b77064432fdd5b7f5917baaebdf6d2aeb954e90090dd3ddd85d4826f2",
+      "pages": 7,
+      "extracted_code": "20043205-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/islamic-studies-bundle-1444/20043205-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "عرض القراءات الثلاث 1.pdf",
+      "source_sha256": "758f8642d30aff276b95780f63afa608567b56936fc3a4ab6332b0eb9963bdfd",
+      "pages": 7,
+      "extracted_code": "2002402-4",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002402-4.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "عرض القراءات الثلاث 2.pdf",
+      "source_sha256": "1842156ca04381d363ad934e4096738c37f0842a017e155c73c367f7cf25e81c",
+      "pages": 7,
+      "extracted_code": "2002408-4",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002408-4.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "عرض القراءات السبع 1.pdf",
+      "source_sha256": "4de27e107b9a937f2e10276b3882a681cd64ee5789986989eae8984497569d12",
+      "pages": 7,
+      "extracted_code": "2002203-4",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002203-4.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "عرض القراءات السبع 2.pdf",
+      "source_sha256": "0a8f0f1b05d2616a47c753845b809173e2ac6854fdafda50dc23c8262d1c1ee3",
+      "pages": 7,
+      "extracted_code": "2002207-4",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002207-4.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "عرض القراءات السبع 3.pdf",
+      "source_sha256": "c055dcd70cd86c50aa18a3cfdc9a3c87bdeb4fa101002852d329effb19fd3b1b",
+      "pages": 7,
+      "extracted_code": "2002302-4",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002302-4.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "عرض القراءات السبع 4.pdf",
+      "source_sha256": "519489e428ab4b471f05b26d31c44363eb5b602e6618745268e8c6f489d72899",
+      "pages": 7,
+      "extracted_code": "2002308-4",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002308-4.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "عرض القراءات العشر الكبرى.pdf",
+      "source_sha256": "a615545e5d02e10929d1055cae02479025bf46d3e0b0a5b0ba73c8303a3b28d4",
+      "pages": 8,
+      "extracted_code": "2002701-4",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002701-4.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "علم الضبط.pdf",
+      "source_sha256": "6662957e3731e849be36bdeadb4244f2fdceea07b1f4ac01073d92781ddb340e",
+      "pages": 7,
+      "extracted_code": "2002425-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002425-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "علم القراءات دراية (1).pdf",
+      "source_sha256": "5e0bb014063a775075746178628e5bd0ccfbcb891e96fa18f1ae0abaaca992bf",
+      "pages": 7,
+      "extracted_code": "2002802-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-master-1445/2002802-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "علم القراءات دراية.pdf",
+      "source_sha256": "c71fd697a14e36aa59b1a06565f87b0c93fb0aba6ecbcf4b5a353bf9e3f5253c",
+      "pages": 7,
+      "extracted_code": "2002854-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "علم عد الآي.pdf",
+      "source_sha256": "3340b3242407e98c25a47e8029c41afee2ebf59507b57018b2287e90bf95b843",
+      "pages": 7,
+      "extracted_code": "2002409-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002409-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "علوم القرآن 1.pdf",
+      "source_sha256": "d6409896b8f5878fb761956e3fa1285a248b5040b923d8f4d50d4acabbe83141",
+      "pages": 9,
+      "extracted_code": "2002131-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/islamic-studies-bundle-1444/2002131-2.pdf",
+        "assets/course-specifications/qiraat-source-1445/2002131-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002131-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "علوم القرآن 2.pdf",
+      "source_sha256": "9de819f367baf011a76a46ba0fcb4cf5bb8c3bac32443ba92085631a7f84e568",
+      "pages": 8,
+      "extracted_code": "2002232-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002232-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002232-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "فرش القراءات السبع 1.pdf",
+      "source_sha256": "ed8b321db5ace06a203e0198319c0e653e5dad890ea4c2b8828d3f775768f235",
+      "pages": 8,
+      "extracted_code": "2002201-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002201-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "فرش القراءات السبع 2.pdf",
+      "source_sha256": "493e3089c9406481a55011ef5a0dd108fd3912067ddf4e8b55cd3ab06925a95b",
+      "pages": 8,
+      "extracted_code": "2002206-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002206-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "فرش القراءات السبع 3.pdf",
+      "source_sha256": "2aa3c2cfbc3c704f27422a61a507a79e1c70b2e45d9137944960055210608147",
+      "pages": 7,
+      "extracted_code": "2002301-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002301-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "فرش القراءات السبع 4.pdf",
+      "source_sha256": "acf328c52424d8cfdb1e1564b71a49e71ff9978ca364664fd825b5ad93437531",
+      "pages": 8,
+      "extracted_code": "2002307-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002307-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "فرش القراءات العشر الكبرى.pdf",
+      "source_sha256": "8f6b9a16584abe25aa7d29886c9fe4c300b2a7701f0d7b456b87733b7ab04b77",
+      "pages": 8,
+      "extracted_code": "2002700-4",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002700-4.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "قاعة بحث قراءات.pdf",
+      "source_sha256": "c70744813c6e5494489504d8263abe28a8fb7a23c3c42c161f27d8d7334da7e0",
+      "pages": 7,
+      "extracted_code": "2002412-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/clo-plo-corrections-20260901/2002412-2--qiraat-old-v38.pdf",
+        "assets/course-specifications/quran-old-v39/2002412-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "قرآن كريم حفظ وتلاوة 1.pdf",
+      "source_sha256": "1bad27cfa17af00e83954be2cf98d62c465548620300a189feaf17e50ea78051",
+      "pages": 6,
+      "extracted_code": "20021105-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/islamic-studies-bundle-1444/20021105-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "قرآن كريم حفظ وتلاوة 2.pdf",
+      "source_sha256": "72762d1983edf35b047f4d3cdfbaaf2e13409b8b33f833c987d7475e54ef34e9",
+      "pages": 6,
+      "extracted_code": "20021201-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/islamic-studies-bundle-1444/20021201-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "قرآن كريم حفظ وتلاوة 3.pdf",
+      "source_sha256": "85e7744848da8325a646085efc0c9eacd168c170dc0f8cb0f01a1375300d8601",
+      "pages": 6,
+      "extracted_code": "20022103-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/islamic-studies-bundle-1444/20022103-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "قرآن كريم حفظ وتلاوة 4.pdf",
+      "source_sha256": "208294a4fdf36e532b8bb4c8d496763ef5a4f413772bee06df77ee0fe5c3cbcb",
+      "pages": 6,
+      "extracted_code": "20022203-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/islamic-studies-bundle-1444/20022203-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "قرآن كريم حفظ وتلاوة 5.pdf",
+      "source_sha256": "58feec808a110f149c4a615f84c8e734b193de78bafa56bd040b77f335bbf2a2",
+      "pages": 6,
+      "extracted_code": "2002310-2",
+      "decision": "imported_and_linked",
+      "repository_pdf": "assets/course-specifications/reviewed-import-20260909/2002310-2.pdf",
+      "repository_sha256": "caf662d4fc7f024321cba07e605533f8a5c74d066f5bcd47cf4af31a7741ebf9",
+      "preparation": "ocr_text_layer_added_without_visual_content_change",
+      "reason": "توصيف رسمي مطابق لمقرر في الخطة ولا يوجد له توصيف أحدث في قاعدة البيانات."
+    },
+    {
+      "source_file": "قرآن كريم حفظ وتلاوة 6.pdf",
+      "source_sha256": "fccbf85d91a1c8dddb0940e7b099d10bd7436737f1ec66a9d5b7f49c54391c4e",
+      "pages": 6,
+      "extracted_code": "20023203-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/islamic-studies-bundle-1444/20023203-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "قرآن كريم حفظ وتلاوة 7.pdf",
+      "source_sha256": "87e910dcd75133359366a92285ab869ede6b757776872c24af2f31b0f7ecece0",
+      "pages": 6,
+      "extracted_code": "20024103-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/islamic-studies-bundle-1444/20024103-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "قرآن كريم حفظ وتلاوة 8.pdf",
+      "source_sha256": "d9db28fc30d5d7b492addd8f2cdf7fe12e05457ff6d3cbba68c05f50444b70df",
+      "pages": 6,
+      "extracted_code": "20024203-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/islamic-studies-bundle-1444/20024203-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "مدخل إلى علوم القراءات.pdf",
+      "source_sha256": "8cc54fd99284dbc93e8d5f36552405a3eb8ff91b092f0f8b7650858d779bdf50",
+      "pages": 7,
+      "extracted_code": "2002110-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002110-2.pdf",
+        "assets/course-specifications/quran-old-v39/2002110-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "مصادر الدراسات القرآنية.pdf",
+      "source_sha256": "dc0cd2b192597e9111260f3dcb37fba4e72278193215d5c8a7774bdf228c3556",
+      "pages": 7,
+      "extracted_code": "2002855-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "ملخص مقررات علوم القرآن.pdf",
+      "source_sha256": "c6fa65412d0296ae17fc21fe3c70ad778b1f3d016cc6da3837175ed5720908f9",
+      "pages": 1,
+      "extracted_code": null,
+      "decision": "rejected_non_specification",
+      "reason": "الملف ملخص موضوعي وليس توصيف مقرر رسميًا."
+    },
+    {
+      "source_file": "مناهج البحث.pdf",
+      "source_sha256": "e2bf3372713f941ae004c129fd9c928ff3d0cead2a84d33c15de7fd2cb2e74e1",
+      "pages": 8,
+      "extracted_code": "2002405-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-source-1445/2002405-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "منهج البحث والتحقيق (1).pdf",
+      "source_sha256": "7998df2dcb2daf716fb958d209028f9dfa8727ff9cd3831376aa9d19e8edbd49",
+      "pages": 8,
+      "extracted_code": "2002863-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf",
+        "assets/course-specifications/quranic-studies-master-1447/2002863-2--manhaj-al-bahth.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "منهج البحث والتحقيق (2).pdf",
+      "source_sha256": "f9d25716eec5df20959e07d9a0c6f3b1eb0806b20bd62c5c505c66effed74121",
+      "pages": 8,
+      "extracted_code": "2002813-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/qiraat-master-1445/2002813-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    },
+    {
+      "source_file": "��التقنيات_الحديثة_مسار_القران_وعلومه_نموذج_2022.pdf",
+      "source_sha256": "041e17d54ad5b896d7bd2777e8a2ab2df3799f0b0f106482890bbaeb61b9ff99",
+      "pages": 7,
+      "extracted_code": "2002416-2",
+      "decision": "superseded_or_equivalent_active_specification_exists",
+      "existing_sources": [
+        "assets/course-specifications/quran-old-v39/2002416-2.pdf"
+      ],
+      "reason": "يوجد توصيف نشط موثق للمقرر، وهو أحدث أو مكافئ ومراجع ضمن مسار البرنامج الصحيح."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "full-variant-visual-review-v1",
+  "reviewed_at": "2026-09-09T21:45:00+03:00",
+  "templates": {
+    "sharia_old_quran": {
+      "clos": [
+        {"code": "1.1", "text": "أن يعرض الطالب مهارات القراءة السليمة", "plo_code": "ع1", "assessment": "القراءة النظرية المباشرة"},
+        {"code": "1.2", "text": "أن يقوّم المعلم اعوجاج نطق الطالب ويعمل على تقوية فصاحته", "plo_code": "ع3", "assessment": "الاختبارات الشفهية"},
+        {"code": "2.1", "text": "أن يتقن الطالب حفظ الجزء المقرر ويؤديه عن ظهر قلب", "plo_code": "م2", "assessment": "التلقي بالاستماع من مدرسي المادة وطريقة التلاوة والتقويم الذاتي للطلاب أنفسهم"},
+        {"code": "2.2", "text": "أن يكون الطالب قادرًا على تصحيح التلاوة للآخرين", "plo_code": "م3", "assessment": "التلقي بالاستماع من مدرسي المادة وطريقة التلاوة والتقويم الذاتي للطلاب أنفسهم"},
+        {"code": "3.1", "text": "مهارة استخراج تسجيلات القراء", "plo_code": "ك2", "assessment": null},
+        {"code": "3.2", "text": "معلماً متميزاً لتلاوة القرآن الكريم", "plo_code": "ك3", "assessment": "التلقي بالاستماع من مدرسي المادة وطريقة التلاوة والتقويم الذاتي للطلاب أنفسهم"},
+        {"code": "3.3", "text": "أن يظهر الطالب بمظهر سلوكي وحضاري يتناسب مع أخلاق أهل القرآن", "plo_code": "ك3", "assessment": "التلقي بالاستماع من مدرسي المادة وطريقة التلاوة والتقويم الذاتي للطلاب أنفسهم"}
+      ]
+    },
+    "islamic_studies_quran_5": {
+      "clos": [
+        {"code": "1.1", "text": "أن يوضح الطالب المبادئ الصحيحة لتلاوة القرآن الكريم", "plo_code": "ع2", "assessment": "الملاحظة"},
+        {"code": "1.2", "text": "أن يحفظ الطالب الآيات القرآنية حفظًا سليمًا من اللحن", "plo_code": "ع3", "assessment": "المشروعات"},
+        {"code": "2.1", "text": "أن يتقن الطالب حفظ وتلاوة القدر المعتمد للمقرر بمهارة عالية وأداء صحيح", "plo_code": "م2", "assessment": "الاختبارات"},
+        {"code": "2.2", "text": "أن يميز الطالب تلاوات القراء المتقنين ويحاكيها", "plo_code": "م3", "assessment": "الاختبارات"},
+        {"code": "3.1", "text": "أن يستمع الطالب لزملائهم مع التصويب لقراءة بعضهم البعض", "plo_code": "ك1", "assessment": "الملاحظة"},
+        {"code": "3.2", "text": "أن يشارك الطالب في المسابقات المحلية والدولية", "plo_code": "ك2", "assessment": "الاختبارات الشفهية"}
+      ]
+    }
+  },
+  "records": [
+    {"course_code": "2002128-1", "variant_id": "8e528b73e456e566e9a2142a94a727338171a8eb01a09dea37633a61e3aef7d8", "source_pdf": "assets/course-specifications/reviewed-import-20260909/2002128-1.pdf", "source_sha256": "01e81fe7d6411c012565fb0f5a02c93aeae42b226fe01e5c7c79647080cdcf86", "course_name": "القرآن الكريم (1)", "template": "sharia_old_quran"},
+    {"course_code": "2002129-1", "variant_id": "da530b9c1bac6ede436208f3c8904ee4876013f5e373e10bb59fc28817eda2bf", "source_pdf": "assets/course-specifications/reviewed-import-20260909/2002129-1.pdf", "source_sha256": "7b63fb5a516d3beee9ce9207aa51d7ffa30d5b2d51ee60eceb3ff887b9804933", "course_name": "القرآن الكريم (2)", "template": "sharia_old_quran"},
+    {"course_code": "2002211-1", "variant_id": "e7135ba2552b1fed4c1609fd8c253042c4b08c86b565ba0a938f7148dbfc20fd", "source_pdf": "assets/course-specifications/reviewed-import-20260909/2002211-1.pdf", "source_sha256": "8826b830dc7a39ee814e1ee704d6a7f143d52bba46901b7f3681c70b47441bbd", "course_name": "القرآن الكريم (3)", "template": "sharia_old_quran"},
+    {"course_code": "2002221-1", "variant_id": "b6d7dffbd3fc144f5e0963f9d1a4fab77f0794c85709eb96384e1145f49f72dc", "source_pdf": "assets/course-specifications/reviewed-import-20260909/2002221-1.pdf", "source_sha256": "13af814e6e5d9a3fb7a6295777c965c945e7cba9bea049780553ad2e7e038761", "course_name": "القرآن الكريم (4)", "template": "sharia_old_quran"},
+    {"course_code": "2002311-1", "variant_id": "d231351075473a644225f4343b69c0f9d370aed89f037e5bc69f23e33c250eeb", "source_pdf": "assets/course-specifications/reviewed-import-20260909/2002311-1.pdf", "source_sha256": "48f8396c5e722c840d6fe7b8a1a09e1d2feded1e3183f9cada7d814594f70896", "course_name": "القرآن الكريم (5)", "template": "sharia_old_quran"},
+    {"course_code": "2002312-1", "variant_id": "002b2ab14f2adb2722da384817323e2478bc8ce351d4a68705b5dc44532c63d8", "source_pdf": "assets/course-specifications/reviewed-import-20260909/2002312-1.pdf", "source_sha256": "e0d09725991025ee9767c7b5a545e56a0616cebc3b161eee4546ff691fcd243e", "course_name": "القرآن الكريم (6)", "template": "sharia_old_quran"},
+    {"course_code": "2002411-1", "variant_id": "83e1ece94aaebf553011316883dbed3fa71045a539cdc5679341eec8dec009a5", "source_pdf": "assets/course-specifications/reviewed-import-20260909/2002411-1.pdf", "source_sha256": "abe2f907433db5e85b81e78bd76648b9d0daa341e1b0c285f1259c4f4a2257bb", "course_name": "القرآن الكريم (7)", "template": "sharia_old_quran"},
+    {"course_code": "2002421-1", "variant_id": "3cbab4ab519f79bab6d20645d43f48d12708786589fe90840194d1f8c8e3a3e3", "source_pdf": "assets/course-specifications/reviewed-import-20260909/2002421-1.pdf", "source_sha256": "27439c582ea253d88046f2c7fa9a9d15e9203ee2dfa39f824481ca99bdf85e83", "course_name": "القرآن الكريم (8)", "template": "sharia_old_quran"},
+    {"course_code": "2002310-2", "variant_id": "e5187f15c3fede49a3e863ec1f09aa4632ccc411ab8c4b400cb44ed577b9c646", "source_pdf": "assets/course-specifications/reviewed-import-20260909/2002310-2.pdf", "source_sha256": "caf662d4fc7f024321cba07e605533f8a5c74d066f5bcd47cf4af31a7741ebf9", "course_name": "قرآن كريم حفظ وتلاوة", "template": "islamic_studies_quran_5"}
+  ]
+}

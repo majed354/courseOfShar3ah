@@ -1,0 +1,75 @@
+{
+  "schema_version": "course-outcome-review-batch-v1",
+  "reviewed_at": "2026-09-09T21:55:00+03:00",
+  "policy": "visual_source-gap review for the newly imported 20041203-2 specification",
+  "entries": [
+    {
+      "course_code": "20041203-2",
+      "variant_id": "99fa37d52ab6ee9fc27317bbc25a184cf3506a0a59719cc975c9bd9c2ce4f7ba",
+      "source_pdf": "assets/course-specifications/reviewed-import-20260909/20041203-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [4],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-09T21:55:00+03:00",
+      "action": "إثبات أن صف CLO 2.3 فارغ في نص الناتج وربط البرنامج واستراتيجية التدريس وطريقة التقييم.",
+      "recommendation": {
+        "fields": ["clos[2.3].text", "clos[2.3].plo_codes", "clos[2.3].assessment"],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 2.3 فارغ في ملف PDF الرسمي.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "20041203-2",
+      "variant_id": "99fa37d52ab6ee9fc27317bbc25a184cf3506a0a59719cc975c9bd9c2ce4f7ba",
+      "source_pdf": "assets/course-specifications/reviewed-import-20260909/20041203-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [5],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-09T21:55:00+03:00",
+      "action": "إثبات أن صف CLO 3.1 فارغ في نص الناتج وربط البرنامج واستراتيجية التدريس وطريقة التقييم.",
+      "recommendation": {
+        "fields": ["clos[3.1].text", "clos[3.1].plo_codes", "clos[3.1].assessment"],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.1 فارغ في ملف PDF الرسمي.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "20041203-2",
+      "variant_id": "99fa37d52ab6ee9fc27317bbc25a184cf3506a0a59719cc975c9bd9c2ce4f7ba",
+      "source_pdf": "assets/course-specifications/reviewed-import-20260909/20041203-2.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [5],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-09T21:55:00+03:00",
+      "action": "إثبات أن صف CLO 3.2 فارغ في نص الناتج وربط البرنامج واستراتيجية التدريس وطريقة التقييم.",
+      "recommendation": {
+        "fields": ["clos[3.2].text", "clos[3.2].plo_codes", "clos[3.2].assessment"],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.2 فارغ في ملف PDF الرسمي.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "20041203-2",
+      "variant_id": "99fa37d52ab6ee9fc27317bbc25a184cf3506a0a59719cc975c9bd9c2ce4f7ba",
+      "source_pdf": "assets/course-specifications/reviewed-import-20260909/20041203-2.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [5],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-09T21:55:00+03:00",
+      "action": "إثبات أن صف CLO 3.3 لا يحتوي ناتج تعلم أو ربط برنامج أو طريقة تقييم؛ الرقم المنفرد ظاهر في عمود الاستراتيجية ولا يصلح ناتجًا.",
+      "recommendation": {
+        "fields": ["clos[3.3].text", "clos[3.3].plo_codes", "clos[3.3].assessment"],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.3 فارغ بنيويًا في ملف PDF الرسمي، عدا رقم منفرد خارج حقول الناتج والربط.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    }
+  ]
+}

@@ -2232,6 +2232,78 @@ def validate_review_override_value(
     المطابقة وقرأ الصفحة، فصار عنده ما ليس عند المستخرِج. ولذلك يلزم الدليل.
     """
 
+    if field == "clos":
+        if not isinstance(value, list) or not value:
+            errors.add(f"{label}.value: expected a non-empty reviewed CLO array")
+            return True
+        for position, clo in enumerate(value):
+            item = f"{label}.value[{position}]"
+            if not isinstance(clo, dict):
+                errors.add(f"{item}: expected an object")
+                continue
+            missing = CLO_FIELDS - set(clo)
+            unexpected = set(clo) - CLO_FIELDS
+            if missing:
+                errors.add(f"{item}: missing fields {sorted(missing)!r}")
+            if unexpected:
+                errors.add(f"{item}: unexpected fields {sorted(unexpected)!r}")
+            code = clo.get("code")
+            if not isinstance(code, str) or not CLO_CODE_RE.fullmatch(code):
+                errors.add(f"{item}.code: expected a normalized CLO code")
+            text = clo.get("text")
+            if not isinstance(text, str) or not text.strip():
+                errors.add(f"{item}.text: expected reviewed source text")
+            mappings = clo.get("plo_mappings")
+            if not isinstance(mappings, list) or not mappings:
+                errors.add(f"{item}.plo_mappings: expected a non-empty array")
+        return True
+
+    if field == "course_name_metadata":
+        if not isinstance(value, dict):
+            errors.add(f"{label}.value: expected course-name metadata")
+        else:
+            missing = COURSE_NAME_METADATA_FIELDS - set(value)
+            unexpected = set(value) - COURSE_NAME_METADATA_FIELDS
+            if missing:
+                errors.add(f"{label}.value: missing fields {sorted(missing)!r}")
+            if unexpected:
+                errors.add(f"{label}.value: unexpected fields {sorted(unexpected)!r}")
+        return True
+
+    if field in {"captured_clo_row_count", "source_clo_row_count"}:
+        if isinstance(value, bool) or not isinstance(value, int) or value <= 0:
+            errors.add(f"{label}.value: expected a positive reviewed row count")
+        return True
+
+    if field == "source_status":
+        if value not in SOURCE_STATUSES:
+            errors.add(f"{label}.value: expected one of {sorted(SOURCE_STATUSES)!r}")
+        return True
+
+    if field == "extraction_status":
+        if value not in EXTRACTION_STATUSES:
+            errors.add(
+                f"{label}.value: expected one of {sorted(EXTRACTION_STATUSES)!r}"
+            )
+        return True
+
+    if field == "assessment_plan_complete":
+        if not isinstance(value, bool):
+            errors.add(f"{label}.value: expected a boolean")
+        return True
+
+    if field == "assessment_plan_total":
+        if value is not None and not is_finite_number(value):
+            errors.add(f"{label}.value: expected a finite number or null")
+        return True
+
+    if field == "warnings":
+        if not isinstance(value, list) or not all(
+            isinstance(warning, dict) for warning in value
+        ):
+            errors.add(f"{label}.value: expected a warning-object array")
+        return True
+
     if PROVENANCE_LEAF_RE.fullmatch(field):
         leaf = field.rsplit(".", 1)[1]
         if leaf == "source_status":

@@ -37,6 +37,22 @@ class CourseOutcomeExtractorRegressionTest(unittest.TestCase):
 
         return Page()
 
+    def test_deleted_override_field_resolves_as_override_only_tombstone(self):
+        extracted = {"clos": [{"code": "1.1", "text": "ناتج تعلم"}]}
+
+        self.assertFalse(
+            extractor._resolve_override_field(extracted, "clos[0].deleted")
+        )
+        with self.assertRaisesRegex(ValueError, "override field does not resolve"):
+            extractor._resolve_override_field(extracted, "clos[0].missing")
+
+    def test_append_override_field_resolves_as_list_operation(self):
+        extracted = {"clos": [{"code": "1.1", "text": "ناتج تعلم"}]}
+
+        self.assertIsNone(extractor._resolve_override_field(extracted, "clos.append"))
+        with self.assertRaisesRegex(ValueError, "override field does not resolve"):
+            extractor._resolve_override_field(extracted, "clos[0].append")
+
     def test_fragmented_rows_use_only_wide_physical_boundaries_for_plo(self):
         rows = [
             ["رمز ناتج التعلم المرتبط بالبرنامج", "نواتج التعلم", "الرمز"],

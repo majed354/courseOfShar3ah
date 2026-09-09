@@ -160,8 +160,8 @@ class IdentityResolutionBundleTest(unittest.TestCase):
                 subject_line.split(":", 1)[1].strip(),
             )
 
-    def test_quran_seven_is_not_mixed_with_sharia(self):
-        detail = self.data["course_details"]["2002235-2"]
+    def test_quran_seven_identities_remain_program_specific(self):
+        islamic_studies = self.data["course_details"]["2002235-2"]
         self.assertEqual(
             {(
                 "الدراسات الإسلامية",
@@ -169,10 +169,22 @@ class IdentityResolutionBundleTest(unittest.TestCase):
                 "جديدة",
                 "47",
             )},
-            scopes(detail),
+            scopes(islamic_studies),
+        )
+
+        sharia = self.data["course_details"]["2002411-1"]
+        self.assertEqual(
+            {
+                ("الشريعة", "بكالوريوس", "قديمة", "38"),
+                ("الشريعة", "بكالوريوس", "قديمة", "39"),
+            },
+            scopes(sharia),
         )
         self.assertNotEqual("2002235-2", "2002411-1")
-        self.assertNotIn("2002411-1", self.data["course_details"])
+        self.assertNotEqual(
+            islamic_studies["variants"][0]["pdf_url"],
+            sharia["variants"][0]["pdf_url"],
+        )
 
     def test_program_specific_tafsir_variants_remain_separate(self):
         bachelor = self.data["course_details"]["2002454-2"]
