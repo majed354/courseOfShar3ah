@@ -1,0 +1,157 @@
+{
+  "schema_version": "course-outcome-review-batch-v1",
+  "reviewed_at": "2026-09-09T00:05:00+03:00",
+  "policy": "Exact-PDF visual review; structurally malformed source tables are preserved as evidence, cleaned only where extraction crossed a cell boundary, and receive open PDF recommendations.",
+  "entries": [
+    {
+      "course_code": "2001703-2",
+      "variant_id": "f0528e068ea8fcc16882558a8a6114f65322f25fbf648c82f91b0273192ec60c",
+      "source_pdf": "assets/course-specifications/usul-master-1446/2001703-2.pdf",
+      "clo_index": null,
+      "clo_code": null,
+      "pages": [
+        5,
+        6
+      ],
+      "disposition": "source_gap_only",
+      "reviewed_at": "2026-09-09T00:05:00+03:00",
+      "finding": "نصوص النواتج مقروءة، لكن CLO 3.3 بلا رمز ناتج برنامج، كما تمتد تسمية في خطة التقويم إلى نص إرشادي خارج الخلية.",
+      "recommendation": {
+        "fields": [
+          "clos[3.3].plo_codes",
+          "assessment_plan"
+        ],
+        "issue_code": "SOURCE_PLO_AND_ASSESSMENT_GAP",
+        "message": "CLO 3.3 بلا ربط برنامج منشور، وتوجد تسمية تقويم ممتدة خارج بنيتها الجدولية.",
+        "recommendation": "إضافة رمز ناتج البرنامج المعتمد لـCLO 3.3 وتصحيح خلية خطة التقويم في PDF، ثم إعادة الاستخراج."
+      }
+    },
+    {
+      "course_code": "2001813-2",
+      "variant_id": "1ef1dbde216fba45dfe80899a59f50c9ee7b66488bad82c2e49bcbd71b94061c",
+      "source_pdf": "assets/course-specifications/graduate-all-20260823/fiqh-usul/2001813-2.pdf",
+      "clo_index": 9,
+      "clo_code": null,
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-09T00:05:00+03:00",
+      "text": "يظهر الالتزام بالقيم الأخلاقية السامية على النطاق الشخصي والاجتماعي."
+    },
+    {
+      "course_code": "2001813-2",
+      "variant_id": "1ef1dbde216fba45dfe80899a59f50c9ee7b66488bad82c2e49bcbd71b94061c",
+      "source_pdf": "assets/course-specifications/graduate-all-20260823/fiqh-usul/2001813-2.pdf",
+      "clo_index": null,
+      "clo_code": null,
+      "pages": [
+        4
+      ],
+      "disposition": "source_gap_only",
+      "reviewed_at": "2026-09-09T00:05:00+03:00",
+      "finding": "جدول PDF ينشر نصوص النواتج دون رموز CLO ودون رموز ربط البرنامج، وآخر ناتج بلا رمز مستقل.",
+      "recommendation": {
+        "fields": [
+          "clos[*].code",
+          "clos[*].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_AND_PLO_CODES_MISSING",
+        "message": "رموز نواتج المقرر وروابط نواتج البرنامج غير منشورة في الجدول، ويوجد ناتج أخير بلا رمز.",
+        "recommendation": "ترقيم جميع النواتج وفق النسق 1.x/2.x/3.x، وإضافة رمز ناتج البرنامج الخاص بكل صف في PDF."
+      }
+    },
+    {
+      "course_code": "2001823-2",
+      "variant_id": "a49e8c3e19a20ca049d25eef988acd77804cdc1de35ea4dfc3724a268f76ac47",
+      "source_pdf": "assets/course-specifications/graduate-all-20260823/fiqh-usul/2001823-2.pdf",
+      "clo_index": 9,
+      "clo_code": null,
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-09T00:05:00+03:00",
+      "text": "يظهر الالتزام بالقيم الأخلاقية السامية على النطاق الشخصي والاجتماعي."
+    },
+    {
+      "course_code": "2001823-2",
+      "variant_id": "a49e8c3e19a20ca049d25eef988acd77804cdc1de35ea4dfc3724a268f76ac47",
+      "source_pdf": "assets/course-specifications/graduate-all-20260823/fiqh-usul/2001823-2.pdf",
+      "clo_index": null,
+      "clo_code": null,
+      "pages": [
+        4
+      ],
+      "disposition": "source_gap_only",
+      "reviewed_at": "2026-09-09T00:05:00+03:00",
+      "finding": "جدول PDF ينشر نصوص النواتج دون رموز CLO ودون رموز ربط البرنامج، وآخر ناتج بلا رمز مستقل.",
+      "recommendation": {
+        "fields": [
+          "clos[*].code",
+          "clos[*].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_AND_PLO_CODES_MISSING",
+        "message": "رموز نواتج المقرر وروابط نواتج البرنامج غير منشورة في الجدول، ويوجد ناتج أخير بلا رمز.",
+        "recommendation": "ترقيم جميع النواتج وفق النسق 1.x/2.x/3.x، وإضافة رمز ناتج البرنامج الخاص بكل صف في PDF."
+      }
+    },
+    {
+      "course_code": "20042106-2",
+      "variant_id": "eb845ef23146ab0cae6e0d0a1f9a373f0b2be849b0af8bec66d30a2e193d8bb1",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/20042106-2.pdf",
+      "clo_index": 11,
+      "clo_code": "ك4",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-09T00:05:00+03:00",
+      "text": "أن يُحضر الطالب من مصادر المقرر المطبوعة أو الإلكترونية."
+    },
+    {
+      "course_code": "20042106-2",
+      "variant_id": "eb845ef23146ab0cae6e0d0a1f9a373f0b2be849b0af8bec66d30a2e193d8bb1",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/20042106-2.pdf",
+      "clo_index": null,
+      "clo_code": null,
+      "pages": [
+        4
+      ],
+      "disposition": "source_gap_only",
+      "reviewed_at": "2026-09-09T00:05:00+03:00",
+      "finding": "عمود رمز CLO يستعمل رموز المجالات/نواتج البرنامج (ع، م، ك) بدل النسق العددي القياسي، وآخر خلية تلامس عنوان موضوعات المقرر.",
+      "recommendation": {
+        "fields": [
+          "clos[*].code",
+          "clos[ك4].text"
+        ],
+        "issue_code": "SOURCE_CLO_CODES_NONSTANDARD",
+        "message": "رموز ع/م/ك مستعملة كرموز CLO، بما يخلط رمز المقرر برمز ناتج البرنامج.",
+        "recommendation": "إضافة رموز CLO رقمية مستقلة 1.x/2.x/3.x، والإبقاء على رموز ع/م/ك في عمود ربط البرنامج فقط، وفصل عنوان موضوعات المقرر عن آخر خلية."
+      }
+    },
+    {
+      "course_code": "20043106-2",
+      "variant_id": "da8cda275631cda2c060702f21858a4f2f73e0f10e05d3f4e05a8f8b29153dcb",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/20043106-2.pdf",
+      "clo_index": null,
+      "clo_code": null,
+      "pages": [
+        4
+      ],
+      "disposition": "source_gap_only",
+      "reviewed_at": "2026-09-09T00:05:00+03:00",
+      "finding": "عمود رمز CLO يستعمل رموز المجالات/نواتج البرنامج (ع، م) بدل النسق العددي القياسي.",
+      "recommendation": {
+        "fields": [
+          "clos[*].code"
+        ],
+        "issue_code": "SOURCE_CLO_CODES_NONSTANDARD",
+        "message": "رموز ع/م مستعملة كرموز CLO، بما يخلط رمز المقرر برمز ناتج البرنامج.",
+        "recommendation": "إضافة رموز CLO رقمية مستقلة 1.x/2.x/3.x، والإبقاء على رموز ع/م في عمود ربط البرنامج فقط."
+      }
+    }
+  ]
+}
+

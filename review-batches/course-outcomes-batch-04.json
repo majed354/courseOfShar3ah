@@ -1,0 +1,4164 @@
+{
+  "schema_version": "course-outcome-review-batch-v1",
+  "reviewed_at": "2026-09-08T23:30:00+03:00",
+  "policy": "Exact-PDF visual review; OCR is a reading aid only; split cells were recombined; source gaps stay blank and receive an open PDF recommendation.",
+  "entries": [
+    {
+      "course_code": "2001114-2",
+      "variant_id": "95ca2ed11df8e87e1b7ec054daf35afd4d9d40df7045d222ddefaee8b6b95be2",
+      "source_pdf": "assets/course-specifications/2001114-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف الطالب أحداث سيرة النبي محمد صلى اللّٰه عليه وسلم"
+    },
+    {
+      "course_code": "2001114-2",
+      "variant_id": "95ca2ed11df8e87e1b7ec054daf35afd4d9d40df7045d222ddefaee8b6b95be2",
+      "source_pdf": "assets/course-specifications/2001114-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يدرك الطالب أهمية دراسة سيرة النبي محمد صلى الله عليه وسلم."
+    },
+    {
+      "course_code": "2001114-2",
+      "variant_id": "95ca2ed11df8e87e1b7ec054daf35afd4d9d40df7045d222ddefaee8b6b95be2",
+      "source_pdf": "assets/course-specifications/2001114-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يفتخر الطالب بالسيرة النبوية ويتأسى بأخلاق النبي صلى الله عليه وسلم."
+    },
+    {
+      "course_code": "2001114-2",
+      "variant_id": "95ca2ed11df8e87e1b7ec054daf35afd4d9d40df7045d222ddefaee8b6b95be2",
+      "source_pdf": "assets/course-specifications/2001114-2.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يبادر الطالب بنشر قيم الإسلام المستقاة من السيرة النبوية"
+    },
+    {
+      "course_code": "2001101-2",
+      "variant_id": "1a9c1199774b192baab66207034a6b0c1cc75661998275ce98ac39cef757accf",
+      "source_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001101-2--quran-old-v39.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "شرح الحديث"
+    },
+    {
+      "course_code": "2001101-2",
+      "variant_id": "1a9c1199774b192baab66207034a6b0c1cc75661998275ce98ac39cef757accf",
+      "source_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001101-2--quran-old-v39.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تمييز الحديث الصحيح من الحسن."
+    },
+    {
+      "course_code": "2001101-2",
+      "variant_id": "1a9c1199774b192baab66207034a6b0c1cc75661998275ce98ac39cef757accf",
+      "source_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001101-2--quran-old-v39.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الحكم على الأحاديث النبوية وفق قواعد المحدثين."
+    },
+    {
+      "course_code": "2001101-2",
+      "variant_id": "1a9c1199774b192baab66207034a6b0c1cc75661998275ce98ac39cef757accf",
+      "source_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001101-2--quran-old-v39.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "المشاركة في ورش العمل التفاعلية في تطبيق القواعد الحديثية."
+    },
+    {
+      "course_code": "2001101-2",
+      "variant_id": "1a9c1199774b192baab66207034a6b0c1cc75661998275ce98ac39cef757accf",
+      "source_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001101-2--quran-old-v39.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "امتثال آداب المحدث والطالب التي درسها."
+    },
+    {
+      "course_code": "2001403-2",
+      "variant_id": "27db6c6fc11c1c93532db11cb7c67f6d2be8e89ae90cfe4d227dcbbe9dff7fea",
+      "source_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001403-2--quran-old-v39.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تعريف المصطلحات المتعلقة بعلوم الأديان والفرق والمذاهب الفكرية."
+    },
+    {
+      "course_code": "2001403-2",
+      "variant_id": "27db6c6fc11c1c93532db11cb7c67f6d2be8e89ae90cfe4d227dcbbe9dff7fea",
+      "source_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001403-2--quran-old-v39.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "ذكر مظاهر الانحراف عن الحق في الأديان والفرق والمذاهب الفكرية."
+    },
+    {
+      "course_code": "2001403-2",
+      "variant_id": "27db6c6fc11c1c93532db11cb7c67f6d2be8e89ae90cfe4d227dcbbe9dff7fea",
+      "source_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001403-2--quran-old-v39.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "توضيح شعائر الأديان الكتابية والوضعية والفرق والمذاهب الفكرية."
+    },
+    {
+      "course_code": "2001403-2",
+      "variant_id": "27db6c6fc11c1c93532db11cb7c67f6d2be8e89ae90cfe4d227dcbbe9dff7fea",
+      "source_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001403-2--quran-old-v39.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الردّ على دعاة التقريب بين الأديان، والتقارب يبين الفرق."
+    },
+    {
+      "course_code": "2001824-2",
+      "variant_id": "086f6995765097ed45a5b49157154c55a66f418415b77d958d3c35a04bd00a7b",
+      "source_pdf": "assets/course-specifications/fiqh-master-1446/2001824-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتصور المسائل المستجدة وكيفية تنزيلها على أصول (فقه المعاملات)."
+    },
+    {
+      "course_code": "2001824-2",
+      "variant_id": "086f6995765097ed45a5b49157154c55a66f418415b77d958d3c35a04bd00a7b",
+      "source_pdf": "assets/course-specifications/fiqh-master-1446/2001824-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التطبيق العملي للمناهج العلمية المتبعة عند العلماء في دراستهم الفقهية للمستجدات الفقهية."
+    },
+    {
+      "course_code": "2001824-2",
+      "variant_id": "086f6995765097ed45a5b49157154c55a66f418415b77d958d3c35a04bd00a7b",
+      "source_pdf": "assets/course-specifications/fiqh-master-1446/2001824-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التطبيق العملي للمناهج العلمية المتبعة عند العلماء في دراستهم الفقهية للمستجدات الفقهية ."
+    },
+    {
+      "course_code": "2001824-2",
+      "variant_id": "086f6995765097ed45a5b49157154c55a66f418415b77d958d3c35a04bd00a7b",
+      "source_pdf": "assets/course-specifications/fiqh-master-1446/2001824-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يلتزم الخريج بالنزاهة والأخلاقيات المهنية والأكاديمية والمواطنة المسؤولة."
+    },
+    {
+      "course_code": "2001824-2",
+      "variant_id": "086f6995765097ed45a5b49157154c55a66f418415b77d958d3c35a04bd00a7b",
+      "source_pdf": "assets/course-specifications/fiqh-master-1446/2001824-2.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتكيف الخريج مع فريق العمل بمرونة وفاعلية لتطوير أدائها."
+    },
+    {
+      "course_code": "2001824-2",
+      "variant_id": "086f6995765097ed45a5b49157154c55a66f418415b77d958d3c35a04bd00a7b",
+      "source_pdf": "assets/course-specifications/fiqh-master-1446/2001824-2.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[3.3].text",
+          "clos[3.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.3 فارغ أو يحمل علامة موضعية بلا ناتج تعلم معتمد داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001909-28",
+      "variant_id": "dd38c34ae7615f3525ac1efab4bbfeb921076b66ab8bc6406594d5c331b55766",
+      "source_pdf": "assets/course-specifications/fiqh-phd-1446/2001909-28.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يصف الطالب المنهج العلمي المطبق في معالجة موضوع رسالته العلمية ."
+    },
+    {
+      "course_code": "2001909-28",
+      "variant_id": "dd38c34ae7615f3525ac1efab4bbfeb921076b66ab8bc6406594d5c331b55766",
+      "source_pdf": "assets/course-specifications/fiqh-phd-1446/2001909-28.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يطبق الطالب ما تعلم من المهارات البحثية والتفكير والنقد والتقويم في كتابة رسالته العلمية مستفيدا من التقنية المعاصرة"
+    },
+    {
+      "course_code": "2001909-28",
+      "variant_id": "dd38c34ae7615f3525ac1efab4bbfeb921076b66ab8bc6406594d5c331b55766",
+      "source_pdf": "assets/course-specifications/fiqh-phd-1446/2001909-28.pdf",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتقبل الطالب الخلاف والنقد ويستفيد منه في تطوير خبراته"
+    },
+    {
+      "course_code": "2001909-28",
+      "variant_id": "dd38c34ae7615f3525ac1efab4bbfeb921076b66ab8bc6406594d5c331b55766",
+      "source_pdf": "assets/course-specifications/fiqh-phd-1446/2001909-28.pdf",
+      "clo_index": 6,
+      "clo_code": "3.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يلتزم الطالب بالتعاون في المجال العلمي مع الآخرين في حل المشكلات البحثية"
+    },
+    {
+      "course_code": "2001909-28",
+      "variant_id": "dd38c34ae7615f3525ac1efab4bbfeb921076b66ab8bc6406594d5c331b55766",
+      "source_pdf": "assets/course-specifications/fiqh-phd-1446/2001909-28.pdf",
+      "clo_index": 7,
+      "clo_code": "3.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يبادر الطالب في الحلول الصحيحة لبناء وطنه ومجتمعه"
+    },
+    {
+      "course_code": "2001881-2",
+      "variant_id": "bdf64491a107061c9f108a58c1d400b16842cd711164b789dfc3c42fb4d1b3b9",
+      "source_pdf": "assets/course-specifications/graduate-all-20260823/law/2001881-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتصور المسائل المستجدة وكيفية تنزيلها على أصول (فقه المعاملات)."
+    },
+    {
+      "course_code": "2001881-2",
+      "variant_id": "bdf64491a107061c9f108a58c1d400b16842cd711164b789dfc3c42fb4d1b3b9",
+      "source_pdf": "assets/course-specifications/graduate-all-20260823/law/2001881-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التطبيق العملي للمناهج العلمية المتبعة عند العلماء في دراستهم الفقهية للمستجدات الفقهية."
+    },
+    {
+      "course_code": "2001881-2",
+      "variant_id": "bdf64491a107061c9f108a58c1d400b16842cd711164b789dfc3c42fb4d1b3b9",
+      "source_pdf": "assets/course-specifications/graduate-all-20260823/law/2001881-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التطبيق العملي للمناهج العلمية المتبعة عند العلماء في دراستهم الفقهية للمستجدات الفقهية ."
+    },
+    {
+      "course_code": "2001881-2",
+      "variant_id": "bdf64491a107061c9f108a58c1d400b16842cd711164b789dfc3c42fb4d1b3b9",
+      "source_pdf": "assets/course-specifications/graduate-all-20260823/law/2001881-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يلتزم الخريج بالنزاهة والأخلاقيات المهنية والأكاديمية والمواطنة المسؤولة."
+    },
+    {
+      "course_code": "2001881-2",
+      "variant_id": "bdf64491a107061c9f108a58c1d400b16842cd711164b789dfc3c42fb4d1b3b9",
+      "source_pdf": "assets/course-specifications/graduate-all-20260823/law/2001881-2.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتكيف الخريج مع فريق العمل بمرونة وفاعلية لتطوير أدائها."
+    },
+    {
+      "course_code": "2001881-2",
+      "variant_id": "bdf64491a107061c9f108a58c1d400b16842cd711164b789dfc3c42fb4d1b3b9",
+      "source_pdf": "assets/course-specifications/graduate-all-20260823/law/2001881-2.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[3.3].text",
+          "clos[3.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.3 فارغ أو يحمل علامة موضعية بلا ناتج تعلم معتمد داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2003347-2",
+      "variant_id": "cd1ecef81f03725b4f1d2358c4711d84d995880ce9e13adfff031ed420271504",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2003347-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يحلل الطالب المعلومات والمفاهيم والنظريات والأفكار والنصوص في المجال القانوني والشرعي لحماية البيئة ويوظفها لإيجاد الحلول العملية للقضايا البيئية المختلفة."
+    },
+    {
+      "course_code": "2003347-2",
+      "variant_id": "cd1ecef81f03725b4f1d2358c4711d84d995880ce9e13adfff031ed420271504",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2003347-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يكتسب الطالب القدرة على التفاعل مع النصوص الشرعية والقانونية وبنود الاتفاقيات الدولية المتعلقة بحماية البيئة وتفسيرها تفسيرًا سليمًا لاستنباط الأحكام منها."
+    },
+    {
+      "course_code": "2003347-2",
+      "variant_id": "cd1ecef81f03725b4f1d2358c4711d84d995880ce9e13adfff031ed420271504",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2003347-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشارك الطالب مجموعات العمل في المناقشات الجماعية والمشاريع والمبادرات المشتركة والعمل بروح الفريق."
+    },
+    {
+      "course_code": "2003347-2",
+      "variant_id": "cd1ecef81f03725b4f1d2358c4711d84d995880ce9e13adfff031ed420271504",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2003347-2.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يساهم الطالب بشكل فعال كعضو أو كقائد في العمل الجماعي ويتحمل المسؤولية المسندة إليه من خلاله."
+    },
+    {
+      "course_code": "2003347-2",
+      "variant_id": "cd1ecef81f03725b4f1d2358c4711d84d995880ce9e13adfff031ed420271504",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2003347-2.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتحلى الطالب بالأخلاق الأكاديمية وينجز المهام الموكلة إليه بفاعلية وشفافية، ويقيم قدراته الذاتية وأدائه للوقوف على نقاط الضعف وتقويمها."
+    },
+    {
+      "course_code": "20014206-2",
+      "variant_id": "92b9f6ec5e2219c4a6ba3163012e78619dac278ea4f036d83c2a9fa19dacd3d2",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20014206-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُحدد الطالب معنى حساب المواريث، والنسب الأربع، وما ينوب عنها من الطرق الحسابية."
+    },
+    {
+      "course_code": "20014206-2",
+      "variant_id": "92b9f6ec5e2219c4a6ba3163012e78619dac278ea4f036d83c2a9fa19dacd3d2",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20014206-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُبرر الطالب من يقدمه من أصحاب الفروض في مسائل المواريث."
+    },
+    {
+      "course_code": "20014206-2",
+      "variant_id": "92b9f6ec5e2219c4a6ba3163012e78619dac278ea4f036d83c2a9fa19dacd3d2",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20014206-2.pdf",
+      "clo_index": 6,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يستخدم الطالب الأصول التي يعتمد عليها في مسائل المواريث."
+    },
+    {
+      "course_code": "20014206-2",
+      "variant_id": "92b9f6ec5e2219c4a6ba3163012e78619dac278ea4f036d83c2a9fa19dacd3d2",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20014206-2.pdf",
+      "clo_index": 7,
+      "clo_code": "2.4",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُبرر الطالب من يقدمه من أصحاب الفروض في مسائل المواريث."
+    },
+    {
+      "course_code": "20021105-2",
+      "variant_id": "cf99f1d6031a7890265f5d1021e2843d0d332730bd556037ed31cb7b85476dca",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20021105-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يبين الطالب الأحكام التجويدية المتعلقة بالأجزاء المقررة من سورة البقرة وجزء عمَّ."
+    },
+    {
+      "course_code": "20021105-2",
+      "variant_id": "cf99f1d6031a7890265f5d1021e2843d0d332730bd556037ed31cb7b85476dca",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20021105-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يحفظ الطالب جزء عمَّ (الجزء الثلاثين) حفظاً متقناً وفق المقرر."
+    },
+    {
+      "course_code": "20021105-2",
+      "variant_id": "cf99f1d6031a7890265f5d1021e2843d0d332730bd556037ed31cb7b85476dca",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20021105-2.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتقن الطالب تلاوة سورة الفاتحة وسورة البقرة (1-141) برواية حفص عن عاصم تلاوة مجودة."
+    },
+    {
+      "course_code": "20021105-2",
+      "variant_id": "cf99f1d6031a7890265f5d1021e2843d0d332730bd556037ed31cb7b85476dca",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20021105-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يميّز الطالب بين القراءات المتقنة للقراء المعتمدين، ويحاكيها في تلاوته."
+    },
+    {
+      "course_code": "20021105-2",
+      "variant_id": "cf99f1d6031a7890265f5d1021e2843d0d332730bd556037ed31cb7b85476dca",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20021105-2.pdf",
+      "clo_index": 4,
+      "clo_code": "3.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يستمع الطالب إلى زملائه ويصوّب أخطاءهم في تلاوة جزء عمَّ."
+    },
+    {
+      "course_code": "2003803-2",
+      "variant_id": "f25a23ccd7201949c9b8634e073350f688d193c4cbf5ef1cdb3a0349a25b74e5",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003803-2--research-methods.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يتعرف الطالب على المصادر التي يرجع إليها للبحث القانوني من الكتب العامة والمتخصصة، والدوريات ورسائل الدكتوراه والماجستير، والأحكام القضائية."
+    },
+    {
+      "course_code": "2003803-2",
+      "variant_id": "f25a23ccd7201949c9b8634e073350f688d193c4cbf5ef1cdb3a0349a25b74e5",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003803-2--research-methods.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يتعرف الطالب على كيفية كتابة البحث القانوني، وكيفية إعداد خطة البحث والمقدمة، وإعداد المعلومات بالبحث، والخاتمة، وقائمة المراجع."
+    },
+    {
+      "course_code": "2003803-2",
+      "variant_id": "f25a23ccd7201949c9b8634e073350f688d193c4cbf5ef1cdb3a0349a25b74e5",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003803-2--research-methods.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تعزيز قدرة الباحث الجيد من خلال تنمية مهارات البحث العلمي في المجال القانوني (كيفية اختيار موضوع علمي يتصف بالجدة والأصالة، وذلك يكون إما في شكل إيجاد حلول قانونية، أو تحليل الظواهر وفهم أسباب نشوئها وتأصيل وتنظير المبادئ القانونية)."
+    },
+    {
+      "course_code": "2003803-2",
+      "variant_id": "f25a23ccd7201949c9b8634e073350f688d193c4cbf5ef1cdb3a0349a25b74e5",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003803-2--research-methods.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الالتزام بقواعد وضوابط البحث العلمي شكلًا وموضوعًا."
+    },
+    {
+      "course_code": "2003803-2",
+      "variant_id": "f25a23ccd7201949c9b8634e073350f688d193c4cbf5ef1cdb3a0349a25b74e5",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003803-2--research-methods.pdf",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "حسن التعامل مع الجهات والأفراد خارج الجامعة في مشروع البحث."
+    },
+    {
+      "course_code": "2003812-2",
+      "variant_id": "deeec85f190e63f52378685a17c092ce0a098585eb8d8cd8ec3ad10013346def",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003812-2--legal-training-1-civil.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشرح الطالب المُصطلحات القانونية الواردة في هذا المُقرر. يعرف الطالب اختصاص القضاء المدني وصياغة صحف وعرائض الدعاوى ، والطعن على الاحكام."
+    },
+    {
+      "course_code": "2003812-2",
+      "variant_id": "deeec85f190e63f52378685a17c092ce0a098585eb8d8cd8ec3ad10013346def",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003812-2--legal-training-1-civil.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتعرف الطالب على كيفية صياغة المذكرات القانونية، والتعرف على المشكلات العملية للعقود المدنية."
+    },
+    {
+      "course_code": "2003812-2",
+      "variant_id": "deeec85f190e63f52378685a17c092ce0a098585eb8d8cd8ec3ad10013346def",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003812-2--legal-training-1-civil.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُقارن الطالب بين بين القوانين المُقارنة بما يخص الأحكام القضائية في الدعاوى المدنية."
+    },
+    {
+      "course_code": "2003812-2",
+      "variant_id": "deeec85f190e63f52378685a17c092ce0a098585eb8d8cd8ec3ad10013346def",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003812-2--legal-training-1-civil.pdf",
+      "clo_index": 6,
+      "clo_code": "3.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُشارك الطالب بفاعلية في تحقيق رؤية المملكة 2030م."
+    },
+    {
+      "course_code": "2003821-2",
+      "variant_id": "bee843a02b70aae302d20dc50c5208a7c48b4e759c510535f0229635801f2b39",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003821-2--commercial-dispute-resolution.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف الطالب المُصطلحات القانونية والمبادئ الواردة في هذا المُقرر ، وكيفية التمييز بينها المفاوضات والوساطة والتوفيق والصلح والتحكيم توضيح اتفاق التحكيم وصوره"
+    },
+    {
+      "course_code": "2003821-2",
+      "variant_id": "bee843a02b70aae302d20dc50c5208a7c48b4e759c510535f0229635801f2b39",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003821-2--commercial-dispute-resolution.pdf",
+      "clo_index": 2,
+      "clo_code": "2.4",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "المناز عات التجارية (التقليدية - الغير تقليدية) وتقسيم كل منهما."
+    },
+    {
+      "course_code": "2003821-2",
+      "variant_id": "bee843a02b70aae302d20dc50c5208a7c48b4e759c510535f0229635801f2b39",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003821-2--commercial-dispute-resolution.pdf",
+      "clo_index": 3,
+      "clo_code": "2.5",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتعرف الطالب على اختصاص المحاكم التجارية في فض المناز عات التجارية ودور اللجان شبه القضائية ذات الاختصاص التجاري واختصاصاتها ونظامها القانوني في النظام السعودي والقوانين المُقارنة. توضيح تنفيذ الحكم على المستوى الوطني والدولي"
+    },
+    {
+      "course_code": "2003821-2",
+      "variant_id": "bee843a02b70aae302d20dc50c5208a7c48b4e759c510535f0229635801f2b39",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003821-2--commercial-dispute-resolution.pdf",
+      "clo_index": 5,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُقارن الطالب بين القوانين المُقارنة بما يخص فض المنازعات التجارية. تحليل ومناقشة الطرق التقليدية وغير التقليدية والاختصاص القضائي لها وكيفية النظر في"
+    },
+    {
+      "course_code": "2003832-2",
+      "variant_id": "f57aff875928bf44ac10b2589922604d51f7e96617f6fa9db668af88a23a2202",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003832-2--international-trade-investment-law.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التعرف على المصطلحات الواردة في المقرر، منها: قانون التجارة الدولية، وعقود التجارة الدولية، والاستثمار الأجنبي، وعقود نقل التكنولوجيا، وغيره."
+    },
+    {
+      "course_code": "2003832-2",
+      "variant_id": "f57aff875928bf44ac10b2589922604d51f7e96617f6fa9db668af88a23a2202",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003832-2--international-trade-investment-law.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الإلمام بالقواعد الأساسية لقانون التجارة الدولية، والتمييز بين القواعد الوطنية للقانون التجاري والقواعد الناظمة لقانون التجارة الدولية."
+    },
+    {
+      "course_code": "2003832-2",
+      "variant_id": "f57aff875928bf44ac10b2589922604d51f7e96617f6fa9db668af88a23a2202",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003832-2--international-trade-investment-law.pdf",
+      "clo_index": 3,
+      "clo_code": "1.4",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "شرح قواعد وإجراءات الاستثمار في المملكة العربية السعودية."
+    },
+    {
+      "course_code": "2003832-2",
+      "variant_id": "f57aff875928bf44ac10b2589922604d51f7e96617f6fa9db668af88a23a2202",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003832-2--international-trade-investment-law.pdf",
+      "clo_index": 5,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تحديد المشاكل القانونية المرتبطة بقانون التجارة الدولية وتحليلها وإيجاد الحلول لها."
+    },
+    {
+      "course_code": "2003832-2",
+      "variant_id": "f57aff875928bf44ac10b2589922604d51f7e96617f6fa9db668af88a23a2202",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003832-2--international-trade-investment-law.pdf",
+      "clo_index": 6,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تحليل النصوص القانونية والسوابق والأحكام القضائية والتحكيمية المرتبطة بمنازعات التجارة الدولية."
+    },
+    {
+      "course_code": "2003832-2",
+      "variant_id": "f57aff875928bf44ac10b2589922604d51f7e96617f6fa9db668af88a23a2202",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003832-2--international-trade-investment-law.pdf",
+      "clo_index": 9,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التواصل الفعال مع الآخرين في المشاريع والمبادرات المشتركة والعمل بروح الفريق، ويتحمل المسؤولية من خلال العمل الجماعي."
+    },
+    {
+      "course_code": "2003833-4",
+      "variant_id": "88dc08df55436599d8a870131f19ba93c5a501d6fbacb9df686c51a710a7efa9",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003833-4--research-project.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يتعرف الطلبة على المراحل العلمية للبحث العلمي ومن ثم تطبقها في البحث."
+    },
+    {
+      "course_code": "2003833-4",
+      "variant_id": "88dc08df55436599d8a870131f19ba93c5a501d6fbacb9df686c51a710a7efa9",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003833-4--research-project.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يتعرف الطلبة على أهمية مشروع بحثه وجدته في مجال تخصصه."
+    },
+    {
+      "course_code": "2003833-4",
+      "variant_id": "88dc08df55436599d8a870131f19ba93c5a501d6fbacb9df686c51a710a7efa9",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003833-4--research-project.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تعزيز قدرة الباحث الجيد من خلال تنمية مهارات البحث العلمي في المجال القانوني (كيفية اختيار موضوع علمي يتصف بالجدة والأصالة، وذلك يكون إما في شكل إيجاد حلول قانونية، أو تحليل الظواهر وفهم أسباب نشوئها وتأصيل وتنظير المبادئ القانونية)."
+    },
+    {
+      "course_code": "2003833-4",
+      "variant_id": "88dc08df55436599d8a870131f19ba93c5a501d6fbacb9df686c51a710a7efa9",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003833-4--research-project.pdf",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "حسن التعامل مع الجهات والأفراد خارج الجامعة في مشروع البحث."
+    },
+    {
+      "course_code": "2003833-4",
+      "variant_id": "88dc08df55436599d8a870131f19ba93c5a501d6fbacb9df686c51a710a7efa9",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003833-4--research-project.pdf",
+      "clo_index": 6,
+      "clo_code": "3.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يقدم الطالب طرقًا حديثة وإبداعية ومبتكرة في البحوث والمواضيع القانونية المعروضة."
+    },
+    {
+      "course_code": "2003801-2",
+      "variant_id": "4dae34b164913af1f3fca99da443a2287145b0b1a8f6b3692560fac3c5dcbf93",
+      "source_pdf": "assets/course-specifications/law-master-1443/2003801-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف الطالب المصطلحات القانونية الواردة في هذا المقرر."
+    },
+    {
+      "course_code": "2003801-2",
+      "variant_id": "4dae34b164913af1f3fca99da443a2287145b0b1a8f6b3692560fac3c5dcbf93",
+      "source_pdf": "assets/course-specifications/law-master-1443/2003801-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يوضح الأحكام القانونية المتعلقة بالاختصاص القضائي وسندات التنفيذ من حيث الطبيعة القانونية وخصائصهما."
+    },
+    {
+      "course_code": "2003801-2",
+      "variant_id": "4dae34b164913af1f3fca99da443a2287145b0b1a8f6b3692560fac3c5dcbf93",
+      "source_pdf": "assets/course-specifications/law-master-1443/2003801-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يذكر الطالب أوجه الفرق بين جهتي القضاء المزدوج في المملكة، وتقسيم كل منهما، وبيان اختصاصاتهما."
+    },
+    {
+      "course_code": "2003801-2",
+      "variant_id": "4dae34b164913af1f3fca99da443a2287145b0b1a8f6b3692560fac3c5dcbf93",
+      "source_pdf": "assets/course-specifications/law-master-1443/2003801-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يقدم الطالب طرقًا حديثة وإبداعية ومبتكرة في القضايا القانونية المعروضة عليه ذات الصلة بالمقرر."
+    },
+    {
+      "course_code": "2003801-2",
+      "variant_id": "4dae34b164913af1f3fca99da443a2287145b0b1a8f6b3692560fac3c5dcbf93",
+      "source_pdf": "assets/course-specifications/law-master-1443/2003801-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشارك الطالب بفاعلية في تحقيق رؤية المملكة 2030م."
+    },
+    {
+      "course_code": "2003813-2",
+      "variant_id": "8c5c71804d412357e51b68135b2a0774bee869ee0696daffb99811397d50ceed",
+      "source_pdf": "assets/course-specifications/law-master-1443/2003813-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التعريف بالآليات القضائية المتبعة التي يتم التدخل بها لتصحيح مسار المشروع ودعم الثقة فيه (للتسوية الوقائية وإعادة التنظيم المالي والتصفية)."
+    },
+    {
+      "course_code": "2003813-2",
+      "variant_id": "8c5c71804d412357e51b68135b2a0774bee869ee0696daffb99811397d50ceed",
+      "source_pdf": "assets/course-specifications/law-master-1443/2003813-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "إلمام الطالب بنظام الإفلاس ولائحته التنفيذية."
+    },
+    {
+      "course_code": "2003813-2",
+      "variant_id": "8c5c71804d412357e51b68135b2a0774bee869ee0696daffb99811397d50ceed",
+      "source_pdf": "assets/course-specifications/law-master-1443/2003813-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تحليل النصوص القانونية والسوابق والأحكام القضائية المرتبطة بآلية التفليسة والقواعد المتبعة لإجراءاتها وإنهائها."
+    },
+    {
+      "course_code": "2003813-2",
+      "variant_id": "8c5c71804d412357e51b68135b2a0774bee869ee0696daffb99811397d50ceed",
+      "source_pdf": "assets/course-specifications/law-master-1443/2003813-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التواصل الفعال مع الآخرين في المشاريع والمبادرات المشتركة والعمل بروح الفريق، ويتحمل المسؤولية من خلال العمل الجماعي."
+    },
+    {
+      "course_code": "2003814-2",
+      "variant_id": "ea42bb455d08ed6db8f5a76201b7e279d8333e8c99a116ec16aef0ef1ea1ca13",
+      "source_pdf": "assets/course-specifications/law-master-1443/2003814-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف الطالب اختصاص القضاء التجاري وصياغة صحف وعرائض الدعاوى، والطعن على الأحكام."
+    },
+    {
+      "course_code": "2003814-2",
+      "variant_id": "ea42bb455d08ed6db8f5a76201b7e279d8333e8c99a116ec16aef0ef1ea1ca13",
+      "source_pdf": "assets/course-specifications/law-master-1443/2003814-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يذكر الطالب أوجه الفرق بين العقود التجارية والمدنية والادارية، وتقسيم كل منهما."
+    },
+    {
+      "course_code": "2003814-2",
+      "variant_id": "ea42bb455d08ed6db8f5a76201b7e279d8333e8c99a116ec16aef0ef1ea1ca13",
+      "source_pdf": "assets/course-specifications/law-master-1443/2003814-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "اكتساب مهارة صياغة العقود والتقارير والمذكرات وكافة الوثائق القانونية الأخرى المرتبطة بالمسائل التجارية، ومعرفة سُبل حل مشكلاتها الشرعية والنظامية."
+    },
+    {
+      "course_code": "2003814-2",
+      "variant_id": "ea42bb455d08ed6db8f5a76201b7e279d8333e8c99a116ec16aef0ef1ea1ca13",
+      "source_pdf": "assets/course-specifications/law-master-1443/2003814-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "المقارنة بين القوانين المقارنة بما يخص الأحكام القضائية في الدعاوى التجارية."
+    },
+    {
+      "course_code": "2003814-2",
+      "variant_id": "ea42bb455d08ed6db8f5a76201b7e279d8333e8c99a116ec16aef0ef1ea1ca13",
+      "source_pdf": "assets/course-specifications/law-master-1443/2003814-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُقدم الطالب طرقاً حديثة وإبداعية ومبتكرة في القضايا القانونية المعروضة عليه ذات الصلة بالمُقرر."
+    },
+    {
+      "course_code": "2003105-3",
+      "variant_id": "d447db9383c7fd5d0a1c96cbf9399b173dd46f99158a7677695318d7a23877d8",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003105-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الإلمام بحقوق وواجبات الأجانب في المملكة مقارنة بالشريعة الإسلامية والقوانين المقارنة."
+    },
+    {
+      "course_code": "2003105-3",
+      "variant_id": "d447db9383c7fd5d0a1c96cbf9399b173dd46f99158a7677695318d7a23877d8",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003105-3.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يقارن بين أحكام مركز الأجانب في المملكة والقانون المقارن."
+    },
+    {
+      "course_code": "2003105-3",
+      "variant_id": "d447db9383c7fd5d0a1c96cbf9399b173dd46f99158a7677695318d7a23877d8",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003105-3.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يطبق القواعد القانونية في مسائل تنازع القوانين بشأن القضايا التي يشترك فيها عدة أطراف من جنسيات مختلفة."
+    },
+    {
+      "course_code": "2003105-3",
+      "variant_id": "d447db9383c7fd5d0a1c96cbf9399b173dd46f99158a7677695318d7a23877d8",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003105-3.pdf",
+      "clo_index": 8,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الدفاع عن الحقوق بالطرق القانونية بما اكتسبه من خبرة في مجال القانون الدولي الخاص."
+    },
+    {
+      "course_code": "20032022-3",
+      "variant_id": "67ca427822e48ff335d60143dfe80919da165942a016a1da0a6dbe003606a3f3",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20032022-3.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف الطالب مفهوم علم الإجرام وأهميته، والاتجاهات الحديثة في تخصص علم الإجرام والعقاب وتطوراته وعلاقته بالتخصصات الأخرى. ويحدد عوامل ارتكاب الجريمة( الفردية والاجتماعية، والمختلطة). وييين صور الجزاء الجنائي والإشكاليات المتصلة بتطبيقه."
+    },
+    {
+      "course_code": "20032022-3",
+      "variant_id": "67ca427822e48ff335d60143dfe80919da165942a016a1da0a6dbe003606a3f3",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20032022-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشرح الطالب النظريات الخاصة بتفسير السلوك الإجرامي، ويستنبط آليات وطرق الحصول على المعلومات النظرية والعملية بما يساعد على تزويد الدارسين بالمعارف والعلوم القانونية والشرعية المتخصصة والمختلفة في مجال القانون الجنائي."
+    },
+    {
+      "course_code": "20032022-3",
+      "variant_id": "67ca427822e48ff335d60143dfe80919da165942a016a1da0a6dbe003606a3f3",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20032022-3.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يفسر الطالب النظريات والنصوص النظامية ويستنبط المعاملة العقابية المناسبة لكل حالة إجرامية. أن يحلل الطالب الإحصاءات الجنائية الصادرة عن الجرائم المرتكبة في المملكة ويقدر على المفاضلة بين النظريات التي تفسر السلوك الإجرامي"
+    },
+    {
+      "course_code": "20032022-3",
+      "variant_id": "67ca427822e48ff335d60143dfe80919da165942a016a1da0a6dbe003606a3f3",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20032022-3.pdf",
+      "clo_index": 4,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يحلل الطالب الدوافع الإجرامية لعدد من الوقائع الإجرامية الحقيقية وتعميق القدرة لديه على تقدير أسلوب المعاملة العقابية الأمثل لاستئصال عوامل الانحراف التي تم استكشافها في المجرم محل الفحص."
+    },
+    {
+      "course_code": "20032022-3",
+      "variant_id": "67ca427822e48ff335d60143dfe80919da165942a016a1da0a6dbe003606a3f3",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20032022-3.pdf",
+      "clo_index": 6,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتواصل الطالب مع الآخرين في المشاريع والمبادرات المشتركة والعمل بروح الفريق،"
+    },
+    {
+      "course_code": "2003227-3",
+      "variant_id": "b33dd86d84688402b6bab7a80c1b4f2075e7f4a71b6c505f7095b3bce2a2ae95",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003227-3.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يفهم الطالب المُصطلحات القانونية الواردة في هذا المُقرر كالأثبات القضائي والاثبات التقليدي والالكتروني ."
+    },
+    {
+      "course_code": "2003227-3",
+      "variant_id": "b33dd86d84688402b6bab7a80c1b4f2075e7f4a71b6c505f7095b3bce2a2ae95",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003227-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يستنبط ويوضح الطالب الأحكام القانونية المتعلقة بكيفية الاثبات في المنازعات المدنية والمناز عات الجنائية والتجارية والادارية."
+    },
+    {
+      "course_code": "2003227-3",
+      "variant_id": "b33dd86d84688402b6bab7a80c1b4f2075e7f4a71b6c505f7095b3bce2a2ae95",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003227-3.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُطبق الطالب القواعد القانونية تطبيقاً يتفقُ وصحيح القانون فيما يتعلق بكيفية الاثبات في المنازعات المدنية والمناز عات الجنائية والتجارية والادارية ."
+    },
+    {
+      "course_code": "2003227-3",
+      "variant_id": "b33dd86d84688402b6bab7a80c1b4f2075e7f4a71b6c505f7095b3bce2a2ae95",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003227-3.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُقارن الطالب بين الاثبات التقليدي والاثبات الالكتروني."
+    },
+    {
+      "course_code": "20033303-2",
+      "variant_id": "3670b884364dd438b9727e83a74ccfb1b1083710b78ab5d770136654fa533d22",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20033303-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يعرف الطالب طبيعة قانون أعالي البحار، وخصائصه التي تميزه عن القانون البحري."
+    },
+    {
+      "course_code": "20033303-2",
+      "variant_id": "3670b884364dd438b9727e83a74ccfb1b1083710b78ab5d770136654fa533d22",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20033303-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يفهم الطالب نطاق قانون أعالي البحار، وقواعد تسوية المنازعات البحرية الدولية، وآليات حماية البيئة البحرية على المستويين الدولي والوطني."
+    },
+    {
+      "course_code": "20033303-2",
+      "variant_id": "3670b884364dd438b9727e83a74ccfb1b1083710b78ab5d770136654fa533d22",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20033303-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يحلل الطالب المعلومات والمفاهيم والنظريات والأفكار والنصوص في مجال قانون أعالي البحار ويوظفها لإيجاد الحلول العملية للقضايا المختلفة."
+    },
+    {
+      "course_code": "20033303-2",
+      "variant_id": "3670b884364dd438b9727e83a74ccfb1b1083710b78ab5d770136654fa533d22",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20033303-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يطبق الطالب أساليب التفكير النقدي والحلول المبتكرة على وقائع افتراضية، ويعرض رأيه عرضاً مقنعاً، ويقدم أدلته ودفوعه بطريقة سليمه لإيجاد الحلول السليمة في القضايا التي يتعرض لها."
+    },
+    {
+      "course_code": "20033303-2",
+      "variant_id": "3670b884364dd438b9727e83a74ccfb1b1083710b78ab5d770136654fa533d22",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20033303-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        6
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يشارك الطالب مجموعات العمل في المناقشات الجماعية والمشاريع والمبادرات المشتركة والعمل بروح الفريق."
+    },
+    {
+      "course_code": "20033303-2",
+      "variant_id": "3670b884364dd438b9727e83a74ccfb1b1083710b78ab5d770136654fa533d22",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20033303-2.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [
+        6
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يتحلى الطالب بالأخلاق الأكاديمية وينجز المهام الموكلة إليه بفاعلية وشفافية، ويقيم قدراته الذاتية وأدائه للوقوف على نقاط الضعف وتقويمها."
+    },
+    {
+      "course_code": "2003380-3",
+      "variant_id": "852503ac2c797d757e217bee6a0230e30d59f1e1fc9e4158949c5c038c0acdf7",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003380-3.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف الطالب المفاهيم القانونية الواردة في هذا المُقرر كعقد الشركة والشركات غير الربحية العامة والخاصة والشركات المهنية والأجنبية، وشرط الأسد، والتصفية، والمصفي، ومراجع الحسابات، والشركة الفعلية والشركات التجارية والمدنية وشركة الشخص الواحد والأسهم والسندات والصكوك."
+    },
+    {
+      "course_code": "2003380-3",
+      "variant_id": "852503ac2c797d757e217bee6a0230e30d59f1e1fc9e4158949c5c038c0acdf7",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003380-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشرح الطالب الأحكام القانونية المُتعلقة بالشركات التجارية والمدنية من حيث طبيعتهما القانونية وأشكالهما وفق القانون"
+    },
+    {
+      "course_code": "2003380-3",
+      "variant_id": "852503ac2c797d757e217bee6a0230e30d59f1e1fc9e4158949c5c038c0acdf7",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003380-3.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُفسر الطالب النصوص القانونية تفسيراً سليماً ويستنبط ما يتفق على منازعات الشركات التجارية."
+    },
+    {
+      "course_code": "2003380-3",
+      "variant_id": "852503ac2c797d757e217bee6a0230e30d59f1e1fc9e4158949c5c038c0acdf7",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003380-3.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُقارن الطالب بين الشركات التجارية والمدنية في القانون التجاري السعودي والأنظمة القانونية المختلفة."
+    },
+    {
+      "course_code": "2003380-3",
+      "variant_id": "852503ac2c797d757e217bee6a0230e30d59f1e1fc9e4158949c5c038c0acdf7",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003380-3.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُحلل الطالب الأسس القانونية التي يقوم عليها نظام الشركات السعودي من خلال اقتراح الحلول المناسبة للقضايا الشائكة."
+    },
+    {
+      "course_code": "2003382-4",
+      "variant_id": "9ed56c757e29bce6841fc1373c0f2e5bd28516fad1f13b8c7ac6bdc8ff9f360b",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003382-4.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يفهم الطالب أركان عقد الزواج وشروطه وآثاره، وأسباب انتهاء رابطة الزوجية من حيث أنواعها وحالاتها والآثار المترتبة عليها وإثباتها والطعن فيها، وكيفية تسوية منازعات الأحوال الشخصية، والجهة المختصة بها."
+    },
+    {
+      "course_code": "2003382-4",
+      "variant_id": "9ed56c757e29bce6841fc1373c0f2e5bd28516fad1f13b8c7ac6bdc8ff9f360b",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003382-4.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يتمكن الطالب من الاستنتاجات القانونية ذات الصلة بنظام الأحوال الشخصية، وتطبيق مواده على القضايا الأسرية."
+    },
+    {
+      "course_code": "2003382-4",
+      "variant_id": "9ed56c757e29bce6841fc1373c0f2e5bd28516fad1f13b8c7ac6bdc8ff9f360b",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003382-4.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        6
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يطبق الطالب أساليب التفكير النقدي والحلول المبتكرة على وقائع افتراضية، ويعرض رأيه عرضاً مقنعاً، ويقدم أدلته ودفوعه بطريقة سليمه لإيجاد الحلول السليمة في القضايا التي يتعرض لها."
+    },
+    {
+      "course_code": "2003382-4",
+      "variant_id": "9ed56c757e29bce6841fc1373c0f2e5bd28516fad1f13b8c7ac6bdc8ff9f360b",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003382-4.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        6
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يكتسب الطالب القدرة على التفاعل مع قواعد قانون الأحوال الشخصية ويُفسيرها تفسيرا سليما لاستنباط الأحكام منها."
+    },
+    {
+      "course_code": "2003382-4",
+      "variant_id": "9ed56c757e29bce6841fc1373c0f2e5bd28516fad1f13b8c7ac6bdc8ff9f360b",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003382-4.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        6
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشارك الطالب مجموعات العمل في المناقشات الجماعية والمشاريع والمبادرات المشتركة والعمل بروح الفريق."
+    },
+    {
+      "course_code": "2003382-4",
+      "variant_id": "9ed56c757e29bce6841fc1373c0f2e5bd28516fad1f13b8c7ac6bdc8ff9f360b",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003382-4.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [
+        6
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتحلى الطالب بالأخلاق الأكاديمية وينجز المهام الموكلة إليه بفاعلية وشفافية، ويقيم قدراته الذاتية وأدائه للوقوف على نقاط الضعف وتقويمها."
+    },
+    {
+      "course_code": "20034201-2",
+      "variant_id": "cc83a4ac333297c4f65c9357e4aa6183092a815ece515b5cf48458f21163baec",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20034201-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يلم الطالب بالمعارف والمفاهيم والمبادئ الأساسية لحماية المستهلك، وماهية نظام حماية المستهلك، وطبيعته، ومصادره، ونطاقه."
+    },
+    {
+      "course_code": "20034201-2",
+      "variant_id": "cc83a4ac333297c4f65c9357e4aa6183092a815ece515b5cf48458f21163baec",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20034201-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "والمخالفات الناشئة عن تطبيق نظام حماية المستهلك والعقوبات المقررة لها، وكيفية تسوية المنازعات الناشئة عنها."
+    },
+    {
+      "course_code": "20034201-2",
+      "variant_id": "cc83a4ac333297c4f65c9357e4aa6183092a815ece515b5cf48458f21163baec",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20034201-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يطبق الطالب أساليب التفكير النقدي والحلول المبتكرة على وقائع افتراضية، ويعرض رأيه عرضًا مقنعًا، ويقدم أدلته ودفوعه بطريقة سليمة لإيجاد الحلول السليمة في القضايا التي يتعرض لها."
+    },
+    {
+      "course_code": "20034201-2",
+      "variant_id": "cc83a4ac333297c4f65c9357e4aa6183092a815ece515b5cf48458f21163baec",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20034201-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        6
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشارك الطالب مجموعات العمل في المناقشات الجماعية والمشاريع والمبادرات المشتركة والعمل بروح الفريق."
+    },
+    {
+      "course_code": "20034201-2",
+      "variant_id": "cc83a4ac333297c4f65c9357e4aa6183092a815ece515b5cf48458f21163baec",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/20034201-2.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [
+        6
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتحلى الطالب بالأخلاق الأكاديمية وينجز المهام الموكلة إليه بفاعلية وشفافية، ويقيم قدراته الذاتية وأدائه للوقوف على نقاط الضعف وتقويمها."
+    },
+    {
+      "course_code": "2003441-3",
+      "variant_id": "b38d2f9c1d77c7ef58ae64c2e65947e790f6eeb510a3df03f1227d33197b89fe",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003441-3.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يكتسب القدرة على التفاعل مع النصوص القانونية والشرعية المختلفة وتحليلها وتفسيرها لاستنباط الأحكام منها."
+    },
+    {
+      "course_code": "2003441-3",
+      "variant_id": "b38d2f9c1d77c7ef58ae64c2e65947e790f6eeb510a3df03f1227d33197b89fe",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003441-3.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يطبق الطالب القواعد القانونية في مسائل منازعات القرارات الإدارية ويفسرها تفسيرا سليما لاستنباط الأحكام منها."
+    },
+    {
+      "course_code": "2003441-3",
+      "variant_id": "b38d2f9c1d77c7ef58ae64c2e65947e790f6eeb510a3df03f1227d33197b89fe",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003441-3.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتحلى بأخلاقيات المهنة ومراعاة أنظمتها والنزاهة والأخلاق الأكاديمية والالتزام بالسلوك المهني القويم."
+    },
+    {
+      "course_code": "2003441-3",
+      "variant_id": "b38d2f9c1d77c7ef58ae64c2e65947e790f6eeb510a3df03f1227d33197b89fe",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003441-3.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التواصل الفعال مع الآخرين في المشاريع والمبادرات المشتركة والعمل بروح الفريق , ويتحمل المسئولية من خلال العمل الجماعي."
+    },
+    {
+      "course_code": "2003803-2",
+      "variant_id": "b6af68f32fdf6ce8a5a6abb191c9d8f71eed67f81da7045af94262d10322cebe",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003803-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يتعرف الطالب على المصادر التي يرجع إليها للبحث القانوني من الكتب العامة والمتخصصة، والدوريات ورسائل الدكتوراه والماجستير، والأحكام القضائية."
+    },
+    {
+      "course_code": "2003803-2",
+      "variant_id": "b6af68f32fdf6ce8a5a6abb191c9d8f71eed67f81da7045af94262d10322cebe",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003803-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يتعرف الطالب على كيفية كتابة البحث القانوني، وكيفية إعداد خطة البحث والمقدمة، وإعداد المعلومات بالبحث، والخاتمة، وقائمة المراجع."
+    },
+    {
+      "course_code": "2003803-2",
+      "variant_id": "b6af68f32fdf6ce8a5a6abb191c9d8f71eed67f81da7045af94262d10322cebe",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003803-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تعزيز قدرة الباحث الجيد من خلال تنمية مهارات البحث العلمي في المجال القانوني (كيفية اختيار موضوع علمي يتصف بالجدة والأصالة، وذلك يكون إما في شكل إيجاد حلول قانونية، أو تحليل الظواهر وفهم أسباب نشوئها وتأصيل وتنظير المبادئ القانونية)."
+    },
+    {
+      "course_code": "2003803-2",
+      "variant_id": "b6af68f32fdf6ce8a5a6abb191c9d8f71eed67f81da7045af94262d10322cebe",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003803-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الالتزام بقواعد وضوابط البحث العلمي شكلًا وموضوعًا."
+    },
+    {
+      "course_code": "2003803-2",
+      "variant_id": "b6af68f32fdf6ce8a5a6abb191c9d8f71eed67f81da7045af94262d10322cebe",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003803-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "حسن التعامل مع الجهات والأفراد خارج الجامعة في مشروع البحث."
+    },
+    {
+      "course_code": "2003804-2",
+      "variant_id": "c546c5fa795c243e2776dd0af8794a57b9092338adbbf3f075720b512b84ed5d",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003804-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشرح الطالب المُصطلحات القانونية الواردة في هذا المُقرر. يعرف الطالب اختصاص القضاء المدني وصياغة صحف وعرائض الدعاوى ، والطعن على الاحكام."
+    },
+    {
+      "course_code": "2003804-2",
+      "variant_id": "c546c5fa795c243e2776dd0af8794a57b9092338adbbf3f075720b512b84ed5d",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003804-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتعرف الطالب على كيفية صياغة المذكرات القانونية، والتعرف على المشكلات العملية للعقود المدنية."
+    },
+    {
+      "course_code": "2003804-2",
+      "variant_id": "c546c5fa795c243e2776dd0af8794a57b9092338adbbf3f075720b512b84ed5d",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003804-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُقارن الطالب بين بين القوانين المُقارنة بما يخص الأحكام القضائية في الدعاوى المدنية."
+    },
+    {
+      "course_code": "2003804-2",
+      "variant_id": "c546c5fa795c243e2776dd0af8794a57b9092338adbbf3f075720b512b84ed5d",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003804-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُشارك الطالب بفاعلية في تحقيق رؤية المملكة 2030م."
+    },
+    {
+      "course_code": "2003811-2",
+      "variant_id": "8cdc5c2788cb6da6fb9f52b257a46183d7cbcba4591ffa9da6d9415292e7f22f",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003811-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف الطالب المُصطلحات القانونية والمبادئ الواردة في هذا المُقرر ، وكيفية التمييز بينها المفاوضات والوساطة والتوفيق والصلح والتحكيم توضيح اتفاق التحكيم وصوره"
+    },
+    {
+      "course_code": "2003811-2",
+      "variant_id": "8cdc5c2788cb6da6fb9f52b257a46183d7cbcba4591ffa9da6d9415292e7f22f",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003811-2.pdf",
+      "clo_index": 2,
+      "clo_code": "2.4",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "المناز عات التجارية (التقليدية - الغير تقليدية) وتقسيم كل منهما."
+    },
+    {
+      "course_code": "2003811-2",
+      "variant_id": "8cdc5c2788cb6da6fb9f52b257a46183d7cbcba4591ffa9da6d9415292e7f22f",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003811-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.5",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتعرف الطالب على اختصاص المحاكم التجارية في فض المناز عات التجارية ودور اللجان شبه القضائية ذات الاختصاص التجاري واختصاصاتها ونظامها القانوني في النظام السعودي والقوانين المُقارنة. توضيح تنفيذ الحكم على المستوى الوطني والدولي"
+    },
+    {
+      "course_code": "2003811-2",
+      "variant_id": "8cdc5c2788cb6da6fb9f52b257a46183d7cbcba4591ffa9da6d9415292e7f22f",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003811-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُقارن الطالب بين القوانين المُقارنة بما يخص فض المنازعات التجارية. تحليل ومناقشة الطرق التقليدية وغير التقليدية والاختصاص القضائي لها وكيفية النظر في"
+    },
+    {
+      "course_code": "2003815-2",
+      "variant_id": "3dc9e7b057d03c5b95974a9f44a5b58ea76f9c982a065c4a5946389e79e2f3d6",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003815-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التعرف على المصطلحات الواردة في المقرر، منها: قانون التجارة الدولية، وعقود التجارة الدولية، والاستثمار الأجنبي، وعقود نقل التكنولوجيا، وغيره."
+    },
+    {
+      "course_code": "2003815-2",
+      "variant_id": "3dc9e7b057d03c5b95974a9f44a5b58ea76f9c982a065c4a5946389e79e2f3d6",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003815-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الإلمام بالقواعد الأساسية لقانون التجارة الدولية، والتمييز بين القواعد الوطنية للقانون التجاري والقواعد الناظمة لقانون التجارة الدولية."
+    },
+    {
+      "course_code": "2003815-2",
+      "variant_id": "3dc9e7b057d03c5b95974a9f44a5b58ea76f9c982a065c4a5946389e79e2f3d6",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003815-2.pdf",
+      "clo_index": 3,
+      "clo_code": "1.4",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "شرح قواعد وإجراءات الاستثمار في المملكة العربية السعودية."
+    },
+    {
+      "course_code": "2003815-2",
+      "variant_id": "3dc9e7b057d03c5b95974a9f44a5b58ea76f9c982a065c4a5946389e79e2f3d6",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003815-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تحديد المشاكل القانونية المرتبطة بقانون التجارة الدولية وتحليلها وإيجاد الحلول لها."
+    },
+    {
+      "course_code": "2003815-2",
+      "variant_id": "3dc9e7b057d03c5b95974a9f44a5b58ea76f9c982a065c4a5946389e79e2f3d6",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003815-2.pdf",
+      "clo_index": 6,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تحليل النصوص القانونية والسوابق والأحكام القضائية والتحكيمية المرتبطة بمنازعات التجارة الدولية."
+    },
+    {
+      "course_code": "2003815-2",
+      "variant_id": "3dc9e7b057d03c5b95974a9f44a5b58ea76f9c982a065c4a5946389e79e2f3d6",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003815-2.pdf",
+      "clo_index": 9,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التواصل الفعال مع الآخرين في المشاريع والمبادرات المشتركة والعمل بروح الفريق، ويتحمل المسؤولية من خلال العمل الجماعي."
+    },
+    {
+      "course_code": "2003833-4",
+      "variant_id": "a91634bc5a991df3eaa3fe943aca41f0337390bb3927df84532be4bb1289a4ec",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003833-4.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يتعرف الطلبة على المراحل العلمية للبحث العلمي ومن ثم تطبقها في البحث."
+    },
+    {
+      "course_code": "2003833-4",
+      "variant_id": "a91634bc5a991df3eaa3fe943aca41f0337390bb3927df84532be4bb1289a4ec",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003833-4.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يتعرف الطلبة على أهمية مشروع بحثه وجدته في مجال تخصصه."
+    },
+    {
+      "course_code": "2003833-4",
+      "variant_id": "a91634bc5a991df3eaa3fe943aca41f0337390bb3927df84532be4bb1289a4ec",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003833-4.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تعزيز قدرة الباحث الجيد من خلال تنمية مهارات البحث العلمي في المجال القانوني (كيفية اختيار موضوع علمي يتصف بالجدة والأصالة، وذلك يكون إما في شكل إيجاد حلول قانونية، أو تحليل الظواهر وفهم أسباب نشوئها وتأصيل وتنظير المبادئ القانونية)."
+    },
+    {
+      "course_code": "2003833-4",
+      "variant_id": "a91634bc5a991df3eaa3fe943aca41f0337390bb3927df84532be4bb1289a4ec",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003833-4.pdf",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "حسن التعامل مع الجهات والأفراد خارج الجامعة في مشروع البحث."
+    },
+    {
+      "course_code": "2003833-4",
+      "variant_id": "a91634bc5a991df3eaa3fe943aca41f0337390bb3927df84532be4bb1289a4ec",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003833-4.pdf",
+      "clo_index": 6,
+      "clo_code": "3.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يقدم الطالب طرقًا حديثة وإبداعية ومبتكرة في البحوث والمواضيع القانونية المعروضة."
+    },
+    {
+      "course_code": "20023101-3",
+      "variant_id": "f5bd301703431d239d0bd4d5aaae9af3d5893c8e82c1611dde8e1572acc16816",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/20023101-3.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشرح الطالب معاني الآيات من سورة البقرة (40-82) مع التعريف بالسورة وأهم خصائصها."
+    },
+    {
+      "course_code": "20023101-3",
+      "variant_id": "f5bd301703431d239d0bd4d5aaae9af3d5893c8e82c1611dde8e1572acc16816",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/20023101-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يوضح الطالب معاني الآيات من سورة النساء (34-76) والقضايا التفسيرية المتعلقة بها مع التعريف بالسورة."
+    },
+    {
+      "course_code": "20023101-3",
+      "variant_id": "f5bd301703431d239d0bd4d5aaae9af3d5893c8e82c1611dde8e1572acc16816",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/20023101-3.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يفسر الطالب معاني الآيات من سورة الأنعام (74-113) وما تتضمنه من أحكام وهدايات مع التعريف بالسورة."
+    },
+    {
+      "course_code": "20023101-3",
+      "variant_id": "f5bd301703431d239d0bd4d5aaae9af3d5893c8e82c1611dde8e1572acc16816",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/20023101-3.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يطبق الطالب منهجية التفسير الصحيحة في الجزء المحدد"
+    },
+    {
+      "course_code": "2002811-8",
+      "variant_id": "09c601e044a5f86eae862613e988d084f0cc685cbd11098d3e7c5cde7f32a14a",
+      "source_pdf": "assets/course-specifications/qiraat-master-1445/2002811-8.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        3
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يصف الطَّالب مناهج القراء السَّبعة واختلافهم فيها في الأبواب المقررة من باب الراءات إلى نهاية فرش سورة النساء، وكيفية تطبيقها عمليًا."
+    },
+    {
+      "course_code": "2002811-8",
+      "variant_id": "09c601e044a5f86eae862613e988d084f0cc685cbd11098d3e7c5cde7f32a14a",
+      "source_pdf": "assets/course-specifications/qiraat-master-1445/2002811-8.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        3
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تطبيقها عمليًا. أن يُوضِّع الطَّالب ما زادته الطَّبِّبة عن الشَّاطبية والدُّرَّة من قراءات، من خلال شرح الأبيات المقررة من باب الراءات إلى نهاية فرش سورة النساء."
+    },
+    {
+      "course_code": "2002811-8",
+      "variant_id": "09c601e044a5f86eae862613e988d084f0cc685cbd11098d3e7c5cde7f32a14a",
+      "source_pdf": "assets/course-specifications/qiraat-master-1445/2002811-8.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        3
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتدرَّب الطَّالب على كيفية أداء وجوه القراءات، ونسبتها لأصحابها وترتيب أوجه خلافهم أثناء القراءة بجمع القراءات."
+    },
+    {
+      "course_code": "2002811-8",
+      "variant_id": "09c601e044a5f86eae862613e988d084f0cc685cbd11098d3e7c5cde7f32a14a",
+      "source_pdf": "assets/course-specifications/qiraat-master-1445/2002811-8.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        3
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُميِّز الطَّالب منهج كل قارئ وراو في الأبواب المقررة من مذاهبهم في الراءات إلى نهاية فرش سورة النساء مع حفظها من متن الطَّبِّبة."
+    },
+    {
+      "course_code": "2002811-8",
+      "variant_id": "09c601e044a5f86eae862613e988d084f0cc685cbd11098d3e7c5cde7f32a14a",
+      "source_pdf": "assets/course-specifications/qiraat-master-1445/2002811-8.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        3
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُطبِّق الطَّالب وجوه القراءات عمليًا، ويستدل عليها أصولا وفرشا من متن الطيبة."
+    },
+    {
+      "course_code": "2002821-8",
+      "variant_id": "b95d95b63196c2e84176db77f7acb8b4f9f2fe388501ba5100513dc1e1419df3",
+      "source_pdf": "assets/course-specifications/qiraat-master-1445/2002821-8.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        3
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُوضِّع الطَّالب ما زادته الطَّبِّبة عن الشَّاطبية والدُّرَّة من قراءات، من خلال شرح الأبيات المقررة من فرش سورة المائدة إلى نهاية فرش سورة الكهف."
+    },
+    {
+      "course_code": "2002821-8",
+      "variant_id": "b95d95b63196c2e84176db77f7acb8b4f9f2fe388501ba5100513dc1e1419df3",
+      "source_pdf": "assets/course-specifications/qiraat-master-1445/2002821-8.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        3
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتدرَّب الطَّالب على كيفية أداء وجوه القراءات، ونسبتها لأصحابها وأدائها أداءً صحيحًا، مع ترتيب أوجه خلافهم أثناء القراءة بجمع القراءات."
+    },
+    {
+      "course_code": "2002821-8",
+      "variant_id": "b95d95b63196c2e84176db77f7acb8b4f9f2fe388501ba5100513dc1e1419df3",
+      "source_pdf": "assets/course-specifications/qiraat-master-1445/2002821-8.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        3
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُميِّز الطَّالب منهج كل قارئ وراو في الأبواب المقررة من فرش سورة المائدة إلى نهاية فرش سورة الكهف مع حفظها من متن الطَّيِّبة."
+    },
+    {
+      "course_code": "2002821-8",
+      "variant_id": "b95d95b63196c2e84176db77f7acb8b4f9f2fe388501ba5100513dc1e1419df3",
+      "source_pdf": "assets/course-specifications/qiraat-master-1445/2002821-8.pdf",
+      "clo_index": 3,
+      "clo_code": "2.2",
+      "pages": [
+        3
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُطبّق الطَّالب وجوه القراءات عمليًا في السور المقررة، ويستدل عليها أصولا وفرشا من متن الطيبة في الأبواب المقررة من فرش سورة المائدة إلى نهاية فرش سورة الكهف."
+    },
+    {
+      "course_code": "2002102-4",
+      "variant_id": "c683273434102d5cd7cafd2f10c106290c992d4a335a768ae13e49a4bffa3fd2",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002102-4.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يوضح الطَّالب مصطلحات علم القراءات، ومنهج الإمام الشَّاطبي في منظومته من خلال شرح أبيات النَّظم المقرَّر من الشَّاطبيَّة وحفظها."
+    },
+    {
+      "course_code": "2002102-4",
+      "variant_id": "c683273434102d5cd7cafd2f10c106290c992d4a335a768ae13e49a4bffa3fd2",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002102-4.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يصف الطَّالب مناهج القرَّاء السَّبعة واختلافهم فيها في الأبواب المقرَّرة، وكيفية نطبيقها عمليًّا."
+    },
+    {
+      "course_code": "2002102-4",
+      "variant_id": "c683273434102d5cd7cafd2f10c106290c992d4a335a768ae13e49a4bffa3fd2",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002102-4.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُطبِّق الطَّالب وجوه اختلاف القرَّاء في الكلمات القرآنيَّة عمليًّا مستدلا عليها من النظم."
+    },
+    {
+      "course_code": "2002102-4",
+      "variant_id": "c683273434102d5cd7cafd2f10c106290c992d4a335a768ae13e49a4bffa3fd2",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002102-4.pdf",
+      "clo_index": 4,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتعاون الطالب مع زملائه لتطبيق وجوه الخلافات الأصولية للقراء والرواة أداءً صحيحًا."
+    },
+    {
+      "course_code": "2002105-4",
+      "variant_id": "a0f44ddc76fdc865c4823be04e689d83937c40cbfc72b9c3d71576020ede7644",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002105-4.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشرح الطَّالب أبيات النَّظم المقرَّر من الشَّاطبيَّة ومصطلحات أبواب الأصول المقررة، مثل: التَّغليظ والتَّرقيق والتَّفخيم والإمالة والتَّقليل وغيرها"
+    },
+    {
+      "course_code": "2002105-4",
+      "variant_id": "a0f44ddc76fdc865c4823be04e689d83937c40cbfc72b9c3d71576020ede7644",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002105-4.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يوضح الطالب مناهج القرَّاء السَّبعة واختلافهم في أبواب الأصول المقررة، مع حفظها."
+    },
+    {
+      "course_code": "2002105-4",
+      "variant_id": "a0f44ddc76fdc865c4823be04e689d83937c40cbfc72b9c3d71576020ede7644",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002105-4.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُجيد الطَّالب وجوه اختلاف القرَّاء في الكلمات القرآنيَّة وفهمها والاستدلال عليها من النظم."
+    },
+    {
+      "course_code": "2002105-4",
+      "variant_id": "a0f44ddc76fdc865c4823be04e689d83937c40cbfc72b9c3d71576020ede7644",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002105-4.pdf",
+      "clo_index": 4,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتعاون الطالب مع زملائه لتطبيق وجوه الخلافات الأصولية للقراء والرواة أداءً صحيحًا."
+    },
+    {
+      "course_code": "2002206-2",
+      "variant_id": "0e0e1043b12e80e0f6d748986fa3310bf5376c76c0388dd811c876b15a233224",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002206-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشرح الطَّالب متن الشَّاطبيَّة في القراءات السَّبع للإمام الشَّاطبي من أوّل سورة المائدة إلى نهاية سورة هود."
+    },
+    {
+      "course_code": "2002206-2",
+      "variant_id": "0e0e1043b12e80e0f6d748986fa3310bf5376c76c0388dd811c876b15a233224",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002206-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُوضِّح الطَّالب مذاهب القرَّاء في كلمات الخلاف الفرشيَّة من أول سورة المائدة إلى نهاية سورة هود"
+    },
+    {
+      "course_code": "2002206-2",
+      "variant_id": "0e0e1043b12e80e0f6d748986fa3310bf5376c76c0388dd811c876b15a233224",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002206-2.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُجيد استخراج الكلمات الفرشيَّة من المنظومة، ونسبتها لأصحابها من القرَّاء والرُّواة، مستدلا عليها من النظم."
+    },
+    {
+      "course_code": "2002206-2",
+      "variant_id": "0e0e1043b12e80e0f6d748986fa3310bf5376c76c0388dd811c876b15a233224",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002206-2.pdf",
+      "clo_index": 3,
+      "clo_code": "3.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتعاون الطالب مع زملائه لإتقان وجوه خلافات القراءات واستنباطها من النظم"
+    },
+    {
+      "course_code": "2002208-2",
+      "variant_id": "fbbe28ee008350f9b27d82b32e02c43e74481bd23828e723e5e50a81d40ae8d6",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002208-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشرح الطالب معاني الآيات من سورة البقرة (40-82) مع التعريف بالسورة وأهم خصائصها."
+    },
+    {
+      "course_code": "2002208-2",
+      "variant_id": "fbbe28ee008350f9b27d82b32e02c43e74481bd23828e723e5e50a81d40ae8d6",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002208-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يوضح الطالب معاني الآيات من سورة النساء (34-76) والقضايا التفسيرية المتعلقة بها مع التعريف بالسورة."
+    },
+    {
+      "course_code": "2002208-2",
+      "variant_id": "fbbe28ee008350f9b27d82b32e02c43e74481bd23828e723e5e50a81d40ae8d6",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002208-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يفسر الطالب معاني الآيات من سورة الأنعام (74-113) وما تتضمنه من أحكام وهدايات مع التعريف بالسورة."
+    },
+    {
+      "course_code": "2002208-2",
+      "variant_id": "fbbe28ee008350f9b27d82b32e02c43e74481bd23828e723e5e50a81d40ae8d6",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002208-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يطبق الطالب منهجية التفسير الصحيحة في الجزء المحدد"
+    },
+    {
+      "course_code": "2002306-2",
+      "variant_id": "a2871b6f114f7b87b1195d8d67fcdeb847771d953fe6ca5b1a2c4524f9d5ccb7",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002306-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشرح الطالب معاني الآيات من سورة التوبة (44-72) مع التعريف بالسورة وأهم خصائصها."
+    },
+    {
+      "course_code": "2002306-2",
+      "variant_id": "a2871b6f114f7b87b1195d8d67fcdeb847771d953fe6ca5b1a2c4524f9d5ccb7",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002306-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يوضح الطالب معاني الآيات من سورة الكهف (1-29) والقضايا التفسيرية المتعلقة بها مع التعريف بالسورة."
+    },
+    {
+      "course_code": "2002306-2",
+      "variant_id": "a2871b6f114f7b87b1195d8d67fcdeb847771d953fe6ca5b1a2c4524f9d5ccb7",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002306-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يفسر الطالب معاني الآيات من سورة الأنبياء (51-104) وما تتضمنه من أحكام وهدايات مع التعريف بالسورة."
+    },
+    {
+      "course_code": "2002306-2",
+      "variant_id": "a2871b6f114f7b87b1195d8d67fcdeb847771d953fe6ca5b1a2c4524f9d5ccb7",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002306-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يطبق الطالب منهجية التفسير الصحيحة في الجزء المحدد"
+    },
+    {
+      "course_code": "103282-2",
+      "variant_id": "265a695d259e487361eff864cff302af39381839a1ffd4d64926706f26e4b90d",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/103282-2.pdf",
+      "clo_index": 3,
+      "clo_code": "1.4",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يوضح الطالب الأحكام النحوية المتعلقة بالنواسخ."
+    },
+    {
+      "course_code": "103282-2",
+      "variant_id": "f3e5a40bcc99a0f708e6863f5abc24ba048fe6e2b7b1f43edb12c98cc6bb41e3",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/103282-2.pdf",
+      "clo_index": 3,
+      "clo_code": "1.4",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يوضح الطالب الأحكام النحوية المتعلقة بالنواسخ."
+    },
+    {
+      "course_code": "103282-2",
+      "variant_id": "265a695d259e487361eff864cff302af39381839a1ffd4d64926706f26e4b90d",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/103282-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يقارن بين (كان وأخواتها) و (إنّ وأخواتها) في نوع كلَّ منها وعمله."
+    },
+    {
+      "course_code": "103282-2",
+      "variant_id": "f3e5a40bcc99a0f708e6863f5abc24ba048fe6e2b7b1f43edb12c98cc6bb41e3",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/103282-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يقارن بين (كان وأخواتها) و (إنّ وأخواتها) في نوع كلَّ منها وعمله."
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "ae4444ba2d0e5e1f5a0c34cbdcba8643cc59d0a1c88827110cc4dcdf6730d8c8",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/103349-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يفهم الطالب الإضافة فهمًا دقيقًا ا يمكنه من التمييز بين نوعيها ويدرك فائدة كل نوع وأثره على اللفظ والمعنى."
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "f5edcf6f0abe5a7e920e6ac13f7cb8e693a297c367fe09d118e6c85691a676b2",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/103349-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يفهم الطالب الإضافة فهمًا دقيقًا ا يمكنه من التمييز بين نوعيها ويدرك فائدة كل نوع وأثره على اللفظ والمعنى."
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "ae4444ba2d0e5e1f5a0c34cbdcba8643cc59d0a1c88827110cc4dcdf6730d8c8",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/103349-2.pdf",
+      "clo_index": 6,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يطبق الطالب على القاعدة النحوية ا التي فهمها تطبيقًا صحيحًا بصياغة جملٍ صحيحةٍ أثناء المحاضرة أو كتابتها أمام زملائه."
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "f5edcf6f0abe5a7e920e6ac13f7cb8e693a297c367fe09d118e6c85691a676b2",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/103349-2.pdf",
+      "clo_index": 6,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يطبق الطالب على القاعدة النحوية ا التي فهمها تطبيقًا صحيحًا بصياغة جملٍ صحيحةٍ أثناء المحاضرة أو كتابتها أمام زملائه."
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "ae4444ba2d0e5e1f5a0c34cbdcba8643cc59d0a1c88827110cc4dcdf6730d8c8",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/103349-2.pdf",
+      "clo_index": 9,
+      "clo_code": "2.4",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يطور الطالب مهاراته من خلال ما اكتسبه من عناصر المقرر المعرفية."
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "f5edcf6f0abe5a7e920e6ac13f7cb8e693a297c367fe09d118e6c85691a676b2",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/103349-2.pdf",
+      "clo_index": 9,
+      "clo_code": "2.4",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يطور الطالب مهاراته من خلال ما اكتسبه من عناصر المقرر المعرفية."
+    },
+    {
+      "course_code": "2001101-2",
+      "variant_id": "b265f636c896f123961887f7de86eb12745ce9c43a34aed001331dbdeef29667",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001101-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "شرح الحديث"
+    },
+    {
+      "course_code": "2001101-2",
+      "variant_id": "b265f636c896f123961887f7de86eb12745ce9c43a34aed001331dbdeef29667",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001101-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تمييز الحديث الصحيح من الحسن."
+    },
+    {
+      "course_code": "2001101-2",
+      "variant_id": "b265f636c896f123961887f7de86eb12745ce9c43a34aed001331dbdeef29667",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001101-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الحكم على الأحاديث النبوية وفق قواعد المحدثين."
+    },
+    {
+      "course_code": "2001101-2",
+      "variant_id": "b265f636c896f123961887f7de86eb12745ce9c43a34aed001331dbdeef29667",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001101-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "المبادرة إلى التعلم الذاتي معرفيا ومهاريا خلال من المقارنة بين القواعد التي درسها وصنيع المحدثين - رحمهم اللّه-."
+    },
+    {
+      "course_code": "2001101-2",
+      "variant_id": "b265f636c896f123961887f7de86eb12745ce9c43a34aed001331dbdeef29667",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001101-2.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "المشاركة في ورش العمل التفاعلية في تطبيق القواعد الحديثية."
+    },
+    {
+      "course_code": "2001101-2",
+      "variant_id": "b265f636c896f123961887f7de86eb12745ce9c43a34aed001331dbdeef29667",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001101-2.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "امتثال آداب المحدث والطالب التي درسها."
+    },
+    {
+      "course_code": "2001261-2",
+      "variant_id": "923f834c2bffe8bac9f7ff4df05caae434ab14a20993ac06325c88bbafa8dc9a",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001261-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[1.2].text",
+          "clos[1.2].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 1.2 فارغ أو يحمل علامة موضعية بلا ناتج تعلم معتمد داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001261-2",
+      "variant_id": "923f834c2bffe8bac9f7ff4df05caae434ab14a20993ac06325c88bbafa8dc9a",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001261-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[2.2].text",
+          "clos[2.2].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 2.2 فارغ أو يحمل علامة موضعية بلا ناتج تعلم معتمد داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001261-2",
+      "variant_id": "923f834c2bffe8bac9f7ff4df05caae434ab14a20993ac06325c88bbafa8dc9a",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001261-2.pdf",
+      "clo_index": 4,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- القدرة على مناقشة القضايا المعاصرة وفق المنهج الحجاجي الشرعية ."
+    },
+    {
+      "course_code": "2001261-2",
+      "variant_id": "923f834c2bffe8bac9f7ff4df05caae434ab14a20993ac06325c88bbafa8dc9a",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001261-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[3.2].text",
+          "clos[3.2].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.2 فارغ أو يحمل علامة موضعية بلا ناتج تعلم معتمد داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001373-2",
+      "variant_id": "b1e0c730e1c3cb0a942e66f9d309b72d0d21440f293428d0d287755ca71feb80",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001373-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تقييم الشبهات الواردة حول نبوة النبي صلى اللّٰه عليه وسلم ."
+    },
+    {
+      "course_code": "2001373-2",
+      "variant_id": "b1e0c730e1c3cb0a942e66f9d309b72d0d21440f293428d0d287755ca71feb80",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001373-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تقييم شبهات المخالفين لمنهج السلف في الملائكة و الكتب وأشراط الساعة"
+    },
+    {
+      "course_code": "2001373-2",
+      "variant_id": "b1e0c730e1c3cb0a942e66f9d309b72d0d21440f293428d0d287755ca71feb80",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001373-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[2.3].text",
+          "clos[2.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 2.3 فارغ أو يحمل علامة موضعية بلا ناتج تعلم معتمد داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001373-2",
+      "variant_id": "b1e0c730e1c3cb0a942e66f9d309b72d0d21440f293428d0d287755ca71feb80",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001373-2.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[3.3].text",
+          "clos[3.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.3 فارغ أو يحمل علامة موضعية بلا ناتج تعلم معتمد داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001403-2",
+      "variant_id": "c3e5caebace0565ca50cec7d5420b5c5ac36f4e408b8381a8a3358b2b0231922",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001403-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تعريف المصطلحات المتعلقة بعلوم الأديان والفرق والمذاهب الفكرية."
+    },
+    {
+      "course_code": "2001403-2",
+      "variant_id": "c3e5caebace0565ca50cec7d5420b5c5ac36f4e408b8381a8a3358b2b0231922",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001403-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "ذكر مظاهر الانحراف عن الحق في الأديان والفرق والمذاهب الفكرية."
+    },
+    {
+      "course_code": "2001403-2",
+      "variant_id": "c3e5caebace0565ca50cec7d5420b5c5ac36f4e408b8381a8a3358b2b0231922",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001403-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "توضيح شعائر الأديان الكتابية والوضعية والفرق والمذاهب الفكرية."
+    },
+    {
+      "course_code": "2001403-2",
+      "variant_id": "c3e5caebace0565ca50cec7d5420b5c5ac36f4e408b8381a8a3358b2b0231922",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001403-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الردّ على دعاة التقريب بين الأديان، والتقارب يبين الفرق."
+    },
+    {
+      "course_code": "2001403-2",
+      "variant_id": "c3e5caebace0565ca50cec7d5420b5c5ac36f4e408b8381a8a3358b2b0231922",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001403-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "المشاركة في الرّد على الشبهات الباطلة للأديان والفرق والمذاهب الفكرية."
+    },
+    {
+      "course_code": "2001403-2",
+      "variant_id": "c3e5caebace0565ca50cec7d5420b5c5ac36f4e408b8381a8a3358b2b0231922",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001403-2.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الكفّ عن مشاركة أهل الباطل في شعائرهم ."
+    },
+    {
+      "course_code": "2002226-2",
+      "variant_id": "5b67de4507d61e060f75716d12c9b05e8de0784e4c88d36553399b935067007e",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2002226-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "شرح غريب الكلمات في الأجزاء المحفوظة"
+    },
+    {
+      "course_code": "2002226-2",
+      "variant_id": "5b67de4507d61e060f75716d12c9b05e8de0784e4c88d36553399b935067007e",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2002226-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[1.3].text",
+          "clos[1.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 1.3 فارغ أو يحمل علامة موضعية بلا ناتج تعلم معتمد داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2002226-2",
+      "variant_id": "5b67de4507d61e060f75716d12c9b05e8de0784e4c88d36553399b935067007e",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2002226-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التطبيق العملي لأحكام ا التجويد عند السرد والتلاوة تطبيقاً صحيحاً باستخدام التقنيات الحديثة"
+    },
+    {
+      "course_code": "2002226-2",
+      "variant_id": "5b67de4507d61e060f75716d12c9b05e8de0784e4c88d36553399b935067007e",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2002226-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[2.3].text",
+          "clos[2.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 2.3 فارغ أو يحمل علامة موضعية بلا ناتج تعلم معتمد داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "20023110-2",
+      "variant_id": "b4d8fe57cbb893db9028d412dfb463f08d4dc9f7da5eb5288d816772629aa7c4",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/20023110-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُصنّف الطّالب المصادر والمراجع حسب علومها ومادتها."
+    },
+    {
+      "course_code": "20023110-2",
+      "variant_id": "b4d8fe57cbb893db9028d412dfb463f08d4dc9f7da5eb5288d816772629aa7c4",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/20023110-2.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يستخدم الطالب المصادر والمراجع في البحث العلمي."
+    },
+    {
+      "course_code": "20023110-2",
+      "variant_id": "b4d8fe57cbb893db9028d412dfb463f08d4dc9f7da5eb5288d816772629aa7c4",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/20023110-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يستخدم الطالب المصادر استخدامًا صحيحًا في الأبحاث العلمية."
+    },
+    {
+      "course_code": "20023110-2",
+      "variant_id": "b4d8fe57cbb893db9028d412dfb463f08d4dc9f7da5eb5288d816772629aa7c4",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/20023110-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُصنِّف الطّالب المصادر الأساسيَّة في كل علم من العلوم."
+    },
+    {
+      "course_code": "2003229-2",
+      "variant_id": "1bb95337e6ba3604c16ba5647954829cf1cf56ad5df6f62032126373301b9d92",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2003229-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يلم الطالب بالمعارف والمفاهيم والمبادئ الأساسية للإجراءات الجزائية والنظريات الأساسية في إطار الأنظمة، ويفهم المعلومات والنظريات والاتجاهات الحديثة في مجال الإجراءات الجزائية وتطوراتها وعلاقتها بالتخصصات القانونية الأخرى."
+    },
+    {
+      "course_code": "2003229-2",
+      "variant_id": "1bb95337e6ba3604c16ba5647954829cf1cf56ad5df6f62032126373301b9d92",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2003229-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يفهم الطالب أوجه التشابه والاختلاف بين الدعوى الجزائية ودعوى الحق الخاص وبين الإجراءات الجزائية في مرحلة جمع الاستدلالات والاختصاصات الاستثنائية لرجال الضبط الجزائي ومرحلة التحقيق ومرحلة المحاكمة من حيث خصائصها والسلطة المختصة بها، والمبادئ الأساسية التي تحكمها وإجراءاتها، والأحكام الجزائية من حيث أركانها وأنواعها وطرق الاعتراض عليها."
+    },
+    {
+      "course_code": "2003229-2",
+      "variant_id": "1bb95337e6ba3604c16ba5647954829cf1cf56ad5df6f62032126373301b9d92",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2003229-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يحلل الطالب المعلومات والمفاهيم والنظريات والأفكار والنصوص في مجال الإجراءات الجزائية ويوظفها لإيجاد الحلول العملية للقضايا المختلفة المطروحة في مجال الإجراءات الجزائية."
+    },
+    {
+      "course_code": "2003229-2",
+      "variant_id": "1bb95337e6ba3604c16ba5647954829cf1cf56ad5df6f62032126373301b9d92",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2003229-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        6
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يطبق الطالب أساليب التفكير النقدي والحلول المبتكرة على وقائع افتراضية، ويعرض رأيه عرضاً مقنعاً، ويقدم أدلته ودفوعه بطريقة سليمه لإيجاد الحلول السليمة في القضايا التمي يتعرض لها."
+    },
+    {
+      "course_code": "20034102-2",
+      "variant_id": "a8044ff591a64008c7f0dd1e08109399aef43f6c5c72d71c0315d32e5348481d",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/20034102-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتعرف الطالب على مفهوم وطبيعة نظام المرافعات، والمبادىء الأساسية التي تحكم النظام القضائي في المملكة، الأحكام القضائية وأنواعها وأهمية التفرقة بين الأنواع المختلفة منها وطرق الطعن عليها، وكيفية الترافع أمام المحاكم والتعرف على قواعد الاختصاص القضائي وأنواعه."
+    },
+    {
+      "course_code": "20034102-2",
+      "variant_id": "a8044ff591a64008c7f0dd1e08109399aef43f6c5c72d71c0315d32e5348481d",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/20034102-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يستنبط الطالب آليات وطرق الحصول على المعلومات المتعلقة بالدعوى القضائية بما تشتمل عليه من: معرفة عوارض الخصومة القضائية وإجراءاتها، الطلبات العارضة والأصلية."
+    },
+    {
+      "course_code": "20034102-2",
+      "variant_id": "a8044ff591a64008c7f0dd1e08109399aef43f6c5c72d71c0315d32e5348481d",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/20034102-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "تطبيق معين. أن يُفسر الطالب النصوص القانونية في مختلف الأنظمة وتحليلها واستنباط ما تم تحليله من خلال المناقشات الجماعية. أن يُقارن الطالب بين القواعد والنظريات القانونية في مجال الدعوى والخصومة القضائية من أجل استنباط الحلول للمشكلات التي تطرأ في الواقع العملي"
+    },
+    {
+      "course_code": "20034102-2",
+      "variant_id": "a8044ff591a64008c7f0dd1e08109399aef43f6c5c72d71c0315d32e5348481d",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/20034102-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.4",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[2.4].text",
+          "clos[2.4].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 2.4 فارغ أو يحمل علامة موضعية بلا ناتج تعلم معتمد داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "20034102-2",
+      "variant_id": "a8044ff591a64008c7f0dd1e08109399aef43f6c5c72d71c0315d32e5348481d",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/20034102-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الشعور بالمسؤولية تجاه تطبيق القواعد القانونية التي استفاد منها الطالب لمواجهة وحل المشكلات العملية والنظرية التي تواجهه وذلك من خلال السلوك الممني والأخلاقي السليم"
+    },
+    {
+      "course_code": "2004273-2",
+      "variant_id": "f31c2e5bb05e85281616705c0abcfcc3399db40e43694c12d5c982c9765e3451",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2004273-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "ة مبادئ العقيدة، • الألوهية بالأدلة"
+    },
+    {
+      "course_code": "2004273-2",
+      "variant_id": "f31c2e5bb05e85281616705c0abcfcc3399db40e43694c12d5c982c9765e3451",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2004273-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "المخالفين لأهل السنة عة في مصادر التلقي دلال على مسائل ة وفي توحيد الألوهية"
+    },
+    {
+      "course_code": "2004273-2",
+      "variant_id": "f31c2e5bb05e85281616705c0abcfcc3399db40e43694c12d5c982c9765e3451",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2004273-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "ط أوجه الاستدلال في ص على المسائل المتعلقة • الألوهية"
+    },
+    {
+      "course_code": "2004273-2",
+      "variant_id": "f31c2e5bb05e85281616705c0abcfcc3399db40e43694c12d5c982c9765e3451",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2004273-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "م خارطة ذهنية توضح ين أهل السنة والجماعة ن خالفهم في المسائل ، بتوحيد الألوهية"
+    },
+    {
+      "course_code": "2003442-3",
+      "variant_id": "90d4b5b379c0cac956822edb2a32a49c4464bff94626ab9d1b441af8876af3f0",
+      "source_pdf": "assets/course-specifications/specialty-recovery-20260826/2003442-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الإلمام بحقوق وواجبات الأجانب في المملكة مقارنة بالشريعة الإسلامية والقوانين المقارنة."
+    },
+    {
+      "course_code": "2003442-3",
+      "variant_id": "90d4b5b379c0cac956822edb2a32a49c4464bff94626ab9d1b441af8876af3f0",
+      "source_pdf": "assets/course-specifications/specialty-recovery-20260826/2003442-3.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يقارن بين أحكام مركز الأجانب في المملكة والقانون المقارن."
+    },
+    {
+      "course_code": "2003442-3",
+      "variant_id": "90d4b5b379c0cac956822edb2a32a49c4464bff94626ab9d1b441af8876af3f0",
+      "source_pdf": "assets/course-specifications/specialty-recovery-20260826/2003442-3.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يطبق القواعد القانونية في مسائل تنازع القوانين بشأن القضايا التي يشترك فيها عدة أطراف من جنسيات مختلفة."
+    },
+    {
+      "course_code": "2003442-3",
+      "variant_id": "90d4b5b379c0cac956822edb2a32a49c4464bff94626ab9d1b441af8876af3f0",
+      "source_pdf": "assets/course-specifications/specialty-recovery-20260826/2003442-3.pdf",
+      "clo_index": 8,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الدفاع عن الحقوق بالطرق القانونية بما اكتسبه من خبرة في مجال القانون الدولي الخاص."
+    },
+    {
+      "course_code": "2003112-2",
+      "variant_id": "6182f2f5b74f834aa87750b01430b0139eca48ae8b91e61af8403a76d05b0272",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003112-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف الطالب المفاهيم القانونية الواردة في هذا المُقرر (الدولة - الدستور - المبادئ الدستورية"
+    },
+    {
+      "course_code": "2003112-2",
+      "variant_id": "6182f2f5b74f834aa87750b01430b0139eca48ae8b91e61af8403a76d05b0272",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003112-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أنظمة الحكم - الحقوق الدستورية ) أن يُقارن الطالب بين أنواع الدساتير وأنظمة الحكم وسلطات الدولة ."
+    },
+    {
+      "course_code": "2003112-2",
+      "variant_id": "6182f2f5b74f834aa87750b01430b0139eca48ae8b91e61af8403a76d05b0272",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003112-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُفسر الطالب النصوص القانونية تفسيراً سليماً ويستنبط ما يتفق على منازعات النظام الدستوري"
+    },
+    {
+      "course_code": "2003112-2",
+      "variant_id": "6182f2f5b74f834aa87750b01430b0139eca48ae8b91e61af8403a76d05b0272",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003112-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُقارن الطالب بين المفاهيم الدستورية الواردة في احكام النظام الأساسي للحكم وفي الأنظمة الدستورية المقارنة."
+    },
+    {
+      "course_code": "2003112-2",
+      "variant_id": "6182f2f5b74f834aa87750b01430b0139eca48ae8b91e61af8403a76d05b0272",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003112-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يكتب الطالب القضايا ومذكرات الدفاع وفق أحكام النظام الدستوري"
+    },
+    {
+      "course_code": "2003112-2",
+      "variant_id": "6182f2f5b74f834aa87750b01430b0139eca48ae8b91e61af8403a76d05b0272",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003112-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[3.2].text",
+          "clos[3.2].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.2 فارغ أو يحمل علامة موضعية بلا ناتج تعلم معتمد داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2003215-2",
+      "variant_id": "e7a4e6419be5eee8e7fb5bbf5c516e18ee123546a97ac08e899fd0092757d651",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003215-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يلم الطالب بالمعارف والمفاهيم والمبادئ والنظريات الأساسية في إطار حماية حقوق الإنسان في الشريعة الإسلامية والأنظمة الوضعية، ويفهم المعلومات والنظريات والاتجاهات الحديثة والاتفاقيات الدولية في مجال حماية حقوق الإنسان وتطوراتها و علاقتها بالتخصصات الأخرى."
+    },
+    {
+      "course_code": "2003215-2",
+      "variant_id": "e7a4e6419be5eee8e7fb5bbf5c516e18ee123546a97ac08e899fd0092757d651",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003215-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يفهم الطالب ضمانات احترام حقوق الإنسان في الشريعة الإسلامية والأنظمة الوضعية (الضمانات الوطنية والدولية)، وآليات حمايتها الوطنية والدولية، ودور المملكة العربية السعودية في تعزيز حقوق الانسان محليا وإقليميا وعالميا، ويعرف الشبهات المثارة حول حقوق الإنسان في الإسلام والرد عليها (الشبهات المثارة حول العقوبات في الإسلام، الشبهات المثارة حول حقوق المرأة في الإسلام)."
+    },
+    {
+      "course_code": "2003215-2",
+      "variant_id": "e7a4e6419be5eee8e7fb5bbf5c516e18ee123546a97ac08e899fd0092757d651",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003215-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يحلل الطالب المعلومات والمفاهيم والنظريات والأفكار والنصوص في مجال حماية حقوق الإنسان في الشريعة الإسلامية والأنظمة الوضعية ويوظفها لإيجاد الحلول العملية للقضايا المختلفة."
+    },
+    {
+      "course_code": "2003215-2",
+      "variant_id": "e7a4e6419be5eee8e7fb5bbf5c516e18ee123546a97ac08e899fd0092757d651",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003215-2.pdf",
+      "clo_index": 7,
+      "clo_code": "3.3",
+      "pages": [
+        6
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "- أن يتحلى الطالب بالأخلاق الأكاديمية وينجز المهام الموكلة إليه بفاعلية وشفافية، ويقيم قدراته الذاتية وأدائه للوقوف على نقاط الضعف وتقويمها."
+    },
+    {
+      "course_code": "2003221-2",
+      "variant_id": "ee46aa166b3a6fc41bfb53f398b8e72a9026de96fd5a7dd9b29b8aceb1222e93",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003221-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف الطالب مفهوم علم الإجرام وأهميته، والاتجاهات الحديثة في تخصص علم الإجرام والعقاب وتطوراته وعلاقته بالتخصصات الأخرى، ويحدد عوامل ارتكاب الجريمة (الفردية والاجتماعية والمختلطة)، ويبين صور الجزاء الجنائي والإشكاليات المتصلة بتطبيقه."
+    },
+    {
+      "course_code": "2003221-2",
+      "variant_id": "ee46aa166b3a6fc41bfb53f398b8e72a9026de96fd5a7dd9b29b8aceb1222e93",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003221-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يستنبط الطالب من المعلومات والنظريات والاتجاهات الحديثة في تخصص علم الإجرام والعقاب."
+    },
+    {
+      "course_code": "2003221-2",
+      "variant_id": "ee46aa166b3a6fc41bfb53f398b8e72a9026de96fd5a7dd9b29b8aceb1222e93",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003221-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يفسر الطالب النظريات والنصوص النظامية ويستنبط المعاملة العقابية المناسبة لكل حالة إجرامية. أن يحلل الطالب الإحصاءات الجنائية الصادرة عن الجرائم المرتكبة في المملكة ويقدر على المفاضلة بين النظريات التي تفسر السلوك الإجرامي"
+    },
+    {
+      "course_code": "2003221-2",
+      "variant_id": "ee46aa166b3a6fc41bfb53f398b8e72a9026de96fd5a7dd9b29b8aceb1222e93",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003221-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يحلل الطالب الدوافع الإجرامية لعدد من الوقائع الإجرامية الحقيقية وتعميق القدرة لديه على تقدير أسلوب المعاملة العقابية الأمثل لاستئصال عوامل الانحراف التي تم استكشافها في المجرم محل الفحص."
+    },
+    {
+      "course_code": "2003225-2",
+      "variant_id": "21cf1793304f55b2eef34fe1933ed5d8ce24b432ea3383719bea5111d882767d",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003225-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف الطالب المفاهيم والمبادئ الأساسية للتنظيم الدولي وموضوعاته ."
+    },
+    {
+      "course_code": "2003225-2",
+      "variant_id": "21cf1793304f55b2eef34fe1933ed5d8ce24b432ea3383719bea5111d882767d",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003225-2.pdf",
+      "clo_index": 3,
+      "clo_code": "1.4",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشرح الطالب القواعد المتعلقة بالموظف الدولي والأعمال القانونية الصادرة عن المنظمة الدولية ودور المنظمات الدولية في تفعيل التعاون بين الدول وتحقيق مصالحها المشتركة وحل المناز عات الدولية."
+    },
+    {
+      "course_code": "2003225-2",
+      "variant_id": "21cf1793304f55b2eef34fe1933ed5d8ce24b432ea3383719bea5111d882767d",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003225-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يطبق الطالب القواعد القانونية في قانون المنظمات الدولية على المنظمات الدولية المختلفة."
+    },
+    {
+      "course_code": "2003225-2",
+      "variant_id": "21cf1793304f55b2eef34fe1933ed5d8ce24b432ea3383719bea5111d882767d",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003225-2.pdf",
+      "clo_index": 7,
+      "clo_code": "2.4",
+      "pages": [
+        6
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يفسر الطالب القواعد القانونية تفسيرا سليما لاستنباط الأحكام منها."
+    },
+    {
+      "course_code": "2003225-2",
+      "variant_id": "21cf1793304f55b2eef34fe1933ed5d8ce24b432ea3383719bea5111d882767d",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003225-2.pdf",
+      "clo_index": 8,
+      "clo_code": "3.1",
+      "pages": [
+        6
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتحمل الطالب مسؤولية عرض آرائه النظامية بشفافية ويتقبل وجهات نظر الآخرين من خلال العمل على إيجاد الحلول الموضوعية السليمة للقضايا التي يتعرض لها."
+    },
+    {
+      "course_code": "2003225-2",
+      "variant_id": "21cf1793304f55b2eef34fe1933ed5d8ce24b432ea3383719bea5111d882767d",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003225-2.pdf",
+      "clo_index": 9,
+      "clo_code": "3.2",
+      "pages": [
+        6
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشارك الطالب مع مجموعات العمل في المناقشات الجماعية ويطبق ما قام بدراسته على ما يوجد على أرض الواقع. الالتزام بضوابط"
+    },
+    {
+      "course_code": "2003226-3",
+      "variant_id": "6ebe2da317145901e4c857516f8bb7d5f4f2461ebbac151e95e50a2b1391c4ec",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003226-3.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        3
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف قواعد القانون الدولي العام وماهيته، ومصادره وتطوره ."
+    },
+    {
+      "course_code": "2003226-3",
+      "variant_id": "6ebe2da317145901e4c857516f8bb7d5f4f2461ebbac151e95e50a2b1391c4ec",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003226-3.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يطبق نصوص القانون الدولي والمعاهدات الدولية بنزاهة."
+    },
+    {
+      "course_code": "2003226-3",
+      "variant_id": "6ebe2da317145901e4c857516f8bb7d5f4f2461ebbac151e95e50a2b1391c4ec",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003226-3.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يتقبل وجهات نظر الآخرين، ويحدد أحكام العلاقات الدولية في المعاهدات والاتفاقيات الدولية."
+    },
+    {
+      "course_code": "2003226-3",
+      "variant_id": "6ebe2da317145901e4c857516f8bb7d5f4f2461ebbac151e95e50a2b1391c4ec",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003226-3.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يشارك الطالب في العمل الجماعي."
+    },
+    {
+      "course_code": "2003313-3",
+      "variant_id": "e70f84b877f8c260444cbcb6284eacf3fe3ba50766fc452f766c95151eedc4df",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003313-3.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف المقصود بأحكام الالتزام والضمان العام، وخصائصه ومخاطرة، والالتزام الطبيعي وحالاته وآثاره. والتنفيذ العيني وأنواعه والاعذار والشرط الجزائي وفوائد التأخير. يستنبط ويحدد الوسائل التي تكفل تنفيذ الالتزام في أموال المدين. وبين طريقة بناء الدعاوى"
+    },
+    {
+      "course_code": "2003313-3",
+      "variant_id": "e70f84b877f8c260444cbcb6284eacf3fe3ba50766fc452f766c95151eedc4df",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003313-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "وبين طريفه باء الدعاوى المختلفة ) غير المباشرة، الدعوى البوليصية ، الصورية، الحق في الحبس.) يفهم المعلومات والنظريات والاتجاهات الحديثة في مجال"
+    },
+    {
+      "course_code": "2003313-3",
+      "variant_id": "e70f84b877f8c260444cbcb6284eacf3fe3ba50766fc452f766c95151eedc4df",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003313-3.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الدعاوى المباشرة وغير المباشرة والدعوى البوليصية ودعوى الصورية .ويستنتج الاحكام المناسبة للوقائع من واقع أوصاف الالتزامات المختلفة. أن يُحلل الطالب الأسس القانونية التي يقوم عليها القانون التجاري السعودي من خلال اقتراح الحلول"
+    },
+    {
+      "course_code": "2003313-3",
+      "variant_id": "e70f84b877f8c260444cbcb6284eacf3fe3ba50766fc452f766c95151eedc4df",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003313-3.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يحلل الطالب الأسس القانونية التي يقوم عليها القانون التجاري السعودي من خلال اقتراح الحلول المناسبة للقضايا الشائكة."
+    },
+    {
+      "course_code": "2003313-3",
+      "variant_id": "e70f84b877f8c260444cbcb6284eacf3fe3ba50766fc452f766c95151eedc4df",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003313-3.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "والعمل بروح الفريق، ويتحمل المسئولية من خلال العمل الجماعي."
+    },
+    {
+      "course_code": "20033201-3",
+      "variant_id": "560d0914e4535f51ed6b37232a1cfd27611b4a1e1745686de76ee7d1c26a93f1",
+      "source_pdf": "assets/course-specifications/systems-source-2022/20033201-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "النماذج الصناعية، البراءة النباتية، العلامات التجارية. أن يستنبط ويوضح الأحكام القانونية المُتعلقة بالملكية الصناعية وبراءة الاختراع والعلامة"
+    },
+    {
+      "course_code": "20033201-3",
+      "variant_id": "560d0914e4535f51ed6b37232a1cfd27611b4a1e1745686de76ee7d1c26a93f1",
+      "source_pdf": "assets/course-specifications/systems-source-2022/20033201-3.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التجارية من حيث طبيعتها القانونية وخصائصها. أن يعرف الطالب أوجه الفرق بين الملكية الصناعية وبراءة الاختراع"
+    },
+    {
+      "course_code": "20033201-3",
+      "variant_id": "560d0914e4535f51ed6b37232a1cfd27611b4a1e1745686de76ee7d1c26a93f1",
+      "source_pdf": "assets/course-specifications/systems-source-2022/20033201-3.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الملكية الصناعية. أن يُقارن الطالب بين العلامة التجارية والاسم التجاري وبراءة الاختراع. أن يُفسر النصوص"
+    },
+    {
+      "course_code": "20033201-3",
+      "variant_id": "560d0914e4535f51ed6b37232a1cfd27611b4a1e1745686de76ee7d1c26a93f1",
+      "source_pdf": "assets/course-specifications/systems-source-2022/20033201-3.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "ال يفسر اللصوص القانونية في نظام"
+    },
+    {
+      "course_code": "20033201-3",
+      "variant_id": "560d0914e4535f51ed6b37232a1cfd27611b4a1e1745686de76ee7d1c26a93f1",
+      "source_pdf": "assets/course-specifications/systems-source-2022/20033201-3.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التواصل الفعال مع الآخرين في المشاريع والمبادرات المشتركة."
+    },
+    {
+      "course_code": "20033201-3",
+      "variant_id": "560d0914e4535f51ed6b37232a1cfd27611b4a1e1745686de76ee7d1c26a93f1",
+      "source_pdf": "assets/course-specifications/systems-source-2022/20033201-3.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "العمل بروح الفريق، ويتحمل المسؤولية من خلال العمل الجماعي."
+    },
+    {
+      "course_code": "2003323-3",
+      "variant_id": "7c8bf71e6323f817060632da8f93297547b0e174b3acf76205ccd8ba348d9635",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003323-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشرح الطالب الموضوعات الرئيسية لجرائم التعزير المنظمة في المملكة العربية السعودية، وأركان الجرائم محل الدراسة والجرائم الملحقة بها."
+    },
+    {
+      "course_code": "2003323-3",
+      "variant_id": "7c8bf71e6323f817060632da8f93297547b0e174b3acf76205ccd8ba348d9635",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003323-3.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يستنبط الطالب آليات وطرق الحصول على المعلومات النظرية والعملية بما يساعد على تزويد الدارسين بالمعارف والعلوم القانونية والشرعية المتخصصة، ومعرفة أركان الجرائم محل الدراسة."
+    },
+    {
+      "course_code": "2003323-3",
+      "variant_id": "7c8bf71e6323f817060632da8f93297547b0e174b3acf76205ccd8ba348d9635",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003323-3.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يقارن الطالب بين الأحكام الخاصة لكل جريمة من الجرائم محل الدراسة، والقواعد والنظريات القانونية ذات الصلة بالنظام الجزائي الخاص لاستنباط الحلول للمشكلات العملية المعروضة عليه."
+    },
+    {
+      "course_code": "2003323-3",
+      "variant_id": "7c8bf71e6323f817060632da8f93297547b0e174b3acf76205ccd8ba348d9635",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003323-3.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن ينجز الطالب المهام الموكلة اليه بفاعلية وشفافية، ويقيم قدراته الذاتية وأدائه للوقوف على نقاط الضعف لتقويمها،"
+    },
+    {
+      "course_code": "2003329-2",
+      "variant_id": "68b3845c0f253959e5fdde4c399351acaf8006024a0cc16129800007350fcc3c",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003329-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "المُصطلحات القانونية الواردة في هذا المُقرر. كعقود التجارة الالكترونية، التوقيع الالكتروني، السجلات الالكترونية، التحكيم الإلكتروني، الوساطة الإلكترونية، القاضي الافتراضي) أن يستنبط ويوضح الأحكام القانونية"
+    },
+    {
+      "course_code": "2003329-2",
+      "variant_id": "68b3845c0f253959e5fdde4c399351acaf8006024a0cc16129800007350fcc3c",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003329-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "المتعلقة بعقود التجارة الالكترونية من حيث طبيعتها القانونية وخصائصها. أن يعرف الطالب أوجه الفرق بين عقود"
+    },
+    {
+      "course_code": "2003329-2",
+      "variant_id": "68b3845c0f253959e5fdde4c399351acaf8006024a0cc16129800007350fcc3c",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003329-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التجارة التقليدية ، وعقود التجارة الالكترونية."
+    },
+    {
+      "course_code": "2003329-2",
+      "variant_id": "68b3845c0f253959e5fdde4c399351acaf8006024a0cc16129800007350fcc3c",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003329-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التواصل الفعال مع الآخرين في المشاريع والمبادرات المشتركة والعمل بروح الفريق، ويتحمل المسئولية من خلال العمل الجماعي. أن يتحلى الطالب ضمن فريق المقرر بفاعلية وفقاً للقواعد"
+    },
+    {
+      "course_code": "2003329-2",
+      "variant_id": "68b3845c0f253959e5fdde4c399351acaf8006024a0cc16129800007350fcc3c",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003329-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتحلى الطالب ضمن فريق المقرر بفاعلية وفقًا للقواعد المهنية."
+    },
+    {
+      "course_code": "2003403-2",
+      "variant_id": "27785ae4ba5c37721b5884f65ad53aeaaf07cdee57760c5146f1027c914b3754",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003403-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف ويستنبط الطالب مصادر القانون الرياضي، بجانب القواعد والانظمة التي تحكم النشاط الرياضي في المملكة العربية السعودية. وبيان وسائل فض المناز عات الرياضية."
+    },
+    {
+      "course_code": "2003403-2",
+      "variant_id": "27785ae4ba5c37721b5884f65ad53aeaaf07cdee57760c5146f1027c914b3754",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003403-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتعرف الطالب على وسائل فض المنازعات الرياضية محليًا وعالميًا."
+    },
+    {
+      "course_code": "2003403-2",
+      "variant_id": "27785ae4ba5c37721b5884f65ad53aeaaf07cdee57760c5146f1027c914b3754",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003403-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يحلل الطالب الأنظمة القانونية الرياضية."
+    },
+    {
+      "course_code": "2003403-2",
+      "variant_id": "27785ae4ba5c37721b5884f65ad53aeaaf07cdee57760c5146f1027c914b3754",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003403-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُطبق الطالب القواعد القانونية الرياضية تطبيقاً يتفقُ وصحيح القانون من خلال تفسير نصوص القانون فيما يتعلق بكيفية فض وتسوية المناز عات الرياضية"
+    },
+    {
+      "course_code": "2003403-2",
+      "variant_id": "27785ae4ba5c37721b5884f65ad53aeaaf07cdee57760c5146f1027c914b3754",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003403-2.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتحلى الطالب ضمن فريق المقرر بفاعلية وفقًا للقواعد المهنية، مع تحمل المسؤولية والقدرة على العمل."
+    },
+    {
+      "course_code": "20034101-3",
+      "variant_id": "b4782aa7f2cae3af27000457035ff6d88e4a2e37e888d8034a72c19ead38f9ce",
+      "source_pdf": "assets/course-specifications/systems-source-2022/20034101-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يستنبط ويوضح الطالب الأحكام القانونية المُتعلقة بالسفينة والطائرة ومتطلبات التسجيل والجنسية وتحديد المسؤولية لأشخاص الملاحة البحرية والجويا واختصاصاتهم .."
+    },
+    {
+      "course_code": "20034101-3",
+      "variant_id": "b4782aa7f2cae3af27000457035ff6d88e4a2e37e888d8034a72c19ead38f9ce",
+      "source_pdf": "assets/course-specifications/systems-source-2022/20034101-3.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف الطالب أوجه الفرق بين السفينة والطائرة، والنظام القانوني الذي يخضع له كل منهما.وبيان مسؤولية الناقل البحري والجوي."
+    },
+    {
+      "course_code": "20034101-3",
+      "variant_id": "b4782aa7f2cae3af27000457035ff6d88e4a2e37e888d8034a72c19ead38f9ce",
+      "source_pdf": "assets/course-specifications/systems-source-2022/20034101-3.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُقارن الطالب بين النظام البحري والجوي في المملكة وغيره من الأنظمة القانونية المُختلفة."
+    },
+    {
+      "course_code": "20034101-3",
+      "variant_id": "b4782aa7f2cae3af27000457035ff6d88e4a2e37e888d8034a72c19ead38f9ce",
+      "source_pdf": "assets/course-specifications/systems-source-2022/20034101-3.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُحلل الطالب الأسس القانونية التي يقوم عليها النظام البحري والجوي من خلال اقتراح الحلول المناسبة للقضايا الشائكة."
+    },
+    {
+      "course_code": "20034101-3",
+      "variant_id": "b4782aa7f2cae3af27000457035ff6d88e4a2e37e888d8034a72c19ead38f9ce",
+      "source_pdf": "assets/course-specifications/systems-source-2022/20034101-3.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التواصل الفعال مع الآخرين في المشاريع والمبادرات المشتركة والعمل بروح الفريق، ويتحمل المسؤولية من خلال العمل الجماعي."
+    },
+    {
+      "course_code": "2003417-3",
+      "variant_id": "db4bb165ce76bafef78111d4cbdeee9ebf238b7881db0e0bc657dd1bf0da17f9",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003417-3.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف الطالب المصطلحات القانونية الواردة في هذا المقرر كعقد العمل، وصاحب العمل، والعامل، والحدث، والعمل المؤقت، والعمل العرضي، والعمل الموسمي، والعمل لبعض الوقت، والأجر الأساسي، والأجر الفعلي، والعمولة، والبدلات، والمنحة أو المكافأة، والميزات العينية."
+    },
+    {
+      "course_code": "2003417-3",
+      "variant_id": "db4bb165ce76bafef78111d4cbdeee9ebf238b7881db0e0bc657dd1bf0da17f9",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003417-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يستنبط ويوضح الأحكام القانونية المتعلقة بنظام العمل من حيث بيان مصادره وخصائصه وآثاره ووقف عقد العمل وانقضائه."
+    },
+    {
+      "course_code": "2003417-3",
+      "variant_id": "db4bb165ce76bafef78111d4cbdeee9ebf238b7881db0e0bc657dd1bf0da17f9",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003417-3.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف الطالب أوجه الفرق بين عقود العمل الفردية والجماعية، وعقد الشركة والمقاولة والبيع والوكالة."
+    },
+    {
+      "course_code": "2003417-3",
+      "variant_id": "db4bb165ce76bafef78111d4cbdeee9ebf238b7881db0e0bc657dd1bf0da17f9",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003417-3.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "العمل بروح الفريق، ويتحمل المسؤولية من خلال العمل الجماعي."
+    },
+    {
+      "course_code": "2003426-2",
+      "variant_id": "e478b170b3b642078f5957a39eed2a412e10ca02a0e879386728bdafea08145c",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003426-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الالمام بالمعارف والمفاهيم والمبادئ القانونية الأساسية للعقود الإدارية"
+    },
+    {
+      "course_code": "2003426-2",
+      "variant_id": "e478b170b3b642078f5957a39eed2a412e10ca02a0e879386728bdafea08145c",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003426-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشرح الطالب الأحكام القانونية المتعلقة بقانون المنافسات والمشتريات الحكومية."
+    },
+    {
+      "course_code": "2003426-2",
+      "variant_id": "e478b170b3b642078f5957a39eed2a412e10ca02a0e879386728bdafea08145c",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003426-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يستنبط آليات وطرق الحصول على المعلومات النظرية والعملية بما يساعد على تزويد الدارسين بالمعارف والعلوم القانونية والشرعية المتخصصة والمختلفة في مجال العقود الإدارية."
+    },
+    {
+      "course_code": "2003426-2",
+      "variant_id": "e478b170b3b642078f5957a39eed2a412e10ca02a0e879386728bdafea08145c",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003426-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "يقارن بين نظام المنافسات والمشتريات السعودي والأنظمة القانونية المختلفة، ويحلل النظريات القانونية لإيجاد الحلول."
+    },
+    {
+      "course_code": "2003426-2",
+      "variant_id": "e478b170b3b642078f5957a39eed2a412e10ca02a0e879386728bdafea08145c",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003426-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "إيجاد الحلول السليمة في القضايا التي يتعرض لها، والتواصل الفعال مع الآخرين في المشاريع والمبادرات المشتركة."
+    },
+    {
+      "course_code": "2003426-2",
+      "variant_id": "e478b170b3b642078f5957a39eed2a412e10ca02a0e879386728bdafea08145c",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003426-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التواصل الفعال مع الآخرين في المشاريع والمبادرات المشتركة والعمل بروح الفريق، ويتحمل المسؤولية من خلال العمل الجماعي."
+    },
+    {
+      "course_code": "2003456-2",
+      "variant_id": "4a1cc9ed687b1b2b3414546ccf1d9270b9df2dd7b487ccbfef5691e2f5107652",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003456-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يفهم الطالب المُصطلحات القانونية الواردة في هذا المُقرر منها: التحكيم، واتفاق التحكيم وصوره، وهيئة التحكيم، إجراءات التحكيم، حكم التحكيم."
+    },
+    {
+      "course_code": "2003456-2",
+      "variant_id": "4a1cc9ed687b1b2b3414546ccf1d9270b9df2dd7b487ccbfef5691e2f5107652",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003456-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يستنبط ويوضح الطالب الأحكام القانونية المتعلقة بنظام التحكيم السعودي منذ بدء التحكيم وحتى نهايته."
+    },
+    {
+      "course_code": "2003456-2",
+      "variant_id": "4a1cc9ed687b1b2b3414546ccf1d9270b9df2dd7b487ccbfef5691e2f5107652",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003456-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يعرف الطالب أوجه الفرق بين نظام التحكيم وغيره من وسائل فض المناز عات."
+    },
+    {
+      "course_code": "2003456-2",
+      "variant_id": "4a1cc9ed687b1b2b3414546ccf1d9270b9df2dd7b487ccbfef5691e2f5107652",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003456-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يحلل الطالب القواعد القانونية المتعلقة بنظام التحكيم."
+    },
+    {
+      "course_code": "2003456-2",
+      "variant_id": "4a1cc9ed687b1b2b3414546ccf1d9270b9df2dd7b487ccbfef5691e2f5107652",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003456-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التواصل الفعال مع الآخرين في المشاريع والمبادرات المشتركة والعمل بروح الفريق، ويتحمل المسؤولية من خلال العمل الجماعي."
+    },
+    {
+      "course_code": "2003456-2",
+      "variant_id": "4a1cc9ed687b1b2b3414546ccf1d9270b9df2dd7b487ccbfef5691e2f5107652",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003456-2.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يتحلى الطالب ضمن فريق المقرر بفاعلية وفقاً للقواعد المهنية."
+    },
+    {
+      "course_code": "2003243-3",
+      "variant_id": "e252fcecf7978956e0807f13e6b26e9a0b5ebf23e55766ae2d7dd0e555a86814",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003243-3.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "الإلمام بالمعارف والمفاهيم والمبادئ القانونية الأساسية للقانون الإداري."
+    },
+    {
+      "course_code": "2003243-3",
+      "variant_id": "e252fcecf7978956e0807f13e6b26e9a0b5ebf23e55766ae2d7dd0e555a86814",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003243-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يشرح الطالب الأحكام القانونية المتعلقة بالقانون الإداري، ويستنبط آليات وطرق الحصول على المعلومات النظرية والعملية بما يساعد على تزويد الدارسين بالمعارف والعلوم القانونية والشرعية المتخصصة والمختلفة في مجال القانون الإداري."
+    },
+    {
+      "course_code": "2003243-3",
+      "variant_id": "e252fcecf7978956e0807f13e6b26e9a0b5ebf23e55766ae2d7dd0e555a86814",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003243-3.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يفسر النصوص القانونية تفسيرًا سليمًا ويستنبط ما يتفق مع القانون الإداري."
+    },
+    {
+      "course_code": "2003243-3",
+      "variant_id": "e252fcecf7978956e0807f13e6b26e9a0b5ebf23e55766ae2d7dd0e555a86814",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003243-3.pdf",
+      "clo_index": 3,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يقارن الطالب بين حقوق وواجبات الموظف العام في القانون السعودي والأنظمة المقارنة الأخرى، ويحلل النظريات القانونية لإيجاد الحلول العملية للقضايا المختلفة في المملكة والقانون المقارن."
+    },
+    {
+      "course_code": "2003243-3",
+      "variant_id": "e252fcecf7978956e0807f13e6b26e9a0b5ebf23e55766ae2d7dd0e555a86814",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003243-3.pdf",
+      "clo_index": 4,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "إيجاد الحلول السليمة في القضايا التي يتعرض لها، والتواصل الفعال مع الآخرين في المشاريع والمبادرات المشتركة."
+    },
+    {
+      "course_code": "2003321-3",
+      "variant_id": "1b696e374d4e4475ddf491308d34335949716d786ac16225cb7d3b400b9ca9d5",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003321-3.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يفهم الطالب المُصطلحات القانونية الواردة في هذا المُقرر كالأوراق التجارية والنظام الصرفي لها والافلاس."
+    },
+    {
+      "course_code": "2003321-3",
+      "variant_id": "1b696e374d4e4475ddf491308d34335949716d786ac16225cb7d3b400b9ca9d5",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003321-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يستنبط ويوضح الأحكام القانونية المُتعلقة بالأوراق التجارية من حيث طبيعتها القانونية وأطرافها وأشكالها"
+    },
+    {
+      "course_code": "2003321-3",
+      "variant_id": "1b696e374d4e4475ddf491308d34335949716d786ac16225cb7d3b400b9ca9d5",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003321-3.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يطبق الطالب القواعد القانونية تطبيقًا يتفق وصحيح القانون في نظام الأوراق التجارية ونظام الإفلاس، ويفرق ما بين إجراءات الإفلاس المختلفة من الافتتاح إلى الآثار والانتهاء."
+    },
+    {
+      "course_code": "2003321-3",
+      "variant_id": "1b696e374d4e4475ddf491308d34335949716d786ac16225cb7d3b400b9ca9d5",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003321-3.pdf",
+      "clo_index": 4,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "أن يُحلل الطالب الأسس القانونية التي يقوم عليها نظام الأوراق التجارية والافلاس من خلال اقتراح الحلول المناسبة للقضايا الشائكة."
+    },
+    {
+      "course_code": "2003321-3",
+      "variant_id": "1b696e374d4e4475ddf491308d34335949716d786ac16225cb7d3b400b9ca9d5",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003321-3.pdf",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:30:00+03:00",
+      "text": "التواصل الفعال مع الآخرين في المشاريع والمبادرات المشتركة والعمل بروح الفريق."
+    }
+  ]
+}
