@@ -1,0 +1,1718 @@
+{
+  "schema_version": "course-outcome-review-batch-v1",
+  "reviewed_at": "2026-09-08T23:00:00+03:00",
+  "policy": "Exact-PDF visual review; OCR is a reading aid only; source gaps stay blank and receive an open PDF recommendation.",
+  "entries": [
+    {
+      "course_code": "20041303-2",
+      "variant_id": "d181db9bfc7c9f85643e3884c2bd6b542bc6f3e93dbbeae05ace5c9b05e63c4c",
+      "source_pdf": "assets/course-specifications/20041303-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يبرهن الطالب على صحة السنة النبوية."
+    },
+    {
+      "course_code": "20041303-2",
+      "variant_id": "d181db9bfc7c9f85643e3884c2bd6b542bc6f3e93dbbeae05ace5c9b05e63c4c",
+      "source_pdf": "assets/course-specifications/20041303-2.pdf",
+      "clo_index": 4,
+      "clo_code": "3.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يبادر الطالب إلى الدفاع عن السنة النبوية ورد الشبهات التي تُثار حولها."
+    },
+    {
+      "course_code": "20041303-2",
+      "variant_id": "d181db9bfc7c9f85643e3884c2bd6b542bc6f3e93dbbeae05ace5c9b05e63c4c",
+      "source_pdf": "assets/course-specifications/20041303-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يكون الطالب قدوة في أخلاق النبي ﷺ ومحبته وأداء حقوقه علينا."
+    },
+    {
+      "course_code": "2001346-2",
+      "variant_id": "b40d3813919eeb74abf37ecdfc14fda57b0f461f56b68d29884c221ee4514f8c",
+      "source_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001346-2--sharia-new-v47.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يوضح الطالب مبادئ علم مقاصد الشريعة، ونشأته، ومؤلفاته."
+    },
+    {
+      "course_code": "2001346-2",
+      "variant_id": "b40d3813919eeb74abf37ecdfc14fda57b0f461f56b68d29884c221ee4514f8c",
+      "source_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001346-2--sharia-new-v47.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يحدد أدلة اعتبار مقاصد الشريعة، وطرق معرفتها، وتقسيماتها"
+    },
+    {
+      "course_code": "2001346-2",
+      "variant_id": "b40d3813919eeb74abf37ecdfc14fda57b0f461f56b68d29884c221ee4514f8c",
+      "source_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001346-2--sharia-new-v47.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[3.2].text",
+          "clos[3.2].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.2 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001803-2",
+      "variant_id": "e0c4131b138b6df616e20139947dd33e1fb3acef755c773277cfdb8f39ab1d7a",
+      "source_pdf": "assets/course-specifications/fiqh-master-1446/2001803-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[1.3].text",
+          "clos[1.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 1.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001803-2",
+      "variant_id": "e0c4131b138b6df616e20139947dd33e1fb3acef755c773277cfdb8f39ab1d7a",
+      "source_pdf": "assets/course-specifications/fiqh-master-1446/2001803-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        4
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[2.3].text",
+          "clos[2.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 2.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001803-2",
+      "variant_id": "e0c4131b138b6df616e20139947dd33e1fb3acef755c773277cfdb8f39ab1d7a",
+      "source_pdf": "assets/course-specifications/fiqh-master-1446/2001803-2.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[3.3].text",
+          "clos[3.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001833-4",
+      "variant_id": "8371e1a5eddc94fa3e38c50f13d34ac6cd329aacea2f7d3244611a4b55c833c7",
+      "source_pdf": "assets/course-specifications/fiqh-master-1446/2001833-4.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يكتب الطالب بحثه بمنهج علمي وفق الإجراءات المتعلقة بكل مرحلة من مراحل إعداد البحث"
+    },
+    {
+      "course_code": "2001833-4",
+      "variant_id": "8371e1a5eddc94fa3e38c50f13d34ac6cd329aacea2f7d3244611a4b55c833c7",
+      "source_pdf": "assets/course-specifications/fiqh-master-1446/2001833-4.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[2.3].text",
+          "clos[2.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 2.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001833-4",
+      "variant_id": "8371e1a5eddc94fa3e38c50f13d34ac6cd329aacea2f7d3244611a4b55c833c7",
+      "source_pdf": "assets/course-specifications/fiqh-master-1446/2001833-4.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[3.3].text",
+          "clos[3.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001713-4",
+      "variant_id": "abbbe1923df648278adcf7ff7f03726432c4806358bd9fc7f14297be76b148b0",
+      "source_pdf": "assets/course-specifications/graduate-all-20260823/fiqh-usul/2001713-4.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يكتب الطالب بحثه بمنهج علمي وفق الإجراءات المتعلقة بكل مرحلة من مراحل إعداد البحث"
+    },
+    {
+      "course_code": "2001713-4",
+      "variant_id": "abbbe1923df648278adcf7ff7f03726432c4806358bd9fc7f14297be76b148b0",
+      "source_pdf": "assets/course-specifications/graduate-all-20260823/fiqh-usul/2001713-4.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[2.3].text",
+          "clos[2.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 2.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001713-4",
+      "variant_id": "abbbe1923df648278adcf7ff7f03726432c4806358bd9fc7f14297be76b148b0",
+      "source_pdf": "assets/course-specifications/graduate-all-20260823/fiqh-usul/2001713-4.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[3.3].text",
+          "clos[3.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001106-2",
+      "variant_id": "0779b43ef1fe33c9c941a0cd2045fa60b9f98ac3561565c2084c4d273d8ad280",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2001106-2--qiraat.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يصف الطالب النبي صلى اللّٰه عليه وسلم."
+    },
+    {
+      "course_code": "2001106-2",
+      "variant_id": "0779b43ef1fe33c9c941a0cd2045fa60b9f98ac3561565c2084c4d273d8ad280",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2001106-2--qiraat.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يدافع الطالب عن شخصية الرسول صلى اللّٰه عليه وسلم في مواجهة الشبه المعاصرة."
+    },
+    {
+      "course_code": "2001106-2",
+      "variant_id": "0779b43ef1fe33c9c941a0cd2045fa60b9f98ac3561565c2084c4d273d8ad280",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2001106-2--qiraat.pdf",
+      "clo_index": 7,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يقتدي الطالب بهدي النبي صلى الله عليه وسلم في أخلاقه ومعاملاته."
+    },
+    {
+      "course_code": "2001106-2",
+      "variant_id": "48fa8b7ecbd18cc5eb884c3a14e0c9265a87b188726fe8af3a763f119aefefde",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2001106-2--quran.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يصف الطالب النبي صلى اللّٰه عليه وسلم."
+    },
+    {
+      "course_code": "2001106-2",
+      "variant_id": "48fa8b7ecbd18cc5eb884c3a14e0c9265a87b188726fe8af3a763f119aefefde",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2001106-2--quran.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يدافع الطالب عن شخصية الرسول صلى اللّٰه عليه وسلم في مواجهة الشبه المعاصرة."
+    },
+    {
+      "course_code": "2001106-2",
+      "variant_id": "48fa8b7ecbd18cc5eb884c3a14e0c9265a87b188726fe8af3a763f119aefefde",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2001106-2--quran.pdf",
+      "clo_index": 7,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يقتدي الطالب بهدي النبي صلى الله عليه وسلم في أخلاقه ومعاملاته."
+    },
+    {
+      "course_code": "2002454-2",
+      "variant_id": "7316dab6e71593a6b24c3b88786a1667fae5354bfa772d46ae52198a5dafe229",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2002454-2--qiraat.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يشرح الطالب مفهوم التفسير الموضوعي ونشأته وتطوره التاريخي وأهميته في العصر الحديث."
+    },
+    {
+      "course_code": "2002454-2",
+      "variant_id": "7316dab6e71593a6b24c3b88786a1667fae5354bfa772d46ae52198a5dafe229",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2002454-2--qiraat.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يوضح الطالب أنواع التفسير الموضوعي ومنهجيته العلمية وخطواته التطبيقية."
+    },
+    {
+      "course_code": "2002454-2",
+      "variant_id": "7316dab6e71593a6b24c3b88786a1667fae5354bfa772d46ae52198a5dafe229",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2002454-2--qiraat.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يستعرض الطالب ضوابط التفسير الموضوعي ومصادره وتطبيقاته في المجالات المختلفة."
+    },
+    {
+      "course_code": "20021201-2",
+      "variant_id": "0892f766572ea69647e4b89229c00a3815f4c5e6ee54c62bf0fe12223284d2d0",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20021201-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يبيّن الطالب الأحكام التجويدية في الأجزاء المقررة من سورة البقرة (142-286) ومن جزء تبارك."
+    },
+    {
+      "course_code": "20021201-2",
+      "variant_id": "0892f766572ea69647e4b89229c00a3815f4c5e6ee54c62bf0fe12223284d2d0",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20021201-2.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يتقن الطالب تلاوة سورة البقرة من الآية 142 إلى نهايتها برواية حفص عن عاصم."
+    },
+    {
+      "course_code": "20021201-2",
+      "variant_id": "0892f766572ea69647e4b89229c00a3815f4c5e6ee54c62bf0fe12223284d2d0",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20021201-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يحرص الطالب على تعاهد ما حفظ سابقاً ومراجعته بصفة دائمة."
+    },
+    {
+      "course_code": "20042104-2",
+      "variant_id": "162b5934158d4fd00952c1b7defa0c40c355a58c20d306f1fc0497ff86c419cc",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20042104-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يستعرض الطالب نماذج وأمثلة لأساليب المناظرة وأدب الحوار."
+    },
+    {
+      "course_code": "20042104-2",
+      "variant_id": "162b5934158d4fd00952c1b7defa0c40c355a58c20d306f1fc0497ff86c419cc",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20042104-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يطبق الطالب قواعد علوم القرآن في تفسير النصوص القرآنية وفهمها."
+    },
+    {
+      "course_code": "20042104-2",
+      "variant_id": "162b5934158d4fd00952c1b7defa0c40c355a58c20d306f1fc0497ff86c419cc",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20042104-2.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يلتزم الطالب بمنهج أهل السنة في تفسير القرآن الكريم."
+    },
+    {
+      "course_code": "20044207-2",
+      "variant_id": "9a664169b5eb4a963a545abdaedc7cdc92fc1c0407e6d283ef00b327e360f29c",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20044207-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يصف الطالب النبي صلى اللّٰه عليه وسلم."
+    },
+    {
+      "course_code": "20044207-2",
+      "variant_id": "9a664169b5eb4a963a545abdaedc7cdc92fc1c0407e6d283ef00b327e360f29c",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20044207-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يدافع الطالب عن شخصية الرسول صلى اللّٰه عليه وسلم في مواجهة الشبه المعاصرة."
+    },
+    {
+      "course_code": "20044207-2",
+      "variant_id": "9a664169b5eb4a963a545abdaedc7cdc92fc1c0407e6d283ef00b327e360f29c",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20044207-2.pdf",
+      "clo_index": 7,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يقتدي الطالب بهدي النبي صلى الله عليه وسلم في أخلاقه ومعاملاته."
+    },
+    {
+      "course_code": "2003811-2",
+      "variant_id": "b1403c59e1f973b4ac860c7579e3ff17918137cd1e05250cb2cf6e639fd67b75",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003811-2--civil-liability.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يشرح الطالب المُصطلحات القانونية الواردة في هذا المُقرر. أن يعرف الطالب الأنظمة المُتعلقة بالمسؤولية المدنية وما يجري عليها من تصرفات قانونية في ظل النظام السعودي."
+    },
+    {
+      "course_code": "2003811-2",
+      "variant_id": "b1403c59e1f973b4ac860c7579e3ff17918137cd1e05250cb2cf6e639fd67b75",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003811-2--civil-liability.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يذكر الطالب أوجه الفرق بين أنواع المسئولية المدنية العقدية والتقصيرية، وتقسيم كل منهما."
+    },
+    {
+      "course_code": "2003811-2",
+      "variant_id": "b1403c59e1f973b4ac860c7579e3ff17918137cd1e05250cb2cf6e639fd67b75",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003811-2--civil-liability.pdf",
+      "clo_index": 6,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يُشارك الطالب بفاعلية في تحقيق رؤية المملكة 2030م."
+    },
+    {
+      "course_code": "2003841-2",
+      "variant_id": "c7234b1d005b0dc09f62d86af560cceaf3862b15f5afc487996db8c080a65e48",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003841-2--government-contracting.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "corrected_source_text",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يشرح الطالب الأحكام القانونية المتعلقة بقانون المنافسات والمشتريات الحكومية.",
+      "action": "إكمال صيغة الفعل الناقصة في بداية الناتج إلى «أن يشرح/أن يتعرف»، مع إبقاء توصية تحديث PDF مفتوحة.",
+      "recommendation": {
+        "fields": [
+          "clos[1.2].text"
+        ],
+        "issue_code": "SOURCE_CLO_TEXT_TYPO",
+        "message": "يفتقد نص CLO 1.2 حرفاً في صيغة الفعل ببداية الناتج داخل ملف PDF.",
+        "recommendation": "تصحيح صيغة الفعل في ملف PDF الرسمي، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2003841-2",
+      "variant_id": "c7234b1d005b0dc09f62d86af560cceaf3862b15f5afc487996db8c080a65e48",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003841-2--government-contracting.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "يستنبط آليات وطرق الحصول على المعلومات النظرية والعملية بما يساعد على تزويد الدارسين بالمعارف، والعلوم القانونية، والشرعية المتخصصة، والمختلفة في مجال العقود الإدارية."
+    },
+    {
+      "course_code": "2003841-2",
+      "variant_id": "c7234b1d005b0dc09f62d86af560cceaf3862b15f5afc487996db8c080a65e48",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003841-2--government-contracting.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يفسر الطالب النصوص القانونية تفسيراً سليماً ويستنبط ما يتفق مع أسس التعاقدات الحكومية."
+    },
+    {
+      "course_code": "2003203-3",
+      "variant_id": "2e95a6d4e2be909b67c259e605be27261eb6b4173cf0fece9a4e1cf53467febb",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003203-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "corrected_source_text",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يشرح الطالب الأحكام القانونية المتعلقة بقانون المنافسات.",
+      "action": "إكمال صيغة الفعل الناقصة في بداية الناتج إلى «أن يشرح/أن يتعرف»، مع إبقاء توصية تحديث PDF مفتوحة.",
+      "recommendation": {
+        "fields": [
+          "clos[1.2].text"
+        ],
+        "issue_code": "SOURCE_CLO_TEXT_TYPO",
+        "message": "يفتقد نص CLO 1.2 حرفاً في صيغة الفعل ببداية الناتج داخل ملف PDF.",
+        "recommendation": "تصحيح صيغة الفعل في ملف PDF الرسمي، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2003203-3",
+      "variant_id": "2e95a6d4e2be909b67c259e605be27261eb6b4173cf0fece9a4e1cf53467febb",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003203-3.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يفسر الطالب النصوص القانونية تفسيراً سليماً ويستنبط ما يتفق مع العقود الإدارية."
+    },
+    {
+      "course_code": "2003203-3",
+      "variant_id": "2e95a6d4e2be909b67c259e605be27261eb6b4173cf0fece9a4e1cf53467febb",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003203-3.pdf",
+      "clo_index": 3,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يقارن الطالب بين ما يتفق مع نظام المنافسات والمشتريات السعودي والأنظمة القانونية المختلفة."
+    },
+    {
+      "course_code": "2003802-2",
+      "variant_id": "283728ca48bfaaf985c05462d782d6b8bce984226dde31c578119d8c7d1dbe21",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003802-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يشرح الطالب المُصطلحات القانونية الواردة في هذا المُقرر. أن يعرف الطالب الأنظمة المُتعلقة بالمسؤولية المدنية وما يجري عليها من تصرفات قانونية في ظل النظام السعودي."
+    },
+    {
+      "course_code": "2003802-2",
+      "variant_id": "283728ca48bfaaf985c05462d782d6b8bce984226dde31c578119d8c7d1dbe21",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003802-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يذكر الطالب أوجه الفرق بين أنواع المسئولية المدنية العقدية والتقصيرية، وتقسيم كل منهما."
+    },
+    {
+      "course_code": "2003802-2",
+      "variant_id": "283728ca48bfaaf985c05462d782d6b8bce984226dde31c578119d8c7d1dbe21",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003802-2.pdf",
+      "clo_index": 6,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يُشارك الطالب بفاعلية في تحقيق رؤية المملكة 2030م."
+    },
+    {
+      "course_code": "2003822-2",
+      "variant_id": "b049b4b786e1a498483f5b41283c992c634dd9e1bad3b880b0f092a52e212ded",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003822-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "corrected_source_text",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يشرح الطالب الأحكام القانونية المتعلقة بقانون المنافسات والمشتريات الحكومية.",
+      "action": "إكمال صيغة الفعل الناقصة في بداية الناتج إلى «أن يشرح/أن يتعرف»، مع إبقاء توصية تحديث PDF مفتوحة.",
+      "recommendation": {
+        "fields": [
+          "clos[1.2].text"
+        ],
+        "issue_code": "SOURCE_CLO_TEXT_TYPO",
+        "message": "يفتقد نص CLO 1.2 حرفاً في صيغة الفعل ببداية الناتج داخل ملف PDF.",
+        "recommendation": "تصحيح صيغة الفعل في ملف PDF الرسمي، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2003822-2",
+      "variant_id": "b049b4b786e1a498483f5b41283c992c634dd9e1bad3b880b0f092a52e212ded",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003822-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "يستنبط آليات وطرق الحصول على المعلومات النظرية والعملية بما يساعد على تزويد الدارسين بالمعارف، والعلوم القانونية، والشرعية المتخصصة، والمختلفة في مجال العقود الإدارية."
+    },
+    {
+      "course_code": "2003822-2",
+      "variant_id": "b049b4b786e1a498483f5b41283c992c634dd9e1bad3b880b0f092a52e212ded",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003822-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يفسر الطالب النصوص القانونية تفسيراً سليماً ويستنبط ما يتفق مع أسس التعاقدات الحكومية."
+    },
+    {
+      "course_code": "2002210-2",
+      "variant_id": "ef762a0bded5ac8101670f36187b8a6208dd83331d4efc65f37e431fe711912a",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002210-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يعرّف الطالب المفاهيم الأساسية المتعلقة بدلالات الألفاظ في القرآن الكريم (المحكم والمتشابه، المتشابه اللفظي، العام والخاص، المطلق والمقيد، المنطوق والمفهوم، المجمل والمبين، المبهم) مع ذكر أمثلة تطبيقية من القرآن الكريم."
+    },
+    {
+      "course_code": "2002210-2",
+      "variant_id": "ef762a0bded5ac8101670f36187b8a6208dd83331d4efc65f37e431fe711912a",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002210-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يشرح الطالب الأساليب البلاغية والمعجمية المتنوعة في القرآن الكريم (غريب القرآن، المعرّب في القرآن، الوجوه والنظائر، المناسبات، الأمثال، القسم، القصص، الجدل) موضحاً خصائصها وأهميتها في فهم النص القرآني."
+    },
+    {
+      "course_code": "2002210-2",
+      "variant_id": "ef762a0bded5ac8101670f36187b8a6208dd83331d4efc65f37e431fe711912a",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002210-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يلخص الطالب المباحث المتعلقة بخدمة النص القرآني وتوظيفه (رسم المصحف، القراءات، إعراب القرآن، ترجمة معاني القرآن، إعجاز القرآن، تدبر القرآن) مبيناً أقسامها وضوابطها وأهميتها في التعامل مع النص القرآني."
+    },
+    {
+      "course_code": "2002801-8",
+      "variant_id": "3153be1fc859b28ed0b16e7e7134895dba77f432f55a55581135b52e05c25e63",
+      "source_pdf": "assets/course-specifications/qiraat-master-1445/2002801-8.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        3
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يصف الطَّالب اصطلاحات الناظم ومناهج القراء العشرة واختلافهم فيها في الأبواب المقررة."
+    },
+    {
+      "course_code": "2002801-8",
+      "variant_id": "3153be1fc859b28ed0b16e7e7134895dba77f432f55a55581135b52e05c25e63",
+      "source_pdf": "assets/course-specifications/qiraat-master-1445/2002801-8.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        3
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يُميِّز الطَّالب منهج كل قارئ وراو في الأبواب المقرَّرة ويستدل على أصولهم من متن الطيبة غيبًا."
+    },
+    {
+      "course_code": "2002801-8",
+      "variant_id": "3153be1fc859b28ed0b16e7e7134895dba77f432f55a55581135b52e05c25e63",
+      "source_pdf": "assets/course-specifications/qiraat-master-1445/2002801-8.pdf",
+      "clo_index": 3,
+      "clo_code": "2.2",
+      "pages": [
+        3
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يطَّبّق الطَّالب وجوه اختلاف القرَّاء في الكلمات القرآنيَّة ويتقنها عمليًا."
+    },
+    {
+      "course_code": "2002201-2",
+      "variant_id": "ffff60328c30529ba7138dc410c501a421bd8aeebb2399605047e162af709df0",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002201-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يشرح الطَّالب متن الشَّاطبيَّة في القراءات السَّبع للإمام الشَّاطبي من أوَّل سورة البقرة إلى نهاية سورة النّساء."
+    },
+    {
+      "course_code": "2002201-2",
+      "variant_id": "ffff60328c30529ba7138dc410c501a421bd8aeebb2399605047e162af709df0",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002201-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يُوضِّح الطَّالب مذاهب القرَّاء في كلمات الخلاف الفرشيَّة من أول سورة البقرة إلى نهاية سورة النّساء."
+    },
+    {
+      "course_code": "2002201-2",
+      "variant_id": "ffff60328c30529ba7138dc410c501a421bd8aeebb2399605047e162af709df0",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002201-2.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يُجيد استخراج الكلمات الفرشيَّة من المنظومة، ونسبتها لأصحابها من القرَّاء والرُّواة، مستدلا عليها من النظم."
+    },
+    {
+      "course_code": "2002204-2",
+      "variant_id": "f4698d8567ea12af95badc1f20a6b697be4d1d4558ce37e221b3a32628a291ae",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002204-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يذكر مفهوم التفسير التحليلي، ومميزاته، وتفسير البسملة والاستعاذة، والفاتحة"
+    },
+    {
+      "course_code": "2002204-2",
+      "variant_id": "f4698d8567ea12af95badc1f20a6b697be4d1d4558ce37e221b3a32628a291ae",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002204-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يشرح الطالب معاني الآيات في سور (النبأ - الأعلى)."
+    },
+    {
+      "course_code": "2002204-2",
+      "variant_id": "f4698d8567ea12af95badc1f20a6b697be4d1d4558ce37e221b3a32628a291ae",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002204-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يطبق الطالب منهجية التفسير الصحيحة في الجزء المحدد"
+    },
+    {
+      "course_code": "2002232-2",
+      "variant_id": "d1b73fbf2c9e78131809aabc4b9a0d951b7b000ec8a69f0a71e8909640b99663",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002232-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يعرّف الطالب المفاهيم الأساسية المتعلقة بدلالات الألفاظ في القرآن الكريم (المحكم والمتشابه، المتشابه اللفظي، العام والخاص، المطلق والمقيد، المنطوق والمفهوم، المجمل والمبين، المبهم) مع ذكر أمثلة تطبيقية من القرآن الكريم."
+    },
+    {
+      "course_code": "2002232-2",
+      "variant_id": "d1b73fbf2c9e78131809aabc4b9a0d951b7b000ec8a69f0a71e8909640b99663",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002232-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يشرح الطالب الأساليب البلاغية والمعجمية المتنوعة في القرآن الكريم (غريب القرآن، المعرّب في القرآن، الوجوه والنظائر، المناسبات، الأمثال، القسم، القصص، الجدل) موضحاً خصائصها وأهميتها في فهم النص القرآني."
+    },
+    {
+      "course_code": "2002232-2",
+      "variant_id": "d1b73fbf2c9e78131809aabc4b9a0d951b7b000ec8a69f0a71e8909640b99663",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002232-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يلخص الطالب المباحث المتعلقة بخدمة النص القرآني وتوظيفه (رسم المصحف، القراءات، إعراب القرآن، ترجمة معاني القرآن، إعجاز القرآن، تدبر القرآن) مبيناً أقسامها وضوابطها وأهميتها في التعامل مع النص القرآني."
+    },
+    {
+      "course_code": "2002301-2",
+      "variant_id": "ef87a7fafd5250ca552cfad044a10b4b666b909b2acbec3a6d924cef8d18a726",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002301-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يشرح الطَّالب متن الشَّاطبيَّة في القراءات السَّبع للإمام الشَّاطبي من أوَّل سورة يوسف إلى نهاية سورة القصص."
+    },
+    {
+      "course_code": "2002301-2",
+      "variant_id": "ef87a7fafd5250ca552cfad044a10b4b666b909b2acbec3a6d924cef8d18a726",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002301-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يُوضِّح الطَّالب مذاهب القرَّاء في كلمات الخلاف الفرشيَّة من أول سورة البقرة إلى نهاية سورة النّساء."
+    },
+    {
+      "course_code": "2002301-2",
+      "variant_id": "ef87a7fafd5250ca552cfad044a10b4b666b909b2acbec3a6d924cef8d18a726",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002301-2.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يُجيد استخراج الكلمات الفرشيَّة من المنظومة، ونسبتها لأصحابها من القرَّاء والرُّواة، مستدلًا عليها من النظم."
+    },
+    {
+      "course_code": "2002307-2",
+      "variant_id": "3db91bc81c8fbb5a8b99f9db1de8439f720c8d11f4f713771f360efd7a493a1d",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002307-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يشرح الطَّالب متن الشَّاطبيَّة في القراءات السَّبع للإمام الشَّاطبي من أوَّل سورة العنكبوت إلى نهاية النظم."
+    },
+    {
+      "course_code": "2002307-2",
+      "variant_id": "3db91bc81c8fbb5a8b99f9db1de8439f720c8d11f4f713771f360efd7a493a1d",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002307-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يُوضِّح الطَّالب مذاهب القرَّاء في كلمات الخلاف الفرشيَّة من أول سورة العنكبوت إلى نهاية سورة الناس."
+    },
+    {
+      "course_code": "2002307-2",
+      "variant_id": "3db91bc81c8fbb5a8b99f9db1de8439f720c8d11f4f713771f360efd7a493a1d",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002307-2.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يُجيد استخراج الكلمات الفرشيَّة من المنظومة، ونسبتها لأصحابها من القرَّاء والرُّواة مستدلًا عليها من النظم."
+    },
+    {
+      "course_code": "2002409-2",
+      "variant_id": "34c31c0de867142c972c2a4f6320a5a21f2d784bf8d85d94b4e07c61319d2b1e",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002409-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يُوضِّح الطَّالب المقدّمات الأساسيَّة في علم عدَّ الآي."
+    },
+    {
+      "course_code": "2002409-2",
+      "variant_id": "34c31c0de867142c972c2a4f6320a5a21f2d784bf8d85d94b4e07c61319d2b1e",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002409-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يستعرض الطَّالب عدد آي كل سورة عند علماء العدد، والآيات المختلف في عدِّها."
+    },
+    {
+      "course_code": "2002409-2",
+      "variant_id": "34c31c0de867142c972c2a4f6320a5a21f2d784bf8d85d94b4e07c61319d2b1e",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002409-2.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يُميِّز الطَّالب اختلاف الفواصل وطرق معرفتها واختلاف عدد آيات السُّور عند علماء العدد."
+    },
+    {
+      "course_code": "2002853-2",
+      "variant_id": "b8e7f90497bcfec223cee9ecd12b851c35ee7f7ff45eb9b74e8ca83690e7c53e",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4,
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يشرح الطالب منهجية التفكير الصحيح في معالجة القضايا والمشكلات العلمية."
+    },
+    {
+      "course_code": "2002853-2",
+      "variant_id": "b8e7f90497bcfec223cee9ecd12b851c35ee7f7ff45eb9b74e8ca83690e7c53e",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[2.3].text",
+          "clos[2.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 2.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2002853-2",
+      "variant_id": "b8e7f90497bcfec223cee9ecd12b851c35ee7f7ff45eb9b74e8ca83690e7c53e",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf",
+      "clo_index": 6,
+      "clo_code": "2.4",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[2.4].text",
+          "clos[2.4].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 2.4 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001237-4",
+      "variant_id": "2b1411196c47e5a4e1de70f55b7f3603a0f743d3726594d96359c809e50c57d2",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001237-4.pdf",
+      "clo_index": 2,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يكون الطالب قادرًا على تطبيق المهارات التي درسها في البرنامج على حالات واقعية في مجال العمل."
+    },
+    {
+      "course_code": "2001237-4",
+      "variant_id": "2b1411196c47e5a4e1de70f55b7f3603a0f743d3726594d96359c809e50c57d2",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001237-4.pdf",
+      "clo_index": 4,
+      "clo_code": "3.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يكون الطالب قادرًا على أن يلتزم بالنزاهة والممارسات الأخلاقية المهنية والأكاديمية في بيئة التدريب / العمل."
+    },
+    {
+      "course_code": "2001237-4",
+      "variant_id": "2b1411196c47e5a4e1de70f55b7f3603a0f743d3726594d96359c809e50c57d2",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001237-4.pdf",
+      "clo_index": 5,
+      "clo_code": "3.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يكون الطالب قادرًا على أن يتحمل مسؤولية تطوير خبراته الشخصية والمهنية ذاتيا وبشكل مستمر."
+    },
+    {
+      "course_code": "2001474-2",
+      "variant_id": "1888aa1bb2d3927de00cb63d48e07fd30d107b2361a0c429d52c6310f0761bb6",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001474-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "تقييم الشبهات الواردة حول مسائل الإيمان"
+    },
+    {
+      "course_code": "2001474-2",
+      "variant_id": "1888aa1bb2d3927de00cb63d48e07fd30d107b2361a0c429d52c6310f0761bb6",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001474-2.pdf",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "pages": [
+        4
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[2.3].text",
+          "clos[2.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 2.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001474-2",
+      "variant_id": "1888aa1bb2d3927de00cb63d48e07fd30d107b2361a0c429d52c6310f0761bb6",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2001474-2.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[3.3].text",
+          "clos[3.3].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2004258-2",
+      "variant_id": "cd60029155fa80e2621166aa80d7d7c665fe59bc359f5fcfec811316d2ff8fd1",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2004258-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "شرح مراحل السيرة النبوية وإقامة دولة الإسلام في المدينة النبوية."
+    },
+    {
+      "course_code": "2004258-2",
+      "variant_id": "cd60029155fa80e2621166aa80d7d7c665fe59bc359f5fcfec811316d2ff8fd1",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2004258-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "تلخيص غزوات الرسول صلى الله عليه وسلم."
+    },
+    {
+      "course_code": "2004258-2",
+      "variant_id": "cd60029155fa80e2621166aa80d7d7c665fe59bc359f5fcfec811316d2ff8fd1",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2004258-2.pdf",
+      "clo_index": 7,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "الاقتداء بالنبي ﷺ في جميع الأحوال."
+    },
+    {
+      "course_code": "2004474-2",
+      "variant_id": "d565844e5b5d3bf354313b734b460bf1e1af07e19b8017c59d24a81b07464a92",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2004474-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "تعداد القواعد العامة في الرد على المخالفين في مسائل الإيمان ومسماه."
+    },
+    {
+      "course_code": "2004474-2",
+      "variant_id": "d565844e5b5d3bf354313b734b460bf1e1af07e19b8017c59d24a81b07464a92",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2004474-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "إجادة التعامل مع وسائل التقنية الحديثة (منصة البلاك بورد) في حلّ التكليفات والاختبارات القصيرة."
+    },
+    {
+      "course_code": "2004474-2",
+      "variant_id": "d565844e5b5d3bf354313b734b460bf1e1af07e19b8017c59d24a81b07464a92",
+      "source_pdf": "assets/course-specifications/raw-recovery-20260827/2004474-2.pdf",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[2.2].text",
+          "clos[2.2].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 2.2 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001126-2",
+      "variant_id": "aa9749fc59793bbc6cd05f879a8f8baf820c0a9a2831ead0c7dda92535ca3d9c",
+      "source_pdf": "assets/course-specifications/sharia-ba-1445/2001126-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يعرف الطالب سيرة الخلفاء الراشدين، ونظام الخلافة الإسلامية."
+    },
+    {
+      "course_code": "2001126-2",
+      "variant_id": "aa9749fc59793bbc6cd05f879a8f8baf820c0a9a2831ead0c7dda92535ca3d9c",
+      "source_pdf": "assets/course-specifications/sharia-ba-1445/2001126-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "corrected_source_text",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يتعرف الطالب على أسس الحكم في عصر الخلفاء، ومصادر الفتيا.",
+      "action": "إكمال صيغة الفعل الناقصة في بداية الناتج إلى «أن يشرح/أن يتعرف»، مع إبقاء توصية تحديث PDF مفتوحة.",
+      "recommendation": {
+        "fields": [
+          "clos[1.2].text"
+        ],
+        "issue_code": "SOURCE_CLO_TEXT_TYPO",
+        "message": "يفتقد نص CLO 1.2 حرفاً في صيغة الفعل ببداية الناتج داخل ملف PDF.",
+        "recommendation": "تصحيح صيغة الفعل في ملف PDF الرسمي، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001126-2",
+      "variant_id": "aa9749fc59793bbc6cd05f879a8f8baf820c0a9a2831ead0c7dda92535ca3d9c",
+      "source_pdf": "assets/course-specifications/sharia-ba-1445/2001126-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[3.2].text",
+          "clos[3.2].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.2 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001260-2",
+      "variant_id": "871fe3e0915a0bcaeb96ff1a3b43a8e236d282408780290c21a1d234d33828fd",
+      "source_pdf": "assets/course-specifications/sharia-ba-1445/2001260-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[1.2].text",
+          "clos[1.2].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 1.2 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001260-2",
+      "variant_id": "871fe3e0915a0bcaeb96ff1a3b43a8e236d282408780290c21a1d234d33828fd",
+      "source_pdf": "assets/course-specifications/sharia-ba-1445/2001260-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[2.2].text",
+          "clos[2.2].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 2.2 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001260-2",
+      "variant_id": "871fe3e0915a0bcaeb96ff1a3b43a8e236d282408780290c21a1d234d33828fd",
+      "source_pdf": "assets/course-specifications/sharia-ba-1445/2001260-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[3.2].text",
+          "clos[3.2].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.2 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001281-2",
+      "variant_id": "608cc0890a4a8e212ab7d6b8ade418a19b609c9b59fc3a9b0d83a85b87fd017d",
+      "source_pdf": "assets/course-specifications/sharia-ba-1445/2001281-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[1.2].text",
+          "clos[1.2].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 1.2 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001281-2",
+      "variant_id": "608cc0890a4a8e212ab7d6b8ade418a19b609c9b59fc3a9b0d83a85b87fd017d",
+      "source_pdf": "assets/course-specifications/sharia-ba-1445/2001281-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.2",
+      "pages": [
+        4
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[2.2].text",
+          "clos[2.2].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 2.2 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2001281-2",
+      "variant_id": "608cc0890a4a8e212ab7d6b8ade418a19b609c9b59fc3a9b0d83a85b87fd017d",
+      "source_pdf": "assets/course-specifications/sharia-ba-1445/2001281-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "source_blank",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "recommendation": {
+        "fields": [
+          "clos[3.2].text",
+          "clos[3.2].plo_codes"
+        ],
+        "issue_code": "SOURCE_CLO_ROW_BLANK",
+        "message": "صف CLO 3.2 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+        "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2003315-3",
+      "variant_id": "1fb2b0739f533794205923b0ce6a9e510192b59e64228e45c41a0b87c12be8d4",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003315-3.pdf",
+      "clo_index": 1,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "القدرة على التحليل والتوضيح والتأصيل."
+    },
+    {
+      "course_code": "2003315-3",
+      "variant_id": "1fb2b0739f533794205923b0ce6a9e510192b59e64228e45c41a0b87c12be8d4",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003315-3.pdf",
+      "clo_index": 2,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "تمكين الطالب من آليات التحليل والتوضيح والتأصيل والمقارنة للأحكام النظامية والاجتهادات القضائية في مجال العقود المدنية وإشكالاته العملية والفقه قضائية."
+    },
+    {
+      "course_code": "2003315-3",
+      "variant_id": "1fb2b0739f533794205923b0ce6a9e510192b59e64228e45c41a0b87c12be8d4",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003315-3.pdf",
+      "clo_index": 3,
+      "clo_code": "3.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "تمكين الطالب سبل الربط السليم بين الدراسة النظرية لموضوع العقود المدنية وفقاً لنصوص نظام العقود المدنية السعودي والواقع العملي المطبق."
+    },
+    {
+      "course_code": "2003404-2",
+      "variant_id": "3e7fdd03a4c8752c02567550839f1c908895e982f484fc57dac73787081f5df1",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003404-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يعرف الطالب الجهة المختصة بنظر المنازعات أمام القضاء العام أو الإداري، وصياغة صحف وعرائض الدعاوى، والطعن على الأحكام."
+    },
+    {
+      "course_code": "2003404-2",
+      "variant_id": "3e7fdd03a4c8752c02567550839f1c908895e982f484fc57dac73787081f5df1",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003404-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يذكر الطالب أوجه الفرق بين العقود المدنية والعقود الإدارية، وتقسيم كل منهما."
+    },
+    {
+      "course_code": "2003404-2",
+      "variant_id": "3e7fdd03a4c8752c02567550839f1c908895e982f484fc57dac73787081f5df1",
+      "source_pdf": "assets/course-specifications/systems-source-2022/2003404-2.pdf",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يُطبق الطالب القواعد القانونية على المنازعات تطبيقاً يتفق وصحيح القانون."
+    },
+    {
+      "course_code": "2003381-3",
+      "variant_id": "f5fd7811a8b9ac839fde4e86efe82d1b2ff000056b45df4447b889a8577c0088",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003381-3.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "الإلمام بالمعارف والمفاهيم والمبادئ القانونية الأساسية للقضاء الإداري."
+    },
+    {
+      "course_code": "2003381-3",
+      "variant_id": "f5fd7811a8b9ac839fde4e86efe82d1b2ff000056b45df4447b889a8577c0088",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003381-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يشرح الطالب دعوى الإلغاء، التعويض، الدعوى التأديبية."
+    },
+    {
+      "course_code": "2003381-3",
+      "variant_id": "f5fd7811a8b9ac839fde4e86efe82d1b2ff000056b45df4447b889a8577c0088",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003381-3.pdf",
+      "clo_index": 3,
+      "clo_code": "2.2",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يقارن الطالب بين القضاء الإداري في المملكة والأنظمة القانونية المختلفة."
+    },
+    {
+      "course_code": "2003492-3",
+      "variant_id": "0b458a24f6cb738005ce6c6c1b5591326d217a6c4adc7922965088c9ae5856ab",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003492-3.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [
+        4
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يستنبط ويوضح الأحكام القانونية المُتعلقة بالتنفيذ الجبري من حيث طبيعته القانونية وخصائصه."
+    },
+    {
+      "course_code": "2003492-3",
+      "variant_id": "0b458a24f6cb738005ce6c6c1b5591326d217a6c4adc7922965088c9ae5856ab",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003492-3.pdf",
+      "clo_index": 6,
+      "clo_code": "3.1",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "التواصل الفعال مع الآخرين في المشاريع والمبادرات المشتركة."
+    },
+    {
+      "course_code": "2003492-3",
+      "variant_id": "0b458a24f6cb738005ce6c6c1b5591326d217a6c4adc7922965088c9ae5856ab",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003492-3.pdf",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "pages": [
+        5
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "text": "أن يتحلى الطالب ضمن فريق المقرر بفاعلية وفقاً للقواعد المهنية."
+    },
+    {
+      "course_code": "2003841-2",
+      "variant_id": "c7234b1d005b0dc09f62d86af560cceaf3862b15f5afc487996db8c080a65e48",
+      "source_pdf": "assets/course-specifications/law-master-1443-catalog-only/2003841-2--government-contracting.pdf",
+      "clo_index": null,
+      "clo_code": null,
+      "pages": [
+        4,
+        5
+      ],
+      "disposition": "source_gap_only",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "action": "إثبات خلل بنيوي في ترقيم/اتساق جدول نواتج التعلم دون اختراع قيمة بديلة.",
+      "recommendation": {
+        "fields": [
+          "clos[2.2#2].code"
+        ],
+        "issue_code": "SOURCE_CLO_CODE_DUPLICATED",
+        "message": "يتكرر الرمز 2.2 لناتجين مختلفين في جدول المصدر.",
+        "recommendation": "اعتماد الرمز الصحيح للناتج الثاني في ملف PDF الرسمي. ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2003203-3",
+      "variant_id": "2e95a6d4e2be909b67c259e605be27261eb6b4173cf0fece9a4e1cf53467febb",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-bachelor/2003203-3.pdf",
+      "clo_index": null,
+      "clo_code": null,
+      "pages": [
+        4,
+        5
+      ],
+      "disposition": "source_gap_only",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "action": "إثبات خلل بنيوي في ترقيم/اتساق جدول نواتج التعلم دون اختراع قيمة بديلة.",
+      "recommendation": {
+        "fields": [
+          "clos[uncoded].code"
+        ],
+        "issue_code": "SOURCE_CLO_CODE_MISSING",
+        "message": "يوجد ناتج مستقل بين 1.2 و2.1 لكن خانة رمزه تحمل «...».",
+        "recommendation": "اعتماد رمز CLO الصحيح للناتج غير المرمز في ملف PDF الرسمي. ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2003822-2",
+      "variant_id": "b049b4b786e1a498483f5b41283c992c634dd9e1bad3b880b0f092a52e212ded",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/law-creed-master/2003822-2.pdf",
+      "clo_index": null,
+      "clo_code": null,
+      "pages": [
+        4,
+        5
+      ],
+      "disposition": "source_gap_only",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "action": "إثبات خلل بنيوي في ترقيم/اتساق جدول نواتج التعلم دون اختراع قيمة بديلة.",
+      "recommendation": {
+        "fields": [
+          "clos[2.2#2].code"
+        ],
+        "issue_code": "SOURCE_CLO_CODE_DUPLICATED",
+        "message": "يتكرر الرمز 2.2 لناتجين مختلفين في جدول المصدر.",
+        "recommendation": "اعتماد الرمز الصحيح للناتج الثاني في ملف PDF الرسمي. ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2002301-2",
+      "variant_id": "ef87a7fafd5250ca552cfad044a10b4b666b909b2acbec3a6d924cef8d18a726",
+      "source_pdf": "assets/course-specifications/qiraat-source-1445/2002301-2.pdf",
+      "clo_index": null,
+      "clo_code": null,
+      "pages": [
+        4,
+        5
+      ],
+      "disposition": "source_gap_only",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "action": "إثبات خلل بنيوي في ترقيم/اتساق جدول نواتج التعلم دون اختراع قيمة بديلة.",
+      "recommendation": {
+        "fields": [
+          "clos[1.2].text"
+        ],
+        "issue_code": "SOURCE_CLO_RANGE_INCONSISTENT",
+        "message": "ينص CLO 1.1 على المدى من سورة يوسف إلى القصص، بينما يكرر CLO 1.2 مدى مقرر سابق من البقرة إلى النساء.",
+        "recommendation": "مراجعة مدى السور في CLO 1.2 واعتماد النص الصحيح في ملف PDF الرسمي. ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    },
+    {
+      "course_code": "2003381-3",
+      "variant_id": "f5fd7811a8b9ac839fde4e86efe82d1b2ff000056b45df4447b889a8577c0088",
+      "source_pdf": "assets/course-specifications/systems-updates-1446/2003381-3.pdf",
+      "clo_index": null,
+      "clo_code": null,
+      "pages": [
+        4,
+        5
+      ],
+      "disposition": "source_gap_only",
+      "reviewed_at": "2026-09-08T23:00:00+03:00",
+      "action": "إثبات خلل بنيوي في ترقيم/اتساق جدول نواتج التعلم دون اختراع قيمة بديلة.",
+      "recommendation": {
+        "fields": [
+          "clos[uncoded].code"
+        ],
+        "issue_code": "SOURCE_CLO_CODE_MISSING",
+        "message": "يوجد ناتج مستقل بعد 1.2 لكن خانة رمزه تحمل «...».",
+        "recommendation": "اعتماد رمز CLO الصحيح للناتج غير المرمز في ملف PDF الرسمي. ثم إعادة الاستخراج والتحقق من البصمة."
+      }
+    }
+  ]
+}
