@@ -84,7 +84,7 @@ class SharedCoursePloBlankingTest(unittest.TestCase):
 
     def test_manifest_hashes_and_redacted_cells(self):
         self.assertEqual(72, self.manifest["output_count"])
-        self.assertEqual(515, self.manifest["clo_row_count"])
+        self.assertEqual(516, self.manifest["clo_row_count"])
         for record in self.manifest["records"]:
             source = ROOT / record["source"]
             output = ROOT / record["output"]

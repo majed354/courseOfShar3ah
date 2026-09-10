@@ -293,14 +293,66 @@ def publish() -> None:
     print(f"Non-empty PLO cells cleared: {manifest['cleared_cell_count']}")
 
 
+def sync_manifest() -> None:
+    """Align recovered manifest selectors with CLO rows in the final PDFs."""
+
+    manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+    outcomes = json.loads(OUTCOMES_PATH.read_text(encoding="utf-8"))
+    changed = 0
+    for record in manifest["records"]:
+        if record.get("recovered_at") != RECOVERED_AT:
+            continue
+        variants = [
+            variant
+            for variant in outcomes["courses"][record["course_key"]]["variants"]
+            if variant["source_pdf"] == record["output"]
+        ]
+        if len(variants) != 1:
+            raise RuntimeError(
+                f"{record['course_key']}: expected one final extracted variant"
+            )
+        existing = {edit["clo"]: edit for edit in record["edits"]}
+        synchronized = []
+        for clo in variants[0]["extracted"]["clos"]:
+            code = clean_text(clo.get("code"))
+            if not code:
+                continue
+            edit = copy.deepcopy(existing.get(code, {}))
+            edit["clo"] = code
+            edit["page_1_based"] = int(clo["source_page"])
+            edit["plo_from"] = edit.get("plo_from", [])
+            edit["plo_to"] = []
+            edit["blank_by_policy"] = True
+            synchronized.append(edit)
+        synchronized.sort(
+            key=lambda item: (
+                item["page_1_based"],
+                tuple(int(part) for part in item["clo"].split(".")),
+            )
+        )
+        if record["edits"] != synchronized:
+            record["edits"] = synchronized
+            changed += 1
+    manifest["clo_row_count"] = sum(
+        len(record["edits"]) for record in manifest["records"]
+    )
+    write_json(MANIFEST_PATH, manifest)
+    print(
+        f"Synchronized {changed} recovered records; "
+        f"CLO rows={manifest['clo_row_count']}"
+    )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("command", choices=("stage", "publish"))
+    parser.add_argument("command", choices=("stage", "publish", "sync-manifest"))
     args = parser.parse_args()
     if args.command == "stage":
         stage()
-    else:
+    elif args.command == "publish":
         publish()
+    else:
+        sync_manifest()
 
 
 if __name__ == "__main__":
