@@ -1,0 +1,163 @@
+{
+  "schema": "university-omnibus-recovery-v1",
+  "recovered_at": "2026-09-10",
+  "source": {
+    "title": "توصيف_المقررات_المقدمة_من_قسم_القراءات_للأقسام_الأخرى.pdf",
+    "drive_id": "1Iy85KvumwapXlEgpgaBvgTb-pj301xIm",
+    "url": "https://drive.google.com/file/d/1Iy85KvumwapXlEgpgaBvgTb-pj301xIm/view",
+    "sha256": "aa7314c144468998308ff38f57e3efdde9c6ba6b364837b3257bbaec5290a150",
+    "page_count": 170
+  },
+  "selection_rule": "Exact course-code and course-title identity in current plans; receiving program is explicit on the cover or uniquely established by the current plan.",
+  "records": [
+    {
+      "code": "2002202-2",
+      "title": "القرآن الكريم (2)",
+      "document_title": "القرآن الكريم (2)",
+      "source_drive_id": "1Iy85KvumwapXlEgpgaBvgTb-pj301xIm",
+      "source_url": "https://drive.google.com/file/d/1Iy85KvumwapXlEgpgaBvgTb-pj301xIm/view",
+      "source_title": "توصيف_المقررات_المقدمة_من_قسم_القراءات_للأقسام_الأخرى.pdf",
+      "source_sha256": "aa7314c144468998308ff38f57e3efdde9c6ba6b364837b3257bbaec5290a150",
+      "source_pages_inclusive": "112-117",
+      "page_count": 6,
+      "approval_page_1_based": 6,
+      "adaptation": "exact_slice_plus_invisible_accessible_identity",
+      "visible_content_changed": false,
+      "scope_evidence": "تطابق الرمز والاسم تطابقًا تامًا مع هوية وحيدة في الخطط الحالية، والملف الجامع مخصص لمقررات قسم القراءات المقدمة للأقسام الأخرى.",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "output_sha256": "f29f4da3bc9920fc84e8cb72101d2b5fa45dd74563853c5c2e37113e1596661c"
+    },
+    {
+      "code": "2002230-2",
+      "title": "علوم قرآن",
+      "document_title": "علوم القرآن (شريعة)",
+      "source_drive_id": "1Iy85KvumwapXlEgpgaBvgTb-pj301xIm",
+      "source_url": "https://drive.google.com/file/d/1Iy85KvumwapXlEgpgaBvgTb-pj301xIm/view",
+      "source_title": "توصيف_المقررات_المقدمة_من_قسم_القراءات_للأقسام_الأخرى.pdf",
+      "source_sha256": "aa7314c144468998308ff38f57e3efdde9c6ba6b364837b3257bbaec5290a150",
+      "source_pages_inclusive": "138-144",
+      "page_count": 7,
+      "approval_page_1_based": 7,
+      "adaptation": "exact_slice_plus_invisible_accessible_identity",
+      "visible_content_changed": false,
+      "scope_evidence": "يحمل غلاف التوصيف وسم (شريعة) مع الرمز نفسه.",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "output_sha256": "4acf4a28013e63d71e6339202007dbba23248da06c58d019e89eb5b5fc2d12c5"
+    },
+    {
+      "code": "2002241-2",
+      "title": "تفسير آيات الأحكام (1)",
+      "document_title": "تفسير آيات الأحكام (1) (شريعة)",
+      "source_drive_id": "1Iy85KvumwapXlEgpgaBvgTb-pj301xIm",
+      "source_url": "https://drive.google.com/file/d/1Iy85KvumwapXlEgpgaBvgTb-pj301xIm/view",
+      "source_title": "توصيف_المقررات_المقدمة_من_قسم_القراءات_للأقسام_الأخرى.pdf",
+      "source_sha256": "aa7314c144468998308ff38f57e3efdde9c6ba6b364837b3257bbaec5290a150",
+      "source_pages_inclusive": "145-152",
+      "page_count": 8,
+      "approval_page_1_based": 8,
+      "adaptation": "exact_slice_plus_invisible_accessible_identity",
+      "visible_content_changed": false,
+      "scope_evidence": "يحمل غلاف التوصيف وسم (شريعة) مع الرمز نفسه.",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "output_sha256": "7018b937db8fc3ca596275430f3d5d80ec65feb08b8c05958988aa79303c5731"
+    },
+    {
+      "code": "2002242-2",
+      "title": "تفسير آيات الأحكام (2)",
+      "document_title": "تفسير آيات الأحكام (2) (شريعة)",
+      "source_drive_id": "1Iy85KvumwapXlEgpgaBvgTb-pj301xIm",
+      "source_url": "https://drive.google.com/file/d/1Iy85KvumwapXlEgpgaBvgTb-pj301xIm/view",
+      "source_title": "توصيف_المقررات_المقدمة_من_قسم_القراءات_للأقسام_الأخرى.pdf",
+      "source_sha256": "aa7314c144468998308ff38f57e3efdde9c6ba6b364837b3257bbaec5290a150",
+      "source_pages_inclusive": "153-160",
+      "page_count": 8,
+      "approval_page_1_based": 8,
+      "adaptation": "exact_slice_plus_invisible_accessible_identity",
+      "visible_content_changed": false,
+      "scope_evidence": "يحمل غلاف التوصيف وسم (شريعة) مع الرمز نفسه.",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "output_sha256": "b869365425cb353963eadf0ee057f221c4ad304a9b9536d88a8a963bac2f1536"
+    },
+    {
+      "code": "2002343-2",
+      "title": "تفسير آيات الأحكام (3)",
+      "document_title": "تفسير آيات الأحكام (3) (شريعة)",
+      "source_drive_id": "1Iy85KvumwapXlEgpgaBvgTb-pj301xIm",
+      "source_url": "https://drive.google.com/file/d/1Iy85KvumwapXlEgpgaBvgTb-pj301xIm/view",
+      "source_title": "توصيف_المقررات_المقدمة_من_قسم_القراءات_للأقسام_الأخرى.pdf",
+      "source_sha256": "aa7314c144468998308ff38f57e3efdde9c6ba6b364837b3257bbaec5290a150",
+      "source_pages_inclusive": "161-170",
+      "page_count": 10,
+      "approval_page_1_based": 9,
+      "adaptation": "exact_slice_plus_invisible_accessible_identity",
+      "visible_content_changed": false,
+      "scope_evidence": "يحمل غلاف التوصيف وسم (شريعة) مع الرمز نفسه.",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "output_sha256": "fbf64b72b02d693558e1ca1b5691a6e6e82fc1ee0c9fc0cbd35c4a621d904e91"
+    }
+  ],
+  "counts": {
+    "reviewed_source_pages": 170,
+    "imported_course_identities": 5,
+    "linked_plan_appearances": 9
+  }
+}

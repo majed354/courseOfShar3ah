@@ -46,7 +46,14 @@ def locate_variant(outcomes: dict, record: dict) -> dict:
     return matches[0]
 
 
-def reviewed_clos(template: dict, variant: dict, source_pdf: str) -> tuple[list, list]:
+def reviewed_clos(
+    template: dict,
+    variant: dict,
+    source_pdf: str,
+    *,
+    clo_page: int,
+    assessment_page: int,
+) -> tuple[list, list]:
     output = []
     warnings = [
         {
@@ -57,8 +64,8 @@ def reviewed_clos(template: dict, variant: dict, source_pdf: str) -> tuple[list,
     for index, item in enumerate(template["clos"]):
         assessment = item.get("assessment")
         evidence = (
-            f"مراجعة بصرية لجدول النواتج في {source_pdf}، الصفحة 3، "
-            f"وجدول التدريس والتقييم في الصفحة 4؛ الصف {item['code']}."
+            f"مراجعة بصرية لجدول النواتج في {source_pdf}، الصفحة {clo_page}، "
+            f"وجدول التدريس والتقييم في الصفحة {assessment_page}؛ الصف {item['code']}."
         )
         mappings = [
             {
@@ -66,7 +73,7 @@ def reviewed_clos(template: dict, variant: dict, source_pdf: str) -> tuple[list,
                 "plo_codes": [item["plo_code"]],
                 "status": "mapped",
                 "confidence": "verified",
-                "source_page": 3,
+                "source_page": clo_page,
                 "evidence": evidence,
             }
             for scope in variant["scopes"]
@@ -74,13 +81,13 @@ def reviewed_clos(template: dict, variant: dict, source_pdf: str) -> tuple[list,
         output.append(
             {
                 "assessment": assessment,
-                "assessment_source_page": 4 if assessment is not None else None,
+                "assessment_source_page": assessment_page if assessment is not None else None,
                 "code": item["code"],
                 "confidence": "verified",
                 "document_plo_codes": [item["plo_code"]],
                 "extraction_method": "verified_visual_review",
                 "plo_mappings": mappings,
-                "source_page": 3,
+                "source_page": clo_page,
                 "source_status": "present",
                 "text": item["text"],
             }
@@ -92,7 +99,7 @@ def reviewed_clos(template: dict, variant: dict, source_pdf: str) -> tuple[list,
                     "clo_index": index,
                     "code": "direct_assessment_unresolved",
                     "message": "no unambiguous direct-assessment text was recovered for this CLO",
-                    "source_page": 4,
+                    "source_page": assessment_page,
                 }
             )
     return output, warnings
@@ -105,15 +112,45 @@ def apply_record(outcomes: dict, record: dict, template: dict, reviewed_at: str)
     if actual_hash != record["source_sha256"] or actual_hash != variant["source_sha256"]:
         raise ValueError(f"source hash mismatch for {record['course_code']}")
 
-    clos, warnings = reviewed_clos(template, variant, record["source_pdf"])
+    clo_page = int(record.get("clo_page", 3))
+    assessment_page = int(record.get("assessment_page", 4))
+    assessment_plan_page = int(record.get("assessment_plan_page", assessment_page))
+    review_pages = record.get("review_pages", [1, clo_page, assessment_page, record.get("approval_page", 6)])
+    clos, warnings = reviewed_clos(
+        template,
+        variant,
+        record["source_pdf"],
+        clo_page=clo_page,
+        assessment_page=assessment_page,
+    )
+    assessment_plan = [
+        {
+            "label": item["label"],
+            "weight": item["weight"],
+            "source_page": assessment_plan_page,
+            "confidence": "verified",
+        }
+        for item in template.get("assessment_plan", [])
+    ]
+    if assessment_plan:
+        warnings = [
+            warning
+            for warning in warnings
+            if warning.get("code") != "assessment_plan_missing"
+        ]
     evidence = (
-        f"مراجعة {record['source_pdf']} | الصفحات 1،3،4،6 | "
+        f"مراجعة {record['source_pdf']} | الصفحات "
+        f"{','.join(str(page) for page in review_pages)} | "
         "تصيير PDF المطابق للبصمة وفحص الغلاف وجدول النواتج وربطه وجدول الاعتماد بصريًا."
     )
     values = {
-        "assessment_plan": [],
-        "assessment_plan_complete": False,
-        "assessment_plan_total": None,
+        "assessment_plan": assessment_plan,
+        "assessment_plan_complete": bool(assessment_plan),
+        "assessment_plan_total": (
+            sum(float(item["weight"]) for item in assessment_plan)
+            if assessment_plan
+            else None
+        ),
         "captured_clo_row_count": len(clos),
         "clos": clos,
         "course_name": record["course_name"],
@@ -145,7 +182,7 @@ def apply_record(outcomes: dict, record: dict, template: dict, reviewed_at: str)
         "finding": "استُعيد جدول CLO كاملًا من المراجعة البصرية للنسخة المصورة.",
         "evidence": {
             "file": record["source_pdf"],
-            "pages": [1, 3, 4, 6],
+            "pages": review_pages,
             "review_method": (
                 "تصيير صفحات PDF المطابق للبصمة وفحص الغلاف وجدول النواتج "
                 "ورموز البرنامج وجدول التدريس والتقييم وصفحة الاعتماد بصريًا."

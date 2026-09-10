@@ -9879,6 +9879,125 @@
           "match_note": "رمز المقرر واسمه وساعاته وبرنامج الدراسات الإسلامية مثبتة في التوصيف ومطابقة للخطة القديمة، ولم يكن للمقرر سجل توصيف في قاعدة البيانات."
         }
       ]
+    },
+    "2002202-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الدراسات الإسلامية",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "القرآن الكريم (2)",
+          "summary": "يتناول حفظ الجزء التاسع والعشرين من القرآن الكريم وتجويده وتسميعه.",
+          "pdf_url": "assets/course-specifications/university-omnibus-recovery-20260910/2002202-2.pdf",
+          "specification_code": "2002202-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2002230-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "علوم قرآن",
+          "summary": "يتناول علوم القرآن وقضاياه، ومنها المكي والمدني ونزول القرآن وجمعه وأسباب النزول.",
+          "pdf_url": "assets/course-specifications/university-omnibus-recovery-20260910/2002230-2.pdf",
+          "specification_code": "2002230-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2002241-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "تفسير آيات الأحكام (1)",
+          "summary": "يتناول آيات الأحكام المتعلقة بالطهارة وستر العورة والصلاة في السفر والحضر وأحكام المساجد.",
+          "pdf_url": "assets/course-specifications/university-omnibus-recovery-20260910/2002241-2.pdf",
+          "specification_code": "2002241-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2002242-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "تفسير آيات الأحكام (2)",
+          "summary": "يتناول آيات الأحكام المتعلقة بالزكاة والصيام والحج والبيوع وما يحل وما يحرم من الأطعمة والأشربة.",
+          "pdf_url": "assets/course-specifications/university-omnibus-recovery-20260910/2002242-2.pdf",
+          "specification_code": "2002242-2",
+          "match_status": "verified"
+        }
+      ]
+    },
+    "2002343-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "38"
+            },
+            {
+              "program": "الشريعة",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "تفسير آيات الأحكام (3)",
+          "summary": "يتناول آيات الأحكام المتعلقة بالصيد والذبائح والنكاح والأسرة والحدود والجهاد والتعامل مع أصحاب الديانات الأخرى.",
+          "pdf_url": "assets/course-specifications/university-omnibus-recovery-20260910/2002343-2.pdf",
+          "specification_code": "2002343-2",
+          "match_status": "verified"
+        }
+      ]
     }
   },
   "programs": [
