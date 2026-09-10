@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BUNDLE = ROOT / "assets" / "course-specifications" / "clo-plo-corrections-20260901"
 UNIFIED_MANIFEST = ROOT / "assets" / "course-specifications" / "unified-new-program-mappings-20260901.json"
 SAME_IDENTITY_MANIFEST = ROOT / "assets" / "course-specifications" / "same-identity-unification-20260901.json"
+SHARED_BLANK_MANIFEST = ROOT / "assets" / "course-specifications" / "shared-course-blank-plo-20260905" / "manifest.json"
 
 
 def sha256(path):
@@ -80,10 +81,18 @@ class NarrowCloPloCorrectionsTest(unittest.TestCase):
         for detail in self.data["course_details"].values():
             for variant in detail.get("variants", []):
                 variants_by_pdf.setdefault(variant.get("pdf_url", ""), []).append(variant)
+        final_route = {
+            record["source"]: record["output"]
+            for record in json.loads(
+                SHARED_BLANK_MANIFEST.read_text(encoding="utf-8")
+            )["records"]
+        }
 
         scope_count = 0
         for record in self.manifest["records"]:
-            linked = variants_by_pdf.get(record["output"], [])
+            linked = variants_by_pdf.get(
+                final_route.get(record["output"], record["output"]), []
+            )
             if record["source"] in unified_sources or record["output"] in archived_same_identity:
                 self.assertEqual([], linked, record["output"])
                 continue

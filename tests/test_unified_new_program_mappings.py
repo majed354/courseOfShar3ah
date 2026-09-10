@@ -9,6 +9,7 @@ import pymupdf
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST_PATH = ROOT / "assets" / "course-specifications" / "unified-new-program-mappings-20260901.json"
+SHARED_BLANK_MANIFEST = ROOT / "assets" / "course-specifications" / "shared-course-blank-plo-20260905" / "manifest.json"
 sys.path.insert(0, str(ROOT / "scripts"))
 from apply_unified_new_program_mappings import discover_clos
 
@@ -93,10 +94,18 @@ class UnifiedNewProgramMappingsTest(unittest.TestCase):
         for detail in self.data["course_details"].values():
             for variant in detail.get("variants", []):
                 variants_by_pdf.setdefault(variant.get("pdf_url", ""), []).append(variant)
+        final_route = {
+            record["source"]: record["output"]
+            for record in json.loads(
+                SHARED_BLANK_MANIFEST.read_text(encoding="utf-8")
+            )["records"]
+        }
 
         for record in self.manifest["records"]:
             new_programs = set()
-            for variant in variants_by_pdf.get(record["path"], []):
+            for variant in variants_by_pdf.get(
+                final_route.get(record["path"], record["path"]), []
+            ):
                 for scope in variant_scopes(variant):
                     if scope.get("degree") == "بكالوريوس" and scope.get("plan_type") == "جديدة":
                         new_programs.add(scope.get("program"))

@@ -6,6 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BUNDLE = ROOT / "assets/course-specifications/reference-exclusion-cleanup-20260901"
+SHARED_BLANK_MANIFEST = ROOT / "assets/course-specifications/shared-course-blank-plo-20260905/manifest.json"
 
 
 def sha256(path: Path) -> str:
@@ -46,8 +47,18 @@ class ReferenceExclusionCleanupTest(unittest.TestCase):
             for detail in self.data["course_details"].values()
             for variant in detail.get("variants", [])
         }
+        final_route = {
+            record["source"]: record["output"]
+            for record in json.loads(
+                SHARED_BLANK_MANIFEST.read_text(encoding="utf-8")
+            )["records"]
+        }
         for record in self.manifest["records"]:
-            self.assertIn(record["path"], published, record["path"])
+            self.assertIn(
+                final_route.get(record["path"], record["path"]),
+                published,
+                record["path"],
+            )
 
     def test_replacement_policy_was_applied_only_when_needed(self):
         replacements = [record for record in self.manifest["records"] if record["replacement"]]

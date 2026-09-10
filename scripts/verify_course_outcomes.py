@@ -52,6 +52,7 @@ AUXILIARY_SOURCES = {
     "assets/course-specifications/unified-new-program-mappings-20260901.json": "published multi-program PLO mapping cells",
     "assets/course-specifications/clo-plo-corrections-20260901/manifest.json": "published CLO/PLO correction cells",
     "assets/course-specifications/shared-course-completions-20260904/manifest.json": "published shared-course CLO completions and scoped PLO mappings",
+    "assets/course-specifications/shared-course-blank-plo-20260905/manifest.json": "published shared-course specifications with intentionally blank PLO cells",
 }
 COURSE_FIELDS = {"variants"}
 EXCLUDED_SOURCE_FIELDS = {"source_pdf", "source_sha256", "reason"}
@@ -118,6 +119,10 @@ EMBEDDED_FONT_CMAP_METHODS = {
 EMBEDDED_FONT_CMAP_SOURCE_SHA256 = (
     "51269b1a7e2246e118111a2411852e99ade9030349aa8e4ec5dbfdcc1d8270a0"
 )
+EMBEDDED_FONT_CMAP_SOURCE_SHA256S = {
+    EMBEDDED_FONT_CMAP_SOURCE_SHA256,
+    "e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3",
+}
 CLO_CODE_RE = re.compile(r"^(?:[123]\.[1-9][0-9]?|[عمقك][1-9][0-9]?)$")
 SOURCE_CLO_MARKER_RE = re.compile(r"^(?:[123])?\.{3}$")
 PLO_CODE_RE = re.compile(r"^(?:[عمقك]|[KSVP])[0-9]{1,2}(?:\.[0-9]+)?$")
@@ -944,12 +949,12 @@ def validate_extracted(
                 )
             elif (
                 method in EMBEDDED_FONT_CMAP_METHODS
-                and source_sha256 != EMBEDDED_FONT_CMAP_SOURCE_SHA256
+                and source_sha256 not in EMBEDDED_FONT_CMAP_SOURCE_SHA256S
             ):
                 errors.add(
                     f"{clo_label}.extraction_method: {method!r} is permitted only "
                     "for the reviewed embedded-font source_sha256 "
-                    f"{EMBEDDED_FONT_CMAP_SOURCE_SHA256!r}, found "
+                    f"{EMBEDDED_FONT_CMAP_SOURCE_SHA256S!r}, found "
                     f"{source_sha256!r}"
                 )
             expected_clo_confidence = {

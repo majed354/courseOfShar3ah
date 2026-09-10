@@ -64,10 +64,15 @@ SPLIT_OUTCOME_TABLE_SOURCE_SHA256 = frozenset(
         "5c81d64d19889256d8a46fd35d4a302cb0e224de0e6dae87d9169125d9f5f060",
         "b3ac65c88a6c4380e901c01b17e387eff61eb4f3bb192d5835e5043818d12355",
         "51269b1a7e2246e118111a2411852e99ade9030349aa8e4ec5dbfdcc1d8270a0",
+        "4627f85d286a978cedc7801b6f41cdafa2b373ae94578d08733c68f0ab0bfdfd",
+        "e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3",
     }
 )
 EMBEDDED_FONT_CMAP_SOURCE_SHA256 = frozenset(
-    {"51269b1a7e2246e118111a2411852e99ade9030349aa8e4ec5dbfdcc1d8270a0"}
+    {
+        "51269b1a7e2246e118111a2411852e99ade9030349aa8e4ec5dbfdcc1d8270a0",
+        "e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3",
+    }
 )
 ARABIC_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹", "01234567890123456789")
 ARABIC_EQUIVALENTS = str.maketrans({"ی": "ي", "ک": "ك", "ھ": "ه", "ہ": "ه"})
@@ -780,6 +785,11 @@ def load_auxiliary_sources(
             "published shared-course CLO completions and scoped PLO mappings",
             "shared",
         ),
+        (
+            "assets/course-specifications/shared-course-blank-plo-20260905/manifest.json",
+            "published shared-course specifications with intentionally blank PLO cells",
+            "shared_blank",
+        ),
     )
     lookup: dict[str, dict[str, Any]] = {}
     ledger: list[dict[str, str]] = []
@@ -806,9 +816,7 @@ def load_auxiliary_sources(
         for record in payload["records"]:
             if not isinstance(record, Mapping):
                 raise ValueError(f"invalid {kind} manifest record: {record!r}")
-            raw_source = (
-                record.get("path") if kind == "unified" else record.get("output")
-            )
+            raw_source = record.get("path") if kind == "unified" else record.get("output")
             raw_expected = record.get("output_sha256")
             source = clean_text(raw_source)
             expected = clean_text(raw_expected)
@@ -853,16 +861,23 @@ def load_auxiliary_sources(
                         )
                     normalized_selector[str(key)] = clean_text(value)
                 selectors.append(normalized_selector)
-            if kind in {"correction", "shared"} and not selectors:
+            if kind in {"correction", "shared", "shared_blank"} and not selectors:
                 raise ValueError(f"{kind} manifest record has no selectors: {source}")
+            prior_auxiliary = None
+            if kind == "shared_blank":
+                prior_auxiliary = lookup.get(clean_text(record.get("source")))
             edits: dict[str, dict[str, Any]] = {}
             for edit in raw_edits:
                 if not isinstance(edit, Mapping):
                     raise ValueError(f"invalid edit for {source}: {edit!r}")
+                effective_edit = dict(edit)
                 code = normalize_clo(
-                    edit.get("clo")
-                    if kind in {"unified", "shared"}
-                    else (edit.get("clo_to") or edit.get("clo_from"))
+                    effective_edit.get("clo")
+                    if kind in {"unified", "shared", "shared_blank"}
+                    else (
+                        effective_edit.get("clo_to")
+                        or effective_edit.get("clo_from")
+                    )
                 )
                 if not code or code.endswith(".0"):
                     raise ValueError(
@@ -870,11 +885,16 @@ def load_auxiliary_sources(
                     )
                 if code in edits:
                     raise ValueError(f"duplicate {source} {code} in {kind} manifest")
-                page_number = edit.get("page_1_based")
+                if prior_auxiliary:
+                    prior_edit = prior_auxiliary.get("edits", {}).get(code, {})
+                    for field in ("text_to", "source_blank", "assessment_to"):
+                        if field in prior_edit:
+                            effective_edit.setdefault(field, prior_edit[field])
+                page_number = effective_edit.get("page_1_based")
                 if not isinstance(page_number, int) or page_number < 1:
                     raise ValueError(f"invalid edit page for {source}: {edit!r}")
-                if "text_to" in edit:
-                    raw_text_to = edit.get("text_to")
+                if "text_to" in effective_edit:
+                    raw_text_to = effective_edit.get("text_to")
                     if (
                         not isinstance(raw_text_to, str)
                         or not clean_text(raw_text_to)
@@ -883,13 +903,16 @@ def load_auxiliary_sources(
                         raise ValueError(
                             f"invalid replacement CLO text for {source} {code}"
                         )
-                if "source_blank" in edit:
-                    if edit.get("source_blank") is not True or "text_to" in edit:
+                if "source_blank" in effective_edit:
+                    if (
+                        effective_edit.get("source_blank") is not True
+                        or "text_to" in effective_edit
+                    ):
                         raise ValueError(
                             f"invalid source_blank assertion for {source} {code}"
                         )
-                if "assessment_to" in edit:
-                    raw_assessment_to = edit.get("assessment_to")
+                if "assessment_to" in effective_edit:
+                    raw_assessment_to = effective_edit.get("assessment_to")
                     assessment_to = clean_text(raw_assessment_to)
                     if (
                         not isinstance(raw_assessment_to, str)
@@ -900,7 +923,7 @@ def load_auxiliary_sources(
                             f"invalid replacement assessment text for {source} {code}"
                         )
                 if kind in {"unified", "shared"}:
-                    per_program = edit.get("per_program")
+                    per_program = effective_edit.get("per_program")
                     if not isinstance(per_program, Mapping) or not per_program:
                         raise ValueError(
                             f"invalid per_program mapping for {source} {code}"
@@ -920,15 +943,22 @@ def load_auxiliary_sources(
                                 f"invalid per_program value for {source} {code}: "
                                 f"{program!r}={raw_plo!r}"
                             )
-                else:
-                    raw_plo = edit.get("plo_to")
+                elif kind == "correction":
+                    raw_plo = effective_edit.get("plo_to")
                     if not isinstance(raw_plo, str) or not PLO_RE.fullmatch(
                         clean_text(raw_plo)
                     ):
                         raise ValueError(
                             f"invalid corrected PLO for {source} {code}: {raw_plo!r}"
                         )
-                edits[code] = dict(edit)
+                elif (
+                    effective_edit.get("blank_by_policy") is not True
+                    or effective_edit.get("plo_to") != []
+                ):
+                    raise ValueError(
+                        f"invalid shared-course blank assertion for {source} {code}"
+                    )
+                edits[code] = effective_edit
             if source in lookup:
                 raise ValueError(f"multiple auxiliary manifests claim {source}")
             lookup[source] = {
@@ -4251,7 +4281,7 @@ def _build_plo_mappings(
         confidence = "low"
         evidence = "no unambiguous PLO value was recovered from the published cell"
         selector_scope_covered = not (
-            kind in {"correction", "shared"} and selectors
+            kind in {"correction", "shared", "shared_blank"} and selectors
         ) or any(
             all(
                 clean_text(scope.get(key)) == clean_text(expected)
@@ -4259,10 +4289,18 @@ def _build_plo_mappings(
             )
             for selector in selectors
         )
-        if kind in {"correction", "shared"} and not selector_scope_covered:
+        if kind in {"correction", "shared", "shared_blank"} and not selector_scope_covered:
             status = "not_present_for_scope"
             confidence = "medium"
             evidence = f"the {kind} manifest selectors do not cover this scope"
+        elif kind == "shared_blank" and edit:
+            values = []
+            status = "explicitly_unmapped"
+            confidence = "high"
+            evidence = (
+                "hash-matched shared-course blanking manifest confirms that the "
+                "published PLO cell is intentionally empty"
+            )
         elif isinstance(per_program, Mapping):
             if kind == "unified" and scope["plan_type"] != "جديدة":
                 status = "not_present_for_scope"
