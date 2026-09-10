@@ -8,7 +8,7 @@
     {
       "path": "assets/course-specifications/shared-course-blank-plo-20260905/manifest.json",
       "purpose": "published shared-course specifications with intentionally blank PLO cells",
-      "sha256": "793fac0cd4d4034ecab3d47f7cdd50732bfde8a5edf464cc71be89a26e89826d"
+      "sha256": "a3f1428047d4434ea00e6ce0c601737fe32e8e50a8320e04e7a1c6867db74ffa"
     },
     {
       "path": "assets/course-specifications/shared-course-completions-20260904/manifest.json",
@@ -10550,7 +10550,7 @@
       "variants": [
         {
           "catalog": {
-            "match_note": "توصيف رسمي من جامعة الطائف؛ الرمز مطابق، وعنوان التوصيف الكامل «تاريخ المملكة العربية السعودية» يطابق الاسم المختصر في الخطة «تاريخ المملكة». استُعيد التوصيف من الويب وتحقق انتماؤه لجامعة الطائف في 2026-09-10.",
+            "match_note": "توصيف رسمي من جامعة الطائف؛ الرمز مطابق، وعنوان التوصيف الكامل «تاريخ المملكة العربية السعودية» يطابق الاسم المختصر في الخطة «تاريخ المملكة». استُعيد التوصيف من الويب وتحقق انتماؤه لجامعة الطائف في 2026-09-10. المقرر مشترك بين برامج مختلفة؛ أُبقيت خلايا رمز ناتج البرنامج فارغة لتتولى كل جهة برنامجية الربط المناسب (2026-09-05).",
             "match_status": "verified",
             "specification_code": "105115-2",
             "summary": "يتناول نشأة الدولة السعودية ومراحلها، وتوحيد المملكة، ونظام الحكم والإدارة، وأبرز التحولات السياسية والاجتماعية والاقتصادية والحضارية.",
@@ -10585,7 +10585,7 @@
             ],
             "assessment_plan_complete": true,
             "assessment_plan_total": 100,
-            "captured_clo_row_count": 8,
+            "captured_clo_row_count": 6,
             "clos": [
               {
                 "assessment": "الاختبارات التحريرية\nوالشفهية، الورقة والقلم،\nالواجبات",
@@ -10596,9 +10596,9 @@
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10606,12 +10606,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10619,12 +10619,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10632,12 +10632,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10645,12 +10645,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10658,12 +10658,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10671,7 +10671,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -10679,17 +10679,17 @@
                 "text": "أن يوضح الطلبة مراحل التطور التاريخي والحضاري للمملكة العربية السعودية منذ قيام الدولة السعودية الأولى حتى يومنا هذا."
               },
               {
-                "assessment": null,
-                "assessment_source_page": null,
+                "assessment": "الملاحظة، الاختبارات\nالشفهية",
+                "assessment_source_page": 5,
                 "code": "1.2",
                 "confidence": "medium",
                 "document_plo_codes": [],
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10697,12 +10697,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10710,12 +10710,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10723,12 +10723,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10736,12 +10736,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10749,12 +10749,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10762,7 +10762,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -10778,9 +10778,9 @@
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10788,12 +10788,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10801,12 +10801,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10814,12 +10814,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10827,12 +10827,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10840,12 +10840,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -10853,285 +10853,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
                 "source_status": "present",
                 "text": "أن يُظهر الطالب أبرز إنجازات ملوك المملكة العربية السعودية منذ عهد الملك عبد العزيز طيب الله ثراه حتى اليوم على مختلف الأصعدة والمجالات."
-              },
-              {
-                "assessment": null,
-                "assessment_source_page": null,
-                "code": "1.2",
-                "confidence": "medium",
-                "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "الأنظمة",
-                      "version": "38"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  },
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "الدراسات الإسلامية",
-                      "version": "39"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  },
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "الشريعة",
-                      "version": "38"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  },
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "الشريعة",
-                      "version": "39"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  },
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  },
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القراءات",
-                      "version": "38"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  }
-                ],
-                "source_page": 4,
-                "source_status": "present",
-                "text": "أن يقارن الطالب بين الدولة السعودية الأولى والدولة السعودية الثانية من كافة النواحي."
-              },
-              {
-                "assessment": null,
-                "assessment_source_page": null,
-                "code": "1.2",
-                "confidence": "medium",
-                "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "الأنظمة",
-                      "version": "38"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  },
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "الدراسات الإسلامية",
-                      "version": "39"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  },
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "الشريعة",
-                      "version": "38"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  },
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "الشريعة",
-                      "version": "39"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  },
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  },
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القراءات",
-                      "version": "38"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  }
-                ],
-                "source_page": 4,
-                "source_status": "present",
-                "text": "أن يحلل الطالب ملامح نظام الحكم والإدارة في الدولة السعودية الأولى والدولة السعودية الثانية."
-              },
-              {
-                "assessment": null,
-                "assessment_source_page": null,
-                "code": "3.1",
-                "confidence": "medium",
-                "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "الأنظمة",
-                      "version": "38"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  },
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "الدراسات الإسلامية",
-                      "version": "39"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  },
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "الشريعة",
-                      "version": "38"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  },
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "الشريعة",
-                      "version": "39"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  },
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  },
-                  {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القراءات",
-                      "version": "38"
-                    },
-                    "source_page": 4,
-                    "status": "missing"
-                  }
-                ],
-                "source_page": 4,
-                "source_status": "present",
-                "text": "أن يشارك الطالب زملاءه في تقديم مشروع يظهر جهود المملكة العربية السعودية على المستوى العربي والإقليمي والعالمي."
               },
               {
                 "assessment": "الاختبارات الشفهية\nوالتحريرية، بحوث وأورا\nعمل، التقارير",
@@ -11142,87 +10869,87 @@
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
                       "program": "الأنظمة",
                       "version": "38"
                     },
-                    "source_page": 6,
-                    "status": "missing"
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
                       "program": "الدراسات الإسلامية",
                       "version": "39"
                     },
-                    "source_page": 6,
-                    "status": "missing"
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
                       "program": "الشريعة",
                       "version": "38"
                     },
-                    "source_page": 6,
-                    "status": "missing"
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
                       "program": "الشريعة",
                       "version": "39"
                     },
-                    "source_page": 6,
-                    "status": "missing"
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
                       "program": "القرآن وعلومه",
                       "version": "39"
                     },
-                    "source_page": 6,
-                    "status": "missing"
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
                       "program": "القراءات",
                       "version": "38"
                     },
-                    "source_page": 6,
-                    "status": "missing"
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
                   }
                 ],
-                "source_page": 6,
+                "source_page": 4,
                 "source_status": "present",
-                "text": "أن يقارن الطالب بين الدولة السعودية الأولى والثانية."
+                "text": "أن يقارن الطالب بين الدولة السعودية الأولى والدولة السعودية الثانية من كافة النواحي."
               },
               {
                 "assessment": "الملاحظة، الاختبارات\nالتحريرية والشفهية،\nالبحوث وأورا العمل،\nالتقارير",
@@ -11233,87 +10960,178 @@
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
                       "program": "الأنظمة",
                       "version": "38"
                     },
-                    "source_page": 6,
-                    "status": "missing"
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
                       "program": "الدراسات الإسلامية",
                       "version": "39"
                     },
-                    "source_page": 6,
-                    "status": "missing"
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
                       "program": "الشريعة",
                       "version": "38"
                     },
-                    "source_page": 6,
-                    "status": "missing"
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
                       "program": "الشريعة",
                       "version": "39"
                     },
-                    "source_page": 6,
-                    "status": "missing"
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
                       "program": "القرآن وعلومه",
                       "version": "39"
                     },
-                    "source_page": 6,
-                    "status": "missing"
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
                       "program": "القراءات",
                       "version": "38"
                     },
-                    "source_page": 6,
-                    "status": "missing"
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
                   }
                 ],
-                "source_page": 6,
+                "source_page": 4,
                 "source_status": "present",
-                "text": "أن يحلل الطالب ملامح نظام الحكم والإدارة في الدولة السعودية الأولى والثانية."
+                "text": "أن يحلل الطالب ملامح نظام الحكم والإدارة في الدولة السعودية الأولى والدولة السعودية الثانية."
+              },
+              {
+                "assessment": "البحث والعر",
+                "assessment_source_page": 6,
+                "code": "3.1",
+                "confidence": "medium",
+                "document_plo_codes": [],
+                "extraction_method": "geometric_pdf",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "قديمة",
+                      "program": "الأنظمة",
+                      "version": "38"
+                    },
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
+                  },
+                  {
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "قديمة",
+                      "program": "الدراسات الإسلامية",
+                      "version": "39"
+                    },
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
+                  },
+                  {
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "قديمة",
+                      "program": "الشريعة",
+                      "version": "38"
+                    },
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
+                  },
+                  {
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "قديمة",
+                      "program": "الشريعة",
+                      "version": "39"
+                    },
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
+                  },
+                  {
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "قديمة",
+                      "program": "القرآن وعلومه",
+                      "version": "39"
+                    },
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
+                  },
+                  {
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "قديمة",
+                      "program": "القراءات",
+                      "version": "38"
+                    },
+                    "source_page": 4,
+                    "status": "explicitly_unmapped"
+                  }
+                ],
+                "source_page": 4,
+                "source_status": "present",
+                "text": "أن يشارك الطالب زملاءه في تقديم مشروع يظهر جهود المملكة العربية السعودية على المستوى العربي والإقليمي والعالمي."
               }
             ],
             "course_name": null,
@@ -11324,7 +11142,7 @@
             },
             "extraction_status": "partial",
             "page_count": 8,
-            "source_clo_row_count": 15,
+            "source_clo_row_count": 12,
             "source_status": "present",
             "warnings": [
               {
@@ -11335,111 +11153,6 @@
                 "code": "course_name_unresolved",
                 "message": "course name was left null because neither the text layer nor OCR produced a value consistent with the catalog",
                 "source_page": 1
-              },
-              {
-                "clo_code": "1.1",
-                "clo_index": 0,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 1,
-                "code": "direct_assessment_unresolved",
-                "message": "no unambiguous direct-assessment text was recovered for this CLO",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 1,
-                "code": "duplicate_source_clo_code",
-                "message": "the published source contains a distinct substantive row with the same printed CLO code",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 1,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.3",
-                "clo_index": 2,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 3,
-                "code": "direct_assessment_unresolved",
-                "message": "no unambiguous direct-assessment text was recovered for this CLO",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 3,
-                "code": "duplicate_source_clo_code",
-                "message": "the published source contains a distinct substantive row with the same printed CLO code",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 3,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 4,
-                "code": "direct_assessment_unresolved",
-                "message": "no unambiguous direct-assessment text was recovered for this CLO",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 4,
-                "code": "duplicate_source_clo_code",
-                "message": "the published source contains a distinct substantive row with the same printed CLO code",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 4,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
-                "clo_code": "3.1",
-                "clo_index": 5,
-                "code": "direct_assessment_unresolved",
-                "message": "no unambiguous direct-assessment text was recovered for this CLO",
-                "source_page": 4
-              },
-              {
-                "clo_code": "3.1",
-                "clo_index": 5,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
-                "clo_code": "2.1",
-                "clo_index": 6,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 6
-              },
-              {
-                "clo_code": "2.2",
-                "clo_index": 7,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 6
               }
             ]
           },
@@ -11482,9 +11195,9 @@
               "version": "38"
             }
           ],
-          "source_pdf": "assets/course-specifications/web-recovery-20260910/105115-2.pdf",
-          "source_sha256": "27f5e817a61789d14969ec4787f1a44a68105353e2b0f3e9b5b6b23f7f611f69",
-          "variant_id": "a9632724719ea089dad823a4a99f729b4bb4b3ee8c90ad3985f02839c53df983"
+          "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/105115-2--4d1816f13a.pdf",
+          "source_sha256": "3429fc7bd9740ce6f2d001909a1f38e11ebbac6ce199eb507168859300816589",
+          "variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721"
         }
       ]
     },
@@ -159974,7 +159687,7 @@
       "variants": [
         {
           "catalog": {
-            "match_note": "توصيف رسمي من جامعة الطائف؛ رمز المقرر واسمه مطابقان للخطة. استُعيد التوصيف من الويب وتحقق انتماؤه لجامعة الطائف في 2026-09-10.",
+            "match_note": "توصيف رسمي من جامعة الطائف؛ رمز المقرر واسمه مطابقان للخطة. استُعيد التوصيف من الويب وتحقق انتماؤه لجامعة الطائف في 2026-09-10. المقرر مشترك بين برامج مختلفة؛ أُبقيت خلايا رمز ناتج البرنامج فارغة لتتولى كل جهة برنامجية الربط المناسب (2026-09-05).",
             "match_status": "verified",
             "specification_code": "6602322-2",
             "summary": "يعرف بالمفاهيم والأنماط الأساسية للتجارة الإلكترونية، والبنية التحتية، والحكومة الإلكترونية، والفرص والتحديات، وتطبيقاتها في بيئة الأعمال.",
@@ -160014,9 +159727,9 @@
                 "extraction_method": "targeted_ocr",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160024,12 +159737,12 @@
                       "version": "47"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160037,12 +159750,12 @@
                       "version": "47"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160050,12 +159763,12 @@
                       "version": "47"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160063,7 +159776,7 @@
                       "version": "47"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -160079,9 +159792,9 @@
                 "extraction_method": "targeted_ocr",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160089,12 +159802,12 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160102,12 +159815,12 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160115,12 +159828,12 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160128,7 +159841,7 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 5,
@@ -160144,9 +159857,9 @@
                 "extraction_method": "targeted_ocr",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160154,12 +159867,12 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160167,12 +159880,12 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160180,12 +159893,12 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160193,7 +159906,7 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 5,
@@ -160209,9 +159922,9 @@
                 "extraction_method": "targeted_ocr",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160219,12 +159932,12 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160232,12 +159945,12 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160245,12 +159958,12 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160258,7 +159971,7 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 5,
@@ -160274,9 +159987,9 @@
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160284,12 +159997,12 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160297,12 +160010,12 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160310,12 +160023,12 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160323,7 +160036,7 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 5,
@@ -160339,9 +160052,9 @@
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160349,12 +160062,12 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160362,12 +160075,12 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160375,12 +160088,12 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "جديدة",
@@ -160388,7 +160101,7 @@
                       "version": "47"
                     },
                     "source_page": 5,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 5,
@@ -160413,13 +160126,6 @@
                 "source_page": 1
               },
               {
-                "clo_code": "1.1",
-                "clo_index": 0,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
                 "clo_code": "1.2",
                 "clo_index": 1,
                 "code": "direct_assessment_unresolved",
@@ -160427,31 +160133,10 @@
                 "source_page": 5
               },
               {
-                "clo_code": "1.2",
-                "clo_index": 1,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 5
-              },
-              {
                 "clo_code": "1.3",
                 "clo_index": 2,
                 "code": "direct_assessment_unresolved",
                 "message": "no unambiguous direct-assessment text was recovered for this CLO",
-                "source_page": 5
-              },
-              {
-                "clo_code": "1.3",
-                "clo_index": 2,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 5
-              },
-              {
-                "clo_code": "2.1",
-                "clo_index": 3,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
                 "source_page": 5
               },
               {
@@ -160476,13 +160161,6 @@
                 "source_page": 5
               },
               {
-                "clo_code": "2.2",
-                "clo_index": 4,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 5
-              },
-              {
                 "clo_code": "3.1",
                 "clo_index": 5,
                 "code": "clo_text_unreadable",
@@ -160501,13 +160179,6 @@
                 "clo_index": 5,
                 "code": "direct_assessment_unresolved",
                 "message": "no unambiguous direct-assessment text was recovered for this CLO",
-                "source_page": 5
-              },
-              {
-                "clo_code": "3.1",
-                "clo_index": 5,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
                 "source_page": 5
               }
             ]
@@ -160539,9 +160210,9 @@
               "version": "47"
             }
           ],
-          "source_pdf": "assets/course-specifications/web-recovery-20260910/6602322-2.pdf",
-          "source_sha256": "ce2b8b3ad617ac0289738ee630bdb127767fa345ae3beef006226743a22d2f08",
-          "variant_id": "669e528d6a0af4e624ea3b1b191871e0ea071271f72e930d8154835b069aef83"
+          "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/6602322-2--b6c6c5fe76.pdf",
+          "source_sha256": "2c13fe2152ece589173572f76c3959be76410ff5bba752483a97b5b9848b227f",
+          "variant_id": "5f89d09ac0a0984ced6e16f3d075c87c85cc159cc47c910e8d967e3994727b72"
         }
       ]
     },
@@ -160549,7 +160220,7 @@
       "variants": [
         {
           "catalog": {
-            "match_note": "توصيف رسمي من جامعة الطائف؛ رمز المقرر واسمه مطابقان للخطة. استُعيد التوصيف من الويب وتحقق انتماؤه لجامعة الطائف في 2026-09-10.",
+            "match_note": "توصيف رسمي من جامعة الطائف؛ رمز المقرر واسمه مطابقان للخطة. استُعيد التوصيف من الويب وتحقق انتماؤه لجامعة الطائف في 2026-09-10. المقرر مشترك بين برامج مختلفة؛ أُبقيت خلايا رمز ناتج البرنامج فارغة لتتولى كل جهة برنامجية الربط المناسب (2026-09-05).",
             "match_status": "verified",
             "specification_code": "990113-2",
             "summary": "يعرض مفاهيم الصحة والمرض والوقاية، والأمراض المعدية والمزمنة، والتغذية، والإسعافات الأولية، وبناء السلوك الصحي السليم.",
@@ -160601,9 +160272,9 @@
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160611,12 +160282,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160624,12 +160295,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160637,12 +160308,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160650,12 +160321,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160663,12 +160334,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160676,7 +160347,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -160684,17 +160355,17 @@
                 "text": "يوضح الطالب مفهوم الثقافة الصحية وأهميتها لأفراد المجتمع وسبل تحقيقها."
               },
               {
-                "assessment": null,
-                "assessment_source_page": null,
+                "assessment": "الاختبار النظري",
+                "assessment_source_page": 4,
                 "code": "1.2",
                 "confidence": "medium",
                 "document_plo_codes": [],
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160702,12 +160373,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160715,12 +160386,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160728,12 +160399,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160741,12 +160412,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160754,12 +160425,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160767,7 +160438,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -160783,9 +160454,9 @@
                 "extraction_method": "targeted_ocr",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160793,12 +160464,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160806,12 +160477,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160819,12 +160490,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160832,12 +160503,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160845,12 +160516,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160858,7 +160529,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -160874,9 +160545,9 @@
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160884,12 +160555,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160897,12 +160568,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160910,12 +160581,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160923,12 +160594,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160936,12 +160607,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160949,7 +160620,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -160965,9 +160636,9 @@
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160975,12 +160646,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -160988,12 +160659,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161001,12 +160672,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161014,12 +160685,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161027,12 +160698,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161040,7 +160711,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -161056,9 +160727,9 @@
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161066,12 +160737,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161079,12 +160750,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161092,12 +160763,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161105,12 +160776,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161118,12 +160789,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161131,7 +160802,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -161139,17 +160810,17 @@
                 "text": null
               },
               {
-                "assessment": null,
-                "assessment_source_page": null,
-                "code": "1.2",
+                "assessment": "تقييم ورقة عمل",
+                "assessment_source_page": 5,
+                "code": "3.2",
                 "confidence": "medium",
                 "document_plo_codes": [],
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161157,12 +160828,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161170,12 +160841,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161183,12 +160854,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161196,12 +160867,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161209,12 +160880,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161222,7 +160893,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -161238,9 +160909,9 @@
                 "extraction_method": "targeted_ocr",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161248,12 +160919,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161261,12 +160932,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161274,12 +160945,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161287,12 +160958,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161300,12 +160971,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161313,7 +160984,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -161329,7 +161000,7 @@
             },
             "extraction_status": "partial",
             "page_count": 6,
-            "source_clo_row_count": 17,
+            "source_clo_row_count": 16,
             "source_status": "unreadable",
             "warnings": [
               {
@@ -161337,41 +161008,6 @@
                 "message": "the number of captured CLO rows does not equal the number of published rows"
               },
               {
-                "clo_code": "1.1",
-                "clo_index": 0,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 1,
-                "code": "direct_assessment_unresolved",
-                "message": "no unambiguous direct-assessment text was recovered for this CLO",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 1,
-                "code": "duplicate_source_clo_code",
-                "message": "the published source contains a distinct substantive row with the same printed CLO code",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 1,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
-                "clo_code": "2.1",
-                "clo_index": 2,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
                 "clo_code": "2.2",
                 "clo_index": 3,
                 "code": "clo_text_unreadable",
@@ -161386,20 +161022,6 @@
                 "source_page": 4
               },
               {
-                "clo_code": "2.2",
-                "clo_index": 3,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
-                "clo_code": "2.3",
-                "clo_index": 4,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
                 "clo_code": "3.1",
                 "clo_index": 5,
                 "code": "clo_text_unreadable",
@@ -161411,41 +161033,6 @@
                 "clo_index": 5,
                 "code": "clo_text_unreadable",
                 "message": "the published CLO row was captured, but its outcome text could not be read reliably",
-                "source_page": 4
-              },
-              {
-                "clo_code": "3.1",
-                "clo_index": 5,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 6,
-                "code": "direct_assessment_unresolved",
-                "message": "no unambiguous direct-assessment text was recovered for this CLO",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 6,
-                "code": "duplicate_source_clo_code",
-                "message": "the published source contains a distinct substantive row with the same printed CLO code",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 6,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
-                "clo_code": "3.3",
-                "clo_index": 7,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
                 "source_page": 4
               }
             ]
@@ -161489,9 +161076,9 @@
               "version": "38"
             }
           ],
-          "source_pdf": "assets/course-specifications/web-recovery-20260910/990113-2.pdf",
-          "source_sha256": "ea55a91f0983b93151312ece9ac82c1ae48fb218f036cd8a2bb3884b765faa7c",
-          "variant_id": "678ea044e490c962d37fbb863ebf6cf93597d1b042b2f80551c653804ec00820"
+          "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990113-2--74025fe683.pdf",
+          "source_sha256": "fc695a78bf93e4b90167744a60544f0adf556bd6b110cca05d5814364e9bffe8",
+          "variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813"
         }
       ]
     },
@@ -161499,7 +161086,7 @@
       "variants": [
         {
           "catalog": {
-            "match_note": "توصيف رسمي من جامعة الطائف؛ رمز المقرر واسمه مطابقان للخطة. استُعيد التوصيف من الويب وتحقق انتماؤه لجامعة الطائف في 2026-09-10.",
+            "match_note": "توصيف رسمي من جامعة الطائف؛ رمز المقرر واسمه مطابقان للخطة. استُعيد التوصيف من الويب وتحقق انتماؤه لجامعة الطائف في 2026-09-10. المقرر مشترك بين برامج مختلفة؛ أُبقيت خلايا رمز ناتج البرنامج فارغة لتتولى كل جهة برنامجية الربط المناسب (2026-09-05).",
             "match_status": "verified",
             "specification_code": "990311-2",
             "summary": "ينمي مهارات الدراسة الجامعية والتواصل والعرض والقراءة والكتابة الأكاديمية، والتفكير الناقد، والعمل الجماعي، والمهارات المهنية والرقمية.",
@@ -161557,9 +161144,9 @@
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161567,12 +161154,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161580,12 +161167,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161593,12 +161180,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161606,12 +161193,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161619,12 +161206,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161632,7 +161219,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -161640,17 +161227,17 @@
                 "text": null
               },
               {
-                "assessment": null,
-                "assessment_source_page": null,
-                "code": "1.3",
+                "assessment": "الملاحظة والواجبات",
+                "assessment_source_page": 5,
+                "code": "2.1",
                 "confidence": "low",
                 "document_plo_codes": [],
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161658,12 +161245,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161671,12 +161258,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161684,12 +161271,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161697,12 +161284,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161710,12 +161297,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161723,7 +161310,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -161739,9 +161326,9 @@
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161749,12 +161336,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161762,12 +161349,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161775,12 +161362,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161788,12 +161375,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161801,12 +161388,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161814,7 +161401,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -161830,9 +161417,9 @@
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161840,12 +161427,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161853,12 +161440,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161866,12 +161453,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161879,12 +161466,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161892,12 +161479,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161905,7 +161492,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -161913,17 +161500,17 @@
                 "text": null
               },
               {
-                "assessment": null,
-                "assessment_source_page": null,
-                "code": "1.2",
+                "assessment": "تقييم الأداء، والملاحظة",
+                "assessment_source_page": 5,
+                "code": "3.2",
                 "confidence": "medium",
                 "document_plo_codes": [],
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161931,12 +161518,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161944,12 +161531,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161957,12 +161544,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161970,12 +161557,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161983,12 +161570,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -161996,7 +161583,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -162012,9 +161599,9 @@
                 "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -162022,12 +161609,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -162035,12 +161622,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -162048,12 +161635,12 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -162061,12 +161648,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -162074,12 +161661,12 @@
                       "version": "39"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   },
                   {
-                    "confidence": "low",
-                    "evidence": "no unambiguous PLO value was recovered from the published cell",
-                    "plo_codes": null,
+                    "confidence": "high",
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
+                    "plo_codes": [],
                     "scope": {
                       "degree": "بكالوريوس",
                       "plan_type": "قديمة",
@@ -162087,7 +161674,7 @@
                       "version": "38"
                     },
                     "source_page": 4,
-                    "status": "missing"
+                    "status": "explicitly_unmapped"
                   }
                 ],
                 "source_page": 4,
@@ -162103,7 +161690,7 @@
             },
             "extraction_status": "partial",
             "page_count": 7,
-            "source_clo_row_count": 15,
+            "source_clo_row_count": 12,
             "source_status": "unreadable",
             "warnings": [
               {
@@ -162114,6 +161701,13 @@
                 "clo_code": "1.1",
                 "clo_index": 0,
                 "code": "clo_text_unreadable",
+                "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=repeated_glyph_pairs; font=too_short; ocr=too_short)",
+                "source_page": 4
+              },
+              {
+                "clo_code": "1.1",
+                "clo_index": 0,
+                "code": "clo_text_unreadable",
                 "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=too_short; font=too_short; ocr=too_short)",
                 "source_page": 4
               },
@@ -162125,38 +161719,17 @@
                 "source_page": 4
               },
               {
-                "clo_code": "1.1",
-                "clo_index": 0,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.3",
+                "clo_code": "2.1",
                 "clo_index": 1,
                 "code": "clo_text_unreadable",
                 "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=too_short; font=too_short; ocr=too_short)",
                 "source_page": 4
               },
               {
-                "clo_code": "1.3",
+                "clo_code": "2.1",
                 "clo_index": 1,
                 "code": "clo_text_unreadable",
                 "message": "the published CLO row was captured, but its outcome text could not be read reliably",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.3",
-                "clo_index": 1,
-                "code": "direct_assessment_unresolved",
-                "message": "no unambiguous direct-assessment text was recovered for this CLO",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.3",
-                "clo_index": 1,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
                 "source_page": 4
               },
               {
@@ -162174,13 +161747,6 @@
                 "source_page": 4
               },
               {
-                "clo_code": "2.2",
-                "clo_index": 2,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
                 "clo_code": "3.1",
                 "clo_index": 3,
                 "code": "clo_text_unreadable",
@@ -162192,34 +161758,6 @@
                 "clo_index": 3,
                 "code": "clo_text_unreadable",
                 "message": "the published CLO row was captured, but its outcome text could not be read reliably",
-                "source_page": 4
-              },
-              {
-                "clo_code": "3.1",
-                "clo_index": 3,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 4,
-                "code": "direct_assessment_unresolved",
-                "message": "no unambiguous direct-assessment text was recovered for this CLO",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 4,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
-                "clo_code": "3.3",
-                "clo_index": 5,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
                 "source_page": 4
               }
             ]
@@ -162263,9 +161801,9 @@
               "version": "38"
             }
           ],
-          "source_pdf": "assets/course-specifications/web-recovery-20260910/990311-2.pdf",
-          "source_sha256": "27d531fd92c09732e22c7338b282c598008f70729e4b98427945d5ea6b074b9f",
-          "variant_id": "85a790b485becd25cbc72a1fddceb21724f6a80cf9d24afe7765d4fd8fa2ac20"
+          "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990311-2--4ecc998b5f.pdf",
+          "source_sha256": "cb9b0868cd13b7fc9879b8d1a22659ad36f4c41e0a4691256fb050cd97286f84",
+          "variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94"
         }
       ]
     },
@@ -163400,6 +162938,26 @@
       "reason": "program_specification_not_a_course_specification",
       "source_pdf": "assets/course-specifications/usul-phd-1446/program-specification.pdf",
       "source_sha256": "13a30ccd8f3ff10b41e6f0bdb4551514fb4c04ba7547959d1f6c62a911502a31"
+    },
+    {
+      "reason": "superseded_or_unpublished_pdf_not_referenced_by_data_json",
+      "source_pdf": "assets/course-specifications/web-recovery-20260910/105115-2.pdf",
+      "source_sha256": "27f5e817a61789d14969ec4787f1a44a68105353e2b0f3e9b5b6b23f7f611f69"
+    },
+    {
+      "reason": "superseded_or_unpublished_pdf_not_referenced_by_data_json",
+      "source_pdf": "assets/course-specifications/web-recovery-20260910/6602322-2.pdf",
+      "source_sha256": "ce2b8b3ad617ac0289738ee630bdb127767fa345ae3beef006226743a22d2f08"
+    },
+    {
+      "reason": "superseded_or_unpublished_pdf_not_referenced_by_data_json",
+      "source_pdf": "assets/course-specifications/web-recovery-20260910/990113-2.pdf",
+      "source_sha256": "ea55a91f0983b93151312ece9ac82c1ae48fb218f036cd8a2bb3884b765faa7c"
+    },
+    {
+      "reason": "superseded_or_unpublished_pdf_not_referenced_by_data_json",
+      "source_pdf": "assets/course-specifications/web-recovery-20260910/990311-2.pdf",
+      "source_sha256": "27d531fd92c09732e22c7338b282c598008f70729e4b98427945d5ea6b074b9f"
     }
   ],
   "extractor": {
@@ -163413,44 +162971,44 @@
     "tesseract": "5.5.2",
     "version": "1.1.0"
   },
-  "generated_at": "2026-09-04T07:27:47+03:00",
+  "generated_at": "2026-09-10T10:33:29+03:00",
   "schema_version": "course-outcomes-v1",
   "source_data": {
     "path": "data.json",
-    "sha256": "c759cdfd84ca7a7d2ae6a5c2835440d8e5730054107b289c2bbcbfeb78fa3f2a"
+    "sha256": "4c109d43b8968cd080d197134a8a7965cac55fdb4e3e7c1ac5f539217a46be4f"
   },
   "statistics": {
     "active_pdf_sources": 405,
     "clo_source_status_counts": {
-      "present": 2316,
+      "present": 2314,
       "source_blank": 1,
       "unreadable": 642
     },
-    "clos": 2959,
+    "clos": 2957,
     "complete_variants": 384,
     "course_codes": 375,
-    "excluded_pdf_sources": 129,
+    "excluded_pdf_sources": 133,
     "failed_variants": 0,
     "multi_plo_mappings": 22,
     "partial_variants": 26,
-    "plo_applicable_mappings": 3283,
-    "plo_applicable_non_null_rate": 0.717941,
-    "plo_applicable_with_codes_rate": 0.717941,
+    "plo_applicable_mappings": 3127,
+    "plo_applicable_non_null_rate": 0.753758,
+    "plo_applicable_with_codes_rate": 0.753758,
     "plo_code_assignments": 2381,
-    "plo_explicitly_unmapped": 1411,
+    "plo_explicitly_unmapped": 1555,
     "plo_mappings_with_codes": 2357,
     "plo_non_null": 2357,
-    "plo_non_null_rate": 0.489004,
-    "plo_resolved_or_explicit_rate": 0.802727,
+    "plo_non_null_rate": 0.490225,
+    "plo_resolved_or_explicit_rate": 0.83554,
     "plo_status_counts": {
       "ambiguous_for_scope": 35,
       "conflict": 0,
-      "explicitly_unmapped": 1411,
+      "explicitly_unmapped": 1555,
       "mapped": 2357,
-      "missing": 891,
+      "missing": 735,
       "not_present_for_scope": 126
     },
-    "scoped_clo_mappings": 4820,
+    "scoped_clo_mappings": 4808,
     "variant_source_status_counts": {
       "present": 170,
       "source_blank": 1,
