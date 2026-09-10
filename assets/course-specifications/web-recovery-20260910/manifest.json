@@ -1,0 +1,44 @@
+{
+  "recovered_at": "2026-09-10",
+  "source_authority": "جامعة الطائف (tu.edu.sa)",
+  "acceptance_rule": "ملف PDF لتوصيف مقرر، من نطاق جامعة الطائف، مع تطابق الرمز والاسم أو تطابق الرمز وتوسع العنوان الرسمي دون تغيير الهوية.",
+  "records": [
+    {
+      "code": "105115-2",
+      "title": "تاريخ المملكة",
+      "document_title": "تاريخ المملكة العربية السعودية",
+      "source_url": "https://www.tu.edu.sa/Attachments/2b851d3e-0412-441f-90fe-c85eab572026_.pdf",
+      "archive_timestamp": "20250702032649",
+      "source_sha256": "27f5e817a61789d14969ec4787f1a44a68105353e2b0f3e9b5b6b23f7f611f69",
+      "stored_source": "assets/course-specifications/web-recovery-20260910/105115-2.pdf"
+    },
+    {
+      "code": "990113-2",
+      "title": "الثقافة الصحية",
+      "document_title": "الثقافة الصحية",
+      "source_url": "https://www.tu.edu.sa/Attachments/423d6cf7-9ae1-4b22-a78e-a3c377577fa0_.pdf",
+      "archive_timestamp": "20231204033030",
+      "source_sha256": "ea55a91f0983b93151312ece9ac82c1ae48fb218f036cd8a2bb3884b765faa7c",
+      "stored_source": "assets/course-specifications/web-recovery-20260910/990113-2.pdf"
+    },
+    {
+      "code": "990311-2",
+      "title": "المهارات الجامعية",
+      "document_title": "المهارات الجامعية",
+      "source_url": "https://www.tu.edu.sa/Attachments/38df2763-0007-42a2-afb7-d8fdc84930e7_.pdf",
+      "archive_timestamp": "20231204031839",
+      "source_sha256": "27d531fd92c09732e22c7338b282c598008f70729e4b98427945d5ea6b074b9f",
+      "stored_source": "assets/course-specifications/web-recovery-20260910/990311-2.pdf"
+    },
+    {
+      "code": "6602322-2",
+      "title": "التجارة الإلكترونية",
+      "document_title": "التجارة الإلكترونية",
+      "source_url": "https://www.tu.edu.sa/Attachments/9a3ca4c1-cb97-42f8-9d69-ea912397be45_.pdf",
+      "source_page_url": "https://www.tu.edu.sa/Ar/كلية-إدارة-الاعمال/98/Pages/20821/قسم-التسويق",
+      "source_anchor": "توصيف مقرر التجارة الإلكترونية( متطلب اختياري)",
+      "source_sha256": "ce2b8b3ad617ac0289738ee630bdb127767fa345ae3beef006226743a22d2f08",
+      "stored_source": "assets/course-specifications/web-recovery-20260910/6602322-2.pdf"
+    }
+  ]
+}

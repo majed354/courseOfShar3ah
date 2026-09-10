@@ -77,7 +77,9 @@ class CourseOutcomeReviewBatchTest(unittest.TestCase):
             outcomes["statistics"]["source_alignment_counts"],
         )
 
-    def test_every_entry_resolves_to_its_pinned_source(self):
+    def test_every_entry_resolves_to_its_pinned_source_or_audited_successor(self):
+        replacements = review_batch.reviewed_source_replacements()
+        successors = review_batch.reviewed_variant_successors()
         for entry in self.manifest["entries"]:
             variant = review_batch.locate_variant(
                 self.outcomes,
@@ -85,7 +87,22 @@ class CourseOutcomeReviewBatchTest(unittest.TestCase):
                 entry["variant_id"],
                 entry["source_pdf"],
             )
-            self.assertEqual(entry["source_pdf"], variant["source_pdf"])
+            successor = successors.get(
+                (
+                    entry["course_code"],
+                    entry["variant_id"],
+                    entry["source_pdf"],
+                )
+            )
+            self.assertEqual(
+                successor["source_pdf"]
+                if successor
+                else replacements.get(
+                    (entry["course_code"], entry["source_pdf"]),
+                    entry["source_pdf"],
+                ),
+                variant["source_pdf"],
+            )
             self.assertEqual(64, len(variant["source_sha256"]))
 
     def test_shared_course_program_mappings_are_not_changed(self):
@@ -111,11 +128,11 @@ class CourseOutcomeReviewBatchTest(unittest.TestCase):
         }
         self.assertEqual(
             {
-                "الأنظمة": ["ع2"],
-                "الدراسات الإسلامية": ["ع2"],
-                "الشريعة": ["ع1"],
-                "القرآن وعلومه": ["ع2"],
-                "القراءات": ["ع3"],
+                "الأنظمة": [],
+                "الدراسات الإسلامية": [],
+                "الشريعة": [],
+                "القرآن وعلومه": [],
+                "القراءات": [],
             },
             first_row,
         )

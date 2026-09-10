@@ -1,0 +1,1054 @@
+{
+  "schema": "course-outcome-reviewed-source-successors-v1",
+  "generated_at": "2026-09-10",
+  "lineage_manifest": "assets/course-specifications/shared-course-blank-plo-20260905/manifest.json",
+  "policy": "Human review remains anchored to the inspected source. It may be applied to the listed hash-pinned successor because the lineage publication changes only the shared PLO mapping cells and preserves the reviewed CLO content.",
+  "record_count": 41,
+  "records": [
+    {
+      "course_code": "103245-2",
+      "reviewed_variant_id": "509947f6af89e5139c0d2d5aa83a661f3ab1c446a6f2a0ca31416600d7c6b933",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/103245-2.pdf",
+      "reviewed_source_sha256": "fca31a6caa913febff5957453a7e1a6c41e3a1fd5a23d6c9a9446c7f75d22708",
+      "successor_variant_id": "16c521564d870836be1f08fde897a415f877352e00bea0185a436961814f9196",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/103245-2--5bfae92e84.pdf",
+      "successor_source_sha256": "6ce6706e6812814e90bd7dd30e6c9bf327a0dc9420adadbf0ce927236cf949f5",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "103282-2",
+      "reviewed_variant_id": "265a695d259e487361eff864cff302af39381839a1ffd4d64926706f26e4b90d",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/103282-2.pdf",
+      "reviewed_source_sha256": "bee4ed9d73199acedda7b413d890b690e3bfa6eb884cbe3111ecfbfbe8ad9c4c",
+      "successor_variant_id": "52005fb77f054c0aeb3c8fd1244dba87226ff4eccce6b457a390e72a22aeccc5",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/103282-2--2866481d7d.pdf",
+      "successor_source_sha256": "1f9126cf9dc5116231d807e3df3ab1442dcbf7207c4d18875d7fba2ecbee655d",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        }
+      ]
+    },
+    {
+      "course_code": "103282-2",
+      "reviewed_variant_id": "f3e5a40bcc99a0f708e6863f5abc24ba048fe6e2b7b1f43edb12c98cc6bb41e3",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/103282-2.pdf",
+      "reviewed_source_sha256": "bee4ed9d73199acedda7b413d890b690e3bfa6eb884cbe3111ecfbfbe8ad9c4c",
+      "successor_variant_id": "b13b4f8e7666f6da9c2b3180004094b395657c7edfc055f35a16881f0974eb1b",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/103282-2--2866481d7d.pdf",
+      "successor_source_sha256": "1f9126cf9dc5116231d807e3df3ab1442dcbf7207c4d18875d7fba2ecbee655d",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "103349-2",
+      "reviewed_variant_id": "ae4444ba2d0e5e1f5a0c34cbdcba8643cc59d0a1c88827110cc4dcdf6730d8c8",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/103349-2.pdf",
+      "reviewed_source_sha256": "7e2c5dea4dc9d1889c87377219398cef34f5164b0c15f3a2b33b22bf3c05e9ca",
+      "successor_variant_id": "f2c76970cbc44228f27070c50d17057fce35134e41f87e66304f1441c982be03",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/103349-2--c415381484.pdf",
+      "successor_source_sha256": "c8a03c4973bfa07c8d4ffa0f385918a2d3fc7efc4e7eb5dd7ab0c965c09b230b",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        }
+      ]
+    },
+    {
+      "course_code": "103349-2",
+      "reviewed_variant_id": "f5edcf6f0abe5a7e920e6ac13f7cb8e693a297c367fe09d118e6c85691a676b2",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/103349-2.pdf",
+      "reviewed_source_sha256": "7e2c5dea4dc9d1889c87377219398cef34f5164b0c15f3a2b33b22bf3c05e9ca",
+      "successor_variant_id": "d07493d6593067c6cbc117d610f82b12871eb8b27359a10898027d3b22d84fa0",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/103349-2--c415381484.pdf",
+      "successor_source_sha256": "c8a03c4973bfa07c8d4ffa0f385918a2d3fc7efc4e7eb5dd7ab0c965c09b230b",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2001101-2",
+      "reviewed_variant_id": "1a9c1199774b192baab66207034a6b0c1cc75661998275ce98ac39cef757accf",
+      "reviewed_source_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001101-2--quran-old-v39.pdf",
+      "reviewed_source_sha256": "f3a01ef929c1171477e6c9a16a1ee3410c2e261afd39f399598b16d6b58cbac5",
+      "successor_variant_id": "96d97f0f9e0635f3e56e3bea02dc5ebcf3155789d86c6582c3dc84f1bfccfd53",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--6acb2da09b.pdf",
+      "successor_source_sha256": "2d11736ec5abb476e3bbb7d8a6791f970d75f8355e938b7755c2972247b26a5a",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        }
+      ]
+    },
+    {
+      "course_code": "2001101-2",
+      "reviewed_variant_id": "b265f636c896f123961887f7de86eb12745ce9c43a34aed001331dbdeef29667",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/2001101-2.pdf",
+      "reviewed_source_sha256": "471c8082c4a093ac531666ac6ffc7129b44f06ed07499a6864c85559475cd712",
+      "successor_variant_id": "7e3a62c8ce53c71274527c138b5db80d1b33a3e2f3db85fc5363f0b383a302f5",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--d9cbe34ece.pdf",
+      "successor_source_sha256": "75e5d156564765ed25e1d6dd7c958b99da9c68067b5b6efeff07519d3e3dbe30",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2001106-2",
+      "reviewed_variant_id": "0779b43ef1fe33c9c941a0cd2045fa60b9f98ac3561565c2084c4d273d8ad280",
+      "reviewed_source_pdf": "assets/course-specifications/identity-resolutions-20260829/2001106-2--qiraat.pdf",
+      "reviewed_source_sha256": "80155bd74375c5e3da0cd8a8cbce2c29e2b6e775d4fdf70554ca32ab06e72503",
+      "successor_variant_id": "86aa8c2af512d47b2d633ebf130b507afebee616fb59870e6264e555a9b213a6",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001106-2--e60bb6d945.pdf",
+      "successor_source_sha256": "3e55f828344e05e955531d3feffe36355943a95a963b4ea7ff2071cbe73a24b6",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2001106-2",
+      "reviewed_variant_id": "48fa8b7ecbd18cc5eb884c3a14e0c9265a87b188726fe8af3a763f119aefefde",
+      "reviewed_source_pdf": "assets/course-specifications/identity-resolutions-20260829/2001106-2--quran.pdf",
+      "reviewed_source_sha256": "1ef54b315912742b3e0b73544e11c2486792b6b3c4db696d677b3f2c0f9b3ca2",
+      "successor_variant_id": "cdaff7d8de193855f314a5dce45fc8561286b01de6da2904033cbbc6bb45ae3a",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001106-2--ec42a4ad0f.pdf",
+      "successor_source_sha256": "9001d925890ea9bf6cd89ceb79a4d0eecfbf33afcfc450a466ff216dbb0fe143",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        }
+      ]
+    },
+    {
+      "course_code": "2001112-2",
+      "reviewed_variant_id": "3e6c43063aa387a6d5107824e7ce6ce0f2db41b8b8637af4fd4a755debda8ead",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/2001112-2.pdf",
+      "reviewed_source_sha256": "6b0438c41c3c9e19e11403c1564124d161983859040abd35518a8d00edb47b45",
+      "successor_variant_id": "cb3e962d8da1b429e398170fcc5ca1425a1596a01aff960efda860de2b555f29",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001112-2--4d2365da36.pdf",
+      "successor_source_sha256": "428c475459cbf0837f46e85b02d57ec12c4358cc7f3d5abb98dae71c8af9dfd9",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ]
+    },
+    {
+      "course_code": "2001340-2",
+      "reviewed_variant_id": "531c669f318726df987d52e7fe2f2acbb6d102884da280511ef6e590c5d92a81",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/2001340-2.pdf",
+      "reviewed_source_sha256": "4a721e10a8b2240ad66bfcadfca855b0a497dfc89a4924425885b86379798107",
+      "successor_variant_id": "2817a26a4e20d2b3d05ce51da390ccd2455421a90afc8d05568e344533820438",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001340-2--16914d8743.pdf",
+      "successor_source_sha256": "1821c53090b26931f2578bbf38ad6d1aea8564c7fde7a1cd78e673ece7352707",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2001373-2",
+      "reviewed_variant_id": "b1e0c730e1c3cb0a942e66f9d309b72d0d21440f293428d0d287755ca71feb80",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/2001373-2.pdf",
+      "reviewed_source_sha256": "29187e773841039bf8b2d0f644ff2919e4ceb6cf75a9c0bf3c19505511487653",
+      "successor_variant_id": "4371a058f0255ba7c08eae71fa94785e732c62bf4498824f0ea1bc7fba60bd98",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf",
+      "successor_source_sha256": "bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2001403-2",
+      "reviewed_variant_id": "27db6c6fc11c1c93532db11cb7c67f6d2be8e89ae90cfe4d227dcbbe9dff7fea",
+      "reviewed_source_pdf": "assets/course-specifications/clo-plo-corrections-20260901/2001403-2--quran-old-v39.pdf",
+      "reviewed_source_sha256": "3a9fbba30932f5363c1ad5da8327094509277ff73842db934240c99d3f96df00",
+      "successor_variant_id": "4b187658d2f88ea135b393c7e1646cd70479942b0a20e0ce6de20df011036592",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001403-2--8974cd99a2.pdf",
+      "successor_source_sha256": "b92485cff86c860b2e17237791f0a6c25476410a3988c88b31e7499ef831138a",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        }
+      ]
+    },
+    {
+      "course_code": "2001403-2",
+      "reviewed_variant_id": "c3e5caebace0565ca50cec7d5420b5c5ac36f4e408b8381a8a3358b2b0231922",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/2001403-2.pdf",
+      "reviewed_source_sha256": "7cc4ed1643a8afb655ffe4710e23c20c3e69d933591b382d257dbe37b51e9652",
+      "successor_variant_id": "b5f89166a338884af6ba4216c4cbdbb8b446aeed7de1b3801450c00d824f84d9",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001403-2--44c6cd2809.pdf",
+      "successor_source_sha256": "c4d1a14487ea8ae34b4efeafdb50a25403f56e2c2e289b2378bdf33a881cc98f",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2001474-2",
+      "reviewed_variant_id": "1888aa1bb2d3927de00cb63d48e07fd30d107b2361a0c429d52c6310f0761bb6",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/2001474-2.pdf",
+      "reviewed_source_sha256": "8c0c753ff64271aa39d2a27751d35d58405b222142033a4b2209b3541ded76bf",
+      "successor_variant_id": "478d289f106394f355b2783584d820e56211a7653de92f087a0652d5b4b98524",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf",
+      "successor_source_sha256": "8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2002103-2",
+      "reviewed_variant_id": "afc0739db781a8e1f83422004d581aa8f974bcc74e28ab84fb77f85b562c4394",
+      "reviewed_source_pdf": "assets/course-specifications/qiraat-source-1445/2002103-2.pdf",
+      "reviewed_source_sha256": "2b57fe43b2ff54634acec9fa6b9135a3837b5ba74fce26befe36f70ef69fe381",
+      "successor_variant_id": "1c3ded65321dfd107475ff5c513afb8b529e51784c1e2d8a9e8761e1c2cc1197",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf",
+      "successor_source_sha256": "b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2002106-2",
+      "reviewed_variant_id": "be1c0d3965cc65ce4ce17cd44df6cf6f1afc49b0e5c4712f803b63c257627d05",
+      "reviewed_source_pdf": "assets/course-specifications/qiraat-source-1445/2002106-2.pdf",
+      "reviewed_source_sha256": "6cf93fa3ed784203f0617bb05fd98d6286385ba12d7ef3007edeb6c507230b54",
+      "successor_variant_id": "9af1a5c04c49324a0558df282b6bedefcede3a9226bfda41c0f5f9e20c8798d6",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf",
+      "successor_source_sha256": "4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2002131-2",
+      "reviewed_variant_id": "93fb3735a2df7ba586fcc318001ee6c8f660e5a820b448d3681d765c73b45c3b",
+      "reviewed_source_pdf": "assets/course-specifications/qiraat-source-1445/2002131-2.pdf",
+      "reviewed_source_sha256": "0e9705923df5f412181fd4ef12da8b5c2c9b7c56f96c5b41ce0faa05914756c9",
+      "successor_variant_id": "df7825fbc3fe0aa81a2dcabe2c6c0ebb349ee66edcba520d7b2310e77e24efa5",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002131-2--a1db18da1a.pdf",
+      "successor_source_sha256": "8812c1775436453ec8f5b23385ff8442b2065ea1a039a6156dc94c43d2a52279",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2002131-2",
+      "reviewed_variant_id": "980f532a3b4389cb4a4926a23381feb30b70f5da9df76cd9364a57c4d0a98bd7",
+      "reviewed_source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/2002131-2.pdf",
+      "reviewed_source_sha256": "db0990ec6d89d57578451198864b0427e38be0d7dbddb1bcfd5225c4c46c88e8",
+      "successor_variant_id": "00fd12644eb3e4424dcd8274ba7f6649e4103a8927e92d985d2115dde45c7f4f",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002131-2--ccf975e910.pdf",
+      "successor_source_sha256": "4bbe52b5460842099e3ad945f60bb3159c94b4281b5b84b5571a7821dbc7389b",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        }
+      ]
+    },
+    {
+      "course_code": "2002204-2",
+      "reviewed_variant_id": "f4698d8567ea12af95badc1f20a6b697be4d1d4558ce37e221b3a32628a291ae",
+      "reviewed_source_pdf": "assets/course-specifications/qiraat-source-1445/2002204-2.pdf",
+      "reviewed_source_sha256": "7eb5b615d93c458f1e6dccff27ed86a657af73abbbe1e660085e8fdee9a39066",
+      "successor_variant_id": "6c2ef5ad6e2bf07e755ca92068457b14632102d1107846498ee6442379d63178",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002204-2--4d1600d600.pdf",
+      "successor_source_sha256": "eafcf5121e52b7d5a3e9724c3ce077d655a92b95962bece1cf675db846edaabe",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2002208-2",
+      "reviewed_variant_id": "fbbe28ee008350f9b27d82b32e02c43e74481bd23828e723e5e50a81d40ae8d6",
+      "reviewed_source_pdf": "assets/course-specifications/qiraat-source-1445/2002208-2.pdf",
+      "reviewed_source_sha256": "ee815ad7e6d047f538703f059f04e62c711162d293b85f29871c777fc6aad679",
+      "successor_variant_id": "8fd788885a25100b7f991f7225b3af05d64e17a1710671ffa46de1ed523b2acf",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002208-2--1e36d32d21.pdf",
+      "successor_source_sha256": "99c77794cfddf093f9f79d87b20c727563dcb93ebd1187669c26fdbae2c1a083",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2002210-2",
+      "reviewed_variant_id": "ef762a0bded5ac8101670f36187b8a6208dd83331d4efc65f37e431fe711912a",
+      "reviewed_source_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002210-2.pdf",
+      "reviewed_source_sha256": "1b3ed9c12881111bf0670463b908a9b01d00d14c4e660921deb7336c0bfbc72d",
+      "successor_variant_id": "4bd4ef9551570ea2b45b84bf796543e59fd553a58e58d997256f1e99e5bf7cee",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002210-2--018c186b3b.pdf",
+      "successor_source_sha256": "a5d0c1fca591c5b05384d69a30d51dffc2756d1af2e62a2aef0690cbc58387b2",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ]
+    },
+    {
+      "course_code": "2002220-2",
+      "reviewed_variant_id": "851320d6b58d5030ba5e7f30a642d76c322e4c4607ef3cec3440dd03ae6a575f",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/2002220-2.pdf",
+      "reviewed_source_sha256": "ae2abe09070172449452b4bc37b944c4be5fc0fbb3ef0e5a0c3dfe2c74533714",
+      "successor_variant_id": "93d599ad8a70b161c18ce187443a58b653b1295a364e5ac1ed7a25b0beaa4aa6",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002220-2--189820a432.pdf",
+      "successor_source_sha256": "236bebef472a2adaf21f5e7ea5b3f0ad7669b401efd2f02296c1c16c85c8fc41",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ]
+    },
+    {
+      "course_code": "2002225-2",
+      "reviewed_variant_id": "2d11473a13e557f47908460d6ba343ef046c030c974ecaf68eaa4194556ce338",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/2002225-2.pdf",
+      "reviewed_source_sha256": "9e0a1b2457a50b29c283883a90b6eb9bcb56d3bdc3be448b8dc81f317b15d26d",
+      "successor_variant_id": "50f1f8f68786f556194ac23f46a8c5df80f55c88c83ac29271bf4fa07858d2c5",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002225-2--bde890933c.pdf",
+      "successor_source_sha256": "6bfce2c5d6089624866d54dbcee2396185b589c357c5a6ecdc6ec029e488454b",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ]
+    },
+    {
+      "course_code": "2002226-2",
+      "reviewed_variant_id": "5b67de4507d61e060f75716d12c9b05e8de0784e4c88d36553399b935067007e",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/2002226-2.pdf",
+      "reviewed_source_sha256": "ccb40bbfccf329e4154c3efd0a77942ad741feea8eb307030d3d8c3670e622e3",
+      "successor_variant_id": "c96b418971c91ae7cdec56e64d5b34cce8a0a24108ed5c014ee8b851392cf7f9",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002226-2--25829203f2.pdf",
+      "successor_source_sha256": "eeaa28cb464195fca1da3891991a8b3bdca281b85049cc4a4153cf44637d0a04",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ]
+    },
+    {
+      "course_code": "2002232-2",
+      "reviewed_variant_id": "d1b73fbf2c9e78131809aabc4b9a0d951b7b000ec8a69f0a71e8909640b99663",
+      "reviewed_source_pdf": "assets/course-specifications/qiraat-source-1445/2002232-2.pdf",
+      "reviewed_source_sha256": "47ec5a15681227c88f690aab31c5259a6e53f27cd8dea900f10a2f95708da2c5",
+      "successor_variant_id": "12f89caf36e9f094135e37d7b306a361316dafe7354996ff55bd085de1c10cf3",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002232-2--bbeaa2bbaf.pdf",
+      "successor_source_sha256": "a152cae5b1ef3c01350fc5fd25a577550778fbe36b34bd11ac935729f501478b",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2002250-2",
+      "reviewed_variant_id": "0789eb8aac639b93ba11c9734cce9d292fd668bdb0223f7c591474b0d2dc4ce9",
+      "reviewed_source_pdf": "assets/course-specifications/quran-old-v39/2002250-2.pdf",
+      "reviewed_source_sha256": "fbbb9cc68bcb0cdd30b3484ccc91dd107a86a603cc1d90918d508c1895010426",
+      "successor_variant_id": "e4b0f50dceda6ad4df73504857d1c37e5724adddd3ab45eca5f8ffaeff7a45d2",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002250-2--a6427ad49e.pdf",
+      "successor_source_sha256": "9cf366abbdede7c727a4a3ffafb47c472c7e59a8c57e9bc6727999ee44bcc2fe",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        }
+      ]
+    },
+    {
+      "course_code": "2002250-2",
+      "reviewed_variant_id": "fffda9cc278af97353c84ed36d388ad08ccedb21f4396e54d2383b57d8d0f6a7",
+      "reviewed_source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/2002250-2.pdf",
+      "reviewed_source_sha256": "8bcc923be7271ec1d5a971344dd28165cad71e8778807853be3979dd50c54e8c",
+      "successor_variant_id": "53e4d8c186e761d33759aca3738192e2461f7d953c061ef59ce291d676fbf20b",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002250-2--244d678f13.pdf",
+      "successor_source_sha256": "101125d7c376dcc0d0f43fb400583ec5626c463d3942af03927ace124d9ccc4a",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        }
+      ]
+    },
+    {
+      "course_code": "2002306-2",
+      "reviewed_variant_id": "a2871b6f114f7b87b1195d8d67fcdeb847771d953fe6ca5b1a2c4524f9d5ccb7",
+      "reviewed_source_pdf": "assets/course-specifications/qiraat-source-1445/2002306-2.pdf",
+      "reviewed_source_sha256": "69cadf881603bced2a090ac7361faed293cccc5ea5b2bfc031c721db29b8d628",
+      "successor_variant_id": "68d1fad2217110b4325aa9848001befc8c530c016137df260df46b814893a67d",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002306-2--2888e589ee.pdf",
+      "successor_source_sha256": "4bf64a99ef8c189e751317af3d1a20ef5e549a0fe81b029b411892dd36dedb4d",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2002454-2",
+      "reviewed_variant_id": "7316dab6e71593a6b24c3b88786a1667fae5354bfa772d46ae52198a5dafe229",
+      "reviewed_source_pdf": "assets/course-specifications/identity-resolutions-20260829/2002454-2--qiraat.pdf",
+      "reviewed_source_sha256": "5cf7971e504279cfa60a5dc8ecd77c3f3307a65f9d163fb9fc0e0c0a5206e72d",
+      "successor_variant_id": "b1efaeb416e54df6130c8a2b77f82fc040b5c0c1a2481b3064938812fc8b44b6",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002454-2--9a1f2d1042.pdf",
+      "successor_source_sha256": "5c4a6266098f6b48f22faefecd491425352559765a6255914c1b9e25a92417c9",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2002456-2",
+      "reviewed_variant_id": "432c2d23ab08af3fc5d1d462a1bc746d828d11b362411a57dfb391b2f209f278",
+      "reviewed_source_pdf": "assets/course-specifications/qiraat-source-1445/2002456-2.pdf",
+      "reviewed_source_sha256": "fd896ca4903218d95f19ca0a35330db4a6172b53c6389a76296d2f9f05a6e09a",
+      "successor_variant_id": "44036886c62eaa07b4d9068f39b744151803b94532fd8ea8c93b2ee40235be4a",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--3b6c8f3dc2.pdf",
+      "successor_source_sha256": "b1935f12576c22a1119e54fc280173bc8d4a2b3c19e6b7693aab453735f550ec",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "2003215-2",
+      "reviewed_variant_id": "e5791f48a2fd8e949d7a4843d4f523ea563c1791e5f5f3047597d2d24a5aec2e",
+      "reviewed_source_pdf": "assets/course-specifications/2003215-2.pdf",
+      "reviewed_source_sha256": "192af762f583d14d2b189fe210f60d1d2dd2a51f12f2699e15f2e386c3ac5c59",
+      "successor_variant_id": "60a1f1289cfeda0a583d7364b9d2a0d4dab9a64ba2c8e87c29719b43a6aa8888",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2003215-2--c3309552e0.pdf",
+      "successor_source_sha256": "6dc75ac9b22a9a6850243fc80c79a2d7b662950ce59b4c0fac013b2d76501807",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ]
+    },
+    {
+      "course_code": "2003215-2",
+      "reviewed_variant_id": "e7a4e6419be5eee8e7fb5bbf5c516e18ee123546a97ac08e899fd0092757d651",
+      "reviewed_source_pdf": "assets/course-specifications/systems-source-2022/2003215-2.pdf",
+      "reviewed_source_sha256": "7c32e61eca00598b3e1443f042166873ab79d636e596671cb01bde2b504bf761",
+      "successor_variant_id": "a897dae64d476d4f7c4e6766c85ab7d74aa97f6ec05eb4b9d18dba95475c64f3",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2003215-2--36892394ce.pdf",
+      "successor_source_sha256": "c6a671d9f8e9907167caeabf956c8c45c5b4f03e9a1878f6ef8b76bafeb6b605",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الأنظمة",
+          "version": "38"
+        }
+      ]
+    },
+    {
+      "course_code": "20041102-2",
+      "reviewed_variant_id": "d97ebfcb7a999f879da521d61b2c96aa2b22afec5b831660c69fbdbd820d27a0",
+      "reviewed_source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20041102-2.pdf",
+      "reviewed_source_sha256": "98e902b74b3893eb8ae6ae0739700fde482efcf5cb7d70779c57c3b3841d8117",
+      "successor_variant_id": "6ca67d9057fb388b4db47288f68288b17daa965512edaa6187e6be3985193989",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/20041102-2--834f4539dd.pdf",
+      "successor_source_sha256": "9983ff41b716ba066d370c75d043087aa93fca104c1f09acf24b49a21984bf83",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ]
+    },
+    {
+      "course_code": "20042107-2",
+      "reviewed_variant_id": "9055eecd679c3a55e13e7a15938b07bf747b2900b7e63ea1ccb583a6f021565e",
+      "reviewed_source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20042107-2.pdf",
+      "reviewed_source_sha256": "6eca1ab9782b4d61214ff1f0f339c99d25d2ceb8065005b8441c165c9086b576",
+      "successor_variant_id": "5f3f85e24d498557d0ce18c59cc4a2fef99531756f50084762c4480b037bc4f4",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/20042107-2--6d6b769825.pdf",
+      "successor_source_sha256": "503c38b6a1c1470ca991976a05ace01b0b18eef569eb7ffdb28310e094e7b9f4",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        }
+      ]
+    },
+    {
+      "course_code": "2004245-2",
+      "reviewed_variant_id": "8bb71bcb2a7aab3cab0fdf131db26dc3226d43e20cb7d21d1d684f1b0f81b100",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/2004245-2.pdf",
+      "reviewed_source_sha256": "f152ca2b71fbec26bfb9b400f5ca744cd7f6a8096cf7fc0e1fe631c12181cb0d",
+      "successor_variant_id": "90d9f8dc9fb1b9f3b57f4624ec067af4b0850c079c574f643ad74d1b8c2700cf",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf",
+      "successor_source_sha256": "05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ]
+    },
+    {
+      "course_code": "2004258-2",
+      "reviewed_variant_id": "cd60029155fa80e2621166aa80d7d7c665fe59bc359f5fcfec811316d2ff8fd1",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/2004258-2.pdf",
+      "reviewed_source_sha256": "7fe4fbbd1dc49f589cc38c0d30ba50122a0e5a62b1a1df9cfb58ec53681ec052",
+      "successor_variant_id": "d69e7e7dd93586735805400067231106c4f246eb440c189ec13fcbcef01bd57a",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf",
+      "successor_source_sha256": "6efe2ca3ee1ac66488a79cbf901ac812bdd09594f58e6bb7f19dafbcfd040801",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ]
+    },
+    {
+      "course_code": "2004273-2",
+      "reviewed_variant_id": "f31c2e5bb05e85281616705c0abcfcc3399db40e43694c12d5c982c9765e3451",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/2004273-2.pdf",
+      "reviewed_source_sha256": "cde9b8345c6a688fdc7c3e90bd40054e49d1c4ee84576b6f66afac0f431cf2f4",
+      "successor_variant_id": "beffb6b53553ba5d672846b1c68965d1165d73617f62f19e06eafd33b25c9b18",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf",
+      "successor_source_sha256": "2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ]
+    },
+    {
+      "course_code": "2004373-2",
+      "reviewed_variant_id": "d1e372aa69f75b96b4400c0e97cc6cb2b6e44953542494bbb5f853ee417ebe45",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/2004373-2.pdf",
+      "reviewed_source_sha256": "90c2a7f17544b5e3cc9da81c2c6586851a56cdf6f547cd133ae85b9630606e29",
+      "successor_variant_id": "84d2944de69322a80273b0e9b0388cf4c4d695838399b3512dfa514770051c73",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf",
+      "successor_source_sha256": "b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ]
+    },
+    {
+      "course_code": "2004474-2",
+      "reviewed_variant_id": "d565844e5b5d3bf354313b734b460bf1e1af07e19b8017c59d24a81b07464a92",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/2004474-2.pdf",
+      "reviewed_source_sha256": "dcfa8dff348de33e4e5653c4d9a695e125efa90657b0656547a6466236cfd67f",
+      "successor_variant_id": "fbc7c05943a36a7e07ba90fb85b876610b11a80cd4413c24c0a4cb0458cf9708",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf",
+      "successor_source_sha256": "99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ]
+    },
+    {
+      "course_code": "990415-2",
+      "reviewed_variant_id": "bd84e1fa6e561de63e61c44ce8f21375e8121ba2ba3af53f0be1fa760380fc07",
+      "reviewed_source_pdf": "assets/course-specifications/raw-recovery-20260827/990415-2.pdf",
+      "reviewed_source_sha256": "0783aca877441f28887fa61d5d2cf1e3f7402ff2aee1ff289df49c5e1d76e9e1",
+      "successor_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "successor_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf",
+      "successor_source_sha256": "e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc",
+      "scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الأنظمة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ]
+    }
+  ]
+}

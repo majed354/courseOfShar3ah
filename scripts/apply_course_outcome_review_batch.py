@@ -22,6 +22,16 @@ import verify_course_outcomes as verifier
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_MANIFEST_GLOB = "course-outcomes-batch-*.json"
 DEFAULT_OUTCOMES = ROOT / "course-outcomes.json"
+SOURCE_REPLACEMENT_MANIFEST = (
+    ROOT
+    / "assets"
+    / "course-specifications"
+    / "shared-course-blank-plo-20260905"
+    / "manifest.json"
+)
+REVIEWED_SOURCE_SUCCESSORS = (
+    ROOT / "review-batches" / "course-outcome-source-replacements-20260910.json"
+)
 
 ALIGNMENTS = {
     "present": {
@@ -68,6 +78,58 @@ def load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def reviewed_source_replacements() -> dict[tuple[str, str], str]:
+    """Map a reviewed source to its audited PLO-blanked successor.
+
+    Visual review batches intentionally retain the immutable source anchors
+    that reviewers inspected.  When a later audited publication changes only
+    the PLO cell, its manifest supplies the hash-bound source/output lineage
+    needed to apply that review to the successor variant.
+    """
+
+    if not SOURCE_REPLACEMENT_MANIFEST.is_file():
+        return {}
+    manifest = load_json(SOURCE_REPLACEMENT_MANIFEST)
+    replacements: dict[tuple[str, str], str] = {}
+    for record in manifest.get("records", []):
+        key = (str(record.get("course_key", "")), str(record.get("source", "")))
+        output = str(record.get("output", ""))
+        if not all(key) or not output:
+            raise ValueError(
+                f"invalid source replacement record in {SOURCE_REPLACEMENT_MANIFEST}"
+            )
+        if key in replacements and replacements[key] != output:
+            raise ValueError(f"ambiguous reviewed source replacement: {key!r}")
+        replacements[key] = output
+    return replacements
+
+
+def reviewed_variant_successors() -> dict[tuple[str, str, str], dict[str, str]]:
+    if not REVIEWED_SOURCE_SUCCESSORS.is_file():
+        return {}
+    manifest = load_json(REVIEWED_SOURCE_SUCCESSORS)
+    successors: dict[tuple[str, str, str], dict[str, str]] = {}
+    for record in manifest.get("records", []):
+        key = (
+            str(record.get("course_code", "")),
+            str(record.get("reviewed_variant_id", "")),
+            str(record.get("reviewed_source_pdf", "")),
+        )
+        successor = {
+            "variant_id": str(record.get("successor_variant_id", "")),
+            "source_pdf": str(record.get("successor_source_pdf", "")),
+            "source_sha256": str(record.get("successor_source_sha256", "")),
+        }
+        if not all(key) or not all(successor.values()):
+            raise ValueError(
+                f"invalid reviewed source successor in {REVIEWED_SOURCE_SUCCESSORS}"
+            )
+        if key in successors and successors[key] != successor:
+            raise ValueError(f"ambiguous reviewed variant successor: {key!r}")
+        successors[key] = successor
+    return successors
+
+
 def locate_variant(
     outcomes: dict[str, Any], course_code: str, variant_id: str, source_pdf: str
 ) -> dict[str, Any]:
@@ -80,12 +142,46 @@ def locate_variant(
         if variant.get("variant_id") == variant_id
         and variant.get("source_pdf") == source_pdf
     ]
-    if len(matches) != 1:
+    if len(matches) == 1:
+        return matches[0]
+    if matches:
         raise ValueError(
             f"expected one variant for {course_code}/{variant_id}/{source_pdf}; "
             f"found {len(matches)}"
         )
-    return matches[0]
+
+    successor = reviewed_variant_successors().get(
+        (course_code, variant_id, source_pdf)
+    )
+    if successor:
+        successor_matches = [
+            variant
+            for variant in course.get("variants", [])
+            if variant.get("variant_id") == successor["variant_id"]
+            and variant.get("source_pdf") == successor["source_pdf"]
+            and variant.get("source_sha256") == successor["source_sha256"]
+        ]
+        if len(successor_matches) != 1:
+            raise ValueError(
+                f"expected one hash-pinned successor for "
+                f"{course_code}/{variant_id}/{source_pdf}; "
+                f"found {len(successor_matches)}"
+            )
+        return successor_matches[0]
+
+    replacement = reviewed_source_replacements().get((course_code, source_pdf))
+    replacement_matches = [
+        variant
+        for variant in course.get("variants", [])
+        if variant.get("source_pdf") == replacement
+    ]
+    if len(replacement_matches) != 1:
+        raise ValueError(
+            f"expected one variant for {course_code}/{variant_id}/{source_pdf} "
+            f"or its audited replacement {replacement!r}; "
+            f"found {len(replacement_matches)}"
+        )
+    return replacement_matches[0]
 
 
 def reviewed_override(
