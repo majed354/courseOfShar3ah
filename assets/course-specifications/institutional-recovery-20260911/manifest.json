@@ -1,0 +1,189 @@
+{
+  "schema": "institutional-recovery-v1",
+  "recovered_at": "2026-09-11",
+  "source": {
+    "library": "Google Drive institutional comprehensive course specifications",
+    "collection": "توصيف المقررات الشامل/المستويات pdf"
+  },
+  "selection_rule": "الرمز والعنوان والبرنامج والساعات متطابقة، أو كان نقص الرمز محصورًا في خانة الغلاف وأمكن إكماله من اسم الملف المؤسسي والخطة المطابقة دون تغيير المحتوى المرئي.",
+  "scope_rule": "رُبطت نسخ برنامج القرآن وعلومه فقط؛ لم تُنقل إلى القراءات أو الأنظمة لأن حقل البرنامج داخل الملفات لا يثبت تلك السياقات.",
+  "records": [
+    {
+      "code": "2001205-2",
+      "title": "الحديث (1)",
+      "source_library": "Google Drive institutional comprehensive course specifications",
+      "source_relative_path": "03) المستوى الثالث/2001205-2 الحديث (1).pdf",
+      "source_sha256": "6914827caa4358cecc9cf29d351bd5035e38ffdb859fd5152ac6ed7165b3082a",
+      "page_count": 8,
+      "printed_identity_status": "administrative_placeholder_in_code_cell",
+      "identity_completion_applied": true,
+      "identity_evidence": "اسم الملف المؤسسي يحمل الرمز 2001205-2، والغلاف يثبت عنوان الحديث (1) وبرنامج القرآن وعلومه وساعتين معتمدتين، والخطة 39 تحمل الهوية نفسها. خانة الرمز في الغلاف تحمل عبارة إدارية عن الاستحداث بدل الرمز.",
+      "adaptation": "exact_copy_plus_invisible_accessible_identity",
+      "visible_content_changed": false,
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "output_sha256": "b15bf07d186a839ab17ae65398f1f878ccd2a362994c342049eb00769daecb2d"
+    },
+    {
+      "code": "2001209-2",
+      "title": "الحديث (2)",
+      "source_library": "Google Drive institutional comprehensive course specifications",
+      "source_relative_path": "04) المستوى الرابع/2001209-2 الحديث (2).pdf",
+      "source_sha256": "94dfb435984c8caf49d8bd9f6ea71dc24032a39206a3b5387023b212ea8eb273",
+      "page_count": 8,
+      "printed_identity_status": "administrative_placeholder_in_code_cell",
+      "identity_completion_applied": true,
+      "identity_evidence": "اسم الملف المؤسسي يحمل الرمز 2001209-2، والغلاف يثبت عنوان الحديث (2) وبرنامج القرآن وعلومه وساعتين معتمدتين، والخطة 39 تحمل الهوية نفسها. خانة الرمز في الغلاف تحمل عبارة إدارية عن الاستحداث بدل الرمز.",
+      "adaptation": "exact_copy_plus_invisible_accessible_identity",
+      "visible_content_changed": false,
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "output_sha256": "e5bc393aed47e6b6815a97b628f35860ae54933c42e13d0ff116ce3022a0b4cd"
+    },
+    {
+      "code": "2001221-2",
+      "title": "الفقه (1)",
+      "source_library": "Google Drive institutional comprehensive course specifications",
+      "source_relative_path": "03) المستوى الثالث/2001221-2 الفقه (1).pdf",
+      "source_sha256": "0fe9d01a4fe08bd19561d5ab3e231900ba13b8f6976a51722cebbc1d6582a8f2",
+      "page_count": 7,
+      "printed_identity_status": "exact",
+      "identity_completion_applied": false,
+      "identity_evidence": "الغلاف يثبت الرمز والعنوان وبرنامج القرآن وعلومه والساعات، وتطابقها خطة 47.",
+      "adaptation": "exact_copy_plus_invisible_accessible_identity",
+      "visible_content_changed": false,
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "output_sha256": "5af1f5156e692f0fbb9613a5c173d87288d6ffdb0961a1f32f0e7100a8009a97"
+    },
+    {
+      "code": "2001320-2",
+      "title": "الحديث (3)",
+      "source_library": "Google Drive institutional comprehensive course specifications",
+      "source_relative_path": "05) المستوى الخامس/2001320-2 الحديث (3).pdf",
+      "source_sha256": "72241c78b37cdfce57e900d5450d73c8354f1af9b598d5150533c041f6b91862",
+      "page_count": 7,
+      "printed_identity_status": "administrative_placeholder_in_code_cell",
+      "identity_completion_applied": true,
+      "identity_evidence": "اسم الملف المؤسسي يحمل الرمز 2001320-2، والغلاف يثبت عنوان الحديث (3) وبرنامج القرآن وعلومه وساعتين معتمدتين، والخطة 39 تحمل الهوية نفسها في المستوى السادس. لم يُستخدم اسم مجلد المستوى لإثبات الهوية.",
+      "adaptation": "exact_copy_plus_invisible_accessible_identity",
+      "visible_content_changed": false,
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "output_sha256": "17c56438a42c73275978c91863e4663dd09fe12f03f534084d8a7c12f6d01142"
+    },
+    {
+      "code": "2001322-2",
+      "title": "الفقه (2)",
+      "source_library": "Google Drive institutional comprehensive course specifications",
+      "source_relative_path": "04) المستوى الرابع/2001322-2 الفقه (2).pdf",
+      "source_sha256": "1e1ca855446a581c9ea5d29d64c55c1b8e97595fb1a6406ccadde2016ad59f18",
+      "page_count": 6,
+      "printed_identity_status": "exact",
+      "identity_completion_applied": false,
+      "identity_evidence": "الغلاف يثبت الرمز والعنوان وبرنامج القرآن وعلومه والساعات، وتطابقها الخطتان 39 و47.",
+      "adaptation": "exact_copy_plus_invisible_accessible_identity",
+      "visible_content_changed": false,
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "output_sha256": "5708e98e83bd129d0bf06c11a30bca983a1a495d543a517e2c6d4ce1ee1c1287"
+    },
+    {
+      "code": "2001317-2",
+      "title": "الفقه (3)",
+      "source_library": "Google Drive institutional comprehensive course specifications",
+      "source_relative_path": "05) المستوى الخامس/2001317-2 الفقه (3).pdf",
+      "source_sha256": "a2e1ecb86d5461ac4fa9427849d06da8f7dd32e84e8410c803c274e2e0aef2b3",
+      "page_count": 6,
+      "printed_identity_status": "exact",
+      "identity_completion_applied": false,
+      "identity_evidence": "الغلاف يثبت الرمز والعنوان وبرنامج القرآن وعلومه والساعات، وتطابقها الخطتان 39 و47.",
+      "adaptation": "exact_copy_plus_invisible_accessible_identity",
+      "visible_content_changed": false,
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "output_sha256": "73e4cee7969dda4fd52573c6dae75ffc81d979ca9a30235153ea9821bb30d063"
+    },
+    {
+      "code": "2001330-2",
+      "title": "أصول الفقه (2)",
+      "source_library": "Google Drive institutional comprehensive course specifications",
+      "source_relative_path": "06) المستوى السادس/2001330-2 أصول الفقه (2).pdf",
+      "source_sha256": "00a2897b04a62a7f9b783d356b7858443d9082b9a13cd62fe40e34cf073caa6d",
+      "page_count": 7,
+      "printed_identity_status": "blank_code_cell",
+      "identity_completion_applied": true,
+      "identity_evidence": "اسم الملف المؤسسي يحمل الرمز 2001330-2، والغلاف يثبت عنوان أصول الفقه (2) وبرنامج القرآن وعلومه وساعتين معتمدتين، والخطتان 39 و47 تحملان الهوية نفسها. خانة الرمز في الغلاف فارغة.",
+      "adaptation": "exact_copy_plus_invisible_accessible_identity",
+      "visible_content_changed": false,
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "output_sha256": "e6deafae09bb141750ff95ca9f064a7b53f1286efa1d79e3d8cbe991a7fe061a"
+    }
+  ],
+  "counts": {
+    "imported_course_identities": 7,
+    "identity_completed_sources": 4,
+    "linked_plan_appearances": 10
+  }
+}

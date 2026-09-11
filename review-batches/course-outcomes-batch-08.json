@@ -1,0 +1,139 @@
+{
+  "schema_version": "course-outcome-review-batch-v1",
+  "reviewed_at": "2026-09-11T14:20:00+03:00",
+  "policy": "Exact-PDF visual review of the three institutional recovery files whose embedded Arabic font prevented reliable CLO text extraction; only text visibly present in page 4 is restored.",
+  "entries": [
+    {
+      "course_code": "2001221-2",
+      "variant_id": "66c109c751e108bbd3d6500f4e4b31b466b49dc16cd644a59caf39dd9a1a4438",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001221-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [4],
+      "disposition": "present",
+      "reviewed_at": "2026-09-11T14:20:00+03:00",
+      "text": "1- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالطهارة. 2- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالصلاة."
+    },
+    {
+      "course_code": "2001221-2",
+      "variant_id": "66c109c751e108bbd3d6500f4e4b31b466b49dc16cd644a59caf39dd9a1a4438",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001221-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [4],
+      "disposition": "present",
+      "reviewed_at": "2026-09-11T14:20:00+03:00",
+      "text": "3- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالزكاة. 4- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالصوم."
+    },
+    {
+      "course_code": "2001221-2",
+      "variant_id": "66c109c751e108bbd3d6500f4e4b31b466b49dc16cd644a59caf39dd9a1a4438",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001221-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [4],
+      "disposition": "present",
+      "reviewed_at": "2026-09-11T14:20:00+03:00",
+      "text": "5- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالمناسك. 6- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالجهاد."
+    },
+    {
+      "course_code": "2001221-2",
+      "variant_id": "66c109c751e108bbd3d6500f4e4b31b466b49dc16cd644a59caf39dd9a1a4438",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001221-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "pages": [4],
+      "disposition": "present",
+      "reviewed_at": "2026-09-11T14:20:00+03:00",
+      "text": "1- أن يشارك الطالب زملاءه في إيجاد الحلول المناسبة للقضايا المطروحة عليه. 2- أن يتفاعل الطالب مع النوازل الفقهية المعاصرة المتعلقة بالمقرر."
+    },
+    {
+      "course_code": "2001322-2",
+      "variant_id": "d2bb54b7c488a2813913f175aece194e1b1b49b73a10357583351e19c2f17e64",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001322-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [4],
+      "disposition": "present",
+      "reviewed_at": "2026-09-11T14:20:00+03:00",
+      "text": "1- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بأحكام البيع وشروطه وضوابطه وما يصح وما يحرم فيه. 2- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالخيار والربا والصرف وبيع الأصول والثمار."
+    },
+    {
+      "course_code": "2001322-2",
+      "variant_id": "d2bb54b7c488a2813913f175aece194e1b1b49b73a10357583351e19c2f17e64",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001322-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [4],
+      "disposition": "present",
+      "reviewed_at": "2026-09-11T14:20:00+03:00",
+      "text": "3- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالسلم والقرض وأبواب التوثقات كالرهن والضمان. 4- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالحوالة والصلح والحجر والوكالة."
+    },
+    {
+      "course_code": "2001322-2",
+      "variant_id": "d2bb54b7c488a2813913f175aece194e1b1b49b73a10357583351e19c2f17e64",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001322-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [4],
+      "disposition": "present",
+      "reviewed_at": "2026-09-11T14:20:00+03:00",
+      "text": "5- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالشركة والمساقاة والمزارعة والإجارة والجعالة والسبق والعارية والغصب. 6- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالشفعة والوديعة وإحياء الموات واللقطة واللقيط والوقف والوصية."
+    },
+    {
+      "course_code": "2001322-2",
+      "variant_id": "d2bb54b7c488a2813913f175aece194e1b1b49b73a10357583351e19c2f17e64",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001322-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "pages": [4],
+      "disposition": "present",
+      "reviewed_at": "2026-09-11T14:20:00+03:00",
+      "text": "1- أن يشارك الطالب زملاءه في إيجاد الحلول المناسبة للقضايا المطروحة عليه. 2- أن يتفاعل الطالب مع النوازل الفقهية المعاصرة المتعلقة بالمقرر."
+    },
+    {
+      "course_code": "2001317-2",
+      "variant_id": "3492d269e36479a2b21620a4e731cf8cc9dd449fe1c8a0c85e01becf9802d3f8",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001317-2.pdf",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "pages": [4],
+      "disposition": "present",
+      "reviewed_at": "2026-09-11T14:20:00+03:00",
+      "text": "1- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالنكاح والصداق. 2- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالطلاق والعدد."
+    },
+    {
+      "course_code": "2001317-2",
+      "variant_id": "3492d269e36479a2b21620a4e731cf8cc9dd449fe1c8a0c85e01becf9802d3f8",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001317-2.pdf",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "pages": [4],
+      "disposition": "present",
+      "reviewed_at": "2026-09-11T14:20:00+03:00",
+      "text": "3- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالرضاع والنفقات والحضانة. 4- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالجنايات والديات والحدود."
+    },
+    {
+      "course_code": "2001317-2",
+      "variant_id": "3492d269e36479a2b21620a4e731cf8cc9dd449fe1c8a0c85e01becf9802d3f8",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001317-2.pdf",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "pages": [4],
+      "disposition": "present",
+      "reviewed_at": "2026-09-11T14:20:00+03:00",
+      "text": "5- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالأطعمة والأيمان. 6- أن يتعرف الطالب على الأحكام الفقهية المتعلقة بالقضاء والشهادات والإقرار."
+    },
+    {
+      "course_code": "2001317-2",
+      "variant_id": "3492d269e36479a2b21620a4e731cf8cc9dd449fe1c8a0c85e01becf9802d3f8",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001317-2.pdf",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "pages": [4],
+      "disposition": "present",
+      "reviewed_at": "2026-09-11T14:20:00+03:00",
+      "text": "1- أن يشارك الطالب زملاءه في إيجاد الحلول المناسبة للقضايا المطروحة عليه. 2- أن يتفاعل الطالب مع النوازل الفقهية المعاصرة المتعلقة بالمقرر."
+    }
+  ]
+}

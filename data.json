@@ -9998,6 +9998,164 @@
           "match_status": "verified"
         }
       ]
+    },
+    "2001205-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "الحديث (1)",
+          "summary": "يتناول أربعين حديثًا من جوامع الكلم النبوي بالحفظ والدراسة التحليلية.",
+          "pdf_url": "assets/course-specifications/institutional-recovery-20260911/2001205-2.pdf",
+          "specification_code": "2001205-2",
+          "match_status": "verified",
+          "match_note": "اسم الملف المؤسسي يحمل الرمز 2001205-2، والغلاف يثبت عنوان الحديث (1) وبرنامج القرآن وعلومه وساعتين معتمدتين، والخطة 39 تحمل الهوية نفسها. خانة الرمز في الغلاف تحمل عبارة إدارية عن الاستحداث بدل الرمز."
+        }
+      ]
+    },
+    "2001209-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "الحديث (2)",
+          "summary": "يتناول أحاديث فضائل القرآن والسور وأبواب التفسير بالدراسة التحليلية.",
+          "pdf_url": "assets/course-specifications/institutional-recovery-20260911/2001209-2.pdf",
+          "specification_code": "2001209-2",
+          "match_status": "verified",
+          "match_note": "اسم الملف المؤسسي يحمل الرمز 2001209-2، والغلاف يثبت عنوان الحديث (2) وبرنامج القرآن وعلومه وساعتين معتمدتين، والخطة 39 تحمل الهوية نفسها. خانة الرمز في الغلاف تحمل عبارة إدارية عن الاستحداث بدل الرمز."
+        }
+      ]
+    },
+    "2001221-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "الفقه (1)",
+          "summary": "يتناول أحكام العبادات من الطهارة والصلاة والزكاة والصيام والمناسك والجهاد.",
+          "pdf_url": "assets/course-specifications/institutional-recovery-20260911/2001221-2.pdf",
+          "specification_code": "2001221-2",
+          "match_status": "verified",
+          "match_note": "الغلاف يثبت الرمز والعنوان وبرنامج القرآن وعلومه والساعات، وتطابقها خطة 47."
+        }
+      ]
+    },
+    "2001320-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            }
+          ],
+          "title": "الحديث (3)",
+          "summary": "يتناول اثنين وثلاثين حديثًا من أحاديث العبادات بالدراسة التحليلية.",
+          "pdf_url": "assets/course-specifications/institutional-recovery-20260911/2001320-2.pdf",
+          "specification_code": "2001320-2",
+          "match_status": "verified",
+          "match_note": "اسم الملف المؤسسي يحمل الرمز 2001320-2، والغلاف يثبت عنوان الحديث (3) وبرنامج القرآن وعلومه وساعتين معتمدتين، والخطة 39 تحمل الهوية نفسها في المستوى السادس. لم يُستخدم اسم مجلد المستوى لإثبات الهوية."
+        }
+      ]
+    },
+    "2001322-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "الفقه (2)",
+          "summary": "يتناول الأحكام الفقهية المتعلقة بفقه المعاملات وما يلحق به من أبواب.",
+          "pdf_url": "assets/course-specifications/institutional-recovery-20260911/2001322-2.pdf",
+          "specification_code": "2001322-2",
+          "match_status": "verified",
+          "match_note": "الغلاف يثبت الرمز والعنوان وبرنامج القرآن وعلومه والساعات، وتطابقها الخطتان 39 و47."
+        }
+      ]
+    },
+    "2001317-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "الفقه (3)",
+          "summary": "يتناول فقه الأسرة والجنايات والدعاوى والبينات.",
+          "pdf_url": "assets/course-specifications/institutional-recovery-20260911/2001317-2.pdf",
+          "specification_code": "2001317-2",
+          "match_status": "verified",
+          "match_note": "الغلاف يثبت الرمز والعنوان وبرنامج القرآن وعلومه والساعات، وتطابقها الخطتان 39 و47."
+        }
+      ]
+    },
+    "2001330-2": {
+      "variants": [
+        {
+          "scopes": [
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "قديمة",
+              "version": "39"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "version": "47"
+            }
+          ],
+          "title": "أصول الفقه (2)",
+          "summary": "يتناول المعايير الأساسية لعلم أصول الفقه وتطبيقاتها.",
+          "pdf_url": "assets/course-specifications/institutional-recovery-20260911/2001330-2.pdf",
+          "specification_code": "2001330-2",
+          "match_status": "verified",
+          "match_note": "اسم الملف المؤسسي يحمل الرمز 2001330-2، والغلاف يثبت عنوان أصول الفقه (2) وبرنامج القرآن وعلومه وساعتين معتمدتين، والخطتان 39 و47 تحملان الهوية نفسها. خانة الرمز في الغلاف فارغة."
+        }
+      ]
     }
   },
   "programs": [
