@@ -210,6 +210,61 @@ def upsert_override(variant: dict[str, Any], item: dict[str, Any]) -> None:
     overrides.sort(key=lambda value: value["field"])
 
 
+def validated_assessment_plan(entry: dict[str, Any]) -> list[dict[str, Any]] | None:
+    """Validate an optional visually reviewed assessment plan.
+
+    Assessment-plan corrections are stored as one structural override because
+    downstream consumers apply the plan atomically rather than leaf by leaf.
+    """
+
+    value = entry.get("assessment_plan")
+    if value is None:
+        return None
+    if not isinstance(value, list) or not value:
+        raise ValueError(
+            f"invalid assessment plan for {entry['course_code']}: expected rows"
+        )
+    plan: list[dict[str, Any]] = []
+    for index, raw in enumerate(value):
+        if not isinstance(raw, dict):
+            raise ValueError(
+                f"invalid assessment row {index} for {entry['course_code']}"
+            )
+        label = raw.get("label")
+        weight = raw.get("weight")
+        source_page = raw.get("source_page")
+        if not isinstance(label, str) or not label.strip():
+            raise ValueError(
+                f"invalid assessment label {index} for {entry['course_code']}"
+            )
+        if (
+            not isinstance(weight, (int, float))
+            or isinstance(weight, bool)
+            or not 0 < float(weight) <= 100
+        ):
+            raise ValueError(
+                f"invalid assessment weight {index} for {entry['course_code']}"
+            )
+        if not isinstance(source_page, int) or source_page <= 0:
+            raise ValueError(
+                f"invalid assessment page {index} for {entry['course_code']}"
+            )
+        plan.append(
+            {
+                "confidence": "verified",
+                "label": label.strip(),
+                "source_page": source_page,
+                "weight": weight,
+            }
+        )
+    total = sum(float(item["weight"]) for item in plan)
+    if abs(total - 100.0) > 0.01:
+        raise ValueError(
+            f"assessment plan total for {entry['course_code']} is {total:g}, not 100"
+        )
+    return plan
+
+
 def recommendation_id(entry: dict[str, Any], variant_id: str) -> str:
     rec = entry["recommendation"]
     payload = "|".join(
@@ -306,6 +361,19 @@ def apply_entry(outcomes: dict[str, Any], entry: dict[str, Any]) -> None:
     }[disposition]
     page_text = "،".join(str(page) for page in pages)
     evidence = f"مراجعة {variant['source_pdf']} | الصفحات {page_text} | {action}"
+
+    assessment_plan = validated_assessment_plan(entry)
+    if assessment_plan is not None:
+        upsert_override(
+            variant,
+            reviewed_override(
+                field="assessment_plan",
+                value=assessment_plan,
+                evidence=evidence,
+                policy="verified_extraction_correction_matches_source",
+                reviewed_at=entry["reviewed_at"],
+            ),
+        )
 
     if row is not None:
         policy = (

@@ -13354,6 +13354,32 @@
           },
           "overrides": [
             {
+              "field": "assessment_plan",
+              "value": [
+                {
+                  "confidence": "verified",
+                  "label": "تقديم بحوث - تقارير - أوراق عمل - عروض تقديمية - تقديم شفهي - عروض",
+                  "source_page": 7,
+                  "weight": 20
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار التحريري النصفي",
+                  "source_page": 7,
+                  "weight": 20
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار النهائي",
+                  "source_page": 8,
+                  "weight": 60
+                }
+              ],
+              "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001106-2--e60bb6d945.pdf | الصفحات 7،8 | استكمال خطة التقويم ذات الأوزان المطبوعة 20% و20% و60% من الصفوف المرئية.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-14T23:15:00+03:00"
+            },
+            {
               "field": "clos[1].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001106-2--e60bb6d945.pdf | الصفحات 4 | استكمال نص CLO 1.2 من الخلية المرئية.",
@@ -13458,16 +13484,17 @@
           },
           "source_review": {
             "status": "accepted_as_is",
-            "finding": "استكمال نص CLO 3.1 من الخلية المرئية.",
+            "finding": "استُعيد اسم أسلوب التقويم الأول وأُثبتت خطة التقويم كاملة من الصفحتين 7 و8.",
             "evidence": {
               "file": "assets/course-specifications/shared-course-blank-plo-20260905/2001106-2--e60bb6d945.pdf",
               "pages": [
-                5
+                7,
+                8
               ],
               "review_method": "تصيير صفحات PDF المطابق للبصمة، وفحص خلية ناتج التعلم بصريًا؛ استُخدم OCR مساعدًا للقراءة ولم يُعتمد دون المطابقة البصرية.",
               "sha256_verified": true
             },
-            "reviewed_at": "2026-09-08T23:00:00+03:00",
+            "reviewed_at": "2026-09-14T23:15:00+03:00",
             "source_sha256": "3e55f828344e05e955531d3feffe36355943a95a963b4ea7ff2071cbe73a24b6"
           }
         },
@@ -13806,6 +13833,32 @@
           },
           "overrides": [
             {
+              "field": "assessment_plan",
+              "value": [
+                {
+                  "confidence": "verified",
+                  "label": "تقديم بحوث - تقارير - أوراق عمل - عروض تقديمية - تقديم شفهي - عروض",
+                  "source_page": 7,
+                  "weight": 20
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار التحريري النصفي",
+                  "source_page": 7,
+                  "weight": 20
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار النهائي",
+                  "source_page": 8,
+                  "weight": 60
+                }
+              ],
+              "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001106-2--ec42a4ad0f.pdf | الصفحات 7،8 | استكمال خطة التقويم ذات الأوزان المطبوعة 20% و20% و60% من الصفوف المرئية.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-14T23:15:00+03:00"
+            },
+            {
               "field": "clos[1].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001106-2--ec42a4ad0f.pdf | الصفحات 4 | استكمال نص CLO 1.2 من الخلية المرئية.",
@@ -13910,16 +13963,17 @@
           },
           "source_review": {
             "status": "accepted_as_is",
-            "finding": "استكمال نص CLO 3.1 من الخلية المرئية.",
+            "finding": "استُعيد اسم أسلوب التقويم الأول وأُثبتت خطة التقويم كاملة من الصفحتين 7 و8.",
             "evidence": {
               "file": "assets/course-specifications/shared-course-blank-plo-20260905/2001106-2--ec42a4ad0f.pdf",
               "pages": [
-                5
+                7,
+                8
               ],
               "review_method": "تصيير صفحات PDF المطابق للبصمة، وفحص خلية ناتج التعلم بصريًا؛ استُخدم OCR مساعدًا للقراءة ولم يُعتمد دون المطابقة البصرية.",
               "sha256_verified": true
             },
-            "reviewed_at": "2026-09-08T23:00:00+03:00",
+            "reviewed_at": "2026-09-14T23:15:00+03:00",
             "source_sha256": "9001d925890ea9bf6cd89ceb79a4d0eecfbf33afcfc450a466ff216dbb0fe143"
           }
         }
@@ -197599,6 +197653,15 @@
     "sha256": "f6ed59867c2641ead0aa6cb60f9eacf84fb9cec71e7156185bb234e122c1cca0"
   },
   "statistics": {
+    "source_alignment_counts": {
+      "corrected_from_source_pdf": 4,
+      "matches_source_pdf": 182,
+      "source_pdf_gap_confirmed": 48
+    },
+    "source_review_counts": {
+      "accepted_as_is": 182,
+      "needs_manual": 52
+    },
     "course_codes": 401,
     "variants": 439,
     "active_pdf_sources": 434,
@@ -197625,26 +197688,17 @@
     "plo_explicitly_unmapped": 1515,
     "plo_non_null_rate": 0.489105,
     "plo_status_counts": {
-      "mapped": 2469,
-      "explicitly_unmapped": 1515,
-      "not_present_for_scope": 126,
-      "missing": 903,
+      "ambiguous_for_scope": 35,
       "conflict": 0,
-      "ambiguous_for_scope": 35
+      "explicitly_unmapped": 1515,
+      "mapped": 2469,
+      "missing": 903,
+      "not_present_for_scope": 126
     },
     "plo_applicable_mappings": 3407,
     "plo_applicable_non_null_rate": 0.724684,
     "plo_applicable_with_codes_rate": 0.724684,
-    "plo_resolved_or_explicit_rate": 0.809427,
-    "source_alignment_counts": {
-      "corrected_from_source_pdf": 4,
-      "matches_source_pdf": 182,
-      "source_pdf_gap_confirmed": 48
-    },
-    "source_review_counts": {
-      "accepted_as_is": 182,
-      "needs_manual": 52
-    }
+    "plo_resolved_or_explicit_rate": 0.809427
   },
   "source_correction_recommendations": [
     {

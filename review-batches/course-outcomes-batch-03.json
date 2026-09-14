@@ -1713,6 +1713,70 @@
         "message": "يوجد ناتج مستقل بعد 1.2 لكن خانة رمزه تحمل «...».",
         "recommendation": "اعتماد رمز CLO الصحيح للناتج غير المرمز في ملف PDF الرسمي. ثم إعادة الاستخراج والتحقق من البصمة."
       }
+    },
+    {
+      "course_code": "2001106-2",
+      "variant_id": "0779b43ef1fe33c9c941a0cd2045fa60b9f98ac3561565c2084c4d273d8ad280",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2001106-2--qiraat.pdf",
+      "clo_index": null,
+      "clo_code": null,
+      "pages": [
+        7,
+        8
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-14T23:15:00+03:00",
+      "action": "استكمال خطة التقويم ذات الأوزان المطبوعة 20% و20% و60% من الصفوف المرئية.",
+      "finding": "استُعيد اسم أسلوب التقويم الأول وأُثبتت خطة التقويم كاملة من الصفحتين 7 و8.",
+      "assessment_plan": [
+        {
+          "label": "تقديم بحوث - تقارير - أوراق عمل - عروض تقديمية - تقديم شفهي - عروض",
+          "weight": 20,
+          "source_page": 7
+        },
+        {
+          "label": "الاختبار التحريري النصفي",
+          "weight": 20,
+          "source_page": 7
+        },
+        {
+          "label": "الاختبار النهائي",
+          "weight": 60,
+          "source_page": 8
+        }
+      ]
+    },
+    {
+      "course_code": "2001106-2",
+      "variant_id": "48fa8b7ecbd18cc5eb884c3a14e0c9265a87b188726fe8af3a763f119aefefde",
+      "source_pdf": "assets/course-specifications/identity-resolutions-20260829/2001106-2--quran.pdf",
+      "clo_index": null,
+      "clo_code": null,
+      "pages": [
+        7,
+        8
+      ],
+      "disposition": "present",
+      "reviewed_at": "2026-09-14T23:15:00+03:00",
+      "action": "استكمال خطة التقويم ذات الأوزان المطبوعة 20% و20% و60% من الصفوف المرئية.",
+      "finding": "استُعيد اسم أسلوب التقويم الأول وأُثبتت خطة التقويم كاملة من الصفحتين 7 و8.",
+      "assessment_plan": [
+        {
+          "label": "تقديم بحوث - تقارير - أوراق عمل - عروض تقديمية - تقديم شفهي - عروض",
+          "weight": 20,
+          "source_page": 7
+        },
+        {
+          "label": "الاختبار التحريري النصفي",
+          "weight": 20,
+          "source_page": 7
+        },
+        {
+          "label": "الاختبار النهائي",
+          "weight": 60,
+          "source_page": 8
+        }
+      ]
     }
   ]
 }
