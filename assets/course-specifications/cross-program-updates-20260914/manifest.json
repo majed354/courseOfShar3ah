@@ -1,0 +1,606 @@
+{
+  "schema": "cross-program-course-specification-update-v1",
+  "generated_at": "2026-09-14T22:30:00+03:00",
+  "selection_rule": "latest exact code+title+program+plan sources from the audited cross-program folder; the sharia-old Quran 8 code mismatch is excluded",
+  "records": [
+    {
+      "code": "20021202-2",
+      "title": "التجويد",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الدراسات الاسلامية/توصيفات القران والتجويد/التجويد.pdf",
+      "source_sha256": "1cfe33d8a86b41048d64ffec86f7f49f23b490f3b88c61b0c8aada8360b25a5b",
+      "output": "assets/course-specifications/cross-program-updates-20260914/20021202-2--islamic-studies-new-v47.pdf",
+      "output_sha256": "1cfe33d8a86b41048d64ffec86f7f49f23b490f3b88c61b0c8aada8360b25a5b",
+      "page_count": 9,
+      "classification_preserved": true,
+      "classification_text_pages": 9,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/islamic-studies-bundle-1444/20021202-2.pdf"
+      ]
+    },
+    {
+      "code": "2002220-2",
+      "title": "القرآن الكريم (1)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الدراسات الاسلامية/توصيفات القران والتجويد/القرآن الكريم (1).pdf",
+      "source_sha256": "d97fcf287ff02180b539ec90b6f8d632de851362543cb04022ae15ed503b74cc",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002220-2--islamic-studies-new-v47.pdf",
+      "output_sha256": "d97fcf287ff02180b539ec90b6f8d632de851362543cb04022ae15ed503b74cc",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/shared-course-blank-plo-20260905/2002220-2--189820a432.pdf"
+      ]
+    },
+    {
+      "code": "2002202-2",
+      "title": "القرآن الكريم (2)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الدراسات الاسلامية/توصيفات القران والتجويد/القران الكريم (2) .pdf",
+      "source_sha256": "86272acf787df2654f0f4e9e2e48613f00cdc58409aa7d2f9d384dd7d53cb7d4",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002202-2--islamic-studies-new-v47.pdf",
+      "output_sha256": "86272acf787df2654f0f4e9e2e48613f00cdc58409aa7d2f9d384dd7d53cb7d4",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/university-omnibus-recovery-20260910/2002202-2.pdf"
+      ]
+    },
+    {
+      "code": "2002225-2",
+      "title": "القرآن الكريم (٣)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الدراسات الاسلامية/توصيفات القران والتجويد/القران الكريم (3).pdf",
+      "source_sha256": "362f9494d8f0e6d2e7e3775461c41eb0d78afda02bdd2efad6211408c55dc564",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002225-2--islamic-studies-new-v47.pdf",
+      "output_sha256": "362f9494d8f0e6d2e7e3775461c41eb0d78afda02bdd2efad6211408c55dc564",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/shared-course-blank-plo-20260905/2002225-2--bde890933c.pdf"
+      ]
+    },
+    {
+      "code": "2002226-2",
+      "title": "القرآن الكريم (٤)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الدراسات الاسلامية/توصيفات القران والتجويد/القرآن الكريم (4).pdf",
+      "source_sha256": "7293c551811a7ebe9e6286b13c00432d1fd185ab2e6444f8ef2b7f0d1d0220ff",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002226-2--islamic-studies-new-v47.pdf",
+      "output_sha256": "7293c551811a7ebe9e6286b13c00432d1fd185ab2e6444f8ef2b7f0d1d0220ff",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/shared-course-blank-plo-20260905/2002226-2--25829203f2.pdf"
+      ]
+    },
+    {
+      "code": "2002228-2",
+      "title": "القرآن الكريم (٥)",
+      "action": "add",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "review_date_hijri": "1446/9/1",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الدراسات الاسلامية/توصيفات القران والتجويد/القرآن الكريم (5).pdf",
+      "source_sha256": "f99bd3fa9d951bd93e2bb21efcb102256b1ba452344de34648fd3ac2604e9e66",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002228-2--islamic-studies-new-v47.pdf",
+      "output_sha256": "f99bd3fa9d951bd93e2bb21efcb102256b1ba452344de34648fd3ac2604e9e66",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": []
+    },
+    {
+      "code": "2002229-2",
+      "title": "القرآن الكريم (٦)",
+      "action": "add",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الدراسات الاسلامية/توصيفات القران والتجويد/القرآن الكريم (6).pdf",
+      "source_sha256": "408eb35ecab64333d7bebe5e0fe42cdf8bb5b6dde4abf000892167c04732bc37",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002229-2--islamic-studies-new-v47.pdf",
+      "output_sha256": "408eb35ecab64333d7bebe5e0fe42cdf8bb5b6dde4abf000892167c04732bc37",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": []
+    },
+    {
+      "code": "2002235-2",
+      "title": "القرآن الكريم (٧)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الدراسات الاسلامية/توصيفات القران والتجويد/القرآن الكريم (7).pdf",
+      "source_sha256": "e0562a2773b06bfc5e1d99de10ac3c2dde4dc66581b2a56f26dc3477a8af4510",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002235-2--islamic-studies-new-v47.pdf",
+      "output_sha256": "e0562a2773b06bfc5e1d99de10ac3c2dde4dc66581b2a56f26dc3477a8af4510",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/identity-resolutions-20260829/2002235-2.pdf"
+      ]
+    },
+    {
+      "code": "2002236-2",
+      "title": "القرآن الكريم (٨)",
+      "action": "add",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الدراسات الاسلامية/توصيفات القران والتجويد/القران الكريم (8).pdf",
+      "source_sha256": "048252d0a7638a9008fc15aac44a3bf3e0ae00a3ce7062662e767c33eaf65d52",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002236-2--islamic-studies-new-v47.pdf",
+      "output_sha256": "048252d0a7638a9008fc15aac44a3bf3e0ae00a3ce7062662e767c33eaf65d52",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": []
+    },
+    {
+      "code": "2002220-2",
+      "title": "القرآن الكريم (1)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الشريعة/توصيف مقررات القران المقدمة لبرنامج الشريعة (خطة جديدة)/القرآن الكريم - شريعة (1).pdf",
+      "source_sha256": "ffa57a1f0bfb8506622bc6ce592bbfb9b0cea67f5e664137641596c6a32e3537",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002220-2--sharia-new-v47.pdf",
+      "output_sha256": "ffa57a1f0bfb8506622bc6ce592bbfb9b0cea67f5e664137641596c6a32e3537",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/shared-course-blank-plo-20260905/2002220-2--189820a432.pdf"
+      ]
+    },
+    {
+      "code": "2002221-2",
+      "title": "القرآن الكريم (2)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الشريعة/توصيف مقررات القران المقدمة لبرنامج الشريعة (خطة جديدة)/القران الكريم - شريعة (2).pdf",
+      "source_sha256": "a7cce9bb87e4903a5b0bad2352013ecb822cf9ba728cefa59d0a2ae7429bd65f",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002221-2--sharia-new-v47.pdf",
+      "output_sha256": "a7cce9bb87e4903a5b0bad2352013ecb822cf9ba728cefa59d0a2ae7429bd65f",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/raw-recovery-20260827/2002221-2.pdf"
+      ]
+    },
+    {
+      "code": "2002225-2",
+      "title": "القرآن الكريم (٣)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الشريعة/توصيف مقررات القران المقدمة لبرنامج الشريعة (خطة جديدة)/القران الكريم - شريعة (3).pdf",
+      "source_sha256": "75f9a2321a74cd9a9e8c201fe04981c4d950fbe89a052c6bee7e69452d31fc20",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002225-2--sharia-new-v47.pdf",
+      "output_sha256": "75f9a2321a74cd9a9e8c201fe04981c4d950fbe89a052c6bee7e69452d31fc20",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/shared-course-blank-plo-20260905/2002225-2--bde890933c.pdf"
+      ]
+    },
+    {
+      "code": "2002226-2",
+      "title": "القرآن الكريم (٤)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الشريعة/توصيف مقررات القران المقدمة لبرنامج الشريعة (خطة جديدة)/القرآن الكريم (4) - شريعة.pdf",
+      "source_sha256": "d22533106a32f2115bcc343cbae9f56227f26a2250e643f954ed4d13573a366b",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002226-2--sharia-new-v47.pdf",
+      "output_sha256": "d22533106a32f2115bcc343cbae9f56227f26a2250e643f954ed4d13573a366b",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/shared-course-blank-plo-20260905/2002226-2--25829203f2.pdf"
+      ]
+    },
+    {
+      "code": "2002128-1",
+      "title": "القرآن الكريم (1)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الشريعة/توصيف مقررات القران المقدمة للشريعة- خطة قديمة/القرآن الكريم (1) شريعة خطة قديمة.pdf",
+      "source_sha256": "9fee0cb861566c28190f5ae0950d2c90b4c446bda112cb9d0003d722f72e956e",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002128-1--sharia-old-v38-v39.pdf",
+      "output_sha256": "9fee0cb861566c28190f5ae0950d2c90b4c446bda112cb9d0003d722f72e956e",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/reviewed-import-20260909/2002128-1.pdf"
+      ]
+    },
+    {
+      "code": "2002129-1",
+      "title": "القرآن الكريم (2)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الشريعة/توصيف مقررات القران المقدمة للشريعة- خطة قديمة/القران الكريم (2) شريعة خطة قديمة .pdf",
+      "source_sha256": "8a581d5b68050408abe0809216de795a6284c4082a128ff393c4d8b9c20801a9",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002129-1--sharia-old-v38-v39.pdf",
+      "output_sha256": "8a581d5b68050408abe0809216de795a6284c4082a128ff393c4d8b9c20801a9",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/reviewed-import-20260909/2002129-1.pdf"
+      ]
+    },
+    {
+      "code": "2002211-1",
+      "title": "القرآن الكريم (3)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الشريعة/توصيف مقررات القران المقدمة للشريعة- خطة قديمة/القران الكريم (3) شريعة خطة قديمة.pdf",
+      "source_sha256": "a3e75e87ffa9c1ac24f7cc574df9b23a8d48f276b5d27d4d2468069865fb1fb6",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002211-1--sharia-old-v38-v39.pdf",
+      "output_sha256": "a3e75e87ffa9c1ac24f7cc574df9b23a8d48f276b5d27d4d2468069865fb1fb6",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/reviewed-import-20260909/2002211-1.pdf"
+      ]
+    },
+    {
+      "code": "2002221-1",
+      "title": "القرآن الكريم (4)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الشريعة/توصيف مقررات القران المقدمة للشريعة- خطة قديمة/القرآن الكريم (4) شريعة خطة قديمة.pdf",
+      "source_sha256": "f1a8b2d4b6acc7cadbf757e3d57e44f768141db77ff5cf2b89bbc29812b00c17",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002221-1--sharia-old-v38-v39.pdf",
+      "output_sha256": "f1a8b2d4b6acc7cadbf757e3d57e44f768141db77ff5cf2b89bbc29812b00c17",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/reviewed-import-20260909/2002221-1.pdf"
+      ]
+    },
+    {
+      "code": "2002311-1",
+      "title": "القرآن الكريم (5)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "review_date_hijri": "1446/9/1",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الشريعة/توصيف مقررات القران المقدمة للشريعة- خطة قديمة/القرآن الكريم (5) شريعة خطة قديمة.pdf",
+      "source_sha256": "9bc06350bb1cf39776720f5544e1364cc3c586fba4bcaf77a6c13cc9b9c5b1da",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002311-1--sharia-old-v38-v39.pdf",
+      "output_sha256": "9bc06350bb1cf39776720f5544e1364cc3c586fba4bcaf77a6c13cc9b9c5b1da",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/reviewed-import-20260909/2002311-1.pdf"
+      ]
+    },
+    {
+      "code": "2002312-1",
+      "title": "القرآن الكريم (6)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الشريعة/توصيف مقررات القران المقدمة للشريعة- خطة قديمة/القرآن الكريم (6) شريعة خطة قديمة.pdf",
+      "source_sha256": "f3ddd53b2bfa9269ff4c1261072ffe2b6f10f927c1f0e3ddf826ddf5995c37e2",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002312-1--sharia-old-v38-v39.pdf",
+      "output_sha256": "f3ddd53b2bfa9269ff4c1261072ffe2b6f10f927c1f0e3ddf826ddf5995c37e2",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/reviewed-import-20260909/2002312-1.pdf"
+      ]
+    },
+    {
+      "code": "2002411-1",
+      "title": "القرآن الكريم (7)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "review_date_hijri": "1446/10/10",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الشريعة/توصيف مقررات القران المقدمة للشريعة- خطة قديمة/القرآن الكريم (7) شريعة خطة قديمة.pdf",
+      "source_sha256": "4442c277ecbecfedade2d375aad4b3676c1d6df58d62349ea07ff82adc0476ed",
+      "output": "assets/course-specifications/cross-program-updates-20260914/2002411-1--sharia-old-v38-v39.pdf",
+      "output_sha256": "4442c277ecbecfedade2d375aad4b3676c1d6df58d62349ea07ff82adc0476ed",
+      "page_count": 7,
+      "classification_preserved": true,
+      "classification_text_pages": 1,
+      "source_byte_identical": true,
+      "prior_active_urls": [
+        "assets/course-specifications/reviewed-import-20260909/2002411-1.pdf"
+      ]
+    },
+    {
+      "code": "20022103-2",
+      "title": "قرآن كريم حفظ وتلاوة (3)",
+      "action": "replace",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "review_date_hijri": "1446/9/1",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الدراسات الاسلامية/توصيفات القران الكريم خطة قديمة/قالب توصيف مقرر القرآن الكريم (3)في الدراسات الإسلامية.docx",
+      "source_sha256": "768fd1c1f024d95daf095af93ea181404fe07c5e2ee6031580e37a31caa417b7",
+      "output": "assets/course-specifications/cross-program-updates-20260914/20022103-2--islamic-studies-old-v39.pdf",
+      "output_sha256": "612863e407d9a66cad530804e52b9a7a654962e25760ddd975c93bda271b7c9a",
+      "page_count": 7,
+      "classification_preserved": false,
+      "classification_text_pages": 0,
+      "source_byte_identical": false,
+      "prior_active_urls": [
+        "assets/course-specifications/islamic-studies-bundle-1444/20022103-2.pdf"
+      ]
+    },
+    {
+      "code": "20041201-2",
+      "title": "التجويد",
+      "action": "add",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "review_date_hijri": "1444/7/18",
+      "source": "الاستكمال/المقررات المقدمة للأقسام الأخرى/المقررات المقدمة لبرنامج الدراسات الاسلامية/توصيفات القران الكريم خطة قديمة/التجويد.docx",
+      "source_sha256": "73158e75698eaa31ed6b077288e95f94227d542f69b26037a051d14fa04cdbc6",
+      "output": "assets/course-specifications/cross-program-updates-20260914/20041201-2--islamic-studies-old-v39.pdf",
+      "output_sha256": "e6cdffa1b836cf205c38e7381655fc548527bf23597178ec0ab863ce7c0d6bef",
+      "page_count": 9,
+      "classification_preserved": false,
+      "classification_text_pages": 0,
+      "source_byte_identical": false,
+      "prior_active_urls": []
+    }
+  ],
+  "counts": {
+    "publication_pdfs": 22,
+    "replacements": 18,
+    "additions": 4,
+    "course_codes": 19,
+    "program_plan_contexts": 29
+  },
+  "excluded": [
+    {
+      "code_in_source": "2002412-1",
+      "planned_code": "2002421-1",
+      "title": "القرآن الكريم (8)",
+      "reason": "course-code digit transposition; not safe to replace automatically"
+    }
+  ]
+}

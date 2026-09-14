@@ -129,7 +129,23 @@ class SharedCoursePloBlankingTest(unittest.TestCase):
             for detail in self.data["course_details"].values()
             for variant in detail.get("variants", [])
         }
-        self.assertTrue(outputs.issubset(linked))
+        later = json.loads(
+            (
+                ROOT
+                / "assets/course-specifications/cross-program-updates-20260914/manifest.json"
+            ).read_text(encoding="utf-8")
+        )["records"]
+        replaced_by = {
+            prior: record["output"]
+            for record in later
+            for prior in record.get("prior_active_urls", [])
+        }
+        unresolved = {
+            output
+            for output in outputs
+            if output not in linked and replaced_by.get(output) not in linked
+        }
+        self.assertEqual(set(), unresolved)
         sources = {record["source"] for record in self.manifest["records"]}
         self.assertTrue(sources.isdisjoint(linked))
 

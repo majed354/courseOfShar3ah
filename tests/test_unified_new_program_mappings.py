@@ -100,15 +100,26 @@ class UnifiedNewProgramMappingsTest(unittest.TestCase):
                 SHARED_BLANK_MANIFEST.read_text(encoding="utf-8")
             )["records"]
         }
+        later = json.loads(
+            (
+                ROOT
+                / "assets/course-specifications/cross-program-updates-20260914/manifest.json"
+            ).read_text(encoding="utf-8")
+        )["records"]
 
         for record in self.manifest["records"]:
             new_programs = set()
-            for variant in variants_by_pdf.get(
-                final_route.get(record["path"], record["path"]), []
-            ):
-                for scope in variant_scopes(variant):
-                    if scope.get("degree") == "بكالوريوس" and scope.get("plan_type") == "جديدة":
-                        new_programs.add(scope.get("program"))
+            prior = final_route.get(record["path"], record["path"])
+            candidate_paths = {prior} | {
+                successor["output"]
+                for successor in later
+                if prior in successor.get("prior_active_urls", [])
+            }
+            for path in candidate_paths:
+                for variant in variants_by_pdf.get(path, []):
+                    for scope in variant_scopes(variant):
+                        if scope.get("degree") == "بكالوريوس" and scope.get("plan_type") == "جديدة":
+                            new_programs.add(scope.get("program"))
             self.assertEqual(set(record["programs"]), new_programs, record["course_key"])
 
     def test_no_program_specific_copy_is_linked_for_unified_sources(self):

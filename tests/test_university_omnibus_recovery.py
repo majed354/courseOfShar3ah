@@ -56,6 +56,22 @@ class UniversityOmnibusRecoveryTest(unittest.TestCase):
                 / "course-outcomes-full-variant-02.json"
             ).read_text(encoding="utf-8")
         )
+        cls.successors = json.loads(
+            (
+                ROOT
+                / "assets/course-specifications/cross-program-updates-20260914/manifest.json"
+            ).read_text(encoding="utf-8")
+        )["records"]
+
+    def successor_records(self, code):
+        old_path = (
+            f"assets/course-specifications/university-omnibus-recovery-20260910/{code}.pdf"
+        )
+        return [
+            record
+            for record in self.successors
+            if record["code"] == code and old_path in record["prior_active_urls"]
+        ]
 
     def test_deep_scan_records_exactly_five_recoveries_and_nine_appearances(self):
         self.assertEqual(170, self.manifest["source"]["page_count"])
@@ -78,19 +94,30 @@ class UniversityOmnibusRecoveryTest(unittest.TestCase):
     def test_data_entries_are_published_with_exact_scopes(self):
         self.assertEqual(EXPECTED_CODES, set(self.entries))
         for code, detail in self.entries.items():
-            self.assertEqual(detail, self.data["course_details"][code])
             variant = detail["variants"][0]
             self.assertEqual(code, variant["specification_code"])
             self.assertEqual("verified", variant["match_status"])
-            self.assertEqual(
-                f"assets/course-specifications/university-omnibus-recovery-20260910/{code}.pdf",
-                variant["pdf_url"],
-            )
+            successors = self.successor_records(code)
+            if successors:
+                active = self.data["course_details"][code]["variants"]
+                self.assertEqual(
+                    {record["output"] for record in successors},
+                    {item["pdf_url"] for item in active},
+                )
+            else:
+                self.assertEqual(detail, self.data["course_details"][code])
 
     def test_visual_review_overrides_are_current_and_complete(self):
         records = {row["course_code"]: row for row in self.review["records"]}
         self.assertEqual(EXPECTED_CODES, set(records))
         for code, record in records.items():
+            if self.successor_records(code):
+                active = self.outcomes["courses"][code]["variants"]
+                self.assertTrue(
+                    all(item["extracted"]["extraction_status"] == "complete" for item in active)
+                )
+                self.assertTrue(all(item["overrides"] == [] for item in active))
+                continue
             variant = full_review.locate_variant(self.outcomes, record)
             overrides = {item["field"]: item["value"] for item in variant["overrides"]}
             template = self.review["templates"][record["template"]]

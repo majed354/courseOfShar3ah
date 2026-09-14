@@ -31,6 +31,24 @@ class CourseOutcomeReviewBatchTest(unittest.TestCase):
                 (ROOT / "review-batches").glob("course-outcomes-batch-*.json")
             )
         ]
+        successor_manifest = json.loads(
+            (
+                ROOT
+                / "assets/course-specifications/cross-program-updates-20260914/manifest.json"
+            ).read_text(encoding="utf-8")
+        )
+        cls.superseded_codes = {
+            record["code"]
+            for record in successor_manifest["records"]
+            if record["action"] == "replace"
+        }
+
+    def active_entries(self, manifest):
+        return [
+            entry
+            for entry in manifest["entries"]
+            if entry["course_code"] not in self.superseded_codes
+        ]
 
     def test_manifest_has_unique_visually_reviewed_rows(self):
         entries = self.manifest["entries"]
@@ -59,17 +77,17 @@ class CourseOutcomeReviewBatchTest(unittest.TestCase):
 
     def test_batch_application_is_idempotent(self):
         outcomes = copy.deepcopy(self.outcomes)
-        for entry in self.manifest["entries"]:
+        for entry in self.active_entries(self.manifest):
             review_batch.apply_entry(outcomes, entry)
         first = copy.deepcopy(outcomes)
-        for entry in self.manifest["entries"]:
+        for entry in self.active_entries(self.manifest):
             review_batch.apply_entry(outcomes, entry)
         self.assertEqual(first, outcomes)
 
     def test_complete_review_set_is_idempotent_and_closes_extraction_review(self):
         outcomes = copy.deepcopy(self.outcomes)
         for manifest in self.manifests:
-            for entry in manifest["entries"]:
+            for entry in self.active_entries(manifest):
                 review_batch.apply_entry(outcomes, entry)
         self.assertEqual(self.outcomes, outcomes)
         self.assertNotIn(
@@ -80,7 +98,7 @@ class CourseOutcomeReviewBatchTest(unittest.TestCase):
     def test_every_entry_resolves_to_its_pinned_source_or_audited_successor(self):
         replacements = review_batch.reviewed_source_replacements()
         successors = review_batch.reviewed_variant_successors()
-        for entry in self.manifest["entries"]:
+        for entry in self.active_entries(self.manifest):
             variant = review_batch.locate_variant(
                 self.outcomes,
                 entry["course_code"],
@@ -113,7 +131,7 @@ class CourseOutcomeReviewBatchTest(unittest.TestCase):
             for row in variant["extracted"]["clos"]
         ]
         outcomes = copy.deepcopy(self.outcomes)
-        for entry in self.manifest["entries"]:
+        for entry in self.active_entries(self.manifest):
             review_batch.apply_entry(outcomes, entry)
         after = [
             row["plo_mappings"]
