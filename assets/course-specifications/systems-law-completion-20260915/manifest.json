@@ -1,0 +1,71 @@
+{
+  "schema_version": "systems-law-completion-v1",
+  "reviewed_at": "2026-09-15T14:15:00+03:00",
+  "sources": [
+    {
+      "file": "الاستكمال/الأنظمو والقانون/توصيف_مقررات_القانون_العام_وفقا_للخطة_الدراسية_المطورة.pdf",
+      "sha256": "e48fde3ea8c48e37e5e9db695537a662ab58c934a6222b048395897e2383f722",
+      "page_count": 171,
+      "reviewed_course_blocks": 21
+    },
+    {
+      "file": "الاستكمال/الأنظمو والقانون/توصيف_مقررات_القانون_الخاص_وفقا_للخطةالدراسية_المطورة.pdf",
+      "sha256": "5aaa9c2098fc9fcfbdaa363e97bd49381e25d1a608fa2dea8e4736e727984c61",
+      "page_count": 159,
+      "reviewed_course_blocks": 20
+    }
+  ],
+  "selection_rule": "لا يعتمد التشابه الاسمي منفردًا؛ يلزم تطابق البرنامج والساعات والمستوى ومحتوى المقرر، مع توثيق أي انتقال في الرمز أو العنوان.",
+  "selected": [
+    {
+      "target_code": "2003102-3",
+      "target_title": "قانون العمل والتأمينات الاجتماعية",
+      "source_code": "2003417-3",
+      "source_title": "نظام العمل والتأمينات الاجتماعية",
+      "source_pages_inclusive": "87-94",
+      "output_file": "assets/course-specifications/systems-law-completion-20260915/2003102-3--from-2003417-3.pdf",
+      "output_sha256": "3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2",
+      "program": "الأنظمة",
+      "degree": "بكالوريوس",
+      "plan_type": "جديدة",
+      "version": "47",
+      "hours": 3,
+      "level": 7,
+      "decision": "reviewed_adaptation",
+      "basis": "المصدر من حزمة الخطة المطورة ويطابق البرنامج والمستوى السابع والساعات الثلاث والمحتوى؛ تغير الرمز والعنوان من نظام إلى قانون في الخطة 47.",
+      "source_pdf_update_recommended": true
+    }
+  ],
+  "rejected_near_matches": [
+    {"target_code": "2003205-3", "target_title": "العقود التجارية الدولية", "reason": "المصدر ساعتان في المستوى السابع، بينما الخطة المستهدفة ثلاث ساعات في المستوى السادس."},
+    {"target_code": "2003228-3", "target_title": "القانون المالي", "reason": "المصدر ساعتان في المستوى السادس، بينما الخطة المستهدفة ثلاث ساعات في المستوى الرابع."},
+    {"target_code": "2003114-3", "target_title": "القانون الدستوري", "reason": "المصدران بعنوان النظام الدستوري وساعتان في المستوى الثاني، بينما الهدف ثلاث ساعات في المستوى الأول."},
+    {"target_code": "2003383-3", "target_title": "المحاماة وأخلاقيات المهنة", "reason": "المصدر 2003216-2 بساعتين، بينما الهدف ثلاث ساعات."},
+    {"target_code": "2003108-2", "target_title": "قانون التحكيم", "reason": "المصدر 2003456-3 بثلاث ساعات، بينما الهدف ساعتان."},
+    {"target_code": "2003255-3", "target_title": "الملكية الفكرية", "reason": "المصدر 20033201-3 بثلاث ساعات، بينما موضع الخطة القديمة المستهدف ساعتان."},
+    {"target_code": "2003106-3", "target_title": "تدريبات قانونية 1", "reason": "المصدر مقرر عام واحد 2002404-2 بساعتين ولا يثبت هوية تدريبات قانونية 1 ذات الثلاث ساعات."},
+    {"target_code": "2003107-3", "target_title": "تدريبات قانونية 2", "reason": "المصدر مقرر عام واحد 2002404-2 بساعتين ولا يثبت هوية تدريبات قانونية 2 ذات الثلاث ساعات."}
+  ],
+  "missing_without_candidate": [
+    "2003103-3",
+    "2003204-3",
+    "2003229-3",
+    "20033201-2",
+    "20034202-2"
+  ],
+  "counts": {
+    "reviewed_pdf_pages": 330,
+    "reviewed_course_blocks": 41,
+    "exact_missing_code_hits": 0,
+    "selected_reviewed_adaptations": 1,
+    "rejected_near_matches": 8,
+    "missing_without_candidate": 5
+  },
+  "coverage_after": {
+    "specialty_appearances": "654/756",
+    "specialty_identities": "384/472",
+    "missing_appearances": 102,
+    "missing_identities": 88,
+    "systems_appearances": "78/99"
+  }
+}

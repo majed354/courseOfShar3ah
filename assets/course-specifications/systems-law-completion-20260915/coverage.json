@@ -1,0 +1,135 @@
+{
+  "date": "2026-09-15",
+  "required": 756,
+  "available": 654,
+  "missing": 102,
+  "coverage": 0.8650793650793651,
+  "available_identities": 384,
+  "required_identities": 472,
+  "missing_identities": 88,
+  "recovered_codes": [
+    "2003102-3"
+  ],
+  "programs": [
+    {
+      "program": "الأنظمة",
+      "degree": "بكالوريوس",
+      "required": 99,
+      "available": 78,
+      "missing": 21,
+      "missing_identities": 21
+    },
+    {
+      "program": "الشريعة",
+      "degree": "بكالوريوس",
+      "required": 194,
+      "available": 166,
+      "missing": 28,
+      "missing_identities": 17
+    },
+    {
+      "program": "الدراسات القرآنية",
+      "degree": "دكتوراه",
+      "required": 4,
+      "available": 4,
+      "missing": 0,
+      "missing_identities": 0
+    },
+    {
+      "program": "القراءات",
+      "degree": "دكتوراه",
+      "required": 4,
+      "available": 4,
+      "missing": 0,
+      "missing_identities": 0
+    },
+    {
+      "program": "الدراسات القرآنية المعاصرة",
+      "degree": "ماجستير",
+      "required": 14,
+      "available": 14,
+      "missing": 0,
+      "missing_identities": 0
+    },
+    {
+      "program": "القراءات",
+      "degree": "ماجستير",
+      "required": 8,
+      "available": 8,
+      "missing": 0,
+      "missing_identities": 0
+    },
+    {
+      "program": "الدراسات الإسلامية",
+      "degree": "بكالوريوس",
+      "required": 127,
+      "available": 103,
+      "missing": 24,
+      "missing_identities": 24
+    },
+    {
+      "program": "القراءات",
+      "degree": "بكالوريوس",
+      "required": 113,
+      "available": 93,
+      "missing": 20,
+      "missing_identities": 19
+    },
+    {
+      "program": "القرآن وعلومه",
+      "degree": "بكالوريوس",
+      "required": 120,
+      "available": 115,
+      "missing": 5,
+      "missing_identities": 5
+    },
+    {
+      "program": "أصول الفقه",
+      "degree": "ماجستير",
+      "required": 15,
+      "available": 15,
+      "missing": 0,
+      "missing_identities": 0
+    },
+    {
+      "program": "الفقه",
+      "degree": "ماجستير",
+      "required": 15,
+      "available": 14,
+      "missing": 1,
+      "missing_identities": 1
+    },
+    {
+      "program": "القانون",
+      "degree": "ماجستير",
+      "required": 21,
+      "available": 21,
+      "missing": 0,
+      "missing_identities": 0
+    },
+    {
+      "program": "العقيدة",
+      "degree": "ماجستير",
+      "required": 14,
+      "available": 14,
+      "missing": 0,
+      "missing_identities": 0
+    },
+    {
+      "program": "الفقه",
+      "degree": "دكتوراه",
+      "required": 4,
+      "available": 4,
+      "missing": 0,
+      "missing_identities": 0
+    },
+    {
+      "program": "أصول الفقه",
+      "degree": "دكتوراه",
+      "required": 4,
+      "available": 1,
+      "missing": 3,
+      "missing_identities": 3
+    }
+  ]
+}

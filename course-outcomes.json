@@ -123281,6 +123281,779 @@
         }
       ]
     },
+    "2003102-3": {
+      "variants": [
+        {
+          "catalog": {
+            "match_note": "إعادة ترميز موثقة داخل خطة الأنظمة المطورة: المصدر يحمل الرمز 2003417-3 والعنوان «نظام العمل والتأمينات الاجتماعية»، بينما خطة الإصدار 47 تحمل 2003102-3 «قانون العمل والتأمينات الاجتماعية». البرنامج والمستوى السابع والساعات الثلاثة والمحتوى متطابقة؛ بقيت توصية تحديث غلاف PDF بالرمز والعنوان الجديدين مفتوحة.",
+            "match_status": "reviewed_adaptation",
+            "specification_code": "2003102-3",
+            "summary": "يعرّف بنظامي العمل والتأمينات الاجتماعية وعقد العمل وأطرافه وحقوقهم والتزاماتهم، ويعالج المنازعات العمالية والفئات الخاضعة للتأمينات والاستثناءات النظامية.",
+            "title": "قانون العمل والتأمينات الاجتماعية"
+          },
+          "extracted": {
+            "assessment_plan": [
+              {
+                "confidence": "high",
+                "label": "إجرا التكلي ات والواجبات أثنا ال صل الدراس ي",
+                "source_page": 7,
+                "weight": 10
+              },
+              {
+                "confidence": "high",
+                "label": "الاختبارالدوري",
+                "source_page": 7,
+                "weight": 30
+              },
+              {
+                "confidence": "high",
+                "label": "عقد الاختبارال ائا",
+                "source_page": 7,
+                "weight": 60
+              }
+            ],
+            "assessment_plan_complete": true,
+            "assessment_plan_total": 100,
+            "captured_clo_row_count": 9,
+            "clos": [
+              {
+                "assessment": "الاختبارات النظرية تقييم الواجبات",
+                "assessment_source_page": 4,
+                "code": "1.1",
+                "confidence": "low",
+                "document_plo_codes": [
+                  "ع1"
+                ],
+                "extraction_method": "geometric_pdf",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الأنظمة",
+                      "version": "47"
+                    },
+                    "source_page": 4,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 4,
+                "source_status": "unreadable",
+                "text": null
+              },
+              {
+                "assessment": "الاختبارات النظرية- تقييم التكلي ات",
+                "assessment_source_page": 4,
+                "code": "1.2",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "ع2"
+                ],
+                "extraction_method": "geometric_pdf",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "ع2"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الأنظمة",
+                      "version": "47"
+                    },
+                    "source_page": 4,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 4,
+                "source_status": "present",
+                "text": "أن ستنبط ويو ح الأزكام القانونية المتعلقة بنظام العمل من زي بيان مصادر وخصائصه آثار وقف عقد العمل وانقضا"
+              },
+              {
+                "assessment": "الاختبار ال ائية واجبات منزلية و أبحاث ( سواً جماعية أم فردية )",
+                "assessment_source_page": 5,
+                "code": "1.3",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "ع3"
+                ],
+                "extraction_method": "geometric_pdf",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "ع3"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الأنظمة",
+                      "version": "47"
+                    },
+                    "source_page": 5,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 5,
+                "source_status": "present",
+                "text": "أن عر الطالم أوجه ال رق بين عقود العمل ال رية والجماعية وعقد الشركة والمقاولة والبيع والوكالة."
+              },
+              {
+                "assessment": "اختبار+ الأعمال ال صلية",
+                "assessment_source_page": 5,
+                "code": "2.1",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "م1"
+                ],
+                "extraction_method": "geometric_pdf",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الأنظمة",
+                      "version": "47"
+                    },
+                    "source_page": 5,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 5,
+                "source_status": "present",
+                "text": "أن يطبق الطالم القواعد القانونية تطبيقا يت ق وصحيا القانون فيما يتعلق بالمنازعات العمالية."
+              },
+              {
+                "assessment": null,
+                "assessment_source_page": null,
+                "code": "2.2",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "م2"
+                ],
+                "extraction_method": "targeted_ocr",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "م2"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الأنظمة",
+                      "version": "47"
+                    },
+                    "source_page": 5,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 5,
+                "source_status": "present",
+                "text": "أن يُقارن الطالب بين عقد العمل بشرط التجربة وعقد التأهيل والتدريب."
+              },
+              {
+                "assessment": null,
+                "assessment_source_page": null,
+                "code": "2.3",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "م3"
+                ],
+                "extraction_method": "targeted_ocr",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "م3"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الأنظمة",
+                      "version": "47"
+                    },
+                    "source_page": 5,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 5,
+                "source_status": "present",
+                "text": "أن يُفسرالنصوص القانونية بنظامي العمل والتأمينات الاجتماعية تفسيراً سليماً لاستنباط الأحكام القانونية منها."
+              },
+              {
+                "assessment": "استيعاب الطلاب للقيم؛ المسه دفة من المقرر",
+                "assessment_source_page": 5,
+                "code": "3.1",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "ق1"
+                ],
+                "extraction_method": "geometric_pdf",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "ق1"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الأنظمة",
+                      "version": "47"
+                    },
+                    "source_page": 5,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 5,
+                "source_status": "present",
+                "text": "أن يتح ب بأخلاقيات المهنة ومراعاة أنظمه ا والنزاهة والأخلاق الأكاديمية والالتزام بالسلوك المهني القويم."
+              },
+              {
+                "assessment": null,
+                "assessment_source_page": null,
+                "code": "3.2",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "ق2"
+                ],
+                "extraction_method": "targeted_ocr",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "ق2"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الأنظمة",
+                      "version": "47"
+                    },
+                    "source_page": 5,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 5,
+                "source_status": "present",
+                "text": "التواصل الفعال مع الآخرين في ! والمبادرات المشتركة والعمل بروح الفريق, وبتحمل المسئولية من خلال العمل الجماعي."
+              },
+              {
+                "assessment": "استيعاب الطلاب للقيم؛ المسه دفة من المقرر",
+                "assessment_source_page": 6,
+                "code": "3.3",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "ق1"
+                ],
+                "extraction_method": "geometric_pdf",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "ق1"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الأنظمة",
+                      "version": "47"
+                    },
+                    "source_page": 6,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 6,
+                "source_status": "present",
+                "text": "أن يتح ب بأخلاقيات المهنة ومراعاة أنظمه ا والنزاهة والأخلاق الأكاديمية والالتزام بالسلوك المهني القويم."
+              }
+            ],
+            "course_name": null,
+            "course_name_metadata": {
+              "confidence": "low",
+              "extraction_method": "unresolved",
+              "source_page": 1
+            },
+            "extraction_status": "complete",
+            "page_count": 8,
+            "source_clo_row_count": 9,
+            "source_status": "unreadable",
+            "warnings": [
+              {
+                "code": "course_name_unresolved",
+                "message": "course name was left null because neither the text layer nor OCR produced a value consistent with the catalog",
+                "source_page": 1
+              },
+              {
+                "clo_code": "1.1",
+                "clo_index": 0,
+                "code": "clo_text_unreadable",
+                "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=fragmented_arabic_glyphs; font=too_short; ocr=too_short)",
+                "source_page": 4
+              },
+              {
+                "clo_code": "1.1",
+                "clo_index": 0,
+                "code": "clo_text_unreadable",
+                "message": "the published CLO row was captured, but its outcome text could not be read reliably",
+                "source_page": 4
+              },
+              {
+                "clo_code": "2.2",
+                "clo_index": 4,
+                "code": "direct_assessment_unresolved",
+                "message": "no unambiguous direct-assessment text was recovered for this CLO",
+                "source_page": 5
+              },
+              {
+                "clo_code": "2.3",
+                "clo_index": 5,
+                "code": "direct_assessment_unresolved",
+                "message": "no unambiguous direct-assessment text was recovered for this CLO",
+                "source_page": 5
+              },
+              {
+                "clo_code": "3.2",
+                "clo_index": 7,
+                "code": "direct_assessment_unresolved",
+                "message": "no unambiguous direct-assessment text was recovered for this CLO",
+                "source_page": 5
+              }
+            ]
+          },
+          "overrides": [
+            {
+              "field": "assessment_plan",
+              "value": [
+                {
+                  "confidence": "verified",
+                  "label": "التكليفات والواجبات أثناء الفصل الدراسي",
+                  "source_page": 7,
+                  "weight": 10
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار الدوري",
+                  "source_page": 7,
+                  "weight": 30
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار النهائي",
+                  "source_page": 7,
+                  "weight": 60
+                }
+              ],
+              "evidence": "مراجعة بصرية للمصدر assets/course-specifications/systems-law-completion-20260915/2003102-3--from-2003417-3.pdf (SHA-256 3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2)، الصفحات 1 و3–8؛ طوبق الغلاف والساعات والمستوى والبرنامج وجدول CLO ورموز PLO وخطة التقويم. المصدر المقتطع هو الصفحات 87–94 من الملف الجامع.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T14:15:00+03:00"
+            },
+            {
+              "field": "assessment_plan_complete",
+              "value": true,
+              "evidence": "مراجعة بصرية للمصدر assets/course-specifications/systems-law-completion-20260915/2003102-3--from-2003417-3.pdf (SHA-256 3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2)، الصفحات 1 و3–8؛ طوبق الغلاف والساعات والمستوى والبرنامج وجدول CLO ورموز PLO وخطة التقويم. المصدر المقتطع هو الصفحات 87–94 من الملف الجامع.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T14:15:00+03:00"
+            },
+            {
+              "field": "assessment_plan_total",
+              "value": 100,
+              "evidence": "مراجعة بصرية للمصدر assets/course-specifications/systems-law-completion-20260915/2003102-3--from-2003417-3.pdf (SHA-256 3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2)، الصفحات 1 و3–8؛ طوبق الغلاف والساعات والمستوى والبرنامج وجدول CLO ورموز PLO وخطة التقويم. المصدر المقتطع هو الصفحات 87–94 من الملف الجامع.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T14:15:00+03:00"
+            },
+            {
+              "field": "captured_clo_row_count",
+              "value": 9,
+              "evidence": "مراجعة بصرية للمصدر assets/course-specifications/systems-law-completion-20260915/2003102-3--from-2003417-3.pdf (SHA-256 3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2)، الصفحات 1 و3–8؛ طوبق الغلاف والساعات والمستوى والبرنامج وجدول CLO ورموز PLO وخطة التقويم. المصدر المقتطع هو الصفحات 87–94 من الملف الجامع.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T14:15:00+03:00"
+            },
+            {
+              "field": "clos",
+              "value": [
+                {
+                  "assessment": "الاختبارات النظرية، تقييم الواجبات.",
+                  "assessment_source_page": 4,
+                  "code": "1.1",
+                  "confidence": "verified",
+                  "document_plo_codes": [
+                    "ع1"
+                  ],
+                  "extraction_method": "verified_visual_review",
+                  "plo_mappings": [
+                    {
+                      "confidence": "verified",
+                      "evidence": "رمز PLO مقروء في خلية الصف نفسه في جدول نواتج المقرر.",
+                      "plo_codes": [
+                        "ع1"
+                      ],
+                      "scope": {
+                        "program": "الأنظمة",
+                        "degree": "بكالوريوس",
+                        "plan_type": "جديدة",
+                        "version": "47"
+                      },
+                      "source_page": 4,
+                      "status": "mapped"
+                    }
+                  ],
+                  "source_page": 4,
+                  "source_status": "present",
+                  "text": "أن يفهم الطالب المصطلحات القانونية الواردة في هذا المقرر كعقد العمل، صاحب العمل، العامل، الحدث، العمل المؤقت، العمل العرضي، العمل الموسمي، العمل لبعض الوقت، الأجر الأساسي، الأجر الفعلي، العمولة، البدلات، المنحة أو المكافأة، الميزات العينية."
+                },
+                {
+                  "assessment": "الاختبارات النظرية، تقييم التكليفات.",
+                  "assessment_source_page": 4,
+                  "code": "1.2",
+                  "confidence": "verified",
+                  "document_plo_codes": [
+                    "ع2"
+                  ],
+                  "extraction_method": "verified_visual_review",
+                  "plo_mappings": [
+                    {
+                      "confidence": "verified",
+                      "evidence": "رمز PLO مقروء في خلية الصف نفسه في جدول نواتج المقرر.",
+                      "plo_codes": [
+                        "ع2"
+                      ],
+                      "scope": {
+                        "program": "الأنظمة",
+                        "degree": "بكالوريوس",
+                        "plan_type": "جديدة",
+                        "version": "47"
+                      },
+                      "source_page": 4,
+                      "status": "mapped"
+                    }
+                  ],
+                  "source_page": 4,
+                  "source_status": "present",
+                  "text": "أن يستنبط ويوضح الأحكام القانونية المتعلقة بنظام العمل من حيث بيان مصادره وخصائصه، آثاره، وقف عقد العمل وانقضائه."
+                },
+                {
+                  "assessment": "الاختبارات النهائية وواجبات منزلية وأبحاث (سواء جماعية أم فردية).",
+                  "assessment_source_page": 4,
+                  "code": "1.3",
+                  "confidence": "verified",
+                  "document_plo_codes": [
+                    "ع3"
+                  ],
+                  "extraction_method": "verified_visual_review",
+                  "plo_mappings": [
+                    {
+                      "confidence": "verified",
+                      "evidence": "رمز PLO مقروء في خلية الصف نفسه في جدول نواتج المقرر.",
+                      "plo_codes": [
+                        "ع3"
+                      ],
+                      "scope": {
+                        "program": "الأنظمة",
+                        "degree": "بكالوريوس",
+                        "plan_type": "جديدة",
+                        "version": "47"
+                      },
+                      "source_page": 4,
+                      "status": "mapped"
+                    }
+                  ],
+                  "source_page": 4,
+                  "source_status": "present",
+                  "text": "أن يعرف الطالب أوجه الفرق بين عقود العمل الفردية والجماعية وعقد الشركة والمقاولة والبيع والوكالة."
+                },
+                {
+                  "assessment": "الاختبار والأعمال الفصلية.",
+                  "assessment_source_page": 4,
+                  "code": "2.1",
+                  "confidence": "verified",
+                  "document_plo_codes": [
+                    "م1"
+                  ],
+                  "extraction_method": "verified_visual_review",
+                  "plo_mappings": [
+                    {
+                      "confidence": "verified",
+                      "evidence": "رمز PLO مقروء في خلية الصف نفسه في جدول نواتج المقرر.",
+                      "plo_codes": [
+                        "م1"
+                      ],
+                      "scope": {
+                        "program": "الأنظمة",
+                        "degree": "بكالوريوس",
+                        "plan_type": "جديدة",
+                        "version": "47"
+                      },
+                      "source_page": 4,
+                      "status": "mapped"
+                    }
+                  ],
+                  "source_page": 4,
+                  "source_status": "present",
+                  "text": "أن يطبق الطالب القواعد القانونية تطبيقاً يتفق وصحيح القانون فيما يتعلق بالمنازعات العمالية."
+                },
+                {
+                  "assessment": "الاختبارات، وطرح القضايا وضرب الأمثلة واختبار قدرة الطالب على الإلمام بمضمونها واقتراح الحلول المناسبة.",
+                  "assessment_source_page": 4,
+                  "code": "2.2",
+                  "confidence": "verified",
+                  "document_plo_codes": [
+                    "م2"
+                  ],
+                  "extraction_method": "verified_visual_review",
+                  "plo_mappings": [
+                    {
+                      "confidence": "verified",
+                      "evidence": "رمز PLO مقروء في خلية الصف نفسه في جدول نواتج المقرر.",
+                      "plo_codes": [
+                        "م2"
+                      ],
+                      "scope": {
+                        "program": "الأنظمة",
+                        "degree": "بكالوريوس",
+                        "plan_type": "جديدة",
+                        "version": "47"
+                      },
+                      "source_page": 4,
+                      "status": "mapped"
+                    }
+                  ],
+                  "source_page": 4,
+                  "source_status": "present",
+                  "text": "أن يقارن الطالب بين عقد العمل بشرط التجربة وعقد التأهيل والتدريب."
+                },
+                {
+                  "assessment": "الاختبارات، وطرح القضايا وضرب الأمثلة واختبار قدرة الطالب على الإلمام بمضمونها واقتراح الحلول المناسبة.",
+                  "assessment_source_page": 4,
+                  "code": "2.3",
+                  "confidence": "verified",
+                  "document_plo_codes": [
+                    "م3"
+                  ],
+                  "extraction_method": "verified_visual_review",
+                  "plo_mappings": [
+                    {
+                      "confidence": "verified",
+                      "evidence": "رمز PLO مقروء في خلية الصف نفسه في جدول نواتج المقرر.",
+                      "plo_codes": [
+                        "م3"
+                      ],
+                      "scope": {
+                        "program": "الأنظمة",
+                        "degree": "بكالوريوس",
+                        "plan_type": "جديدة",
+                        "version": "47"
+                      },
+                      "source_page": 4,
+                      "status": "mapped"
+                    }
+                  ],
+                  "source_page": 4,
+                  "source_status": "present",
+                  "text": "أن يفسر النصوص القانونية بنظامي العمل والتأمينات الاجتماعية تفسيراً سليماً لاستنباط الأحكام القانونية منها."
+                },
+                {
+                  "assessment": "عقد جلسات الحوار والمناقشة للتحقق من مدى استيعاب الطلاب للقيم المستهدفة من المقرر.",
+                  "assessment_source_page": 5,
+                  "code": "3.1",
+                  "confidence": "verified",
+                  "document_plo_codes": [
+                    "ق1"
+                  ],
+                  "extraction_method": "verified_visual_review",
+                  "plo_mappings": [
+                    {
+                      "confidence": "verified",
+                      "evidence": "رمز PLO مقروء في خلية الصف نفسه في جدول نواتج المقرر.",
+                      "plo_codes": [
+                        "ق1"
+                      ],
+                      "scope": {
+                        "program": "الأنظمة",
+                        "degree": "بكالوريوس",
+                        "plan_type": "جديدة",
+                        "version": "47"
+                      },
+                      "source_page": 5,
+                      "status": "mapped"
+                    }
+                  ],
+                  "source_page": 5,
+                  "source_status": "present",
+                  "text": "أن يتحلى بأخلاقيات المهنة ومراعاة أنظمتها والنزاهة والأخلاق الأكاديمية والالتزام بالسلوك المهني القويم."
+                },
+                {
+                  "assessment": "عقد جلسات الحوار والمناقشة للتحقق من مدى استيعاب الطلاب للقيم المستهدفة من المقرر.",
+                  "assessment_source_page": 5,
+                  "code": "3.2",
+                  "confidence": "verified",
+                  "document_plo_codes": [
+                    "ق2"
+                  ],
+                  "extraction_method": "verified_visual_review",
+                  "plo_mappings": [
+                    {
+                      "confidence": "verified",
+                      "evidence": "رمز PLO مقروء في خلية الصف نفسه في جدول نواتج المقرر.",
+                      "plo_codes": [
+                        "ق2"
+                      ],
+                      "scope": {
+                        "program": "الأنظمة",
+                        "degree": "بكالوريوس",
+                        "plan_type": "جديدة",
+                        "version": "47"
+                      },
+                      "source_page": 5,
+                      "status": "mapped"
+                    }
+                  ],
+                  "source_page": 5,
+                  "source_status": "present",
+                  "text": "التواصل الفعال مع الآخرين في المشاريع والمبادرات المشتركة والعمل بروح الفريق، وتحمل المسؤولية من خلال العمل الجماعي."
+                },
+                {
+                  "assessment": "عقد جلسات الحوار والمناقشة للتحقق من مدى استيعاب الطلاب للقيم المستهدفة من المقرر.",
+                  "assessment_source_page": 5,
+                  "code": "3.3",
+                  "confidence": "verified",
+                  "document_plo_codes": [
+                    "ق1"
+                  ],
+                  "extraction_method": "verified_visual_review",
+                  "plo_mappings": [
+                    {
+                      "confidence": "verified",
+                      "evidence": "رمز PLO مقروء في خلية الصف نفسه في جدول نواتج المقرر.",
+                      "plo_codes": [
+                        "ق1"
+                      ],
+                      "scope": {
+                        "program": "الأنظمة",
+                        "degree": "بكالوريوس",
+                        "plan_type": "جديدة",
+                        "version": "47"
+                      },
+                      "source_page": 5,
+                      "status": "mapped"
+                    }
+                  ],
+                  "source_page": 5,
+                  "source_status": "present",
+                  "text": "أن يتحلى بأخلاقيات المهنة ومراعاة أنظمتها والنزاهة والأخلاق الأكاديمية والالتزام بالسلوك المهني القويم."
+                }
+              ],
+              "evidence": "مراجعة بصرية للمصدر assets/course-specifications/systems-law-completion-20260915/2003102-3--from-2003417-3.pdf (SHA-256 3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2)، الصفحات 1 و3–8؛ طوبق الغلاف والساعات والمستوى والبرنامج وجدول CLO ورموز PLO وخطة التقويم. المصدر المقتطع هو الصفحات 87–94 من الملف الجامع.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T14:15:00+03:00"
+            },
+            {
+              "field": "course_name",
+              "value": "قانون العمل والتأمينات الاجتماعية",
+              "evidence": "مراجعة بصرية للمصدر assets/course-specifications/systems-law-completion-20260915/2003102-3--from-2003417-3.pdf (SHA-256 3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2)، الصفحات 1 و3–8؛ طوبق الغلاف والساعات والمستوى والبرنامج وجدول CLO ورموز PLO وخطة التقويم. المصدر المقتطع هو الصفحات 87–94 من الملف الجامع.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T14:15:00+03:00"
+            },
+            {
+              "field": "course_name_metadata",
+              "value": {
+                "confidence": "verified",
+                "extraction_method": "verified_visual_review",
+                "source_page": 1
+              },
+              "evidence": "مراجعة بصرية للمصدر assets/course-specifications/systems-law-completion-20260915/2003102-3--from-2003417-3.pdf (SHA-256 3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2)، الصفحات 1 و3–8؛ طوبق الغلاف والساعات والمستوى والبرنامج وجدول CLO ورموز PLO وخطة التقويم. المصدر المقتطع هو الصفحات 87–94 من الملف الجامع.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T14:15:00+03:00"
+            },
+            {
+              "field": "extraction_status",
+              "value": "complete",
+              "evidence": "مراجعة بصرية للمصدر assets/course-specifications/systems-law-completion-20260915/2003102-3--from-2003417-3.pdf (SHA-256 3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2)، الصفحات 1 و3–8؛ طوبق الغلاف والساعات والمستوى والبرنامج وجدول CLO ورموز PLO وخطة التقويم. المصدر المقتطع هو الصفحات 87–94 من الملف الجامع.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T14:15:00+03:00"
+            },
+            {
+              "field": "source_clo_row_count",
+              "value": 9,
+              "evidence": "مراجعة بصرية للمصدر assets/course-specifications/systems-law-completion-20260915/2003102-3--from-2003417-3.pdf (SHA-256 3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2)، الصفحات 1 و3–8؛ طوبق الغلاف والساعات والمستوى والبرنامج وجدول CLO ورموز PLO وخطة التقويم. المصدر المقتطع هو الصفحات 87–94 من الملف الجامع.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T14:15:00+03:00"
+            },
+            {
+              "field": "source_status",
+              "value": "present",
+              "evidence": "مراجعة بصرية للمصدر assets/course-specifications/systems-law-completion-20260915/2003102-3--from-2003417-3.pdf (SHA-256 3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2)، الصفحات 1 و3–8؛ طوبق الغلاف والساعات والمستوى والبرنامج وجدول CLO ورموز PLO وخطة التقويم. المصدر المقتطع هو الصفحات 87–94 من الملف الجامع.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T14:15:00+03:00"
+            },
+            {
+              "field": "warnings",
+              "value": [],
+              "evidence": "مراجعة بصرية للمصدر assets/course-specifications/systems-law-completion-20260915/2003102-3--from-2003417-3.pdf (SHA-256 3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2)، الصفحات 1 و3–8؛ طوبق الغلاف والساعات والمستوى والبرنامج وجدول CLO ورموز PLO وخطة التقويم. المصدر المقتطع هو الصفحات 87–94 من الملف الجامع.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T14:15:00+03:00"
+            }
+          ],
+          "scopes": [
+            {
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "program": "الأنظمة",
+              "version": "47"
+            }
+          ],
+          "source_pdf": "assets/course-specifications/systems-law-completion-20260915/2003102-3--from-2003417-3.pdf",
+          "source_sha256": "3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2",
+          "variant_id": "a869733541b393623a594e945e969964308ade83d9267a6327da2a19f266eca4",
+          "source_alignment": {
+            "status": "source_pdf_gap_confirmed",
+            "label_ar": "بيانات القاعدة مكتملة؛ PDF بحاجة إلى تحديث الغلاف",
+            "correction_applied": true,
+            "source_update_recommended": true,
+            "source_sha256": "3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2"
+          },
+          "source_review": {
+            "status": "needs_manual",
+            "finding": "المصدر الحديث يثبت المحتوى والساعات والمستوى والبرنامج، لكنه ما زال يحمل الرمز السابق 2003417-3 والعنوان «نظام العمل والتأمينات الاجتماعية». يلزم تحديث الغلاف إلى 2003102-3 «قانون العمل والتأمينات الاجتماعية». حُفظ تكرار نص CLO 3.3 المطابق لـ3.1 كما طُبع دون اختراع تصحيح.",
+            "evidence": {
+              "file": "assets/course-specifications/systems-law-completion-20260915/2003102-3--from-2003417-3.pdf",
+              "pages": [
+                1,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "review_method": "تصيير الصفحات وفحص الغلاف والساعات والمستوى والوصف وجدول CLO وربط PLO وطرق التقويم وخطته وصفحة الاعتماد بصريًا.",
+              "sha256_verified": true
+            },
+            "reviewed_at": "2026-09-15T14:15:00+03:00",
+            "source_sha256": "3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2"
+          }
+        }
+      ]
+    },
     "2003104-3": {
       "variants": [
         {
@@ -204095,59 +204868,59 @@
     "tesseract": "5.5.2",
     "version": "1.1.0"
   },
-  "generated_at": "2026-09-14T23:13:56+03:00",
+  "generated_at": "2026-09-15T13:47:28+03:00",
   "schema_version": "course-outcomes-v1",
   "source_data": {
     "path": "data.json",
-    "sha256": "e9c713392fafde25fdb3e4b0f247e27d7e0e17c0e610ed81e2cac85b11ddbf08"
+    "sha256": "e2c09ce1ede167aa8870fb045b4659237f9c022afb0e341fc11e4b3291d0b417"
   },
   "statistics": {
     "source_alignment_counts": {
       "corrected_from_source_pdf": 4,
       "matches_source_pdf": 182,
-      "source_pdf_gap_confirmed": 61
+      "source_pdf_gap_confirmed": 62
     },
     "source_review_counts": {
       "accepted_as_is": 182,
-      "needs_manual": 65
+      "needs_manual": 66
     },
-    "course_codes": 409,
-    "variants": 447,
-    "active_pdf_sources": 435,
+    "course_codes": 410,
+    "variants": 448,
+    "active_pdf_sources": 436,
     "excluded_pdf_sources": 148,
-    "complete_variants": 411,
+    "complete_variants": 412,
     "partial_variants": 30,
     "failed_variants": 6,
     "variant_source_status_counts": {
       "present": 180,
       "source_blank": 1,
-      "unreadable": 266
+      "unreadable": 267
     },
-    "clos": 3157,
+    "clos": 3166,
     "clo_source_status_counts": {
-      "present": 2459,
+      "present": 2467,
       "source_blank": 1,
-      "unreadable": 697
+      "unreadable": 698
     },
-    "scoped_clo_mappings": 5102,
-    "plo_mappings_with_codes": 2478,
-    "plo_code_assignments": 2502,
+    "scoped_clo_mappings": 5111,
+    "plo_mappings_with_codes": 2487,
+    "plo_code_assignments": 2511,
     "multi_plo_mappings": 22,
-    "plo_non_null": 2478,
+    "plo_non_null": 2487,
     "plo_explicitly_unmapped": 1515,
-    "plo_non_null_rate": 0.485692,
+    "plo_non_null_rate": 0.486598,
     "plo_status_counts": {
       "ambiguous_for_scope": 80,
       "conflict": 0,
       "explicitly_unmapped": 1515,
-      "mapped": 2478,
+      "mapped": 2487,
       "missing": 903,
       "not_present_for_scope": 126
     },
-    "plo_applicable_mappings": 3461,
-    "plo_applicable_non_null_rate": 0.715978,
-    "plo_applicable_with_codes_rate": 0.715978,
-    "plo_resolved_or_explicit_rate": 0.802452
+    "plo_applicable_mappings": 3470,
+    "plo_applicable_non_null_rate": 0.716715,
+    "plo_applicable_with_codes_rate": 0.716715,
+    "plo_resolved_or_explicit_rate": 0.802808
   },
   "source_correction_recommendations": [
     {
@@ -204806,6 +205579,22 @@
       "source_sha256": "868c1cb26975c9119b00157ce8b14cd01e67d70bf98cf18ad113e88cd572cfe2",
       "status": "open",
       "created_at": "2026-09-08"
+    },
+    {
+      "id": "502df6fb42fed5f636ae5de278442123fac5b00a22ed449330323ed0c4b90b26",
+      "course_code": "2003102-3",
+      "variant_id": "a869733541b393623a594e945e969964308ade83d9267a6327da2a19f266eca4",
+      "fields": [
+        "course_name",
+        "specification_code"
+      ],
+      "issue_code": "SOURCE_PDF_IDENTITY_UPDATE_REQUIRED",
+      "message": "غلاف المصدر يحمل 2003417-3 «نظام العمل والتأمينات الاجتماعية»، بينما الهوية المعتمدة في خطة الأنظمة 47 هي 2003102-3 «قانون العمل والتأمينات الاجتماعية».",
+      "recommendation": "إصدار PDF رسمي جديد يحدّث الرمز والعنوان على الغلاف، مع إبقاء المحتوى والساعات والمستوى وجدول CLO كما في النسخة المراجعة.",
+      "source_pdf": "assets/course-specifications/systems-law-completion-20260915/2003102-3--from-2003417-3.pdf",
+      "source_sha256": "3c85b65ab0a9284012a85346ffe65e7c0cbc340a715a07b4bacacb913856b0b2",
+      "status": "open",
+      "created_at": "2026-09-15"
     },
     {
       "id": "546a8ada8cc632e8f477892a0c0c335b15a0376297efc3609928c7d48cdded29",
