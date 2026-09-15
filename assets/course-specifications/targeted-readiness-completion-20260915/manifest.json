@@ -1,0 +1,283 @@
+{
+  "schema_version": "targeted-readiness-completion-v1",
+  "reviewed_at": "2026-09-15T18:30:00+03:00",
+  "scope_note": "برنامج القرآن وعلومه فقط؛ لا تنتقل التصحيحات عند اختلاف بصمة PDF أو نطاق البرنامج والخطة.",
+  "records": [
+    {
+      "course_code": "2002103-2",
+      "variant_id": "1c3ded65321dfd107475ff5c513afb8b529e51784c1e2d8a9e8761e1c2cc1197",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf",
+      "source_sha256": "b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8",
+      "scope": {"degree": "بكالوريوس", "plan_type": "جديدة", "program": "القرآن وعلومه", "version": "47"},
+      "pages": [4, 6],
+      "pdf_needs_update": true,
+      "finding": "نصوص CLO وطرق تقويمها ظاهرة في الصفحة 4، لكن الصفحة 6 تكرر صف التقويم الأسبوعي 10% حرفيًا وتطبع مجموعًا فعليًا 110%؛ حُذف التكرار من البيانات الفعالة فقط.",
+      "overrides": [
+        {"field": "clos[0].text", "value": "أن يُعرِّف الطالب مقدمات علم التجويد ومفهومه وأحكامه.", "evidence": "تصحيح استخراجي مطابق للخلية 1.1."},
+        {"field": "clos[1].text", "value": "أن يُطبِّق الطَّالب الأحكام التَّجويديَّة المقررة تطبيقًا نظريا وعمليا.", "evidence": "تصحيح استخراجي مطابق للخلية 2.1 مع حفظ الضبط الظاهر في المصدر."},
+        {"field": "clos[2].text", "value": "أن يعمل الطالب مع زملائه على تصحيح التلاوة وتعليم التجويد واستخدام التقنيات الحديثة في اكتشاف أخطاء التلاوة وتصويبها.", "evidence": "تصحيح استخراجي مطابق للخلية 3.1."},
+        {"field": "clos[0].assessment", "value": "تقييم الأداء والتفاعل الصفي، والاختبارات", "evidence": "تصحيح OCR لطريقة التقويم الظاهرة."},
+        {"field": "clos[1].assessment", "value": "تقييم الأداء والتفاعل الصفي، والاختبارات", "evidence": "تصحيح OCR لطريقة التقويم الظاهرة."},
+        {"field": "clos[2].assessment", "value": "المناقشات الجماعية", "evidence": "تصحيح OCR لطريقة التقويم الظاهرة."},
+        {"field": "assessment_plan", "value": [
+          {"confidence": "verified", "label": "التقويم الأسبوعي", "source_page": 6, "weight": 10},
+          {"confidence": "verified", "label": "الواجبات", "source_page": 6, "weight": 10},
+          {"confidence": "verified", "label": "الاختبار النصفي", "source_page": 6, "weight": 20},
+          {"confidence": "verified", "label": "الاختبار النهائي", "source_page": 6, "weight": 60}
+        ], "evidence": "استكمال تحليلي: استُبعد التكرار الحرفي لصف التقويم الأسبوعي بعد التحقق البصري، فصار المجموع 100% دون تغيير أي وزن مطبوع.", "analytical": true},
+        {"field": "assessment_plan_complete", "value": true, "evidence": "حالة الطبقة الفعالة بعد استبعاد الصف المكرر حرفيًا.", "analytical": true},
+        {"field": "assessment_plan_total", "value": 100, "evidence": "مجموع الطبقة الفعالة بعد استبعاد الصف المكرر حرفيًا.", "analytical": true}
+      ],
+      "recommendation": {
+        "fields": ["assessment_plan"],
+        "issue_code": "duplicate_assessment_row_total_110",
+        "message": "صف التقويم الأسبوعي 10% مكرر في الصفحة 6، والمجموع المطبوع 110%.",
+        "recommendation": "إصدار PDF مصحح يحذف الصف المكرر ويثبت المجموع 100%."
+      }
+    },
+    {
+      "course_code": "2002106-2",
+      "variant_id": "9af1a5c04c49324a0558df282b6bedefcede3a9226bfda41c0f5f9e20c8798d6",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf",
+      "source_sha256": "4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff",
+      "scope": {"degree": "بكالوريوس", "plan_type": "جديدة", "program": "القرآن وعلومه", "version": "47"},
+      "pages": [4, 6],
+      "pdf_needs_update": true,
+      "finding": "نصوص CLO وطرق تقويمها ظاهرة في الصفحة 4، لكن الصفحة 6 تكرر صف التقويم الأسبوعي 10% حرفيًا وتطبع مجموعًا 110%؛ حُذف التكرار من البيانات الفعالة فقط.",
+      "overrides": [
+        {"field": "clos[0].text", "value": "أن يُعرِّف الطالب صفات الحروف اللازمة والعارضة وأقسام الوقف والابتداء.", "evidence": "تصحيح استخراجي مطابق للخلية 1.1."},
+        {"field": "clos[1].text", "value": "أن يتقن الطالب الأحكام التجويدية المقررة نظريًا وعمليًا.", "evidence": "تصحيح استخراجي مطابق للخلية 2.1."},
+        {"field": "clos[2].text", "value": "أن يعمل الطالب مع زملائه على تصحيح التلاوة وتعليم التجويد واستخدام التقنيات الحديثة في اكتشاف أخطاء التلاوة وتصويبها.", "evidence": "تصحيح استخراجي مطابق للخلية 3.1."},
+        {"field": "clos[0].assessment", "value": "تقييم الأداء والتفاعل الصفي، والاختبارات", "evidence": "تصحيح OCR لطريقة التقويم الظاهرة."},
+        {"field": "clos[1].assessment", "value": "تقييم الأداء والتفاعل الصفي، والاختبارات", "evidence": "استعادة الخلية المدمجة الظاهرة."},
+        {"field": "clos[2].assessment", "value": "المناقشات الجماعية", "evidence": "تصحيح OCR لطريقة التقويم الظاهرة."},
+        {"field": "assessment_plan", "value": [
+          {"confidence": "verified", "label": "التقويم الأسبوعي", "source_page": 6, "weight": 10},
+          {"confidence": "verified", "label": "الواجبات", "source_page": 6, "weight": 10},
+          {"confidence": "verified", "label": "الاختبار النصفي", "source_page": 6, "weight": 20},
+          {"confidence": "verified", "label": "الاختبار النهائي", "source_page": 6, "weight": 60}
+        ], "evidence": "استكمال تحليلي: استُبعد التكرار الحرفي لصف التقويم الأسبوعي بعد التحقق البصري.", "analytical": true},
+        {"field": "assessment_plan_complete", "value": true, "evidence": "حالة الطبقة الفعالة بعد استبعاد الصف المكرر.", "analytical": true},
+        {"field": "assessment_plan_total", "value": 100, "evidence": "مجموع الطبقة الفعالة بعد استبعاد الصف المكرر.", "analytical": true}
+      ],
+      "recommendation": {
+        "fields": ["assessment_plan"],
+        "issue_code": "duplicate_assessment_row_total_110",
+        "message": "صف التقويم الأسبوعي 10% مكرر في الصفحة 6، والمجموع 110%.",
+        "recommendation": "إصدار PDF مصحح يحذف الصف المكرر ويثبت المجموع 100%."
+      }
+    },
+    {
+      "course_code": "2002250-2",
+      "variant_id": "e4b0f50dceda6ad4df73504857d1c37e5724adddd3ab45eca5f8ffaeff7a45d2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002250-2--a6427ad49e.pdf",
+      "source_sha256": "9cf366abbdede7c727a4a3ffafb47c472c7e59a8c57e9bc6727999ee44bcc2fe",
+      "scope": {"degree": "بكالوريوس", "plan_type": "قديمة", "program": "القرآن وعلومه", "version": "39"},
+      "pages": [3, 4],
+      "pdf_needs_update": false,
+      "finding": "طريقة تقويم CLO 3.1 موجودة في أعلى الصفحة 4، لكن القارئ أسقطها عند فاصل الصفحة؛ لا نقص في PDF.",
+      "overrides": [
+        {"field": "clos[5].assessment", "value": "التقييم الدوري؛ استطلاع آراء الطلبة", "evidence": "تصحيح استخراجي مطابق لخليتي التقويم المباشر وغير المباشر في الصف 3.1."}
+      ]
+    },
+    {
+      "course_code": "2004111-2",
+      "variant_id": "92210768b13d4662ef51b84c812543b6b91f137d015fb33bc8730c10153f5ac0",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf",
+      "source_sha256": "2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d",
+      "scope": {"degree": "بكالوريوس", "plan_type": "قديمة", "program": "القرآن وعلومه", "version": "39"},
+      "pages": [4, 5],
+      "pdf_needs_update": true,
+      "finding": "الصف 3.2 فارغ فعليًا في PDF، وخطة الصفحة 5 مجموعها 95% (5+45+45). استُكمل CLO 3.2 تحليليًا، وصُحح الوزن الأول إلى 10% استنادًا إلى خطة الأتمتة التاريخية الموثقة 10/45/45.",
+      "overrides": [
+        {"field": "clos[0].text", "value": "أن يعرف الطالب مفهوم أصول الثقافة الإسلامية وأهدافها والغاية من الوحدة الثقافية للأمة.", "evidence": "تصحيح استخراجي مطابق للصف 1.1."},
+        {"field": "clos[5].text", "value": "أن يعمل الطالب بفاعلية ضمن فريق لإعداد عرض موثق حول قضية ثقافية معاصرة.", "evidence": "استكمال تحليلي قابل للقياس مبني على موضوعات المقرر ومستواه ومجال القيم والمسؤولية؛ الخلية الأصلية 3.2 فارغة.", "analytical": true},
+        {"field": "clos[0].assessment", "value": "الأنشطة والمحاضرة", "evidence": "طريقة التقويم ظاهرة في PDF."},
+        {"field": "clos[1].assessment", "value": "الأنشطة والمحاضرة", "evidence": "طريقة التقويم ظاهرة في PDF."},
+        {"field": "clos[2].assessment", "value": "المشاركات والتكليفات", "evidence": "تصحيح OCR مطابق للخلية الظاهرة."},
+        {"field": "clos[3].assessment", "value": "بحث قصير وعرض", "evidence": "طريقة التقويم ظاهرة في PDF."},
+        {"field": "clos[4].assessment", "value": "بطاقة ملاحظة وتقييم المشاركة", "evidence": "طريقة التقويم ظاهرة في PDF."},
+        {"field": "clos[5].assessment", "value": "عرض جماعي وبطاقة ملاحظة", "evidence": "استكمال تحليلي مناسب للناتج المستكمل، وليس نصًا من PDF.", "analytical": true},
+        {"field": "assessment_plan", "value": [
+          {"confidence": "verified", "label": "تقديم بحوث وتقارير وأوراق عمل وعروض", "source_page": 5, "weight": 10},
+          {"confidence": "verified", "label": "الاختبار التقييمي الأول", "source_page": 5, "weight": 45},
+          {"confidence": "verified", "label": "الاختبار التقييمي الثاني", "source_page": 5, "weight": 45}
+        ], "evidence": "استكمال تحليلي مؤيد بسجل الأتمتة ذي البصمة ca5dd249609ca3f1b9b94acbfbadde497de28375af1549ff6635cb335823f08d الذي يثبت 10/45/45؛ بقي رقم PDF الأصلي محفوظًا في extracted.", "analytical": true},
+        {"field": "assessment_plan_complete", "value": true, "evidence": "حالة الطبقة الفعالة الموثقة 10/45/45.", "analytical": true},
+        {"field": "assessment_plan_total", "value": 100, "evidence": "مجموع الطبقة الفعالة الموثقة 10/45/45.", "analytical": true}
+      ],
+      "recommendation": {
+        "fields": ["clos[5].text", "clos[5].assessment", "assessment_plan"],
+        "issue_code": "blank_clo_and_assessment_total_95",
+        "message": "CLO 3.2 وطريقة تقويمه فارغان، وخطة التقويم المطبوعة مجموعها 95%.",
+        "recommendation": "إصدار PDF جديد يثبت CLO 3.2 وطريقة تقويمه، ويصحح وزن النشاط الأول إلى 10% والمجموع إلى 100%."
+      }
+    },
+    {
+      "course_code": "2004112-2",
+      "variant_id": "43c89564981fcab507386e20342439e3ee8db6a3e3824cb8818c1f95e9fb422e",
+      "source_pdf": "assets/course-specifications/2004112-2.pdf",
+      "source_sha256": "54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997",
+      "scope": {"degree": "بكالوريوس", "plan_type": "قديمة", "program": "القرآن وعلومه", "version": "39"},
+      "pages": [4, 6],
+      "pdf_needs_update": true,
+      "finding": "طرق التقويم موجودة في خلايا مدمجة أسقطها القارئ عن الصفوف التابعة. PDF لا ينشر رموز PLO الخاصة ببرنامج القرآن وعلومه؛ استُكمل الربط من مصفوفة البرنامج الرسمية، الصفحة 10.",
+      "overrides": [
+        {"field": "clos[0].assessment", "value": "الورقة والقلم", "evidence": "تصحيح OCR مطابق للخلية المدمجة."},
+        {"field": "clos[1].assessment", "value": "الورقة والقلم", "evidence": "استعادة قيمة الخلية المدمجة للصف التابع."},
+        {"field": "clos[2].assessment", "value": "الورقة والقلم، والملاحظة", "evidence": "تصحيح OCR مطابق للخلية المدمجة."},
+        {"field": "clos[3].assessment", "value": "الورقة والقلم، والملاحظة", "evidence": "استعادة قيمة الخلية المدمجة للصف التابع."},
+        {"field": "clos[4].assessment", "value": "الملاحظة، وحقائب الإنجاز", "evidence": "تصحيح OCR مطابق للخلية المدمجة."},
+        {"field": "clos[5].assessment", "value": "الملاحظة، وحقائب الإنجاز", "evidence": "استعادة قيمة الخلية المدمجة للصف التابع."}
+      ],
+      "program_matrix": {
+        "document": "توصيفات البرامج/القرآن وعلومه قديم.pdf",
+        "sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74",
+        "pages": [10],
+        "note": "مصفوفة برنامج القرآن وعلومه تربط مقرر الثقافة الإسلامية (القيم والأخلاق) بع3 وق2، ولا تسند له مخرجًا مهاريًا؛ وُزعت الرموز بحسب مجالات CLO 1/2/3."
+      },
+      "program_mapping": {"1.1": ["ع3"], "1.2": ["ع3"], "2.1": [], "2.2": [], "3.1": ["ق2"], "3.2": ["ق2"]},
+      "recommendation": {
+        "fields": ["plo_mappings"],
+        "issue_code": "program_specific_plo_links_absent",
+        "message": "توصيف المقرر لا ينشر رموز PLO الخاصة ببرنامج القرآن وعلومه.",
+        "recommendation": "إصدار نسخة برنامجية من PDF تُدرج ع3 وق2 وتثبت فراغ المجال المهاري وفق مصفوفة البرنامج."
+      }
+    },
+    {
+      "course_code": "2004245-2",
+      "variant_id": "90d9f8dc9fb1b9f3b57f4624ec067af4b0850c079c574f643ad74d1b8c2700cf",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf",
+      "source_sha256": "05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e",
+      "scope": {"degree": "بكالوريوس", "plan_type": "جديدة", "program": "القرآن وعلومه", "version": "47"},
+      "pages": [4, 5, 6],
+      "pdf_needs_update": false,
+      "finding": "خطة 20/20/60 وطرق التقويم ونص CLO 2.3 موجودة في PDF؛ سبب النقص هو الخلايا المدمجة وOCR فقط.",
+      "overrides": [
+        {"field": "clos[5].text", "value": "تصميم خارطة ذهنية توضح الفرق بين أهل السنة والجماعة وبين من خالفهم في المسائل المتعلقة بتوحيد المعرفة والإثبات.", "evidence": "تصحيح استخراجي للصف 2.3 الممتد بين الصفحتين 4 و5."},
+        {"field": "clos[0].assessment", "value": "الاختبارات، والمناقشات، وأوراق العمل", "evidence": "تصحيح الخلية المدمجة الظاهرة."},
+        {"field": "clos[1].assessment", "value": "الاختبارات، والمناقشات، وأوراق العمل", "evidence": "استعادة قيمة الخلية المدمجة."},
+        {"field": "clos[2].assessment", "value": "الاختبارات، والمناقشات، وأوراق العمل", "evidence": "استعادة قيمة الخلية المدمجة."},
+        {"field": "clos[3].assessment", "value": "الاختبارات، والمناقشات، وأوراق العمل", "evidence": "تصحيح الخلية المدمجة الظاهرة."},
+        {"field": "clos[4].assessment", "value": "الاختبارات، والمناقشات، وأوراق العمل", "evidence": "استعادة قيمة الخلية المدمجة."},
+        {"field": "clos[5].assessment", "value": "الاختبارات، والمناقشات، وأوراق العمل", "evidence": "استعادة قيمة الخلية المدمجة."},
+        {"field": "clos[6].assessment", "value": "أوراق العمل، والملاحظة", "evidence": "تصحيح الخلية المدمجة الظاهرة."},
+        {"field": "clos[7].assessment", "value": "أوراق العمل، والملاحظة", "evidence": "استعادة قيمة الخلية المدمجة."},
+        {"field": "clos[8].assessment", "value": "أوراق العمل، والملاحظة", "evidence": "استعادة قيمة الخلية المدمجة."},
+        {"field": "assessment_plan", "value": [
+          {"confidence": "verified", "label": "أنشطة وبحوث وأوراق عمل وعروض تقديمية ومناقشات علمية وتكليفات منزلية", "source_page": 6, "weight": 20},
+          {"confidence": "verified", "label": "الاختبار الدوري", "source_page": 6, "weight": 20},
+          {"confidence": "verified", "label": "الاختبار النهائي", "source_page": 6, "weight": 60}
+        ], "evidence": "تصحيح استخراجي مطابق لجدول الصفحة 6."},
+        {"field": "assessment_plan_complete", "value": true, "evidence": "الخطة المرئية كاملة ومجموعها 100%."},
+        {"field": "assessment_plan_total", "value": 100, "evidence": "مجموع الأوزان المرئية 20+20+60."}
+      ]
+    },
+    {
+      "course_code": "2004273-2",
+      "variant_id": "beffb6b53553ba5d672846b1c68965d1165d73617f62f19e06eafd33b25c9b18",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf",
+      "source_sha256": "2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9",
+      "scope": {"degree": "بكالوريوس", "plan_type": "جديدة", "program": "القرآن وعلومه", "version": "47"},
+      "pages": [4, 5, 6],
+      "pdf_needs_update": false,
+      "finding": "النصوص وخطة 20/20/60 وطرق التقويم موجودة في PDF؛ النقص سببه OCR والخلايا المدمجة.",
+      "overrides": [
+        {"field": "clos[0].text", "value": "معرفة مبادئ العقيدة، وتوحيد الألوهية بالأدلة.", "evidence": "تصحيح OCR مطابق للصف 1.1."},
+        {"field": "clos[1].text", "value": "تسمية المخالفين لأهل السنة والجماعة في مصادر التلقي والاستدلال على مسائل العقيدة وفي توحيد الألوهية.", "evidence": "تصحيح OCR مطابق للصف 1.2."},
+        {"field": "clos[2].text", "value": "ذكر أنواع أدلة توحيد الألوهية.", "evidence": "تصحيح OCR مطابق للصف 1.3."},
+        {"field": "clos[3].text", "value": "استنباط أوجه الاستدلال في النصوص على المسائل المتعلقة بتوحيد الألوهية.", "evidence": "تصحيح OCR مطابق للصف 2.1."},
+        {"field": "clos[4].text", "value": "الرد على المخالفين لأهل السنة والجماعة في المسائل المتعلقة بتوحيد الألوهية.", "evidence": "تصحيح OCR مطابق للصف 2.2."},
+        {"field": "clos[5].text", "value": "تصميم خارطة ذهنية توضح الفرق بين أهل السنة والجماعة ومن خالفهم في المسائل المتعلقة بتوحيد الألوهية.", "evidence": "تصحيح OCR مطابق للصف 2.3."},
+        {"field": "clos[0].assessment", "value": "الاختبارات، والمناقشات، وأوراق العمل", "evidence": "تصحيح الخلية المدمجة."},
+        {"field": "clos[1].assessment", "value": "الاختبارات، والمناقشات، وأوراق العمل", "evidence": "استعادة الخلية المدمجة."},
+        {"field": "clos[2].assessment", "value": "الاختبارات، والمناقشات، وأوراق العمل", "evidence": "استعادة الخلية المدمجة."},
+        {"field": "clos[3].assessment", "value": "الاختبارات، والمناقشات، وأوراق العمل", "evidence": "تصحيح الخلية المدمجة."},
+        {"field": "clos[4].assessment", "value": "الاختبارات، والمناقشات، وأوراق العمل", "evidence": "استعادة الخلية المدمجة."},
+        {"field": "clos[5].assessment", "value": "الاختبارات، والمناقشات، وأوراق العمل", "evidence": "استعادة الخلية المدمجة."},
+        {"field": "clos[6].assessment", "value": "أوراق العمل، والملاحظة", "evidence": "تصحيح الخلية المدمجة."},
+        {"field": "clos[7].assessment", "value": "أوراق العمل، والملاحظة", "evidence": "استعادة الخلية المدمجة."},
+        {"field": "clos[8].assessment", "value": "أوراق العمل، والملاحظة", "evidence": "استعادة الخلية المدمجة."},
+        {"field": "assessment_plan", "value": [
+          {"confidence": "verified", "label": "أنشطة وبحوث وأوراق عمل وعروض تقديمية ومناقشات علمية وتكليفات منزلية", "source_page": 6, "weight": 20},
+          {"confidence": "verified", "label": "الاختبار الدوري", "source_page": 6, "weight": 20},
+          {"confidence": "verified", "label": "الاختبار النهائي", "source_page": 6, "weight": 60}
+        ], "evidence": "تصحيح استخراجي مطابق لجدول الصفحة 6."},
+        {"field": "assessment_plan_complete", "value": true, "evidence": "الخطة المرئية كاملة ومجموعها 100%."},
+        {"field": "assessment_plan_total", "value": 100, "evidence": "مجموع الأوزان المرئية 20+20+60."}
+      ]
+    },
+    {
+      "course_code": "2004313-2",
+      "variant_id": "d4f0baa12ac153c5fa0cf35c2a932e184a298b88aaac1381fffa921962983651",
+      "source_pdf": "assets/course-specifications/2004313-2.pdf",
+      "source_sha256": "b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0",
+      "scope": {"degree": "بكالوريوس", "plan_type": "قديمة", "program": "القرآن وعلومه", "version": "39"},
+      "pages": [4, 5],
+      "pdf_needs_update": false,
+      "finding": "طرق التقويم موجودة في خلايا مدمجة؛ القارئ أخذ أول صف من كل خلية وأسقط الصف التابع. خطة 10/45/45 صحيحة.",
+      "overrides": [
+        {"field": "clos[0].assessment", "value": "الورقة والقلم", "evidence": "تصحيح OCR للخلية المدمجة."},
+        {"field": "clos[1].assessment", "value": "الورقة والقلم", "evidence": "استعادة قيمة الخلية المدمجة."},
+        {"field": "clos[2].assessment", "value": "الورقة والقلم، والملاحظة", "evidence": "تصحيح OCR للخلية المدمجة."},
+        {"field": "clos[3].assessment", "value": "الورقة والقلم، والملاحظة", "evidence": "استعادة قيمة الخلية المدمجة."},
+        {"field": "clos[4].assessment", "value": "الملاحظة، وحقائب الإنجاز", "evidence": "تصحيح OCR للخلية المدمجة."},
+        {"field": "clos[5].assessment", "value": "الملاحظة، وحقائب الإنجاز", "evidence": "استعادة قيمة الخلية المدمجة."}
+      ]
+    },
+    {
+      "course_code": "2004414-2",
+      "variant_id": "be402ecd6d0e2df9a135556f9fd33257faa628a0819fe4c1ee1689a29fae2b49",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004414-2--8b9b1d8598.pdf",
+      "source_sha256": "e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3",
+      "scope": {"degree": "بكالوريوس", "plan_type": "قديمة", "program": "القرآن وعلومه", "version": "39"},
+      "pages": [4, 5, 6],
+      "pdf_needs_update": true,
+      "finding": "طرق التقويم واضحة في الصفحة 4، لكن خطة الصفحتين 5–6 مجموعها 95% (5+45+45). صُحح الوزن الأول إلى 10% استنادًا إلى تصنيف الأتمتة الموثق وبنية الخام 10/90.",
+      "overrides": [
+        {"field": "clos[0].assessment", "value": "أوراق العمل والتقارير والأنشطة", "evidence": "تصحيح OCR مطابق للخلية."},
+        {"field": "clos[1].assessment", "value": "أوراق العمل والتقارير، والاختبارات، والبحوث", "evidence": "استعادة طريقة التقويم الظاهرة."},
+        {"field": "clos[2].assessment", "value": "أوراق العمل والتقارير، والاختبارات، والأنشطة الطلابية", "evidence": "تصحيح OCR مطابق للخلية."},
+        {"field": "clos[3].assessment", "value": "الملاحظة، وتقديم عروض", "evidence": "تصحيح OCR مطابق للخلية."},
+        {"field": "clos[4].assessment", "value": "أوراق العمل والتقارير، والاختبارات، والأنشطة الطلابية", "evidence": "استعادة طريقة التقويم الظاهرة."},
+        {"field": "assessment_plan", "value": [
+          {"confidence": "verified", "label": "تقديم بحوث وتقارير وأوراق عمل وعروض", "source_page": 5, "weight": 10},
+          {"confidence": "verified", "label": "الاختبار التقييمي الأول", "source_page": 6, "weight": 45},
+          {"confidence": "verified", "label": "الاختبار التقييمي الثاني", "source_page": 6, "weight": 45}
+        ], "evidence": "استكمال تحليلي مؤيد بسجل الأتمتة ذي البصمة ca5dd249609ca3f1b9b94acbfbadde497de28375af1549ff6635cb335823f08d وبنية الخام 10/90؛ بقي رقم 5 الأصلي محفوظًا في extracted.", "analytical": true},
+        {"field": "assessment_plan_complete", "value": true, "evidence": "حالة الطبقة الفعالة الموثقة 10/45/45.", "analytical": true},
+        {"field": "assessment_plan_total", "value": 100, "evidence": "مجموع الطبقة الفعالة الموثقة 10/45/45.", "analytical": true}
+      ],
+      "recommendation": {
+        "fields": ["assessment_plan"],
+        "issue_code": "assessment_total_95",
+        "message": "خطة التقويم المطبوعة مجموعها 95%.",
+        "recommendation": "إصدار PDF مصحح يثبت وزن النشاط الأول 10% والمجموع 100%."
+      }
+    },
+    {
+      "course_code": "2004493-2",
+      "variant_id": "e0b03e9c59ace5daed1a50ae9462c6e3825dade8e8084aeafa0cbde0c90cf29b",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf",
+      "source_sha256": "44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34",
+      "scope": {"degree": "بكالوريوس", "plan_type": "جديدة", "program": "القرآن وعلومه", "version": "47"},
+      "pages": [4, 5, 10],
+      "pdf_needs_update": false,
+      "finding": "طرق التقويم موجودة في ثلاث خلايا مدمجة، وخطة 5/5/20/10/60 صحيحة؛ القارئ أسقط الطرق عن الصفوف التابعة.",
+      "overrides": [
+        {"field": "clos[0].assessment", "value": "الورقة والقلم، وحقيبة الإنجاز", "evidence": "تصحيح الخلية المدمجة."},
+        {"field": "clos[1].assessment", "value": "الورقة والقلم، وحقيبة الإنجاز", "evidence": "استعادة الخلية المدمجة."},
+        {"field": "clos[2].assessment", "value": "الورقة والقلم، وحقيبة الإنجاز", "evidence": "استعادة الخلية المدمجة."},
+        {"field": "clos[3].assessment", "value": "الورقة والقلم، وحقيبة الإنجاز", "evidence": "استعادة الخلية المدمجة."},
+        {"field": "clos[4].assessment", "value": "الورقة والقلم، وحقيبة الإنجاز، والملاحظة", "evidence": "تصحيح الخلية المدمجة."},
+        {"field": "clos[5].assessment", "value": "الورقة والقلم، وحقيبة الإنجاز، والملاحظة", "evidence": "استعادة الخلية المدمجة."},
+        {"field": "clos[6].assessment", "value": "الورقة والقلم، وحقيبة الإنجاز، والملاحظة", "evidence": "استعادة الخلية المدمجة."},
+        {"field": "clos[7].assessment", "value": "الورقة والقلم، وحقيبة الإنجاز، والملاحظة", "evidence": "استعادة الخلية المدمجة."},
+        {"field": "clos[8].assessment", "value": "الورقة والقلم، وحقيبة الإنجاز، والملاحظة", "evidence": "استعادة الخلية المدمجة."},
+        {"field": "clos[9].assessment", "value": "الملاحظة", "evidence": "تصحيح الخلية المدمجة."},
+        {"field": "clos[10].assessment", "value": "الملاحظة", "evidence": "استعادة الخلية المدمجة."},
+        {"field": "clos[11].assessment", "value": "الملاحظة", "evidence": "استعادة الخلية المدمجة."}
+      ]
+    }
+  ]
+}

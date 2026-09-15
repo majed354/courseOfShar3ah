@@ -95,6 +95,24 @@ class CourseOutcomeReviewBatchTest(unittest.TestCase):
             outcomes["statistics"]["source_alignment_counts"],
         )
 
+    def test_historical_batch_cannot_overwrite_a_newer_targeted_review(self):
+        entry = next(
+            entry
+            for manifest in self.manifests
+            for entry in manifest["entries"]
+            if entry["course_code"] == "2002103-2" and entry["clo_code"] == "2.1"
+        )
+        outcomes = copy.deepcopy(self.outcomes)
+        variant = review_batch.locate_variant(
+            outcomes,
+            entry["course_code"],
+            entry["variant_id"],
+            entry["source_pdf"],
+        )
+        before = copy.deepcopy(variant)
+        review_batch.apply_entry(outcomes, entry)
+        self.assertEqual(before, variant)
+
     def test_every_entry_resolves_to_its_pinned_source_or_audited_successor(self):
         replacements = review_batch.reviewed_source_replacements()
         successors = review_batch.reviewed_variant_successors()

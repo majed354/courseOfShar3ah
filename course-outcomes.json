@@ -68527,6 +68527,73 @@
           },
           "overrides": [
             {
+              "field": "assessment_plan",
+              "value": [
+                {
+                  "confidence": "verified",
+                  "label": "التقويم الأسبوعي",
+                  "source_page": 6,
+                  "weight": 10
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الواجبات",
+                  "source_page": 6,
+                  "weight": 10
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار النصفي",
+                  "source_page": 6,
+                  "weight": 20
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار النهائي",
+                  "source_page": 6,
+                  "weight": 60
+                }
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf المطابق للبصمة b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8 | الصفحات 4,6. استكمال تحليلي: استُبعد التكرار الحرفي لصف التقويم الأسبوعي بعد التحقق البصري، فصار المجموع 100% دون تغيير أي وزن مطبوع.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "assessment_plan_complete",
+              "value": true,
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf المطابق للبصمة b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8 | الصفحات 4,6. حالة الطبقة الفعالة بعد استبعاد الصف المكرر حرفيًا.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "assessment_plan_total",
+              "value": 100,
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf المطابق للبصمة b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8 | الصفحات 4,6. مجموع الطبقة الفعالة بعد استبعاد الصف المكرر حرفيًا.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[0].assessment",
+              "value": "تقييم الأداء والتفاعل الصفي، والاختبارات",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf المطابق للبصمة b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8 | الصفحات 4,6. تصحيح OCR لطريقة التقويم الظاهرة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[0].text",
+              "value": "أن يُعرِّف الطالب مقدمات علم التجويد ومفهومه وأحكامه.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf المطابق للبصمة b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8 | الصفحات 4,6. تصحيح استخراجي مطابق للخلية 1.1.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[1].assessment",
+              "value": "تقييم الأداء والتفاعل الصفي، والاختبارات",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf المطابق للبصمة b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8 | الصفحات 4,6. تصحيح OCR لطريقة التقويم الظاهرة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
               "field": "clos[1].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf | الصفحات 4 | استكمال نص CLO 2.1 من الخلية المرئية.",
@@ -68550,9 +68617,23 @@
             {
               "field": "clos[1].text",
               "value": "أن يُطبِّق الطَّالب الأحكام التَّجويديَّة المقررة تطبيقًا نظريا وعمليا.",
-              "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf | الصفحات 4 | استكمال نص CLO 2.1 من الخلية المرئية.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf المطابق للبصمة b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8 | الصفحات 4,6. تصحيح استخراجي مطابق للخلية 2.1 مع حفظ الضبط الظاهر في المصدر.",
               "policy": "verified_extraction_correction_matches_source",
-              "reviewed_at": "2026-09-08T20:00:00+03:00"
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[2].assessment",
+              "value": "المناقشات الجماعية",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf المطابق للبصمة b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8 | الصفحات 4,6. تصحيح OCR لطريقة التقويم الظاهرة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[2].text",
+              "value": "أن يعمل الطالب مع زملائه على تصحيح التلاوة وتعليم التجويد واستخدام التقنيات الحديثة في اكتشاف أخطاء التلاوة وتصويبها.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf المطابق للبصمة b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8 | الصفحات 4,6. تصحيح استخراجي مطابق للخلية 3.1.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
             }
           ],
           "scopes": [
@@ -68579,24 +68660,25 @@
           "source_sha256": "b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8",
           "variant_id": "1c3ded65321dfd107475ff5c513afb8b529e51784c1e2d8a9e8761e1c2cc1197",
           "source_alignment": {
-            "status": "matches_source_pdf",
-            "label_ar": "مطابق لملف PDF",
+            "status": "source_pdf_gap_confirmed",
+            "label_ar": "بيانات القاعدة مكتملة؛ PDF بحاجة إلى تعديل",
             "correction_applied": true,
-            "source_update_recommended": false,
+            "source_update_recommended": true,
             "source_sha256": "b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8"
           },
           "source_review": {
-            "status": "accepted_as_is",
-            "finding": "استكمال نص CLO 2.1 من الخلية المرئية.",
+            "status": "needs_manual",
+            "finding": "نصوص CLO وطرق تقويمها ظاهرة في الصفحة 4، لكن الصفحة 6 تكرر صف التقويم الأسبوعي 10% حرفيًا وتطبع مجموعًا فعليًا 110%؛ حُذف التكرار من البيانات الفعالة فقط.",
             "evidence": {
               "file": "assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf",
               "pages": [
-                4
+                4,
+                6
               ],
-              "review_method": "تصيير صفحات PDF المطابق للبصمة، وفحص خلية ناتج التعلم بصريًا؛ استُخدم OCR مساعدًا للقراءة ولم يُعتمد دون المطابقة البصرية.",
+              "review_method": "تصيير صفحات PDF المطابق للبصمة وفحص خلايا CLO وطرق التقويم وخطة التقويم بصريًا، ثم فصل التصحيح الاستخراجي عن الاستكمال التحليلي.",
               "sha256_verified": true
             },
-            "reviewed_at": "2026-09-08T20:00:00+03:00",
+            "reviewed_at": "2026-09-15T18:30:00+03:00",
             "source_sha256": "b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8"
           }
         }
@@ -69608,6 +69690,59 @@
           },
           "overrides": [
             {
+              "field": "assessment_plan",
+              "value": [
+                {
+                  "confidence": "verified",
+                  "label": "التقويم الأسبوعي",
+                  "source_page": 6,
+                  "weight": 10
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الواجبات",
+                  "source_page": 6,
+                  "weight": 10
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار النصفي",
+                  "source_page": 6,
+                  "weight": 20
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار النهائي",
+                  "source_page": 6,
+                  "weight": 60
+                }
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf المطابق للبصمة 4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff | الصفحات 4,6. استكمال تحليلي: استُبعد التكرار الحرفي لصف التقويم الأسبوعي بعد التحقق البصري.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "assessment_plan_complete",
+              "value": true,
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf المطابق للبصمة 4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff | الصفحات 4,6. حالة الطبقة الفعالة بعد استبعاد الصف المكرر.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "assessment_plan_total",
+              "value": 100,
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf المطابق للبصمة 4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff | الصفحات 4,6. مجموع الطبقة الفعالة بعد استبعاد الصف المكرر.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[0].assessment",
+              "value": "تقييم الأداء والتفاعل الصفي، والاختبارات",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf المطابق للبصمة 4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff | الصفحات 4,6. تصحيح OCR لطريقة التقويم الظاهرة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
               "field": "clos[0].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf | الصفحات 4 | استكمال نص CLO 1.1 من الخلية المرئية.",
@@ -69630,10 +69765,38 @@
             },
             {
               "field": "clos[0].text",
-              "value": "أن يُعرِّف الطَّالب صفات الحروف اللازمة والعارضة وأقسام الوقف والابتداء.",
-              "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf | الصفحات 4 | استكمال نص CLO 1.1 من الخلية المرئية.",
+              "value": "أن يُعرِّف الطالب صفات الحروف اللازمة والعارضة وأقسام الوقف والابتداء.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf المطابق للبصمة 4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff | الصفحات 4,6. تصحيح استخراجي مطابق للخلية 1.1.",
               "policy": "verified_extraction_correction_matches_source",
-              "reviewed_at": "2026-09-08T20:00:00+03:00"
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[1].assessment",
+              "value": "تقييم الأداء والتفاعل الصفي، والاختبارات",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf المطابق للبصمة 4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff | الصفحات 4,6. استعادة الخلية المدمجة الظاهرة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[1].text",
+              "value": "أن يتقن الطالب الأحكام التجويدية المقررة نظريًا وعمليًا.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf المطابق للبصمة 4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff | الصفحات 4,6. تصحيح استخراجي مطابق للخلية 2.1.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[2].assessment",
+              "value": "المناقشات الجماعية",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf المطابق للبصمة 4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff | الصفحات 4,6. تصحيح OCR لطريقة التقويم الظاهرة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[2].text",
+              "value": "أن يعمل الطالب مع زملائه على تصحيح التلاوة وتعليم التجويد واستخدام التقنيات الحديثة في اكتشاف أخطاء التلاوة وتصويبها.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf المطابق للبصمة 4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff | الصفحات 4,6. تصحيح استخراجي مطابق للخلية 3.1.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
             }
           ],
           "scopes": [
@@ -69660,24 +69823,25 @@
           "source_sha256": "4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff",
           "variant_id": "9af1a5c04c49324a0558df282b6bedefcede3a9226bfda41c0f5f9e20c8798d6",
           "source_alignment": {
-            "status": "matches_source_pdf",
-            "label_ar": "مطابق لملف PDF",
+            "status": "source_pdf_gap_confirmed",
+            "label_ar": "بيانات القاعدة مكتملة؛ PDF بحاجة إلى تعديل",
             "correction_applied": true,
-            "source_update_recommended": false,
+            "source_update_recommended": true,
             "source_sha256": "4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff"
           },
           "source_review": {
-            "status": "accepted_as_is",
-            "finding": "استكمال نص CLO 1.1 من الخلية المرئية.",
+            "status": "needs_manual",
+            "finding": "نصوص CLO وطرق تقويمها ظاهرة في الصفحة 4، لكن الصفحة 6 تكرر صف التقويم الأسبوعي 10% حرفيًا وتطبع مجموعًا 110%؛ حُذف التكرار من البيانات الفعالة فقط.",
             "evidence": {
               "file": "assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf",
               "pages": [
-                4
+                4,
+                6
               ],
-              "review_method": "تصيير صفحات PDF المطابق للبصمة، وفحص خلية ناتج التعلم بصريًا؛ استُخدم OCR مساعدًا للقراءة ولم يُعتمد دون المطابقة البصرية.",
+              "review_method": "تصيير صفحات PDF المطابق للبصمة وفحص خلايا CLO وطرق التقويم وخطة التقويم بصريًا، ثم فصل التصحيح الاستخراجي عن الاستكمال التحليلي.",
               "sha256_verified": true
             },
-            "reviewed_at": "2026-09-08T20:00:00+03:00",
+            "reviewed_at": "2026-09-15T18:30:00+03:00",
             "source_sha256": "4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff"
           }
         }
@@ -91143,6 +91307,13 @@
           },
           "overrides": [
             {
+              "field": "clos[5].assessment",
+              "value": "التقييم الدوري؛ استطلاع آراء الطلبة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002250-2--a6427ad49e.pdf المطابق للبصمة 9cf366abbdede7c727a4a3ffafb47c472c7e59a8c57e9bc6727999ee44bcc2fe | الصفحات 3,4. تصحيح استخراجي مطابق لخليتي التقويم المباشر وغير المباشر في الصف 3.1.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
               "field": "clos[5].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2002250-2--a6427ad49e.pdf | الصفحات 3،4 | استكمال CLO 3.1 الممتد بين الصفحتين 3 و4 من النص المرئي وطبقة الخط المضمنة المطابقة.",
@@ -91196,24 +91367,24 @@
           "variant_id": "e4b0f50dceda6ad4df73504857d1c37e5724adddd3ab45eca5f8ffaeff7a45d2",
           "source_alignment": {
             "status": "matches_source_pdf",
-            "label_ar": "مطابق لملف PDF",
+            "label_ar": "مطابق لملف PDF بعد تصحيح الاستخراج",
             "correction_applied": true,
             "source_update_recommended": false,
             "source_sha256": "9cf366abbdede7c727a4a3ffafb47c472c7e59a8c57e9bc6727999ee44bcc2fe"
           },
           "source_review": {
             "status": "accepted_as_is",
-            "finding": "استكمال CLO 3.1 الممتد بين الصفحتين 3 و4 من النص المرئي وطبقة الخط المضمنة المطابقة.",
+            "finding": "طريقة تقويم CLO 3.1 موجودة في أعلى الصفحة 4، لكن القارئ أسقطها عند فاصل الصفحة؛ لا نقص في PDF.",
             "evidence": {
               "file": "assets/course-specifications/shared-course-blank-plo-20260905/2002250-2--a6427ad49e.pdf",
               "pages": [
                 3,
                 4
               ],
-              "review_method": "تصيير صفحات PDF المطابق للبصمة، وفحص خلية ناتج التعلم بصريًا؛ استُخدم OCR مساعدًا للقراءة ولم يُعتمد دون المطابقة البصرية.",
+              "review_method": "تصيير صفحات PDF المطابق للبصمة وفحص خلايا CLO وطرق التقويم وخطة التقويم بصريًا، ثم فصل التصحيح الاستخراجي عن الاستكمال التحليلي.",
               "sha256_verified": true
             },
-            "reviewed_at": "2026-09-08T20:00:00+03:00",
+            "reviewed_at": "2026-09-15T18:30:00+03:00",
             "source_sha256": "9cf366abbdede7c727a4a3ffafb47c472c7e59a8c57e9bc6727999ee44bcc2fe"
           }
         }
@@ -171596,7 +171767,104 @@
               }
             ]
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "assessment_plan",
+              "value": [
+                {
+                  "confidence": "verified",
+                  "label": "تقديم بحوث وتقارير وأوراق عمل وعروض",
+                  "source_page": 5,
+                  "weight": 10
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار التقييمي الأول",
+                  "source_page": 5,
+                  "weight": 45
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار التقييمي الثاني",
+                  "source_page": 5,
+                  "weight": 45
+                }
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf المطابق للبصمة 2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d | الصفحات 4,5. استكمال تحليلي مؤيد بسجل الأتمتة ذي البصمة ca5dd249609ca3f1b9b94acbfbadde497de28375af1549ff6635cb335823f08d الذي يثبت 10/45/45؛ بقي رقم PDF الأصلي محفوظًا في extracted.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "assessment_plan_complete",
+              "value": true,
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf المطابق للبصمة 2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d | الصفحات 4,5. حالة الطبقة الفعالة الموثقة 10/45/45.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "assessment_plan_total",
+              "value": 100,
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf المطابق للبصمة 2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d | الصفحات 4,5. مجموع الطبقة الفعالة الموثقة 10/45/45.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[0].assessment",
+              "value": "الأنشطة والمحاضرة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf المطابق للبصمة 2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d | الصفحات 4,5. طريقة التقويم ظاهرة في PDF.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[0].text",
+              "value": "أن يعرف الطالب مفهوم أصول الثقافة الإسلامية وأهدافها والغاية من الوحدة الثقافية للأمة.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf المطابق للبصمة 2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d | الصفحات 4,5. تصحيح استخراجي مطابق للصف 1.1.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[1].assessment",
+              "value": "الأنشطة والمحاضرة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf المطابق للبصمة 2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d | الصفحات 4,5. طريقة التقويم ظاهرة في PDF.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[2].assessment",
+              "value": "المشاركات والتكليفات",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf المطابق للبصمة 2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d | الصفحات 4,5. تصحيح OCR مطابق للخلية الظاهرة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[3].assessment",
+              "value": "بحث قصير وعرض",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf المطابق للبصمة 2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d | الصفحات 4,5. طريقة التقويم ظاهرة في PDF.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[4].assessment",
+              "value": "بطاقة ملاحظة وتقييم المشاركة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf المطابق للبصمة 2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d | الصفحات 4,5. طريقة التقويم ظاهرة في PDF.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[5].assessment",
+              "value": "عرض جماعي وبطاقة ملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf المطابق للبصمة 2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d | الصفحات 4,5. استكمال تحليلي مناسب للناتج المستكمل، وليس نصًا من PDF.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[5].text",
+              "value": "أن يعمل الطالب بفاعلية ضمن فريق لإعداد عرض موثق حول قضية ثقافية معاصرة.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf المطابق للبصمة 2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d | الصفحات 4,5. استكمال تحليلي قابل للقياس مبني على موضوعات المقرر ومستواه ومجال القيم والمسؤولية؛ الخلية الأصلية 3.2 فارغة.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            }
+          ],
           "scopes": [
             {
               "degree": "بكالوريوس",
@@ -171637,7 +171905,29 @@
           ],
           "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf",
           "source_sha256": "2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d",
-          "variant_id": "92210768b13d4662ef51b84c812543b6b91f137d015fb33bc8730c10153f5ac0"
+          "variant_id": "92210768b13d4662ef51b84c812543b6b91f137d015fb33bc8730c10153f5ac0",
+          "source_alignment": {
+            "status": "source_pdf_gap_confirmed",
+            "label_ar": "بيانات القاعدة مكتملة؛ PDF بحاجة إلى تعديل",
+            "correction_applied": true,
+            "source_update_recommended": true,
+            "source_sha256": "2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d"
+          },
+          "source_review": {
+            "status": "needs_manual",
+            "finding": "الصف 3.2 فارغ فعليًا في PDF، وخطة الصفحة 5 مجموعها 95% (5+45+45). استُكمل CLO 3.2 تحليليًا، وصُحح الوزن الأول إلى 10% استنادًا إلى خطة الأتمتة التاريخية الموثقة 10/45/45.",
+            "evidence": {
+              "file": "assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf",
+              "pages": [
+                4,
+                5
+              ],
+              "review_method": "تصيير صفحات PDF المطابق للبصمة وفحص خلايا CLO وطرق التقويم وخطة التقويم بصريًا، ثم فصل التصحيح الاستخراجي عن الاستكمال التحليلي.",
+              "sha256_verified": true
+            },
+            "reviewed_at": "2026-09-15T18:30:00+03:00",
+            "source_sha256": "2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d"
+          }
         }
       ]
     },
@@ -172455,7 +172745,730 @@
               }
             ]
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "clos[0].assessment",
+              "value": "الورقة والقلم",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004112-2.pdf المطابق للبصمة 54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997 | الصفحات 4,6. تصحيح OCR مطابق للخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[0].plo_mappings",
+              "value": [
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "جديدة",
+                    "program": "الأنظمة",
+                    "version": "47"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الأنظمة",
+                    "version": "38"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات الإسلامية",
+                    "version": "47"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الدراسات الإسلامية",
+                    "version": "39"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الشريعة",
+                    "version": "38"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الشريعة",
+                    "version": "39"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "verified",
+                  "evidence": "مصفوفة برنامج القرآن وعلومه تربط مقرر الثقافة الإسلامية (القيم والأخلاق) بع3 وق2، ولا تسند له مخرجًا مهاريًا؛ وُزعت الرموز بحسب مجالات CLO 1/2/3.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "القرآن وعلومه",
+                    "version": "39"
+                  },
+                  "source_page": 10,
+                  "status": "mapped"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "القراءات",
+                    "version": "38"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                }
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004112-2.pdf المطابق للبصمة 54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997 | الصفحات 4,6. استكمال ربط برنامج القرآن وعلومه من مصفوفة البرنامج توصيفات البرامج/القرآن وعلومه قديم.pdf، الصفحات 10، البصمة 0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[1].assessment",
+              "value": "الورقة والقلم",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004112-2.pdf المطابق للبصمة 54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997 | الصفحات 4,6. استعادة قيمة الخلية المدمجة للصف التابع.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[1].plo_mappings",
+              "value": [
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "جديدة",
+                    "program": "الأنظمة",
+                    "version": "47"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الأنظمة",
+                    "version": "38"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات الإسلامية",
+                    "version": "47"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الدراسات الإسلامية",
+                    "version": "39"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الشريعة",
+                    "version": "38"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الشريعة",
+                    "version": "39"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "verified",
+                  "evidence": "مصفوفة برنامج القرآن وعلومه تربط مقرر الثقافة الإسلامية (القيم والأخلاق) بع3 وق2، ولا تسند له مخرجًا مهاريًا؛ وُزعت الرموز بحسب مجالات CLO 1/2/3.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "القرآن وعلومه",
+                    "version": "39"
+                  },
+                  "source_page": 10,
+                  "status": "mapped"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "القراءات",
+                    "version": "38"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                }
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004112-2.pdf المطابق للبصمة 54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997 | الصفحات 4,6. استكمال ربط برنامج القرآن وعلومه من مصفوفة البرنامج توصيفات البرامج/القرآن وعلومه قديم.pdf، الصفحات 10، البصمة 0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[2].assessment",
+              "value": "الورقة والقلم، والملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004112-2.pdf المطابق للبصمة 54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997 | الصفحات 4,6. تصحيح OCR مطابق للخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[2].plo_mappings",
+              "value": [
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "جديدة",
+                    "program": "الأنظمة",
+                    "version": "47"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الأنظمة",
+                    "version": "38"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات الإسلامية",
+                    "version": "47"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الدراسات الإسلامية",
+                    "version": "39"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الشريعة",
+                    "version": "38"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الشريعة",
+                    "version": "39"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "verified",
+                  "evidence": "مصفوفة برنامج القرآن وعلومه تربط مقرر الثقافة الإسلامية (القيم والأخلاق) بع3 وق2، ولا تسند له مخرجًا مهاريًا؛ وُزعت الرموز بحسب مجالات CLO 1/2/3.",
+                  "plo_codes": [],
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "القرآن وعلومه",
+                    "version": "39"
+                  },
+                  "source_page": 10,
+                  "status": "explicitly_unmapped"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "القراءات",
+                    "version": "38"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                }
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004112-2.pdf المطابق للبصمة 54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997 | الصفحات 4,6. استكمال ربط برنامج القرآن وعلومه من مصفوفة البرنامج توصيفات البرامج/القرآن وعلومه قديم.pdf، الصفحات 10، البصمة 0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[3].assessment",
+              "value": "الورقة والقلم، والملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004112-2.pdf المطابق للبصمة 54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997 | الصفحات 4,6. استعادة قيمة الخلية المدمجة للصف التابع.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[3].plo_mappings",
+              "value": [
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "جديدة",
+                    "program": "الأنظمة",
+                    "version": "47"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الأنظمة",
+                    "version": "38"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات الإسلامية",
+                    "version": "47"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الدراسات الإسلامية",
+                    "version": "39"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الشريعة",
+                    "version": "38"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الشريعة",
+                    "version": "39"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "verified",
+                  "evidence": "مصفوفة برنامج القرآن وعلومه تربط مقرر الثقافة الإسلامية (القيم والأخلاق) بع3 وق2، ولا تسند له مخرجًا مهاريًا؛ وُزعت الرموز بحسب مجالات CLO 1/2/3.",
+                  "plo_codes": [],
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "القرآن وعلومه",
+                    "version": "39"
+                  },
+                  "source_page": 10,
+                  "status": "explicitly_unmapped"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "القراءات",
+                    "version": "38"
+                  },
+                  "source_page": 4,
+                  "status": "missing"
+                }
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004112-2.pdf المطابق للبصمة 54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997 | الصفحات 4,6. استكمال ربط برنامج القرآن وعلومه من مصفوفة البرنامج توصيفات البرامج/القرآن وعلومه قديم.pdf، الصفحات 10، البصمة 0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[4].assessment",
+              "value": "الملاحظة، وحقائب الإنجاز",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004112-2.pdf المطابق للبصمة 54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997 | الصفحات 4,6. تصحيح OCR مطابق للخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[4].plo_mappings",
+              "value": [
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "جديدة",
+                    "program": "الأنظمة",
+                    "version": "47"
+                  },
+                  "source_page": 5,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الأنظمة",
+                    "version": "38"
+                  },
+                  "source_page": 5,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات الإسلامية",
+                    "version": "47"
+                  },
+                  "source_page": 5,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الدراسات الإسلامية",
+                    "version": "39"
+                  },
+                  "source_page": 5,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الشريعة",
+                    "version": "38"
+                  },
+                  "source_page": 5,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الشريعة",
+                    "version": "39"
+                  },
+                  "source_page": 5,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "verified",
+                  "evidence": "مصفوفة برنامج القرآن وعلومه تربط مقرر الثقافة الإسلامية (القيم والأخلاق) بع3 وق2، ولا تسند له مخرجًا مهاريًا؛ وُزعت الرموز بحسب مجالات CLO 1/2/3.",
+                  "plo_codes": [
+                    "ق2"
+                  ],
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "القرآن وعلومه",
+                    "version": "39"
+                  },
+                  "source_page": 10,
+                  "status": "mapped"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "القراءات",
+                    "version": "38"
+                  },
+                  "source_page": 5,
+                  "status": "missing"
+                }
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004112-2.pdf المطابق للبصمة 54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997 | الصفحات 4,6. استكمال ربط برنامج القرآن وعلومه من مصفوفة البرنامج توصيفات البرامج/القرآن وعلومه قديم.pdf، الصفحات 10، البصمة 0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[5].assessment",
+              "value": "الملاحظة، وحقائب الإنجاز",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004112-2.pdf المطابق للبصمة 54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997 | الصفحات 4,6. استعادة قيمة الخلية المدمجة للصف التابع.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[5].plo_mappings",
+              "value": [
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "جديدة",
+                    "program": "الأنظمة",
+                    "version": "47"
+                  },
+                  "source_page": 5,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الأنظمة",
+                    "version": "38"
+                  },
+                  "source_page": 5,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات الإسلامية",
+                    "version": "47"
+                  },
+                  "source_page": 5,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الدراسات الإسلامية",
+                    "version": "39"
+                  },
+                  "source_page": 5,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الشريعة",
+                    "version": "38"
+                  },
+                  "source_page": 5,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "الشريعة",
+                    "version": "39"
+                  },
+                  "source_page": 5,
+                  "status": "missing"
+                },
+                {
+                  "confidence": "verified",
+                  "evidence": "مصفوفة برنامج القرآن وعلومه تربط مقرر الثقافة الإسلامية (القيم والأخلاق) بع3 وق2، ولا تسند له مخرجًا مهاريًا؛ وُزعت الرموز بحسب مجالات CLO 1/2/3.",
+                  "plo_codes": [
+                    "ق2"
+                  ],
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "القرآن وعلومه",
+                    "version": "39"
+                  },
+                  "source_page": 10,
+                  "status": "mapped"
+                },
+                {
+                  "confidence": "low",
+                  "evidence": "no unambiguous PLO value was recovered from the published cell",
+                  "plo_codes": null,
+                  "scope": {
+                    "degree": "بكالوريوس",
+                    "plan_type": "قديمة",
+                    "program": "القراءات",
+                    "version": "38"
+                  },
+                  "source_page": 5,
+                  "status": "missing"
+                }
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004112-2.pdf المطابق للبصمة 54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997 | الصفحات 4,6. استكمال ربط برنامج القرآن وعلومه من مصفوفة البرنامج توصيفات البرامج/القرآن وعلومه قديم.pdf، الصفحات 10، البصمة 0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            }
+          ],
           "scopes": [
             {
               "degree": "بكالوريوس",
@@ -172508,7 +173521,29 @@
           ],
           "source_pdf": "assets/course-specifications/2004112-2.pdf",
           "source_sha256": "54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997",
-          "variant_id": "43c89564981fcab507386e20342439e3ee8db6a3e3824cb8818c1f95e9fb422e"
+          "variant_id": "43c89564981fcab507386e20342439e3ee8db6a3e3824cb8818c1f95e9fb422e",
+          "source_alignment": {
+            "status": "source_pdf_gap_confirmed",
+            "label_ar": "بيانات القاعدة مكتملة؛ PDF بحاجة إلى تعديل",
+            "correction_applied": true,
+            "source_update_recommended": true,
+            "source_sha256": "54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997"
+          },
+          "source_review": {
+            "status": "needs_manual",
+            "finding": "طرق التقويم موجودة في خلايا مدمجة أسقطها القارئ عن الصفوف التابعة. PDF لا ينشر رموز PLO الخاصة ببرنامج القرآن وعلومه؛ استُكمل الربط من مصفوفة البرنامج الرسمية، الصفحة 10.",
+            "evidence": {
+              "file": "assets/course-specifications/2004112-2.pdf",
+              "pages": [
+                4,
+                6
+              ],
+              "review_method": "تصيير صفحات PDF المطابق للبصمة وفحص خلايا CLO وطرق التقويم وخطة التقويم بصريًا، ثم فصل التصحيح الاستخراجي عن الاستكمال التحليلي.",
+              "sha256_verified": true
+            },
+            "reviewed_at": "2026-09-15T18:30:00+03:00",
+            "source_sha256": "54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997"
+          }
         }
       ]
     },
@@ -182164,6 +183199,88 @@
           },
           "overrides": [
             {
+              "field": "assessment_plan",
+              "value": [
+                {
+                  "confidence": "verified",
+                  "label": "أنشطة وبحوث وأوراق عمل وعروض تقديمية ومناقشات علمية وتكليفات منزلية",
+                  "source_page": 6,
+                  "weight": 20
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار الدوري",
+                  "source_page": 6,
+                  "weight": 20
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار النهائي",
+                  "source_page": 6,
+                  "weight": 60
+                }
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf المطابق للبصمة 05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e | الصفحات 4,5,6. تصحيح استخراجي مطابق لجدول الصفحة 6.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "assessment_plan_complete",
+              "value": true,
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf المطابق للبصمة 05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e | الصفحات 4,5,6. الخطة المرئية كاملة ومجموعها 100%.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "assessment_plan_total",
+              "value": 100,
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf المطابق للبصمة 05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e | الصفحات 4,5,6. مجموع الأوزان المرئية 20+20+60.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[0].assessment",
+              "value": "الاختبارات، والمناقشات، وأوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf المطابق للبصمة 05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e | الصفحات 4,5,6. تصحيح الخلية المدمجة الظاهرة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[1].assessment",
+              "value": "الاختبارات، والمناقشات، وأوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf المطابق للبصمة 05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e | الصفحات 4,5,6. استعادة قيمة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[2].assessment",
+              "value": "الاختبارات، والمناقشات، وأوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf المطابق للبصمة 05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e | الصفحات 4,5,6. استعادة قيمة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[3].assessment",
+              "value": "الاختبارات، والمناقشات، وأوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf المطابق للبصمة 05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e | الصفحات 4,5,6. تصحيح الخلية المدمجة الظاهرة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[4].assessment",
+              "value": "الاختبارات، والمناقشات، وأوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf المطابق للبصمة 05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e | الصفحات 4,5,6. استعادة قيمة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[5].assessment",
+              "value": "الاختبارات، والمناقشات، وأوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf المطابق للبصمة 05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e | الصفحات 4,5,6. استعادة قيمة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
               "field": "clos[5].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf | الصفحات 4 | استكمال نص CLO 2.3 من الخلية المرئية.",
@@ -182186,10 +183303,31 @@
             },
             {
               "field": "clos[5].text",
-              "value": "تصميم خارطة ذهنية توضح الفرق بين أهل السنة والجماعة",
-              "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf | الصفحات 4 | استكمال نص CLO 2.3 من الخلية المرئية.",
+              "value": "تصميم خارطة ذهنية توضح الفرق بين أهل السنة والجماعة وبين من خالفهم في المسائل المتعلقة بتوحيد المعرفة والإثبات.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf المطابق للبصمة 05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e | الصفحات 4,5,6. تصحيح استخراجي للصف 2.3 الممتد بين الصفحتين 4 و5.",
               "policy": "verified_extraction_correction_matches_source",
-              "reviewed_at": "2026-09-08T20:00:00+03:00"
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[6].assessment",
+              "value": "أوراق العمل، والملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf المطابق للبصمة 05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e | الصفحات 4,5,6. تصحيح الخلية المدمجة الظاهرة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[7].assessment",
+              "value": "أوراق العمل، والملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf المطابق للبصمة 05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e | الصفحات 4,5,6. استعادة قيمة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[8].assessment",
+              "value": "أوراق العمل، والملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf المطابق للبصمة 05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e | الصفحات 4,5,6. استعادة قيمة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
             }
           ],
           "scopes": [
@@ -182217,23 +183355,25 @@
           "variant_id": "90d9f8dc9fb1b9f3b57f4624ec067af4b0850c079c574f643ad74d1b8c2700cf",
           "source_alignment": {
             "status": "matches_source_pdf",
-            "label_ar": "مطابق لملف PDF",
+            "label_ar": "مطابق لملف PDF بعد تصحيح الاستخراج",
             "correction_applied": true,
             "source_update_recommended": false,
             "source_sha256": "05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e"
           },
           "source_review": {
             "status": "accepted_as_is",
-            "finding": "استكمال نص CLO 2.3 من الخلية المرئية.",
+            "finding": "خطة 20/20/60 وطرق التقويم ونص CLO 2.3 موجودة في PDF؛ سبب النقص هو الخلايا المدمجة وOCR فقط.",
             "evidence": {
               "file": "assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf",
               "pages": [
-                4
+                4,
+                5,
+                6
               ],
-              "review_method": "تصيير صفحات PDF المطابق للبصمة، وفحص خلية ناتج التعلم بصريًا؛ استُخدم OCR مساعدًا للقراءة ولم يُعتمد دون المطابقة البصرية.",
+              "review_method": "تصيير صفحات PDF المطابق للبصمة وفحص خلايا CLO وطرق التقويم وخطة التقويم بصريًا، ثم فصل التصحيح الاستخراجي عن الاستكمال التحليلي.",
               "sha256_verified": true
             },
-            "reviewed_at": "2026-09-08T20:00:00+03:00",
+            "reviewed_at": "2026-09-15T18:30:00+03:00",
             "source_sha256": "05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e"
           }
         }
@@ -183764,6 +184904,53 @@
           },
           "overrides": [
             {
+              "field": "assessment_plan",
+              "value": [
+                {
+                  "confidence": "verified",
+                  "label": "أنشطة وبحوث وأوراق عمل وعروض تقديمية ومناقشات علمية وتكليفات منزلية",
+                  "source_page": 6,
+                  "weight": 20
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار الدوري",
+                  "source_page": 6,
+                  "weight": 20
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار النهائي",
+                  "source_page": 6,
+                  "weight": 60
+                }
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. تصحيح استخراجي مطابق لجدول الصفحة 6.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "assessment_plan_complete",
+              "value": true,
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. الخطة المرئية كاملة ومجموعها 100%.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "assessment_plan_total",
+              "value": 100,
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. مجموع الأوزان المرئية 20+20+60.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[0].assessment",
+              "value": "الاختبارات، والمناقشات، وأوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. تصحيح الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
               "field": "clos[0].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf | الصفحات 4 | استكمال نص CLO 1.1 من الخلية المرئية.",
@@ -183786,10 +184973,17 @@
             },
             {
               "field": "clos[0].text",
-              "value": "ة مبادئ العقيدة، • الألوهية بالأدلة",
-              "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf | الصفحات 4 | استكمال نص CLO 1.1 من الخلية المرئية.",
+              "value": "معرفة مبادئ العقيدة، وتوحيد الألوهية بالأدلة.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. تصحيح OCR مطابق للصف 1.1.",
               "policy": "verified_extraction_correction_matches_source",
-              "reviewed_at": "2026-09-08T23:30:00+03:00"
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[1].assessment",
+              "value": "الاختبارات، والمناقشات، وأوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. استعادة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
             },
             {
               "field": "clos[1].confidence",
@@ -183814,10 +185008,31 @@
             },
             {
               "field": "clos[1].text",
-              "value": "المخالفين لأهل السنة عة في مصادر التلقي دلال على مسائل ة وفي توحيد الألوهية",
-              "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf | الصفحات 4 | استكمال نص CLO 1.2 من الخلية المرئية.",
+              "value": "تسمية المخالفين لأهل السنة والجماعة في مصادر التلقي والاستدلال على مسائل العقيدة وفي توحيد الألوهية.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. تصحيح OCR مطابق للصف 1.2.",
               "policy": "verified_extraction_correction_matches_source",
-              "reviewed_at": "2026-09-08T23:30:00+03:00"
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[2].assessment",
+              "value": "الاختبارات، والمناقشات، وأوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. استعادة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[2].text",
+              "value": "ذكر أنواع أدلة توحيد الألوهية.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. تصحيح OCR مطابق للصف 1.3.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[3].assessment",
+              "value": "الاختبارات، والمناقشات، وأوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. تصحيح الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
             },
             {
               "field": "clos[3].confidence",
@@ -183842,10 +185057,31 @@
             },
             {
               "field": "clos[3].text",
-              "value": "ط أوجه الاستدلال في ص على المسائل المتعلقة • الألوهية",
-              "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf | الصفحات 4 | استكمال نص CLO 2.1 من الخلية المرئية.",
+              "value": "استنباط أوجه الاستدلال في النصوص على المسائل المتعلقة بتوحيد الألوهية.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. تصحيح OCR مطابق للصف 2.1.",
               "policy": "verified_extraction_correction_matches_source",
-              "reviewed_at": "2026-09-08T23:30:00+03:00"
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[4].assessment",
+              "value": "الاختبارات، والمناقشات، وأوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. استعادة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[4].text",
+              "value": "الرد على المخالفين لأهل السنة والجماعة في المسائل المتعلقة بتوحيد الألوهية.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. تصحيح OCR مطابق للصف 2.2.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[5].assessment",
+              "value": "الاختبارات، والمناقشات، وأوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. استعادة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
             },
             {
               "field": "clos[5].confidence",
@@ -183870,10 +185106,31 @@
             },
             {
               "field": "clos[5].text",
-              "value": "م خارطة ذهنية توضح ين أهل السنة والجماعة ن خالفهم في المسائل ، بتوحيد الألوهية",
-              "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf | الصفحات 4 | استكمال نص CLO 2.3 من الخلية المرئية.",
+              "value": "تصميم خارطة ذهنية توضح الفرق بين أهل السنة والجماعة ومن خالفهم في المسائل المتعلقة بتوحيد الألوهية.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. تصحيح OCR مطابق للصف 2.3.",
               "policy": "verified_extraction_correction_matches_source",
-              "reviewed_at": "2026-09-08T23:30:00+03:00"
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[6].assessment",
+              "value": "أوراق العمل، والملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. تصحيح الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[7].assessment",
+              "value": "أوراق العمل، والملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. استعادة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[8].assessment",
+              "value": "أوراق العمل، والملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf المطابق للبصمة 2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9 | الصفحات 4,5,6. استعادة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
             }
           ],
           "scopes": [
@@ -183901,23 +185158,25 @@
           "variant_id": "beffb6b53553ba5d672846b1c68965d1165d73617f62f19e06eafd33b25c9b18",
           "source_alignment": {
             "status": "matches_source_pdf",
-            "label_ar": "مطابق لملف PDF",
+            "label_ar": "مطابق لملف PDF بعد تصحيح الاستخراج",
             "correction_applied": true,
             "source_update_recommended": false,
             "source_sha256": "2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9"
           },
           "source_review": {
             "status": "accepted_as_is",
-            "finding": "استكمال نص CLO 2.3 من الخلية المرئية.",
+            "finding": "النصوص وخطة 20/20/60 وطرق التقويم موجودة في PDF؛ النقص سببه OCR والخلايا المدمجة.",
             "evidence": {
               "file": "assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf",
               "pages": [
-                4
+                4,
+                5,
+                6
               ],
-              "review_method": "تصيير صفحات PDF المطابق للبصمة، وفحص خلية ناتج التعلم بصريًا؛ استُخدم OCR مساعدًا للقراءة ولم يُعتمد دون المطابقة البصرية.",
+              "review_method": "تصيير صفحات PDF المطابق للبصمة وفحص خلايا CLO وطرق التقويم وخطة التقويم بصريًا، ثم فصل التصحيح الاستخراجي عن الاستكمال التحليلي.",
               "sha256_verified": true
             },
-            "reviewed_at": "2026-09-08T23:30:00+03:00",
+            "reviewed_at": "2026-09-15T18:30:00+03:00",
             "source_sha256": "2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9"
           }
         }
@@ -187549,7 +188808,50 @@
               }
             ]
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "clos[0].assessment",
+              "value": "الورقة والقلم",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004313-2.pdf المطابق للبصمة b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0 | الصفحات 4,5. تصحيح OCR للخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[1].assessment",
+              "value": "الورقة والقلم",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004313-2.pdf المطابق للبصمة b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0 | الصفحات 4,5. استعادة قيمة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[2].assessment",
+              "value": "الورقة والقلم، والملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004313-2.pdf المطابق للبصمة b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0 | الصفحات 4,5. تصحيح OCR للخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[3].assessment",
+              "value": "الورقة والقلم، والملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004313-2.pdf المطابق للبصمة b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0 | الصفحات 4,5. استعادة قيمة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[4].assessment",
+              "value": "الملاحظة، وحقائب الإنجاز",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004313-2.pdf المطابق للبصمة b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0 | الصفحات 4,5. تصحيح OCR للخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[5].assessment",
+              "value": "الملاحظة، وحقائب الإنجاز",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/2004313-2.pdf المطابق للبصمة b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0 | الصفحات 4,5. استعادة قيمة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            }
+          ],
           "scopes": [
             {
               "degree": "بكالوريوس",
@@ -187620,7 +188922,29 @@
           ],
           "source_pdf": "assets/course-specifications/2004313-2.pdf",
           "source_sha256": "b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0",
-          "variant_id": "d4f0baa12ac153c5fa0cf35c2a932e184a298b88aaac1381fffa921962983651"
+          "variant_id": "d4f0baa12ac153c5fa0cf35c2a932e184a298b88aaac1381fffa921962983651",
+          "source_alignment": {
+            "status": "matches_source_pdf",
+            "label_ar": "مطابق لملف PDF بعد تصحيح الاستخراج",
+            "correction_applied": true,
+            "source_update_recommended": false,
+            "source_sha256": "b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0"
+          },
+          "source_review": {
+            "status": "accepted_as_is",
+            "finding": "طرق التقويم موجودة في خلايا مدمجة؛ القارئ أخذ أول صف من كل خلية وأسقط الصف التابع. خطة 10/45/45 صحيحة.",
+            "evidence": {
+              "file": "assets/course-specifications/2004313-2.pdf",
+              "pages": [
+                4,
+                5
+              ],
+              "review_method": "تصيير صفحات PDF المطابق للبصمة وفحص خلايا CLO وطرق التقويم وخطة التقويم بصريًا، ثم فصل التصحيح الاستخراجي عن الاستكمال التحليلي.",
+              "sha256_verified": true
+            },
+            "reviewed_at": "2026-09-15T18:30:00+03:00",
+            "source_sha256": "b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0"
+          }
         }
       ]
     },
@@ -193448,7 +194772,83 @@
               }
             ]
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "assessment_plan",
+              "value": [
+                {
+                  "confidence": "verified",
+                  "label": "تقديم بحوث وتقارير وأوراق عمل وعروض",
+                  "source_page": 5,
+                  "weight": 10
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار التقييمي الأول",
+                  "source_page": 6,
+                  "weight": 45
+                },
+                {
+                  "confidence": "verified",
+                  "label": "الاختبار التقييمي الثاني",
+                  "source_page": 6,
+                  "weight": 45
+                }
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004414-2--8b9b1d8598.pdf المطابق للبصمة e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3 | الصفحات 4,5,6. استكمال تحليلي مؤيد بسجل الأتمتة ذي البصمة ca5dd249609ca3f1b9b94acbfbadde497de28375af1549ff6635cb335823f08d وبنية الخام 10/90؛ بقي رقم 5 الأصلي محفوظًا في extracted.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "assessment_plan_complete",
+              "value": true,
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004414-2--8b9b1d8598.pdf المطابق للبصمة e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3 | الصفحات 4,5,6. حالة الطبقة الفعالة الموثقة 10/45/45.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "assessment_plan_total",
+              "value": 100,
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004414-2--8b9b1d8598.pdf المطابق للبصمة e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3 | الصفحات 4,5,6. مجموع الطبقة الفعالة الموثقة 10/45/45.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[0].assessment",
+              "value": "أوراق العمل والتقارير والأنشطة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004414-2--8b9b1d8598.pdf المطابق للبصمة e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3 | الصفحات 4,5,6. تصحيح OCR مطابق للخلية.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[1].assessment",
+              "value": "أوراق العمل والتقارير، والاختبارات، والبحوث",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004414-2--8b9b1d8598.pdf المطابق للبصمة e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3 | الصفحات 4,5,6. استعادة طريقة التقويم الظاهرة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[2].assessment",
+              "value": "أوراق العمل والتقارير، والاختبارات، والأنشطة الطلابية",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004414-2--8b9b1d8598.pdf المطابق للبصمة e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3 | الصفحات 4,5,6. تصحيح OCR مطابق للخلية.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[3].assessment",
+              "value": "الملاحظة، وتقديم عروض",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004414-2--8b9b1d8598.pdf المطابق للبصمة e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3 | الصفحات 4,5,6. تصحيح OCR مطابق للخلية.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[4].assessment",
+              "value": "أوراق العمل والتقارير، والاختبارات، والأنشطة الطلابية",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004414-2--8b9b1d8598.pdf المطابق للبصمة e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3 | الصفحات 4,5,6. استعادة طريقة التقويم الظاهرة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            }
+          ],
           "scopes": [
             {
               "degree": "بكالوريوس",
@@ -193489,7 +194889,30 @@
           ],
           "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004414-2--8b9b1d8598.pdf",
           "source_sha256": "e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3",
-          "variant_id": "be402ecd6d0e2df9a135556f9fd33257faa628a0819fe4c1ee1689a29fae2b49"
+          "variant_id": "be402ecd6d0e2df9a135556f9fd33257faa628a0819fe4c1ee1689a29fae2b49",
+          "source_alignment": {
+            "status": "source_pdf_gap_confirmed",
+            "label_ar": "بيانات القاعدة مكتملة؛ PDF بحاجة إلى تعديل",
+            "correction_applied": true,
+            "source_update_recommended": true,
+            "source_sha256": "e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3"
+          },
+          "source_review": {
+            "status": "needs_manual",
+            "finding": "طرق التقويم واضحة في الصفحة 4، لكن خطة الصفحتين 5–6 مجموعها 95% (5+45+45). صُحح الوزن الأول إلى 10% استنادًا إلى تصنيف الأتمتة الموثق وبنية الخام 10/90.",
+            "evidence": {
+              "file": "assets/course-specifications/shared-course-blank-plo-20260905/2004414-2--8b9b1d8598.pdf",
+              "pages": [
+                4,
+                5,
+                6
+              ],
+              "review_method": "تصيير صفحات PDF المطابق للبصمة وفحص خلايا CLO وطرق التقويم وخطة التقويم بصريًا، ثم فصل التصحيح الاستخراجي عن الاستكمال التحليلي.",
+              "sha256_verified": true
+            },
+            "reviewed_at": "2026-09-15T18:30:00+03:00",
+            "source_sha256": "e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3"
+          }
         }
       ]
     },
@@ -198060,7 +199483,92 @@
               }
             ]
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "clos[0].assessment",
+              "value": "الورقة والقلم، وحقيبة الإنجاز",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf المطابق للبصمة 44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34 | الصفحات 4,5,10. تصحيح الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[10].assessment",
+              "value": "الملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf المطابق للبصمة 44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34 | الصفحات 4,5,10. استعادة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[11].assessment",
+              "value": "الملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf المطابق للبصمة 44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34 | الصفحات 4,5,10. استعادة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[1].assessment",
+              "value": "الورقة والقلم، وحقيبة الإنجاز",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf المطابق للبصمة 44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34 | الصفحات 4,5,10. استعادة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[2].assessment",
+              "value": "الورقة والقلم، وحقيبة الإنجاز",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf المطابق للبصمة 44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34 | الصفحات 4,5,10. استعادة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[3].assessment",
+              "value": "الورقة والقلم، وحقيبة الإنجاز",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf المطابق للبصمة 44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34 | الصفحات 4,5,10. استعادة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[4].assessment",
+              "value": "الورقة والقلم، وحقيبة الإنجاز، والملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf المطابق للبصمة 44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34 | الصفحات 4,5,10. تصحيح الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[5].assessment",
+              "value": "الورقة والقلم، وحقيبة الإنجاز، والملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf المطابق للبصمة 44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34 | الصفحات 4,5,10. استعادة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[6].assessment",
+              "value": "الورقة والقلم، وحقيبة الإنجاز، والملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf المطابق للبصمة 44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34 | الصفحات 4,5,10. استعادة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[7].assessment",
+              "value": "الورقة والقلم، وحقيبة الإنجاز، والملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf المطابق للبصمة 44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34 | الصفحات 4,5,10. استعادة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[8].assessment",
+              "value": "الورقة والقلم، وحقيبة الإنجاز، والملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf المطابق للبصمة 44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34 | الصفحات 4,5,10. استعادة الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            },
+            {
+              "field": "clos[9].assessment",
+              "value": "الملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf المطابق للبصمة 44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34 | الصفحات 4,5,10. تصحيح الخلية المدمجة.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-15T18:30:00+03:00"
+            }
+          ],
           "scopes": [
             {
               "degree": "بكالوريوس",
@@ -198083,7 +199591,30 @@
           ],
           "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf",
           "source_sha256": "44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34",
-          "variant_id": "e0b03e9c59ace5daed1a50ae9462c6e3825dade8e8084aeafa0cbde0c90cf29b"
+          "variant_id": "e0b03e9c59ace5daed1a50ae9462c6e3825dade8e8084aeafa0cbde0c90cf29b",
+          "source_alignment": {
+            "status": "matches_source_pdf",
+            "label_ar": "مطابق لملف PDF بعد تصحيح الاستخراج",
+            "correction_applied": true,
+            "source_update_recommended": false,
+            "source_sha256": "44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34"
+          },
+          "source_review": {
+            "status": "accepted_as_is",
+            "finding": "طرق التقويم موجودة في ثلاث خلايا مدمجة، وخطة 5/5/20/10/60 صحيحة؛ القارئ أسقط الطرق عن الصفوف التابعة.",
+            "evidence": {
+              "file": "assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf",
+              "pages": [
+                4,
+                5,
+                10
+              ],
+              "review_method": "تصيير صفحات PDF المطابق للبصمة وفحص خلايا CLO وطرق التقويم وخطة التقويم بصريًا، ثم فصل التصحيح الاستخراجي عن الاستكمال التحليلي.",
+              "sha256_verified": true
+            },
+            "reviewed_at": "2026-09-15T18:30:00+03:00",
+            "source_sha256": "44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34"
+          }
         }
       ]
     },
@@ -202574,11 +204105,11 @@
     "source_alignment_counts": {
       "corrected_from_source_pdf": 4,
       "matches_source_pdf": 182,
-      "source_pdf_gap_confirmed": 56
+      "source_pdf_gap_confirmed": 61
     },
     "source_review_counts": {
       "accepted_as_is": 182,
-      "needs_manual": 60
+      "needs_manual": 65
     },
     "course_codes": 409,
     "variants": 447,
@@ -202792,6 +204323,21 @@
       "source_sha256": "3b0c2d84bf49ae0ed243c5d8b2992fd200d23a72863325d55bc5ae6241291a75",
       "status": "open",
       "created_at": "2026-09-08"
+    },
+    {
+      "id": "1253128398a634af7dda8217c5a774e2d675dab2824da225036941667487d9ff",
+      "course_code": "2004112-2",
+      "variant_id": "43c89564981fcab507386e20342439e3ee8db6a3e3824cb8818c1f95e9fb422e",
+      "fields": [
+        "plo_mappings"
+      ],
+      "issue_code": "program_specific_plo_links_absent",
+      "message": "توصيف المقرر لا ينشر رموز PLO الخاصة ببرنامج القرآن وعلومه.",
+      "recommendation": "إصدار نسخة برنامجية من PDF تُدرج ع3 وق2 وتثبت فراغ المجال المهاري وفق مصفوفة البرنامج.",
+      "source_pdf": "assets/course-specifications/2004112-2.pdf",
+      "source_sha256": "54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997",
+      "status": "open",
+      "created_at": "2026-09-15"
     },
     {
       "id": "133dbf1a952a36095e5175938d87b9af50f326d990943a515aa9a269ef679fb1",
@@ -203154,6 +204700,21 @@
       "created_at": "2026-09-08"
     },
     {
+      "id": "3faf28097c3e6eadaf0e879304e3eaa8470f1c540098dd8acbc25f264688b4a9",
+      "course_code": "2002106-2",
+      "variant_id": "9af1a5c04c49324a0558df282b6bedefcede3a9226bfda41c0f5f9e20c8798d6",
+      "fields": [
+        "assessment_plan"
+      ],
+      "issue_code": "duplicate_assessment_row_total_110",
+      "message": "صف التقويم الأسبوعي 10% مكرر في الصفحة 6، والمجموع 110%.",
+      "recommendation": "إصدار PDF مصحح يحذف الصف المكرر ويثبت المجموع 100%.",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf",
+      "source_sha256": "4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff",
+      "status": "open",
+      "created_at": "2026-09-15"
+    },
+    {
       "id": "42dac0c9fc25efb8af8c49086e3076ae1c1bbc2603077253afc84ccf149c5a38",
       "course_code": "2003841-2",
       "variant_id": "c7234b1d005b0dc09f62d86af560cceaf3862b15f5afc487996db8c080a65e48",
@@ -203389,6 +204950,23 @@
       "created_at": "2026-09-08"
     },
     {
+      "id": "6e4d0d9bd2a44b1d07065f1c9b6536e0015045f463d6f7b12f1865d15a8ff787",
+      "course_code": "2004111-2",
+      "variant_id": "92210768b13d4662ef51b84c812543b6b91f137d015fb33bc8730c10153f5ac0",
+      "fields": [
+        "clos[5].text",
+        "clos[5].assessment",
+        "assessment_plan"
+      ],
+      "issue_code": "blank_clo_and_assessment_total_95",
+      "message": "CLO 3.2 وطريقة تقويمه فارغان، وخطة التقويم المطبوعة مجموعها 95%.",
+      "recommendation": "إصدار PDF جديد يثبت CLO 3.2 وطريقة تقويمه، ويصحح وزن النشاط الأول إلى 10% والمجموع إلى 100%.",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf",
+      "source_sha256": "2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d",
+      "status": "open",
+      "created_at": "2026-09-15"
+    },
+    {
       "id": "6fe5de4ec1d37a7a6354a05764fc1723f406812dd7544796442ab1c7fd30f69c",
       "course_code": "2001803-2",
       "variant_id": "e0c4131b138b6df616e20139947dd33e1fb3acef755c773277cfdb8f39ab1d7a",
@@ -203449,6 +205027,21 @@
       "source_sha256": "5853c194167a826446113a3bdd5e90d2ffac2d3e31a1e0c414d1f2e5f5eb1100",
       "status": "open",
       "created_at": "2026-09-08"
+    },
+    {
+      "id": "76699ac0b06ca88cb512a298e74ff3d1f6e17f93ad40e8ef2c9cf4138e47efac",
+      "course_code": "2004414-2",
+      "variant_id": "be402ecd6d0e2df9a135556f9fd33257faa628a0819fe4c1ee1689a29fae2b49",
+      "fields": [
+        "assessment_plan"
+      ],
+      "issue_code": "assessment_total_95",
+      "message": "خطة التقويم المطبوعة مجموعها 95%.",
+      "recommendation": "إصدار PDF مصحح يثبت وزن النشاط الأول 10% والمجموع 100%.",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004414-2--8b9b1d8598.pdf",
+      "source_sha256": "e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3",
+      "status": "open",
+      "created_at": "2026-09-15"
     },
     {
       "id": "7b69f255dabf6c8f961734e3590fd82e701207130caf4cef54854693538196d5",
@@ -203711,6 +205304,21 @@
       "source_sha256": "63d0c542b23582e5bf4001df5543367fb96295b20c6d277b3cc49f96f55aa0d9",
       "status": "open",
       "created_at": "2026-09-08"
+    },
+    {
+      "id": "b3517d32a9fb7f8f7b8f8dfe1c892db4316a111573597d1f0c5e06368adfea6f",
+      "course_code": "2002103-2",
+      "variant_id": "1c3ded65321dfd107475ff5c513afb8b529e51784c1e2d8a9e8761e1c2cc1197",
+      "fields": [
+        "assessment_plan"
+      ],
+      "issue_code": "duplicate_assessment_row_total_110",
+      "message": "صف التقويم الأسبوعي 10% مكرر في الصفحة 6، والمجموع المطبوع 110%.",
+      "recommendation": "إصدار PDF مصحح يحذف الصف المكرر ويثبت المجموع 100%.",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf",
+      "source_sha256": "b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8",
+      "status": "open",
+      "created_at": "2026-09-15"
     },
     {
       "id": "bb61fc05d35e7d5018fd93dee4e68636379138f95c68ac510f6be1cf2e1528f6",

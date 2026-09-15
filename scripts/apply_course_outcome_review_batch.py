@@ -13,6 +13,7 @@ import argparse
 import copy
 import hashlib
 import json
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -204,6 +205,21 @@ def reviewed_override(
     }
 
 
+def review_timestamp(value: Any) -> datetime | None:
+    if not isinstance(value, str) or not value.strip():
+        return None
+    try:
+        return datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def existing_review_is_newer(existing: Any, incoming: Any) -> bool:
+    old = review_timestamp(existing)
+    new = review_timestamp(incoming)
+    return old is not None and new is not None and old > new
+
+
 def upsert_override(variant: dict[str, Any], item: dict[str, Any]) -> None:
     overrides = variant.setdefault("overrides", [])
     matches = [index for index, old in enumerate(overrides) if old.get("field") == item["field"]]
@@ -212,7 +228,9 @@ def upsert_override(variant: dict[str, Any], item: dict[str, Any]) -> None:
             f"duplicate existing override field {item['field']} for {variant['variant_id']}"
         )
     if matches:
-        overrides[matches[0]] = item
+        old = overrides[matches[0]]
+        if not existing_review_is_newer(old.get("reviewed_at"), item.get("reviewed_at")):
+            overrides[matches[0]] = item
     else:
         overrides.append(item)
     overrides.sort(key=lambda value: value["field"])
@@ -418,24 +436,29 @@ def apply_entry(outcomes: dict[str, Any], entry: dict[str, Any]) -> None:
                 ),
             )
 
-    alignment = copy.deepcopy(ALIGNMENTS[disposition])
-    alignment["source_sha256"] = variant["source_sha256"]
-    variant["source_alignment"] = alignment
-    variant["source_review"] = {
-        "status": "accepted_as_is" if disposition == "present" else "needs_manual",
-        "finding": entry.get("finding") or action,
-        "evidence": {
-            "file": variant["source_pdf"],
-            "pages": pages,
-            "review_method": (
-                "تصيير صفحات PDF المطابق للبصمة، وفحص خلية ناتج التعلم بصريًا؛ "
-                "استُخدم OCR مساعدًا للقراءة ولم يُعتمد دون المطابقة البصرية."
-            ),
-            "sha256_verified": True,
-        },
-        "reviewed_at": entry["reviewed_at"],
-        "source_sha256": variant["source_sha256"],
-    }
+    current_review = variant.get("source_review")
+    current_review = current_review if isinstance(current_review, dict) else {}
+    if not existing_review_is_newer(
+        current_review.get("reviewed_at"), entry["reviewed_at"]
+    ):
+        alignment = copy.deepcopy(ALIGNMENTS[disposition])
+        alignment["source_sha256"] = variant["source_sha256"]
+        variant["source_alignment"] = alignment
+        variant["source_review"] = {
+            "status": "accepted_as_is" if disposition == "present" else "needs_manual",
+            "finding": entry.get("finding") or action,
+            "evidence": {
+                "file": variant["source_pdf"],
+                "pages": pages,
+                "review_method": (
+                    "تصيير صفحات PDF المطابق للبصمة، وفحص خلية ناتج التعلم بصريًا؛ "
+                    "استُخدم OCR مساعدًا للقراءة ولم يُعتمد دون المطابقة البصرية."
+                ),
+                "sha256_verified": True,
+            },
+            "reviewed_at": entry["reviewed_at"],
+            "source_sha256": variant["source_sha256"],
+        }
     upsert_recommendation(outcomes, entry, variant)
 
 
