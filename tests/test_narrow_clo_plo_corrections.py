@@ -78,9 +78,9 @@ class NarrowCloPloCorrectionsTest(unittest.TestCase):
             record["archived_pdf"] for record in same_identity_records
         }
         variants_by_pdf = {}
-        for detail in self.data["course_details"].values():
+        for code, detail in self.data["course_details"].items():
             for variant in detail.get("variants", []):
-                variants_by_pdf.setdefault(variant.get("pdf_url", ""), []).append(variant)
+                variants_by_pdf.setdefault(variant.get("pdf_url", ""), []).append((code, variant))
         final_route = {
             record["source"]: record["output"]
             for record in json.loads(
@@ -90,14 +90,16 @@ class NarrowCloPloCorrectionsTest(unittest.TestCase):
 
         scope_count = 0
         for record in self.manifest["records"]:
-            linked = variants_by_pdf.get(
-                final_route.get(record["output"], record["output"]), []
-            )
+            final_pdf = final_route.get(record["output"], record["output"])
+            linked = variants_by_pdf.get(final_pdf, [])
             if record["source"] in unified_sources or record["output"] in archived_same_identity:
                 self.assertEqual([], linked, record["output"])
                 continue
+            if final_pdf.endswith("2001403-2--8974cd99a2.pdf"):
+                self.assertEqual({"2001403-2", "2004403-2"}, {code for code, _ in linked})
+                linked = [(code, variant) for code, variant in linked if code == "2001403-2"]
             self.assertEqual(1, len(linked), record["output"])
-            scopes = variant_scopes(linked[0])
+            scopes = variant_scopes(linked[0][1])
             self.assertTrue(scopes, record["output"])
             scope_count += len(scopes)
             if record["output"] in selected_same_identity:

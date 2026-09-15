@@ -1,0 +1,327 @@
+{
+  "schema_version": "eight-course-completion-20260915-v1",
+  "created_at": "2026-09-15T12:00:00+03:00",
+  "policy": {
+    "automatic_extraction_preserved": true,
+    "academic_completion_authorized_by_user": true,
+    "completed_text_not_attributed_to_source_pdf": true,
+    "assessment_weights_not_invented": true,
+    "program_scoped_plo_mapping": true
+  },
+  "records": [
+    {
+      "course_code": "2001113-2",
+      "course_name": "أصول الفقه (1)",
+      "source_course_code": "2001113-2",
+      "source_pdf": "assets/course-specifications/eight-course-completion-20260915/2001113-2.pdf",
+      "source_sha256": "9e022d9c62ccc2a737d6007a86c927a0fbd8a313c073d11d2e8edb624f0e9e63",
+      "source_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "course_report": "تقارير المقررات/المصنفة 461/أصول الفقه (1)/تقرير مقرر أصول الفقه (1).pdf",
+      "course_report_sha256": "6a35fe0d2d48cb8e1feea623ffcd235f6b8b350c4acd4dbb3743e7a2962e1073",
+      "course_report_pages_reviewed": [
+        4,
+        5,
+        6
+      ],
+      "scopes": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "match_note": "توصيف مطابق للرمز والاسم والساعتين؛ استُخرجت الصفحات 2–7 من الملف المجمع لتوصيف مقررات الشريعة في برنامج الأنظمة. صيغ CLO التشغيلية استُكملت أكاديميًا من الهدف والمفردات وتقرير المقرر، وربط PLO للأنظمة والقرآن تحليلي وموسوم بذلك."
+    },
+    {
+      "course_code": "2001160-2",
+      "course_name": "المدخل لدراسة الشريعة",
+      "source_course_code": "2001112-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001112-2--4d2365da36.pdf",
+      "source_sha256": "428c475459cbf0837f46e85b02d57ec12c4358cc7f3d5abb98dae71c8af9dfd9",
+      "source_pages_reviewed": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "course_report": "تقارير المقررات/المصنفة 461/المدخل لدراسة الشريعة/تقرير مقرر المدخل لدراسة الشريعة.pdf",
+      "course_report_sha256": "be318242ac98f2d53b8e4175873815545f711807ea890256a10234f2730c74b4",
+      "course_report_pages_reviewed": [
+        4,
+        5,
+        6
+      ],
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "match_note": "تغيير اسم ورمز بين الخطة القديمة 2001160-2 والخطة اللاحقة 2001112-2؛ الاسم والساعات والوصف والمفردات ونواتج تقرير المقرر تثبت وحدة المحتوى. ربط PLO مأخوذ من تقرير المقرر للنطاق القديم."
+    },
+    {
+      "course_code": "2001424-2",
+      "course_name": "الفقه (4)",
+      "source_course_code": "20043104-2",
+      "source_pdf": "assets/course-specifications/islamic-studies-bundle-1444/20043104-2.pdf",
+      "source_sha256": "01879e5d4fc0f094eec18c0f7e86acb616c5780e9b3866bf73486a6e9867205f",
+      "source_pages_reviewed": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11
+      ],
+      "course_report": "تقارير المقررات/المصنفة 461/الفقه (4)/تقرير مقرر الفقه (4).pdf",
+      "course_report_sha256": "284afc6aadc49783ad80484486e9ff25288fbf81ffb84f6231d66e1a100a97ec",
+      "course_report_pages_reviewed": [
+        4,
+        5,
+        6
+      ],
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "match_note": "مصدر مماثل في الاسم والساعات وموضوعات فقه المعاملات ببرنامج الدراسات الإسلامية، مع تقرير مقرر فعلي يجمع الرمز التشغيلي 20013104-2 والرمز القديم 2001424-2. CLO وربط PLO النهائيان من التقرير، لا منسوبان حرفيًا إلى PDF المماثل."
+    },
+    {
+      "course_code": "2003220-2",
+      "course_name": "المدخل لدراسة الأنظمة",
+      "source_course_code": "20031301-2",
+      "source_pdf": "assets/course-specifications/20031301-2.pdf",
+      "source_sha256": "5ca08149acf36e81a8851ddd642e35432305a6723bd7167b2f83729e3ed74fda",
+      "source_pages_reviewed": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "course_report": "تقارير المقررات/المصنفة 461/المدخل لدراسة الأنظمة/تقرير مقرر المدخل لدراسة الأنظمة.pdf",
+      "course_report_sha256": "ffea93e9b66a487ab7476b0ccf0a463c724e253ea5b16ab801606883e6653417",
+      "course_report_pages_reviewed": [
+        4,
+        5,
+        6
+      ],
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "match_note": "الاسم القديم «المدخل لدراسة الأنظمة» يقابل «مبادئ القانون» في الخطة الحديثة؛ الوصف والموضوعات متطابقة جوهريًا، وتقرير المقرر 2003220-2 يثبت CLO وربط PLO التشغيليين."
+    },
+    {
+      "course_code": "2004205-2",
+      "course_name": "الحديث (1)",
+      "source_course_code": "2001205-2",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001205-2.pdf",
+      "source_sha256": "b15bf07d186a839ab17ae65398f1f878ccd2a362994c342049eb00769daecb2d",
+      "source_pages_reviewed": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "course_report": "تقارير المقررات/المصنفة 461/الحديث (1)/تقرير مقرر الحديث (1).pdf",
+      "course_report_sha256": "f2e0080ad5789493adbf3a8174653b7f272b4b47272ae7e1ab6086d6c03cbca7",
+      "course_report_pages_reviewed": [
+        4,
+        5,
+        6
+      ],
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "match_note": "إعادة ترميز للمقرر نفسه من 2001205-2 إلى 2004205-2؛ الاسم والساعات والموضوعات وCLO متطابقة، مع تكييف ربط PLO لكل برنامج."
+    },
+    {
+      "course_code": "2004209-2",
+      "course_name": "الحديث (2)",
+      "source_course_code": "2001209-2",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001209-2.pdf",
+      "source_sha256": "e5bc393aed47e6b6815a97b628f35860ae54933c42e13d0ff116ce3022a0b4cd",
+      "source_pages_reviewed": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "course_report": "تقارير المقررات/المصنفة 462/الحديث (2)/تقرير مقرر الحديث (2).pdf",
+      "course_report_sha256": "8a8614795d9e19662e2490844c24b78d1a6153a6f133ceb4c88b5dc5d05c1c31",
+      "course_report_pages_reviewed": [
+        4,
+        5,
+        6
+      ],
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "match_note": "إعادة ترميز للمقرر نفسه من 2001209-2 إلى 2004209-2؛ الاسم والساعات والموضوعات وCLO متطابقة، مع تكييف ربط PLO لكل برنامج."
+    },
+    {
+      "course_code": "2004403-2",
+      "course_name": "الأديان والفرق والمذاهب المعاصرة",
+      "source_course_code": "2001403-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001403-2--8974cd99a2.pdf",
+      "source_sha256": "b92485cff86c860b2e17237791f0a6c25476410a3988c88b31e7499ef831138a",
+      "source_pages_reviewed": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "course_report": "تقارير المقررات/المصنفة 461/الأديان والفرق والمذاهب المعاصرة/تقرير مقرر الأديان والفرق والمذاهب المعاصرة.pdf",
+      "course_report_sha256": "d46fba4d5b1a52364683e371fec3afe392b7b188d1da2fb6d2e6f657b28d8dba",
+      "course_report_pages_reviewed": [
+        4,
+        5,
+        6
+      ],
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "match_note": "إعادة ترميز من 2001403-2 إلى 2004403-2 مع ثبات الاسم والساعات والموضوعات. بعض عبارات CLO في PDF/التقرير معيبة؛ حُفظت في طبقة الاستخراج وصيغت بدائل قابلة للقياس في طبقة المراجعة."
+    },
+    {
+      "course_code": "990413-2",
+      "course_name": "السيرة النبوية",
+      "source_course_code": "2001106-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001106-2--ec42a4ad0f.pdf",
+      "source_sha256": "9001d925890ea9bf6cd89ceb79a4d0eecfbf33afcfc450a466ff216dbb0fe143",
+      "source_pages_reviewed": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "course_report": "تقارير المقررات/المصنفة 461/السيرة النبوية/تقرير مقرر السيرة النبوية.pdf",
+      "course_report_sha256": "2c51db4e881d0941174d6559307cc75325cb0c0a8be652597870adf40c719c7c",
+      "course_report_pages_reviewed": [
+        4,
+        5,
+        6
+      ],
+      "scopes": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        }
+      ],
+      "match_note": "رمز جامعي قديم للمقرر المشترك نفسه الذي يظهر لاحقًا برمز 2001106-2؛ التطابق مثبت بالاسم والساعات والمحتوى وبسجل النتائج الذي يجمع الرمزين. ربط القرآن رسمي من تقرير المقرر، وبقية البرامج تبقى غير مربوطة صراحة لأن PDF المشترك أفرغ الخلايا عمدًا."
+    }
+  ]
+}

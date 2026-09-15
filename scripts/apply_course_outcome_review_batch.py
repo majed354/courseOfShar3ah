@@ -70,6 +70,14 @@ def parse_args() -> argparse.Namespace:
         help="manifest to apply; repeat for multiple files (default: every review batch)",
     )
     parser.add_argument("--outcomes", type=Path, default=DEFAULT_OUTCOMES)
+    parser.add_argument(
+        "--exclude-replaced-by",
+        type=Path,
+        help=(
+            "successor publication manifest whose action=replace course codes "
+            "must keep their newer source unchanged"
+        ),
+    )
     parser.add_argument("--check", action="store_true")
     return parser.parse_args()
 
@@ -439,6 +447,14 @@ def main() -> int:
     )
     if not manifests:
         raise ValueError("no course outcome review manifests found")
+    excluded_codes: set[str] = set()
+    if args.exclude_replaced_by:
+        successor_manifest = load_json(args.exclude_replaced_by)
+        excluded_codes = {
+            str(record["code"])
+            for record in successor_manifest.get("records", [])
+            if record.get("action") == "replace"
+        }
     applied = 0
     for manifest_path in manifests:
         manifest = load_json(manifest_path)
@@ -446,8 +462,10 @@ def main() -> int:
             raise ValueError(f"unexpected review batch schema: {manifest_path}")
         entries = manifest.get("entries", [])
         for entry in entries:
+            if entry["course_code"] in excluded_codes:
+                continue
             apply_entry(outcomes, entry)
-        applied += len(entries)
+            applied += 1
 
     errors = verifier.ErrorCollector()
     statistics = verifier.recompute_statistics(outcomes, errors)

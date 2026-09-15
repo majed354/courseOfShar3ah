@@ -376,13 +376,12 @@ class IdentityResolutionBundleTest(unittest.TestCase):
                 for option in rule["options"]
             }
             self.assertIn(target, options, source)
-        self.assertTrue(
-            all(
-                option["code"] == "20044207-2"
-                for rule in self.data["equivalencies"]["2001106-2"]
-                for option in rule["options"]
-            )
-        )
+        biography_targets = {
+            option["code"]
+            for rule in self.data["equivalencies"]["2001106-2"]
+            for option in rule["options"]
+        }
+        self.assertEqual({"20044207-2", "990413-2"}, biography_targets)
 
     def test_published_audit_json_has_no_local_paths(self):
         for path in self.bundle.glob("*.json"):
