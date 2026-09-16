@@ -204272,6 +204272,16 @@
       "source_sha256": "9ff964ed19ba9191ba2e8af83378189d2a09f0fa98ceef1ee03bd2404f7ad11a"
     },
     {
+      "reason": "program_specification_not_a_course_specification",
+      "source_pdf": "assets/course-specifications/program-specifications-20260916/contemporary-quranic-studies-master/program-specification.pdf",
+      "source_sha256": "46db21fdf5e5aee97c46c25641469660c6cd4e6f6b5cb00b7ec45e164e83eff5"
+    },
+    {
+      "reason": "program_specification_not_a_course_specification",
+      "source_pdf": "assets/course-specifications/program-specifications-20260916/qiraat-master-2024/program-specification.pdf",
+      "source_sha256": "3b60e6c6ae555e7c67f786b33345f885db197bc481e4ad54e78913fc5d1497c0"
+    },
+    {
       "reason": "superseded_or_unpublished_pdf_not_referenced_by_data_json",
       "source_pdf": "assets/course-specifications/qiraat-source-1445/2002103-2.pdf",
       "source_sha256": "2b57fe43b2ff54634acec9fa6b9135a3837b5ba74fce26befe36f70ef69fe381"
@@ -204872,7 +204882,7 @@
   "schema_version": "course-outcomes-v1",
   "source_data": {
     "path": "data.json",
-    "sha256": "e2c09ce1ede167aa8870fb045b4659237f9c022afb0e341fc11e4b3291d0b417"
+    "sha256": "da28f728f1707ede47249d301219d3fae543903200cdba0f9b3d12ec82d39eeb"
   },
   "statistics": {
     "source_alignment_counts": {
@@ -204887,7 +204897,7 @@
     "course_codes": 410,
     "variants": 448,
     "active_pdf_sources": 436,
-    "excluded_pdf_sources": 148,
+    "excluded_pdf_sources": 150,
     "complete_variants": 412,
     "partial_variants": 30,
     "failed_variants": 6,

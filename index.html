@@ -1021,6 +1021,7 @@
             cursor: pointer;
             transition: all var(--transition-fast);
             border: none;
+            text-decoration: none;
         }
 
         .download-btn svg {
@@ -3003,6 +3004,20 @@
                 if (!raw) return fallback;
                 const parsed = JSON.parse(raw);
                 sanitizeDataShape(parsed);
+                const officialProgramsById = new Map(
+                    fallback.programs.map(program => [program.id, program])
+                );
+                parsed.programs.forEach(program => {
+                    const officialProgram = officialProgramsById.get(program.id);
+                    if (!officialProgram) return;
+                    if (officialProgram.program_specification_url) {
+                        program.program_specification_url = officialProgram.program_specification_url;
+                        program.program_specification_label = officialProgram.program_specification_label || '';
+                    } else {
+                        delete program.program_specification_url;
+                        delete program.program_specification_label;
+                    }
+                });
                 parsed.course_details = deepClone(fallback.course_details);
                 parsed.courses_catalog = deepClone(fallback.courses_catalog);
                 parsed.equivalencies = {
@@ -3857,6 +3872,8 @@
             const countedHours = sumCourseHours(levelItems);
             const outsideHours = sumCourseHours(outsideOptionals);
             const planHours = toNumber(program.total_hours, 0);
+            const programSpecificationUrl = sanitizeResourceUrl(program.program_specification_url);
+            const programSpecificationLabel = normalizeText(program.program_specification_label) || `توصيف برنامج ${normalizeText(program.name)}`;
 
             let html = `
                 <div class="download-actions">
@@ -3866,6 +3883,14 @@
                         </svg>
                         طباعة / حفظ PDF
                     </button>
+                    ${programSpecificationUrl ? `
+                        <a class="download-btn pdf" href="${escapeHtml(programSpecificationUrl)}" target="_blank" rel="noopener" aria-label="${escapeHtml(programSpecificationLabel)} بصيغة PDF">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm1 7V3.5L19.5 9H15zM8 13h8v2H8v-2zm0 4h8v2H8v-2z"/>
+                            </svg>
+                            عرض توصيف البرنامج
+                        </a>
+                    ` : ''}
                     <button class="download-btn" style="background:#0EA5E9;color:#fff;" onclick="downloadCSV()">
                         <svg viewBox="0 0 24 24" fill="currentColor">
                             <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm1 7V3.5L19.5 9H15zM8 13h8v2H8v-2zm0 4h8v2H8v-2z"/>

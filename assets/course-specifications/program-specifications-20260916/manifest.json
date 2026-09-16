@@ -1,0 +1,41 @@
+{
+  "schema": "program-specifications-publication/v1",
+  "published_on": "2026-09-16",
+  "source": "University SharePoint account",
+  "publication_policy": "Publish only the complete retrieved PDF with an exact program and degree match; preserve source bytes.",
+  "records": [
+    {
+      "program": "الدراسات القرآنية المعاصرة",
+      "degree": "ماجستير",
+      "plan_type": "جديدة",
+      "version": "1",
+      "source_file": "توصيفات البرامج/من_الحساب_الجامعي_2026-09-16/ماجستير_الدراسات_القرآنية_المعاصرة_توصيف.pdf",
+      "published_file": "contemporary-quranic-studies-master/program-specification.pdf",
+      "published_url": "assets/course-specifications/program-specifications-20260916/contemporary-quranic-studies-master/program-specification.pdf",
+      "sha256": "46db21fdf5e5aee97c46c25641469660c6cd4e6f6b5cb00b7ec45e164e83eff5",
+      "page_count": 13,
+      "pdfinfo_check": "passed",
+      "visual_cover_check": "passed",
+      "source_bytes_preserved": true
+    },
+    {
+      "program": "القراءات",
+      "degree": "ماجستير",
+      "plan_type": "جديدة",
+      "version": "1",
+      "source_file": "توصيفات البرامج/من_الحساب_الجامعي_2026-09-16/ماجستير_القراءات_توصيف_2024.pdf",
+      "published_file": "qiraat-master-2024/program-specification.pdf",
+      "published_url": "assets/course-specifications/program-specifications-20260916/qiraat-master-2024/program-specification.pdf",
+      "sha256": "3b60e6c6ae555e7c67f786b33345f885db197bc481e4ad54e78913fc5d1497c0",
+      "page_count": 21,
+      "pdfinfo_check": "passed",
+      "visual_cover_check": "passed",
+      "source_bytes_preserved": true
+    }
+  ],
+  "summary": {
+    "program_specifications": 2,
+    "pdf_files": 2,
+    "total_pages": 34
+  }
+}
