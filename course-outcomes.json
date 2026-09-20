@@ -81309,9 +81309,9 @@
                 "assessment": "• الملاحظة؛ • مقياس التقدير؛ الوصفي؛ (روبركس)",
                 "assessment_source_page": 4,
                 "code": "1.1",
-                "confidence": "low",
+                "confidence": "medium",
                 "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
+                "extraction_method": "targeted_ocr",
                 "plo_mappings": [
                   {
                     "confidence": "low",
@@ -81328,8 +81328,8 @@
                   }
                 ],
                 "source_page": 4,
-                "source_status": "unreadable",
-                "text": null
+                "source_status": "present",
+                "text": "القدرة على حفظ الآيات القرآنية من الجزئية المقررة بشكل سليم خالي من اللحن."
               },
               {
                 "assessment": "• الأنشطة؛ والواجبات",
@@ -81381,7 +81381,7 @@
                 ],
                 "source_page": 4,
                 "source_status": "present",
-                "text": "اجادة حفظ الجزء الثلاثون وتلاوة الجزء الأول بمهارة عالية ومتقنة."
+                "text": "اجادة حفظ الجزئية المقررة بمهارة عالية ومتقنة."
               },
               {
                 "assessment": "• الملاحظة",
@@ -81471,63 +81471,49 @@
             "extraction_status": "complete",
             "page_count": 7,
             "source_clo_row_count": 6,
-            "source_status": "unreadable",
+            "source_status": "present",
             "warnings": [
               {
-                "clo_code": "1.1",
-                "clo_index": 0,
-                "code": "clo_text_unreadable",
-                "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=extension_glyphs_suppressed; font=too_short; ocr=too_short)",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.1",
-                "clo_index": 0,
-                "code": "clo_text_unreadable",
-                "message": "the published CLO row was captured, but its outcome text could not be read reliably",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.1",
-                "clo_index": 0,
                 "code": "plo_mapping_unresolved",
                 "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "source_page": 4,
+                "clo_code": "1.1",
+                "clo_index": 0
               },
               {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
                 "clo_code": "1.2",
-                "clo_index": 1,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "clo_index": 1
               },
               {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
                 "clo_code": "2.1",
-                "clo_index": 2,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "clo_index": 2
               },
               {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
                 "clo_code": "2.2",
-                "clo_index": 3,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "clo_index": 3
               },
               {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
                 "clo_code": "3.1",
-                "clo_index": 4,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "clo_index": 4
               },
               {
-                "clo_code": "3.2",
-                "clo_index": 5,
                 "code": "plo_mapping_unresolved",
                 "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "source_page": 4,
+                "clo_code": "3.2",
+                "clo_index": 5
               }
             ]
           },
@@ -81541,7 +81527,7 @@
             }
           ],
           "source_pdf": "assets/course-specifications/cross-program-updates-20260914/2002220-2--sharia-new-v47.pdf",
-          "source_sha256": "ffa57a1f0bfb8506622bc6ce592bbfb9b0cea67f5e664137641596c6a32e3537",
+          "source_sha256": "3c8724053dd2c0929f97a781cae8198421243249c67cd18b6de4e31ebb131e16",
           "variant_id": "d67621137f1667ae21caf3127d86e288f3cee72c231413d9f3263b5e6ebec1f6"
         },
         {
@@ -82864,9 +82850,9 @@
                 "assessment": "• الملاحظة؛ • مقياس التقدير؛ الوصفي؛ (روبركس)",
                 "assessment_source_page": 4,
                 "code": "1.1",
-                "confidence": "low",
+                "confidence": "medium",
                 "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
+                "extraction_method": "targeted_ocr",
                 "plo_mappings": [
                   {
                     "confidence": "low",
@@ -82883,8 +82869,8 @@
                   }
                 ],
                 "source_page": 4,
-                "source_status": "unreadable",
-                "text": null
+                "source_status": "present",
+                "text": "القدرة على حفظ الآيات القرآنية من الجزئية المقررة بشكل سليم خالي من اللحن."
               },
               {
                 "assessment": "• الأنشطة؛ والواجبات",
@@ -82936,7 +82922,7 @@
                 ],
                 "source_page": 4,
                 "source_status": "present",
-                "text": "اجادة حفظ الجزء التاسع والعشرين وتلاوة الجزء الثاني بمهارة عالية ومتقنة."
+                "text": "اجادة حفظ الجزئية المقررة بمهارة عالية ومتقنة."
               },
               {
                 "assessment": "• الملاحظة",
@@ -83026,63 +83012,49 @@
             "extraction_status": "complete",
             "page_count": 7,
             "source_clo_row_count": 6,
-            "source_status": "unreadable",
+            "source_status": "present",
             "warnings": [
               {
-                "clo_code": "1.1",
-                "clo_index": 0,
-                "code": "clo_text_unreadable",
-                "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=extension_glyphs_suppressed; font=too_short; ocr=too_short)",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.1",
-                "clo_index": 0,
-                "code": "clo_text_unreadable",
-                "message": "the published CLO row was captured, but its outcome text could not be read reliably",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.1",
-                "clo_index": 0,
                 "code": "plo_mapping_unresolved",
                 "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "source_page": 4,
+                "clo_code": "1.1",
+                "clo_index": 0
               },
               {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
                 "clo_code": "1.2",
-                "clo_index": 1,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "clo_index": 1
               },
               {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
                 "clo_code": "2.1",
-                "clo_index": 2,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "clo_index": 2
               },
               {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
                 "clo_code": "2.2",
-                "clo_index": 3,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "clo_index": 3
               },
               {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
                 "clo_code": "3.1",
-                "clo_index": 4,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "clo_index": 4
               },
               {
-                "clo_code": "3.2",
-                "clo_index": 5,
                 "code": "plo_mapping_unresolved",
                 "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "source_page": 4,
+                "clo_code": "3.2",
+                "clo_index": 5
               }
             ]
           },
@@ -83096,7 +83068,7 @@
             }
           ],
           "source_pdf": "assets/course-specifications/cross-program-updates-20260914/2002221-2--sharia-new-v47.pdf",
-          "source_sha256": "a7cce9bb87e4903a5b0bad2352013ecb822cf9ba728cefa59d0a2ae7429bd65f",
+          "source_sha256": "a14f6e140cb4e08f8d3c52ba7d943927d35f0ed5038b19079b3df091a9c6c8da",
           "variant_id": "9cb49cbeae9dc7a765b8c4108b5cd9f93f19f499bfa25438328d8500fd23e02e"
         }
       ]
@@ -84053,9 +84025,9 @@
                 "assessment": "• الملاحظة؛ • مقياس التقدير؛ الوصفي؛ (روبركس)",
                 "assessment_source_page": 4,
                 "code": "1.1",
-                "confidence": "medium",
+                "confidence": "low",
                 "document_plo_codes": [],
-                "extraction_method": "targeted_ocr",
+                "extraction_method": "geometric_pdf",
                 "plo_mappings": [
                   {
                     "confidence": "low",
@@ -84072,8 +84044,8 @@
                   }
                 ],
                 "source_page": 4,
-                "source_status": "present",
-                "text": "القدرة على تلاوة الجزء الثالث من القران. وحفظ الآيات القرآنية من الجزء الثامن والعشرون بشكل سليم خالي من اللحن."
+                "source_status": "unreadable",
+                "text": null
               },
               {
                 "assessment": "• الأنشطة؛ والواجبات",
@@ -84099,7 +84071,7 @@
                 ],
                 "source_page": 4,
                 "source_status": "present",
-                "text": "شرح غريب الخلمات في الأجزاء المحفوظة"
+                "text": "شرح غريب الكلمات في الأجزاء المحفوظة"
               },
               {
                 "assessment": "• الملاحظة؛ • مقياس التقدير؛ الوصفي؛ (روبركس)",
@@ -84125,7 +84097,7 @@
                 ],
                 "source_page": 4,
                 "source_status": "present",
-                "text": "اجادة حفظ الجزء الثامن والعشرون وتلاوة الجزء الثالث بمهارة عالية ومتقنة."
+                "text": "اجادة حفظ الجزئية المقررة بمهارة عالية ومتقنة."
               },
               {
                 "assessment": "• الملاحظة",
@@ -84215,49 +84187,63 @@
             "extraction_status": "complete",
             "page_count": 7,
             "source_clo_row_count": 6,
-            "source_status": "present",
+            "source_status": "unreadable",
             "warnings": [
               {
+                "code": "clo_text_unreadable",
+                "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=extension_glyphs_suppressed; font=too_short; ocr=too_short)",
+                "source_page": 4,
                 "clo_code": "1.1",
-                "clo_index": 0,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "clo_index": 0
               },
               {
+                "code": "clo_text_unreadable",
+                "message": "the published CLO row was captured, but its outcome text could not be read reliably",
+                "source_page": 4,
+                "clo_code": "1.1",
+                "clo_index": 0
+              },
+              {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
+                "clo_code": "1.1",
+                "clo_index": 0
+              },
+              {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
                 "clo_code": "1.2",
-                "clo_index": 1,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "clo_index": 1
               },
               {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
                 "clo_code": "2.1",
-                "clo_index": 2,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "clo_index": 2
               },
               {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
                 "clo_code": "2.2",
-                "clo_index": 3,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "clo_index": 3
               },
               {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
                 "clo_code": "3.1",
-                "clo_index": 4,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "clo_index": 4
               },
               {
-                "clo_code": "3.2",
-                "clo_index": 5,
                 "code": "plo_mapping_unresolved",
                 "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "source_page": 4,
+                "clo_code": "3.2",
+                "clo_index": 5
               }
             ]
           },
@@ -84271,7 +84257,7 @@
             }
           ],
           "source_pdf": "assets/course-specifications/cross-program-updates-20260914/2002225-2--sharia-new-v47.pdf",
-          "source_sha256": "75f9a2321a74cd9a9e8c201fe04981c4d950fbe89a052c6bee7e69452d31fc20",
+          "source_sha256": "c31e4deb337c0cc640065dacaa1ab33cacbabfaeb1052e464300e3d8a7784734",
           "variant_id": "6993861a54ff93bd2b676b04475e2d2d43171e2ad97eeeadaa403070c4bea377"
         },
         {
@@ -85132,36 +85118,30 @@
           "extracted": {
             "assessment_plan": [
               {
-                "confidence": "high",
-                "label": "المشاركة والت ليفات",
-                "source_page": 5,
-                "weight": 10
-              },
-              {
-                "confidence": "high",
                 "label": "المشاركة والتكليفات",
-                "source_page": 6,
-                "weight": 10
+                "weight": 10,
+                "source_page": 5,
+                "confidence": "high"
               },
               {
-                "confidence": "high",
                 "label": "تقييم الجفظ (شفهي)",
-                "source_page": 6,
-                "weight": 40
+                "weight": 40,
+                "source_page": 5,
+                "confidence": "high"
               },
               {
-                "confidence": "high",
                 "label": "تقييم التلاوة (شفهي)",
-                "source_page": 6,
-                "weight": 50
+                "weight": 50,
+                "source_page": 5,
+                "confidence": "high"
               }
             ],
-            "assessment_plan_complete": false,
-            "assessment_plan_total": 110,
+            "assessment_plan_complete": true,
+            "assessment_plan_total": 100,
             "captured_clo_row_count": 6,
             "clos": [
               {
-                "assessment": "• الملا ظة • مقياس التقدير الوصفي (روبركس) الأنشطة والواجبات",
+                "assessment": "• الملاحظة؛ • مقياس التقدير؛ الوصفي",
                 "assessment_source_page": 4,
                 "code": "1.1",
                 "confidence": "medium",
@@ -85184,11 +85164,11 @@
                 ],
                 "source_page": 4,
                 "source_status": "present",
-                "text": "القدرة على تلاوة الجزء الرابع من القران. وحفظ الآيات القرانية من الجزء السابع والعشرون بشكل سليم خالي من اللحن."
+                "text": "القدرة على حفظ الجزئية المقررة بشكل سليم خالي من اللحن."
               },
               {
-                "assessment": null,
-                "assessment_source_page": null,
+                "assessment": "(روبركس)؛ الأنشطة والواجبات",
+                "assessment_source_page": 4,
                 "code": "1.2",
                 "confidence": "medium",
                 "document_plo_codes": [],
@@ -85210,15 +85190,15 @@
                 ],
                 "source_page": 4,
                 "source_status": "present",
-                "text": "شرح غريب الكلمات في الأجزاء المحفوظة"
+                "text": "شرح غريب الكلمات فى الأجزاء المحفوظة"
               },
               {
-                "assessment": "• الملا ظة • مقياس التقدير الوصفي (روبركس) • الملا ظة",
+                "assessment": "• الملاحظة • مقياس التقدير الوصفي (روبركس) • الملاحظة",
                 "assessment_source_page": 4,
                 "code": "2.1",
-                "confidence": "low",
+                "confidence": "medium",
                 "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
+                "extraction_method": "targeted_ocr",
                 "plo_mappings": [
                   {
                     "confidence": "low",
@@ -85235,8 +85215,8 @@
                   }
                 ],
                 "source_page": 4,
-                "source_status": "unreadable",
-                "text": null
+                "source_status": "present",
+                "text": "اجادة حفظ الجزئية المقررة بمهارة عالية ومتقنة."
               },
               {
                 "assessment": null,
@@ -85265,7 +85245,7 @@
                 "text": null
               },
               {
-                "assessment": "• الملا ظة • تقييم الأقران",
+                "assessment": "• الملاحظة • تقييم الأقران",
                 "assessment_source_page": 4,
                 "code": "3.1",
                 "confidence": "medium",
@@ -85308,11 +85288,11 @@
                       "program": "الشريعة",
                       "version": "47"
                     },
-                    "source_page": 5,
+                    "source_page": 4,
                     "status": "missing"
                   }
                 ],
-                "source_page": 5,
+                "source_page": 4,
                 "source_status": "present",
                 "text": "تقييم الطالب لتلاوة زملائه ملتزماً المصداقية والأخلاق الاسلامية"
               }
@@ -85329,99 +85309,74 @@
             "source_status": "unreadable",
             "warnings": [
               {
-                "code": "assessment_plan_total_not_100",
-                "message": "recovered assessment weights total 110, not 100"
-              },
-              {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
                 "clo_code": "1.1",
-                "clo_index": 0,
+                "clo_index": 0
+              },
+              {
                 "code": "plo_mapping_unresolved",
                 "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "source_page": 4,
+                "clo_code": "1.2",
+                "clo_index": 1
               },
               {
-                "clo_code": "1.2",
-                "clo_index": 1,
-                "code": "direct_assessment_unresolved",
-                "message": "no unambiguous direct-assessment text was recovered for this CLO",
-                "source_page": 4
-              },
-              {
-                "clo_code": "1.2",
-                "clo_index": 1,
                 "code": "plo_mapping_unresolved",
                 "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
+                "source_page": 4,
                 "clo_code": "2.1",
-                "clo_index": 2,
+                "clo_index": 2
+              },
+              {
                 "code": "clo_text_unreadable",
                 "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=missing_outcome_cue; font=too_short; ocr=too_short)",
-                "source_page": 4
+                "source_page": 4,
+                "clo_code": "2.2",
+                "clo_index": 3
               },
               {
-                "clo_code": "2.1",
-                "clo_index": 2,
                 "code": "clo_text_unreadable",
                 "message": "the published CLO row was captured, but its outcome text could not be read reliably",
-                "source_page": 4
-              },
-              {
-                "clo_code": "2.1",
-                "clo_index": 2,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
-              },
-              {
+                "source_page": 4,
                 "clo_code": "2.2",
-                "clo_index": 3,
-                "code": "clo_text_unreadable",
-                "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=missing_outcome_cue; font=too_short; ocr=too_short)",
-                "source_page": 4
+                "clo_index": 3
               },
               {
-                "clo_code": "2.2",
-                "clo_index": 3,
-                "code": "clo_text_unreadable",
-                "message": "the published CLO row was captured, but its outcome text could not be read reliably",
-                "source_page": 4
-              },
-              {
-                "clo_code": "2.2",
-                "clo_index": 3,
                 "code": "direct_assessment_unresolved",
                 "message": "no unambiguous direct-assessment text was recovered for this CLO",
-                "source_page": 4
+                "source_page": 4,
+                "clo_code": "2.2",
+                "clo_index": 3
               },
               {
-                "clo_code": "2.2",
-                "clo_index": 3,
                 "code": "plo_mapping_unresolved",
                 "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "source_page": 4,
+                "clo_code": "2.2",
+                "clo_index": 3
               },
               {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
                 "clo_code": "3.1",
-                "clo_index": 4,
-                "code": "plo_mapping_unresolved",
-                "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 4
+                "clo_index": 4
               },
               {
-                "clo_code": "3.2",
-                "clo_index": 5,
                 "code": "direct_assessment_unresolved",
                 "message": "no unambiguous direct-assessment text was recovered for this CLO",
-                "source_page": 5
+                "source_page": 4,
+                "clo_code": "3.2",
+                "clo_index": 5
               },
               {
-                "clo_code": "3.2",
-                "clo_index": 5,
                 "code": "plo_mapping_unresolved",
                 "message": "one or more applicable scopes have no unambiguous PLO mapping",
-                "source_page": 5
+                "source_page": 4,
+                "clo_code": "3.2",
+                "clo_index": 5
               }
             ]
           },
@@ -85435,7 +85390,7 @@
             }
           ],
           "source_pdf": "assets/course-specifications/cross-program-updates-20260914/2002226-2--sharia-new-v47.pdf",
-          "source_sha256": "d22533106a32f2115bcc343cbae9f56227f26a2250e643f954ed4d13573a366b",
+          "source_sha256": "b0c101cab3a63ad1b052495061ce89529fe8a802bd450c9f7995aeaff6dd9209",
           "variant_id": "44ecaab01ed1e4a4dc8e517b9c5dac316c8c6c12d0f483faa329a0700dfc417f"
         }
       ]
@@ -204953,22 +204908,13 @@
     "tesseract": "5.5.2",
     "version": "1.1.0"
   },
-  "generated_at": "2026-09-15T13:47:28+03:00",
+  "generated_at": "2026-09-20T00:00:00+03:00",
   "schema_version": "course-outcomes-v1",
   "source_data": {
     "path": "data.json",
     "sha256": "8bb033755ce39cd7518a8228dcf018ee8b0e595b8c8a0cf940a7ff5c9f2cb22e"
   },
   "statistics": {
-    "source_alignment_counts": {
-      "corrected_from_source_pdf": 4,
-      "matches_source_pdf": 182,
-      "source_pdf_gap_confirmed": 62
-    },
-    "source_review_counts": {
-      "accepted_as_is": 182,
-      "needs_manual": 66
-    },
     "course_codes": 410,
     "variants": 448,
     "active_pdf_sources": 436,
@@ -204977,15 +204923,15 @@
     "partial_variants": 30,
     "failed_variants": 6,
     "variant_source_status_counts": {
-      "present": 180,
+      "present": 181,
       "source_blank": 1,
-      "unreadable": 267
+      "unreadable": 266
     },
     "clos": 3166,
     "clo_source_status_counts": {
-      "present": 2467,
+      "present": 2469,
       "source_blank": 1,
-      "unreadable": 698
+      "unreadable": 696
     },
     "scoped_clo_mappings": 5111,
     "plo_mappings_with_codes": 2487,
@@ -204995,17 +204941,26 @@
     "plo_explicitly_unmapped": 1515,
     "plo_non_null_rate": 0.486598,
     "plo_status_counts": {
-      "ambiguous_for_scope": 80,
-      "conflict": 0,
-      "explicitly_unmapped": 1515,
       "mapped": 2487,
+      "explicitly_unmapped": 1515,
+      "not_present_for_scope": 126,
       "missing": 903,
-      "not_present_for_scope": 126
+      "conflict": 0,
+      "ambiguous_for_scope": 80
     },
     "plo_applicable_mappings": 3470,
     "plo_applicable_non_null_rate": 0.716715,
     "plo_applicable_with_codes_rate": 0.716715,
-    "plo_resolved_or_explicit_rate": 0.802808
+    "plo_resolved_or_explicit_rate": 0.802808,
+    "source_alignment_counts": {
+      "corrected_from_source_pdf": 4,
+      "matches_source_pdf": 182,
+      "source_pdf_gap_confirmed": 62
+    },
+    "source_review_counts": {
+      "accepted_as_is": 182,
+      "needs_manual": 66
+    }
   },
   "source_correction_recommendations": [
     {
