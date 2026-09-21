@@ -872,6 +872,12 @@ class CourseOutcomeExtractorRegressionTest(unittest.TestCase):
             "51269b1a7e2246e118111a2411852e99ade9030349aa8e4ec5dbfdcc1d8270a0",
             "4627f85d286a978cedc7801b6f41cdafa2b373ae94578d08733c68f0ab0bfdfd",
             "e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3",
+            "7524ed21f60b23ed48473dbae05f52c6132bdb70f3ae4c69be0562a3df7f96bb",
+            "f293de8dafc2be63484f7e83d858d7978aa025789664fff7ff8da83c735ee39f",
+            "017e6db4201747c176bb2cdb102e6cd741df3e8ea7b1daef2ae9b64d0fc0e4c4",
+            "875707c0195289d63e367a99ae899582d2d6e2f304e7187aee136de7ddd6299c",
+            "24064fa09ccc11b56aa5e7fcd58a88fcf024db64011a3b2cb10fe0d5834e162c",
+            "80f1f1c217e02a561240c401d904281bd705558f81a158642537e0c26f47e0c9",
         }
         self.assertEqual(expected, set(extractor.SPLIT_OUTCOME_TABLE_SOURCE_SHA256))
 

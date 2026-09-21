@@ -73408,259 +73408,298 @@
             "title": "تلاوة وحفظ (2)"
           },
           "extracted": {
-            "assessment_plan": [
-              {
-                "confidence": "high",
-                "label": "التقييم الدوري",
-                "source_page": 5,
-                "weight": 100
-              }
-            ],
-            "assessment_plan_complete": true,
-            "assessment_plan_total": 100,
-            "captured_clo_row_count": 5,
-            "clos": [
-              {
-                "assessment": "التقييمات الدورية",
-                "assessment_source_page": 3,
-                "code": "1.1",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "ع1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  },
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يسِّمع الطالب من بداية سورة المجادلة إلى نهاية سورة الحشر."
-              },
-              {
-                "assessment": "التقييمات الدورية",
-                "assessment_source_page": 3,
-                "code": "1.2",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "ع1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  },
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يسِّمع الطالب من بداية سورة الممتحنة إلى نهاية سورة التحريم."
-              },
-              {
-                "assessment": "التقييمات الدورية",
-                "assessment_source_page": 3,
-                "code": "1.3",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "ع1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  },
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يسِّمع الطالب من بداية سورة الملك إلى نهاية سورة نوح."
-              },
-              {
-                "assessment": "التقييمات الدورية",
-                "assessment_source_page": 3,
-                "code": "2.1",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "م1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "م1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  },
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "م1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يتقن الطالب تلاوة القرآن من الآية رقم ( 270 ) سورة البقرة إلى الآية ( 87 ) من سورة النساء."
-              },
-              {
-                "assessment": "التقييمات الدورية",
-                "assessment_source_page": 3,
-                "code": "2.2",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "م1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "م1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  },
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "م1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يطبق الطالب أحكام التجويد في تلاوته للآيات المقررة."
-              }
-            ],
             "course_name": null,
             "course_name_metadata": {
               "confidence": "low",
-              "extraction_method": "unresolved",
-              "source_page": 1
+              "source_page": 1,
+              "extraction_method": "unresolved"
             },
-            "extraction_status": "partial",
-            "page_count": 6,
-            "source_clo_row_count": 6,
-            "source_status": "present",
-            "warnings": [
+            "clos": [
               {
-                "code": "clo_row_count_mismatch",
-                "message": "the number of captured CLO rows does not equal the number of published rows"
+                "code": "1.1",
+                "text": "أن يسِّمع الطالب من بداية سورة المجادلة إلى نهاية سورة الحشر.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "ع1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
               },
+              {
+                "code": "1.2",
+                "text": "أن يسِّمع الطالب من بداية سورة الممتحنة إلى نهاية سورة التحريم.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "ع1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "1.3",
+                "text": "أن يسِّمع الطالب من بداية سورة الملك إلى نهاية سورة نوح.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "ع1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "2.1",
+                "text": "أن يتقن الطالب تلاوة القرآن من الآية رقم ( 270 ) سورة البقرة إلى الآية ( 87 ) من سورة النساء.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "م1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "2.2",
+                "text": "أن يطبق الطالب أحكام التجويد في تلاوته للآيات المقررة.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "م1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "3.1",
+                "text": "أن يلتزم الطالب بآداب تلاوة القرآن الكريم أثناء الحفظ والتسميع.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ق1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 4,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ق1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 4,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "ق1"
+                ],
+                "confidence": "medium",
+                "source_page": 4,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 4
+              }
+            ],
+            "assessment_plan": [
+              {
+                "label": "التقييم الدوري",
+                "weight": 100,
+                "source_page": 5,
+                "confidence": "high"
+              }
+            ],
+            "assessment_plan_total": 100,
+            "assessment_plan_complete": true,
+            "source_status": "present",
+            "source_clo_row_count": 6,
+            "captured_clo_row_count": 6,
+            "warnings": [
               {
                 "code": "course_name_unresolved",
                 "message": "course name was left null because neither the text layer nor OCR produced a value consistent with the catalog",
@@ -73670,10 +73709,25 @@
                 "code": "plo_column_inferred_from_exact_codes",
                 "message": "the PLO header text was unreadable; selected the unique column containing exact PLO codes in 5/5 CLO blocks",
                 "source_page": 3
+              },
+              {
+                "code": "plo_column_inferred_from_exact_codes",
+                "message": "the PLO header text was unreadable; selected the unique column containing exact PLO codes in 1/1 CLO blocks",
+                "source_page": 4
               }
-            ]
+            ],
+            "extraction_status": "complete",
+            "page_count": 6
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "clos[5].assessment",
+              "value": "التقييمات الدورية",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/quran-old-v39/2002124-2.pdf المطابق للبصمة 7524ed21f60b23ed48473dbae05f52c6132bdb70f3ae4c69be0562a3df7f96bb | الصفحات 3،4 | صف CLO 3.1 ممتد بين صفحتين.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-21T12:00:00+03:00"
+            }
+          ],
           "scopes": [
             {
               "degree": "بكالوريوس",
@@ -73690,7 +73744,29 @@
           ],
           "source_pdf": "assets/course-specifications/quran-old-v39/2002124-2.pdf",
           "source_sha256": "7524ed21f60b23ed48473dbae05f52c6132bdb70f3ae4c69be0562a3df7f96bb",
-          "variant_id": "369a8ebdbde93a5ebcc520d1774a8b415938d45d0d5e72b01beb2303a2abab27"
+          "variant_id": "369a8ebdbde93a5ebcc520d1774a8b415938d45d0d5e72b01beb2303a2abab27",
+          "source_alignment": {
+            "status": "matches_source_pdf",
+            "label_ar": "مطابق لملف PDF بعد تصحيح الاستخراج",
+            "correction_applied": true,
+            "source_update_recommended": false,
+            "source_sha256": "7524ed21f60b23ed48473dbae05f52c6132bdb70f3ae4c69be0562a3df7f96bb"
+          },
+          "source_review": {
+            "status": "accepted_as_is",
+            "finding": "استُعيد صف CLO 3.1 الذي يبدأ في صفحة ويكتمل جدوله في الصفحة التالية؛ لا يحتاج PDF إلى تعديل لهذا السبب.",
+            "evidence": {
+              "file": "assets/course-specifications/quran-old-v39/2002124-2.pdf",
+              "pages": [
+                3,
+                4
+              ],
+              "review_method": "تصيير صفحتي جدول CLO المتجاورتين وفحص الرمز والنص وطريقة التقييم وخانة PLO بصريًا مع تثبيت بصمة المصدر.",
+              "sha256_verified": true
+            },
+            "reviewed_at": "2026-09-21T12:00:00+03:00",
+            "source_sha256": "7524ed21f60b23ed48473dbae05f52c6132bdb70f3ae4c69be0562a3df7f96bb"
+          }
         }
       ]
     },
@@ -83700,259 +83776,298 @@
             "title": "تلاوة وحفظ (4)"
           },
           "extracted": {
-            "assessment_plan": [
-              {
-                "confidence": "high",
-                "label": "التقييم الدوري",
-                "source_page": 5,
-                "weight": 100
-              }
-            ],
-            "assessment_plan_complete": true,
-            "assessment_plan_total": 100,
-            "captured_clo_row_count": 5,
-            "clos": [
-              {
-                "assessment": "التقييمات الدورية",
-                "assessment_source_page": 3,
-                "code": "1.1",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "ع1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  },
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يسمع الطالب من بداية سورة الشورى إلى نهاية سورة الزخرف."
-              },
-              {
-                "assessment": "التقييمات الدورية",
-                "assessment_source_page": 3,
-                "code": "1.2",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "ع1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  },
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يسِّمع الطالب من بداية سورة الدخان إلى نهاية سورة الجاثية."
-              },
-              {
-                "assessment": "التقييمات الدورية",
-                "assessment_source_page": 3,
-                "code": "1.3",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "ع1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  },
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يسِّمع الطالب من بداية سورة الأحقاف إلى نهاية سورة الفتح."
-              },
-              {
-                "assessment": "التقييمات الدورية",
-                "assessment_source_page": 3,
-                "code": "2.1",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "م1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "م1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  },
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "م1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يتقن الطالب تلاوة القرآن من الآية رقم ( 74 ) سورة الأنعام إلى الآية ( 40 ) سورة الأنفال."
-              },
-              {
-                "assessment": "التقييمات الدورية",
-                "assessment_source_page": 3,
-                "code": "2.2",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "م1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "م1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  },
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "م1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يطبق الطالب أحكام التجويد في تلاوته للآيات المقررة."
-              }
-            ],
             "course_name": null,
             "course_name_metadata": {
               "confidence": "low",
-              "extraction_method": "unresolved",
-              "source_page": 1
+              "source_page": 1,
+              "extraction_method": "unresolved"
             },
-            "extraction_status": "partial",
-            "page_count": 6,
-            "source_clo_row_count": 6,
-            "source_status": "present",
-            "warnings": [
+            "clos": [
               {
-                "code": "clo_row_count_mismatch",
-                "message": "the number of captured CLO rows does not equal the number of published rows"
+                "code": "1.1",
+                "text": "أن يسمع الطالب من بداية سورة الشورى إلى نهاية سورة الزخرف.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "ع1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
               },
+              {
+                "code": "1.2",
+                "text": "أن يسِّمع الطالب من بداية سورة الدخان إلى نهاية سورة الجاثية.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "ع1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "1.3",
+                "text": "أن يسِّمع الطالب من بداية سورة الأحقاف إلى نهاية سورة الفتح.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "ع1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "2.1",
+                "text": "أن يتقن الطالب تلاوة القرآن من الآية رقم ( 74 ) سورة الأنعام إلى الآية ( 40 ) سورة الأنفال.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "م1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "2.2",
+                "text": "أن يطبق الطالب أحكام التجويد في تلاوته للآيات المقررة.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "م1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "3.1",
+                "text": "أن يلتزم الطالب بآداب تلاوة القرآن الكريم أثناء الحفظ والتسميع.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ق1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 4,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ق1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 4,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "ق1"
+                ],
+                "confidence": "medium",
+                "source_page": 4,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 4
+              }
+            ],
+            "assessment_plan": [
+              {
+                "label": "التقييم الدوري",
+                "weight": 100,
+                "source_page": 5,
+                "confidence": "high"
+              }
+            ],
+            "assessment_plan_total": 100,
+            "assessment_plan_complete": true,
+            "source_status": "present",
+            "source_clo_row_count": 6,
+            "captured_clo_row_count": 6,
+            "warnings": [
               {
                 "code": "course_name_unresolved",
                 "message": "course name was left null because neither the text layer nor OCR produced a value consistent with the catalog",
@@ -83962,10 +84077,25 @@
                 "code": "plo_column_inferred_from_exact_codes",
                 "message": "the PLO header text was unreadable; selected the unique column containing exact PLO codes in 5/5 CLO blocks",
                 "source_page": 3
+              },
+              {
+                "code": "plo_column_inferred_from_exact_codes",
+                "message": "the PLO header text was unreadable; selected the unique column containing exact PLO codes in 1/1 CLO blocks",
+                "source_page": 4
               }
-            ]
+            ],
+            "extraction_status": "complete",
+            "page_count": 6
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "clos[5].assessment",
+              "value": "التقييمات الدورية",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/quran-old-v39/2002224-2.pdf المطابق للبصمة f293de8dafc2be63484f7e83d858d7978aa025789664fff7ff8da83c735ee39f | الصفحات 3،4 | صف CLO 3.1 ممتد بين صفحتين.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-21T12:00:00+03:00"
+            }
+          ],
           "scopes": [
             {
               "degree": "بكالوريوس",
@@ -83982,7 +84112,29 @@
           ],
           "source_pdf": "assets/course-specifications/quran-old-v39/2002224-2.pdf",
           "source_sha256": "f293de8dafc2be63484f7e83d858d7978aa025789664fff7ff8da83c735ee39f",
-          "variant_id": "ca0d5061b08b69d05d35aff632806fb8c1b04a3ec707e02232ea1da6875ae556"
+          "variant_id": "ca0d5061b08b69d05d35aff632806fb8c1b04a3ec707e02232ea1da6875ae556",
+          "source_alignment": {
+            "status": "matches_source_pdf",
+            "label_ar": "مطابق لملف PDF بعد تصحيح الاستخراج",
+            "correction_applied": true,
+            "source_update_recommended": false,
+            "source_sha256": "f293de8dafc2be63484f7e83d858d7978aa025789664fff7ff8da83c735ee39f"
+          },
+          "source_review": {
+            "status": "accepted_as_is",
+            "finding": "استُعيد صف CLO 3.1 الذي يبدأ في صفحة ويكتمل جدوله في الصفحة التالية؛ لا يحتاج PDF إلى تعديل لهذا السبب.",
+            "evidence": {
+              "file": "assets/course-specifications/quran-old-v39/2002224-2.pdf",
+              "pages": [
+                3,
+                4
+              ],
+              "review_method": "تصيير صفحتي جدول CLO المتجاورتين وفحص الرمز والنص وطريقة التقييم وخانة PLO بصريًا مع تثبيت بصمة المصدر.",
+              "sha256_verified": true
+            },
+            "reviewed_at": "2026-09-21T12:00:00+03:00",
+            "source_sha256": "f293de8dafc2be63484f7e83d858d7978aa025789664fff7ff8da83c735ee39f"
+          }
         }
       ]
     },
@@ -87467,190 +87619,255 @@
             "title": "علوم القرآن (2)"
           },
           "extracted": {
-            "assessment_plan": [
-              {
-                "confidence": "high",
-                "label": "التقييم الدوري",
-                "source_page": 5,
-                "weight": 10
-              },
-              {
-                "confidence": "high",
-                "label": "التفاعل الصفي",
-                "source_page": 5,
-                "weight": 10
-              },
-              {
-                "confidence": "high",
-                "label": "الاختبار الِّنصفي",
-                "source_page": 5,
-                "weight": 20
-              },
-              {
-                "confidence": "high",
-                "label": "الاختبار الِّنهائي",
-                "source_page": 5,
-                "weight": 60
-              }
-            ],
-            "assessment_plan_complete": true,
-            "assessment_plan_total": 100,
-            "captured_clo_row_count": 5,
-            "clos": [
-              {
-                "assessment": "الاختبار النصفي؛ الطلبة",
-                "assessment_source_page": 3,
-                "code": "1.1",
-                "confidence": "medium",
-                "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "high",
-                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
-                    "plo_codes": [],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "explicitly_unmapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يوضح الطالب مفهوم أسباب النزول وأهميتها في فهم القرآن."
-              },
-              {
-                "assessment": "الاختبار النهائي؛ الطلبة",
-                "assessment_source_page": 3,
-                "code": "1.2",
-                "confidence": "medium",
-                "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "high",
-                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
-                    "plo_codes": [],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "explicitly_unmapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يشرح الطالب عملية جمع القرآن وترتيبه وعد آياته."
-              },
-              {
-                "assessment": "الاختبار النهائي؛ الطلبة",
-                "assessment_source_page": 3,
-                "code": "1.3",
-                "confidence": "medium",
-                "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "high",
-                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
-                    "plo_codes": [],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "explicitly_unmapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يصف الطالب خصائص المكي والمدني والناسخ والمنسوخ في القرآن."
-              },
-              {
-                "assessment": "التقييمات؛ الدورية؛ الطلبة",
-                "assessment_source_page": 3,
-                "code": "2.1",
-                "confidence": "medium",
-                "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "high",
-                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
-                    "plo_codes": [],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "explicitly_unmapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يميز الطالب بين المكي والمدني من سور وآيات القرآن."
-              },
-              {
-                "assessment": "الاختبار النهائي؛ الطلبة",
-                "assessment_source_page": 3,
-                "code": "2.2",
-                "confidence": "medium",
-                "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "high",
-                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
-                    "plo_codes": [],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "explicitly_unmapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يقِّيم الطالب الآراء المختلفة حول الناسخ والمنسوخ في القرآن."
-              }
-            ],
             "course_name": null,
             "course_name_metadata": {
               "confidence": "low",
-              "extraction_method": "unresolved",
-              "source_page": 1
+              "source_page": 1,
+              "extraction_method": "unresolved"
             },
-            "extraction_status": "partial",
-            "page_count": 6,
-            "source_clo_row_count": 6,
-            "source_status": "present",
-            "warnings": [
+            "clos": [
               {
-                "code": "clo_row_count_mismatch",
-                "message": "the number of captured CLO rows does not equal the number of published rows"
+                "code": "1.1",
+                "text": "أن يوضح الطالب مفهوم أسباب النزول وأهميتها في فهم القرآن.",
+                "source_status": "present",
+                "assessment": "الاختبار النصفي؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [],
+                    "status": "explicitly_unmapped",
+                    "confidence": "high",
+                    "source_page": 3,
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty"
+                  }
+                ],
+                "document_plo_codes": [],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
               },
+              {
+                "code": "1.2",
+                "text": "أن يشرح الطالب عملية جمع القرآن وترتيبه وعد آياته.",
+                "source_status": "present",
+                "assessment": "الاختبار النهائي؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [],
+                    "status": "explicitly_unmapped",
+                    "confidence": "high",
+                    "source_page": 3,
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty"
+                  }
+                ],
+                "document_plo_codes": [],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "1.3",
+                "text": "أن يصف الطالب خصائص المكي والمدني والناسخ والمنسوخ في القرآن.",
+                "source_status": "present",
+                "assessment": "الاختبار النهائي؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [],
+                    "status": "explicitly_unmapped",
+                    "confidence": "high",
+                    "source_page": 3,
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty"
+                  }
+                ],
+                "document_plo_codes": [],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "2.1",
+                "text": "أن يميز الطالب بين المكي والمدني من سور وآيات القرآن.",
+                "source_status": "present",
+                "assessment": "التقييمات؛ الدورية؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [],
+                    "status": "explicitly_unmapped",
+                    "confidence": "high",
+                    "source_page": 3,
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty"
+                  }
+                ],
+                "document_plo_codes": [],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "2.2",
+                "text": "أن يقِّيم الطالب الآراء المختلفة حول الناسخ والمنسوخ في القرآن.",
+                "source_status": "present",
+                "assessment": "الاختبار النهائي؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [],
+                    "status": "explicitly_unmapped",
+                    "confidence": "high",
+                    "source_page": 3,
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty"
+                  }
+                ],
+                "document_plo_codes": [],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "3.1",
+                "text": "أن يلتزم الطالب بالموضوعية عند دراسة الاختلافات في علوم القرآن.",
+                "source_status": "present",
+                "assessment": "التقييم الدوري؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": null,
+                    "status": "missing",
+                    "confidence": "low",
+                    "source_page": 4,
+                    "evidence": "no unambiguous PLO value was recovered from the published cell"
+                  }
+                ],
+                "document_plo_codes": [],
+                "confidence": "medium",
+                "source_page": 4,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 4
+              }
+            ],
+            "assessment_plan": [
+              {
+                "label": "التقييم الدوري",
+                "weight": 10,
+                "source_page": 5,
+                "confidence": "high"
+              },
+              {
+                "label": "التفاعل الصفي",
+                "weight": 10,
+                "source_page": 5,
+                "confidence": "high"
+              },
+              {
+                "label": "الاختبار الِّنصفي",
+                "weight": 20,
+                "source_page": 5,
+                "confidence": "high"
+              },
+              {
+                "label": "الاختبار الِّنهائي",
+                "weight": 60,
+                "source_page": 5,
+                "confidence": "high"
+              }
+            ],
+            "assessment_plan_total": 100,
+            "assessment_plan_complete": true,
+            "source_status": "present",
+            "source_clo_row_count": 6,
+            "captured_clo_row_count": 6,
+            "warnings": [
               {
                 "code": "course_name_unresolved",
                 "message": "course name was left null because neither the text layer nor OCR produced a value consistent with the catalog",
                 "source_page": 1
+              },
+              {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
+                "clo_code": "3.1",
+                "clo_index": 5
               }
-            ]
+            ],
+            "extraction_status": "complete",
+            "page_count": 6
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "clos[5].assessment",
+              "value": "التقييم الدوري",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002232-2--5593499c29.pdf المطابق للبصمة 017e6db4201747c176bb2cdb102e6cd741df3e8ea7b1daef2ae9b64d0fc0e4c4 | الصفحات 3،4 | صف CLO 3.1 ممتد بين صفحتين.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-21T12:00:00+03:00"
+            },
+            {
+              "field": "clos[5].document_plo_codes",
+              "value": [],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002232-2--5593499c29.pdf المطابق للبصمة 017e6db4201747c176bb2cdb102e6cd741df3e8ea7b1daef2ae9b64d0fc0e4c4 | الصفحات 3،4 | صف CLO 3.1 ممتد بين صفحتين.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-21T12:00:00+03:00"
+            },
+            {
+              "field": "clos[5].plo_mappings",
+              "value": [
+                {
+                  "scope": {
+                    "program": "القرآن وعلومه",
+                    "plan_type": "قديمة",
+                    "version": "39",
+                    "degree": "بكالوريوس"
+                  },
+                  "plo_codes": [],
+                  "status": "explicitly_unmapped",
+                  "confidence": "verified",
+                  "source_page": 4,
+                  "evidence": "خلية PLO فارغة عمدًا في نسخة المقرر المشترك المنقحة."
+                }
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002232-2--5593499c29.pdf المطابق للبصمة 017e6db4201747c176bb2cdb102e6cd741df3e8ea7b1daef2ae9b64d0fc0e4c4 | الصفحات 3،4 | صف CLO 3.1 ممتد بين صفحتين.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-21T12:00:00+03:00"
+            }
+          ],
           "scopes": [
             {
               "degree": "بكالوريوس",
@@ -87661,7 +87878,29 @@
           ],
           "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002232-2--5593499c29.pdf",
           "source_sha256": "017e6db4201747c176bb2cdb102e6cd741df3e8ea7b1daef2ae9b64d0fc0e4c4",
-          "variant_id": "bc0060ca5add7747fd11fda0b9d25c8fa8c7c11cb3404c8353b5cc0e6f536bcf"
+          "variant_id": "bc0060ca5add7747fd11fda0b9d25c8fa8c7c11cb3404c8353b5cc0e6f536bcf",
+          "source_alignment": {
+            "status": "source_pdf_gap_confirmed",
+            "label_ar": "بيانات القاعدة مكتملة؛ PDF بحاجة إلى تعديل",
+            "correction_applied": true,
+            "source_update_recommended": true,
+            "source_sha256": "017e6db4201747c176bb2cdb102e6cd741df3e8ea7b1daef2ae9b64d0fc0e4c4"
+          },
+          "source_review": {
+            "status": "needs_manual",
+            "finding": "صف CLO 3.1 ما زال يحمل ربط PLO القديم في PDF المنشور، بينما قاعدة JSON الموحدة تعتمد إفراغ ربط المقرر المشترك حتى يحدد داخل سياق البرنامج.",
+            "evidence": {
+              "file": "assets/course-specifications/shared-course-blank-plo-20260905/2002232-2--5593499c29.pdf",
+              "pages": [
+                3,
+                4
+              ],
+              "review_method": "تصيير صفحتي جدول CLO المتجاورتين وفحص الرمز والنص وطريقة التقييم وخانة PLO بصريًا مع تثبيت بصمة المصدر.",
+              "sha256_verified": true
+            },
+            "reviewed_at": "2026-09-21T12:00:00+03:00",
+            "source_sha256": "017e6db4201747c176bb2cdb102e6cd741df3e8ea7b1daef2ae9b64d0fc0e4c4"
+          }
         }
       ]
     },
@@ -99020,259 +99259,298 @@
             "title": "تلاوة وحفظ (6)"
           },
           "extracted": {
-            "assessment_plan": [
-              {
-                "confidence": "high",
-                "label": "التقييم الدوري",
-                "source_page": 5,
-                "weight": 100
-              }
-            ],
-            "assessment_plan_complete": true,
-            "assessment_plan_total": 100,
-            "captured_clo_row_count": 5,
-            "clos": [
-              {
-                "assessment": "التقييمات الدورية",
-                "assessment_source_page": 3,
-                "code": "1.1",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "ع1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  },
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يسِّمع الطالب من الآية ( 28 ) من سورة الأحزاب إلى نهاية سورة سبأ."
-              },
-              {
-                "assessment": "التقييمات الدورية",
-                "assessment_source_page": 3,
-                "code": "1.2",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "ع1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  },
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يسِّمع الطالب سورة فاطر ويس."
-              },
-              {
-                "assessment": "التقييمات الدورية",
-                "assessment_source_page": 3,
-                "code": "1.3",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "ع1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  },
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يسِّمع الطالب سورة الصافات."
-              },
-              {
-                "assessment": "التقييمات الدورية",
-                "assessment_source_page": 3,
-                "code": "2.1",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "م1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "م1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  },
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "م1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يتقن الطالب تلاوة القرآن من الآية رقم ( 41 ) سورة هود إلى الآية ( 50 ) سورة النحل."
-              },
-              {
-                "assessment": "التقييمات الدورية",
-                "assessment_source_page": 3,
-                "code": "2.2",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "م1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "م1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  },
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "م1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يطبق الطالب أحكام التجويد في تلاوته للآيات المقررة."
-              }
-            ],
             "course_name": null,
             "course_name_metadata": {
               "confidence": "low",
-              "extraction_method": "unresolved",
-              "source_page": 1
+              "source_page": 1,
+              "extraction_method": "unresolved"
             },
-            "extraction_status": "partial",
-            "page_count": 6,
-            "source_clo_row_count": 6,
-            "source_status": "present",
-            "warnings": [
+            "clos": [
               {
-                "code": "clo_row_count_mismatch",
-                "message": "the number of captured CLO rows does not equal the number of published rows"
+                "code": "1.1",
+                "text": "أن يسِّمع الطالب من الآية ( 28 ) من سورة الأحزاب إلى نهاية سورة سبأ.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "ع1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
               },
+              {
+                "code": "1.2",
+                "text": "أن يسِّمع الطالب سورة فاطر ويس.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "ع1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "1.3",
+                "text": "أن يسِّمع الطالب سورة الصافات.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "ع1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "2.1",
+                "text": "أن يتقن الطالب تلاوة القرآن من الآية رقم ( 41 ) سورة هود إلى الآية ( 50 ) سورة النحل.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "م1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "2.2",
+                "text": "أن يطبق الطالب أحكام التجويد في تلاوته للآيات المقررة.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "م1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "3.1",
+                "text": "أن يلتزم الطالب بآداب تلاوة القرآن الكريم أثناء الحفظ والتسميع.",
+                "source_status": "present",
+                "assessment": "التقييمات الدورية",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ق1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 4,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ق1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 4,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "ق1"
+                ],
+                "confidence": "medium",
+                "source_page": 4,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 4
+              }
+            ],
+            "assessment_plan": [
+              {
+                "label": "التقييم الدوري",
+                "weight": 100,
+                "source_page": 5,
+                "confidence": "high"
+              }
+            ],
+            "assessment_plan_total": 100,
+            "assessment_plan_complete": true,
+            "source_status": "present",
+            "source_clo_row_count": 6,
+            "captured_clo_row_count": 6,
+            "warnings": [
               {
                 "code": "course_name_unresolved",
                 "message": "course name was left null because neither the text layer nor OCR produced a value consistent with the catalog",
@@ -99282,10 +99560,25 @@
                 "code": "plo_column_inferred_from_exact_codes",
                 "message": "the PLO header text was unreadable; selected the unique column containing exact PLO codes in 5/5 CLO blocks",
                 "source_page": 3
+              },
+              {
+                "code": "plo_column_inferred_from_exact_codes",
+                "message": "the PLO header text was unreadable; selected the unique column containing exact PLO codes in 1/1 CLO blocks",
+                "source_page": 4
               }
-            ]
+            ],
+            "extraction_status": "complete",
+            "page_count": 6
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "clos[5].assessment",
+              "value": "التقييمات الدورية",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/quran-old-v39/2002325-2.pdf المطابق للبصمة 875707c0195289d63e367a99ae899582d2d6e2f304e7187aee136de7ddd6299c | الصفحات 3،4 | صف CLO 3.1 ممتد بين صفحتين.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-21T12:00:00+03:00"
+            }
+          ],
           "scopes": [
             {
               "degree": "بكالوريوس",
@@ -99302,7 +99595,29 @@
           ],
           "source_pdf": "assets/course-specifications/quran-old-v39/2002325-2.pdf",
           "source_sha256": "875707c0195289d63e367a99ae899582d2d6e2f304e7187aee136de7ddd6299c",
-          "variant_id": "8bbb6958da2d36172855a1b94cecd76dfef51ca8e381ef8082e0e2569f37c9b2"
+          "variant_id": "8bbb6958da2d36172855a1b94cecd76dfef51ca8e381ef8082e0e2569f37c9b2",
+          "source_alignment": {
+            "status": "matches_source_pdf",
+            "label_ar": "مطابق لملف PDF بعد تصحيح الاستخراج",
+            "correction_applied": true,
+            "source_update_recommended": false,
+            "source_sha256": "875707c0195289d63e367a99ae899582d2d6e2f304e7187aee136de7ddd6299c"
+          },
+          "source_review": {
+            "status": "accepted_as_is",
+            "finding": "استُعيد صف CLO 3.1 الذي يبدأ في صفحة ويكتمل جدوله في الصفحة التالية؛ لا يحتاج PDF إلى تعديل لهذا السبب.",
+            "evidence": {
+              "file": "assets/course-specifications/quran-old-v39/2002325-2.pdf",
+              "pages": [
+                3,
+                4
+              ],
+              "review_method": "تصيير صفحتي جدول CLO المتجاورتين وفحص الرمز والنص وطريقة التقييم وخانة PLO بصريًا مع تثبيت بصمة المصدر.",
+              "sha256_verified": true
+            },
+            "reviewed_at": "2026-09-21T12:00:00+03:00",
+            "source_sha256": "875707c0195289d63e367a99ae899582d2d6e2f304e7187aee136de7ddd6299c"
+          }
         }
       ]
     },
@@ -99317,202 +99632,222 @@
             "title": "علوم القرآن (6)"
           },
           "extracted": {
-            "assessment_plan": [
-              {
-                "confidence": "high",
-                "label": "التقييم الدوري",
-                "source_page": 5,
-                "weight": 10
-              },
-              {
-                "confidence": "high",
-                "label": "التفاعل الصفي",
-                "source_page": 5,
-                "weight": 10
-              },
-              {
-                "confidence": "high",
-                "label": "الاختبار الِّنصفي",
-                "source_page": 5,
-                "weight": 20
-              },
-              {
-                "confidence": "high",
-                "label": "الاختبار الِّنهائي",
-                "source_page": 5,
-                "weight": 60
-              }
-            ],
-            "assessment_plan_complete": true,
-            "assessment_plan_total": 100,
-            "captured_clo_row_count": 5,
-            "clos": [
-              {
-                "assessment": "الاختبار النصفي؛ الطلبة",
-                "assessment_source_page": 3,
-                "code": "1.1",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "ع2"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع2"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يوضح الطالب مفهوم تدبر القرآن وأهميته."
-              },
-              {
-                "assessment": "الاختبار النهائي؛ الطلبة",
-                "assessment_source_page": 3,
-                "code": "1.2",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "ع2"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع2"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يشرح الطالب قواعد رسم المصحف العثماني."
-              },
-              {
-                "assessment": "الاختبار النهائي؛ الطلبة",
-                "assessment_source_page": 3,
-                "code": "1.3",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "ع2"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "ع2"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يصف الطالب علم الضبط وتطبيقاته في المصاحف الحديثة."
-              },
-              {
-                "assessment": "التقييمات؛ الدورية؛ الطلبة",
-                "assessment_source_page": 3,
-                "code": "2.1",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "م1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "م1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يطبق الطالب مهارات التلاوة الصحيحة للقرآن."
-              },
-              {
-                "assessment": "الاختبار النهائي؛ الطلبة",
-                "assessment_source_page": 3,
-                "code": "2.2",
-                "confidence": "medium",
-                "document_plo_codes": [
-                  "م1"
-                ],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "medium",
-                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column",
-                    "plo_codes": [
-                      "م1"
-                    ],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "mapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يقارن الطالب بين أساليب الضبط في المصاحف القديمة والحديثة."
-              }
-            ],
             "course_name": null,
             "course_name_metadata": {
               "confidence": "low",
-              "extraction_method": "unresolved",
-              "source_page": 1
+              "source_page": 1,
+              "extraction_method": "unresolved"
             },
-            "extraction_status": "partial",
-            "page_count": 6,
-            "source_clo_row_count": 6,
-            "source_status": "present",
-            "warnings": [
+            "clos": [
               {
-                "code": "clo_row_count_mismatch",
-                "message": "the number of captured CLO rows does not equal the number of published rows"
+                "code": "1.1",
+                "text": "أن يوضح الطالب مفهوم تدبر القرآن وأهميته.",
+                "source_status": "present",
+                "assessment": "الاختبار النصفي؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع2"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "ع2"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
               },
+              {
+                "code": "1.2",
+                "text": "أن يشرح الطالب قواعد رسم المصحف العثماني.",
+                "source_status": "present",
+                "assessment": "الاختبار النهائي؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع2"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "ع2"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "1.3",
+                "text": "أن يصف الطالب علم الضبط وتطبيقاته في المصاحف الحديثة.",
+                "source_status": "present",
+                "assessment": "الاختبار النهائي؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "ع2"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "ع2"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "2.1",
+                "text": "أن يطبق الطالب مهارات التلاوة الصحيحة للقرآن.",
+                "source_status": "present",
+                "assessment": "التقييمات؛ الدورية؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "م1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "2.2",
+                "text": "أن يقارن الطالب بين أساليب الضبط في المصاحف القديمة والحديثة.",
+                "source_status": "present",
+                "assessment": "الاختبار النهائي؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "status": "mapped",
+                    "confidence": "medium",
+                    "source_page": 3,
+                    "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+                  }
+                ],
+                "document_plo_codes": [
+                  "م1"
+                ],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "3.1",
+                "text": "أن يبادر الطالب إلى تطوير مهاراته في تلاوة وفهم القرآن باستمرار.",
+                "source_status": "present",
+                "assessment": "التقييم الدوري؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": null,
+                    "status": "missing",
+                    "confidence": "low",
+                    "source_page": 4,
+                    "evidence": "no unambiguous PLO value was recovered from the published cell"
+                  }
+                ],
+                "document_plo_codes": [],
+                "confidence": "medium",
+                "source_page": 4,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 4
+              }
+            ],
+            "assessment_plan": [
+              {
+                "label": "التقييم الدوري",
+                "weight": 10,
+                "source_page": 5,
+                "confidence": "high"
+              },
+              {
+                "label": "التفاعل الصفي",
+                "weight": 10,
+                "source_page": 5,
+                "confidence": "high"
+              },
+              {
+                "label": "الاختبار الِّنصفي",
+                "weight": 20,
+                "source_page": 5,
+                "confidence": "high"
+              },
+              {
+                "label": "الاختبار الِّنهائي",
+                "weight": 60,
+                "source_page": 5,
+                "confidence": "high"
+              }
+            ],
+            "assessment_plan_total": 100,
+            "assessment_plan_complete": true,
+            "source_status": "present",
+            "source_clo_row_count": 6,
+            "captured_clo_row_count": 6,
+            "warnings": [
               {
                 "code": "course_name_unresolved",
                 "message": "course name was left null because neither the text layer nor OCR produced a value consistent with the catalog",
@@ -99522,10 +99857,59 @@
                 "code": "plo_column_inferred_from_exact_codes",
                 "message": "the PLO header text was unreadable; selected the unique column containing exact PLO codes in 5/5 CLO blocks",
                 "source_page": 3
+              },
+              {
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
+                "clo_code": "3.1",
+                "clo_index": 5
               }
-            ]
+            ],
+            "extraction_status": "complete",
+            "page_count": 6
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "clos[5].assessment",
+              "value": "التقييم الدوري",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/quran-old-v39/2002326-2.pdf المطابق للبصمة 24064fa09ccc11b56aa5e7fcd58a88fcf024db64011a3b2cb10fe0d5834e162c | الصفحات 3،4 | صف CLO 3.1 ممتد بين صفحتين.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-21T12:00:00+03:00"
+            },
+            {
+              "field": "clos[5].document_plo_codes",
+              "value": [
+                "ق2"
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/quran-old-v39/2002326-2.pdf المطابق للبصمة 24064fa09ccc11b56aa5e7fcd58a88fcf024db64011a3b2cb10fe0d5834e162c | الصفحات 3،4 | صف CLO 3.1 ممتد بين صفحتين.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-21T12:00:00+03:00"
+            },
+            {
+              "field": "clos[5].plo_mappings",
+              "value": [
+                {
+                  "scope": {
+                    "program": "القرآن وعلومه",
+                    "plan_type": "قديمة",
+                    "version": "39",
+                    "degree": "بكالوريوس"
+                  },
+                  "plo_codes": [
+                    "ق2"
+                  ],
+                  "status": "mapped",
+                  "confidence": "verified",
+                  "source_page": 4,
+                  "evidence": "رمز PLO مقروء من الخلية المرئية في صف الاستمرار."
+                }
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/quran-old-v39/2002326-2.pdf المطابق للبصمة 24064fa09ccc11b56aa5e7fcd58a88fcf024db64011a3b2cb10fe0d5834e162c | الصفحات 3،4 | صف CLO 3.1 ممتد بين صفحتين.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-21T12:00:00+03:00"
+            }
+          ],
           "scopes": [
             {
               "degree": "بكالوريوس",
@@ -99536,7 +99920,29 @@
           ],
           "source_pdf": "assets/course-specifications/quran-old-v39/2002326-2.pdf",
           "source_sha256": "24064fa09ccc11b56aa5e7fcd58a88fcf024db64011a3b2cb10fe0d5834e162c",
-          "variant_id": "d0530481e2863766344717d60a74e93eacd1bdf967383e56b30b9387fe2c78f6"
+          "variant_id": "d0530481e2863766344717d60a74e93eacd1bdf967383e56b30b9387fe2c78f6",
+          "source_alignment": {
+            "status": "matches_source_pdf",
+            "label_ar": "مطابق لملف PDF بعد تصحيح الاستخراج",
+            "correction_applied": true,
+            "source_update_recommended": false,
+            "source_sha256": "24064fa09ccc11b56aa5e7fcd58a88fcf024db64011a3b2cb10fe0d5834e162c"
+          },
+          "source_review": {
+            "status": "accepted_as_is",
+            "finding": "استُعيد صف CLO 3.1 الذي يبدأ في صفحة ويكتمل جدوله في الصفحة التالية؛ لا يحتاج PDF إلى تعديل لهذا السبب.",
+            "evidence": {
+              "file": "assets/course-specifications/quran-old-v39/2002326-2.pdf",
+              "pages": [
+                3,
+                4
+              ],
+              "review_method": "تصيير صفحتي جدول CLO المتجاورتين وفحص الرمز والنص وطريقة التقييم وخانة PLO بصريًا مع تثبيت بصمة المصدر.",
+              "sha256_verified": true
+            },
+            "reviewed_at": "2026-09-21T12:00:00+03:00",
+            "source_sha256": "24064fa09ccc11b56aa5e7fcd58a88fcf024db64011a3b2cb10fe0d5834e162c"
+          }
         }
       ]
     },
@@ -109940,250 +110346,341 @@
             "title": "إعجاز القرآن الكريم"
           },
           "extracted": {
-            "assessment_plan": [
-              {
-                "confidence": "high",
-                "label": "التقييم الدوري",
-                "source_page": 5,
-                "weight": 10
-              },
-              {
-                "confidence": "high",
-                "label": "التفاعل الصفي",
-                "source_page": 5,
-                "weight": 10
-              },
-              {
-                "confidence": "high",
-                "label": "الاختبار الِّنصفي",
-                "source_page": 5,
-                "weight": 20
-              },
-              {
-                "confidence": "high",
-                "label": "الاختبار الِّنهائي",
-                "source_page": 5,
-                "weight": 60
-              }
-            ],
-            "assessment_plan_complete": true,
-            "assessment_plan_total": 100,
-            "captured_clo_row_count": 5,
-            "clos": [
-              {
-                "assessment": "الاختبار النصفي؛ الطلبة",
-                "assessment_source_page": 3,
-                "code": "1.1",
-                "confidence": "medium",
-                "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "high",
-                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
-                    "plo_codes": [],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "explicitly_unmapped"
-                  },
-                  {
-                    "confidence": "high",
-                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
-                    "plo_codes": [],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "explicitly_unmapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يوضح الطالب مفهوم إعجاز القرآن ونشأته وأشهر مؤلفاته."
-              },
-              {
-                "assessment": "الاختبار النهائي؛ الطلبة",
-                "assessment_source_page": 3,
-                "code": "1.2",
-                "confidence": "medium",
-                "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "high",
-                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
-                    "plo_codes": [],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "explicitly_unmapped"
-                  },
-                  {
-                    "confidence": "high",
-                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
-                    "plo_codes": [],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "explicitly_unmapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يشرح الطالب مراحل التحدي بالقرآن."
-              },
-              {
-                "assessment": "الاختبار النهائي؛ الطلبة",
-                "assessment_source_page": 3,
-                "code": "1.3",
-                "confidence": "medium",
-                "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "high",
-                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
-                    "plo_codes": [],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "explicitly_unmapped"
-                  },
-                  {
-                    "confidence": "high",
-                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
-                    "plo_codes": [],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "explicitly_unmapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يصف الطالب أنواع الإعجاز في القرآن الكريم."
-              },
-              {
-                "assessment": "التقييمات؛ الدورية؛ الطلبة",
-                "assessment_source_page": 3,
-                "code": "2.1",
-                "confidence": "medium",
-                "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "high",
-                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
-                    "plo_codes": [],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "explicitly_unmapped"
-                  },
-                  {
-                    "confidence": "high",
-                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
-                    "plo_codes": [],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "explicitly_unmapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يحلل الطالب وجوه الإعجاز في نماذج من الآيات القرآنية."
-              },
-              {
-                "assessment": "الاختبار النهائي؛ الطلبة",
-                "assessment_source_page": 3,
-                "code": "2.2",
-                "confidence": "medium",
-                "document_plo_codes": [],
-                "extraction_method": "geometric_pdf",
-                "plo_mappings": [
-                  {
-                    "confidence": "high",
-                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
-                    "plo_codes": [],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "جديدة",
-                      "program": "القرآن وعلومه",
-                      "version": "47"
-                    },
-                    "source_page": 3,
-                    "status": "explicitly_unmapped"
-                  },
-                  {
-                    "confidence": "high",
-                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
-                    "plo_codes": [],
-                    "scope": {
-                      "degree": "بكالوريوس",
-                      "plan_type": "قديمة",
-                      "program": "القرآن وعلومه",
-                      "version": "39"
-                    },
-                    "source_page": 3,
-                    "status": "explicitly_unmapped"
-                  }
-                ],
-                "source_page": 3,
-                "source_status": "present",
-                "text": "أن يقِّيم الطالب الآراء المختلفة حول وجوه إعجاز القرآن."
-              }
-            ],
             "course_name": "إعجاز القرآن الكريم",
             "course_name_metadata": {
               "confidence": "medium",
-              "extraction_method": "page_ocr",
-              "source_page": 1
+              "source_page": 1,
+              "extraction_method": "page_ocr"
             },
-            "extraction_status": "partial",
-            "page_count": 6,
-            "source_clo_row_count": 6,
+            "clos": [
+              {
+                "code": "1.1",
+                "text": "أن يوضح الطالب مفهوم إعجاز القرآن ونشأته وأشهر مؤلفاته.",
+                "source_status": "present",
+                "assessment": "الاختبار النصفي؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [],
+                    "status": "explicitly_unmapped",
+                    "confidence": "high",
+                    "source_page": 3,
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [],
+                    "status": "explicitly_unmapped",
+                    "confidence": "high",
+                    "source_page": 3,
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty"
+                  }
+                ],
+                "document_plo_codes": [],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "1.2",
+                "text": "أن يشرح الطالب مراحل التحدي بالقرآن.",
+                "source_status": "present",
+                "assessment": "الاختبار النهائي؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [],
+                    "status": "explicitly_unmapped",
+                    "confidence": "high",
+                    "source_page": 3,
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [],
+                    "status": "explicitly_unmapped",
+                    "confidence": "high",
+                    "source_page": 3,
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty"
+                  }
+                ],
+                "document_plo_codes": [],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "1.3",
+                "text": "أن يصف الطالب أنواع الإعجاز في القرآن الكريم.",
+                "source_status": "present",
+                "assessment": "الاختبار النهائي؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [],
+                    "status": "explicitly_unmapped",
+                    "confidence": "high",
+                    "source_page": 3,
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [],
+                    "status": "explicitly_unmapped",
+                    "confidence": "high",
+                    "source_page": 3,
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty"
+                  }
+                ],
+                "document_plo_codes": [],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "2.1",
+                "text": "أن يحلل الطالب وجوه الإعجاز في نماذج من الآيات القرآنية.",
+                "source_status": "present",
+                "assessment": "التقييمات؛ الدورية؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [],
+                    "status": "explicitly_unmapped",
+                    "confidence": "high",
+                    "source_page": 3,
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [],
+                    "status": "explicitly_unmapped",
+                    "confidence": "high",
+                    "source_page": 3,
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty"
+                  }
+                ],
+                "document_plo_codes": [],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "2.2",
+                "text": "أن يقِّيم الطالب الآراء المختلفة حول وجوه إعجاز القرآن.",
+                "source_status": "present",
+                "assessment": "الاختبار النهائي؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [],
+                    "status": "explicitly_unmapped",
+                    "confidence": "high",
+                    "source_page": 3,
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": [],
+                    "status": "explicitly_unmapped",
+                    "confidence": "high",
+                    "source_page": 3,
+                    "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty"
+                  }
+                ],
+                "document_plo_codes": [],
+                "confidence": "medium",
+                "source_page": 3,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 3
+              },
+              {
+                "code": "3.1",
+                "text": "أن يبادر الطالب إلى تطوير معرفته بأوجه إعجاز القرآن باستمرار.",
+                "source_status": "present",
+                "assessment": "التقييم الدوري؛ الطلبة",
+                "plo_mappings": [
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "جديدة",
+                      "version": "47",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": null,
+                    "status": "missing",
+                    "confidence": "low",
+                    "source_page": 4,
+                    "evidence": "no unambiguous PLO value was recovered from the published cell"
+                  },
+                  {
+                    "scope": {
+                      "program": "القرآن وعلومه",
+                      "plan_type": "قديمة",
+                      "version": "39",
+                      "degree": "بكالوريوس"
+                    },
+                    "plo_codes": null,
+                    "status": "missing",
+                    "confidence": "low",
+                    "source_page": 4,
+                    "evidence": "no unambiguous PLO value was recovered from the published cell"
+                  }
+                ],
+                "document_plo_codes": [],
+                "confidence": "medium",
+                "source_page": 4,
+                "extraction_method": "geometric_pdf",
+                "assessment_source_page": 4
+              }
+            ],
+            "assessment_plan": [
+              {
+                "label": "التقييم الدوري",
+                "weight": 10,
+                "source_page": 5,
+                "confidence": "high"
+              },
+              {
+                "label": "التفاعل الصفي",
+                "weight": 10,
+                "source_page": 5,
+                "confidence": "high"
+              },
+              {
+                "label": "الاختبار الِّنصفي",
+                "weight": 20,
+                "source_page": 5,
+                "confidence": "high"
+              },
+              {
+                "label": "الاختبار الِّنهائي",
+                "weight": 60,
+                "source_page": 5,
+                "confidence": "high"
+              }
+            ],
+            "assessment_plan_total": 100,
+            "assessment_plan_complete": true,
             "source_status": "present",
+            "source_clo_row_count": 6,
+            "captured_clo_row_count": 6,
             "warnings": [
               {
-                "code": "clo_row_count_mismatch",
-                "message": "the number of captured CLO rows does not equal the number of published rows"
+                "code": "plo_mapping_unresolved",
+                "message": "one or more applicable scopes have no unambiguous PLO mapping",
+                "source_page": 4,
+                "clo_code": "3.1",
+                "clo_index": 5
               }
-            ]
+            ],
+            "extraction_status": "complete",
+            "page_count": 6
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "clos[5].assessment",
+              "value": "التقييم الدوري",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--2ab6b9436e.pdf المطابق للبصمة 80f1f1c217e02a561240c401d904281bd705558f81a158642537e0c26f47e0c9 | الصفحات 3،4 | صف CLO 3.1 ممتد بين صفحتين.",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-21T12:00:00+03:00"
+            },
+            {
+              "field": "clos[5].document_plo_codes",
+              "value": [],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--2ab6b9436e.pdf المطابق للبصمة 80f1f1c217e02a561240c401d904281bd705558f81a158642537e0c26f47e0c9 | الصفحات 3،4 | صف CLO 3.1 ممتد بين صفحتين.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-21T12:00:00+03:00"
+            },
+            {
+              "field": "clos[5].plo_mappings",
+              "value": [
+                {
+                  "scope": {
+                    "program": "القرآن وعلومه",
+                    "plan_type": "جديدة",
+                    "version": "47",
+                    "degree": "بكالوريوس"
+                  },
+                  "plo_codes": [],
+                  "status": "explicitly_unmapped",
+                  "confidence": "verified",
+                  "source_page": 4,
+                  "evidence": "خلية PLO فارغة عمدًا في نسخة المقرر المشترك المنقحة."
+                },
+                {
+                  "scope": {
+                    "program": "القرآن وعلومه",
+                    "plan_type": "قديمة",
+                    "version": "39",
+                    "degree": "بكالوريوس"
+                  },
+                  "plo_codes": [],
+                  "status": "explicitly_unmapped",
+                  "confidence": "verified",
+                  "source_page": 4,
+                  "evidence": "خلية PLO فارغة عمدًا في نسخة المقرر المشترك المنقحة."
+                }
+              ],
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--2ab6b9436e.pdf المطابق للبصمة 80f1f1c217e02a561240c401d904281bd705558f81a158642537e0c26f47e0c9 | الصفحات 3،4 | صف CLO 3.1 ممتد بين صفحتين.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-09-21T12:00:00+03:00"
+            }
+          ],
           "scopes": [
             {
               "degree": "بكالوريوس",
@@ -110200,7 +110697,29 @@
           ],
           "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--2ab6b9436e.pdf",
           "source_sha256": "80f1f1c217e02a561240c401d904281bd705558f81a158642537e0c26f47e0c9",
-          "variant_id": "6431516ffcc438dba811704167e9d54ce883de14faebc2320543d837be6a8141"
+          "variant_id": "6431516ffcc438dba811704167e9d54ce883de14faebc2320543d837be6a8141",
+          "source_alignment": {
+            "status": "source_pdf_gap_confirmed",
+            "label_ar": "بيانات القاعدة مكتملة؛ PDF بحاجة إلى تعديل",
+            "correction_applied": true,
+            "source_update_recommended": true,
+            "source_sha256": "80f1f1c217e02a561240c401d904281bd705558f81a158642537e0c26f47e0c9"
+          },
+          "source_review": {
+            "status": "needs_manual",
+            "finding": "صف CLO 3.1 ما زال يحمل ربط PLO القديم في PDF المنشور، بينما قاعدة JSON الموحدة تعتمد إفراغ ربط المقرر المشترك حتى يحدد داخل سياق البرنامج.",
+            "evidence": {
+              "file": "assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--2ab6b9436e.pdf",
+              "pages": [
+                3,
+                4
+              ],
+              "review_method": "تصيير صفحتي جدول CLO المتجاورتين وفحص الرمز والنص وطريقة التقييم وخانة PLO بصريًا مع تثبيت بصمة المصدر.",
+              "sha256_verified": true
+            },
+            "reviewed_at": "2026-09-21T12:00:00+03:00",
+            "source_sha256": "80f1f1c217e02a561240c401d904281bd705558f81a158642537e0c26f47e0c9"
+          }
         }
       ]
     },
@@ -204904,7 +205423,7 @@
     "pdfplumber": "0.11.9",
     "pymupdf": "1.28.2",
     "script": "scripts/extract_course_outcomes.py",
-    "script_sha256": "2922ce6f43171fa5bbfa423f2fc99a0f5b118ed3f65fb7add67b27d04ad42d67",
+    "script_sha256": "76ec16ed96ecbc1500668315d0d2cf4036d346b64b2e878a6890bbec3a39a20a",
     "tesseract": "5.5.2",
     "version": "1.1.0"
   },
@@ -204915,52 +205434,52 @@
     "sha256": "8bb033755ce39cd7518a8228dcf018ee8b0e595b8c8a0cf940a7ff5c9f2cb22e"
   },
   "statistics": {
+    "source_alignment_counts": {
+      "corrected_from_source_pdf": 4,
+      "matches_source_pdf": 186,
+      "source_pdf_gap_confirmed": 64
+    },
+    "source_review_counts": {
+      "accepted_as_is": 186,
+      "needs_manual": 68
+    },
     "course_codes": 410,
     "variants": 448,
     "active_pdf_sources": 436,
     "excluded_pdf_sources": 165,
-    "complete_variants": 412,
-    "partial_variants": 30,
+    "complete_variants": 418,
+    "partial_variants": 24,
     "failed_variants": 6,
     "variant_source_status_counts": {
       "present": 181,
       "source_blank": 1,
       "unreadable": 266
     },
-    "clos": 3166,
+    "clos": 3172,
     "clo_source_status_counts": {
-      "present": 2469,
+      "present": 2475,
       "source_blank": 1,
       "unreadable": 696
     },
-    "scoped_clo_mappings": 5111,
-    "plo_mappings_with_codes": 2487,
-    "plo_code_assignments": 2511,
+    "scoped_clo_mappings": 5121,
+    "plo_mappings_with_codes": 2493,
+    "plo_code_assignments": 2517,
     "multi_plo_mappings": 22,
-    "plo_non_null": 2487,
+    "plo_non_null": 2493,
     "plo_explicitly_unmapped": 1515,
-    "plo_non_null_rate": 0.486598,
+    "plo_non_null_rate": 0.486819,
     "plo_status_counts": {
-      "mapped": 2487,
-      "explicitly_unmapped": 1515,
-      "not_present_for_scope": 126,
-      "missing": 903,
+      "ambiguous_for_scope": 80,
       "conflict": 0,
-      "ambiguous_for_scope": 80
+      "explicitly_unmapped": 1515,
+      "mapped": 2493,
+      "missing": 907,
+      "not_present_for_scope": 126
     },
-    "plo_applicable_mappings": 3470,
-    "plo_applicable_non_null_rate": 0.716715,
-    "plo_applicable_with_codes_rate": 0.716715,
-    "plo_resolved_or_explicit_rate": 0.802808,
-    "source_alignment_counts": {
-      "corrected_from_source_pdf": 4,
-      "matches_source_pdf": 182,
-      "source_pdf_gap_confirmed": 62
-    },
-    "source_review_counts": {
-      "accepted_as_is": 182,
-      "needs_manual": 66
-    }
+    "plo_applicable_mappings": 3480,
+    "plo_applicable_non_null_rate": 0.716379,
+    "plo_applicable_with_codes_rate": 0.716379,
+    "plo_resolved_or_explicit_rate": 0.802402
   },
   "source_correction_recommendations": [
     {
@@ -205495,6 +206014,21 @@
       "source_sha256": "2d2f70c2bf82584bc192902a37e8fce2de78d58a89c43f08d1f51a65ed17acc9",
       "status": "open",
       "created_at": "2026-09-08"
+    },
+    {
+      "id": "3cd2179d579bd97c023b7c1f30aec6085a29c45237320e812fc0a581bebf3555",
+      "course_code": "2002232-2",
+      "variant_id": "bc0060ca5add7747fd11fda0b9d25c8fa8c7c11cb3404c8353b5cc0e6f536bcf",
+      "fields": [
+        "clos[3.1].plo_mappings"
+      ],
+      "issue_code": "SOURCE_PLO_MAPPING_PENDING_UPDATE",
+      "message": "صف CLO 3.1 ما زال يحمل ربط PLO القديم في PDF المنشور، بينما قاعدة JSON الموحدة تعتمد إفراغ ربط المقرر المشترك حتى يحدد داخل سياق البرنامج.",
+      "recommendation": "تحديث خلية ربط PLO في صف CLO 3.1 داخل PDF الرسمي لتوافق الربط المعتمد في JSON، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002232-2--5593499c29.pdf",
+      "source_sha256": "017e6db4201747c176bb2cdb102e6cd741df3e8ea7b1daef2ae9b64d0fc0e4c4",
+      "status": "open",
+      "created_at": "2026-09-21"
     },
     {
       "id": "3f9b9653bbe3cd26a8613ab54e08c1e02365b4774543b1cbc06a19398a2d3a97",
@@ -206290,6 +206824,21 @@
       "source_sha256": "0ffe7cce4f26697115a5fc3f0a50b8843e94a0dca5dda1d4dff50bd105f16fbb",
       "status": "open",
       "created_at": "2026-09-08"
+    },
+    {
+      "id": "d11c777d77d8bb9e911c9f891f5763c728351ae0086962a8fbcfece1ac3fa5a5",
+      "course_code": "2002456-2",
+      "variant_id": "6431516ffcc438dba811704167e9d54ce883de14faebc2320543d837be6a8141",
+      "fields": [
+        "clos[3.1].plo_mappings"
+      ],
+      "issue_code": "SOURCE_PLO_MAPPING_PENDING_UPDATE",
+      "message": "صف CLO 3.1 ما زال يحمل ربط PLO القديم في PDF المنشور، بينما قاعدة JSON الموحدة تعتمد إفراغ ربط المقرر المشترك حتى يحدد داخل سياق البرنامج.",
+      "recommendation": "تحديث خلية ربط PLO في صف CLO 3.1 داخل PDF الرسمي لتوافق الربط المعتمد في JSON، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--2ab6b9436e.pdf",
+      "source_sha256": "80f1f1c217e02a561240c401d904281bd705558f81a158642537e0c26f47e0c9",
+      "status": "open",
+      "created_at": "2026-09-21"
     },
     {
       "id": "d6c322271724c8ef5c64dbc3af9936edcac48e89b10a27274ca1c723d4ca0502",

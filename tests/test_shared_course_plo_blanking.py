@@ -149,17 +149,25 @@ class SharedCoursePloBlankingTest(unittest.TestCase):
         sources = {record["source"] for record in self.manifest["records"]}
         self.assertTrue(sources.isdisjoint(linked))
 
-    def test_all_published_shared_rows_are_explicitly_unmapped(self):
+    def test_all_published_shared_rows_are_explicitly_unmapped_effectively(self):
         outputs = {record["output"] for record in self.manifest["records"]}
         rows = []
         for course in self.outcomes["courses"].values():
             for variant in course.get("variants", []):
                 if variant["source_pdf"] not in outputs:
                     continue
-                rows.extend(variant["extracted"]["clos"])
+                overrides = {
+                    item["field"]: item["value"]
+                    for item in variant.get("overrides", [])
+                    if isinstance(item, dict)
+                }
+                for index, row in enumerate(variant["extracted"]["clos"]):
+                    rows.append(
+                        overrides.get(f"clos[{index}].plo_mappings", row["plo_mappings"])
+                    )
         self.assertTrue(rows)
-        for row in rows:
-            for mapping in row["plo_mappings"]:
+        for mappings in rows:
+            for mapping in mappings:
                 self.assertEqual("explicitly_unmapped", mapping["status"])
                 self.assertEqual([], mapping["plo_codes"])
 

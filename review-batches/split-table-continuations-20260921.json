@@ -1,0 +1,74 @@
+{
+  "schema_version": "split-table-continuation-review-v1",
+  "reviewed_at": "2026-09-21T12:00:00+03:00",
+  "policy": "Exact-PDF visual review of CLO rows split across adjacent pages; construction is allowed only for the pinned source SHA-256.",
+  "records": [
+    {
+      "course_code": "2002124-2",
+      "variant_id": "369a8ebdbde93a5ebcc520d1774a8b415938d45d0d5e72b01beb2303a2abab27",
+      "source_pdf": "assets/course-specifications/quran-old-v39/2002124-2.pdf",
+      "source_sha256": "7524ed21f60b23ed48473dbae05f52c6132bdb70f3ae4c69be0562a3df7f96bb",
+      "pages": [3, 4],
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بآداب تلاوة القرآن الكريم أثناء الحفظ والتسميع.",
+      "direct_assessment": "التقييمات الدورية"
+    },
+    {
+      "course_code": "2002224-2",
+      "variant_id": "ca0d5061b08b69d05d35aff632806fb8c1b04a3ec707e02232ea1da6875ae556",
+      "source_pdf": "assets/course-specifications/quran-old-v39/2002224-2.pdf",
+      "source_sha256": "f293de8dafc2be63484f7e83d858d7978aa025789664fff7ff8da83c735ee39f",
+      "pages": [3, 4],
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بآداب تلاوة القرآن الكريم أثناء الحفظ والتسميع.",
+      "direct_assessment": "التقييمات الدورية"
+    },
+    {
+      "course_code": "2002232-2",
+      "variant_id": "bc0060ca5add7747fd11fda0b9d25c8fa8c7c11cb3404c8353b5cc0e6f536bcf",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002232-2--5593499c29.pdf",
+      "source_sha256": "017e6db4201747c176bb2cdb102e6cd741df3e8ea7b1daef2ae9b64d0fc0e4c4",
+      "pages": [3, 4],
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بالموضوعية عند دراسة الاختلافات في علوم القرآن.",
+      "direct_assessment": "التقييم الدوري",
+      "reviewed_plo_codes": [],
+      "source_update_required": true,
+      "source_update_reason": "صف CLO 3.1 ما زال يحمل ربط PLO القديم في PDF المنشور، بينما قاعدة JSON الموحدة تعتمد إفراغ ربط المقرر المشترك حتى يحدد داخل سياق البرنامج."
+    },
+    {
+      "course_code": "2002325-2",
+      "variant_id": "8bbb6958da2d36172855a1b94cecd76dfef51ca8e381ef8082e0e2569f37c9b2",
+      "source_pdf": "assets/course-specifications/quran-old-v39/2002325-2.pdf",
+      "source_sha256": "875707c0195289d63e367a99ae899582d2d6e2f304e7187aee136de7ddd6299c",
+      "pages": [3, 4],
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بآداب تلاوة القرآن الكريم أثناء الحفظ والتسميع.",
+      "direct_assessment": "التقييمات الدورية"
+    },
+    {
+      "course_code": "2002326-2",
+      "variant_id": "d0530481e2863766344717d60a74e93eacd1bdf967383e56b30b9387fe2c78f6",
+      "source_pdf": "assets/course-specifications/quran-old-v39/2002326-2.pdf",
+      "source_sha256": "24064fa09ccc11b56aa5e7fcd58a88fcf024db64011a3b2cb10fe0d5834e162c",
+      "pages": [3, 4],
+      "clo_code": "3.1",
+      "clo_text": "أن يبادر الطالب إلى تطوير مهاراته في تلاوة وفهم القرآن باستمرار.",
+      "direct_assessment": "التقييم الدوري",
+      "reviewed_plo_codes": ["ق2"]
+    },
+    {
+      "course_code": "2002456-2",
+      "variant_id": "6431516ffcc438dba811704167e9d54ce883de14faebc2320543d837be6a8141",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--2ab6b9436e.pdf",
+      "source_sha256": "80f1f1c217e02a561240c401d904281bd705558f81a158642537e0c26f47e0c9",
+      "pages": [3, 4],
+      "clo_code": "3.1",
+      "clo_text": "أن يبادر الطالب إلى تطوير معرفته بأوجه إعجاز القرآن باستمرار.",
+      "direct_assessment": "التقييم الدوري",
+      "reviewed_plo_codes": [],
+      "source_update_required": true,
+      "source_update_reason": "صف CLO 3.1 ما زال يحمل ربط PLO القديم في PDF المنشور، بينما قاعدة JSON الموحدة تعتمد إفراغ ربط المقرر المشترك حتى يحدد داخل سياق البرنامج."
+    }
+  ]
+}

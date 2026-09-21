@@ -27,7 +27,7 @@ TOUNICODE_TEXTS = {
     "3.1": "أن يتعاون الطالب مع زملائه في دراسة حقوق الإنسان وبيان دورها في الأمن الاجتماعي",
     "3.2": "أن يستخدم الطالب ما تعلمه من أحكام فقهية حول حقوق الإنسان لبيان سماحة التشريع الإسلامي.",
 }
-UNREVIEWED_SPLIT = "2002124-2"
+REVIEWED_SPLIT = "2002124-2"
 
 
 class PublishedGapRegressionTests(unittest.TestCase):
@@ -38,7 +38,7 @@ class PublishedGapRegressionTests(unittest.TestCase):
         wanted = set(PAGE_BREAK_DROPPED) | {
             "2004414-2",
             "2004111-2",
-            UNREVIEWED_SPLIT,
+            REVIEWED_SPLIT,
         }
         cls.extracted = {}
         for variant in extractor.logical_variants(data):
@@ -76,14 +76,18 @@ class PublishedGapRegressionTests(unittest.TestCase):
                     extracted["captured_clo_row_count"],
                 )
 
-    def test_unreviewed_split_is_counted_but_not_falsely_complete(self):
-        extracted = self.extracted[UNREVIEWED_SPLIT]
-        self.assertEqual("partial", extracted["extraction_status"])
-        self.assertGreater(
-            extracted["source_clo_row_count"],
-            extracted["captured_clo_row_count"],
+    def test_reviewed_split_recovers_the_continuation_row(self):
+        extracted = self.extracted[REVIEWED_SPLIT]
+        rows = {row["code"]: row for row in extracted["clos"]}
+        self.assertEqual("complete", extracted["extraction_status"])
+        self.assertEqual(6, extracted["source_clo_row_count"])
+        self.assertEqual(6, extracted["captured_clo_row_count"])
+        self.assertEqual(
+            "أن يلتزم الطالب بآداب تلاوة القرآن الكريم أثناء الحفظ والتسميع.",
+            rows["3.1"]["text"],
         )
-        self.assertTrue(
+        self.assertEqual(["ق1"], rows["3.1"]["document_plo_codes"])
+        self.assertFalse(
             any(
                 warning["code"] == "clo_row_count_mismatch"
                 for warning in extracted["warnings"]
