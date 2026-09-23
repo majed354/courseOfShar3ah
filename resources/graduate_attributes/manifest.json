@@ -1,0 +1,31 @@
+{
+  "schema_version": "graduate-attributes-bundle-v1",
+  "repository": "https://github.com/majed354/courseOfShar3ah",
+  "branch": "graduate-attributes-reference",
+  "files": {
+    "reference.json": {
+      "sha256": "7f9353f9fd428cfc05fd0d76e9e9ebc04abed97310c9f97d93fa8eb32447ce68",
+      "bytes": 339634
+    },
+    "schema.json": {
+      "sha256": "ae5d07941f97ef81a5cb19a6586531dadbcd88d33b9102e639fe967d080b9da1",
+      "bytes": 5512
+    },
+    "progress.json": {
+      "sha256": "cf4922a53faa15809209468b2198658473ab68db7879e2d2c08c87948d4d4461",
+      "bytes": 8481
+    },
+    "source-index.json": {
+      "sha256": "e1a36f49f1c346b9a802fee1faccdc34e9d6129142928c0410c43daba403343d",
+      "bytes": 14515
+    },
+    "README.md": {
+      "sha256": "c00cf57248570ea591f4eb4e299ec349867bf47ba51509d1ab61ebd5d3ed54b9",
+      "bytes": 5402
+    },
+    "TUGA-2.pdf": {
+      "sha256": "597f71cc8c0865284999416b3959e72b8a87230f8a60d120b83c36316392d8fe",
+      "bytes": 3906090
+    }
+  }
+}
