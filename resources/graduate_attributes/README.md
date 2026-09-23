@@ -3,7 +3,8 @@
 النسخة المحفوظة في GitHub: فرع البيانات المستقل
 [`graduate-attributes-reference`](https://github.com/majed354/courseOfShar3ah/tree/graduate-attributes-reference/resources/graduate_attributes).
 هذا الفرع ليس فرع الموقع `main`، ولا تُضاف ملفات المرجع إلى واجهة الموقع أو ملفات نشره.
-تقرأ الأتمتة `manifest.json` ثم `reference.json` من الفرع كل 15 دقيقة أثناء تشغيلها،
+تقرأ الأتمتة `manifest.json` ثم `reference.json` من الفرع عند استخدام المرجع،
+وتعيد الفحص عند الاستخدام إذا مضت 15 دقيقة على آخر فحص،
 وتتحقق من بصمة الملف ومخططه وبصمات التوصيفات المحلية قبل إحلال النسخة الجديدة.
 عند تعذر الاتصال تبقى آخر نسخة محلية سليمة مستخدمة. يبين `source-index.json`
 أي نسخ توصيف منشورة بالفعل في `main` (16 نسخة)، وأي نسخ بقيت مصادرها في
