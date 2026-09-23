@@ -1009,6 +1009,29 @@
     width: auto;
 }
 
+.specification-download-status {
+    position: fixed;
+    z-index: 1200;
+    inset-inline: 1rem;
+    bottom: 1rem;
+    max-width: 480px;
+    margin-inline: auto;
+    padding: 1rem;
+    border-radius: var(--radius-sm);
+    background: #fff;
+    color: var(--text-dark);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.22);
+    display: none;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.specification-download-status.active { display: flex; }
+.specification-download-status button { cursor: pointer; }
+.specification-zip-button:disabled { opacity: 0.55; cursor: wait; }
+.download-note { color: var(--text-muted); font-size: 0.85rem; text-align: center; margin: 0.5rem 0 0; }
+
         .download-btn {
             display: inline-flex;
             align-items: center;
@@ -1739,6 +1762,9 @@
             </div>
 
 <div class="global-actions">
+    <button class="download-btn specification-zip-button" style="background:#6941A5;color:#fff;" onclick="downloadSpecificationZip()">
+        تنزيل توصيفات جميع البرامج ZIP
+    </button>
     <button class="download-btn" style="background:#0EA5E9;color:#fff;" onclick="downloadAllCSV()">
         <svg viewBox="0 0 24 24" fill="currentColor">
             <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm1 7V3.5L19.5 9H15zM8 13h8v2H8v-2zm0 4h8v2H8v-2z"/>
@@ -1757,6 +1783,11 @@
         </svg>
         استعادة البيانات الأصلية
     </button>
+</div>
+<p class="download-note">تشمل الحزمة ملفات PDF المتاحة، مع قائمة بالمقررات التي لا يتوفر لها توصيف.</p>
+<div class="specification-download-status" id="specificationDownloadStatus" role="status" aria-live="polite">
+    <span id="specificationDownloadMessage"></span>
+    <button type="button" onclick="cancelSpecificationDownload()">إلغاء</button>
 </div>
 
             <div class="search-results" id="searchResults">
@@ -1828,6 +1859,7 @@
         </div>
     </footer>
 
+    <script src="assets/js/zip-store.js"></script>
     <script>
         const EDIT_PASSWORD = '140505';
         const LOCAL_STORAGE_KEY = 'courseOfShar3ah_custom_data_v3';
@@ -1848,6 +1880,7 @@
         let equivalencyRulesBySource = new Map();
         let equivalencyUiState = new Map();
         let lastCourseDetailsTrigger = null;
+        let specificationDownloadController = null;
 
         function deepClone(value) {
             return JSON.parse(JSON.stringify(value));
@@ -3877,6 +3910,9 @@
 
             let html = `
                 <div class="download-actions">
+                    <button type="button" class="download-btn specification-zip-button" style="background:#6941A5;color:#fff;" onclick="downloadSpecificationZip(${currentProgramIndex})" ${specificationDownloadController ? 'disabled' : ''}>
+                        تنزيل توصيفات مقررات هذه الخطة ZIP
+                    </button>
                     <button type="button" class="download-btn pdf" onclick="printPlanOnly()" aria-label="طباعة الخطة أو حفظها بصيغة PDF">
                         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                             <path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/>
@@ -3906,6 +3942,7 @@
                         <button class="download-btn save-edit" onclick="saveEditsNow()">حفظ التعديلات</button>
                     ` : ''}
                 </div>
+                <p class="download-note">تشمل الحزمة التوصيفات المتاحة لهذه الخطة، مع قائمة بالمقررات التي لا يتوفر لها توصيف.</p>
             `;
 
             if (editModeEnabled) {
@@ -4167,6 +4204,167 @@
         window.addEventListener('afterprint', () => {
             document.body.classList.remove('print-plan');
         });
+
+        function safeZipName(value) {
+            return normalizeText(value)
+                .replace(/[\\/:*?"<>|\u0000-\u001F\u007F]/g, ' - ')
+                .replace(/[. ]+$/g, '')
+                .slice(0, 110) || 'بلا اسم';
+        }
+
+        function buildSpecificationArchive(programs) {
+            const entries = [];
+            const unavailable = [];
+            const usedPaths = new Set();
+
+            programs.forEach(program => {
+                const programFolder = safeZipName(`${program.name} - ${canonicalDegreeLabel(program.degree)}`);
+                const planFolder = safeZipName(`الخطة ${program.plan_type || 'غير محددة'} (إصدار ${program.version || 'غير محدد'})`);
+                const context = buildProgramContext(program);
+                const { coursesByLevel, outsideOptionals, levelNumbers } = splitCoursesByLocation(program);
+                const groups = levelNumbers.map(level => [getLevelTitle(level), coursesByLevel[level]]);
+                if (outsideOptionals.length) groups.push(['مقررات اختيارية خارج المستويات', outsideOptionals]);
+
+                groups.forEach(([levelTitle, items]) => items.forEach(({ course }) => {
+                    const details = getCourseDetails(course.code, context, course.name);
+                    const url = sanitizeResourceUrl(details && details.pdf_url);
+                    if (!url) {
+                        unavailable.push([program.name, canonicalDegreeLabel(program.degree), program.plan_type || '',
+                            program.version || '', levelTitle, course.code || '', course.name || '']);
+                        return;
+                    }
+                    const basePath = `${programFolder}/${planFolder}/${safeZipName(levelTitle)}/${safeZipName(course.code)} - ${safeZipName(course.name)}`;
+                    let path = `${basePath}.pdf`;
+                    let duplicate = 2;
+                    while (usedPaths.has(path)) path = `${basePath} (${duplicate++}).pdf`;
+                    usedPaths.add(path);
+                    entries.push({ path, url });
+                }));
+            });
+            return { entries, unavailable };
+        }
+
+        function csvCell(value) {
+            return `"${String(value ?? '').replace(/"/g, '""')}"`;
+        }
+
+        function showSpecificationDownloadStatus(message) {
+            document.getElementById('specificationDownloadMessage').textContent = message;
+            document.getElementById('specificationDownloadStatus').classList.add('active');
+        }
+
+        function cancelSpecificationDownload() {
+            if (specificationDownloadController) specificationDownloadController.abort();
+        }
+
+        async function downloadSpecificationZip(programIndex = null) {
+            if (specificationDownloadController || !programsData) return;
+            const programs = programIndex === null
+                ? programsData.programs
+                : [programsData.programs[programIndex]].filter(Boolean);
+            if (!programs.length) return;
+            const archive = buildSpecificationArchive(programs);
+            const allPrograms = programIndex === null;
+            const filename = allPrograms
+                ? 'توصيفات مقررات جميع البرامج.zip'
+                : `توصيفات مقررات ${safeZipName(programs[0].name)} - ${safeZipName(programs[0].plan_type)} - ${safeZipName(programs[0].version)}.zip`;
+            const controller = new AbortController();
+            specificationDownloadController = controller;
+            document.querySelectorAll('.specification-zip-button').forEach(button => { button.disabled = true; });
+            document.querySelector('#specificationDownloadStatus button').hidden = false;
+            let sink = null;
+            let temporaryDirectory = null;
+            let temporaryName = '';
+            const chunks = [];
+            try {
+                showSpecificationDownloadStatus('جاري تجهيز مساحة الحزمة…');
+                if (navigator.storage && navigator.storage.getDirectory) {
+                    try {
+                        temporaryDirectory = await navigator.storage.getDirectory();
+                        temporaryName = `course-specifications-${Date.now()}-${Math.random().toString(36).slice(2)}.zip`;
+                        const handle = await temporaryDirectory.getFileHandle(temporaryName, { create: true });
+                        sink = await handle.createWritable();
+                    } catch (storageError) {
+                        console.warn('Browser storage unavailable; using memory for ZIP:', storageError);
+                        if (temporaryDirectory && temporaryName) {
+                            await temporaryDirectory.removeEntry(temporaryName).catch(() => {});
+                        }
+                        temporaryDirectory = null;
+                        temporaryName = '';
+                    }
+                }
+                if (!sink) {
+                    sink = {
+                        write: async bytes => { chunks.push(bytes); },
+                        close: async () => {},
+                        abort: async () => { chunks.length = 0; }
+                    };
+                }
+                const zip = new ZipStore(sink);
+                for (let i = 0; i < archive.entries.length; i += 1) {
+                    if (controller.signal.aborted) throw new DOMException('أُلغي التنزيل', 'AbortError');
+                    const entry = archive.entries[i];
+                    showSpecificationDownloadStatus(`جاري تجهيز التوصيف ${i + 1} من ${archive.entries.length}…`);
+                    const response = await fetch(entry.url, { signal: controller.signal });
+                    if (!response.ok) throw new Error(`تعذر تحميل ${entry.path} (HTTP ${response.status})`);
+                    const bytes = new Uint8Array(await response.arrayBuffer());
+                    if (bytes.length < 5 || String.fromCharCode(...bytes.subarray(0, 5)) !== '%PDF-') {
+                        throw new Error(`الملف ليس PDF صالحًا: ${entry.path}`);
+                    }
+                    await zip.add(entry.path, bytes);
+                }
+                if (controller.signal.aborted) throw new DOMException('أُلغي التنزيل', 'AbortError');
+                const description = [
+                    'حزمة توصيفات مقررات كلية الشريعة والأنظمة',
+                    `عدد الخطط: ${programs.length}`,
+                    `عدد ملفات PDF: ${archive.entries.length}`,
+                    `مقررات بلا توصيف متاح: ${archive.unavailable.length}`,
+                    '',
+                    'نُظمت الملفات حسب البرنامج والدرجة والخطة والمستوى، وفق روابط التوصيف المعروضة في الموقع.',
+                    'إذا وُجدت مقررات بلا توصيف، فستظهر في ملف «ملفات التوصيف غير المتاحة.csv».',
+                    ''
+                ].join('\n');
+                await zip.add('اقرأني.txt', description);
+                if (archive.unavailable.length) {
+                    const rows = [
+                        ['البرنامج', 'الدرجة', 'الخطة', 'الإصدار', 'المستوى', 'رمز المقرر', 'اسم المقرر'],
+                        ...archive.unavailable
+                    ];
+                    await zip.add('ملفات التوصيف غير المتاحة.csv', '\uFEFF' + rows.map(row => row.map(csvCell).join(',')).join('\r\n'));
+                }
+                showSpecificationDownloadStatus('جاري إنهاء الحزمة…');
+                await zip.close();
+                const blob = temporaryDirectory
+                    ? await (await temporaryDirectory.getFileHandle(temporaryName)).getFile()
+                    : new Blob(chunks, { type: 'application/zip' });
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = filename;
+                document.body.appendChild(link);
+                link.click();
+                link.remove();
+                setTimeout(() => {
+                    URL.revokeObjectURL(url);
+                    if (temporaryDirectory) temporaryDirectory.removeEntry(temporaryName).catch(() => {});
+                }, 60000);
+                showSpecificationDownloadStatus(`اكتملت الحزمة: ${archive.entries.length} توصيفًا، و${archive.unavailable.length} مقررًا بلا توصيف.`);
+                setTimeout(() => document.getElementById('specificationDownloadStatus').classList.remove('active'), 8000);
+            } catch (error) {
+                if (sink && sink.abort) await sink.abort().catch(() => {});
+                if (temporaryDirectory && temporaryName) await temporaryDirectory.removeEntry(temporaryName).catch(() => {});
+                if (error.name === 'AbortError') {
+                    showSpecificationDownloadStatus('أُلغي تجهيز الحزمة.');
+                } else {
+                    console.error('Specification ZIP download failed:', error);
+                    showSpecificationDownloadStatus(`تعذر تجهيز الحزمة: ${error.message}`);
+                }
+            } finally {
+                specificationDownloadController = null;
+                document.querySelector('#specificationDownloadStatus button').hidden = true;
+                document.querySelectorAll('.specification-zip-button').forEach(button => { button.disabled = false; });
+            }
+        }
 
         function downloadCSV() {
             const program = getCurrentProgram();
