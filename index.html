@@ -1762,8 +1762,8 @@
             </div>
 
 <div class="global-actions">
-    <button class="download-btn specification-zip-button" style="background:#6941A5;color:#fff;" onclick="downloadSpecificationZip()">
-        تنزيل توصيفات جميع البرامج ZIP
+    <button id="allSpecificationZipsButton" class="download-btn specification-zip-button" style="background:#6941A5;color:#fff;" onclick="downloadAllProgramsSeparately()">
+        تنزيل توصيفات كل برنامج على حدة ZIP
     </button>
     <button class="download-btn" style="background:#0EA5E9;color:#fff;" onclick="downloadAllCSV()">
         <svg viewBox="0 0 24 24" fill="currentColor">
@@ -1784,7 +1784,7 @@
         استعادة البيانات الأصلية
     </button>
 </div>
-<p class="download-note">تشمل الحزمة ملفات PDF المتاحة، مع قائمة بالمقررات التي لا يتوفر لها توصيف.</p>
+<p class="download-note">ضغطة واحدة تبدأ تنزيل ملف ZIP مستقل لكل برنامج. يمكن استئناف الباقي بعد انقطاع الاتصال، وقد يطلب المتصفح السماح بتنزيل ملفات متعددة.</p>
 <div class="specification-download-status" id="specificationDownloadStatus" role="status" aria-live="polite">
     <span id="specificationDownloadMessage"></span>
     <button type="button" onclick="cancelSpecificationDownload()">إلغاء</button>
@@ -1881,6 +1881,8 @@
         let equivalencyUiState = new Map();
         let lastCourseDetailsTrigger = null;
         let specificationDownloadController = null;
+        let specificationStatusTimer = null;
+        const SPECIFICATION_BATCH_KEY = 'courseSpecificationProgramBatch_v1';
 
         function deepClone(value) {
             return JSON.parse(JSON.stringify(value));
@@ -3225,6 +3227,7 @@
                 sanitizeDataShape(programsData);
                 rebuildCourseIndexes();
                 initializeUI();
+                updateAllProgramsDownloadLabel();
             } catch (error) {
                 console.error('Error loading data:', error);
                 document.getElementById('programsGrid').innerHTML = `
@@ -4244,34 +4247,160 @@
             return { entries, unavailable };
         }
 
+        function groupProgramsForSpecificationDownload(programs) {
+            const groups = new Map();
+            programs.forEach(program => {
+                const label = `${normalizeText(program.name)} - ${canonicalDegreeLabel(program.degree)}`;
+                if (!groups.has(label)) groups.set(label, { label, programs: [] });
+                groups.get(label).programs.push(program);
+            });
+            return Array.from(groups.values()).map(group => ({
+                ...group,
+                archive: buildSpecificationArchive(group.programs)
+            })).sort((a, b) => a.archive.entries.length - b.archive.entries.length || a.label.localeCompare(b.label, 'ar'));
+        }
+
+        function specificationBatchSignature(groups) {
+            return groups.map(group => `${group.label}:${group.programs.map(program =>
+                `${program.id}-${program.plan_type}-${program.version}-${program.courses.length}`).join(',')}`).join('|');
+        }
+
+        function readSpecificationBatchProgress(groups) {
+            try {
+                const state = JSON.parse(sessionStorage.getItem(SPECIFICATION_BATCH_KEY) || 'null');
+                if (state && state.signature === specificationBatchSignature(groups) && Array.isArray(state.completed)) {
+                    return state.completed.filter(label => groups.some(group => group.label === label));
+                }
+            } catch (error) {
+                console.warn('Could not read ZIP batch progress:', error);
+            }
+            return [];
+        }
+
+        function saveSpecificationBatchProgress(groups, completed) {
+            try {
+                sessionStorage.setItem(SPECIFICATION_BATCH_KEY, JSON.stringify({
+                    signature: specificationBatchSignature(groups),
+                    completed
+                }));
+            } catch (error) {
+                console.warn('Could not save ZIP batch progress:', error);
+            }
+        }
+
+        function updateAllProgramsDownloadLabel() {
+            if (!programsData || !programsData.programs) return;
+            const button = document.getElementById('allSpecificationZipsButton');
+            if (!button) return;
+            const groups = groupProgramsForSpecificationDownload(programsData.programs);
+            const completed = readSpecificationBatchProgress(groups);
+            button.textContent = completed.length
+                ? `استئناف تنزيل بقية البرامج ZIP (${groups.length - completed.length})`
+                : 'تنزيل توصيفات كل برنامج على حدة ZIP';
+        }
+
         function csvCell(value) {
             return `"${String(value ?? '').replace(/"/g, '""')}"`;
         }
 
         function showSpecificationDownloadStatus(message) {
+            if (specificationStatusTimer) clearTimeout(specificationStatusTimer);
             document.getElementById('specificationDownloadMessage').textContent = message;
             document.getElementById('specificationDownloadStatus').classList.add('active');
+        }
+
+        function hideSpecificationDownloadStatusLater() {
+            specificationStatusTimer = setTimeout(() => {
+                document.getElementById('specificationDownloadStatus').classList.remove('active');
+            }, 10000);
         }
 
         function cancelSpecificationDownload() {
             if (specificationDownloadController) specificationDownloadController.abort();
         }
 
-        async function downloadSpecificationZip(programIndex = null) {
+        async function fetchSpecificationPdf(entry, signal) {
+            for (let attempt = 1; attempt <= 3; attempt += 1) {
+                if (signal.aborted) throw new DOMException('أُلغي التنزيل', 'AbortError');
+                try {
+                    const response = await fetch(entry.url, { signal });
+                    if (!response.ok) {
+                        const error = new Error(`تعذر تحميل ${entry.path} (HTTP ${response.status})`);
+                        error.retryable = response.status === 429 || response.status >= 500;
+                        throw error;
+                    }
+                    const bytes = new Uint8Array(await response.arrayBuffer());
+                    if (bytes.length < 5 || String.fromCharCode(...bytes.subarray(0, 5)) !== '%PDF-') {
+                        throw new Error(`الملف ليس PDF صالحًا: ${entry.path}`);
+                    }
+                    return bytes;
+                } catch (error) {
+                    if (signal.aborted || error.name === 'AbortError') throw error;
+                    if (attempt === 3 || (error.retryable === false) ||
+                        (error.retryable !== true && !(error instanceof TypeError))) throw error;
+                    showSpecificationDownloadStatus(`انقطع تحميل ${entry.path}؛ إعادة المحاولة ${attempt} من 2…`);
+                    await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
+                }
+            }
+        }
+
+        async function downloadAllProgramsSeparately() {
             if (specificationDownloadController || !programsData) return;
-            const programs = programIndex === null
-                ? programsData.programs
-                : [programsData.programs[programIndex]].filter(Boolean);
-            if (!programs.length) return;
-            const archive = buildSpecificationArchive(programs);
-            const allPrograms = programIndex === null;
-            const filename = allPrograms
-                ? 'توصيفات مقررات جميع البرامج.zip'
-                : `توصيفات مقررات ${safeZipName(programs[0].name)} - ${safeZipName(programs[0].plan_type)} - ${safeZipName(programs[0].version)}.zip`;
+            const groups = groupProgramsForSpecificationDownload(programsData.programs);
+            if (!groups.length) return;
+            const completed = new Set(readSpecificationBatchProgress(groups));
             const controller = new AbortController();
             specificationDownloadController = controller;
             document.querySelectorAll('.specification-zip-button').forEach(button => { button.disabled = true; });
             document.querySelector('#specificationDownloadStatus button').hidden = false;
+            try {
+                for (let i = 0; i < groups.length; i += 1) {
+                    const group = groups[i];
+                    if (completed.has(group.label)) continue;
+                    if (controller.signal.aborted) break;
+                    const success = await downloadSpecificationZip(null, {
+                        programs: group.programs,
+                        archive: group.archive,
+                        filename: `توصيفات مقررات ${safeZipName(group.label)}.zip`,
+                        progressLabel: `${group.label} — البرنامج ${i + 1} من ${groups.length}`,
+                        controller
+                    });
+                    if (!success) break;
+                    completed.add(group.label);
+                    saveSpecificationBatchProgress(groups, Array.from(completed));
+                    updateAllProgramsDownloadLabel();
+                }
+                if (completed.size === groups.length) {
+                    try { sessionStorage.removeItem(SPECIFICATION_BATCH_KEY); } catch (error) { console.warn(error); }
+                    showSpecificationDownloadStatus(`بدأ تنزيل ${groups.length} حزمة مستقلة، واحدة لكل برنامج.`);
+                } else if (controller.signal.aborted) {
+                    showSpecificationDownloadStatus(`أُلغي التنزيل بعد ${completed.size} من ${groups.length}. اضغط الزر لاستئناف الباقي.`);
+                } else {
+                    showSpecificationDownloadStatus(`توقف التنزيل بعد ${completed.size} من ${groups.length}. تحقق من الاتصال ثم اضغط الزر لاستئناف الباقي.`);
+                }
+            } finally {
+                specificationDownloadController = null;
+                document.querySelector('#specificationDownloadStatus button').hidden = true;
+                document.querySelectorAll('.specification-zip-button').forEach(button => { button.disabled = false; });
+                updateAllProgramsDownloadLabel();
+                hideSpecificationDownloadStatusLater();
+            }
+        }
+
+        async function downloadSpecificationZip(programIndex = null, batch = null) {
+            if ((!batch && specificationDownloadController) || !programsData) return false;
+            const programs = batch ? batch.programs : [programsData.programs[programIndex]].filter(Boolean);
+            if (!programs.length) return false;
+            const archive = batch ? batch.archive : buildSpecificationArchive(programs);
+            const filename = batch
+                ? batch.filename
+                : `توصيفات مقررات ${safeZipName(programs[0].name)} - ${safeZipName(programs[0].plan_type)} - ${safeZipName(programs[0].version)}.zip`;
+            const controller = batch ? batch.controller : new AbortController();
+            if (!batch) {
+                specificationDownloadController = controller;
+                document.querySelectorAll('.specification-zip-button').forEach(button => { button.disabled = true; });
+                document.querySelector('#specificationDownloadStatus button').hidden = false;
+            }
             let sink = null;
             let temporaryDirectory = null;
             let temporaryName = '';
@@ -4304,13 +4433,9 @@
                 for (let i = 0; i < archive.entries.length; i += 1) {
                     if (controller.signal.aborted) throw new DOMException('أُلغي التنزيل', 'AbortError');
                     const entry = archive.entries[i];
-                    showSpecificationDownloadStatus(`جاري تجهيز التوصيف ${i + 1} من ${archive.entries.length}…`);
-                    const response = await fetch(entry.url, { signal: controller.signal });
-                    if (!response.ok) throw new Error(`تعذر تحميل ${entry.path} (HTTP ${response.status})`);
-                    const bytes = new Uint8Array(await response.arrayBuffer());
-                    if (bytes.length < 5 || String.fromCharCode(...bytes.subarray(0, 5)) !== '%PDF-') {
-                        throw new Error(`الملف ليس PDF صالحًا: ${entry.path}`);
-                    }
+                    const prefix = batch ? `${batch.progressLabel} — ` : '';
+                    showSpecificationDownloadStatus(`${prefix}جاري تجهيز التوصيف ${i + 1} من ${archive.entries.length}…`);
+                    const bytes = await fetchSpecificationPdf(entry, controller.signal);
                     await zip.add(entry.path, bytes);
                 }
                 if (controller.signal.aborted) throw new DOMException('أُلغي التنزيل', 'AbortError');
@@ -4348,8 +4473,11 @@
                     URL.revokeObjectURL(url);
                     if (temporaryDirectory) temporaryDirectory.removeEntry(temporaryName).catch(() => {});
                 }, 60000);
-                showSpecificationDownloadStatus(`اكتملت الحزمة: ${archive.entries.length} توصيفًا، و${archive.unavailable.length} مقررًا بلا توصيف.`);
-                setTimeout(() => document.getElementById('specificationDownloadStatus').classList.remove('active'), 8000);
+                if (!batch) {
+                    showSpecificationDownloadStatus(`بدأ تنزيل الحزمة: ${archive.entries.length} توصيفًا، و${archive.unavailable.length} مقررًا بلا توصيف.`);
+                    hideSpecificationDownloadStatusLater();
+                }
+                return true;
             } catch (error) {
                 if (sink && sink.abort) await sink.abort().catch(() => {});
                 if (temporaryDirectory && temporaryName) await temporaryDirectory.removeEntry(temporaryName).catch(() => {});
@@ -4359,10 +4487,13 @@
                     console.error('Specification ZIP download failed:', error);
                     showSpecificationDownloadStatus(`تعذر تجهيز الحزمة: ${error.message}`);
                 }
+                return false;
             } finally {
-                specificationDownloadController = null;
-                document.querySelector('#specificationDownloadStatus button').hidden = true;
-                document.querySelectorAll('.specification-zip-button').forEach(button => { button.disabled = false; });
+                if (!batch) {
+                    specificationDownloadController = null;
+                    document.querySelector('#specificationDownloadStatus button').hidden = true;
+                    document.querySelectorAll('.specification-zip-button').forEach(button => { button.disabled = false; });
+                }
             }
         }
 
