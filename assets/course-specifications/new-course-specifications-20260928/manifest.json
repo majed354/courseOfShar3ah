@@ -1,0 +1,24 @@
+{
+  "schema_version": "course-specification-import-v1",
+  "reviewed_at": "2026-09-28",
+  "source_archive": "توصيفات المقررات الجديدة/OneDrive_1_28-9-2026.zip",
+  "source_archive_sha256": "2935c9749d7c893d926dc28d14b07827a1ed90830fa94f9c80b0a02860f50a42",
+  "source_member": "التخريج ودراسة الأسانيد للدراسات الإسلامية.pdf",
+  "duplicate_member_same_bytes": "التخريج ودراسة الأسانيد للدراسات الإسلامية.pdf",
+  "source_pdf_sha256": "58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e",
+  "output_file": "assets/course-specifications/new-course-specifications-20260928/2004269-4.pdf",
+  "output_sha256": "58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e",
+  "page_count": 12,
+  "course_code": "2004269-4",
+  "course_title": "التخريج ودراسة الأسانيد",
+  "scope": {
+    "program": "الدراسات الإسلامية",
+    "degree": "بكالوريوس",
+    "plan_type": "جديدة",
+    "version": "47"
+  },
+  "hours": 4,
+  "level": 7,
+  "decision": "verified_exact_match",
+  "basis": "تطابق الرمز والاسم والبرنامج والساعات الأربع والمستوى السابع بين غلاف المصدر والصفحة الثالثة وخطة الدراسات الإسلامية الجديدة 47؛ حفظ PDF دون تعديل."
+}

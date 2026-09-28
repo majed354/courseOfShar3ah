@@ -185524,6 +185524,614 @@
         }
       ]
     },
+    "2004269-4": {
+      "variants": [
+        {
+          "catalog": {
+            "match_note": "تطابق الرمز والاسم والبرنامج وأربع ساعات والمستوى السابع مع خطة بكالوريوس الدراسات الإسلامية الجديدة، الإصدار 47. المصدر محفوظ دون تعديل؛ بصمته موثقة في manifest.",
+            "match_status": "verified",
+            "specification_code": "2004269-4",
+            "summary": "يعرّف بطرق تخريج الحديث ومصادره وصياغته، ويدرب على دراسة الأسانيد والرواة والحكم على الحديث.",
+            "title": "التخريج ودراسة الأسانيد"
+          },
+          "extracted": {
+            "assessment_plan": [
+              {
+                "confidence": "high",
+                "label": "التعلم التعاوني - ورش عمل – خرائط ذهنية",
+                "source_page": 10,
+                "weight": 5
+              },
+              {
+                "confidence": "high",
+                "label": "مشروع تخريج الحديث",
+                "source_page": 10,
+                "weight": 5
+              },
+              {
+                "confidence": "high",
+                "label": "الاختبارالتحريري النصفي",
+                "source_page": 10,
+                "weight": 20
+              },
+              {
+                "confidence": "high",
+                "label": "التخريج ودراسة الإسناد الفردي",
+                "source_page": 10,
+                "weight": 10
+              },
+              {
+                "confidence": "high",
+                "label": "الاختبارالنهائي",
+                "source_page": 10,
+                "weight": 60
+              }
+            ],
+            "assessment_plan_complete": true,
+            "assessment_plan_total": 100,
+            "captured_clo_row_count": 12,
+            "clos": [
+              {
+                "assessment": "• الورقة والقلم • حقيبة الإنجاز",
+                "assessment_source_page": 4,
+                "code": "1.1",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "ع2"
+                ],
+                "extraction_method": "geometric_pdf",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "ع2"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الدراسات الإسلامية",
+                      "version": "47"
+                    },
+                    "source_page": 4,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 4,
+                "source_status": "present",
+                "text": "معرفة طرق تخريج الحديث."
+              },
+              {
+                "assessment": null,
+                "assessment_source_page": null,
+                "code": "1.2",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "ع2"
+                ],
+                "extraction_method": "targeted_ocr",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "ع2"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الدراسات الإسلامية",
+                      "version": "47"
+                    },
+                    "source_page": 4,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 4,
+                "source_status": "present",
+                "text": "جمع روايات الحديث. واكتشاف مواضع العلة والشذوذ."
+              },
+              {
+                "assessment": null,
+                "assessment_source_page": null,
+                "code": "1.3",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "ع2"
+                ],
+                "extraction_method": "targeted_ocr",
+                "plo_mappings": [
+                  {
+                    "confidence": "medium",
+                    "evidence": "exact PLO code aligned to the CLO by published cell/row geometry after pdfplumber split or merged the visual row",
+                    "plo_codes": [
+                      "ع2"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الدراسات الإسلامية",
+                      "version": "47"
+                    },
+                    "source_page": 4,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 4,
+                "source_status": "present",
+                "text": "بيان مراحل دراسة الإسناد المختلفة."
+              },
+              {
+                "assessment": null,
+                "assessment_source_page": null,
+                "code": "1.4",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "ع2"
+                ],
+                "extraction_method": "targeted_ocr",
+                "plo_mappings": [
+                  {
+                    "confidence": "medium",
+                    "evidence": "exact PLO code aligned to the CLO by published cell/row geometry after pdfplumber split or merged the visual row",
+                    "plo_codes": [
+                      "ع2"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الدراسات الإسلامية",
+                      "version": "47"
+                    },
+                    "source_page": 4,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 4,
+                "source_status": "present",
+                "text": "توضيح أقوال علماء الجرح والتعديل عن كل راو من رواة السند."
+              },
+              {
+                "assessment": "• الورقة والقلم • حقيبة الإنجاز • الملاحظة؛ • التعلم التعاوني • التدريس التبادلي • المشروعات • حل المشكلات • الخرائط المفاهيمية • التعلم الذاتي",
+                "assessment_source_page": 5,
+                "code": "2.1",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "م3"
+                ],
+                "extraction_method": "targeted_ocr",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "م3"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الدراسات الإسلامية",
+                      "version": "47"
+                    },
+                    "source_page": 5,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 5,
+                "source_status": "present",
+                "text": "استخدام البرامج الحاسوبية الحديثة في استخراج الحديث."
+              },
+              {
+                "assessment": null,
+                "assessment_source_page": null,
+                "code": "2.2",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "م2"
+                ],
+                "extraction_method": "targeted_ocr",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "م2"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الدراسات الإسلامية",
+                      "version": "47"
+                    },
+                    "source_page": 5,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 5,
+                "source_status": "present",
+                "text": "استخدام الطرق المتعددة للوصول لترجمة الراوي"
+              },
+              {
+                "assessment": null,
+                "assessment_source_page": null,
+                "code": "2.3",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "م2"
+                ],
+                "extraction_method": "targeted_ocr",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "م2"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الدراسات الإسلامية",
+                      "version": "47"
+                    },
+                    "source_page": 5,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 5,
+                "source_status": "present",
+                "text": "المقارنة بين طرق الحديث للوصول للحكم الصحيح على الحديث."
+              },
+              {
+                "assessment": null,
+                "assessment_source_page": null,
+                "code": "2.4",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "م1"
+                ],
+                "extraction_method": "targeted_ocr",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "م1"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الدراسات الإسلامية",
+                      "version": "47"
+                    },
+                    "source_page": 5,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 5,
+                "source_status": "present",
+                "text": "صياغة الحكم على الحديث بطريقة صحيحة."
+              },
+              {
+                "assessment": null,
+                "assessment_source_page": null,
+                "code": "2.5",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "م2"
+                ],
+                "extraction_method": "targeted_ocr",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "م2"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الدراسات الإسلامية",
+                      "version": "47"
+                    },
+                    "source_page": 5,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 5,
+                "source_status": "present",
+                "text": "رسم شجرة الإسناد بطريقة صحيحة."
+              },
+              {
+                "assessment": "• الملاحظة؛ • التعلم التعاوني • التدريس التبادلي • المشروعات • التعلم الذاتي",
+                "assessment_source_page": 5,
+                "code": "3.1",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "ق2"
+                ],
+                "extraction_method": "targeted_ocr",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "ق2"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الدراسات الإسلامية",
+                      "version": "47"
+                    },
+                    "source_page": 5,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 5,
+                "source_status": "present",
+                "text": "الالتزام بقواعد المحدثين في الحكم على الحديث."
+              },
+              {
+                "assessment": null,
+                "assessment_source_page": null,
+                "code": "3.2",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "ق3"
+                ],
+                "extraction_method": "targeted_ocr",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "ق3"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الدراسات الإسلامية",
+                      "version": "47"
+                    },
+                    "source_page": 5,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 5,
+                "source_status": "present",
+                "text": "التعاون مع زملائه في دراسة الإسناد."
+              },
+              {
+                "assessment": null,
+                "assessment_source_page": null,
+                "code": "3.3",
+                "confidence": "medium",
+                "document_plo_codes": [
+                  "ق2"
+                ],
+                "extraction_method": "targeted_ocr",
+                "plo_mappings": [
+                  {
+                    "confidence": "high",
+                    "evidence": "single exact PLO code read geometrically from the PDF cell",
+                    "plo_codes": [
+                      "ق2"
+                    ],
+                    "scope": {
+                      "degree": "بكالوريوس",
+                      "plan_type": "جديدة",
+                      "program": "الدراسات الإسلامية",
+                      "version": "47"
+                    },
+                    "source_page": 5,
+                    "status": "mapped"
+                  }
+                ],
+                "source_page": 5,
+                "source_status": "present",
+                "text": "الدفاع عن السنة النبوبة."
+              }
+            ],
+            "course_name": null,
+            "course_name_metadata": {
+              "confidence": "low",
+              "extraction_method": "unresolved",
+              "source_page": 1
+            },
+            "extraction_status": "complete",
+            "page_count": 12,
+            "source_clo_row_count": 12,
+            "source_status": "present",
+            "warnings": [
+              {
+                "code": "course_name_unresolved",
+                "message": "course name was left null because neither the text layer nor OCR produced a value consistent with the catalog",
+                "source_page": 1
+              },
+              {
+                "clo_code": "1.3",
+                "code": "plo_mapping_recovered_from_row_geometry",
+                "message": "recovered exact PLO code(s) only after aligning the published PLO cell/atom with physical CLO row bounds",
+                "source_page": 4
+              },
+              {
+                "clo_code": "1.4",
+                "code": "plo_mapping_recovered_from_row_geometry",
+                "message": "recovered exact PLO code(s) only after aligning the published PLO cell/atom with physical CLO row bounds",
+                "source_page": 4
+              },
+              {
+                "clo_code": "1.2",
+                "clo_index": 1,
+                "code": "direct_assessment_unresolved",
+                "message": "no unambiguous direct-assessment text was recovered for this CLO",
+                "source_page": 4
+              },
+              {
+                "clo_code": "1.3",
+                "clo_index": 2,
+                "code": "direct_assessment_unresolved",
+                "message": "no unambiguous direct-assessment text was recovered for this CLO",
+                "source_page": 4
+              },
+              {
+                "clo_code": "1.4",
+                "clo_index": 3,
+                "code": "direct_assessment_unresolved",
+                "message": "no unambiguous direct-assessment text was recovered for this CLO",
+                "source_page": 4
+              },
+              {
+                "clo_code": "2.2",
+                "clo_index": 5,
+                "code": "direct_assessment_unresolved",
+                "message": "no unambiguous direct-assessment text was recovered for this CLO",
+                "source_page": 5
+              },
+              {
+                "clo_code": "2.3",
+                "clo_index": 6,
+                "code": "direct_assessment_unresolved",
+                "message": "no unambiguous direct-assessment text was recovered for this CLO",
+                "source_page": 5
+              },
+              {
+                "clo_code": "2.4",
+                "clo_index": 7,
+                "code": "direct_assessment_unresolved",
+                "message": "no unambiguous direct-assessment text was recovered for this CLO",
+                "source_page": 5
+              },
+              {
+                "clo_code": "2.5",
+                "clo_index": 8,
+                "code": "direct_assessment_unresolved",
+                "message": "no unambiguous direct-assessment text was recovered for this CLO",
+                "source_page": 5
+              },
+              {
+                "clo_code": "3.2",
+                "clo_index": 10,
+                "code": "direct_assessment_unresolved",
+                "message": "no unambiguous direct-assessment text was recovered for this CLO",
+                "source_page": 5
+              },
+              {
+                "clo_code": "3.3",
+                "clo_index": 11,
+                "code": "direct_assessment_unresolved",
+                "message": "no unambiguous direct-assessment text was recovered for this CLO",
+                "source_page": 5
+              }
+            ]
+          },
+          "overrides": [
+            {
+              "evidence": "مراجعة بصرية للصفحة 1 من assets/course-specifications/new-course-specifications-20260928/2004269-4.pdf (SHA-256 58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e): الاسم والرمز مقروءان في الغلاف.",
+              "field": "course_name",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-28T14:10:56+03:00",
+              "value": "التخريج ودراسة الأسانيد"
+            },
+            {
+              "evidence": "مراجعة بصرية للصفحة 5 من assets/course-specifications/new-course-specifications-20260928/2004269-4.pdf (SHA-256 58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e): استُعيدت كلمة النبوية من صف المخرج 3.3.",
+              "field": "clos[11].text",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-28T14:10:56+03:00",
+              "value": "الدفاع عن السنة النبوية."
+            },
+            {
+              "evidence": "مراجعة بصرية للصفحة 4 من assets/course-specifications/new-course-specifications-20260928/2004269-4.pdf (SHA-256 58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e): خلية طرق التقييم المدمجة تشمل مخرجات المعرفة 1.1–1.4.",
+              "field": "clos[1].assessment",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-28T14:10:56+03:00",
+              "value": "الورقة والقلم؛ حقيبة الإنجاز"
+            },
+            {
+              "evidence": "مراجعة بصرية للصفحة 4 من assets/course-specifications/new-course-specifications-20260928/2004269-4.pdf (SHA-256 58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e): خلية طرق التقييم المدمجة تشمل مخرجات المعرفة 1.1–1.4.",
+              "field": "clos[2].assessment",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-28T14:10:56+03:00",
+              "value": "الورقة والقلم؛ حقيبة الإنجاز"
+            },
+            {
+              "evidence": "مراجعة بصرية للصفحة 4 من assets/course-specifications/new-course-specifications-20260928/2004269-4.pdf (SHA-256 58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e): خلية طرق التقييم المدمجة تشمل مخرجات المعرفة 1.1–1.4.",
+              "field": "clos[3].assessment",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-28T14:10:56+03:00",
+              "value": "الورقة والقلم؛ حقيبة الإنجاز"
+            },
+            {
+              "evidence": "مراجعة بصرية للصفحة 5 من assets/course-specifications/new-course-specifications-20260928/2004269-4.pdf (SHA-256 58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e): خلية طرق التقييم المدمجة تشمل مخرجات المهارات 2.1–2.5؛ استُبعدت استراتيجيات التدريس المجاورة.",
+              "field": "clos[4].assessment",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-28T14:10:56+03:00",
+              "value": "الورقة والقلم؛ حقيبة الإنجاز؛ الملاحظة"
+            },
+            {
+              "evidence": "مراجعة بصرية للصفحة 5 من assets/course-specifications/new-course-specifications-20260928/2004269-4.pdf (SHA-256 58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e): خلية طرق التقييم المدمجة تشمل مخرجات المهارات 2.1–2.5؛ استُبعدت استراتيجيات التدريس المجاورة.",
+              "field": "clos[5].assessment",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-28T14:10:56+03:00",
+              "value": "الورقة والقلم؛ حقيبة الإنجاز؛ الملاحظة"
+            },
+            {
+              "evidence": "مراجعة بصرية للصفحة 5 من assets/course-specifications/new-course-specifications-20260928/2004269-4.pdf (SHA-256 58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e): خلية طرق التقييم المدمجة تشمل مخرجات المهارات 2.1–2.5؛ استُبعدت استراتيجيات التدريس المجاورة.",
+              "field": "clos[6].assessment",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-28T14:10:56+03:00",
+              "value": "الورقة والقلم؛ حقيبة الإنجاز؛ الملاحظة"
+            },
+            {
+              "evidence": "مراجعة بصرية للصفحة 5 من assets/course-specifications/new-course-specifications-20260928/2004269-4.pdf (SHA-256 58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e): خلية طرق التقييم المدمجة تشمل مخرجات المهارات 2.1–2.5؛ استُبعدت استراتيجيات التدريس المجاورة.",
+              "field": "clos[7].assessment",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-28T14:10:56+03:00",
+              "value": "الورقة والقلم؛ حقيبة الإنجاز؛ الملاحظة"
+            },
+            {
+              "evidence": "مراجعة بصرية للصفحة 5 من assets/course-specifications/new-course-specifications-20260928/2004269-4.pdf (SHA-256 58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e): خلية طرق التقييم المدمجة تشمل مخرجات المهارات 2.1–2.5؛ استُبعدت استراتيجيات التدريس المجاورة.",
+              "field": "clos[8].assessment",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-28T14:10:56+03:00",
+              "value": "الورقة والقلم؛ حقيبة الإنجاز؛ الملاحظة"
+            },
+            {
+              "evidence": "مراجعة بصرية للصفحة 5 من assets/course-specifications/new-course-specifications-20260928/2004269-4.pdf (SHA-256 58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e): خلية طرق التقييم المدمجة تشمل مخرجات القيم 3.1–3.3؛ استُبعدت استراتيجيات التدريس المجاورة.",
+              "field": "clos[9].assessment",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-28T14:10:56+03:00",
+              "value": "الملاحظة"
+            },
+            {
+              "evidence": "مراجعة بصرية للصفحة 5 من assets/course-specifications/new-course-specifications-20260928/2004269-4.pdf (SHA-256 58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e): خلية طرق التقييم المدمجة تشمل مخرجات القيم 3.1–3.3؛ استُبعدت استراتيجيات التدريس المجاورة.",
+              "field": "clos[10].assessment",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-28T14:10:56+03:00",
+              "value": "الملاحظة"
+            },
+            {
+              "evidence": "مراجعة بصرية للصفحة 5 من assets/course-specifications/new-course-specifications-20260928/2004269-4.pdf (SHA-256 58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e): خلية طرق التقييم المدمجة تشمل مخرجات القيم 3.1–3.3؛ استُبعدت استراتيجيات التدريس المجاورة.",
+              "field": "clos[11].assessment",
+              "policy": "verified_extraction_correction_matches_source",
+              "reviewed_at": "2026-09-28T14:10:56+03:00",
+              "value": "الملاحظة"
+            }
+          ],
+          "scopes": [
+            {
+              "degree": "بكالوريوس",
+              "plan_type": "جديدة",
+              "program": "الدراسات الإسلامية",
+              "version": "47"
+            }
+          ],
+          "source_pdf": "assets/course-specifications/new-course-specifications-20260928/2004269-4.pdf",
+          "source_sha256": "58bbfab8b14486332429aed3bbf567bb177972a51f290b92d9865d906cbaac6e",
+          "variant_id": "a02b3a92f4def9c44b9fb65e9493ee8af0f95cfa04e0754e18c232c2d003217e"
+        }
+      ]
+    },
     "2004273-2": {
       "variants": [
         {
@@ -205427,11 +206035,11 @@
     "tesseract": "5.5.2",
     "version": "1.1.0"
   },
-  "generated_at": "2026-09-20T00:00:00+03:00",
+  "generated_at": "2026-09-28T14:16:44+03:00",
   "schema_version": "course-outcomes-v1",
   "source_data": {
     "path": "data.json",
-    "sha256": "8bb033755ce39cd7518a8228dcf018ee8b0e595b8c8a0cf940a7ff5c9f2cb22e"
+    "sha256": "a3d1a81dcbeb8e95d7ee665ee4ae083ae5c656cf8ccff013df1d407864abdfb2"
   },
   "statistics": {
     "source_alignment_counts": {
@@ -205443,43 +206051,43 @@
       "accepted_as_is": 186,
       "needs_manual": 68
     },
-    "course_codes": 410,
-    "variants": 448,
-    "active_pdf_sources": 436,
+    "course_codes": 411,
+    "variants": 449,
+    "active_pdf_sources": 437,
     "excluded_pdf_sources": 165,
-    "complete_variants": 418,
+    "complete_variants": 419,
     "partial_variants": 24,
     "failed_variants": 6,
     "variant_source_status_counts": {
-      "present": 181,
+      "present": 182,
       "source_blank": 1,
       "unreadable": 266
     },
-    "clos": 3172,
+    "clos": 3184,
     "clo_source_status_counts": {
-      "present": 2475,
+      "present": 2487,
       "source_blank": 1,
       "unreadable": 696
     },
-    "scoped_clo_mappings": 5121,
-    "plo_mappings_with_codes": 2493,
-    "plo_code_assignments": 2517,
+    "scoped_clo_mappings": 5133,
+    "plo_mappings_with_codes": 2505,
+    "plo_code_assignments": 2529,
     "multi_plo_mappings": 22,
-    "plo_non_null": 2493,
+    "plo_non_null": 2505,
     "plo_explicitly_unmapped": 1515,
-    "plo_non_null_rate": 0.486819,
+    "plo_non_null_rate": 0.488019,
     "plo_status_counts": {
       "ambiguous_for_scope": 80,
       "conflict": 0,
       "explicitly_unmapped": 1515,
-      "mapped": 2493,
+      "mapped": 2505,
       "missing": 907,
       "not_present_for_scope": 126
     },
-    "plo_applicable_mappings": 3480,
-    "plo_applicable_non_null_rate": 0.716379,
-    "plo_applicable_with_codes_rate": 0.716379,
-    "plo_resolved_or_explicit_rate": 0.802402
+    "plo_applicable_mappings": 3492,
+    "plo_applicable_non_null_rate": 0.717354,
+    "plo_applicable_with_codes_rate": 0.717354,
+    "plo_resolved_or_explicit_rate": 0.802876
   },
   "source_correction_recommendations": [
     {
