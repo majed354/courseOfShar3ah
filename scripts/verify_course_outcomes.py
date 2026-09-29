@@ -2541,6 +2541,10 @@ def validate_overrides(
             clo.get("code") if isinstance(clo, dict) else None
             for clo in extracted["clos"]
         ]
+        effective_texts = [
+            clo.get("text") if isinstance(clo, dict) else None
+            for clo in extracted["clos"]
+        ]
         for override in value:
             if not isinstance(override, dict):
                 continue
@@ -2550,6 +2554,14 @@ def validate_overrides(
             match = re.fullmatch(r"clos\[(\d+)\]\.code", field)
             if match and int(match.group(1)) < len(effective_codes):
                 effective_codes[int(match.group(1))] = override.get("value")
+            match = re.fullmatch(r"clos\[(\d+)\]\.text", field)
+            if match and int(match.group(1)) < len(effective_texts):
+                effective_texts[int(match.group(1))] = override.get("value")
+        for index, text in enumerate(effective_texts):
+            if isinstance(text, str) and re.search(r"([A-Za-z])\1{5,}", text):
+                errors.add(
+                    f"{label}: effective CLO {index} contains repeated Latin glyphs"
+                )
         effective_groups: Dict[str, Set[int]] = {}
         for index, code in enumerate(effective_codes):
             if isinstance(code, str) and CLO_CODE_RE.fullmatch(code):
