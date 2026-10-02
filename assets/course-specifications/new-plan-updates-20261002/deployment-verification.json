@@ -1,0 +1,70 @@
+{
+  "commit_ref": "272fba3a92b78cf1d4baf90b656006d89c7f2bc8",
+  "deploy_id": "6abffebde03dca000895b757",
+  "state": "ready",
+  "error_message": null,
+  "published_at": "2026-10-02T18:58:20.562Z",
+  "production_url": "https://courseofshar3ah.netlify.app",
+  "files": [
+    {
+      "path": "data.json",
+      "sha256": "b5ad2b7600a747b7db867a0ab245504c59010ddc5d40da4c07039fd3646f98c8"
+    },
+    {
+      "path": "course-outcomes.json",
+      "sha256": "44bcec6ce6f6e5ba8ba25212d49a5f9cf0b84f34f815bc1c49693767b40464c9"
+    },
+    {
+      "path": "assets/course-specifications/new-plan-updates-20261002/20021203-2--new-v47.pdf",
+      "sha256": "327ccf2d1af85ab4262d6c6a4229e458df739711f176288b4effde22140d1e27"
+    },
+    {
+      "path": "assets/course-specifications/new-plan-updates-20261002/2002200-2--new-v47.pdf",
+      "sha256": "a6d3164affe8900e62dc4cc17fcd1c106f5c4a542518a86cc47fba7078a9d30d"
+    },
+    {
+      "path": "assets/course-specifications/new-plan-updates-20261002/2002210-2--new-v47.pdf",
+      "sha256": "cc0be3952fd357dcde89035777b1966ade5a661bab1550471249a8495ff7fb24"
+    },
+    {
+      "path": "assets/course-specifications/new-plan-updates-20261002/2002250-2--new-v47.pdf",
+      "sha256": "86f970a66ac2c868081c4af2e3797ea13276a62023db5865c188a4e7d45235af"
+    },
+    {
+      "path": "assets/course-specifications/new-plan-updates-20261002/2002252-2--new-v47.pdf",
+      "sha256": "ab2a7b9c356bdb8468d4274bddf1d9dd9af1fa0d3b0a9cbfcdc0e69e11b29523"
+    },
+    {
+      "path": "assets/course-specifications/new-plan-updates-20261002/2002310-3--new-v47.pdf",
+      "sha256": "959dbad023e4b85b540264174ed53227712bed4b081d87c970ed43bbabb63139"
+    },
+    {
+      "path": "assets/course-specifications/new-plan-updates-20261002/20023101-3--new-v47.pdf",
+      "sha256": "1baa6b121ba5352b1a8bfae7e618cd8564f5075b3d26af4902b2d233d2b25917"
+    },
+    {
+      "path": "assets/course-specifications/new-plan-updates-20261002/20023205-2--new-v47.pdf",
+      "sha256": "c65bf1c34b1232a52623b2df24e1832575c5c7239cc496ac03f5008341571688"
+    },
+    {
+      "path": "assets/course-specifications/new-plan-updates-20261002/2002352-2--new-v47.pdf",
+      "sha256": "04e455b5f65ee52432e583fcc87bc51b1378aa1a34253f22a9f805f6639fe92e"
+    },
+    {
+      "path": "assets/course-specifications/new-plan-updates-20261002/2002429-2--new-v47.pdf",
+      "sha256": "52ace6c6a84f1dba5f474acc521b33db3ee3c960e31af811d5464330893ba303"
+    },
+    {
+      "path": "assets/course-specifications/new-plan-updates-20261002/2002456-2--new-v47.pdf",
+      "sha256": "e3b833b5e654a8262e15c521f7b1bd9da5caf6b57e7e3765d01b84358674cb36"
+    },
+    {
+      "path": "assets/course-specifications/new-plan-updates-20261002/20031301-2--new-v47.pdf",
+      "sha256": "db576ae46c2b6874a6bb6cbf2ba123fa56b1492e3b1bb49d7159ec24f486efaf"
+    },
+    {
+      "path": "assets/course-specifications/new-plan-updates-20261002/2003220-2--new-v47.pdf",
+      "sha256": "5f4af50df786bdf80872a5f79b024344142eae3227e304f652429bd8aa337956"
+    }
+  ]
+}
