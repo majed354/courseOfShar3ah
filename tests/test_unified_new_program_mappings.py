@@ -107,6 +107,7 @@ class UnifiedNewProgramMappingsTest(unittest.TestCase):
             ).read_text(encoding="utf-8")
         )["records"]
 
+        new_plan = json.loads((ROOT/'assets/course-specifications/new-plan-updates-20261002/manifest.json').read_text())['records']
         for record in self.manifest["records"]:
             new_programs = set()
             prior = final_route.get(record["path"], record["path"])
@@ -115,6 +116,7 @@ class UnifiedNewProgramMappingsTest(unittest.TestCase):
                 for successor in later
                 if prior in successor.get("prior_active_urls", [])
             }
+            candidate_paths |= {successor['output'] for successor in new_plan for predecessor in successor['predecessors'] if predecessor['source_pdf'] == prior}
             for path in candidate_paths:
                 for variant in variants_by_pdf.get(path, []):
                     for scope in variant_scopes(variant):

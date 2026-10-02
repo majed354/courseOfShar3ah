@@ -1,5 +1,6 @@
 import json
 import unittest
+import sys
 from pathlib import Path
 
 
@@ -14,8 +15,9 @@ class SplitTableContinuationReviewTest(unittest.TestCase):
         cls.manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
 
     def variant_for(self, record):
-        variants = self.outcomes["courses"][record["course_code"]]["variants"]
-        return next(variant for variant in variants if variant["variant_id"] == record["variant_id"])
+        sys.path.insert(0, str(ROOT/'scripts'))
+        from apply_course_outcome_review_batch import locate_variant
+        return locate_variant(self.outcomes, record['course_code'], record['variant_id'], record['source_pdf'])
 
     def test_all_reviewed_continuation_rows_are_source_backed_and_complete(self):
         self.assertEqual(6, len(self.manifest["records"]))
@@ -59,7 +61,7 @@ class SplitTableContinuationReviewTest(unittest.TestCase):
                 self.assertEqual("needs_manual", variant["source_review"]["status"])
                 self.assertTrue(
                     any(
-                        item["variant_id"] == record["variant_id"]
+                        item["variant_id"] == variant["variant_id"]
                         and item["issue_code"] == "SOURCE_PLO_MAPPING_PENDING_UPDATE"
                         and item["status"] == "open"
                         for item in recommendations

@@ -85,6 +85,11 @@ def locate_variant(outcomes: dict[str, Any], record: dict[str, Any]) -> dict[str
         and variant.get("source_pdf") == record["source_pdf"]
         and variant.get("source_sha256") == record["source_sha256"]
     ]
+    if not matches:
+        from apply_course_outcome_review_batch import locate_variant as retained_variant
+        candidate = retained_variant(outcomes, record['course_code'], record['variant_id'], record['source_pdf'])
+        if candidate['source_sha256'] == record['source_sha256']:
+            matches = [candidate]
     if len(matches) != 1:
         raise ValueError(f"variant/hash mismatch for {record['course_code']}")
     variant = matches[0]

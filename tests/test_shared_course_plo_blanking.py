@@ -140,6 +140,8 @@ class SharedCoursePloBlankingTest(unittest.TestCase):
             for record in later
             for prior in record.get("prior_active_urls", [])
         }
+        new_plan = json.loads((ROOT/'assets/course-specifications/new-plan-updates-20261002/manifest.json').read_text())
+        replaced_by.update({prior['source_pdf']: record['output'] for record in new_plan['records'] for prior in record['predecessors']})
         unresolved = {
             output
             for output in outputs

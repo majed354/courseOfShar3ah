@@ -31,13 +31,9 @@ class TargetedReadinessCompletionTests(unittest.TestCase):
 
     def variant(self, course_code: str) -> dict:
         record = self.records[course_code]
-        matches = [
-            item
-            for item in self.outcomes["courses"][course_code]["variants"]
-            if item["variant_id"] == record["variant_id"]
-        ]
-        self.assertEqual(len(matches), 1)
-        return matches[0]
+        sys.path.insert(0, str(ROOT/'scripts'))
+        from apply_targeted_readiness_completion_20260915 import locate_variant
+        return locate_variant(self.outcomes, record)
 
     def test_manifest_is_bound_to_current_pdf_hash_and_exact_scope(self) -> None:
         self.assertEqual(self.manifest["schema_version"], "targeted-readiness-completion-v1")

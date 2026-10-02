@@ -1,0 +1,1903 @@
+{
+  "schema_version": "new-plan-updates-v1",
+  "reviewed_at": "2026-10-02",
+  "source_policy": "Use supplied PDF where present; convert Word-only sources; change cover name/code only; preserve all body content and original PLO cells.",
+  "source_inventory": [
+    {
+      "path": "مقررات الخطة الجديدة/2-2002131 علوم القرآن العامة.docx",
+      "sha256": "85e82f4a3d14b2a26725fb7827a3eb80ccb883edcd99a03200d2b9fc41a06e66"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/2-2002250 أصول التفسير ومناهجه.docx",
+      "sha256": "9cb07c7d5df8602ec9eb496d683116671c1aec1f8d799d844f6df3ff56178cad"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/2-2002429 الانتصار للقرآن (1).pdf",
+      "sha256": "7efd51ffbfda5cc735c9b26b4561ac79c7ad7bba5c6fc1d1ce71c8008f8dc85c"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/2-2002429 الانتصار للقرآن.docx",
+      "sha256": "566672742c40418ef12dd5c1498379dfb52e29eb99a2d3193fc98d1e10e6c45f"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/2-2002456 إعجاز القرآن الكريم (1).pdf",
+      "sha256": "e0a014dae14c3956d2c5c1bb4ab1b8e0301b4eec2f72b475a3d76c046c124e4a"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/2-2002456 إعجاز القرآن الكريم.docx",
+      "sha256": "084ae68b3a8faa532feadff6524a1c519f04a35c1a5a5a160bc1be07ee75a39c"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/2_2002455_المدخل_إلى_التفسير_الموضوعي.docx",
+      "sha256": "78f6424c1dfffd21c48c071e5247298bbca492f558cdb9deff33a882e5201d47"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/2_2002455_المدخل_إلى_التفسير_الموضوعي.pdf",
+      "sha256": "33ea4e79bf94112e48c9038d912d627f8ab3b6d1a09bf41bd1b29be8a9a175d4"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/____التفسير التحليلي 3 (س) .docx",
+      "sha256": "2978e55532898d5547f74ef91725ce765686d4028023e5977b12e7da454169ee"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/____التفسير التحليلي 3 (س) .pdf",
+      "sha256": "b2a04fe8cb7dbd459028f6816871e78b094c835408f1c5252ed8b508c4e90b42"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/____التفسير التحليلي 3 (ق) .docx",
+      "sha256": "26a40dc82fca8de9a32c82266cc65f8199e9dc195e7df70edfbe5c3a49958cf0"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/____التفسير التحليلي 3 (ق) .pdf",
+      "sha256": "59e13c4a2114078fe4172497bf60f599c7b9dbb92379c4595f2827fa04b0b772"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/__التفسير التحليلي 2 (س) .docx",
+      "sha256": "27f17b66176e8a12e64fc48e7af94b523fc7cff508b89d2f17db66a9542f283a"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/__التفسير التحليلي 2 (س) .pdf",
+      "sha256": "d08c23e9a34d207235563a35239cc457305d6e7f419d9323d0c22024e5c1d385"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/__التفسير التحليلي 2 (ق) .docx",
+      "sha256": "45416f36b6ae7a9da3a64f5331b62645cfc5a3279b75b4675e6a36cc6e241ed7"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/__التفسير التحليلي 2 (ق) .pdf",
+      "sha256": "55cb3dfa36dc131d44e6d5b6e8947c76db5a29c8acd9ef7e60afa951b14d4c93"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/التفسير التحليلي 1 (1).pdf",
+      "sha256": "111788b9fe1661281bcad7a6f252a4cc57b3836b96e351a7275fe8e391ed0180"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/التفسير التحليلي 1.docx",
+      "sha256": "5c3742fb056aff8c6003aacf7e20da09869fccee11c24aeb6fc77c7c1b32cfef"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/المدخل إلى دراسة الأنظمة.docx",
+      "sha256": "88de661d698e3e4f797a836ccf7647af4b0a233db7719f3267d5845cc6d1ba05"
+    },
+    {
+      "path": "مقررات الخطة الجديدة/دراسات في علوم القرآن .docx",
+      "sha256": "27269d70df672c06af1ece9bff443b2040929bec91dc74ddf842184adb2162d9"
+    }
+  ],
+  "counts": {
+    "publication_pdfs": 13,
+    "raw_sources": 12,
+    "replaced_contexts": 26,
+    "added_contexts": 2
+  },
+  "records": [
+    {
+      "code": "2002252-2",
+      "title": "علوم القرآن العامة",
+      "scopes": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "plan_rows": [
+        {
+          "scope": {
+            "program": "الأنظمة",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002252-2",
+            "name": "علوم القرآن العامة",
+            "name_en": null,
+            "hours": 2,
+            "level": 1,
+            "type": "نظري",
+            "category": "متطلبات الكلية",
+            "belongs_to_programs": [
+              "الأنظمة (47 جديدة)"
+            ]
+          }
+        },
+        {
+          "scope": {
+            "program": "الدراسات الإسلامية",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002252-2",
+            "name": "علوم القرآن العامة",
+            "name_en": null,
+            "hours": 2,
+            "level": 1,
+            "type": "نظري",
+            "category": "متطلبات الكلية",
+            "belongs_to_programs": [
+              "الدراسات الإسلامية (47 جديدة)"
+            ]
+          }
+        },
+        {
+          "scope": {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002252-2",
+            "name": "علوم القرآن العامة",
+            "name_en": null,
+            "hours": 2,
+            "level": 1,
+            "type": "نظري",
+            "category": "متطلبات الكلية",
+            "belongs_to_programs": [
+              "الشريعة (47 جديدة)"
+            ]
+          }
+        },
+        {
+          "scope": {
+            "program": "القراءات",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002252-2",
+            "name": "علوم القرآن العامة",
+            "name_en": null,
+            "hours": 2,
+            "level": 1,
+            "type": "نظري",
+            "category": "متطلبات الكلية",
+            "belongs_to_programs": [
+              "القراءات (47 جديدة)"
+            ]
+          }
+        },
+        {
+          "scope": {
+            "program": "القرآن وعلومه",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002252-2",
+            "name": "علوم القرآن العامة",
+            "name_en": null,
+            "hours": 2,
+            "level": 1,
+            "type": "نظري",
+            "category": "متطلبات الكلية",
+            "belongs_to_programs": [
+              "القرآن وعلومه (47 جديدة)"
+            ]
+          }
+        }
+      ],
+      "source": "مقررات الخطة الجديدة/2-2002131 علوم القرآن العامة.docx",
+      "source_sha256": "85e82f4a3d14b2a26725fb7827a3eb80ccb883edcd99a03200d2b9fc41a06e66",
+      "converted_pdf_sha256": "24ac327f8030c967dba020e6f26dc8014c5285c6ec56ef7da136398868540beb",
+      "source_format": "docx",
+      "output": "assets/course-specifications/new-plan-updates-20261002/2002252-2--new-v47.pdf",
+      "output_sha256": "ab2a7b9c356bdb8468d4274bddf1d9dd9af1fa0d3b0a9cbfcdc0e69e11b29523",
+      "page_count": 8,
+      "identity_edits": [
+        {
+          "field": "title",
+          "original_pdf_text": ":اسم المقرر  /  علوم القرآن / العامة",
+          "approved_value": "علوم القرآن العامة",
+          "bbox": [
+            100.0,
+            349.7967529296875,
+            497.0,
+            371.73077392578125
+          ],
+          "text_bbox": [
+            371.6629972457886,
+            349.7967529296875,
+            497.0,
+            371.73077392578125
+          ]
+        },
+        {
+          "field": "code",
+          "original_pdf_text": "  :رمز المقرر2 / - / 2002131",
+          "approved_value": "2002252-2",
+          "bbox": [
+            100.0,
+            378.8467712402344,
+            497.0,
+            400.7807922363281
+          ],
+          "text_bbox": [
+            391.08899688720703,
+            378.8467712402344,
+            497.0,
+            400.7807922363281
+          ]
+        }
+      ],
+      "body_pages_pixel_identical": true,
+      "body_page_render_sha256": [
+        "78faa2979c9d4885485ab2691972ad6043127a23f68912c10d7551a083d5a3bc",
+        "f33a7193315ae5867d05b0d837c82b7bcf17d0b0673c3e851d3bf3e29b44b157",
+        "29f1e0e168a2a90890bc25ffa0cf011110a7cd21480ddbeda9b84dd4d8a0a86d",
+        "583b0c4008ffdf441ef913ac8fa179b66a3c63eca6de66cc5f42130d1aebd8cb",
+        "e0ff01992c1d41fe8658fd66eaf02641e041b07b61862353878e12f0d44de192",
+        "7672bef68b413f073f4f05e1928aca0b03f236d451a2c82b60612ae5f98efadc",
+        "75812adf07335dc03fa60510d3cad6f410c661399681e13a2c6f216e808cf05c"
+      ],
+      "predecessors": [
+        {
+          "variant_id": "5cd32a309d791eb80ab1f344b4ce1d590eaf076a83e2b452cff92ead454b5401",
+          "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002252-2--bb345d5622.pdf",
+          "source_sha256": "b454186defbaf3842331dbbbde613899888b3672bcee8a94dd1c82f191be0cba",
+          "replaced_scopes": [
+            {
+              "program": "الأنظمة",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            },
+            {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            },
+            {
+              "program": "الشريعة",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            },
+            {
+              "program": "القراءات",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            }
+          ]
+        }
+      ],
+      "action": "replace"
+    },
+    {
+      "code": "2002210-2",
+      "title": "دراسات في علوم القرآن",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "plan_rows": [
+        {
+          "scope": {
+            "program": "الدراسات الإسلامية",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002210-2",
+            "name": "دراسات في علوم القرآن",
+            "name_en": null,
+            "hours": 2,
+            "level": 2,
+            "type": "نظري",
+            "category": "إجبارية القسم",
+            "belongs_to_programs": [
+              "الدراسات الإسلامية (47 جديدة)"
+            ]
+          }
+        },
+        {
+          "scope": {
+            "program": "القراءات",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002210-2",
+            "name": "دراسات في علوم القرآن",
+            "name_en": null,
+            "hours": 2,
+            "level": 2,
+            "type": "نظري",
+            "category": "متطلبات الكلية",
+            "belongs_to_programs": [
+              "القراءات (47 جديدة)"
+            ]
+          }
+        }
+      ],
+      "source": "مقررات الخطة الجديدة/دراسات في علوم القرآن .docx",
+      "source_sha256": "27269d70df672c06af1ece9bff443b2040929bec91dc74ddf842184adb2162d9",
+      "converted_pdf_sha256": "200ae5f0e4622b3d08bff7997bae8d94afadf4ca789108b3821a0cb30109628a",
+      "source_format": "docx",
+      "output": "assets/course-specifications/new-plan-updates-20261002/2002210-2--new-v47.pdf",
+      "output_sha256": "cc0be3952fd357dcde89035777b1966ade5a661bab1550471249a8495ff7fb24",
+      "page_count": 8,
+      "identity_edits": [
+        {
+          "field": "title",
+          "original_pdf_text": "   :اسم املقرر دراسات في علوم القرآن",
+          "approved_value": "دراسات في علوم القرآن",
+          "bbox": [
+            100.0,
+            388.1387634277344,
+            497.0,
+            408.66876220703125
+          ],
+          "text_bbox": [
+            348.9479970932007,
+            388.1387634277344,
+            497.0,
+            408.66876220703125
+          ]
+        },
+        {
+          "field": "code",
+          "original_pdf_text": "  :رمز املقرر2002235 / -2",
+          "approved_value": "2002210-2",
+          "bbox": [
+            100.0,
+            417.18878173828125,
+            497.0,
+            437.7187805175781
+          ],
+          "text_bbox": [
+            391.08899688720703,
+            417.18878173828125,
+            497.0,
+            437.7187805175781
+          ]
+        }
+      ],
+      "body_pages_pixel_identical": true,
+      "body_page_render_sha256": [
+        "a2dad1ed4408f01475488083bea5bd528e8bba4e72a14309f7a0c82861f50ccd",
+        "260a15da7f38d0fa850a20c5eb0ddf6d5e2a9b9db1f46a5de718a3ac27597dbc",
+        "cbe950a6b82ceb80e3a3eaf94c7c12137294109bc7248097e2a546ad592ad3b7",
+        "c1da2e5bcc6b666cd90b74e15e2e5e1d4ec4f08fe90f501a369794428f89e8f1",
+        "01657893788498a49c7dc182927b80bc01bcae00363f8e2b2c9691fa0dc42649",
+        "6dbb1944a17df06208b0ee9a1d1c2c28556b9d90fc7323e49f5830b20d74f1dc",
+        "5f303f4bd363f3fc5a67d16c6992c505b2ba8a7bf8cef3b3a31482863e92059d"
+      ],
+      "predecessors": [
+        {
+          "variant_id": "4bd4ef9551570ea2b45b84bf796543e59fd553a58e58d997256f1e99e5bf7cee",
+          "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002210-2--018c186b3b.pdf",
+          "source_sha256": "a5d0c1fca591c5b05384d69a30d51dffc2756d1af2e62a2aef0690cbc58387b2",
+          "replaced_scopes": [
+            {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            },
+            {
+              "program": "القراءات",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            }
+          ]
+        }
+      ],
+      "action": "replace"
+    },
+    {
+      "code": "2002250-2",
+      "title": "أصول التفسير ومناهجه",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "plan_rows": [
+        {
+          "scope": {
+            "program": "الدراسات الإسلامية",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002250-2",
+            "name": "أصول التفسير ومناهجه",
+            "name_en": "Foundations of Exegesis",
+            "hours": 2,
+            "level": 1,
+            "type": "نظري",
+            "category": "إجبارية القسم",
+            "belongs_to_programs": [
+              "الدراسات الإسلامية (47 جديدة)"
+            ]
+          }
+        },
+        {
+          "scope": {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002250-2",
+            "name": "أصول التفسير ومناهجه",
+            "name_en": "Foundations of Exegesis",
+            "hours": 2,
+            "level": 2,
+            "type": "نظري",
+            "category": "متطلبات الكلية",
+            "belongs_to_programs": [
+              "الشريعة (47 جديدة)"
+            ]
+          }
+        },
+        {
+          "scope": {
+            "program": "القراءات",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002250-2",
+            "name": "أصول التفسير ومناهجه",
+            "name_en": "Foundations of Exegesis",
+            "hours": 2,
+            "level": 4,
+            "type": "نظري",
+            "category": "متطلبات الكلية",
+            "belongs_to_programs": [
+              "القراءات (47 جديدة)"
+            ]
+          }
+        }
+      ],
+      "source": "مقررات الخطة الجديدة/2-2002250 أصول التفسير ومناهجه.docx",
+      "source_sha256": "9cb07c7d5df8602ec9eb496d683116671c1aec1f8d799d844f6df3ff56178cad",
+      "converted_pdf_sha256": "5d7c148f1ee9320c2019b65cf2fd29e59eb62de04b47f8f5c5535e1c827a0fc7",
+      "source_format": "docx",
+      "output": "assets/course-specifications/new-plan-updates-20261002/2002250-2--new-v47.pdf",
+      "output_sha256": "86f970a66ac2c868081c4af2e3797ea13276a62023db5865c188a4e7d45235af",
+      "page_count": 8,
+      "identity_edits": [
+        {
+          "field": "title",
+          "original_pdf_text": ":اسم المقرر أصول التفسير ومناهجه",
+          "approved_value": "أصول التفسير ومناهجه",
+          "bbox": [
+            100.0,
+            349.7967529296875,
+            497.0,
+            371.73077392578125
+          ],
+          "text_bbox": [
+            349.72900104522705,
+            349.7967529296875,
+            497.0,
+            371.73077392578125
+          ]
+        },
+        {
+          "field": "code",
+          "original_pdf_text": " رمز :المقرر2 / - / 2002250",
+          "approved_value": "2002250-2",
+          "bbox": [
+            100.0,
+            378.8467712402344,
+            497.0,
+            400.7807922363281
+          ],
+          "text_bbox": [
+            391.08899688720703,
+            378.8467712402344,
+            497.0,
+            400.7807922363281
+          ]
+        }
+      ],
+      "body_pages_pixel_identical": true,
+      "body_page_render_sha256": [
+        "9849a1a1b20575b49934d5319eb702f41efce42c1207e854678f6ab94871c6fb",
+        "baa00973893397e88ea12ac409e3a344e3f6e485c1222c83ff8f82baae78425d",
+        "f41387caff1eaf1ed84fa6610a0086bda8d38a48dc95af07850398df7aa696b3",
+        "2e5aec33cf8dbd22400014913f5284144ca408c9de3e7250c76af5a1959eaeba",
+        "a1ef94eb1987b58758a239567f513d583c2aea5784578b8e3dba0f73719a9e6a",
+        "00378fad93f974d8656ccfa74532b48fc5f6d2446101e368244c77f3dba70c99",
+        "916db624a51f32a0dcd1b5a2e78c13541b99a1ea8891c6f5969fbf580ecb5f10"
+      ],
+      "predecessors": [
+        {
+          "variant_id": "47c8530bd8f305bf49171625f9d95184619ccd9bf7f50f30cb7d5f312999c007",
+          "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002250-2--9159a193ac.pdf",
+          "source_sha256": "d30cb41edf0e24b237db28a5f5a4179989eed9d285e00ff46e88799f90eb781c",
+          "replaced_scopes": [
+            {
+              "program": "القراءات",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            }
+          ]
+        },
+        {
+          "variant_id": "53e4d8c186e761d33759aca3738192e2461f7d953c061ef59ce291d676fbf20b",
+          "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002250-2--244d678f13.pdf",
+          "source_sha256": "101125d7c376dcc0d0f43fb400583ec5626c463d3942af03927ace124d9ccc4a",
+          "replaced_scopes": [
+            {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            }
+          ]
+        },
+        {
+          "variant_id": "e4b0f50dceda6ad4df73504857d1c37e5724adddd3ab45eca5f8ffaeff7a45d2",
+          "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002250-2--a6427ad49e.pdf",
+          "source_sha256": "9cf366abbdede7c727a4a3ffafb47c472c7e59a8c57e9bc6727999ee44bcc2fe",
+          "replaced_scopes": [
+            {
+              "program": "الشريعة",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            }
+          ]
+        }
+      ],
+      "action": "replace"
+    },
+    {
+      "code": "20021203-2",
+      "title": "التفسير التحليلي (1)",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "plan_rows": [
+        {
+          "scope": {
+            "program": "الدراسات الإسلامية",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "20021203-2",
+            "name": "التفسير التحليلي (1)",
+            "name_en": "Analytical Interpretation (1)",
+            "hours": 2,
+            "level": 3,
+            "type": "نظري",
+            "category": "إجبارية القسم",
+            "belongs_to_programs": [
+              "الدراسات الإسلامية (47 جديدة)"
+            ]
+          }
+        },
+        {
+          "scope": {
+            "program": "القراءات",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "20021203-2",
+            "name": "التفسير التحليلي (1)",
+            "name_en": "Analytical Interpretation (1)",
+            "hours": 2,
+            "level": 3,
+            "type": "نظري",
+            "category": "متطلبات الكلية",
+            "belongs_to_programs": [
+              "القراءات (47 جديدة)"
+            ]
+          }
+        }
+      ],
+      "source": "مقررات الخطة الجديدة/التفسير التحليلي 1 (1).pdf",
+      "source_sha256": "111788b9fe1661281bcad7a6f252a4cc57b3836b96e351a7275fe8e391ed0180",
+      "converted_pdf_sha256": "111788b9fe1661281bcad7a6f252a4cc57b3836b96e351a7275fe8e391ed0180",
+      "source_format": "pdf",
+      "output": "assets/course-specifications/new-plan-updates-20261002/20021203-2--new-v47.pdf",
+      "output_sha256": "327ccf2d1af85ab4262d6c6a4229e458df739711f176288b4effde22140d1e27",
+      "page_count": 7,
+      "identity_edits": [
+        {
+          "field": "title",
+          "original_pdf_text": ":اسم املقرر    /  التفسير التحليلي1 /  ",
+          "approved_value": "التفسير التحليلي (1)",
+          "bbox": [
+            100.0,
+            410.6386413574219,
+            497.0,
+            428.88873291015625
+          ],
+          "text_bbox": [
+            360.15699780732393,
+            410.6386413574219,
+            497.0,
+            428.88873291015625
+          ]
+        },
+        {
+          "field": "code",
+          "original_pdf_text": "  :رمز املقرر / ٢ - ٤٥٠٢1٣٠٢ ",
+          "approved_value": "20021203-2",
+          "bbox": [
+            100.0,
+            440.6386413574219,
+            497.0,
+            459.24871826171875
+          ],
+          "text_bbox": [
+            384.9729995727539,
+            440.6386413574219,
+            497.0,
+            459.24871826171875
+          ]
+        }
+      ],
+      "body_pages_pixel_identical": true,
+      "body_page_render_sha256": [
+        "b5fc2cccd56a4fbae8ae25fbc8df46528848cf3b140631134f1e94182f924318",
+        "bace7ada4b014ba10359e54c6b491b77cb4ff3920ead787791717aed89304fb1",
+        "154bf404ba56b045ccc5f320397b030bb44e2470c2e2d1012f5dca3a0a08e3c4",
+        "452f3891968f0430754dfc31b0a06d1e592d867581d308605327b384a7f68ca7",
+        "dd8edccfc83b9db66991e65cd73d01edc101a00b7ab2099c099fa5aa612c0f3e",
+        "3054f29a2bc001848eeb1362d768b8b1d121c6422b05e88304a26694dec65263"
+      ],
+      "predecessors": [
+        {
+          "variant_id": "50046e4a7cd313ed55ac0cbfa33c8b011657273bf336475c6f0dc396e830c8ea",
+          "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/20021203-2--c4a183c251.pdf",
+          "source_sha256": "0ba1d162560492491ead097b1d96b80f02fe82b6a39c449cf09e15e4d30ceda1",
+          "replaced_scopes": [
+            {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            },
+            {
+              "program": "القراءات",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            }
+          ]
+        }
+      ],
+      "action": "replace"
+    },
+    {
+      "code": "2002352-2",
+      "title": "التفسير التحليلي (2)",
+      "scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "plan_rows": [
+        {
+          "scope": {
+            "program": "القراءات",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002352-2",
+            "name": "التفسير التحليلي (2)",
+            "name_en": null,
+            "hours": 2,
+            "level": 4,
+            "type": "نظري",
+            "category": "متطلبات الكلية",
+            "belongs_to_programs": [
+              "القراءات (47 جديدة)"
+            ]
+          }
+        }
+      ],
+      "source": "مقررات الخطة الجديدة/__التفسير التحليلي 2 (ق) .pdf",
+      "source_sha256": "55cb3dfa36dc131d44e6d5b6e8947c76db5a29c8acd9ef7e60afa951b14d4c93",
+      "converted_pdf_sha256": "55cb3dfa36dc131d44e6d5b6e8947c76db5a29c8acd9ef7e60afa951b14d4c93",
+      "source_format": "pdf",
+      "output": "assets/course-specifications/new-plan-updates-20261002/2002352-2--new-v47.pdf",
+      "output_sha256": "04e455b5f65ee52432e583fcc87bc51b1378aa1a34253f22a9f805f6639fe92e",
+      "page_count": 7,
+      "identity_edits": [
+        {
+          "field": "title",
+          "original_pdf_text": ":اسم املقرر    /  التفسير التحليلي2 (ق) ",
+          "approved_value": "التفسير التحليلي (2)",
+          "bbox": [
+            100.0,
+            410.6386413574219,
+            497.0,
+            428.88873291015625
+          ],
+          "text_bbox": [
+            360.15699780732393,
+            410.6386413574219,
+            497.0,
+            428.88873291015625
+          ]
+        },
+        {
+          "field": "code",
+          "original_pdf_text": "  :رمز املقرر2 -  / 2٠٠23٠9 /  ",
+          "approved_value": "2002352-2",
+          "bbox": [
+            100.0,
+            442.0786437988281,
+            497.0,
+            460.688720703125
+          ],
+          "text_bbox": [
+            391.08899688720703,
+            442.0786437988281,
+            497.0,
+            460.688720703125
+          ]
+        }
+      ],
+      "body_pages_pixel_identical": true,
+      "body_page_render_sha256": [
+        "cfd8b5bed2a794f0955e89d5b8c0acf1955795af8a47406bfa67f08b687383fd",
+        "56b6c9c49b3e51f9df9f0d3dc12d659fd36ce02d495b32d54f05f9f24daedfed",
+        "5d0d34f0f0ae061a4fff78fa2169d5dd75e6a3ad7c35d2584b5d2d7ed9c0d3fe",
+        "9cd5c4c5a7298c3ab70cffc26cd4124596fc359a01cef466e59f0c0aca08f53c",
+        "d032ab7290e07e6e2baa60f4ca7ff7820be08debb6de9d4c056b940bfe8bff0e",
+        "7783f653bcb7edb3f79446b417f328a3b7207bd018b42688a8f12b14b129d03d"
+      ],
+      "predecessors": [],
+      "action": "add"
+    },
+    {
+      "code": "20023101-3",
+      "title": "التفسير التحليلي (٢)",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "plan_rows": [
+        {
+          "scope": {
+            "program": "الدراسات الإسلامية",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "20023101-3",
+            "name": "التفسير التحليلي (٢)",
+            "name_en": "Analytical Interpretation (2)",
+            "hours": 3,
+            "level": 5,
+            "type": "نظري",
+            "category": "إجبارية القسم",
+            "belongs_to_programs": [
+              "الدراسات الإسلامية (47 جديدة)"
+            ]
+          }
+        }
+      ],
+      "source": "مقررات الخطة الجديدة/__التفسير التحليلي 2 (س) .pdf",
+      "source_sha256": "d08c23e9a34d207235563a35239cc457305d6e7f419d9323d0c22024e5c1d385",
+      "converted_pdf_sha256": "d08c23e9a34d207235563a35239cc457305d6e7f419d9323d0c22024e5c1d385",
+      "source_format": "pdf",
+      "output": "assets/course-specifications/new-plan-updates-20261002/20023101-3--new-v47.pdf",
+      "output_sha256": "1baa6b121ba5352b1a8bfae7e618cd8564f5075b3d26af4902b2d233d2b25917",
+      "page_count": 7,
+      "identity_edits": [
+        {
+          "field": "title",
+          "original_pdf_text": ":اسم املقرر    /  التفسير التحليلي2  / )(س ",
+          "approved_value": "التفسير التحليلي (٢)",
+          "bbox": [
+            100.0,
+            410.6386413574219,
+            497.0,
+            428.88873291015625
+          ],
+          "text_bbox": [
+            361.73000348359346,
+            410.6386413574219,
+            497.0,
+            428.88873291015625
+          ]
+        },
+        {
+          "field": "code",
+          "original_pdf_text": "  :رمز املقرر3 -  / 2٤٥٠22٠2 /  ",
+          "approved_value": "20023101-3",
+          "bbox": [
+            100.0,
+            442.0786437988281,
+            497.0,
+            460.688720703125
+          ],
+          "text_bbox": [
+            384.9729995727539,
+            442.0786437988281,
+            497.0,
+            460.688720703125
+          ]
+        }
+      ],
+      "body_pages_pixel_identical": true,
+      "body_page_render_sha256": [
+        "cfd8b5bed2a794f0955e89d5b8c0acf1955795af8a47406bfa67f08b687383fd",
+        "0add6fc691c93f3142fdf879e542d0fdc55cb37469513cddf18144a3258ffcf8",
+        "0bdb741e7889ad23270ca457445698de6563787760e91f68b4b0b693f4064106",
+        "cbf5927f24525c8f1c8f4cd7791ab8bb593b897c474c71415e18e38e613704be",
+        "aa8fb64dc705105636d6183067a2256771e46f11472583445e5231a722cf67e9",
+        "605c29d53a53cc8a626177b5467b381fe186eb541016508ac2a65dde73dc980c"
+      ],
+      "predecessors": [
+        {
+          "variant_id": "f5bd301703431d239d0bd4d5aaae9af3d5893c8e82c1611dde8e1572acc16816",
+          "source_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/20023101-3.pdf",
+          "source_sha256": "755e0026acdb95ae8be63be37ab79b2170036a9765b4b95ebc017b8fc4c78ca0",
+          "replaced_scopes": [
+            {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            }
+          ]
+        }
+      ],
+      "action": "replace"
+    },
+    {
+      "code": "20023205-2",
+      "title": "التفسير التحليلي (3)",
+      "scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "plan_rows": [
+        {
+          "scope": {
+            "program": "القراءات",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "20023205-2",
+            "name": "التفسير التحليلي (3)",
+            "name_en": null,
+            "hours": 2,
+            "level": 5,
+            "type": "نظري",
+            "category": "متطلبات الكلية",
+            "belongs_to_programs": [
+              "القراءات (47 جديدة)"
+            ]
+          }
+        }
+      ],
+      "source": "مقررات الخطة الجديدة/____التفسير التحليلي 3 (ق) .pdf",
+      "source_sha256": "59e13c4a2114078fe4172497bf60f599c7b9dbb92379c4595f2827fa04b0b772",
+      "converted_pdf_sha256": "59e13c4a2114078fe4172497bf60f599c7b9dbb92379c4595f2827fa04b0b772",
+      "source_format": "pdf",
+      "output": "assets/course-specifications/new-plan-updates-20261002/20023205-2--new-v47.pdf",
+      "output_sha256": "c65bf1c34b1232a52623b2df24e1832575c5c7239cc496ac03f5008341571688",
+      "page_count": 7,
+      "identity_edits": [
+        {
+          "field": "title",
+          "original_pdf_text": " اسم:املقرر التفسير  /  التحليلي3 (ق) ",
+          "approved_value": "التفسير التحليلي (3)",
+          "bbox": [
+            100.0,
+            410.6386413574219,
+            497.0,
+            428.88873291015625
+          ],
+          "text_bbox": [
+            360.15699780732393,
+            410.6386413574219,
+            497.0,
+            428.88873291015625
+          ]
+        },
+        {
+          "field": "code",
+          "original_pdf_text": " رمز :املقرر2 -  / 2٤٠٠2319 /  ",
+          "approved_value": "20023205-2",
+          "bbox": [
+            100.0,
+            442.0786437988281,
+            497.0,
+            460.688720703125
+          ],
+          "text_bbox": [
+            384.9729995727539,
+            442.0786437988281,
+            497.0,
+            460.688720703125
+          ]
+        }
+      ],
+      "body_pages_pixel_identical": true,
+      "body_page_render_sha256": [
+        "cfd8b5bed2a794f0955e89d5b8c0acf1955795af8a47406bfa67f08b687383fd",
+        "5dc948a633b4835c1ee44f5196821c394ebea7ffe73dca9bb0737e0d59bd3a7e",
+        "b0c7c81474d04f05928d4abbe554dd1b0a412dc317e4c81717cd23c956f09ce8",
+        "5f2066cf509dbf786b111f70619db9c80d5a708972b816e90643fcadabcf02e5",
+        "75c13bea4b1851e5fe88f9a4f4d33f3027262592481a961aebf1ff92ff8aa097",
+        "7783f653bcb7edb3f79446b417f328a3b7207bd018b42688a8f12b14b129d03d"
+      ],
+      "predecessors": [
+        {
+          "variant_id": "54126b6cca53262cc613a57e9fd51430a328d8fc4eb3b0eed25ef2ab6112b0a2",
+          "source_pdf": "assets/course-specifications/specialty-recovery-20260826/20023205-2.pdf",
+          "source_sha256": "b0ddbb1e896f681c3867b5a6d639eeb23592b72975e698ed712a318058beaf57",
+          "replaced_scopes": [
+            {
+              "program": "القراءات",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            }
+          ]
+        }
+      ],
+      "action": "replace"
+    },
+    {
+      "code": "2002310-3",
+      "title": "التفسير التحليلي (٣)",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "plan_rows": [
+        {
+          "scope": {
+            "program": "الدراسات الإسلامية",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002310-3",
+            "name": "التفسير التحليلي (٣)",
+            "name_en": "Analytical Interpretation (3)",
+            "hours": 3,
+            "level": 6,
+            "type": "نظري",
+            "category": "إجبارية القسم",
+            "belongs_to_programs": [
+              "الدراسات الإسلامية (47 جديدة)"
+            ]
+          }
+        }
+      ],
+      "source": "مقررات الخطة الجديدة/____التفسير التحليلي 3 (س) .pdf",
+      "source_sha256": "b2a04fe8cb7dbd459028f6816871e78b094c835408f1c5252ed8b508c4e90b42",
+      "converted_pdf_sha256": "b2a04fe8cb7dbd459028f6816871e78b094c835408f1c5252ed8b508c4e90b42",
+      "source_format": "pdf",
+      "output": "assets/course-specifications/new-plan-updates-20261002/2002310-3--new-v47.pdf",
+      "output_sha256": "959dbad023e4b85b540264174ed53227712bed4b081d87c970ed43bbabb63139",
+      "page_count": 7,
+      "identity_edits": [
+        {
+          "field": "title",
+          "original_pdf_text": " اسم:املقرر التفسير  /  التحليلي3  / )(س ",
+          "approved_value": "التفسير التحليلي (٣)",
+          "bbox": [
+            100.0,
+            410.6386413574219,
+            497.0,
+            428.88873291015625
+          ],
+          "text_bbox": [
+            361.0149995163083,
+            410.6386413574219,
+            497.0,
+            428.88873291015625
+          ]
+        },
+        {
+          "field": "code",
+          "original_pdf_text": " رمز :املقرر3 - ٤٠٠٢3٥٠٢ ",
+          "approved_value": "2002310-3",
+          "bbox": [
+            100.0,
+            442.0786437988281,
+            497.0,
+            460.688720703125
+          ],
+          "text_bbox": [
+            391.08899688720703,
+            442.0786437988281,
+            497.0,
+            460.688720703125
+          ]
+        }
+      ],
+      "body_pages_pixel_identical": true,
+      "body_page_render_sha256": [
+        "cfd8b5bed2a794f0955e89d5b8c0acf1955795af8a47406bfa67f08b687383fd",
+        "263daa3fe96fa85c77e522c8abe5bedcab3e755b62167645a62ae8ced4b49d2e",
+        "86ba62862b4a34da84c134b7096142a867a5e61c8cefee3abc2481b23e380b61",
+        "8860b164ce79bc29968bc3930e6ee233b14a31aa8a7bb732ee480edd72c89421",
+        "9b63d9fbe5711338c317106c356a4cfd5dcd9e200558897e8080ba9a3f0ab4f5",
+        "b06d162d08fb5698f124507178cf00e6c583fc96e313826e10727c516602e7ae"
+      ],
+      "predecessors": [],
+      "action": "add"
+    },
+    {
+      "code": "2002200-2",
+      "title": "المدخل إلى التفسير الموضوعي",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "plan_rows": [
+        {
+          "scope": {
+            "program": "الدراسات الإسلامية",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002200-2",
+            "name": "المدخل إلى التفسير الموضوعي",
+            "name_en": null,
+            "hours": 2,
+            "level": 7,
+            "type": "نظري",
+            "category": "إجبارية القسم",
+            "belongs_to_programs": [
+              "الدراسات الإسلامية (47 جديدة)"
+            ]
+          }
+        },
+        {
+          "scope": {
+            "program": "القراءات",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002200-2",
+            "name": "المدخل إلى التفسير الموضوعي",
+            "name_en": null,
+            "hours": 2,
+            "level": 6,
+            "type": "نظري",
+            "category": "متطلبات الكلية",
+            "belongs_to_programs": [
+              "القراءات (47 جديدة)"
+            ]
+          }
+        }
+      ],
+      "source": "مقررات الخطة الجديدة/2_2002455_المدخل_إلى_التفسير_الموضوعي.pdf",
+      "source_sha256": "33ea4e79bf94112e48c9038d912d627f8ab3b6d1a09bf41bd1b29be8a9a175d4",
+      "converted_pdf_sha256": "33ea4e79bf94112e48c9038d912d627f8ab3b6d1a09bf41bd1b29be8a9a175d4",
+      "source_format": "pdf",
+      "output": "assets/course-specifications/new-plan-updates-20261002/2002200-2--new-v47.pdf",
+      "output_sha256": "a6d3164affe8900e62dc4cc17fcd1c106f5c4a542518a86cc47fba7078a9d30d",
+      "page_count": 7,
+      "identity_edits": [
+        {
+          "field": "title",
+          "original_pdf_text": ":اسم املقرر املدخل إلى التفسير املوضوعي ",
+          "approved_value": "المدخل إلى التفسير الموضوعي",
+          "bbox": [
+            100.0,
+            403.9639892578125,
+            497.0,
+            430.6319885253906
+          ],
+          "text_bbox": [
+            321.22799587249756,
+            403.9639892578125,
+            497.0,
+            430.6319885253906
+          ]
+        },
+        {
+          "field": "code",
+          "original_pdf_text": "  :رمز املقرر2- / 2002455 /  ",
+          "approved_value": "2002200-2",
+          "bbox": [
+            100.0,
+            437.61798095703125,
+            497.0,
+            461.35198974609375
+          ],
+          "text_bbox": [
+            391.08899688720703,
+            437.61798095703125,
+            497.0,
+            461.35198974609375
+          ]
+        }
+      ],
+      "body_pages_pixel_identical": true,
+      "body_page_render_sha256": [
+        "5f08b0fcfc6b1f32860aba8d5b576d0b1dde6ac0c882520028ce54e9f58564eb",
+        "4749a1039e209db148c82e0390960cad903efc5b98c45395e045e51c0d2e7177",
+        "dd893b6796bd527c4e4750556829644e8590df746a4d88dffabcb3678cd83747",
+        "3b6b0db7164416030050eb32f10a54deeab6bbc3f3379eb36407c884c13f76c6",
+        "a629700e3e42ff572762ec9fb2015ec5db0645503390cbccba44e3c0d3c8121a",
+        "13a6d485e5a747e827400f288fe789685fb11da5f8896a37342c51d1fb605e74"
+      ],
+      "predecessors": [
+        {
+          "variant_id": "46af940bac33b21e15724f30e45c8b259d9682cd18c64bdab1b656d695989426",
+          "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002200-2--eef9578e10.pdf",
+          "source_sha256": "f3c927a7a02bf2505f67ce076e8ce06f9a8846932814a54ba9dc01bdf0373322",
+          "replaced_scopes": [
+            {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            },
+            {
+              "program": "القراءات",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            }
+          ]
+        }
+      ],
+      "action": "replace"
+    },
+    {
+      "code": "2002429-2",
+      "title": "الانتصار للقرآن",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "plan_rows": [
+        {
+          "scope": {
+            "program": "القرآن وعلومه",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002429-2",
+            "name": "الانتصار للقرآن",
+            "name_en": null,
+            "hours": 2,
+            "level": 7,
+            "type": "نظري",
+            "category": "إجبارية القسم",
+            "belongs_to_programs": [
+              "القرآن وعلومه (47 جديدة)"
+            ]
+          }
+        },
+        {
+          "scope": {
+            "program": "القراءات",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002429-2",
+            "name": "الانتصار للقرآن",
+            "name_en": null,
+            "hours": 2,
+            "level": 6,
+            "type": "نظري",
+            "category": "متطلبات الكلية",
+            "belongs_to_programs": [
+              "القراءات (47 جديدة)"
+            ]
+          }
+        }
+      ],
+      "source": "مقررات الخطة الجديدة/2-2002429 الانتصار للقرآن (1).pdf",
+      "source_sha256": "7efd51ffbfda5cc735c9b26b4561ac79c7ad7bba5c6fc1d1ce71c8008f8dc85c",
+      "converted_pdf_sha256": "7efd51ffbfda5cc735c9b26b4561ac79c7ad7bba5c6fc1d1ce71c8008f8dc85c",
+      "source_format": "pdf",
+      "output": "assets/course-specifications/new-plan-updates-20261002/2002429-2--new-v47.pdf",
+      "output_sha256": "52ace6c6a84f1dba5f474acc521b33db3ee3c960e31af811d5464330893ba303",
+      "page_count": 8,
+      "identity_edits": [
+        {
+          "field": "title",
+          "original_pdf_text": ":اسم املقرر االنتصار للقرآن ",
+          "approved_value": "الانتصار للقرآن",
+          "bbox": [
+            100.0,
+            403.9639892578125,
+            497.0,
+            430.6319885253906
+          ],
+          "text_bbox": [
+            384.98400020599365,
+            403.9639892578125,
+            497.0,
+            430.6319885253906
+          ]
+        },
+        {
+          "field": "code",
+          "original_pdf_text": "  :رمز املقرر2- / 2002429 /  ",
+          "approved_value": "2002429-2",
+          "bbox": [
+            100.0,
+            437.61798095703125,
+            497.0,
+            461.35198974609375
+          ],
+          "text_bbox": [
+            391.08899688720703,
+            437.61798095703125,
+            497.0,
+            461.35198974609375
+          ]
+        }
+      ],
+      "body_pages_pixel_identical": true,
+      "body_page_render_sha256": [
+        "b04be4ad8fe163513d3ed3bb7dc364d01742826d8acec170ee483d765e6f199d",
+        "316904b0ec0a3c47c29d715e35c6bdc97d7c7035a7d2b39363a2d63267f053d9",
+        "42532669cb9a19c19cf8915f65838c217ee5fec127063c609ca86c284e162b76",
+        "b88cad091fba5d56a78a81520dd7a65198232674b2b56ac2adf7cd67bdbeffcb",
+        "5d879fb4c7d7c099cb6d50428611b474aa962d53e62d6c16b7fbeda23c6d4ea8",
+        "8353805f44f3b8bf60c31b98ffcbb088871679c800091d07a0495ca5a8114ebd",
+        "cbc6e3c42ba47b22776a840d15f880687811fefe173f9f0101aa5fe9a2ea13d8"
+      ],
+      "predecessors": [
+        {
+          "variant_id": "31323e237f382ef75670026f921b0a55cf2c2e8d82e4f0b2734bd6e3c398d06d",
+          "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002429-2--af8452abb6.pdf",
+          "source_sha256": "2a14aa2279a9e92bef407b36f6be9731e018470ab8a3eeb008f7eb772d4801ea",
+          "replaced_scopes": [
+            {
+              "program": "القرآن وعلومه",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            },
+            {
+              "program": "القراءات",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            }
+          ]
+        }
+      ],
+      "action": "replace"
+    },
+    {
+      "code": "2002456-2",
+      "title": "إعجاز القرآن الكريم",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "plan_rows": [
+        {
+          "scope": {
+            "program": "القرآن وعلومه",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002456-2",
+            "name": "إعجاز القرآن الكريم",
+            "name_en": null,
+            "hours": 2,
+            "level": 7,
+            "type": "نظري",
+            "category": "إجبارية القسم",
+            "belongs_to_programs": [
+              "القرآن وعلومه (47 جديدة)"
+            ]
+          }
+        },
+        {
+          "scope": {
+            "program": "القراءات",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2002456-2",
+            "name": "إعجاز القرآن الكريم",
+            "name_en": null,
+            "hours": 2,
+            "level": 7,
+            "type": "نظري",
+            "category": "متطلبات الكلية",
+            "belongs_to_programs": [
+              "القراءات (47 جديدة)"
+            ]
+          }
+        }
+      ],
+      "source": "مقررات الخطة الجديدة/2-2002456 إعجاز القرآن الكريم (1).pdf",
+      "source_sha256": "e0a014dae14c3956d2c5c1bb4ab1b8e0301b4eec2f72b475a3d76c046c124e4a",
+      "converted_pdf_sha256": "e0a014dae14c3956d2c5c1bb4ab1b8e0301b4eec2f72b475a3d76c046c124e4a",
+      "source_format": "pdf",
+      "output": "assets/course-specifications/new-plan-updates-20261002/2002456-2--new-v47.pdf",
+      "output_sha256": "e3b833b5e654a8262e15c521f7b1bd9da5caf6b57e7e3765d01b84358674cb36",
+      "page_count": 8,
+      "identity_edits": [
+        {
+          "field": "title",
+          "original_pdf_text": ":اسم املقرر إعجاز القرآن الكريم                      ",
+          "approved_value": "إعجاز القرآن الكريم",
+          "bbox": [
+            100.0,
+            403.9639892578125,
+            497.0,
+            430.6319885253906
+          ],
+          "text_bbox": [
+            366.1409978866577,
+            403.9639892578125,
+            497.0,
+            430.6319885253906
+          ]
+        },
+        {
+          "field": "code",
+          "original_pdf_text": "  :رمز املقرر2- / 2002456 /  ",
+          "approved_value": "2002456-2",
+          "bbox": [
+            100.0,
+            437.61798095703125,
+            497.0,
+            461.35198974609375
+          ],
+          "text_bbox": [
+            391.08899688720703,
+            437.61798095703125,
+            497.0,
+            461.35198974609375
+          ]
+        }
+      ],
+      "body_pages_pixel_identical": true,
+      "body_page_render_sha256": [
+        "b04be4ad8fe163513d3ed3bb7dc364d01742826d8acec170ee483d765e6f199d",
+        "b0f120718e4f5e8724aca34b72da7dd8e76fc26aeb198acefbbdd6079f6f6681",
+        "f333d9c69a29e03186a06bb2bcb73f9db564564f4ec29ae33521aea8b63f7ec6",
+        "3838424d7b1b96b39954295e9a3fd926ae1a7e663829feb085a7eafc45db5794",
+        "1168ea70dcd5190230f9f62a9219e438f9763325fea13bf3026c8092cbe7a2f3",
+        "39fe5206b854eb566a2e6e6212abb324305626f697428ede47518ec34aee31f8",
+        "f9ef84f54ec0ed0c6824460596349e9dae5746ff5d0d898c1d44aeb462a5be5a"
+      ],
+      "predecessors": [
+        {
+          "variant_id": "44036886c62eaa07b4d9068f39b744151803b94532fd8ea8c93b2ee40235be4a",
+          "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--3b6c8f3dc2.pdf",
+          "source_sha256": "b1935f12576c22a1119e54fc280173bc8d4a2b3c19e6b7693aab453735f550ec",
+          "replaced_scopes": [
+            {
+              "program": "القراءات",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            }
+          ]
+        },
+        {
+          "variant_id": "6431516ffcc438dba811704167e9d54ce883de14faebc2320543d837be6a8141",
+          "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--2ab6b9436e.pdf",
+          "source_sha256": "80f1f1c217e02a561240c401d904281bd705558f81a158642537e0c26f47e0c9",
+          "replaced_scopes": [
+            {
+              "program": "القرآن وعلومه",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            }
+          ]
+        }
+      ],
+      "action": "replace"
+    },
+    {
+      "code": "20031301-2",
+      "title": "مبادئ القانون",
+      "scopes": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "plan_rows": [
+        {
+          "scope": {
+            "program": "الأنظمة",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "20031301-2",
+            "name": "مبادئ القانون",
+            "name_en": "Basics of Law",
+            "hours": 2,
+            "level": 1,
+            "type": "نظري",
+            "category": "متطلبات جامعية",
+            "belongs_to_programs": [
+              "الأنظمة (47 جديدة)"
+            ]
+          }
+        },
+        {
+          "scope": {
+            "program": "الدراسات الإسلامية",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "20031301-2",
+            "name": "مبادئ القانون",
+            "name_en": "Basics of Law",
+            "hours": 2,
+            "level": 4,
+            "type": "نظري",
+            "category": "متطلبات جامعية",
+            "belongs_to_programs": [
+              "الدراسات الإسلامية (47 جديدة)"
+            ]
+          }
+        },
+        {
+          "scope": {
+            "program": "الشريعة",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "20031301-2",
+            "name": "مبادئ القانون",
+            "name_en": "Basics of Law",
+            "hours": 2,
+            "level": 2,
+            "type": "نظري",
+            "category": "متطلبات جامعية",
+            "belongs_to_programs": [
+              "الشريعة (47 جديدة)"
+            ]
+          }
+        },
+        {
+          "scope": {
+            "program": "القراءات",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "20031301-2",
+            "name": "مبادئ القانون",
+            "name_en": "Basics of Law",
+            "hours": 2,
+            "level": 1,
+            "type": "نظري",
+            "category": "متطلبات الكلية",
+            "belongs_to_programs": [
+              "القراءات (47 جديدة)"
+            ]
+          }
+        },
+        {
+          "scope": {
+            "program": "القرآن وعلومه",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "20031301-2",
+            "name": "مبادئ القانون",
+            "name_en": "Basics of Law",
+            "hours": 2,
+            "level": 1,
+            "type": "نظري",
+            "category": "متطلبات جامعية",
+            "belongs_to_programs": [
+              "القرآن وعلومه (47 جديدة)"
+            ]
+          }
+        }
+      ],
+      "source": "مقررات الخطة الجديدة/المدخل إلى دراسة الأنظمة.docx",
+      "source_sha256": "88de661d698e3e4f797a836ccf7647af4b0a233db7719f3267d5845cc6d1ba05",
+      "converted_pdf_sha256": "892aad11ab441077092367d0cbb2e8c44089f72b7ba10cc7ac84837f0907e29d",
+      "source_format": "docx",
+      "output": "assets/course-specifications/new-plan-updates-20261002/20031301-2--new-v47.pdf",
+      "output_sha256": "db576ae46c2b6874a6bb6cbf2ba123fa56b1492e3b1bb49d7159ec24f486efaf",
+      "page_count": 7,
+      "identity_edits": [
+        {
+          "field": "title",
+          "original_pdf_text": "   :اسم المقرر / المدخل لدراسة األنظمة",
+          "approved_value": "مبادئ القانون",
+          "bbox": [
+            100.0,
+            317.65875244140625,
+            497.0,
+            334.9407653808594
+          ],
+          "text_bbox": [
+            389.6809968948364,
+            317.65875244140625,
+            497.0,
+            334.9407653808594
+          ]
+        },
+        {
+          "field": "code",
+          "original_pdf_text": ":رمز المقرر    /  ۲ / - / ۲۰۰۳۲۰۱",
+          "approved_value": "20031301-2",
+          "bbox": [
+            100.0,
+            346.7087707519531,
+            497.0,
+            363.99078369140625
+          ],
+          "text_bbox": [
+            384.9729995727539,
+            346.7087707519531,
+            497.0,
+            363.99078369140625
+          ]
+        }
+      ],
+      "body_pages_pixel_identical": true,
+      "body_page_render_sha256": [
+        "ca6277e9dfc0e18e5b4c4fdbf8c97e6b7dc0a837d15e3d1f54fdb4d10253e9de",
+        "7c727563f2c91e8f9a19205e90ac79bc08f9dbe1e1b82db20c22ad6d3c045bca",
+        "5bcb995d78bd4979064923d4e6a69d6fbba39bd7e096ece9f4241e3314a0831f",
+        "cb15fc48152c29c0a26db3b1f243e025c246b7c65300b0ef029f94a9191902d4",
+        "ea1fddf00fba5c1d9d742b7a40f77d47920cb3fe7cd8a32bbe7b9c41d2b76b89",
+        "cd9dac31a579edc6fc52349b5421a90475c91f0782bb503e749129236fa56922"
+      ],
+      "predecessors": [
+        {
+          "variant_id": "ea288fd52f418ef72ad742b4e121c8552a87a29cf7d87eef8440a3b7a8087c7e",
+          "source_pdf": "assets/course-specifications/20031301-2.pdf",
+          "source_sha256": "5ca08149acf36e81a8851ddd642e35432305a6723bd7167b2f83729e3ed74fda",
+          "replaced_scopes": [
+            {
+              "program": "الأنظمة",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            },
+            {
+              "program": "الدراسات الإسلامية",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            },
+            {
+              "program": "الشريعة",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            },
+            {
+              "program": "القرآن وعلومه",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            },
+            {
+              "program": "القراءات",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            }
+          ]
+        }
+      ],
+      "action": "replace"
+    },
+    {
+      "code": "2003220-2",
+      "title": "المدخل لدراسة الأنظمة",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "plan_rows": [
+        {
+          "scope": {
+            "program": "القرآن وعلومه",
+            "degree": "بكالوريوس",
+            "plan_type": "جديدة",
+            "version": "47"
+          },
+          "course": {
+            "code": "2003220-2",
+            "name": "المدخل لدراسة الأنظمة",
+            "name_en": null,
+            "hours": 2,
+            "level": 3,
+            "type": "نظري",
+            "category": "إجبارية القسم",
+            "belongs_to_programs": [
+              "القرآن وعلومه (47 جديدة)"
+            ],
+            "pdf_url": "assets/course-specifications/20031301-2.pdf"
+          }
+        }
+      ],
+      "source": "مقررات الخطة الجديدة/المدخل إلى دراسة الأنظمة.docx",
+      "source_sha256": "88de661d698e3e4f797a836ccf7647af4b0a233db7719f3267d5845cc6d1ba05",
+      "converted_pdf_sha256": "892aad11ab441077092367d0cbb2e8c44089f72b7ba10cc7ac84837f0907e29d",
+      "source_format": "docx",
+      "output": "assets/course-specifications/new-plan-updates-20261002/2003220-2--new-v47.pdf",
+      "output_sha256": "5f4af50df786bdf80872a5f79b024344142eae3227e304f652429bd8aa337956",
+      "page_count": 7,
+      "identity_edits": [
+        {
+          "field": "title",
+          "original_pdf_text": "   :اسم المقرر / المدخل لدراسة األنظمة",
+          "approved_value": "المدخل لدراسة الأنظمة",
+          "bbox": [
+            100.0,
+            317.65875244140625,
+            497.0,
+            334.9407653808594
+          ],
+          "text_bbox": [
+            352.677001953125,
+            317.65875244140625,
+            497.0,
+            334.9407653808594
+          ]
+        },
+        {
+          "field": "code",
+          "original_pdf_text": ":رمز المقرر    /  ۲ / - / ۲۰۰۳۲۰۱",
+          "approved_value": "2003220-2",
+          "bbox": [
+            100.0,
+            346.7087707519531,
+            497.0,
+            363.99078369140625
+          ],
+          "text_bbox": [
+            391.08899688720703,
+            346.7087707519531,
+            497.0,
+            363.99078369140625
+          ]
+        }
+      ],
+      "body_pages_pixel_identical": true,
+      "body_page_render_sha256": [
+        "ca6277e9dfc0e18e5b4c4fdbf8c97e6b7dc0a837d15e3d1f54fdb4d10253e9de",
+        "7c727563f2c91e8f9a19205e90ac79bc08f9dbe1e1b82db20c22ad6d3c045bca",
+        "5bcb995d78bd4979064923d4e6a69d6fbba39bd7e096ece9f4241e3314a0831f",
+        "cb15fc48152c29c0a26db3b1f243e025c246b7c65300b0ef029f94a9191902d4",
+        "ea1fddf00fba5c1d9d742b7a40f77d47920cb3fe7cd8a32bbe7b9c41d2b76b89",
+        "cd9dac31a579edc6fc52349b5421a90475c91f0782bb503e749129236fa56922"
+      ],
+      "predecessors": [
+        {
+          "variant_id": "197837361d2783539e36336e31d7e39f50fc5e2433ff06b492b9878ffc7d4a60",
+          "source_pdf": "assets/course-specifications/20031301-2.pdf",
+          "source_sha256": "5ca08149acf36e81a8851ddd642e35432305a6723bd7167b2f83729e3ed74fda",
+          "replaced_scopes": [
+            {
+              "program": "القرآن وعلومه",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            }
+          ]
+        }
+      ],
+      "action": "replace"
+    }
+  ],
+  "baseline_commit": "35c3c6faef0c0c14ec667be50d89da1af84daed0",
+  "applied_data_sha256": "b5ad2b7600a747b7db867a0ab245504c59010ddc5d40da4c07039fd3646f98c8",
+  "applied_outcomes_sha256": "44bcec6ce6f6e5ba8ba25212d49a5f9cf0b84f34f815bc1c49693767b40464c9"
+}

@@ -89,8 +89,8 @@ class CrossProgramUpdates20260914Tests(unittest.TestCase):
         ).read_text(encoding="utf-8")
         self.assertTrue(all(code not in markdown for code in RECOVERED_CODES))
         required, available, missing_identities, _ = calculate()
-        # Current total includes the later 2003102-3 and 2004269-4 recoveries.
-        self.assertEqual((756, 655, 101, 87), (
+        # Current total includes both 2026-10-02 analytical-exegesis recoveries.
+        self.assertEqual((756, 657, 99, 85), (
             required,
             available,
             required - available,

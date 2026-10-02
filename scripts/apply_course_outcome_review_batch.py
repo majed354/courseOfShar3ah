@@ -136,6 +136,22 @@ def reviewed_variant_successors() -> dict[tuple[str, str, str], dict[str, str]]:
         if key in successors and successors[key] != successor:
             raise ValueError(f"ambiguous reviewed variant successor: {key!r}")
         successors[key] = successor
+    # A new-plan replacement can leave the old PDF active for historical
+    # scopes. Its variant ID changes when those scopes are narrowed, while
+    # the immutable source and earlier visual reviews remain valid.
+    bundle = ROOT / 'assets/course-specifications/new-plan-updates-20261002'
+    retained_path = bundle / 'retained-variant-successors.json'
+    if retained_path.is_file():
+        retained = load_json(retained_path)
+        publication = load_json(bundle / 'manifest.json')
+        for record in publication['records']:
+            for prior in record['predecessors']:
+                old_id = prior['variant_id']
+                if old_id not in retained:
+                    continue
+                successors[(record['code'], old_id, prior['source_pdf'])] = dict(variant_id=retained[old_id],source_pdf=prior['source_pdf'],source_sha256=prior['source_sha256'])
+        for successor in successors.values():
+            successor['variant_id'] = retained.get(successor['variant_id'], successor['variant_id'])
     return successors
 
 
