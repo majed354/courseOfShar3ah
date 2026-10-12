@@ -38,6 +38,11 @@
 - الخطط والمقررات وروابط التوصيف: `data.json`
 - طبقة نواتج المقررات: `course-outcomes.json`
 - ملفات التوصيف المنشورة: `assets/course-specifications/**/*.pdf`
+- تعديلات أصحاب الصلاحية المنشورة من الواجهة: `site-edits.json`، وملفات PDF
+  المرفوعة في `assets/course-uploads/`، وسجلها `COURSE_SITE_EDITS_AUDIT.md`.
+  تطبق هذه الطبقة فوق المصدر بحسب ظهور المقرر وهويته الأصلية؛ لا تعدلها أو
+  تتجاهلها عند فحص السلوك الفعلي للموقع، ولا تعتبر PDF المرفوع مستخرج النواتج
+  أو مراجعًا أكاديميًا تلقائيًا.
 - سجل مطابقة التوصيفات والتغطية: `COURSE_SPECIFICATIONS_AUDIT.md`
 - عقد استخراج النواتج والتحقق منها: `COURSE_OUTCOMES_EXTRACTION.md`
 - جرد المقررات المشتركة: `SHARED_COURSE_PLO_BLANKING_AUDIT.md`
@@ -107,7 +112,9 @@ COURSE_PYTHON=/Users/majd/.cache/codex-runtimes/codex-primary-runtime/dependenci
 ## GitHub وNetlify
 
 - `main` هو المصدر المنشور، والدفع إليه يشغّل نشر Netlify تلقائيًا.
-- إعداد Netlify يستخدم `publish = "."`، وفي المجلد مصادر خام غير متعقبة؛ لذلك لا
-  تنفذ `netlify deploy --prod` محليًا من هذا المجلد حتى لا تُرفع المصادر الخام.
+- إعداد Netlify يبني قائمة محددة من الملفات المتعقبة بأداة
+  `scripts/build-site.mjs` وينشر `.netlify/site`. تبقى وظائف الخادم والمصادر
+  الخام خارج النشر العام. لا تنفذ `netlify deploy --prod` محليًا من هذا المجلد؛
+  استمر باستخدام النشر الآلي من Git.
 - تحقق من النشر الآلي بعد الدفع، وتأكد أن `commit_ref` يساوي التزام `main` وأن
   الحالة `ready` ولا توجد `error_message`.

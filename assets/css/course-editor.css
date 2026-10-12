@@ -1,0 +1,22 @@
+.published-course-editor { width: min(720px, calc(100% - 24px)); max-height: 90vh; margin: auto; inset: 0; box-sizing: border-box; border: 0; border-radius: 16px; padding: 24px; color: #22352d; background: #fff; font: inherit; box-shadow: 0 18px 70px #0005; }
+.published-course-editor::backdrop { background: #142a23aa; }
+.published-editor-login { max-width: 400px; }
+.published-editor-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.published-editor-header h3 { margin: 0; }
+.published-editor-scope, .published-editor-note { color: #5d6c65; font-size: .9rem; line-height: 1.8; }
+.published-editor-grid { border: 0; padding: 14px 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 20px; }
+.published-course-editor label { display: flex; flex-direction: column; gap: 7px; font-size: .9rem; }
+.published-course-editor .published-editor-check { flex-direction: row; align-items: center; margin: 12px 0; }
+.published-editor-grid:disabled { opacity: .5; }
+.published-editor-pdf { background: #f4f8f5; border: 1px solid #dbe7de; padding: 16px; border-radius: 12px; margin-bottom: 16px; }
+.published-editor-pdf h4 { margin: 0 0 10px; }
+.published-editor-pdf label { margin: 14px 0; }
+.published-editor-pdf a { color: #146047; text-decoration: underline; }
+.published-course-editor input, .published-course-editor select, .published-course-editor button { font: inherit; }
+.published-course-editor input[type=file] { max-width: 100%; }
+.published-course-editor input[type=checkbox] { accent-color: #146047; width: 18px; height: 18px; flex-shrink: 0; }
+.published-course-editor .edit-input, .published-course-editor .edit-select { width: 100%; box-sizing: border-box; min-height: 40px; }
+#publishedEditorStatus { min-height: 26px; line-height: 1.7; font-weight: 600; }
+.row-actions .publish-course-btn { background: #e0f1e7; color: #14543c; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
+@media (max-width: 540px) { .published-course-editor { padding: 16px; } .published-editor-grid { grid-template-columns: 1fr; } }

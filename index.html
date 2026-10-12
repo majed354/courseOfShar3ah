@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>خطط ومقررات كلية الشريعة والأنظمة | جامعة الطائف</title>
+    <link rel="stylesheet" href="assets/css/course-editor.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Kufi+Arabic:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -1860,13 +1861,15 @@
     </footer>
 
     <script src="assets/js/zip-store.js"></script>
+    <script src="assets/js/site-edits.js"></script>
     <script>
-        const EDIT_PASSWORD = '142906';
         const LOCAL_STORAGE_KEY = 'courseOfShar3ah_custom_data_v3';
         const LEGACY_LOCAL_STORAGE_KEYS = ['courseOfShar3ah_custom_data_v2'];
         const MAX_LEVEL = 12;
 
         let programsData = null;
+        let baseProgramsData = null;
+        let siteEditsRegistry = { entries: [] };
         let originalProgramsData = null;
         let currentProgram = null;
         let currentProgramIndex = null;
@@ -2092,6 +2095,7 @@
         }
 
         function courseDetailMatchesContext(details, context = {}) {
+            if ((details.excluded_scopes || []).some(scope => ruleMatchesContext(scope, context))) return false;
             if (!courseDetailHasScope(details)) return true;
             return getCourseDetailScopes(details).some(scope => ruleMatchesContext(scope, context));
         }
@@ -2105,7 +2109,7 @@
                 if (scopedMatch) return scopedMatch;
             }
 
-            return variants.find(details => !courseDetailHasScope(details)) || null;
+            return variants.find(details => !courseDetailHasScope(details) && (!context || courseDetailMatchesContext(details, context))) || null;
         }
 
         function getCourseDetailContextsForSearch(codeRaw, references, courseNameRaw = '') {
@@ -2115,9 +2119,10 @@
             getCourseDetailVariants(codeRaw, courseNameRaw).forEach(details => {
                 const scoped = courseDetailHasScope(details);
                 const matchedScopes = scoped
-                    ? getCourseDetailScopes(details).filter(scope => (references || []).some(ref => ruleMatchesContext(scope, ref)))
+                    ? getCourseDetailScopes(details).filter(scope => (references || []).some(ref => ruleMatchesContext(scope, ref) && courseDetailMatchesContext(details, ref)))
                     : [];
                 if (scoped && !matchedScopes.length) return;
+                if (!scoped && (references || []).length && !(references || []).some(ref => courseDetailMatchesContext(details, ref))) return;
 
                 const normalizedScopes = matchedScopes.map(scope => normalizeContext(scope));
                 const signature = `${sanitizeResourceUrl(details.pdf_url)}||${JSON.stringify(normalizedScopes)}`;
@@ -3045,6 +3050,14 @@
                 parsed.programs.forEach(program => {
                     const officialProgram = officialProgramsById.get(program.id);
                     if (!officialProgram) return;
+                    program.courses.forEach((course, index) => {
+                        if (!Number.isInteger(course._sourceCourseIndex)) {
+                            const sourceIndex = officialProgram.courses.findIndex(item => item.code === course.code && item.name === course.name);
+                            if (sourceIndex >= 0) course._sourceCourseIndex = sourceIndex;
+                        }
+                        const published = officialProgram.courses[course._sourceCourseIndex];
+                        if (published?._siteEditRevision) Object.assign(course, deepClone(published));
+                    });
                     if (officialProgram.program_specification_url) {
                         program.program_specification_url = officialProgram.program_specification_url;
                         program.program_specification_label = officialProgram.program_specification_label || '';
@@ -3145,16 +3158,9 @@
             return currentProgram;
         }
 
-        function requestEditAccess() {
+        async function requestEditAccess() {
             if (editAccessGranted) return true;
-            const entered = window.prompt('أدخل كلمة المرور لتفعيل التعديل:');
-            if (entered === null) return false;
-            if (normalizePasswordInput(entered) !== normalizePasswordInput(EDIT_PASSWORD)) {
-                alert('كلمة المرور غير صحيحة');
-                return false;
-            }
-            editAccessGranted = true;
-            return true;
+            return requestPublishedEditorAccess();
         }
 
         function updateFloatingEditButton() {
@@ -3180,18 +3186,18 @@
             }
         }
 
-        function toggleFloatingEditMode() {
+        async function toggleFloatingEditMode() {
             if (quickEditModeEnabled) {
                 setQuickEditState(false);
                 return;
             }
-            if (!requestEditAccess()) return;
+            if (!await requestEditAccess()) return;
             setQuickEditState(true);
         }
 
-        function ensureQuickEditEnabled() {
+        async function ensureQuickEditEnabled() {
             if (quickEditModeEnabled) return true;
-            if (!requestEditAccess()) return false;
+            if (!await requestEditAccess()) return false;
             setQuickEditState(true);
             return true;
         }
@@ -3221,6 +3227,11 @@
                 const response = await fetch('data.json', { cache: 'no-store' });
                 const data = await response.json();
                 sanitizeDataShape(data);
+                baseProgramsData = deepClone(data);
+                const editsResponse = await fetch('site-edits.json', { cache: 'no-store' });
+                if (!editsResponse.ok) throw new Error('تعذر تحميل التعديلات المنشورة.');
+                siteEditsRegistry = await editsResponse.json();
+                CourseSiteEdits.apply(data, siteEditsRegistry);
                 clearLegacyCustomData();
                 originalProgramsData = deepClone(data);
                 programsData = readStoredData(data);
@@ -3647,6 +3658,7 @@
                     <div class="course-detail-variant">
                         ${detailContexts.length > 1 && contextInfo.context_label ? `<span class="course-detail-scope">${escapeHtml(contextInfo.context_label)}</span>` : ''}
                         ${safePdfUrl ? `<div class="course-detail-actions">${renderCoursePdfButton(details, 'تحميل PDF', contextInfo.download_label)}</div>` : ''}
+                        ${(details.attachments || []).map(file => `<div class="course-detail-actions">${renderCoursePdfButton(file, file.label || 'ملف PDF إضافي')}</div>`).join('')}
                     </div>
                 `;
             }).join('');
@@ -3866,6 +3878,7 @@
                                 خارج المستويات
                             </label>
                             <button type="button" class="mini-btn" onclick="removeCourse(${courseIndex})">حذف</button>
+                            <button type="button" class="mini-btn publish-course-btn" onclick="openPublishedCourseEditor(${courseIndex})">تعديل ونشر / PDF</button>
                         </div>
                     </td>
                 </tr>
@@ -3951,7 +3964,7 @@
             if (editModeEnabled) {
                 html += `
                     <div class="edit-help">
-                        وضع التعديل مفعّل: يمكنك تعديل اسم/رمز/ساعات المقرر، ونقله بين المستويات، أو تحويله إلى "اختياري خارج المستويات" غير محسوب في الساعات.
+                        وضع التعديل مفعّل. استخدم «تعديل ونشر / PDF» لحفظ بيانات المقرر أو رفع ملف للجميع. التعديلات السريعة في الجدول تُحفظ على جهازك حتى تنشرها من نافذة المقرر.
                     </div>
                 `;
             }
@@ -4044,11 +4057,11 @@
             document.body.style.overflow = 'hidden';
         }
 
-        function toggleEditMode() {
+        async function toggleEditMode() {
             const program = getCurrentProgram();
             if (!program) return;
             if (!quickEditModeEnabled) {
-                if (!requestEditAccess()) return;
+                if (!await requestEditAccess()) return;
                 setQuickEditState(true);
                 return;
             }
@@ -4231,12 +4244,20 @@
                 groups.forEach(([levelTitle, items]) => items.forEach(({ course }) => {
                     const details = getCourseDetails(course.code, context, course.name);
                     const url = sanitizeResourceUrl(details && details.pdf_url);
+                    const basePath = `${programFolder}/${planFolder}/${safeZipName(levelTitle)}/${safeZipName(course.code)} - ${safeZipName(course.name)}`;
+                    (details?.attachments || []).forEach((attachment, index) => {
+                        const attachmentUrl = sanitizeResourceUrl(attachment.pdf_url);
+                        if (!attachmentUrl) return;
+                        let attachmentPath = `${basePath} - ملفات إضافية/${index + 1} - ${safeZipName(attachment.label || 'ملف PDF')}.pdf`;
+                        while (usedPaths.has(attachmentPath)) attachmentPath = attachmentPath.replace(/\.pdf$/, ' (إضافي).pdf');
+                        usedPaths.add(attachmentPath);
+                        entries.push({ path: attachmentPath, url: attachmentUrl });
+                    });
                     if (!url) {
                         unavailable.push([program.name, canonicalDegreeLabel(program.degree), program.plan_type || '',
                             program.version || '', levelTitle, course.code || '', course.name || '']);
                         return;
                     }
-                    const basePath = `${programFolder}/${planFolder}/${safeZipName(levelTitle)}/${safeZipName(course.code)} - ${safeZipName(course.name)}`;
                     let path = `${basePath}.pdf`;
                     let duplicate = 2;
                     while (usedPaths.has(path)) path = `${basePath} (${duplicate++}).pdf`;
@@ -4678,5 +4699,6 @@
 
         loadData();
     </script>
+    <script src="assets/js/course-editor-ui.js"></script>
 </body>
 </html>

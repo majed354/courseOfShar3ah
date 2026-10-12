@@ -2,7 +2,12 @@
 # https://docs.netlify.com/configure-builds/file-based-configuration/
 
 [build]
-  publish = "."
+  command = "npm run build"
+  publish = ".netlify/site"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
 
 # Redirects and headers
 [[headers]]
