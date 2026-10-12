@@ -222,6 +222,67 @@
             z-index: 1;
         }
 
+        /* Specification updates */
+        .specification-update-notice {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            margin-bottom: 1.5rem;
+            padding: 1.4rem 1.5rem;
+            background: linear-gradient(110deg, #fffdf5, #f0f7f2);
+            border: 1px solid #d9e5d8;
+            border-inline-start: 4px solid var(--accent);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .specification-update-icon {
+            display: grid;
+            place-items: center;
+            flex: 0 0 52px;
+            height: 52px;
+            border-radius: 16px;
+            background: #fff;
+            color: var(--primary);
+            border: 1px solid #e0e9df;
+        }
+
+        .specification-update-icon svg { width: 28px; height: 28px; }
+        .specification-update-copy { flex: 1; min-width: 0; }
+        .specification-update-copy h2 {
+            margin: 0 0 0.3rem;
+            font-family: 'Amiri', serif;
+            font-size: 1.35rem;
+            color: var(--primary-dark);
+        }
+        .specification-update-copy p {
+            margin: 0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.9;
+        }
+        .specification-update-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.6rem;
+            padding: 0.85rem 1.2rem;
+            border-radius: var(--radius-sm);
+            background: var(--primary);
+            color: #fff;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-decoration: none;
+            white-space: nowrap;
+            transition: background 0.2s ease;
+        }
+        .specification-update-link:hover { background: var(--primary-dark); }
+        .specification-update-link:focus-visible {
+            outline: 3px solid var(--accent-dark);
+            outline-offset: 4px;
+        }
+        .specification-update-link svg { width: 18px; height: 18px; }
+
         /* Search Section */
         .search-section {
             background: var(--bg-card);
@@ -1519,6 +1580,14 @@
                 padding: 1rem;
             }
 
+            .specification-update-notice {
+                flex-wrap: wrap;
+                gap: 1rem;
+                padding: 1.25rem;
+            }
+
+            .specification-update-link { width: 100%; white-space: normal; }
+
             .search-section {
                 padding: 1.25rem;
             }
@@ -1672,6 +1741,7 @@
         @media print {
     /* Defaults: don't print page UI chrome */
     .stats-bar,
+    .specification-update-notice,
     .search-section,
     .degree-tabs,
     footer,
@@ -1748,6 +1818,23 @@
     </div>
 
     <main>
+        <section class="specification-update-notice" aria-labelledby="specificationUpdateTitle">
+            <div class="specification-update-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M12 18v-7m-3 3 3-3 3 3"/>
+                </svg>
+            </div>
+            <div class="specification-update-copy">
+                <h2 id="specificationUpdateTitle">معًا لتوصيفات محدّثة</h2>
+                <p>عند توفر نسخة محدّثة من توصيفات المقررات، يُرجى رفعها عبر هذا الرابط لمراجعتها وتحديثها على الموقع.</p>
+            </div>
+            <a class="specification-update-link" href="https://taifedusa.sharepoint.com/:f:/s/msteams_3b4354/IgDdUu5GPUV4Qquaj1EfK2IvAfBFsy7MTwvcFb3M32zPJs8?e=K3Qdtv" target="_blank" rel="noopener noreferrer" aria-label="رفع التوصيفات المحدّثة (يفتح في نافذة جديدة)">
+                رفع التوصيفات المحدّثة
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M14 3h7v7M21 3l-9 9M10 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/>
+                </svg>
+            </a>
+        </section>
         <section class="search-section">
             <h2 class="search-title">
                 <svg viewBox="0 0 24 24" fill="currentColor">
