@@ -73,7 +73,7 @@ class ProgramSpecificationLinkTests(unittest.TestCase):
         self.assertEqual(11, len(qiraat["learning_outcomes"]))
         for details in (contemporary, qiraat):
             self.assertTrue(details["mission"])
-            self.assertEqual(4, len(details["objectives"]))
+            self.assertEqual(7 if details is contemporary else 4, len(details["objectives"]))
             self.assertEqual(
                 len(details["learning_outcomes"]),
                 len({item["code"] for item in details["learning_outcomes"]}),
@@ -89,6 +89,22 @@ class ProgramSpecificationLinkTests(unittest.TestCase):
             193,
             sum(len(details.get("learning_outcomes", [])) for details in linked_details),
         )
+
+    def test_master_uses_operative_source_and_preserves_proposal(self):
+        program = next(p for p in self.data['programs'] if p['name'] == 'الدراسات القرآنية المعاصرة')
+        bundle = ROOT / 'assets/course-specifications/quranic-master-operative-2023'
+        manifest = json.loads((bundle / 'manifest.json').read_text())
+        reference = json.loads((bundle / 'program-reference.json').read_text())
+        self.assertEqual(program['program_specification_url'], manifest['program_pdf']['path'])
+        for record in [manifest['program_pdf'], manifest['official_curriculum'], manifest['superseded_proposal']]:
+            self.assertEqual(record['sha256'], hashlib.sha256((ROOT / record['path']).read_bytes()).hexdigest())
+        self.assertEqual(14, len(program['courses']))
+        self.assertEqual(34, sum(c['hours'] for c in program['courses']))
+        self.assertEqual(40, len(reference['program_matrix']))
+        self.assertEqual({'2002851-4', '2002861-4', '2002888-4'}, {c['code'] for c in reference['curriculum'] if c['hours'] == 4})
+        self.assertFalse(any('التحليلي (2)' in c['name'] for c in reference['curriculum']))
+        self.assertFalse(any(r['plo_code'] == 'ق1' and r['classification'] == 3 for r in reference['program_matrix']))
+        self.assertEqual(['ق1'], program['program_details']['matrix_mastery_missing'])
 
 
 if __name__ == "__main__":

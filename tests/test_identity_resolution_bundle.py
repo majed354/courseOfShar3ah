@@ -285,18 +285,18 @@ class IdentityResolutionBundleTest(unittest.TestCase):
             expected, filename = line.split(maxsplit=1)
             self.assertEqual(expected, digest(bundle / filename), filename)
 
-    def test_master_topical_level_uses_the_updated_program_description(self):
+    def test_master_topical_level_uses_the_operative_official_curriculum(self):
         program = next(
             item
             for item in self.data["programs"]
             if item["name"] == "الدراسات القرآنية المعاصرة"
         )
         course = next(item for item in program["courses"] if item["code"] == "2002871-2")
-        self.assertEqual(2, course["level"])
+        self.assertEqual(3, course["level"])
         catalog = next(
             item for item in self.data["courses_catalog"] if item["code"] == "2002871-2"
         )
-        self.assertEqual(2, catalog["levels_by_program"]["الدراسات القرآنية المعاصرة"])
+        self.assertEqual(3, catalog["levels_by_program"]["الدراسات القرآنية المعاصرة"])
 
     def test_qiraat_topical_assessment_and_references_are_complete(self):
         path = self.bundle / "2002454-2--qiraat.pdf"

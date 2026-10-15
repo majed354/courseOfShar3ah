@@ -292,7 +292,9 @@
       "visual_cover_check": "passed",
       "publication_status": "published",
       "missing_fields": [],
-      "source_bytes_preserved": true
+      "source_bytes_preserved": true,
+      "operational_status": "proposed_not_implemented",
+      "superseded_by": "assets/course-specifications/quranic-master-operative-2023/program-specification.pdf"
     },
     {
       "program": "العقيدة",

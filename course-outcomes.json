@@ -212527,6 +212527,16 @@
       "reason": "superseded_or_unpublished_pdf_not_referenced_by_data_json"
     },
     {
+      "source_pdf": "assets/course-specifications/quranic-master-operative-2023/official-curriculum.pdf",
+      "source_sha256": "9ad53d22f91b8e9ad5ed579b607c35e0eb934e60a6dc3aa3b54b2a77ee088788",
+      "reason": "superseded_or_unpublished_pdf_not_referenced_by_data_json"
+    },
+    {
+      "source_pdf": "assets/course-specifications/quranic-master-operative-2023/program-specification.pdf",
+      "source_sha256": "4d82f5733fbe9264b7a032fa4a87e08a990c618f8e8c43367322381ae87e67a0",
+      "reason": "program_specification_not_a_course_specification"
+    },
+    {
       "source_pdf": "assets/course-specifications/quranic-studies-master-1447/2002853-2--ulum-al-quran-1.pdf",
       "source_sha256": "8771058ab02d90088845662b366168211ed030e05319f2b2eb24862d02b62bee",
       "reason": "superseded_or_unpublished_pdf_not_referenced_by_data_json"
@@ -213012,7 +213022,7 @@
   "schema_version": "course-outcomes-v1",
   "source_data": {
     "path": "data.json",
-    "sha256": "b5ad2b7600a747b7db867a0ab245504c59010ddc5d40da4c07039fd3646f98c8"
+    "sha256": "ca87ef3d05c647e760dd823cfbed084022831a965fa799efe8970b4d1c63ba86"
   },
   "statistics": {
     "source_alignment_counts": {
@@ -213027,7 +213037,7 @@
     "course_codes": 413,
     "variants": 455,
     "active_pdf_sources": 444,
-    "excluded_pdf_sources": 171,
+    "excluded_pdf_sources": 173,
     "complete_variants": 425,
     "partial_variants": 24,
     "failed_variants": 6,
