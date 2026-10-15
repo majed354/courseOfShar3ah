@@ -95,7 +95,7 @@ class ProgramSpecificationLinkTests(unittest.TestCase):
         bundle = ROOT / 'assets/course-specifications/quranic-master-operative-2023'
         manifest = json.loads((bundle / 'manifest.json').read_text())
         reference = json.loads((bundle / 'program-reference.json').read_text())
-        self.assertIn('quranic-master-plo-update-20261015', program['program_specification_url'])
+        self.assertIn('quranic-master-official-template-20261015', program['program_specification_url'])
         for record in [manifest['program_pdf'], manifest['official_curriculum'], manifest['superseded_proposal']]:
             self.assertEqual(record['sha256'], hashlib.sha256((ROOT / record['path']).read_bytes()).hexdigest())
         self.assertEqual(14, len(program['courses']))

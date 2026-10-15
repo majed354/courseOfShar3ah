@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "program": "الدراسات القرآنية المعاصرة",
+  "degree": "ماجستير",
+  "authorization": "طلب المستخدم رفع النسخة التي حدّثها من مجلد القوالب الجديدة إلى المستودع المنشور والمحلي",
+  "revision_kind": "user_provided_official_template",
+  "institutional_approval_claimed": false,
+  "source_bytes_preserved": true,
+  "academic_content_unchanged": true,
+  "counts": {
+    "courses": 14,
+    "credit_hours": 34,
+    "program_outcomes": 7,
+    "matrix_links": 45,
+    "mastery_links": 17,
+    "clo_mapping_references": 93
+  },
+  "source_files": {
+    "pdf": {
+      "filename": "توصيف ماجستير الدراسات القرآنية المعاصرة - تحديث النواتج والخطة المطبقة 2026-10-15.pdf",
+      "sha256": "8147b9d383066ed9f64da6b9c50ef2892c2a4928cdd8d6c4e67a2c5dce44c2c3",
+      "pages": 22
+    },
+    "docx": {
+      "filename": "توصيف ماجستير الدراسات القرآنية المعاصرة - تحديث النواتج والخطة المطبقة 2026-10-15.docx",
+      "sha256": "cffdf3d38c42975a7f7bddb888bdced69d9c2036293d1533a23d5428e9073439"
+    },
+    "provided_reference": {
+      "filename": "مرجع البرنامج - نسخة القالب الرسمي 2026-10-15.json",
+      "sha256": "99e666897c78ae264c42645910f6e37042a5428196ee43e3172808369f389e05",
+      "source_locators_required_update": true
+    }
+  },
+  "previous_edition": {
+    "program": {
+      "name": "الدراسات القرآنية المعاصرة",
+      "name_en": "Contemporary Quranic Studies",
+      "degree": "ماجستير",
+      "degree_en": "Master",
+      "version": 1,
+      "plan_type": "جديدة",
+      "total_hours": 34,
+      "department": "قسم القراءات",
+      "courses": [
+        {
+          "code": "2002851-4",
+          "name": "أصول التفسير",
+          "name_en": "Foundation of Exegesis",
+          "hours": 4,
+          "level": 1,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
+        },
+        {
+          "code": "2002852-2",
+          "name": "تاريخ التفسير",
+          "name_en": "History of Exegesis",
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
+        },
+        {
+          "code": "2002853-2",
+          "name": "دراسات في علوم القرآن",
+          "name_en": "Quranic Studies",
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
+        },
+        {
+          "code": "2002854-2",
+          "name": "علم القراءات دراية",
+          "name_en": "Concept of Quranic Recitation",
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
+        },
+        {
+          "code": "2002855-2",
+          "name": "مصادر الدراسات القرآنية",
+          "name_en": "Resources of Quranic Studies",
+          "hours": 2,
+          "level": 1,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
+        },
+        {
+          "code": "2002861-4",
+          "name": "التفسير التحليلي",
+          "name_en": "Analytic Exegesis",
+          "hours": 4,
+          "level": 2,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
+        },
+        {
+          "code": "2002862-2",
+          "name": "الدراسات القرآنية عند المستشرقين",
+          "name_en": "Quranic Studies by Orientalists",
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
+        },
+        {
+          "code": "2002863-2",
+          "name": "منهج البحث والتحقيق",
+          "name_en": "Research Methodology",
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
+        },
+        {
+          "code": "2002864-2",
+          "name": "دراسات في مناهج المفسرين",
+          "name_en": "Studies in Curricula of Exegetes",
+          "hours": 2,
+          "level": 2,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
+        },
+        {
+          "code": "2002871-2",
+          "name": "التفسير الموضوعي",
+          "name_en": "Thematic Exegesis",
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
+        },
+        {
+          "code": "2002872-2",
+          "name": "النظريات الحداثية في القرآن",
+          "name_en": "Modernist Theories in Quran",
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
+        },
+        {
+          "code": "2002873-2",
+          "name": "دراسات في إعجاز القرآن",
+          "name_en": "Studies in Miracle of Quran",
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
+        },
+        {
+          "code": "2002874-2",
+          "name": "دراسات في لغة القرآن",
+          "name_en": "Studies in Language of Quran",
+          "hours": 2,
+          "level": 3,
+          "type": "نظري",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
+        },
+        {
+          "code": "2002888-4",
+          "name": "مشروع بحثي",
+          "name_en": "Project Research",
+          "hours": 4,
+          "level": 4,
+          "type": "بحث",
+          "category": "إجبارية القسم",
+          "belongs_to_programs": [
+            "الدراسات القرآنية المعاصرة"
+          ]
+        }
+      ],
+      "source": "ماجستير الدراسات القرآنية المعاصرة.pdf",
+      "program_specification_url": "assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf",
+      "program_specification_label": "توصيف البرنامج المحدث — نواتج المقترح والخطة المطبقة (15 أكتوبر 2026)",
+      "program_details": {
+        "program_code": "022103",
+        "program_code_standard": "التصنيف السعودي الموحد للمستويات والتخصصات التعليمية",
+        "qualification_level": "السابع",
+        "department": "قسم القراءات",
+        "college": "كلية الشريعة والأنظمة",
+        "institution": "جامعة الطائف",
+        "specification_status": "مطور",
+        "last_review": "15/10/2026",
+        "headquarters": "الحوية - طلاب وطالبات",
+        "study_system": "مقررات دراسية ومشروع بحثي",
+        "study_mode": "انتظام",
+        "total_credit_hours": 34,
+        "mission": "صقل مهارات البحث العلمي وتعميق التخصص في مجالات الدراسات القرآنية المعاصرة لتلبية التحديات الفكرية والعملية في المجتمع.",
+        "objectives": [
+          "إتقان مهارات البحث القرآني المعاصر لإعداد باحثين متميزين.",
+          "تعزيز القدرة التحليلية في مجال الدراسات القرآنية لمواجهة التحديات المعاصرة.",
+          "تطوير القدرات المهنية للطلاب لإثراء المجال الأكاديمي والمهني بأفكار ودراسات مبتكرة..",
+          "بناء شراكات استراتيجية لتوظيف القرآن في حل المشكلات المجتمعية.",
+          "صقل المهارات المتخصصة لتلبية متطلبات سوق العمل ومؤسسات التعليم في الدراسات القرآنية.",
+          "تطوير مهارات الاتصال لنقل المعرفة وتعزيز الحوار البنّاء.",
+          "ترسيخ أخلاقيات البحث والمسؤولية الاجتماعية في العمل الأكاديمي."
+        ],
+        "learning_outcomes": [
+          {
+            "code": "ع1",
+            "domain": "المعرفة والفهم",
+            "text": "أن يحلل الأصول والنظريات والمناهج المتعلقة بالتفسير، ويبين تطورها التاريخي واتجاهاتها المعاصرة."
+          },
+          {
+            "code": "ع2",
+            "domain": "المعرفة والفهم",
+            "text": "أن يشرح مباحث علوم القرآن المختلفة، ويقيم توظيفها التكاملي مع العلوم الشرعية واللغوية والإنسانية في تفسير النص القرآني ومعالجة قضايا الواقع."
+          },
+          {
+            "code": "ع3",
+            "domain": "المعرفة والفهم",
+            "text": "أن يحلل مصادر الدراسات القرآنية التراثية والمعاصرة، التقليدية والرقمية، ويقيم مناهجها وموثوقيتها وإمكانات الإفادة منها في البحث العلمي."
+          },
+          {
+            "code": "م1",
+            "domain": "المهارات",
+            "text": "أن يطبق مناهج التفسير المختلفة ومهارات التحليل والنقد في تفسير النصوص القرآنية."
+          },
+          {
+            "code": "م2",
+            "domain": "المهارات",
+            "text": "أن يصمم بحوثًا أصيلة في الدراسات القرآنية المعاصرة، موظفًا مناهج البحث وتحقيق المخطوطات والتقنيات الرقمية في جمع البيانات وتحليلها."
+          },
+          {
+            "code": "ق1",
+            "domain": "القيم والاستقلالية والمسؤولية",
+            "text": "أن يلتزم بالقيم الإسلامية والأخلاقيات البحثية والمعايير العلمية في التعامل مع النص القرآني، ومع إنتاج الباحثين الآخرين، وفي استخدام التقنيات المعاصرة."
+          },
+          {
+            "code": "ق2",
+            "domain": "القيم والاستقلالية والمسؤولية",
+            "text": "أن يتحمل المسؤولية والاستقلالية في تطوير مساره العلمي والمهني في الدراسات القرآنية المعاصرة، ويشارك بفاعلية وبروح قيادية في مشروعات بحثية متقدمة."
+          }
+        ],
+        "curriculum_course_count": 14,
+        "matrix_link_count": 45,
+        "extraction_status": "complete",
+        "extraction_error_count": 0,
+        "specification_source_sha256": "0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647",
+        "operative_status": "implemented",
+        "matrix_mastery_missing": []
+      },
+      "label": "الدراسات القرآنية المعاصرة",
+      "label_en": "Contemporary Quranic Studies",
+      "id": 6,
+      "program_specification_status": "published",
+      "program_reference_url": "assets/course-specifications/quranic-master-plo-update-20261015/program-reference.json",
+      "official_curriculum_url": "assets/course-specifications/quranic-master-operative-2023/official-curriculum.pdf",
+      "program_specification_docx_url": "assets/course-specifications/quranic-master-plo-update-20261015/program-specification.docx"
+    },
+    "program_pdf_sha256": "0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647"
+  },
+  "files": [
+    {
+      "path": "assets/course-specifications/quranic-master-official-template-20261015/program-specification.pdf",
+      "sha256": "8147b9d383066ed9f64da6b9c50ef2892c2a4928cdd8d6c4e67a2c5dce44c2c3"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-official-template-20261015/program-specification.docx",
+      "sha256": "cffdf3d38c42975a7f7bddb888bdced69d9c2036293d1533a23d5428e9073439"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-official-template-20261015/program-reference.json",
+      "sha256": "eef0e5858bf7dd8c253cbc703cfffeffcd38a57a620dd0d779b6c66b495a72b8"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-official-template-20261015/clo-page-map.json",
+      "sha256": "9b58e11979164c5ffff1ed95ff99156bc8844dc1ed2594f1f8ae740350d3f73d"
+    }
+  ]
+}

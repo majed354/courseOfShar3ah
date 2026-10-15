@@ -14647,8 +14647,8 @@
         }
       ],
       "source": "ماجستير الدراسات القرآنية المعاصرة.pdf",
-      "program_specification_url": "assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf",
-      "program_specification_label": "توصيف البرنامج المحدث — نواتج المقترح والخطة المطبقة (15 أكتوبر 2026)",
+      "program_specification_url": "assets/course-specifications/quranic-master-official-template-20261015/program-specification.pdf",
+      "program_specification_label": "توصيف البرنامج المحدث — القالب الرسمي 2024 — الخطة المطبقة 14/34",
       "program_details": {
         "program_code": "022103",
         "program_code_standard": "التصنيف السعودي الموحد للمستويات والتخصصات التعليمية",
@@ -14713,7 +14713,7 @@
         "matrix_link_count": 45,
         "extraction_status": "complete",
         "extraction_error_count": 0,
-        "specification_source_sha256": "0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647",
+        "specification_source_sha256": "8147b9d383066ed9f64da6b9c50ef2892c2a4928cdd8d6c4e67a2c5dce44c2c3",
         "operative_status": "implemented",
         "matrix_mastery_missing": []
       },
@@ -14721,9 +14721,9 @@
       "label_en": "Contemporary Quranic Studies",
       "id": 6,
       "program_specification_status": "published",
-      "program_reference_url": "assets/course-specifications/quranic-master-plo-update-20261015/program-reference.json",
+      "program_reference_url": "assets/course-specifications/quranic-master-official-template-20261015/program-reference.json",
       "official_curriculum_url": "assets/course-specifications/quranic-master-operative-2023/official-curriculum.pdf",
-      "program_specification_docx_url": "assets/course-specifications/quranic-master-plo-update-20261015/program-specification.docx"
+      "program_specification_docx_url": "assets/course-specifications/quranic-master-official-template-20261015/program-specification.docx"
     },
     {
       "name": "القراءات",
