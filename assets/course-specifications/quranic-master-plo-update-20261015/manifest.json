@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "authorization": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه",
+  "program": "الدراسات القرآنية المعاصرة",
+  "degree": "ماجستير",
+  "revision_kind": "authorized_academic_alignment",
+  "institutional_approval_claimed": false,
+  "counts": {
+    "courses": 14,
+    "credit_hours": 34,
+    "program_outcomes": 7,
+    "matrix_links": 45,
+    "mastery_links": 17,
+    "clo_mapping_overrides": 93
+  },
+  "targets": {
+    "direct_target": 0.8,
+    "indirect_target": 4,
+    "composite_target": 0.8,
+    "direct_weight": 0.8,
+    "indirect_weight": 0.2,
+    "student_mastery_threshold_unchanged": true
+  },
+  "mastery": {
+    "ع1": [
+      "2002871-2",
+      "2002872-2"
+    ],
+    "ع2": [
+      "2002871-2",
+      "2002873-2",
+      "2002874-2"
+    ],
+    "ع3": [
+      "2002871-2",
+      "2002888-4"
+    ],
+    "م1": [
+      "2002871-2",
+      "2002874-2"
+    ],
+    "م2": [
+      "2002863-2",
+      "2002871-2",
+      "2002888-4"
+    ],
+    "ق1": [
+      "2002871-2",
+      "2002872-2",
+      "2002888-4"
+    ],
+    "ق2": [
+      "2002863-2",
+      "2002888-4"
+    ]
+  },
+  "files": [
+    {
+      "path": "assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf",
+      "sha256": "0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647",
+      "pages": 18
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-plo-update-20261015/program-specification.docx",
+      "sha256": "05731739fd579c4700186456196c835a19d28a1482fef2a90f3cae65c8d512bd"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-plo-update-20261015/program-reference.json",
+      "sha256": "21fa0577550a152c74add499571118970e4f9b76b1f8b113a66a59a83f7b020b"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-plo-update-20261015/alignment-decisions.json",
+      "sha256": "8d4ed7b329c60ae2048e1443394e3c919abfd4b95162913809f9fface18969b6"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-plo-update-20261015/authored-matrix.json",
+      "sha256": "cfd8a5a93f406768036defdc0e4ff17e4b7217a4a632210be1765a09ab89a4e1"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-plo-update-20261015/previous-context.json",
+      "sha256": "332e0dd3055094db7cab56e1b6a5c35a3080c66e5b39c89afe86e2bfe76d330b"
+    }
+  ],
+  "preserved_sources": {
+    "schema_version": 1,
+    "corrected_on": "2026-10-15",
+    "operational_status": "implemented",
+    "program": "الدراسات القرآنية المعاصرة",
+    "degree": "ماجستير",
+    "source_bytes_preserved": true,
+    "program_pdf": {
+      "path": "assets/course-specifications/quranic-master-operative-2023/program-specification.pdf",
+      "sha256": "4d82f5733fbe9264b7a032fa4a87e08a990c618f8e8c43367322381ae87e67a0",
+      "pages": 13
+    },
+    "official_curriculum": {
+      "path": "assets/course-specifications/quranic-master-operative-2023/official-curriculum.pdf",
+      "sha256": "9ad53d22f91b8e9ad5ed579b607c35e0eb934e60a6dc3aa3b54b2a77ee088788",
+      "pages": 1
+    },
+    "reference": {
+      "path": "assets/course-specifications/quranic-master-operative-2023/program-reference.json",
+      "sha256": "24e18824629103e44eedbdd0663b0a3904915f299aa95a710a126ae3e3c58dd5"
+    },
+    "superseded_proposal": {
+      "path": "assets/course-specifications/program-specifications-20260916/contemporary-quranic-studies-master/program-specification.pdf",
+      "sha256": "46db21fdf5e5aee97c46c25641469660c6cd4e6f6b5cb00b7ec45e164e83eff5",
+      "operational_status": "proposed_not_implemented"
+    },
+    "counts": {
+      "courses": 14,
+      "credit_hours": 34,
+      "program_outcomes": 7,
+      "matrix_links": 40
+    },
+    "course_code_corrections": {
+      "2002851-3": "2002851-4",
+      "2002861-2": "2002861-4",
+      "2002888-2": "2002888-4"
+    },
+    "curriculum_level_corrections": {
+      "2002871-2": {
+        "from": 2,
+        "to": 3
+      }
+    },
+    "academic_gaps": [
+      {
+        "code": "PROGRAM_MASTERY_MISSING",
+        "plo_code": "ق1",
+        "message": "لا يوجد تصنيف تمكين 3 لهذا الناتج في مصفوفة المصدر؛ لم يُغيّر أي ربط أكاديمي."
+      }
+    ],
+    "course_outcomes_policy": "Preserve existing course PDF bytes, CLO texts, scoped PLO mappings and reviews; this batch corrects program source and curriculum facts only."
+  },
+  "course_source_policy": "Course PDF bytes, CLO text/code and assessment plans preserved; this programme revision and its appendix supersede previous scoped PLO symbols. Historic measurements are not relabelled automatically."
+}

@@ -14647,8 +14647,8 @@
         }
       ],
       "source": "ماجستير الدراسات القرآنية المعاصرة.pdf",
-      "program_specification_url": "assets/course-specifications/quranic-master-operative-2023/program-specification.pdf",
-      "program_specification_label": "توصيف برنامج ماجستير الدراسات القرآنية المعاصرة — المعمول به",
+      "program_specification_url": "assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf",
+      "program_specification_label": "توصيف البرنامج المحدث — نواتج المقترح والخطة المطبقة (15 أكتوبر 2026)",
       "program_details": {
         "program_code": "022103",
         "program_code_standard": "التصنيف السعودي الموحد للمستويات والتخصصات التعليمية",
@@ -14657,7 +14657,7 @@
         "college": "كلية الشريعة والأنظمة",
         "institution": "جامعة الطائف",
         "specification_status": "مطور",
-        "last_review": "8/2023م",
+        "last_review": "15/10/2026",
         "headquarters": "الحوية - طلاب وطالبات",
         "study_system": "مقررات دراسية ومشروع بحثي",
         "study_mode": "انتظام",
@@ -14676,55 +14676,54 @@
           {
             "code": "ع1",
             "domain": "المعرفة والفهم",
-            "text": "أن يعرف أصول التفسير وكيفية التعامل معها واستخدامها"
+            "text": "أن يحلل الأصول والنظريات والمناهج المتعلقة بالتفسير، ويبين تطورها التاريخي واتجاهاتها المعاصرة."
           },
           {
             "code": "ع2",
             "domain": "المعرفة والفهم",
-            "text": "أن يستوعب العلاقة بين علوم القرآن وسائر العلوم الشرعية والعربية"
+            "text": "أن يشرح مباحث علوم القرآن المختلفة، ويقيم توظيفها التكاملي مع العلوم الشرعية واللغوية والإنسانية في تفسير النص القرآني ومعالجة قضايا الواقع."
           },
           {
             "code": "ع3",
             "domain": "المعرفة والفهم",
-            "text": "أن يستعرض الطالب المصادر الرئيسة للدراسات القرآنية وكيفية استخدامها في البحث العلمي"
+            "text": "أن يحلل مصادر الدراسات القرآنية التراثية والمعاصرة، التقليدية والرقمية، ويقيم مناهجها وموثوقيتها وإمكانات الإفادة منها في البحث العلمي."
           },
           {
             "code": "م1",
             "domain": "المهارات",
-            "text": "أن يطبق الطالب مناهج التفسير المختلفة في تحليل النصوص القرآنية."
+            "text": "أن يطبق مناهج التفسير المختلفة ومهارات التحليل والنقد في تفسير النصوص القرآنية."
           },
           {
             "code": "م2",
             "domain": "المهارات",
-            "text": "أن ينفذ تحليلات نقدية للدراسات القرآنية، معززا بالنقد العلمي الموضوعي."
+            "text": "أن يصمم بحوثًا أصيلة في الدراسات القرآنية المعاصرة، موظفًا مناهج البحث وتحقيق المخطوطات والتقنيات الرقمية في جمع البيانات وتحليلها."
           },
           {
             "code": "ق1",
             "domain": "القيم والاستقلالية والمسؤولية",
-            "text": "أن يلتزم الطالب بالأخلاقيات البحثية والمعايير العلمية في دراسة القرآن الكريم."
+            "text": "أن يلتزم بالقيم الإسلامية والأخلاقيات البحثية والمعايير العلمية في التعامل مع النص القرآني، ومع إنتاج الباحثين الآخرين، وفي استخدام التقنيات المعاصرة."
           },
           {
             "code": "ق2",
             "domain": "القيم والاستقلالية والمسؤولية",
-            "text": "أن يتحمل المسؤولية الكاملة لتطوير مساره الأكاديمي والمهني، موجها تعلمه نحو الاستمرارية والتحسين المستمر."
+            "text": "أن يتحمل المسؤولية والاستقلالية في تطوير مساره العلمي والمهني في الدراسات القرآنية المعاصرة، ويشارك بفاعلية وبروح قيادية في مشروعات بحثية متقدمة."
           }
         ],
         "curriculum_course_count": 14,
-        "matrix_link_count": 40,
-        "extraction_status": "needs_review",
+        "matrix_link_count": 45,
+        "extraction_status": "complete",
         "extraction_error_count": 0,
-        "specification_source_sha256": "4d82f5733fbe9264b7a032fa4a87e08a990c618f8e8c43367322381ae87e67a0",
+        "specification_source_sha256": "0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647",
         "operative_status": "implemented",
-        "matrix_mastery_missing": [
-          "ق1"
-        ]
+        "matrix_mastery_missing": []
       },
       "label": "الدراسات القرآنية المعاصرة",
       "label_en": "Contemporary Quranic Studies",
       "id": 6,
       "program_specification_status": "published",
-      "program_reference_url": "assets/course-specifications/quranic-master-operative-2023/program-reference.json",
-      "official_curriculum_url": "assets/course-specifications/quranic-master-operative-2023/official-curriculum.pdf"
+      "program_reference_url": "assets/course-specifications/quranic-master-plo-update-20261015/program-reference.json",
+      "official_curriculum_url": "assets/course-specifications/quranic-master-operative-2023/official-curriculum.pdf",
+      "program_specification_docx_url": "assets/course-specifications/quranic-master-plo-update-20261015/program-specification.docx"
     },
     {
       "name": "القراءات",

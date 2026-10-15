@@ -98,6 +98,8 @@ OVERRIDE_FIELDS = {"field", "value", "reason", "author", "date"}
 #: بذكر الدليل والسياسة وتاريخ المراجعة، فلا يمرّ تجاوزٌ بلا حجّة.
 REVIEW_OVERRIDE_FIELDS = {"field", "value", "evidence", "policy", "reviewed_at"}
 REVIEW_OVERRIDE_POLICIES = {
+    # New academic decision: programme appendix governs scoped PLO links, not old PDF extraction.
+    "authorized_program_alignment_revision",
     # المستخرِج أخطأ القراءة والملفُّ سليم: التصحيح يعيد المرجع إلى موافقة المصدر.
     "verified_extraction_correction_matches_source",
     # الملفُّ نفسه ناقص: التصحيح مراجَعٌ ويبقى بندُ إصلاح الأصل مفتوحًا.
@@ -2505,6 +2507,12 @@ def validate_overrides(
 
         if reviewed:
             policy = override.get("policy")
+            if policy == "authorized_program_alignment_revision":
+                if not isinstance(field, str) or not CLO_MAPPINGS_CONTAINER_RE.fullmatch(field):
+                    errors.add(f"{override_label}: programme alignment may only revise scoped PLO mappings")
+                evidence = str(override.get("evidence") or "")
+                if not re.search(r"SHA256=[a-f0-9]{64}", evidence) or '.pdf' not in evidence:
+                    errors.add(f"{override_label}: programme alignment needs a hash-bound PDF citation")
             if policy not in REVIEW_OVERRIDE_POLICIES:
                 errors.add(
                     f"{override_label}.policy: expected one of "

@@ -123631,7 +123631,123 @@
             "source_status": "present",
             "warnings": []
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "clos[0].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002851-4.pdf SHA256=f64fe2a9aed97a2e3e8c0985a426f3217969aa5a1eaa6914a0115d643441f0dc.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[1].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002851-4.pdf SHA256=f64fe2a9aed97a2e3e8c0985a426f3217969aa5a1eaa6914a0115d643441f0dc.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[2].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002851-4.pdf SHA256=f64fe2a9aed97a2e3e8c0985a426f3217969aa5a1eaa6914a0115d643441f0dc.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[3].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002851-4.pdf SHA256=f64fe2a9aed97a2e3e8c0985a426f3217969aa5a1eaa6914a0115d643441f0dc.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[4].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد.",
+                  "plo_codes": [
+                    "ق1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002851-4.pdf SHA256=f64fe2a9aed97a2e3e8c0985a426f3217969aa5a1eaa6914a0115d643441f0dc.",
+              "reviewed_at": "2026-10-15"
+            }
+          ],
           "scopes": [
             {
               "degree": "ماجستير",
@@ -124147,6 +124263,121 @@
           },
           "overrides": [
             {
+              "field": "clos[0].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf SHA256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[1].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf SHA256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[2].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf SHA256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[3].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf SHA256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[4].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf SHA256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
               "field": "clos[5].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf | الصفحات 6 | إثبات أن خلية CLO 2.3 فارغة في المصدر؛ لم يُنشأ نص بديل.",
@@ -124187,6 +124418,52 @@
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf | الصفحات 6 | إثبات أن خلية CLO 2.4 فارغة في المصدر؛ لم يُنشأ نص بديل.",
               "policy": "verified_reference_correction_pending_source_pdf_update",
               "reviewed_at": "2026-09-08T21:30:00+03:00"
+            },
+            {
+              "field": "clos[7].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf SHA256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[8].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf SHA256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477.",
+              "reviewed_at": "2026-10-15"
             }
           ],
           "scopes": [
@@ -124732,6 +125009,29 @@
           },
           "overrides": [
             {
+              "field": "clos[0].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf SHA256=b1538ba0b8131456cfe0b0d3d958465791703fde019166aec14fd70f035ed22a.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
               "field": "clos[1].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf | الصفحات 4،5 | استكمال نص CLO 1.2 من الخلية المرئية.",
@@ -124746,6 +125046,29 @@
               "reviewed_at": "2026-09-08T23:00:00+03:00"
             },
             {
+              "field": "clos[1].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf SHA256=b1538ba0b8131456cfe0b0d3d958465791703fde019166aec14fd70f035ed22a.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
               "field": "clos[1].source_status",
               "value": "present",
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf | الصفحات 4،5 | استكمال نص CLO 1.2 من الخلية المرئية.",
@@ -124758,6 +125081,75 @@
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf | الصفحات 4،5 | استكمال نص CLO 1.2 من الخلية المرئية.",
               "policy": "verified_extraction_correction_matches_source",
               "reviewed_at": "2026-09-08T23:00:00+03:00"
+            },
+            {
+              "field": "clos[2].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf SHA256=b1538ba0b8131456cfe0b0d3d958465791703fde019166aec14fd70f035ed22a.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[3].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf SHA256=b1538ba0b8131456cfe0b0d3d958465791703fde019166aec14fd70f035ed22a.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[4].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf SHA256=b1538ba0b8131456cfe0b0d3d958465791703fde019166aec14fd70f035ed22a.",
+              "reviewed_at": "2026-10-15"
             },
             {
               "field": "clos[5].confidence",
@@ -124800,6 +125192,52 @@
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf | الصفحات 5 | إثبات أن خلية CLO 2.4 فارغة في المصدر؛ لم يُنشأ نص بديل.",
               "policy": "verified_reference_correction_pending_source_pdf_update",
               "reviewed_at": "2026-09-08T23:00:00+03:00"
+            },
+            {
+              "field": "clos[7].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf SHA256=b1538ba0b8131456cfe0b0d3d958465791703fde019166aec14fd70f035ed22a.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[8].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf SHA256=b1538ba0b8131456cfe0b0d3d958465791703fde019166aec14fd70f035ed22a.",
+              "reviewed_at": "2026-10-15"
             }
           ],
           "scopes": [
@@ -125324,6 +125762,121 @@
           },
           "overrides": [
             {
+              "field": "clos[0].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf SHA256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[1].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf SHA256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[2].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf SHA256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[3].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf SHA256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[4].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf SHA256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
               "field": "clos[5].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf | الصفحات 6 | إثبات أن خلية CLO 2.3 فارغة في المصدر؛ لم يُنشأ نص بديل.",
@@ -125364,6 +125917,50 @@
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf | الصفحات 6 | إثبات أن خلية CLO 2.4 فارغة في المصدر؛ لم يُنشأ نص بديل.",
               "policy": "verified_reference_correction_pending_source_pdf_update",
               "reviewed_at": "2026-09-08T21:30:00+03:00"
+            },
+            {
+              "field": "clos[7].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf SHA256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[8].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ لا يوجد ربط مباشر مسند بهذا النص إلى النواتج السبعة؛ لا يُنشأ نص مفقود أو رمز CLO جديد.",
+                  "plo_codes": [],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "explicitly_unmapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ لا يوجد ربط مباشر مسند بهذا النص إلى النواتج السبعة؛ لا يُنشأ نص مفقود أو رمز CLO جديد.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf SHA256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7.",
+              "reviewed_at": "2026-10-15"
             }
           ],
           "scopes": [
@@ -125940,6 +126537,52 @@
           },
           "overrides": [
             {
+              "field": "clos[0].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf SHA256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[1].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf SHA256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
               "field": "clos[2].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | الصفحات 4 | إثبات أن خلية CLO None فارغة في المصدر؛ لم يُنشأ نص بديل.",
@@ -125961,6 +126604,98 @@
               "reviewed_at": "2026-09-08T23:50:00+03:00"
             },
             {
+              "field": "clos[3].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf SHA256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[4].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf SHA256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[5].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf SHA256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[6].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf SHA256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
               "field": "clos[7].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | الصفحات 5 | إثبات أن خلية CLO 2.4 فارغة في المصدر؛ لم يُنشأ نص بديل.",
@@ -125980,6 +126715,52 @@
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | الصفحات 5 | إثبات أن خلية CLO 2.4 فارغة في المصدر؛ لم يُنشأ نص بديل.",
               "policy": "verified_reference_correction_pending_source_pdf_update",
               "reviewed_at": "2026-09-08T23:50:00+03:00"
+            },
+            {
+              "field": "clos[8].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf SHA256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[9].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf SHA256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38.",
+              "reviewed_at": "2026-10-15"
             }
           ],
           "scopes": [
@@ -126459,6 +127240,98 @@
           },
           "overrides": [
             {
+              "field": "clos[0].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf SHA256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[1].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf SHA256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[2].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf SHA256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[3].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf SHA256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
               "field": "clos[4].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf | الصفحات 5 | إثبات أن خلية CLO 2.3 فارغة في المصدر؛ لم يُنشأ نص بديل.",
@@ -126499,6 +127372,52 @@
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf | الصفحات 5 | إثبات أن خلية CLO 2.4 فارغة في المصدر؛ لم يُنشأ نص بديل.",
               "policy": "verified_reference_correction_pending_source_pdf_update",
               "reviewed_at": "2026-09-08T21:30:00+03:00"
+            },
+            {
+              "field": "clos[6].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf SHA256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[7].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 15,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf SHA256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5.",
+              "reviewed_at": "2026-10-15"
             }
           ],
           "scopes": [
@@ -127018,6 +127937,121 @@
           },
           "overrides": [
             {
+              "field": "clos[0].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf SHA256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[1].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf SHA256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[2].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf SHA256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[3].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf SHA256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[4].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf SHA256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
               "field": "clos[5].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | الصفحات 5 | إثبات أن خلية CLO 2.3 فارغة في المصدر؛ لم يُنشأ نص بديل.",
@@ -127058,6 +128092,52 @@
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | الصفحات 5 | إثبات أن خلية CLO 2.4 فارغة في المصدر؛ لم يُنشأ نص بديل.",
               "policy": "verified_reference_correction_pending_source_pdf_update",
               "reviewed_at": "2026-09-08T21:30:00+03:00"
+            },
+            {
+              "field": "clos[7].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf SHA256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[8].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf SHA256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26.",
+              "reviewed_at": "2026-10-15"
             }
           ],
           "scopes": [
@@ -127716,6 +128796,121 @@
           },
           "overrides": [
             {
+              "field": "clos[0].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf SHA256=f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[1].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf SHA256=f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[2].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf SHA256=f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[3].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf SHA256=f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[4].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf SHA256=f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
               "field": "clos[5].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf | الصفحات 5 | إثبات أن خلية CLO 2.3 فارغة في المصدر؛ لم يُنشأ نص بديل.",
@@ -127756,6 +128951,75 @@
               "evidence": "مراجعة assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf | الصفحات 5 | إثبات أن خلية CLO 2.4 فارغة في المصدر؛ لم يُنشأ نص بديل.",
               "policy": "verified_reference_correction_pending_source_pdf_update",
               "reviewed_at": "2026-09-08T21:30:00+03:00"
+            },
+            {
+              "field": "clos[7].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مسؤولية إنجاز العمل البحثي واستقلاليته والمشاركة الفاعلة في فريق وحلقات المناقشة؛ يقاس بمؤشرات خاصة مستقلة عن جودة التحرير.",
+                  "plo_codes": [
+                    "ق2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مسؤولية إنجاز العمل البحثي واستقلاليته والمشاركة الفاعلة في فريق وحلقات المناقشة؛ يقاس بمؤشرات خاصة مستقلة عن جودة التحرير.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf SHA256=f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[8].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf SHA256=f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[9].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf SHA256=f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457.",
+              "reviewed_at": "2026-10-15"
             }
           ],
           "scopes": [
@@ -128268,6 +129532,145 @@
           },
           "overrides": [
             {
+              "field": "clos[0].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf SHA256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[1].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح. تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع1",
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح. تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf SHA256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[2].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf SHA256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[3].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf SHA256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[4].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf SHA256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[5].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf SHA256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
               "field": "clos[6].confidence",
               "value": "verified",
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf | الصفحات 5 | إثبات أن خلية CLO 2.4 فارغة في المصدر؛ لم يُنشأ نص بديل.",
@@ -128287,6 +129690,52 @@
               "evidence": "مراجعة assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf | الصفحات 5 | إثبات أن خلية CLO 2.4 فارغة في المصدر؛ لم يُنشأ نص بديل.",
               "policy": "verified_reference_correction_pending_source_pdf_update",
               "reviewed_at": "2026-09-08T20:00:00+03:00"
+            },
+            {
+              "field": "clos[7].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf SHA256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[8].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf SHA256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8.",
+              "reviewed_at": "2026-10-15"
             }
           ],
           "scopes": [
@@ -128580,7 +130029,146 @@
               }
             ]
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "clos[0].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002871-2.pdf SHA256=0b9766ec90438283b8ac322d11381af6bb75abdbea49f5a90089cfee073400ea.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[1].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002871-2.pdf SHA256=0b9766ec90438283b8ac322d11381af6bb75abdbea49f5a90089cfee073400ea.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[2].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002871-2.pdf SHA256=0b9766ec90438283b8ac322d11381af6bb75abdbea49f5a90089cfee073400ea.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[3].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002871-2.pdf SHA256=0b9766ec90438283b8ac322d11381af6bb75abdbea49f5a90089cfee073400ea.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[4].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002871-2.pdf SHA256=0b9766ec90438283b8ac322d11381af6bb75abdbea49f5a90089cfee073400ea.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[5].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد.",
+                  "plo_codes": [
+                    "ق1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002871-2.pdf SHA256=0b9766ec90438283b8ac322d11381af6bb75abdbea49f5a90089cfee073400ea.",
+              "reviewed_at": "2026-10-15"
+            }
+          ],
           "scopes": [
             {
               "degree": "ماجستير",
@@ -128851,7 +130439,146 @@
               }
             ]
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "clos[0].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf SHA256=e009a2ac149ecab3daf11c433c3762aa5a23ef95d0bd241097c4de34b58f4c04.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[1].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf SHA256=e009a2ac149ecab3daf11c433c3762aa5a23ef95d0bd241097c4de34b58f4c04.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[2].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf SHA256=e009a2ac149ecab3daf11c433c3762aa5a23ef95d0bd241097c4de34b58f4c04.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[3].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf SHA256=e009a2ac149ecab3daf11c433c3762aa5a23ef95d0bd241097c4de34b58f4c04.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[4].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf SHA256=e009a2ac149ecab3daf11c433c3762aa5a23ef95d0bd241097c4de34b58f4c04.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[5].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد.",
+                  "plo_codes": [
+                    "ق1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf SHA256=e009a2ac149ecab3daf11c433c3762aa5a23ef95d0bd241097c4de34b58f4c04.",
+              "reviewed_at": "2026-10-15"
+            }
+          ],
           "scopes": [
             {
               "degree": "ماجستير",
@@ -129134,7 +130861,146 @@
               }
             ]
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "clos[0].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf SHA256=53bada6cc0027318fe5c8025fa31a1704e04672a17a0f9019d23bbde2f74f25f.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[1].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf SHA256=53bada6cc0027318fe5c8025fa31a1704e04672a17a0f9019d23bbde2f74f25f.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[2].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf SHA256=53bada6cc0027318fe5c8025fa31a1704e04672a17a0f9019d23bbde2f74f25f.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[3].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf SHA256=53bada6cc0027318fe5c8025fa31a1704e04672a17a0f9019d23bbde2f74f25f.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[4].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf SHA256=53bada6cc0027318fe5c8025fa31a1704e04672a17a0f9019d23bbde2f74f25f.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[5].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد.",
+                  "plo_codes": [
+                    "ق1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 16,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf SHA256=53bada6cc0027318fe5c8025fa31a1704e04672a17a0f9019d23bbde2f74f25f.",
+              "reviewed_at": "2026-10-15"
+            }
+          ],
           "scopes": [
             {
               "degree": "ماجستير",
@@ -129405,7 +131271,146 @@
               }
             ]
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "clos[0].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 17,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002874-2.pdf SHA256=dbf9fb5f6da7e7e1e3c44c6954f3264da24705b00ffc94494931b082b9ef2250.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[1].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 17,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002874-2.pdf SHA256=dbf9fb5f6da7e7e1e3c44c6954f3264da24705b00ffc94494931b082b9ef2250.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[2].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.",
+                  "plo_codes": [
+                    "ع2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 17,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002874-2.pdf SHA256=dbf9fb5f6da7e7e1e3c44c6954f3264da24705b00ffc94494931b082b9ef2250.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[3].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 17,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002874-2.pdf SHA256=dbf9fb5f6da7e7e1e3c44c6954f3264da24705b00ffc94494931b082b9ef2250.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[4].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 17,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002874-2.pdf SHA256=dbf9fb5f6da7e7e1e3c44c6954f3264da24705b00ffc94494931b082b9ef2250.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[5].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد.",
+                  "plo_codes": [
+                    "ق1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 17,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/quranic-studies-master-1447/2002874-2.pdf SHA256=dbf9fb5f6da7e7e1e3c44c6954f3264da24705b00ffc94494931b082b9ef2250.",
+              "reviewed_at": "2026-10-15"
+            }
+          ],
           "scopes": [
             {
               "degree": "ماجستير",
@@ -129663,7 +131668,147 @@
               }
             ]
           },
-          "overrides": [],
+          "overrides": [
+            {
+              "field": "clos[0].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 17,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/graduate-all-20260823/quran-qiraat/2002888-4.pdf SHA256=a1bdbb231ca9c5a2c48df8e2bc6aa4a05ad01e71dc220b0ac790d3c37ed99e65.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[1].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.",
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 17,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/graduate-all-20260823/quran-qiraat/2002888-4.pdf SHA256=a1bdbb231ca9c5a2c48df8e2bc6aa4a05ad01e71dc220b0ac790d3c37ed99e65.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[2].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 17,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/graduate-all-20260823/quran-qiraat/2002888-4.pdf SHA256=a1bdbb231ca9c5a2c48df8e2bc6aa4a05ad01e71dc220b0ac790d3c37ed99e65.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[3].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 17,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/graduate-all-20260823/quran-qiraat/2002888-4.pdf SHA256=a1bdbb231ca9c5a2c48df8e2bc6aa4a05ad01e71dc220b0ac790d3c37ed99e65.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[4].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي. مسؤولية إنجاز العمل البحثي واستقلاليته والمشاركة الفاعلة في فريق وحلقات المناقشة؛ يقاس بمؤشرات خاصة مستقلة عن جودة التحرير.",
+                  "plo_codes": [
+                    "م2",
+                    "ق2"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 17,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي. مسؤولية إنجاز العمل البحثي واستقلاليته والمشاركة الفاعلة في فريق وحلقات المناقشة؛ يقاس بمؤشرات خاصة مستقلة عن جودة التحرير.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/graduate-all-20260823/quran-qiraat/2002888-4.pdf SHA256=a1bdbb231ca9c5a2c48df8e2bc6aa4a05ad01e71dc220b0ac790d3c37ed99e65.",
+              "reviewed_at": "2026-10-15"
+            },
+            {
+              "field": "clos[5].plo_mappings",
+              "value": [
+                {
+                  "confidence": "high",
+                  "evidence": "تحديث الربط بتوجيه المستخدم من ملحق البرنامج المحدث assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647؛ النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد.",
+                  "plo_codes": [
+                    "ق1"
+                  ],
+                  "scope": {
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "version": "1"
+                  },
+                  "source_page": 17,
+                  "status": "mapped"
+                }
+              ],
+              "policy": "authorized_program_alignment_revision",
+              "evidence": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه؛ assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf SHA256=0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647 ص15–17؛ النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد.؛ نص CLO ورمزه وأداة تقويمه محفوظة من PDF المقرر assets/course-specifications/graduate-all-20260823/quran-qiraat/2002888-4.pdf SHA256=a1bdbb231ca9c5a2c48df8e2bc6aa4a05ad01e71dc220b0ac790d3c37ed99e65.",
+              "reviewed_at": "2026-10-15"
+            }
+          ],
           "scopes": [
             {
               "degree": "ماجستير",
@@ -212537,6 +214682,11 @@
       "reason": "program_specification_not_a_course_specification"
     },
     {
+      "source_pdf": "assets/course-specifications/quranic-master-plo-update-20261015/program-specification.pdf",
+      "source_sha256": "0994217a8ed41385394c168c0d5dcb5926f93959c9028884fad1c4fd755d8647",
+      "reason": "program_specification_not_a_course_specification"
+    },
+    {
       "source_pdf": "assets/course-specifications/quranic-studies-master-1447/2002853-2--ulum-al-quran-1.pdf",
       "source_sha256": "8771058ab02d90088845662b366168211ed030e05319f2b2eb24862d02b62bee",
       "reason": "superseded_or_unpublished_pdf_not_referenced_by_data_json"
@@ -213022,7 +215172,7 @@
   "schema_version": "course-outcomes-v1",
   "source_data": {
     "path": "data.json",
-    "sha256": "ca87ef3d05c647e760dd823cfbed084022831a965fa799efe8970b4d1c63ba86"
+    "sha256": "32ee554d6c52ca2e34d7353b038ddf6210380095dd7915008d37eec40ac5ed2e"
   },
   "statistics": {
     "source_alignment_counts": {
@@ -213037,7 +215187,7 @@
     "course_codes": 413,
     "variants": 455,
     "active_pdf_sources": 444,
-    "excluded_pdf_sources": 173,
+    "excluded_pdf_sources": 174,
     "complete_variants": 425,
     "partial_variants": 24,
     "failed_variants": 6,

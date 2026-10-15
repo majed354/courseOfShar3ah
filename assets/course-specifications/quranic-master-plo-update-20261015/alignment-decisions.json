@@ -1,0 +1,2728 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "authorization": "توجيه المستخدم: أخذ نواتج المقترح وإعادة الربط وتعديل Word/PDF وإعادة رفعه",
+  "program": "الدراسات القرآنية المعاصرة",
+  "degree": "ماجستير",
+  "plan_type": "جديدة",
+  "version": "1",
+  "outcomes": [
+    {
+      "code": "ع1",
+      "domain": "المعرفة والفهم",
+      "text": "أن يحلل الأصول والنظريات والمناهج المتعلقة بالتفسير، ويبين تطورها التاريخي واتجاهاتها المعاصرة."
+    },
+    {
+      "code": "ع2",
+      "domain": "المعرفة والفهم",
+      "text": "أن يشرح مباحث علوم القرآن المختلفة، ويقيم توظيفها التكاملي مع العلوم الشرعية واللغوية والإنسانية في تفسير النص القرآني ومعالجة قضايا الواقع."
+    },
+    {
+      "code": "ع3",
+      "domain": "المعرفة والفهم",
+      "text": "أن يحلل مصادر الدراسات القرآنية التراثية والمعاصرة، التقليدية والرقمية، ويقيم مناهجها وموثوقيتها وإمكانات الإفادة منها في البحث العلمي."
+    },
+    {
+      "code": "م1",
+      "domain": "المهارات",
+      "text": "أن يطبق مناهج التفسير المختلفة ومهارات التحليل والنقد في تفسير النصوص القرآنية."
+    },
+    {
+      "code": "م2",
+      "domain": "المهارات",
+      "text": "أن يصمم بحوثًا أصيلة في الدراسات القرآنية المعاصرة، موظفًا مناهج البحث وتحقيق المخطوطات والتقنيات الرقمية في جمع البيانات وتحليلها."
+    },
+    {
+      "code": "ق1",
+      "domain": "القيم والاستقلالية والمسؤولية",
+      "text": "أن يلتزم بالقيم الإسلامية والأخلاقيات البحثية والمعايير العلمية في التعامل مع النص القرآني، ومع إنتاج الباحثين الآخرين، وفي استخدام التقنيات المعاصرة."
+    },
+    {
+      "code": "ق2",
+      "domain": "القيم والاستقلالية والمسؤولية",
+      "text": "أن يتحمل المسؤولية والاستقلالية في تطوير مساره العلمي والمهني في الدراسات القرآنية المعاصرة، ويشارك بفاعلية وبروح قيادية في مشروعات بحثية متقدمة."
+    }
+  ],
+  "courses": [
+    {
+      "code": "2002851-4",
+      "name": "أصول التفسير",
+      "level": 1,
+      "pdf": "assets/course-specifications/quranic-studies-master-1447/2002851-4.pdf",
+      "sha256": "f64fe2a9aed97a2e3e8c0985a426f3217969aa5a1eaa6914a0115d643441f0dc",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "أن يقّوم الطالب مصادر التفسير وضوابط الاستدلال بها، ومعايير قبول الأقوال والترجيح بينها.",
+          "assessment": "التقييم الدوري، الاختبار؛ النصفي، العروض، الاختبار",
+          "plo_codes": [
+            "ع3"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": "1.2",
+          "text": "أن يفّسر الطالب أنواع الاختلاف في التفسير وأسبابه، ويستنتج أثرها في بناء القول التفسيري.",
+          "assessment": "النهائي",
+          "plo_codes": [
+            "ع2"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "2.1",
+          "text": "أن يطّبق الطالب قواعد الترجيح وأدوات التحليل والنقد على نماذج مختارة من التفاسير.",
+          "assessment": "التقييم الدوري، الاختبار؛ النصفي، العروض، الاختبار",
+          "plo_codes": [
+            "م1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م1"
+          ],
+          "alignment_reason": "تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا."
+        },
+        {
+          "code": "2.2",
+          "text": "أن يعد الطالب دراسة بحثية موجزة توظف المصادر التراثية والرقمية في معالجة مسألة منهجية من مسائل أصول التفسير.",
+          "assessment": "النهائي",
+          "plo_codes": [
+            "م2"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م2"
+          ],
+          "alignment_reason": "البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي."
+        },
+        {
+          "code": "3.1",
+          "text": "أن يلتزم الطالب بالأخلاقيات البحثية والمعايير العلمية في توثيق الأقوال ونسبة الآراء في الدراسات التفسيرية واستخدام المصادر الرقمية.",
+          "assessment": "التقييم الدوري، الاختبار؛ النصفي، العروض، الاختبار؛ النهائي",
+          "plo_codes": [
+            "ق1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ق1"
+          ],
+          "alignment_reason": "النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد."
+        }
+      ],
+      "assessment_plan": [
+        {
+          "confidence": "high",
+          "label": "التقييم الدوري",
+          "source_page": 6,
+          "weight": 10
+        },
+        {
+          "confidence": "high",
+          "label": "العروض",
+          "source_page": 6,
+          "weight": 20
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النصفي",
+          "source_page": 6,
+          "weight": 20
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 6,
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "code": "2002852-2",
+      "name": "تاريخ التفسير",
+      "level": 1,
+      "pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf",
+      "sha256": "c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "أن يشرح الطالب مراحل تدوين التفّسير عموًما",
+          "assessment": "تقييم الأداء والتّفاعل الصفّي، الاختبار النّصفي، الاختبار النهائي",
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة خلية عمود طرق التقييم المطابقة لرمز CLO من هندسة جدول PDF؛ يثبت bbox امتداد الخلية المدمجة عند وجودها، ولا تُنسخ خلية جار فارغة. قورئت الخلية نفسها بـ macOS Vision وTesseract ورُوجعت الصورة؛ يختلف نجاح القارئين حسب المصدر ولا يُعتمد رقم ثقة OCR وحده. | assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf | sha256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477 | pages=[5]",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "1.2",
+          "text": "أن يذكر الطالب معالم التفسير والمفسرين وطريقتهم في التفسير",
+          "assessment": "تقييم الأداء؛ والتفاعل الصفي؛ الاختبار النصفي",
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": null,
+          "text": "أن يعرض الطالب طرق التفسير ومراحل تدوينه، ومناهج المفسرين",
+          "assessment": "الاختبار النهائي",
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "2.1",
+          "text": "أن يستخرج الطالب طرق التدوين في التفسير وأصوله من كلام المفّسرين",
+          "assessment": "نظام المناظرة؛ التقارير التحليلية؛ الأبحاث العلمية",
+          "plo_codes": [
+            "م3"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf | sha256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477 | pages=[5]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf | sha256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477 | pages=[5]",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "2.2",
+          "text": "أن يحدد الطالب والطالبة أهم مراحل التطوير في أهم مراحل التطوير في تدوين المفّسرين، لمصنفاتهم وتصنة طريقتهم حسب مدارس التفسير",
+          "assessment": null,
+          "plo_codes": [
+            "م4"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 6,
+          "source_status": "present",
+          "extraction_method": "targeted_ocr",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf | sha256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477 | pages=[6]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf | sha256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477 | pages=[6]",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "3.1",
+          "text": "أن يتجنب الطالب والطالبة الخطأ في مراحل تدوين التفسير",
+          "assessment": "المناقشات الجماعية",
+          "plo_codes": [
+            "ق3"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 6,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf | sha256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477 | pages=[6]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf | sha256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477 | pages=[6]",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "3.2",
+          "text": "أن يحلل الطالب أسباب الخلط المثار حول مراحل تدوين التفسير وحول علمائه",
+          "assessment": "المناقشات؛ الجماعية",
+          "plo_codes": [
+            "ق2"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 6,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf | sha256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477 | pages=[6]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf | sha256=c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477 | pages=[6]",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        }
+      ],
+      "assessment_plan": [
+        {
+          "confidence": "low",
+          "label": "المناقشات",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "اختبار قصير",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "الاختبار النصفي التحريري",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "التقارير",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "العروض",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 7,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "code": "2002853-2",
+      "name": "دراسات في علوم القرآن",
+      "level": 1,
+      "pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf",
+      "sha256": "b1538ba0b8131456cfe0b0d3d958465791703fde019166aec14fd70f035ed22a",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "أن يعرض الطالب تعريف علوم القرآن ونشأته وتطوره وأبرز المؤلفات فيه",
+          "assessment": "تقييم الأداء؛ والتفاعل الصفي؛ الاختبار النصفي",
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "1.2",
+          "text": "أن يشرح الطالب منهجية التفكير الصحيح في معالجة القضايا والمشكلات العلمية.",
+          "assessment": "الاختبار النهائي",
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "verified",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "verified_visual_review",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "1.3",
+          "text": "أن يذكر الطالب موقف العلماء من علم المناسبات والأحرف الَّسبعة وغيرها من أبواب علوم القرآن الكريم",
+          "assessment": null,
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "2.1",
+          "text": "أن يقارن الطالب بين أبرز المؤلفات في أبواب علوم القرآن الكريم والمدارس المعتدلة والمنحرفة في هذا المجال",
+          "assessment": "نظام المناظرة؛ التقارير التحليلية",
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": "2.2",
+          "text": "أن يبين الطالب جهود العلماء السابقين في الدفاع عن القران الكريم وعلومه",
+          "assessment": "الأبحاث العلمية",
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "2.3",
+          "text": null,
+          "assessment": null,
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "verified",
+          "source_page": 5,
+          "source_status": "source_blank",
+          "extraction_method": "verified_visual_review",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [],
+          "alignment_reason": "لا يوجد ربط مباشر مسند بهذا النص إلى النواتج السبعة؛ لا يُنشأ نص مفقود أو رمز CLO جديد."
+        },
+        {
+          "code": "2.4",
+          "text": null,
+          "assessment": null,
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "verified",
+          "source_page": 5,
+          "source_status": "source_blank",
+          "extraction_method": "verified_visual_review",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [],
+          "alignment_reason": "لا يوجد ربط مباشر مسند بهذا النص إلى النواتج السبعة؛ لا يُنشأ نص مفقود أو رمز CLO جديد."
+        },
+        {
+          "code": "3.1",
+          "text": "أن يعلل الطالب أسباب الخلاف بين العلماء في أبرز قضايا علوم القرآن وتحرير محل النزاع فيها",
+          "assessment": null,
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "3.2",
+          "text": "أن يحلل الطالب الشهات الواردة حول أبرز القضايا التي تناولت علوم القرآن الكريم والتصدي لها والرد الكريم والتصدي لها والرّد عليها",
+          "assessment": "المناقشات؛ الجماعية",
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "targeted_ocr",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        }
+      ],
+      "assessment_plan": [
+        {
+          "confidence": "low",
+          "label": "المناقشات",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "اختبار قصير",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "الاختبار النصفي التحريري",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "التقارير",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "العروض",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 7,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "code": "2002854-2",
+      "name": "علم القراءات دراية",
+      "level": 1,
+      "pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf",
+      "sha256": "cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "أن يوضح الطالب مفهوم علم القراءات دراية.",
+          "assessment": "تقييم الأداء والتّفاعل الصفّي، الاختبار النّصفي، الاختبار النّهائي",
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة خلية عمود طرق التقييم المطابقة لرمز CLO من هندسة جدول PDF؛ يثبت bbox امتداد الخلية المدمجة عند وجودها، ولا تُنسخ خلية جار فارغة. قورئت الخلية نفسها بـ macOS Vision وTesseract ورُوجعت الصورة؛ يختلف نجاح القارئين حسب المصدر ولا يُعتمد رقم ثقة OCR وحده. | assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf | sha256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7 | pages=[5]",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "1.2",
+          "text": "أن يناقش الطالب علاقة الأحرف الَّسبعة بالقراءات، ومعناهما.",
+          "assessment": "تقييم الأداء؛ والتفاعل الصفي؛ الاختبار النصفي",
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": null,
+          "text": "أن يستعرض الطالب مراحل تطور القراءات مع دراسة مرحلة العرضة الأخيرة.",
+          "assessment": "الاختبار النهائي",
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "2.1",
+          "text": "أن يظهر الطالب أثر الأحرف الَّسبعة والَّرسم في علوم القراءات.",
+          "assessment": "نظام المناظرة؛ التقارير التحليلية",
+          "plo_codes": [
+            "م2"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 6,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf | sha256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7 | pages=[6]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf | sha256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7 | pages=[6]",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "2.2",
+          "text": "أن يميز الطالب بين القراءة المتواترة والشاذة.",
+          "assessment": "الأبحاث العلمية",
+          "plo_codes": [
+            "م2"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 6,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf | sha256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7 | pages=[6]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf | sha256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7 | pages=[6]",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "2.3",
+          "text": null,
+          "assessment": null,
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "verified",
+          "source_page": 6,
+          "source_status": "source_blank",
+          "extraction_method": "verified_visual_review",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [],
+          "alignment_reason": "لا يوجد ربط مباشر مسند بهذا النص إلى النواتج السبعة؛ لا يُنشأ نص مفقود أو رمز CLO جديد."
+        },
+        {
+          "code": "3.1",
+          "text": "أن يخدم الطالب علم القراءات بتوضيح الخطأ الذي يقع في فهم علوم القراءات دراية.",
+          "assessment": "المناقشات",
+          "plo_codes": [
+            "ق1"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 6,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf | sha256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7 | pages=[6]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf | sha256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7 | pages=[6]",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "3.2",
+          "text": "أن يظهر الطالب مستوى علمي يتوافق مع المعايير العلمَّية العليا.",
+          "assessment": "الجماعية",
+          "plo_codes": [
+            "ق1"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 6,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf | sha256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7 | pages=[6]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf | sha256=cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7 | pages=[6]",
+          "new_plo_codes": [],
+          "alignment_reason": "لا يوجد ربط مباشر مسند بهذا النص إلى النواتج السبعة؛ لا يُنشأ نص مفقود أو رمز CLO جديد."
+        }
+      ],
+      "assessment_plan": [
+        {
+          "confidence": "low",
+          "label": "المناقشات",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "اختبار قصير",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "الاختبار النصفي التحريري",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "التقارير",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "العروض",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 7,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "code": "2002855-2",
+      "name": "مصادر الدراسات القرآنية",
+      "level": 1,
+      "pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf",
+      "sha256": "d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "أن يعرض الطالب مصادر التفسير – الإجمالي – التحليلي – المقارن",
+          "assessment": "تقييم الأداء؛ والتفاعل الصفي",
+          "plo_codes": [
+            "ع2"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | sha256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38 | pages=[4]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | sha256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38 | pages=[4]",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": "1.2",
+          "text": "أن يشرح الطالب مصادر غريب القرآن الكريم",
+          "assessment": "الاختبار النصفي؛ الاختبار النهائي",
+          "plo_codes": [
+            "ع1"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | sha256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38 | pages=[4]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | sha256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38 | pages=[4]",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": null,
+          "text": null,
+          "assessment": null,
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "verified",
+          "source_page": 4,
+          "source_status": "source_blank",
+          "extraction_method": "verified_visual_review",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [],
+          "alignment_reason": "لا يوجد ربط مباشر مسند بهذا النص إلى النواتج السبعة؛ لا يُنشأ نص مفقود أو رمز CLO جديد."
+        },
+        {
+          "code": null,
+          "text": "أن يذكر الطالب مصادر معاني القرآن الكريم",
+          "assessment": null,
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": "2.1",
+          "text": "أن يميز الطالب مصادر الوجوه والنظائر- الوقف والابتداء",
+          "assessment": "نظام المناظرة",
+          "plo_codes": [
+            "م3"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | sha256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38 | pages=[4]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | sha256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38 | pages=[4]",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": "2.2",
+          "text": "أن يقارن الطالب بين مصادر اصول التفسير وقواعد تفسير القرآن الكريم",
+          "assessment": "التقارير التحليلية؛ الأبحاث العلمية",
+          "plo_codes": [
+            "م4"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | sha256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38 | pages=[4]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | sha256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38 | pages=[4]",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": "2.3",
+          "text": "أن يوضح الطالب أنواع مصادر النسخ في القرآن وتوجيه القراءات",
+          "assessment": null,
+          "plo_codes": [
+            "م1"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | sha256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38 | pages=[5]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | sha256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38 | pages=[5]",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": "3.1",
+          "text": "أن يحلل الطالب أسباب الخطأ في عدم القدرة على التفريق بين مصادر التفسير وجميع مسائله",
+          "assessment": "المناقشات",
+          "plo_codes": [
+            "ق3"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | sha256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38 | pages=[5]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | sha256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38 | pages=[5]",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": "3.2",
+          "text": "أن ينسق ويصنف الطالب بمهارة عالية مصادر الدراسات القرآنية وفق كل تخصص.",
+          "assessment": "الجماعية",
+          "plo_codes": [
+            "ق2"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | sha256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38 | pages=[5]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf | sha256=d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38 | pages=[5]",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        }
+      ],
+      "assessment_plan": [
+        {
+          "confidence": "low",
+          "label": "المناقشات",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "اختبار قصير",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "الاختبار النصفي التحريري",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "التقارير",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "العروض",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 6,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "code": "2002861-4",
+      "name": "التفسير التحليلي",
+      "level": 2,
+      "pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf",
+      "sha256": "943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "أن يعرف الطالب تفسير سورة الكهف.",
+          "assessment": "تقييم الأداء",
+          "plo_codes": [
+            "ع2"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf | sha256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5 | pages=[5]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf | sha256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5 | pages=[5]",
+          "new_plo_codes": [
+            "م1"
+          ],
+          "alignment_reason": "تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا."
+        },
+        {
+          "code": "1.2",
+          "text": "أن يتعرف الطالب على الآداب والأحكام المستفادة من المنهج.",
+          "assessment": "والتفاعل الصفي؛ الاختبار النصفي؛ الاختبار النهائي",
+          "plo_codes": [
+            "ع1"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf | sha256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5 | pages=[5]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf | sha256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5 | pages=[5]",
+          "new_plo_codes": [
+            "م1"
+          ],
+          "alignment_reason": "تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا."
+        },
+        {
+          "code": "2.1",
+          "text": "أن يتمكن الطالب من استنباط الآداب والاحكام من السورة الكريمة.",
+          "assessment": "نظام المناظرة",
+          "plo_codes": [
+            "م3"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf | sha256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5 | pages=[5]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf | sha256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5 | pages=[5]",
+          "new_plo_codes": [
+            "م1"
+          ],
+          "alignment_reason": "تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا."
+        },
+        {
+          "code": "2.2",
+          "text": "أن يشرح الطالب بعض القصص الواردة في السورة مثل قصة أصحاب الجنتين وأصحاب الكهف وغيرها.",
+          "assessment": "التقارير التحليلية؛ الأبحاث العلمية",
+          "plo_codes": [
+            "م4"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf | sha256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5 | pages=[5]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf | sha256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5 | pages=[5]",
+          "new_plo_codes": [
+            "م1"
+          ],
+          "alignment_reason": "تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا."
+        },
+        {
+          "code": "2.3",
+          "text": null,
+          "assessment": null,
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "verified",
+          "source_page": 5,
+          "source_status": "source_blank",
+          "extraction_method": "verified_visual_review",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [],
+          "alignment_reason": "لا يوجد ربط مباشر مسند بهذا النص إلى النواتج السبعة؛ لا يُنشأ نص مفقود أو رمز CLO جديد."
+        },
+        {
+          "code": "3.1",
+          "text": "أن يحلل الطالب أسباب تقصد المعاندين لأهل الكهف.",
+          "assessment": "المناقشات",
+          "plo_codes": [
+            "ق3"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 6,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf | sha256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5 | pages=[6]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf | sha256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5 | pages=[6]",
+          "new_plo_codes": [
+            "م1"
+          ],
+          "alignment_reason": "تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا."
+        },
+        {
+          "code": "3.2",
+          "text": "أن يمارس الطالب تفسير القرآن في المجتمع بمهارة عالية.",
+          "assessment": "الجماعية",
+          "plo_codes": [
+            "ق2"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 6,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf | sha256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5 | pages=[6]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf | sha256=943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5 | pages=[6]",
+          "new_plo_codes": [
+            "م1"
+          ],
+          "alignment_reason": "تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا."
+        }
+      ],
+      "assessment_plan": [
+        {
+          "confidence": "low",
+          "label": "المناقشات",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "اختبار قصير",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "الاختبار النصفي التحريري",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "التقارير",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "العروض",
+          "source_page": 7,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 7,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "code": "2002862-2",
+      "name": "الدراسات القرآنية عند المستشرقين",
+      "level": 2,
+      "pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf",
+      "sha256": "36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "أن يعرض الطالب مفهوم الاستشراق ونشأته",
+          "assessment": "تقييم الأداء والتّفاعل الصفّي، الاختبار النّصفي، الاختبار النهائي",
+          "plo_codes": [
+            "ع3"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | sha256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26 | pages=[4]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | sha256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26 | pages=[4]",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "1.2",
+          "text": "أن يشرح الطالب منهج المستشرقين في الطعن في القران الكريم.",
+          "assessment": "تقييم الأداء؛ والتفاعل الصفي؛ الاختبار النصفي",
+          "plo_codes": [
+            "ع2"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | sha256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26 | pages=[4]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | sha256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26 | pages=[4]",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "1.3",
+          "text": "أن يذكر الطالب أهداف الاستشراق ووسائله وأهم المؤلفات فيه",
+          "assessment": "الاختبار النهائي",
+          "plo_codes": [
+            "ع1"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | sha256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26 | pages=[4]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | sha256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26 | pages=[4]",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": "2.1",
+          "text": "أن يميز الطالب دوافع المستشرقين إلى دراسة القرآن الكريم وكتاباتهم حوله.",
+          "assessment": "نظام المناظرة",
+          "plo_codes": [
+            "م2"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | sha256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26 | pages=[4]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | sha256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26 | pages=[4]",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "2.2",
+          "text": "أن يوضح الطالب شبهاتهم حول القرآن شبهة: الوحي، نص القرآن، جمع القرآن، القراءات، أسلوب القرآن الكريم.",
+          "assessment": "التقارير التحليلية؛ الأبحاث العلمية",
+          "plo_codes": [
+            "م3"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | sha256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26 | pages=[4]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | sha256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26 | pages=[4]",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "3.1",
+          "text": "أن يعلل الطالب أسباب الطعون والتشكيك في القرآن الكريم.",
+          "assessment": "المناقشات",
+          "plo_codes": [
+            "ق3"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | sha256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26 | pages=[5]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | sha256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26 | pages=[5]",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "3.2",
+          "text": "أن يمارس الطالب الردود الفعلية على المستشرقين بمنهجية علمية صحيحة.",
+          "assessment": "الجماعية",
+          "plo_codes": [
+            "ق2"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | sha256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26 | pages=[5]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf | sha256=36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26 | pages=[5]",
+          "new_plo_codes": [
+            "م1"
+          ],
+          "alignment_reason": "تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا."
+        }
+      ],
+      "assessment_plan": [
+        {
+          "confidence": "low",
+          "label": "المناقشات",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "اختبار قصير",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "الاختبار النصفي التحريري",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "التقارير",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "العروض",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 6,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "code": "2002863-2",
+      "name": "منهج البحث والتحقيق",
+      "level": 2,
+      "pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf",
+      "sha256": "f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "أن يعرف الطالب مناهج البحث العلمي والتحقيق، والقواعد العلمَّية التي يبنى عليها التفكير السليم.",
+          "assessment": "تقييم الأداء والتفاعل الصفي، الاختبار النصفي، الاختبار النهائي",
+          "plo_codes": [
+            "ع1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م2"
+          ],
+          "alignment_reason": "البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي."
+        },
+        {
+          "code": "1.2",
+          "text": "أن يوضح الطالب الطريقة العلمَّية في تنظيم البحث وإخراجه.",
+          "assessment": "تقييم الأداء والتّفاعل الصفّي، الاختبار النّصفي، الاختبار النّهائي",
+          "plo_codes": [
+            "ع1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة خلية عمود طرق التقييم المطابقة لرمز CLO من هندسة جدول PDF؛ يثبت bbox امتداد الخلية المدمجة عند وجودها، ولا تُنسخ خلية جار فارغة. قورئت الخلية نفسها بـ macOS Vision وTesseract ورُوجعت الصورة؛ يختلف نجاح القارئين حسب المصدر ولا يُعتمد رقم ثقة OCR وحده. | assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf | sha256=f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457 | pages=[4]",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م2"
+          ],
+          "alignment_reason": "البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي."
+        },
+        {
+          "code": "1.3",
+          "text": "أن يستعرض الطالب وسائل وضوابط وآليات ومناهج البحث العلمي وتحقيق التراث.",
+          "assessment": "تقييم الأداء والتّفاعل الصفّي، الاختبار النّصفي، الاختبار النّهائي",
+          "plo_codes": [
+            "ع1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة خلية عمود طرق التقييم المطابقة لرمز CLO من هندسة جدول PDF؛ يثبت bbox امتداد الخلية المدمجة عند وجودها، ولا تُنسخ خلية جار فارغة. قورئت الخلية نفسها بـ macOS Vision وTesseract ورُوجعت الصورة؛ يختلف نجاح القارئين حسب المصدر ولا يُعتمد رقم ثقة OCR وحده. | assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf | sha256=f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457 | pages=[4]",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م2"
+          ],
+          "alignment_reason": "البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي."
+        },
+        {
+          "code": "2.1",
+          "text": "أن يشرح الطالب عمليا طريقة كتابة البحوث والإفادة من المصادر وجمع المعلومات الَّصحيحة للوصول إلى النتائج العلمَّية.",
+          "assessment": "نظام المناظرة، التقارير التحليلية، الأبحاث العلمية",
+          "plo_codes": [
+            "م5"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م2"
+          ],
+          "alignment_reason": "البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي."
+        },
+        {
+          "code": "2.2",
+          "text": "أن يفرق الطالب بين النصوص في التحقيق وكيفية التعامل معها.",
+          "assessment": "نظام المناظرة، التقارير التحليلية، الأبحاث العلمية.",
+          "plo_codes": [
+            "م5"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة خلية عمود طرق التقييم المطابقة لرمز CLO من هندسة جدول PDF؛ يثبت bbox امتداد الخلية المدمجة عند وجودها، ولا تُنسخ خلية جار فارغة. قورئت الخلية نفسها بـ macOS Vision وTesseract ورُوجعت الصورة؛ يختلف نجاح القارئين حسب المصدر ولا يُعتمد رقم ثقة OCR وحده. | assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf | sha256=f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457 | pages=[5]",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م2"
+          ],
+          "alignment_reason": "البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي."
+        },
+        {
+          "code": "2.3",
+          "text": null,
+          "assessment": null,
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "verified",
+          "source_page": 5,
+          "source_status": "source_blank",
+          "extraction_method": "verified_visual_review",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [],
+          "alignment_reason": "لا يوجد ربط مباشر مسند بهذا النص إلى النواتج السبعة؛ لا يُنشأ نص مفقود أو رمز CLO جديد."
+        },
+        {
+          "code": "2.4",
+          "text": null,
+          "assessment": null,
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "verified",
+          "source_page": 5,
+          "source_status": "source_blank",
+          "extraction_method": "verified_visual_review",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [],
+          "alignment_reason": "لا يوجد ربط مباشر مسند بهذا النص إلى النواتج السبعة؛ لا يُنشأ نص مفقود أو رمز CLO جديد."
+        },
+        {
+          "code": "3.1",
+          "text": "أن يقيم الطالب عمل زملائه في إطار منهجية علمَّية واضحة ضمن فريق عمل منتج.",
+          "assessment": "المناقشات الجماعية",
+          "plo_codes": [
+            "ك2"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ق2"
+          ],
+          "alignment_reason": "مسؤولية إنجاز العمل البحثي واستقلاليته والمشاركة الفاعلة في فريق وحلقات المناقشة؛ يقاس بمؤشرات خاصة مستقلة عن جودة التحرير."
+        },
+        {
+          "code": "3.2",
+          "text": "أن يستخدم الطالب مناهج البحث وقواعده في إعداد الأبحاث العلمَّية وتحقيق المخطوطات.",
+          "assessment": "المناقشات الجماعية",
+          "plo_codes": [
+            "ك3"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة خلية عمود طرق التقييم المطابقة لرمز CLO من هندسة جدول PDF؛ يثبت bbox امتداد الخلية المدمجة عند وجودها، ولا تُنسخ خلية جار فارغة. قورئت الخلية نفسها بـ macOS Vision وTesseract ورُوجعت الصورة؛ يختلف نجاح القارئين حسب المصدر ولا يُعتمد رقم ثقة OCR وحده. | assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf | sha256=f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457 | pages=[5]",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م2"
+          ],
+          "alignment_reason": "البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي."
+        },
+        {
+          "code": "3.3",
+          "text": "أن يبحث الطالب عن المعلومات عبر المواقع والبرامج الإلكترونَّية.",
+          "assessment": "المناقشات الجماعية",
+          "plo_codes": [
+            "ك4"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة خلية عمود طرق التقييم المطابقة لرمز CLO من هندسة جدول PDF؛ يثبت bbox امتداد الخلية المدمجة عند وجودها، ولا تُنسخ خلية جار فارغة. قورئت الخلية نفسها بـ macOS Vision وTesseract ورُوجعت الصورة؛ يختلف نجاح القارئين حسب المصدر ولا يُعتمد رقم ثقة OCR وحده. | assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf | sha256=f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457 | pages=[5]",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م2"
+          ],
+          "alignment_reason": "البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي."
+        }
+      ],
+      "assessment_plan": [
+        {
+          "confidence": "high",
+          "label": "المناقشات",
+          "source_page": 7,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "اختبار قصير",
+          "source_page": 7,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النصفي التحريري",
+          "source_page": 7,
+          "weight": 30
+        },
+        {
+          "confidence": "high",
+          "label": "التقارير",
+          "source_page": 7,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "العروض",
+          "source_page": 7,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 7,
+          "weight": 50
+        }
+      ],
+      "additional_evidence": {
+        "pages": [
+          3,
+          5,
+          6
+        ],
+        "text": "تطبيق كتابة البحث وتحقيق مقاطع مخطوطة، وتقويم عمل الزملاء ضمن فريق منتج (CLO 3.1)، والأنشطة البحثية والمناقشات الجماعية."
+      }
+    },
+    {
+      "code": "2002864-2",
+      "name": "دراسات في مناهج المفسرين",
+      "level": 2,
+      "pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf",
+      "sha256": "179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "أن يعرض الطالب مفهوم المنهج والفرق بينه وبين الاتجاه.",
+          "assessment": "تقييم الأداء التّفاعل الصفّي، الاختبار النّصفي، الاختبار النهائي",
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة خلية عمود طرق التقييم المطابقة لرمز CLO من هندسة جدول PDF؛ يثبت bbox امتداد الخلية المدمجة عند وجودها، ولا تُنسخ خلية جار فارغة. قورئت الخلية نفسها بـ macOS Vision وTesseract ورُوجعت الصورة؛ يختلف نجاح القارئين حسب المصدر ولا يُعتمد رقم ثقة OCR وحده. | assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf | sha256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8 | pages=[4]",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "1.2",
+          "text": "أن يشرح الطالب طريقة دراسة منهج المفسر وتشمل: التعريف بالمفسر وبيئته العلمية، والتعريف بالكتاب، ومصادر المفسر والطريقة العامة له.",
+          "assessment": "تقييم الأداء؛ والتفاعل الصفي؛ الاختبار النصفي؛ الاختبار النهائي",
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع1",
+            "ع3"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح. تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": "1.3",
+          "text": "أن يذكر الطالب موقف المفسر من الخلاف وكيفية التعامل معه.",
+          "assessment": "تقييم الأداء التّفاعل الصفّي، الاختبار النّصفي، الاختبار النهائي",
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة خلية عمود طرق التقييم المطابقة لرمز CLO من هندسة جدول PDF؛ يثبت bbox امتداد الخلية المدمجة عند وجودها، ولا تُنسخ خلية جار فارغة. قورئت الخلية نفسها بـ macOS Vision وTesseract ورُوجعت الصورة؛ يختلف نجاح القارئين حسب المصدر ولا يُعتمد رقم ثقة OCR وحده. | assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf | sha256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8 | pages=[4]",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "2.1",
+          "text": "أن يقارن الطالب بين العلوم التي اعتنى بها، وتقويم عام للكتاب ومؤلفه.",
+          "assessment": "نظام المناظرة",
+          "plo_codes": [
+            "م2"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf | sha256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8 | pages=[5]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf | sha256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8 | pages=[5]",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": "2.2",
+          "text": "أن يبين الطالب أثره في غيره وممن تأثر هو.",
+          "assessment": "التقارير التحليلية؛ الأبحاث العلمية",
+          "plo_codes": [
+            "م2"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf | sha256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8 | pages=[5]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf | sha256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8 | pages=[5]",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "2.3",
+          "text": "أن يطبق الطالب دراسة نماذج تطبيقية على ذلك",
+          "assessment": "نظام المناظرة، التقارير التحليلية، الأبحاث العلمية.",
+          "plo_codes": [
+            "م1"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf | sha256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8 | pages=[5]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf | sha256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8 | pages=[5]",
+          "new_plo_codes": [
+            "م1"
+          ],
+          "alignment_reason": "تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا."
+        },
+        {
+          "code": "2.4",
+          "text": null,
+          "assessment": null,
+          "plo_codes": [],
+          "plo_status": "missing",
+          "confidence": "verified",
+          "source_page": 5,
+          "source_status": "source_blank",
+          "extraction_method": "verified_visual_review",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [],
+          "alignment_reason": "لا يوجد ربط مباشر مسند بهذا النص إلى النواتج السبعة؛ لا يُنشأ نص مفقود أو رمز CLO جديد."
+        },
+        {
+          "code": "3.1",
+          "text": "أن يعلل الطالب أسباب الخطأ في التفسير وفق مناهج المفسرين.",
+          "assessment": "المناقشات",
+          "plo_codes": [
+            "ق1"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf | sha256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8 | pages=[5]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf | sha256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8 | pages=[5]",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "3.2",
+          "text": "أن يتجنب الطالب الخطأ في التفسير ويقدم للمجتمع تفسيرا صحيًحا.",
+          "assessment": "الجماعية",
+          "plo_codes": [
+            "ق3"
+          ],
+          "plo_status": "verified_from_source_pdf",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf | sha256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8 | pages=[5]",
+          "plo_source": "course_outcomes_verified_repairs.json",
+          "plo_evidence": "استعادة رمز PLO مفرد من خلية الصف؛ تبقى روابط البرامج والخطط الأخرى مستقلة دون تعديل. | assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf | sha256=179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8 | pages=[5]",
+          "new_plo_codes": [
+            "م1"
+          ],
+          "alignment_reason": "تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا."
+        }
+      ],
+      "assessment_plan": [
+        {
+          "confidence": "low",
+          "label": "المناقشات",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "اختبار قصير",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "الاختبار النصفي التحريري",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "التقارير",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "العروض",
+          "source_page": 6,
+          "weight": null
+        },
+        {
+          "confidence": "low",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 6,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "code": "2002871-2",
+      "name": "التفسير الموضوعي",
+      "level": 3,
+      "pdf": "assets/course-specifications/quranic-studies-master-1447/2002871-2.pdf",
+      "sha256": "0b9766ec90438283b8ac322d11381af6bb75abdbea49f5a90089cfee073400ea",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "أن يحلل الطالب نشأة التفسير الموضوعي ومفاهيمه وأنواعه، ويوازن بين مجالاته.",
+          "assessment": "التقييم الدوري، الاختبار النصفي، العروض، الاختبار النهائي",
+          "plo_codes": [
+            "ع1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة خلية عمود طرق التقييم المطابقة لرمز CLO من هندسة جدول PDF؛ يثبت bbox امتداد الخلية المدمجة عند وجودها، ولا تُنسخ خلية جار فارغة. قورئت الخلية نفسها بـ macOS Vision وTesseract ورُوجعت الصورة؛ يختلف نجاح القارئين حسب المصدر ولا يُعتمد رقم ثقة OCR وحده. | assets/course-specifications/quranic-studies-master-1447/2002871-2.pdf | sha256=0b9766ec90438283b8ac322d11381af6bb75abdbea49f5a90089cfee073400ea | pages=[4]",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "1.2",
+          "text": "أن يقيم الطالب توظيف علوم القرآن والعلوم الشرعية واللغوية في بناء الدراسة الموضوعية ومعالجة قضايا الواقع.",
+          "assessment": "التقييم الدوري، الاختبار؛ النصفي، العروض، الاختبار؛ النهائي",
+          "plo_codes": [
+            "ع2"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "1.3",
+          "text": "أن يحلل الطالب مصادر التفسير الموضوعي التراثية والمعاصرة والرقمية، ويقيم موثوقيتها وإمكانات الإفادة منها.",
+          "assessment": "التقييم الدوري، الاختبار النصفي، العروض، الاختبار النهائي",
+          "plo_codes": [
+            "ع3"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة خلية عمود طرق التقييم المطابقة لرمز CLO من هندسة جدول PDF؛ يثبت bbox امتداد الخلية المدمجة عند وجودها، ولا تُنسخ خلية جار فارغة. قورئت الخلية نفسها بـ macOS Vision وTesseract ورُوجعت الصورة؛ يختلف نجاح القارئين حسب المصدر ولا يُعتمد رقم ثقة OCR وحده. | assets/course-specifications/quranic-studies-master-1447/2002871-2.pdf | sha256=0b9766ec90438283b8ac322d11381af6bb75abdbea49f5a90089cfee073400ea | pages=[4]",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": "2.1",
+          "text": "أن يوظف الطالب خطوات المنهج الموضوعي في جمع الآيات وتصنيفها وبناء الخريطة الموضوعية وتحليلها.",
+          "assessment": "التقييم الدوري، الاختبار؛ النصفي، العروض، الاختبار؛ النهائي",
+          "plo_codes": [
+            "م1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م1"
+          ],
+          "alignment_reason": "تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا."
+        },
+        {
+          "code": "2.2",
+          "text": "أن يعد الطالب دراسة موضوعية موجزة موثقة حول سورة أو قضية ناتج التعلم المرتبط بالبرنامج قرآنية معاصرة، مستفيدا من المصادر التراثية والرقمية",
+          "assessment": "التقييم الدوري، الاختبار النصفي، العروض، الاختبار النهائي",
+          "plo_codes": [
+            "م2"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة خلية عمود طرق التقييم المطابقة لرمز CLO من هندسة جدول PDF؛ يثبت bbox امتداد الخلية المدمجة عند وجودها، ولا تُنسخ خلية جار فارغة. قورئت الخلية نفسها بـ macOS Vision وTesseract ورُوجعت الصورة؛ يختلف نجاح القارئين حسب المصدر ولا يُعتمد رقم ثقة OCR وحده. | assets/course-specifications/quranic-studies-master-1447/2002871-2.pdf | sha256=0b9766ec90438283b8ac322d11381af6bb75abdbea49f5a90089cfee073400ea | pages=[4]",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م2"
+          ],
+          "alignment_reason": "البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي."
+        },
+        {
+          "code": "3.1",
+          "text": "أن يلتزم الطالب بالأخلاقيات البحثية والمعايير العلمية في التعامل مع النص القرآني وأقوال المفسرين وتوثيق المصادر.",
+          "assessment": "التقييم الدوري، الاختبار؛ النصفي، العروض، الاختبار؛ النهائي",
+          "plo_codes": [
+            "ق1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ق1"
+          ],
+          "alignment_reason": "النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد."
+        }
+      ],
+      "assessment_plan": [
+        {
+          "confidence": "high",
+          "label": "التقييم الدوري",
+          "source_page": 6,
+          "weight": 10
+        },
+        {
+          "confidence": "high",
+          "label": "العروض",
+          "source_page": 6,
+          "weight": 20
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النصفي",
+          "source_page": 6,
+          "weight": 20
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 6,
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "code": "2002872-2",
+      "name": "النظريات الحداثية في القرآن",
+      "level": 3,
+      "pdf": "assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf",
+      "sha256": "e009a2ac149ecab3daf11c433c3762aa5a23ef95d0bd241097c4de34b58f4c04",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "أن يحلل الطالب المفاهيم والأسس الفلسفية والمنهجية للحداثة والقراءات الحداثية للقرآن الكريم.",
+          "assessment": "التقييم الدوري؛ العروض؛ الاختبار النصفي؛ الاختبار النهائي",
+          "plo_codes": [
+            "ع1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "high",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "verified_visual_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح OCR من النص المرئي دون تغيير المعنى الرسمي. | assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf | pages=4 | sha256=e009a2ac149ecab3daf11c433c3762aa5a23ef95d0bd241097c4de34b58f4c04",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "1.2",
+          "text": "أن يقيم الطالب أبرز المناهج الحداثية في قراءة النص القرآني، ويبين آثارها المعرفية والتفسيرية على فهم النص.",
+          "assessment": "التقييم الدوري؛ العروض؛ الاختبار النصفي؛ الاختبار النهائي",
+          "plo_codes": [
+            "ع1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح الاستخراج من الخلية المرئية في عمود طرق التقييم. | assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf | pages=4 | sha256=e009a2ac149ecab3daf11c433c3762aa5a23ef95d0bd241097c4de34b58f4c04",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "1.3",
+          "text": "أن يحلل الطالب مصادر الدراسات الحداثية حول القرآن الكريم، ويقّيم موثوقيتها ومنهج توظيفها في البحث العلمي.",
+          "assessment": "التقييم الدوري؛ العروض؛ الاختبار النصفي؛ الاختبار النهائي",
+          "plo_codes": [
+            "ع3"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح الاستخراج من الخلية المرئية في عمود طرق التقييم. | assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf | pages=4 | sha256=e009a2ac149ecab3daf11c433c3762aa5a23ef95d0bd241097c4de34b58f4c04",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": "2.1",
+          "text": "أن يوظف الطالب أدوات التحليل والنقد المنهجي في دراسة نماذج من القراءات الحداثية للقرآن الكريم وتقويمها.",
+          "assessment": "التقييم الدوري؛ العروض؛ الاختبار النصفي؛ الاختبار النهائي",
+          "plo_codes": [
+            "م1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "high",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "verified_visual_pdf",
+          "verified_repair": true,
+          "repair_evidence": "وصل نص المخرج الممتد بين الصفحتين، وحذف رأس الجدول ونص المخرج التالي اللذين اندمجا أثناء الاستخراج. | assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf | pages=4,5 | sha256=e009a2ac149ecab3daf11c433c3762aa5a23ef95d0bd241097c4de34b58f4c04",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م1"
+          ],
+          "alignment_reason": "تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا."
+        },
+        {
+          "code": "2.2",
+          "text": "أن يعد الطالب ورقة بحثية تحليلية موجزة في أحد المناهج الحداثية لقراءة القرآن الكريم ملتزما بمنهجية البحث العلمي.",
+          "assessment": "التقييم الدوري؛ العروض؛ الاختبار النصفي؛ الاختبار النهائي",
+          "plo_codes": [
+            "م2"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح الاستخراج من الخلية المرئية في عمود طرق التقييم. | assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf | pages=5 | sha256=e009a2ac149ecab3daf11c433c3762aa5a23ef95d0bd241097c4de34b58f4c04",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م2"
+          ],
+          "alignment_reason": "البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي."
+        },
+        {
+          "code": "3.1",
+          "text": "أن يلتزم الطالب بالأخلاقيات البحثية والمعايير العلمية في التعامل مع النص القرآني ومع إنتاج الباحثين والاتجاهات المعاصرة.",
+          "assessment": "التقييم الدوري؛ العروض؛ الاختبار النصفي؛ الاختبار النهائي",
+          "plo_codes": [
+            "ق1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح الاستخراج من الخلية المرئية في عمود طرق التقييم. | assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf | pages=5 | sha256=e009a2ac149ecab3daf11c433c3762aa5a23ef95d0bd241097c4de34b58f4c04",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ق1"
+          ],
+          "alignment_reason": "النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد."
+        }
+      ],
+      "assessment_plan": [
+        {
+          "confidence": "high",
+          "label": "التقييم الدوري",
+          "source_page": 6,
+          "weight": 10
+        },
+        {
+          "confidence": "high",
+          "label": "العروض",
+          "source_page": 6,
+          "weight": 20
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار الِّنصفي",
+          "source_page": 6,
+          "weight": 20
+        },
+        {
+          "confidence": "high",
+          "label": "ي الاختبار النهائي التحرير",
+          "source_page": 6,
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "code": "2002873-2",
+      "name": "دراسات في إعجاز القرآن",
+      "level": 3,
+      "pdf": "assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf",
+      "sha256": "53bada6cc0027318fe5c8025fa31a1704e04672a17a0f9019d23bbde2f74f25f",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "أن يحلل الطالب الأصول والنظريات الرئيسة في باب إعجاز القرآن، ويبين أثرها في توجيه وجوه الإعجاز.",
+          "assessment": "التقييم الدوري؛ العروض؛ الاختبار النصفي؛ الاختبار النهائي",
+          "plo_codes": [
+            "ع1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح الاستخراج من الخلية المرئية في عمود طرق التقييم. | assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf | pages=4 | sha256=53bada6cc0027318fe5c8025fa31a1704e04672a17a0f9019d23bbde2f74f25f",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "1.2",
+          "text": "أن يقوم الطالب مواقف العلماء من وجوه الإعجاز وقضاياها الإشكالية؛ كالقول بالصرفة والإعجاز العلمي والغيبي والتشريعي.",
+          "assessment": "التقييم الدوري؛ العروض؛ الاختبار النصفي؛ الاختبار النهائي",
+          "plo_codes": [
+            "ع3"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح الاستخراج من الخلية المرئية في عمود طرق التقييم. | assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf | pages=4 | sha256=53bada6cc0027318fe5c8025fa31a1704e04672a17a0f9019d23bbde2f74f25f",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "1.3",
+          "text": "أن ينقد الطالب مصادَر الإعجاز القرآني التراثية والمعاصرة، ويستخلص معايير الإفادة منها في البحث العلمي.",
+          "assessment": "التقييم الدوري؛ العروض؛ الاختبار النصفي؛ الاختبار النهائي",
+          "plo_codes": [
+            "ع3"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح الاستخراج من الخلية المرئية في عمود طرق التقييم. | assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf | pages=4 | sha256=53bada6cc0027318fe5c8025fa31a1704e04672a17a0f9019d23bbde2f74f25f",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": "2.1",
+          "text": "أن يوظف الطالب أدوات التحليل البلاغي والنص ي في دراسة نماذج مختارة من آيات التحدي ووجوه الإعجاز.",
+          "assessment": "التقييم الدوري؛ العروض؛ الاختبار النصفي؛ الاختبار النهائي",
+          "plo_codes": [
+            "م1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح الاستخراج من الخلية المرئية في عمود طرق التقييم. | assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf | pages=5 | sha256=53bada6cc0027318fe5c8025fa31a1704e04672a17a0f9019d23bbde2f74f25f",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م1"
+          ],
+          "alignment_reason": "تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا."
+        },
+        {
+          "code": "2.2",
+          "text": "أن يعد الطالب دراسة بحثية قصيرة توثق مسألة من مسائل الإعجاز وتقوم معالجتها في مصادر مختارة.",
+          "assessment": "التقييم الدوري؛ العروض؛ الاختبار النصفي؛ الاختبار النهائي",
+          "plo_codes": [
+            "م2"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح الاستخراج من الخلية المرئية في عمود طرق التقييم. | assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf | pages=5 | sha256=53bada6cc0027318fe5c8025fa31a1704e04672a17a0f9019d23bbde2f74f25f",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م2"
+          ],
+          "alignment_reason": "البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي."
+        },
+        {
+          "code": "3.1",
+          "text": "أن يلتزم الطالب بالأخلاقيات البحثية والمعايير العلمية في توثيق الأقوال ونسبة الآراء عند دراسة الإعجاز.",
+          "assessment": "التقييم الدوري؛ العروض؛ الاختبار النصفي؛ الاختبار النهائي",
+          "plo_codes": [
+            "ق1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح الاستخراج من الخلية المرئية في عمود طرق التقييم. | assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf | pages=5 | sha256=53bada6cc0027318fe5c8025fa31a1704e04672a17a0f9019d23bbde2f74f25f",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ق1"
+          ],
+          "alignment_reason": "النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد."
+        }
+      ],
+      "assessment_plan": [
+        {
+          "confidence": "high",
+          "label": "التقييم الدوري",
+          "source_page": 6,
+          "weight": 10
+        },
+        {
+          "confidence": "high",
+          "label": "العروض",
+          "source_page": 6,
+          "weight": 20
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النصفي",
+          "source_page": 6,
+          "weight": 20
+        },
+        {
+          "confidence": "high",
+          "label": "ي الاختبار النهائي التحرير",
+          "source_page": 6,
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "code": "2002874-2",
+      "name": "دراسات في لغة القرآن",
+      "level": 3,
+      "pdf": "assets/course-specifications/quranic-studies-master-1447/2002874-2.pdf",
+      "sha256": "dbf9fb5f6da7e7e1e3c44c6954f3264da24705b00ffc94494931b082b9ef2250",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "أن يحلل الطالب الظواهر اللغوية في القرآن الكريم المرتبطة بلهجات العرب ولا سيما اللسان القرش ي، ويبين أثرها في الفهم التفسيري.",
+          "assessment": "التقييم الدوري، الاختبار النصفي، العروض، الاختبار النهائي",
+          "plo_codes": [
+            "ع2"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة خلية عمود طرق التقييم المطابقة لرمز CLO من هندسة جدول PDF؛ يثبت bbox امتداد الخلية المدمجة عند وجودها، ولا تُنسخ خلية جار فارغة. قورئت الخلية نفسها بـ macOS Vision وTesseract ورُوجعت الصورة؛ يختلف نجاح القارئين حسب المصدر ولا يُعتمد رقم ثقة OCR وحده. | assets/course-specifications/quranic-studies-master-1447/2002874-2.pdf | sha256=dbf9fb5f6da7e7e1e3c44c6954f3264da24705b00ffc94494931b082b9ef2250 | pages=[4]",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "1.2",
+          "text": "أن يقيم الطالب قضية المعرب والحقيقة والمجاز في القرآن الكريم في ضوء أقوال العلماء وأدلتهم.",
+          "assessment": "التقييم الدوري، الاختبار؛ النصفي، العروض، الاختبار؛ النهائي",
+          "plo_codes": [
+            "ع2"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "1.3",
+          "text": "أن يحلل الطالب الأساليب البلاغية في القرآن الكريم (التشبيه، الاستعارة، الكناية، الحصر، الإيجاز والإطناب، الخبر والإنشاء) ويستنتج دلالاتها.",
+          "assessment": "التقييم الدوري، الاختبار النصفي، العروض، الاختبار النهائي",
+          "plo_codes": [
+            "ع1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "استعادة خلية عمود طرق التقييم المطابقة لرمز CLO من هندسة جدول PDF؛ يثبت bbox امتداد الخلية المدمجة عند وجودها، ولا تُنسخ خلية جار فارغة. قورئت الخلية نفسها بـ macOS Vision وTesseract ورُوجعت الصورة؛ يختلف نجاح القارئين حسب المصدر ولا يُعتمد رقم ثقة OCR وحده. | assets/course-specifications/quranic-studies-master-1447/2002874-2.pdf | sha256=dbf9fb5f6da7e7e1e3c44c6954f3264da24705b00ffc94494931b082b9ef2250 | pages=[4]",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع2"
+          ],
+          "alignment_reason": "مباحث علوم القرآن والقراءات والإعجاز واللغة وتوظيفها في فهم النص؛ لا تُنقل مهارة بحث عامة إلى هذا الناتج."
+        },
+        {
+          "code": "2.1",
+          "text": "أن يوظف الطالب أدوات التحليل اللغوي والبلاغي في تفسير نماذج مختارة من الآيات، مع توثيق الشواهد من المصادر المعتمدة.",
+          "assessment": "التقييم الدوري، الاختبار؛ النصفي، العروض، الاختبار؛ النهائي",
+          "plo_codes": [
+            "م1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م1"
+          ],
+          "alignment_reason": "تطبيق أدوات التحليل والتفسير والنقد والاستنباط على نصوص أو دراسات تفسيرية؛ روابط المعرفة المساندة لا تعني تمكينًا."
+        },
+        {
+          "code": "2.2",
+          "text": "أن يعد الطالب دراسة تطبيقية موجزة في ظاهرة لغوية/بلاغية قرآنية، مع الإفادة من المصادر التراثية والرقمية في جمع المادة وتحليلها.",
+          "assessment": null,
+          "plo_codes": [
+            "م2"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م2"
+          ],
+          "alignment_reason": "البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي."
+        },
+        {
+          "code": "3.1",
+          "text": "أن يلتزم الطالب بالأمانة العلمية وأخلاقيات البحث والمعايير العلمية في التعامل مع النص القرآني وأقوال العلماء والمصادر.",
+          "assessment": "التقييم الدوري، الاختبار؛ النصفي، العروض، الاختبار؛ النهائي",
+          "plo_codes": [
+            "ق1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": false,
+          "repair_evidence": "",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ق1"
+          ],
+          "alignment_reason": "النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد."
+        }
+      ],
+      "assessment_plan": [
+        {
+          "confidence": "high",
+          "label": "التقييم الدوري",
+          "source_page": 6,
+          "weight": 10
+        },
+        {
+          "confidence": "high",
+          "label": "العروض",
+          "source_page": 6,
+          "weight": 20
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النصفي",
+          "source_page": 6,
+          "weight": 20
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 6,
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "code": "2002888-4",
+      "name": "مشروع بحثي",
+      "level": 4,
+      "pdf": "assets/course-specifications/graduate-all-20260823/quran-qiraat/2002888-4.pdf",
+      "sha256": "a1bdbb231ca9c5a2c48df8e2bc6aa4a05ad01e71dc220b0ac790d3c37ed99e65",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "أن يحلل الطالب بنية الحجاج العلمي في فصول البحث وآليات الاستدلال والتعليل والترجيح.",
+          "assessment": "تقييم المشروع البحثي النهائي",
+          "plo_codes": [
+            "ع1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح الاستخراج من الخلية المرئية في عمود طرق التقييم. | assets/course-specifications/graduate-all-20260823/quran-qiraat/2002888-4.pdf | pages=4 | sha256=a1bdbb231ca9c5a2c48df8e2bc6aa4a05ad01e71dc220b0ac790d3c37ed99e65",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع1"
+          ],
+          "alignment_reason": "تحليل أصول التفسير ومناهجه واتجاهاته وتطورها؛ لا يُستبدل به مجرد ذكر مصدر أو مصطلح."
+        },
+        {
+          "code": "1.2",
+          "text": "أن يقّيم الطالب توظيف المصادر التراثية والمعاصرة والرقمية في بناء التحليل والاستنتاج.",
+          "assessment": "تقييم المشروع البحثي النهائي",
+          "plo_codes": [
+            "ع3"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح الاستخراج من الخلية المرئية في عمود طرق التقييم. | assets/course-specifications/graduate-all-20260823/quran-qiraat/2002888-4.pdf | pages=4 | sha256=a1bdbb231ca9c5a2c48df8e2bc6aa4a05ad01e71dc220b0ac790d3c37ed99e65",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ع3"
+          ],
+          "alignment_reason": "تحديد المصادر وتحليل مناهجها والمقارنة بينها وتقويم توظيفها وموثوقيتها."
+        },
+        {
+          "code": "1.3",
+          "text": "أن ينقد الطالب اتساق المنهج مع النتائج وضبط المصطلحات وإحكام العرض العلمي.",
+          "assessment": "تقييم المشروع البحثي النهائي",
+          "plo_codes": [
+            "ع3"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح الاستخراج من الخلية المرئية في عمود طرق التقييم. | assets/course-specifications/graduate-all-20260823/quran-qiraat/2002888-4.pdf | pages=4 | sha256=a1bdbb231ca9c5a2c48df8e2bc6aa4a05ad01e71dc220b0ac790d3c37ed99e65",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م2"
+          ],
+          "alignment_reason": "البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي."
+        },
+        {
+          "code": "2.1",
+          "text": "أنُينجز الطالب فصول البحث الأساسية كتابة وتحليلً وفق منهج علمي موثق ومتماسك.",
+          "assessment": "تقييم المشروع البحثي النهائي",
+          "plo_codes": [
+            "م2"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 4,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح الاستخراج من الخلية المرئية في عمود طرق التقييم. | assets/course-specifications/graduate-all-20260823/quran-qiraat/2002888-4.pdf | pages=4 | sha256=a1bdbb231ca9c5a2c48df8e2bc6aa4a05ad01e71dc220b0ac790d3c37ed99e65",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م2"
+          ],
+          "alignment_reason": "البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي."
+        },
+        {
+          "code": "2.2",
+          "text": "أن يعد الطالب الصياغة النهائية للبحث تحريرا وتوثيقا وإخراجا، ويعرضه للنقاش العلمي.",
+          "assessment": "تقييم المشروع البحثي النهائي",
+          "plo_codes": [
+            "م2"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "خلية التقييم المشتركة للمهارات ممتدة من صف 2.1 في الصفحة 4 إلى صف 2.2 في الصفحة 5؛ وليست طريقة مستنتجة من مجال المخرج. | assets/course-specifications/graduate-all-20260823/quran-qiraat/2002888-4.pdf | pages=4,5 | sha256=a1bdbb231ca9c5a2c48df8e2bc6aa4a05ad01e71dc220b0ac790d3c37ed99e65",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "م2",
+            "ق2"
+          ],
+          "alignment_reason": "البحث والتحقيق والتخطيط وجمع المادة وتحليلها وصياغة البحث وعرض نتائجه؛ التمكين يستند إلى أداء بحثي تطبيقي. مسؤولية إنجاز العمل البحثي واستقلاليته والمشاركة الفاعلة في فريق وحلقات المناقشة؛ يقاس بمؤشرات خاصة مستقلة عن جودة التحرير."
+        },
+        {
+          "code": "3.1",
+          "text": "أن يلتزم الطالب بالنزاهة العلمية ومعايير التعامل مع النص القرآني وأقوال العلماء، ويتحرى الدقة في النقل والتحرير.",
+          "assessment": "تقييم المشروع البحثي النهائي",
+          "plo_codes": [
+            "ق1"
+          ],
+          "plo_status": "mapped",
+          "confidence": "medium",
+          "source_page": 5,
+          "source_status": "present",
+          "extraction_method": "geometric_pdf",
+          "verified_repair": true,
+          "repair_evidence": "تصحيح الاستخراج من الخلية المرئية في عمود طرق التقييم. | assets/course-specifications/graduate-all-20260823/quran-qiraat/2002888-4.pdf | pages=5 | sha256=a1bdbb231ca9c5a2c48df8e2bc6aa4a05ad01e71dc220b0ac790d3c37ed99e65",
+          "plo_source": "course_specification",
+          "plo_evidence": "",
+          "new_plo_codes": [
+            "ق1"
+          ],
+          "alignment_reason": "النزاهة وأخلاقيات البحث والتوثيق ونسبة الأقوال؛ لا يُربط به تجنب خطأ معرفي مجرد."
+        }
+      ],
+      "assessment_plan": [
+        {
+          "confidence": "high",
+          "label": "تقييم ملف مشروع بحثي (2) (إنجاز فصول البحث والصياغة النهائية)",
+          "source_page": 6,
+          "weight": 100
+        }
+      ],
+      "additional_evidence": {
+        "pages": [
+          3,
+          5
+        ],
+        "text": "حلقات بحثية بإشراف أكاديمي، وجدولة الإنجاز وتوزيع العمل، والمناقشة النقدية للمسودات، وإعداد الصياغة النهائية وعرضها للنقاش؛ تغطي مسؤولية الإنجاز والمشاركة البحثية ضمن ق2، ولا تعني أن أداءه قيس سابقًا."
+      }
+    }
+  ],
+  "mastery": {
+    "ع1": [
+      "2002871-2",
+      "2002872-2"
+    ],
+    "ع2": [
+      "2002871-2",
+      "2002873-2",
+      "2002874-2"
+    ],
+    "ع3": [
+      "2002871-2",
+      "2002888-4"
+    ],
+    "م1": [
+      "2002871-2",
+      "2002874-2"
+    ],
+    "م2": [
+      "2002863-2",
+      "2002871-2",
+      "2002888-4"
+    ],
+    "ق1": [
+      "2002871-2",
+      "2002872-2",
+      "2002888-4"
+    ],
+    "ق2": [
+      "2002863-2",
+      "2002888-4"
+    ]
+  },
+  "measurement_policy": {
+    "direct_target": 0.8,
+    "indirect_target": 4,
+    "composite_target": 0.8,
+    "direct_weight": 0.8,
+    "indirect_weight": 0.2,
+    "student_mastery_threshold_unchanged": true
+  },
+  "mastery_policy": "التأسيس/الممارسة/التمكين درجة أداء وليست رقم الفصل؛ مقررات الفصل الثاني قد تثبت تمكينًا في البحث أو العمل الجماعي بأداء تطبيقي صريح."
+}

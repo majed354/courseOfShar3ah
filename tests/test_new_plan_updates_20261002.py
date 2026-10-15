@@ -79,7 +79,15 @@ class NewPlanUpdatesTest(unittest.TestCase):
         target_codes={r['code'] for r in self.manifest['records']}
         for code,course in self.baseline['courses'].items():
             if code not in target_codes:
-                self.assertEqual(course,self.outcomes['courses'][code],code)
+                current = copy.deepcopy(self.outcomes['courses'][code])
+                # Later authorised Master PLO revision preserves this batch's
+                # extraction; its scoped mappings are tested independently.
+                revision = json.loads((ROOT / 'assets/course-specifications/quranic-master-plo-update-20261015/alignment-decisions.json').read_text())
+                if code in {c['code'] for c in revision['courses']}:
+                    for variant in current['variants']:
+                        variant['overrides'] = [o for o in variant['overrides']
+                            if o.get('policy') != 'authorized_program_alignment_revision']
+                self.assertEqual(course,current,code)
             for prior in course['variants']:
                 if prior['variant_id'] not in self.successors:
                     continue

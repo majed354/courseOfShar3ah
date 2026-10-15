@@ -95,7 +95,7 @@ class ProgramSpecificationLinkTests(unittest.TestCase):
         bundle = ROOT / 'assets/course-specifications/quranic-master-operative-2023'
         manifest = json.loads((bundle / 'manifest.json').read_text())
         reference = json.loads((bundle / 'program-reference.json').read_text())
-        self.assertEqual(program['program_specification_url'], manifest['program_pdf']['path'])
+        self.assertIn('quranic-master-plo-update-20261015', program['program_specification_url'])
         for record in [manifest['program_pdf'], manifest['official_curriculum'], manifest['superseded_proposal']]:
             self.assertEqual(record['sha256'], hashlib.sha256((ROOT / record['path']).read_bytes()).hexdigest())
         self.assertEqual(14, len(program['courses']))
@@ -104,7 +104,7 @@ class ProgramSpecificationLinkTests(unittest.TestCase):
         self.assertEqual({'2002851-4', '2002861-4', '2002888-4'}, {c['code'] for c in reference['curriculum'] if c['hours'] == 4})
         self.assertFalse(any('التحليلي (2)' in c['name'] for c in reference['curriculum']))
         self.assertFalse(any(r['plo_code'] == 'ق1' and r['classification'] == 3 for r in reference['program_matrix']))
-        self.assertEqual(['ق1'], program['program_details']['matrix_mastery_missing'])
+        self.assertEqual([], program['program_details']['matrix_mastery_missing'])
 
 
 if __name__ == "__main__":
