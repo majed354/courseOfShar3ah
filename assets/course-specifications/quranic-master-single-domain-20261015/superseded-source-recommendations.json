@@ -1,0 +1,244 @@
+{
+  "reason": "The old source variants are archived in previous-context.json and superseded by newly authored course specifications; recommendations retained here unchanged as history.",
+  "recommendations": [
+    {
+      "id": "0372c3a1b0e1b359c2a725105f93993b40b9740e32177427aa9093f26ebc4273",
+      "course_code": "2002864-2",
+      "variant_id": "64dba01051a9754406bff533d02a6e13d735691d1ee4d7bfa147345c186d0c6a",
+      "fields": [
+        "clos[2.4].text",
+        "clos[2.4].plo_codes"
+      ],
+      "issue_code": "SOURCE_CLO_ROW_BLANK",
+      "message": "صف CLO 2.4 فارغ في نص الناتج وربط البرنامج داخل PDF.",
+      "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf",
+      "source_sha256": "179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8",
+      "status": "open",
+      "created_at": "2026-09-08"
+    },
+    {
+      "id": "096fdf259dfdd6f27edb1e19491c71a746b2ca19c04c491310fef7335c22193a",
+      "course_code": "2002862-2",
+      "variant_id": "b105535cfb5ddcd809a07b567af6a8635e522d584e5b68a33c98994b20390135",
+      "fields": [
+        "clos[2.3].text",
+        "clos[2.3].plo_codes"
+      ],
+      "issue_code": "SOURCE_CLO_ROW_BLANK",
+      "message": "صف CLO 2.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+      "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf",
+      "source_sha256": "36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26",
+      "status": "open",
+      "created_at": "2026-09-08"
+    },
+    {
+      "id": "1f37dc3b99d3ce6260907b6ba01508c92be9772065212bc22ea75a231d58a7fa",
+      "course_code": "2002855-2",
+      "variant_id": "c0a3e3673917f9cd6d7049e5c97ae11f128f07d8b641e3abd7cf92bcf9c10295",
+      "fields": [
+        "clos[1.3].code"
+      ],
+      "issue_code": "SOURCE_CLO_CODE_MALFORMED",
+      "message": "رمز ناتج المعرفة الثالث ظاهر في PDF كعلامة حذف بدل الرمز 1.3، وقد فصل الاستخراج جزء الرمز عن نص الناتج.",
+      "recommendation": "استبدال علامة الحذف بالرمز 1.3 في PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf",
+      "source_sha256": "d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38",
+      "status": "open",
+      "created_at": "2026-09-08"
+    },
+    {
+      "id": "2da4ce8165ca5b60b29b1314333693a34702043bc434d6442941f5f45dee79c7",
+      "course_code": "2002861-4",
+      "variant_id": "0e89c2d2c6137db7cf1aa531aa1a0528b825f2343b39f0f7681a7392150c1dd0",
+      "fields": [
+        "clos[2.3].text",
+        "clos[2.3].plo_codes"
+      ],
+      "issue_code": "SOURCE_CLO_ROW_BLANK",
+      "message": "صف CLO 2.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+      "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf",
+      "source_sha256": "943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5",
+      "status": "open",
+      "created_at": "2026-09-08"
+    },
+    {
+      "id": "4567c1a879d593eff7067737208a7fa21b609c4c8678ddb7c409c57e916145b0",
+      "course_code": "2002855-2",
+      "variant_id": "c0a3e3673917f9cd6d7049e5c97ae11f128f07d8b641e3abd7cf92bcf9c10295",
+      "fields": [
+        "clos[2.4].text",
+        "clos[2.4].plo_codes"
+      ],
+      "issue_code": "SOURCE_CLO_ROW_BLANK",
+      "message": "صف CLO 2.4 فارغ أو يحمل علامة موضعية بلا ناتج تعلم معتمد داخل ملف PDF.",
+      "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf",
+      "source_sha256": "d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38",
+      "status": "open",
+      "created_at": "2026-09-08"
+    },
+    {
+      "id": "546a8ada8cc632e8f477892a0c0c335b15a0376297efc3609928c7d48cdded29",
+      "course_code": "2002852-2",
+      "variant_id": "9c5cb2735c068617772e47820b1b3d50556b5ef6d87677dc60bd88d5a2a40827",
+      "fields": [
+        "clos[2.3].text",
+        "clos[2.3].plo_codes"
+      ],
+      "issue_code": "SOURCE_CLO_ROW_BLANK",
+      "message": "صف CLO 2.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+      "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf",
+      "source_sha256": "c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477",
+      "status": "open",
+      "created_at": "2026-09-08"
+    },
+    {
+      "id": "63d9a1136859326117888abeecc9fb20146c10ea1cb2a5411643180191a9e8d3",
+      "course_code": "2002853-2",
+      "variant_id": "b8e7f90497bcfec223cee9ecd12b851c35ee7f7ff45eb9b74e8ca83690e7c53e",
+      "fields": [
+        "clos[2.4].text",
+        "clos[2.4].plo_codes"
+      ],
+      "issue_code": "SOURCE_CLO_ROW_BLANK",
+      "message": "صف CLO 2.4 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+      "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf",
+      "source_sha256": "b1538ba0b8131456cfe0b0d3d958465791703fde019166aec14fd70f035ed22a",
+      "status": "open",
+      "created_at": "2026-09-08"
+    },
+    {
+      "id": "6933cd5498ba4e7fe88023365cff8bceb49bae23283028f487f519b9d110dcbd",
+      "course_code": "2002863-2",
+      "variant_id": "6f60080ac0428ade5680b2f64b019382f23db1fb984165a0df6be1a6e620438a",
+      "fields": [
+        "clos[2.3].text",
+        "clos[2.3].plo_codes"
+      ],
+      "issue_code": "SOURCE_CLO_ROW_BLANK",
+      "message": "صف CLO 2.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+      "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf",
+      "source_sha256": "f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457",
+      "status": "open",
+      "created_at": "2026-09-08"
+    },
+    {
+      "id": "7bba4d94abc977897d9559205ed0338ceccc5003feac8a7762fb27336450dfed",
+      "course_code": "2002852-2",
+      "variant_id": "9c5cb2735c068617772e47820b1b3d50556b5ef6d87677dc60bd88d5a2a40827",
+      "fields": [
+        "clos[2.4].text",
+        "clos[2.4].plo_codes"
+      ],
+      "issue_code": "SOURCE_CLO_ROW_BLANK",
+      "message": "صف CLO 2.4 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+      "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf",
+      "source_sha256": "c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477",
+      "status": "open",
+      "created_at": "2026-09-08"
+    },
+    {
+      "id": "85155e51ffed9dbe04ca37aafb9aa26c9611ad89c88c82754be77d14e742cb9c",
+      "course_code": "2002854-2",
+      "variant_id": "8d5ab489f8e75fd1035ac73b04f30e9c0a89229083741df2211c2b14c0170390",
+      "fields": [
+        "clos[2.4].text",
+        "clos[2.4].plo_codes"
+      ],
+      "issue_code": "SOURCE_CLO_ROW_BLANK",
+      "message": "صف CLO 2.4 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+      "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf",
+      "source_sha256": "cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7",
+      "status": "open",
+      "created_at": "2026-09-08"
+    },
+    {
+      "id": "c743685d3c1bfba36e5e461d1578d22daff3471c35532f1480a75c35282508ac",
+      "course_code": "2002863-2",
+      "variant_id": "6f60080ac0428ade5680b2f64b019382f23db1fb984165a0df6be1a6e620438a",
+      "fields": [
+        "clos[2.4].text",
+        "clos[2.4].plo_codes"
+      ],
+      "issue_code": "SOURCE_CLO_ROW_BLANK",
+      "message": "صف CLO 2.4 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+      "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf",
+      "source_sha256": "f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457",
+      "status": "open",
+      "created_at": "2026-09-08"
+    },
+    {
+      "id": "cd36b26477e525ad1da9778019459d00e9849b826fea94490ca96c22279fe23a",
+      "course_code": "2002861-4",
+      "variant_id": "0e89c2d2c6137db7cf1aa531aa1a0528b825f2343b39f0f7681a7392150c1dd0",
+      "fields": [
+        "clos[2.4].text",
+        "clos[2.4].plo_codes"
+      ],
+      "issue_code": "SOURCE_CLO_ROW_BLANK",
+      "message": "صف CLO 2.4 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+      "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf",
+      "source_sha256": "943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5",
+      "status": "open",
+      "created_at": "2026-09-08"
+    },
+    {
+      "id": "e1c3a8886726ed1704fb6f05ec2cf9fa1ef9faf7feefe2cb9634445d2c86dfa5",
+      "course_code": "2002854-2",
+      "variant_id": "8d5ab489f8e75fd1035ac73b04f30e9c0a89229083741df2211c2b14c0170390",
+      "fields": [
+        "clos[2.3].text",
+        "clos[2.3].plo_codes"
+      ],
+      "issue_code": "SOURCE_CLO_ROW_BLANK",
+      "message": "صف CLO 2.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+      "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf",
+      "source_sha256": "cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7",
+      "status": "open",
+      "created_at": "2026-09-08"
+    },
+    {
+      "id": "ec87f8748fb21f46802d62218f45fec0f66ec29377273bfab0885db218aec4e4",
+      "course_code": "2002862-2",
+      "variant_id": "b105535cfb5ddcd809a07b567af6a8635e522d584e5b68a33c98994b20390135",
+      "fields": [
+        "clos[2.4].text",
+        "clos[2.4].plo_codes"
+      ],
+      "issue_code": "SOURCE_CLO_ROW_BLANK",
+      "message": "صف CLO 2.4 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+      "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf",
+      "source_sha256": "36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26",
+      "status": "open",
+      "created_at": "2026-09-08"
+    },
+    {
+      "id": "ee1b855605e7c52c0629ba7459059e2defe097aa54d9079424f5d751675eeb94",
+      "course_code": "2002853-2",
+      "variant_id": "b8e7f90497bcfec223cee9ecd12b851c35ee7f7ff45eb9b74e8ca83690e7c53e",
+      "fields": [
+        "clos[2.3].text",
+        "clos[2.3].plo_codes"
+      ],
+      "issue_code": "SOURCE_CLO_ROW_BLANK",
+      "message": "صف CLO 2.3 فارغ في نص الناتج وربط البرنامج داخل ملف PDF.",
+      "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf",
+      "source_sha256": "b1538ba0b8131456cfe0b0d3d958465791703fde019166aec14fd70f035ed22a",
+      "status": "open",
+      "created_at": "2026-09-08"
+    }
+  ]
+}

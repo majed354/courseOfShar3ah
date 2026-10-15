@@ -18,7 +18,8 @@ class MasterPLORevisionTests(unittest.TestCase):
         cls.ref = read(BUNDLE / 'program-reference.json')
         cls.before = read(BUNDLE / 'previous-context.json')
         cls.data = read(ROOT / 'data.json')
-        cls.outcomes = read(ROOT / 'course-outcomes.json')
+        # Verify the preserved edition's source records after the later CLO revision.
+        cls.outcomes = {'courses': read(ROOT / 'assets/course-specifications/quranic-master-single-domain-20261015/previous-context.json')['course_outcomes']}
 
     def test_exact_proposed_outcomes_with_operative_curriculum(self):
         proposal = read(ROOT / 'assets/course-specifications/quranic-master-operative-2023/proposed-program-history.json')

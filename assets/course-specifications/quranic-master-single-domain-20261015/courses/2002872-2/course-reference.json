@@ -1,0 +1,543 @@
+{
+  "course_code": "2002872-2",
+  "variants": [
+    {
+      "variant_id": "39399ae074de33324bfaaeb2dcd36806f8e6e11db930995f3e83b97d7fbbcee5",
+      "scopes": [
+        {
+          "program": "الدراسات القرآنية المعاصرة",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "catalog": {
+        "title": "النظريات الحداثية في القرآن",
+        "summary": "يتناول النظريات والمناهج الحداثية في قراءة النص القرآني وجذورها وأدواتها التأويلية، ومنها التاريخانية والهرمنيوطيقا واللسانيات والبنيوية والتفكيكية، مع تقويم تطبيقاتها نقديًا في ضوء أصول التفسير وعلوم القرآن.",
+        "specification_code": "2002872-2",
+        "match_status": "adapted_verified",
+        "match_note": "مراجعة نواتج المقرر بإذن المستخدم: ربط واحد داخل المجال وتصحيح الصياغة والتصنيف؛ الخطة والساعات والموضوعات وأوزان أنشطة التقويم محفوظة. بيانات اعتماد النسخة الجديدة تستكمل بعد اعتمادها."
+      },
+      "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf",
+      "source_sha256": "e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38",
+      "extracted": {
+        "course_name": null,
+        "course_name_metadata": {
+          "confidence": "low",
+          "source_page": 1,
+          "extraction_method": "unresolved"
+        },
+        "clos": [
+          {
+            "code": "1.1",
+            "text": null,
+            "source_status": "unreadable",
+            "assessment": "الاختبارات التحريرية",
+            "plo_mappings": [
+              {
+                "scope": {
+                  "program": "الدراسات القرآنية المعاصرة",
+                  "plan_type": "جديدة",
+                  "version": "1",
+                  "degree": "ماجستير"
+                },
+                "plo_codes": [
+                  "ع1"
+                ],
+                "status": "mapped",
+                "confidence": "medium",
+                "source_page": 4,
+                "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+              }
+            ],
+            "document_plo_codes": [
+              "ع1"
+            ],
+            "confidence": "low",
+            "source_page": 4,
+            "extraction_method": "geometric_pdf",
+            "assessment_source_page": 4
+          },
+          {
+            "code": "1.2",
+            "text": "أن يقيم الطالب أبرز المناهج الحداثية في قراءة النص القرآني، ويبين آثارها المعرفية والتفسيرية على فهم النص.",
+            "source_status": "present",
+            "assessment": "الاختبارات التحريرية",
+            "plo_mappings": [
+              {
+                "scope": {
+                  "program": "الدراسات القرآنية المعاصرة",
+                  "plan_type": "جديدة",
+                  "version": "1",
+                  "degree": "ماجستير"
+                },
+                "plo_codes": [
+                  "ع1"
+                ],
+                "status": "mapped",
+                "confidence": "medium",
+                "source_page": 4,
+                "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+              }
+            ],
+            "document_plo_codes": [
+              "ع1"
+            ],
+            "confidence": "medium",
+            "source_page": 4,
+            "extraction_method": "geometric_pdf",
+            "assessment_source_page": 4
+          },
+          {
+            "code": "1.3",
+            "text": "أن يحلل الطالب مصادر الدراسات الحداثية حول القران الكريم, ويفيم موثوقيتها ومنهح توظيفها فى البحث العلمى.",
+            "source_status": "present",
+            "assessment": "الاختبارات التحريرية",
+            "plo_mappings": [
+              {
+                "scope": {
+                  "program": "الدراسات القرآنية المعاصرة",
+                  "plan_type": "جديدة",
+                  "version": "1",
+                  "degree": "ماجستير"
+                },
+                "plo_codes": [
+                  "ع3"
+                ],
+                "status": "mapped",
+                "confidence": "medium",
+                "source_page": 4,
+                "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+              }
+            ],
+            "document_plo_codes": [
+              "ع3"
+            ],
+            "confidence": "medium",
+            "source_page": 4,
+            "extraction_method": "targeted_ocr",
+            "assessment_source_page": 4
+          },
+          {
+            "code": "2.1",
+            "text": "أن يوظف الطالب أدوات التحليل والنقد المنهجي في دراسة نماذج من القراءات الحداثية للقرآن الكريم وتقويمها.",
+            "source_status": "present",
+            "assessment": "التقارير والعروض والمهام التطبيقية؛ التطبيقات والبحث والعروض",
+            "plo_mappings": [
+              {
+                "scope": {
+                  "program": "الدراسات القرآنية المعاصرة",
+                  "plan_type": "جديدة",
+                  "version": "1",
+                  "degree": "ماجستير"
+                },
+                "plo_codes": [
+                  "م1"
+                ],
+                "status": "mapped",
+                "confidence": "medium",
+                "source_page": 4,
+                "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+              }
+            ],
+            "document_plo_codes": [
+              "م1"
+            ],
+            "confidence": "medium",
+            "source_page": 4,
+            "extraction_method": "geometric_pdf",
+            "assessment_source_page": 4
+          },
+          {
+            "code": "2.2",
+            "text": "أن يعد الطالب ورقة بحثية تحليلية موجزة في أحد المناهج الحداثية لقراءة القرآن الكريم ملتزما بمنهجية البحث العلمي.",
+            "source_status": "present",
+            "assessment": "التقارير والعروض والمهام التطبيقية؛ التطبيقات والبحث والعروض",
+            "plo_mappings": [
+              {
+                "scope": {
+                  "program": "الدراسات القرآنية المعاصرة",
+                  "plan_type": "جديدة",
+                  "version": "1",
+                  "degree": "ماجستير"
+                },
+                "plo_codes": [
+                  "م2"
+                ],
+                "status": "mapped",
+                "confidence": "medium",
+                "source_page": 4,
+                "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+              }
+            ],
+            "document_plo_codes": [
+              "م2"
+            ],
+            "confidence": "medium",
+            "source_page": 4,
+            "extraction_method": "geometric_pdf",
+            "assessment_source_page": 4
+          },
+          {
+            "code": "3.1",
+            "text": "أن يلتزم الطالب بالأخلاقيات البحثية والمعايير العلمية في التعامل مع النص القرآني ومع إنتاج الباحثين والاتجاهات المعاصرة.",
+            "source_status": "present",
+            "assessment": "سلم تقدير السلوك البحثي وملف المتابعة والمناقشات؛ المشروعات والمناقشة والتقويم الذاتي وتقويم الزملاء",
+            "plo_mappings": [
+              {
+                "scope": {
+                  "program": "الدراسات القرآنية المعاصرة",
+                  "plan_type": "جديدة",
+                  "version": "1",
+                  "degree": "ماجستير"
+                },
+                "plo_codes": [
+                  "ق1"
+                ],
+                "status": "mapped",
+                "confidence": "medium",
+                "source_page": 4,
+                "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+              }
+            ],
+            "document_plo_codes": [
+              "ق1"
+            ],
+            "confidence": "medium",
+            "source_page": 4,
+            "extraction_method": "geometric_pdf",
+            "assessment_source_page": 4
+          }
+        ],
+        "assessment_plan": [],
+        "assessment_plan_total": null,
+        "assessment_plan_complete": false,
+        "source_status": "unreadable",
+        "source_clo_row_count": 6,
+        "captured_clo_row_count": 6,
+        "warnings": [
+          {
+            "code": "assessment_plan_missing",
+            "message": "no assessment-plan row with both a label and a printed weight was recovered"
+          },
+          {
+            "code": "cid_removed",
+            "message": "removed 1 unmapped CID token(s); they were treated as whitespace",
+            "source_page": 1
+          },
+          {
+            "code": "course_name_unresolved",
+            "message": "course name was left null because neither the text layer nor OCR produced a value consistent with the catalog",
+            "source_page": 1
+          },
+          {
+            "code": "plo_column_inferred_from_exact_codes",
+            "message": "the PLO header text was unreadable; selected the unique column containing exact PLO codes in 6/6 CLO blocks",
+            "source_page": 4
+          },
+          {
+            "code": "clo_text_unreadable",
+            "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=repeated_glyph_pairs; font=too_short; ocr=too_short)",
+            "source_page": 4,
+            "clo_code": "1.1",
+            "clo_index": 0
+          },
+          {
+            "code": "clo_text_unreadable",
+            "message": "the published CLO row was captured, but its outcome text could not be read reliably",
+            "source_page": 4,
+            "clo_code": "1.1",
+            "clo_index": 0
+          }
+        ],
+        "extraction_status": "complete",
+        "page_count": 8
+      },
+      "overrides": [
+        {
+          "field": "course_name",
+          "value": "النظريات الحداثية في القرآن",
+          "evidence": "مراجعة Word وPDF المطابقين للبصمة SHA256=e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38؛ assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf صفحات CLO [4] وصفحات التقويم [4, 5]. تصحيح القراءة الآلية للصفوف المستمرة وجدول الأوزان من المصدر المؤلف المحدث؛ لا تحويل لدرجات سابقة.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-10-15"
+        },
+        {
+          "field": "clos",
+          "value": [
+            {
+              "code": "1.1",
+              "text": "أن يحلل الطالب المفاهيم والأسس الفلسفية والمنهجية للحداثة والقراءات الحداثية للقرآن الكريم.",
+              "source_status": "present",
+              "assessment": "الاختبارات التحريرية",
+              "assessment_source_page": 4,
+              "plo_mappings": [
+                {
+                  "scope": {
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "version": "1"
+                  },
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "status": "mapped",
+                  "confidence": "high",
+                  "source_page": 4,
+                  "evidence": "جدول CLO المحدث في assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf SHA256=e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38 ص4؛ خلية واحدة ضمن المجال نفسه، بتوجيه المستخدم."
+                }
+              ],
+              "document_plo_codes": [
+                "ع1"
+              ],
+              "confidence": "high",
+              "source_page": 4,
+              "extraction_method": "verified_visual_pdf"
+            },
+            {
+              "code": "1.2",
+              "text": "أن يقيم الطالب أبرز المناهج الحداثية في قراءة النص القرآني، ويبين آثارها المعرفية والتفسيرية على فهم النص.",
+              "source_status": "present",
+              "assessment": "الاختبارات التحريرية",
+              "assessment_source_page": 4,
+              "plo_mappings": [
+                {
+                  "scope": {
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "version": "1"
+                  },
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "status": "mapped",
+                  "confidence": "high",
+                  "source_page": 4,
+                  "evidence": "جدول CLO المحدث في assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf SHA256=e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38 ص4؛ خلية واحدة ضمن المجال نفسه، بتوجيه المستخدم."
+                }
+              ],
+              "document_plo_codes": [
+                "ع1"
+              ],
+              "confidence": "high",
+              "source_page": 4,
+              "extraction_method": "verified_visual_pdf"
+            },
+            {
+              "code": "1.3",
+              "text": "أن يحلل الطالب مصادر الدراسات الحداثية حول القرآن الكريم، ويقّيم موثوقيتها ومنهج توظيفها في البحث العلمي.",
+              "source_status": "present",
+              "assessment": "الاختبارات التحريرية",
+              "assessment_source_page": 4,
+              "plo_mappings": [
+                {
+                  "scope": {
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "version": "1"
+                  },
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "status": "mapped",
+                  "confidence": "high",
+                  "source_page": 4,
+                  "evidence": "جدول CLO المحدث في assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf SHA256=e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38 ص4؛ خلية واحدة ضمن المجال نفسه، بتوجيه المستخدم."
+                }
+              ],
+              "document_plo_codes": [
+                "ع3"
+              ],
+              "confidence": "high",
+              "source_page": 4,
+              "extraction_method": "verified_visual_pdf"
+            },
+            {
+              "code": "2.1",
+              "text": "أن يوظف الطالب أدوات التحليل والنقد المنهجي في دراسة نماذج من القراءات الحداثية للقرآن الكريم وتقويمها.",
+              "source_status": "present",
+              "assessment": "التقارير والعروض والمهام التطبيقية",
+              "assessment_source_page": 4,
+              "plo_mappings": [
+                {
+                  "scope": {
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "version": "1"
+                  },
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "status": "mapped",
+                  "confidence": "high",
+                  "source_page": 4,
+                  "evidence": "جدول CLO المحدث في assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf SHA256=e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38 ص4؛ خلية واحدة ضمن المجال نفسه، بتوجيه المستخدم."
+                }
+              ],
+              "document_plo_codes": [
+                "م1"
+              ],
+              "confidence": "high",
+              "source_page": 4,
+              "extraction_method": "verified_visual_pdf"
+            },
+            {
+              "code": "2.2",
+              "text": "أن يعد الطالب ورقة بحثية تحليلية موجزة في أحد المناهج الحداثية لقراءة القرآن الكريم ملتزما بمنهجية البحث العلمي.",
+              "source_status": "present",
+              "assessment": "التقارير والعروض والمهام التطبيقية",
+              "assessment_source_page": 4,
+              "plo_mappings": [
+                {
+                  "scope": {
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "version": "1"
+                  },
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "status": "mapped",
+                  "confidence": "high",
+                  "source_page": 4,
+                  "evidence": "جدول CLO المحدث في assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf SHA256=e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38 ص4؛ خلية واحدة ضمن المجال نفسه، بتوجيه المستخدم."
+                }
+              ],
+              "document_plo_codes": [
+                "م2"
+              ],
+              "confidence": "high",
+              "source_page": 4,
+              "extraction_method": "verified_visual_pdf"
+            },
+            {
+              "code": "3.1",
+              "text": "أن يلتزم الطالب بالأخلاقيات البحثية والمعايير العلمية في التعامل مع النص القرآني ومع إنتاج الباحثين والاتجاهات المعاصرة.",
+              "source_status": "present",
+              "assessment": "سلم تقدير السلوك البحثي وملف المتابعة والمناقشات",
+              "assessment_source_page": 4,
+              "plo_mappings": [
+                {
+                  "scope": {
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "version": "1"
+                  },
+                  "plo_codes": [
+                    "ق1"
+                  ],
+                  "status": "mapped",
+                  "confidence": "high",
+                  "source_page": 4,
+                  "evidence": "جدول CLO المحدث في assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf SHA256=e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38 ص4؛ خلية واحدة ضمن المجال نفسه، بتوجيه المستخدم."
+                }
+              ],
+              "document_plo_codes": [
+                "ق1"
+              ],
+              "confidence": "high",
+              "source_page": 4,
+              "extraction_method": "verified_visual_pdf"
+            }
+          ],
+          "evidence": "مراجعة Word وPDF المطابقين للبصمة SHA256=e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38؛ assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf صفحات CLO [4] وصفحات التقويم [4, 5]. تصحيح القراءة الآلية للصفوف المستمرة وجدول الأوزان من المصدر المؤلف المحدث؛ لا تحويل لدرجات سابقة.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-10-15"
+        },
+        {
+          "field": "assessment_plan",
+          "value": [
+            {
+              "label": "التقييم الدوري",
+              "weight": 10,
+              "source_page": 4,
+              "confidence": "high"
+            },
+            {
+              "label": "العروض",
+              "weight": 20,
+              "source_page": 4,
+              "confidence": "high"
+            },
+            {
+              "label": "الاختبار النصفي التحريري",
+              "weight": 20,
+              "source_page": 4,
+              "confidence": "high"
+            },
+            {
+              "label": "الاختبار النهائي التحريري",
+              "weight": 50,
+              "source_page": 5,
+              "confidence": "high"
+            }
+          ],
+          "evidence": "مراجعة Word وPDF المطابقين للبصمة SHA256=e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38؛ assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf صفحات CLO [4] وصفحات التقويم [4, 5]. تصحيح القراءة الآلية للصفوف المستمرة وجدول الأوزان من المصدر المؤلف المحدث؛ لا تحويل لدرجات سابقة.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-10-15"
+        },
+        {
+          "field": "assessment_plan_total",
+          "value": 100,
+          "evidence": "مراجعة Word وPDF المطابقين للبصمة SHA256=e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38؛ assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf صفحات CLO [4] وصفحات التقويم [4, 5]. تصحيح القراءة الآلية للصفوف المستمرة وجدول الأوزان من المصدر المؤلف المحدث؛ لا تحويل لدرجات سابقة.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-10-15"
+        },
+        {
+          "field": "assessment_plan_complete",
+          "value": true,
+          "evidence": "مراجعة Word وPDF المطابقين للبصمة SHA256=e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38؛ assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf صفحات CLO [4] وصفحات التقويم [4, 5]. تصحيح القراءة الآلية للصفوف المستمرة وجدول الأوزان من المصدر المؤلف المحدث؛ لا تحويل لدرجات سابقة.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-10-15"
+        },
+        {
+          "field": "source_clo_row_count",
+          "value": 6,
+          "evidence": "مراجعة Word وPDF المطابقين للبصمة SHA256=e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38؛ assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf صفحات CLO [4] وصفحات التقويم [4, 5]. تصحيح القراءة الآلية للصفوف المستمرة وجدول الأوزان من المصدر المؤلف المحدث؛ لا تحويل لدرجات سابقة.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-10-15"
+        },
+        {
+          "field": "captured_clo_row_count",
+          "value": 6,
+          "evidence": "مراجعة Word وPDF المطابقين للبصمة SHA256=e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38؛ assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf صفحات CLO [4] وصفحات التقويم [4, 5]. تصحيح القراءة الآلية للصفوف المستمرة وجدول الأوزان من المصدر المؤلف المحدث؛ لا تحويل لدرجات سابقة.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-10-15"
+        }
+      ],
+      "source_alignment": {
+        "status": "corrected_from_source_pdf",
+        "label_ar": "طابق المراجع المصدر المحدث وصحح الصفوف المستمرة والأوزان",
+        "source_sha256": "e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38",
+        "correction_applied": true,
+        "source_update_recommended": false
+      },
+      "source_review": {
+        "status": "accepted_as_is",
+        "finding": "نواتج المصدر المحدث مصححة أكاديميًا: ربط أحادي في المجال نفسه؛ راجعنا جميع الصفوف وأوزان التقويم بصريًا وبمطابقة Word. النسخة التشغيلية الجديدة لا تعيد ترميز درجات تاريخية.",
+        "evidence": {
+          "file": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "review_method": "Rendered PDF and editable Word row comparison; original non-CLO content retained as source-page images; all CLO/assessment rows reviewed",
+          "sha256_verified": true
+        },
+        "reviewed_at": "2026-10-15",
+        "source_sha256": "e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38"
+      }
+    }
+  ]
+}

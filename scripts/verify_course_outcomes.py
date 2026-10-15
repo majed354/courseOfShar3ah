@@ -3200,6 +3200,39 @@ def validate_statistics(outcomes: Dict[str, Any], errors: ErrorCollector) -> Non
             )
 
 
+def validate_single_domain_policy(outcomes: Dict[str, Any], errors: ErrorCollector) -> None:
+    """Opt-in programme policy; historical and other programme scopes stay intact."""
+    programs = (outcomes.get("reference_policy") or {}).get("single_domain_programs", [])
+    if not isinstance(programs, list) or any(not isinstance(p, str) or not p.strip() for p in programs):
+        errors.add("reference_policy.single_domain_programs: expected programme names")
+        return
+    for code, course in outcomes.get("courses", {}).items():
+        for variant in course.get("variants", []):
+            selected = [s for s in variant.get("scopes", []) if s.get("program") in programs]
+            if not selected:
+                continue
+            rows = variant.get("extracted", {}).get("clos", [])
+            import copy
+            rows = copy.deepcopy(rows)
+            for override in variant.get("overrides", []):
+                field = override.get("field", "")
+                if field == "clos":
+                    rows = copy.deepcopy(override.get("value") or [])
+                else:
+                    match = re.fullmatch(r"clos\[(\d+)\]\.([a-z_]+)", field)
+                    if match and int(match[1]) < len(rows):
+                        rows[int(match[1])][match[2]] = override.get("value")
+            for scope in selected:
+                for row in rows:
+                    if row.get("deleted") or not row.get("text"):
+                        continue
+                    clo = row.get("code") or ""
+                    codes = [p for m in row.get("plo_mappings", []) if m.get("scope") == scope for p in m.get("plo_codes", [])]
+                    domain = {"1": "ع", "2": "م", "3": "ق"}.get(clo[:1])
+                    if not re.fullmatch(r"[123]\.[1-9][0-9]?", clo) or len(codes) != 1 or not domain or not codes[0].startswith(domain):
+                        errors.add(f"{code} CLO {clo!r}: single_domain_programs requires exactly one PLO in the same domain; got {codes!r}")
+
+
 def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -3285,6 +3318,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         errors,
     )
     validate_statistics(outcomes, errors)
+    validate_single_domain_policy(outcomes, errors)
     expected_active = validate_inventory(
         expected=expected,
         actual_active=actual_active,

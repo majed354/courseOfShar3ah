@@ -1,0 +1,528 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "program": "الدراسات القرآنية المعاصرة",
+  "authorization": "طلب المستخدم تصحيح جميع المخالفات وتعديل تصنيف وصياغة نواتج المقررات عند الحاجة ومعالجة ق2 ثم تحديث Word/PDF/JSON ونشرها محليًا وعلى المستودع المنشور",
+  "revision_kind": "single_plo_same_domain",
+  "institutional_approval_claimed": false,
+  "historical_grades_changed": false,
+  "counts": {
+    "courses": 14,
+    "credit_hours": 34,
+    "program_outcomes": 7,
+    "clo_rows": 94,
+    "matrix_links": 69,
+    "mastery_links": 17
+  },
+  "program_pdf_sha256": "68e38cd887e3fd6005f48b25424012f881441410e75b928c564c1c5373023090",
+  "program_docx_sha256": "d36501f5fb29c6f55f35668e88ca6ca182d713fbd6b097eed67a215e7f2542b6",
+  "program_pdf_pages": 22,
+  "course_documents": [
+    {
+      "course_code": "2002851-4",
+      "name": "أصول التفسير",
+      "pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002851-4/course-specification.pdf",
+      "pdf_sha256": "0aa4edf7e2d22b30b4732ee4846e05ff61d87d0f1581f0519aea3911be2f3132",
+      "docx": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002851-4/course-specification.docx",
+      "docx_sha256": "c89e8ecae68d98791d91db26735ce3ad1c7e6d657828c4c8f43246bea17c9982",
+      "page_count": 7,
+      "clo_count": 5,
+      "clo_pages": [
+        4
+      ],
+      "assessment_pages": [
+        4
+      ],
+      "previous_pdf": "assets/course-specifications/quranic-studies-master-1447/2002851-4.pdf",
+      "previous_pdf_sha256": "f64fe2a9aed97a2e3e8c0985a426f3217969aa5a1eaa6914a0115d643441f0dc",
+      "assessment_weights_preserved": true,
+      "approval_reused": false
+    },
+    {
+      "course_code": "2002852-2",
+      "name": "تاريخ التفسير",
+      "pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002852-2/course-specification.pdf",
+      "pdf_sha256": "f7b59d3e5070d8b22d25a90f93360f3b2699f0163e6800dfb2dcbf5473798dd6",
+      "docx": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002852-2/course-specification.docx",
+      "docx_sha256": "7f69ee0d6b77b400d33af6bc1b710804062ca67afd23ffd6d2e5a874a9744483",
+      "page_count": 8,
+      "clo_count": 7,
+      "clo_pages": [
+        4
+      ],
+      "assessment_pages": [
+        5
+      ],
+      "previous_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002852-2.pdf",
+      "previous_pdf_sha256": "c6662ea74a9339e88fe0508994371eb3e17eefc0db725eb6a9cb8caf14365477",
+      "assessment_weights_preserved": true,
+      "approval_reused": false
+    },
+    {
+      "course_code": "2002853-2",
+      "name": "دراسات في علوم القرآن",
+      "pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002853-2/course-specification.pdf",
+      "pdf_sha256": "e698fcdc7edc4015404826f4e3189a886afdb393664657bc44408eb593a5a19c",
+      "docx": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002853-2/course-specification.docx",
+      "docx_sha256": "25f03e96bf975e75117c16b6653d59f39921ccc0e912849bebbddbfe6b26031b",
+      "page_count": 8,
+      "clo_count": 7,
+      "clo_pages": [
+        4
+      ],
+      "assessment_pages": [
+        5
+      ],
+      "previous_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002853-2.pdf",
+      "previous_pdf_sha256": "b1538ba0b8131456cfe0b0d3d958465791703fde019166aec14fd70f035ed22a",
+      "assessment_weights_preserved": true,
+      "approval_reused": false
+    },
+    {
+      "course_code": "2002854-2",
+      "name": "علم القراءات دراية",
+      "pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002854-2/course-specification.pdf",
+      "pdf_sha256": "31d1f3038e4538339ba570dc7f3f32c6b3b0cee7004d26145d7ac64066411188",
+      "docx": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002854-2/course-specification.docx",
+      "docx_sha256": "e8ad3170885bf1634f920495a1830dc037f248433504e42091976a5d8c116ab1",
+      "page_count": 8,
+      "clo_count": 7,
+      "clo_pages": [
+        4
+      ],
+      "assessment_pages": [
+        4,
+        5
+      ],
+      "previous_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002854-2.pdf",
+      "previous_pdf_sha256": "cc789dcaa009247ae6d20447987ff1646bc79a2f99446afcca7f805b4740e7a7",
+      "assessment_weights_preserved": true,
+      "approval_reused": false
+    },
+    {
+      "course_code": "2002855-2",
+      "name": "مصادر الدراسات القرآنية",
+      "pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002855-2/course-specification.pdf",
+      "pdf_sha256": "53d8075b5f639236ba9770c8015a2f317dfc24ecc9cb86a46a38fc31eb792da1",
+      "docx": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002855-2/course-specification.docx",
+      "docx_sha256": "ed9aa2f97983b6f9a3cd109a36dc8ce5d780f28a246f4269c84f9dbabfb9d1e5",
+      "page_count": 8,
+      "clo_count": 8,
+      "clo_pages": [
+        4
+      ],
+      "assessment_pages": [
+        5
+      ],
+      "previous_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002855-2.pdf",
+      "previous_pdf_sha256": "d590ff4a78c2304988e87cae5ab4b085665b874a418d67f6a7d1703c162e2a38",
+      "assessment_weights_preserved": true,
+      "approval_reused": false
+    },
+    {
+      "course_code": "2002861-4",
+      "name": "التفسير التحليلي",
+      "pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002861-4/course-specification.pdf",
+      "pdf_sha256": "7ca756967db8de1d838d4631840f9b8cb5726f963e5c442803fca8164dbf82a4",
+      "docx": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002861-4/course-specification.docx",
+      "docx_sha256": "6da74967a58cda948286f05374c6a33acc8829dd2d154b79cf54680eeca4dba6",
+      "page_count": 8,
+      "clo_count": 6,
+      "clo_pages": [
+        4
+      ],
+      "assessment_pages": [
+        4,
+        5
+      ],
+      "previous_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002861-4.pdf",
+      "previous_pdf_sha256": "943f274bd65ff3b696407948ebe2626b8b99e439bd51b9c9d4e7f9b89482b5a5",
+      "assessment_weights_preserved": true,
+      "approval_reused": false
+    },
+    {
+      "course_code": "2002862-2",
+      "name": "الدراسات القرآنية عند المستشرقين",
+      "pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002862-2/course-specification.pdf",
+      "pdf_sha256": "9cbd23f27ba4dfc453d315284cae24dabe3c34d5b3b4042a09cfa7a771739ad6",
+      "docx": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002862-2/course-specification.docx",
+      "docx_sha256": "e2494c4fd158cc83e85f1277d4da6377f2dfbea4ee0541b82855df461c7f0c89",
+      "page_count": 8,
+      "clo_count": 7,
+      "clo_pages": [
+        4,
+        5
+      ],
+      "assessment_pages": [
+        5
+      ],
+      "previous_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002862-2.pdf",
+      "previous_pdf_sha256": "36b88098a035a6b4db3aaff2949958faea002a18bfb7e2c289a823e9d2a1ac26",
+      "assessment_weights_preserved": true,
+      "approval_reused": false
+    },
+    {
+      "course_code": "2002863-2",
+      "name": "منهج البحث والتحقيق",
+      "pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002863-2/course-specification.pdf",
+      "pdf_sha256": "20f4907cb71e6e8de83c45a1706e490292e74b67ea00a7dd6669b1cbb55b9403",
+      "docx": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002863-2/course-specification.docx",
+      "docx_sha256": "0a4db06daad1468ca0d015723c40f7869350245471bb16335a6a4d6d7051a15f",
+      "page_count": 9,
+      "clo_count": 8,
+      "clo_pages": [
+        4,
+        5
+      ],
+      "assessment_pages": [
+        5
+      ],
+      "previous_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002863-2.pdf",
+      "previous_pdf_sha256": "f855bbe51fa19405583be0bfaa87b099910438029f09f8b6fe4fc8960491b457",
+      "assessment_weights_preserved": true,
+      "approval_reused": false
+    },
+    {
+      "course_code": "2002864-2",
+      "name": "دراسات في مناهج المفسرين",
+      "pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002864-2/course-specification.pdf",
+      "pdf_sha256": "ddf2b6550b66f2c2f178772fcbe502a940fcfbda01c453b3e70c92cedfc901c1",
+      "docx": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002864-2/course-specification.docx",
+      "docx_sha256": "f626d0f250439017bea63130f05c2b25ca607e37201ba3c66dd382cbb57c957a",
+      "page_count": 8,
+      "clo_count": 8,
+      "clo_pages": [
+        4,
+        5
+      ],
+      "assessment_pages": [
+        5
+      ],
+      "previous_pdf": "assets/course-specifications/quranic-studies-master-1445-approved/2002864-2.pdf",
+      "previous_pdf_sha256": "179c385663f41f9dbb612bb728c63e50ec9ead1480281ba650e9eae5e93ea5c8",
+      "assessment_weights_preserved": true,
+      "approval_reused": false
+    },
+    {
+      "course_code": "2002871-2",
+      "name": "التفسير الموضوعي",
+      "pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002871-2/course-specification.pdf",
+      "pdf_sha256": "5a811a224006855d798f200bee4445cac9d2214db682c4166944c199d9af9e54",
+      "docx": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002871-2/course-specification.docx",
+      "docx_sha256": "78587b62ef1f8c37f5bf8046401b740e66588c1014c27ec873fff0d846fdc67b",
+      "page_count": 8,
+      "clo_count": 6,
+      "clo_pages": [
+        4
+      ],
+      "assessment_pages": [
+        4
+      ],
+      "previous_pdf": "assets/course-specifications/quranic-studies-master-1447/2002871-2.pdf",
+      "previous_pdf_sha256": "0b9766ec90438283b8ac322d11381af6bb75abdbea49f5a90089cfee073400ea",
+      "assessment_weights_preserved": true,
+      "approval_reused": false
+    },
+    {
+      "course_code": "2002872-2",
+      "name": "النظريات الحداثية في القرآن",
+      "pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf",
+      "pdf_sha256": "e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38",
+      "docx": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.docx",
+      "docx_sha256": "6afe6a137e7fe1b1a993709bef17c517e9d8ae034a464a3fe5abe07349778026",
+      "page_count": 8,
+      "clo_count": 6,
+      "clo_pages": [
+        4
+      ],
+      "assessment_pages": [
+        4,
+        5
+      ],
+      "previous_pdf": "assets/course-specifications/quranic-studies-master-1447/2002872-2.pdf",
+      "previous_pdf_sha256": "e009a2ac149ecab3daf11c433c3762aa5a23ef95d0bd241097c4de34b58f4c04",
+      "assessment_weights_preserved": true,
+      "approval_reused": false
+    },
+    {
+      "course_code": "2002873-2",
+      "name": "دراسات في إعجاز القرآن",
+      "pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002873-2/course-specification.pdf",
+      "pdf_sha256": "e82e3f4fcdc432957b4964be0f064d1e3a5ba8ab7cf93ca407aac70069595529",
+      "docx": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002873-2/course-specification.docx",
+      "docx_sha256": "c89c78065daaf253ad5bbf5f44b3ca7147c0e5df179c8578be7d94d77de630b8",
+      "page_count": 8,
+      "clo_count": 6,
+      "clo_pages": [
+        4
+      ],
+      "assessment_pages": [
+        4,
+        5
+      ],
+      "previous_pdf": "assets/course-specifications/quranic-studies-master-1447/2002873-2.pdf",
+      "previous_pdf_sha256": "53bada6cc0027318fe5c8025fa31a1704e04672a17a0f9019d23bbde2f74f25f",
+      "assessment_weights_preserved": true,
+      "approval_reused": false
+    },
+    {
+      "course_code": "2002874-2",
+      "name": "دراسات في لغة القرآن",
+      "pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002874-2/course-specification.pdf",
+      "pdf_sha256": "b018959686d91115919c46e6d79078acbd1822993c672f8ff170d99ddbf8115d",
+      "docx": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002874-2/course-specification.docx",
+      "docx_sha256": "2c3b54ed05e58a4713df978382b4fd63028ad67e689f33696fc929c75eac1fed",
+      "page_count": 8,
+      "clo_count": 6,
+      "clo_pages": [
+        4
+      ],
+      "assessment_pages": [
+        5
+      ],
+      "previous_pdf": "assets/course-specifications/quranic-studies-master-1447/2002874-2.pdf",
+      "previous_pdf_sha256": "dbf9fb5f6da7e7e1e3c44c6954f3264da24705b00ffc94494931b082b9ef2250",
+      "assessment_weights_preserved": true,
+      "approval_reused": false
+    },
+    {
+      "course_code": "2002888-4",
+      "name": "مشروع بحثي",
+      "pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf",
+      "pdf_sha256": "01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3",
+      "docx": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.docx",
+      "docx_sha256": "50da476dd99a340a8b59ec8f661727c915a84ab5419a54df94ef5b239e25fcba",
+      "page_count": 8,
+      "clo_count": 7,
+      "clo_pages": [
+        4
+      ],
+      "assessment_pages": [
+        5
+      ],
+      "previous_pdf": "assets/course-specifications/graduate-all-20260823/quran-qiraat/2002888-4.pdf",
+      "previous_pdf_sha256": "a1bdbb231ca9c5a2c48df8e2bc6aa4a05ad01e71dc220b0ac790d3c37ed99e65",
+      "assessment_weights_preserved": true,
+      "approval_reused": false
+    }
+  ],
+  "course_word_format": "Editable revised CLO and assessment tables; authoritative unchanged non-CLO PDF content preserved as high-resolution source-page images. Original PDFs archived unchanged.",
+  "files": [
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/clo-page-map.json",
+      "sha256": "0b1268083ee1d91d575640731c9d8b235d2e6c00ec015655bd74d9265fa83a85"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/course-manifest.json",
+      "sha256": "5d1df41fa9ec7d336e3dc6367be7af244d36abfa7a95d8abcceca4acfbb657f3"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/course-reference.json",
+      "sha256": "9ade1c061b8126a13394c9e98192a50f0c1355460f61b262303372c5a090ea4b"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002851-4/course-reference.json",
+      "sha256": "9c0bdc624686522329eb165754230b8292ba7aa5caca5d7187683377e713cbc1"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002851-4/course-specification.docx",
+      "sha256": "c89e8ecae68d98791d91db26735ce3ad1c7e6d657828c4c8f43246bea17c9982"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002851-4/course-specification.pdf",
+      "sha256": "0aa4edf7e2d22b30b4732ee4846e05ff61d87d0f1581f0519aea3911be2f3132"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002852-2/course-reference.json",
+      "sha256": "839254f50ea1a265ad2365de6f0ddfafa10226a1ab5150cd5e9658e2b421fe88"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002852-2/course-specification.docx",
+      "sha256": "7f69ee0d6b77b400d33af6bc1b710804062ca67afd23ffd6d2e5a874a9744483"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002852-2/course-specification.pdf",
+      "sha256": "f7b59d3e5070d8b22d25a90f93360f3b2699f0163e6800dfb2dcbf5473798dd6"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002853-2/course-reference.json",
+      "sha256": "5226f23deef0e7acd39616c4f7f41dd010913589c9d6cc7d63ac07dc4ebbbf56"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002853-2/course-specification.docx",
+      "sha256": "25f03e96bf975e75117c16b6653d59f39921ccc0e912849bebbddbfe6b26031b"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002853-2/course-specification.pdf",
+      "sha256": "e698fcdc7edc4015404826f4e3189a886afdb393664657bc44408eb593a5a19c"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002854-2/course-reference.json",
+      "sha256": "9fb91c5a8e2a937791e0f8ff1a48f05657fb1235e52e0ac06d8ed5322a7ac2af"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002854-2/course-specification.docx",
+      "sha256": "e8ad3170885bf1634f920495a1830dc037f248433504e42091976a5d8c116ab1"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002854-2/course-specification.pdf",
+      "sha256": "31d1f3038e4538339ba570dc7f3f32c6b3b0cee7004d26145d7ac64066411188"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002855-2/course-reference.json",
+      "sha256": "4f0d44136509d6864f20e50d3495b2ffb208cf353154e001a2f8b885bdfcc50a"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002855-2/course-specification.docx",
+      "sha256": "ed9aa2f97983b6f9a3cd109a36dc8ce5d780f28a246f4269c84f9dbabfb9d1e5"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002855-2/course-specification.pdf",
+      "sha256": "53d8075b5f639236ba9770c8015a2f317dfc24ecc9cb86a46a38fc31eb792da1"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002861-4/course-reference.json",
+      "sha256": "a1cc2adc790778e54b4f598d5939e7c4aab7a24c68dfb0bd6ed71e5882607547"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002861-4/course-specification.docx",
+      "sha256": "6da74967a58cda948286f05374c6a33acc8829dd2d154b79cf54680eeca4dba6"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002861-4/course-specification.pdf",
+      "sha256": "7ca756967db8de1d838d4631840f9b8cb5726f963e5c442803fca8164dbf82a4"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002862-2/course-reference.json",
+      "sha256": "0ece2e49d672b167a8995f83406ebcf36dbdbc27644d3705e1bf67f68749db79"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002862-2/course-specification.docx",
+      "sha256": "e2494c4fd158cc83e85f1277d4da6377f2dfbea4ee0541b82855df461c7f0c89"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002862-2/course-specification.pdf",
+      "sha256": "9cbd23f27ba4dfc453d315284cae24dabe3c34d5b3b4042a09cfa7a771739ad6"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002863-2/course-reference.json",
+      "sha256": "4a0b4f3537cfb5dd98cc94c0c63efe2723285aa5e9a15a56785b0807a67117e4"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002863-2/course-specification.docx",
+      "sha256": "0a4db06daad1468ca0d015723c40f7869350245471bb16335a6a4d6d7051a15f"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002863-2/course-specification.pdf",
+      "sha256": "20f4907cb71e6e8de83c45a1706e490292e74b67ea00a7dd6669b1cbb55b9403"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002864-2/course-reference.json",
+      "sha256": "8019a44e978865da6aab386aa49858640c940870b5dfa969bd2ec45a1e477ff3"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002864-2/course-specification.docx",
+      "sha256": "f626d0f250439017bea63130f05c2b25ca607e37201ba3c66dd382cbb57c957a"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002864-2/course-specification.pdf",
+      "sha256": "ddf2b6550b66f2c2f178772fcbe502a940fcfbda01c453b3e70c92cedfc901c1"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002871-2/course-reference.json",
+      "sha256": "502fd2f736abf31975d3f30c40050da1e7a410794e3db2c9b5fb9a3f51ce9323"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002871-2/course-specification.docx",
+      "sha256": "78587b62ef1f8c37f5bf8046401b740e66588c1014c27ec873fff0d846fdc67b"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002871-2/course-specification.pdf",
+      "sha256": "5a811a224006855d798f200bee4445cac9d2214db682c4166944c199d9af9e54"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-reference.json",
+      "sha256": "b862beea570cfff4fc4c409b4915b47dc65ca28b28b450d6beacf350965d96eb"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.docx",
+      "sha256": "6afe6a137e7fe1b1a993709bef17c517e9d8ae034a464a3fe5abe07349778026"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf",
+      "sha256": "e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002873-2/course-reference.json",
+      "sha256": "3baa523919cde4042011a5b967e54a513cc604f24db7904c3fcd96826b85bf82"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002873-2/course-specification.docx",
+      "sha256": "c89c78065daaf253ad5bbf5f44b3ca7147c0e5df179c8578be7d94d77de630b8"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002873-2/course-specification.pdf",
+      "sha256": "e82e3f4fcdc432957b4964be0f064d1e3a5ba8ab7cf93ca407aac70069595529"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002874-2/course-reference.json",
+      "sha256": "4d72099dc8c1a236cc20390394f9d4098c5a55606cf7f4b4d99dade562335625"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002874-2/course-specification.docx",
+      "sha256": "2c3b54ed05e58a4713df978382b4fd63028ad67e689f33696fc929c75eac1fed"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002874-2/course-specification.pdf",
+      "sha256": "b018959686d91115919c46e6d79078acbd1822993c672f8ff170d99ddbf8115d"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-reference.json",
+      "sha256": "4f75ef89904b03be20e46747cfd5c0e0839439f0406a3bcefc4a68fb4a770274"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.docx",
+      "sha256": "50da476dd99a340a8b59ec8f661727c915a84ab5419a54df94ef5b239e25fcba"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf",
+      "sha256": "01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/previous-context.json",
+      "sha256": "e966a8b5374498b69c43bec566cea9e5c8a624cac3d7304704feff4c68153572"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/program-reference.json",
+      "sha256": "0925149c90c5f52b8ba6110d69c619a3ba3d7092613605e90e5dfe87498c66b0"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/program-specification.docx",
+      "sha256": "d36501f5fb29c6f55f35668e88ca6ca182d713fbd6b097eed67a215e7f2542b6"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/program-specification.pdf",
+      "sha256": "68e38cd887e3fd6005f48b25424012f881441410e75b928c564c1c5373023090"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/q2-project-rubric.docx",
+      "sha256": "479906d3ddcf709e2777e5da8b4d7d2ddd21f24c5941dc4e4b1871633002f571"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/q2-project-rubric.json",
+      "sha256": "5ba9a74b45f40b2aaf2ec928ce6c96f65ca9fea26b98e8f81ae5edbea8113204"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/q2-project-rubric.pdf",
+      "sha256": "ab9df57e5e6d21792ad8fd304da71e33da9855ab299246c79c9057e2df2e573e"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/revision-decisions.json",
+      "sha256": "7e125726057e30031f58f45c9ba4aab507b45f6aa0cf8743305ebc50d78d12ed"
+    },
+    {
+      "path": "assets/course-specifications/quranic-master-single-domain-20261015/superseded-source-recommendations.json",
+      "sha256": "e39ef82845c4a8be8defa607ac04ba79b8f1b70582e6d38ebe32ebcbacf67a0d"
+    }
+  ]
+}

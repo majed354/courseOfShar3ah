@@ -84,6 +84,7 @@ class NewPlanUpdatesTest(unittest.TestCase):
                 # extraction; its scoped mappings are tested independently.
                 revision = json.loads((ROOT / 'assets/course-specifications/quranic-master-plo-update-20261015/alignment-decisions.json').read_text())
                 if code in {c['code'] for c in revision['courses']}:
+                    current = copy.deepcopy(load(ROOT / 'assets/course-specifications/quranic-master-single-domain-20261015/previous-context.json')['course_outcomes'][code])
                     for variant in current['variants']:
                         variant['overrides'] = [o for o in variant['overrides']
                             if o.get('policy') != 'authorized_program_alignment_revision']

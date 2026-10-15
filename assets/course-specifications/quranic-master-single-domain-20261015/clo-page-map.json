@@ -1,0 +1,1318 @@
+[
+  {
+    "course_code": "2002851-4",
+    "clo_code": "1.1",
+    "plo_code": "ع3",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002851-4/course-specification.pdf",
+    "source_sha256": "0aa4edf7e2d22b30b4732ee4846e05ff61d87d0f1581f0519aea3911be2f3132",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      206.958740234375,
+      537.5459594726562,
+      223.24073791503906
+    ]
+  },
+  {
+    "course_code": "2002851-4",
+    "clo_code": "1.2",
+    "plo_code": "ع1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002851-4/course-specification.pdf",
+    "source_sha256": "0aa4edf7e2d22b30b4732ee4846e05ff61d87d0f1581f0519aea3911be2f3132",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      265.0087890625,
+      537.5459594726562,
+      281.2908020019531
+    ]
+  },
+  {
+    "course_code": "2002851-4",
+    "clo_code": "2.1",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002851-4/course-specification.pdf",
+    "source_sha256": "0aa4edf7e2d22b30b4732ee4846e05ff61d87d0f1581f0519aea3911be2f3132",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      323.05877685546875,
+      537.5459594726562,
+      339.3407897949219
+    ]
+  },
+  {
+    "course_code": "2002851-4",
+    "clo_code": "2.2",
+    "plo_code": "م2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002851-4/course-specification.pdf",
+    "source_sha256": "0aa4edf7e2d22b30b4732ee4846e05ff61d87d0f1581f0519aea3911be2f3132",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      381.1087646484375,
+      537.5459594726562,
+      397.3907775878906
+    ]
+  },
+  {
+    "course_code": "2002851-4",
+    "clo_code": "3.1",
+    "plo_code": "ق1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002851-4/course-specification.pdf",
+    "source_sha256": "0aa4edf7e2d22b30b4732ee4846e05ff61d87d0f1581f0519aea3911be2f3132",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      476.55877685546875,
+      537.5459594726562,
+      492.8407897949219
+    ]
+  },
+  {
+    "course_code": "2002852-2",
+    "clo_code": "1.1",
+    "plo_code": "ع1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002852-2/course-specification.pdf",
+    "source_sha256": "f7b59d3e5070d8b22d25a90f93360f3b2699f0163e6800dfb2dcbf5473798dd6",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      206.958740234375,
+      537.5459594726562,
+      223.24073791503906
+    ]
+  },
+  {
+    "course_code": "2002852-2",
+    "clo_code": "1.2",
+    "plo_code": "ع1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002852-2/course-specification.pdf",
+    "source_sha256": "f7b59d3e5070d8b22d25a90f93360f3b2699f0163e6800dfb2dcbf5473798dd6",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      265.0087890625,
+      537.5459594726562,
+      281.2908020019531
+    ]
+  },
+  {
+    "course_code": "2002852-2",
+    "clo_code": "1.3",
+    "plo_code": "ع1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002852-2/course-specification.pdf",
+    "source_sha256": "f7b59d3e5070d8b22d25a90f93360f3b2699f0163e6800dfb2dcbf5473798dd6",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      323.05877685546875,
+      537.5459594726562,
+      339.3407897949219
+    ]
+  },
+  {
+    "course_code": "2002852-2",
+    "clo_code": "2.1",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002852-2/course-specification.pdf",
+    "source_sha256": "f7b59d3e5070d8b22d25a90f93360f3b2699f0163e6800dfb2dcbf5473798dd6",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      381.1087646484375,
+      537.5459594726562,
+      397.3907775878906
+    ]
+  },
+  {
+    "course_code": "2002852-2",
+    "clo_code": "2.2",
+    "plo_code": "م2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002852-2/course-specification.pdf",
+    "source_sha256": "f7b59d3e5070d8b22d25a90f93360f3b2699f0163e6800dfb2dcbf5473798dd6",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      457.8587646484375,
+      537.5459594726562,
+      474.1407775878906
+    ]
+  },
+  {
+    "course_code": "2002852-2",
+    "clo_code": "3.1",
+    "plo_code": "ق1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002852-2/course-specification.pdf",
+    "source_sha256": "f7b59d3e5070d8b22d25a90f93360f3b2699f0163e6800dfb2dcbf5473798dd6",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      553.3087768554688,
+      537.5459594726562,
+      569.5907592773438
+    ]
+  },
+  {
+    "course_code": "2002852-2",
+    "clo_code": "3.2",
+    "plo_code": "ق2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002852-2/course-specification.pdf",
+    "source_sha256": "f7b59d3e5070d8b22d25a90f93360f3b2699f0163e6800dfb2dcbf5473798dd6",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      648.7587280273438,
+      537.5459594726562,
+      665.0407104492188
+    ]
+  },
+  {
+    "course_code": "2002853-2",
+    "clo_code": "1.1",
+    "plo_code": "ع2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002853-2/course-specification.pdf",
+    "source_sha256": "e698fcdc7edc4015404826f4e3189a886afdb393664657bc44408eb593a5a19c",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      206.958740234375,
+      537.5459594726562,
+      223.24073791503906
+    ]
+  },
+  {
+    "course_code": "2002853-2",
+    "clo_code": "1.2",
+    "plo_code": "ع2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002853-2/course-specification.pdf",
+    "source_sha256": "e698fcdc7edc4015404826f4e3189a886afdb393664657bc44408eb593a5a19c",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      265.0087890625,
+      537.5459594726562,
+      281.2908020019531
+    ]
+  },
+  {
+    "course_code": "2002853-2",
+    "clo_code": "1.3",
+    "plo_code": "ع2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002853-2/course-specification.pdf",
+    "source_sha256": "e698fcdc7edc4015404826f4e3189a886afdb393664657bc44408eb593a5a19c",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      341.7587585449219,
+      537.5459594726562,
+      358.040771484375
+    ]
+  },
+  {
+    "course_code": "2002853-2",
+    "clo_code": "2.1",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002853-2/course-specification.pdf",
+    "source_sha256": "e698fcdc7edc4015404826f4e3189a886afdb393664657bc44408eb593a5a19c",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      418.5087585449219,
+      537.5459594726562,
+      434.790771484375
+    ]
+  },
+  {
+    "course_code": "2002853-2",
+    "clo_code": "2.2",
+    "plo_code": "م2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002853-2/course-specification.pdf",
+    "source_sha256": "e698fcdc7edc4015404826f4e3189a886afdb393664657bc44408eb593a5a19c",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      495.2587585449219,
+      537.5459594726562,
+      511.540771484375
+    ]
+  },
+  {
+    "course_code": "2002853-2",
+    "clo_code": "3.1",
+    "plo_code": "ق1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002853-2/course-specification.pdf",
+    "source_sha256": "e698fcdc7edc4015404826f4e3189a886afdb393664657bc44408eb593a5a19c",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      572.0087280273438,
+      537.5459594726562,
+      588.2907104492188
+    ]
+  },
+  {
+    "course_code": "2002853-2",
+    "clo_code": "3.2",
+    "plo_code": "ق2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002853-2/course-specification.pdf",
+    "source_sha256": "e698fcdc7edc4015404826f4e3189a886afdb393664657bc44408eb593a5a19c",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      667.4588012695312,
+      537.5459594726562,
+      683.7407836914062
+    ]
+  },
+  {
+    "course_code": "2002854-2",
+    "clo_code": "1.1",
+    "plo_code": "ع2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002854-2/course-specification.pdf",
+    "source_sha256": "31d1f3038e4538339ba570dc7f3f32c6b3b0cee7004d26145d7ac64066411188",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      206.958740234375,
+      537.5459594726562,
+      223.24073791503906
+    ]
+  },
+  {
+    "course_code": "2002854-2",
+    "clo_code": "1.2",
+    "plo_code": "ع2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002854-2/course-specification.pdf",
+    "source_sha256": "31d1f3038e4538339ba570dc7f3f32c6b3b0cee7004d26145d7ac64066411188",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      265.0087890625,
+      537.5459594726562,
+      281.2908020019531
+    ]
+  },
+  {
+    "course_code": "2002854-2",
+    "clo_code": "1.3",
+    "plo_code": "ع2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002854-2/course-specification.pdf",
+    "source_sha256": "31d1f3038e4538339ba570dc7f3f32c6b3b0cee7004d26145d7ac64066411188",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      323.05877685546875,
+      537.5459594726562,
+      339.3407897949219
+    ]
+  },
+  {
+    "course_code": "2002854-2",
+    "clo_code": "2.1",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002854-2/course-specification.pdf",
+    "source_sha256": "31d1f3038e4538339ba570dc7f3f32c6b3b0cee7004d26145d7ac64066411188",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      381.1087646484375,
+      537.5459594726562,
+      397.3907775878906
+    ]
+  },
+  {
+    "course_code": "2002854-2",
+    "clo_code": "2.2",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002854-2/course-specification.pdf",
+    "source_sha256": "31d1f3038e4538339ba570dc7f3f32c6b3b0cee7004d26145d7ac64066411188",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      457.8587646484375,
+      537.5459594726562,
+      474.1407775878906
+    ]
+  },
+  {
+    "course_code": "2002854-2",
+    "clo_code": "3.1",
+    "plo_code": "ق1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002854-2/course-specification.pdf",
+    "source_sha256": "31d1f3038e4538339ba570dc7f3f32c6b3b0cee7004d26145d7ac64066411188",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      534.6087646484375,
+      537.5459594726562,
+      550.8907470703125
+    ]
+  },
+  {
+    "course_code": "2002854-2",
+    "clo_code": "3.2",
+    "plo_code": "ق2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002854-2/course-specification.pdf",
+    "source_sha256": "31d1f3038e4538339ba570dc7f3f32c6b3b0cee7004d26145d7ac64066411188",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      630.0587768554688,
+      537.5459594726562,
+      646.3407592773438
+    ]
+  },
+  {
+    "course_code": "2002855-2",
+    "clo_code": "1.1",
+    "plo_code": "ع3",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002855-2/course-specification.pdf",
+    "source_sha256": "53d8075b5f639236ba9770c8015a2f317dfc24ecc9cb86a46a38fc31eb792da1",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      206.958740234375,
+      537.5459594726562,
+      223.24073791503906
+    ]
+  },
+  {
+    "course_code": "2002855-2",
+    "clo_code": "1.2",
+    "plo_code": "ع3",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002855-2/course-specification.pdf",
+    "source_sha256": "53d8075b5f639236ba9770c8015a2f317dfc24ecc9cb86a46a38fc31eb792da1",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      265.0087890625,
+      537.5459594726562,
+      281.2908020019531
+    ]
+  },
+  {
+    "course_code": "2002855-2",
+    "clo_code": "1.3",
+    "plo_code": "ع3",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002855-2/course-specification.pdf",
+    "source_sha256": "53d8075b5f639236ba9770c8015a2f317dfc24ecc9cb86a46a38fc31eb792da1",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      323.05877685546875,
+      537.5459594726562,
+      339.3407897949219
+    ]
+  },
+  {
+    "course_code": "2002855-2",
+    "clo_code": "2.1",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002855-2/course-specification.pdf",
+    "source_sha256": "53d8075b5f639236ba9770c8015a2f317dfc24ecc9cb86a46a38fc31eb792da1",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      381.1087646484375,
+      537.5459594726562,
+      397.3907775878906
+    ]
+  },
+  {
+    "course_code": "2002855-2",
+    "clo_code": "2.2",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002855-2/course-specification.pdf",
+    "source_sha256": "53d8075b5f639236ba9770c8015a2f317dfc24ecc9cb86a46a38fc31eb792da1",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      439.15875244140625,
+      537.5459594726562,
+      455.4407653808594
+    ]
+  },
+  {
+    "course_code": "2002855-2",
+    "clo_code": "2.3",
+    "plo_code": "م2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002855-2/course-specification.pdf",
+    "source_sha256": "53d8075b5f639236ba9770c8015a2f317dfc24ecc9cb86a46a38fc31eb792da1",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      515.9087524414062,
+      537.5459594726562,
+      532.1907348632812
+    ]
+  },
+  {
+    "course_code": "2002855-2",
+    "clo_code": "3.1",
+    "plo_code": "ق1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002855-2/course-specification.pdf",
+    "source_sha256": "53d8075b5f639236ba9770c8015a2f317dfc24ecc9cb86a46a38fc31eb792da1",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      592.6587524414062,
+      537.5459594726562,
+      608.9407348632812
+    ]
+  },
+  {
+    "course_code": "2002855-2",
+    "clo_code": "3.2",
+    "plo_code": "ق2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002855-2/course-specification.pdf",
+    "source_sha256": "53d8075b5f639236ba9770c8015a2f317dfc24ecc9cb86a46a38fc31eb792da1",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      688.1087646484375,
+      537.5459594726562,
+      704.3907470703125
+    ]
+  },
+  {
+    "course_code": "2002861-4",
+    "clo_code": "1.1",
+    "plo_code": "ع2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002861-4/course-specification.pdf",
+    "source_sha256": "7ca756967db8de1d838d4631840f9b8cb5726f963e5c442803fca8164dbf82a4",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      206.958740234375,
+      537.5459594726562,
+      223.24073791503906
+    ]
+  },
+  {
+    "course_code": "2002861-4",
+    "clo_code": "1.2",
+    "plo_code": "ع2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002861-4/course-specification.pdf",
+    "source_sha256": "7ca756967db8de1d838d4631840f9b8cb5726f963e5c442803fca8164dbf82a4",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      283.708740234375,
+      537.5459594726562,
+      299.9907531738281
+    ]
+  },
+  {
+    "course_code": "2002861-4",
+    "clo_code": "2.1",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002861-4/course-specification.pdf",
+    "source_sha256": "7ca756967db8de1d838d4631840f9b8cb5726f963e5c442803fca8164dbf82a4",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      360.4587707519531,
+      537.5459594726562,
+      376.74078369140625
+    ]
+  },
+  {
+    "course_code": "2002861-4",
+    "clo_code": "2.2",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002861-4/course-specification.pdf",
+    "source_sha256": "7ca756967db8de1d838d4631840f9b8cb5726f963e5c442803fca8164dbf82a4",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      418.5087585449219,
+      537.5459594726562,
+      434.790771484375
+    ]
+  },
+  {
+    "course_code": "2002861-4",
+    "clo_code": "3.1",
+    "plo_code": "ق1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002861-4/course-specification.pdf",
+    "source_sha256": "7ca756967db8de1d838d4631840f9b8cb5726f963e5c442803fca8164dbf82a4",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      476.55877685546875,
+      537.5459594726562,
+      492.8407897949219
+    ]
+  },
+  {
+    "course_code": "2002861-4",
+    "clo_code": "3.2",
+    "plo_code": "ق2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002861-4/course-specification.pdf",
+    "source_sha256": "7ca756967db8de1d838d4631840f9b8cb5726f963e5c442803fca8164dbf82a4",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      572.0087280273438,
+      537.5459594726562,
+      588.2907104492188
+    ]
+  },
+  {
+    "course_code": "2002862-2",
+    "clo_code": "1.1",
+    "plo_code": "ع1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002862-2/course-specification.pdf",
+    "source_sha256": "9cbd23f27ba4dfc453d315284cae24dabe3c34d5b3b4042a09cfa7a771739ad6",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      206.958740234375,
+      537.5459594726562,
+      223.24073791503906
+    ]
+  },
+  {
+    "course_code": "2002862-2",
+    "clo_code": "1.2",
+    "plo_code": "ع1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002862-2/course-specification.pdf",
+    "source_sha256": "9cbd23f27ba4dfc453d315284cae24dabe3c34d5b3b4042a09cfa7a771739ad6",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      283.708740234375,
+      537.5459594726562,
+      299.9907531738281
+    ]
+  },
+  {
+    "course_code": "2002862-2",
+    "clo_code": "1.3",
+    "plo_code": "ع3",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002862-2/course-specification.pdf",
+    "source_sha256": "9cbd23f27ba4dfc453d315284cae24dabe3c34d5b3b4042a09cfa7a771739ad6",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      360.4587707519531,
+      537.5459594726562,
+      376.74078369140625
+    ]
+  },
+  {
+    "course_code": "2002862-2",
+    "clo_code": "2.1",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002862-2/course-specification.pdf",
+    "source_sha256": "9cbd23f27ba4dfc453d315284cae24dabe3c34d5b3b4042a09cfa7a771739ad6",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      437.2087707519531,
+      537.5459594726562,
+      453.49078369140625
+    ]
+  },
+  {
+    "course_code": "2002862-2",
+    "clo_code": "2.2",
+    "plo_code": "م2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002862-2/course-specification.pdf",
+    "source_sha256": "9cbd23f27ba4dfc453d315284cae24dabe3c34d5b3b4042a09cfa7a771739ad6",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      513.9588012695312,
+      537.5459594726562,
+      530.2407836914062
+    ]
+  },
+  {
+    "course_code": "2002862-2",
+    "clo_code": "3.1",
+    "plo_code": "ق1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002862-2/course-specification.pdf",
+    "source_sha256": "9cbd23f27ba4dfc453d315284cae24dabe3c34d5b3b4042a09cfa7a771739ad6",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      609.4087524414062,
+      537.5459594726562,
+      625.6907348632812
+    ]
+  },
+  {
+    "course_code": "2002862-2",
+    "clo_code": "3.2",
+    "plo_code": "ق2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002862-2/course-specification.pdf",
+    "source_sha256": "9cbd23f27ba4dfc453d315284cae24dabe3c34d5b3b4042a09cfa7a771739ad6",
+    "source_page": 5,
+    "code_bbox": [
+      515.2999877929688,
+      86.25879669189453,
+      537.5459594726562,
+      102.5407943725586
+    ]
+  },
+  {
+    "course_code": "2002863-2",
+    "clo_code": "1.1",
+    "plo_code": "ع1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002863-2/course-specification.pdf",
+    "source_sha256": "20f4907cb71e6e8de83c45a1706e490292e74b67ea00a7dd6669b1cbb55b9403",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      206.958740234375,
+      537.5459594726562,
+      223.24073791503906
+    ]
+  },
+  {
+    "course_code": "2002863-2",
+    "clo_code": "1.2",
+    "plo_code": "ع3",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002863-2/course-specification.pdf",
+    "source_sha256": "20f4907cb71e6e8de83c45a1706e490292e74b67ea00a7dd6669b1cbb55b9403",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      283.708740234375,
+      537.5459594726562,
+      299.9907531738281
+    ]
+  },
+  {
+    "course_code": "2002863-2",
+    "clo_code": "1.3",
+    "plo_code": "ع3",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002863-2/course-specification.pdf",
+    "source_sha256": "20f4907cb71e6e8de83c45a1706e490292e74b67ea00a7dd6669b1cbb55b9403",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      341.7587585449219,
+      537.5459594726562,
+      358.040771484375
+    ]
+  },
+  {
+    "course_code": "2002863-2",
+    "clo_code": "2.1",
+    "plo_code": "م2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002863-2/course-specification.pdf",
+    "source_sha256": "20f4907cb71e6e8de83c45a1706e490292e74b67ea00a7dd6669b1cbb55b9403",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      399.80877685546875,
+      537.5459594726562,
+      416.0907897949219
+    ]
+  },
+  {
+    "course_code": "2002863-2",
+    "clo_code": "2.2",
+    "plo_code": "م2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002863-2/course-specification.pdf",
+    "source_sha256": "20f4907cb71e6e8de83c45a1706e490292e74b67ea00a7dd6669b1cbb55b9403",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      457.8587646484375,
+      537.5459594726562,
+      474.1407775878906
+    ]
+  },
+  {
+    "course_code": "2002863-2",
+    "clo_code": "3.1",
+    "plo_code": "ق2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002863-2/course-specification.pdf",
+    "source_sha256": "20f4907cb71e6e8de83c45a1706e490292e74b67ea00a7dd6669b1cbb55b9403",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      515.9087524414062,
+      537.5459594726562,
+      532.1907348632812
+    ]
+  },
+  {
+    "course_code": "2002863-2",
+    "clo_code": "3.2",
+    "plo_code": "ق1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002863-2/course-specification.pdf",
+    "source_sha256": "20f4907cb71e6e8de83c45a1706e490292e74b67ea00a7dd6669b1cbb55b9403",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      611.3587646484375,
+      537.5459594726562,
+      627.6407470703125
+    ]
+  },
+  {
+    "course_code": "2002863-2",
+    "clo_code": "3.3",
+    "plo_code": "ق2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002863-2/course-specification.pdf",
+    "source_sha256": "20f4907cb71e6e8de83c45a1706e490292e74b67ea00a7dd6669b1cbb55b9403",
+    "source_page": 5,
+    "code_bbox": [
+      515.2999877929688,
+      86.25879669189453,
+      537.5459594726562,
+      102.5407943725586
+    ]
+  },
+  {
+    "course_code": "2002864-2",
+    "clo_code": "1.1",
+    "plo_code": "ع1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002864-2/course-specification.pdf",
+    "source_sha256": "ddf2b6550b66f2c2f178772fcbe502a940fcfbda01c453b3e70c92cedfc901c1",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      206.958740234375,
+      537.5459594726562,
+      223.24073791503906
+    ]
+  },
+  {
+    "course_code": "2002864-2",
+    "clo_code": "1.2",
+    "plo_code": "ع1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002864-2/course-specification.pdf",
+    "source_sha256": "ddf2b6550b66f2c2f178772fcbe502a940fcfbda01c453b3e70c92cedfc901c1",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      265.0087890625,
+      537.5459594726562,
+      281.2908020019531
+    ]
+  },
+  {
+    "course_code": "2002864-2",
+    "clo_code": "1.3",
+    "plo_code": "ع1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002864-2/course-specification.pdf",
+    "source_sha256": "ddf2b6550b66f2c2f178772fcbe502a940fcfbda01c453b3e70c92cedfc901c1",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      341.7587585449219,
+      537.5459594726562,
+      358.040771484375
+    ]
+  },
+  {
+    "course_code": "2002864-2",
+    "clo_code": "2.1",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002864-2/course-specification.pdf",
+    "source_sha256": "ddf2b6550b66f2c2f178772fcbe502a940fcfbda01c453b3e70c92cedfc901c1",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      399.80877685546875,
+      537.5459594726562,
+      416.0907897949219
+    ]
+  },
+  {
+    "course_code": "2002864-2",
+    "clo_code": "2.2",
+    "plo_code": "م2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002864-2/course-specification.pdf",
+    "source_sha256": "ddf2b6550b66f2c2f178772fcbe502a940fcfbda01c453b3e70c92cedfc901c1",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      476.55877685546875,
+      537.5459594726562,
+      492.8407897949219
+    ]
+  },
+  {
+    "course_code": "2002864-2",
+    "clo_code": "2.3",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002864-2/course-specification.pdf",
+    "source_sha256": "ddf2b6550b66f2c2f178772fcbe502a940fcfbda01c453b3e70c92cedfc901c1",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      553.3087768554688,
+      537.5459594726562,
+      569.5907592773438
+    ]
+  },
+  {
+    "course_code": "2002864-2",
+    "clo_code": "3.1",
+    "plo_code": "ق1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002864-2/course-specification.pdf",
+    "source_sha256": "ddf2b6550b66f2c2f178772fcbe502a940fcfbda01c453b3e70c92cedfc901c1",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      630.0587768554688,
+      537.5459594726562,
+      646.3407592773438
+    ]
+  },
+  {
+    "course_code": "2002864-2",
+    "clo_code": "3.2",
+    "plo_code": "ق2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002864-2/course-specification.pdf",
+    "source_sha256": "ddf2b6550b66f2c2f178772fcbe502a940fcfbda01c453b3e70c92cedfc901c1",
+    "source_page": 5,
+    "code_bbox": [
+      515.2999877929688,
+      86.25879669189453,
+      537.5459594726562,
+      102.5407943725586
+    ]
+  },
+  {
+    "course_code": "2002871-2",
+    "clo_code": "1.1",
+    "plo_code": "ع1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002871-2/course-specification.pdf",
+    "source_sha256": "5a811a224006855d798f200bee4445cac9d2214db682c4166944c199d9af9e54",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      206.958740234375,
+      537.5459594726562,
+      223.24073791503906
+    ]
+  },
+  {
+    "course_code": "2002871-2",
+    "clo_code": "1.2",
+    "plo_code": "ع2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002871-2/course-specification.pdf",
+    "source_sha256": "5a811a224006855d798f200bee4445cac9d2214db682c4166944c199d9af9e54",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      265.0087890625,
+      537.5459594726562,
+      281.2908020019531
+    ]
+  },
+  {
+    "course_code": "2002871-2",
+    "clo_code": "1.3",
+    "plo_code": "ع3",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002871-2/course-specification.pdf",
+    "source_sha256": "5a811a224006855d798f200bee4445cac9d2214db682c4166944c199d9af9e54",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      341.7587585449219,
+      537.5459594726562,
+      358.040771484375
+    ]
+  },
+  {
+    "course_code": "2002871-2",
+    "clo_code": "2.1",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002871-2/course-specification.pdf",
+    "source_sha256": "5a811a224006855d798f200bee4445cac9d2214db682c4166944c199d9af9e54",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      418.5087585449219,
+      537.5459594726562,
+      434.790771484375
+    ]
+  },
+  {
+    "course_code": "2002871-2",
+    "clo_code": "2.2",
+    "plo_code": "م2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002871-2/course-specification.pdf",
+    "source_sha256": "5a811a224006855d798f200bee4445cac9d2214db682c4166944c199d9af9e54",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      495.2587585449219,
+      537.5459594726562,
+      511.540771484375
+    ]
+  },
+  {
+    "course_code": "2002871-2",
+    "clo_code": "3.1",
+    "plo_code": "ق1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002871-2/course-specification.pdf",
+    "source_sha256": "5a811a224006855d798f200bee4445cac9d2214db682c4166944c199d9af9e54",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      572.0087280273438,
+      537.5459594726562,
+      588.2907104492188
+    ]
+  },
+  {
+    "course_code": "2002872-2",
+    "clo_code": "1.1",
+    "plo_code": "ع1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf",
+    "source_sha256": "e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      206.958740234375,
+      537.5459594726562,
+      223.24073791503906
+    ]
+  },
+  {
+    "course_code": "2002872-2",
+    "clo_code": "1.2",
+    "plo_code": "ع1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf",
+    "source_sha256": "e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      283.708740234375,
+      537.5459594726562,
+      299.9907531738281
+    ]
+  },
+  {
+    "course_code": "2002872-2",
+    "clo_code": "1.3",
+    "plo_code": "ع3",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf",
+    "source_sha256": "e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      360.4587707519531,
+      537.5459594726562,
+      376.74078369140625
+    ]
+  },
+  {
+    "course_code": "2002872-2",
+    "clo_code": "2.1",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf",
+    "source_sha256": "e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      437.2087707519531,
+      537.5459594726562,
+      453.49078369140625
+    ]
+  },
+  {
+    "course_code": "2002872-2",
+    "clo_code": "2.2",
+    "plo_code": "م2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf",
+    "source_sha256": "e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      513.9588012695312,
+      537.5459594726562,
+      530.2407836914062
+    ]
+  },
+  {
+    "course_code": "2002872-2",
+    "clo_code": "3.1",
+    "plo_code": "ق1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002872-2/course-specification.pdf",
+    "source_sha256": "e80423f3ff76e8148766f8f1857c8af9e031b086034f99103b9656b9da661b38",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      590.7088012695312,
+      537.5459594726562,
+      606.9907836914062
+    ]
+  },
+  {
+    "course_code": "2002873-2",
+    "clo_code": "1.1",
+    "plo_code": "ع2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002873-2/course-specification.pdf",
+    "source_sha256": "e82e3f4fcdc432957b4964be0f064d1e3a5ba8ab7cf93ca407aac70069595529",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      206.958740234375,
+      537.5459594726562,
+      223.24073791503906
+    ]
+  },
+  {
+    "course_code": "2002873-2",
+    "clo_code": "1.2",
+    "plo_code": "ع2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002873-2/course-specification.pdf",
+    "source_sha256": "e82e3f4fcdc432957b4964be0f064d1e3a5ba8ab7cf93ca407aac70069595529",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      283.708740234375,
+      537.5459594726562,
+      299.9907531738281
+    ]
+  },
+  {
+    "course_code": "2002873-2",
+    "clo_code": "1.3",
+    "plo_code": "ع3",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002873-2/course-specification.pdf",
+    "source_sha256": "e82e3f4fcdc432957b4964be0f064d1e3a5ba8ab7cf93ca407aac70069595529",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      379.15875244140625,
+      537.5459594726562,
+      395.4407653808594
+    ]
+  },
+  {
+    "course_code": "2002873-2",
+    "clo_code": "2.1",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002873-2/course-specification.pdf",
+    "source_sha256": "e82e3f4fcdc432957b4964be0f064d1e3a5ba8ab7cf93ca407aac70069595529",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      455.90875244140625,
+      537.5459594726562,
+      472.1907653808594
+    ]
+  },
+  {
+    "course_code": "2002873-2",
+    "clo_code": "2.2",
+    "plo_code": "م2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002873-2/course-specification.pdf",
+    "source_sha256": "e82e3f4fcdc432957b4964be0f064d1e3a5ba8ab7cf93ca407aac70069595529",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      532.6587524414062,
+      537.5459594726562,
+      548.9407348632812
+    ]
+  },
+  {
+    "course_code": "2002873-2",
+    "clo_code": "3.1",
+    "plo_code": "ق1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002873-2/course-specification.pdf",
+    "source_sha256": "e82e3f4fcdc432957b4964be0f064d1e3a5ba8ab7cf93ca407aac70069595529",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      609.4087524414062,
+      537.5459594726562,
+      625.6907348632812
+    ]
+  },
+  {
+    "course_code": "2002874-2",
+    "clo_code": "1.1",
+    "plo_code": "ع2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002874-2/course-specification.pdf",
+    "source_sha256": "b018959686d91115919c46e6d79078acbd1822993c672f8ff170d99ddbf8115d",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      206.958740234375,
+      537.5459594726562,
+      223.24073791503906
+    ]
+  },
+  {
+    "course_code": "2002874-2",
+    "clo_code": "1.2",
+    "plo_code": "ع2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002874-2/course-specification.pdf",
+    "source_sha256": "b018959686d91115919c46e6d79078acbd1822993c672f8ff170d99ddbf8115d",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      302.40875244140625,
+      537.5459594726562,
+      318.6907653808594
+    ]
+  },
+  {
+    "course_code": "2002874-2",
+    "clo_code": "1.3",
+    "plo_code": "ع2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002874-2/course-specification.pdf",
+    "source_sha256": "b018959686d91115919c46e6d79078acbd1822993c672f8ff170d99ddbf8115d",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      379.15875244140625,
+      537.5459594726562,
+      395.4407653808594
+    ]
+  },
+  {
+    "course_code": "2002874-2",
+    "clo_code": "2.1",
+    "plo_code": "م1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002874-2/course-specification.pdf",
+    "source_sha256": "b018959686d91115919c46e6d79078acbd1822993c672f8ff170d99ddbf8115d",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      474.6087646484375,
+      537.5459594726562,
+      490.8907775878906
+    ]
+  },
+  {
+    "course_code": "2002874-2",
+    "clo_code": "2.2",
+    "plo_code": "م2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002874-2/course-specification.pdf",
+    "source_sha256": "b018959686d91115919c46e6d79078acbd1822993c672f8ff170d99ddbf8115d",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      551.3587646484375,
+      537.5459594726562,
+      567.6407470703125
+    ]
+  },
+  {
+    "course_code": "2002874-2",
+    "clo_code": "3.1",
+    "plo_code": "ق1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002874-2/course-specification.pdf",
+    "source_sha256": "b018959686d91115919c46e6d79078acbd1822993c672f8ff170d99ddbf8115d",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      646.8087768554688,
+      537.5459594726562,
+      663.0907592773438
+    ]
+  },
+  {
+    "course_code": "2002888-4",
+    "clo_code": "1.1",
+    "plo_code": "ع1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf",
+    "source_sha256": "01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      206.958740234375,
+      537.5459594726562,
+      223.24073791503906
+    ]
+  },
+  {
+    "course_code": "2002888-4",
+    "clo_code": "1.2",
+    "plo_code": "ع3",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf",
+    "source_sha256": "01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      283.708740234375,
+      537.5459594726562,
+      299.9907531738281
+    ]
+  },
+  {
+    "course_code": "2002888-4",
+    "clo_code": "1.3",
+    "plo_code": "ع3",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf",
+    "source_sha256": "01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      360.4587707519531,
+      537.5459594726562,
+      376.74078369140625
+    ]
+  },
+  {
+    "course_code": "2002888-4",
+    "clo_code": "2.1",
+    "plo_code": "م2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf",
+    "source_sha256": "01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      437.2087707519531,
+      537.5459594726562,
+      453.49078369140625
+    ]
+  },
+  {
+    "course_code": "2002888-4",
+    "clo_code": "2.2",
+    "plo_code": "م2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf",
+    "source_sha256": "01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      495.2587585449219,
+      537.5459594726562,
+      511.540771484375
+    ]
+  },
+  {
+    "course_code": "2002888-4",
+    "clo_code": "3.1",
+    "plo_code": "ق1",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf",
+    "source_sha256": "01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      553.3087768554688,
+      537.5459594726562,
+      569.5907592773438
+    ]
+  },
+  {
+    "course_code": "2002888-4",
+    "clo_code": "3.2",
+    "plo_code": "ق2",
+    "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf",
+    "source_sha256": "01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3",
+    "source_page": 4,
+    "code_bbox": [
+      515.2999877929688,
+      648.7587280273438,
+      537.5459594726562,
+      665.0407104492188
+    ]
+  }
+]

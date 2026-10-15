@@ -47,12 +47,16 @@ class CourseOutcomeReviewBatchTest(unittest.TestCase):
         active_paths = {v['source_pdf'] for c in self.outcomes['courses'].values() for v in c['variants']}
         publication = json.loads((ROOT/'assets/course-specifications/new-plan-updates-20261002/manifest.json').read_text())
         retired = {p['source_pdf'] for r in publication['records'] for p in r['predecessors'] if p['source_pdf'] not in active_paths}
+        # New CLO texts are a different source; never replay old source repairs onto them.
+        master = json.loads((ROOT/'assets/course-specifications/quranic-master-single-domain-20261015/previous-context.json').read_text())
+        master_retired_ids = {v['variant_id'] for c in master['course_outcomes'].values() for v in c['variants'] if any(x['program']=='الدراسات القرآنية المعاصرة' for x in v['scopes'])}
         paths = review_batch.reviewed_source_replacements()
         successors = review_batch.reviewed_variant_successors()
         return [
             entry
             for entry in manifest["entries"]
             if entry["course_code"] not in self.superseded_codes
+            and entry["variant_id"] not in master_retired_ids
             and successors.get((entry['course_code'],entry['variant_id'],entry['source_pdf']),{}).get('source_pdf',paths.get((entry['course_code'],entry['source_pdf']),entry['source_pdf'])) not in retired
         ]
 

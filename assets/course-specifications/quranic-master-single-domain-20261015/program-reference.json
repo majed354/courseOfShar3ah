@@ -1,0 +1,773 @@
+{
+  "program_name": "ماجستير في الدراسات القرآنية المعاصرة",
+  "program_code": "022103",
+  "program_metadata": {
+    "Academic_Program": "ماجستير في الدراسات القرآنية المعاصرة",
+    "Program_Code": "022103",
+    "Department": "قسم القراءات",
+    "College": "كلية الشريعة والأنظمة",
+    "Institution": "جامعة الطائف",
+    "Qualification_Level": "السابع",
+    "Specification_Version": "2026-10-15 — الربط الأحادي داخل المجال",
+    "Source_Matrix_Review_SHA256": "68e38cd887e3fd6005f48b25424012f881441410e75b928c564c1c5373023090",
+    "Source_Matrix_Review_Method": "User-authorized single-domain revision; 94 coded CLOs verified against 14 revised course PDFs, 69 curriculum links, 17 mastery links; independent project CLO3.2 and Q2 rubric",
+    "Source_Matrix_Companion_SHA256": "d36501f5fb29c6f55f35668e88ca6ca182d713fbd6b097eed67a215e7f2542b6",
+    "Authoritative_Curriculum_SHA256": "9ad53d22f91b8e9ad5ed579b607c35e0eb934e60a6dc3aa3b54b2a77ee088788",
+    "Plan_Type": "جديدة",
+    "PLO_Revision_Authorization": "طلب المستخدم تصحيح جميع المخالفات وتعديل تصنيف وصياغة نواتج المقررات عند الحاجة ومعالجة ق2 ثم تحديث Word/PDF/JSON ونشرها محليًا وعلى المستودع المنشور",
+    "Program_Specification_Template": "TPG-151-2024",
+    "CLO_PLO_Policy": "single_plo_same_domain",
+    "CLO_Revision_Historical_Grades": "No automatic recoding or transfer of historical grades; collect evidence for revised outcomes"
+  },
+  "program_outcomes": [
+    {
+      "program": "ماجستير في الدراسات القرآنية المعاصرة",
+      "code": "ع1",
+      "text": "أن يحلل الأصول والنظريات والمناهج المتعلقة بالتفسير، ويبين تطورها التاريخي واتجاهاتها المعاصرة.",
+      "source_file": "assets/course-specifications/quranic-master-single-domain-20261015/program-specification.pdf",
+      "source_page": 4,
+      "confidence": 1.0
+    },
+    {
+      "program": "ماجستير في الدراسات القرآنية المعاصرة",
+      "code": "ع2",
+      "text": "أن يشرح مباحث علوم القرآن المختلفة، ويقيم توظيفها التكاملي مع العلوم الشرعية واللغوية والإنسانية في تفسير النص القرآني ومعالجة قضايا الواقع.",
+      "source_file": "assets/course-specifications/quranic-master-single-domain-20261015/program-specification.pdf",
+      "source_page": 4,
+      "confidence": 1.0
+    },
+    {
+      "program": "ماجستير في الدراسات القرآنية المعاصرة",
+      "code": "ع3",
+      "text": "أن يحلل مصادر الدراسات القرآنية التراثية والمعاصرة، التقليدية والرقمية، ويقيم مناهجها وموثوقيتها وإمكانات الإفادة منها في البحث العلمي.",
+      "source_file": "assets/course-specifications/quranic-master-single-domain-20261015/program-specification.pdf",
+      "source_page": 4,
+      "confidence": 1.0
+    },
+    {
+      "program": "ماجستير في الدراسات القرآنية المعاصرة",
+      "code": "م1",
+      "text": "أن يطبق مناهج التفسير المختلفة ومهارات التحليل والنقد في تفسير النصوص القرآنية.",
+      "source_file": "assets/course-specifications/quranic-master-single-domain-20261015/program-specification.pdf",
+      "source_page": 4,
+      "confidence": 1.0
+    },
+    {
+      "program": "ماجستير في الدراسات القرآنية المعاصرة",
+      "code": "م2",
+      "text": "أن يصمم بحوثًا أصيلة في الدراسات القرآنية المعاصرة، موظفًا مناهج البحث وتحقيق المخطوطات والتقنيات الرقمية في جمع البيانات وتحليلها.",
+      "source_file": "assets/course-specifications/quranic-master-single-domain-20261015/program-specification.pdf",
+      "source_page": 4,
+      "confidence": 1.0
+    },
+    {
+      "program": "ماجستير في الدراسات القرآنية المعاصرة",
+      "code": "ق1",
+      "text": "أن يلتزم بالقيم الإسلامية والأخلاقيات البحثية والمعايير العلمية في التعامل مع النص القرآني، ومع إنتاج الباحثين الآخرين، وفي استخدام التقنيات المعاصرة.",
+      "source_file": "assets/course-specifications/quranic-master-single-domain-20261015/program-specification.pdf",
+      "source_page": 4,
+      "confidence": 1.0
+    },
+    {
+      "program": "ماجستير في الدراسات القرآنية المعاصرة",
+      "code": "ق2",
+      "text": "أن يتحمل المسؤولية والاستقلالية في تطوير مساره العلمي والمهني في الدراسات القرآنية المعاصرة، ويشارك بفاعلية وبروح قيادية في مشروعات بحثية متقدمة.",
+      "source_file": "assets/course-specifications/quranic-master-single-domain-20261015/program-specification.pdf",
+      "source_page": 5,
+      "confidence": 1.0
+    }
+  ],
+  "curriculum": [
+    {
+      "name": "أصول التفسير",
+      "code": "2002851-4",
+      "level": "المستوى 1",
+      "hours": 4.0,
+      "requirement_type": "إجباري",
+      "prerequisite": "لا يوجد",
+      "source_page": 6
+    },
+    {
+      "name": "تاريخ التفسير",
+      "code": "2002852-2",
+      "level": "المستوى 1",
+      "hours": 2.0,
+      "requirement_type": "إجباري",
+      "prerequisite": "لا يوجد",
+      "source_page": 6
+    },
+    {
+      "name": "دراسات في علوم القرآن",
+      "code": "2002853-2",
+      "level": "المستوى 1",
+      "hours": 2.0,
+      "requirement_type": "إجباري",
+      "prerequisite": "لا يوجد",
+      "source_page": 6
+    },
+    {
+      "name": "علم القراءات دراية",
+      "code": "2002854-2",
+      "level": "المستوى 1",
+      "hours": 2.0,
+      "requirement_type": "إجباري",
+      "prerequisite": "لا يوجد",
+      "source_page": 6
+    },
+    {
+      "name": "مصادر الدراسات القرآنية",
+      "code": "2002855-2",
+      "level": "المستوى 1",
+      "hours": 2.0,
+      "requirement_type": "إجباري",
+      "prerequisite": "لا يوجد",
+      "source_page": 6
+    },
+    {
+      "name": "التفسير التحليلي",
+      "code": "2002861-4",
+      "level": "المستوى 2",
+      "hours": 4.0,
+      "requirement_type": "إجباري",
+      "prerequisite": "لا يوجد",
+      "source_page": 6
+    },
+    {
+      "name": "الدراسات القرآنية عند المستشرقين",
+      "code": "2002862-2",
+      "level": "المستوى 2",
+      "hours": 2.0,
+      "requirement_type": "إجباري",
+      "prerequisite": "لا يوجد",
+      "source_page": 6
+    },
+    {
+      "name": "منهج البحث والتحقيق",
+      "code": "2002863-2",
+      "level": "المستوى 2",
+      "hours": 2.0,
+      "requirement_type": "إجباري",
+      "prerequisite": "لا يوجد",
+      "source_page": 6
+    },
+    {
+      "name": "دراسات في مناهج المفسرين",
+      "code": "2002864-2",
+      "level": "المستوى 2",
+      "hours": 2.0,
+      "requirement_type": "إجباري",
+      "prerequisite": "لا يوجد",
+      "source_page": 6
+    },
+    {
+      "name": "التفسير الموضوعي",
+      "code": "2002871-2",
+      "level": "المستوى 3",
+      "hours": 2.0,
+      "requirement_type": "إجباري",
+      "prerequisite": "لا يوجد",
+      "source_page": 6
+    },
+    {
+      "name": "النظريات الحداثية في القرآن",
+      "code": "2002872-2",
+      "level": "المستوى 3",
+      "hours": 2.0,
+      "requirement_type": "إجباري",
+      "prerequisite": "لا يوجد",
+      "source_page": 6
+    },
+    {
+      "name": "دراسات في إعجاز القران",
+      "code": "2002873-2",
+      "level": "المستوى 3",
+      "hours": 2.0,
+      "requirement_type": "إجباري",
+      "prerequisite": "لا يوجد",
+      "source_page": 6
+    },
+    {
+      "name": "دراسات في لغة القرآن",
+      "code": "2002874-2",
+      "level": "المستوى 3",
+      "hours": 2.0,
+      "requirement_type": "إجباري",
+      "prerequisite": "لا يوجد",
+      "source_page": 6
+    },
+    {
+      "name": "مشروع بحثي",
+      "code": "2002888-4",
+      "level": "المستوى 4",
+      "hours": 4.0,
+      "requirement_type": "إجباري",
+      "prerequisite": "لا يوجد",
+      "source_page": 6
+    }
+  ],
+  "program_matrix": [
+    {
+      "course_name": "أصول التفسير",
+      "course_code": "2002851-4",
+      "plo_code": "ع1",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "أصول التفسير",
+      "course_code": "2002851-4",
+      "plo_code": "ع3",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "أصول التفسير",
+      "course_code": "2002851-4",
+      "plo_code": "م1",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "أصول التفسير",
+      "course_code": "2002851-4",
+      "plo_code": "م2",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "أصول التفسير",
+      "course_code": "2002851-4",
+      "plo_code": "ق1",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "تاريخ التفسير",
+      "course_code": "2002852-2",
+      "plo_code": "ع1",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "تاريخ التفسير",
+      "course_code": "2002852-2",
+      "plo_code": "م1",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "تاريخ التفسير",
+      "course_code": "2002852-2",
+      "plo_code": "م2",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "تاريخ التفسير",
+      "course_code": "2002852-2",
+      "plo_code": "ق1",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "تاريخ التفسير",
+      "course_code": "2002852-2",
+      "plo_code": "ق2",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في علوم القرآن",
+      "course_code": "2002853-2",
+      "plo_code": "ع2",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في علوم القرآن",
+      "course_code": "2002853-2",
+      "plo_code": "م1",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في علوم القرآن",
+      "course_code": "2002853-2",
+      "plo_code": "م2",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في علوم القرآن",
+      "course_code": "2002853-2",
+      "plo_code": "ق1",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في علوم القرآن",
+      "course_code": "2002853-2",
+      "plo_code": "ق2",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "علم القراءات دراية",
+      "course_code": "2002854-2",
+      "plo_code": "ع2",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "علم القراءات دراية",
+      "course_code": "2002854-2",
+      "plo_code": "م1",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "علم القراءات دراية",
+      "course_code": "2002854-2",
+      "plo_code": "ق1",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "علم القراءات دراية",
+      "course_code": "2002854-2",
+      "plo_code": "ق2",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "مصادر الدراسات القرآنية",
+      "course_code": "2002855-2",
+      "plo_code": "ع3",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "مصادر الدراسات القرآنية",
+      "course_code": "2002855-2",
+      "plo_code": "م1",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "مصادر الدراسات القرآنية",
+      "course_code": "2002855-2",
+      "plo_code": "م2",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "مصادر الدراسات القرآنية",
+      "course_code": "2002855-2",
+      "plo_code": "ق1",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "مصادر الدراسات القرآنية",
+      "course_code": "2002855-2",
+      "plo_code": "ق2",
+      "classification": 1,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "التفسير التحليلي",
+      "course_code": "2002861-4",
+      "plo_code": "ع2",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "التفسير التحليلي",
+      "course_code": "2002861-4",
+      "plo_code": "م1",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "التفسير التحليلي",
+      "course_code": "2002861-4",
+      "plo_code": "ق1",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "التفسير التحليلي",
+      "course_code": "2002861-4",
+      "plo_code": "ق2",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "الدراسات القرآنية عند المستشرقين",
+      "course_code": "2002862-2",
+      "plo_code": "ع1",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "الدراسات القرآنية عند المستشرقين",
+      "course_code": "2002862-2",
+      "plo_code": "ع3",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "الدراسات القرآنية عند المستشرقين",
+      "course_code": "2002862-2",
+      "plo_code": "م1",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "الدراسات القرآنية عند المستشرقين",
+      "course_code": "2002862-2",
+      "plo_code": "م2",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "الدراسات القرآنية عند المستشرقين",
+      "course_code": "2002862-2",
+      "plo_code": "ق1",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "الدراسات القرآنية عند المستشرقين",
+      "course_code": "2002862-2",
+      "plo_code": "ق2",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "منهج البحث والتحقيق",
+      "course_code": "2002863-2",
+      "plo_code": "ع1",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "منهج البحث والتحقيق",
+      "course_code": "2002863-2",
+      "plo_code": "ع3",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "منهج البحث والتحقيق",
+      "course_code": "2002863-2",
+      "plo_code": "م2",
+      "classification": 3,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "منهج البحث والتحقيق",
+      "course_code": "2002863-2",
+      "plo_code": "ق1",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "منهج البحث والتحقيق",
+      "course_code": "2002863-2",
+      "plo_code": "ق2",
+      "classification": 3,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في مناهج المفسرين",
+      "course_code": "2002864-2",
+      "plo_code": "ع1",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في مناهج المفسرين",
+      "course_code": "2002864-2",
+      "plo_code": "م1",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في مناهج المفسرين",
+      "course_code": "2002864-2",
+      "plo_code": "م2",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في مناهج المفسرين",
+      "course_code": "2002864-2",
+      "plo_code": "ق1",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في مناهج المفسرين",
+      "course_code": "2002864-2",
+      "plo_code": "ق2",
+      "classification": 2,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "التفسير الموضوعي",
+      "course_code": "2002871-2",
+      "plo_code": "ع1",
+      "classification": 3,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "التفسير الموضوعي",
+      "course_code": "2002871-2",
+      "plo_code": "ع2",
+      "classification": 3,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "التفسير الموضوعي",
+      "course_code": "2002871-2",
+      "plo_code": "ع3",
+      "classification": 3,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "التفسير الموضوعي",
+      "course_code": "2002871-2",
+      "plo_code": "م1",
+      "classification": 3,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "التفسير الموضوعي",
+      "course_code": "2002871-2",
+      "plo_code": "م2",
+      "classification": 3,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "التفسير الموضوعي",
+      "course_code": "2002871-2",
+      "plo_code": "ق1",
+      "classification": 3,
+      "source_page": 7,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "النظريات الحداثية في القرآن",
+      "course_code": "2002872-2",
+      "plo_code": "ع1",
+      "classification": 3,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "النظريات الحداثية في القرآن",
+      "course_code": "2002872-2",
+      "plo_code": "ع3",
+      "classification": 2,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "النظريات الحداثية في القرآن",
+      "course_code": "2002872-2",
+      "plo_code": "م1",
+      "classification": 2,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "النظريات الحداثية في القرآن",
+      "course_code": "2002872-2",
+      "plo_code": "م2",
+      "classification": 2,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "النظريات الحداثية في القرآن",
+      "course_code": "2002872-2",
+      "plo_code": "ق1",
+      "classification": 3,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في إعجاز القرآن",
+      "course_code": "2002873-2",
+      "plo_code": "ع2",
+      "classification": 3,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في إعجاز القرآن",
+      "course_code": "2002873-2",
+      "plo_code": "ع3",
+      "classification": 2,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في إعجاز القرآن",
+      "course_code": "2002873-2",
+      "plo_code": "م1",
+      "classification": 2,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في إعجاز القرآن",
+      "course_code": "2002873-2",
+      "plo_code": "م2",
+      "classification": 2,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في إعجاز القرآن",
+      "course_code": "2002873-2",
+      "plo_code": "ق1",
+      "classification": 2,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في لغة القرآن",
+      "course_code": "2002874-2",
+      "plo_code": "ع2",
+      "classification": 3,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في لغة القرآن",
+      "course_code": "2002874-2",
+      "plo_code": "م1",
+      "classification": 3,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في لغة القرآن",
+      "course_code": "2002874-2",
+      "plo_code": "م2",
+      "classification": 2,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "دراسات في لغة القرآن",
+      "course_code": "2002874-2",
+      "plo_code": "ق1",
+      "classification": 2,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "مشروع بحثي",
+      "course_code": "2002888-4",
+      "plo_code": "ع1",
+      "classification": 2,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "مشروع بحثي",
+      "course_code": "2002888-4",
+      "plo_code": "ع3",
+      "classification": 3,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "مشروع بحثي",
+      "course_code": "2002888-4",
+      "plo_code": "م2",
+      "classification": 3,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "مشروع بحثي",
+      "course_code": "2002888-4",
+      "plo_code": "ق1",
+      "classification": 3,
+      "source_page": 8,
+      "match_confidence": 1.0
+    },
+    {
+      "course_name": "مشروع بحثي",
+      "course_code": "2002888-4",
+      "plo_code": "ق2",
+      "classification": 3,
+      "source_page": 8,
+      "match_confidence": 1.0
+    }
+  ],
+  "course_outcomes": [],
+  "audit": [
+    {
+      "severity": "معلومة",
+      "category": "مراجعة نواتج المقررات وربطها",
+      "message": "تصحيح93 مخرجًا وإضافة المخرج القيمي3.2 في المشروع البحثي؛94 مخرجًا بربط واحد داخل المجال،69 رابطًا في المصفوفة منها17 تمكينًا، مع بقاء14 مقررًا و34 ساعة. لا تحويل لدرجات تاريخية؛ ق2 تقاس بأداة مستقلة.",
+      "course_code": "",
+      "course_name": "",
+      "source_page": 22
+    }
+  ]
+}

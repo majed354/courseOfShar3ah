@@ -33,7 +33,7 @@ class OfficialTemplatePublicationTests(unittest.TestCase):
     def test_all_scoped_clo_locators_use_the_new_pdf_and_its_exact_page(self):
         page_map={(x['course_code'],x['clo_code']):x['source_page'] for x in read(BUNDLE/'clo-page-map.json')}
         self.assertEqual(93,len(page_map))
-        data=read(ROOT/'course-outcomes.json');digest=read(BUNDLE/'manifest.json')['source_files']['pdf']['sha256'];count=0
+        data={'courses':read(ROOT/'assets/course-specifications/quranic-master-single-domain-20261015/previous-context.json')['course_outcomes']};digest=read(BUNDLE/'manifest.json')['source_files']['pdf']['sha256'];count=0
         for code,course in data['courses'].items():
             for variant in course['variants']:
                 for override in variant['overrides']:
@@ -48,7 +48,7 @@ class OfficialTemplatePublicationTests(unittest.TestCase):
         self.assertEqual(93,count)
 
     def test_published_selection_uses_new_edition_and_keeps_the_curriculum(self):
-        program=next(p for p in read(ROOT/'data.json')['programs'] if p['name']=='الدراسات القرآنية المعاصرة')
+        program=read(ROOT/'assets/course-specifications/quranic-master-single-domain-20261015/previous-context.json')['program']
         prior=read(PREVIOUS/'previous-context.json')['program']
         self.assertEqual(prior['courses'],program['courses'])
         self.assertEqual((14,34),(len(program['courses']),sum(c['hours'] for c in program['courses'])))

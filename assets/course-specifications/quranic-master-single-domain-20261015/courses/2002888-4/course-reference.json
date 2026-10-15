@@ -1,0 +1,599 @@
+{
+  "course_code": "2002888-4",
+  "variants": [
+    {
+      "variant_id": "f70f7bbd40ce9df95a90ce5e927adba286fefd9ba087de9ae2662a256b6f54ff",
+      "scopes": [
+        {
+          "program": "الدراسات القرآنية المعاصرة",
+          "degree": "ماجستير",
+          "plan_type": "جديدة",
+          "version": "1"
+        }
+      ],
+      "catalog": {
+        "title": "مشروع بحثي",
+        "summary": "ينقل الطالب المقترح البحثي إلى إنجاز فصول البحث وتحليل مادته وصياغة نتائجه، ثم تحريره وإخراجه وعرضه للنقاش العلمي وفق معايير النزاهة والبحث العلمي.",
+        "specification_code": "2002888-4",
+        "match_status": "adapted_verified",
+        "match_note": "مراجعة نواتج المقرر بإذن المستخدم: ربط واحد داخل المجال وتصحيح الصياغة والتصنيف؛ الخطة والساعات والموضوعات وأوزان أنشطة التقويم محفوظة. بيانات اعتماد النسخة الجديدة تستكمل بعد اعتمادها."
+      },
+      "source_pdf": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf",
+      "source_sha256": "01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3",
+      "extracted": {
+        "course_name": null,
+        "course_name_metadata": {
+          "confidence": "low",
+          "source_page": 1,
+          "extraction_method": "unresolved"
+        },
+        "clos": [
+          {
+            "code": "1.1",
+            "text": "أن يحلل الطالب بنية الحجاج العلمي في البحث وأصول الاستدلال والتعليل والترجيح في الدراسات القرآنية.",
+            "source_status": "present",
+            "assessment": "تقييم ملف المشروع البحثي بسلم تقدير منفصل لكل ناتج",
+            "plo_mappings": [
+              {
+                "scope": {
+                  "program": "الدراسات القرآنية المعاصرة",
+                  "plan_type": "جديدة",
+                  "version": "1",
+                  "degree": "ماجستير"
+                },
+                "plo_codes": [
+                  "ع1"
+                ],
+                "status": "mapped",
+                "confidence": "medium",
+                "source_page": 4,
+                "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+              }
+            ],
+            "document_plo_codes": [
+              "ع1"
+            ],
+            "confidence": "medium",
+            "source_page": 4,
+            "extraction_method": "geometric_pdf",
+            "assessment_source_page": 4
+          },
+          {
+            "code": "1.2",
+            "text": "أن يقيم الطالب مناهج المصادر التراثية والمعاصرة والرقمية وموثوقيتها وصلاحيتها لمعالجة مشكلة بحثه.",
+            "source_status": "present",
+            "assessment": "تقييم ملف المشروع البحثي بسلم تقدير منفصل لكل ناتج",
+            "plo_mappings": [
+              {
+                "scope": {
+                  "program": "الدراسات القرآنية المعاصرة",
+                  "plan_type": "جديدة",
+                  "version": "1",
+                  "degree": "ماجستير"
+                },
+                "plo_codes": [
+                  "ع3"
+                ],
+                "status": "mapped",
+                "confidence": "medium",
+                "source_page": 4,
+                "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+              }
+            ],
+            "document_plo_codes": [
+              "ع3"
+            ],
+            "confidence": "medium",
+            "source_page": 4,
+            "extraction_method": "targeted_ocr",
+            "assessment_source_page": 4
+          },
+          {
+            "code": "1.3",
+            "text": null,
+            "source_status": "unreadable",
+            "assessment": "تقييم ملف المشروع البحثي بسلم تقدير منفصل لكل ناتج",
+            "plo_mappings": [
+              {
+                "scope": {
+                  "program": "الدراسات القرآنية المعاصرة",
+                  "plan_type": "جديدة",
+                  "version": "1",
+                  "degree": "ماجستير"
+                },
+                "plo_codes": [
+                  "ع3"
+                ],
+                "status": "mapped",
+                "confidence": "medium",
+                "source_page": 4,
+                "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+              }
+            ],
+            "document_plo_codes": [
+              "ع3"
+            ],
+            "confidence": "low",
+            "source_page": 4,
+            "extraction_method": "geometric_pdf",
+            "assessment_source_page": 4
+          },
+          {
+            "code": "2.1",
+            "text": null,
+            "source_status": "unreadable",
+            "assessment": "تقييم ملف المشروع البحثي بسلم تقدير منفصل لكل ناتج؛ التطبيقات والبحث والعروض",
+            "plo_mappings": [
+              {
+                "scope": {
+                  "program": "الدراسات القرآنية المعاصرة",
+                  "plan_type": "جديدة",
+                  "version": "1",
+                  "degree": "ماجستير"
+                },
+                "plo_codes": [
+                  "م2"
+                ],
+                "status": "mapped",
+                "confidence": "medium",
+                "source_page": 4,
+                "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+              }
+            ],
+            "document_plo_codes": [
+              "م2"
+            ],
+            "confidence": "low",
+            "source_page": 4,
+            "extraction_method": "geometric_pdf",
+            "assessment_source_page": 4
+          },
+          {
+            "code": "2.2",
+            "text": "أن يعد الطالب الصياغة النهائية للبحث تحريرًا وتوثيقا وإخراجًاء ويعرض نتائجها للنقاش العلمى.",
+            "source_status": "present",
+            "assessment": "تقييم ملف المشروع البحثي بسلم تقدير منفصل لكل ناتج؛ التطبيقات والبحث والعروض",
+            "plo_mappings": [
+              {
+                "scope": {
+                  "program": "الدراسات القرآنية المعاصرة",
+                  "plan_type": "جديدة",
+                  "version": "1",
+                  "degree": "ماجستير"
+                },
+                "plo_codes": [
+                  "م2"
+                ],
+                "status": "mapped",
+                "confidence": "medium",
+                "source_page": 4,
+                "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+              }
+            ],
+            "document_plo_codes": [
+              "م2"
+            ],
+            "confidence": "medium",
+            "source_page": 4,
+            "extraction_method": "targeted_ocr",
+            "assessment_source_page": 4
+          },
+          {
+            "code": "3.1",
+            "text": "أن يلتزم الطالب بالنزاهة العلمية ومعايير التعامل مع النص القرآني وأقوال العلماء، ويتحرى الدقة في النقل والتحرير.",
+            "source_status": "present",
+            "assessment": "تقييم ملف المشروع البحثي بسلم تقدير منفصل لكل ناتج؛ المشروعات والمناقشة والتقويم الذاتي وتقويم الزملاء",
+            "plo_mappings": [
+              {
+                "scope": {
+                  "program": "الدراسات القرآنية المعاصرة",
+                  "plan_type": "جديدة",
+                  "version": "1",
+                  "degree": "ماجستير"
+                },
+                "plo_codes": [
+                  "ق1"
+                ],
+                "status": "mapped",
+                "confidence": "medium",
+                "source_page": 4,
+                "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+              }
+            ],
+            "document_plo_codes": [
+              "ق1"
+            ],
+            "confidence": "medium",
+            "source_page": 4,
+            "extraction_method": "geometric_pdf",
+            "assessment_source_page": 4
+          },
+          {
+            "code": "3.2",
+            "text": "أن يدير الطالب مشروعه البحثي باستقلالية ومسؤولية, ملتزمًا بخطة الإنجاز. ومبادرًا إلى معالجة الملاحظات, ومتعاونًا بفاعلية وقيادة فى الحلقات البحثية.",
+            "source_status": "present",
+            "assessment": "تقييم ملف المشروع البحثي بسلم تقدير منفصل لكل ناتج؛ المشروعات والمناقشة والتقويم الذاتي وتقويم الزملاء",
+            "plo_mappings": [
+              {
+                "scope": {
+                  "program": "الدراسات القرآنية المعاصرة",
+                  "plan_type": "جديدة",
+                  "version": "1",
+                  "degree": "ماجستير"
+                },
+                "plo_codes": [
+                  "ق2"
+                ],
+                "status": "mapped",
+                "confidence": "medium",
+                "source_page": 4,
+                "evidence": "single exact PLO code read from the unique geometrically inferred PLO column"
+              }
+            ],
+            "document_plo_codes": [
+              "ق2"
+            ],
+            "confidence": "medium",
+            "source_page": 4,
+            "extraction_method": "targeted_ocr",
+            "assessment_source_page": 4
+          }
+        ],
+        "assessment_plan": [],
+        "assessment_plan_total": null,
+        "assessment_plan_complete": false,
+        "source_status": "unreadable",
+        "source_clo_row_count": 7,
+        "captured_clo_row_count": 7,
+        "warnings": [
+          {
+            "code": "assessment_plan_missing",
+            "message": "no assessment-plan row with both a label and a printed weight was recovered"
+          },
+          {
+            "code": "cid_removed",
+            "message": "removed 1 unmapped CID token(s); they were treated as whitespace",
+            "source_page": 1
+          },
+          {
+            "code": "course_name_unresolved",
+            "message": "course name was left null because neither the text layer nor OCR produced a value consistent with the catalog",
+            "source_page": 1
+          },
+          {
+            "code": "plo_column_inferred_from_exact_codes",
+            "message": "the PLO header text was unreadable; selected the unique column containing exact PLO codes in 7/7 CLO blocks",
+            "source_page": 4
+          },
+          {
+            "code": "clo_text_unreadable",
+            "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=unbalanced_delimiters; font=too_short; ocr=too_short)",
+            "source_page": 4,
+            "clo_code": "1.3",
+            "clo_index": 2
+          },
+          {
+            "code": "clo_text_unreadable",
+            "message": "the published CLO row was captured, but its outcome text could not be read reliably",
+            "source_page": 4,
+            "clo_code": "1.3",
+            "clo_index": 2
+          },
+          {
+            "code": "clo_text_unreadable",
+            "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=mixed_script_noise; font=too_short; ocr=too_short)",
+            "source_page": 4,
+            "clo_code": "2.1",
+            "clo_index": 3
+          },
+          {
+            "code": "clo_text_unreadable",
+            "message": "the published CLO row was captured, but its outcome text could not be read reliably",
+            "source_page": 4,
+            "clo_code": "2.1",
+            "clo_index": 3
+          }
+        ],
+        "extraction_status": "complete",
+        "page_count": 8
+      },
+      "overrides": [
+        {
+          "field": "course_name",
+          "value": "مشروع بحثي",
+          "evidence": "مراجعة Word وPDF المطابقين للبصمة SHA256=01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3؛ assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf صفحات CLO [4] وصفحات التقويم [5]. تصحيح القراءة الآلية للصفوف المستمرة وجدول الأوزان من المصدر المؤلف المحدث؛ لا تحويل لدرجات سابقة.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-10-15"
+        },
+        {
+          "field": "clos",
+          "value": [
+            {
+              "code": "1.1",
+              "text": "أن يحلل الطالب بنية الحجاج العلمي في البحث وأصول الاستدلال والتعليل والترجيح في الدراسات القرآنية.",
+              "source_status": "present",
+              "assessment": "تقييم ملف المشروع البحثي بسلم تقدير منفصل لكل ناتج",
+              "assessment_source_page": 4,
+              "plo_mappings": [
+                {
+                  "scope": {
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "version": "1"
+                  },
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "status": "mapped",
+                  "confidence": "high",
+                  "source_page": 4,
+                  "evidence": "جدول CLO المحدث في assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf SHA256=01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3 ص4؛ خلية واحدة ضمن المجال نفسه، بتوجيه المستخدم."
+                }
+              ],
+              "document_plo_codes": [
+                "ع1"
+              ],
+              "confidence": "high",
+              "source_page": 4,
+              "extraction_method": "verified_visual_pdf"
+            },
+            {
+              "code": "1.2",
+              "text": "أن يقيّم الطالب مناهج المصادر التراثية والمعاصرة والرقمية وموثوقيتها وصلاحيتها لمعالجة مشكلة بحثه.",
+              "source_status": "present",
+              "assessment": "تقييم ملف المشروع البحثي بسلم تقدير منفصل لكل ناتج",
+              "assessment_source_page": 4,
+              "plo_mappings": [
+                {
+                  "scope": {
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "version": "1"
+                  },
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "status": "mapped",
+                  "confidence": "high",
+                  "source_page": 4,
+                  "evidence": "جدول CLO المحدث في assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf SHA256=01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3 ص4؛ خلية واحدة ضمن المجال نفسه، بتوجيه المستخدم."
+                }
+              ],
+              "document_plo_codes": [
+                "ع3"
+              ],
+              "confidence": "high",
+              "source_page": 4,
+              "extraction_method": "verified_visual_pdf"
+            },
+            {
+              "code": "1.3",
+              "text": "أن يبيّن الطالب المعايير المعرفية لنقد مصادر الدراسة وتقويم اتساق توظيفها مع منهج البحث ومفاهيمه.",
+              "source_status": "present",
+              "assessment": "تقييم ملف المشروع البحثي بسلم تقدير منفصل لكل ناتج",
+              "assessment_source_page": 4,
+              "plo_mappings": [
+                {
+                  "scope": {
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "version": "1"
+                  },
+                  "plo_codes": [
+                    "ع3"
+                  ],
+                  "status": "mapped",
+                  "confidence": "high",
+                  "source_page": 4,
+                  "evidence": "جدول CLO المحدث في assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf SHA256=01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3 ص4؛ خلية واحدة ضمن المجال نفسه، بتوجيه المستخدم."
+                }
+              ],
+              "document_plo_codes": [
+                "ع3"
+              ],
+              "confidence": "high",
+              "source_page": 4,
+              "extraction_method": "verified_visual_pdf"
+            },
+            {
+              "code": "2.1",
+              "text": "أن ينجز الطالب فصول البحث كتابة وتحليلًا وفق منهج علمي موثق ومتماسك.",
+              "source_status": "present",
+              "assessment": "تقييم ملف المشروع البحثي بسلم تقدير منفصل لكل ناتج",
+              "assessment_source_page": 4,
+              "plo_mappings": [
+                {
+                  "scope": {
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "version": "1"
+                  },
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "status": "mapped",
+                  "confidence": "high",
+                  "source_page": 4,
+                  "evidence": "جدول CLO المحدث في assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf SHA256=01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3 ص4؛ خلية واحدة ضمن المجال نفسه، بتوجيه المستخدم."
+                }
+              ],
+              "document_plo_codes": [
+                "م2"
+              ],
+              "confidence": "high",
+              "source_page": 4,
+              "extraction_method": "verified_visual_pdf"
+            },
+            {
+              "code": "2.2",
+              "text": "أن يعد الطالب الصياغة النهائية للبحث تحريرًا وتوثيقًا وإخراجًا، ويعرض نتائجها للنقاش العلمي.",
+              "source_status": "present",
+              "assessment": "تقييم ملف المشروع البحثي بسلم تقدير منفصل لكل ناتج",
+              "assessment_source_page": 4,
+              "plo_mappings": [
+                {
+                  "scope": {
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "version": "1"
+                  },
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "status": "mapped",
+                  "confidence": "high",
+                  "source_page": 4,
+                  "evidence": "جدول CLO المحدث في assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf SHA256=01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3 ص4؛ خلية واحدة ضمن المجال نفسه، بتوجيه المستخدم."
+                }
+              ],
+              "document_plo_codes": [
+                "م2"
+              ],
+              "confidence": "high",
+              "source_page": 4,
+              "extraction_method": "verified_visual_pdf"
+            },
+            {
+              "code": "3.1",
+              "text": "أن يلتزم الطالب بالنزاهة العلمية ومعايير التعامل مع النص القرآني وأقوال العلماء، ويتحرى الدقة في النقل والتحرير.",
+              "source_status": "present",
+              "assessment": "تقييم ملف المشروع البحثي بسلم تقدير منفصل لكل ناتج",
+              "assessment_source_page": 4,
+              "plo_mappings": [
+                {
+                  "scope": {
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "version": "1"
+                  },
+                  "plo_codes": [
+                    "ق1"
+                  ],
+                  "status": "mapped",
+                  "confidence": "high",
+                  "source_page": 4,
+                  "evidence": "جدول CLO المحدث في assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf SHA256=01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3 ص4؛ خلية واحدة ضمن المجال نفسه، بتوجيه المستخدم."
+                }
+              ],
+              "document_plo_codes": [
+                "ق1"
+              ],
+              "confidence": "high",
+              "source_page": 4,
+              "extraction_method": "verified_visual_pdf"
+            },
+            {
+              "code": "3.2",
+              "text": "أن يدير الطالب مشروعه البحثي باستقلالية ومسؤولية، ملتزمًا بخطة الإنجاز، ومبادرًا إلى معالجة الملاحظات، ومتعاونًا بفاعلية وقيادة في الحلقات البحثية.",
+              "source_status": "present",
+              "assessment": "تقييم ملف المشروع البحثي بسلم تقدير منفصل لكل ناتج",
+              "assessment_source_page": 4,
+              "plo_mappings": [
+                {
+                  "scope": {
+                    "program": "الدراسات القرآنية المعاصرة",
+                    "degree": "ماجستير",
+                    "plan_type": "جديدة",
+                    "version": "1"
+                  },
+                  "plo_codes": [
+                    "ق2"
+                  ],
+                  "status": "mapped",
+                  "confidence": "high",
+                  "source_page": 4,
+                  "evidence": "جدول CLO المحدث في assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf SHA256=01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3 ص4؛ خلية واحدة ضمن المجال نفسه، بتوجيه المستخدم."
+                }
+              ],
+              "document_plo_codes": [
+                "ق2"
+              ],
+              "confidence": "high",
+              "source_page": 4,
+              "extraction_method": "verified_visual_pdf"
+            }
+          ],
+          "evidence": "مراجعة Word وPDF المطابقين للبصمة SHA256=01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3؛ assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf صفحات CLO [4] وصفحات التقويم [5]. تصحيح القراءة الآلية للصفوف المستمرة وجدول الأوزان من المصدر المؤلف المحدث؛ لا تحويل لدرجات سابقة.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-10-15"
+        },
+        {
+          "field": "assessment_plan",
+          "value": [
+            {
+              "label": "تقييم ملف المشروع البحثي وفق سلالم تقدير مستقلة للنواتج",
+              "weight": 100,
+              "source_page": 5,
+              "confidence": "high"
+            }
+          ],
+          "evidence": "مراجعة Word وPDF المطابقين للبصمة SHA256=01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3؛ assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf صفحات CLO [4] وصفحات التقويم [5]. تصحيح القراءة الآلية للصفوف المستمرة وجدول الأوزان من المصدر المؤلف المحدث؛ لا تحويل لدرجات سابقة.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-10-15"
+        },
+        {
+          "field": "assessment_plan_total",
+          "value": 100,
+          "evidence": "مراجعة Word وPDF المطابقين للبصمة SHA256=01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3؛ assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf صفحات CLO [4] وصفحات التقويم [5]. تصحيح القراءة الآلية للصفوف المستمرة وجدول الأوزان من المصدر المؤلف المحدث؛ لا تحويل لدرجات سابقة.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-10-15"
+        },
+        {
+          "field": "assessment_plan_complete",
+          "value": true,
+          "evidence": "مراجعة Word وPDF المطابقين للبصمة SHA256=01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3؛ assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf صفحات CLO [4] وصفحات التقويم [5]. تصحيح القراءة الآلية للصفوف المستمرة وجدول الأوزان من المصدر المؤلف المحدث؛ لا تحويل لدرجات سابقة.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-10-15"
+        },
+        {
+          "field": "source_clo_row_count",
+          "value": 7,
+          "evidence": "مراجعة Word وPDF المطابقين للبصمة SHA256=01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3؛ assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf صفحات CLO [4] وصفحات التقويم [5]. تصحيح القراءة الآلية للصفوف المستمرة وجدول الأوزان من المصدر المؤلف المحدث؛ لا تحويل لدرجات سابقة.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-10-15"
+        },
+        {
+          "field": "captured_clo_row_count",
+          "value": 7,
+          "evidence": "مراجعة Word وPDF المطابقين للبصمة SHA256=01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3؛ assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf صفحات CLO [4] وصفحات التقويم [5]. تصحيح القراءة الآلية للصفوف المستمرة وجدول الأوزان من المصدر المؤلف المحدث؛ لا تحويل لدرجات سابقة.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-10-15"
+        }
+      ],
+      "source_alignment": {
+        "status": "corrected_from_source_pdf",
+        "label_ar": "طابق المراجع المصدر المحدث وصحح الصفوف المستمرة والأوزان",
+        "source_sha256": "01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3",
+        "correction_applied": true,
+        "source_update_recommended": false
+      },
+      "source_review": {
+        "status": "accepted_as_is",
+        "finding": "نواتج المصدر المحدث مصححة أكاديميًا: ربط أحادي في المجال نفسه؛ راجعنا جميع الصفوف وأوزان التقويم بصريًا وبمطابقة Word. النسخة التشغيلية الجديدة لا تعيد ترميز درجات تاريخية.",
+        "evidence": {
+          "file": "assets/course-specifications/quranic-master-single-domain-20261015/courses/2002888-4/course-specification.pdf",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "review_method": "Rendered PDF and editable Word row comparison; original non-CLO content retained as source-page images; all CLO/assessment rows reviewed",
+          "sha256_verified": true
+        },
+        "reviewed_at": "2026-10-15",
+        "source_sha256": "01d2057142e2fef14fc58e5d7b713424d0fca2eac0b8b818b7fa7b4c27ffe6e3"
+      }
+    }
+  ]
+}

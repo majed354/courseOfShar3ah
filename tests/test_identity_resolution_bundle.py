@@ -236,7 +236,8 @@ class IdentityResolutionBundleTest(unittest.TestCase):
         self.assertEqual("20022250-2", bachelor["specification_code"])
         self.assertEqual("2002851-4", master["specification_code"])
         self.assertEqual("verified", bachelor["match_status"])
-        self.assertEqual("verified", master["match_status"])
+        self.assertEqual("adapted_verified", master["match_status"])
+        self.assertIn("quranic-master-single-domain-20261015", master["pdf_url"])
 
     def test_master_usul_hours_are_internally_consistent(self):
         path = (
