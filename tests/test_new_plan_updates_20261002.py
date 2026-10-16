@@ -80,6 +80,9 @@ class NewPlanUpdatesTest(unittest.TestCase):
         for code,course in self.baseline['courses'].items():
             if code not in target_codes:
                 current = copy.deepcopy(self.outcomes['courses'][code])
+                doctorate = load(ROOT / 'assets/course-specifications/quranic-doctorate-single-domain-20261016/previous-context.json')['course_outcomes']
+                if code in doctorate:
+                    current = copy.deepcopy(doctorate[code])
                 # Later authorised Master PLO revision preserves this batch's
                 # extraction; its scoped mappings are tested independently.
                 revision = json.loads((ROOT / 'assets/course-specifications/quranic-master-plo-update-20261015/alignment-decisions.json').read_text())

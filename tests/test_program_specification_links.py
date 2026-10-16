@@ -86,7 +86,7 @@ class ProgramSpecificationLinkTests(unittest.TestCase):
         ]
         self.assertEqual(20, len(linked_details))
         self.assertEqual(
-            193,
+            191,  # The authorised doctorate revision condensed eight outcomes into six.
             sum(len(details.get("learning_outcomes", [])) for details in linked_details),
         )
 

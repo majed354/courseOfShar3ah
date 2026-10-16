@@ -41,8 +41,10 @@ class MasterSingleDomainTests(unittest.TestCase):
         self.assertEqual(old['program_details']['learning_outcomes'],p['program_details']['learning_outcomes'])
         import subprocess
         baseline=json.loads(subprocess.check_output(['git','show',self.before['baseline_commit']+':course-outcomes.json'],cwd=ROOT))
+        doctorate=read(ROOT/'assets/course-specifications/quranic-doctorate-single-domain-20261016/previous-context.json')['course_outcomes']
         for code,course in baseline['courses'].items():
-            if code not in self.before['course_outcomes']:self.assertEqual(course,self.out['courses'][code])
+            if code in doctorate:self.assertEqual(course,doctorate[code])
+            elif code not in self.before['course_outcomes']:self.assertEqual(course,self.out['courses'][code])
             else:
                 old=[v for v in course['variants'] if not any(s['program']==self.cfg['program'] for s in v['scopes'])]
                 new=[v for v in self.out['courses'][code]['variants'] if not any(s['program']==self.cfg['program'] for s in v['scopes'])]

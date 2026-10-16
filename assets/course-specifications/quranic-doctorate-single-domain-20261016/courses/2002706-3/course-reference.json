@@ -1,0 +1,695 @@
+{
+  "variant_id": "fb3f50739816d33f4b0e074f8c9157bff08e1f327a8a5b4a6c941fec07ed463b",
+  "scopes": [
+    {
+      "program": "الدراسات القرآنية",
+      "degree": "دكتوراه",
+      "plan_type": "جديدة",
+      "version": "1"
+    }
+  ],
+  "catalog": {
+    "title": "النقد والتجديد في الدراسات القرآنية",
+    "summary": "يعرّف بمفهوم النقد في الدراسات القرآنية وتاريخه ومجالاته، ومفهوم التجديد في الدراسات القرآنية ومجالاته وأنواعه، مع التعريف بأبرز كتب النقد والتجديد.",
+    "specification_code": "2002706-3",
+    "match_status": "adapted_verified",
+    "match_note": "مراجعة مؤلفة بإذن المستخدم بتاريخ16 أكتوبر2026: ستة مخرجات بربط أحادي داخل المجال، مع حفظ مقررات الخطة الرسمية وساعاتها وأوزان أنشطة التقويم. لا يعاد ترميز درجات سابقة، ولا يُنسب اعتماد مجلس سابق إلى هذه المراجعة."
+  },
+  "source_pdf": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002706-3/course-specification.pdf",
+  "source_sha256": "32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb",
+  "extracted": {
+    "course_name": "النقد والتجديد في الدراسات القرآنية",
+    "course_name_metadata": {
+      "confidence": "high",
+      "source_page": 1,
+      "extraction_method": "geometric_pdf"
+    },
+    "clos": [
+      {
+        "code": "1.1",
+        "text": null,
+        "source_status": "unreadable",
+        "assessment": "أسئلة تحليلية في الاختبارات التحريرية؛ تحليل النصوّص وحلقات النقاش",
+        "plo_mappings": [
+          {
+            "scope": {
+              "program": "الدراسات القرآنية",
+              "degree": "دكتوراه",
+              "plan_type": "جديدة",
+              "version": "1"
+            },
+            "plo_codes": [
+              "ع1"
+            ],
+            "status": "mapped",
+            "confidence": "high",
+            "source_page": 4,
+            "evidence": "single exact PLO code read geometrically from the PDF cell"
+          }
+        ],
+        "document_plo_codes": [
+          "ع1"
+        ],
+        "confidence": "low",
+        "source_page": 4,
+        "extraction_method": "geometric_pdf",
+        "assessment_source_page": 4
+      },
+      {
+        "code": "1.2",
+        "text": null,
+        "source_status": "unreadable",
+        "assessment": "أسئلة نقد المصادر والترجيح في الاختبارات؛ التحليل المقارن ونقد الأدلة",
+        "plo_mappings": [
+          {
+            "scope": {
+              "program": "الدراسات القرآنية",
+              "degree": "دكتوراه",
+              "plan_type": "جديدة",
+              "version": "1"
+            },
+            "plo_codes": [
+              "ع2"
+            ],
+            "status": "mapped",
+            "confidence": "high",
+            "source_page": 4,
+            "evidence": "single exact PLO code read geometrically from the PDF cell"
+          }
+        ],
+        "document_plo_codes": [
+          "ع2"
+        ],
+        "confidence": "low",
+        "source_page": 4,
+        "extraction_method": "geometric_pdf",
+        "assessment_source_page": 4
+      },
+      {
+        "code": "2.1",
+        "text": null,
+        "source_status": "unreadable",
+        "assessment": "تقرير بحثي وعرض علمي بمحكات الأصالة والمنهج؛ التعلم بالبحث والمناقشة العلمية",
+        "plo_mappings": [
+          {
+            "scope": {
+              "program": "الدراسات القرآنية",
+              "degree": "دكتوراه",
+              "plan_type": "جديدة",
+              "version": "1"
+            },
+            "plo_codes": [
+              "م1"
+            ],
+            "status": "mapped",
+            "confidence": "high",
+            "source_page": 4,
+            "evidence": "single exact PLO code read geometrically from the PDF cell"
+          }
+        ],
+        "document_plo_codes": [
+          "م1"
+        ],
+        "confidence": "low",
+        "source_page": 4,
+        "extraction_method": "geometric_pdf",
+        "assessment_source_page": 4
+      },
+      {
+        "code": "2.2",
+        "text": null,
+        "source_status": "unreadable",
+        "assessment": "مهمة تطبيقية ضمن التقرير والعرض بمحكات التوّثيق؛ ورش التحقيق والبحث الرقمي",
+        "plo_mappings": [
+          {
+            "scope": {
+              "program": "الدراسات القرآنية",
+              "degree": "دكتوراه",
+              "plan_type": "جديدة",
+              "version": "1"
+            },
+            "plo_codes": [
+              "م2"
+            ],
+            "status": "mapped",
+            "confidence": "high",
+            "source_page": 4,
+            "evidence": "single exact PLO code read geometrically from the PDF cell"
+          }
+        ],
+        "document_plo_codes": [
+          "م2"
+        ],
+        "confidence": "low",
+        "source_page": 4,
+        "extraction_method": "geometric_pdf",
+        "assessment_source_page": 4
+      },
+      {
+        "code": "3.1",
+        "text": null,
+        "source_status": "unreadable",
+        "assessment": "القدوة العلمية والمراجعة المتبادلة",
+        "plo_mappings": [
+          {
+            "scope": {
+              "program": "الدراسات القرآنية",
+              "degree": "دكتوراه",
+              "plan_type": "جديدة",
+              "version": "1"
+            },
+            "plo_codes": [
+              "ق1"
+            ],
+            "status": "mapped",
+            "confidence": "high",
+            "source_page": 5,
+            "evidence": "single exact PLO code read geometrically from the PDF cell"
+          }
+        ],
+        "document_plo_codes": [
+          "ق1"
+        ],
+        "confidence": "low",
+        "source_page": 5,
+        "extraction_method": "geometric_pdf",
+        "assessment_source_page": 5
+      },
+      {
+        "code": "3.2",
+        "text": null,
+        "source_status": "unreadable",
+        "assessment": "محك مستقل للمسؤولية والقيادة والتعاون في العرض والمناقشة",
+        "plo_mappings": [
+          {
+            "scope": {
+              "program": "الدراسات القرآنية",
+              "degree": "دكتوراه",
+              "plan_type": "جديدة",
+              "version": "1"
+            },
+            "plo_codes": [
+              "ق2"
+            ],
+            "status": "mapped",
+            "confidence": "high",
+            "source_page": 5,
+            "evidence": "single exact PLO code read geometrically from the PDF cell"
+          }
+        ],
+        "document_plo_codes": [
+          "ق2"
+        ],
+        "confidence": "low",
+        "source_page": 5,
+        "extraction_method": "geometric_pdf",
+        "assessment_source_page": 5
+      }
+    ],
+    "assessment_plan": [
+      {
+        "label": "المناقشات",
+        "weight": 5,
+        "source_page": 6,
+        "confidence": "high"
+      },
+      {
+        "label": "اختبار قصير",
+        "weight": 5,
+        "source_page": 6,
+        "confidence": "high"
+      },
+      {
+        "label": "الاختبار الن^صفي الت `حريري",
+        "weight": 30,
+        "source_page": 6,
+        "confidence": "high"
+      },
+      {
+        "label": "الت `قارير",
+        "weight": 5,
+        "source_page": 6,
+        "confidence": "high"
+      },
+      {
+        "label": "العروض",
+        "weight": 5,
+        "source_page": 7,
+        "confidence": "high"
+      },
+      {
+        "label": "الاختبار الن`هائي الت `حريري",
+        "weight": 50,
+        "source_page": 7,
+        "confidence": "high"
+      }
+    ],
+    "assessment_plan_total": 100,
+    "assessment_plan_complete": true,
+    "source_status": "unreadable",
+    "source_clo_row_count": 6,
+    "captured_clo_row_count": 6,
+    "warnings": [
+      {
+        "code": "cid_removed",
+        "message": "removed 93 unmapped CID token(s); they were treated as whitespace",
+        "source_page": 4
+      },
+      {
+        "code": "cid_removed",
+        "message": "removed 18 unmapped CID token(s) before parsing",
+        "source_page": 4,
+        "clo_code": "1.1"
+      },
+      {
+        "code": "cid_removed",
+        "message": "removed 23 unmapped CID token(s) before parsing",
+        "source_page": 4,
+        "clo_code": "1.2"
+      },
+      {
+        "code": "cid_removed",
+        "message": "removed 23 unmapped CID token(s) before parsing",
+        "source_page": 4,
+        "clo_code": "2.1"
+      },
+      {
+        "code": "cid_removed",
+        "message": "removed 29 unmapped CID token(s) before parsing",
+        "source_page": 4,
+        "clo_code": "2.2"
+      },
+      {
+        "code": "clo_text_unreadable",
+        "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=cid; font=too_short; ocr=too_short)",
+        "source_page": 4,
+        "clo_code": "1.1",
+        "clo_index": 0
+      },
+      {
+        "code": "clo_text_unreadable",
+        "message": "the published CLO row was captured, but its outcome text could not be read reliably",
+        "source_page": 4,
+        "clo_code": "1.1",
+        "clo_index": 0
+      },
+      {
+        "code": "clo_text_unreadable",
+        "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=cid; font=too_short; ocr=too_short)",
+        "source_page": 4,
+        "clo_code": "1.2",
+        "clo_index": 1
+      },
+      {
+        "code": "clo_text_unreadable",
+        "message": "the published CLO row was captured, but its outcome text could not be read reliably",
+        "source_page": 4,
+        "clo_code": "1.2",
+        "clo_index": 1
+      },
+      {
+        "code": "clo_text_unreadable",
+        "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=cid; font=too_short; ocr=too_short)",
+        "source_page": 4,
+        "clo_code": "2.1",
+        "clo_index": 2
+      },
+      {
+        "code": "clo_text_unreadable",
+        "message": "the published CLO row was captured, but its outcome text could not be read reliably",
+        "source_page": 4,
+        "clo_code": "2.1",
+        "clo_index": 2
+      },
+      {
+        "code": "clo_text_unreadable",
+        "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=cid; font=too_short; ocr=too_short)",
+        "source_page": 4,
+        "clo_code": "2.2",
+        "clo_index": 3
+      },
+      {
+        "code": "clo_text_unreadable",
+        "message": "the published CLO row was captured, but its outcome text could not be read reliably",
+        "source_page": 4,
+        "clo_code": "2.2",
+        "clo_index": 3
+      },
+      {
+        "code": "cid_removed",
+        "message": "removed 30 unmapped CID token(s); they were treated as whitespace",
+        "source_page": 5
+      },
+      {
+        "code": "cid_removed",
+        "message": "removed 8 unmapped CID token(s) before parsing",
+        "source_page": 5,
+        "clo_code": "3.1"
+      },
+      {
+        "code": "cid_removed",
+        "message": "removed 22 unmapped CID token(s) before parsing",
+        "source_page": 5,
+        "clo_code": "3.2"
+      },
+      {
+        "code": "clo_text_unreadable",
+        "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=cid; font=too_short; ocr=too_short)",
+        "source_page": 5,
+        "clo_code": "3.1",
+        "clo_index": 4
+      },
+      {
+        "code": "clo_text_unreadable",
+        "message": "the published CLO row was captured, but its outcome text could not be read reliably",
+        "source_page": 5,
+        "clo_code": "3.1",
+        "clo_index": 4
+      },
+      {
+        "code": "clo_text_unreadable",
+        "message": "CLO text was left null after embedded-font and targeted OCR checks (vector=cid; font=too_short; ocr=too_short)",
+        "source_page": 5,
+        "clo_code": "3.2",
+        "clo_index": 5
+      },
+      {
+        "code": "clo_text_unreadable",
+        "message": "the published CLO row was captured, but its outcome text could not be read reliably",
+        "source_page": 5,
+        "clo_code": "3.2",
+        "clo_index": 5
+      }
+    ],
+    "extraction_status": "complete",
+    "page_count": 8
+  },
+  "overrides": [
+    {
+      "field": "course_name",
+      "value": "النقد والتجديد في الدراسات القرآنية",
+      "evidence": "Word/PDF source bytes preserved; SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb; CLO pages4–5, assessment pages6–7, cover1; all8 pages reviewed. Authored table and original assessment weights match; no historical grades changed.",
+      "policy": "verified_extraction_correction_matches_source",
+      "reviewed_at": "2026-10-16"
+    },
+    {
+      "field": "course_name_metadata",
+      "value": {
+        "confidence": "high",
+        "source_page": 1,
+        "extraction_method": "geometric_pdf_ocr_consensus"
+      },
+      "evidence": "Word/PDF source bytes preserved; SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb; CLO pages4–5, assessment pages6–7, cover1; all8 pages reviewed. Authored table and original assessment weights match; no historical grades changed.",
+      "policy": "verified_extraction_correction_matches_source",
+      "reviewed_at": "2026-10-16"
+    },
+    {
+      "field": "clos",
+      "value": [
+        {
+          "code": "1.1",
+          "text": "يقوّم مناهج النقد والتجديد في الدراسات القرآنية.",
+          "source_status": "present",
+          "assessment": "أسئلة تحليلية في الاختبارات التحريرية",
+          "assessment_source_page": 4,
+          "plo_mappings": [
+            {
+              "scope": {
+                "program": "الدراسات القرآنية",
+                "degree": "دكتوراه",
+                "plan_type": "جديدة",
+                "version": "1"
+              },
+              "plo_codes": [
+                "ع1"
+              ],
+              "status": "mapped",
+              "confidence": "high",
+              "source_page": 4,
+              "evidence": "User-authored source PDF SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb page 4; matched Word table and reviewed PDF"
+            }
+          ],
+          "document_plo_codes": [
+            "ع1"
+          ],
+          "confidence": "high",
+          "source_page": 4,
+          "extraction_method": "hash_matched_manifest"
+        },
+        {
+          "code": "1.2",
+          "text": "يحلل أصول الاتجاهات المعاصرة وأدلتها في تفسير القرآن.",
+          "source_status": "present",
+          "assessment": "أسئلة نقد المصادر والترجيح في الاختبارات",
+          "assessment_source_page": 4,
+          "plo_mappings": [
+            {
+              "scope": {
+                "program": "الدراسات القرآنية",
+                "degree": "دكتوراه",
+                "plan_type": "جديدة",
+                "version": "1"
+              },
+              "plo_codes": [
+                "ع2"
+              ],
+              "status": "mapped",
+              "confidence": "high",
+              "source_page": 4,
+              "evidence": "User-authored source PDF SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb page 4; matched Word table and reviewed PDF"
+            }
+          ],
+          "document_plo_codes": [
+            "ع2"
+          ],
+          "confidence": "high",
+          "source_page": 4,
+          "extraction_method": "hash_matched_manifest"
+        },
+        {
+          "code": "2.1",
+          "text": "ينجز دراسة نقدية تعالج إشكالًا معاصرًا في الدراسات القرآنية.",
+          "source_status": "present",
+          "assessment": "تقرير بحثي وعرض علمي بمحكات الأصالة والمنهج",
+          "assessment_source_page": 4,
+          "plo_mappings": [
+            {
+              "scope": {
+                "program": "الدراسات القرآنية",
+                "degree": "دكتوراه",
+                "plan_type": "جديدة",
+                "version": "1"
+              },
+              "plo_codes": [
+                "م1"
+              ],
+              "status": "mapped",
+              "confidence": "high",
+              "source_page": 4,
+              "evidence": "User-authored source PDF SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb page 4; matched Word table and reviewed PDF"
+            }
+          ],
+          "document_plo_codes": [
+            "م1"
+          ],
+          "confidence": "high",
+          "source_page": 4,
+          "extraction_method": "hash_matched_manifest"
+        },
+        {
+          "code": "2.2",
+          "text": "يوظف المصادر الرقمية في توثيق الاتجاهات التفسيرية وتحليلها.",
+          "source_status": "present",
+          "assessment": "مهمة تطبيقية ضمن التقرير والعرض بمحكات التوثيق والتحقيق",
+          "assessment_source_page": 4,
+          "plo_mappings": [
+            {
+              "scope": {
+                "program": "الدراسات القرآنية",
+                "degree": "دكتوراه",
+                "plan_type": "جديدة",
+                "version": "1"
+              },
+              "plo_codes": [
+                "م2"
+              ],
+              "status": "mapped",
+              "confidence": "high",
+              "source_page": 4,
+              "evidence": "User-authored source PDF SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb page 4; matched Word table and reviewed PDF"
+            }
+          ],
+          "document_plo_codes": [
+            "م2"
+          ],
+          "confidence": "high",
+          "source_page": 4,
+          "extraction_method": "hash_matched_manifest"
+        },
+        {
+          "code": "3.1",
+          "text": "يلتزم الإنصاف والتوثيق العلمي عند نقد الاتجاهات والآراء.",
+          "source_status": "present",
+          "assessment": "محك مستقل للنزاهة والتوثيق في التقرير والمناقشة",
+          "assessment_source_page": 5,
+          "plo_mappings": [
+            {
+              "scope": {
+                "program": "الدراسات القرآنية",
+                "degree": "دكتوراه",
+                "plan_type": "جديدة",
+                "version": "1"
+              },
+              "plo_codes": [
+                "ق1"
+              ],
+              "status": "mapped",
+              "confidence": "high",
+              "source_page": 5,
+              "evidence": "User-authored source PDF SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb page 5; matched Word table and reviewed PDF"
+            }
+          ],
+          "document_plo_codes": [
+            "ق1"
+          ],
+          "confidence": "high",
+          "source_page": 5,
+          "extraction_method": "hash_matched_manifest"
+        },
+        {
+          "code": "3.2",
+          "text": "يقود مناقشة علمية تعاونية تقدم معالجة منضبطة لقضية قرآنية مجتمعية.",
+          "source_status": "present",
+          "assessment": "محك مستقل للمسؤولية والقيادة والتعاون في العرض والمناقشة",
+          "assessment_source_page": 5,
+          "plo_mappings": [
+            {
+              "scope": {
+                "program": "الدراسات القرآنية",
+                "degree": "دكتوراه",
+                "plan_type": "جديدة",
+                "version": "1"
+              },
+              "plo_codes": [
+                "ق2"
+              ],
+              "status": "mapped",
+              "confidence": "high",
+              "source_page": 5,
+              "evidence": "User-authored source PDF SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb page 5; matched Word table and reviewed PDF"
+            }
+          ],
+          "document_plo_codes": [
+            "ق2"
+          ],
+          "confidence": "high",
+          "source_page": 5,
+          "extraction_method": "hash_matched_manifest"
+        }
+      ],
+      "evidence": "Word/PDF source bytes preserved; SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb; CLO pages4–5, assessment pages6–7, cover1; all8 pages reviewed. Authored table and original assessment weights match; no historical grades changed.",
+      "policy": "verified_extraction_correction_matches_source",
+      "reviewed_at": "2026-10-16"
+    },
+    {
+      "field": "assessment_plan",
+      "value": [
+        {
+          "confidence": "high",
+          "label": "المناقشات",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "اختبار قصير",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النصفي التحريري",
+          "source_page": 6,
+          "weight": 30
+        },
+        {
+          "confidence": "high",
+          "label": "التقارير",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "العروض",
+          "source_page": 7,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 7,
+          "weight": 50
+        }
+      ],
+      "evidence": "Word/PDF source bytes preserved; SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb; CLO pages4–5, assessment pages6–7, cover1; all8 pages reviewed. Authored table and original assessment weights match; no historical grades changed.",
+      "policy": "verified_extraction_correction_matches_source",
+      "reviewed_at": "2026-10-16"
+    },
+    {
+      "field": "assessment_plan_total",
+      "value": 100,
+      "evidence": "Word/PDF source bytes preserved; SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb; CLO pages4–5, assessment pages6–7, cover1; all8 pages reviewed. Authored table and original assessment weights match; no historical grades changed.",
+      "policy": "verified_extraction_correction_matches_source",
+      "reviewed_at": "2026-10-16"
+    },
+    {
+      "field": "assessment_plan_complete",
+      "value": true,
+      "evidence": "Word/PDF source bytes preserved; SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb; CLO pages4–5, assessment pages6–7, cover1; all8 pages reviewed. Authored table and original assessment weights match; no historical grades changed.",
+      "policy": "verified_extraction_correction_matches_source",
+      "reviewed_at": "2026-10-16"
+    },
+    {
+      "field": "source_status",
+      "value": "present",
+      "evidence": "Word/PDF source bytes preserved; SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb; CLO pages4–5, assessment pages6–7, cover1; all8 pages reviewed. Authored table and original assessment weights match; no historical grades changed.",
+      "policy": "verified_extraction_correction_matches_source",
+      "reviewed_at": "2026-10-16"
+    },
+    {
+      "field": "extraction_status",
+      "value": "complete",
+      "evidence": "Word/PDF source bytes preserved; SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb; CLO pages4–5, assessment pages6–7, cover1; all8 pages reviewed. Authored table and original assessment weights match; no historical grades changed.",
+      "policy": "verified_extraction_correction_matches_source",
+      "reviewed_at": "2026-10-16"
+    },
+    {
+      "field": "source_clo_row_count",
+      "value": 6,
+      "evidence": "Word/PDF source bytes preserved; SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb; CLO pages4–5, assessment pages6–7, cover1; all8 pages reviewed. Authored table and original assessment weights match; no historical grades changed.",
+      "policy": "verified_extraction_correction_matches_source",
+      "reviewed_at": "2026-10-16"
+    },
+    {
+      "field": "captured_clo_row_count",
+      "value": 6,
+      "evidence": "Word/PDF source bytes preserved; SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb; CLO pages4–5, assessment pages6–7, cover1; all8 pages reviewed. Authored table and original assessment weights match; no historical grades changed.",
+      "policy": "verified_extraction_correction_matches_source",
+      "reviewed_at": "2026-10-16"
+    },
+    {
+      "field": "warnings",
+      "value": [],
+      "evidence": "Word/PDF source bytes preserved; SHA256=32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb; CLO pages4–5, assessment pages6–7, cover1; all8 pages reviewed. Authored table and original assessment weights match; no historical grades changed.",
+      "policy": "verified_extraction_correction_matches_source",
+      "reviewed_at": "2026-10-16"
+    }
+  ],
+  "source_alignment": {
+    "status": "corrected_from_source_pdf",
+    "label_ar": "مطابق للتوصيف المحدث بعد مراجعة الاستخراج",
+    "source_sha256": "32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb",
+    "correction_applied": true,
+    "source_update_recommended": false
+  }
+}

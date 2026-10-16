@@ -50,6 +50,9 @@ class CourseOutcomeReviewBatchTest(unittest.TestCase):
         # New CLO texts are a different source; never replay old source repairs onto them.
         master = json.loads((ROOT/'assets/course-specifications/quranic-master-single-domain-20261015/previous-context.json').read_text())
         master_retired_ids = {v['variant_id'] for c in master['course_outcomes'].values() for v in c['variants'] if any(x['program']=='الدراسات القرآنية المعاصرة' for x in v['scopes'])}
+        doctorate = json.loads((ROOT/'assets/course-specifications/quranic-doctorate-single-domain-20261016/previous-context.json').read_text())
+        # Rewritten academic outcomes are not successors for replaying old row-index repairs.
+        doctorate_retired_ids = {v['variant_id'] for c in doctorate['course_outcomes'].values() for v in c['variants']}
         paths = review_batch.reviewed_source_replacements()
         successors = review_batch.reviewed_variant_successors()
         return [
@@ -57,6 +60,7 @@ class CourseOutcomeReviewBatchTest(unittest.TestCase):
             for entry in manifest["entries"]
             if entry["course_code"] not in self.superseded_codes
             and entry["variant_id"] not in master_retired_ids
+            and entry["variant_id"] not in doctorate_retired_ids
             and successors.get((entry['course_code'],entry['variant_id'],entry['source_pdf']),{}).get('source_pdf',paths.get((entry['course_code'],entry['source_pdf']),entry['source_pdf'])) not in retired
         ]
 

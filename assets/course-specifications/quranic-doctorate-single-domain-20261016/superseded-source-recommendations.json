@@ -1,0 +1,34 @@
+[
+  {
+    "id": "4737f8270da482c6f33c59bbfd6d068ed7e087ca3783c2329b8a6e3ff3109715",
+    "course_code": "2002706-3",
+    "variant_id": "90d1c15ad6a2df6e717957332b2440c3210452c7721d9080083b2266a2460f82",
+    "fields": [
+      "clos[1.2].text",
+      "clos[1.2].plo_codes"
+    ],
+    "issue_code": "SOURCE_CLO_ROW_BLANK",
+    "message": "صف CLO 1.2 فارغ في نص الناتج وربط البرنامج داخل PDF.",
+    "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+    "source_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002706-3.pdf",
+    "source_sha256": "8921d323d4bd83160d78e3ca7d935d44f598798b634c3a49464eb941d393265d",
+    "status": "open",
+    "created_at": "2026-09-08"
+  },
+  {
+    "id": "7c99943a7cfcb31fb3da9430cb6b889ccb050fe54f11969d04193f7e31fc0385",
+    "course_code": "2002708-3",
+    "variant_id": "15badbbd093b2794bf0d65b2359de79939c4ff4ebdc132f0176df7b88a5bcf34",
+    "fields": [
+      "clos[2.5].text",
+      "clos[2.5].plo_codes"
+    ],
+    "issue_code": "SOURCE_CLO_ROW_BLANK",
+    "message": "صف CLO 2.5 فارغ في نص الناتج وربط البرنامج داخل PDF.",
+    "recommendation": "استكمال الصف المعتمد أو حذفه رسميًا من PDF، ثم إعادة الاستخراج والتحقق من البصمة.",
+    "source_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002708-3.pdf",
+    "source_sha256": "618d5af444faf8665436286c547abfa52d4124c66c38dcea2199b50c79d31e87",
+    "status": "open",
+    "created_at": "2026-09-08"
+  }
+]

@@ -1,0 +1,570 @@
+{
+  "program": "دكتوراه الدراسات القرآنية",
+  "discipline_code": "200283",
+  "educational_classification_code": "022103",
+  "degree": "دكتوراه",
+  "credits": 60,
+  "official_plan_sha256": "1105342202f56c60b10a48835d845dd89e26f04a9ec60e1d7db8280f8ff51dec",
+  "revision_date": "2026-10-16",
+  "outcomes": [
+    {
+      "code": "ع1",
+      "text": "يقوّم نقديًا مناهج التفسير وقضايا الدراسات القرآنية المعاصرة."
+    },
+    {
+      "code": "ع2",
+      "text": "يحلل مصادر التفسير ومروياته ومخطوطاته وفق أصول التفسير وقواعد نقد النصوص."
+    },
+    {
+      "code": "م1",
+      "text": "ينتج بحثًا أصيلًا في الدراسات القرآنية يقدم إضافة علمية بمنهج محكم."
+    },
+    {
+      "code": "م2",
+      "text": "يوظف أدوات التحقيق العلمي والبحث الرقمي في دراسة النصوص التفسيرية."
+    },
+    {
+      "code": "ق1",
+      "text": "يلتزم النزاهة العلمية وأخلاقيات البحث في إنتاج المعرفة القرآنية وتداولها."
+    },
+    {
+      "code": "ق2",
+      "text": "يقود عملًا علميًا تعاونيًا يسهم في خدمة الدراسات القرآنية والمجتمع."
+    }
+  ],
+  "courses": [
+    {
+      "code": "2002705-3",
+      "name": "التفسير المقارن",
+      "credits": 3,
+      "level": 1,
+      "prerequisites": [],
+      "source_docx": "التفسير المقارن.docx",
+      "original_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002705-3.pdf",
+      "original_sha256": "1fefbf23a61559412f06c3e3e628eb976fc5917b3c3810f51ee29dca1ecc0546",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "يحلل مناهج المفسرين وأسباب اختلافهم في المسائل التفسيرية.",
+          "plo_code": "ع1",
+          "teaching": "تحليل النصوص وحلقات النقاش",
+          "assessment": "أسئلة تحليلية في الاختبارات التحريرية",
+          "source_page": 4
+        },
+        {
+          "code": "1.2",
+          "text": "يقوّم أدلة الأقوال التفسيرية وفق قواعد الترجيح.",
+          "plo_code": "ع2",
+          "teaching": "التحليل المقارن ونقد الأدلة",
+          "assessment": "أسئلة نقد المصادر والترجيح في الاختبارات",
+          "source_page": 4
+        },
+        {
+          "code": "2.1",
+          "text": "ينجز دراسة تفسيرية مقارنة تبني ترجيحًا معللًا.",
+          "plo_code": "م1",
+          "teaching": "التعلم بالبحث والمناقشة العلمية",
+          "assessment": "تقرير بحثي وعرض علمي بمحكات الأصالة والمنهج",
+          "source_page": 4
+        },
+        {
+          "code": "2.2",
+          "text": "يوثق أقوال المفسرين وأدلتهم بأدوات البحث الرقمي.",
+          "plo_code": "م2",
+          "teaching": "ورش التحقيق والبحث الرقمي",
+          "assessment": "مهمة تطبيقية ضمن التقرير والعرض بمحكات التوثيق والتحقيق",
+          "source_page": 4
+        },
+        {
+          "code": "3.1",
+          "text": "يلتزم الأمانة العلمية في نقل الأقوال ونسبة الترجيحات.",
+          "plo_code": "ق1",
+          "teaching": "القدوة العلمية والمراجعة المتبادلة",
+          "assessment": "محك مستقل للنزاهة والتوثيق في التقرير والمناقشة",
+          "source_page": 5
+        },
+        {
+          "code": "3.2",
+          "text": "يتحمل مسؤولية دوره في عرض علمي تعاوني يوضح قضية تفسيرية.",
+          "plo_code": "ق2",
+          "teaching": "التعلم التعاوني وقيادة الأنشطة العلمية",
+          "assessment": "محك مستقل للمسؤولية والقيادة والتعاون في العرض والمناقشة",
+          "source_page": 5
+        }
+      ],
+      "matrix": {
+        "ع1": 3,
+        "ع2": 2,
+        "م1": 3,
+        "م2": 2,
+        "ق1": 3,
+        "ق2": 2
+      },
+      "assessment_plan": [
+        {
+          "confidence": "high",
+          "label": "المناقشات",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "اختبار قصير",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار الِنصفي التحريري",
+          "source_page": 6,
+          "weight": 30
+        },
+        {
+          "confidence": "high",
+          "label": "التقارير",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "العروض",
+          "source_page": 7,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 7,
+          "weight": 50
+        }
+      ],
+      "pdf": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002705-3/course-specification.pdf",
+      "pdf_sha256": "bb95b74a535b9150d4a4c13221ed55921bc6b4c9c1f0d89ac5076502ad7e89c3",
+      "docx": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002705-3/course-specification.docx",
+      "docx_sha256": "d5ff85da5a0020ee0fc10b99e65439f2f9ef34218db13e3b4a0bfe6e1b235388"
+    },
+    {
+      "code": "2002706-3",
+      "name": "النقد والتجديد في الدراسات القرآنية",
+      "credits": 3,
+      "level": 1,
+      "prerequisites": [],
+      "source_docx": "النقد والتجديد في الدراسات القرآنية.docx",
+      "original_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002706-3.pdf",
+      "original_sha256": "8921d323d4bd83160d78e3ca7d935d44f598798b634c3a49464eb941d393265d",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "يقوّم مناهج النقد والتجديد في الدراسات القرآنية.",
+          "plo_code": "ع1",
+          "teaching": "تحليل النصوص وحلقات النقاش",
+          "assessment": "أسئلة تحليلية في الاختبارات التحريرية",
+          "source_page": 4
+        },
+        {
+          "code": "1.2",
+          "text": "يحلل أصول الاتجاهات المعاصرة وأدلتها في تفسير القرآن.",
+          "plo_code": "ع2",
+          "teaching": "التحليل المقارن ونقد الأدلة",
+          "assessment": "أسئلة نقد المصادر والترجيح في الاختبارات",
+          "source_page": 4
+        },
+        {
+          "code": "2.1",
+          "text": "ينجز دراسة نقدية تعالج إشكالًا معاصرًا في الدراسات القرآنية.",
+          "plo_code": "م1",
+          "teaching": "التعلم بالبحث والمناقشة العلمية",
+          "assessment": "تقرير بحثي وعرض علمي بمحكات الأصالة والمنهج",
+          "source_page": 4
+        },
+        {
+          "code": "2.2",
+          "text": "يوظف المصادر الرقمية في توثيق الاتجاهات التفسيرية وتحليلها.",
+          "plo_code": "م2",
+          "teaching": "ورش التحقيق والبحث الرقمي",
+          "assessment": "مهمة تطبيقية ضمن التقرير والعرض بمحكات التوثيق والتحقيق",
+          "source_page": 4
+        },
+        {
+          "code": "3.1",
+          "text": "يلتزم الإنصاف والتوثيق العلمي عند نقد الاتجاهات والآراء.",
+          "plo_code": "ق1",
+          "teaching": "القدوة العلمية والمراجعة المتبادلة",
+          "assessment": "محك مستقل للنزاهة والتوثيق في التقرير والمناقشة",
+          "source_page": 5
+        },
+        {
+          "code": "3.2",
+          "text": "يقود مناقشة علمية تعاونية تقدم معالجة منضبطة لقضية قرآنية مجتمعية.",
+          "plo_code": "ق2",
+          "teaching": "التعلم التعاوني وقيادة الأنشطة العلمية",
+          "assessment": "محك مستقل للمسؤولية والقيادة والتعاون في العرض والمناقشة",
+          "source_page": 5
+        }
+      ],
+      "matrix": {
+        "ع1": 3,
+        "ع2": 2,
+        "م1": 3,
+        "م2": 2,
+        "ق1": 3,
+        "ق2": 3
+      },
+      "assessment_plan": [
+        {
+          "confidence": "high",
+          "label": "المناقشات",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "اختبار قصير",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النصفي التحريري",
+          "source_page": 6,
+          "weight": 30
+        },
+        {
+          "confidence": "high",
+          "label": "التقارير",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "العروض",
+          "source_page": 7,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 7,
+          "weight": 50
+        }
+      ],
+      "pdf": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002706-3/course-specification.pdf",
+      "pdf_sha256": "32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb",
+      "docx": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002706-3/course-specification.docx",
+      "docx_sha256": "93d9437c2bf8920d16c029128e5c1c6f48c7fa45cc3da9cbbcc05cdba5817e87"
+    },
+    {
+      "code": "2002707-3",
+      "name": "دراسات في نسخ التفسير وأسانيده",
+      "credits": 3,
+      "level": 1,
+      "prerequisites": [],
+      "source_docx": "دراسات في نسخ التفسير وأسانيده.docx",
+      "original_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002707-3.pdf",
+      "original_sha256": "c774efa8d3ed74cdfaf840fe63c6ef0a573db5c42281abacdb34f5c84a991659",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "يقارن مناهج العلماء في نقد نسخ التفسير وأسانيده.",
+          "plo_code": "ع1",
+          "teaching": "تحليل النصوص وحلقات النقاش",
+          "assessment": "أسئلة تحليلية في الاختبارات التحريرية",
+          "source_page": 4
+        },
+        {
+          "code": "1.2",
+          "text": "يقوّم موثوقية نسخ التفسير ومروياته وفق قواعد النقد.",
+          "plo_code": "ع2",
+          "teaching": "التحليل المقارن ونقد الأدلة",
+          "assessment": "أسئلة نقد المصادر والترجيح في الاختبارات",
+          "source_page": 4
+        },
+        {
+          "code": "2.1",
+          "text": "ينجز دراسة موثقة تكشف إشكالًا في نسخ التفسير أو أسانيده.",
+          "plo_code": "م1",
+          "teaching": "التعلم بالبحث والمناقشة العلمية",
+          "assessment": "تقرير بحثي وعرض علمي بمحكات الأصالة والمنهج",
+          "source_page": 4
+        },
+        {
+          "code": "2.2",
+          "text": "يحقق نصًا تفسيريًا محدودًا بمقابلة نسخه وتخريج مروياته.",
+          "plo_code": "م2",
+          "teaching": "ورش التحقيق والبحث الرقمي",
+          "assessment": "مهمة تطبيقية ضمن التقرير والعرض بمحكات التوثيق والتحقيق",
+          "source_page": 4
+        },
+        {
+          "code": "3.1",
+          "text": "يلتزم الأمانة والدقة في نسبة المرويات وإثبات الفروق بين النسخ.",
+          "plo_code": "ق1",
+          "teaching": "القدوة العلمية والمراجعة المتبادلة",
+          "assessment": "محك مستقل للنزاهة والتوثيق في التقرير والمناقشة",
+          "source_page": 5
+        },
+        {
+          "code": "3.2",
+          "text": "يتعاون بمسؤولية في إعداد مورد علمي ييسر الإفادة من نسخ التفسير.",
+          "plo_code": "ق2",
+          "teaching": "التعلم التعاوني وقيادة الأنشطة العلمية",
+          "assessment": "محك مستقل للمسؤولية والقيادة والتعاون في العرض والمناقشة",
+          "source_page": 5
+        }
+      ],
+      "matrix": {
+        "ع1": 2,
+        "ع2": 3,
+        "م1": 2,
+        "م2": 3,
+        "ق1": 3,
+        "ق2": 2
+      },
+      "assessment_plan": [
+        {
+          "confidence": "high",
+          "label": "المناقشات",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "اختبار قصير",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النصفي التحريري",
+          "source_page": 6,
+          "weight": 30
+        },
+        {
+          "confidence": "high",
+          "label": "التقارير",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "العروض",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 6,
+          "weight": 50
+        }
+      ],
+      "pdf": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002707-3/course-specification.pdf",
+      "pdf_sha256": "f92bb8d5d78cb34d57eef9d1768704a16d6d881f73248bbe988c8370e13b5ee8",
+      "docx": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002707-3/course-specification.docx",
+      "docx_sha256": "60e7144c9f41dc8633edb850d9de5b4643cdcf670c2bb7447a93dabe955579f8"
+    },
+    {
+      "code": "2002708-3",
+      "name": "دراسات في حواشي التفسير",
+      "credits": 3,
+      "level": 1,
+      "prerequisites": [],
+      "source_docx": "دراسات في حواشي التفسير.docx",
+      "original_pdf": "assets/course-specifications/local-gap-completion-20260822/quran-culture/2002708-3.pdf",
+      "original_sha256": "618d5af444faf8665436286c547abfa52d4124c66c38dcea2199b50c79d31e87",
+      "clos": [
+        {
+          "code": "1.1",
+          "text": "يقارن مناهج أصحاب الحواشي في معالجة المسائل التفسيرية.",
+          "plo_code": "ع1",
+          "teaching": "تحليل النصوص وحلقات النقاش",
+          "assessment": "أسئلة تحليلية في الاختبارات التحريرية",
+          "source_page": 4
+        },
+        {
+          "code": "1.2",
+          "text": "يحلل مصادر الحاشية التفسيرية وحججها وقيمتها العلمية.",
+          "plo_code": "ع2",
+          "teaching": "التحليل المقارن ونقد الأدلة",
+          "assessment": "أسئلة نقد المصادر والترجيح في الاختبارات",
+          "source_page": 4
+        },
+        {
+          "code": "2.1",
+          "text": "ينجز دراسة تطبيقية تعالج مسألة بحثية في حواشي التفسير.",
+          "plo_code": "م1",
+          "teaching": "التعلم بالبحث والمناقشة العلمية",
+          "assessment": "تقرير بحثي وعرض علمي بمحكات الأصالة والمنهج",
+          "source_page": 4
+        },
+        {
+          "code": "2.2",
+          "text": "يوظف أدوات التحقيق والبحث الرقمي في دراسة نص من حواشي التفسير.",
+          "plo_code": "م2",
+          "teaching": "ورش التحقيق والبحث الرقمي",
+          "assessment": "مهمة تطبيقية ضمن التقرير والعرض بمحكات التوثيق والتحقيق",
+          "source_page": 4
+        },
+        {
+          "code": "3.1",
+          "text": "يلتزم النزاهة العلمية واحترام آراء العلماء عند دراسة الحواشي.",
+          "plo_code": "ق1",
+          "teaching": "القدوة العلمية والمراجعة المتبادلة",
+          "assessment": "محك مستقل للنزاهة والتوثيق في التقرير والمناقشة",
+          "source_page": 5
+        },
+        {
+          "code": "3.2",
+          "text": "يقود إعداد مادة علمية تعاونية تيسر الإفادة المجتمعية من حواشي التفسير.",
+          "plo_code": "ق2",
+          "teaching": "التعلم التعاوني وقيادة الأنشطة العلمية",
+          "assessment": "محك مستقل للمسؤولية والقيادة والتعاون في العرض والمناقشة",
+          "source_page": 5
+        }
+      ],
+      "matrix": {
+        "ع1": 2,
+        "ع2": 3,
+        "م1": 2,
+        "م2": 3,
+        "ق1": 3,
+        "ق2": 3
+      },
+      "assessment_plan": [
+        {
+          "confidence": "high",
+          "label": "المناقشات",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "اختبار قصير",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النصفي التحريري",
+          "source_page": 6,
+          "weight": 30
+        },
+        {
+          "confidence": "high",
+          "label": "التقارير",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "العروض",
+          "source_page": 6,
+          "weight": 5
+        },
+        {
+          "confidence": "high",
+          "label": "الاختبار النهائي التحريري",
+          "source_page": 7,
+          "weight": 50
+        }
+      ],
+      "pdf": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002708-3/course-specification.pdf",
+      "pdf_sha256": "9f09a116c9613463f1d9e81023d1810fed085d4894f8d051f32e865bf6e6f9b4",
+      "docx": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002708-3/course-specification.docx",
+      "docx_sha256": "76296d6b2ec26e3b8eff8f4bf7dc467bf3a6ad5015239941f0d9de03643da58a"
+    }
+  ],
+  "comprehensive_exam": {
+    "code": "20029999-0",
+    "name": "الاختبار الشامل",
+    "credits": 0,
+    "workload_hours": 5,
+    "level": 2,
+    "prerequisites": [
+      "2002705-3",
+      "2002706-3",
+      "2002707-3",
+      "2002708-3"
+    ],
+    "matrix": {
+      "ع1": 2,
+      "ع2": 2,
+      "م1": 2,
+      "م2": 2
+    }
+  },
+  "thesis": {
+    "code": "2002709-48",
+    "name": "الرسالة",
+    "credits": 48,
+    "level": 3,
+    "prerequisites": [
+      "20029999-0"
+    ],
+    "matrix": {
+      "ع1": 3,
+      "ع2": 3,
+      "م1": 3,
+      "م2": 3,
+      "ق1": 3,
+      "ق2": 3
+    },
+    "clos": [
+      {
+        "code": "1.1",
+        "text": "يقوّم نقديًا مناهج التفسير وقضايا الدراسات القرآنية المعاصرة.",
+        "plo_code": "ع1",
+        "indicator": "عمق المقارنة النقدية بين المناهج ودقة معالجة القضايا التفسيرية."
+      },
+      {
+        "code": "1.2",
+        "text": "يحلل مصادر التفسير ومروياته ومخطوطاته وفق أصول التفسير وقواعد نقد النصوص.",
+        "plo_code": "ع2",
+        "indicator": "سلامة نقد المصادر والمرويات والنسخ وبناء الاستدلال عليها."
+      },
+      {
+        "code": "2.1",
+        "text": "ينتج بحثًا أصيلًا في الدراسات القرآنية يقدم إضافة علمية بمنهج محكم.",
+        "plo_code": "م1",
+        "indicator": "وضوح الإضافة العلمية وأصالتها واتساق المنهج والنتائج."
+      },
+      {
+        "code": "2.2",
+        "text": "يوظف أدوات التحقيق العلمي والبحث الرقمي في دراسة النصوص التفسيرية.",
+        "plo_code": "م2",
+        "indicator": "سلامة التحقيق والتوثيق وكفاءة استخدام أدوات البحث الرقمي."
+      },
+      {
+        "code": "3.1",
+        "text": "يلتزم النزاهة العلمية وأخلاقيات البحث في إنتاج المعرفة القرآنية وتداولها.",
+        "plo_code": "ق1",
+        "indicator": "دقة العزو والأمانة في النقل واحترام الحقوق والإفصاح عن المساعدة."
+      },
+      {
+        "code": "3.2",
+        "text": "يقود عملًا علميًا تعاونيًا يسهم في خدمة الدراسات القرآنية والمجتمع.",
+        "plo_code": "ق2",
+        "indicator": "استقلالية القرار البحثي وقيادة الإسهام العلمي والتعاون المسؤول."
+      }
+    ]
+  },
+  "targets": {
+    "direct": 0.8,
+    "indirect": 4,
+    "composite": 0.8
+  },
+  "weights": {
+    "direct": 0.8,
+    "indirect": 0.2
+  },
+  "academic_approval": {
+    "body": "مجلس قسم القراءات",
+    "session": "",
+    "date": ""
+  },
+  "historical_grades_relabelled": false,
+  "program_pdf_sha256": "3c72c9847429b8a0ac648a8b76586873ab065c4e1b549b9e31321f01f1de5ea5",
+  "program_docx_sha256": "574d13859d2ca1d84768b4b0aad9d7a3db51e90fbdbcf2f64c7cb22de313f431",
+  "program_pdf": "assets/course-specifications/quranic-doctorate-single-domain-20261016/program-specification.pdf",
+  "program_docx": "assets/course-specifications/quranic-doctorate-single-domain-20261016/program-specification.docx"
+}

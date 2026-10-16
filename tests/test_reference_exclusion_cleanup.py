@@ -53,6 +53,11 @@ class ReferenceExclusionCleanupTest(unittest.TestCase):
                 SHARED_BLANK_MANIFEST.read_text(encoding="utf-8")
             )["records"]
         }
+        doctorate = json.loads((ROOT / 'assets/course-specifications/quranic-doctorate-single-domain-20261016/previous-context.json').read_text())
+        for code, course in doctorate['course_outcomes'].items():
+            updated = next(v['pdf_url'] for v in self.data['course_details'][code]['variants'] if any(s['program'] == 'الدراسات القرآنية' and s['degree'] == 'دكتوراه' for s in v['scopes']))
+            for prior in course['variants']:
+                final_route[prior['source_pdf']] = updated
         for record in self.manifest["records"]:
             self.assertIn(
                 final_route.get(record["path"], record["path"]),

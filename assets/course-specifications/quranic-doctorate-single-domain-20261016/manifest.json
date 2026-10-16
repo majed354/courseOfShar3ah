@@ -1,0 +1,97 @@
+{
+  "schema_version": "doctorate-quranic-publication-v1",
+  "published_on": "2026-10-16",
+  "program_source_sha256": "3c72c9847429b8a0ac648a8b76586873ab065c4e1b549b9e31321f01f1de5ea5",
+  "official_plan_sha256": "1105342202f56c60b10a48835d845dd89e26f04a9ec60e1d7db8280f8ff51dec",
+  "source_bytes_preserved": true,
+  "credits": 60,
+  "program_outcomes": 6,
+  "course_outcomes": 24,
+  "thesis_outcomes": 6,
+  "matrix_links": 34,
+  "mastery_links": 20,
+  "historical_grades_changed": false,
+  "institutional_approval_claimed": false,
+  "files": [
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/course-outcomes.json",
+      "sha256": "d1fa845d8619c5af244cc7d8df710a87c69332a7a3fae5484d5bdc6e36a60b85"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002705-3/course-reference.json",
+      "sha256": "4022aff583afdf2f8aa5959f6c54f68ede2da254c2cb44fcced52b3239d2a66c"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002705-3/course-specification.docx",
+      "sha256": "d5ff85da5a0020ee0fc10b99e65439f2f9ef34218db13e3b4a0bfe6e1b235388"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002705-3/course-specification.pdf",
+      "sha256": "bb95b74a535b9150d4a4c13221ed55921bc6b4c9c1f0d89ac5076502ad7e89c3"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002706-3/course-reference.json",
+      "sha256": "9354acf90db912623929cb58063cbe6b6c50113cf44eeb7e94d0f745288f99f0"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002706-3/course-specification.docx",
+      "sha256": "93d9437c2bf8920d16c029128e5c1c6f48c7fa45cc3da9cbbcc05cdba5817e87"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002706-3/course-specification.pdf",
+      "sha256": "32251759bdc6125440d1624104c45ec34e09e29c2501486456e09f5ea6fc44bb"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002707-3/course-reference.json",
+      "sha256": "a48929553e3bd629e60ad47b9541b8483230bf6c434be0fab1748738bedb061e"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002707-3/course-specification.docx",
+      "sha256": "60e7144c9f41dc8633edb850d9de5b4643cdcf670c2bb7447a93dabe955579f8"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002707-3/course-specification.pdf",
+      "sha256": "f92bb8d5d78cb34d57eef9d1768704a16d6d881f73248bbe988c8370e13b5ee8"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002708-3/course-reference.json",
+      "sha256": "f3b7db6f8eb10dd7bca66e84aef8e572db20a4066c197cff0e66d8203ff74aea"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002708-3/course-specification.docx",
+      "sha256": "76296d6b2ec26e3b8eff8f4bf7dc467bf3a6ad5015239941f0d9de03643da58a"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/courses/2002708-3/course-specification.pdf",
+      "sha256": "9f09a116c9613463f1d9e81023d1810fed085d4894f8d051f32e865bf6e6f9b4"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/official-curriculum.pdf",
+      "sha256": "1105342202f56c60b10a48835d845dd89e26f04a9ec60e1d7db8280f8ff51dec"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/previous-context.json",
+      "sha256": "e8838b01862e8f0ca8f9a01a3f649acd8676de2fcc3b4627c6b63598f33b88d7"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/program-reference.json",
+      "sha256": "db0162e9e7bdf483606a877f37ec75e2e552a98d9c0921e0798c3f340d1f53c3"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/program-specification.docx",
+      "sha256": "574d13859d2ca1d84768b4b0aad9d7a3db51e90fbdbcf2f64c7cb22de313f431"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/program-specification.pdf",
+      "sha256": "3c72c9847429b8a0ac648a8b76586873ab065c4e1b549b9e31321f01f1de5ea5"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/revision-decisions.json",
+      "sha256": "7f544e0ca4335d3f8d32f5a21cee8a5942fbed505489250b916951dee0415a69"
+    },
+    {
+      "path": "assets/course-specifications/quranic-doctorate-single-domain-20261016/superseded-source-recommendations.json",
+      "sha256": "a880208cbcc1038166d33bd9f6c5d68ab360a84d78189b05183be11f94769692"
+    }
+  ]
+}
