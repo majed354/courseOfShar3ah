@@ -1,6 +1,6 @@
 {
   "schema_version": "shared-program-json-alignment-v1",
-  "status": "followup_applied_pending_publication",
+  "status": "published_data_verified",
   "authored_at": "2026-10-16T16:32:22+03:00",
   "authority": {
     "user_requested_program_specific_json_variants": true,
@@ -119,7 +119,7 @@
     "source-reading-evidence.json": "6b3400c980a78b60bbe01fa857876ed7183458be4ab62a3fccdd54c76cbb3e80",
     "root-review-dispositions.json": "afab59b32dc6d76cb144bd3ae4454ea319b234f8e33ef6974748b41686bf77aa",
     "previous-context.json": "2f2c747f51f67cefde81ee60f11fde5db4e61690dcceac3dd25ea4a879786589",
-    "deployment-verification.json": "f8f1d89a9a7a53780483574c332e4816782b1f4183eb577470522ab222582fd0",
+    "deployment-verification.json": "de4a6ef80a6b7da61593590b099e88da52c9d29a46e15192a4f72d84b293b9ea",
     "peer-reviews.json": "1e4cc896efa62e5369171c804796e472662621034aaa83f211f0c08f56aa8969",
     "alignment-decisions.json": "58864e33d4555a5daf817fcd72431ada38a45a578799922bffee227a7c920013",
     "legacy-replay-limitations.json": "63fc95a9f65b963ed3fba84157bfd9f4b66b02e0cfb099fc056fb5b83ecc0a51",
@@ -149,7 +149,17 @@
     "github_run_id": 38909629849,
     "github_conclusion": "success",
     "sha256_matched_files": 27,
-    "audit_receipt": "deployment-verification.json"
+    "audit_receipt": "deployment-verification.json",
+    "followup_2026_10_16": {
+      "status": "verified",
+      "data_commit_ref": "dd616ed5ae6a6d7f9d13bce17409f2a6777b58b6",
+      "netlify_deploy_id": "6ad24c9c186035068621df50",
+      "netlify_state": "ready",
+      "netlify_error_message": null,
+      "github_run_id": 38929930778,
+      "github_conclusion": "success",
+      "sha256_matched_files": 9
+    }
   },
   "remaining_alignment_gaps": {
     "total_unresolved_clo_scope_rows": 20,

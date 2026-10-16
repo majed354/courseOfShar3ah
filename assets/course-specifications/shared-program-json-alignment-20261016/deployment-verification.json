@@ -182,5 +182,82 @@
       }
     ]
   },
-  "note": "السجل يثبت نشر التزام البيانات أعلاه. إلحاق هذا السجل لاحقًا يغير ملفات التدقيق فقط، ولا يغير بايتات data.json أوcourse-outcomes.json أوPDF."
+  "note": "السجل يثبت نشر التزام البيانات أعلاه. إلحاق هذا السجل لاحقًا يغير ملفات التدقيق فقط، ولا يغير بايتات data.json أوcourse-outcomes.json أوPDF.",
+  "followup_2026_10_16": {
+    "data_commit_ref": "dd616ed5ae6a6d7f9d13bce17409f2a6777b58b6",
+    "netlify": {
+      "id": "6ad24c9c186035068621df50",
+      "state": "ready",
+      "commit_ref": "dd616ed5ae6a6d7f9d13bce17409f2a6777b58b6",
+      "error_message": null,
+      "published_at": "2026-10-16T16:11:27.431Z",
+      "context": "production"
+    },
+    "github": {
+      "run_id": 38929930778,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/majed354/courseOfShar3ah/actions/runs/38929930778"
+    },
+    "published_file_hash_check": {
+      "status": "passed",
+      "checked_file_count": 9,
+      "files": [
+        {
+          "path": "course-outcomes.json",
+          "sha256": "157c3a7dcbb4f23d79fbd09e7dd6e682c6573e71271b064c8355a6c933c18c99",
+          "bytes": 16608109,
+          "matches_local": true
+        },
+        {
+          "path": "data.json",
+          "sha256": "21546cc1b53700effe6bec1774a85aabb448e8960cd40aaed12f24537bd0192c",
+          "bytes": 1440416,
+          "matches_local": true
+        },
+        {
+          "path": "assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json",
+          "sha256": "58864e33d4555a5daf817fcd72431ada38a45a578799922bffee227a7c920013",
+          "bytes": 3773177,
+          "matches_local": true
+        },
+        {
+          "path": "assets/course-specifications/shared-program-json-alignment-20261016/remaining-alignment-gaps.json",
+          "sha256": "b4070e88244f10c2cb6b647ae464a2bfddf3bce655f5c646df24c7343f40c8cd",
+          "bytes": 19367,
+          "matches_local": true
+        },
+        {
+          "path": "assets/course-specifications/shared-program-json-alignment-20261016/manifest.json",
+          "sha256": "a7645639c6a55358596b163f045e31193c3f0c3d52ee54703e5aabed499ea867",
+          "bytes": 8138,
+          "matches_local": true
+        },
+        {
+          "path": "assets/course-specifications/shared-program-json-alignment-20261016/validation.json",
+          "sha256": "10ec8ddaad9607d6d4a4afcb808390eb6813c2cb4f2a0256d59002b1b9759398",
+          "bytes": 3369,
+          "matches_local": true
+        },
+        {
+          "path": "assets/course-specifications/shared-program-json-alignment-20261016/followup-review-decisions.json",
+          "sha256": "73e5e341a6e75792d0ea94645506b7bec09721b460e3a1cadc924baf8f9d8bf3",
+          "bytes": 1188613,
+          "matches_local": true
+        },
+        {
+          "path": "assets/course-specifications/shared-program-json-alignment-20261016/clo-text-completions.json",
+          "sha256": "35ebc0b310edec77356fdd1417b9984339d280197cea94a170f3aac5b0bfab6c",
+          "bytes": 45052,
+          "matches_local": true
+        },
+        {
+          "path": "assets/course-specifications/shared-program-json-alignment-20261016/program-plo-reference.json",
+          "sha256": "945eef1507a1c929035cbff29df8760d574b01ea333a1707dcac768f4122430c",
+          "bytes": 59655,
+          "matches_local": true
+        }
+      ]
+    }
+  }
 }
