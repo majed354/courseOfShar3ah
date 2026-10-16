@@ -51208,7 +51208,7 @@
         "version": "38"
       },
       "clo_index": 5,
-      "clo_code": "3.2",
+      "clo_code": "2.3",
       "clo_text_in_json": "أن يكتسب الطالب القدرة على التفاعل مع التشريعات الوطنية وبنود الاتفاقيات الدولية وأحكام الشريعة الإسلامية المتعلقة بحماية حقوق الإنسان وتفسيرها تفسيرا سليما لاستنباط الأحكام منها.",
       "original_mapping": {
         "confidence": "high",
@@ -51228,14 +51228,14 @@
       "program_source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9",
       "index": 5,
       "plo_code": "م1",
-      "rationale": "هذا الصف مطبوع برمز 3.2 داخل قسم المهارات؛ مضمونه التفاعل مع التشريعات والاتفاقيات وتفسيرها لاستنباط الأحكام، فيطابق تفسير النصوص القانونية. لم يغيّر رمز CLO.",
+      "rationale": "صف مهاري طُبع برمز 3.2 داخل قسم المهارات وأعيد ترميزه 2.3 بقرار اجتهادي موافقةً للتوصيف الآخر للمقرر نفسه؛ مضمونه التفاعل مع التشريعات والاتفاقيات وتفسيرها لاستنباط الأحكام، فيطابق م1 «تفسير النصوص القانونية تفسيراً سليماً».",
       "alignment_type": "direct",
       "confidence": "high",
       "selected_plo_text": "تفسير النصوص القانونية تفسيراً سليماً ويستنبط ما ينطبق منها على الوقائع محل البحث.",
       "selected_plo_pages": [
         5
       ],
-      "formal_domain_match": false,
+      "formal_domain_match": true,
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "change",
@@ -51252,6 +51252,11 @@
           "confidence": "high",
           "rationale": "هذا الصف مطبوع برمز3.2 داخل قسم المهارات؛ مضمونه التفاعل مع التشريعات والاتفاقيات وتفسيرها لاستنباط الأحكام، فيطابق تفسير النصوص القانونية. لم يغيّر رمزCLO."
         }
+      },
+      "pending_case": {
+        "round": "pending-cases-2026-10-16",
+        "previous_clo_code": "3.2",
+        "record": "assets/course-specifications/shared-program-json-alignment-20261016/pending-cases-decisions.json"
       }
     },
     {

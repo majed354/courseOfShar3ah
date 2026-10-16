@@ -54,6 +54,13 @@ class SharedProgramJsonAlignmentTests(unittest.TestCase):
             for item in load(BUNDLE / "gap-completions-by-judgment.json")["texts"]
         }
         cls.applied_judgment_rows = 0
+        # Authorised recodes of a printed CLO code («اجتهد فيها بنفسك إما تقليص المخرجات أو التعديل»).
+        cls.recodes = {
+            (item["variant_id"], item["clo_index"]): item["recode"]
+            for item in load(BUNDLE / "pending-cases-decisions.json")["decisions"]
+            if item.get("recode")
+        }
+        cls.applied_recodes = 0
 
     def test_lineage_is_complete_disjoint_and_has_one_program_per_child(self):
         by_parent = defaultdict(list)
@@ -110,9 +117,21 @@ class SharedProgramJsonAlignmentTests(unittest.TestCase):
                     # package may differ from the parent besides the mappings.
                     item = self.completions.get((key[0], child["source_pdf"], index))
                     changed = {"plo_mappings"}
+                    recode = self.recodes.get((child["variant_id"], index))
+                    if recode:
+                        self.applied_recodes += 1
+                        self.assertEqual(recode["from"], old_row["code"])
+                        self.assertEqual(recode["to"], new_row["code"])
+                        changed.add("code")
+                        completion_fields.add(f"clos[{index}].code")
+                        override = next(o for o in child["overrides"] if o["field"] == f"clos[{index}].code")
+                        self.assertEqual(JUDGMENT_POLICY, override["policy"])
+                        self.assertTrue(override["evidence"].startswith(f"مراجعة بصرية لملف {child['source_pdf']} المطابق للبصمة SHA256={child['source_sha256']}"))
                     if item:
                         self.applied_completion_rows += 1
-                        self.assertEqual(item["clo_code"], new_row["code"])
+                        if recode:
+                            self.assertEqual(item["clo_code"], recode["from"])
+                        self.assertEqual(recode["to"] if recode else item["clo_code"], new_row["code"])
                         self.assertEqual(item["text_before"], old_row["text"])
                         self.assertEqual(item["text_verbatim"], new_row["text"])
                         for name, value in COMPLETION_VALUES.items():
@@ -176,6 +195,9 @@ class SharedProgramJsonAlignmentTests(unittest.TestCase):
         self.assertEqual(39, len(self.completions))
         # Seven blank source cells completed by authorised judgment, on every child.
         self.assertEqual(7, len(self.judgment))
+        # Exactly one authorised recode (2003215-2, Systems plan 38: 3.2 -> 2.3).
+        self.assertEqual(1, len(self.recodes))
+        self.assertEqual(1, self.applied_recodes)
         self.assertTrue(set(self.judgment).isdisjoint(self.completions))
         self.assertEqual(
             sum(1 for record in self.lineage for item in self.judgment.values()

@@ -182375,12 +182375,12 @@
                   "status": "mapped",
                   "confidence": "high",
                   "source_page": 5,
-                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2003215-2--36892394ce.pdf SHA256=c6a671d9f8e9907167caeabf956c8c45c5b4f03e9a1878f6ef8b76bafeb6b605 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9 ص5. النطاق: الأنظمة / بكالوريوس / قديمة 38. الناتج م1: تفسير النصوص القانونية تفسيراً سليماً ويستنبط ما ينطبق منها على الوقائع محل البحث. التعليل: هذا الصف مطبوع برمز 3.2 داخل قسم المهارات؛ مضمونه التفاعل مع التشريعات والاتفاقيات وتفسيرها لاستنباط الأحكام، فيطابق تفسير النصوص القانونية. لم يغيّر رمز CLO. نوع العلاقة: direct. مراجعة المتابعة: followup-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2003215-2--36892394ce.pdf SHA256=c6a671d9f8e9907167caeabf956c8c45c5b4f03e9a1878f6ef8b76bafeb6b605 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9 ص5. النطاق: الأنظمة / بكالوريوس / قديمة 38. الناتج م1: تفسير النصوص القانونية تفسيراً سليماً ويستنبط ما ينطبق منها على الوقائع محل البحث. التعليل: صف مهاري طُبع برمز 3.2 داخل قسم المهارات وأعيد ترميزه 2.3 بقرار اجتهادي موافقةً للتوصيف الآخر للمقرر نفسه؛ مضمونه التفاعل مع التشريعات والاتفاقيات وتفسيرها لاستنباط الأحكام، فيطابق م1 «تفسير النصوص القانونية تفسيراً سليماً». نوع العلاقة: direct. مراجعة المتابعة: pending-cases-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2003215-2--36892394ce.pdf SHA256=c6a671d9f8e9907167caeabf956c8c45c5b4f03e9a1878f6ef8b76bafeb6b605 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9 ص5. النطاق: الأنظمة / بكالوريوس / قديمة 38. الناتج م1: تفسير النصوص القانونية تفسيراً سليماً ويستنبط ما ينطبق منها على الوقائع محل البحث. التعليل: هذا الصف مطبوع برمز 3.2 داخل قسم المهارات؛ مضمونه التفاعل مع التشريعات والاتفاقيات وتفسيرها لاستنباط الأحكام، فيطابق تفسير النصوص القانونية. لم يغيّر رمز CLO. نوع العلاقة: direct. مراجعة المتابعة: followup-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T21:00:00+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2003215-2--36892394ce.pdf SHA256=c6a671d9f8e9907167caeabf956c8c45c5b4f03e9a1878f6ef8b76bafeb6b605 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9 ص5. النطاق: الأنظمة / بكالوريوس / قديمة 38. الناتج م1: تفسير النصوص القانونية تفسيراً سليماً ويستنبط ما ينطبق منها على الوقائع محل البحث. التعليل: صف مهاري طُبع برمز 3.2 داخل قسم المهارات وأعيد ترميزه 2.3 بقرار اجتهادي موافقةً للتوصيف الآخر للمقرر نفسه؛ مضمونه التفاعل مع التشريعات والاتفاقيات وتفسيرها لاستنباط الأحكام، فيطابق م1 «تفسير النصوص القانونية تفسيراً سليماً». نوع العلاقة: direct. مراجعة المتابعة: pending-cases-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T20:45:00+03:00"
             },
             {
               "field": "clos[6].plo_mappings",
@@ -182455,6 +182455,13 @@
               "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2003215-2--36892394ce.pdf SHA256=c6a671d9f8e9907167caeabf956c8c45c5b4f03e9a1878f6ef8b76bafeb6b605 | الصفحات [5, 6] | نقل حرفي لنص CLO 3.2 من خلية المصدر المرئية بعد قراءتين مستقلتين متطابقتين؛ لا تأليف ولا تعديل للنص. الحالة السابقة: نص مقتطع أو مدموج أو مكرر في JSON. سجل النقل: assets/course-specifications/shared-program-json-alignment-20261016/clo-text-completions.json.",
               "policy": "verified_extraction_correction_matches_source",
               "reviewed_at": "2026-10-16T21:00:00+03:00"
+            },
+            {
+              "field": "clos[5].code",
+              "value": "2.3",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2003215-2--36892394ce.pdf المطابق للبصمة SHA256=c6a671d9f8e9907167caeabf956c8c45c5b4f03e9a1878f6ef8b76bafeb6b605 | الصفحات 5,6. الصف مطبوع برمز 3.2 داخل قسم المهارات، ويرقمه التوصيف الآخر للمقرر نفسه assets/course-specifications/shared-course-blank-plo-20260905/2003215-2--c3309552e0.pdf SHA256=6dc75ac9b22a9a6850243fc80c79a2d7b662950ce59b4c0fac013b2d76501807 برمز 2.3. إعادة ترميز في JSON بقرار اجتهادي مأذون («اجتهد فيها بنفسك إما تقليص المخرجات أو التعديل») مع بقاء PDF كما طُبع. السجل: assets/course-specifications/shared-program-json-alignment-20261016/pending-cases-decisions.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T20:45:00+03:00"
             }
           ],
           "scopes": [
