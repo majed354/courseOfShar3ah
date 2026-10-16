@@ -5,6 +5,8 @@ import unittest
 from collections import Counter
 from pathlib import Path
 
+from _shared_alignment_test_support import previous_context
+
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -15,9 +17,10 @@ import apply_course_outcome_review_batch as review_batch  # noqa: E402
 class CourseOutcomeReviewBatchTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.outcomes = json.loads(
-            (ROOT / "course-outcomes.json").read_text(encoding="utf-8")
-        )
+        # This importer mutates historical variant IDs and may replace a newer
+        # authorization layer. Replay it on its frozen context; the complete
+        # current descendant contract is tested in test_shared_program_json_alignment_20261016.
+        _, cls.outcomes = previous_context()
         cls.manifest = json.loads(
             (
                 ROOT

@@ -7,6 +7,7 @@ import unittest
 import pymupdf
 from docx import Document
 from scripts.verify_course_outcomes import ErrorCollector,validate_single_domain_policy
+from _shared_alignment_test_support import lineage_records, previous_context
 
 ROOT=Path(__file__).resolve().parents[1]
 B=ROOT/'assets/course-specifications/quranic-master-single-domain-20261015'
@@ -42,9 +43,16 @@ class MasterSingleDomainTests(unittest.TestCase):
         import subprocess
         baseline=json.loads(subprocess.check_output(['git','show',self.before['baseline_commit']+':course-outcomes.json'],cwd=ROOT))
         doctorate=read(ROOT/'assets/course-specifications/quranic-doctorate-single-domain-20261016/previous-context.json')['course_outcomes']
+        _,before_specialization=previous_context()
+        specialized_codes={r['course_code'] for r in lineage_records()}
         for code,course in baseline['courses'].items():
             if code in doctorate:self.assertEqual(course,doctorate[code])
-            elif code not in self.before['course_outcomes']:self.assertEqual(course,self.out['courses'][code])
+            elif code not in self.before['course_outcomes']:
+                # Preserve this earlier batch's outside-context comparison for
+                # the later specialized identities; live descendants have
+                # their own complete source/content/scope contract.
+                current=before_specialization['courses'][code] if code in specialized_codes else self.out['courses'][code]
+                self.assertEqual(course,current,code)
             else:
                 old=[v for v in course['variants'] if not any(s['program']==self.cfg['program'] for s in v['scopes'])]
                 new=[v for v in self.out['courses'][code]['variants'] if not any(s['program']==self.cfg['program'] for s in v['scopes'])]

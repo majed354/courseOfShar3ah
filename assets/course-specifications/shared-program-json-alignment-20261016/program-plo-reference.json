@@ -1,0 +1,1327 @@
+{
+  "schema": "bachelor-program-plo-reference/v1",
+  "reviewed_at": "2026-10-16",
+  "policy": "مرجع موثق لنصوص PLO الرسمية؛ لا يحتوي ربطًا مولدًا. النطاقات من manifest المنشور، والصفحات والبصمات من PDFs المطابقة. أُصلحت أخطاء OCR بصريًا ولم تتغير ملفات المصدر. علامات الترقيم والهجاء موحدة دون تغيير المعنى.",
+  "manifest": "assets/course-specifications/program-specifications-20260916/manifest.json",
+  "automation_reference_sha256": "a9b8a04fcb0fef02bbe31c3daa338b6a2fe690fe8ab234b31eb20e6c48527b32",
+  "program_versions": [
+    {
+      "id": "systems-ba-v38",
+      "program": "الأنظمة",
+      "degree": "بكالوريوس",
+      "scopes": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "version": "38",
+          "plan_type": "قديمة"
+        }
+      ],
+      "source_pdf": "assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf",
+      "source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9",
+      "source_page_count": 18,
+      "source_bytes_verified": true,
+      "verification": "visually_verified_program_PLO_section",
+      "outcomes": [
+        {
+          "code": "ع1",
+          "text": "يعرف المفاهيم الأساسية للقواعد القانونية وخصائصها ومصادرها ونطاق تطبيقها بمختلف الأنظمة القانونية المعاصرة.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9"
+        },
+        {
+          "code": "ع2",
+          "text": "يشرح دور القانون ومراحل تطوره وأهميته في بناء المجتمع.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9"
+        },
+        {
+          "code": "ع3",
+          "text": "يحدد مبادئ النظام السعودي والنظم القانونية الأخرى.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9"
+        },
+        {
+          "code": "ع4",
+          "text": "يفهم قواعد البحث والتحليل القانوني وأساليب الصياغة القانونية.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9"
+        },
+        {
+          "code": "ع5",
+          "text": "يصف التطورات الاقتصادية والاجتماعية والعلمية وعلاقتها بالتطور القانوني.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9"
+        },
+        {
+          "code": "م1",
+          "text": "تفسير النصوص القانونية تفسيراً سليماً ويستنبط ما ينطبق منها على الوقائع محل البحث.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9"
+        },
+        {
+          "code": "م2",
+          "text": "يقارن بين قواعد الشريعة الإسلامية والأنظمة الوضعية.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9"
+        },
+        {
+          "code": "م3",
+          "text": "يطبق القواعد القانونية تطبيقاً يتفق وصحيح القانون.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9"
+        },
+        {
+          "code": "م4",
+          "text": "يستخلص الاتجاهات القضائية الحديثة في القضايا المختلفة.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9"
+        },
+        {
+          "code": "ق1",
+          "text": "أن يقدم الطالب طرقاً حديثة وإبداعية مبتكرة في القضايا القانونية المعروضة عليه وفقاً للأنظمة.",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9"
+        },
+        {
+          "code": "ق2",
+          "text": "أن يشارك الطالب بفاعلية في تحقيق رؤية المملكة 2030م.",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9"
+        },
+        {
+          "code": "ق3",
+          "text": "أن يعمل الطالب ضمن فريق المقرر بفاعلية وفقاً للمواعيد المبينة.",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9"
+        }
+      ],
+      "notes": [],
+      "PLO_count": 12
+    },
+    {
+      "id": "systems-ba-v47-1447",
+      "program": "الأنظمة",
+      "degree": "بكالوريوس",
+      "scopes": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "version": "47",
+          "plan_type": "جديدة"
+        }
+      ],
+      "source_pdf": "assets/course-specifications/program-specifications-20260916/systems-ba-v47-1447/program-specification.pdf",
+      "source_sha256": "c24dccd259fffdc75a86330158929ece4d9d367012227ff6389bf67f96792d70",
+      "source_page_count": 17,
+      "source_bytes_verified": true,
+      "verification": "visually_verified_program_PLO_section",
+      "outcomes": [
+        {
+          "code": "ع1",
+          "text": "الإلمام بالمعارف والمفاهيم والمبادئ القانونية (الوطنية والدولية) والنظريات القانونية الأساسية والمصطلحات القانونية.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "c24dccd259fffdc75a86330158929ece4d9d367012227ff6389bf67f96792d70"
+        },
+        {
+          "code": "ع2",
+          "text": "يستنبط آليات وطرق الحصول على المعلومات النظرية والعملية بما يساعد على تزويد الدارسين بالمعارف، والعلوم القانونية والشرعية المتخصصة والمختلفة.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "c24dccd259fffdc75a86330158929ece4d9d367012227ff6389bf67f96792d70"
+        },
+        {
+          "code": "ع3",
+          "text": "المعرفة بأخلاقيات وسلوكيات الدين الإسلامي المرتبطة بالممارسات والعلاقات المهنية.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "c24dccd259fffdc75a86330158929ece4d9d367012227ff6389bf67f96792d70"
+        },
+        {
+          "code": "ع4",
+          "text": "يفهم المعلومات والنظريات والاتجاهات الحديثة في تخصص القانون وتطوراته وعلاقته بالتخصصات الأخرى.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "c24dccd259fffdc75a86330158929ece4d9d367012227ff6389bf67f96792d70"
+        },
+        {
+          "code": "م1",
+          "text": "يحلل المعلومات والمفاهيم والنظريات القانونية لإيجاد الحلول العملية للقضايا المختلفة.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "c24dccd259fffdc75a86330158929ece4d9d367012227ff6389bf67f96792d70"
+        },
+        {
+          "code": "م2",
+          "text": "يكتسب القدرة على التفاعل مع النصوص القانونية والشرعية المختلفة وتحليلها وتفسيرها لاستنباط الأحكام منها.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "c24dccd259fffdc75a86330158929ece4d9d367012227ff6389bf67f96792d70"
+        },
+        {
+          "code": "م3",
+          "text": "يوظف المعلومات والمفاهيم والنظريات والأفكار في المجال القانوني والشرعي.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "c24dccd259fffdc75a86330158929ece4d9d367012227ff6389bf67f96792d70"
+        },
+        {
+          "code": "م4",
+          "text": "يطبق القواعد والنظريات القانونية ذات الصلة لاستنباط الحلول للمشكلات العملية المعروضة عليه.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "c24dccd259fffdc75a86330158929ece4d9d367012227ff6389bf67f96792d70"
+        },
+        {
+          "code": "ق1",
+          "text": "أن يتحلى بأخلاقيات المهنة ومراعاة أنظمتها والنزاهة والأخلاق الأكاديمية والالتزام بالسلوك المهني القويم.",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "c24dccd259fffdc75a86330158929ece4d9d367012227ff6389bf67f96792d70"
+        },
+        {
+          "code": "ق2",
+          "text": "التواصل الفعال مع الآخرين في المشاريع والمبادرات المشتركة والعمل بروح الفريق، ويتحمل المسؤولية من خلال العمل الجماعي.",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "c24dccd259fffdc75a86330158929ece4d9d367012227ff6389bf67f96792d70"
+        },
+        {
+          "code": "ق3",
+          "text": "إنجاز المهام الموكلة إليه بفاعلية وشفافية، وتقييم قدراته الذاتية وأدائه للوقوف على نقاط الضعف لتقويمها.",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "c24dccd259fffdc75a86330158929ece4d9d367012227ff6389bf67f96792d70"
+        }
+      ],
+      "notes": [],
+      "PLO_count": 11
+    },
+    {
+      "id": "islamic-studies-ba-v39",
+      "program": "الدراسات الإسلامية",
+      "degree": "بكالوريوس",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "version": "39",
+          "plan_type": "قديمة"
+        }
+      ],
+      "source_pdf": "assets/course-specifications/program-specifications-20260916/islamic-studies-ba-v39/program-specification.pdf",
+      "source_sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1",
+      "source_page_count": 17,
+      "source_bytes_verified": true,
+      "verification": "visually_verified_program_PLO_section",
+      "outcomes": [
+        {
+          "code": "ع1",
+          "text": "أن يسمع الطالب ثمانية أجزاء من القرآن الكريم برواية حفص عن عاصم.",
+          "source_pages": [
+            4,
+            14
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1"
+        },
+        {
+          "code": "ع2",
+          "text": "أن يفسر الخريج ثلاثمئة آية من القرآن تفسيرا تحليليا وفق المقرر في علوم القرآن وقواعد التفسير.",
+          "source_pages": [
+            4,
+            14
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1"
+        },
+        {
+          "code": "ع3",
+          "text": "أن يشرح الخريج مئتين وثمانين حديثا من السنة النبوية وفق قواعد علوم الحديث.",
+          "source_pages": [
+            4,
+            15
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1"
+        },
+        {
+          "code": "ع4",
+          "text": "أن يفهم الخريج الاعتقاد الصحيح، وطريقة الرد على المخالفين وفق منهج السلف الصالح.",
+          "source_pages": [
+            4,
+            15
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1"
+        },
+        {
+          "code": "ع5",
+          "text": "أن يوضح الخريج الأحكام الشرعية المتعلقة بالفقه باستخدام قواعده وأصوله.",
+          "source_pages": [
+            4,
+            15
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1"
+        },
+        {
+          "code": "م1",
+          "text": "أن يقرأ الخريج ثمانية أجزاء من القرآن الكريم برواية حفص عن عاصم تلاوة مجودة متقنة.",
+          "source_pages": [
+            4,
+            15
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1"
+        },
+        {
+          "code": "م2",
+          "text": "أن يطبق الخريج ما تعلمه من العلوم الشرعية في مجال عمله وخدمة مجتمعه.",
+          "source_pages": [
+            4,
+            15
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1"
+        },
+        {
+          "code": "م3",
+          "text": "أن يمارس الخريج البحث في الدراسات الإسلامية وفق قواعد وأساسيات البحث العلمي.",
+          "source_pages": [
+            4,
+            15
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1"
+        },
+        {
+          "code": "م4",
+          "text": "أن يستخدم الخريج التقنية الحديثة في الدراسات الإسلامية دراسة وتعليما وبحثا.",
+          "source_pages": [
+            4,
+            15
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1"
+        },
+        {
+          "code": "ق1",
+          "text": "أن يتمثل الخريج في عمله وفي خدمة مجتمعه القيم الإسلامية وأخلاقيات المهنة.",
+          "source_pages": [
+            5,
+            15
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1"
+        },
+        {
+          "code": "ق2",
+          "text": "أن يبادر الخريج في التعلم المستمر وتطوير الذات معرفيا ومهاريا وسلوكيا.",
+          "source_pages": [
+            5,
+            16
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1"
+        },
+        {
+          "code": "ق3",
+          "text": "أن يشارك الخريج في بناء العلاقات الإيجابية والتواصل الفعال والتعايش مع الآخرين.",
+          "source_pages": [
+            5,
+            16
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1"
+        },
+        {
+          "code": "ق4",
+          "text": "أن يساعد الخريج في إيجاد حلول إبداعية للقضايا الإسلامية المعاصرة وقضايا المجتمع بناء على ما تعلمه في الدراسات الإسلامية.",
+          "source_pages": [
+            5,
+            16
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1"
+        },
+        {
+          "code": "ق5",
+          "text": "أن يكون الخريج قدوة في الاعتدال والوسطية، والاعتزاز بالهوية الإسلامية والوطنية وفق المنهج الشرعي.",
+          "source_pages": [
+            5,
+            16
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1"
+        }
+      ],
+      "notes": [
+        "ع5 محذوف من OCR الأتمتة؛ ثبت نصه في ص4 ورمزه ص15.",
+        "صف مهاري إضافي في آخر ص4 يكرر م1 بلا رقم مستقل (م...)؛ استُبعد التكرار، وتثبت خطة القياس ص15 المهارات م1–م4 فقط.",
+        "القيم ق4 وق5 رموزهما في القسم الرئيس غير مكتملة، وثبت ترقيمهما ص16."
+      ],
+      "PLO_count": 14
+    },
+    {
+      "id": "islamic-studies-ba-v47",
+      "program": "الدراسات الإسلامية",
+      "degree": "بكالوريوس",
+      "scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "version": "47",
+          "plan_type": "جديدة"
+        }
+      ],
+      "source_pdf": "assets/course-specifications/program-specifications-20260916/islamic-studies-ba-v47/program-specification.pdf",
+      "source_sha256": "bbde0a64878c4189bf1c511ec223877308c85ce8779a27ce174511f72c05169e",
+      "source_page_count": 17,
+      "source_bytes_verified": true,
+      "verification": "visually_verified_program_PLO_section",
+      "outcomes": [
+        {
+          "code": "ع1",
+          "text": "تسميع وتلاوة ثمانية أجزاء من القرآن الكريم متقنة برواية حفص عن عاصم.",
+          "source_pages": [
+            5,
+            14
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "bbde0a64878c4189bf1c511ec223877308c85ce8779a27ce174511f72c05169e"
+        },
+        {
+          "code": "ع2",
+          "text": "تفسير وشرح ما لا يقل عن ثلاثمئة آية ومئتين وثمانين حديثا وفق القواعد المقررة في علوم القرآن والحديث.",
+          "source_pages": [
+            5,
+            14
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "bbde0a64878c4189bf1c511ec223877308c85ce8779a27ce174511f72c05169e"
+        },
+        {
+          "code": "ع3",
+          "text": "توضيح القضايا والمفاهيم والأحكام الشرعية العقدية والفقهية والدعوية بأدلتها بناء على القواعد والأصول العلمية.",
+          "source_pages": [
+            5,
+            14,
+            15
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "bbde0a64878c4189bf1c511ec223877308c85ce8779a27ce174511f72c05169e"
+        },
+        {
+          "code": "م1",
+          "text": "تحليل النصوص لاستنباط الأحكام والمعارف والمفاهيم الشرعية.",
+          "source_pages": [
+            5,
+            15
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "bbde0a64878c4189bf1c511ec223877308c85ce8779a27ce174511f72c05169e"
+        },
+        {
+          "code": "م2",
+          "text": "تطبيق القواعد والمعارف والمفاهيم الشرعية في النفس والعمل والبحث وخدمة مجتمعه.",
+          "source_pages": [
+            5,
+            15
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "bbde0a64878c4189bf1c511ec223877308c85ce8779a27ce174511f72c05169e"
+        },
+        {
+          "code": "م3",
+          "text": "استخدام التقنيات الحديثة في العلوم والدراسات الإسلامية.",
+          "source_pages": [
+            5,
+            15
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "bbde0a64878c4189bf1c511ec223877308c85ce8779a27ce174511f72c05169e"
+        },
+        {
+          "code": "ق1",
+          "text": "المبادرة إلى التعلم الذاتي معرفيا ومهاريا وسلوكيا.",
+          "source_pages": [
+            5,
+            15
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "bbde0a64878c4189bf1c511ec223877308c85ce8779a27ce174511f72c05169e"
+        },
+        {
+          "code": "ق2",
+          "text": "الالتزام بالمبادئ الأخلاقية والهوية الإسلامية والقيم الوطنية عند التعامل مع الآخرين.",
+          "source_pages": [
+            5,
+            15
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "bbde0a64878c4189bf1c511ec223877308c85ce8779a27ce174511f72c05169e"
+        },
+        {
+          "code": "ق3",
+          "text": "الإبداع في قيادة الفرق وتحمل المسؤولية نحو القضايا الشرعية والاجتماعية المعاصرة.",
+          "source_pages": [
+            5,
+            15
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "bbde0a64878c4189bf1c511ec223877308c85ce8779a27ce174511f72c05169e"
+        }
+      ],
+      "notes": [
+        "صفا ع0 وق0 في OCR الأتمتة عنوانا مجال، وليسا ناتجين؛ توجد 9 نواتج فقط في القسم الرئيس ص5، وتؤكدها خطة القياس ص14–15."
+      ],
+      "PLO_count": 9
+    },
+    {
+      "id": "sharia-ba-old",
+      "program": "الشريعة",
+      "degree": "بكالوريوس",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "version": "38",
+          "plan_type": "قديمة"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "version": "39",
+          "plan_type": "قديمة"
+        }
+      ],
+      "source_pdf": "assets/course-specifications/program-specifications-20260916/sharia-ba-old/program-specification.pdf",
+      "source_sha256": "8028b15b13d87882741e69f2f1a3e747149f193907a859af796aa13a0ead8045",
+      "source_page_count": 18,
+      "source_bytes_verified": true,
+      "verification": "visually_verified_program_PLO_section",
+      "outcomes": [
+        {
+          "code": "ع1",
+          "text": "أن يشرح الخريج الأحكام الفقهية وأدلة التشريع ومراتب الحديث وأصول العقيدة.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "8028b15b13d87882741e69f2f1a3e747149f193907a859af796aa13a0ead8045"
+        },
+        {
+          "code": "ع2",
+          "text": "أن يلخص الخريج مصطلحات الشريعة الحديثية والفقهية والأصولية والعقدية بربطها بالمصطلحات والمفاهيم المعاصرة.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "8028b15b13d87882741e69f2f1a3e747149f193907a859af796aa13a0ead8045"
+        },
+        {
+          "code": "ع3",
+          "text": "أن يرتب الخريج مصادر التشريع عند استنباط الأحكام الفقهية، وطرق تخريج الأحاديث النبوية.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "8028b15b13d87882741e69f2f1a3e747149f193907a859af796aa13a0ead8045"
+        },
+        {
+          "code": "م1",
+          "text": "أن يقارن الخريج بين المذاهب الفقهية والمصادر الشرعية بإبراز نقاط الاتفاق والاختلاف.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "8028b15b13d87882741e69f2f1a3e747149f193907a859af796aa13a0ead8045"
+        },
+        {
+          "code": "م2",
+          "text": "أن يصيغ الخريج أسس العقيدة السليمة وضوابطها.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "8028b15b13d87882741e69f2f1a3e747149f193907a859af796aa13a0ead8045"
+        },
+        {
+          "code": "م3",
+          "text": "أن يظهر الخريج مواطن عظمة الشريعة في فروعها الفقهية والأصولية والحديثية والعقدية.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "8028b15b13d87882741e69f2f1a3e747149f193907a859af796aa13a0ead8045"
+        },
+        {
+          "code": "ق1",
+          "text": "أن يتفاعل الخريج مع المجتمع في نشر قيم الشريعة باستخدام التقنيات الحديثة.",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "8028b15b13d87882741e69f2f1a3e747149f193907a859af796aa13a0ead8045"
+        },
+        {
+          "code": "ق2",
+          "text": "أن يقود الخريج فرق العمل بمرونة وفاعلية لتطوير أدائها.",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "8028b15b13d87882741e69f2f1a3e747149f193907a859af796aa13a0ead8045"
+        },
+        {
+          "code": "ق3",
+          "text": "أن يشارك الخريج بفاعلية في تحقيق رؤية المملكة 2030 م.",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "8028b15b13d87882741e69f2f1a3e747149f193907a859af796aa13a0ead8045"
+        }
+      ],
+      "notes": [],
+      "PLO_count": 9
+    },
+    {
+      "id": "sharia-ba-v47",
+      "program": "الشريعة",
+      "degree": "بكالوريوس",
+      "scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "version": "47",
+          "plan_type": "جديدة"
+        }
+      ],
+      "source_pdf": "assets/course-specifications/program-specifications-20260916/sharia-ba-v47/program-specification.pdf",
+      "source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8",
+      "source_page_count": 18,
+      "source_bytes_verified": true,
+      "verification": "visually_verified_program_PLO_section",
+      "outcomes": [
+        {
+          "code": "ع1",
+          "text": "أن يعرف المفاهيم والمصطلحات والنظريات الأساسية للفقه وأصوله، والعلوم التأسيسية والمساندة للتخصص.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8"
+        },
+        {
+          "code": "ع2",
+          "text": "أن يذكر النصوص والأحكام المتعلقة بالفقه وأصوله، والعلوم التأسيسية والمساندة للتخصص.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8"
+        },
+        {
+          "code": "ع3",
+          "text": "أن يتعرف على المبادئ، والقواعد العامة، والمدارس الفكرية الفقهية والأصولية والعقدية والحديثية.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8"
+        },
+        {
+          "code": "ع4",
+          "text": "أن يبين أحكام النوازل والمستجدات الفقهية والأصولية وغيرها من المجالات الشرعية.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8"
+        },
+        {
+          "code": "ع5",
+          "text": "أن يحدد مذهب السلف الصالح في مسائل العقيدة، والاستدلال، والاستنباط في الفقه وأصوله.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8"
+        },
+        {
+          "code": "م1",
+          "text": "أن يقارن بين آراء العلماء في مسائل الفقه وأصوله ويناقش أدلتها للوصول إلى القول الراجح.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8"
+        },
+        {
+          "code": "م2",
+          "text": "أن يطبق المعارف والمفاهيم والنظريات الفقهية والأصولية لمعالجة المشكلات والنوازل المعاصرة.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8"
+        },
+        {
+          "code": "م3",
+          "text": "أن يحلل النصوص الفقهية والأصولية وفق منهجية علمية صحيحة.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8"
+        },
+        {
+          "code": "م4",
+          "text": "أن يجيد استخدام وسائل التواصل الشفهي والكتابي بفاعلية مع الآخرين من خلال وسائل التقنية الحديثة.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8"
+        },
+        {
+          "code": "م5",
+          "text": "أن يتقن قراءة القرآن الكريم قراءة صحيحة برواية حفص عن عاصم.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8"
+        },
+        {
+          "code": "ق1",
+          "text": "أن يتحلى بالنزاهة وآداب الخلاف والأخلاقيات المهنية والأكاديمية التي اكتسبها من الدراسات الشرعية.",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8"
+        },
+        {
+          "code": "ق2",
+          "text": "أن يمثل قيمة التعاون والعمل بروح الفريق.",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8"
+        },
+        {
+          "code": "ق3",
+          "text": "أن يتحمل مسؤولية الأعمال المكلف بها وفق الأنظمة المقررة.",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8"
+        }
+      ],
+      "notes": [],
+      "PLO_count": 13
+    },
+    {
+      "id": "quran-ba-v39",
+      "program": "القرآن وعلومه",
+      "degree": "بكالوريوس",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "version": "39",
+          "plan_type": "قديمة"
+        }
+      ],
+      "source_pdf": "assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf",
+      "source_sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74",
+      "source_page_count": 17,
+      "source_bytes_verified": true,
+      "verification": "visually_verified_program_PLO_section",
+      "outcomes": [
+        {
+          "code": "ع1",
+          "text": "أن يسمع الطالب اثني عشر جزءا من القرآن",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74"
+        },
+        {
+          "code": "ع2",
+          "text": "أن يعرف الطالب جملة المعلومات المرتبطة بأصول التفسير وعلوم القرآن المختلفة",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74"
+        },
+        {
+          "code": "ع3",
+          "text": "أن يستعرض الطالب المقدمات الأساسية، في العلوم الشرعية والمعارف العامة.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74"
+        },
+        {
+          "code": "م1",
+          "text": "أن يتقن تلاوة القرآن بطريقة صحيحة.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74"
+        },
+        {
+          "code": "م2",
+          "text": "أن يمارس تفسير الآيات بطريقة منهجية معتبرة.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74"
+        },
+        {
+          "code": "م3",
+          "text": "أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74"
+        },
+        {
+          "code": "ق1",
+          "text": "أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74"
+        },
+        {
+          "code": "ق2",
+          "text": "أن يتحمل مسؤولية تطوير نفسه باستمرار وفاعلية.",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74"
+        }
+      ],
+      "notes": [
+        "النواتج الثمانية متطابقة بين مصدري الخطة39 والخطة47؛ ربط المصدر بالخطة من manifest المستودع. بيانات النطاق الآلية للأتمتة في مصدر47 تسميه قديمًا وتترك الإصدار فارغًا؛ لا يعتمد ذلك فوق نطاق manifest المنشور."
+      ],
+      "PLO_count": 8
+    },
+    {
+      "id": "quran-ba-v47",
+      "program": "القرآن وعلومه",
+      "degree": "بكالوريوس",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "version": "47",
+          "plan_type": "جديدة"
+        }
+      ],
+      "source_pdf": "assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf",
+      "source_sha256": "3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919",
+      "source_page_count": 17,
+      "source_bytes_verified": true,
+      "verification": "visually_verified_program_PLO_section",
+      "outcomes": [
+        {
+          "code": "ع1",
+          "text": "أن يسمع الطالب اثني عشر جزءا من القرآن",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919"
+        },
+        {
+          "code": "ع2",
+          "text": "أن يعرف الطالب جملة المعلومات المرتبطة بأصول التفسير وعلوم القرآن المختلفة",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919"
+        },
+        {
+          "code": "ع3",
+          "text": "أن يستعرض الطالب المقدمات الأساسية، في العلوم الشرعية والمعارف العامة.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919"
+        },
+        {
+          "code": "م1",
+          "text": "أن يتقن تلاوة القرآن بطريقة صحيحة.",
+          "source_pages": [
+            4
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919"
+        },
+        {
+          "code": "م2",
+          "text": "أن يمارس تفسير الآيات بطريقة منهجية معتبرة.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919"
+        },
+        {
+          "code": "م3",
+          "text": "أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه.",
+          "source_pages": [
+            5
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919"
+        },
+        {
+          "code": "ق1",
+          "text": "أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919"
+        },
+        {
+          "code": "ق2",
+          "text": "أن يتحمل مسؤولية تطوير نفسه باستمرار وفاعلية.",
+          "source_pages": [
+            5
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919"
+        }
+      ],
+      "notes": [
+        "النواتج الثمانية متطابقة بين مصدري الخطة39 والخطة47؛ ربط المصدر بالخطة من manifest المستودع. بيانات النطاق الآلية للأتمتة في مصدر47 تسميه قديمًا وتترك الإصدار فارغًا؛ لا يعتمد ذلك فوق نطاق manifest المنشور."
+      ],
+      "PLO_count": 8
+    },
+    {
+      "id": "qiraat-ba-v38",
+      "program": "القراءات",
+      "degree": "بكالوريوس",
+      "scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "version": "38",
+          "plan_type": "قديمة"
+        }
+      ],
+      "source_pdf": "assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf",
+      "source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d",
+      "source_page_count": 22,
+      "source_bytes_verified": true,
+      "verification": "visually_verified_program_PLO_section",
+      "outcomes": [
+        {
+          "code": "ع1",
+          "text": "أن يستعرض الخريج مناهج القراء العشرة أصولا وفرشا وعرضا من طريقي الشاطبية والدرة.",
+          "source_pages": [
+            7
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d"
+        },
+        {
+          "code": "ع2",
+          "text": "أن يشرح الخريج الآيات القرآنية والأحاديث النبوية والنصوص والأحكام الشرعية بعمق ووعي.",
+          "source_pages": [
+            7
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d"
+        },
+        {
+          "code": "ع3",
+          "text": "أن يوضح الخريج المقدمات والقضايا والمفاهيم الأساسية في العلوم التخصصية والمساندة بشكل دقيق.",
+          "source_pages": [
+            7
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d"
+        },
+        {
+          "code": "م1",
+          "text": "أن يجيد الخريج عرض أوجه القراءات المختلفة من طريقي الشاطبية والدرة وتطبيقها.",
+          "source_pages": [
+            7
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d"
+        },
+        {
+          "code": "م2",
+          "text": "أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة.",
+          "source_pages": [
+            7
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d"
+        },
+        {
+          "code": "م3",
+          "text": "أن يظهر الخريج أثر القراءات على المعنى ومناقشة الشبهات ورد مطاعن المشككين بشكل واضح.",
+          "source_pages": [
+            7
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d"
+        },
+        {
+          "code": "م4",
+          "text": "أن يكتسب الخريج المهارات البحثية والتقنية اللازمة في مجال تخصصه.",
+          "source_pages": [
+            7
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d"
+        },
+        {
+          "code": "ق1",
+          "text": "أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف.",
+          "source_pages": [
+            7
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d"
+        },
+        {
+          "code": "ق2",
+          "text": "أن يتفاعل الخريج التفاعل الإيجابي، ويعمل بروح الفريق الواحد مع أقرانه.",
+          "source_pages": [
+            7
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d"
+        },
+        {
+          "code": "ق3",
+          "text": "أن يحقق الخريج الاستقلالية في التعلم وتطوير الذات، وتنمية القدرة لديه على القيادة وتحمل المسؤولية.",
+          "source_pages": [
+            7
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d"
+        }
+      ],
+      "notes": [],
+      "PLO_count": 10
+    },
+    {
+      "id": "qiraat-ba-v47",
+      "program": "القراءات",
+      "degree": "بكالوريوس",
+      "scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "version": "47",
+          "plan_type": "جديدة"
+        }
+      ],
+      "source_pdf": "assets/course-specifications/program-specifications-20260916/qiraat-ba-v47/program-specification.pdf",
+      "source_sha256": "3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89",
+      "source_page_count": 24,
+      "source_bytes_verified": true,
+      "verification": "visually_verified_program_PLO_section",
+      "outcomes": [
+        {
+          "code": "ع1",
+          "text": "أن يستعرض الخريج مناهج القراء العشرة أصولا وفرشا وعرضا من طريقي الشاطبية والدرة.",
+          "source_pages": [
+            7,
+            8
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89"
+        },
+        {
+          "code": "ع2",
+          "text": "أن يشرح الخريج الآيات القرآنية والأحاديث النبوية والنصوص والأحكام الشرعية بعمق ووعي.",
+          "source_pages": [
+            7,
+            8
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89"
+        },
+        {
+          "code": "ع3",
+          "text": "أن يوضح الخريج المقدمات والقضايا والمفاهيم الأساسية في العلوم التخصصية والمساندة بشكل دقيق.",
+          "source_pages": [
+            7,
+            9
+          ],
+          "domain": "المعرفة والفهم",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89"
+        },
+        {
+          "code": "م1",
+          "text": "أن يجيد الخريج عرض أوجه القراءات المختلفة من طريقي الشاطبية والدرة وتطبيقها.",
+          "source_pages": [
+            7,
+            9
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89"
+        },
+        {
+          "code": "م2",
+          "text": "أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة.",
+          "source_pages": [
+            7,
+            9
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89"
+        },
+        {
+          "code": "م3",
+          "text": "أن يظهر الخريج أثر القراءات على المعنى ومناقشة الشبهات ورد مطاعن المشككين بشكل واضح.",
+          "source_pages": [
+            7,
+            9
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89"
+        },
+        {
+          "code": "م4",
+          "text": "أن يكتسب الخريج المهارات البحثية والتقنية اللازمة في مجال تخصصه.",
+          "source_pages": [
+            7,
+            9
+          ],
+          "domain": "المهارات",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89"
+        },
+        {
+          "code": "ق1",
+          "text": "أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف.",
+          "source_pages": [
+            8,
+            9
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89"
+        },
+        {
+          "code": "ق2",
+          "text": "أن يتفاعل الخريج التفاعل الإيجابي، ويعمل بروح الفريق الواحد مع أقرانه.",
+          "source_pages": [
+            8,
+            9
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89"
+        },
+        {
+          "code": "ق3",
+          "text": "أن يحقق الخريج الاستقلالية في التعلم وتطوير الذات، وتنمية القدرة لديه على القيادة وتحمل المسؤولية.",
+          "source_pages": [
+            8,
+            9
+          ],
+          "domain": "القيم والاستقلالية والمسؤولية",
+          "verification": "visual_source_review_2026-10-16",
+          "source_sha256": "3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89"
+        }
+      ],
+      "notes": [
+        "النواتج العشرة مطابقة نصًا للخطة38. القيم ق1–ق3 موجودة ص8 وتؤكدها مصفوفة خصائص الخريج ص9، وقد أغفلها OCR الأتمتة."
+      ],
+      "PLO_count": 10
+    }
+  ],
+  "summary": {
+    "programs": 5,
+    "source_versions": 10,
+    "scopes": 11,
+    "PLO_rows": 104
+  }
+}

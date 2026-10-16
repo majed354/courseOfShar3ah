@@ -3,6 +3,8 @@ import unittest
 import sys
 from pathlib import Path
 
+from _shared_alignment_test_support import previous_context
+
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "review-batches" / "split-table-continuations-20260921.json"
@@ -11,7 +13,10 @@ MANIFEST = ROOT / "review-batches" / "split-table-continuations-20260921.json"
 class SplitTableContinuationReviewTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.outcomes = json.loads((ROOT / "course-outcomes.json").read_text(encoding="utf-8"))
+        # Pin the historical review to its variant IDs. The current program
+        # descendants preserve these extraction/review fields under the new
+        # specialization contract, without replaying an old mutating importer.
+        _, cls.outcomes = previous_context()
         cls.manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
 
     def variant_for(self, record):

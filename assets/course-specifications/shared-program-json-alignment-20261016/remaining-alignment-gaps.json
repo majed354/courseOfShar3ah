@@ -1,0 +1,2908 @@
+{
+  "schema_version": "shared-program-remaining-alignment-gaps-v1",
+  "policy": "هذه الحالات لم تُملأ برمز غير مناسب. تصحيحها يتطلب نص CLO فعليًا أو تحديثًا معتمدًا لنواتج البرنامج يغطي المضمون؛ الحزمة لا تغير CLO أوPLO الأصلية.",
+  "summary": {
+    "total_unresolved_clo_scope_rows": 170,
+    "blank_source_clo_scope_rows": 15,
+    "no_suitable_plo_clo_scope_rows": 155,
+    "by_program": {
+      "الشريعة": 85,
+      "القرآن وعلومه": 34,
+      "القراءات": 20,
+      "الأنظمة": 20,
+      "الدراسات الإسلامية": 11
+    }
+  },
+  "records": [
+    {
+      "course_code": "103141-2",
+      "variant_id": "185715071ff13ecdf4b21dece0e28913d626d4ee9a680db364c5600bfaa4cef8",
+      "original_variant_id": "b4be7055885d3efc34e006acc4c6605da2ce8c9e4855af59e200e9c5d3830d32",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "2.1",
+      "clo_index": 2,
+      "clo_text_in_json": "أن يتعود الطالب على الذوق البلاغي المرهف في التمييز بين أنواع الكلام.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "الذوق البلاغي والتمييز بين أنواع الكلام لا يحدد إظهار مواطن عظمة الشريعة فيفروعها. افتراض أن كلذوق بلاغي يخدم إبراز العظمة الشرعية بعيد عن مضمونCLO وعنم3 القديم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103141-2",
+      "variant_id": "185715071ff13ecdf4b21dece0e28913d626d4ee9a680db364c5600bfaa4cef8",
+      "original_variant_id": "b4be7055885d3efc34e006acc4c6605da2ce8c9e4855af59e200e9c5d3830d32",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "2.1",
+      "clo_index": 2,
+      "clo_text_in_json": "أن يتعود الطالب على الذوق البلاغي المرهف في التمييز بين أنواع الكلام.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "الذوق البلاغي والتمييز بين أنواع الكلام لا يحدد إظهار مواطن عظمة الشريعة فيفروعها. افتراض أن كلذوق بلاغي يخدم إبراز العظمة الشرعية بعيد عن مضمونCLO وعنم3 القديم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103141-2",
+      "variant_id": "185715071ff13ecdf4b21dece0e28913d626d4ee9a680db364c5600bfaa4cef8",
+      "original_variant_id": "b4be7055885d3efc34e006acc4c6605da2ce8c9e4855af59e200e9c5d3830d32",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "2.2",
+      "clo_index": 3,
+      "clo_text_in_json": "أن يكون الطالب قادرًا على استكشاف أخطائه بنفسه.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "استكشاف الأخطاء الذاتية تقويم للأداء، بينماق1 القديم تفاعل مع المجتمع لنشر قيم الشريعة باستخدام التقنيات. لا يتضمنCLO سياق النشر أوالمجتمع أوالتقنية، ولا يوجد ناتج للتقويم الذاتي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103141-2",
+      "variant_id": "185715071ff13ecdf4b21dece0e28913d626d4ee9a680db364c5600bfaa4cef8",
+      "original_variant_id": "b4be7055885d3efc34e006acc4c6605da2ce8c9e4855af59e200e9c5d3830d32",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "2.2",
+      "clo_index": 3,
+      "clo_text_in_json": "أن يكون الطالب قادرًا على استكشاف أخطائه بنفسه.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "استكشاف الأخطاء الذاتية تقويم للأداء، بينماق1 القديم تفاعل مع المجتمع لنشر قيم الشريعة باستخدام التقنيات. لا يتضمنCLO سياق النشر أوالمجتمع أوالتقنية، ولا يوجد ناتج للتقويم الذاتي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103171-2",
+      "variant_id": "020c5a48d9d63d572bbdc764edc8e2a277889e907adff87ef5193165fa4b71eb",
+      "original_variant_id": "bde1da8877058800c3e74acc2a82b755dde28e5f6ce703a3e2f30008000eea21",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.1",
+      "clo_index": 7,
+      "clo_text_in_json": "أن يتحمل الطالب مسؤولية التحقق من سلامة المعلومات التي يوظفها في التحرير.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103171-2",
+      "variant_id": "020c5a48d9d63d572bbdc764edc8e2a277889e907adff87ef5193165fa4b71eb",
+      "original_variant_id": "bde1da8877058800c3e74acc2a82b755dde28e5f6ce703a3e2f30008000eea21",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.1",
+      "clo_index": 7,
+      "clo_text_in_json": "أن يتحمل الطالب مسؤولية التحقق من سلامة المعلومات التي يوظفها في التحرير.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103171-2",
+      "variant_id": "020c5a48d9d63d572bbdc764edc8e2a277889e907adff87ef5193165fa4b71eb",
+      "original_variant_id": "bde1da8877058800c3e74acc2a82b755dde28e5f6ce703a3e2f30008000eea21",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.2",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يبادر الطالب إلى تطوير مهاراته في التحرير العربي باستمرار.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103171-2",
+      "variant_id": "020c5a48d9d63d572bbdc764edc8e2a277889e907adff87ef5193165fa4b71eb",
+      "original_variant_id": "bde1da8877058800c3e74acc2a82b755dde28e5f6ce703a3e2f30008000eea21",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.2",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يبادر الطالب إلى تطوير مهاراته في التحرير العربي باستمرار.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103171-2",
+      "variant_id": "404add946abb557b23c32345295a177aa7815c4dbd5fb772670f064e1518563b",
+      "original_variant_id": "bde1da8877058800c3e74acc2a82b755dde28e5f6ce703a3e2f30008000eea21",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "clo_code": "3.3",
+      "clo_index": 9,
+      "clo_text_in_json": "أن يتعامل الطالب بفاعلية مع زملائه أثناء إلقاء ورقة العمل.",
+      "program_reference_id": "quran-ba-v47",
+      "rationale": "التعامل بفاعلية مع الزملاء يصف تفاعلاً اجتماعيًا؛ ق1 يطلب التزام الأمانة والسلوكيات الأخلاقية. لا يثبت الفعل المجرد هذا الالتزام، ولا يوجد ناتج مستقل للعمل الجماعي. إن احتفظ بدعم قيمي فيجب تعليل السلوك الأخلاقي المحدد، لا وسمهdirect.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103171-2",
+      "variant_id": "1656310be2a5637828b5994de9e3f37ac98e88b6df2c217be81c222f02b369ca",
+      "original_variant_id": "1656310be2a5637828b5994de9e3f37ac98e88b6df2c217be81c222f02b369ca",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "3.3",
+      "clo_index": 9,
+      "clo_text_in_json": "أن يتعامل الطالب بفاعلية مع زملائه أثناء إلقاء ورقة العمل.",
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "التعامل بفاعلية مع الزملاء يصف تفاعلاً اجتماعيًا؛ ق1 يطلب التزام الأمانة والسلوكيات الأخلاقية. لا يثبت الفعل المجرد هذا الالتزام، ولا يوجد ناتج مستقل للعمل الجماعي. إن احتفظ بدعم قيمي فيجب تعليل السلوك الأخلاقي المحدد، لا وسمهdirect.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103245-2",
+      "variant_id": "997c0c120ac7cb5448840fa53805ea715a1188ae485497fea5c99088e95ae521",
+      "original_variant_id": "16c521564d870836be1f08fde897a415f877352e00bea0185a436961814f9196",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "clo_code": "3.1",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يدير الطالب حوارًا عن الاستثناء وأدواته أمام زملائه",
+      "program_reference_id": "quran-ba-v47",
+      "rationale": "إدارة حوار والتجاوب في ورش عمل لا يذكران الأمانة أو آداب حوار أخلاقية. لا يصح تحويل كل تفاعل اجتماعي إلى ق1 مباشر.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103245-2",
+      "variant_id": "997c0c120ac7cb5448840fa53805ea715a1188ae485497fea5c99088e95ae521",
+      "original_variant_id": "16c521564d870836be1f08fde897a415f877352e00bea0185a436961814f9196",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "3.1",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يدير الطالب حوارًا عن الاستثناء وأدواته أمام زملائه",
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "إدارة حوار والتجاوب في ورش عمل لا يذكران الأمانة أو آداب حوار أخلاقية. لا يصح تحويل كل تفاعل اجتماعي إلى ق1 مباشر.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103245-2",
+      "variant_id": "997c0c120ac7cb5448840fa53805ea715a1188ae485497fea5c99088e95ae521",
+      "original_variant_id": "16c521564d870836be1f08fde897a415f877352e00bea0185a436961814f9196",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "clo_code": "3.2",
+      "clo_index": 9,
+      "clo_text_in_json": "أن بتجاوب الطالب مع أقرانه في ورش العم.",
+      "program_reference_id": "quran-ba-v47",
+      "rationale": "إدارة حوار والتجاوب في ورش عمل لا يذكران الأمانة أو آداب حوار أخلاقية. لا يصح تحويل كل تفاعل اجتماعي إلى ق1 مباشر.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103245-2",
+      "variant_id": "997c0c120ac7cb5448840fa53805ea715a1188ae485497fea5c99088e95ae521",
+      "original_variant_id": "16c521564d870836be1f08fde897a415f877352e00bea0185a436961814f9196",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "3.2",
+      "clo_index": 9,
+      "clo_text_in_json": "أن بتجاوب الطالب مع أقرانه في ورش العم.",
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "إدارة حوار والتجاوب في ورش عمل لا يذكران الأمانة أو آداب حوار أخلاقية. لا يصح تحويل كل تفاعل اجتماعي إلى ق1 مباشر.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103281-2",
+      "variant_id": "f04bb696d062ed3978ff7222ea9d82e94e599249e5d3286e8ce2080e950431f3",
+      "original_variant_id": "fe307bf65e3caa539b5e307fc1b6a1f472966d6002128877ced7f8deddb5644c",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.1",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يتحمل الطالب مسؤولية إنجاز التكليفات النحوية بدقة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103281-2",
+      "variant_id": "f04bb696d062ed3978ff7222ea9d82e94e599249e5d3286e8ce2080e950431f3",
+      "original_variant_id": "fe307bf65e3caa539b5e307fc1b6a1f472966d6002128877ced7f8deddb5644c",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.1",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يتحمل الطالب مسؤولية إنجاز التكليفات النحوية بدقة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103281-2",
+      "variant_id": "f04bb696d062ed3978ff7222ea9d82e94e599249e5d3286e8ce2080e950431f3",
+      "original_variant_id": "fe307bf65e3caa539b5e307fc1b6a1f472966d6002128877ced7f8deddb5644c",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.2",
+      "clo_index": 9,
+      "clo_text_in_json": "أن يبادر الطالب إلى معالجة أخطائه النحوية في التعبير.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103281-2",
+      "variant_id": "f04bb696d062ed3978ff7222ea9d82e94e599249e5d3286e8ce2080e950431f3",
+      "original_variant_id": "fe307bf65e3caa539b5e307fc1b6a1f472966d6002128877ced7f8deddb5644c",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.2",
+      "clo_index": 9,
+      "clo_text_in_json": "أن يبادر الطالب إلى معالجة أخطائه النحوية في التعبير.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103281-2",
+      "variant_id": "f04bb696d062ed3978ff7222ea9d82e94e599249e5d3286e8ce2080e950431f3",
+      "original_variant_id": "fe307bf65e3caa539b5e307fc1b6a1f472966d6002128877ced7f8deddb5644c",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.3",
+      "clo_index": 10,
+      "clo_text_in_json": "أن يطور الطالب أداءه في تطبيق القواعد النحوية باستمرار.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103281-2",
+      "variant_id": "f04bb696d062ed3978ff7222ea9d82e94e599249e5d3286e8ce2080e950431f3",
+      "original_variant_id": "fe307bf65e3caa539b5e307fc1b6a1f472966d6002128877ced7f8deddb5644c",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.3",
+      "clo_index": 10,
+      "clo_text_in_json": "أن يطور الطالب أداءه في تطبيق القواعد النحوية باستمرار.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103281-2",
+      "variant_id": "adc916454e11f8fcc6d2da76b47713cd03eb2dabb04bc8958386ab6f0c5a8f7e",
+      "original_variant_id": "fe307bf65e3caa539b5e307fc1b6a1f472966d6002128877ced7f8deddb5644c",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "clo_code": "3.4",
+      "clo_index": 11,
+      "clo_text_in_json": "أثناء إلقاء ورقة العمل.",
+      "program_reference_id": "quran-ba-v47",
+      "rationale": "المصدر ص5 يقول «أن يتفاعل بصورة إيجابية أثناء إلقاء ورقة العمل». الفعالية الاجتماعية لا تساوي الأمانة العلمية، ونواتج القرآن لا تتضمن ناتج تفاعل وفريق. لا يثبت الربطdirectبق1 من الجزء الآلي المبتور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103281-2",
+      "variant_id": "80216157e48332bb4c4f2f2679c876a0ee437d9b80c4ef2d239589faeb1c99c0",
+      "original_variant_id": "80216157e48332bb4c4f2f2679c876a0ee437d9b80c4ef2d239589faeb1c99c0",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "3.4",
+      "clo_index": 11,
+      "clo_text_in_json": "أثناء إلقاء ورقة العمل.",
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "المصدر ص5 يقول «أن يتفاعل بصورة إيجابية أثناء إلقاء ورقة العمل». الفعالية الاجتماعية لا تساوي الأمانة العلمية، ونواتج القرآن لا تتضمن ناتج تفاعل وفريق. لا يثبت الربطdirectبق1 من الجزء الآلي المبتور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103282-2",
+      "variant_id": "7c0562200922a15cf0ce15ce6f70961e343301f116f0bdfa6bee7d4694569ce0",
+      "original_variant_id": "b13b4f8e7666f6da9c2b3180004094b395657c7edfc055f35a16881f0974eb1b",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.1",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يتحمل الطالب مسؤولية تطبيق القواعد النحوية في كتاباته.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103282-2",
+      "variant_id": "7c0562200922a15cf0ce15ce6f70961e343301f116f0bdfa6bee7d4694569ce0",
+      "original_variant_id": "b13b4f8e7666f6da9c2b3180004094b395657c7edfc055f35a16881f0974eb1b",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.1",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يتحمل الطالب مسؤولية تطبيق القواعد النحوية في كتاباته.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103282-2",
+      "variant_id": "7c0562200922a15cf0ce15ce6f70961e343301f116f0bdfa6bee7d4694569ce0",
+      "original_variant_id": "b13b4f8e7666f6da9c2b3180004094b395657c7edfc055f35a16881f0974eb1b",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.2",
+      "clo_index": 9,
+      "clo_text_in_json": "أن يبادر الطالب إلى تصحيح أخطائه النحوية.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103282-2",
+      "variant_id": "7c0562200922a15cf0ce15ce6f70961e343301f116f0bdfa6bee7d4694569ce0",
+      "original_variant_id": "b13b4f8e7666f6da9c2b3180004094b395657c7edfc055f35a16881f0974eb1b",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.2",
+      "clo_index": 9,
+      "clo_text_in_json": "أن يبادر الطالب إلى تصحيح أخطائه النحوية.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103282-2",
+      "variant_id": "7c0562200922a15cf0ce15ce6f70961e343301f116f0bdfa6bee7d4694569ce0",
+      "original_variant_id": "b13b4f8e7666f6da9c2b3180004094b395657c7edfc055f35a16881f0974eb1b",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.3",
+      "clo_index": 10,
+      "clo_text_in_json": "أن يطور الطالب أداءه في التحليل النحوي باستمرار.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103282-2",
+      "variant_id": "7c0562200922a15cf0ce15ce6f70961e343301f116f0bdfa6bee7d4694569ce0",
+      "original_variant_id": "b13b4f8e7666f6da9c2b3180004094b395657c7edfc055f35a16881f0974eb1b",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.3",
+      "clo_index": 10,
+      "clo_text_in_json": "أن يطور الطالب أداءه في التحليل النحوي باستمرار.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103282-2",
+      "variant_id": "7c0562200922a15cf0ce15ce6f70961e343301f116f0bdfa6bee7d4694569ce0",
+      "original_variant_id": "b13b4f8e7666f6da9c2b3180004094b395657c7edfc055f35a16881f0974eb1b",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.4",
+      "clo_index": 11,
+      "clo_text_in_json": "أن يتحلى الطالب بالأمانة العلمية في توثيق مصادر المعلومات التي يشارك بها في المحاضرة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103282-2",
+      "variant_id": "7c0562200922a15cf0ce15ce6f70961e343301f116f0bdfa6bee7d4694569ce0",
+      "original_variant_id": "b13b4f8e7666f6da9c2b3180004094b395657c7edfc055f35a16881f0974eb1b",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.4",
+      "clo_index": 11,
+      "clo_text_in_json": "أن يتحلى الطالب بالأمانة العلمية في توثيق مصادر المعلومات التي يشارك بها في المحاضرة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "a7d86ca767f3a5f5da897649c48e76d19654096c28fd750d2c3d643d4a30e9fb",
+      "original_variant_id": "d07493d6593067c6cbc117d610f82b12871eb8b27359a10898027d3b22d84fa0",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "2.3",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يوِّظف الطالب لغة الجسد بااعلية أثناء التعبيرعن محتوى الدرس.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "توظيف لغة الجسد أداء تواصلي حركي؛ لا يقيس مقارنة مصادر شرعية أو نشر قيم الشريعة أو قيادة فريق، ولا يوجد PLO تواصل عام في الشريعة القديمة.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "a7d86ca767f3a5f5da897649c48e76d19654096c28fd750d2c3d643d4a30e9fb",
+      "original_variant_id": "d07493d6593067c6cbc117d610f82b12871eb8b27359a10898027d3b22d84fa0",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "2.3",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يوِّظف الطالب لغة الجسد بااعلية أثناء التعبيرعن محتوى الدرس.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "توظيف لغة الجسد أداء تواصلي حركي؛ لا يقيس مقارنة مصادر شرعية أو نشر قيم الشريعة أو قيادة فريق، ولا يوجد PLO تواصل عام في الشريعة القديمة.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "a7d86ca767f3a5f5da897649c48e76d19654096c28fd750d2c3d643d4a30e9fb",
+      "original_variant_id": "d07493d6593067c6cbc117d610f82b12871eb8b27359a10898027d3b22d84fa0",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "2.4",
+      "clo_index": 9,
+      "clo_text_in_json": "أن يطور الطالب مهاراته من خلال ما اكتسبه من عناصر المقرر المعرفية.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "تطوير مهارات الطالب من المكتسبات تعبير عن التطوير الذاتي؛ المرجع القديم لا يفرد PLO لذلك، ولا يحول لفظ التطوير إلى مقارنة مصادر شرعية.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "a7d86ca767f3a5f5da897649c48e76d19654096c28fd750d2c3d643d4a30e9fb",
+      "original_variant_id": "d07493d6593067c6cbc117d610f82b12871eb8b27359a10898027d3b22d84fa0",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "2.4",
+      "clo_index": 9,
+      "clo_text_in_json": "أن يطور الطالب مهاراته من خلال ما اكتسبه من عناصر المقرر المعرفية.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "تطوير مهارات الطالب من المكتسبات تعبير عن التطوير الذاتي؛ المرجع القديم لا يفرد PLO لذلك، ولا يحول لفظ التطوير إلى مقارنة مصادر شرعية.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "a7d86ca767f3a5f5da897649c48e76d19654096c28fd750d2c3d643d4a30e9fb",
+      "original_variant_id": "d07493d6593067c6cbc117d610f82b12871eb8b27359a10898027d3b22d84fa0",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.1",
+      "clo_index": 10,
+      "clo_text_in_json": "أن يتحمل الطالب مسؤولية تطبيق القواعد النحوية المتقدمة بدقة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "a7d86ca767f3a5f5da897649c48e76d19654096c28fd750d2c3d643d4a30e9fb",
+      "original_variant_id": "d07493d6593067c6cbc117d610f82b12871eb8b27359a10898027d3b22d84fa0",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.1",
+      "clo_index": 10,
+      "clo_text_in_json": "أن يتحمل الطالب مسؤولية تطبيق القواعد النحوية المتقدمة بدقة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "a7d86ca767f3a5f5da897649c48e76d19654096c28fd750d2c3d643d4a30e9fb",
+      "original_variant_id": "d07493d6593067c6cbc117d610f82b12871eb8b27359a10898027d3b22d84fa0",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.2",
+      "clo_index": 11,
+      "clo_text_in_json": "أن يبادر الطالب إلى تطوير أدائه في التحليل النحوي.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "a7d86ca767f3a5f5da897649c48e76d19654096c28fd750d2c3d643d4a30e9fb",
+      "original_variant_id": "d07493d6593067c6cbc117d610f82b12871eb8b27359a10898027d3b22d84fa0",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.2",
+      "clo_index": 11,
+      "clo_text_in_json": "أن يبادر الطالب إلى تطوير أدائه في التحليل النحوي.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مضمون هذا الصف مسؤولية فردية أو تطوير ذاتي أو أمانة علمية في الممارسة اللغوية؛ PLO الشريعة القديمة لا يفرد لهذه القيمة ناتجًا، وق1 يطلب نشر قيم الشريعة مجتمعيًا وق2 يطلب قيادة فريق. لا يُحول السلوك القيمي إلى تحليل مصادر أو نشر مجتمعي غير مذكور.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "f5ec264833be0037418c657a3de7f8bae50c732fbc7bb59c95bf3a8def6473de",
+      "original_variant_id": "d07493d6593067c6cbc117d610f82b12871eb8b27359a10898027d3b22d84fa0",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "clo_code": "2.3",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يوِّظف الطالب لغة الجسد بااعلية أثناء التعبيرعن محتوى الدرس.",
+      "program_reference_id": "quran-ba-v47",
+      "rationale": "المخرج خاص بلغة الجسد والعرض أمام الزملاء؛ لا يوجد PLO في البرنامج يقيس مهارة تواصل أو عرض مناسبة لهذا الفعل، ولا يبرر موضوعه ربطًا بتفسير الآيات أو تقويم التفسيرات.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "44f7bf44669d6d454e08f0f03e09eb5b8574825d1c6acef0ca654bf0f51660cc",
+      "original_variant_id": "d07493d6593067c6cbc117d610f82b12871eb8b27359a10898027d3b22d84fa0",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القراءات",
+        "version": "47"
+      },
+      "clo_code": "2.3",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يوِّظف الطالب لغة الجسد بااعلية أثناء التعبيرعن محتوى الدرس.",
+      "program_reference_id": "qiraat-ba-v47",
+      "rationale": "لغة الجسد مهارة عرض وتواصل غير مذكورة في نواتج برنامج القراءات؛ لا يدل النص وحده على تحليل متون أو عرض أوجه القراءات، فلا يسند إلى م2 بالتخمين.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "44f7bf44669d6d454e08f0f03e09eb5b8574825d1c6acef0ca654bf0f51660cc",
+      "original_variant_id": "d07493d6593067c6cbc117d610f82b12871eb8b27359a10898027d3b22d84fa0",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القراءات",
+        "version": "38"
+      },
+      "clo_code": "2.3",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يوِّظف الطالب لغة الجسد بااعلية أثناء التعبيرعن محتوى الدرس.",
+      "program_reference_id": "qiraat-ba-v38",
+      "rationale": "لغة الجسد مهارة عرض وتواصل غير مذكورة في نواتج برنامج القراءات؛ لا يدل النص وحده على تحليل متون أو عرض أوجه القراءات، فلا يسند إلى م2 بالتخمين.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103349-2",
+      "variant_id": "f2c76970cbc44228f27070c50d17057fce35134e41f87e66304f1441c982be03",
+      "original_variant_id": "f2c76970cbc44228f27070c50d17057fce35134e41f87e66304f1441c982be03",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "2.3",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يوِّظف الطالب لغة الجسد بااعلية أثناء التعبيرعن محتوى الدرس.",
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "المخرج خاص بلغة الجسد والعرض أمام الزملاء؛ لا يوجد PLO في البرنامج يقيس مهارة تواصل أو عرض مناسبة لهذا الفعل، ولا يبرر موضوعه ربطًا بتفسير الآيات أو تقويم التفسيرات.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103411-2",
+      "variant_id": "432655f35612843f870eff65fe1b66180c4032e9d3d125e610e1b6fbfb20d578",
+      "original_variant_id": "432655f35612843f870eff65fe1b66180c4032e9d3d125e610e1b6fbfb20d578",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "3.3",
+      "clo_index": 11,
+      "clo_text_in_json": "أن يشارك الطالب بإيجابيةّ في الأنشطة المجتمعيةّ التي تهدف إلى نشر الوعي",
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "المشاركة في نشاط ينشر الوعي ليست بذاتها التزامًا بأخلاقيات أو أمانة. لا يوجد ناتج خدمة مجتمعية في المرجع، وقد يكون ق1داعمًا فقط إذا ظهر السلوك الأخلاقي المقصود.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "103411-2",
+      "variant_id": "b0e077fd0f32ffa9473dfe419ed6ccace8f117715c12a00e6bca2df444786703",
+      "original_variant_id": "5fa12677075b861f117348df04f3972d6e698e87dc3f0329d96db93489236f89",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "clo_code": "3.3",
+      "clo_index": 11,
+      "clo_text_in_json": "أن يشارك الطالب بإيجابيةّ في الأنشطة المجتمعيةّ التي تهدف إلى نشر الوعي",
+      "program_reference_id": "quran-ba-v47",
+      "rationale": "المشاركة في نشاط ينشر الوعي ليست بذاتها التزامًا بأخلاقيات أو أمانة. لا يوجد ناتج خدمة مجتمعية في المرجع، وقد يكون ق1داعمًا فقط إذا ظهر السلوك الأخلاقي المقصود.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "7c5c053b1c4dc19de0aaa2ae477da62551a652332ebb838742e7af15d98617c5",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "1.3",
+      "clo_index": 2,
+      "clo_text_in_json": "أن يُظهر الطالب أبرز إنجازات ملوك المملكة العربية السعودية منذ عهد الملك عبد العزيز طيب الله ثراه حتى اليوم على مختلف الأصعدة والمجالات.",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "معرفة إنجازات الملوك عمومًا لا تصف علاقة تطور اقتصادي/اجتماعي/علمي بالتطور القانوني كما ينص ع5. ينبغي إظهار عنصر تنظيمي أو تشريعي في مضمون CLO أو مصدره قبل قبول هذا الربط.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "7c5c053b1c4dc19de0aaa2ae477da62551a652332ebb838742e7af15d98617c5",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "2.1",
+      "clo_index": 3,
+      "clo_text_in_json": "أن يقارن الطالب بين الدولة السعودية الأولى والدولة السعودية الثانية من كافة النواحي.",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "مقارنة الدولتين السعوديتين لا تقارن قواعد الشريعة بالأنظمة الوضعية كما يتطلب م2. تشابه فعل المقارنة لا يكفي لتغيير موضوع المقارنة؛ لم يذكر CLO أصلًا ثنائية شرعي/وضعي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "7c5c053b1c4dc19de0aaa2ae477da62551a652332ebb838742e7af15d98617c5",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "clo_text_in_json": "أن يحلل الطالب ملامح نظام الحكم والإدارة في الدولة السعودية الأولى والدولة السعودية الثانية.",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "تحليل بنية الحكم والإدارة ليس تفسير نص قانوني واستنباط حكم منه. قد يوفر معرفة سياقية بع2/ع3 بوصفها مساندة، لكنه لا يثبت المهارة النصية المحددة في م1. يلزم تجنب جعل كلمة التحليل وحدها جسرًا.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "91947544c5b5e29f102043b5265751c18859454cbc0f5fa961d8fc3be97b053d",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الدراسات الإسلامية",
+        "version": "39"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": "أن يوضح الطلبة مراحل التطور التاريخي والحضاري للمملكة العربية السعودية منذ قيام الدولة السعودية الأولى حتى يومنا هذا.",
+      "program_reference_id": "islamic-studies-ba-v39",
+      "rationale": "التاريخ السياسي العام للمملكة لا يقابل ناتج معرفة فيالدراسات39؛ النواتج المعرفية محصورة فيالقرآن والتفسير والحديث والاعتقاد والفقه.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "91947544c5b5e29f102043b5265751c18859454cbc0f5fa961d8fc3be97b053d",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الدراسات الإسلامية",
+        "version": "39"
+      },
+      "clo_code": "1.3",
+      "clo_index": 2,
+      "clo_text_in_json": "أن يُظهر الطالب أبرز إنجازات ملوك المملكة العربية السعودية منذ عهد الملك عبد العزيز طيب الله ثراه حتى اليوم على مختلف الأصعدة والمجالات.",
+      "program_reference_id": "islamic-studies-ba-v39",
+      "rationale": "معرفة الإنجازات العامة لملوك المملكة لا تقابل ناتجًا معرفيًا متخصصًا منPLO الدراسات39؛ الاعتزاز الوطني فيق5 مجال قيمي مختلف.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "a1d1a6d79739bf8a4162a15e6c0a712807b1dc0f6c47f37fcaab1648427e9a57",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": "أن يوضح الطلبة مراحل التطور التاريخي والحضاري للمملكة العربية السعودية منذ قيام الدولة السعودية الأولى حتى يومنا هذا.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "المخرج يقيس معرفة تاريخية أوتحليلًا لنظم الحكم التاريخية، بينماق3 يطلب المشاركة الفاعلة فيتحقيق رؤية2030. الوعي التاريخي ليس أداءالمشاركة ولا مرحلة محددة منه منصوصًا عليها؛ تشابه الموضوع الوطني لا يكفي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "a1d1a6d79739bf8a4162a15e6c0a712807b1dc0f6c47f37fcaab1648427e9a57",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": "أن يوضح الطلبة مراحل التطور التاريخي والحضاري للمملكة العربية السعودية منذ قيام الدولة السعودية الأولى حتى يومنا هذا.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "المخرج يقيس معرفة تاريخية أوتحليلًا لنظم الحكم التاريخية، بينماق3 يطلب المشاركة الفاعلة فيتحقيق رؤية2030. الوعي التاريخي ليس أداءالمشاركة ولا مرحلة محددة منه منصوصًا عليها؛ تشابه الموضوع الوطني لا يكفي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "a1d1a6d79739bf8a4162a15e6c0a712807b1dc0f6c47f37fcaab1648427e9a57",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "1.3",
+      "clo_index": 2,
+      "clo_text_in_json": "أن يُظهر الطالب أبرز إنجازات ملوك المملكة العربية السعودية منذ عهد الملك عبد العزيز طيب الله ثراه حتى اليوم على مختلف الأصعدة والمجالات.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "المخرج يقيس معرفة تاريخية أوتحليلًا لنظم الحكم التاريخية، بينماق3 يطلب المشاركة الفاعلة فيتحقيق رؤية2030. الوعي التاريخي ليس أداءالمشاركة ولا مرحلة محددة منه منصوصًا عليها؛ تشابه الموضوع الوطني لا يكفي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "a1d1a6d79739bf8a4162a15e6c0a712807b1dc0f6c47f37fcaab1648427e9a57",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "1.3",
+      "clo_index": 2,
+      "clo_text_in_json": "أن يُظهر الطالب أبرز إنجازات ملوك المملكة العربية السعودية منذ عهد الملك عبد العزيز طيب الله ثراه حتى اليوم على مختلف الأصعدة والمجالات.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "المخرج يقيس معرفة تاريخية أوتحليلًا لنظم الحكم التاريخية، بينماق3 يطلب المشاركة الفاعلة فيتحقيق رؤية2030. الوعي التاريخي ليس أداءالمشاركة ولا مرحلة محددة منه منصوصًا عليها؛ تشابه الموضوع الوطني لا يكفي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "a1d1a6d79739bf8a4162a15e6c0a712807b1dc0f6c47f37fcaab1648427e9a57",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "2.1",
+      "clo_index": 3,
+      "clo_text_in_json": "أن يقارن الطالب بين الدولة السعودية الأولى والدولة السعودية الثانية من كافة النواحي.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "المخرج يقيس معرفة تاريخية أوتحليلًا لنظم الحكم التاريخية، بينماق3 يطلب المشاركة الفاعلة فيتحقيق رؤية2030. الوعي التاريخي ليس أداءالمشاركة ولا مرحلة محددة منه منصوصًا عليها؛ تشابه الموضوع الوطني لا يكفي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "a1d1a6d79739bf8a4162a15e6c0a712807b1dc0f6c47f37fcaab1648427e9a57",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "2.1",
+      "clo_index": 3,
+      "clo_text_in_json": "أن يقارن الطالب بين الدولة السعودية الأولى والدولة السعودية الثانية من كافة النواحي.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "المخرج يقيس معرفة تاريخية أوتحليلًا لنظم الحكم التاريخية، بينماق3 يطلب المشاركة الفاعلة فيتحقيق رؤية2030. الوعي التاريخي ليس أداءالمشاركة ولا مرحلة محددة منه منصوصًا عليها؛ تشابه الموضوع الوطني لا يكفي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "a1d1a6d79739bf8a4162a15e6c0a712807b1dc0f6c47f37fcaab1648427e9a57",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "clo_text_in_json": "أن يحلل الطالب ملامح نظام الحكم والإدارة في الدولة السعودية الأولى والدولة السعودية الثانية.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "المخرج يقيس معرفة تاريخية أوتحليلًا لنظم الحكم التاريخية، بينماق3 يطلب المشاركة الفاعلة فيتحقيق رؤية2030. الوعي التاريخي ليس أداءالمشاركة ولا مرحلة محددة منه منصوصًا عليها؛ تشابه الموضوع الوطني لا يكفي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "a1d1a6d79739bf8a4162a15e6c0a712807b1dc0f6c47f37fcaab1648427e9a57",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "clo_text_in_json": "أن يحلل الطالب ملامح نظام الحكم والإدارة في الدولة السعودية الأولى والدولة السعودية الثانية.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "المخرج يقيس معرفة تاريخية أوتحليلًا لنظم الحكم التاريخية، بينماق3 يطلب المشاركة الفاعلة فيتحقيق رؤية2030. الوعي التاريخي ليس أداءالمشاركة ولا مرحلة محددة منه منصوصًا عليها؛ تشابه الموضوع الوطني لا يكفي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "504d1a3f52a413ab8ebd918ca72fceae0f25e836f98817cb888e8091143bc96d",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "2.1",
+      "clo_index": 3,
+      "clo_text_in_json": "أن يقارن الطالب بين الدولة السعودية الأولى والدولة السعودية الثانية من كافة النواحي.",
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "المقارنة بين الدول وتحليل نظام الحكم مهارتان تاريخيتان؛ م3 مخصص لتقويم الآراء والتفسيرات المتعلقة بالقرآن وعلومه. لا يثبت نقل مباشر من مجرد المقارنة والتحليل. تقبل المعارف بع3 لا يقتضي ربط كل مهارة تاريخية بم3.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "504d1a3f52a413ab8ebd918ca72fceae0f25e836f98817cb888e8091143bc96d",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "clo_text_in_json": "أن يحلل الطالب ملامح نظام الحكم والإدارة في الدولة السعودية الأولى والدولة السعودية الثانية.",
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "المقارنة بين الدول وتحليل نظام الحكم مهارتان تاريخيتان؛ م3 مخصص لتقويم الآراء والتفسيرات المتعلقة بالقرآن وعلومه. لا يثبت نقل مباشر من مجرد المقارنة والتحليل. تقبل المعارف بع3 لا يقتضي ربط كل مهارة تاريخية بم3.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "105115-2",
+      "variant_id": "504d1a3f52a413ab8ebd918ca72fceae0f25e836f98817cb888e8091143bc96d",
+      "original_variant_id": "31d03d70d4cfe2b115e033e90f447a60c3cb9080e4a866451a35f9bcb910f721",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "3.1",
+      "clo_index": 5,
+      "clo_text_in_json": "أن يشارك الطالب زملاءه في تقديم مشروع يظهر جهود المملكة العربية السعودية على المستوى العربي والإقليمي والعالمي.",
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "المشروع الجماعي عن جهود المملكة يصف مشاركة؛ ق2 يتطلب تحمل مسؤولية تطوير النفس. لا يوجد هذا القصد في نص CLO.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "2001340-2",
+      "variant_id": "501cec9c249d2c0114bc3abc673e6179818c8379d2008b3285635c915b4b89d1",
+      "original_variant_id": "2817a26a4e20d2b3d05ce51da390ccd2455421a90afc8d05568e344533820438",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "3.3",
+      "clo_index": 9,
+      "clo_text_in_json": "الدفاع عن السنة النبوية.",
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "الدفاع عن السنة فعل علمي احتجاجي، وليس نصًا عن التزام الأمانة العلمية أو السلوك الأخلاقي. لا يصح ق1direct. وربطه بم3يتطلب دليل أن الدفاع ينقل مهارة تقويم الشبهات المتعلقة بالقرآن، وهو غير ظاهر في النص المختصر.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "2001373-2",
+      "variant_id": "864428a116b4c9a46cedc6fe6db9b70f4a8fcad72c581c7dbc4dbde7591b82fa",
+      "original_variant_id": "4371a058f0255ba7c08eae71fa94785e732c62bf4498824f0ea1bc7fba60bd98",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "2.3",
+      "clo_index": 5,
+      "clo_text_in_json": null,
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز.",
+      "reason_code": "CLO_SOURCE_BLANK"
+    },
+    {
+      "course_code": "2001373-2",
+      "variant_id": "864428a116b4c9a46cedc6fe6db9b70f4a8fcad72c581c7dbc4dbde7591b82fa",
+      "original_variant_id": "4371a058f0255ba7c08eae71fa94785e732c62bf4498824f0ea1bc7fba60bd98",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "3.3",
+      "clo_index": 8,
+      "clo_text_in_json": null,
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز.",
+      "reason_code": "CLO_SOURCE_BLANK"
+    },
+    {
+      "course_code": "2001373-2",
+      "variant_id": "0044da17c090096ba5a6b13f04798230119aeafd8782045c54bfc71ba01ecd62",
+      "original_variant_id": "4371a058f0255ba7c08eae71fa94785e732c62bf4498824f0ea1bc7fba60bd98",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القراءات",
+        "version": "38"
+      },
+      "clo_code": "2.3",
+      "clo_index": 5,
+      "clo_text_in_json": null,
+      "program_reference_id": "qiraat-ba-v38",
+      "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما.",
+      "reason_code": "CLO_SOURCE_BLANK"
+    },
+    {
+      "course_code": "2001373-2",
+      "variant_id": "0044da17c090096ba5a6b13f04798230119aeafd8782045c54bfc71ba01ecd62",
+      "original_variant_id": "4371a058f0255ba7c08eae71fa94785e732c62bf4498824f0ea1bc7fba60bd98",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القراءات",
+        "version": "38"
+      },
+      "clo_code": "3.3",
+      "clo_index": 8,
+      "clo_text_in_json": null,
+      "program_reference_id": "qiraat-ba-v38",
+      "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما.",
+      "reason_code": "CLO_SOURCE_BLANK"
+    },
+    {
+      "course_code": "2001474-2",
+      "variant_id": "fcee650de97c8408e8a8a69f4f54f28cbd3a16d2a5c07f9103cefb4d8493560b",
+      "original_variant_id": "478d289f106394f355b2783584d820e56211a7653de92f087a0652d5b4b98524",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "2.3",
+      "clo_index": 5,
+      "clo_text_in_json": null,
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز.",
+      "reason_code": "CLO_SOURCE_BLANK"
+    },
+    {
+      "course_code": "2001474-2",
+      "variant_id": "fcee650de97c8408e8a8a69f4f54f28cbd3a16d2a5c07f9103cefb4d8493560b",
+      "original_variant_id": "478d289f106394f355b2783584d820e56211a7653de92f087a0652d5b4b98524",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "3.3",
+      "clo_index": 8,
+      "clo_text_in_json": null,
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز.",
+      "reason_code": "CLO_SOURCE_BLANK"
+    },
+    {
+      "course_code": "2001474-2",
+      "variant_id": "6b8aa7da1f6f418f03b465dd2922978006b4efbd05394b0f14b35da3c273cb01",
+      "original_variant_id": "478d289f106394f355b2783584d820e56211a7653de92f087a0652d5b4b98524",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القراءات",
+        "version": "38"
+      },
+      "clo_code": "2.3",
+      "clo_index": 5,
+      "clo_text_in_json": null,
+      "program_reference_id": "qiraat-ba-v38",
+      "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما.",
+      "reason_code": "CLO_SOURCE_BLANK"
+    },
+    {
+      "course_code": "2001474-2",
+      "variant_id": "6b8aa7da1f6f418f03b465dd2922978006b4efbd05394b0f14b35da3c273cb01",
+      "original_variant_id": "478d289f106394f355b2783584d820e56211a7653de92f087a0652d5b4b98524",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القراءات",
+        "version": "38"
+      },
+      "clo_code": "3.3",
+      "clo_index": 8,
+      "clo_text_in_json": null,
+      "program_reference_id": "qiraat-ba-v38",
+      "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما.",
+      "reason_code": "CLO_SOURCE_BLANK"
+    },
+    {
+      "course_code": "2002250-2",
+      "variant_id": "b242af5efe5935be9ea7f203d3feb94276ed423687fb994e9317c4fa2e98cb20",
+      "original_variant_id": "f505cb15c601ee8923acfae101265a9c9d783c8fbf1b6fcacd91d92d16914ba3",
+      "scope": {
+        "program": "الشريعة",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "clo_code": "3.1",
+      "clo_index": 5,
+      "clo_text_in_json": "أن يلتزم الطالب بالأمانة العلمية عند نقل أقوال المفسرين.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "الأمانة فينقل أقوال المفسرين لا تساوي التفاعل مع المجتمع لنشر قيم الشريعة باستخدام التقنية. ق1 القديم لا يفرد أخلاقيات علمية أودقة نقل، فلا يصح إنشاء هذه الدلالة ضمنه.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "2002416-2",
+      "variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "original_variant_id": "818fa535cc04b904615911e882c651769b10863cd0e70442d75e2d8905c24e07",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "clo_code": "2.1",
+      "clo_index": 3,
+      "clo_text_in_json": "أن يطبق الطالب التقنيات الحديثة في البحث القرآني.",
+      "program_reference_id": "quran-ba-v47",
+      "rationale": "تطبيق التقنية في البحث القرآني يصف أداة بحث لا تقويم آراء أو ممارسة تفسير بذاته. م3لا يتضمن المهارة التقنية. لا يوجد PLOبحثتقني مستقل في هذا البرنامج.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "2002416-2",
+      "variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "original_variant_id": "818fa535cc04b904615911e882c651769b10863cd0e70442d75e2d8905c24e07",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "2.1",
+      "clo_index": 3,
+      "clo_text_in_json": "أن يطبق الطالب التقنيات الحديثة في البحث القرآني.",
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "تطبيق التقنية في البحث القرآني يصف أداة بحث لا تقويم آراء أو ممارسة تفسير بذاته. م3لا يتضمن المهارة التقنية. لا يوجد PLOبحثتقني مستقل في هذا البرنامج.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "2002416-2",
+      "variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "original_variant_id": "818fa535cc04b904615911e882c651769b10863cd0e70442d75e2d8905c24e07",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "clo_text_in_json": "أن يقِّيم الطالب فعالية التطبيقات الذكية في تعليم القرآن وعلومه.",
+      "program_reference_id": "quran-ba-v47",
+      "rationale": "تقويم فعالية التطبيقات التعليمية تقويم أداة تقنية، لا تحمل مسؤولية تطوير النفس في ق2. كما أن م3لا يتناول البرامج التعليمية وإنما الآراء والتفسيرات؛ الأنسبفجوة.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "2002416-2",
+      "variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "original_variant_id": "818fa535cc04b904615911e882c651769b10863cd0e70442d75e2d8905c24e07",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "clo_text_in_json": "أن يقِّيم الطالب فعالية التطبيقات الذكية في تعليم القرآن وعلومه.",
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "تقويم فعالية التطبيقات التعليمية تقويم أداة تقنية، لا تحمل مسؤولية تطوير النفس في ق2. كما أن م3لا يتناول البرامج التعليمية وإنما الآراء والتفسيرات؛ الأنسبفجوة.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "2002456-2",
+      "variant_id": "b4abdf13601c2c9b33a3898906991105e727b775bedaca9375291dfe105ba834",
+      "original_variant_id": "b4abdf13601c2c9b33a3898906991105e727b775bedaca9375291dfe105ba834",
+      "scope": {
+        "program": "القراءات",
+        "plan_type": "قديمة",
+        "version": "38",
+        "degree": "بكالوريوس"
+      },
+      "clo_code": "2.1",
+      "clo_index": 3,
+      "clo_text_in_json": null,
+      "program_reference_id": "qiraat-ba-v38",
+      "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما.",
+      "reason_code": "CLO_SOURCE_BLANK"
+    },
+    {
+      "course_code": "2004373-2",
+      "variant_id": "f3e7f4f91effb6dabb890fe6e4fef93e65d2f7f404c4fd4bb9ba8b1fe5274e12",
+      "original_variant_id": "84d2944de69322a80273b0e9b0388cf4c4d695838399b3512dfa514770051c73",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "الشريعة",
+        "version": "47"
+      },
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "clo_text_in_json": null,
+      "program_reference_id": "sharia-ba-v47",
+      "rationale": "مراجعة المصدر المطابق للبصمة تثبت أن خلية نص CLO2.2 فارغة؛ لا يُنشأ ربط لمخرج غير مكتوب.",
+      "reason_code": "CLO_SOURCE_BLANK"
+    },
+    {
+      "course_code": "2004373-2",
+      "variant_id": "6e59095bc5f09b5e6347f5e3e7bd653c9fc3850f01f129ee953369934df01cc2",
+      "original_variant_id": "84d2944de69322a80273b0e9b0388cf4c4d695838399b3512dfa514770051c73",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "clo_text_in_json": null,
+      "program_reference_id": "quran-ba-v47",
+      "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز.",
+      "reason_code": "CLO_SOURCE_BLANK"
+    },
+    {
+      "course_code": "2004373-2",
+      "variant_id": "83586949e1484e302a190c090cb8f76efe376e4588cc4b1860deb8a382c32450",
+      "original_variant_id": "84d2944de69322a80273b0e9b0388cf4c4d695838399b3512dfa514770051c73",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القراءات",
+        "version": "47"
+      },
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "clo_text_in_json": null,
+      "program_reference_id": "qiraat-ba-v47",
+      "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما.",
+      "reason_code": "CLO_SOURCE_BLANK"
+    },
+    {
+      "course_code": "2004474-2",
+      "variant_id": "4824932089a64ed4f97e174fdea0dd40983297b16e35579191e29a782eb16f1f",
+      "original_variant_id": "fbc7c05943a36a7e07ba90fb85b876610b11a80cd4413c24c0a4cb0458cf9708",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "الشريعة",
+        "version": "47"
+      },
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "clo_text_in_json": null,
+      "program_reference_id": "sharia-ba-v47",
+      "rationale": "خلية نص CLO2.2 فارغة فعلًا وفق القراءة البصرية الموثقة للمصدر؛ يبقى الربط غير محسوم ولا يُخترع مضمون.",
+      "reason_code": "CLO_SOURCE_BLANK"
+    },
+    {
+      "course_code": "2004474-2",
+      "variant_id": "442eac742d2d1cb5e8455753b8a1554e066383b706deb1c8670fee68344bcd82",
+      "original_variant_id": "fbc7c05943a36a7e07ba90fb85b876610b11a80cd4413c24c0a4cb0458cf9708",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "clo_text_in_json": null,
+      "program_reference_id": "quran-ba-v47",
+      "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز.",
+      "reason_code": "CLO_SOURCE_BLANK"
+    },
+    {
+      "course_code": "2004474-2",
+      "variant_id": "d679f9daa0f9f32524881be2f7edf33b76c68b776f776820cd4f25a03cac05d4",
+      "original_variant_id": "fbc7c05943a36a7e07ba90fb85b876610b11a80cd4413c24c0a4cb0458cf9708",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القراءات",
+        "version": "47"
+      },
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "clo_text_in_json": null,
+      "program_reference_id": "qiraat-ba-v47",
+      "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما.",
+      "reason_code": "CLO_SOURCE_BLANK"
+    },
+    {
+      "course_code": "2004493-2",
+      "variant_id": "7af4a469365d67d88da8e54a5f9d1007a8bb7e3a8b17cb7e3aa1cb60f9da8f7a",
+      "original_variant_id": "e0b03e9c59ace5daed1a50ae9462c6e3825dade8e8084aeafa0cbde0c90cf29b",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "الشريعة",
+        "version": "47"
+      },
+      "clo_code": "2.1",
+      "clo_index": 4,
+      "clo_text_in_json": "استخدام البرامج الحاسوبية الحديثة في استخراج الحديث.",
+      "program_reference_id": "sharia-ba-v47",
+      "rationale": "م4 الرسمي يطلب استخدام وسائل التواصل الشفهي والكتابي بفاعلية مع الآخرين من خلال التقنية الحديثة. البحث ببرنامج حاسوبي لا يثبت تواصلًا شفهيًا أوكتابيًا مع الآخرين؛ وجود التقنية وحده لا يكفي. يمكن مراجعة محتوى المهمات لاحقًا، أماCLO الحالي فيبقى غير محسوم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "2004493-2",
+      "variant_id": "7af4a469365d67d88da8e54a5f9d1007a8bb7e3a8b17cb7e3aa1cb60f9da8f7a",
+      "original_variant_id": "e0b03e9c59ace5daed1a50ae9462c6e3825dade8e8084aeafa0cbde0c90cf29b",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "الشريعة",
+        "version": "47"
+      },
+      "clo_code": "3.3",
+      "clo_index": 11,
+      "clo_text_in_json": "الدفاع عن السنة النبوبة.",
+      "program_reference_id": "sharia-ba-v47",
+      "rationale": "الدفاع عن السنة مضمون علمي/قيمي عام، لكنق3 يطلب تحمل مسؤولية الأعمال المكلف بها وفق الأنظمة المقررة. لم يذكرCLO تكليفًا أونظامًا أوإدارة مسؤولية؛ لا يُستنبط ذلك منالدفاع وحده. البديل المحتمل م3 يحتاج نصًا صريحًا عن التحليل الفقهي/الأصولي غير موجود أيضًا.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "2004493-2",
+      "variant_id": "5de96b7772996930bce60de40f447e12412f3934bee01ac8af36406a048648cd",
+      "original_variant_id": "e0b03e9c59ace5daed1a50ae9462c6e3825dade8e8084aeafa0cbde0c90cf29b",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "clo_code": "3.3",
+      "clo_index": 11,
+      "clo_text_in_json": "الدفاع عن السنة النبوبة.",
+      "program_reference_id": "quran-ba-v47",
+      "rationale": "الدفاع عن السنة فعل علمي احتجاجي، وليس نصًا عن التزام الأمانة العلمية أو السلوك الأخلاقي. لا يصح ق1direct. وربطه بم3يتطلب دليل أن الدفاع ينقل مهارة تقويم الشبهات المتعلقة بالقرآن، وهو غير ظاهر في النص المختصر.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "6602322-2",
+      "variant_id": "1695549841ace795ad14324e6a0b40e8e2ddee247cd807f36243bb6e367d27a8",
+      "original_variant_id": "5f89d09ac0a0984ced6e16f3d075c87c85cc159cc47c910e8d967e3994727b72",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "الدراسات الإسلامية",
+        "version": "47"
+      },
+      "clo_code": "1.3",
+      "clo_index": 2,
+      "clo_text_in_json": "أنماط التجارة الالكترونية والفرص والتحديات.",
+      "program_reference_id": "islamic-studies-ba-v47",
+      "rationale": "القراءة البصرية عن الحكومة الإلكترونية وأشكالها مضمون إداري وتقني؛ ع3 الجديد يوضح قضايا ومفاهيم وأحكامًا شرعية عقدية وفقهية ودعوية بأدلتها. لا ترد هذه الصلة في CLO، ولا تكفي عمومية القضايا المجتمعية في التعليل.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "6602322-2",
+      "variant_id": "1695549841ace795ad14324e6a0b40e8e2ddee247cd807f36243bb6e367d27a8",
+      "original_variant_id": "5f89d09ac0a0984ced6e16f3d075c87c85cc159cc47c910e8d967e3994727b72",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "الدراسات الإسلامية",
+        "version": "47"
+      },
+      "clo_code": "2.1",
+      "clo_index": 3,
+      "clo_text_in_json": "يحلل الطالب مرتكزات البنية التحتية للتجارة الالكترونية.",
+      "program_reference_id": "islamic-studies-ba-v47",
+      "rationale": "تحليل بنية تحتية للتجارة الإلكترونية لا يستخدم تقنية في العلوم والدراسات الإسلامية كما ينص م3. التحليل البنيوي واستخدام التقنية أداآن مختلفان، وفوق ذلك لم يثبت السياق الإسلامي في الصف.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "6602322-2",
+      "variant_id": "1695549841ace795ad14324e6a0b40e8e2ddee247cd807f36243bb6e367d27a8",
+      "original_variant_id": "5f89d09ac0a0984ced6e16f3d075c87c85cc159cc47c910e8d967e3994727b72",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "الدراسات الإسلامية",
+        "version": "47"
+      },
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "clo_text_in_json": null,
+      "program_reference_id": "islamic-studies-ba-v47",
+      "rationale": "ممارسة التجارة الإلكترونية في السوق ليست تطبيق قواعد أو معارف شرعية كما يطلب م2. معرفة كيفية البيع تقنيًا قد تكون موضوعًا لدراسة حكم فقهي، لكنها لا تثبت تطبيق الحكم أو المنهج الشرعي نفسه.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "6602322-2",
+      "variant_id": "41a3b3576bfb43ac347bb3fee3f4d71110587e1b5a1ef0dd4d312beda1274e3c",
+      "original_variant_id": "5f89d09ac0a0984ced6e16f3d075c87c85cc159cc47c910e8d967e3994727b72",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "clo_code": "2.1",
+      "clo_index": 3,
+      "clo_text_in_json": "يحلل الطالب مرتكزات البنية التحتية للتجارة الالكترونية.",
+      "program_reference_id": "quran-ba-v47",
+      "rationale": "تحليل البنية التحتية للتجارة الإلكترونية لا يطابق أي مخرج مهاري قرآني، ولا يكفي تشابه فعل التحليل لربطه بتقويم التفسيرات.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "6602322-2",
+      "variant_id": "41a3b3576bfb43ac347bb3fee3f4d71110587e1b5a1ef0dd4d312beda1274e3c",
+      "original_variant_id": "5f89d09ac0a0984ced6e16f3d075c87c85cc159cc47c910e8d967e3994727b72",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "clo_text_in_json": null,
+      "program_reference_id": "quran-ba-v47",
+      "rationale": "تطبيق التجارة عبر السوق الإلكتروني لا يطابق أي PLO في البرنامج؛ لا ينشأ رمز تقني أو تجاري غير موجود.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "6602322-2",
+      "variant_id": "26fa1f3579f06d79c0025571098af52333677caa29c79e96b681b754d6185f8e",
+      "original_variant_id": "5f89d09ac0a0984ced6e16f3d075c87c85cc159cc47c910e8d967e3994727b72",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القراءات",
+        "version": "47"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": "يتعرف الطالب على المفاهيم الأساسية للتجارة الالكترونية.",
+      "program_reference_id": "qiraat-ba-v47",
+      "rationale": "المخرج معرفة صحية أو تجارية عامة، بينما ع3 في القراءات مقيد بمقدمات وقضايا العلوم التخصصية والمساندة، ولا يذكر المعارف العامة. لا توجد صلة علمية مساندة بالتخصص في هذا النص، ولا يوسع ناتج البرنامج لتغطية كل متطلب جامعي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "6602322-2",
+      "variant_id": "26fa1f3579f06d79c0025571098af52333677caa29c79e96b681b754d6185f8e",
+      "original_variant_id": "5f89d09ac0a0984ced6e16f3d075c87c85cc159cc47c910e8d967e3994727b72",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القراءات",
+        "version": "47"
+      },
+      "clo_code": "1.2",
+      "clo_index": 1,
+      "clo_text_in_json": "يشبح الطالب أنماط التجارة الالكترونية والفرص والتحديات.",
+      "program_reference_id": "qiraat-ba-v47",
+      "rationale": "المخرج معرفة صحية أو تجارية عامة، بينما ع3 في القراءات مقيد بمقدمات وقضايا العلوم التخصصية والمساندة، ولا يذكر المعارف العامة. لا توجد صلة علمية مساندة بالتخصص في هذا النص، ولا يوسع ناتج البرنامج لتغطية كل متطلب جامعي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "6602322-2",
+      "variant_id": "26fa1f3579f06d79c0025571098af52333677caa29c79e96b681b754d6185f8e",
+      "original_variant_id": "5f89d09ac0a0984ced6e16f3d075c87c85cc159cc47c910e8d967e3994727b72",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القراءات",
+        "version": "47"
+      },
+      "clo_code": "1.3",
+      "clo_index": 2,
+      "clo_text_in_json": "أنماط التجارة الالكترونية والفرص والتحديات.",
+      "program_reference_id": "qiraat-ba-v47",
+      "rationale": "المخرج معرفة صحية أو تجارية عامة، بينما ع3 في القراءات مقيد بمقدمات وقضايا العلوم التخصصية والمساندة، ولا يذكر المعارف العامة. لا توجد صلة علمية مساندة بالتخصص في هذا النص، ولا يوسع ناتج البرنامج لتغطية كل متطلب جامعي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "6602322-2",
+      "variant_id": "26fa1f3579f06d79c0025571098af52333677caa29c79e96b681b754d6185f8e",
+      "original_variant_id": "5f89d09ac0a0984ced6e16f3d075c87c85cc159cc47c910e8d967e3994727b72",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القراءات",
+        "version": "47"
+      },
+      "clo_code": "2.1",
+      "clo_index": 3,
+      "clo_text_in_json": "يحلل الطالب مرتكزات البنية التحتية للتجارة الالكترونية.",
+      "program_reference_id": "qiraat-ba-v47",
+      "rationale": "تحليل البنية التحتية للتجارة الإلكترونية مهارة تجارية تقنية لا يغطيها ناتج القراءات المتعلق بتحليل متون التخصص؛ لا تكفي عمومية كلمة التحليل للربط بم2.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "6602322-2",
+      "variant_id": "26fa1f3579f06d79c0025571098af52333677caa29c79e96b681b754d6185f8e",
+      "original_variant_id": "5f89d09ac0a0984ced6e16f3d075c87c85cc159cc47c910e8d967e3994727b72",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القراءات",
+        "version": "47"
+      },
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "clo_text_in_json": null,
+      "program_reference_id": "qiraat-ba-v47",
+      "rationale": "تطبيق أسلوب التجارة الإلكترونية في السوق ممارسة بيع وتجارة لا مهارة بحثية تقنية في تخصص القراءات؛ لا يوجد ناتج مناسب يغطي المضمون، فلا يسند قسرًا إلى م4.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "516a84d81a3a22bfec1c0f92d97e6d4bb3b21e7c4a2eb424971911b173ea3137",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": "يوضح الطالب مفهوم الثقافة الصحية وأهميتها لأفراد المجتمع وسبل تحقيقها.",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "ع5 يطلب وصف التطورات العلمية والاجتماعية وعلاقتها بالتطور القانوني. تعريف الصحة والمرض لا يصف تطورًا علميًا أو علاقة بالقانون؛ السياق القانوني مضاف في التعليل وحده، وليس مضمونًا أو فعلًا في CLO. لا يكفي تصور أن كل علم له تنظيم قانوني.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "516a84d81a3a22bfec1c0f92d97e6d4bb3b21e7c4a2eb424971911b173ea3137",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "1.2",
+      "clo_index": 1,
+      "clo_text_in_json": "يوضح الطالب مفهوم الصحة ودرجاتها ومفهوم المرض",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "ع5 يطلب وصف التطورات العلمية والاجتماعية وعلاقتها بالتطور القانوني. تعريف الصحة والمرض لا يصف تطورًا علميًا أو علاقة بالقانون؛ السياق القانوني مضاف في التعليل وحده، وليس مضمونًا أو فعلًا في CLO. لا يكفي تصور أن كل علم له تنظيم قانوني.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "516a84d81a3a22bfec1c0f92d97e6d4bb3b21e7c4a2eb424971911b173ea3137",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "2.1",
+      "clo_index": 2,
+      "clo_text_in_json": "يصنف الطالب الامراض الى أمراض معدية وأمراض مزمنة ويذكر أسبابها وطرق الوقاية منها.",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "تصنيف الأمراض والوقاية منها مهارة صحية؛ مهارات الأنظمة38 تتعلق بتفسير القانون والمقارنة والتطبيق القانوني والاتجاهات القضائية، ولا يوجد ناتج مناسب لهذا الأداء الصحي المحدد.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "516a84d81a3a22bfec1c0f92d97e6d4bb3b21e7c4a2eb424971911b173ea3137",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "2.2",
+      "clo_index": 3,
+      "clo_text_in_json": null,
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "تصنيف المناعة ومستويات الوقاية أداء صحي لا يقيس أي مهارة قانونية في نواتج الأنظمة38.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "516a84d81a3a22bfec1c0f92d97e6d4bb3b21e7c4a2eb424971911b173ea3137",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "2.3",
+      "clo_index": 4,
+      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نمالج مختلفة.",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "تنفيذ الإسعافات الأولية أداء عملي صحي؛ ربطه بتطبيق القواعد القانونية سيغير معنىPLO ولا تدعمه صياغةCLO.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "516a84d81a3a22bfec1c0f92d97e6d4bb3b21e7c4a2eb424971911b173ea3137",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "3.2",
+      "clo_index": 6,
+      "clo_text_in_json": "يستخدم الطالب وسائل التكنولوجيا للحصول على المعلومات الطبي الموثوقة والحديثة.",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "استخدام التقنية للحصول على معلومات طبية كفاية بحثية تقنية؛ قيم الأنظمة38 محصورة في الابتكار القانوني والمشاركة فيرؤية2030 والعمل الجماعي، ولا يوجد فيها ناتج مناسب لهذه الكفاية الذاتية.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "516a84d81a3a22bfec1c0f92d97e6d4bb3b21e7c4a2eb424971911b173ea3137",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "3.3",
+      "clo_index": 7,
+      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة ج. موضوعات المقرر",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "تخطيط تغذية صحية فردية لا يدل على الابتكار القانوني أو المشاركة الوطنية أو العمل الجماعي فيPLO القيم للأنظمة38.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "8bb071633a5569e8cda5f726e17365cd2857fb9f9829c4d26ba35c81cd972a67",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الدراسات الإسلامية",
+        "version": "39"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": "يوضح الطالب مفهوم الثقافة الصحية وأهميتها لأفراد المجتمع وسبل تحقيقها.",
+      "program_reference_id": "islamic-studies-ba-v39",
+      "rationale": "ع5 القديم يطلب توضيح الأحكام الشرعية الفقهية باستخدام القواعد والأصول. تعريفات الصحة والمرض لا تتضمن حكمًا شرعيًا أو أصلًا فقهيًا. إضافة حفظ النفس في التعليل تؤلف محتوى لم يرد في CLO، فلا تكفي لدعم النقل.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "8bb071633a5569e8cda5f726e17365cd2857fb9f9829c4d26ba35c81cd972a67",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الدراسات الإسلامية",
+        "version": "39"
+      },
+      "clo_code": "1.2",
+      "clo_index": 1,
+      "clo_text_in_json": "يوضح الطالب مفهوم الصحة ودرجاتها ومفهوم المرض",
+      "program_reference_id": "islamic-studies-ba-v39",
+      "rationale": "ع5 القديم يطلب توضيح الأحكام الشرعية الفقهية باستخدام القواعد والأصول. تعريفات الصحة والمرض لا تتضمن حكمًا شرعيًا أو أصلًا فقهيًا. إضافة حفظ النفس في التعليل تؤلف محتوى لم يرد في CLO، فلا تكفي لدعم النقل.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "8bb071633a5569e8cda5f726e17365cd2857fb9f9829c4d26ba35c81cd972a67",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الدراسات الإسلامية",
+        "version": "39"
+      },
+      "clo_code": "2.1",
+      "clo_index": 2,
+      "clo_text_in_json": "يصنف الطالب الامراض الى أمراض معدية وأمراض مزمنة ويذكر أسبابها وطرق الوقاية منها.",
+      "program_reference_id": "islamic-studies-ba-v39",
+      "rationale": "م2 القديم يطبق ما تعلمه من العلوم الشرعية في العمل وخدمة المجتمع. تصنيف الأمراض والمناعة والإسعاف علم صحي عملي، ولا ينص CLO على تطبيق علم شرعي. خدمة المجتمع وحدها لا تسقط شرط العلوم الشرعية الموجود في PLO.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "8bb071633a5569e8cda5f726e17365cd2857fb9f9829c4d26ba35c81cd972a67",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الدراسات الإسلامية",
+        "version": "39"
+      },
+      "clo_code": "2.2",
+      "clo_index": 3,
+      "clo_text_in_json": null,
+      "program_reference_id": "islamic-studies-ba-v39",
+      "rationale": "م2 القديم يطبق ما تعلمه من العلوم الشرعية في العمل وخدمة المجتمع. تصنيف الأمراض والمناعة والإسعاف علم صحي عملي، ولا ينص CLO على تطبيق علم شرعي. خدمة المجتمع وحدها لا تسقط شرط العلوم الشرعية الموجود في PLO.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "8bb071633a5569e8cda5f726e17365cd2857fb9f9829c4d26ba35c81cd972a67",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الدراسات الإسلامية",
+        "version": "39"
+      },
+      "clo_code": "2.3",
+      "clo_index": 4,
+      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نمالج مختلفة.",
+      "program_reference_id": "islamic-studies-ba-v39",
+      "rationale": "م2 القديم يطبق ما تعلمه من العلوم الشرعية في العمل وخدمة المجتمع. تصنيف الأمراض والمناعة والإسعاف علم صحي عملي، ولا ينص CLO على تطبيق علم شرعي. خدمة المجتمع وحدها لا تسقط شرط العلوم الشرعية الموجود في PLO.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "1ea025f8679d20d442458867c4e640db431b639d4dfb69cd77520ff711e7e755",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": "يوضح الطالب مفهوم الثقافة الصحية وأهميتها لأفراد المجتمع وسبل تحقيقها.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مفهوم الثقافة الصحية وسبل تحقيقها معرفة صحية عامة؛ PLO الشريعة القديمة لا يتضمن ناتجًا صحيًا أو نشر توعية صحية. لا يكفي افتراض صلتها بقيم حفظ النفس لإثبات الربط.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "1ea025f8679d20d442458867c4e640db431b639d4dfb69cd77520ff711e7e755",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": "يوضح الطالب مفهوم الثقافة الصحية وأهميتها لأفراد المجتمع وسبل تحقيقها.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مفهوم الثقافة الصحية وسبل تحقيقها معرفة صحية عامة؛ PLO الشريعة القديمة لا يتضمن ناتجًا صحيًا أو نشر توعية صحية. لا يكفي افتراض صلتها بقيم حفظ النفس لإثبات الربط.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "1ea025f8679d20d442458867c4e640db431b639d4dfb69cd77520ff711e7e755",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "1.2",
+      "clo_index": 1,
+      "clo_text_in_json": "يوضح الطالب مفهوم الصحة ودرجاتها ومفهوم المرض",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "تعريف الصحة والمرض لا يشرح حكمًا فقهيًا أو أصلًا عقديًا كما يتطلب ع1 القديم، ولا توجد وصلة منصوص عليها داخل CLO؛ يبقى غير محسوم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "1ea025f8679d20d442458867c4e640db431b639d4dfb69cd77520ff711e7e755",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "1.2",
+      "clo_index": 1,
+      "clo_text_in_json": "يوضح الطالب مفهوم الصحة ودرجاتها ومفهوم المرض",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "تعريف الصحة والمرض لا يشرح حكمًا فقهيًا أو أصلًا عقديًا كما يتطلب ع1 القديم، ولا توجد وصلة منصوص عليها داخل CLO؛ يبقى غير محسوم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "1ea025f8679d20d442458867c4e640db431b639d4dfb69cd77520ff711e7e755",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "2.1",
+      "clo_index": 2,
+      "clo_text_in_json": "يصنف الطالب الامراض الى أمراض معدية وأمراض مزمنة ويذكر أسبابها وطرق الوقاية منها.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "تصنيف الأمراض وأسبابها ووقايتها مضمون طبي لا يقابله ناتج في الشريعة القديمة؛ لا يُفترض تأصيل فقهي غير مكتوب لربطه بع1.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "1ea025f8679d20d442458867c4e640db431b639d4dfb69cd77520ff711e7e755",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "2.1",
+      "clo_index": 2,
+      "clo_text_in_json": "يصنف الطالب الامراض الى أمراض معدية وأمراض مزمنة ويذكر أسبابها وطرق الوقاية منها.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "تصنيف الأمراض وأسبابها ووقايتها مضمون طبي لا يقابله ناتج في الشريعة القديمة؛ لا يُفترض تأصيل فقهي غير مكتوب لربطه بع1.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "1ea025f8679d20d442458867c4e640db431b639d4dfb69cd77520ff711e7e755",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "2.2",
+      "clo_index": 3,
+      "clo_text_in_json": null,
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "تصنيف مستويات الوقاية والمناعة مضمون طبي لا يقابله ناتج برنامج مناسب؛ لا يكفي كون المقرر متطلبًا عامًا لعده محققًا للنواتج الشرعية.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "1ea025f8679d20d442458867c4e640db431b639d4dfb69cd77520ff711e7e755",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "2.2",
+      "clo_index": 3,
+      "clo_text_in_json": null,
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "تصنيف مستويات الوقاية والمناعة مضمون طبي لا يقابله ناتج برنامج مناسب؛ لا يكفي كون المقرر متطلبًا عامًا لعده محققًا للنواتج الشرعية.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "1ea025f8679d20d442458867c4e640db431b639d4dfb69cd77520ff711e7e755",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "2.3",
+      "clo_index": 4,
+      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نمالج مختلفة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "الإسعافات الأولية تدخل صحي عملي لا يمثل نشر قيم الشريعة أو مقارنة المصادر أو شرح الأحكام؛ لا يوجد PLO قديم يغطيه دون تكلّف.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "1ea025f8679d20d442458867c4e640db431b639d4dfb69cd77520ff711e7e755",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "2.3",
+      "clo_index": 4,
+      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نمالج مختلفة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "الإسعافات الأولية تدخل صحي عملي لا يمثل نشر قيم الشريعة أو مقارنة المصادر أو شرح الأحكام؛ لا يوجد PLO قديم يغطيه دون تكلّف.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "1ea025f8679d20d442458867c4e640db431b639d4dfb69cd77520ff711e7e755",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.2",
+      "clo_index": 6,
+      "clo_text_in_json": "يستخدم الطالب وسائل التكنولوجيا للحصول على المعلومات الطبي الموثوقة والحديثة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "البحث التقني عن معلومات طبية لا يحقق ناتج نشر قيم الشريعة بالتقنية؛ ولا يحتوي المرجع القديم PLO تقنيًا/بحثيًا عامًا يصلح له.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "1ea025f8679d20d442458867c4e640db431b639d4dfb69cd77520ff711e7e755",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.2",
+      "clo_index": 6,
+      "clo_text_in_json": "يستخدم الطالب وسائل التكنولوجيا للحصول على المعلومات الطبي الموثوقة والحديثة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "البحث التقني عن معلومات طبية لا يحقق ناتج نشر قيم الشريعة بالتقنية؛ ولا يحتوي المرجع القديم PLO تقنيًا/بحثيًا عامًا يصلح له.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "1ea025f8679d20d442458867c4e640db431b639d4dfb69cd77520ff711e7e755",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.3",
+      "clo_index": 7,
+      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة ج. موضوعات المقرر",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "خطة التغذية والوقاية من السمنة ممارسة صحية تطبيقية لا يقابلها PLO في توصيف الشريعة القديمة؛ لا تُحوّل إلى دعوة مجتمعية أو تأصيل فقهي مفترض.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "1ea025f8679d20d442458867c4e640db431b639d4dfb69cd77520ff711e7e755",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.3",
+      "clo_index": 7,
+      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة ج. موضوعات المقرر",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "خطة التغذية والوقاية من السمنة ممارسة صحية تطبيقية لا يقابلها PLO في توصيف الشريعة القديمة؛ لا تُحوّل إلى دعوة مجتمعية أو تأصيل فقهي مفترض.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "4b8283b68d79a113fb76dbd0677310d429027ea918ed3094909f159f497e23e6",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "2.1",
+      "clo_index": 2,
+      "clo_text_in_json": "يصنف الطالب الامراض الى أمراض معدية وأمراض مزمنة ويذكر أسبابها وطرق الوقاية منها.",
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "تصنيف الأمراض وأسبابها نشاط صحي تخصصي؛ لا يوجد في البرنامج مخرج مهاري صحي مناسب.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "4b8283b68d79a113fb76dbd0677310d429027ea918ed3094909f159f497e23e6",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "2.2",
+      "clo_index": 3,
+      "clo_text_in_json": null,
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "تصنيف الوقاية والمناعة نشاط صحي لا يغطيه أي مخرج مهاري قرآني.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "4b8283b68d79a113fb76dbd0677310d429027ea918ed3094909f159f497e23e6",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "2.3",
+      "clo_index": 4,
+      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نمالج مختلفة.",
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "تطبيق الإسعافات الأولية مهارة صحية عملية لا يغطيها PLO من البرنامج.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "4b8283b68d79a113fb76dbd0677310d429027ea918ed3094909f159f497e23e6",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "3.1",
+      "clo_index": 5,
+      "clo_text_in_json": null,
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "العمل في مجموعة لإعداد عرض صحي لا يصرح بتطوير النفس؛ لا يحقق ق2. لا يوجد ناتج مستقل للعمل الجماعي، ولا يكفي إسناد كل نشاط فريق لتطوير الذات.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "4b8283b68d79a113fb76dbd0677310d429027ea918ed3094909f159f497e23e6",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "clo_code": "3.3",
+      "clo_index": 7,
+      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة ج. موضوعات المقرر",
+      "program_reference_id": "quran-ba-v39",
+      "rationale": "تخطيط التغذية الصحية مهارة صحية مستقلة؛ لا تكفي عمومية تطوير الذات لإسناد تخطيط غذائي إلى PLO قرآني.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "5df29225e8708d92ba2901e79b04c377e9cbf693819b7d3031d1cd79c0698fb5",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القراءات",
+        "version": "38"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": "يوضح الطالب مفهوم الثقافة الصحية وأهميتها لأفراد المجتمع وسبل تحقيقها.",
+      "program_reference_id": "qiraat-ba-v38",
+      "rationale": "المخرج معرفة صحية أو تجارية عامة، بينما ع3 في القراءات مقيد بمقدمات وقضايا العلوم التخصصية والمساندة، ولا يذكر المعارف العامة. لا توجد صلة علمية مساندة بالتخصص في هذا النص، ولا يوسع ناتج البرنامج لتغطية كل متطلب جامعي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "5df29225e8708d92ba2901e79b04c377e9cbf693819b7d3031d1cd79c0698fb5",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القراءات",
+        "version": "38"
+      },
+      "clo_code": "1.2",
+      "clo_index": 1,
+      "clo_text_in_json": "يوضح الطالب مفهوم الصحة ودرجاتها ومفهوم المرض",
+      "program_reference_id": "qiraat-ba-v38",
+      "rationale": "المخرج معرفة صحية أو تجارية عامة، بينما ع3 في القراءات مقيد بمقدمات وقضايا العلوم التخصصية والمساندة، ولا يذكر المعارف العامة. لا توجد صلة علمية مساندة بالتخصص في هذا النص، ولا يوسع ناتج البرنامج لتغطية كل متطلب جامعي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "5df29225e8708d92ba2901e79b04c377e9cbf693819b7d3031d1cd79c0698fb5",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القراءات",
+        "version": "38"
+      },
+      "clo_code": "2.1",
+      "clo_index": 2,
+      "clo_text_in_json": "يصنف الطالب الامراض الى أمراض معدية وأمراض مزمنة ويذكر أسبابها وطرق الوقاية منها.",
+      "program_reference_id": "qiraat-ba-v38",
+      "rationale": "تصنيف الأمراض وأسبابها وطرق الوقاية مهارة صحية تخصصية لا يغطيها ناتج مهاري مناسب في برنامج القراءات؛ تشابه فعل التصنيف أو التحليل لا يكفي لإسنادها إلى م2.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "5df29225e8708d92ba2901e79b04c377e9cbf693819b7d3031d1cd79c0698fb5",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القراءات",
+        "version": "38"
+      },
+      "clo_code": "2.2",
+      "clo_index": 3,
+      "clo_text_in_json": null,
+      "program_reference_id": "qiraat-ba-v38",
+      "rationale": "تصنيف مستويات الوقاية والمناعة تطبيق صحي محدد لا يغطيه ناتج مهاري مناسب في برنامج القراءات؛ لا يعمم تحليل المتون والمسائل التخصصية على جميع العلوم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "5df29225e8708d92ba2901e79b04c377e9cbf693819b7d3031d1cd79c0698fb5",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القراءات",
+        "version": "38"
+      },
+      "clo_code": "2.3",
+      "clo_index": 4,
+      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نمالج مختلفة.",
+      "program_reference_id": "qiraat-ba-v38",
+      "rationale": "الإسعافات الأولية مهارة تدخل صحي عملي لا يغطيها أي ناتج برنامجي مناسب في القراءات؛ لا يسند اتباع خطوات الإسعاف إلى تحليل المتون والنصوص في م2.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990113-2",
+      "variant_id": "5df29225e8708d92ba2901e79b04c377e9cbf693819b7d3031d1cd79c0698fb5",
+      "original_variant_id": "fbc558db20d19efc5fcb7b9f1bd13cf8060b0461264a964081a7c6d61e0de813",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القراءات",
+        "version": "38"
+      },
+      "clo_code": "3.3",
+      "clo_index": 7,
+      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة ج. موضوعات المقرر",
+      "program_reference_id": "qiraat-ba-v38",
+      "rationale": "تخطيط التغذية للوقاية من الأمراض مهارة صحية تطبيقية لا يقابلها ناتج برنامجي في القراءات؛ التخطيط العام لا يثبت تطوير الذات أو تحليل المتون.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "df8c200a561acca59b73550e84d6cf4945eb75495f99a746a5c0f293dbb3e0a4",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": null,
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "الصف يتحدث عن المهارات الأكاديمية بصورة عامة؛ ربطه بالبحث القانوني أو قراءة النص القانوني يفترض نوع المهارة الذي لا يذكره النص المقروء. يمكن قبول دعم نقل عند وجود دليل أن المهارات تشمل البحث/القراءة التحليلية؛ دون ذلك يظل غير محسوم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "df8c200a561acca59b73550e84d6cf4945eb75495f99a746a5c0f293dbb3e0a4",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "2.1",
+      "clo_index": 1,
+      "clo_text_in_json": null,
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "الصف يتحدث عن المهارات الأكاديمية بصورة عامة؛ ربطه بالبحث القانوني أو قراءة النص القانوني يفترض نوع المهارة الذي لا يذكره النص المقروء. يمكن قبول دعم نقل عند وجود دليل أن المهارات تشمل البحث/القراءة التحليلية؛ دون ذلك يظل غير محسوم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "df8c200a561acca59b73550e84d6cf4945eb75495f99a746a5c0f293dbb3e0a4",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "2.2",
+      "clo_index": 2,
+      "clo_text_in_json": null,
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "تطوير سمات الخريج أداء عام لا يحدد مهارة قانونية من المهارات الأربع الرسمية للأنظمة38؛ لا يُستنتج من لفظ تطوير وحده بحث أو تطبيق قانوني.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "df8c200a561acca59b73550e84d6cf4945eb75495f99a746a5c0f293dbb3e0a4",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "3.2",
+      "clo_index": 4,
+      "clo_text_in_json": "أن يستخدم الطالب مهارات تقنية المعلومات والإنترنت للنجاح في الدراسة الجامعية.",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "استخدام تقنية المعلومات للدراسة كفاية تعلم ذاتي لا تقابل أيًا من قيم الأنظمة38 الثلاث دون إضافة معنى غير موجود.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "df8c200a561acca59b73550e84d6cf4945eb75495f99a746a5c0f293dbb3e0a4",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "3.3",
+      "clo_index": 5,
+      "clo_text_in_json": "أن يحضر الطالب نفسه لمهنة المستقب اللاستناد للى مهاراته وقدراته والخيارات المتاحة. ضوعات المقرر",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "الاستعداد المهني على أساس القدرات والخيارات لا يطابق الابتكار في القضايا القانونية أو المشاركة الوطنية أو العمل الجماعي في قيم الأنظمة38.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "59076bee33a5f03a02f5da7a362445bd8b28707743987ef0ef7060ce0640e039",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الدراسات الإسلامية",
+        "version": "39"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": null,
+      "program_reference_id": "islamic-studies-ba-v39",
+      "rationale": "مناقشة الاستفادة من المهارات الأكاديمية لا توضح حكمًا فقهيًا باستخدام قواعده وأصوله كما يطلب ع5. تحصيل أي معرفة لا يجعل المعرفة العامة ناتجًا فقهيًا؛ هذا ربط بعيد.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "bdfc7d118580a7a3375613a8c4f60f3d8ee6c3fa40aac733a9d8f3c1392dec95",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": null,
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مخرج المهارات الجامعية يقيس التعلم الأكاديمي أوالتطوير الذاتي أوالاستعداد المهني. لا ينص على تلخيص مصطلحات الشريعة، أونشر قيمها فيالمجتمع، أوالمشاركة فيرؤية2030؛ الربط الحالي يمر عبر افتراض عام غير قابل للتحقق منCLO نفسه. لا يوجد ناتج قديم للتعلم الذاتي العام.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "bdfc7d118580a7a3375613a8c4f60f3d8ee6c3fa40aac733a9d8f3c1392dec95",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": null,
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مخرج المهارات الجامعية يقيس التعلم الأكاديمي أوالتطوير الذاتي أوالاستعداد المهني. لا ينص على تلخيص مصطلحات الشريعة، أونشر قيمها فيالمجتمع، أوالمشاركة فيرؤية2030؛ الربط الحالي يمر عبر افتراض عام غير قابل للتحقق منCLO نفسه. لا يوجد ناتج قديم للتعلم الذاتي العام.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "bdfc7d118580a7a3375613a8c4f60f3d8ee6c3fa40aac733a9d8f3c1392dec95",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "2.1",
+      "clo_index": 1,
+      "clo_text_in_json": null,
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مخرج المهارات الجامعية يقيس التعلم الأكاديمي أوالتطوير الذاتي أوالاستعداد المهني. لا ينص على تلخيص مصطلحات الشريعة، أونشر قيمها فيالمجتمع، أوالمشاركة فيرؤية2030؛ الربط الحالي يمر عبر افتراض عام غير قابل للتحقق منCLO نفسه. لا يوجد ناتج قديم للتعلم الذاتي العام.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "bdfc7d118580a7a3375613a8c4f60f3d8ee6c3fa40aac733a9d8f3c1392dec95",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "2.1",
+      "clo_index": 1,
+      "clo_text_in_json": null,
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مخرج المهارات الجامعية يقيس التعلم الأكاديمي أوالتطوير الذاتي أوالاستعداد المهني. لا ينص على تلخيص مصطلحات الشريعة، أونشر قيمها فيالمجتمع، أوالمشاركة فيرؤية2030؛ الربط الحالي يمر عبر افتراض عام غير قابل للتحقق منCLO نفسه. لا يوجد ناتج قديم للتعلم الذاتي العام.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "bdfc7d118580a7a3375613a8c4f60f3d8ee6c3fa40aac733a9d8f3c1392dec95",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "2.2",
+      "clo_index": 2,
+      "clo_text_in_json": null,
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مخرج المهارات الجامعية يقيس التعلم الأكاديمي أوالتطوير الذاتي أوالاستعداد المهني. لا ينص على تلخيص مصطلحات الشريعة، أونشر قيمها فيالمجتمع، أوالمشاركة فيرؤية2030؛ الربط الحالي يمر عبر افتراض عام غير قابل للتحقق منCLO نفسه. لا يوجد ناتج قديم للتعلم الذاتي العام.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "bdfc7d118580a7a3375613a8c4f60f3d8ee6c3fa40aac733a9d8f3c1392dec95",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "2.2",
+      "clo_index": 2,
+      "clo_text_in_json": null,
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مخرج المهارات الجامعية يقيس التعلم الأكاديمي أوالتطوير الذاتي أوالاستعداد المهني. لا ينص على تلخيص مصطلحات الشريعة، أونشر قيمها فيالمجتمع، أوالمشاركة فيرؤية2030؛ الربط الحالي يمر عبر افتراض عام غير قابل للتحقق منCLO نفسه. لا يوجد ناتج قديم للتعلم الذاتي العام.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "bdfc7d118580a7a3375613a8c4f60f3d8ee6c3fa40aac733a9d8f3c1392dec95",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.2",
+      "clo_index": 4,
+      "clo_text_in_json": "أن يستخدم الطالب مهارات تقنية المعلومات والإنترنت للنجاح في الدراسة الجامعية.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مخرج المهارات الجامعية يقيس التعلم الأكاديمي أوالتطوير الذاتي أوالاستعداد المهني. لا ينص على تلخيص مصطلحات الشريعة، أونشر قيمها فيالمجتمع، أوالمشاركة فيرؤية2030؛ الربط الحالي يمر عبر افتراض عام غير قابل للتحقق منCLO نفسه. لا يوجد ناتج قديم للتعلم الذاتي العام.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "bdfc7d118580a7a3375613a8c4f60f3d8ee6c3fa40aac733a9d8f3c1392dec95",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.2",
+      "clo_index": 4,
+      "clo_text_in_json": "أن يستخدم الطالب مهارات تقنية المعلومات والإنترنت للنجاح في الدراسة الجامعية.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مخرج المهارات الجامعية يقيس التعلم الأكاديمي أوالتطوير الذاتي أوالاستعداد المهني. لا ينص على تلخيص مصطلحات الشريعة، أونشر قيمها فيالمجتمع، أوالمشاركة فيرؤية2030؛ الربط الحالي يمر عبر افتراض عام غير قابل للتحقق منCLO نفسه. لا يوجد ناتج قديم للتعلم الذاتي العام.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "bdfc7d118580a7a3375613a8c4f60f3d8ee6c3fa40aac733a9d8f3c1392dec95",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.3",
+      "clo_index": 5,
+      "clo_text_in_json": "أن يحضر الطالب نفسه لمهنة المستقب اللاستناد للى مهاراته وقدراته والخيارات المتاحة. ضوعات المقرر",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مخرج المهارات الجامعية يقيس التعلم الأكاديمي أوالتطوير الذاتي أوالاستعداد المهني. لا ينص على تلخيص مصطلحات الشريعة، أونشر قيمها فيالمجتمع، أوالمشاركة فيرؤية2030؛ الربط الحالي يمر عبر افتراض عام غير قابل للتحقق منCLO نفسه. لا يوجد ناتج قديم للتعلم الذاتي العام.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990311-2",
+      "variant_id": "bdfc7d118580a7a3375613a8c4f60f3d8ee6c3fa40aac733a9d8f3c1392dec95",
+      "original_variant_id": "a6d11db45128ef6a94c4ebae8af957739497eb608f441a38ad1e9ef06579df94",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.3",
+      "clo_index": 5,
+      "clo_text_in_json": "أن يحضر الطالب نفسه لمهنة المستقب اللاستناد للى مهاراته وقدراته والخيارات المتاحة. ضوعات المقرر",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "مخرج المهارات الجامعية يقيس التعلم الأكاديمي أوالتطوير الذاتي أوالاستعداد المهني. لا ينص على تلخيص مصطلحات الشريعة، أونشر قيمها فيالمجتمع، أوالمشاركة فيرؤية2030؛ الربط الحالي يمر عبر افتراض عام غير قابل للتحقق منCLO نفسه. لا يوجد ناتج قديم للتعلم الذاتي العام.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990413-2",
+      "variant_id": "30367ce931fae7bc960f6c05d65afe556b5c30f425712d3106e522336d6eba9a",
+      "original_variant_id": "df283d9fe521006476e606b4ca18e56c4099530d632a4f2f5a1af15a253d219e",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "2.3",
+      "clo_index": 5,
+      "clo_text_in_json": "أن يقوّم مواقف غير المسلمين من النبي صلى الله عليه وسلم في المدينة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "تقويم مواقف الأطراف أومقارنة مراحل السيرة لا يحدد مقارنة المذاهب الفقهية والمصادر الشرعية فيم1. التشابه المنهجي العام وحده لا يكفي لإسنادPLO تخصصي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990413-2",
+      "variant_id": "30367ce931fae7bc960f6c05d65afe556b5c30f425712d3106e522336d6eba9a",
+      "original_variant_id": "df283d9fe521006476e606b4ca18e56c4099530d632a4f2f5a1af15a253d219e",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "2.3",
+      "clo_index": 5,
+      "clo_text_in_json": "أن يقوّم مواقف غير المسلمين من النبي صلى الله عليه وسلم في المدينة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "تقويم مواقف الأطراف أومقارنة مراحل السيرة لا يحدد مقارنة المذاهب الفقهية والمصادر الشرعية فيم1. التشابه المنهجي العام وحده لا يكفي لإسنادPLO تخصصي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990413-2",
+      "variant_id": "30367ce931fae7bc960f6c05d65afe556b5c30f425712d3106e522336d6eba9a",
+      "original_variant_id": "df283d9fe521006476e606b4ca18e56c4099530d632a4f2f5a1af15a253d219e",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "2.4",
+      "clo_index": 6,
+      "clo_text_in_json": "أن يقارن بين مراحل السيرة النبوية وخصائص كل مرحلة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "تقويم مواقف الأطراف أومقارنة مراحل السيرة لا يحدد مقارنة المذاهب الفقهية والمصادر الشرعية فيم1. التشابه المنهجي العام وحده لا يكفي لإسنادPLO تخصصي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990413-2",
+      "variant_id": "30367ce931fae7bc960f6c05d65afe556b5c30f425712d3106e522336d6eba9a",
+      "original_variant_id": "df283d9fe521006476e606b4ca18e56c4099530d632a4f2f5a1af15a253d219e",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "2.4",
+      "clo_index": 6,
+      "clo_text_in_json": "أن يقارن بين مراحل السيرة النبوية وخصائص كل مرحلة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "تقويم مواقف الأطراف أومقارنة مراحل السيرة لا يحدد مقارنة المذاهب الفقهية والمصادر الشرعية فيم1. التشابه المنهجي العام وحده لا يكفي لإسنادPLO تخصصي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990413-2",
+      "variant_id": "30367ce931fae7bc960f6c05d65afe556b5c30f425712d3106e522336d6eba9a",
+      "original_variant_id": "df283d9fe521006476e606b4ca18e56c4099530d632a4f2f5a1af15a253d219e",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.1",
+      "clo_index": 7,
+      "clo_text_in_json": "أن يمتثل الهدي النبوي في المواقف الحياتية.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "الامتثال والاقتداء الفردي لا يذكر التفاعل مع المجتمع لنشر قيم الشريعة باستخدام التقنيات فيق1. لايوجد ناتج قديم مستقل للالتزام الأخلاقي، فلا نغيّر مضمونق1 لسد الفجوة.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990413-2",
+      "variant_id": "30367ce931fae7bc960f6c05d65afe556b5c30f425712d3106e522336d6eba9a",
+      "original_variant_id": "df283d9fe521006476e606b4ca18e56c4099530d632a4f2f5a1af15a253d219e",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.1",
+      "clo_index": 7,
+      "clo_text_in_json": "أن يمتثل الهدي النبوي في المواقف الحياتية.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "الامتثال والاقتداء الفردي لا يذكر التفاعل مع المجتمع لنشر قيم الشريعة باستخدام التقنيات فيق1. لايوجد ناتج قديم مستقل للالتزام الأخلاقي، فلا نغيّر مضمونق1 لسد الفجوة.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990413-2",
+      "variant_id": "30367ce931fae7bc960f6c05d65afe556b5c30f425712d3106e522336d6eba9a",
+      "original_variant_id": "df283d9fe521006476e606b4ca18e56c4099530d632a4f2f5a1af15a253d219e",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.2",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يقتدي بالنبي صلى الله عليه وسلم في أخلاقه ومعاملاته.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "الامتثال والاقتداء الفردي لا يذكر التفاعل مع المجتمع لنشر قيم الشريعة باستخدام التقنيات فيق1. لايوجد ناتج قديم مستقل للالتزام الأخلاقي، فلا نغيّر مضمونق1 لسد الفجوة.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990413-2",
+      "variant_id": "30367ce931fae7bc960f6c05d65afe556b5c30f425712d3106e522336d6eba9a",
+      "original_variant_id": "df283d9fe521006476e606b4ca18e56c4099530d632a4f2f5a1af15a253d219e",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.2",
+      "clo_index": 8,
+      "clo_text_in_json": "أن يقتدي بالنبي صلى الله عليه وسلم في أخلاقه ومعاملاته.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "الامتثال والاقتداء الفردي لا يذكر التفاعل مع المجتمع لنشر قيم الشريعة باستخدام التقنيات فيق1. لايوجد ناتج قديم مستقل للالتزام الأخلاقي، فلا نغيّر مضمونق1 لسد الفجوة.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990415-2",
+      "variant_id": "97890da2af3ed673f35742f32965ad69e4db1ff37de75cebccff8ba8e799872d",
+      "original_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": "أن يعِّرف الطالب مخارا الحروف وصفاتها الرئيسة.",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "معرفة مخارج الحروف لا تقابل المعرفة القانونية الخمس في الأنظمة38؛ لا يصح تسميتها معرفة بمبادئ النظام السعودي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990415-2",
+      "variant_id": "97890da2af3ed673f35742f32965ad69e4db1ff37de75cebccff8ba8e799872d",
+      "original_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "1.2",
+      "clo_index": 1,
+      "clo_text_in_json": "وصفاتها الرئيسة. يشرح ألكاا الكون السا كة والتكوي والميم السا كة وأنواع المدود.",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "معرفة أحكام التجويد لا تقابل معرفة قانونية أو بحثًا قانونيًا فيPLO الأنظمة38.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990415-2",
+      "variant_id": "97890da2af3ed673f35742f32965ad69e4db1ff37de75cebccff8ba8e799872d",
+      "original_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "2.1",
+      "clo_index": 2,
+      "clo_text_in_json": "يطبق الطالب ألكاا التجويد عملًيا أثكاء التلاوة.",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "تطبيق التجويد وتحسين المخارج والنطق أداء صوتي؛ م1 يطلب تفسير النص القانوني واستنباط ما ينطبق على الوقائع. سلامة الصوت لا تثبت التحليل الدلالي أو الاستنباط، والانتقال عبر كون القرآن مصدرًا شرعيًا لا يربط هذا الأداء الصوتي بالمهارة القانونية المحددة.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990415-2",
+      "variant_id": "97890da2af3ed673f35742f32965ad69e4db1ff37de75cebccff8ba8e799872d",
+      "original_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "2.2",
+      "clo_index": 3,
+      "clo_text_in_json": "يحسّن جودة النطق (سلامة المخارج والصفات) والطلاقة والسرعة الملائمة",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "تطبيق التجويد وتحسين المخارج والنطق أداء صوتي؛ م1 يطلب تفسير النص القانوني واستنباط ما ينطبق على الوقائع. سلامة الصوت لا تثبت التحليل الدلالي أو الاستنباط، والانتقال عبر كون القرآن مصدرًا شرعيًا لا يربط هذا الأداء الصوتي بالمهارة القانونية المحددة.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990415-2",
+      "variant_id": "97890da2af3ed673f35742f32965ad69e4db1ff37de75cebccff8ba8e799872d",
+      "original_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الأنظمة",
+        "version": "38"
+      },
+      "clo_code": "3.1",
+      "clo_index": 4,
+      "clo_text_in_json": "التزام الطالب بتطوير مهاراته في قراءة القرآن",
+      "program_reference_id": "systems-ba-v38",
+      "rationale": "تطوير التلاوة ذاتيًا لا يطابق أيًا من قيم الأنظمة38: الابتكار القانوني والمشاركة فيرؤية2030 والعمل الجماعي.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990415-2",
+      "variant_id": "522f3789aebeed4c30d8e691c5327723dabee3c3edd206e387dbf930d4978ddb",
+      "original_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": "أن يعِّرف الطالب مخارا الحروف وصفاتها الرئيسة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "نواتج التلاوة والتجويد تقيس المخارج والأحكام الأدائية وتحسين القراءة وتطويرها. ع1 القديم يطلب شرح الأحكام الفقهية وأدلة التشريع ومراتب الحديث وأصول العقيدة، وق1 نشر قيم الشريعة مجتمعيًا؛ لا يوجدPLO قديم للتلاوة. صلة القرآن بالتشريع لا تجعل المهارة القرائية شرحًا للأدلة أو نشرًا للقيم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990415-2",
+      "variant_id": "522f3789aebeed4c30d8e691c5327723dabee3c3edd206e387dbf930d4978ddb",
+      "original_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "clo_text_in_json": "أن يعِّرف الطالب مخارا الحروف وصفاتها الرئيسة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "نواتج التلاوة والتجويد تقيس المخارج والأحكام الأدائية وتحسين القراءة وتطويرها. ع1 القديم يطلب شرح الأحكام الفقهية وأدلة التشريع ومراتب الحديث وأصول العقيدة، وق1 نشر قيم الشريعة مجتمعيًا؛ لا يوجدPLO قديم للتلاوة. صلة القرآن بالتشريع لا تجعل المهارة القرائية شرحًا للأدلة أو نشرًا للقيم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990415-2",
+      "variant_id": "522f3789aebeed4c30d8e691c5327723dabee3c3edd206e387dbf930d4978ddb",
+      "original_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "1.2",
+      "clo_index": 1,
+      "clo_text_in_json": "وصفاتها الرئيسة. يشرح ألكاا الكون السا كة والتكوي والميم السا كة وأنواع المدود.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "نواتج التلاوة والتجويد تقيس المخارج والأحكام الأدائية وتحسين القراءة وتطويرها. ع1 القديم يطلب شرح الأحكام الفقهية وأدلة التشريع ومراتب الحديث وأصول العقيدة، وق1 نشر قيم الشريعة مجتمعيًا؛ لا يوجدPLO قديم للتلاوة. صلة القرآن بالتشريع لا تجعل المهارة القرائية شرحًا للأدلة أو نشرًا للقيم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990415-2",
+      "variant_id": "522f3789aebeed4c30d8e691c5327723dabee3c3edd206e387dbf930d4978ddb",
+      "original_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "1.2",
+      "clo_index": 1,
+      "clo_text_in_json": "وصفاتها الرئيسة. يشرح ألكاا الكون السا كة والتكوي والميم السا كة وأنواع المدود.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "نواتج التلاوة والتجويد تقيس المخارج والأحكام الأدائية وتحسين القراءة وتطويرها. ع1 القديم يطلب شرح الأحكام الفقهية وأدلة التشريع ومراتب الحديث وأصول العقيدة، وق1 نشر قيم الشريعة مجتمعيًا؛ لا يوجدPLO قديم للتلاوة. صلة القرآن بالتشريع لا تجعل المهارة القرائية شرحًا للأدلة أو نشرًا للقيم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990415-2",
+      "variant_id": "522f3789aebeed4c30d8e691c5327723dabee3c3edd206e387dbf930d4978ddb",
+      "original_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "2.1",
+      "clo_index": 2,
+      "clo_text_in_json": "يطبق الطالب ألكاا التجويد عملًيا أثكاء التلاوة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "نواتج التلاوة والتجويد تقيس المخارج والأحكام الأدائية وتحسين القراءة وتطويرها. ع1 القديم يطلب شرح الأحكام الفقهية وأدلة التشريع ومراتب الحديث وأصول العقيدة، وق1 نشر قيم الشريعة مجتمعيًا؛ لا يوجدPLO قديم للتلاوة. صلة القرآن بالتشريع لا تجعل المهارة القرائية شرحًا للأدلة أو نشرًا للقيم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990415-2",
+      "variant_id": "522f3789aebeed4c30d8e691c5327723dabee3c3edd206e387dbf930d4978ddb",
+      "original_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "2.1",
+      "clo_index": 2,
+      "clo_text_in_json": "يطبق الطالب ألكاا التجويد عملًيا أثكاء التلاوة.",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "نواتج التلاوة والتجويد تقيس المخارج والأحكام الأدائية وتحسين القراءة وتطويرها. ع1 القديم يطلب شرح الأحكام الفقهية وأدلة التشريع ومراتب الحديث وأصول العقيدة، وق1 نشر قيم الشريعة مجتمعيًا؛ لا يوجدPLO قديم للتلاوة. صلة القرآن بالتشريع لا تجعل المهارة القرائية شرحًا للأدلة أو نشرًا للقيم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990415-2",
+      "variant_id": "522f3789aebeed4c30d8e691c5327723dabee3c3edd206e387dbf930d4978ddb",
+      "original_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "2.2",
+      "clo_index": 3,
+      "clo_text_in_json": "يحسّن جودة النطق (سلامة المخارج والصفات) والطلاقة والسرعة الملائمة",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "نواتج التلاوة والتجويد تقيس المخارج والأحكام الأدائية وتحسين القراءة وتطويرها. ع1 القديم يطلب شرح الأحكام الفقهية وأدلة التشريع ومراتب الحديث وأصول العقيدة، وق1 نشر قيم الشريعة مجتمعيًا؛ لا يوجدPLO قديم للتلاوة. صلة القرآن بالتشريع لا تجعل المهارة القرائية شرحًا للأدلة أو نشرًا للقيم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990415-2",
+      "variant_id": "522f3789aebeed4c30d8e691c5327723dabee3c3edd206e387dbf930d4978ddb",
+      "original_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "2.2",
+      "clo_index": 3,
+      "clo_text_in_json": "يحسّن جودة النطق (سلامة المخارج والصفات) والطلاقة والسرعة الملائمة",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "نواتج التلاوة والتجويد تقيس المخارج والأحكام الأدائية وتحسين القراءة وتطويرها. ع1 القديم يطلب شرح الأحكام الفقهية وأدلة التشريع ومراتب الحديث وأصول العقيدة، وق1 نشر قيم الشريعة مجتمعيًا؛ لا يوجدPLO قديم للتلاوة. صلة القرآن بالتشريع لا تجعل المهارة القرائية شرحًا للأدلة أو نشرًا للقيم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990415-2",
+      "variant_id": "522f3789aebeed4c30d8e691c5327723dabee3c3edd206e387dbf930d4978ddb",
+      "original_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "38"
+      },
+      "clo_code": "3.1",
+      "clo_index": 4,
+      "clo_text_in_json": "التزام الطالب بتطوير مهاراته في قراءة القرآن",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "نواتج التلاوة والتجويد تقيس المخارج والأحكام الأدائية وتحسين القراءة وتطويرها. ع1 القديم يطلب شرح الأحكام الفقهية وأدلة التشريع ومراتب الحديث وأصول العقيدة، وق1 نشر قيم الشريعة مجتمعيًا؛ لا يوجدPLO قديم للتلاوة. صلة القرآن بالتشريع لا تجعل المهارة القرائية شرحًا للأدلة أو نشرًا للقيم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    },
+    {
+      "course_code": "990415-2",
+      "variant_id": "522f3789aebeed4c30d8e691c5327723dabee3c3edd206e387dbf930d4978ddb",
+      "original_variant_id": "e37587a70c80dbf8473ab56945d840a7d17c8283774f163c75fff97806381dc7",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "الشريعة",
+        "version": "39"
+      },
+      "clo_code": "3.1",
+      "clo_index": 4,
+      "clo_text_in_json": "التزام الطالب بتطوير مهاراته في قراءة القرآن",
+      "program_reference_id": "sharia-ba-old",
+      "rationale": "نواتج التلاوة والتجويد تقيس المخارج والأحكام الأدائية وتحسين القراءة وتطويرها. ع1 القديم يطلب شرح الأحكام الفقهية وأدلة التشريع ومراتب الحديث وأصول العقيدة، وق1 نشر قيم الشريعة مجتمعيًا؛ لا يوجدPLO قديم للتلاوة. صلة القرآن بالتشريع لا تجعل المهارة القرائية شرحًا للأدلة أو نشرًا للقيم.",
+      "reason_code": "NO_SEMANTICALLY_SUITABLE_PROGRAM_PLO"
+    }
+  ]
+}

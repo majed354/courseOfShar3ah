@@ -4,6 +4,8 @@ import unittest
 from collections import Counter
 from pathlib import Path
 
+from _shared_alignment_test_support import previous_context, scope_set
+
 
 ROOT = Path(__file__).resolve().parents[1]
 BUNDLE = ROOT / "assets" / "course-specifications" / "clo-plo-corrections-20260901"
@@ -33,6 +35,7 @@ class NarrowCloPloCorrectionsTest(unittest.TestCase):
     def setUpClass(cls):
         cls.manifest = json.loads((BUNDLE / "manifest.json").read_text(encoding="utf-8"))
         cls.data = json.loads((ROOT / "data.json").read_text(encoding="utf-8"))
+        cls.before_data, _ = previous_context()
 
     def test_manifest_counts_and_hashes_are_current(self):
         records = self.manifest["records"]
@@ -63,7 +66,7 @@ class NarrowCloPloCorrectionsTest(unittest.TestCase):
                 self.assertEqual(record["source_sha256"], sha256(source))
             self.assertEqual(record["output_sha256"], sha256(output))
 
-    def test_every_corrected_output_has_one_variant_and_expected_scopes(self):
+    def test_every_corrected_output_has_expected_scope_union_after_specialization(self):
         unified_sources = {
             record["path"]
             for record in json.loads(UNIFIED_MANIFEST.read_text(encoding="utf-8"))["records"]
@@ -98,9 +101,13 @@ class NarrowCloPloCorrectionsTest(unittest.TestCase):
             if final_pdf.endswith("2001403-2--8974cd99a2.pdf"):
                 self.assertEqual({"2001403-2", "2004403-2"}, {code for code, _ in linked})
                 linked = [(code, variant) for code, variant in linked if code == "2001403-2"]
-            self.assertEqual(1, len(linked), record["output"])
-            scopes = variant_scopes(linked[0][1])
+            self.assertTrue(linked, record["output"])
+            scopes = [scope for _, variant in linked for scope in variant_scopes(variant)]
             self.assertTrue(scopes, record["output"])
+            self.assertEqual(len(scopes), len(scope_set(scopes)), record["output"])
+            prior = [v for v in self.before_data["course_details"][linked[0][0]]["variants"] if v.get("pdf_url") == final_pdf]
+            self.assertEqual(1, len(prior), record["output"])
+            self.assertEqual(scope_set(variant_scopes(prior[0])), scope_set(scopes), record["output"])
             scope_count += len(scopes)
             if record["output"] in selected_same_identity:
                 expected = {

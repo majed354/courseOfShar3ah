@@ -8,6 +8,9 @@ from pathlib import Path
 
 import pymupdf
 
+from _shared_alignment_test_support import BUNDLE as ALIGNMENT_BUNDLE
+from _shared_alignment_test_support import effective_extraction, previous_context
+
 
 ROOT = Path(__file__).resolve().parents[1]
 BUNDLE = ROOT / "assets/course-specifications/shared-course-blank-plo-20260905"
@@ -151,27 +154,55 @@ class SharedCoursePloBlankingTest(unittest.TestCase):
         sources = {record["source"] for record in self.manifest["records"]}
         self.assertTrue(sources.isdisjoint(linked))
 
-    def test_all_published_shared_rows_are_explicitly_unmapped_effectively(self):
+    def test_original_shared_blanks_survive_beside_authorized_json_mappings(self):
         outputs = {record["output"] for record in self.manifest["records"]}
-        rows = []
-        for course in self.outcomes["courses"].values():
+        _, previous_outcomes = previous_context()
+        historical_rows = {}
+        for code, course in previous_outcomes["courses"].items():
+            for variant in course.get("variants", []):
+                if variant["source_pdf"] in outputs:
+                    for index, row in enumerate(effective_extraction(variant)["clos"]):
+                        for mapping in row["plo_mappings"]:
+                            historical_rows[code, variant["variant_id"], index, json.dumps(mapping["scope"], sort_keys=True)] = mapping
+        self.assertTrue(historical_rows)
+        self.assertTrue(any(m["status"] == "explicitly_unmapped" for m in historical_rows.values()))
+
+        decisions = json.loads((ALIGNMENT_BUNDLE / "alignment-decisions.json").read_text(encoding="utf-8"))
+        chosen = {
+            (r["course_code"], r["variant_id"], r["clo_index"], json.dumps(r["scope"], sort_keys=True)): r
+            for r in decisions["records"]
+        }
+        parents = {
+            (r["course_code"], r["new_variant_id"]): r["old_variant_id"]
+            for r in json.loads((ALIGNMENT_BUNDLE / "variant-lineage.json").read_text(encoding="utf-8"))["records"]
+        }
+        checked = 0
+        for code, course in self.outcomes["courses"].items():
             for variant in course.get("variants", []):
                 if variant["source_pdf"] not in outputs:
                     continue
-                overrides = {
-                    item["field"]: item["value"]
-                    for item in variant.get("overrides", [])
-                    if isinstance(item, dict)
-                }
-                for index, row in enumerate(variant["extracted"]["clos"]):
-                    rows.append(
-                        overrides.get(f"clos[{index}].plo_mappings", row["plo_mappings"])
-                    )
-        self.assertTrue(rows)
-        for mappings in rows:
-            for mapping in mappings:
-                self.assertEqual("explicitly_unmapped", mapping["status"])
-                self.assertEqual([], mapping["plo_codes"])
+                for index, row in enumerate(effective_extraction(variant)["clos"]):
+                    for mapping in row["plo_mappings"]:
+                        checked += 1
+                        key = code, variant["variant_id"], index, json.dumps(mapping["scope"], sort_keys=True)
+                        if key not in chosen:
+                            # Earlier whole-CLO reviews can legitimately contain
+                            # scoped academic links despite the blank PDF cells.
+                            # They remain byte-for-byte equivalent if this batch
+                            # did not review the particular row/scope.
+                            old_id = parents.get((code, variant["variant_id"]), variant["variant_id"])
+                            self.assertEqual(historical_rows[code, old_id, index, key[-1]], mapping)
+                            continue
+                        decision = chosen[key]
+                        expected = [decision["plo_code"]] if decision["plo_code"] is not None else []
+                        self.assertEqual(expected, mapping["plo_codes"])
+                        self.assertEqual("mapped" if expected else "explicitly_unmapped", mapping["status"])
+                        override = next(o for o in variant["overrides"] if o["field"] == f"clos[{index}].plo_mappings")
+                        self.assertEqual("authorized_program_alignment_revision", override["policy"])
+                        self.assertIn(variant["source_sha256"], mapping["evidence"])
+                        self.assertIn(decision["program_source_sha256"], mapping["evidence"])
+                        self.assertIn("ليس استخراجًا من خلية PDF" if expected else "إبقاء الربط غير محسوم وعدم تخمين رمز", mapping["evidence"])
+        self.assertGreater(checked, 0)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,120 @@
+{
+  "schema_version": "shared-program-legacy-replay-limitations-v1",
+  "reviewed_at": "2026-10-16",
+  "scope": "تخصيص نسخ JSON للمقررات المشتركة حسب البرنامج؛ لا تعديل لملفات PDF أو لكود القارئ أو أدوات المراجعة التاريخية.",
+  "current_reader_compatibility": {
+    "supported": true,
+    "method": "القارئ الحالي يطبق overrides حقول clos[i].plo_mappings بالسياسة authorized_program_alignment_revision، ويميزها عن extracted ويحصرها في نطاق البرنامج والخطة.",
+    "critical_evidence_requirement": "يجب أن يتضمن دليل override بصمة مصدر PLO بصيغة SHA256=... وأن تظهر البصمة نفسها داخل دليل كل mapping ليحافظ القارئ على أولوية التكييف الأكاديمي الجديد."
+  },
+  "historical_json_policy": "تبقى ملفات review-batches وmanifest التاريخية وبصماتها حرفيًا دون إعادة كتابة. يحفظ previous-context البيانات المركزية السابقة وlineage الجديد علاقة الأصل بجميع الأبناء. لم تُعدّل المراجعات السابقة لتوحي بأنها أجريت على المعرفات الجديدة.",
+  "lineage_summary": {
+    "old_variant_count": 79,
+    "child_variant_count": 172,
+    "parents_with_multiple_children": 43,
+    "parents_with_unchanged_id": 36
+  },
+  "limitations": [
+    {
+      "id": "ONE_TO_MANY_SUCCESSORS_UNSUPPORTED",
+      "severity": "blocking_for_legacy_replay",
+      "components": [
+        "scripts/apply_course_outcome_review_batch.py::reviewed_variant_successors",
+        "scripts/apply_course_outcome_review_batch.py::locate_variant"
+      ],
+      "finding": "الربط التاريخي يستخدم مفتاح course_code + reviewed_variant_id + reviewed_source_pdf ويعيد خليفة واحدًا فقط. تخصيص المصدر نفسه لعدة برامج ينشئ عدة معرفات جديدة؛ لا يمكن إدراجها كلها في العقد الحالي، وإدراج أكثر من خليفة لنفس المفتاح يؤدي إلى خطأ ambiguous reviewed variant successor.",
+      "consequence": "قد تفشل مراجعة تاريخية في إيجاد النسخة لأن معرف الأصل لم يعد نشطًا. اختيار ابن واحد اعتباطيًا يفقد بقية البرامج، لذلك لم يُنفذ.",
+      "safe_handling": "اختبر تشغيل المراجعة التاريخية على previous-context المطابق لمرحلتها، واختبر حفظ تصحيحاتها الموروثة في جميع أبناء lineage الحالي بصورة مستقلة."
+    },
+    {
+      "id": "FULL_TABLE_REVIEW_REPLACES_NEW_OVERRIDES",
+      "severity": "destructive_for_new_alignment",
+      "components": [
+        "scripts/apply_full_variant_review_batch.py::apply_record",
+        "scripts/update_new_plan_specifications_20261002.py::review_new_sources"
+      ],
+      "finding": "تعيد هذه الدوال إسناد variant[overrides] إلى قائمة مراجعات المصدر القديمة كاملة. عند تشغيلها فوق النسخ المخصصة تحذف overrides الروابط الجديدة ذات السياسة authorized_program_alignment_revision، حتى لو حُلت المعرفات أو وُسع manifest لجميع الأبناء.",
+      "consequence": "تعود الروابط الفعالة إلى فراغ المصدر أو غموضه، ويضيع التكييف البرنامجي المأذون؛ لا يعالج ذلك تعديل manifest وحده.",
+      "safe_handling": "لا تُعد تشغيل مراجعة الجداول القديمة فوق البيانات المخصصة. راجع المصدر السابق في previous-context، أو عدّل أداة التشغيل في مهمة لاحقة لتوريث الطبقة الأكاديمية الجديدة صراحةً دون إعادة تأليفها."
+    },
+    {
+      "id": "SPLIT_REVIEW_OVERWRITES_SCOPED_MAPPING",
+      "severity": "destructive_for_new_alignment",
+      "components": [
+        "scripts/apply_split_table_continuation_review_20260921.py::apply_record",
+        "scripts/apply_split_table_continuation_review_20260921.py::upsert_override"
+      ],
+      "finding": "تكتب مراجعة استمرار الجدول قيم clos[i].plo_mappings من reviewed_plo_codes التاريخية دون شرط يمنع استبدال قرار أكاديمي أحدث، وقد تكون القيمة القديمة []. كذلك تعيد الاستخراج الخام وتكتب document_plo_codes وحالة المصدر.",
+      "affected_examples": [
+        "2002232-2 CLO 3.1",
+        "2002456-2 CLO 3.1"
+      ],
+      "consequence": "قد تستبدل خريطة برنامج صحيحة بفراغ تاريخي، أو تنسب قرار الربط الجديد إلى سياسة تصحيح مصدر قديمة.",
+      "safe_handling": "اختبر استمرار الصف في سياقه التاريخي؛ في الإصدار الحالي افحص extracted ووراثة تصحيح النص/التقويم منفصلين عن الربط الأكاديمي الجديد."
+    },
+    {
+      "id": "TARGETED_REVIEW_CAN_REPLAY_OLD_PROVENANCE",
+      "severity": "review_required",
+      "components": [
+        "scripts/apply_targeted_readiness_completion_20260915.py::apply_record",
+        "scripts/apply_targeted_readiness_completion_20260915.py::locate_variant"
+      ],
+      "finding": "تتطلب السجلات معرف النسخة ونطاقًا مثبتًا في ذلك الوقت، وتكتب source_alignment وsource_review دون تمييز قرار أحدث. إضافة سجل program_mapping تاريخي يمكن أن تستبدل الحقل نفسه في overrides. التصحيحات النصية والتقويمية يجب أن تبقى موروثة، لكن تشغيل CLI القديم فوق التخصيص ليس عقد تحديث عام آمنًا.",
+      "consequence": "قد يفشل العثور على المعرف، أو تتغير حالة المراجعة، أو يُعاد ربط برنامج في سياق غير الذي خُصص له.",
+      "safe_handling": "اختبر الحزمة القديمة على snapshot السابق، ثم افحص أن كل تصحيح غير برنامجي بقي مطابقًا داخل الأبناء وأن الروابط الجديدة محددة النطاق. لا تغيّر scope إلى برنامج آخر لمجرد جعل CLI يمر."
+    },
+    {
+      "id": "NEW_EXTRACTION_DOES_NOT_AUTOMATICALLY_MIGRATE_OVERRIDE_IDS",
+      "severity": "blocking_for_unplanned_reextraction",
+      "components": [
+        "scripts/extract_course_outcomes.py::logical_variants",
+        "scripts/extract_course_outcomes.py::_carry_overrides"
+      ],
+      "finding": "هوية النسخة تتضمن scopes وcatalog وsource_pdf؛ تشعيب النطاق يغير المعرف حتى مع ثبات PDF. أي إعادة استخراج مستقلة تحتاج نقل overrides وفق lineage وبصمات المصدر، ولا يجوز افتراض بقائها لأن رمز المقرر لم يتغير.",
+      "safe_handling": "استخدم JSON المخصص الحالي مصدرًا للمعرفات والطبقة الأكاديمية، واحتفظ بسجل النقل المعتمد عند أي إعادة استخراج لاحقة."
+    }
+  ],
+  "verification_strategy": [
+    "تثبيت بصمات الملفات التاريخية وعدم تعديلها في هذه الدفعة.",
+    "تشغيل اختبارات الأدوات التاريخية على snapshot السابق المناسب، دون الكتابة على JSON الحالي.",
+    "فحص التطابق الخام لكل ابن مع الأصل بعد ترشيح mappings للنطاق الجديد فقط.",
+    "فحص بقاء جميع overrides الموروثة وتصحيحات النص والتقويم وحالات المصدر في الأبناء؛ تظل الروابط الأكاديمية الجديدة طبقة إضافية منفصلة.",
+    "فحص أن كل ربط جديد يحمل مصدر PLO الحقيقي وبصمته ورمزًا موجودًا في البرنامج والإصدار الصحيحين."
+  ],
+  "prohibited_shortcuts": [
+    "اختيار خليفة واحد اعتباطيًا من أبناء الأصل لتمرير API التاريخي.",
+    "كتابة روابط جديدة في extracted أو document_plo_codes لإخفاء الفرق بين المصدر والقرار الأكاديمي.",
+    "تغيير تاريخ أو سياسة المراجعة القديمة لتبدو موافقة أكاديمية جديدة.",
+    "تشغيل CLI قديم يمحو overrides ثم إعلان اكتمال الروابط اعتمادًا على عدد النسخ فقط."
+  ],
+  "file_fingerprints_at_review": [
+    {
+      "path": "scripts/apply_course_outcome_review_batch.py",
+      "sha256": "d8603662829d73e316031b2111e147042ab3ce1642c653a22c7d7b4558f6d105"
+    },
+    {
+      "path": "scripts/apply_full_variant_review_batch.py",
+      "sha256": "d8f6a888970c297b2706c38bcd17af8e1b633982d66bdd6866dcec7a58d3c9cf"
+    },
+    {
+      "path": "scripts/apply_targeted_readiness_completion_20260915.py",
+      "sha256": "ad03b6b9ff982d7a55db79688c527622ab6eafed36ed4a252ab9102c1952614e"
+    },
+    {
+      "path": "scripts/apply_split_table_continuation_review_20260921.py",
+      "sha256": "a847ae9d7c5bcf86590f40224d44fa32aff6bc8f513c43da77ac74da4df04b6e"
+    },
+    {
+      "path": "scripts/update_new_plan_specifications_20261002.py",
+      "sha256": "6fb990a83fed4d7aa975ddfc83ac8f178a7f61a40f10655f8c1ee6d2ac652e48"
+    },
+    {
+      "path": "review-batches/course-outcome-source-replacements-20260910.json",
+      "sha256": "9d0c165d4441c33ea4210840db442090d60eb6e535f78c7a6620ee61edec9e30"
+    },
+    {
+      "path": "assets/course-specifications/new-plan-updates-20261002/retained-variant-successors.json",
+      "sha256": "bf6ae078ef008ef8896f6c42333582abe18ac2c6b79468c7636c122963475aff"
+    }
+  ]
+}

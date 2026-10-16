@@ -8,6 +8,8 @@ from pathlib import Path
 
 import pymupdf
 
+from _shared_alignment_test_support import previous_context
+
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 from update_new_plan_specifications_20261002 import trim_mappings, scope_key
@@ -23,8 +25,11 @@ class NewPlanUpdatesTest(unittest.TestCase):
     def setUpClass(cls):
         cls.bundle=ROOT/'assets/course-specifications/new-plan-updates-20261002'
         cls.manifest=load(cls.bundle/'manifest.json')
-        cls.data=load(ROOT/'data.json')
-        cls.outcomes=load(ROOT/'course-outcomes.json')
+        # Keep the 2026-10-02 publication/replay contract against the immutable
+        # pre-specialization audit. All current children, source hashes, texts,
+        # assessments and the union of scopes are independently asserted by
+        # test_shared_program_json_alignment_20261016.
+        cls.data,cls.outcomes=previous_context()
         cls.successors=load(cls.bundle/'retained-variant-successors.json')
         cls.baseline=json.loads(subprocess.run(['git','show',cls.manifest['baseline_commit']+':course-outcomes.json'],cwd=ROOT,capture_output=True,text=True,check=True).stdout)
 

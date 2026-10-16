@@ -1,0 +1,52 @@
+{
+  "schema_version": "shared-program-json-validation-v1",
+  "schema_verifier": {
+    "status": "passed",
+    "courses": 413,
+    "variants": 548,
+    "scopes": 737,
+    "referenced_pdfs": 444,
+    "excluded_pdfs": 197
+  },
+  "python_tests": {
+    "status": "passed",
+    "count": 189,
+    "seconds": 98.746,
+    "historical_tests_updated_with_user_authorization": true,
+    "log_sha256": "1770ac44bb128f8e558e4afb7a1edb2cfc8e776b4e32eb41e05e4fc660777f5a"
+  },
+  "javascript_tests": {
+    "status": "passed",
+    "count": 13
+  },
+  "pdf_bytes": {
+    "status": "passed",
+    "checked_count": 641,
+    "changed_count": 0
+  },
+  "automation_consumer": {
+    "status": "passed",
+    "program_plan_contexts": 209,
+    "clo_mappings_checked": 1590,
+    "external_writes": false
+  },
+  "site_build": {
+    "status": "passed",
+    "tracked_public_files": 856
+  },
+  "git_diff_check": "passed",
+  "coverage_preserved_by_invariants": {
+    "program_plan_rows_identical": true,
+    "course_pdf_url_set_identical": true
+  },
+  "content_change_scope": "data.json/course-outcomes.json and JSON audit artifacts; necessary historical test updates were explicitly authorized by user",
+  "coverage_recalculation": {
+    "status": "passed",
+    "required": 756,
+    "available": 657,
+    "missing_appearances": 99,
+    "missing_identities": 85,
+    "coverage_percent": 86.9,
+    "same_before_and_after": true
+  }
+}

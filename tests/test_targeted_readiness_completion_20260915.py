@@ -4,8 +4,11 @@ import hashlib
 import json
 import subprocess
 import sys
+import tempfile
 import unittest
 from pathlib import Path
+
+from _shared_alignment_test_support import previous_context
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,7 +29,10 @@ class TargetedReadinessCompletionTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.manifest = load(MANIFEST)
-        cls.outcomes = load(OUTCOMES)
+        # Historical replays predate program children and can replace their
+        # authorization overrides. Their frozen source contract remains tested;
+        # the current children's complete inheritance has a separate contract.
+        _, cls.outcomes = previous_context()
         cls.records = {item["course_code"]: item for item in cls.manifest["records"]}
 
     def variant(self, course_code: str) -> dict:
@@ -117,14 +123,17 @@ class TargetedReadinessCompletionTests(unittest.TestCase):
         self.assertFalse(quran["source_alignment"]["source_update_recommended"])
 
     def test_batch_is_idempotent(self) -> None:
-        result = subprocess.run(
-            [sys.executable, str(SCRIPT), "--check"],
-            cwd=ROOT,
-            text=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT,
-            check=False,
-        )
+        with tempfile.TemporaryDirectory(prefix="targeted-readiness-history-") as temp:
+            snapshot = Path(temp) / "course-outcomes.json"
+            snapshot.write_text(json.dumps(self.outcomes, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            result = subprocess.run(
+                [sys.executable, str(SCRIPT), "--outcomes", str(snapshot), "--check"],
+                cwd=ROOT,
+                text=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                check=False,
+            )
         self.assertEqual(result.returncode, 0, result.stdout)
         self.assertIn("is current", result.stdout)
 
