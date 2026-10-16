@@ -1,0 +1,186 @@
+{
+  "schema_version": "shared-program-json-deployment-verification-v1",
+  "data_commit_ref": "215747e22f7060816f49b589bebe1c48b8c05126",
+  "netlify": {
+    "id": "6ad2293ac42671835eab1aed",
+    "state": "ready",
+    "commit_ref": "215747e22f7060816f49b589bebe1c48b8c05126",
+    "error_message": null,
+    "published_at": "2026-10-16T13:40:31.997Z"
+  },
+  "github": {
+    "run_id": 38909629849,
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/majed354/courseOfShar3ah/actions/runs/38909629849"
+  },
+  "published_file_hash_check_at_data_commit": {
+    "status": "passed",
+    "checked_file_count": 27,
+    "files": [
+      {
+        "path": "data.json",
+        "sha256": "21546cc1b53700effe6bec1774a85aabb448e8960cd40aaed12f24537bd0192c",
+        "bytes": 1440416,
+        "matches_local": true
+      },
+      {
+        "path": "course-outcomes.json",
+        "sha256": "820333e60c2d12fe017e6c838335e5fc1e9c26ba8dd59f7f765b9a763aac499e",
+        "bytes": 16168592,
+        "matches_local": true
+      },
+      {
+        "path": "site-edits.json",
+        "sha256": "406e9052d7c5782d0e70febbe2a12d5a9e72046854bdac2684c4c7909900ddc3",
+        "bytes": 43,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json",
+        "sha256": "581e1c7b06de1af5d6ade43c67c1789d8ba01170a72282c4379f0c44ce2350d7",
+        "bytes": 3160751,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/shared-program-json-alignment-20261016/legacy-replay-limitations.json",
+        "sha256": "63fc95a9f65b963ed3fba84157bfd9f4b66b02e0cfb099fc056fb5b83ecc0a51",
+        "bytes": 10245,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/shared-program-json-alignment-20261016/manifest.json",
+        "sha256": "1775b2781699206d2cc7b232e253b9850d70b02709c863f876961136dbdaccd8",
+        "bytes": 5649,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/shared-program-json-alignment-20261016/peer-reviews.json",
+        "sha256": "1e4cc896efa62e5369171c804796e472662621034aaa83f211f0c08f56aa8969",
+        "bytes": 291965,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/shared-program-json-alignment-20261016/previous-context.json",
+        "sha256": "2f2c747f51f67cefde81ee60f11fde5db4e61690dcceac3dd25ea4a879786589",
+        "bytes": 11887032,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/shared-program-json-alignment-20261016/program-plo-reference.json",
+        "sha256": "945eef1507a1c929035cbff29df8760d574b01ea333a1707dcac768f4122430c",
+        "bytes": 59655,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/shared-program-json-alignment-20261016/remaining-alignment-gaps.json",
+        "sha256": "82d2f69f74cd08c1408d14c35c3d4bf520c51fb1454ffa4f9a4ffe90dc1a9643",
+        "bytes": 176032,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/shared-program-json-alignment-20261016/root-review-dispositions.json",
+        "sha256": "afab59b32dc6d76cb144bd3ae4454ea319b234f8e33ef6974748b41686bf77aa",
+        "bytes": 169888,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/shared-program-json-alignment-20261016/source-reading-evidence.json",
+        "sha256": "6b3400c980a78b60bbe01fa857876ed7183458be4ab62a3fccdd54c76cbb3e80",
+        "bytes": 47486,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/shared-program-json-alignment-20261016/unchanged-pdf-hashes.json",
+        "sha256": "c0185dec3bb9309d0843636b37b9772b2e8db23d3d35904b67e8206e7885e32b",
+        "bytes": 96492,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/shared-program-json-alignment-20261016/validation.json",
+        "sha256": "1526051ca3957e0410804616fc00f4eb2dd52a961b2fdb35ba427cdff84d40f5",
+        "bytes": 1397,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/shared-program-json-alignment-20261016/variant-lineage.json",
+        "sha256": "7b9b6a723748ff9b4f080365a89829cbe56965f475454e1dbecddf6231964369",
+        "bytes": 230206,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf",
+        "sha256": "3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919",
+        "bytes": 1422636,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/program-specifications-20260916/sharia-ba-v47/program-specification.pdf",
+        "sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8",
+        "bytes": 1144608,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/program-specifications-20260916/sharia-ba-old/program-specification.pdf",
+        "sha256": "8028b15b13d87882741e69f2f1a3e747149f193907a859af796aa13a0ead8045",
+        "bytes": 1135618,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf",
+        "sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9",
+        "bytes": 987746,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/program-specifications-20260916/islamic-studies-ba-v39/program-specification.pdf",
+        "sha256": "7fc594b31e2ea8ac36e8c4af801f19712dbbcb5daa22ebb4efdd503ff50441e1",
+        "bytes": 3646073,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf",
+        "sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d",
+        "bytes": 1099141,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf",
+        "sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74",
+        "bytes": 1401022,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/program-specifications-20260916/islamic-studies-ba-v47/program-specification.pdf",
+        "sha256": "bbde0a64878c4189bf1c511ec223877308c85ce8779a27ce174511f72c05169e",
+        "bytes": 951401,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/program-specifications-20260916/qiraat-ba-v47/program-specification.pdf",
+        "sha256": "3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89",
+        "bytes": 1393839,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/program-specifications-20260916/systems-ba-v47-1447/program-specification.pdf",
+        "sha256": "c24dccd259fffdc75a86330158929ece4d9d367012227ff6389bf67f96792d70",
+        "bytes": 1179226,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/shared-course-blank-plo-20260905/2003215-2--c3309552e0.pdf",
+        "sha256": "6dc75ac9b22a9a6850243fc80c79a2d7b662950ce59b4c0fac013b2d76501807",
+        "bytes": 917064,
+        "matches_local": true
+      },
+      {
+        "path": "assets/course-specifications/shared-course-blank-plo-20260905/2003215-2--36892394ce.pdf",
+        "sha256": "c6a671d9f8e9907167caeabf956c8c45c5b4f03e9a1878f6ef8b76bafeb6b605",
+        "bytes": 921161,
+        "matches_local": true
+      }
+    ]
+  },
+  "note": "السجل يثبت نشر التزام البيانات أعلاه. إلحاق هذا السجل لاحقًا يغير ملفات التدقيق فقط، ولا يغير بايتات data.json أوcourse-outcomes.json أوPDF."
+}

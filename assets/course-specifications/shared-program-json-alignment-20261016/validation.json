@@ -32,7 +32,7 @@
   },
   "site_build": {
     "status": "passed",
-    "tracked_public_files": 856
+    "tracked_public_files": 857
   },
   "git_diff_check": "passed",
   "coverage_preserved_by_invariants": {
@@ -48,5 +48,13 @@
     "missing_identities": 85,
     "coverage_percent": 86.9,
     "same_before_and_after": true
+  },
+  "github_ci": {
+    "status": "passed",
+    "run_id": 38909629849
+  },
+  "publication_data_commit": {
+    "status": "passed",
+    "sha256_matched_files": 27
   }
 }
