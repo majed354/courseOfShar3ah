@@ -6,7 +6,13 @@
     "items_checked": 29,
     "complete_verbatim": 19,
     "keep_blank": 7,
-    "not_applied": 3
+    "not_applied": 3,
+    "text-corrections-2026-10-16": {
+      "complete_verbatim": 20,
+      "programme_rows": 60,
+      "judgment_only_readings_applied": 7
+    },
+    "complete_verbatim_all_rounds": 39
   },
   "records": [
     {
@@ -583,6 +589,859 @@
       },
       "note": "Identical in p4 and p5 tables. Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
       "transfer_notes": []
+    },
+    {
+      "id": 30,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "2004258-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf",
+      "source_sha256": "6efe2ca3ee1ac66488a79cbf901ac812bdd09594f58e6bb7f19dafbcfd040801",
+      "source_page": "[4]",
+      "clo_code": "1.2",
+      "clo_index": 1,
+      "text_before": "استعراض المو اقف النبوية. تلخيص غزوات الرسول صلى",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "استعراض المواقف النبوية.",
+      "previous_state": "نص مدموج بصف مجاور في JSON",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "استعراض المواقف النبوية.",
+        "blind_image_reading": "استعراض المواقف النبوية.",
+        "prior_judgment_only_reading": "استعراض المواقف النبوية.",
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Prior JSON merged the start of 1.3. Gap in «المو اقف» is a font gap (same in header «نو اتج»); text layer has no space.",
+      "transfer_notes": [],
+      "programme_rows": 5,
+      "superseded_overrides": []
+    },
+    {
+      "id": 31,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "2004258-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf",
+      "source_sha256": "6efe2ca3ee1ac66488a79cbf901ac812bdd09594f58e6bb7f19dafbcfd040801",
+      "source_page": "[4]",
+      "clo_code": "2.3",
+      "clo_index": 4,
+      "text_before": "تقييم مو اقف غير المسلمين مع النبى صلى اللّه عليه وسلم.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "تقييم مواقف غير المسلمين مع النبي صلى الله عليه وسلم.",
+      "previous_state": "نص مشوه بأثر طبقة نص PDF (ترميز الحروف أو ترتيب الكلمات)",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "تقييم مواقف غير المسلمين مع النبي صلى الله عليه وسلم.",
+        "blind_image_reading": "تقييم مواقف غيرالمسلمين مع النبي صلى الله عليه وسلم.",
+        "prior_judgment_only_reading": null,
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Prior JSON had «مو اقف» (font gap), «النبى» and decomposed «اللّه»; image shows النبي with dots and the الله ligature.",
+      "transfer_notes": [
+        "المسافة بين «غير» و«المسلمين» غير متمايزة بصريًا بعد حرف لا يتصل، وطبقة النص تحمل حرف مسافة في الموضع؛ اعتمدت المسافة المعيارية كما في سابقة الجولة السابقة."
+      ],
+      "programme_rows": 5,
+      "superseded_overrides": []
+    },
+    {
+      "id": 32,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "2004258-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf",
+      "source_sha256": "6efe2ca3ee1ac66488a79cbf901ac812bdd09594f58e6bb7f19dafbcfd040801",
+      "source_page": "[4]",
+      "clo_code": "2.4",
+      "clo_index": 5,
+      "text_before": "مقارنة مراحل السيرة النبودة ببعضها.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "مقارنة مراحل السيرة النبوية ببعضها.",
+      "previous_state": "نص مشوه بأثر طبقة نص PDF (ترميز الحروف أو ترتيب الكلمات)",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "مقارنة مراحل السيرة النبوية ببعضها.",
+        "blind_image_reading": "مقارنة مراحل السيرة النبوية ببعضها.",
+        "prior_judgment_only_reading": null,
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Prior JSON read «النبودة»; image shows «النبوية». Kashida in «السيرة» not transcribed.",
+      "transfer_notes": [],
+      "programme_rows": 5,
+      "superseded_overrides": []
+    },
+    {
+      "id": 33,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "2004258-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf",
+      "source_sha256": "6efe2ca3ee1ac66488a79cbf901ac812bdd09594f58e6bb7f19dafbcfd040801",
+      "source_page": "[5]",
+      "clo_code": "3.2",
+      "clo_index": 7,
+      "text_before": "الاقتداء بالنبي ﷺ في جميع الأحوال.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "الاقتداء بالنبي ﷺ في جميع الأحوال",
+      "previous_state": "علامة ترقيم غير مطبوعة في الخلية أضيفت في مراجعة سابقة",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "الاقتداء بالنبي ﷺ في جميع الأحوال",
+        "blind_image_reading": "الاقتداء بالنبي ﷺ في جميع الأحوال",
+        "prior_judgment_only_reading": null,
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "No final period is printed after «الأحوال» (both readings); the previous verified override had appended one.",
+      "transfer_notes": [],
+      "programme_rows": 5,
+      "superseded_overrides": [
+        {
+          "variant_id": "0711e2a8a2753621a06cfa779584df1fe7adcb829d57d8539337369c3c9bf6ea",
+          "field": "clos[7].text",
+          "value": "الاقتداء بالنبي ﷺ في جميع الأحوال.",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "0711e2a8a2753621a06cfa779584df1fe7adcb829d57d8539337369c3c9bf6ea",
+          "field": "clos[7].source_status",
+          "value": "present",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "0711e2a8a2753621a06cfa779584df1fe7adcb829d57d8539337369c3c9bf6ea",
+          "field": "clos[7].extraction_method",
+          "value": "verified_visual_review",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "0711e2a8a2753621a06cfa779584df1fe7adcb829d57d8539337369c3c9bf6ea",
+          "field": "clos[7].confidence",
+          "value": "verified",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "4f473600b70846d2d86aadc2eb8b5529ebb3293b94e202f1ca11326a8c3f3ef6",
+          "field": "clos[7].text",
+          "value": "الاقتداء بالنبي ﷺ في جميع الأحوال.",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "4f473600b70846d2d86aadc2eb8b5529ebb3293b94e202f1ca11326a8c3f3ef6",
+          "field": "clos[7].source_status",
+          "value": "present",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "4f473600b70846d2d86aadc2eb8b5529ebb3293b94e202f1ca11326a8c3f3ef6",
+          "field": "clos[7].extraction_method",
+          "value": "verified_visual_review",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "4f473600b70846d2d86aadc2eb8b5529ebb3293b94e202f1ca11326a8c3f3ef6",
+          "field": "clos[7].confidence",
+          "value": "verified",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "9a24bcd9aeda2379c63c08bfd287bdf4fce1eb646c985116bbda8c8fd408eeb1",
+          "field": "clos[7].text",
+          "value": "الاقتداء بالنبي ﷺ في جميع الأحوال.",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "9a24bcd9aeda2379c63c08bfd287bdf4fce1eb646c985116bbda8c8fd408eeb1",
+          "field": "clos[7].source_status",
+          "value": "present",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "9a24bcd9aeda2379c63c08bfd287bdf4fce1eb646c985116bbda8c8fd408eeb1",
+          "field": "clos[7].extraction_method",
+          "value": "verified_visual_review",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "9a24bcd9aeda2379c63c08bfd287bdf4fce1eb646c985116bbda8c8fd408eeb1",
+          "field": "clos[7].confidence",
+          "value": "verified",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "aa18ec6fad4f8d6681bd16f35ed2f60d1d5fb035990b2b0b2554e332ffc4fc75",
+          "field": "clos[7].text",
+          "value": "الاقتداء بالنبي ﷺ في جميع الأحوال.",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "aa18ec6fad4f8d6681bd16f35ed2f60d1d5fb035990b2b0b2554e332ffc4fc75",
+          "field": "clos[7].source_status",
+          "value": "present",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "aa18ec6fad4f8d6681bd16f35ed2f60d1d5fb035990b2b0b2554e332ffc4fc75",
+          "field": "clos[7].extraction_method",
+          "value": "verified_visual_review",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "aa18ec6fad4f8d6681bd16f35ed2f60d1d5fb035990b2b0b2554e332ffc4fc75",
+          "field": "clos[7].confidence",
+          "value": "verified",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "db14568606091aca732e17e149977ee3b8568f9a8cd2296e6838c74da6c03350",
+          "field": "clos[7].text",
+          "value": "الاقتداء بالنبي ﷺ في جميع الأحوال.",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "db14568606091aca732e17e149977ee3b8568f9a8cd2296e6838c74da6c03350",
+          "field": "clos[7].source_status",
+          "value": "present",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "db14568606091aca732e17e149977ee3b8568f9a8cd2296e6838c74da6c03350",
+          "field": "clos[7].extraction_method",
+          "value": "verified_visual_review",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        },
+        {
+          "variant_id": "db14568606091aca732e17e149977ee3b8568f9a8cd2296e6838c74da6c03350",
+          "field": "clos[7].confidence",
+          "value": "verified",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf | الصفحات 5 | استكمال نص CLO 3.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:00:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "2004474-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf",
+      "source_sha256": "99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e",
+      "source_page": "[4]",
+      "clo_code": "1.2",
+      "clo_index": 1,
+      "text_before": "ل ردود السلف على المخالفين في الكبيرة في الدنيا رة.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "تلخيص ردود السلف على شبهات المخالفين في مرتكب الكبيرة في الدنيا والآخرة .",
+      "previous_state": "نص مقتطع في JSON",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "تلخيص ردود السلف على شبهات المخالفين في مرتكب الكبيرة في الدنيا والآخرة .",
+        "blind_image_reading": "تلخيص ردود السلف على شبهات المخالفين في مرتكب الكبيرة في الدنيا والآخرة .",
+        "prior_judgment_only_reading": "تلخيص ردود السلف على شبهات المخالفين في مرتكب الكبيرة في الدنيا والآخرة .",
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Space before final period as printed.",
+      "transfer_notes": [],
+      "programme_rows": 3,
+      "superseded_overrides": []
+    },
+    {
+      "id": 35,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "2004474-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf",
+      "source_sha256": "99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e",
+      "source_page": "[4]",
+      "clo_code": "1.3",
+      "clo_index": 2,
+      "text_before": "على مراتب القضاء عند سلف الأمة.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "التدليل على مراتب القضاء والقدر عند سلف الأمة .",
+      "previous_state": "نص مقتطع في JSON",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "التدليل على مراتب القضاء والقدر عند سلف الأمة .",
+        "blind_image_reading": "التدليل على مراتب القضاء والقدر عند سلف الأمة .",
+        "prior_judgment_only_reading": "التدليل على مراتب القضاء والقدر عند سلف الأمة .",
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Space before final period as printed.",
+      "transfer_notes": [],
+      "programme_rows": 3,
+      "superseded_overrides": []
+    },
+    {
+      "id": 36,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "2004474-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf",
+      "source_sha256": "99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e",
+      "source_page": "[5]",
+      "clo_code": "3.1",
+      "clo_index": 5,
+      "text_before": "التمثل بالنراهه واه المهنية والأكاديمية والمواطنة المسؤولة.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "التمثل بالنزاهة والأخلاقيات المهنية والأكاديمية والمواطنة المسؤولة.",
+      "previous_state": "نص مشوه بأثر طبقة نص PDF (ترميز الحروف أو ترتيب الكلمات)",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "التمثل بالنزاهة والأخلاقيات المهنية والأكاديمية والمواطنة المسؤولة.",
+        "blind_image_reading": "التمثل بالنزاهة والأخلاقيات المهنية والأكاديمية والمواطنة المسؤولة.",
+        "prior_judgment_only_reading": null,
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Prior JSON read «بالنراهه واه»; image shows «بالنزاهة والأخلاقيات».",
+      "transfer_notes": [],
+      "programme_rows": 3,
+      "superseded_overrides": []
+    },
+    {
+      "id": 37,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "2001101-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--d9cbe34ece.pdf",
+      "source_sha256": "75e5d156564765ed25e1d6dd7c958b99da9c68067b5b6efeff07519d3e3dbe30",
+      "source_page": "[4]",
+      "clo_code": "1.2",
+      "clo_index": 1,
+      "text_before": "توضيح أقسام الحديث باعتباراته المختلفة، والاحكام المتعلقة بها.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "توضيح أقسام الحديث باعتباراته المختلفة، والأحكام المتعلقة بها.",
+      "previous_state": "نص مشوه بأثر طبقة نص PDF (ترميز الحروف أو ترتيب الكلمات)",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "توضيح أقسام الحديث باعتباراته المختلفة، والأحكام المتعلقة بها.",
+        "blind_image_reading": "توضيح أقسام الحديث باعتباراته المختلفة، والأحكام المتعلقة بها.",
+        "prior_judgment_only_reading": null,
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Image shows «والأحكام» with hamza; text layer «واألحكام» is a ToUnicode artifact.",
+      "transfer_notes": [],
+      "programme_rows": 1,
+      "superseded_overrides": []
+    },
+    {
+      "id": 38,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "2001101-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--6acb2da09b.pdf",
+      "source_sha256": "2d11736ec5abb476e3bbb7d8a6791f970d75f8355e938b7755c2972247b26a5a",
+      "source_page": "[4]",
+      "clo_code": "1.2",
+      "clo_index": 1,
+      "text_before": "توضيح أقسام الحديث باعتباراته المختلفة، والاحكام المتعلقة بها.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "توضيح أقسام الحديث باعتباراته المختلفة، والأحكام المتعلقة بها.",
+      "previous_state": "نص مشوه بأثر طبقة نص PDF (ترميز الحروف أو ترتيب الكلمات)",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "توضيح أقسام الحديث باعتباراته المختلفة، والأحكام المتعلقة بها.",
+        "blind_image_reading": "توضيح أقسام الحديث باعتباراته المختلفة، والأحكام المتعلقة بها.",
+        "prior_judgment_only_reading": null,
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Image shows «والأحكام» with hamza; text layer «واألحكام» is a ToUnicode artifact.",
+      "transfer_notes": [],
+      "programme_rows": 1,
+      "superseded_overrides": []
+    },
+    {
+      "id": 39,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "2001101-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--d9cbe34ece.pdf",
+      "source_sha256": "75e5d156564765ed25e1d6dd7c958b99da9c68067b5b6efeff07519d3e3dbe30",
+      "source_page": "[4, 5]",
+      "clo_code": "1.3",
+      "clo_index": 2,
+      "text_before": "شرح الحديث",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "شرح الحديث المقبول والمردود وأقسامهما.",
+      "previous_state": "نص مقتطع عند فاصل الصفحة: تتمة الخلية في صف بلا رمز أعلى الصفحة التالية",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "شرح الحديث المقبول والمردود وأقسامهما.",
+        "blind_image_reading": "شرح الحديث المقبول والمردود وأقسامهما.",
+        "prior_judgment_only_reading": null,
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "p4 cell 1.3 «شرح الحديث» (no period, last row before page break) continues in an uncoded row at top of p5 «المقبول والمردود وأقسامهما.» under the repeated header and before the 2.0 heading. Both readers joined the fragments independently.",
+      "transfer_notes": [
+        "جمع الجزأين المطبوعين حرفيًا في ص4 وص5 دون إضافة؛ الصف أعلى ص5 بلا رمز ويسبق عنوان المهارات 2.0، و1.3 آخر صف في ص4 بلا نقطة ختام."
+      ],
+      "programme_rows": 1,
+      "superseded_overrides": [
+        {
+          "variant_id": "7e3a62c8ce53c71274527c138b5db80d1b33a3e2f3db85fc5363f0b383a302f5",
+          "field": "clos[2].text",
+          "value": "شرح الحديث",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--d9cbe34ece.pdf | الصفحات 4 | استكمال نص CLO 1.3 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "7e3a62c8ce53c71274527c138b5db80d1b33a3e2f3db85fc5363f0b383a302f5",
+          "field": "clos[2].source_status",
+          "value": "present",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--d9cbe34ece.pdf | الصفحات 4 | استكمال نص CLO 1.3 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "7e3a62c8ce53c71274527c138b5db80d1b33a3e2f3db85fc5363f0b383a302f5",
+          "field": "clos[2].extraction_method",
+          "value": "verified_visual_review",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--d9cbe34ece.pdf | الصفحات 4 | استكمال نص CLO 1.3 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "7e3a62c8ce53c71274527c138b5db80d1b33a3e2f3db85fc5363f0b383a302f5",
+          "field": "clos[2].confidence",
+          "value": "verified",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--d9cbe34ece.pdf | الصفحات 4 | استكمال نص CLO 1.3 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "2001101-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--6acb2da09b.pdf",
+      "source_sha256": "2d11736ec5abb476e3bbb7d8a6791f970d75f8355e938b7755c2972247b26a5a",
+      "source_page": "[4, 5]",
+      "clo_code": "1.3",
+      "clo_index": 2,
+      "text_before": "شرح الحديث",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "شرح الحديث المقبول والمردود وأقسامهما.",
+      "previous_state": "نص مقتطع عند فاصل الصفحة: تتمة الخلية في صف بلا رمز أعلى الصفحة التالية",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "شرح الحديث المقبول والمردود وأقسامهما.",
+        "blind_image_reading": "شرح الحديث المقبول والمردود وأقسامهما.",
+        "prior_judgment_only_reading": null,
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Same layout as d9cbe34ece (page images identical for pp.4–5 except row 3.1).",
+      "transfer_notes": [
+        "جمع الجزأين المطبوعين حرفيًا في ص4 وص5 دون إضافة؛ الصف أعلى ص5 بلا رمز ويسبق عنوان المهارات 2.0، و1.3 آخر صف في ص4 بلا نقطة ختام."
+      ],
+      "programme_rows": 1,
+      "superseded_overrides": [
+        {
+          "variant_id": "96d97f0f9e0635f3e56e3bea02dc5ebcf3155789d86c6582c3dc84f1bfccfd53",
+          "field": "clos[2].text",
+          "value": "شرح الحديث",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--6acb2da09b.pdf | الصفحات 4 | استكمال نص CLO 1.3 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "96d97f0f9e0635f3e56e3bea02dc5ebcf3155789d86c6582c3dc84f1bfccfd53",
+          "field": "clos[2].source_status",
+          "value": "present",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--6acb2da09b.pdf | الصفحات 4 | استكمال نص CLO 1.3 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "96d97f0f9e0635f3e56e3bea02dc5ebcf3155789d86c6582c3dc84f1bfccfd53",
+          "field": "clos[2].extraction_method",
+          "value": "verified_visual_review",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--6acb2da09b.pdf | الصفحات 4 | استكمال نص CLO 1.3 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "96d97f0f9e0635f3e56e3bea02dc5ebcf3155789d86c6582c3dc84f1bfccfd53",
+          "field": "clos[2].confidence",
+          "value": "verified",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--6acb2da09b.pdf | الصفحات 4 | استكمال نص CLO 1.3 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "2001101-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--d9cbe34ece.pdf",
+      "source_sha256": "75e5d156564765ed25e1d6dd7c958b99da9c68067b5b6efeff07519d3e3dbe30",
+      "source_page": "[5]",
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "text_before": "التي درسها على الأحاديث النبوية.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "تطبيق القواعد التي درسها على الأحاديث النبوية.",
+      "previous_state": "نص مقتطع في JSON",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "تطبيق القواعد التي درسها على الأحاديث النبوية.",
+        "blind_image_reading": "تطبيق القواعد التي درسها على الأحاديث النبوية.",
+        "prior_judgment_only_reading": null,
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Prior JSON lost the first word «تطبيق القواعد».",
+      "transfer_notes": [],
+      "programme_rows": 1,
+      "superseded_overrides": []
+    },
+    {
+      "id": 42,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "2001101-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--6acb2da09b.pdf",
+      "source_sha256": "2d11736ec5abb476e3bbb7d8a6791f970d75f8355e938b7755c2972247b26a5a",
+      "source_page": "[5]",
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "text_before": "التي درسها على الأحاديث النبوية.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "تطبيق القواعد التي درسها على الأحاديث النبوية.",
+      "previous_state": "نص مقتطع في JSON",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "تطبيق القواعد التي درسها على الأحاديث النبوية.",
+        "blind_image_reading": "تطبيق القواعد التي درسها على الأحاديث النبوية.",
+        "prior_judgment_only_reading": "تطبيق القواعد التي درسها على الأحاديث النبوية.",
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Prior JSON lost the first word «تطبيق القواعد».",
+      "transfer_notes": [],
+      "programme_rows": 1,
+      "superseded_overrides": []
+    },
+    {
+      "id": 43,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "2001101-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--d9cbe34ece.pdf",
+      "source_sha256": "75e5d156564765ed25e1d6dd7c958b99da9c68067b5b6efeff07519d3e3dbe30",
+      "source_page": "[5]",
+      "clo_code": "3.1",
+      "clo_index": 6,
+      "text_before": "المبادرة إلى التعلم الذاتي معرفيا ومهاريا خلال من المقارنة بين القواعد التي درسها وصنيع المحدثين - رحمهم اللّه-.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "المبادرة إلى التعلم الذاتي معرفيا ومهاريا من خلال المقارنة بين القواعد التي درسها وصنيع المحدثين -رحمهم الله-.",
+      "previous_state": "نص مشوه بأثر طبقة نص PDF (ترميز الحروف أو ترتيب الكلمات)",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "المبادرة إلى التعلم الذاتي معرفيا ومهاريا من خلال المقارنة بين القواعد التي درسها وصنيع المحدثين -رحمهم الله-.",
+        "blind_image_reading": "المبادرة إلى التعلم الذاتي معرفيا ومهاريا من خلال المقارنة بين القواعد التي درسها وصنيع المحدثين -رحمهم الله-.",
+        "prior_judgment_only_reading": null,
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Prior verified override had swapped «من خلال» to «خلال من» (justified RTL line) and «- رحمهم اللّه-».",
+      "transfer_notes": [],
+      "programme_rows": 1,
+      "superseded_overrides": [
+        {
+          "variant_id": "7e3a62c8ce53c71274527c138b5db80d1b33a3e2f3db85fc5363f0b383a302f5",
+          "field": "clos[6].text",
+          "value": "المبادرة إلى التعلم الذاتي معرفيا ومهاريا خلال من المقارنة بين القواعد التي درسها وصنيع المحدثين - رحمهم اللّه-.",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--d9cbe34ece.pdf | الصفحات 5 | استكمال نص CLO 3.1 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "7e3a62c8ce53c71274527c138b5db80d1b33a3e2f3db85fc5363f0b383a302f5",
+          "field": "clos[6].source_status",
+          "value": "present",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--d9cbe34ece.pdf | الصفحات 5 | استكمال نص CLO 3.1 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "7e3a62c8ce53c71274527c138b5db80d1b33a3e2f3db85fc5363f0b383a302f5",
+          "field": "clos[6].extraction_method",
+          "value": "verified_visual_review",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--d9cbe34ece.pdf | الصفحات 5 | استكمال نص CLO 3.1 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "7e3a62c8ce53c71274527c138b5db80d1b33a3e2f3db85fc5363f0b383a302f5",
+          "field": "clos[6].confidence",
+          "value": "verified",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--d9cbe34ece.pdf | الصفحات 5 | استكمال نص CLO 3.1 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "990415-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf",
+      "source_sha256": "e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc",
+      "source_page": "[4]",
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "text_before": "أن يعِّرف الطالب مخارا الحروف وصفاتها الرئيسة.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يعرِّف الطالب مخارج الحروف وصفاتها الرئيسة.",
+      "previous_state": "نص مشوه بأثر طبقة نص PDF (ترميز الحروف أو ترتيب الكلمات)",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "أن يعرِّف الطالب مخارج الحروف وصفاتها الرئيسة.",
+        "blind_image_reading": "أن يعرِّف الطالب مخارج الحروف وصفاتها الرئيسة.",
+        "prior_judgment_only_reading": null,
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Shadda+kasra on ر as printed (encoded shadda then kasra, as in record 8). Prior JSON «يعِّرف ... مخارا».",
+      "transfer_notes": [],
+      "programme_rows": 4,
+      "superseded_overrides": []
+    },
+    {
+      "id": 45,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "990415-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf",
+      "source_sha256": "e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc",
+      "source_page": "[4]",
+      "clo_code": "1.2",
+      "clo_index": 1,
+      "text_before": "وصفاتها الرئيسة. يشرح ألكاا الكون السا كة والتكوي والميم السا كة وأنواع المدود.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "يشرح أحكام النون الساكنة والتنوين والميم الساكنة وأنواع المدود.",
+      "previous_state": "نص مدموج بصف مجاور في JSON",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "يشرح أحكام النون الساكنة والتنوين والميم الساكنة وأنواع المدود.",
+        "blind_image_reading": "يشرح أحكام النون الساكنة والتنوين والميم الساكنة وأنواع المدود.",
+        "prior_judgment_only_reading": "يشرح أحكام النون الساكنة والتنوين والميم الساكنة وأنواع المدود.",
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Prior JSON merged the end of 1.1 and was glyph-garbled.",
+      "transfer_notes": [],
+      "programme_rows": 4,
+      "superseded_overrides": []
+    },
+    {
+      "id": 46,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "990415-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf",
+      "source_sha256": "e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc",
+      "source_page": "[4]",
+      "clo_code": "2.1",
+      "clo_index": 2,
+      "text_before": "يطبق الطالب ألكاا التجويد عملًيا أثكاء التلاوة.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "يطبّق الطالب أحكام التجويد عمليًا أثناء التلاوة.",
+      "previous_state": "نص مشوه بأثر طبقة نص PDF (ترميز الحروف أو ترتيب الكلمات)",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "يطبّق الطالب أحكام التجويد عمليًا أثناء التلاوة.",
+        "blind_image_reading": "يطبّق الطالب أحكام التجويد عمليًا أثناء التلاوة.",
+        "prior_judgment_only_reading": "يطبّق الطالب أحكام التجويد عمليًا أثناء التلاوة.",
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Shadda on ب; tanween fath in «عمليًا».",
+      "transfer_notes": [],
+      "programme_rows": 4,
+      "superseded_overrides": []
+    },
+    {
+      "id": 47,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "990113-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990113-2--74025fe683.pdf",
+      "source_sha256": "fc695a78bf93e4b90167744a60544f0adf556bd6b110cca05d5814364e9bffe8",
+      "source_page": "[4]",
+      "clo_code": "2.3",
+      "clo_index": 4,
+      "text_before": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نمالج مختلفة.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نماذج مختلفة.",
+      "previous_state": "نص مشوه بأثر طبقة نص PDF (ترميز الحروف أو ترتيب الكلمات)",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نماذج مختلفة.",
+        "blind_image_reading": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نماذج مختلفة.",
+        "prior_judgment_only_reading": null,
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Primary table (٣. مخرجات التعلم للمقرر) p4. Text layer «نمالج»; image «نماذج».",
+      "transfer_notes": [],
+      "programme_rows": 5,
+      "superseded_overrides": []
+    },
+    {
+      "id": 48,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "990113-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990113-2--74025fe683.pdf",
+      "source_sha256": "fc695a78bf93e4b90167744a60544f0adf556bd6b110cca05d5814364e9bffe8",
+      "source_page": "[4]",
+      "clo_code": "3.3",
+      "clo_index": 7,
+      "text_before": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة ج. موضوعات المقرر",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة",
+      "previous_state": "نص مدموج بصف مجاور في JSON",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة",
+        "blind_image_reading": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة",
+        "prior_judgment_only_reading": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة",
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "Primary table p4 (a), no final period. Prior JSON appended the next heading «ج. موضوعات المقرر». Repeated table (b) p5 differs: «تغذيه ... الوقاية أمراض ... والسمنة.»; table (a) governs as in the earlier package.",
+      "transfer_notes": [],
+      "programme_rows": 5,
+      "superseded_overrides": []
+    },
+    {
+      "id": 49,
+      "round": "text-corrections-2026-10-16",
+      "course_code": "2001373-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf",
+      "source_sha256": "bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d",
+      "source_page": "[4, 5]",
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "text_before": "تقييم شبهات المخالفين لمنهج السلف في الملائكة و الكتب وأشراط الساعة",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "تقييم شبهات المخالفين لمنهج السلف في الملائكة و الكتب وأشراط الساعة والبعث .",
+      "previous_state": "نص مقتطع عند فاصل الصفحة: تتمة الخلية في صف بلا رمز أعلى الصفحة التالية",
+      "excluded_layout_markers": [],
+      "readings": {
+        "orchestrator_image_reading": "تقييم شبهات المخالفين لمنهج السلف في الملائكة و الكتب وأشراط الساعة والبعث .",
+        "blind_image_reading": "تقييم شبهات المخالفين لمنهج السلف في الملائكة و الكتب وأشراط الساعة والبعث .",
+        "prior_judgment_only_reading": null,
+        "text_layer": "secondary aid only; glyph-garbled where noted"
+      },
+      "note": "p4 cell 2.2 is the last row on the page, has no final period and its last line ends with the wrap-point space glyph; an uncoded row at top of p5 under the repeated header, before row 2,3, reads «والبعث .» (space glyph before the period). Line-final «و» is a separate word (space before and after in the text layer), kept as in the previous verified text. Reported by a parent-session reviewer and verified independently here.",
+      "transfer_notes": [
+        "جمع الجزأين المطبوعين حرفيًا في ص4 وص5 دون إضافة؛ الصف أعلى ص5 بلا رمز ويسبق الصف 2,3، و2.2 آخر صف في ص4 بلا نقطة ختام."
+      ],
+      "programme_rows": 2,
+      "superseded_overrides": [
+        {
+          "variant_id": "0044da17c090096ba5a6b13f04798230119aeafd8782045c54bfc71ba01ecd62",
+          "field": "clos[4].text",
+          "value": "تقييم شبهات المخالفين لمنهج السلف في الملائكة و الكتب وأشراط الساعة",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf | الصفحات 4 | استكمال نص CLO 2.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "0044da17c090096ba5a6b13f04798230119aeafd8782045c54bfc71ba01ecd62",
+          "field": "clos[4].source_status",
+          "value": "present",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf | الصفحات 4 | استكمال نص CLO 2.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "0044da17c090096ba5a6b13f04798230119aeafd8782045c54bfc71ba01ecd62",
+          "field": "clos[4].extraction_method",
+          "value": "verified_visual_review",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf | الصفحات 4 | استكمال نص CLO 2.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "0044da17c090096ba5a6b13f04798230119aeafd8782045c54bfc71ba01ecd62",
+          "field": "clos[4].confidence",
+          "value": "verified",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf | الصفحات 4 | استكمال نص CLO 2.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "864428a116b4c9a46cedc6fe6db9b70f4a8fcad72c581c7dbc4dbde7591b82fa",
+          "field": "clos[4].text",
+          "value": "تقييم شبهات المخالفين لمنهج السلف في الملائكة و الكتب وأشراط الساعة",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf | الصفحات 4 | استكمال نص CLO 2.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "864428a116b4c9a46cedc6fe6db9b70f4a8fcad72c581c7dbc4dbde7591b82fa",
+          "field": "clos[4].source_status",
+          "value": "present",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf | الصفحات 4 | استكمال نص CLO 2.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "864428a116b4c9a46cedc6fe6db9b70f4a8fcad72c581c7dbc4dbde7591b82fa",
+          "field": "clos[4].extraction_method",
+          "value": "verified_visual_review",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf | الصفحات 4 | استكمال نص CLO 2.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        },
+        {
+          "variant_id": "864428a116b4c9a46cedc6fe6db9b70f4a8fcad72c581c7dbc4dbde7591b82fa",
+          "field": "clos[4].confidence",
+          "value": "verified",
+          "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf | الصفحات 4 | استكمال نص CLO 2.2 من الخلية المرئية.",
+          "policy": "verified_extraction_correction_matches_source",
+          "reviewed_at": "2026-09-08T23:30:00+03:00"
+        }
+      ]
     }
   ],
   "judgment_only_readings": {

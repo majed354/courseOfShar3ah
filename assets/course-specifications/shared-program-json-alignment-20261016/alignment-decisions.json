@@ -26572,7 +26572,7 @@
       },
       "clo_index": 1,
       "clo_code": "1.2",
-      "clo_text_in_json": "توضيح أقسام الحديث باعتباراته المختلفة، والاحكام المتعلقة بها.",
+      "clo_text_in_json": "توضيح أقسام الحديث باعتباراته المختلفة، والأحكام المتعلقة بها.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -26612,7 +26612,7 @@
       },
       "clo_index": 2,
       "clo_code": "1.3",
-      "clo_text_in_json": "شرح الحديث",
+      "clo_text_in_json": "شرح الحديث المقبول والمردود وأقسامهما.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -26692,7 +26692,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.2",
-      "clo_text_in_json": "التي درسها على الأحاديث النبوية.",
+      "clo_text_in_json": "تطبيق القواعد التي درسها على الأحاديث النبوية.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -26772,7 +26772,7 @@
       },
       "clo_index": 6,
       "clo_code": "3.1",
-      "clo_text_in_json": "المبادرة إلى التعلم الذاتي معرفيا ومهاريا خلال من المقارنة بين القواعد التي درسها وصنيع المحدثين - رحمهم اللّه-.",
+      "clo_text_in_json": "المبادرة إلى التعلم الذاتي معرفيا ومهاريا من خلال المقارنة بين القواعد التي درسها وصنيع المحدثين -رحمهم الله-.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -26949,7 +26949,7 @@
       },
       "clo_index": 1,
       "clo_code": "1.2",
-      "clo_text_in_json": "توضيح أقسام الحديث باعتباراته المختلفة، والاحكام المتعلقة بها.",
+      "clo_text_in_json": "توضيح أقسام الحديث باعتباراته المختلفة، والأحكام المتعلقة بها.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -27006,7 +27006,7 @@
       },
       "clo_index": 2,
       "clo_code": "1.3",
-      "clo_text_in_json": "شرح الحديث",
+      "clo_text_in_json": "شرح الحديث المقبول والمردود وأقسامهما.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -27114,7 +27114,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.2",
-      "clo_text_in_json": "التي درسها على الأحاديث النبوية.",
+      "clo_text_in_json": "تطبيق القواعد التي درسها على الأحاديث النبوية.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -31529,7 +31529,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.2",
-      "clo_text_in_json": "تقييم شبهات المخالفين لمنهج السلف في الملائكة و الكتب وأشراط الساعة",
+      "clo_text_in_json": "تقييم شبهات المخالفين لمنهج السلف في الملائكة و الكتب وأشراط الساعة والبعث .",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -31915,7 +31915,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.2",
-      "clo_text_in_json": "تقييم شبهات المخالفين لمنهج السلف في الملائكة و الكتب وأشراط الساعة",
+      "clo_text_in_json": "تقييم شبهات المخالفين لمنهج السلف في الملائكة و الكتب وأشراط الساعة والبعث .",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -58251,7 +58251,7 @@
       },
       "clo_index": 1,
       "clo_code": "1.2",
-      "clo_text_in_json": "استعراض المو اقف النبوية. تلخيص غزوات الرسول صلى",
+      "clo_text_in_json": "استعراض المواقف النبوية.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -58410,7 +58410,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.3",
-      "clo_text_in_json": "تقييم مو اقف غير المسلمين مع النبى صلى اللّه عليه وسلم.",
+      "clo_text_in_json": "تقييم مواقف غير المسلمين مع النبي صلى الله عليه وسلم.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -58469,7 +58469,7 @@
       },
       "clo_index": 5,
       "clo_code": "2.4",
-      "clo_text_in_json": "مقارنة مراحل السيرة النبودة ببعضها.",
+      "clo_text_in_json": "مقارنة مراحل السيرة النبوية ببعضها.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -58568,7 +58568,7 @@
       },
       "clo_index": 7,
       "clo_code": "3.2",
-      "clo_text_in_json": "الاقتداء بالنبي ﷺ في جميع الأحوال.",
+      "clo_text_in_json": "الاقتداء بالنبي ﷺ في جميع الأحوال",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -58667,7 +58667,7 @@
       },
       "clo_index": 1,
       "clo_code": "1.2",
-      "clo_text_in_json": "استعراض المو اقف النبوية. تلخيص غزوات الرسول صلى",
+      "clo_text_in_json": "استعراض المواقف النبوية.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -58843,7 +58843,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.3",
-      "clo_text_in_json": "تقييم مو اقف غير المسلمين مع النبى صلى اللّه عليه وسلم.",
+      "clo_text_in_json": "تقييم مواقف غير المسلمين مع النبي صلى الله عليه وسلم.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -58901,7 +58901,7 @@
       },
       "clo_index": 5,
       "clo_code": "2.4",
-      "clo_text_in_json": "مقارنة مراحل السيرة النبودة ببعضها.",
+      "clo_text_in_json": "مقارنة مراحل السيرة النبوية ببعضها.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -58994,7 +58994,7 @@
       },
       "clo_index": 7,
       "clo_code": "3.2",
-      "clo_text_in_json": "الاقتداء بالنبي ﷺ في جميع الأحوال.",
+      "clo_text_in_json": "الاقتداء بالنبي ﷺ في جميع الأحوال",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -59088,7 +59088,7 @@
       },
       "clo_index": 1,
       "clo_code": "1.2",
-      "clo_text_in_json": "استعراض المو اقف النبوية. تلخيص غزوات الرسول صلى",
+      "clo_text_in_json": "استعراض المواقف النبوية.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -59227,7 +59227,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.3",
-      "clo_text_in_json": "تقييم مو اقف غير المسلمين مع النبى صلى اللّه عليه وسلم.",
+      "clo_text_in_json": "تقييم مواقف غير المسلمين مع النبي صلى الله عليه وسلم.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -59286,7 +59286,7 @@
       },
       "clo_index": 5,
       "clo_code": "2.4",
-      "clo_text_in_json": "مقارنة مراحل السيرة النبودة ببعضها.",
+      "clo_text_in_json": "مقارنة مراحل السيرة النبوية ببعضها.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -59385,7 +59385,7 @@
       },
       "clo_index": 7,
       "clo_code": "3.2",
-      "clo_text_in_json": "الاقتداء بالنبي ﷺ في جميع الأحوال.",
+      "clo_text_in_json": "الاقتداء بالنبي ﷺ في جميع الأحوال",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -59482,7 +59482,7 @@
       },
       "clo_index": 1,
       "clo_code": "1.2",
-      "clo_text_in_json": "استعراض المو اقف النبوية. تلخيص غزوات الرسول صلى",
+      "clo_text_in_json": "استعراض المواقف النبوية.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -59647,7 +59647,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.3",
-      "clo_text_in_json": "تقييم مو اقف غير المسلمين مع النبى صلى اللّه عليه وسلم.",
+      "clo_text_in_json": "تقييم مواقف غير المسلمين مع النبي صلى الله عليه وسلم.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -59706,7 +59706,7 @@
       },
       "clo_index": 5,
       "clo_code": "2.4",
-      "clo_text_in_json": "مقارنة مراحل السيرة النبودة ببعضها.",
+      "clo_text_in_json": "مقارنة مراحل السيرة النبوية ببعضها.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -59805,7 +59805,7 @@
       },
       "clo_index": 7,
       "clo_code": "3.2",
-      "clo_text_in_json": "الاقتداء بالنبي ﷺ في جميع الأحوال.",
+      "clo_text_in_json": "الاقتداء بالنبي ﷺ في جميع الأحوال",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -59886,7 +59886,7 @@
       },
       "clo_index": 1,
       "clo_code": "1.2",
-      "clo_text_in_json": "استعراض المو اقف النبوية. تلخيص غزوات الرسول صلى",
+      "clo_text_in_json": "استعراض المواقف النبوية.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -60022,7 +60022,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.3",
-      "clo_text_in_json": "تقييم مو اقف غير المسلمين مع النبى صلى اللّه عليه وسلم.",
+      "clo_text_in_json": "تقييم مواقف غير المسلمين مع النبي صلى الله عليه وسلم.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -60063,7 +60063,7 @@
       },
       "clo_index": 5,
       "clo_code": "2.4",
-      "clo_text_in_json": "مقارنة مراحل السيرة النبودة ببعضها.",
+      "clo_text_in_json": "مقارنة مراحل السيرة النبوية ببعضها.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -60145,7 +60145,7 @@
       },
       "clo_index": 7,
       "clo_code": "3.2",
-      "clo_text_in_json": "الاقتداء بالنبي ﷺ في جميع الأحوال.",
+      "clo_text_in_json": "الاقتداء بالنبي ﷺ في جميع الأحوال",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -64988,7 +64988,7 @@
       },
       "clo_index": 1,
       "clo_code": "1.2",
-      "clo_text_in_json": "ل ردود السلف على المخالفين في الكبيرة في الدنيا رة.",
+      "clo_text_in_json": "تلخيص ردود السلف على شبهات المخالفين في مرتكب الكبيرة في الدنيا والآخرة .",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -65028,7 +65028,7 @@
       },
       "clo_index": 2,
       "clo_code": "1.3",
-      "clo_text_in_json": "على مراتب القضاء عند سلف الأمة.",
+      "clo_text_in_json": "التدليل على مراتب القضاء والقدر عند سلف الأمة .",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -65161,7 +65161,7 @@
       },
       "clo_index": 5,
       "clo_code": "3.1",
-      "clo_text_in_json": "التمثل بالنراهه واه المهنية والأكاديمية والمواطنة المسؤولة.",
+      "clo_text_in_json": "التمثل بالنزاهة والأخلاقيات المهنية والأكاديمية والمواطنة المسؤولة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -65298,7 +65298,7 @@
       },
       "clo_index": 1,
       "clo_code": "1.2",
-      "clo_text_in_json": "ل ردود السلف على المخالفين في الكبيرة في الدنيا رة.",
+      "clo_text_in_json": "تلخيص ردود السلف على شبهات المخالفين في مرتكب الكبيرة في الدنيا والآخرة .",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -65355,7 +65355,7 @@
       },
       "clo_index": 2,
       "clo_code": "1.3",
-      "clo_text_in_json": "على مراتب القضاء عند سلف الأمة.",
+      "clo_text_in_json": "التدليل على مراتب القضاء والقدر عند سلف الأمة .",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -65505,7 +65505,7 @@
       },
       "clo_index": 5,
       "clo_code": "3.1",
-      "clo_text_in_json": "التمثل بالنراهه واه المهنية والأكاديمية والمواطنة المسؤولة.",
+      "clo_text_in_json": "التمثل بالنزاهة والأخلاقيات المهنية والأكاديمية والمواطنة المسؤولة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -65637,7 +65637,7 @@
       },
       "clo_index": 1,
       "clo_code": "1.2",
-      "clo_text_in_json": "ل ردود السلف على المخالفين في الكبيرة في الدنيا رة.",
+      "clo_text_in_json": "تلخيص ردود السلف على شبهات المخالفين في مرتكب الكبيرة في الدنيا والآخرة .",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -65678,7 +65678,7 @@
       },
       "clo_index": 2,
       "clo_code": "1.3",
-      "clo_text_in_json": "على مراتب القضاء عند سلف الأمة.",
+      "clo_text_in_json": "التدليل على مراتب القضاء والقدر عند سلف الأمة .",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -65802,7 +65802,7 @@
       },
       "clo_index": 5,
       "clo_code": "3.1",
-      "clo_text_in_json": "التمثل بالنراهه واه المهنية والأكاديمية والمواطنة المسؤولة.",
+      "clo_text_in_json": "التمثل بالنزاهة والأخلاقيات المهنية والأكاديمية والمواطنة المسؤولة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -69187,7 +69187,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.3",
-      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نمالج مختلفة.",
+      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نماذج مختلفة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -69354,7 +69354,7 @@
       },
       "clo_index": 7,
       "clo_code": "3.3",
-      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة ج. موضوعات المقرر",
+      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -69658,7 +69658,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.3",
-      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نمالج مختلفة.",
+      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نماذج مختلفة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -69830,7 +69830,7 @@
       },
       "clo_index": 7,
       "clo_code": "3.3",
-      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة ج. موضوعات المقرر",
+      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -70338,7 +70338,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.3",
-      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نمالج مختلفة.",
+      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نماذج مختلفة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -70395,7 +70395,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.3",
-      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نمالج مختلفة.",
+      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نماذج مختلفة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -70668,7 +70668,7 @@
       },
       "clo_index": 7,
       "clo_code": "3.3",
-      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة ج. موضوعات المقرر",
+      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -70725,7 +70725,7 @@
       },
       "clo_index": 7,
       "clo_code": "3.3",
-      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة ج. موضوعات المقرر",
+      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -71010,7 +71010,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.3",
-      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نمالج مختلفة.",
+      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نماذج مختلفة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -71175,7 +71175,7 @@
       },
       "clo_index": 7,
       "clo_code": "3.3",
-      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة ج. موضوعات المقرر",
+      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -71464,7 +71464,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.3",
-      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نمالج مختلفة.",
+      "clo_text_in_json": "يطبق الطلاب الاسعافات الأولية للحالات الطارئة والإصابات على نماذج مختلفة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -71622,7 +71622,7 @@
       },
       "clo_index": 7,
       "clo_code": "3.3",
-      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة ج. موضوعات المقرر",
+      "clo_text_in_json": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -75948,7 +75948,7 @@
       },
       "clo_index": 0,
       "clo_code": "1.1",
-      "clo_text_in_json": "أن يعِّرف الطالب مخارا الحروف وصفاتها الرئيسة.",
+      "clo_text_in_json": "أن يعرِّف الطالب مخارج الحروف وصفاتها الرئيسة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -76000,7 +76000,7 @@
       },
       "clo_index": 1,
       "clo_code": "1.2",
-      "clo_text_in_json": "وصفاتها الرئيسة. يشرح ألكاا الكون السا كة والتكوي والميم السا كة وأنواع المدود.",
+      "clo_text_in_json": "يشرح أحكام النون الساكنة والتنوين والميم الساكنة وأنواع المدود.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -76052,7 +76052,7 @@
       },
       "clo_index": 2,
       "clo_code": "2.1",
-      "clo_text_in_json": "يطبق الطالب ألكاا التجويد عملًيا أثكاء التلاوة.",
+      "clo_text_in_json": "يطبّق الطالب أحكام التجويد عمليًا أثناء التلاوة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -76196,7 +76196,7 @@
       },
       "clo_index": 0,
       "clo_code": "1.1",
-      "clo_text_in_json": "أن يعِّرف الطالب مخارا الحروف وصفاتها الرئيسة.",
+      "clo_text_in_json": "أن يعرِّف الطالب مخارج الحروف وصفاتها الرئيسة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -76253,7 +76253,7 @@
       },
       "clo_index": 0,
       "clo_code": "1.1",
-      "clo_text_in_json": "أن يعِّرف الطالب مخارا الحروف وصفاتها الرئيسة.",
+      "clo_text_in_json": "أن يعرِّف الطالب مخارج الحروف وصفاتها الرئيسة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -76310,7 +76310,7 @@
       },
       "clo_index": 1,
       "clo_code": "1.2",
-      "clo_text_in_json": "وصفاتها الرئيسة. يشرح ألكاا الكون السا كة والتكوي والميم السا كة وأنواع المدود.",
+      "clo_text_in_json": "يشرح أحكام النون الساكنة والتنوين والميم الساكنة وأنواع المدود.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -76367,7 +76367,7 @@
       },
       "clo_index": 1,
       "clo_code": "1.2",
-      "clo_text_in_json": "وصفاتها الرئيسة. يشرح ألكاا الكون السا كة والتكوي والميم السا كة وأنواع المدود.",
+      "clo_text_in_json": "يشرح أحكام النون الساكنة والتنوين والميم الساكنة وأنواع المدود.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -76424,7 +76424,7 @@
       },
       "clo_index": 2,
       "clo_code": "2.1",
-      "clo_text_in_json": "يطبق الطالب ألكاا التجويد عملًيا أثكاء التلاوة.",
+      "clo_text_in_json": "يطبّق الطالب أحكام التجويد عمليًا أثناء التلاوة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -76481,7 +76481,7 @@
       },
       "clo_index": 2,
       "clo_code": "2.1",
-      "clo_text_in_json": "يطبق الطالب ألكاا التجويد عملًيا أثكاء التلاوة.",
+      "clo_text_in_json": "يطبّق الطالب أحكام التجويد عمليًا أثناء التلاوة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -76770,7 +76770,7 @@
       },
       "clo_index": 0,
       "clo_code": "1.1",
-      "clo_text_in_json": "أن يعِّرف الطالب مخارا الحروف وصفاتها الرئيسة.",
+      "clo_text_in_json": "أن يعرِّف الطالب مخارج الحروف وصفاتها الرئيسة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -76810,7 +76810,7 @@
       },
       "clo_index": 1,
       "clo_code": "1.2",
-      "clo_text_in_json": "وصفاتها الرئيسة. يشرح ألكاا الكون السا كة والتكوي والميم السا كة وأنواع المدود.",
+      "clo_text_in_json": "يشرح أحكام النون الساكنة والتنوين والميم الساكنة وأنواع المدود.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -76850,7 +76850,7 @@
       },
       "clo_index": 2,
       "clo_code": "2.1",
-      "clo_text_in_json": "يطبق الطالب ألكاا التجويد عملًيا أثكاء التلاوة.",
+      "clo_text_in_json": "يطبّق الطالب أحكام التجويد عمليًا أثناء التلاوة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -76970,7 +76970,7 @@
       },
       "clo_index": 0,
       "clo_code": "1.1",
-      "clo_text_in_json": "أن يعِّرف الطالب مخارا الحروف وصفاتها الرئيسة.",
+      "clo_text_in_json": "أن يعرِّف الطالب مخارج الحروف وصفاتها الرئيسة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -77010,7 +77010,7 @@
       },
       "clo_index": 1,
       "clo_code": "1.2",
-      "clo_text_in_json": "وصفاتها الرئيسة. يشرح ألكاا الكون السا كة والتكوي والميم السا كة وأنواع المدود.",
+      "clo_text_in_json": "يشرح أحكام النون الساكنة والتنوين والميم الساكنة وأنواع المدود.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -77050,7 +77050,7 @@
       },
       "clo_index": 2,
       "clo_code": "2.1",
-      "clo_text_in_json": "يطبق الطالب ألكاا التجويد عملًيا أثكاء التلاوة.",
+      "clo_text_in_json": "يطبّق الطالب أحكام التجويد عمليًا أثناء التلاوة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",

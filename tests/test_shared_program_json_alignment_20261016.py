@@ -143,7 +143,14 @@ class SharedProgramJsonAlignmentTests(unittest.TestCase):
             and self.variants[record["course_code"], record["new_variant_id"]]["source_pdf"] == item["source_pdf"]
         )
         self.assertEqual(expected_rows, self.applied_completion_rows)
-        self.assertEqual(19, len(self.completions))
+        # 19 transfers from the follow-up round (dd616ed) plus 20 from the
+        # text-corrections round, which applied the judgment-only readings and
+        # the further truncated/merged/garbled rows of the same source tables
+        # after two agreeing image readings. Each round is pinned separately so
+        # that neither can grow silently.
+        rounds = Counter(item.get("round", "followup-2026-10-16") for item in self.completions.values())
+        self.assertEqual({"followup-2026-10-16": 19, "text-corrections-2026-10-16": 20}, dict(rounds))
+        self.assertEqual(39, len(self.completions))
         for item in self.completions.values():
             self.assertEqual(item["source_sha256"], hashlib.sha256((ROOT / item["source_pdf"]).read_bytes()).hexdigest())
             self.assertFalse(re.search(r"[\u0660-\u0669]", item["text_verbatim"]))

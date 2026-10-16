@@ -112,7 +112,7 @@
     }
   },
   "reference_files": {
-    "remaining-alignment-gaps.json": "b4070e88244f10c2cb6b647ae464a2bfddf3bce655f5c646df24c7343f40c8cd",
+    "remaining-alignment-gaps.json": "e9e4ac30523912be7b8f9aceb3d17b3ce5aea0aee85caf94cc0e5a20a224f878",
     "unchanged-pdf-hashes.json": "c0185dec3bb9309d0843636b37b9772b2e8db23d3d35904b67e8206e7885e32b",
     "variant-lineage.json": "7b9b6a723748ff9b4f080365a89829cbe56965f475454e1dbecddf6231964369",
     "validation.json": "10ec8ddaad9607d6d4a4afcb808390eb6813c2cb4f2a0256d59002b1b9759398",
@@ -121,11 +121,11 @@
     "previous-context.json": "2f2c747f51f67cefde81ee60f11fde5db4e61690dcceac3dd25ea4a879786589",
     "deployment-verification.json": "de4a6ef80a6b7da61593590b099e88da52c9d29a46e15192a4f72d84b293b9ea",
     "peer-reviews.json": "1e4cc896efa62e5369171c804796e472662621034aaa83f211f0c08f56aa8969",
-    "alignment-decisions.json": "58864e33d4555a5daf817fcd72431ada38a45a578799922bffee227a7c920013",
+    "alignment-decisions.json": "514ee98e9f885b24f682f37eca630fad08e1646dde58372efdca51d1f241d6a6",
     "legacy-replay-limitations.json": "63fc95a9f65b963ed3fba84157bfd9f4b66b02e0cfb099fc056fb5b83ecc0a51",
     "program-plo-reference.json": "945eef1507a1c929035cbff29df8760d574b01ea333a1707dcac768f4122430c",
     "followup-review-decisions.json": "73e5e341a6e75792d0ea94645506b7bec09721b460e3a1cadc924baf8f9d8bf3",
-    "clo-text-completions.json": "35ebc0b310edec77356fdd1417b9984339d280197cea94a170f3aac5b0bfab6c"
+    "clo-text-completions.json": "05ba5905ac395f8bbd3853d9344c2940a93edb17d0455c2535ee960d36e8308a"
   },
   "validation": {
     "baseline_verifier": "passed",
