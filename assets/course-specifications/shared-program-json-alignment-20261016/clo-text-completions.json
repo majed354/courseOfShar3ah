@@ -1,0 +1,724 @@
+{
+  "schema_version": "shared-program-clo-text-completions-v1",
+  "reviewed_at": "2026-10-16",
+  "policy": "نقل حرفي لنص CLO من خلية PDF المطابقة للبصمة فقط، بعد قراءة بصرية عمياء مستقلة ومطابقتها لقراءة الحزمة السابقة وفحص المنسق للصورة؛ لا تأليف ولا تصحيح إملائي ولا إضافة صفوف. تُطبق القيمة على جميع نسخ البرامج المشتقة من المصدر نفسه بسياسة verified_extraction_correction_matches_source.",
+  "summary": {
+    "items_checked": 29,
+    "complete_verbatim": 19,
+    "keep_blank": 7,
+    "not_applied": 3
+  },
+  "records": [
+    {
+      "id": 1,
+      "course_code": "103281-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/103281-2--7f1c8633ae.pdf",
+      "source_sha256": "e5ef5d40a852f2b29c59024f41dd71d0338d0556e34134108805b1e004c222f7",
+      "source_page": "[5]",
+      "clo_code": "3.4",
+      "clo_index": 11,
+      "text_before": "أثناء إلقاء ورقة العمل.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يتفاعل بصورة إيجابية أثناء إلقاء ورقة العمل.",
+      "previous_state": "نص مقتطع أو مدموج أو مكرر في JSON",
+      "excluded_layout_markers": [],
+      "readings": {
+        "prior_package_reading": "أن يتفاعل بصورة إيجابية أثناء إلقاء ورقة العمل.",
+        "blind_image_reading": "أن يتفاعل بصورة إيجابية أثناء إلقاء ورقة العمل.",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image. Layer reads \"يتلاعي ... أ ناء ... العمي\". Kashida in بصـورة not transcribed.",
+      "transfer_notes": []
+    },
+    {
+      "id": 2,
+      "course_code": "6602322-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/6602322-2--b6c6c5fe76.pdf",
+      "source_sha256": "2c13fe2152ece589173572f76c3959be76410ff5bba752483a97b5b9848b227f",
+      "source_page": "[5]",
+      "clo_code": "1.3",
+      "clo_index": 2,
+      "text_before": "أنماط التجارة الالكترونية والفرص والتحديات.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يفسر الطالب الحكومة الالكترونية وأشكالها.",
+      "previous_state": "نص مقتطع أو مدموج أو مكرر في JSON",
+      "excluded_layout_markers": [
+        "ع٣"
+      ],
+      "readings": {
+        "prior_package_reading": "أن يفسر الطالب الحكومة الإلكترونية وأشكالها.",
+        "blind_image_reading": "ع٣أن يفسر الطالب الحكومة الالكترونية وأشكالها.",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Cell begins with printed prefix \"ع٣\" (Arabic-Indic 3, superscript-like; layer gives ASCII \"ع3\"). Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": [
+        "استُبعدت علامة التخطيط المطبوعة في الخلية (ع٣) لأنها رمز ربط أو تعداد بخط مختلف وليست جزءًا من عبارة المخرج."
+      ]
+    },
+    {
+      "id": 3,
+      "course_code": "2002250-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002250-2--244d678f13.pdf",
+      "source_sha256": "101125d7c376dcc0d0f43fb400583ec5626c463d3942af03927ace124d9ccc4a",
+      "source_page": "[4]",
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "text_before": "التي يحتاج إلها المفسرعند تعرضه لتفسي ركتاب الله تعالى.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يستخدم الطالب العلوم التي يحتاج إليها المفسر عند تعرضه لتفسير كتاب الله تعالى.",
+      "previous_state": "نص مقتطع أو مدموج أو مكرر في JSON",
+      "excluded_layout_markers": [],
+      "readings": {
+        "prior_package_reading": "أن يستخدم الطالب العلوم التي يحتاج إليها المفسر عند تعرضه لتفسير كتاب الله تعالى.",
+        "blind_image_reading": "أن يستخدم الطالب العلوم التي يحتاج إليها المفسر عند تعرضه لتفسير كتاب الله تعالى.",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Space between لتفسير and كتاب visually tight (non-joining ر); layer shows a space. Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": [
+        "المسافة بعد الراء في «المفسر عند» و«لتفسير كتاب» غير متمايزة بصريًا بعد حرف لا يتصل؛ اعتمدت المسافة المعيارية بين الكلمتين."
+      ]
+    },
+    {
+      "id": 4,
+      "course_code": "2004258-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf",
+      "source_sha256": "6efe2ca3ee1ac66488a79cbf901ac812bdd09594f58e6bb7f19dafbcfd040801",
+      "source_page": "[4]",
+      "clo_code": "2.1",
+      "clo_index": 3,
+      "text_before": "والدروس أحداث السهرة النبوية. الدفاع عن شخصية الرسول صلى الله عليه وسلم فى مواجبة الشبه المعاصرة.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "استنباط الفوائد والعبر والدروس أحداث السيرة النبوية.",
+      "previous_state": "نص مقتطع أو مدموج أو مكرر في JSON",
+      "excluded_layout_markers": [],
+      "readings": {
+        "prior_package_reading": "استنباط الفوائد والعبر والدروس من أحداث السيرة النبوية.",
+        "blind_image_reading": "استنباط الفوائد والعبر والدروس أحداث السيرة النبوية.",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "No \"من\" before أحداث as printed. Layer suggests possible space \"و العبر\"; image reads والعبر (low-confidence spacing only). Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": []
+    },
+    {
+      "id": 5,
+      "course_code": "2004258-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf",
+      "source_sha256": "6efe2ca3ee1ac66488a79cbf901ac812bdd09594f58e6bb7f19dafbcfd040801",
+      "source_page": "[4]",
+      "clo_code": "2.2",
+      "clo_index": -1,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "not_applied",
+      "reading": "الدفاع عن شخصية الرسول صلى الله عليه وسلم في مواجهة الشبه المعاصرة.",
+      "note": "Row exists in PDF (clo_index -1). Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "orchestrator_finding": "صف CLO 2.2 موجود مستقلًا في PDF وغائب من صفوف JSON، وجزء منه مدموج سابقًا في 2.1. لم يُضف صف جديد لأن إلحاق CLO يغيّر عدد صفوف القياس ولا يدعمه عقد الاختبار الحالي؛ يبقى بندًا معلقًا لقرار بشري."
+    },
+    {
+      "id": 6,
+      "course_code": "2003215-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2003215-2--36892394ce.pdf",
+      "source_sha256": "c6a671d9f8e9907167caeabf956c8c45c5b4f03e9a1878f6ef8b76bafeb6b605",
+      "source_page": "[5, 6]",
+      "clo_code": "3.2",
+      "clo_index": 5,
+      "text_before": "ان يكتسب الطالب القدرة على التفاعل مع التشرٌعات الوطنٌة وبنود الاتفاقيات الدولية وأحكام الشريعة الإسلامية المتعلقة بحماية حقوق",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يكتسب الطالب القدرة على التفاعل مع التشريعات الوطنية وبنود الاتفاقيات الدولية وأحكام الشريعة الإسلامية المتعلقة بحماية حقوق الإنسان وتفسيرها تفسيرا سليما لاستنباط الأحكام منها.",
+      "previous_state": "نص مقتطع أو مدموج أو مكرر في JSON",
+      "excluded_layout_markers": [
+        "-"
+      ],
+      "readings": {
+        "prior_package_reading": "أن يكتسب الطالب القدرة على التفاعل مع التشريعات الوطنية وبنود الاتفاقيات الدولية وأحكام الشريعة الإسلامية المتعلقة بحماية حقوق الإنسان وتفسيرها تفسيرا سليما لاستنباط الأحكام منها.",
+        "blind_image_reading": "- أن يكتسب الطالب القدرة على التفاعل مع التشريعات الوطنية وبنود الاتفاقيات الدولية وأحكام الشريعة الإسلامية المتعلقة بحماية حقوق الإنسان وتفسيرها تفسيرا سليما لاستنباط الأحكام منها.",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Code 3.2 is printed under the المهارات heading (2.0) on p5, row continues to top of p6. A second 3.2 exists under القيم on p6 (see id 7). Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": [
+        "استُبعدت علامة التخطيط المطبوعة في الخلية (-) لأنها رمز ربط أو تعداد بخط مختلف وليست جزءًا من عبارة المخرج."
+      ]
+    },
+    {
+      "id": 7,
+      "course_code": "2003215-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2003215-2--36892394ce.pdf",
+      "source_sha256": "c6a671d9f8e9907167caeabf956c8c45c5b4f03e9a1878f6ef8b76bafeb6b605",
+      "source_page": "[6]",
+      "clo_code": "3.2",
+      "clo_index": -1,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "not_applied",
+      "reading": "- أن يساهم الطالب بشكل فعال كعضو أو كقائد في العمل الجماعي ويتحمل المسؤولية المسندة إليه من خلاله.",
+      "note": "Second occurrence of 3.2 (values section); missing from JSON. Layer shows \"فعالً\" but no tanween visible in image. Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "orchestrator_finding": "قيمة 3.2 المطبوعة في قسم القيم ص6 غائبة من JSON، ورمزها يكرر رمز صف المهارات 3.2؛ إلحاقها يولد رمزًا مكررًا يرفضه قارئ الأتمتة، وتصحيح الرمز محظور. بند معلق لقرار بشري."
+    },
+    {
+      "id": 8,
+      "course_code": "103349-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/103349-2--c415381484.pdf",
+      "source_sha256": "c8a03c4973bfa07c8d4ffa0f385918a2d3fc7efc4e7eb5dd7ab0c965c09b230b",
+      "source_page": "[4]",
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "text_before": "من عناصر المحتوى المعرفيّة السابقة.",
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يكوِّن الطالب جملًا صحيحة مكوّنة من عناصر المحتوى المعرفيّة السابقة.",
+      "previous_state": "نص مقتطع أو مدموج أو مكرر في JSON",
+      "excluded_layout_markers": [],
+      "readings": {
+        "prior_package_reading": "أن يكون الطالب جملا صحيحة مكوّنة من عناصر المحتوى المعرفية السابقة.",
+        "blind_image_reading": "أن يكوِّن الطالب جملًا صحيحة مكوّنة من عناصر المحتوى المعرفيّة السابقة.",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Diacritics printed: shadda+kasra on و of يكوِّن; tanween fath over لا of جملًا; shadda in مكوّنة and المعرفيّة. Layer has doubled shadda in يكوِّن, tanween after م, \"امل\" ligature artifacts and stray trailing \"مم\".",
+      "transfer_notes": []
+    },
+    {
+      "id": 9,
+      "course_code": "2001373-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf",
+      "source_sha256": "bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d",
+      "source_page": "[5]",
+      "clo_code": "2.3",
+      "clo_index": 5,
+      "text_before": null,
+      "cell_status": "blank",
+      "decision": "keep_blank",
+      "note": "Code printed with comma \"2,3\"; CLO cell empty in image and text layer."
+    },
+    {
+      "id": 10,
+      "course_code": "2001373-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf",
+      "source_sha256": "bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d",
+      "source_page": "[5]",
+      "clo_code": "3.3",
+      "clo_index": 8,
+      "text_before": null,
+      "cell_status": "blank",
+      "decision": "keep_blank",
+      "note": "Code printed \"3,3\"; CLO cell empty in image and text layer."
+    },
+    {
+      "id": 11,
+      "course_code": "2001474-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf",
+      "source_sha256": "8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53",
+      "source_page": "[4]",
+      "clo_code": "2.3",
+      "clo_index": 5,
+      "text_before": null,
+      "cell_status": "blank",
+      "decision": "keep_blank",
+      "note": "Code printed \"2,3\"; CLO cell empty (layer has only whitespace)."
+    },
+    {
+      "id": 12,
+      "course_code": "2001474-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf",
+      "source_sha256": "8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53",
+      "source_page": "[5]",
+      "clo_code": "3.3",
+      "clo_index": 8,
+      "text_before": null,
+      "cell_status": "blank",
+      "decision": "keep_blank",
+      "note": "Code printed \"3,3\"; CLO cell empty."
+    },
+    {
+      "id": 13,
+      "course_code": "2002110-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002110-2--c42081827a.pdf",
+      "source_sha256": "aefb96cb5e5251231b257143f68cbb21c348d6250fa14d095b014a70edfa2d95",
+      "source_page": "[4]",
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يعرف الطَّالب أنواع القراءات وأركانها ومصطلحاتها، ومفهوم الأحرف السَّبعة،",
+      "previous_state": "نص فارغ في JSON مع حالة unreadable",
+      "excluded_layout_markers": [],
+      "readings": {
+        "prior_package_reading": "أن يعرف الطالب أنواع القراءات وأركانها ومصطلحاتها، ومفهوم الأحرف السبعة.",
+        "blind_image_reading": "أن يعرف الطَّالب أنواع القراءات وأركانها ومصطلحاتها، ومفهوم الأحرف السَّبعة،",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Ends with Arabic comma, no full stop. Shadda+fatha on ط and on س. Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": []
+    },
+    {
+      "id": 14,
+      "course_code": "2002250-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002250-2--9159a193ac.pdf",
+      "source_sha256": "d30cb41edf0e24b237db28a5f5a4179989eed9d285e00ff46e88799f90eb781c",
+      "source_page": "[5]",
+      "clo_code": "3.2",
+      "clo_index": 5,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يعلل الطَّالب أسباب استعمال قواعد الترجيح المحددة لدى المفسرين في حالات الخلاف بينهم.",
+      "previous_state": "نص فارغ في JSON مع حالة unreadable",
+      "excluded_layout_markers": [],
+      "readings": {
+        "prior_package_reading": "أن يعلل الطالب أسباب استعمال قواعد الترجيح المحددة لدى المفسرين في حالات الخلاف بينهم.",
+        "blind_image_reading": "أن يعلل الطَّالب أسباب استعمال قواعد الترجيح المحددة لدى المفسرين في حالات الخلاف بينهم.",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Shadda+fatha on ط. Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": []
+    },
+    {
+      "id": 15,
+      "course_code": "2002412-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002412-2--d6190d3290.pdf",
+      "source_sha256": "955e9b9d1b91733f1672df913a69a6ac3b515179826b2e78d8d604b670c7d791",
+      "source_page": "[5]",
+      "clo_code": "3.3",
+      "clo_index": 7,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يُساهم الطَّالب في إثراء المكتبة الإسلاميَّة بابحاث علمية قيمة.",
+      "previous_state": "نص فارغ في JSON مع حالة unreadable",
+      "excluded_layout_markers": [],
+      "readings": {
+        "prior_package_reading": "أن يساهم الطالب في إثراء المكتبة الإسلامية بأبحاث علمية قيمة.",
+        "blind_image_reading": "أن يُساهم الطَّالب في إثراء المكتبة الإسلاميَّة بابحاث علمية قيمة.",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "\"بابحاث\" printed with bare alef (no hamza), confirmed at 1200 dpi; layer renders this glyph as \"ب.بحاث\" (unexplained). Damma on ي of يُساهم. Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": []
+    },
+    {
+      "id": 16,
+      "course_code": "2002454-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002454-2--9a1f2d1042.pdf",
+      "source_sha256": "5c4a6266098f6b48f22faefecd491425352559765a6255914c1b9e25a92417c9",
+      "source_page": "[5]",
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يقيّم الطالب الدراسات الموضوعية في التفسير من حيث المنهجية والدقة العلمية.",
+      "previous_state": "نص فارغ في JSON مع حالة unreadable",
+      "excluded_layout_markers": [],
+      "readings": {
+        "prior_package_reading": "أن يقيم الطالب الدراسات الموضوعية في التفسير من حيث المنهجية والدقة العلمية.",
+        "blind_image_reading": "أن يقيّم الطالب الدراسات الموضوعية في التفسير من حيث المنهجية والدقة العلمية.",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Shadda on ي of يقيّم. Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": []
+    },
+    {
+      "id": 17,
+      "course_code": "2002456-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--3b6c8f3dc2.pdf",
+      "source_sha256": "b1935f12576c22a1119e54fc280173bc8d4a2b3c19e6b7693aab453735f550ec",
+      "source_page": "[4, 5]",
+      "clo_code": "2.1",
+      "clo_index": 3,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "not_applied",
+      "reading": "أن يحلل الطالب وجوه الإعجاز في نماذج من الآيات القرآنية.",
+      "note": "INFERENCE: on p4 the 2.1 row (PLO col \"م٣\") has an empty CLO cell; the text is in an un-coded row at top of p5 with identical grey fill in all columns, i.e. the 2.1 row split across the page break. If judged per-page, the p4 cell is blank. Layer on p5 reads \"افعجاز ي\".",
+      "orchestrator_finding": "خلية 2.1 في ص4 فارغة؛ يوجد صف بلا رمز أعلى ص5 بالتظليل نفسه نصه «أن يحلل الطالب وجوه الإعجاز في نماذج من الآيات القرآنية.». نسبته إلى 2.1 استنتاج من التخطيط لا من رمز مطبوع، فلم يُنقل ويبقى الربط غير محسوم حتى تأكيد بشري."
+    },
+    {
+      "id": 18,
+      "course_code": "2004111-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf",
+      "source_sha256": "2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d",
+      "source_page": "[4]",
+      "clo_code": "3.2",
+      "clo_index": 5,
+      "text_before": "أن يعمل الطالب بفاعلية ضمن فريق لإعداد عرض موثق حول قضية ثقافية معاصرة.",
+      "cell_status": "blank",
+      "decision": "keep_blank",
+      "note": "Cell contains only a lone full stop \".\" (also in layer); no CLO text.",
+      "orchestrator_finding": "الخلية في PDF لا تحوي إلا نقطة. النص الفعال الحالي إكمال تحليلي سابق موثق بسياسة verified_reference_correction_pending_source_pdf_update وليس نصًا من PDF؛ لم تغيّره هذه الدفعة."
+    },
+    {
+      "id": 19,
+      "course_code": "20042107-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/20042107-2--6d6b769825.pdf",
+      "source_sha256": "503c38b6a1c1470ca991976a05ace01b0b18eef569eb7ffdb28310e094e7b9f4",
+      "source_page": "[5]",
+      "clo_code": "2.3",
+      "clo_index": 5,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يستخدم الطالب البرامج والموسوعات الحديثية في البحث عن الأحاديث وأسانيدها.",
+      "previous_state": "نص فارغ في JSON مع حالة unreadable",
+      "excluded_layout_markers": [],
+      "readings": {
+        "prior_package_reading": "أن يستخدم الطالب البرامج والموسوعات الحديثية في البحث عن الأحاديث وأسانيدها.",
+        "blind_image_reading": "أن يستخدم الطالب البرامج والموسوعات الحديثية في البحث عن الأحاديث وأسانيدها.",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": []
+    },
+    {
+      "id": 20,
+      "course_code": "2004373-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf",
+      "source_sha256": "b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03",
+      "source_page": "[5]",
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "text_before": null,
+      "cell_status": "blank",
+      "decision": "keep_blank",
+      "note": "CLO cell empty; next row shows \"...\" placeholder code."
+    },
+    {
+      "id": 21,
+      "course_code": "2004474-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf",
+      "source_sha256": "99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e",
+      "source_page": "[4]",
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "text_before": null,
+      "cell_status": "blank",
+      "decision": "keep_blank",
+      "note": "CLO cell empty; next row shows \"...\" placeholder code."
+    },
+    {
+      "id": 22,
+      "course_code": "6602322-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/6602322-2--b6c6c5fe76.pdf",
+      "source_sha256": "2c13fe2152ece589173572f76c3959be76410ff5bba752483a97b5b9848b227f",
+      "source_page": "[5]",
+      "clo_code": "2.2",
+      "clo_index": 4,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يطبق الطالب أسلوب التجارة الالكترونية من خلال السوق الالكتروني",
+      "previous_state": "نص فارغ في JSON مع حالة unreadable",
+      "excluded_layout_markers": [
+        "م٢"
+      ],
+      "readings": {
+        "prior_package_reading": "أن يطبق الطالب أسلوب التجارة الالكترونية من خلال السوق الالكتروني",
+        "blind_image_reading": "م٢أن يطبق الطالب أسلوب التجارة الالكترونية من خلال السوق الالكتروني",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Prefix \"م٢\" printed in cell; no final full stop. Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": [
+        "استُبعدت علامة التخطيط المطبوعة في الخلية (م٢) لأنها رمز ربط أو تعداد بخط مختلف وليست جزءًا من عبارة المخرج."
+      ]
+    },
+    {
+      "id": 23,
+      "course_code": "6602322-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/6602322-2--b6c6c5fe76.pdf",
+      "source_sha256": "2c13fe2152ece589173572f76c3959be76410ff5bba752483a97b5b9848b227f",
+      "source_page": "[5]",
+      "clo_code": "3.1",
+      "clo_index": 5,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يتحرى الطالب الصدق والأمانة في تعامله مع الاخرين من خلال أنشطة التجارة الالكترونية.",
+      "previous_state": "نص فارغ في JSON مع حالة unreadable",
+      "excluded_layout_markers": [
+        "ق١"
+      ],
+      "readings": {
+        "prior_package_reading": "أن يتحرى الطالب الصدق والأمانة في تعامله مع الاخرين من خلال أنشطة التجارة الالكترونية.",
+        "blind_image_reading": "ق١أن يتحرى الطالب الصدق والأمانة في تعامله مع الاخرين من خلال أنشطة التجارة الالكترونية.",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Prefix \"ق١\" printed in cell; \"الاخرين\" without madda. Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": [
+        "استُبعدت علامة التخطيط المطبوعة في الخلية (ق١) لأنها رمز ربط أو تعداد بخط مختلف وليست جزءًا من عبارة المخرج."
+      ]
+    },
+    {
+      "id": 24,
+      "course_code": "990113-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990113-2--74025fe683.pdf",
+      "source_sha256": "fc695a78bf93e4b90167744a60544f0adf556bd6b110cca05d5814364e9bffe8",
+      "source_page": "[4, 5]",
+      "clo_code": "2.2",
+      "clo_index": 3,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "يصنف الطالب المستويات المختلفة للوقاية من الأمراض وانواع المناعة ودورها في مقاومة الامراض.",
+      "previous_state": "نص فارغ في JSON مع حالة unreadable",
+      "excluded_layout_markers": [],
+      "readings": {
+        "prior_package_reading": "يصنف الطالب المستويات المختلفة للوقاية من الأمراض وأنواع المناعة ودورها في مقاومة الأمراض.",
+        "blind_image_reading": "يصنف الطالب المستويات المختلفة للوقاية من الأمراض وانواع المناعة ودورها في مقاومة الامراض.",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Two tables. p4 table \"٣. مخرجات التعلم للمقرر\" (transcribed). p5 table \"ربط مخرجات التعلم...\" differs: \"من الامراض\" (no hamza): \"يصنف الطالب المستويات المختلفة للوقاية من الامراض وانواع المناعة ودورها في مقاومة الامراض.\" Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": [
+        "نُقل نص جدول ص4 «مخرجات التعلم للمقرر»؛ جدول الربط في ص5 يكتب «الامراض» دون همزة في الموضع الأول."
+      ]
+    },
+    {
+      "id": 25,
+      "course_code": "990113-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990113-2--74025fe683.pdf",
+      "source_sha256": "fc695a78bf93e4b90167744a60544f0adf556bd6b110cca05d5814364e9bffe8",
+      "source_page": "[4, 5]",
+      "clo_code": "3.1",
+      "clo_index": 5,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "يتعاون الطلاب في مجموعات لعمل عروض تقديمية للمشاكل الصحية المختلفة والعادات الصحية السيئة في المجتمع",
+      "previous_state": "نص فارغ في JSON مع حالة unreadable",
+      "excluded_layout_markers": [],
+      "readings": {
+        "prior_package_reading": "يتعاون الطلاب في مجموعات لعمل عروض تقديمية للمشاكل الصحية المختلفة والعادات الصحية السيئة في المجتمع",
+        "blind_image_reading": "يتعاون الطلاب في مجموعات لعمل عروض تقديمية للمشاكل الصحية المختلفة والعادات الصحية السيئة في المجتمع",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Section heading printed \"الكفاءات\" (values domain, older template). Identical text in p4 and p5 tables; no final full stop. Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": []
+    },
+    {
+      "id": 26,
+      "course_code": "990311-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990311-2--4ecc998b5f.pdf",
+      "source_sha256": "cb9b0868cd13b7fc9879b8d1a22659ad36f4c41e0a4691256fb050cd97286f84",
+      "source_page": "[4, 5]",
+      "clo_code": "1.1",
+      "clo_index": 0,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يناقش الطالب طرق الاستفادة من المهارات الأكاديمية في الدراسة الجامعية.",
+      "previous_state": "نص فارغ في JSON مع حالة unreadable",
+      "excluded_layout_markers": [],
+      "readings": {
+        "prior_package_reading": "أن يناقش الطالب طرق الاستفادة من المهارات الأكاديمية في الدراسة الجامعية.",
+        "blind_image_reading": "أن يناقش الطالب طرق الاستفادة من المهارات الأكاديمية في الدراسة الجامعية.",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Heading \"المعارف\". Identical in p4 and p5 tables. Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": []
+    },
+    {
+      "id": 27,
+      "course_code": "990311-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990311-2--4ecc998b5f.pdf",
+      "source_sha256": "cb9b0868cd13b7fc9879b8d1a22659ad36f4c41e0a4691256fb050cd97286f84",
+      "source_page": "[4, 5]",
+      "clo_code": "2.1",
+      "clo_index": 1,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يستخدم الطالب المهارات الأكاديمية الفعالة للنجاح في الحياة الجامعية.",
+      "previous_state": "نص فارغ في JSON مع حالة unreadable",
+      "excluded_layout_markers": [],
+      "readings": {
+        "prior_package_reading": "أن يستخدم الطالب المهارات الأكاديمية الفعالة للنجاح في الحياة الجامعية.",
+        "blind_image_reading": "أن يستخدم الطالب المهارات الأكاديمية الفعالة للنجاح في الحياة الجامعية.",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Identical in p4 and p5 tables. Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": []
+    },
+    {
+      "id": 28,
+      "course_code": "990311-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990311-2--4ecc998b5f.pdf",
+      "source_sha256": "cb9b0868cd13b7fc9879b8d1a22659ad36f4c41e0a4691256fb050cd97286f84",
+      "source_page": "[4, 5]",
+      "clo_code": "2.2",
+      "clo_index": 2,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يطور الطالب سماته وفقا لسمات خريجي جامعة الطائف. TUGA",
+      "previous_state": "نص فارغ في JSON مع حالة unreadable",
+      "excluded_layout_markers": [],
+      "readings": {
+        "prior_package_reading": "أن يطور الطالب سماته وفقا لسمات خريجي جامعة الطائف. TUGA",
+        "blind_image_reading": "أن يطور الطالب سماته وفقا لسمات خريجي جامعة الطائف. TUGA",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Latin \"TUGA\" printed after the full stop (visually at line end-left). Identical in both tables. Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": []
+    },
+    {
+      "id": 29,
+      "course_code": "990311-2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990311-2--4ecc998b5f.pdf",
+      "source_sha256": "cb9b0868cd13b7fc9879b8d1a22659ad36f4c41e0a4691256fb050cd97286f84",
+      "source_page": "[4, 5]",
+      "clo_code": "3.1",
+      "clo_index": 3,
+      "text_before": null,
+      "cell_status": "text",
+      "decision": "complete_verbatim",
+      "text_verbatim": "أن يتعاون الطالب مع زملائه في تقديم عرض يوضح استفادتهم من مقرر المهارات الجامعية.",
+      "previous_state": "نص فارغ في JSON مع حالة unreadable",
+      "excluded_layout_markers": [],
+      "readings": {
+        "prior_package_reading": "أن يتعاون الطالب مع زملائه في تقديم عرض يوضح استفادتهم من مقرر المهارات الجامعية.",
+        "blind_image_reading": "أن يتعاون الطالب مع زملائه في تقديم عرض يوضح استفادتهم من مقرر المهارات الجامعية.",
+        "orchestrator_visual_check": "confirmed against rendered page image"
+      },
+      "note": "Identical in p4 and p5 tables. Text layer is glyph-garbled (kashida/ligature/ToUnicode artifacts); letter skeleton otherwise consistent with image.",
+      "transfer_notes": []
+    }
+  ],
+  "judgment_only_readings": {
+    "policy": "قراءات لصفوف مقتطعة أو مدموجة خارج قائمة المهمة، استُعملت للحكم على الربط فقط ولم يُغيَّر بها نص JSON؛ تصحيحها نصيًا متابعة مستقلة.",
+    "records": [
+      {
+        "course_code": "2004258-2",
+        "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf",
+        "source_sha256": "6efe2ca3ee1ac66488a79cbf901ac812bdd09594f58e6bb7f19dafbcfd040801",
+        "clo_code": "1.2",
+        "clo_index": 1,
+        "page": [
+          4
+        ],
+        "cell_status": "text",
+        "reading": "استعراض المواقف النبوية.",
+        "note": "Code printed as Arabic-Indic '١,٢' (comma separator). No prefix/bullet. Image shows a wider gap inside 'المو اقف' (font rendering of و+ا, same in the template header 'نو اتج'); text layer has no space ('املواقف'), so transcribed as one word. SHA ok. No repeated CLO table (pp.5,8 checked; p8 is facilities/quality/approval)."
+      },
+      {
+        "course_code": "990415-2",
+        "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf",
+        "source_sha256": "e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc",
+        "clo_code": "1.2",
+        "clo_index": 1,
+        "page": [
+          4
+        ],
+        "cell_status": "text",
+        "reading": "يشرح أحكام النون الساكنة والتنوين والميم الساكنة وأنواع المدود.",
+        "note": "Code printed '1.2' (Western digits). No prefix/bullet. Line break after 'والتنوين'. SHA ok. No repeated CLO table (p6 checked)."
+      },
+      {
+        "course_code": "990113-2",
+        "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990113-2--74025fe683.pdf",
+        "source_sha256": "fc695a78bf93e4b90167744a60544f0adf556bd6b110cca05d5814364e9bffe8",
+        "clo_code": "3.3",
+        "clo_index": 7,
+        "page": [
+          4,
+          5
+        ],
+        "cell_status": "text",
+        "reading": "يخطط الطالب لبرنامج تغذية صحية سليمة يشمل الوقاية من أمراض سوء التغذية والسمنة",
+        "note": "Primary text is from p4 table (a), no final period. Repeated table (b) on p5 row 3.3 DIFFERS: 'يخطط الطالب لبرنامج تغذيه صحية سليمة يشمل الوقاية أمراض سوء التغذية والسمنة.' (تغذيه with ه, no 'من', final period). Code printed '3.3'. No prefix/bullet. SHA ok."
+      },
+      {
+        "course_code": "103281-2",
+        "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/103281-2--7f1c8633ae.pdf",
+        "source_sha256": "e5ef5d40a852f2b29c59024f41dd71d0338d0556e34134108805b1e004c222f7",
+        "clo_code": "2.4",
+        "clo_index": 7,
+        "page": [
+          5
+        ],
+        "cell_status": "text",
+        "reading": "أن يفرّق الطالب بين النكرة والمعرفة.",
+        "note": "Shadda on ر in 'يفرّق' as printed. Code '2.4'. No prefix/bullet. Kashida stretching in 'يـفـرّق الـطـالـب بـين' not transcribed (justification). SHA ok. No repeated CLO table."
+      },
+      {
+        "course_code": "103281-2",
+        "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/103281-2--7f1c8633ae.pdf",
+        "source_sha256": "e5ef5d40a852f2b29c59024f41dd71d0338d0556e34134108805b1e004c222f7",
+        "clo_code": "3.4",
+        "clo_index": 11,
+        "page": [
+          5
+        ],
+        "cell_status": "text",
+        "reading": "أن يتفاعل بصورة إيجابية أثناء إلقاء ورقة العمل.",
+        "note": "Code '3.4'. No prefix/bullet. No subject 'الطالب' printed. SHA ok."
+      },
+      {
+        "course_code": "103349-2",
+        "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/103349-2--c415381484.pdf",
+        "source_sha256": "c8a03c4973bfa07c8d4ffa0f385918a2d3fc7efc4e7eb5dd7ab0c965c09b230b",
+        "clo_code": "1.1",
+        "clo_index": 0,
+        "page": [
+          4
+        ],
+        "cell_status": "text",
+        "reading": "أن يكوِّن الطالب جملًا صحيحة مكوّنة من عناصر المحتوى المعرفيّة السابقة.",
+        "note": "Printed diacritics: shadda+kasra on و in 'يكوِّن', tanween fath 'جملًا', shadda in 'مكوّنة' and 'المعرفيّة'. Text layer encodes 'يكوِّّن' (doubled shadda) but visually one shadda+kasra. Code '1.1'. No prefix/bullet. SHA ok. No repeated CLO table (pp.6,8 checked)."
+      },
+      {
+        "course_code": "2001101-2",
+        "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--6acb2da09b.pdf",
+        "source_sha256": "2d11736ec5abb476e3bbb7d8a6791f970d75f8355e938b7755c2972247b26a5a",
+        "clo_code": "2.2",
+        "clo_index": 4,
+        "page": [
+          5
+        ],
+        "cell_status": "text",
+        "reading": "تطبيق القواعد التي درسها على الأحاديث النبوية.",
+        "note": "Code '2.2'. No prefix/bullet. SHA ok. No repeated CLO table (p10 checked)."
+      },
+      {
+        "course_code": "2004474-2",
+        "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf",
+        "source_sha256": "99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e",
+        "clo_code": "1.2",
+        "clo_index": 1,
+        "page": [
+          4
+        ],
+        "cell_status": "text",
+        "reading": "تلخيص ردود السلف على شبهات المخالفين في مرتكب الكبيرة في الدنيا والآخرة .",
+        "note": "Space before final period as printed. Code '1.2'. No prefix/bullet. SHA ok. No repeated CLO table (p8 checked)."
+      },
+      {
+        "course_code": "2004474-2",
+        "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf",
+        "source_sha256": "99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e",
+        "clo_code": "1.3",
+        "clo_index": 2,
+        "page": [
+          4
+        ],
+        "cell_status": "text",
+        "reading": "التدليل على مراتب القضاء والقدر عند سلف الأمة .",
+        "note": "Space before final period as printed. Code '1.3'. No prefix/bullet. SHA ok."
+      },
+      {
+        "course_code": "990415-2",
+        "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf",
+        "source_sha256": "e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc",
+        "clo_code": "2.1",
+        "clo_index": 2,
+        "page": [
+          4
+        ],
+        "cell_status": "text",
+        "reading": "يطبّق الطالب أحكام التجويد عمليًا أثناء التلاوة.",
+        "note": "Shadda on ب in 'يطبّق'; tanween fath in 'عمليًا' (no shadda). Code '2.1'. No prefix/bullet. SHA ok."
+      }
+    ]
+  }
+}

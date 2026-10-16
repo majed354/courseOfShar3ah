@@ -56,5 +56,48 @@
   "publication_data_commit": {
     "status": "passed",
     "sha256_matched_files": 27
+  },
+  "followup_2026_10_16": {
+    "schema_verifier": "passed",
+    "python_tests": {
+      "status": "passed",
+      "count": 189,
+      "log_sha256": "1b3a86fe4b1b53d096cb0f85bd876c7006a33e040615ffe6d58e197fdf0cef26"
+    },
+    "javascript_tests": {
+      "status": "passed",
+      "count": 13
+    },
+    "git_diff_check": "passed",
+    "pdf_bytes": {
+      "status": "passed",
+      "checked_count": 641,
+      "changed_count": 0
+    },
+    "automation_consumer": {
+      "status": "passed",
+      "reader": "course_outcomes_store.py (read-only, scratch copy of course-outcomes.json)",
+      "clo_mappings_checked": 1590,
+      "mappings_matching_decision_from_authorized_revision": 1590,
+      "text_rows_differing_only_in_diacritic_codepoint_order": 3,
+      "external_writes": false
+    },
+    "text_completions": {
+      "records": 19,
+      "variant_rows": 64
+    },
+    "adversarial_review": {
+      "reviewed_units": 435,
+      "findings": 29,
+      "blocking": 2,
+      "no_statable_relation": 0,
+      "unresolved_but_linkable": 0,
+      "resolution": "عولجت الملاحظات التسع والعشرون: إعادة صياغة التعليل وتصحيح الاقتباس، ومواءمة الخطتين المتطابقتين في وحدتين، وتعديل النوع في ثلاث وحدات، وخفض الثقة في وحدة قصيرة النص؛ وأصلحت المسافات في التعليلات الموروثة دون تغيير الرمز أو النوع أو الثقة.",
+      "spacing_fixed_units": 66
+    },
+    "independent_verifier": {
+      "status": "PASS_WITH_NOTES",
+      "notes_resolved": "أصلحت مسافات «في ال…» في التعليلات بعد الملاحظة؛ بقيت ملاحظات خارج النطاق مسجلة متابعةً."
+    }
   }
 }

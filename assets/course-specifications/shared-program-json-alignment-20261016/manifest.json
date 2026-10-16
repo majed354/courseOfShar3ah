@@ -1,6 +1,6 @@
 {
   "schema_version": "shared-program-json-alignment-v1",
-  "status": "published_data_verified",
+  "status": "followup_applied_pending_publication",
   "authored_at": "2026-10-16T16:32:22+03:00",
   "authority": {
     "user_requested_program_specific_json_variants": true,
@@ -82,7 +82,8 @@
     "لكل CLO مرتبط رمز PLO واحد؛ الدعم التأسيسي يميز عن التطابق المباشر.",
     "إذا كانت خلية CLO فارغة أو غاب PLO مناسب تبقى[]بقرار صريح موثق، ولا تخمن قيمة لسد الفراغ.",
     "النواتج الرسمية للبرامج نفسها لم تتغير، ولا تصدر هذه الحزمة حكمًا بتحقق PLO أو اكتمال قياسها.",
-    "المراجع وأدوات المراجعة التاريخية تحفظ وتختبر في سياقها السابق؛ إعادة تشغيلها فوق التخصيص الجديد قد تمحو الروابط دون حماية."
+    "المراجع وأدوات المراجعة التاريخية تحفظ وتختبر في سياقها السابق؛ إعادة تشغيلها فوق التخصيص الجديد قد تمحو الروابط دون حماية.",
+    "مراجعة المتابعة 2026-10-16: معيار مرن بتوجيه المستخدم يقبل الربط المعلل غير المباشر بوصفه دعمًا مساندًا، مع إبقاء الفراغ حيث لا علاقة قابلة للتعليل أو حيث خلية CLO فارغة، ونقل حرفي فقط لنصوص CLO من PDF المطابق للبصمة."
   ],
   "summary": {
     "target_course_identities": 54,
@@ -90,12 +91,12 @@
     "after_target_program_variants": 172,
     "program_plan_units": 209,
     "effective_clo_scope_rows": 1590,
-    "mapped_clo_scope_rows": 1420,
-    "unresolved_clo_scope_rows": 170,
+    "mapped_clo_scope_rows": 1570,
+    "unresolved_clo_scope_rows": 20,
     "alignment_type_counts": {
-      "direct": 797,
-      "supporting_transfer": 622,
-      "unresolved": 170,
+      "direct": 974,
+      "supporting_transfer": 595,
+      "unresolved": 20,
       "preserved_existing": 1
     },
     "human_rights_program_variants": 5,
@@ -111,18 +112,20 @@
     }
   },
   "reference_files": {
-    "remaining-alignment-gaps.json": "82d2f69f74cd08c1408d14c35c3d4bf520c51fb1454ffa4f9a4ffe90dc1a9643",
+    "remaining-alignment-gaps.json": "b4070e88244f10c2cb6b647ae464a2bfddf3bce655f5c646df24c7343f40c8cd",
     "unchanged-pdf-hashes.json": "c0185dec3bb9309d0843636b37b9772b2e8db23d3d35904b67e8206e7885e32b",
     "variant-lineage.json": "7b9b6a723748ff9b4f080365a89829cbe56965f475454e1dbecddf6231964369",
-    "validation.json": "ff83ff0c107fd2f80e79349a9d556295d55432ff9f74bc8c4af9b9ee41f9fd52",
+    "validation.json": "10ec8ddaad9607d6d4a4afcb808390eb6813c2cb4f2a0256d59002b1b9759398",
     "source-reading-evidence.json": "6b3400c980a78b60bbe01fa857876ed7183458be4ab62a3fccdd54c76cbb3e80",
     "root-review-dispositions.json": "afab59b32dc6d76cb144bd3ae4454ea319b234f8e33ef6974748b41686bf77aa",
     "previous-context.json": "2f2c747f51f67cefde81ee60f11fde5db4e61690dcceac3dd25ea4a879786589",
     "deployment-verification.json": "f8f1d89a9a7a53780483574c332e4816782b1f4183eb577470522ab222582fd0",
     "peer-reviews.json": "1e4cc896efa62e5369171c804796e472662621034aaa83f211f0c08f56aa8969",
-    "alignment-decisions.json": "581e1c7b06de1af5d6ade43c67c1789d8ba01170a72282c4379f0c44ce2350d7",
+    "alignment-decisions.json": "58864e33d4555a5daf817fcd72431ada38a45a578799922bffee227a7c920013",
     "legacy-replay-limitations.json": "63fc95a9f65b963ed3fba84157bfd9f4b66b02e0cfb099fc056fb5b83ecc0a51",
-    "program-plo-reference.json": "945eef1507a1c929035cbff29df8760d574b01ea333a1707dcac768f4122430c"
+    "program-plo-reference.json": "945eef1507a1c929035cbff29df8760d574b01ea333a1707dcac768f4122430c",
+    "followup-review-decisions.json": "73e5e341a6e75792d0ea94645506b7bec09721b460e3a1cadc924baf8f9d8bf3",
+    "clo-text-completions.json": "35ebc0b310edec77356fdd1417b9984339d280197cea94a170f3aac5b0bfab6c"
   },
   "validation": {
     "baseline_verifier": "passed",
@@ -134,7 +137,8 @@
     "python_tests": 189,
     "javascript_tests": 13,
     "automation_clo_mappings_checked": 1590,
-    "tracked_pdf_hashes_checked": 641
+    "tracked_pdf_hashes_checked": 641,
+    "followup_checks": "passed"
   },
   "publication": {
     "status": "verified",
@@ -148,15 +152,35 @@
     "audit_receipt": "deployment-verification.json"
   },
   "remaining_alignment_gaps": {
-    "total_unresolved_clo_scope_rows": 170,
+    "total_unresolved_clo_scope_rows": 20,
     "blank_source_clo_scope_rows": 15,
-    "no_suitable_plo_clo_scope_rows": 155,
+    "no_suitable_plo_clo_scope_rows": 5,
     "by_program": {
-      "الشريعة": 85,
-      "القرآن وعلومه": 34,
-      "القراءات": 20,
-      "الأنظمة": 20,
-      "الدراسات الإسلامية": 11
+      "القراءات": 7,
+      "القرآن وعلومه": 6,
+      "الأنظمة": 5,
+      "الشريعة": 2
+    }
+  },
+  "followup_review": {
+    "reviewed_at": "2026-10-16",
+    "standard": "معيار المراجعة: RUBRIC مع تعديل المستخدم في 2026-10-16 «كن مرنا في بعض الربط، حتى وإن لم يكن قريبا جدا»؛ يقبل الربط المعلل ولو كان غير مباشر بوصفه دعمًا تأسيسيًا/مساندًا، ويبقى الفراغ حيث لا علاقة قابلة للتعليل أو حيث خلية CLO فارغة.",
+    "process": [
+      "مراجع أول لكل برنامج (6 مراجعين) على 730 وحدة بالمعيار الصارم الأصلي.",
+      "محقق أعمى مستقل لكل تغيير مقترح مع وحدات ضبط، بعد تعديل المرونة؛ يقبل التغيير عند اتفاق المراجع والمحقق على الرمز.",
+      "مراجعتان عمياوان مستقلتان بالمعيار المرن للوحدات المفتوحة (115)؛ يقبل الربط عند اتفاقهما على الرمز.",
+      "محكم مستقل يختار من الخيارات المطروحة فقط عند الخلاف، دون إدخال رمز جديد."
+    ],
+    "reviewed_units": 769,
+    "changed_units": 499,
+    "decision_file": "followup-review-decisions.json",
+    "text_completion_file": "clo-text-completions.json",
+    "apply_script": "scripts/apply_shared_program_alignment_followup_20261016.py",
+    "clo_text_completions": {
+      "items_checked": 29,
+      "complete_verbatim": 19,
+      "keep_blank": 7,
+      "not_applied": 3
     }
   }
 }

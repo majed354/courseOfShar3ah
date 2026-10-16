@@ -14,6 +14,8 @@ from verify_course_outcomes import rebuild_expected_variants
 
 
 AUTHORIZATION_POLICY = "authorized_program_alignment_revision"
+TEXT_POLICY = "verified_extraction_correction_matches_source"
+COMPLETION_VALUES = {"source_status": "present", "extraction_method": "verified_visual_review", "confidence": "verified"}
 
 
 class SharedProgramJsonAlignmentTests(unittest.TestCase):
@@ -38,6 +40,13 @@ class SharedProgramJsonAlignmentTests(unittest.TestCase):
             for code, course in cls.outcomes["courses"].items()
             for variant in course["variants"]
         }
+        cls.completion_doc = load(BUNDLE / "clo-text-completions.json")
+        cls.completions = {
+            (item["course_code"], item["source_pdf"], item["clo_index"]): item
+            for item in cls.completion_doc["records"]
+            if item["decision"] == "complete_verbatim"
+        }
+        cls.applied_completion_rows = 0
 
     def test_lineage_is_complete_disjoint_and_has_one_program_per_child(self):
         by_parent = defaultdict(list)
@@ -88,10 +97,29 @@ class SharedProgramJsonAlignmentTests(unittest.TestCase):
                 original = effective_extraction(inherited)
                 current = effective_extraction(child)
                 self.assertEqual(len(original["clos"]), len(current["clos"]))
-                for old_row, new_row in zip(original["clos"], current["clos"]):
+                completion_fields = set()
+                for index, (old_row, new_row) in enumerate(zip(original["clos"], current["clos"])):
+                    # Only the verbatim transfers recorded in the follow-up
+                    # package may differ from the parent besides the mappings.
+                    item = self.completions.get((key[0], child["source_pdf"], index))
+                    changed = {"plo_mappings"}
+                    if item:
+                        self.applied_completion_rows += 1
+                        self.assertEqual(item["clo_code"], new_row["code"])
+                        self.assertEqual(item["text_before"], old_row["text"])
+                        self.assertEqual(item["text_verbatim"], new_row["text"])
+                        for name, value in COMPLETION_VALUES.items():
+                            self.assertEqual(value, new_row[name])
+                        names = ("text", *COMPLETION_VALUES)
+                        changed |= set(names)
+                        completion_fields |= {f"clos[{index}].{name}" for name in names}
+                        for name in names:
+                            override = next(o for o in child["overrides"] if o["field"] == f"clos[{index}].{name}")
+                            self.assertEqual(TEXT_POLICY, override["policy"])
+                            self.assertIn(f"SHA256={child['source_sha256']}", override["evidence"])
                     self.assertEqual(
-                        {k: v for k, v in old_row.items() if k != "plo_mappings"},
-                        {k: v for k, v in new_row.items() if k != "plo_mappings"},
+                        {k: v for k, v in old_row.items() if k not in changed},
+                        {k: v for k, v in new_row.items() if k not in changed},
                     )
                 self.assertEqual(
                     {k: v for k, v in original.items() if k != "clos"},
@@ -100,12 +128,25 @@ class SharedProgramJsonAlignmentTests(unittest.TestCase):
                 new_overrides = [o for o in child["overrides"] if o.get("policy") == AUTHORIZATION_POLICY]
                 new_fields = {o["field"] for o in new_overrides}
                 self.assertTrue(all(re.fullmatch(r"clos\[\d+\]\.plo_mappings", f) for f in new_fields))
-                inherited_overrides = [o for o in inherited["overrides"] if o["field"] not in new_fields]
-                self.assertEqual(inherited_overrides, [o for o in child["overrides"] if o["field"] not in new_fields])
+                self.assertTrue(new_fields.isdisjoint(completion_fields))
+                skipped = new_fields | completion_fields
+                inherited_overrides = [o for o in inherited["overrides"] if o["field"] not in skipped]
+                self.assertEqual(inherited_overrides, [o for o in child["overrides"] if o["field"] not in skipped])
             if child["source_pdf"] not in checked_hashes:
                 self.assertEqual(child["source_sha256"], hashlib.sha256((ROOT / child["source_pdf"]).read_bytes()).hexdigest())
                 checked_hashes.add(child["source_pdf"])
         self.assertTrue(checked_hashes)
+        # Every recorded transfer reached each programme child of its source row.
+        expected_rows = sum(
+            1 for record in self.lineage for item in self.completions.values()
+            if item["course_code"] == record["course_code"]
+            and self.variants[record["course_code"], record["new_variant_id"]]["source_pdf"] == item["source_pdf"]
+        )
+        self.assertEqual(expected_rows, self.applied_completion_rows)
+        self.assertEqual(19, len(self.completions))
+        for item in self.completions.values():
+            self.assertEqual(item["source_sha256"], hashlib.sha256((ROOT / item["source_pdf"]).read_bytes()).hexdigest())
+            self.assertFalse(re.search(r"[\u0660-\u0669]", item["text_verbatim"]))
 
     def test_every_effective_mapping_has_exact_scope_and_a_pinned_program_decision(self):
         decision_keys = Counter()
