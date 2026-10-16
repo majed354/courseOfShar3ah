@@ -1,0 +1,439 @@
+{
+  "schema_version": "shared-program-gap-completion-by-judgment-v1",
+  "reviewed_at": "2026-10-16T23:30:00+03:00",
+  "authority": "توجيه المستخدم في 2026-10-16: «أكمل النقص اجتهاديا» بعد توجيهه السابق «كن مرنا في بعض الربط، حتى وإن لم يكن قريبا جدا».",
+  "policy": "نصوص CLO هنا استكمال اجتهادي لخلايا فارغة في PDF، وليست نصًا من الملف؛ تُحفظ بسياسة verified_reference_correction_pending_source_pdf_update حتى يُحدَّث PDF، وتستند إلى موضوعات المقرر نفسه أو إلى نسخة أخرى من توصيف المقرر نفسه. الروابط اجتهادية معللة من نواتج الإصدار الصحيح للبرنامج، ولا تُكتب في document_plo_codes.",
+  "process": [
+    "قراءة بصرية لموضوعات المقرر وجدول المخرجات والتقويم في ملفات PDF الخمسة.",
+    "صياغة النصوص من المنسق ثم مراجع نصوص مستقل (قبول 4 وتعديل 3 اعتُمدت تعديلاته).",
+    "ربط أعمى مستقل للصفوف العشرين؛ اتفق على الرمز في 14، وحسم المنسق الستة الباقية بالمضمون والاتساق مع بدائل المراجع الثانية."
+  ],
+  "texts": [
+    {
+      "course_code": "2001373-2",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf",
+      "text": "تحليل وجه الدلالة في نصوص الكتاب والسنة على مسائل اليوم الآخر من البعث والحشر والحساب والميزان والصراط والشفاعة.",
+      "assessment": "الورقة والقلم، حقيبة الإنجاز، الملاحظة",
+      "basis": "اجتهاد من موضوعات المقرر 13–15 في PDF نفسه («المراد بالبعث والنشور وأدلته…»، «المراد بالحشر والحوض والعرض والحساب والميزان والصراط… وأدلة ذلك كله»، «المراد بالشفاعة»)، بصيغة مهارية مثل مخرجي 2.1 و2.2 ودون تكرارهما؛ والتقويم مستنتج من الخلية المدمجة لمجال المهارات في ص4.",
+      "source_sha256": "bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d",
+      "source_page": "4,5",
+      "independent_text_review": "revise_adopted"
+    },
+    {
+      "course_code": "2001373-2",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf",
+      "text": "الحرص على أداء حقوق النبي صلى الله عليه وسلم من محبته وطاعته واتباع سنته.",
+      "assessment": "الملاحظة",
+      "basis": "اجتهاد من الموضوع 7 في PDF نفسه («خصائص رسالة نبينا محمد صلى الله عليه وسلم، وأهم حقوقه»)، مكمل لمخرجي القيم 3.1 و3.2؛ والتقويم من الخلية المدمجة لمجال القيم.",
+      "source_sha256": "bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d",
+      "source_page": "5",
+      "independent_text_review": "accept"
+    },
+    {
+      "course_code": "2001474-2",
+      "clo_index": 5,
+      "clo_code": "2.3",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf",
+      "text": "التمييز بين ما يحكم فيه بالكفر وما لا يحكم فيه به في صور الكفر المدروسة، في ضوء ضوابط التكفير وشروطه وموانعه.",
+      "assessment": "الورقة والقلم، حقيبة الإنجاز، الملاحظة",
+      "basis": "اجتهاد من الموضوعين 11 و13 في PDF نفسه («التكفير: تعريفه، وضوابطه، وشروطه، وموانعه»، «الوقوف على بعض صور الكفر، والتمييز بين ما يحكم فيه بالكفر من عدمه»)، دون تكرار 2.1 و2.2؛ والتقويم من الخلية المدمجة لمجال المهارات.",
+      "source_sha256": "8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53",
+      "source_page": "4",
+      "independent_text_review": "revise_adopted"
+    },
+    {
+      "course_code": "2001474-2",
+      "clo_index": 8,
+      "clo_code": "3.3",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf",
+      "text": "الرضا بقضاء الله وقدره مع الأخذ بالأسباب، وترك الاحتجاج بالقدر على ترك الواجبات وفعل المعاصي.",
+      "assessment": "الملاحظة",
+      "basis": "اجتهاد من الموضوعين 1 و3 في PDF نفسه («معنى الإيمان بالقضاء والقدر»، «علاقة الدعاء وسائر الأسباب بالقدر»، «حكم الاحتجاج بالقدر… والجواب عن شبهة الاحتجاج بالقدر على ترك الواجب»)؛ والتقويم من خلية القيم (الملاحظة).",
+      "source_sha256": "8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53",
+      "source_page": "4,5",
+      "independent_text_review": "revise_adopted"
+    },
+    {
+      "course_code": "2004373-2",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf",
+      "text": "تقييم شبهات المخالفين لمنهج السلف في الملائكة والكتب وأشراط الساعة والبعث.",
+      "assessment": "الاختبارات، المناقشات، أوراق العمل",
+      "basis": "منقول من مخرج المهارات 2.2 في توصيف المقرر نفسه لبرنامجي القرآن وعلومه (39) والقراءات (38) (2001373-2، assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf) بتتمته «والبعث» المطبوعة أعلى ص5، مع ضبط المسافة في «والكتب»؛ موضوعات المقرر متطابقة. التقويم مستنتج من صف 2.1 في PDF نفسه لأن خلايا صف 2.2 فارغة كلها.",
+      "source_sha256": "b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03",
+      "source_page": "5",
+      "independent_text_review": "revise_adopted"
+    },
+    {
+      "course_code": "2004474-2",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf",
+      "text": "تقييم شبهات المخالفين لمنهج السلف من الوعيدية والمرجئة.",
+      "assessment": "الاختبارات، المناقشات، أوراق العمل",
+      "basis": "منقول من مخرج المهارات 2.2 في توصيف المقرر نفسه لبرنامجي القرآن وعلومه (39) والقراءات (38) (2001474-2، assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf)؛ موضوعات المقرر متطابقة. التقويم مستنتج من صف 2.1 في PDF نفسه.",
+      "source_sha256": "99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e",
+      "source_page": "4",
+      "independent_text_review": "accept"
+    },
+    {
+      "course_code": "2002456-2",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--3b6c8f3dc2.pdf",
+      "text": "أن يحلل الطالب وجوه الإعجاز في نماذج من الآيات القرآنية.",
+      "assessment": "المباشر: التقييمات الدورية؛ غير المباشر: استطلاع آراء الطلبة",
+      "basis": "نص الصف غير المرقوم أعلى ص5 من PDF نفسه، المرجح أنه تتمة صف 2.1 المنقسم عند فاصل الصفحة (التظليل الرمادي نفسه وموقعه وخلو الرمز)، ويطابق حرفيًا مخرج 2.1 في نسخة المقرر لبرنامج القرآن وعلومه (assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--2ab6b9436e.pdf) وتوصيف الخطة 47. التقويم من الكتلة المقابلة في ص5.",
+      "source_sha256": "b1935f12576c22a1119e54fc280173bc8d4a2b3c19e6b7693aab453735f550ec",
+      "source_page": "4,5",
+      "independent_text_review": "accept"
+    }
+  ],
+  "links": [
+    {
+      "course_code": "2001373-2",
+      "clo_code": "2.3",
+      "program_reference_id": "quran-ba-v39",
+      "expected_rows": 1,
+      "plo_code": "م2",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "تحليل وجه الدلالة في نصوص الكتاب والسنة على مسائل اليوم الآخر تدريب على فهم دلالة الآيات وتوظيفها، فيساند م2 «أن يمارس تفسير الآيات بطريقة منهجية معتبرة» مساندة الأداة لا الممارسة الكاملة.",
+      "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+      "independent_verifier": "blind_agrees",
+      "blind": {
+        "plo_code": "م2",
+        "alignment_type": "supporting_transfer",
+        "second_choice": "ع3"
+      }
+    },
+    {
+      "course_code": "2001373-2",
+      "clo_code": "2.3",
+      "program_reference_id": "qiraat-ba-v38",
+      "expected_rows": 1,
+      "plo_code": "م2",
+      "alignment_type": "direct",
+      "confidence": "medium",
+      "rationale_ar": "تحليل وجه الدلالة في نصوص الكتاب والسنة على مسائل اليوم الآخر تحليل لنصوص ومسائل في علم مساند وفق منهج علمي، فيدخل في م2 «أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة».",
+      "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+      "independent_verifier": "blind_agrees",
+      "blind": {
+        "plo_code": "م2",
+        "alignment_type": "direct",
+        "second_choice": "ع2"
+      }
+    },
+    {
+      "course_code": "2001373-2",
+      "clo_code": "3.3",
+      "program_reference_id": "quran-ba-v39",
+      "expected_rows": 1,
+      "plo_code": "ق1",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "أداء حقوق النبي صلى الله عليه وسلم من محبته وطاعته واتباع سنته التزام سلوكي ديني، فيساند ق1 «أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية».",
+      "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+      "independent_verifier": "blind_agrees",
+      "blind": {
+        "plo_code": "ق1",
+        "alignment_type": "supporting_transfer",
+        "second_choice": "ق2"
+      }
+    },
+    {
+      "course_code": "2001373-2",
+      "clo_code": "3.3",
+      "program_reference_id": "qiraat-ba-v38",
+      "expected_rows": 1,
+      "plo_code": "ق1",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "أداء حقوق النبي صلى الله عليه وسلم من تعاليم الدين، فيساند ق1 «أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف».",
+      "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+      "independent_verifier": "blind_agrees",
+      "blind": {
+        "plo_code": "ق1",
+        "alignment_type": "supporting_transfer",
+        "second_choice": "ق3"
+      }
+    },
+    {
+      "course_code": "2001474-2",
+      "clo_code": "2.3",
+      "program_reference_id": "quran-ba-v39",
+      "expected_rows": 1,
+      "plo_code": "م3",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "التمييز بين ما يحكم فيه بالكفر وما لا يحكم فيه به في صور الكفر المدروسة وفق الضوابط تقويم للأقوال والأحكام بأدلتها، فيساند م3 «أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه» على نحو مخرجي 2.1 و2.2 من المقرر.",
+      "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+      "independent_verifier": "blind_agrees",
+      "blind": {
+        "plo_code": "م3",
+        "alignment_type": "supporting_transfer",
+        "second_choice": "ع3"
+      }
+    },
+    {
+      "course_code": "2001474-2",
+      "clo_code": "2.3",
+      "program_reference_id": "qiraat-ba-v38",
+      "expected_rows": 1,
+      "plo_code": "م2",
+      "alignment_type": "direct",
+      "confidence": "medium",
+      "rationale_ar": "التمييز بين صور الكفر وغيرها وفق ضوابط التكفير وشروطه وموانعه تحليل لمسائل علم مساند بمنهج علمي، فيدخل في م2 «أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة».",
+      "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+      "independent_verifier": "blind_agrees",
+      "blind": {
+        "plo_code": "م2",
+        "alignment_type": "direct",
+        "second_choice": "ع2"
+      }
+    },
+    {
+      "course_code": "2001474-2",
+      "clo_code": "3.3",
+      "program_reference_id": "quran-ba-v39",
+      "expected_rows": 1,
+      "plo_code": "ق1",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "الرضا بالقدر مع الأخذ بالأسباب وترك الاحتجاج به على ترك الواجبات وفعل المعاصي سلوك ديني منضبط، فيساند ق1 «أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية»؛ وهو أقرب من ق2 الخاص بتطوير النفس.",
+      "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+      "independent_verifier": "orchestrator_decided_over_blind_ق2",
+      "blind": {
+        "plo_code": "ق2",
+        "alignment_type": "supporting_transfer",
+        "second_choice": "ق1"
+      }
+    },
+    {
+      "course_code": "2001474-2",
+      "clo_code": "3.3",
+      "program_reference_id": "qiraat-ba-v38",
+      "expected_rows": 1,
+      "plo_code": "ق1",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "الرضا بالقدر مع الأخذ بالأسباب وترك الاحتجاج به على ترك الواجبات وفعل المعاصي من تعاليم الدين، فيساند ق1 «أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف»؛ وهو أقرب من ق3 الخاص بالاستقلالية وتطوير الذات.",
+      "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+      "independent_verifier": "orchestrator_decided_over_blind_ق3",
+      "blind": {
+        "plo_code": "ق3",
+        "alignment_type": "supporting_transfer",
+        "second_choice": "ق1"
+      }
+    },
+    {
+      "course_code": "2004373-2",
+      "clo_code": "2.2",
+      "program_reference_id": "sharia-ba-v47",
+      "expected_rows": 1,
+      "plo_code": "ع5",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "تقييم شبهات المخالفين في الملائكة والكتب وأشراط الساعة والبعث يقوم على معرفة الموقف المعتمد الذي تُوزن به، وهو مضمون الناتج «أن يحدد مذهب السلف الصالح في مسائل العقيدة».",
+      "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+      "independent_verifier": "blind_agrees",
+      "blind": {
+        "plo_code": "ع5",
+        "alignment_type": "supporting_transfer",
+        "second_choice": "م1"
+      }
+    },
+    {
+      "course_code": "2004373-2",
+      "clo_code": "2.2",
+      "program_reference_id": "quran-ba-v47",
+      "expected_rows": 1,
+      "plo_code": "م3",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "تقييم الشبهات العقدية تقويم للآراء بأدلتها، فيساند م3 «أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه» كما في مخرج 2.2 من الخطة القديمة للمقرر.",
+      "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+      "independent_verifier": "blind_agrees",
+      "blind": {
+        "plo_code": "م3",
+        "alignment_type": "supporting_transfer",
+        "second_choice": "ع3"
+      }
+    },
+    {
+      "course_code": "2004373-2",
+      "clo_code": "2.2",
+      "program_reference_id": "qiraat-ba-v47",
+      "expected_rows": 1,
+      "plo_code": "م3",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "تقييم شبهات المخالفين يندرج في عبارة م3 «مناقشة الشبهات ورد مطاعن المشككين»، والربط داعم لأن الناتج يقرنها بأثر القراءات؛ وهو قرار المخرج نفسه في الخطة القديمة.",
+      "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+      "independent_verifier": "orchestrator_decided_over_blind_م2",
+      "blind": {
+        "plo_code": "م2",
+        "alignment_type": "direct",
+        "second_choice": "م3"
+      }
+    },
+    {
+      "course_code": "2004474-2",
+      "clo_code": "2.2",
+      "program_reference_id": "sharia-ba-v47",
+      "expected_rows": 1,
+      "plo_code": "ع5",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "تقييم شبهات الوعيدية والمرجئة يقتضي معرفة القول المعتمد في مسائل الإيمان والوعيد، وهو ما ينص عليه الناتج «أن يحدد مذهب السلف الصالح في مسائل العقيدة».",
+      "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+      "independent_verifier": "blind_agrees",
+      "blind": {
+        "plo_code": "ع5",
+        "alignment_type": "supporting_transfer",
+        "second_choice": "ع3"
+      }
+    },
+    {
+      "course_code": "2004474-2",
+      "clo_code": "2.2",
+      "program_reference_id": "quran-ba-v47",
+      "expected_rows": 1,
+      "plo_code": "م3",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "تقييم شبهات الوعيدية والمرجئة تقويم للآراء بأدلتها، فيساند م3 «أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه» كما في مخرج 2.2 من الخطة القديمة للمقرر.",
+      "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+      "independent_verifier": "blind_agrees",
+      "blind": {
+        "plo_code": "م3",
+        "alignment_type": "supporting_transfer",
+        "second_choice": "ع3"
+      }
+    },
+    {
+      "course_code": "2004474-2",
+      "clo_code": "2.2",
+      "program_reference_id": "qiraat-ba-v47",
+      "expected_rows": 1,
+      "plo_code": "م3",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "تقييم شبهات الوعيدية والمرجئة يندرج في عبارة م3 «مناقشة الشبهات ورد مطاعن المشككين»، والربط داعم لأن الناتج يقرنها بأثر القراءات؛ وهو قرار المخرج نفسه في الخطة القديمة.",
+      "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+      "independent_verifier": "orchestrator_decided_over_blind_م2",
+      "blind": {
+        "plo_code": "م2",
+        "alignment_type": "direct",
+        "second_choice": "م3"
+      }
+    },
+    {
+      "course_code": "2002456-2",
+      "clo_code": "2.1",
+      "program_reference_id": "qiraat-ba-v38",
+      "expected_rows": 1,
+      "plo_code": "م2",
+      "alignment_type": "direct",
+      "confidence": "high",
+      "rationale_ar": "تحليل وجوه الإعجاز في نماذج من الآيات تحليل لنصوص في علم تخصصي، فيدخل في م2 «أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة»، كقرار المخرج نفسه في الخطة 47 المطابقة النواتج، مع أن خلية الملف تطبع م٣.",
+      "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+      "independent_verifier": "blind_agrees",
+      "blind": {
+        "plo_code": "م2",
+        "alignment_type": "direct",
+        "second_choice": "ع3"
+      }
+    },
+    {
+      "course_code": "990415-2",
+      "clo_code": "1.1",
+      "program_reference_id": "systems-ba-v38",
+      "expected_rows": 1,
+      "plo_code": "ع1",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "ربط اجتهادي بتوجيه المستخدم: معرفة مخارج الحروف وصفاتها تضبط قراءة القرآن الكريم الذي هو المصدر الأول للقواعد النظامية في المملكة، فتتصل بخطوتين بالناتج «يعرف المفاهيم الأساسية للقواعد القانونية وخصائصها ومصادرها».",
+      "basis": "ربط اجتهادي بتوجيه المستخدم «أكمل النقص اجتهاديا»",
+      "independent_verifier": "blind_agrees",
+      "blind": {
+        "plo_code": "ع1",
+        "alignment_type": "supporting_transfer",
+        "second_choice": "م2"
+      }
+    },
+    {
+      "course_code": "990415-2",
+      "clo_code": "1.2",
+      "program_reference_id": "systems-ba-v38",
+      "expected_rows": 1,
+      "plo_code": "ع1",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "ربط اجتهادي بتوجيه المستخدم: شرح أحكام النون الساكنة والتنوين والميم الساكنة والمدود يخدم سلامة قراءة النص القرآني بوصفه مصدرًا للقواعد النظامية، فيتصل بخطوتين بالناتج «يعرف المفاهيم الأساسية للقواعد القانونية وخصائصها ومصادرها».",
+      "basis": "ربط اجتهادي بتوجيه المستخدم «أكمل النقص اجتهاديا»",
+      "independent_verifier": "blind_agrees",
+      "blind": {
+        "plo_code": "ع1",
+        "alignment_type": "supporting_transfer",
+        "second_choice": "م2"
+      }
+    },
+    {
+      "course_code": "990415-2",
+      "clo_code": "2.1",
+      "program_reference_id": "systems-ba-v38",
+      "expected_rows": 1,
+      "plo_code": "م1",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "ربط اجتهادي بتوجيه المستخدم: تطبيق أحكام التجويد في التلاوة يضبط قراءة النص القرآني، وضبط قراءة النص شرط لتفسيره، فيساند م1 «تفسير النصوص القانونية تفسيراً سليماً» بخطوتين لكون القرآن دستور المملكة.",
+      "basis": "ربط اجتهادي بتوجيه المستخدم «أكمل النقص اجتهاديا»",
+      "independent_verifier": "orchestrator_decided_over_blind_م2",
+      "blind": {
+        "plo_code": "م2",
+        "alignment_type": "supporting_transfer",
+        "second_choice": "ع1"
+      }
+    },
+    {
+      "course_code": "990415-2",
+      "clo_code": "2.2",
+      "program_reference_id": "systems-ba-v38",
+      "expected_rows": 1,
+      "plo_code": "م1",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "ربط اجتهادي بتوجيه المستخدم: سلامة النطق والمخارج والطلاقة تضبط قراءة النص القرآني، وضبط القراءة شرط لتفسير النص، فيساند م1 «تفسير النصوص القانونية تفسيراً سليماً» بخطوتين لكون القرآن دستور المملكة.",
+      "basis": "ربط اجتهادي بتوجيه المستخدم «أكمل النقص اجتهاديا»",
+      "independent_verifier": "orchestrator_decided_over_blind_م2",
+      "blind": {
+        "plo_code": "م2",
+        "alignment_type": "supporting_transfer",
+        "second_choice": "ع1"
+      }
+    },
+    {
+      "course_code": "990415-2",
+      "clo_code": "3.1",
+      "program_reference_id": "systems-ba-v38",
+      "expected_rows": 1,
+      "plo_code": "ق2",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
+      "rationale_ar": "ربط اجتهادي بتوجيه المستخدم: الالتزام بتطوير مهارات قراءة القرآن من تعزيز القيم الإسلامية الذي تتبناه رؤية المملكة 2030، فيساند ق2 «أن يشارك الطالب بفاعلية في تحقيق رؤية المملكة 2030م» بخطوتين.",
+      "basis": "ربط اجتهادي بتوجيه المستخدم «أكمل النقص اجتهاديا»",
+      "independent_verifier": "blind_agrees",
+      "blind": {
+        "plo_code": "ق2",
+        "alignment_type": "supporting_transfer",
+        "second_choice": "م2"
+      }
+    }
+  ]
+}

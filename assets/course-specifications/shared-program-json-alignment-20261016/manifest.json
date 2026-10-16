@@ -1,6 +1,6 @@
 {
   "schema_version": "shared-program-json-alignment-v1",
-  "status": "published_data_verified",
+  "status": "gap_completion_applied_pending_publication",
   "authored_at": "2026-10-16T16:32:22+03:00",
   "authority": {
     "user_requested_program_specific_json_variants": true,
@@ -83,7 +83,8 @@
     "إذا كانت خلية CLO فارغة أو غاب PLO مناسب تبقى[]بقرار صريح موثق، ولا تخمن قيمة لسد الفراغ.",
     "النواتج الرسمية للبرامج نفسها لم تتغير، ولا تصدر هذه الحزمة حكمًا بتحقق PLO أو اكتمال قياسها.",
     "المراجع وأدوات المراجعة التاريخية تحفظ وتختبر في سياقها السابق؛ إعادة تشغيلها فوق التخصيص الجديد قد تمحو الروابط دون حماية.",
-    "مراجعة المتابعة 2026-10-16: معيار مرن بتوجيه المستخدم يقبل الربط المعلل غير المباشر بوصفه دعمًا مساندًا، مع إبقاء الفراغ حيث لا علاقة قابلة للتعليل أو حيث خلية CLO فارغة، ونقل حرفي فقط لنصوص CLO من PDF المطابق للبصمة."
+    "مراجعة المتابعة 2026-10-16: معيار مرن بتوجيه المستخدم يقبل الربط المعلل غير المباشر بوصفه دعمًا مساندًا، مع إبقاء الفراغ حيث لا علاقة قابلة للتعليل أو حيث خلية CLO فارغة، ونقل حرفي فقط لنصوص CLO من PDF المطابق للبصمة.",
+    "تحديث 2026-10-16 (gap-completion): يحل محل قاعدة إبقاء الخلايا الفارغة [] بتوجيه المستخدم «أكمل النقص اجتهاديا»؛ النصوص المستكملة معلنة أنها ليست من PDF ومحفوظة بسياسة التحديث المعلق حتى يُحدَّث ملف التوصيف."
   ],
   "summary": {
     "target_course_identities": 54,
@@ -91,12 +92,12 @@
     "after_target_program_variants": 172,
     "program_plan_units": 209,
     "effective_clo_scope_rows": 1590,
-    "mapped_clo_scope_rows": 1570,
-    "unresolved_clo_scope_rows": 20,
+    "mapped_clo_scope_rows": 1590,
+    "unresolved_clo_scope_rows": 0,
     "alignment_type_counts": {
-      "direct": 974,
-      "supporting_transfer": 595,
-      "unresolved": 20,
+      "direct": 977,
+      "supporting_transfer": 612,
+      "unresolved": 0,
       "preserved_existing": 1
     },
     "human_rights_program_variants": 5,
@@ -112,20 +113,21 @@
     }
   },
   "reference_files": {
-    "remaining-alignment-gaps.json": "e9e4ac30523912be7b8f9aceb3d17b3ce5aea0aee85caf94cc0e5a20a224f878",
+    "remaining-alignment-gaps.json": "7af96116eb23d7ece91b508d680a36303bb82a51897508e4388fe9fdf9e043f0",
     "unchanged-pdf-hashes.json": "c0185dec3bb9309d0843636b37b9772b2e8db23d3d35904b67e8206e7885e32b",
     "variant-lineage.json": "7b9b6a723748ff9b4f080365a89829cbe56965f475454e1dbecddf6231964369",
-    "validation.json": "10ec8ddaad9607d6d4a4afcb808390eb6813c2cb4f2a0256d59002b1b9759398",
+    "validation.json": "1a5dcf79000f6de38ce64e7108e238c69c5860f139991e88a1818e5099232eef",
     "source-reading-evidence.json": "6b3400c980a78b60bbe01fa857876ed7183458be4ab62a3fccdd54c76cbb3e80",
     "root-review-dispositions.json": "afab59b32dc6d76cb144bd3ae4454ea319b234f8e33ef6974748b41686bf77aa",
     "previous-context.json": "2f2c747f51f67cefde81ee60f11fde5db4e61690dcceac3dd25ea4a879786589",
     "deployment-verification.json": "de4a6ef80a6b7da61593590b099e88da52c9d29a46e15192a4f72d84b293b9ea",
     "peer-reviews.json": "1e4cc896efa62e5369171c804796e472662621034aaa83f211f0c08f56aa8969",
-    "alignment-decisions.json": "514ee98e9f885b24f682f37eca630fad08e1646dde58372efdca51d1f241d6a6",
+    "alignment-decisions.json": "a833b31697ba7dbdc0c58e96ba88dae1ad44d5d99346948386af9bfa6b96138c",
     "legacy-replay-limitations.json": "63fc95a9f65b963ed3fba84157bfd9f4b66b02e0cfb099fc056fb5b83ecc0a51",
     "program-plo-reference.json": "945eef1507a1c929035cbff29df8760d574b01ea333a1707dcac768f4122430c",
     "followup-review-decisions.json": "73e5e341a6e75792d0ea94645506b7bec09721b460e3a1cadc924baf8f9d8bf3",
-    "clo-text-completions.json": "05ba5905ac395f8bbd3853d9344c2940a93edb17d0455c2535ee960d36e8308a"
+    "clo-text-completions.json": "05ba5905ac395f8bbd3853d9344c2940a93edb17d0455c2535ee960d36e8308a",
+    "gap-completions-by-judgment.json": "13f093a078b4b21ff4ec5b04c2783806e0a6814f6164b0cec51160d73c0587a0"
   },
   "validation": {
     "baseline_verifier": "passed",
@@ -162,15 +164,11 @@
     }
   },
   "remaining_alignment_gaps": {
-    "total_unresolved_clo_scope_rows": 20,
-    "blank_source_clo_scope_rows": 15,
-    "no_suitable_plo_clo_scope_rows": 5,
-    "by_program": {
-      "القراءات": 7,
-      "القرآن وعلومه": 6,
-      "الأنظمة": 5,
-      "الشريعة": 2
-    }
+    "total_unresolved_clo_scope_rows": 0,
+    "blank_source_clo_scope_rows": 0,
+    "no_suitable_plo_clo_scope_rows": 0,
+    "by_program": {},
+    "gap_completion_round": "gap-completion-2026-10-16"
   },
   "followup_review": {
     "reviewed_at": "2026-10-16",
@@ -192,5 +190,15 @@
       "keep_blank": 7,
       "not_applied": 3
     }
+  },
+  "gap_completion_by_judgment": {
+    "reviewed_at": "2026-10-16",
+    "authority": "«أكمل النقص اجتهاديا»",
+    "record": "gap-completions-by-judgment.json",
+    "apply_script": "scripts/apply_shared_program_gap_completion_20261016.py",
+    "authored_texts": 7,
+    "authored_text_rows": 15,
+    "linked_rows": 20,
+    "policy": "نصوص اجتهادية لخلايا فارغة، معلنة في الدليل أنها ليست نصًا من PDF، بسياسة verified_reference_correction_pending_source_pdf_update."
   }
 }

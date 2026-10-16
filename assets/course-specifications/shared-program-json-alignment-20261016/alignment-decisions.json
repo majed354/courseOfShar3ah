@@ -31580,7 +31580,7 @@
       },
       "clo_index": 5,
       "clo_code": "2.3",
-      "clo_text_in_json": null,
+      "clo_text_in_json": "تحليل وجه الدلالة في نصوص الكتاب والسنة على مسائل اليوم الآخر من البعث والحشر والحساب والميزان والصراط والشفاعة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -31598,16 +31598,32 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf",
       "program_source_sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74",
       "index": 5,
-      "plo_code": null,
-      "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز.",
-      "alignment_type": "unresolved",
-      "confidence": "high",
+      "plo_code": "م2",
+      "rationale": "تحليل وجه الدلالة في نصوص الكتاب والسنة على مسائل اليوم الآخر تدريب على فهم دلالة الآيات وتوظيفها، فيساند م2 «أن يمارس تفسير الآيات بطريقة منهجية معتبرة» مساندة الأداة لا الممارسة الكاملة.",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
         "category": "B",
         "first_reviewer": null,
         "independent_verifier": "blank_source_cell"
+      },
+      "selected_plo_text": "أن يمارس تفسير الآيات بطريقة منهجية معتبرة.",
+      "selected_plo_pages": [
+        5
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "high",
+          "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز."
+        },
+        "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+        "independent_verifier": "blind_agrees"
       }
     },
     {
@@ -31702,7 +31718,7 @@
       },
       "clo_index": 8,
       "clo_code": "3.3",
-      "clo_text_in_json": null,
+      "clo_text_in_json": "الحرص على أداء حقوق النبي صلى الله عليه وسلم من محبته وطاعته واتباع سنته.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -31720,16 +31736,32 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf",
       "program_source_sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74",
       "index": 8,
-      "plo_code": null,
-      "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز.",
-      "alignment_type": "unresolved",
-      "confidence": "high",
+      "plo_code": "ق1",
+      "rationale": "أداء حقوق النبي صلى الله عليه وسلم من محبته وطاعته واتباع سنته التزام سلوكي ديني، فيساند ق1 «أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية».",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
         "category": "B",
         "first_reviewer": null,
         "independent_verifier": "blank_source_cell"
+      },
+      "selected_plo_text": "أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية",
+      "selected_plo_pages": [
+        5
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "high",
+          "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز."
+        },
+        "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+        "independent_verifier": "blind_agrees"
       }
     },
     {
@@ -31966,7 +31998,7 @@
       },
       "clo_index": 5,
       "clo_code": "2.3",
-      "clo_text_in_json": null,
+      "clo_text_in_json": "تحليل وجه الدلالة في نصوص الكتاب والسنة على مسائل اليوم الآخر من البعث والحشر والحساب والميزان والصراط والشفاعة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -31984,16 +32016,32 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf",
       "program_source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d",
       "index": 5,
-      "plo_code": null,
-      "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما.",
-      "alignment_type": "unresolved",
-      "confidence": "low",
+      "plo_code": "م2",
+      "rationale": "تحليل وجه الدلالة في نصوص الكتاب والسنة على مسائل اليوم الآخر تحليل لنصوص ومسائل في علم مساند وفق منهج علمي، فيدخل في م2 «أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة».",
+      "alignment_type": "direct",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
         "category": "B",
         "first_reviewer": null,
         "independent_verifier": "blank_source_cell"
+      },
+      "selected_plo_text": "أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة.",
+      "selected_plo_pages": [
+        7
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "low",
+          "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما."
+        },
+        "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+        "independent_verifier": "blind_agrees"
       }
     },
     {
@@ -32088,7 +32136,7 @@
       },
       "clo_index": 8,
       "clo_code": "3.3",
-      "clo_text_in_json": null,
+      "clo_text_in_json": "الحرص على أداء حقوق النبي صلى الله عليه وسلم من محبته وطاعته واتباع سنته.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -32106,16 +32154,32 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf",
       "program_source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d",
       "index": 8,
-      "plo_code": null,
-      "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما.",
-      "alignment_type": "unresolved",
-      "confidence": "low",
+      "plo_code": "ق1",
+      "rationale": "أداء حقوق النبي صلى الله عليه وسلم من تعاليم الدين، فيساند ق1 «أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف».",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
         "category": "B",
         "first_reviewer": null,
         "independent_verifier": "blank_source_cell"
+      },
+      "selected_plo_text": "أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف.",
+      "selected_plo_pages": [
+        7
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "low",
+          "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما."
+        },
+        "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+        "independent_verifier": "blind_agrees"
       }
     },
     {
@@ -33252,7 +33316,7 @@
       },
       "clo_index": 5,
       "clo_code": "2.3",
-      "clo_text_in_json": null,
+      "clo_text_in_json": "التمييز بين ما يحكم فيه بالكفر وما لا يحكم فيه به في صور الكفر المدروسة، في ضوء ضوابط التكفير وشروطه وموانعه.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -33270,16 +33334,32 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf",
       "program_source_sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74",
       "index": 5,
-      "plo_code": null,
-      "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز.",
-      "alignment_type": "unresolved",
-      "confidence": "high",
+      "plo_code": "م3",
+      "rationale": "التمييز بين ما يحكم فيه بالكفر وما لا يحكم فيه به في صور الكفر المدروسة وفق الضوابط تقويم للأقوال والأحكام بأدلتها، فيساند م3 «أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه» على نحو مخرجي 2.1 و2.2 من المقرر.",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
         "category": "B",
         "first_reviewer": null,
         "independent_verifier": "blank_source_cell"
+      },
+      "selected_plo_text": "أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه.",
+      "selected_plo_pages": [
+        5
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "high",
+          "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز."
+        },
+        "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+        "independent_verifier": "blind_agrees"
       }
     },
     {
@@ -33391,7 +33471,7 @@
       },
       "clo_index": 8,
       "clo_code": "3.3",
-      "clo_text_in_json": null,
+      "clo_text_in_json": "الرضا بقضاء الله وقدره مع الأخذ بالأسباب، وترك الاحتجاج بالقدر على ترك الواجبات وفعل المعاصي.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -33409,16 +33489,32 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf",
       "program_source_sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74",
       "index": 8,
-      "plo_code": null,
-      "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز.",
-      "alignment_type": "unresolved",
-      "confidence": "high",
+      "plo_code": "ق1",
+      "rationale": "الرضا بالقدر مع الأخذ بالأسباب وترك الاحتجاج به على ترك الواجبات وفعل المعاصي سلوك ديني منضبط، فيساند ق1 «أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية»؛ وهو أقرب من ق2 الخاص بتطوير النفس.",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
         "category": "B",
         "first_reviewer": null,
         "independent_verifier": "blank_source_cell"
+      },
+      "selected_plo_text": "أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية",
+      "selected_plo_pages": [
+        5
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "high",
+          "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز."
+        },
+        "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+        "independent_verifier": "orchestrator_decided_over_blind_ق2"
       }
     },
     {
@@ -33655,7 +33751,7 @@
       },
       "clo_index": 5,
       "clo_code": "2.3",
-      "clo_text_in_json": null,
+      "clo_text_in_json": "التمييز بين ما يحكم فيه بالكفر وما لا يحكم فيه به في صور الكفر المدروسة، في ضوء ضوابط التكفير وشروطه وموانعه.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -33673,16 +33769,32 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf",
       "program_source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d",
       "index": 5,
-      "plo_code": null,
-      "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما.",
-      "alignment_type": "unresolved",
-      "confidence": "low",
+      "plo_code": "م2",
+      "rationale": "التمييز بين صور الكفر وغيرها وفق ضوابط التكفير وشروطه وموانعه تحليل لمسائل علم مساند بمنهج علمي، فيدخل في م2 «أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة».",
+      "alignment_type": "direct",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
         "category": "B",
         "first_reviewer": null,
         "independent_verifier": "blank_source_cell"
+      },
+      "selected_plo_text": "أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة.",
+      "selected_plo_pages": [
+        7
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "low",
+          "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما."
+        },
+        "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+        "independent_verifier": "blind_agrees"
       }
     },
     {
@@ -33788,7 +33900,7 @@
       },
       "clo_index": 8,
       "clo_code": "3.3",
-      "clo_text_in_json": null,
+      "clo_text_in_json": "الرضا بقضاء الله وقدره مع الأخذ بالأسباب، وترك الاحتجاج بالقدر على ترك الواجبات وفعل المعاصي.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -33806,16 +33918,32 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf",
       "program_source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d",
       "index": 8,
-      "plo_code": null,
-      "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما.",
-      "alignment_type": "unresolved",
-      "confidence": "low",
+      "plo_code": "ق1",
+      "rationale": "الرضا بالقدر مع الأخذ بالأسباب وترك الاحتجاج به على ترك الواجبات وفعل المعاصي من تعاليم الدين، فيساند ق1 «أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف»؛ وهو أقرب من ق3 الخاص بالاستقلالية وتطوير الذات.",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
         "category": "B",
         "first_reviewer": null,
         "independent_verifier": "blank_source_cell"
+      },
+      "selected_plo_text": "أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف.",
+      "selected_plo_pages": [
+        7
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "low",
+          "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما."
+        },
+        "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+        "independent_verifier": "orchestrator_decided_over_blind_ق3"
       }
     },
     {
@@ -48754,7 +48882,7 @@
       },
       "clo_index": 3,
       "clo_code": "2.1",
-      "clo_text_in_json": null,
+      "clo_text_in_json": "أن يحلل الطالب وجوه الإعجاز في نماذج من الآيات القرآنية.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -48772,16 +48900,32 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf",
       "program_source_sha256": "ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d",
       "index": 3,
-      "plo_code": null,
-      "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما.",
-      "alignment_type": "unresolved",
-      "confidence": "low",
+      "plo_code": "م2",
+      "rationale": "تحليل وجوه الإعجاز في نماذج من الآيات تحليل لنصوص في علم تخصصي، فيدخل في م2 «أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة»، كقرار المخرج نفسه في الخطة 47 المطابقة النواتج، مع أن خلية الملف تطبع م٣.",
+      "alignment_type": "direct",
+      "confidence": "high",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
         "category": "B",
         "first_reviewer": null,
         "independent_verifier": "blank_source_cell"
+      },
+      "selected_plo_text": "أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة.",
+      "selected_plo_pages": [
+        7
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "low",
+          "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما."
+        },
+        "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+        "independent_verifier": "blind_agrees"
       }
     },
     {
@@ -61613,7 +61757,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.2",
-      "clo_text_in_json": null,
+      "clo_text_in_json": "تقييم شبهات المخالفين لمنهج السلف في الملائكة والكتب وأشراط الساعة والبعث.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -61631,16 +61775,32 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/sharia-ba-v47/program-specification.pdf",
       "program_source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8",
       "index": 4,
-      "plo_code": null,
-      "rationale": "مراجعة المصدر المطابق للبصمة تثبت أن خلية نص CLO2.2 فارغة؛ لا يُنشأ ربط لمخرج غير مكتوب.",
-      "alignment_type": "unresolved",
-      "confidence": "low",
+      "plo_code": "ع5",
+      "rationale": "تقييم شبهات المخالفين في الملائكة والكتب وأشراط الساعة والبعث يقوم على معرفة الموقف المعتمد الذي تُوزن به، وهو مضمون الناتج «أن يحدد مذهب السلف الصالح في مسائل العقيدة».",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
         "category": "B",
         "first_reviewer": null,
         "independent_verifier": "blank_source_cell"
+      },
+      "selected_plo_text": "أن يحدد مذهب السلف الصالح في مسائل العقيدة، والاستدلال، والاستنباط في الفقه وأصوله.",
+      "selected_plo_pages": [
+        4
+      ],
+      "formal_domain_match": false,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "low",
+          "rationale": "مراجعة المصدر المطابق للبصمة تثبت أن خلية نص CLO2.2 فارغة؛ لا يُنشأ ربط لمخرج غير مكتوب."
+        },
+        "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+        "independent_verifier": "blind_agrees"
       }
     },
     {
@@ -61976,7 +62136,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.2",
-      "clo_text_in_json": null,
+      "clo_text_in_json": "تقييم شبهات المخالفين لمنهج السلف في الملائكة والكتب وأشراط الساعة والبعث.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -61994,16 +62154,32 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf",
       "program_source_sha256": "3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919",
       "index": 4,
-      "plo_code": null,
-      "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز.",
-      "alignment_type": "unresolved",
-      "confidence": "high",
+      "plo_code": "م3",
+      "rationale": "تقييم الشبهات العقدية تقويم للآراء بأدلتها، فيساند م3 «أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه» كما في مخرج 2.2 من الخطة القديمة للمقرر.",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
         "category": "B",
         "first_reviewer": null,
         "independent_verifier": "blank_source_cell"
+      },
+      "selected_plo_text": "أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه.",
+      "selected_plo_pages": [
+        5
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "high",
+          "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز."
+        },
+        "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+        "independent_verifier": "blind_agrees"
       }
     },
     {
@@ -62262,7 +62438,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.2",
-      "clo_text_in_json": null,
+      "clo_text_in_json": "تقييم شبهات المخالفين لمنهج السلف في الملائكة والكتب وأشراط الساعة والبعث.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -62280,16 +62456,33 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/qiraat-ba-v47/program-specification.pdf",
       "program_source_sha256": "3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89",
       "index": 4,
-      "plo_code": null,
-      "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما.",
-      "alignment_type": "unresolved",
-      "confidence": "low",
+      "plo_code": "م3",
+      "rationale": "تقييم شبهات المخالفين يندرج في عبارة م3 «مناقشة الشبهات ورد مطاعن المشككين»، والربط داعم لأن الناتج يقرنها بأثر القراءات؛ وهو قرار المخرج نفسه في الخطة القديمة.",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
         "category": "B",
         "first_reviewer": null,
         "independent_verifier": "blank_source_cell"
+      },
+      "selected_plo_text": "أن يظهر الخريج أثر القراءات على المعنى ومناقشة الشبهات ورد مطاعن المشككين بشكل واضح.",
+      "selected_plo_pages": [
+        7,
+        9
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "low",
+          "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما."
+        },
+        "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+        "independent_verifier": "orchestrator_decided_over_blind_م2"
       }
     },
     {
@@ -65119,7 +65312,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.2",
-      "clo_text_in_json": null,
+      "clo_text_in_json": "تقييم شبهات المخالفين لمنهج السلف من الوعيدية والمرجئة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -65137,16 +65330,32 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/sharia-ba-v47/program-specification.pdf",
       "program_source_sha256": "f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8",
       "index": 4,
-      "plo_code": null,
-      "rationale": "خلية نص CLO2.2 فارغة فعلًا وفق القراءة البصرية الموثقة للمصدر؛ يبقى الربط غير محسوم ولا يُخترع مضمون.",
-      "alignment_type": "unresolved",
-      "confidence": "low",
+      "plo_code": "ع5",
+      "rationale": "تقييم شبهات الوعيدية والمرجئة يقتضي معرفة القول المعتمد في مسائل الإيمان والوعيد، وهو ما ينص عليه الناتج «أن يحدد مذهب السلف الصالح في مسائل العقيدة».",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
         "category": "B",
         "first_reviewer": null,
         "independent_verifier": "blank_source_cell"
+      },
+      "selected_plo_text": "أن يحدد مذهب السلف الصالح في مسائل العقيدة، والاستدلال، والاستنباط في الفقه وأصوله.",
+      "selected_plo_pages": [
+        4
+      ],
+      "formal_domain_match": false,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "low",
+          "rationale": "خلية نص CLO2.2 فارغة فعلًا وفق القراءة البصرية الموثقة للمصدر؛ يبقى الربط غير محسوم ولا يُخترع مضمون."
+        },
+        "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+        "independent_verifier": "blind_agrees"
       }
     },
     {
@@ -65463,7 +65672,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.2",
-      "clo_text_in_json": null,
+      "clo_text_in_json": "تقييم شبهات المخالفين لمنهج السلف من الوعيدية والمرجئة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -65481,16 +65690,32 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf",
       "program_source_sha256": "3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919",
       "index": 4,
-      "plo_code": null,
-      "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز.",
-      "alignment_type": "unresolved",
-      "confidence": "high",
+      "plo_code": "م3",
+      "rationale": "تقييم شبهات الوعيدية والمرجئة تقويم للآراء بأدلتها، فيساند م3 «أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه» كما في مخرج 2.2 من الخطة القديمة للمقرر.",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
         "category": "B",
         "first_reviewer": null,
         "independent_verifier": "blank_source_cell"
+      },
+      "selected_plo_text": "أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه.",
+      "selected_plo_pages": [
+        5
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "high",
+          "rationale": "خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز."
+        },
+        "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+        "independent_verifier": "blind_agrees"
       }
     },
     {
@@ -65760,7 +65985,7 @@
       },
       "clo_index": 4,
       "clo_code": "2.2",
-      "clo_text_in_json": null,
+      "clo_text_in_json": "تقييم شبهات المخالفين لمنهج السلف من الوعيدية والمرجئة.",
       "original_mapping": {
         "confidence": "high",
         "evidence": "hash-matched shared-course blanking manifest confirms that the published PLO cell is intentionally empty",
@@ -65778,16 +66003,33 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/qiraat-ba-v47/program-specification.pdf",
       "program_source_sha256": "3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89",
       "index": 4,
-      "plo_code": null,
-      "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما.",
-      "alignment_type": "unresolved",
-      "confidence": "low",
+      "plo_code": "م3",
+      "rationale": "تقييم شبهات الوعيدية والمرجئة يندرج في عبارة م3 «مناقشة الشبهات ورد مطاعن المشككين»، والربط داعم لأن الناتج يقرنها بأثر القراءات؛ وهو قرار المخرج نفسه في الخطة القديمة.",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
         "category": "B",
         "first_reviewer": null,
         "independent_verifier": "blank_source_cell"
+      },
+      "selected_plo_text": "أن يظهر الخريج أثر القراءات على المعنى ومناقشة الشبهات ورد مطاعن المشككين بشكل واضح.",
+      "selected_plo_pages": [
+        7,
+        9
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "low",
+          "rationale": "خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما."
+        },
+        "basis": "ربط مخرج مستكمل اجتهاديًا بتوجيه المستخدم",
+        "independent_verifier": "orchestrator_decided_over_blind_م2"
       }
     },
     {
@@ -75966,10 +76208,10 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf",
       "program_source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9",
       "index": 0,
-      "plo_code": null,
-      "rationale": "معرفة مخارج الحروف وصفاتها معرفة تجويدية، ونواتج المعرفة في الأنظمة (الخطة 38) تخص القواعد القانونية والنظام السعودي والبحث القانوني وتطور القانون، فلا يتصل بها أي ناتج ولو بعلاقة غير مباشرة قابلة للتعليل.",
-      "alignment_type": "unresolved",
-      "confidence": "high",
+      "plo_code": "ع1",
+      "rationale": "ربط اجتهادي بتوجيه المستخدم: معرفة مخارج الحروف وصفاتها تضبط قراءة القرآن الكريم الذي هو المصدر الأول للقواعد النظامية في المملكة، فتتصل بخطوتين بالناتج «يعرف المفاهيم الأساسية للقواعد القانونية وخصائصها ومصادرها».",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "change",
@@ -75986,6 +76228,22 @@
           "confidence": "low",
           "rationale": "معرفة مخارج الحروف لا تقابل المعرفة القانونية الخمس في الأنظمة38؛ لا يصح تسميتها معرفة بمبادئ النظام السعودي."
         }
+      },
+      "selected_plo_text": "يعرف المفاهيم الأساسية للقواعد القانونية وخصائصها ومصادرها ونطاق تطبيقها بمختلف الأنظمة القانونية المعاصرة.",
+      "selected_plo_pages": [
+        4
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "high",
+          "rationale": "معرفة مخارج الحروف وصفاتها معرفة تجويدية، ونواتج المعرفة في الأنظمة (الخطة 38) تخص القواعد القانونية والنظام السعودي والبحث القانوني وتطور القانون، فلا يتصل بها أي ناتج ولو بعلاقة غير مباشرة قابلة للتعليل."
+        },
+        "basis": "ربط اجتهادي بتوجيه المستخدم «أكمل النقص اجتهاديا»",
+        "independent_verifier": "blind_agrees"
       }
     },
     {
@@ -76018,10 +76276,10 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf",
       "program_source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9",
       "index": 1,
-      "plo_code": null,
-      "rationale": "شرح أحكام النون الساكنة والتنوين والميم الساكنة والمدود معرفة تجويدية، ونواتج المعرفة في الأنظمة (الخطة 38) تخص القواعد القانونية والنظام السعودي والبحث القانوني وتطور القانون، فلا يتصل بها أي ناتج ولو بعلاقة غير مباشرة قابلة للتعليل.",
-      "alignment_type": "unresolved",
-      "confidence": "high",
+      "plo_code": "ع1",
+      "rationale": "ربط اجتهادي بتوجيه المستخدم: شرح أحكام النون الساكنة والتنوين والميم الساكنة والمدود يخدم سلامة قراءة النص القرآني بوصفه مصدرًا للقواعد النظامية، فيتصل بخطوتين بالناتج «يعرف المفاهيم الأساسية للقواعد القانونية وخصائصها ومصادرها».",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "change",
@@ -76038,6 +76296,22 @@
           "confidence": "low",
           "rationale": "معرفة أحكام التجويد لا تقابل معرفة قانونية أو بحثًا قانونيًا فيPLO الأنظمة38."
         }
+      },
+      "selected_plo_text": "يعرف المفاهيم الأساسية للقواعد القانونية وخصائصها ومصادرها ونطاق تطبيقها بمختلف الأنظمة القانونية المعاصرة.",
+      "selected_plo_pages": [
+        4
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "high",
+          "rationale": "شرح أحكام النون الساكنة والتنوين والميم الساكنة والمدود معرفة تجويدية، ونواتج المعرفة في الأنظمة (الخطة 38) تخص القواعد القانونية والنظام السعودي والبحث القانوني وتطور القانون، فلا يتصل بها أي ناتج ولو بعلاقة غير مباشرة قابلة للتعليل."
+        },
+        "basis": "ربط اجتهادي بتوجيه المستخدم «أكمل النقص اجتهاديا»",
+        "independent_verifier": "blind_agrees"
       }
     },
     {
@@ -76070,10 +76344,10 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf",
       "program_source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9",
       "index": 2,
-      "plo_code": null,
-      "rationale": "تطبيق التجويد وتحسين المخارج والنطق أداء صوتي؛ م1 يطلب تفسير النص القانوني واستنباط ما ينطبق على الوقائع. سلامة الصوت لا تثبت التحليل الدلالي أو الاستنباط، والانتقال عبر كون القرآن مصدرًا شرعيًا لا يربط هذا الأداء الصوتي بالمهارة القانونية المحددة.",
-      "alignment_type": "unresolved",
-      "confidence": "high",
+      "plo_code": "م1",
+      "rationale": "ربط اجتهادي بتوجيه المستخدم: تطبيق أحكام التجويد في التلاوة يضبط قراءة النص القرآني، وضبط قراءة النص شرط لتفسيره، فيساند م1 «تفسير النصوص القانونية تفسيراً سليماً» بخطوتين لكون القرآن دستور المملكة.",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
@@ -76084,6 +76358,22 @@
           "confidence": "high"
         },
         "independent_verifier": "flex_pair_unresolved"
+      },
+      "selected_plo_text": "تفسير النصوص القانونية تفسيراً سليماً ويستنبط ما ينطبق منها على الوقائع محل البحث.",
+      "selected_plo_pages": [
+        5
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "high",
+          "rationale": "تطبيق التجويد وتحسين المخارج والنطق أداء صوتي؛ م1 يطلب تفسير النص القانوني واستنباط ما ينطبق على الوقائع. سلامة الصوت لا تثبت التحليل الدلالي أو الاستنباط، والانتقال عبر كون القرآن مصدرًا شرعيًا لا يربط هذا الأداء الصوتي بالمهارة القانونية المحددة."
+        },
+        "basis": "ربط اجتهادي بتوجيه المستخدم «أكمل النقص اجتهاديا»",
+        "independent_verifier": "orchestrator_decided_over_blind_م2"
       }
     },
     {
@@ -76116,10 +76406,10 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf",
       "program_source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9",
       "index": 3,
-      "plo_code": null,
-      "rationale": "تطبيق التجويد وتحسين المخارج والنطق أداء صوتي؛ م1 يطلب تفسير النص القانوني واستنباط ما ينطبق على الوقائع. سلامة الصوت لا تثبت التحليل الدلالي أو الاستنباط، والانتقال عبر كون القرآن مصدرًا شرعيًا لا يربط هذا الأداء الصوتي بالمهارة القانونية المحددة.",
-      "alignment_type": "unresolved",
-      "confidence": "high",
+      "plo_code": "م1",
+      "rationale": "ربط اجتهادي بتوجيه المستخدم: سلامة النطق والمخارج والطلاقة تضبط قراءة النص القرآني، وضبط القراءة شرط لتفسير النص، فيساند م1 «تفسير النصوص القانونية تفسيراً سليماً» بخطوتين لكون القرآن دستور المملكة.",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "keep",
@@ -76130,6 +76420,22 @@
           "confidence": "high"
         },
         "independent_verifier": "flex_pair_unresolved"
+      },
+      "selected_plo_text": "تفسير النصوص القانونية تفسيراً سليماً ويستنبط ما ينطبق منها على الوقائع محل البحث.",
+      "selected_plo_pages": [
+        5
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "high",
+          "rationale": "تطبيق التجويد وتحسين المخارج والنطق أداء صوتي؛ م1 يطلب تفسير النص القانوني واستنباط ما ينطبق على الوقائع. سلامة الصوت لا تثبت التحليل الدلالي أو الاستنباط، والانتقال عبر كون القرآن مصدرًا شرعيًا لا يربط هذا الأداء الصوتي بالمهارة القانونية المحددة."
+        },
+        "basis": "ربط اجتهادي بتوجيه المستخدم «أكمل النقص اجتهاديا»",
+        "independent_verifier": "orchestrator_decided_over_blind_م2"
       }
     },
     {
@@ -76162,10 +76468,10 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf",
       "program_source_sha256": "0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9",
       "index": 4,
-      "plo_code": null,
-      "rationale": "الالتزام بتطوير مهارات قراءة القرآن قيمة شخصية في التلاوة، ونواتج القيم في الأنظمة (الخطة 38) تخص الابتكار في القضايا القانونية والمشاركة في رؤية المملكة 2030 والعمل ضمن فريق المقرر، فلا يتصل بها اتصالًا قابلًا للتعليل.",
-      "alignment_type": "unresolved",
-      "confidence": "high",
+      "plo_code": "ق2",
+      "rationale": "ربط اجتهادي بتوجيه المستخدم: الالتزام بتطوير مهارات قراءة القرآن من تعزيز القيم الإسلامية الذي تتبناه رؤية المملكة 2030، فيساند ق2 «أن يشارك الطالب بفاعلية في تحقيق رؤية المملكة 2030م» بخطوتين.",
+      "alignment_type": "supporting_transfer",
+      "confidence": "medium",
       "followup_review": {
         "round": "followup-2026-10-16",
         "verdict": "change",
@@ -76182,6 +76488,22 @@
           "confidence": "low",
           "rationale": "تطوير التلاوة ذاتيًا لا يطابق أيًا من قيم الأنظمة38: الابتكار القانوني والمشاركة فيرؤية2030 والعمل الجماعي."
         }
+      },
+      "selected_plo_text": "أن يشارك الطالب بفاعلية في تحقيق رؤية المملكة 2030م.",
+      "selected_plo_pages": [
+        5
+      ],
+      "formal_domain_match": true,
+      "gap_completion": {
+        "round": "gap-completion-2026-10-16",
+        "previous": {
+          "plo_code": null,
+          "alignment_type": "unresolved",
+          "confidence": "high",
+          "rationale": "الالتزام بتطوير مهارات قراءة القرآن قيمة شخصية في التلاوة، ونواتج القيم في الأنظمة (الخطة 38) تخص الابتكار في القضايا القانونية والمشاركة في رؤية المملكة 2030 والعمل ضمن فريق المقرر، فلا يتصل بها اتصالًا قابلًا للتعليل."
+        },
+        "basis": "ربط اجتهادي بتوجيه المستخدم «أكمل النقص اجتهاديا»",
+        "independent_verifier": "blind_agrees"
       }
     },
     {
@@ -77187,12 +77509,12 @@
     "after_target_program_variants": 172,
     "program_plan_units": 209,
     "effective_clo_scope_rows": 1590,
-    "mapped_clo_scope_rows": 1570,
-    "unresolved_clo_scope_rows": 20,
+    "mapped_clo_scope_rows": 1590,
+    "unresolved_clo_scope_rows": 0,
     "alignment_type_counts": {
-      "direct": 974,
-      "supporting_transfer": 595,
-      "unresolved": 20,
+      "direct": 977,
+      "supporting_transfer": 612,
+      "unresolved": 0,
       "preserved_existing": 1
     },
     "human_rights_program_variants": 5,

@@ -15,6 +15,7 @@ from verify_course_outcomes import rebuild_expected_variants
 
 AUTHORIZATION_POLICY = "authorized_program_alignment_revision"
 TEXT_POLICY = "verified_extraction_correction_matches_source"
+JUDGMENT_POLICY = "verified_reference_correction_pending_source_pdf_update"
 COMPLETION_VALUES = {"source_status": "present", "extraction_method": "verified_visual_review", "confidence": "verified"}
 
 
@@ -47,6 +48,12 @@ class SharedProgramJsonAlignmentTests(unittest.TestCase):
             if item["decision"] == "complete_verbatim"
         }
         cls.applied_completion_rows = 0
+        # Authored completions of blank source cells (user: «أكمل النقص اجتهاديا»).
+        cls.judgment = {
+            (item["course_code"], item["source_pdf"], item["clo_index"]): item
+            for item in load(BUNDLE / "gap-completions-by-judgment.json")["texts"]
+        }
+        cls.applied_judgment_rows = 0
 
     def test_lineage_is_complete_disjoint_and_has_one_program_per_child(self):
         by_parent = defaultdict(list)
@@ -117,6 +124,22 @@ class SharedProgramJsonAlignmentTests(unittest.TestCase):
                             override = next(o for o in child["overrides"] if o["field"] == f"clos[{index}].{name}")
                             self.assertEqual(TEXT_POLICY, override["policy"])
                             self.assertIn(f"SHA256={child['source_sha256']}", override["evidence"])
+                    authored = self.judgment.get((key[0], child["source_pdf"], index))
+                    if authored:
+                        # Blank in the PDF and explicitly labelled as not PDF text.
+                        self.applied_judgment_rows += 1
+                        self.assertIsNone(old_row["text"])
+                        self.assertEqual("source_blank", new_row["source_status"])
+                        self.assertEqual(authored["clo_code"], new_row["code"])
+                        self.assertEqual(authored["text"], new_row["text"])
+                        self.assertEqual(authored["assessment"], new_row["assessment"])
+                        changed |= {"text", "assessment"}
+                        completion_fields |= {f"clos[{index}].text", f"clos[{index}].assessment"}
+                        for name in ("text", "assessment"):
+                            override = next(o for o in child["overrides"] if o["field"] == f"clos[{index}].{name}")
+                            self.assertEqual(JUDGMENT_POLICY, override["policy"])
+                            self.assertIn(f"SHA256={child['source_sha256']}", override["evidence"])
+                            self.assertIn("وليس نصًا من PDF", override["evidence"])
                     self.assertEqual(
                         {k: v for k, v in old_row.items() if k not in changed},
                         {k: v for k, v in new_row.items() if k not in changed},
@@ -151,6 +174,15 @@ class SharedProgramJsonAlignmentTests(unittest.TestCase):
         rounds = Counter(item.get("round", "followup-2026-10-16") for item in self.completions.values())
         self.assertEqual({"followup-2026-10-16": 19, "text-corrections-2026-10-16": 20}, dict(rounds))
         self.assertEqual(39, len(self.completions))
+        # Seven blank source cells completed by authorised judgment, on every child.
+        self.assertEqual(7, len(self.judgment))
+        self.assertTrue(set(self.judgment).isdisjoint(self.completions))
+        self.assertEqual(
+            sum(1 for record in self.lineage for item in self.judgment.values()
+                if item["course_code"] == record["course_code"]
+                and self.variants[record["course_code"], record["new_variant_id"]]["source_pdf"] == item["source_pdf"]),
+            self.applied_judgment_rows,
+        )
         for item in self.completions.values():
             self.assertEqual(item["source_sha256"], hashlib.sha256((ROOT / item["source_pdf"]).read_bytes()).hexdigest())
             self.assertFalse(re.search(r"[\u0660-\u0669]", item["text_verbatim"]))

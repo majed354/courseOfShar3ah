@@ -60151,16 +60151,18 @@
                     "program": "القراءات",
                     "version": "38"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 5,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d. النطاق: القراءات / قديمة 38. السبب: خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d ص7. النطاق: القراءات / بكالوريوس / قديمة 38. الناتج م2: أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة. التعليل: تحليل وجه الدلالة في نصوص الكتاب والسنة على مسائل اليوم الآخر تحليل لنصوص ومسائل في علم مساند وفق منهج علمي، فيدخل في م2 «أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة». نوع العلاقة: direct. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d. النطاق: القراءات / قديمة 38. السبب: خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d ص7. النطاق: القراءات / بكالوريوس / قديمة 38. الناتج م2: أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة. التعليل: تحليل وجه الدلالة في نصوص الكتاب والسنة على مسائل اليوم الآخر تحليل لنصوص ومسائل في علم مساند وفق منهج علمي، فيدخل في م2 «أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة». نوع العلاقة: direct. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[6].plo_mappings",
@@ -60218,16 +60220,46 @@
                     "program": "القراءات",
                     "version": "38"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "ق1"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 5,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d. النطاق: القراءات / قديمة 38. السبب: خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d ص7. النطاق: القراءات / بكالوريوس / قديمة 38. الناتج ق1: أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف. التعليل: أداء حقوق النبي صلى الله عليه وسلم من تعاليم الدين، فيساند ق1 «أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف». نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d. النطاق: القراءات / قديمة 38. السبب: خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d ص7. النطاق: القراءات / بكالوريوس / قديمة 38. الناتج ق1: أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف. التعليل: أداء حقوق النبي صلى الله عليه وسلم من تعاليم الدين، فيساند ق1 «أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف». نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[5].text",
+              "value": "تحليل وجه الدلالة في نصوص الكتاب والسنة على مسائل اليوم الآخر من البعث والحشر والحساب والميزان والصراط والشفاعة.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf المطابق للبصمة SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d | الصفحات 4,5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.3 فارغة في المصدر. الأساس: اجتهاد من موضوعات المقرر 13–15 في PDF نفسه («المراد بالبعث والنشور وأدلته…»، «المراد بالحشر والحوض والعرض والحساب والميزان والصراط… وأدلة ذلك كله»، «المراد بالشفاعة»)، بصيغة مهارية مثل مخرجي 2.1 و2.2 ودون تكرارهما؛ والتقويم مستنتج من الخلية المدمجة لمجال المهارات في ص4. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[5].assessment",
+              "value": "الورقة والقلم، حقيبة الإنجاز، الملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf المطابق للبصمة SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d | الصفحات 4,5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.3 فارغة في المصدر. الأساس: اجتهاد من موضوعات المقرر 13–15 في PDF نفسه («المراد بالبعث والنشور وأدلته…»، «المراد بالحشر والحوض والعرض والحساب والميزان والصراط… وأدلة ذلك كله»، «المراد بالشفاعة»)، بصيغة مهارية مثل مخرجي 2.1 و2.2 ودون تكرارهما؛ والتقويم مستنتج من الخلية المدمجة لمجال المهارات في ص4. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[8].text",
+              "value": "الحرص على أداء حقوق النبي صلى الله عليه وسلم من محبته وطاعته واتباع سنته.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf المطابق للبصمة SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d | الصفحات 5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 3.3 فارغة في المصدر. الأساس: اجتهاد من الموضوع 7 في PDF نفسه («خصائص رسالة نبينا محمد صلى الله عليه وسلم، وأهم حقوقه»)، مكمل لمخرجي القيم 3.1 و3.2؛ والتقويم من الخلية المدمجة لمجال القيم. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[8].assessment",
+              "value": "الملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf المطابق للبصمة SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d | الصفحات 5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 3.3 فارغة في المصدر. الأساس: اجتهاد من الموضوع 7 في PDF نفسه («خصائص رسالة نبينا محمد صلى الله عليه وسلم، وأهم حقوقه»)، مكمل لمخرجي القيم 3.1 و3.2؛ والتقويم من الخلية المدمجة لمجال القيم. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             }
           ],
           "scopes": [
@@ -60931,16 +60963,18 @@
                     "program": "القرآن وعلومه",
                     "version": "39"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 5,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74. النطاق: القرآن وعلومه / قديمة 39. السبب: خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74 ص5. النطاق: القرآن وعلومه / بكالوريوس / قديمة 39. الناتج م2: أن يمارس تفسير الآيات بطريقة منهجية معتبرة. التعليل: تحليل وجه الدلالة في نصوص الكتاب والسنة على مسائل اليوم الآخر تدريب على فهم دلالة الآيات وتوظيفها، فيساند م2 «أن يمارس تفسير الآيات بطريقة منهجية معتبرة» مساندة الأداة لا الممارسة الكاملة. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74. النطاق: القرآن وعلومه / قديمة 39. السبب: خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74 ص5. النطاق: القرآن وعلومه / بكالوريوس / قديمة 39. الناتج م2: أن يمارس تفسير الآيات بطريقة منهجية معتبرة. التعليل: تحليل وجه الدلالة في نصوص الكتاب والسنة على مسائل اليوم الآخر تدريب على فهم دلالة الآيات وتوظيفها، فيساند م2 «أن يمارس تفسير الآيات بطريقة منهجية معتبرة» مساندة الأداة لا الممارسة الكاملة. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[6].plo_mappings",
@@ -60998,16 +61032,46 @@
                     "program": "القرآن وعلومه",
                     "version": "39"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "ق1"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 5,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74. النطاق: القرآن وعلومه / قديمة 39. السبب: خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74 ص5. النطاق: القرآن وعلومه / بكالوريوس / قديمة 39. الناتج ق1: أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية التعليل: أداء حقوق النبي صلى الله عليه وسلم من محبته وطاعته واتباع سنته التزام سلوكي ديني، فيساند ق1 «أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية». نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74. النطاق: القرآن وعلومه / قديمة 39. السبب: خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74 ص5. النطاق: القرآن وعلومه / بكالوريوس / قديمة 39. الناتج ق1: أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية التعليل: أداء حقوق النبي صلى الله عليه وسلم من محبته وطاعته واتباع سنته التزام سلوكي ديني، فيساند ق1 «أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية». نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[5].text",
+              "value": "تحليل وجه الدلالة في نصوص الكتاب والسنة على مسائل اليوم الآخر من البعث والحشر والحساب والميزان والصراط والشفاعة.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf المطابق للبصمة SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d | الصفحات 4,5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.3 فارغة في المصدر. الأساس: اجتهاد من موضوعات المقرر 13–15 في PDF نفسه («المراد بالبعث والنشور وأدلته…»، «المراد بالحشر والحوض والعرض والحساب والميزان والصراط… وأدلة ذلك كله»، «المراد بالشفاعة»)، بصيغة مهارية مثل مخرجي 2.1 و2.2 ودون تكرارهما؛ والتقويم مستنتج من الخلية المدمجة لمجال المهارات في ص4. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[5].assessment",
+              "value": "الورقة والقلم، حقيبة الإنجاز، الملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf المطابق للبصمة SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d | الصفحات 4,5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.3 فارغة في المصدر. الأساس: اجتهاد من موضوعات المقرر 13–15 في PDF نفسه («المراد بالبعث والنشور وأدلته…»، «المراد بالحشر والحوض والعرض والحساب والميزان والصراط… وأدلة ذلك كله»، «المراد بالشفاعة»)، بصيغة مهارية مثل مخرجي 2.1 و2.2 ودون تكرارهما؛ والتقويم مستنتج من الخلية المدمجة لمجال المهارات في ص4. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[8].text",
+              "value": "الحرص على أداء حقوق النبي صلى الله عليه وسلم من محبته وطاعته واتباع سنته.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf المطابق للبصمة SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d | الصفحات 5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 3.3 فارغة في المصدر. الأساس: اجتهاد من الموضوع 7 في PDF نفسه («خصائص رسالة نبينا محمد صلى الله عليه وسلم، وأهم حقوقه»)، مكمل لمخرجي القيم 3.1 و3.2؛ والتقويم من الخلية المدمجة لمجال القيم. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[8].assessment",
+              "value": "الملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf المطابق للبصمة SHA256=bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d | الصفحات 5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 3.3 فارغة في المصدر. الأساس: اجتهاد من الموضوع 7 في PDF نفسه («خصائص رسالة نبينا محمد صلى الله عليه وسلم، وأهم حقوقه»)، مكمل لمخرجي القيم 3.1 و3.2؛ والتقويم من الخلية المدمجة لمجال القيم. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             }
           ],
           "scopes": [
@@ -70714,16 +70778,18 @@
                     "program": "القراءات",
                     "version": "38"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 4,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d. النطاق: القراءات / قديمة 38. السبب: خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d ص7. النطاق: القراءات / بكالوريوس / قديمة 38. الناتج م2: أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة. التعليل: التمييز بين صور الكفر وغيرها وفق ضوابط التكفير وشروطه وموانعه تحليل لمسائل علم مساند بمنهج علمي، فيدخل في م2 «أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة». نوع العلاقة: direct. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d. النطاق: القراءات / قديمة 38. السبب: خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d ص7. النطاق: القراءات / بكالوريوس / قديمة 38. الناتج م2: أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة. التعليل: التمييز بين صور الكفر وغيرها وفق ضوابط التكفير وشروطه وموانعه تحليل لمسائل علم مساند بمنهج علمي، فيدخل في م2 «أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة». نوع العلاقة: direct. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[6].plo_mappings",
@@ -70781,16 +70847,46 @@
                     "program": "القراءات",
                     "version": "38"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "ق1"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 5,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d. النطاق: القراءات / قديمة 38. السبب: خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d ص7. النطاق: القراءات / بكالوريوس / قديمة 38. الناتج ق1: أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف. التعليل: الرضا بالقدر مع الأخذ بالأسباب وترك الاحتجاج به على ترك الواجبات وفعل المعاصي من تعاليم الدين، فيساند ق1 «أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف»؛ وهو أقرب من ق3 الخاص بالاستقلالية وتطوير الذات. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d. النطاق: القراءات / قديمة 38. السبب: خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d ص7. النطاق: القراءات / بكالوريوس / قديمة 38. الناتج ق1: أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف. التعليل: الرضا بالقدر مع الأخذ بالأسباب وترك الاحتجاج به على ترك الواجبات وفعل المعاصي من تعاليم الدين، فيساند ق1 «أن يلتزم الخريج بأخلاقيات الطالب الجامعي المنبثقة من تعاليم الدين الإسلامي الحنيف»؛ وهو أقرب من ق3 الخاص بالاستقلالية وتطوير الذات. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[5].text",
+              "value": "التمييز بين ما يحكم فيه بالكفر وما لا يحكم فيه به في صور الكفر المدروسة، في ضوء ضوابط التكفير وشروطه وموانعه.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf المطابق للبصمة SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 | الصفحات 4. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.3 فارغة في المصدر. الأساس: اجتهاد من الموضوعين 11 و13 في PDF نفسه («التكفير: تعريفه، وضوابطه، وشروطه، وموانعه»، «الوقوف على بعض صور الكفر، والتمييز بين ما يحكم فيه بالكفر من عدمه»)، دون تكرار 2.1 و2.2؛ والتقويم من الخلية المدمجة لمجال المهارات. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[5].assessment",
+              "value": "الورقة والقلم، حقيبة الإنجاز، الملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf المطابق للبصمة SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 | الصفحات 4. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.3 فارغة في المصدر. الأساس: اجتهاد من الموضوعين 11 و13 في PDF نفسه («التكفير: تعريفه، وضوابطه، وشروطه، وموانعه»، «الوقوف على بعض صور الكفر، والتمييز بين ما يحكم فيه بالكفر من عدمه»)، دون تكرار 2.1 و2.2؛ والتقويم من الخلية المدمجة لمجال المهارات. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[8].text",
+              "value": "الرضا بقضاء الله وقدره مع الأخذ بالأسباب، وترك الاحتجاج بالقدر على ترك الواجبات وفعل المعاصي.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf المطابق للبصمة SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 | الصفحات 4,5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 3.3 فارغة في المصدر. الأساس: اجتهاد من الموضوعين 1 و3 في PDF نفسه («معنى الإيمان بالقضاء والقدر»، «علاقة الدعاء وسائر الأسباب بالقدر»، «حكم الاحتجاج بالقدر… والجواب عن شبهة الاحتجاج بالقدر على ترك الواجب»)؛ والتقويم من خلية القيم (الملاحظة). السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[8].assessment",
+              "value": "الملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf المطابق للبصمة SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 | الصفحات 4,5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 3.3 فارغة في المصدر. الأساس: اجتهاد من الموضوعين 1 و3 في PDF نفسه («معنى الإيمان بالقضاء والقدر»، «علاقة الدعاء وسائر الأسباب بالقدر»، «حكم الاحتجاج بالقدر… والجواب عن شبهة الاحتجاج بالقدر على ترك الواجب»)؛ والتقويم من خلية القيم (الملاحظة). السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             }
           ],
           "scopes": [
@@ -71459,16 +71555,18 @@
                     "program": "القرآن وعلومه",
                     "version": "39"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "م3"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 4,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74. النطاق: القرآن وعلومه / قديمة 39. السبب: خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74 ص5. النطاق: القرآن وعلومه / بكالوريوس / قديمة 39. الناتج م3: أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه. التعليل: التمييز بين ما يحكم فيه بالكفر وما لا يحكم فيه به في صور الكفر المدروسة وفق الضوابط تقويم للأقوال والأحكام بأدلتها، فيساند م3 «أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه» على نحو مخرجي 2.1 و2.2 من المقرر. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74. النطاق: القرآن وعلومه / قديمة 39. السبب: خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74 ص5. النطاق: القرآن وعلومه / بكالوريوس / قديمة 39. الناتج م3: أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه. التعليل: التمييز بين ما يحكم فيه بالكفر وما لا يحكم فيه به في صور الكفر المدروسة وفق الضوابط تقويم للأقوال والأحكام بأدلتها، فيساند م3 «أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه» على نحو مخرجي 2.1 و2.2 من المقرر. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[6].plo_mappings",
@@ -71526,16 +71624,46 @@
                     "program": "القرآن وعلومه",
                     "version": "39"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "ق1"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 5,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74. النطاق: القرآن وعلومه / قديمة 39. السبب: خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74 ص5. النطاق: القرآن وعلومه / بكالوريوس / قديمة 39. الناتج ق1: أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية التعليل: الرضا بالقدر مع الأخذ بالأسباب وترك الاحتجاج به على ترك الواجبات وفعل المعاصي سلوك ديني منضبط، فيساند ق1 «أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية»؛ وهو أقرب من ق2 الخاص بتطوير النفس. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74. النطاق: القرآن وعلومه / قديمة 39. السبب: خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf SHA256=0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74 ص5. النطاق: القرآن وعلومه / بكالوريوس / قديمة 39. الناتج ق1: أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية التعليل: الرضا بالقدر مع الأخذ بالأسباب وترك الاحتجاج به على ترك الواجبات وفعل المعاصي سلوك ديني منضبط، فيساند ق1 «أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية»؛ وهو أقرب من ق2 الخاص بتطوير النفس. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[5].text",
+              "value": "التمييز بين ما يحكم فيه بالكفر وما لا يحكم فيه به في صور الكفر المدروسة، في ضوء ضوابط التكفير وشروطه وموانعه.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf المطابق للبصمة SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 | الصفحات 4. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.3 فارغة في المصدر. الأساس: اجتهاد من الموضوعين 11 و13 في PDF نفسه («التكفير: تعريفه، وضوابطه، وشروطه، وموانعه»، «الوقوف على بعض صور الكفر، والتمييز بين ما يحكم فيه بالكفر من عدمه»)، دون تكرار 2.1 و2.2؛ والتقويم من الخلية المدمجة لمجال المهارات. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[5].assessment",
+              "value": "الورقة والقلم، حقيبة الإنجاز، الملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf المطابق للبصمة SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 | الصفحات 4. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.3 فارغة في المصدر. الأساس: اجتهاد من الموضوعين 11 و13 في PDF نفسه («التكفير: تعريفه، وضوابطه، وشروطه، وموانعه»، «الوقوف على بعض صور الكفر، والتمييز بين ما يحكم فيه بالكفر من عدمه»)، دون تكرار 2.1 و2.2؛ والتقويم من الخلية المدمجة لمجال المهارات. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[8].text",
+              "value": "الرضا بقضاء الله وقدره مع الأخذ بالأسباب، وترك الاحتجاج بالقدر على ترك الواجبات وفعل المعاصي.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf المطابق للبصمة SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 | الصفحات 4,5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 3.3 فارغة في المصدر. الأساس: اجتهاد من الموضوعين 1 و3 في PDF نفسه («معنى الإيمان بالقضاء والقدر»، «علاقة الدعاء وسائر الأسباب بالقدر»، «حكم الاحتجاج بالقدر… والجواب عن شبهة الاحتجاج بالقدر على ترك الواجب»)؛ والتقويم من خلية القيم (الملاحظة). السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[8].assessment",
+              "value": "الملاحظة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf المطابق للبصمة SHA256=8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53 | الصفحات 4,5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 3.3 فارغة في المصدر. الأساس: اجتهاد من الموضوعين 1 و3 في PDF نفسه («معنى الإيمان بالقضاء والقدر»، «علاقة الدعاء وسائر الأسباب بالقدر»، «حكم الاحتجاج بالقدر… والجواب عن شبهة الاحتجاج بالقدر على ترك الواجب»)؛ والتقويم من خلية القيم (الملاحظة). السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             }
           ],
           "scopes": [
@@ -153048,16 +153176,18 @@
                     "version": "38",
                     "degree": "بكالوريوس"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
+                  "plo_codes": [
+                    "م2"
+                  ],
+                  "status": "mapped",
                   "confidence": "high",
                   "source_page": 4,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--3b6c8f3dc2.pdf SHA256=b1935f12576c22a1119e54fc280173bc8d4a2b3c19e6b7693aab453735f550ec ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d. النطاق: القراءات / قديمة 38. السبب: خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--3b6c8f3dc2.pdf SHA256=b1935f12576c22a1119e54fc280173bc8d4a2b3c19e6b7693aab453735f550ec ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d ص7. النطاق: القراءات / بكالوريوس / قديمة 38. الناتج م2: أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة. التعليل: تحليل وجوه الإعجاز في نماذج من الآيات تحليل لنصوص في علم تخصصي، فيدخل في م2 «أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة»، كقرار المخرج نفسه في الخطة 47 المطابقة النواتج، مع أن خلية الملف تطبع م٣. نوع العلاقة: direct. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--3b6c8f3dc2.pdf SHA256=b1935f12576c22a1119e54fc280173bc8d4a2b3c19e6b7693aab453735f550ec ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d. النطاق: القراءات / قديمة 38. السبب: خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--3b6c8f3dc2.pdf SHA256=b1935f12576c22a1119e54fc280173bc8d4a2b3c19e6b7693aab453735f550ec ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d ص7. النطاق: القراءات / بكالوريوس / قديمة 38. الناتج م2: أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة. التعليل: تحليل وجوه الإعجاز في نماذج من الآيات تحليل لنصوص في علم تخصصي، فيدخل في م2 «أن يحلل الخريج المتون والنصوص والمسائل في العلوم التخصصية والمساندة وفق المنهجية العلمية الصحيحة»، كقرار المخرج نفسه في الخطة 47 المطابقة النواتج، مع أن خلية الملف تطبع م٣. نوع العلاقة: direct. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[4].plo_mappings",
@@ -153104,6 +153234,20 @@
               "policy": "authorized_program_alignment_revision",
               "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--3b6c8f3dc2.pdf SHA256=b1935f12576c22a1119e54fc280173bc8d4a2b3c19e6b7693aab453735f550ec ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v38/program-specification.pdf SHA256=ee994f23dba3c0113672c8927a35e660a9dc21ffeef2cb0fd4f7ec92b920ea5d ص7. النطاق: القراءات / بكالوريوس / قديمة 38. الناتج ق3: أن يحقق الخريج الاستقلالية في التعلم وتطوير الذات، وتنمية القدرة لديه على القيادة وتحمل المسؤولية. التعليل: مضمون المخرج «أن يبادر الطالب إلى تطوير معرفته باوجه إعجاز القران باستمرار.» يلائم ق3: الاستقلالية في التعلم وتطوير الذات والقيادة وتحمل المسؤولية. نوع العلاقة: direct. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
               "reviewed_at": "2026-10-16T16:32:22+03:00"
+            },
+            {
+              "field": "clos[3].text",
+              "value": "أن يحلل الطالب وجوه الإعجاز في نماذج من الآيات القرآنية.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--3b6c8f3dc2.pdf المطابق للبصمة SHA256=b1935f12576c22a1119e54fc280173bc8d4a2b3c19e6b7693aab453735f550ec | الصفحات 4,5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.1 فارغة في المصدر. الأساس: نص الصف غير المرقوم أعلى ص5 من PDF نفسه، المرجح أنه تتمة صف 2.1 المنقسم عند فاصل الصفحة (التظليل الرمادي نفسه وموقعه وخلو الرمز)، ويطابق حرفيًا مخرج 2.1 في نسخة المقرر لبرنامج القرآن وعلومه (assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--2ab6b9436e.pdf) وتوصيف الخطة 47. التقويم من الكتلة المقابلة في ص5. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[3].assessment",
+              "value": "المباشر: التقييمات الدورية؛ غير المباشر: استطلاع آراء الطلبة",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--3b6c8f3dc2.pdf المطابق للبصمة SHA256=b1935f12576c22a1119e54fc280173bc8d4a2b3c19e6b7693aab453735f550ec | الصفحات 4,5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.1 فارغة في المصدر. الأساس: نص الصف غير المرقوم أعلى ص5 من PDF نفسه، المرجح أنه تتمة صف 2.1 المنقسم عند فاصل الصفحة (التظليل الرمادي نفسه وموقعه وخلو الرمز)، ويطابق حرفيًا مخرج 2.1 في نسخة المقرر لبرنامج القرآن وعلومه (assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--2ab6b9436e.pdf) وتوصيف الخطة 47. التقويم من الكتلة المقابلة في ص5. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             }
           ],
           "scopes": [
@@ -253589,16 +253733,18 @@
                     "program": "القرآن وعلومه",
                     "version": "47"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "م3"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 5,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf SHA256=3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919. النطاق: القرآن وعلومه / جديدة 47. السبب: خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf SHA256=3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919 ص5. النطاق: القرآن وعلومه / بكالوريوس / جديدة 47. الناتج م3: أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه. التعليل: تقييم الشبهات العقدية تقويم للآراء بأدلتها، فيساند م3 «أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه» كما في مخرج 2.2 من الخطة القديمة للمقرر. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf SHA256=3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919. النطاق: القرآن وعلومه / جديدة 47. السبب: خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf SHA256=3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919 ص5. النطاق: القرآن وعلومه / بكالوريوس / جديدة 47. الناتج م3: أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه. التعليل: تقييم الشبهات العقدية تقويم للآراء بأدلتها، فيساند م3 «أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه» كما في مخرج 2.2 من الخطة القديمة للمقرر. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[5].plo_mappings",
@@ -253645,6 +253791,20 @@
               "policy": "authorized_program_alignment_revision",
               "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf SHA256=3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919 ص5. النطاق: القرآن وعلومه / بكالوريوس / جديدة 47. الناتج ق1: أن يكون ملتزما بقيم الأمانة العلمية والسلوكيات الأخلاقية التعليل: يتعلق المخرج بالأمانة والموضوعية والنزاهة أو السلوك الأخلاقي، فيسند الالتزام بالأمانة العلمية والسلوكيات الأخلاقية. نوع العلاقة: direct. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
               "reviewed_at": "2026-10-16T16:32:22+03:00"
+            },
+            {
+              "field": "clos[4].text",
+              "value": "تقييم شبهات المخالفين لمنهج السلف في الملائكة والكتب وأشراط الساعة والبعث.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf المطابق للبصمة SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 | الصفحات 5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.2 فارغة في المصدر. الأساس: منقول من مخرج المهارات 2.2 في توصيف المقرر نفسه لبرنامجي القرآن وعلومه (39) والقراءات (38) (2001373-2، assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf) بتتمته «والبعث» المطبوعة أعلى ص5، مع ضبط المسافة في «والكتب»؛ موضوعات المقرر متطابقة. التقويم مستنتج من صف 2.1 في PDF نفسه لأن خلايا صف 2.2 فارغة كلها. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[4].assessment",
+              "value": "الاختبارات، المناقشات، أوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf المطابق للبصمة SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 | الصفحات 5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.2 فارغة في المصدر. الأساس: منقول من مخرج المهارات 2.2 في توصيف المقرر نفسه لبرنامجي القرآن وعلومه (39) والقراءات (38) (2001373-2، assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf) بتتمته «والبعث» المطبوعة أعلى ص5، مع ضبط المسافة في «والكتب»؛ موضوعات المقرر متطابقة. التقويم مستنتج من صف 2.1 في PDF نفسه لأن خلايا صف 2.2 فارغة كلها. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             }
           ],
           "scopes": [
@@ -254134,16 +254294,18 @@
                     "program": "القراءات",
                     "version": "47"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "م3"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 5,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/qiraat-ba-v47/program-specification.pdf SHA256=3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89. النطاق: القراءات / جديدة 47. السبب: خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v47/program-specification.pdf SHA256=3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89 ص7. النطاق: القراءات / بكالوريوس / جديدة 47. الناتج م3: أن يظهر الخريج أثر القراءات على المعنى ومناقشة الشبهات ورد مطاعن المشككين بشكل واضح. التعليل: تقييم شبهات المخالفين يندرج في عبارة م3 «مناقشة الشبهات ورد مطاعن المشككين»، والربط داعم لأن الناتج يقرنها بأثر القراءات؛ وهو قرار المخرج نفسه في الخطة القديمة. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/qiraat-ba-v47/program-specification.pdf SHA256=3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89. النطاق: القراءات / جديدة 47. السبب: خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v47/program-specification.pdf SHA256=3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89 ص7. النطاق: القراءات / بكالوريوس / جديدة 47. الناتج م3: أن يظهر الخريج أثر القراءات على المعنى ومناقشة الشبهات ورد مطاعن المشككين بشكل واضح. التعليل: تقييم شبهات المخالفين يندرج في عبارة م3 «مناقشة الشبهات ورد مطاعن المشككين»، والربط داعم لأن الناتج يقرنها بأثر القراءات؛ وهو قرار المخرج نفسه في الخطة القديمة. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[5].plo_mappings",
@@ -254190,6 +254352,20 @@
               "policy": "authorized_program_alignment_revision",
               "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v47/program-specification.pdf SHA256=3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89 ص8,9. النطاق: القراءات / بكالوريوس / جديدة 47. الناتج ق2: أن يتفاعل الخريج التفاعل الإيجابي، ويعمل بروح الفريق الواحد مع أقرانه. التعليل: مضمون المخرج «المبادرة بالأعمال الصالحة مع جتمعه رجاء رامه الله في الآخرة.» يلائم ق2: التفاعل الإيجابي والعمل بروح الفريق. نوع العلاقة: direct. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
               "reviewed_at": "2026-10-16T16:32:22+03:00"
+            },
+            {
+              "field": "clos[4].text",
+              "value": "تقييم شبهات المخالفين لمنهج السلف في الملائكة والكتب وأشراط الساعة والبعث.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf المطابق للبصمة SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 | الصفحات 5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.2 فارغة في المصدر. الأساس: منقول من مخرج المهارات 2.2 في توصيف المقرر نفسه لبرنامجي القرآن وعلومه (39) والقراءات (38) (2001373-2، assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf) بتتمته «والبعث» المطبوعة أعلى ص5، مع ضبط المسافة في «والكتب»؛ موضوعات المقرر متطابقة. التقويم مستنتج من صف 2.1 في PDF نفسه لأن خلايا صف 2.2 فارغة كلها. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[4].assessment",
+              "value": "الاختبارات، المناقشات، أوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf المطابق للبصمة SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 | الصفحات 5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.2 فارغة في المصدر. الأساس: منقول من مخرج المهارات 2.2 في توصيف المقرر نفسه لبرنامجي القرآن وعلومه (39) والقراءات (38) (2001373-2، assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf) بتتمته «والبعث» المطبوعة أعلى ص5، مع ضبط المسافة في «والكتب»؛ موضوعات المقرر متطابقة. التقويم مستنتج من صف 2.1 في PDF نفسه لأن خلايا صف 2.2 فارغة كلها. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             }
           ],
           "scopes": [
@@ -254679,16 +254855,18 @@
                     "program": "الشريعة",
                     "version": "47"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "ع5"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 5,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/sharia-ba-v47/program-specification.pdf SHA256=f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8. النطاق: الشريعة / جديدة 47. السبب: مراجعة المصدر المطابق للبصمة تثبت أن خلية نص CLO2.2 فارغة؛ لا يُنشأ ربط لمخرج غير مكتوب. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/sharia-ba-v47/program-specification.pdf SHA256=f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8 ص4. النطاق: الشريعة / بكالوريوس / جديدة 47. الناتج ع5: أن يحدد مذهب السلف الصالح في مسائل العقيدة، والاستدلال، والاستنباط في الفقه وأصوله. التعليل: تقييم شبهات المخالفين في الملائكة والكتب وأشراط الساعة والبعث يقوم على معرفة الموقف المعتمد الذي تُوزن به، وهو مضمون الناتج «أن يحدد مذهب السلف الصالح في مسائل العقيدة». نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 ص5. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/sharia-ba-v47/program-specification.pdf SHA256=f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8. النطاق: الشريعة / جديدة 47. السبب: مراجعة المصدر المطابق للبصمة تثبت أن خلية نص CLO2.2 فارغة؛ لا يُنشأ ربط لمخرج غير مكتوب. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/sharia-ba-v47/program-specification.pdf SHA256=f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8 ص4. النطاق: الشريعة / بكالوريوس / جديدة 47. الناتج ع5: أن يحدد مذهب السلف الصالح في مسائل العقيدة، والاستدلال، والاستنباط في الفقه وأصوله. التعليل: تقييم شبهات المخالفين في الملائكة والكتب وأشراط الساعة والبعث يقوم على معرفة الموقف المعتمد الذي تُوزن به، وهو مضمون الناتج «أن يحدد مذهب السلف الصالح في مسائل العقيدة». نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[5].plo_mappings",
@@ -254735,6 +254913,20 @@
               "policy": "authorized_program_alignment_revision",
               "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/sharia-ba-v47/program-specification.pdf SHA256=f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8 ص5. النطاق: الشريعة / بكالوريوس / جديدة 47. الناتج ق1: أن يتحلى بالنزاهة وآداب الخلاف والأخلاقيات المهنية والأكاديمية التي اكتسبها من الدراسات الشرعية. التعليل: المبادرة بالأعمال الصالحة في المجتمع سلوك أخلاقي نابع من العلم الشرعي، فيتصل بما في ق1 «والأخلاقيات المهنية والأكاديمية التي اكتسبها من الدراسات الشرعية»، وهو أقرب من ق3 المقيد بالأعمال المكلف بها وفق الأنظمة. نوع العلاقة: supporting_transfer. مراجعة المتابعة: followup-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
               "reviewed_at": "2026-10-16T21:00:00+03:00"
+            },
+            {
+              "field": "clos[4].text",
+              "value": "تقييم شبهات المخالفين لمنهج السلف في الملائكة والكتب وأشراط الساعة والبعث.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf المطابق للبصمة SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 | الصفحات 5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.2 فارغة في المصدر. الأساس: منقول من مخرج المهارات 2.2 في توصيف المقرر نفسه لبرنامجي القرآن وعلومه (39) والقراءات (38) (2001373-2، assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf) بتتمته «والبعث» المطبوعة أعلى ص5، مع ضبط المسافة في «والكتب»؛ موضوعات المقرر متطابقة. التقويم مستنتج من صف 2.1 في PDF نفسه لأن خلايا صف 2.2 فارغة كلها. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[4].assessment",
+              "value": "الاختبارات، المناقشات، أوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf المطابق للبصمة SHA256=b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03 | الصفحات 5. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.2 فارغة في المصدر. الأساس: منقول من مخرج المهارات 2.2 في توصيف المقرر نفسه لبرنامجي القرآن وعلومه (39) والقراءات (38) (2001373-2، assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf) بتتمته «والبعث» المطبوعة أعلى ص5، مع ضبط المسافة في «والكتب»؛ موضوعات المقرر متطابقة. التقويم مستنتج من صف 2.1 في PDF نفسه لأن خلايا صف 2.2 فارغة كلها. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             }
           ],
           "scopes": [
@@ -263731,16 +263923,18 @@
                     "program": "القرآن وعلومه",
                     "version": "47"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "م3"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 4,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf SHA256=3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919. النطاق: القرآن وعلومه / جديدة 47. السبب: خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf SHA256=3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919 ص5. النطاق: القرآن وعلومه / بكالوريوس / جديدة 47. الناتج م3: أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه. التعليل: تقييم شبهات الوعيدية والمرجئة تقويم للآراء بأدلتها، فيساند م3 «أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه» كما في مخرج 2.2 من الخطة القديمة للمقرر. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf SHA256=3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919. النطاق: القرآن وعلومه / جديدة 47. السبب: خلية CLO فارغة فعلًا في PDF المطابق للبصمة؛ لا يوجد مضمون لاختيار PLO مناسب، ولم يخترع نص أو رمز. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf SHA256=3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919 ص5. النطاق: القرآن وعلومه / بكالوريوس / جديدة 47. الناتج م3: أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه. التعليل: تقييم شبهات الوعيدية والمرجئة تقويم للآراء بأدلتها، فيساند م3 «أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه» كما في مخرج 2.2 من الخطة القديمة للمقرر. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[5].plo_mappings",
@@ -263871,6 +264065,20 @@
               "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e | الصفحات [5] | نقل حرفي لنص CLO 3.1 من خلية المصدر المرئية بعد قراءتين مستقلتين متطابقتين؛ لا تأليف ولا تعديل للنص. الحالة السابقة: نص مشوه بأثر طبقة نص PDF (ترميز الحروف أو ترتيب الكلمات). سجل النقل: assets/course-specifications/shared-program-json-alignment-20261016/clo-text-completions.json (الجولة text-corrections-2026-10-16).",
               "policy": "verified_extraction_correction_matches_source",
               "reviewed_at": "2026-10-16T23:00:00+03:00"
+            },
+            {
+              "field": "clos[4].text",
+              "value": "تقييم شبهات المخالفين لمنهج السلف من الوعيدية والمرجئة.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf المطابق للبصمة SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e | الصفحات 4. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.2 فارغة في المصدر. الأساس: منقول من مخرج المهارات 2.2 في توصيف المقرر نفسه لبرنامجي القرآن وعلومه (39) والقراءات (38) (2001474-2، assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf)؛ موضوعات المقرر متطابقة. التقويم مستنتج من صف 2.1 في PDF نفسه. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[4].assessment",
+              "value": "الاختبارات، المناقشات، أوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf المطابق للبصمة SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e | الصفحات 4. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.2 فارغة في المصدر. الأساس: منقول من مخرج المهارات 2.2 في توصيف المقرر نفسه لبرنامجي القرآن وعلومه (39) والقراءات (38) (2001474-2، assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf)؛ موضوعات المقرر متطابقة. التقويم مستنتج من صف 2.1 في PDF نفسه. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             }
           ],
           "scopes": [
@@ -264399,16 +264607,18 @@
                     "program": "الشريعة",
                     "version": "47"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "ع5"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 4,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/sharia-ba-v47/program-specification.pdf SHA256=f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8. النطاق: الشريعة / جديدة 47. السبب: خلية نص CLO2.2 فارغة فعلًا وفق القراءة البصرية الموثقة للمصدر؛ يبقى الربط غير محسوم ولا يُخترع مضمون. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/sharia-ba-v47/program-specification.pdf SHA256=f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8 ص4. النطاق: الشريعة / بكالوريوس / جديدة 47. الناتج ع5: أن يحدد مذهب السلف الصالح في مسائل العقيدة، والاستدلال، والاستنباط في الفقه وأصوله. التعليل: تقييم شبهات الوعيدية والمرجئة يقتضي معرفة القول المعتمد في مسائل الإيمان والوعيد، وهو ما ينص عليه الناتج «أن يحدد مذهب السلف الصالح في مسائل العقيدة». نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/sharia-ba-v47/program-specification.pdf SHA256=f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8. النطاق: الشريعة / جديدة 47. السبب: خلية نص CLO2.2 فارغة فعلًا وفق القراءة البصرية الموثقة للمصدر؛ يبقى الربط غير محسوم ولا يُخترع مضمون. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/sharia-ba-v47/program-specification.pdf SHA256=f9d6ea46848698a6c5e7884476d00ba6ad857789e5606194fc99262c32a224c8 ص4. النطاق: الشريعة / بكالوريوس / جديدة 47. الناتج ع5: أن يحدد مذهب السلف الصالح في مسائل العقيدة، والاستدلال، والاستنباط في الفقه وأصوله. التعليل: تقييم شبهات الوعيدية والمرجئة يقتضي معرفة القول المعتمد في مسائل الإيمان والوعيد، وهو ما ينص عليه الناتج «أن يحدد مذهب السلف الصالح في مسائل العقيدة». نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[5].plo_mappings",
@@ -264539,6 +264749,20 @@
               "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e | الصفحات [5] | نقل حرفي لنص CLO 3.1 من خلية المصدر المرئية بعد قراءتين مستقلتين متطابقتين؛ لا تأليف ولا تعديل للنص. الحالة السابقة: نص مشوه بأثر طبقة نص PDF (ترميز الحروف أو ترتيب الكلمات). سجل النقل: assets/course-specifications/shared-program-json-alignment-20261016/clo-text-completions.json (الجولة text-corrections-2026-10-16).",
               "policy": "verified_extraction_correction_matches_source",
               "reviewed_at": "2026-10-16T23:00:00+03:00"
+            },
+            {
+              "field": "clos[4].text",
+              "value": "تقييم شبهات المخالفين لمنهج السلف من الوعيدية والمرجئة.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf المطابق للبصمة SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e | الصفحات 4. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.2 فارغة في المصدر. الأساس: منقول من مخرج المهارات 2.2 في توصيف المقرر نفسه لبرنامجي القرآن وعلومه (39) والقراءات (38) (2001474-2، assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf)؛ موضوعات المقرر متطابقة. التقويم مستنتج من صف 2.1 في PDF نفسه. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[4].assessment",
+              "value": "الاختبارات، المناقشات، أوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf المطابق للبصمة SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e | الصفحات 4. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.2 فارغة في المصدر. الأساس: منقول من مخرج المهارات 2.2 في توصيف المقرر نفسه لبرنامجي القرآن وعلومه (39) والقراءات (38) (2001474-2، assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf)؛ موضوعات المقرر متطابقة. التقويم مستنتج من صف 2.1 في PDF نفسه. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             }
           ],
           "scopes": [
@@ -265067,16 +265291,18 @@
                     "program": "القراءات",
                     "version": "47"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "م3"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 4,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/qiraat-ba-v47/program-specification.pdf SHA256=3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89. النطاق: القراءات / جديدة 47. السبب: خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v47/program-specification.pdf SHA256=3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89 ص7. النطاق: القراءات / بكالوريوس / جديدة 47. الناتج م3: أن يظهر الخريج أثر القراءات على المعنى ومناقشة الشبهات ورد مطاعن المشككين بشكل واضح. التعليل: تقييم شبهات الوعيدية والمرجئة يندرج في عبارة م3 «مناقشة الشبهات ورد مطاعن المشككين»، والربط داعم لأن الناتج يقرنها بأثر القراءات؛ وهو قرار المخرج نفسه في الخطة القديمة. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/qiraat-ba-v47/program-specification.pdf SHA256=3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89. النطاق: القراءات / جديدة 47. السبب: خلية CLO فارغة في المصدر الأصلي السابق للتفريغ وفي النسخة المنشورة، وقد طوبقت بصمتاهما وفُحصت الصفحة بصريًا؛ لا يُختلق نص أو ربط من رمز الصف أو المجال وحدهما. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/qiraat-ba-v47/program-specification.pdf SHA256=3687046787d258403e7ee007df9fb58f0fc7318b167af86d3ba3ab7ae5e7aa89 ص7. النطاق: القراءات / بكالوريوس / جديدة 47. الناتج م3: أن يظهر الخريج أثر القراءات على المعنى ومناقشة الشبهات ورد مطاعن المشككين بشكل واضح. التعليل: تقييم شبهات الوعيدية والمرجئة يندرج في عبارة م3 «مناقشة الشبهات ورد مطاعن المشككين»، والربط داعم لأن الناتج يقرنها بأثر القراءات؛ وهو قرار المخرج نفسه في الخطة القديمة. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[5].plo_mappings",
@@ -265207,6 +265433,20 @@
               "evidence": "مراجعة assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e | الصفحات [5] | نقل حرفي لنص CLO 3.1 من خلية المصدر المرئية بعد قراءتين مستقلتين متطابقتين؛ لا تأليف ولا تعديل للنص. الحالة السابقة: نص مشوه بأثر طبقة نص PDF (ترميز الحروف أو ترتيب الكلمات). سجل النقل: assets/course-specifications/shared-program-json-alignment-20261016/clo-text-completions.json (الجولة text-corrections-2026-10-16).",
               "policy": "verified_extraction_correction_matches_source",
               "reviewed_at": "2026-10-16T23:00:00+03:00"
+            },
+            {
+              "field": "clos[4].text",
+              "value": "تقييم شبهات المخالفين لمنهج السلف من الوعيدية والمرجئة.",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf المطابق للبصمة SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e | الصفحات 4. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.2 فارغة في المصدر. الأساس: منقول من مخرج المهارات 2.2 في توصيف المقرر نفسه لبرنامجي القرآن وعلومه (39) والقراءات (38) (2001474-2، assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf)؛ موضوعات المقرر متطابقة. التقويم مستنتج من صف 2.1 في PDF نفسه. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
+            },
+            {
+              "field": "clos[4].assessment",
+              "value": "الاختبارات، المناقشات، أوراق العمل",
+              "evidence": "مراجعة بصرية لملف assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf المطابق للبصمة SHA256=99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e | الصفحات 4. استكمال اجتهادي بتوجيه المستخدم في 2026-10-16 («أكمل النقص اجتهاديا»)، وليس نصًا من PDF؛ خلية CLO 2.2 فارغة في المصدر. الأساس: منقول من مخرج المهارات 2.2 في توصيف المقرر نفسه لبرنامجي القرآن وعلومه (39) والقراءات (38) (2001474-2، assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf)؛ موضوعات المقرر متطابقة. التقويم مستنتج من صف 2.1 في PDF نفسه. السجل: assets/course-specifications/shared-program-json-alignment-20261016/gap-completions-by-judgment.json.",
+              "policy": "verified_reference_correction_pending_source_pdf_update",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             }
           ],
           "scopes": [
@@ -279490,16 +279730,18 @@
                     "program": "الأنظمة",
                     "version": "38"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 4,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9. النطاق: الأنظمة / بكالوريوس / قديمة 38. السبب: معرفة مخارج الحروف وصفاتها معرفة تجويدية، ونواتج المعرفة في الأنظمة (الخطة 38) تخص القواعد القانونية والنظام السعودي والبحث القانوني وتطور القانون، فلا يتصل بها أي ناتج ولو بعلاقة غير مباشرة قابلة للتعليل. مراجعة المتابعة: followup-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9 ص4. النطاق: الأنظمة / بكالوريوس / قديمة 38. الناتج ع1: يعرف المفاهيم الأساسية للقواعد القانونية وخصائصها ومصادرها ونطاق تطبيقها بمختلف الأنظمة القانونية المعاصرة. التعليل: ربط اجتهادي بتوجيه المستخدم: معرفة مخارج الحروف وصفاتها تضبط قراءة القرآن الكريم الذي هو المصدر الأول للقواعد النظامية في المملكة، فتتصل بخطوتين بالناتج «يعرف المفاهيم الأساسية للقواعد القانونية وخصائصها ومصادرها». نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9. النطاق: الأنظمة / بكالوريوس / قديمة 38. السبب: معرفة مخارج الحروف وصفاتها معرفة تجويدية، ونواتج المعرفة في الأنظمة (الخطة 38) تخص القواعد القانونية والنظام السعودي والبحث القانوني وتطور القانون، فلا يتصل بها أي ناتج ولو بعلاقة غير مباشرة قابلة للتعليل. مراجعة المتابعة: followup-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T21:00:00+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9 ص4. النطاق: الأنظمة / بكالوريوس / قديمة 38. الناتج ع1: يعرف المفاهيم الأساسية للقواعد القانونية وخصائصها ومصادرها ونطاق تطبيقها بمختلف الأنظمة القانونية المعاصرة. التعليل: ربط اجتهادي بتوجيه المستخدم: معرفة مخارج الحروف وصفاتها تضبط قراءة القرآن الكريم الذي هو المصدر الأول للقواعد النظامية في المملكة، فتتصل بخطوتين بالناتج «يعرف المفاهيم الأساسية للقواعد القانونية وخصائصها ومصادرها». نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[1].plo_mappings",
@@ -279511,16 +279753,18 @@
                     "program": "الأنظمة",
                     "version": "38"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "ع1"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 4,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9. النطاق: الأنظمة / بكالوريوس / قديمة 38. السبب: شرح أحكام النون الساكنة والتنوين والميم الساكنة والمدود معرفة تجويدية، ونواتج المعرفة في الأنظمة (الخطة 38) تخص القواعد القانونية والنظام السعودي والبحث القانوني وتطور القانون، فلا يتصل بها أي ناتج ولو بعلاقة غير مباشرة قابلة للتعليل. مراجعة المتابعة: followup-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9 ص4. النطاق: الأنظمة / بكالوريوس / قديمة 38. الناتج ع1: يعرف المفاهيم الأساسية للقواعد القانونية وخصائصها ومصادرها ونطاق تطبيقها بمختلف الأنظمة القانونية المعاصرة. التعليل: ربط اجتهادي بتوجيه المستخدم: شرح أحكام النون الساكنة والتنوين والميم الساكنة والمدود يخدم سلامة قراءة النص القرآني بوصفه مصدرًا للقواعد النظامية، فيتصل بخطوتين بالناتج «يعرف المفاهيم الأساسية للقواعد القانونية وخصائصها ومصادرها». نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9. النطاق: الأنظمة / بكالوريوس / قديمة 38. السبب: شرح أحكام النون الساكنة والتنوين والميم الساكنة والمدود معرفة تجويدية، ونواتج المعرفة في الأنظمة (الخطة 38) تخص القواعد القانونية والنظام السعودي والبحث القانوني وتطور القانون، فلا يتصل بها أي ناتج ولو بعلاقة غير مباشرة قابلة للتعليل. مراجعة المتابعة: followup-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T21:00:00+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9 ص4. النطاق: الأنظمة / بكالوريوس / قديمة 38. الناتج ع1: يعرف المفاهيم الأساسية للقواعد القانونية وخصائصها ومصادرها ونطاق تطبيقها بمختلف الأنظمة القانونية المعاصرة. التعليل: ربط اجتهادي بتوجيه المستخدم: شرح أحكام النون الساكنة والتنوين والميم الساكنة والمدود يخدم سلامة قراءة النص القرآني بوصفه مصدرًا للقواعد النظامية، فيتصل بخطوتين بالناتج «يعرف المفاهيم الأساسية للقواعد القانونية وخصائصها ومصادرها». نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[2].plo_mappings",
@@ -279532,16 +279776,18 @@
                     "program": "الأنظمة",
                     "version": "38"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 4,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9. النطاق: الأنظمة / قديمة 38. السبب: تطبيق التجويد وتحسين المخارج والنطق أداء صوتي؛ م1 يطلب تفسير النص القانوني واستنباط ما ينطبق على الوقائع. سلامة الصوت لا تثبت التحليل الدلالي أو الاستنباط، والانتقال عبر كون القرآن مصدرًا شرعيًا لا يربط هذا الأداء الصوتي بالمهارة القانونية المحددة. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9 ص5. النطاق: الأنظمة / بكالوريوس / قديمة 38. الناتج م1: تفسير النصوص القانونية تفسيراً سليماً ويستنبط ما ينطبق منها على الوقائع محل البحث. التعليل: ربط اجتهادي بتوجيه المستخدم: تطبيق أحكام التجويد في التلاوة يضبط قراءة النص القرآني، وضبط قراءة النص شرط لتفسيره، فيساند م1 «تفسير النصوص القانونية تفسيراً سليماً» بخطوتين لكون القرآن دستور المملكة. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9. النطاق: الأنظمة / قديمة 38. السبب: تطبيق التجويد وتحسين المخارج والنطق أداء صوتي؛ م1 يطلب تفسير النص القانوني واستنباط ما ينطبق على الوقائع. سلامة الصوت لا تثبت التحليل الدلالي أو الاستنباط، والانتقال عبر كون القرآن مصدرًا شرعيًا لا يربط هذا الأداء الصوتي بالمهارة القانونية المحددة. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9 ص5. النطاق: الأنظمة / بكالوريوس / قديمة 38. الناتج م1: تفسير النصوص القانونية تفسيراً سليماً ويستنبط ما ينطبق منها على الوقائع محل البحث. التعليل: ربط اجتهادي بتوجيه المستخدم: تطبيق أحكام التجويد في التلاوة يضبط قراءة النص القرآني، وضبط قراءة النص شرط لتفسيره، فيساند م1 «تفسير النصوص القانونية تفسيراً سليماً» بخطوتين لكون القرآن دستور المملكة. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[3].plo_mappings",
@@ -279553,16 +279799,18 @@
                     "program": "الأنظمة",
                     "version": "38"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "م1"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 4,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9. النطاق: الأنظمة / قديمة 38. السبب: تطبيق التجويد وتحسين المخارج والنطق أداء صوتي؛ م1 يطلب تفسير النص القانوني واستنباط ما ينطبق على الوقائع. سلامة الصوت لا تثبت التحليل الدلالي أو الاستنباط، والانتقال عبر كون القرآن مصدرًا شرعيًا لا يربط هذا الأداء الصوتي بالمهارة القانونية المحددة. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9 ص5. النطاق: الأنظمة / بكالوريوس / قديمة 38. الناتج م1: تفسير النصوص القانونية تفسيراً سليماً ويستنبط ما ينطبق منها على الوقائع محل البحث. التعليل: ربط اجتهادي بتوجيه المستخدم: سلامة النطق والمخارج والطلاقة تضبط قراءة النص القرآني، وضبط القراءة شرط لتفسير النص، فيساند م1 «تفسير النصوص القانونية تفسيراً سليماً» بخطوتين لكون القرآن دستور المملكة. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9. النطاق: الأنظمة / قديمة 38. السبب: تطبيق التجويد وتحسين المخارج والنطق أداء صوتي؛ م1 يطلب تفسير النص القانوني واستنباط ما ينطبق على الوقائع. سلامة الصوت لا تثبت التحليل الدلالي أو الاستنباط، والانتقال عبر كون القرآن مصدرًا شرعيًا لا يربط هذا الأداء الصوتي بالمهارة القانونية المحددة. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9 ص5. النطاق: الأنظمة / بكالوريوس / قديمة 38. الناتج م1: تفسير النصوص القانونية تفسيراً سليماً ويستنبط ما ينطبق منها على الوقائع محل البحث. التعليل: ربط اجتهادي بتوجيه المستخدم: سلامة النطق والمخارج والطلاقة تضبط قراءة النص القرآني، وضبط القراءة شرط لتفسير النص، فيساند م1 «تفسير النصوص القانونية تفسيراً سليماً» بخطوتين لكون القرآن دستور المملكة. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[4].plo_mappings",
@@ -279574,16 +279822,18 @@
                     "program": "الأنظمة",
                     "version": "38"
                   },
-                  "plo_codes": [],
-                  "status": "explicitly_unmapped",
-                  "confidence": "high",
+                  "plo_codes": [
+                    "ق2"
+                  ],
+                  "status": "mapped",
+                  "confidence": "medium",
                   "source_page": 4,
-                  "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9. النطاق: الأنظمة / بكالوريوس / قديمة 38. السبب: الالتزام بتطوير مهارات قراءة القرآن قيمة شخصية في التلاوة، ونواتج القيم في الأنظمة (الخطة 38) تخص الابتكار في القضايا القانونية والمشاركة في رؤية المملكة 2030 والعمل ضمن فريق المقرر، فلا يتصل بها اتصالًا قابلًا للتعليل. مراجعة المتابعة: followup-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9 ص5. النطاق: الأنظمة / بكالوريوس / قديمة 38. الناتج ق2: أن يشارك الطالب بفاعلية في تحقيق رؤية المملكة 2030م. التعليل: ربط اجتهادي بتوجيه المستخدم: الالتزام بتطوير مهارات قراءة القرآن من تعزيز القيم الإسلامية الذي تتبناه رؤية المملكة 2030، فيساند ق2 «أن يشارك الطالب بفاعلية في تحقيق رؤية المملكة 2030م» بخطوتين. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "قرار مراجعة JSON مأذون بتاريخ 2026-10-16 بإبقاء الربط غير محسوم وعدم تخمين رمز. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مرجع PLO المفحوص: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9. النطاق: الأنظمة / بكالوريوس / قديمة 38. السبب: الالتزام بتطوير مهارات قراءة القرآن قيمة شخصية في التلاوة، ونواتج القيم في الأنظمة (الخطة 38) تخص الابتكار في القضايا القانونية والمشاركة في رؤية المملكة 2030 والعمل ضمن فريق المقرر، فلا يتصل بها اتصالًا قابلًا للتعليل. مراجعة المتابعة: followup-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T21:00:00+03:00"
+              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf SHA256=e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc ص4. مصدر PLO: assets/course-specifications/program-specifications-20260916/systems-ba-v38/program-specification.pdf SHA256=0a5e4902ebf03f6914677a463cf2ccb2c7671d7ccb7c194c2c179a5084ab1ea9 ص5. النطاق: الأنظمة / بكالوريوس / قديمة 38. الناتج ق2: أن يشارك الطالب بفاعلية في تحقيق رؤية المملكة 2030م. التعليل: ربط اجتهادي بتوجيه المستخدم: الالتزام بتطوير مهارات قراءة القرآن من تعزيز القيم الإسلامية الذي تتبناه رؤية المملكة 2030، فيساند ق2 «أن يشارك الطالب بفاعلية في تحقيق رؤية المملكة 2030م» بخطوتين. نوع العلاقة: supporting_transfer. مراجعة المتابعة: gap-completion-2026-10-16. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+              "reviewed_at": "2026-10-16T23:30:00+03:00"
             },
             {
               "field": "clos[0].text",
