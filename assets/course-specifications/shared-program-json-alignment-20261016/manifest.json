@@ -122,13 +122,14 @@
     "previous-context.json": "2f2c747f51f67cefde81ee60f11fde5db4e61690dcceac3dd25ea4a879786589",
     "deployment-verification.json": "438713021e6a96f73a76c1e6ac4229fb95cd7d35ad030ea5a19f45fff1ce5ae2",
     "peer-reviews.json": "1e4cc896efa62e5369171c804796e472662621034aaa83f211f0c08f56aa8969",
-    "alignment-decisions.json": "29e405ec1238b70773a6f8aa395f0f14877a893ca0af03cf34bd652111f5559e",
+    "alignment-decisions.json": "31893952935ed7f4a20226f3ec9134b1aa05c0d1c4144efb17cec57411473bac",
     "legacy-replay-limitations.json": "63fc95a9f65b963ed3fba84157bfd9f4b66b02e0cfb099fc056fb5b83ecc0a51",
     "program-plo-reference.json": "945eef1507a1c929035cbff29df8760d574b01ea333a1707dcac768f4122430c",
     "followup-review-decisions.json": "73e5e341a6e75792d0ea94645506b7bec09721b460e3a1cadc924baf8f9d8bf3",
-    "clo-text-completions.json": "05ba5905ac395f8bbd3853d9344c2940a93edb17d0455c2535ee960d36e8308a",
+    "clo-text-completions.json": "d2551cde2adedcf889854d95003999f6930b838f1b912cdb3e688505f52bd33e",
     "gap-completions-by-judgment.json": "13f093a078b4b21ff4ec5b04c2783806e0a6814f6164b0cec51160d73c0587a0",
-    "pending-cases-decisions.json": "ac3b658d295b381814f31f23e13123fa8c530a3a5dbd4f0ba05b4f95666b8618"
+    "pending-cases-decisions.json": "ac3b658d295b381814f31f23e13123fa8c530a3a5dbd4f0ba05b4f95666b8618",
+    "machine-extraction-review-20261017.json": "b843ff9180005308da94501e553596db2c74b8edca039c73aad30ff0de72df9d"
   },
   "validation": {
     "baseline_verifier": "passed",

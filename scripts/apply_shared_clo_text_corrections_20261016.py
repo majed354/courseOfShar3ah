@@ -1,5 +1,9 @@
 """Apply verbatim CLO text corrections left open by the shared-program follow-up.
 
+Each run applies one named round (``--round``). The first round,
+``text-corrections-2026-10-16`` (commit 1fe900d), is the default; later rounds
+such as ``machine-extraction-review-2026-10-17`` reuse the same checks.
+
 The follow-up round (commits dd616ed and ad87e4a) transferred 19 CLO texts and
 kept further truncated, merged or garbled rows as ``judgment_only_readings``.
 This round reads a reviewed input file whose items each carry two independent
@@ -7,7 +11,7 @@ image readings of the hash-matched source PDF that agree with the transferred
 text, and then:
 
 * appends one record per item to ``clo-text-completions.json`` (decision
-  ``complete_verbatim``, round ``text-corrections-2026-10-16``);
+  ``complete_verbatim``, under the round given by ``--round``);
 * writes ``clos[i].text/source_status/extraction_method/confidence`` under
   ``verified_extraction_correction_matches_source`` to every programme child
   that shares the source row. An existing text override path is replaced in
@@ -60,8 +64,10 @@ def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", required=True, type=Path, help="reviewed correction items (JSON list)")
     parser.add_argument("--reviewed-at", default="2026-10-16T23:00:00+03:00")
+    parser.add_argument("--round", default=ROUND, help=f"round label recorded on each item (default {ROUND})")
     parser.add_argument("--check", action="store_true", help="validate inputs without writing")
     args = parser.parse_args(argv)
+    round_label = args.round
 
     outcomes_path = ROOT / "course-outcomes.json"
     outcomes = load(outcomes_path)
@@ -69,8 +75,8 @@ def main(argv=None) -> int:
     decisions_doc = load(BUNDLE / "alignment-decisions.json")
     gaps_doc = load(BUNDLE / "remaining-alignment-gaps.json")
     items = load(args.input)
-    if any(r.get("round") == ROUND for r in completions["records"]):
-        raise SystemExit(f"round {ROUND} already applied")
+    if any(r.get("round") == round_label for r in completions["records"]):
+        raise SystemExit(f"round {round_label} already applied")
 
     next_id = max(r["id"] for r in completions["records"]) + 1
     seen = set()
@@ -107,7 +113,7 @@ def main(argv=None) -> int:
             f"مراجعة {item['source_pdf']} SHA256={item['source_sha256']} | الصفحات {item['source_page']} | "
             f"نقل حرفي لنص CLO {item['clo_code']} من خلية المصدر المرئية بعد قراءتين مستقلتين متطابقتين؛ "
             f"لا تأليف ولا تعديل للنص. الحالة السابقة: {item['previous_state']}. "
-            f"سجل النقل: {COMPLETIONS_PATH} (الجولة {ROUND})."
+            f"سجل النقل: {COMPLETIONS_PATH} (الجولة {round_label})."
         )
         superseded = []
         for variant in hits:
@@ -140,7 +146,7 @@ def main(argv=None) -> int:
             variant_rows += 1
         completions["records"].append({
             "id": next_id,
-            "round": ROUND,
+            "round": round_label,
             "course_code": item["course_code"],
             "source_pdf": item["source_pdf"],
             "source_sha256": item["source_sha256"],
@@ -176,8 +182,8 @@ def main(argv=None) -> int:
             record["clo_text_in_json"] = text
             gap_rows += 1
 
-    applied = [r for r in completions["records"] if r.get("round") == ROUND]
-    completions["summary"][ROUND] = {
+    applied = [r for r in completions["records"] if r.get("round") == round_label]
+    completions["summary"][round_label] = {
         "complete_verbatim": len(applied),
         "programme_rows": variant_rows,
         "judgment_only_readings_applied": sum(

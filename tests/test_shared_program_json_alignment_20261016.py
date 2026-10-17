@@ -188,11 +188,21 @@ class SharedProgramJsonAlignmentTests(unittest.TestCase):
         # 19 transfers from the follow-up round (dd616ed) plus 20 from the
         # text-corrections round, which applied the judgment-only readings and
         # the further truncated/merged/garbled rows of the same source tables
-        # after two agreeing image readings. Each round is pinned separately so
-        # that neither can grow silently.
+        # after two agreeing image readings, plus 150 from the machine-extraction
+        # review, which checked the remaining geometric_pdf/targeted_ocr rows of
+        # the 54 shared courses against their page images (149) and 2001373-2 2.1
+        # («اللّٰه» stored, «الله» printed). Each round is pinned
+        # separately so that none can grow silently.
         rounds = Counter(item.get("round", "followup-2026-10-16") for item in self.completions.values())
-        self.assertEqual({"followup-2026-10-16": 19, "text-corrections-2026-10-16": 20}, dict(rounds))
-        self.assertEqual(39, len(self.completions))
+        self.assertEqual(
+            {
+                "followup-2026-10-16": 19,
+                "text-corrections-2026-10-16": 20,
+                "machine-extraction-review-2026-10-17": 150,
+            },
+            dict(rounds),
+        )
+        self.assertEqual(189, len(self.completions))
         # Seven blank source cells completed by authorised judgment, on every child.
         self.assertEqual(7, len(self.judgment))
         # Exactly one authorised recode (2003215-2, Systems plan 38: 3.2 -> 2.3).
