@@ -160252,17 +160252,17 @@
                     "degree": "بكالوريوس"
                   },
                   "plo_codes": [
-                    "م2"
+                    "م3"
                   ],
                   "status": "mapped",
                   "confidence": "high",
                   "source_page": 5,
-                  "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/new-plan-updates-20261002/2002456-2--new-v47.pdf SHA256=e3b833b5e654a8262e15c521f7b1bd9da5caf6b57e7e3765d01b84358674cb36 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf SHA256=3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919 ص5. النطاق: القرآن وعلومه / بكالوريوس / جديدة 47. الناتج م2: أن يمارس تفسير الآيات بطريقة منهجية معتبرة. التعليل: يمارس المخرج فهم النصوص واستنباط دلالاتها أو تطبيق منهج التفسير؛ ويخدم ممارسة تفسير الآيات بمنهج معتبر. نوع العلاقة: direct. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+                  "evidence": "الرابط المطبوع يحكم بقرار المستخدم. مصدر CLO والرابط: assets/course-specifications/new-plan-updates-20261002/2002456-2--new-v47.pdf SHA256=e3b833b5e654a8262e15c521f7b1bd9da5caf6b57e7e3765d01b84358674cb36 ص5: يطبع الصف 2.1 الرمز م3، والتوصيف متعدد البرامج (القرآن وعلومه – القراءات) فخليته مسجلة غامضة النطاق. يعضده توصيف المقرر الرسمي لبرنامج القرآن وعلومه assets/course-specifications/quran-old-v39/2002456-2.pdf SHA256=5bd5124dd8ca980f88f27be92769992b97dce58065f19246baae7055196816ad الذي يطبع م3 للمخرج نفسه. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf SHA256=3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919 ص5. الناتج م3: أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه. لا دليل على خطأ طباعي؛ كان الربط المأذون السابق م2. سجل القرار: assets/course-specifications/quran-official-source-20261028/printed-link-followup.json."
                 }
               ],
               "policy": "authorized_program_alignment_revision",
-              "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/new-plan-updates-20261002/2002456-2--new-v47.pdf SHA256=e3b833b5e654a8262e15c521f7b1bd9da5caf6b57e7e3765d01b84358674cb36 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf SHA256=3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919 ص5. النطاق: القرآن وعلومه / بكالوريوس / جديدة 47. الناتج م2: أن يمارس تفسير الآيات بطريقة منهجية معتبرة. التعليل: يمارس المخرج فهم النصوص واستنباط دلالاتها أو تطبيق منهج التفسير؛ ويخدم ممارسة تفسير الآيات بمنهج معتبر. نوع العلاقة: direct. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
-              "reviewed_at": "2026-10-16T16:32:22+03:00"
+              "evidence": "الرابط المطبوع يحكم بقرار المستخدم. مصدر CLO والرابط: assets/course-specifications/new-plan-updates-20261002/2002456-2--new-v47.pdf SHA256=e3b833b5e654a8262e15c521f7b1bd9da5caf6b57e7e3765d01b84358674cb36 ص5: يطبع الصف 2.1 الرمز م3، والتوصيف متعدد البرامج (القرآن وعلومه – القراءات) فخليته مسجلة غامضة النطاق. يعضده توصيف المقرر الرسمي لبرنامج القرآن وعلومه assets/course-specifications/quran-old-v39/2002456-2.pdf SHA256=5bd5124dd8ca980f88f27be92769992b97dce58065f19246baae7055196816ad الذي يطبع م3 للمخرج نفسه. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf SHA256=3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919 ص5. الناتج م3: أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه. لا دليل على خطأ طباعي؛ كان الربط المأذون السابق م2. سجل القرار: assets/course-specifications/quran-official-source-20261028/printed-link-followup.json.",
+              "reviewed_at": "2026-10-28"
             },
             {
               "field": "clos[4].plo_mappings",

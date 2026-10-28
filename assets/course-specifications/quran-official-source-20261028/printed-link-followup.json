@@ -1,0 +1,89 @@
+{
+  "schema_version": "quran-printed-link-followup-v1",
+  "reviewed_at": "2026-10-28",
+  "authority_ar": "قاعدة المستخدم: يحكم الرابط المطبوع في نسخ القرآن وعلومه ما لم يقم دليل على خطأ طباعي؛ أحالت الجلسة الأم هذا الصف بعد مزامنة الأنبوب.",
+  "applied": [
+    {
+      "course_code": "2002456-2",
+      "variant_id": "6b04def5245857ec30126ec606123067ca5d8e298ce8aa538790af0eae23d14a",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "version": "47"
+      },
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "source_pdf": "assets/course-specifications/new-plan-updates-20261002/2002456-2--new-v47.pdf",
+      "source_sha256": "e3b833b5e654a8262e15c521f7b1bd9da5caf6b57e7e3765d01b84358674cb36",
+      "source_page": 5,
+      "printed_plo_code": "م3",
+      "previous_authorized_plo_code": "م2",
+      "read_by": "visual_review",
+      "corroboration": {
+        "pdf": "assets/course-specifications/quran-old-v39/2002456-2.pdf",
+        "sha256": "5bd5124dd8ca980f88f27be92769992b97dce58065f19246baae7055196816ad",
+        "printed_plo_code": "م3"
+      },
+      "previous_override": {
+        "field": "clos[3].plo_mappings",
+        "value": [
+          {
+            "scope": {
+              "program": "القرآن وعلومه",
+              "plan_type": "جديدة",
+              "version": "47",
+              "degree": "بكالوريوس"
+            },
+            "plo_codes": [
+              "م2"
+            ],
+            "status": "mapped",
+            "confidence": "high",
+            "source_page": 5,
+            "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/new-plan-updates-20261002/2002456-2--new-v47.pdf SHA256=e3b833b5e654a8262e15c521f7b1bd9da5caf6b57e7e3765d01b84358674cb36 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf SHA256=3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919 ص5. النطاق: القرآن وعلومه / بكالوريوس / جديدة 47. الناتج م2: أن يمارس تفسير الآيات بطريقة منهجية معتبرة. التعليل: يمارس المخرج فهم النصوص واستنباط دلالاتها أو تطبيق منهج التفسير؛ ويخدم ممارسة تفسير الآيات بمنهج معتبر. نوع العلاقة: direct. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json."
+          }
+        ],
+        "policy": "authorized_program_alignment_revision",
+        "evidence": "تكييف ربط JSON مأذون من المستخدم بتاريخ 2026-10-16، وليس استخراجًا من خلية PDF. مصدر CLO: assets/course-specifications/new-plan-updates-20261002/2002456-2--new-v47.pdf SHA256=e3b833b5e654a8262e15c521f7b1bd9da5caf6b57e7e3765d01b84358674cb36 ص5. مصدر PLO: assets/course-specifications/program-specifications-20260916/quran-ba-v47/program-specification.pdf SHA256=3e34bdb11c2c5cc4234b57b283d1612a0dea8c64f41f48fd1a8c2fe2ea984919 ص5. النطاق: القرآن وعلومه / بكالوريوس / جديدة 47. الناتج م2: أن يمارس تفسير الآيات بطريقة منهجية معتبرة. التعليل: يمارس المخرج فهم النصوص واستنباط دلالاتها أو تطبيق منهج التفسير؛ ويخدم ممارسة تفسير الآيات بمنهج معتبر. نوع العلاقة: direct. سجل القرار: assets/course-specifications/shared-program-json-alignment-20261016/alignment-decisions.json.",
+        "reviewed_at": "2026-10-16T16:32:22+03:00"
+      }
+    }
+  ],
+  "not_applied": [
+    {
+      "course_code": "2002252-2",
+      "variant_id": "67ea9d68",
+      "clo_codes": [
+        "2.1",
+        "2.2"
+      ],
+      "version": "47",
+      "authorized": "م2",
+      "printed": "م3",
+      "reason_ar": "التوصيف متطلب كلية متعدد البرامج (خمسة برامج) بخلية رمز واحدة، فالرمز المطبوع لا يخص نواتج القرآن وعلومه؛ يبقى الربط المأذون حتى يتوفر توصيف خاص بالبرنامج أو قرار بشري."
+    },
+    {
+      "course_code": "20031301-2",
+      "variant_id": "f54cd6cb",
+      "clo_codes": [
+        "2.1"
+      ],
+      "version": "47",
+      "authorized": "ع3",
+      "printed": "م2",
+      "reason_ar": "التوصيف متطلب كلية متعدد البرامج (خمسة برامج) بخلية رمز واحدة، فالرمز المطبوع لا يخص نواتج القرآن وعلومه؛ يبقى الربط المأذون حتى يتوفر توصيف خاص بالبرنامج أو قرار بشري."
+    },
+    {
+      "course_code": "2003220-2",
+      "variant_id": "a2230a47",
+      "clo_codes": [
+        "2.1"
+      ],
+      "version": "47",
+      "authorized": "ع3",
+      "printed": "م2",
+      "reason_ar": "التوصيف متطلب كلية متعدد البرامج (خمسة برامج) بخلية رمز واحدة، فالرمز المطبوع لا يخص نواتج القرآن وعلومه؛ يبقى الربط المأذون حتى يتوفر توصيف خاص بالبرنامج أو قرار بشري."
+    }
+  ]
+}

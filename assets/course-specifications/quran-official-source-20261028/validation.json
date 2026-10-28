@@ -74,5 +74,26 @@
       "tests/test_shared_course_plo_blanking.py",
       "tests/test_course_outcome_extractor_regressions.py"
     ]
+  },
+  "printed_link_followup": {
+    "row": "2002456-2 2.1 القرآن وعلومه 47: م2→م3 المطبوع",
+    "python_tests": {
+      "status": "passed",
+      "exit_code": 0,
+      "count": 199,
+      "log_sha256": "5137803440962630bade7278bf30250fdbeabb1e2a184889497bdcb5d114d900"
+    },
+    "javascript_tests": {
+      "status": "passed",
+      "count": 13
+    },
+    "schema_verifier": {
+      "status": "passed",
+      "exit_code": 0
+    },
+    "pdf_bytes_changed": 0,
+    "reader": "6b04def5: 2.1 م3 وبقية الصفوف مطابقة للمطبوع (قارئ سلة على نسخة مؤقتة دون كتابة)",
+    "not_applied_rows": 5,
+    "not_applied_reason_ar": "توصيفات متطلبات كلية لخمسة برامج بخلية رمز واحدة: 2002252-2 2.1 و2.2، و20031301-2 2.1، و2003220-2 2.1."
   }
 }

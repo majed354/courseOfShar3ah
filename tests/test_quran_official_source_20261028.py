@@ -66,10 +66,18 @@ class QuranOfficialSource20261028Tests(unittest.TestCase):
                 self.assertEqual(blanks[old["source_pdf"]]["source_sha256"], new["source_sha256"])
                 self.assertEqual(new["source_sha256"], hashlib.sha256((ROOT / new["source_pdf"]).read_bytes()).hexdigest())
                 self.assertEqual(strip_links(old["extracted"]), strip_links(new["extracted"]))
-                # Untouched sibling copies of the course stay exactly as they were.
-                self.assertEqual(
-                    [v for v in self.snapshot["outcome_courses"][code]["variants"] if v["variant_id"] != old["variant_id"]],
-                    [v for v in self.outcomes["courses"][code]["variants"] if v["variant_id"] != new["variant_id"]])
+                # Untouched sibling copies of the course stay exactly as they were,
+                # apart from the one printed-link follow-up checked below.
+                followup = {a["variant_id"]: a for a in load(QURAN_OFFICIAL_BUNDLE / "printed-link-followup.json")["applied"]}
+                siblings_before = [v for v in self.snapshot["outcome_courses"][code]["variants"] if v["variant_id"] != old["variant_id"]]
+                siblings_after = [v for v in self.outcomes["courses"][code]["variants"] if v["variant_id"] != new["variant_id"]]
+                self.assertEqual([v["variant_id"] for v in siblings_before], [v["variant_id"] for v in siblings_after])
+                for before, after in zip(siblings_before, siblings_after):
+                    if after["variant_id"] in followup:
+                        field = f"clos[{followup[after['variant_id']]['clo_index']}].plo_mappings"
+                        before = {**before, "overrides": [o for o in before["overrides"] if o["field"] != field]}
+                        after = {**after, "overrides": [o for o in after["overrides"] if o["field"] != field]}
+                    self.assertEqual(before, after)
                 before = self.snapshot["data_course_details"][code]["variants"]
                 after = self.data["course_details"][code]["variants"]
                 self.assertEqual(len(before), len(after))
@@ -160,6 +168,34 @@ class QuranOfficialSource20261028Tests(unittest.TestCase):
                     self.assertEqual(new["source_pdf"], new["source_review"]["evidence"]["file"])
                     self.assertEqual(new["source_sha256"], new["source_alignment"]["source_sha256"])
                     self.assertFalse(new["source_alignment"]["source_update_recommended"])
+
+    def test_printed_link_followup_on_the_shared_quran_qiraat_v47_copy(self):
+        record = load(QURAN_OFFICIAL_BUNDLE / "printed-link-followup.json")
+        self.assertEqual(1, len(record["applied"]))
+        item = record["applied"][0]
+        variant = self.live[item["course_code"], item["variant_id"]]
+        self.assertEqual(item["source_sha256"], hashlib.sha256((ROOT / variant["source_pdf"]).read_bytes()).hexdigest())
+        self.assertEqual(item["corroboration"]["sha256"],
+                         hashlib.sha256((ROOT / item["corroboration"]["pdf"]).read_bytes()).hexdigest())
+        reviewed = next(o for o in variant["overrides"] if o["field"] == "clos")["value"][item["clo_index"]]
+        self.assertEqual([item["printed_plo_code"]], reviewed["document_plo_codes"])
+        row = effective_extraction(variant)["clos"][item["clo_index"]]
+        self.assertEqual(item["clo_code"], row["code"])
+        self.assertEqual([[item["printed_plo_code"]]], [m["plo_codes"] for m in row["plo_mappings"]])
+        override = next(o for o in variant["overrides"] if o["field"] == f"clos[{item['clo_index']}].plo_mappings")
+        self.assertEqual(AUTHORIZED, override["policy"])
+        self.assertEqual(variant["source_sha256"], re.search(r"SHA256=([a-f0-9]{64})", override["evidence"]).group(1))
+        self.assertEqual([item["previous_authorized_plo_code"]], item["previous_override"]["value"][0]["plo_codes"])
+        # The previous authorized link is the one frozen before this step.
+        old = next(v for v in self.snapshot["outcome_courses"][item["course_code"]]["variants"] if v["variant_id"] == item["variant_id"])
+        self.assertIn(item["previous_override"], old["overrides"])
+        # Rows left alone: printed code of a five-programme college requirement.
+        for left in record["not_applied"]:
+            variant = next(v for (c, vid), v in self.live.items() if c == left["course_code"] and vid.startswith(left["variant_id"]))
+            for clo in left["clo_codes"]:
+                row = next(r for r in effective_extraction(variant)["clos"] if r["code"] == clo)
+                self.assertEqual([left["printed"]], row["document_plo_codes"])
+                self.assertEqual([[left["authorized"]]], [m["plo_codes"] for m in row["plo_mappings"]])
 
     def test_recommendations_and_source_ledger_follow_the_repointing(self):
         retired = load(QURAN_OFFICIAL_BUNDLE / "superseded-source-recommendations.json")["records"]
