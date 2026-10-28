@@ -1,0 +1,28 @@
+{
+  "schema_version": "shared-program-json-deployment-verification-v1",
+  "data_commit_ref": "bcf607d46172965029cc678d8870183131cefd4d",
+  "netlify": {
+    "id": "6ae21bc96ce648f13f0c8d5a",
+    "state": "ready",
+    "commit_ref": "bcf607d46172965029cc678d8870183131cefd4d",
+    "error_message": null,
+    "published_at": "2026-10-28T15:59:32.963Z",
+    "context": "production"
+  },
+  "github": {
+    "run_id": 40721436059,
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "published_file_hash_check": {
+    "status": "passed",
+    "checked_file_count": 5,
+    "files": [
+      "data.json",
+      "course-outcomes.json",
+      "assets/course-specifications/shared-program-json-alignment-20261028/alignment-decisions.json",
+      "assets/course-specifications/shared-program-json-alignment-20261028/manifest.json",
+      "assets/course-specifications/shared-program-json-alignment-20261028/variant-lineage.json"
+    ]
+  }
+}

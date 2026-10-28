@@ -1,6 +1,6 @@
 {
   "schema_version": "shared-program-json-alignment-v1",
-  "status": "applied_pending_publication",
+  "status": "published_data_verified",
   "authored_at": "2026-10-28T12:00:00+03:00",
   "authority": "متابعة لطلب المستخدم الأصلي بتخصيص بيانات المقررات المشتركة لكل برنامج، أحالتها الجلسة الأم في 2026-10-28 لإحدى عشرة نسخة مشتركة بقيت متعددة البرامج؛ مع معيار المستخدم «كن مرنا في بعض الربط، حتى وإن لم يكن قريبا جدا» و«أكمل النقص اجتهاديا».",
   "scope": {
@@ -81,7 +81,8 @@
     "variant-lineage.json": "7d90f9f9e58c54acfa7f7b110248dafb7552f94b4b4276209545ab064c6ed371",
     "review-decisions.json": "14b0fd47e9263151b60665e2e9c1c2275092aeb94aa34a24cdab84621998c8e9",
     "alignment-decisions.json": "2f41a712a58e969e8699382e554282f3c3b692878c3b4df67f1b930ea6cdac9b",
-    "validation.json": "b3df45ba91b4b387f1747d3c13905b5f948e95d2ef7f5d0d7ad8faae2bf9835a"
+    "validation.json": "b3df45ba91b4b387f1747d3c13905b5f948e95d2ef7f5d0d7ad8faae2bf9835a",
+    "deployment-verification.json": "a3bb82427cc92bfe29a4516b6c6bb05534321bfacd925b7804fac5c2c50e4e08"
   },
   "adversarial_review": {
     "reviewed_units": 298,
@@ -95,5 +96,15 @@
     "javascript_tests": 13,
     "automation_clo_mappings_checked": 1900,
     "pdf_hashes_checked": 641
+  },
+  "publication": {
+    "status": "verified",
+    "data_commit_ref": "bcf607d46172965029cc678d8870183131cefd4d",
+    "netlify_deploy_id": "6ae21bc96ce648f13f0c8d5a",
+    "netlify_state": "ready",
+    "netlify_error_message": null,
+    "github_run_id": 40721436059,
+    "sha256_matched_files": 5,
+    "audit_receipt": "deployment-verification.json"
   }
 }
