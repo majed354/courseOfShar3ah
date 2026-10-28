@@ -1,6 +1,6 @@
 {
   "schema_version": "quran-official-source-v1",
-  "status": "data_verified_pending_publication",
+  "status": "published_data_verified",
   "authored_at": "2026-10-28T12:00:00+03:00",
   "authority": "موافقة المستخدم المنقولة من الجلسة الأم: «Have the alignment session point the Quran copies in data.json to the official Quran specifications that carry printed links, with re-extraction, verification and publication.»",
   "rule_ar": "تُنقل نسخة القرآن وعلومه فقط حين تكون نسختها الحالية مفرغة مأخوذة مباشرة من توصيف رسمي لبرنامج القرآن وعلومه موجود في المستودع، ويكون الإصدار مؤهلًا في بيان quran-old-v39.",

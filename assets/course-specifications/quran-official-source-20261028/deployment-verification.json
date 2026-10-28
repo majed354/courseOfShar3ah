@@ -1,0 +1,30 @@
+{
+  "schema_version": "quran-official-source-deployment-verification-v1",
+  "data_commit_ref": "1e4d7739456d523d1eb1a7f2cae11381f6260a30",
+  "netlify": {
+    "id": "6ae259ffb4353d948dc08de1",
+    "state": "ready",
+    "commit_ref": "1e4d7739456d523d1eb1a7f2cae11381f6260a30",
+    "error_message": null,
+    "published_at": "2026-10-28T20:24:55.950Z",
+    "context": "production"
+  },
+  "github": {
+    "run_id": 40763008168,
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "published_file_hash_check": {
+    "status": "passed",
+    "checked_file_count": 7,
+    "files": [
+      "data.json",
+      "course-outcomes.json",
+      "assets/course-specifications/quran-official-source-20261028/link-comparison.json",
+      "assets/course-specifications/quran-official-source-20261028/variant-lineage.json",
+      "assets/course-specifications/quran-official-source-20261028/manifest.json",
+      "assets/course-specifications/quran-old-v39/2002419-2.pdf",
+      "assets/course-specifications/quran-old-v39/2002429-2.pdf"
+    ]
+  }
+}
