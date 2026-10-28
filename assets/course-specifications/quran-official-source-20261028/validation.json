@@ -1,0 +1,78 @@
+{
+  "schema_version": "quran-official-source-validation-v1",
+  "schema_verifier": {
+    "status": "passed",
+    "exit_code": 0,
+    "variants": 574,
+    "scopes": 737,
+    "referenced_pdfs": 448,
+    "excluded_pdfs": 193,
+    "repository_pdfs": 641
+  },
+  "python_tests": {
+    "status": "passed",
+    "exit_code": 0,
+    "count": 198,
+    "new_tests": 4,
+    "log_sha256": "03f32f757c2767859b9f7e10234cdaa3c5fe8585345d91981e643b85b61e742e"
+  },
+  "javascript_tests": {
+    "status": "passed",
+    "exit_code": 0,
+    "count": 13
+  },
+  "site_build": {
+    "status": "passed",
+    "exit_code": 0
+  },
+  "git_diff_check": "passed",
+  "pdf_bytes": {
+    "status": "passed",
+    "checked_count": 641,
+    "changed_count": 0
+  },
+  "automation_consumer": {
+    "status": "passed_with_notes",
+    "reader": "course_outcomes_store.py (read-only scratch copy, no external writes)",
+    "this_package_rows": 132,
+    "printed_code_returned": 132,
+    "source_course_specification": 120,
+    "source_pipeline_shared_registry_same_codes": 12,
+    "registry_note_ar": "الصفوف الاثنا عشر للمقررين 2002412-2 و2002456-2 (القرآن 39) يقرؤها القارئ من سجل الربط المشترك في الأنبوب برموز مطابقة للمطبوع؛ يُستحسن إسقاط هذين المدخلين عند إعادة مزامنة الأنبوب.",
+    "earlier_package_rows": {
+      "shared-program-json-alignment-20261016": 1458,
+      "shared-program-json-alignment-20261028": 310,
+      "superseded_by_this_package": 132
+    }
+  },
+  "independent_verifier": {
+    "status": "PASS_WITH_NOTES",
+    "sample": [
+      "2002419-2",
+      "2002429-2",
+      "2002232-2",
+      "2002416-2",
+      "2002110-2"
+    ],
+    "extra_visual_rows": [
+      "2002250-2 3.1",
+      "2002318-2 3.1",
+      "2002456-2 3.1"
+    ],
+    "finding_ar": "قراءة بصرية مستقلة لكل رموز العينة طابقت الربط الفعلي وملف المقارنة؛ لا رمز مطبوع خارج نواتج البرنامج؛ لا حذف لمحتوى؛ لم يتغير PDF.",
+    "notes_ar": [
+      "تبقى document_plo_codes فارغة والتحذير plo_mapping_unresolved قائمًا في الصفوف الأربعة المقروءة بصريًّا، التزامًا بمنع الكتابة في document_plo_codes.",
+      "2002454-2 يشير إلى نسخة تسوية الهوية المأخوذة من quran-old-v39/2002454-2.pdf، وهي أصل النسخة المفرغة؛ تعديلاتها لا تمس الروابط.",
+      "عُولج حارس إعادة التشغيل في السكربت ليعتمد variant-lineage.json."
+    ]
+  },
+  "existing_tests_updated": {
+    "reason_ar": "قبول إشارة النسخ الأربع عشرة إلى أصولها الرسمية في فحص إعادة توجيه النسخ المفرغة مع حصر ذلك في نسخ القرآن وعلومه، وإضافة بصمتي الجدولين الممتدين المراجعتين بصريًّا، وفحص عقد حزمة 2026-10-16 على حالتها المجمدة قبل هذه الخطوة.",
+    "files": [
+      "tests/_shared_alignment_test_support.py",
+      "tests/test_shared_program_json_alignment_20261016.py",
+      "tests/test_shared_course_plo_blanking.py",
+      "tests/test_course_outcome_extractor_regressions.py"
+    ]
+  }
+}

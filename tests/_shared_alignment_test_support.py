@@ -16,6 +16,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BUNDLE = ROOT / "assets/course-specifications/shared-program-json-alignment-20261016"
 # Second specialization (eleven further shared courses), applied after BUNDLE.
 SPLIT_BUNDLE = ROOT / "assets/course-specifications/shared-program-json-alignment-20261028"
+# Quran copies repointed from blanked shared PDFs to official specifications (2026-10-28).
+QURAN_OFFICIAL_BUNDLE = ROOT / "assets/course-specifications/quran-official-source-20261028"
 
 
 def load(path):
@@ -48,6 +50,24 @@ def split_lineage_records():
 def split_snapshot():
     """Frozen parent records of the 2026-10-28 specialization."""
     return load(SPLIT_BUNDLE / "previous-context.json")
+
+
+def quran_official_lineage():
+    """Lineage of the Quran copies repointed to their official specifications."""
+    return load(QURAN_OFFICIAL_BUNDLE / "variant-lineage.json")["records"]
+
+
+def before_quran_official_repointing(data, outcomes):
+    """Live records with the repointed courses restored from their frozen snapshot.
+
+    Earlier package contracts govern the state they produced; the repointing is
+    checked against this snapshot by its own contract test.
+    """
+    snapshot = load(QURAN_OFFICIAL_BUNDLE / "previous-context.json")
+    data, outcomes = copy.deepcopy(data), copy.deepcopy(outcomes)
+    data["course_details"].update(copy.deepcopy(snapshot["data_course_details"]))
+    outcomes["courses"].update(copy.deepcopy(snapshot["outcome_courses"]))
+    return data, outcomes
 
 
 def specialized_course_codes():

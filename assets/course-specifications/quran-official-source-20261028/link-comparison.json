@@ -1,0 +1,3590 @@
+{
+  "schema_version": "quran-official-printed-link-comparison-v1",
+  "reviewed_at": "2026-10-28",
+  "rule_ar": "يحكم الرابط المطبوع في التوصيف الرسمي، إلا إن قام دليل على خطأ طباعي؛ ولم يُعثر على رمز مطبوع خارج نواتج البرنامج.",
+  "summary": {
+    "printed_differs": 16,
+    "printed_matches": 111,
+    "printed_read_visually_matches": 5
+  },
+  "records": [
+    {
+      "course_code": "2002110-2",
+      "old_variant_id": "b55e2b4dcd8c7bfb5629b331f80c7aa6248776101e5d48ae32ff48647517342a",
+      "new_variant_id": "a3e054cc323381890aa775cbde212a8b8dd722b6d82779f219478cda7bed2f7b",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يوضح الطالب مفهوم القراءات والأحرف السبعة ومصدر القراءات.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002110-2",
+      "old_variant_id": "b55e2b4dcd8c7bfb5629b331f80c7aa6248776101e5d48ae32ff48647517342a",
+      "new_variant_id": "a3e054cc323381890aa775cbde212a8b8dd722b6d82779f219478cda7bed2f7b",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يوضح الطالب مفهوم القراءات والأحرف السبعة ومصدر القراءات.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002110-2",
+      "old_variant_id": "b55e2b4dcd8c7bfb5629b331f80c7aa6248776101e5d48ae32ff48647517342a",
+      "new_variant_id": "a3e054cc323381890aa775cbde212a8b8dd722b6d82779f219478cda7bed2f7b",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يشرح الطالب نشأة القراءات ومراحل تدوينها وأقسامها وأركان قبولها.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002110-2",
+      "old_variant_id": "b55e2b4dcd8c7bfb5629b331f80c7aa6248776101e5d48ae32ff48647517342a",
+      "new_variant_id": "a3e054cc323381890aa775cbde212a8b8dd722b6d82779f219478cda7bed2f7b",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يشرح الطالب نشأة القراءات ومراحل تدوينها وأقسامها وأركان قبولها.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002110-2",
+      "old_variant_id": "b55e2b4dcd8c7bfb5629b331f80c7aa6248776101e5d48ae32ff48647517342a",
+      "new_variant_id": "a3e054cc323381890aa775cbde212a8b8dd722b6d82779f219478cda7bed2f7b",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يصف الطالب مفهوم القراءات الشاذة وعلاقة رسم المصحف بالقراءات.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002110-2",
+      "old_variant_id": "b55e2b4dcd8c7bfb5629b331f80c7aa6248776101e5d48ae32ff48647517342a",
+      "new_variant_id": "a3e054cc323381890aa775cbde212a8b8dd722b6d82779f219478cda7bed2f7b",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يصف الطالب مفهوم القراءات الشاذة وعلاقة رسم المصحف بالقراءات.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002110-2",
+      "old_variant_id": "b55e2b4dcd8c7bfb5629b331f80c7aa6248776101e5d48ae32ff48647517342a",
+      "new_variant_id": "a3e054cc323381890aa775cbde212a8b8dd722b6d82779f219478cda7bed2f7b",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يميز الطالب بين القراءات المقبولة والشاذة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002110-2",
+      "old_variant_id": "b55e2b4dcd8c7bfb5629b331f80c7aa6248776101e5d48ae32ff48647517342a",
+      "new_variant_id": "a3e054cc323381890aa775cbde212a8b8dd722b6d82779f219478cda7bed2f7b",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يميز الطالب بين القراءات المقبولة والشاذة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002110-2",
+      "old_variant_id": "b55e2b4dcd8c7bfb5629b331f80c7aa6248776101e5d48ae32ff48647517342a",
+      "new_variant_id": "a3e054cc323381890aa775cbde212a8b8dd722b6d82779f219478cda7bed2f7b",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقارن الطالب بين آراء العلماء في حكم العمل بالقراءات الشاذة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 4,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002110-2",
+      "old_variant_id": "b55e2b4dcd8c7bfb5629b331f80c7aa6248776101e5d48ae32ff48647517342a",
+      "new_variant_id": "a3e054cc323381890aa775cbde212a8b8dd722b6d82779f219478cda7bed2f7b",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقارن الطالب بين آراء العلماء في حكم العمل بالقراءات الشاذة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 4,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002110-2",
+      "old_variant_id": "b55e2b4dcd8c7bfb5629b331f80c7aa6248776101e5d48ae32ff48647517342a",
+      "new_variant_id": "a3e054cc323381890aa775cbde212a8b8dd722b6d82779f219478cda7bed2f7b",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بالموضوعية عند دراسة اختلافات القراءات.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 4,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002110-2",
+      "old_variant_id": "b55e2b4dcd8c7bfb5629b331f80c7aa6248776101e5d48ae32ff48647517342a",
+      "new_variant_id": "a3e054cc323381890aa775cbde212a8b8dd722b6d82779f219478cda7bed2f7b",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بالموضوعية عند دراسة اختلافات القراءات.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 4,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002131-2",
+      "old_variant_id": "b4958d9f4620b2502c4bd74169057d53f77c731e64fe942a4ceb804f3108eee1",
+      "new_variant_id": "5dd51b8398dfcbfb73d2f62450e05e84978bcc4835ef83f559f71e7a232a1591",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يوضح الطالب مفهوم علوم القرآن ونشأتها وتطورها.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002131-2",
+      "old_variant_id": "b4958d9f4620b2502c4bd74169057d53f77c731e64fe942a4ceb804f3108eee1",
+      "new_variant_id": "5dd51b8398dfcbfb73d2f62450e05e84978bcc4835ef83f559f71e7a232a1591",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يصف الطالب فضائل وخصائص القرآن الكريم.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002131-2",
+      "old_variant_id": "b4958d9f4620b2502c4bd74169057d53f77c731e64fe942a4ceb804f3108eee1",
+      "new_variant_id": "5dd51b8398dfcbfb73d2f62450e05e84978bcc4835ef83f559f71e7a232a1591",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يشرح الطالب مفاهيم الوحي ونزول القرآن والأحرف السبعة والقراءات القرآنية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002131-2",
+      "old_variant_id": "b4958d9f4620b2502c4bd74169057d53f77c731e64fe942a4ceb804f3108eee1",
+      "new_variant_id": "5dd51b8398dfcbfb73d2f62450e05e84978bcc4835ef83f559f71e7a232a1591",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يقارن الطالب بين الأحرف السبعة والقراءات القرآنية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002131-2",
+      "old_variant_id": "b4958d9f4620b2502c4bd74169057d53f77c731e64fe942a4ceb804f3108eee1",
+      "new_variant_id": "5dd51b8398dfcbfb73d2f62450e05e84978bcc4835ef83f559f71e7a232a1591",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقِّيم الطالب الآراء المختلفة حول مفهوم الوحي ونزول القرآن.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002131-2",
+      "old_variant_id": "b4958d9f4620b2502c4bd74169057d53f77c731e64fe942a4ceb804f3108eee1",
+      "new_variant_id": "5dd51b8398dfcbfb73d2f62450e05e84978bcc4835ef83f559f71e7a232a1591",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بقيم الأمانة العلمية عند دراسة علوم القرآن.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002204-2",
+      "old_variant_id": "de342b434501010f18337ec5a620a93aed49780f32c31ca00300973c7a7bcc4a",
+      "new_variant_id": "c837c3250e0bb8b820fe76705cb4b643e4f0af213de058de9bef777bce19cab6",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يشرح الطالب معاني الاستعاذة وسورة الفاتحة، والبقرة ( 16-1 )",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002204-2",
+      "old_variant_id": "de342b434501010f18337ec5a620a93aed49780f32c31ca00300973c7a7bcc4a",
+      "new_variant_id": "c837c3250e0bb8b820fe76705cb4b643e4f0af213de058de9bef777bce19cab6",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يشرح الطالب معاني الاستعاذة وسورة الفاتحة، والبقرة ( 16-1 )",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002204-2",
+      "old_variant_id": "de342b434501010f18337ec5a620a93aed49780f32c31ca00300973c7a7bcc4a",
+      "new_variant_id": "c837c3250e0bb8b820fe76705cb4b643e4f0af213de058de9bef777bce19cab6",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يوضح الطالب معاني الآيات ( 48-17 ) من سورة البقرة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002204-2",
+      "old_variant_id": "de342b434501010f18337ec5a620a93aed49780f32c31ca00300973c7a7bcc4a",
+      "new_variant_id": "c837c3250e0bb8b820fe76705cb4b643e4f0af213de058de9bef777bce19cab6",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يوضح الطالب معاني الآيات ( 48-17 ) من سورة البقرة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002204-2",
+      "old_variant_id": "de342b434501010f18337ec5a620a93aed49780f32c31ca00300973c7a7bcc4a",
+      "new_variant_id": "c837c3250e0bb8b820fe76705cb4b643e4f0af213de058de9bef777bce19cab6",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يفسر الطالب معاني الآيات ( 74-49 ) من سورة البقرة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002204-2",
+      "old_variant_id": "de342b434501010f18337ec5a620a93aed49780f32c31ca00300973c7a7bcc4a",
+      "new_variant_id": "c837c3250e0bb8b820fe76705cb4b643e4f0af213de058de9bef777bce19cab6",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يفسر الطالب معاني الآيات ( 74-49 ) من سورة البقرة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002204-2",
+      "old_variant_id": "de342b434501010f18337ec5a620a93aed49780f32c31ca00300973c7a7bcc4a",
+      "new_variant_id": "c837c3250e0bb8b820fe76705cb4b643e4f0af213de058de9bef777bce19cab6",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب منهجية التفسير التحليلي على الآيات المدروسة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002204-2",
+      "old_variant_id": "de342b434501010f18337ec5a620a93aed49780f32c31ca00300973c7a7bcc4a",
+      "new_variant_id": "c837c3250e0bb8b820fe76705cb4b643e4f0af213de058de9bef777bce19cab6",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب منهجية التفسير التحليلي على الآيات المدروسة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002204-2",
+      "old_variant_id": "de342b434501010f18337ec5a620a93aed49780f32c31ca00300973c7a7bcc4a",
+      "new_variant_id": "c837c3250e0bb8b820fe76705cb4b643e4f0af213de058de9bef777bce19cab6",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقِّيم الطالب الآراء والتفسيرات المتعلقة بالآيات المدروسة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002204-2",
+      "old_variant_id": "de342b434501010f18337ec5a620a93aed49780f32c31ca00300973c7a7bcc4a",
+      "new_variant_id": "c837c3250e0bb8b820fe76705cb4b643e4f0af213de058de9bef777bce19cab6",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقِّيم الطالب الآراء والتفسيرات المتعلقة بالآيات المدروسة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002204-2",
+      "old_variant_id": "de342b434501010f18337ec5a620a93aed49780f32c31ca00300973c7a7bcc4a",
+      "new_variant_id": "c837c3250e0bb8b820fe76705cb4b643e4f0af213de058de9bef777bce19cab6",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يتحمل الطالب مسؤولية تطوير نفسه باستمرار في مجال التفسير.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ق2"
+      ],
+      "printed_plo_codes": [
+        "ق2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002204-2",
+      "old_variant_id": "de342b434501010f18337ec5a620a93aed49780f32c31ca00300973c7a7bcc4a",
+      "new_variant_id": "c837c3250e0bb8b820fe76705cb4b643e4f0af213de058de9bef777bce19cab6",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يتحمل الطالب مسؤولية تطوير نفسه باستمرار في مجال التفسير.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ق2"
+      ],
+      "printed_plo_codes": [
+        "ق2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002208-2",
+      "old_variant_id": "026a5a485c47f4758f69f3be1e8c6f91c7a542ced24755a7a8695efea069545d",
+      "new_variant_id": "535951d7d19eb20aeade967defdc4344331f1ac9219e81e4d7940fdf0ac7e901",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يشرح الطالب معاني الآيات -75 105 من سورة البقرة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002208-2",
+      "old_variant_id": "026a5a485c47f4758f69f3be1e8c6f91c7a542ced24755a7a8695efea069545d",
+      "new_variant_id": "535951d7d19eb20aeade967defdc4344331f1ac9219e81e4d7940fdf0ac7e901",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يشرح الطالب معاني الآيات -75 105 من سورة البقرة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002208-2",
+      "old_variant_id": "026a5a485c47f4758f69f3be1e8c6f91c7a542ced24755a7a8695efea069545d",
+      "new_variant_id": "535951d7d19eb20aeade967defdc4344331f1ac9219e81e4d7940fdf0ac7e901",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يوضح الطالب معاني الآيات 123-106 من سورة البقرة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002208-2",
+      "old_variant_id": "026a5a485c47f4758f69f3be1e8c6f91c7a542ced24755a7a8695efea069545d",
+      "new_variant_id": "535951d7d19eb20aeade967defdc4344331f1ac9219e81e4d7940fdf0ac7e901",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يوضح الطالب معاني الآيات 123-106 من سورة البقرة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002208-2",
+      "old_variant_id": "026a5a485c47f4758f69f3be1e8c6f91c7a542ced24755a7a8695efea069545d",
+      "new_variant_id": "535951d7d19eb20aeade967defdc4344331f1ac9219e81e4d7940fdf0ac7e901",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يفسر الطالب معاني الآيات 152-124 من سورة البقرة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002208-2",
+      "old_variant_id": "026a5a485c47f4758f69f3be1e8c6f91c7a542ced24755a7a8695efea069545d",
+      "new_variant_id": "535951d7d19eb20aeade967defdc4344331f1ac9219e81e4d7940fdf0ac7e901",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يفسر الطالب معاني الآيات 152-124 من سورة البقرة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002208-2",
+      "old_variant_id": "026a5a485c47f4758f69f3be1e8c6f91c7a542ced24755a7a8695efea069545d",
+      "new_variant_id": "535951d7d19eb20aeade967defdc4344331f1ac9219e81e4d7940fdf0ac7e901",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب منهجية التفسير التحليلي على آيات سورة البقرة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002208-2",
+      "old_variant_id": "026a5a485c47f4758f69f3be1e8c6f91c7a542ced24755a7a8695efea069545d",
+      "new_variant_id": "535951d7d19eb20aeade967defdc4344331f1ac9219e81e4d7940fdf0ac7e901",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب منهجية التفسير التحليلي على آيات سورة البقرة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002208-2",
+      "old_variant_id": "026a5a485c47f4758f69f3be1e8c6f91c7a542ced24755a7a8695efea069545d",
+      "new_variant_id": "535951d7d19eb20aeade967defdc4344331f1ac9219e81e4d7940fdf0ac7e901",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يستنبط الطالب الحكم التشريعية من سورة البقرة ويربطها بالواقع المعاصر.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002208-2",
+      "old_variant_id": "026a5a485c47f4758f69f3be1e8c6f91c7a542ced24755a7a8695efea069545d",
+      "new_variant_id": "535951d7d19eb20aeade967defdc4344331f1ac9219e81e4d7940fdf0ac7e901",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يستنبط الطالب الحكم التشريعية من سورة البقرة ويربطها بالواقع المعاصر.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002208-2",
+      "old_variant_id": "026a5a485c47f4758f69f3be1e8c6f91c7a542ced24755a7a8695efea069545d",
+      "new_variant_id": "535951d7d19eb20aeade967defdc4344331f1ac9219e81e4d7940fdf0ac7e901",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بقيم الأمانة العلمية والسلوكيات الأخلاقية في دراسة وتفسير القرآن الكريم.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002208-2",
+      "old_variant_id": "026a5a485c47f4758f69f3be1e8c6f91c7a542ced24755a7a8695efea069545d",
+      "new_variant_id": "535951d7d19eb20aeade967defdc4344331f1ac9219e81e4d7940fdf0ac7e901",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بقيم الأمانة العلمية والسلوكيات الأخلاقية في دراسة وتفسير القرآن الكريم.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002232-2",
+      "old_variant_id": "bc0060ca5add7747fd11fda0b9d25c8fa8c7c11cb3404c8353b5cc0e6f536bcf",
+      "new_variant_id": "08ba664d9cb382fffd5477a58c648588d55ab8d4c12e8dce367acdd93be9a168",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يوضح الطالب مفهوم أسباب النزول وأهميتها في فهم القرآن.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002232-2",
+      "old_variant_id": "bc0060ca5add7747fd11fda0b9d25c8fa8c7c11cb3404c8353b5cc0e6f536bcf",
+      "new_variant_id": "08ba664d9cb382fffd5477a58c648588d55ab8d4c12e8dce367acdd93be9a168",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يشرح الطالب عملية جمع القرآن وترتيبه وعد آياته.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002232-2",
+      "old_variant_id": "bc0060ca5add7747fd11fda0b9d25c8fa8c7c11cb3404c8353b5cc0e6f536bcf",
+      "new_variant_id": "08ba664d9cb382fffd5477a58c648588d55ab8d4c12e8dce367acdd93be9a168",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يصف الطالب خصائص المكي والمدني والناسخ والمنسوخ في القرآن.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002232-2",
+      "old_variant_id": "bc0060ca5add7747fd11fda0b9d25c8fa8c7c11cb3404c8353b5cc0e6f536bcf",
+      "new_variant_id": "08ba664d9cb382fffd5477a58c648588d55ab8d4c12e8dce367acdd93be9a168",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يميز الطالب بين المكي والمدني من سور وآيات القرآن.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002232-2",
+      "old_variant_id": "bc0060ca5add7747fd11fda0b9d25c8fa8c7c11cb3404c8353b5cc0e6f536bcf",
+      "new_variant_id": "08ba664d9cb382fffd5477a58c648588d55ab8d4c12e8dce367acdd93be9a168",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقِّيم الطالب الآراء المختلفة حول الناسخ والمنسوخ في القرآن.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002232-2",
+      "old_variant_id": "bc0060ca5add7747fd11fda0b9d25c8fa8c7c11cb3404c8353b5cc0e6f536bcf",
+      "new_variant_id": "08ba664d9cb382fffd5477a58c648588d55ab8d4c12e8dce367acdd93be9a168",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بالموضوعية عند دراسة الاختلافات في علوم القرآن.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 4,
+      "printed_read_by": "visual_review",
+      "comparison": "printed_read_visually_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002250-2",
+      "old_variant_id": "19f5891cb795a6e52a5afe94d6c2e9d1bd784a1a4264086472dc42ae54218228",
+      "new_variant_id": "2789e24f7fadb47bd0ab9018269d54be8fc148985026f84b83be1ba279410833",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يوضح الطالب مفهوم علم أصول التفسير ومصادره.",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002250-2",
+      "old_variant_id": "19f5891cb795a6e52a5afe94d6c2e9d1bd784a1a4264086472dc42ae54218228",
+      "new_variant_id": "2789e24f7fadb47bd0ab9018269d54be8fc148985026f84b83be1ba279410833",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يشرح الطالب أنواع تعبيرات المفسرين عن المعنى ودلالاتها.",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002250-2",
+      "old_variant_id": "19f5891cb795a6e52a5afe94d6c2e9d1bd784a1a4264086472dc42ae54218228",
+      "new_variant_id": "2789e24f7fadb47bd0ab9018269d54be8fc148985026f84b83be1ba279410833",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يذكر الطالب المقصود بإجماع المفسرين واختلافهم وأنواع الاختلاف وأسبابه",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002250-2",
+      "old_variant_id": "19f5891cb795a6e52a5afe94d6c2e9d1bd784a1a4264086472dc42ae54218228",
+      "new_variant_id": "2789e24f7fadb47bd0ab9018269d54be8fc148985026f84b83be1ba279410833",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب مصادر التفسير على نماذج من الآيات القرآنية.",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002250-2",
+      "old_variant_id": "19f5891cb795a6e52a5afe94d6c2e9d1bd784a1a4264086472dc42ae54218228",
+      "new_variant_id": "2789e24f7fadb47bd0ab9018269d54be8fc148985026f84b83be1ba279410833",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقارن الطالب بين اختلاف التنوع والتضاد.",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002250-2",
+      "old_variant_id": "19f5891cb795a6e52a5afe94d6c2e9d1bd784a1a4264086472dc42ae54218228",
+      "new_variant_id": "2789e24f7fadb47bd0ab9018269d54be8fc148985026f84b83be1ba279410833",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": null,
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 4,
+      "printed_read_by": "visual_review",
+      "comparison": "printed_read_visually_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002306-2",
+      "old_variant_id": "1647528bf3af0ac4e256953ddb0fda72d5fce2608b121fffe8b40f19177083a1",
+      "new_variant_id": "4e8cb5b8f11d3932bd5710d43d935a9bfbac38892319f02c198f407f67ac044f",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يشرح الطالب معاني الآيات في سورة يوسف (الآيات 37-1 ).",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002306-2",
+      "old_variant_id": "1647528bf3af0ac4e256953ddb0fda72d5fce2608b121fffe8b40f19177083a1",
+      "new_variant_id": "4e8cb5b8f11d3932bd5710d43d935a9bfbac38892319f02c198f407f67ac044f",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يشرح الطالب معاني الآيات في سورة يوسف (الآيات 37-1 ).",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002306-2",
+      "old_variant_id": "1647528bf3af0ac4e256953ddb0fda72d5fce2608b121fffe8b40f19177083a1",
+      "new_variant_id": "4e8cb5b8f11d3932bd5710d43d935a9bfbac38892319f02c198f407f67ac044f",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يوضح الطالب معاني الآيات في سورة يوسف (الآيات 69-38 ) وسورة السجدة كاملة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002306-2",
+      "old_variant_id": "1647528bf3af0ac4e256953ddb0fda72d5fce2608b121fffe8b40f19177083a1",
+      "new_variant_id": "4e8cb5b8f11d3932bd5710d43d935a9bfbac38892319f02c198f407f67ac044f",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يوضح الطالب معاني الآيات في سورة يوسف (الآيات 69-38 ) وسورة السجدة كاملة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002306-2",
+      "old_variant_id": "1647528bf3af0ac4e256953ddb0fda72d5fce2608b121fffe8b40f19177083a1",
+      "new_variant_id": "4e8cb5b8f11d3932bd5710d43d935a9bfbac38892319f02c198f407f67ac044f",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يفسر الطالب معاني الآيات في سورة يوسف.)110-70(",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002306-2",
+      "old_variant_id": "1647528bf3af0ac4e256953ddb0fda72d5fce2608b121fffe8b40f19177083a1",
+      "new_variant_id": "4e8cb5b8f11d3932bd5710d43d935a9bfbac38892319f02c198f407f67ac044f",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يفسر الطالب معاني الآيات في سورة يوسف.)110-70(",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002306-2",
+      "old_variant_id": "1647528bf3af0ac4e256953ddb0fda72d5fce2608b121fffe8b40f19177083a1",
+      "new_variant_id": "4e8cb5b8f11d3932bd5710d43d935a9bfbac38892319f02c198f407f67ac044f",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب منهجية التفسير التحليلي على آيات من السور المدروسة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002306-2",
+      "old_variant_id": "1647528bf3af0ac4e256953ddb0fda72d5fce2608b121fffe8b40f19177083a1",
+      "new_variant_id": "4e8cb5b8f11d3932bd5710d43d935a9bfbac38892319f02c198f407f67ac044f",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب منهجية التفسير التحليلي على آيات من السور المدروسة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002306-2",
+      "old_variant_id": "1647528bf3af0ac4e256953ddb0fda72d5fce2608b121fffe8b40f19177083a1",
+      "new_variant_id": "4e8cb5b8f11d3932bd5710d43d935a9bfbac38892319f02c198f407f67ac044f",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يستنبط الطالب الأحكام التشريعية من الآيات المدروسة ويربطها بالواقع المعاصر.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002306-2",
+      "old_variant_id": "1647528bf3af0ac4e256953ddb0fda72d5fce2608b121fffe8b40f19177083a1",
+      "new_variant_id": "4e8cb5b8f11d3932bd5710d43d935a9bfbac38892319f02c198f407f67ac044f",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يستنبط الطالب الأحكام التشريعية من الآيات المدروسة ويربطها بالواقع المعاصر.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002306-2",
+      "old_variant_id": "1647528bf3af0ac4e256953ddb0fda72d5fce2608b121fffe8b40f19177083a1",
+      "new_variant_id": "4e8cb5b8f11d3932bd5710d43d935a9bfbac38892319f02c198f407f67ac044f",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بقيم الأمانة العلمية والسلوكيات الأخلاقية في دراسة وتفسير القرآن الكريم.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002306-2",
+      "old_variant_id": "1647528bf3af0ac4e256953ddb0fda72d5fce2608b121fffe8b40f19177083a1",
+      "new_variant_id": "4e8cb5b8f11d3932bd5710d43d935a9bfbac38892319f02c198f407f67ac044f",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بقيم الأمانة العلمية والسلوكيات الأخلاقية في دراسة وتفسير القرآن الكريم.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002318-2",
+      "old_variant_id": "1944c70a182183739dcca36cdda4c1e45dc669466463b668bd03649f7b913cb4",
+      "new_variant_id": "4873cad50cb9fc6a6365fe5ae802ee5f59057eeb862fe9136abdcbab5ac160f1",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يعرف الطالب معنى توجيه القراءات وإطلاقاته وأهميته ونشأته.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002318-2",
+      "old_variant_id": "1944c70a182183739dcca36cdda4c1e45dc669466463b668bd03649f7b913cb4",
+      "new_variant_id": "4873cad50cb9fc6a6365fe5ae802ee5f59057eeb862fe9136abdcbab5ac160f1",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يعرف الطالب معنى توجيه القراءات وإطلاقاته وأهميته ونشأته.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002318-2",
+      "old_variant_id": "1944c70a182183739dcca36cdda4c1e45dc669466463b668bd03649f7b913cb4",
+      "new_variant_id": "4873cad50cb9fc6a6365fe5ae802ee5f59057eeb862fe9136abdcbab5ac160f1",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يشرح الطالب الدوافع للتأليف في توجيه القراءات وأهم المؤلفات فيه.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002318-2",
+      "old_variant_id": "1944c70a182183739dcca36cdda4c1e45dc669466463b668bd03649f7b913cb4",
+      "new_variant_id": "4873cad50cb9fc6a6365fe5ae802ee5f59057eeb862fe9136abdcbab5ac160f1",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يشرح الطالب الدوافع للتأليف في توجيه القراءات وأهم المؤلفات فيه.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002318-2",
+      "old_variant_id": "1944c70a182183739dcca36cdda4c1e45dc669466463b668bd03649f7b913cb4",
+      "new_variant_id": "4873cad50cb9fc6a6365fe5ae802ee5f59057eeb862fe9136abdcbab5ac160f1",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يوضح الطالب أثر التوجيه في التفسير والأحكام الفقهية والعقيدة واللغة العربية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002318-2",
+      "old_variant_id": "1944c70a182183739dcca36cdda4c1e45dc669466463b668bd03649f7b913cb4",
+      "new_variant_id": "4873cad50cb9fc6a6365fe5ae802ee5f59057eeb862fe9136abdcbab5ac160f1",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يوضح الطالب أثر التوجيه في التفسير والأحكام الفقهية والعقيدة واللغة العربية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002318-2",
+      "old_variant_id": "1944c70a182183739dcca36cdda4c1e45dc669466463b668bd03649f7b913cb4",
+      "new_variant_id": "4873cad50cb9fc6a6365fe5ae802ee5f59057eeb862fe9136abdcbab5ac160f1",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب مفاهيم توجيه القراءات على نماذج من الآيات القرآنية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002318-2",
+      "old_variant_id": "1944c70a182183739dcca36cdda4c1e45dc669466463b668bd03649f7b913cb4",
+      "new_variant_id": "4873cad50cb9fc6a6365fe5ae802ee5f59057eeb862fe9136abdcbab5ac160f1",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب مفاهيم توجيه القراءات على نماذج من الآيات القرآنية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002318-2",
+      "old_variant_id": "1944c70a182183739dcca36cdda4c1e45dc669466463b668bd03649f7b913cb4",
+      "new_variant_id": "4873cad50cb9fc6a6365fe5ae802ee5f59057eeb862fe9136abdcbab5ac160f1",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقِّيم الطالب الآراء المختلفة في توجيه بعض القراءات القرآنية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002318-2",
+      "old_variant_id": "1944c70a182183739dcca36cdda4c1e45dc669466463b668bd03649f7b913cb4",
+      "new_variant_id": "4873cad50cb9fc6a6365fe5ae802ee5f59057eeb862fe9136abdcbab5ac160f1",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقِّيم الطالب الآراء المختلفة في توجيه بعض القراءات القرآنية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002318-2",
+      "old_variant_id": "1944c70a182183739dcca36cdda4c1e45dc669466463b668bd03649f7b913cb4",
+      "new_variant_id": "4873cad50cb9fc6a6365fe5ae802ee5f59057eeb862fe9136abdcbab5ac160f1",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بقيم الأمانة العلمية عند دراسة وتحليل توجيهات القراءات المختلفة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 4,
+      "printed_read_by": "visual_review",
+      "comparison": "printed_read_visually_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002318-2",
+      "old_variant_id": "1944c70a182183739dcca36cdda4c1e45dc669466463b668bd03649f7b913cb4",
+      "new_variant_id": "4873cad50cb9fc6a6365fe5ae802ee5f59057eeb862fe9136abdcbab5ac160f1",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بقيم الأمانة العلمية عند دراسة وتحليل توجيهات القراءات المختلفة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 4,
+      "printed_read_by": "visual_review",
+      "comparison": "printed_read_visually_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002412-2",
+      "old_variant_id": "d8259d0c6c136a17dff6096d237827fdc967132686d765e27635575849186405",
+      "new_variant_id": "236382366d4c8af07e9a12d316e85b672783293c4769ecb088bd0aae3375e059",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يوضح الطالب مصادر القراءات القرآنية المتواترة والشاذة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002412-2",
+      "old_variant_id": "d8259d0c6c136a17dff6096d237827fdc967132686d765e27635575849186405",
+      "new_variant_id": "236382366d4c8af07e9a12d316e85b672783293c4769ecb088bd0aae3375e059",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يشرح الطالب العلوم المتعلقة بالقراءات كعلم الضبط والتوجيه وعد الآي وعلم الرسم.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002412-2",
+      "old_variant_id": "d8259d0c6c136a17dff6096d237827fdc967132686d765e27635575849186405",
+      "new_variant_id": "236382366d4c8af07e9a12d316e85b672783293c4769ecb088bd0aae3375e059",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يستعرض الطالب الموسوعات ومصادر تراجم القراء.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "ع3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002412-2",
+      "old_variant_id": "d8259d0c6c136a17dff6096d237827fdc967132686d765e27635575849186405",
+      "new_variant_id": "236382366d4c8af07e9a12d316e85b672783293c4769ecb088bd0aae3375e059",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يقارن الطالب بين مصادر القراءات المتواترة والشاذة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002412-2",
+      "old_variant_id": "d8259d0c6c136a17dff6096d237827fdc967132686d765e27635575849186405",
+      "new_variant_id": "236382366d4c8af07e9a12d316e85b672783293c4769ecb088bd0aae3375e059",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقِّيم الطالب أهمية العلوم المتعلقة بالقراءات في فهم النص القرآني.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002412-2",
+      "old_variant_id": "d8259d0c6c136a17dff6096d237827fdc967132686d765e27635575849186405",
+      "new_variant_id": "236382366d4c8af07e9a12d316e85b672783293c4769ecb088bd0aae3375e059",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بالأمانة العلمية عند التعامل مع مصادر القراءات والتراجم.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002416-2",
+      "old_variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "new_variant_id": "d29fec95e480eed4bcd0893801729a11d37d589d7251f32fc39a504c89ff99d5",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يستعرض الطالب الوسائل التعليمية وتقنيات المعلومات في الدراسات القرآنية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "ع3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002416-2",
+      "old_variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "new_variant_id": "d29fec95e480eed4bcd0893801729a11d37d589d7251f32fc39a504c89ff99d5",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يستعرض الطالب الوسائل التعليمية وتقنيات المعلومات في الدراسات القرآنية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "ع3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002416-2",
+      "old_variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "new_variant_id": "d29fec95e480eed4bcd0893801729a11d37d589d7251f32fc39a504c89ff99d5",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يشرح الطالب مفهوم التصميم التعليمي والبرمجيات التعليمية في مجال الدراسات القرآنية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "ع3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002416-2",
+      "old_variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "new_variant_id": "d29fec95e480eed4bcd0893801729a11d37d589d7251f32fc39a504c89ff99d5",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يشرح الطالب مفهوم التصميم التعليمي والبرمجيات التعليمية في مجال الدراسات القرآنية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "ع3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002416-2",
+      "old_variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "new_variant_id": "d29fec95e480eed4bcd0893801729a11d37d589d7251f32fc39a504c89ff99d5",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يصف الطالب تقنيات الإقراء وتعليم القرآن عن بعد والتعلم النقال.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "ع3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002416-2",
+      "old_variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "new_variant_id": "d29fec95e480eed4bcd0893801729a11d37d589d7251f32fc39a504c89ff99d5",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يصف الطالب تقنيات الإقراء وتعليم القرآن عن بعد والتعلم النقال.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "ع3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002416-2",
+      "old_variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "new_variant_id": "d29fec95e480eed4bcd0893801729a11d37d589d7251f32fc39a504c89ff99d5",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب التقنيات الحديثة في البحث القرآني.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002416-2",
+      "old_variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "new_variant_id": "d29fec95e480eed4bcd0893801729a11d37d589d7251f32fc39a504c89ff99d5",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب التقنيات الحديثة في البحث القرآني.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002416-2",
+      "old_variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "new_variant_id": "d29fec95e480eed4bcd0893801729a11d37d589d7251f32fc39a504c89ff99d5",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقِّيم الطالب فعالية التطبيقات الذكية في تعليم القرآن وعلومه.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002416-2",
+      "old_variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "new_variant_id": "d29fec95e480eed4bcd0893801729a11d37d589d7251f32fc39a504c89ff99d5",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقِّيم الطالب فعالية التطبيقات الذكية في تعليم القرآن وعلومه.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002416-2",
+      "old_variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "new_variant_id": "d29fec95e480eed4bcd0893801729a11d37d589d7251f32fc39a504c89ff99d5",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بقيم الأمانة العلمية عند استخدام التقنيات الحديثة في الدراسات القرآنية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002416-2",
+      "old_variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "new_variant_id": "d29fec95e480eed4bcd0893801729a11d37d589d7251f32fc39a504c89ff99d5",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بقيم الأمانة العلمية عند استخدام التقنيات الحديثة في الدراسات القرآنية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002419-2",
+      "old_variant_id": "753ca749ab1e66ea3866e2256afb996e562ec137db540b91758eb9ad42e6d2bc",
+      "new_variant_id": "edc79e2e17f2c488e46be483d248097b3406a4190af664f4729f3c073aefbca3",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يوضح الطالب مفهوم البحث العلمي وأهميته وأهدافه.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع3"
+      ],
+      "printed_plo_codes": [
+        "ع3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002419-2",
+      "old_variant_id": "753ca749ab1e66ea3866e2256afb996e562ec137db540b91758eb9ad42e6d2bc",
+      "new_variant_id": "edc79e2e17f2c488e46be483d248097b3406a4190af664f4729f3c073aefbca3",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يوضح الطالب مفهوم البحث العلمي وأهميته وأهدافه.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع3"
+      ],
+      "printed_plo_codes": [
+        "ع3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002419-2",
+      "old_variant_id": "753ca749ab1e66ea3866e2256afb996e562ec137db540b91758eb9ad42e6d2bc",
+      "new_variant_id": "edc79e2e17f2c488e46be483d248097b3406a4190af664f4729f3c073aefbca3",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يشرح الطالب مراحل البحث العلمي وكيفية اختيار موضوع البحث والتخطيط له.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع3"
+      ],
+      "printed_plo_codes": [
+        "ع3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002419-2",
+      "old_variant_id": "753ca749ab1e66ea3866e2256afb996e562ec137db540b91758eb9ad42e6d2bc",
+      "new_variant_id": "edc79e2e17f2c488e46be483d248097b3406a4190af664f4729f3c073aefbca3",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يشرح الطالب مراحل البحث العلمي وكيفية اختيار موضوع البحث والتخطيط له.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع3"
+      ],
+      "printed_plo_codes": [
+        "ع3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002419-2",
+      "old_variant_id": "753ca749ab1e66ea3866e2256afb996e562ec137db540b91758eb9ad42e6d2bc",
+      "new_variant_id": "edc79e2e17f2c488e46be483d248097b3406a4190af664f4729f3c073aefbca3",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يصف الطالب آليات تحقيق المخطوطات تحقيقا علميا سليما.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع3"
+      ],
+      "printed_plo_codes": [
+        "ع3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002419-2",
+      "old_variant_id": "753ca749ab1e66ea3866e2256afb996e562ec137db540b91758eb9ad42e6d2bc",
+      "new_variant_id": "edc79e2e17f2c488e46be483d248097b3406a4190af664f4729f3c073aefbca3",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يصف الطالب آليات تحقيق المخطوطات تحقيقا علميا سليما.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع3"
+      ],
+      "printed_plo_codes": [
+        "ع3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002419-2",
+      "old_variant_id": "753ca749ab1e66ea3866e2256afb996e562ec137db540b91758eb9ad42e6d2bc",
+      "new_variant_id": "edc79e2e17f2c488e46be483d248097b3406a4190af664f4729f3c073aefbca3",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب خطوات البحث العلمي على موضوع محدد.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002419-2",
+      "old_variant_id": "753ca749ab1e66ea3866e2256afb996e562ec137db540b91758eb9ad42e6d2bc",
+      "new_variant_id": "edc79e2e17f2c488e46be483d248097b3406a4190af664f4729f3c073aefbca3",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب خطوات البحث العلمي على موضوع محدد.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002419-2",
+      "old_variant_id": "753ca749ab1e66ea3866e2256afb996e562ec137db540b91758eb9ad42e6d2bc",
+      "new_variant_id": "edc79e2e17f2c488e46be483d248097b3406a4190af664f4729f3c073aefbca3",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقِّيم الطالب جودة البحوث العلمية في مجال الدراسات القرآنية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002419-2",
+      "old_variant_id": "753ca749ab1e66ea3866e2256afb996e562ec137db540b91758eb9ad42e6d2bc",
+      "new_variant_id": "edc79e2e17f2c488e46be483d248097b3406a4190af664f4729f3c073aefbca3",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقِّيم الطالب جودة البحوث العلمية في مجال الدراسات القرآنية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002419-2",
+      "old_variant_id": "753ca749ab1e66ea3866e2256afb996e562ec137db540b91758eb9ad42e6d2bc",
+      "new_variant_id": "edc79e2e17f2c488e46be483d248097b3406a4190af664f4729f3c073aefbca3",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بأخلاقيات البحث العلمي وقيم الأمانة العلمية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002419-2",
+      "old_variant_id": "753ca749ab1e66ea3866e2256afb996e562ec137db540b91758eb9ad42e6d2bc",
+      "new_variant_id": "edc79e2e17f2c488e46be483d248097b3406a4190af664f4729f3c073aefbca3",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بأخلاقيات البحث العلمي وقيم الأمانة العلمية.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002429-2",
+      "old_variant_id": "1eb79d49a8defab3e76f02b75b2290c48b6cd626114f33005bd0e17ffdece919",
+      "new_variant_id": "fdfd1548529912bf07418091af806bc503e5798b677ba874f2fd58492f438a12",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يوضح الطالب مقدمة عن الانتصار للقرآن والمؤلفات فيه وأصوله وضوابطه",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002429-2",
+      "old_variant_id": "1eb79d49a8defab3e76f02b75b2290c48b6cd626114f33005bd0e17ffdece919",
+      "new_variant_id": "fdfd1548529912bf07418091af806bc503e5798b677ba874f2fd58492f438a12",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يذكر الطالب أصول الشبهات عموًما والشبهات حول الوحي وجمع القرآن وتواتره خصوًصا مع الرد عليها.",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002429-2",
+      "old_variant_id": "1eb79d49a8defab3e76f02b75b2290c48b6cd626114f33005bd0e17ffdece919",
+      "new_variant_id": "fdfd1548529912bf07418091af806bc503e5798b677ba874f2fd58492f438a12",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يشرح الطالب الشبهات المتعلقة بالمكي والمدني، ونسخ القرآن والقراءات، وصلاحية القرآن لكل زمان",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002429-2",
+      "old_variant_id": "1eb79d49a8defab3e76f02b75b2290c48b6cd626114f33005bd0e17ffdece919",
+      "new_variant_id": "fdfd1548529912bf07418091af806bc503e5798b677ba874f2fd58492f438a12",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب أساليب الدفاع عن القرآن في مواجهة الشبهات المعاصرة.",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002429-2",
+      "old_variant_id": "1eb79d49a8defab3e76f02b75b2290c48b6cd626114f33005bd0e17ffdece919",
+      "new_variant_id": "fdfd1548529912bf07418091af806bc503e5798b677ba874f2fd58492f438a12",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقِّيم الطالب الردود المختلفة على الشبهات المثارة حول القرآن.",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002429-2",
+      "old_variant_id": "1eb79d49a8defab3e76f02b75b2290c48b6cd626114f33005bd0e17ffdece919",
+      "new_variant_id": "fdfd1548529912bf07418091af806bc503e5798b677ba874f2fd58492f438a12",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يبادر الطالب إلى تطوير مهاراته في الدفاع عن القرآن بشكل مستمر.",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "ق2"
+      ],
+      "printed_plo_codes": [
+        "ق2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002454-2",
+      "old_variant_id": "063c73325eb89e06e355d5ff5250591dc00c5315cde959baf83c5aec297cd6a8",
+      "new_variant_id": "9a2f0dd56056ac399e781a7f109a3bf8962123debbb7b9fcb4f8222fb6ec8334",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يشرح الطالب مفهوم التفسير الموضوعي وأهميته ونشأته وتطوره.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002454-2",
+      "old_variant_id": "063c73325eb89e06e355d5ff5250591dc00c5315cde959baf83c5aec297cd6a8",
+      "new_variant_id": "9a2f0dd56056ac399e781a7f109a3bf8962123debbb7b9fcb4f8222fb6ec8334",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يشرح الطالب مفهوم التفسير الموضوعي وأهميته ونشأته وتطوره.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002454-2",
+      "old_variant_id": "063c73325eb89e06e355d5ff5250591dc00c5315cde959baf83c5aec297cd6a8",
+      "new_variant_id": "9a2f0dd56056ac399e781a7f109a3bf8962123debbb7b9fcb4f8222fb6ec8334",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يوضح الطالب العلاقة بين التفسير الموضوعي وأنواع التفاسير الأخرى.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002454-2",
+      "old_variant_id": "063c73325eb89e06e355d5ff5250591dc00c5315cde959baf83c5aec297cd6a8",
+      "new_variant_id": "9a2f0dd56056ac399e781a7f109a3bf8962123debbb7b9fcb4f8222fb6ec8334",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يوضح الطالب العلاقة بين التفسير الموضوعي وأنواع التفاسير الأخرى.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002454-2",
+      "old_variant_id": "063c73325eb89e06e355d5ff5250591dc00c5315cde959baf83c5aec297cd6a8",
+      "new_variant_id": "9a2f0dd56056ac399e781a7f109a3bf8962123debbb7b9fcb4f8222fb6ec8334",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يميز الطالب بين أنواع التفسير الموضوعي المختلفة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002454-2",
+      "old_variant_id": "063c73325eb89e06e355d5ff5250591dc00c5315cde959baf83c5aec297cd6a8",
+      "new_variant_id": "9a2f0dd56056ac399e781a7f109a3bf8962123debbb7b9fcb4f8222fb6ec8334",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يميز الطالب بين أنواع التفسير الموضوعي المختلفة.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002454-2",
+      "old_variant_id": "063c73325eb89e06e355d5ff5250591dc00c5315cde959baf83c5aec297cd6a8",
+      "new_variant_id": "9a2f0dd56056ac399e781a7f109a3bf8962123debbb7b9fcb4f8222fb6ec8334",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب منهجية التفسير الموضوعي على سور الكهف ومحمد والحجرات.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002454-2",
+      "old_variant_id": "063c73325eb89e06e355d5ff5250591dc00c5315cde959baf83c5aec297cd6a8",
+      "new_variant_id": "9a2f0dd56056ac399e781a7f109a3bf8962123debbb7b9fcb4f8222fb6ec8334",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يطبق الطالب منهجية التفسير الموضوعي على سور الكهف ومحمد والحجرات.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002454-2",
+      "old_variant_id": "063c73325eb89e06e355d5ff5250591dc00c5315cde959baf83c5aec297cd6a8",
+      "new_variant_id": "9a2f0dd56056ac399e781a7f109a3bf8962123debbb7b9fcb4f8222fb6ec8334",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يكتب الطالب في خمسة موضوعات من موضوعات التفسير الموضوعي.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002454-2",
+      "old_variant_id": "063c73325eb89e06e355d5ff5250591dc00c5315cde959baf83c5aec297cd6a8",
+      "new_variant_id": "9a2f0dd56056ac399e781a7f109a3bf8962123debbb7b9fcb4f8222fb6ec8334",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يكتب الطالب في خمسة موضوعات من موضوعات التفسير الموضوعي.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002454-2",
+      "old_variant_id": "063c73325eb89e06e355d5ff5250591dc00c5315cde959baf83c5aec297cd6a8",
+      "new_variant_id": "9a2f0dd56056ac399e781a7f109a3bf8962123debbb7b9fcb4f8222fb6ec8334",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بقيم الأمانة العلمية والسلوكيات الأخلاقية في دراسة وتفسير القرآن الكريم.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "جديدة",
+        "program": "القرآن وعلومه",
+        "version": "47"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002454-2",
+      "old_variant_id": "063c73325eb89e06e355d5ff5250591dc00c5315cde959baf83c5aec297cd6a8",
+      "new_variant_id": "9a2f0dd56056ac399e781a7f109a3bf8962123debbb7b9fcb4f8222fb6ec8334",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يلتزم الطالب بقيم الأمانة العلمية والسلوكيات الأخلاقية في دراسة وتفسير القرآن الكريم.",
+      "scope": {
+        "degree": "بكالوريوس",
+        "plan_type": "قديمة",
+        "program": "القرآن وعلومه",
+        "version": "39"
+      },
+      "authorized_plo_codes": [
+        "ق1"
+      ],
+      "printed_plo_codes": [
+        "ق1"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ق1"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002456-2",
+      "old_variant_id": "2b83a0186a24c2c264da9a8ba86d017aca28329005572d7eba20912fe10073eb",
+      "new_variant_id": "6b2c8f5f3a16370ad09157ba02f00f3e413f1fde8df0dddb68869a1ddff5c77a",
+      "clo_index": 0,
+      "clo_code": "1.1",
+      "clo_text": "أن يوضح الطالب مفهوم إعجاز القرآن ونشأته وأشهر مؤلفاته.",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002456-2",
+      "old_variant_id": "2b83a0186a24c2c264da9a8ba86d017aca28329005572d7eba20912fe10073eb",
+      "new_variant_id": "6b2c8f5f3a16370ad09157ba02f00f3e413f1fde8df0dddb68869a1ddff5c77a",
+      "clo_index": 1,
+      "clo_code": "1.2",
+      "clo_text": "أن يشرح الطالب مراحل التحدي بالقرآن.",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002456-2",
+      "old_variant_id": "2b83a0186a24c2c264da9a8ba86d017aca28329005572d7eba20912fe10073eb",
+      "new_variant_id": "6b2c8f5f3a16370ad09157ba02f00f3e413f1fde8df0dddb68869a1ddff5c77a",
+      "clo_index": 2,
+      "clo_code": "1.3",
+      "clo_text": "أن يصف الطالب أنواع الإعجاز في القرآن الكريم.",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "ع2"
+      ],
+      "printed_plo_codes": [
+        "ع2"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "ع2"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002456-2",
+      "old_variant_id": "2b83a0186a24c2c264da9a8ba86d017aca28329005572d7eba20912fe10073eb",
+      "new_variant_id": "6b2c8f5f3a16370ad09157ba02f00f3e413f1fde8df0dddb68869a1ddff5c77a",
+      "clo_index": 3,
+      "clo_code": "2.1",
+      "clo_text": "أن يحلل الطالب وجوه الإعجاز في نماذج من الآيات القرآنية.",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "م2"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_differs",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002456-2",
+      "old_variant_id": "2b83a0186a24c2c264da9a8ba86d017aca28329005572d7eba20912fe10073eb",
+      "new_variant_id": "6b2c8f5f3a16370ad09157ba02f00f3e413f1fde8df0dddb68869a1ddff5c77a",
+      "clo_index": 4,
+      "clo_code": "2.2",
+      "clo_text": "أن يقِّيم الطالب الآراء المختلفة حول وجوه إعجاز القرآن.",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "م3"
+      ],
+      "printed_plo_codes": [
+        "م3"
+      ],
+      "printed_source_page": 3,
+      "printed_read_by": "extractor",
+      "comparison": "printed_matches",
+      "governing_plo_codes": [
+        "م3"
+      ],
+      "governing_source": "official_printed"
+    },
+    {
+      "course_code": "2002456-2",
+      "old_variant_id": "2b83a0186a24c2c264da9a8ba86d017aca28329005572d7eba20912fe10073eb",
+      "new_variant_id": "6b2c8f5f3a16370ad09157ba02f00f3e413f1fde8df0dddb68869a1ddff5c77a",
+      "clo_index": 5,
+      "clo_code": "3.1",
+      "clo_text": "أن يبادر الطالب إلى تطوير معرفته بأوجه إعجاز القرآن باستمرار.",
+      "scope": {
+        "program": "القرآن وعلومه",
+        "plan_type": "قديمة",
+        "version": "39",
+        "degree": "بكالوريوس"
+      },
+      "authorized_plo_codes": [
+        "ق2"
+      ],
+      "printed_plo_codes": [
+        "ق2"
+      ],
+      "printed_source_page": 4,
+      "printed_read_by": "visual_review",
+      "comparison": "printed_read_visually_matches",
+      "governing_plo_codes": [
+        "ق2"
+      ],
+      "governing_source": "official_printed"
+    }
+  ],
+  "dropped_overrides": [
+    {
+      "course_code": "2002232-2",
+      "field": "clos[5].document_plo_codes",
+      "action": "dropped",
+      "reason_ar": "صُحّح لأن الصفحة المستكملة في النسخة المفرغة احتفظت برابط مطبوع؛ وفي التوصيف الرسمي هذا الرابط هو المقصود."
+    },
+    {
+      "course_code": "2002456-2",
+      "field": "clos[5].document_plo_codes",
+      "action": "dropped",
+      "reason_ar": "صُحّح لأن الصفحة المستكملة في النسخة المفرغة احتفظت برابط مطبوع؛ وفي التوصيف الرسمي هذا الرابط هو المقصود."
+    }
+  ]
+}

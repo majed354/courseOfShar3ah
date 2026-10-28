@@ -5,7 +5,7 @@ import unittest
 from collections import Counter, defaultdict
 
 from _shared_alignment_test_support import (
-    BUNDLE, ROOT, effective_extraction, lineage_records, load,
+    BUNDLE, ROOT, before_quran_official_repointing, effective_extraction, lineage_records, load,
     previous_context, scope_key, scope_set, split_lineage_records, split_snapshot,
     trim_variant_to_scopes,
 )
@@ -23,8 +23,10 @@ COMPLETION_VALUES = {"source_status": "present", "extraction_method": "verified_
 class SharedProgramJsonAlignmentTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.data = load(ROOT / "data.json")
-        cls.outcomes = load(ROOT / "course-outcomes.json")
+        # This package's contract is checked on the state before the Quran
+        # copies were repointed to official PDFs (see that package's test).
+        cls.data, cls.outcomes = before_quran_official_repointing(
+            load(ROOT / "data.json"), load(ROOT / "course-outcomes.json"))
         cls.before_data, cls.before_outcomes = previous_context()
         cls.lineage = lineage_records()
         cls.decisions = load(BUNDLE / "alignment-decisions.json")

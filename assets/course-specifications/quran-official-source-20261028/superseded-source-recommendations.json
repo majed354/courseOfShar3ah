@@ -1,0 +1,35 @@
+{
+  "reason_ar": "توصيات تحديث خلية الربط في النسخة المفرغة؛ النسخة الحالية تشير إلى التوصيف الرسمي الذي يطبع الرابط المقصود.",
+  "records": [
+    {
+      "id": "13476d95556c62cac9af95521f9e6785fe6ad5bb733496c1c037c23bb60856a2",
+      "course_code": "2002456-2",
+      "variant_id": "2b83a0186a24c2c264da9a8ba86d017aca28329005572d7eba20912fe10073eb",
+      "fields": [
+        "clos[3.1].plo_mappings"
+      ],
+      "issue_code": "SOURCE_PLO_MAPPING_PENDING_UPDATE",
+      "message": "صف CLO 3.1 ما زال يحمل ربط PLO القديم في PDF المنشور، بينما قاعدة JSON الموحدة تعتمد إفراغ ربط المقرر المشترك حتى يحدد داخل سياق البرنامج.",
+      "recommendation": "تحديث خلية ربط PLO في صف CLO 3.1 داخل PDF الرسمي لتوافق الربط المعتمد في JSON، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--2ab6b9436e.pdf",
+      "source_sha256": "80f1f1c217e02a561240c401d904281bd705558f81a158642537e0c26f47e0c9",
+      "status": "open",
+      "created_at": "2026-09-21"
+    },
+    {
+      "id": "3cd2179d579bd97c023b7c1f30aec6085a29c45237320e812fc0a581bebf3555",
+      "course_code": "2002232-2",
+      "variant_id": "bc0060ca5add7747fd11fda0b9d25c8fa8c7c11cb3404c8353b5cc0e6f536bcf",
+      "fields": [
+        "clos[3.1].plo_mappings"
+      ],
+      "issue_code": "SOURCE_PLO_MAPPING_PENDING_UPDATE",
+      "message": "صف CLO 3.1 ما زال يحمل ربط PLO القديم في PDF المنشور، بينما قاعدة JSON الموحدة تعتمد إفراغ ربط المقرر المشترك حتى يحدد داخل سياق البرنامج.",
+      "recommendation": "تحديث خلية ربط PLO في صف CLO 3.1 داخل PDF الرسمي لتوافق الربط المعتمد في JSON، ثم إعادة الاستخراج والتحقق من البصمة.",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002232-2--5593499c29.pdf",
+      "source_sha256": "017e6db4201747c176bb2cdb102e6cd741df3e8ea7b1daef2ae9b64d0fc0e4c4",
+      "status": "open",
+      "created_at": "2026-09-21"
+    }
+  ]
+}

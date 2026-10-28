@@ -9,7 +9,7 @@ from pathlib import Path
 import pymupdf
 
 from _shared_alignment_test_support import BUNDLE as ALIGNMENT_BUNDLE
-from _shared_alignment_test_support import SPLIT_BUNDLE, effective_extraction, previous_context, split_lineage_records
+from _shared_alignment_test_support import QURAN_OFFICIAL_BUNDLE, SPLIT_BUNDLE, effective_extraction, load, previous_context, split_lineage_records
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -145,6 +145,10 @@ class SharedCoursePloBlankingTest(unittest.TestCase):
         }
         new_plan = json.loads((ROOT/'assets/course-specifications/new-plan-updates-20261002/manifest.json').read_text())
         replaced_by.update({prior['source_pdf']: record['output'] for record in new_plan['records'] for prior in record['predecessors']})
+        # The user authorized pointing Quran-only copies back to the official
+        # Quran specification each blank was made from (2026-10-28).
+        official = load(QURAN_OFFICIAL_BUNDLE / "variant-lineage.json")["records"]
+        replaced_by.update({r["old_source_pdf"]: r["new_source_pdf"] for r in official})
         unresolved = {
             output
             for output in outputs
@@ -152,7 +156,13 @@ class SharedCoursePloBlankingTest(unittest.TestCase):
         }
         self.assertEqual(set(), unresolved)
         sources = {record["source"] for record in self.manifest["records"]}
-        self.assertTrue(sources.isdisjoint(linked))
+        allowed = {r["new_source_pdf"] for r in official}
+        self.assertEqual(14, len(allowed))
+        self.assertTrue((sources - allowed).isdisjoint(linked))
+        for detail in self.data["course_details"].values():
+            for variant in detail.get("variants", []):
+                if variant["pdf_url"] in allowed:
+                    self.assertEqual({"القرآن وعلومه"}, {s["program"] for s in variant["scopes"]})
 
     def test_original_shared_blanks_survive_beside_authorized_json_mappings(self):
         outputs = {record["output"] for record in self.manifest["records"]}

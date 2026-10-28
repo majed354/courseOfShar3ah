@@ -1,0 +1,392 @@
+{
+  "schema_version": "quran-official-source-v1",
+  "status": "data_verified_pending_publication",
+  "authored_at": "2026-10-28T12:00:00+03:00",
+  "authority": "موافقة المستخدم المنقولة من الجلسة الأم: «Have the alignment session point the Quran copies in data.json to the official Quran specifications that carry printed links, with re-extraction, verification and publication.»",
+  "rule_ar": "تُنقل نسخة القرآن وعلومه فقط حين تكون نسختها الحالية مفرغة مأخوذة مباشرة من توصيف رسمي لبرنامج القرآن وعلومه موجود في المستودع، ويكون الإصدار مؤهلًا في بيان quran-old-v39.",
+  "summary": {
+    "copies_repointed": 14,
+    "clo_scope_rows": 132,
+    "printed_differs": 16,
+    "printed_matches": 111,
+    "printed_read_visually_matches": 5,
+    "retired_recommendations": 2,
+    "dropped_overrides": 2,
+    "variants_after": 574,
+    "scopes_after": 737
+  },
+  "copies": [
+    {
+      "course_code": "2002110-2",
+      "old_variant_id": "b55e2b4dcd8c7bfb5629b331f80c7aa6248776101e5d48ae32ff48647517342a",
+      "new_variant_id": "a3e054cc323381890aa775cbde212a8b8dd722b6d82779f219478cda7bed2f7b",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002110-2.pdf",
+      "new_source_sha256": "edd1a2904afa6c7c2535f8e00e80c459f556eddc1f837f925f9a23a86d8bebbf",
+      "versions": [
+        "47",
+        "39"
+      ]
+    },
+    {
+      "course_code": "2002131-2",
+      "old_variant_id": "b4958d9f4620b2502c4bd74169057d53f77c731e64fe942a4ceb804f3108eee1",
+      "new_variant_id": "5dd51b8398dfcbfb73d2f62450e05e84978bcc4835ef83f559f71e7a232a1591",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002131-2.pdf",
+      "new_source_sha256": "6e9378b55144fbaa578d8462b4b69be6e02e3b0a6f20d57aed7a70c6357f157d",
+      "versions": [
+        "39"
+      ]
+    },
+    {
+      "course_code": "2002204-2",
+      "old_variant_id": "de342b434501010f18337ec5a620a93aed49780f32c31ca00300973c7a7bcc4a",
+      "new_variant_id": "c837c3250e0bb8b820fe76705cb4b643e4f0af213de058de9bef777bce19cab6",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002204-2.pdf",
+      "new_source_sha256": "67c82d86b6650dbec18980e6f37be8ae7f86adb00a660b165a40cad4fbb35a8d",
+      "versions": [
+        "47",
+        "39"
+      ]
+    },
+    {
+      "course_code": "2002208-2",
+      "old_variant_id": "026a5a485c47f4758f69f3be1e8c6f91c7a542ced24755a7a8695efea069545d",
+      "new_variant_id": "535951d7d19eb20aeade967defdc4344331f1ac9219e81e4d7940fdf0ac7e901",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002208-2.pdf",
+      "new_source_sha256": "9618a32fc67faafd222c970c14733811505d3e865909ec5b42bd94ee1a80126a",
+      "versions": [
+        "47",
+        "39"
+      ]
+    },
+    {
+      "course_code": "2002232-2",
+      "old_variant_id": "bc0060ca5add7747fd11fda0b9d25c8fa8c7c11cb3404c8353b5cc0e6f536bcf",
+      "new_variant_id": "08ba664d9cb382fffd5477a58c648588d55ab8d4c12e8dce367acdd93be9a168",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002232-2.pdf",
+      "new_source_sha256": "f3a245130ed9a23e5f83d74d6c994b419b6e86658d2701216e5db789c454cd16",
+      "versions": [
+        "39"
+      ]
+    },
+    {
+      "course_code": "2002250-2",
+      "old_variant_id": "19f5891cb795a6e52a5afe94d6c2e9d1bd784a1a4264086472dc42ae54218228",
+      "new_variant_id": "2789e24f7fadb47bd0ab9018269d54be8fc148985026f84b83be1ba279410833",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002250-2.pdf",
+      "new_source_sha256": "fbbb9cc68bcb0cdd30b3484ccc91dd107a86a603cc1d90918d508c1895010426",
+      "versions": [
+        "39"
+      ]
+    },
+    {
+      "course_code": "2002306-2",
+      "old_variant_id": "1647528bf3af0ac4e256953ddb0fda72d5fce2608b121fffe8b40f19177083a1",
+      "new_variant_id": "4e8cb5b8f11d3932bd5710d43d935a9bfbac38892319f02c198f407f67ac044f",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002306-2.pdf",
+      "new_source_sha256": "398f826dcf8f7586dd616873459bb99cd5933711ce5a6dd840c68bdbb6d3be90",
+      "versions": [
+        "47",
+        "39"
+      ]
+    },
+    {
+      "course_code": "2002318-2",
+      "old_variant_id": "1944c70a182183739dcca36cdda4c1e45dc669466463b668bd03649f7b913cb4",
+      "new_variant_id": "4873cad50cb9fc6a6365fe5ae802ee5f59057eeb862fe9136abdcbab5ac160f1",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002318-2.pdf",
+      "new_source_sha256": "fe9375cacd755098965a43e3eab8546a08adc3ddc8d87d978e54137c9e18ae4c",
+      "versions": [
+        "47",
+        "39"
+      ]
+    },
+    {
+      "course_code": "2002412-2",
+      "old_variant_id": "d8259d0c6c136a17dff6096d237827fdc967132686d765e27635575849186405",
+      "new_variant_id": "236382366d4c8af07e9a12d316e85b672783293c4769ecb088bd0aae3375e059",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002412-2.pdf",
+      "new_source_sha256": "95c9befe72b86d637e9a355b941839ca1555c746a3ee754418fae80e300841ac",
+      "versions": [
+        "39"
+      ]
+    },
+    {
+      "course_code": "2002416-2",
+      "old_variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "new_variant_id": "d29fec95e480eed4bcd0893801729a11d37d589d7251f32fc39a504c89ff99d5",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002416-2.pdf",
+      "new_source_sha256": "7aec5c0733e0d5749839f2872a2c6d1b942350c6c7385d18df572f66cdccdfd0",
+      "versions": [
+        "47",
+        "39"
+      ]
+    },
+    {
+      "course_code": "2002419-2",
+      "old_variant_id": "753ca749ab1e66ea3866e2256afb996e562ec137db540b91758eb9ad42e6d2bc",
+      "new_variant_id": "edc79e2e17f2c488e46be483d248097b3406a4190af664f4729f3c073aefbca3",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002419-2.pdf",
+      "new_source_sha256": "9c665b5f0350eccd44a9e6156893bd654fe76ff92d8a1f089196ce5076feb426",
+      "versions": [
+        "47",
+        "39"
+      ]
+    },
+    {
+      "course_code": "2002429-2",
+      "old_variant_id": "1eb79d49a8defab3e76f02b75b2290c48b6cd626114f33005bd0e17ffdece919",
+      "new_variant_id": "fdfd1548529912bf07418091af806bc503e5798b677ba874f2fd58492f438a12",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002429-2.pdf",
+      "new_source_sha256": "1b10097e1dfcdb80dbd91f7d2654a924f0ff0d15ebae1d9f8e2e763fd1a3f29d",
+      "versions": [
+        "39"
+      ]
+    },
+    {
+      "course_code": "2002454-2",
+      "old_variant_id": "063c73325eb89e06e355d5ff5250591dc00c5315cde959baf83c5aec297cd6a8",
+      "new_variant_id": "9a2f0dd56056ac399e781a7f109a3bf8962123debbb7b9fcb4f8222fb6ec8334",
+      "new_source_pdf": "assets/course-specifications/identity-resolutions-20260829/2002454-2--quran.pdf",
+      "new_source_sha256": "aba2cb946d9a3fc3aa7ad56dec56e30116a7c1e344dc7664a9fe0d226928ecca",
+      "versions": [
+        "47",
+        "39"
+      ]
+    },
+    {
+      "course_code": "2002456-2",
+      "old_variant_id": "2b83a0186a24c2c264da9a8ba86d017aca28329005572d7eba20912fe10073eb",
+      "new_variant_id": "6b2c8f5f3a16370ad09157ba02f00f3e413f1fde8df0dddb68869a1ddff5c77a",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002456-2.pdf",
+      "new_source_sha256": "5bd5124dd8ca980f88f27be92769992b97dce58065f19246baae7055196816ad",
+      "versions": [
+        "39"
+      ]
+    }
+  ],
+  "disagreements": [
+    {
+      "course_code": "2002110-2",
+      "clo_code": "2.1",
+      "version": "47",
+      "authorized": [
+        "م3"
+      ],
+      "printed_governing": [
+        "م2"
+      ],
+      "clo_text": "أن يميز الطالب بين القراءات المقبولة والشاذة."
+    },
+    {
+      "course_code": "2002110-2",
+      "clo_code": "2.1",
+      "version": "39",
+      "authorized": [
+        "م3"
+      ],
+      "printed_governing": [
+        "م2"
+      ],
+      "clo_text": "أن يميز الطالب بين القراءات المقبولة والشاذة."
+    },
+    {
+      "course_code": "2002110-2",
+      "clo_code": "2.2",
+      "version": "47",
+      "authorized": [
+        "م3"
+      ],
+      "printed_governing": [
+        "م2"
+      ],
+      "clo_text": "أن يقارن الطالب بين آراء العلماء في حكم العمل بالقراءات الشاذة."
+    },
+    {
+      "course_code": "2002110-2",
+      "clo_code": "2.2",
+      "version": "39",
+      "authorized": [
+        "م3"
+      ],
+      "printed_governing": [
+        "م2"
+      ],
+      "clo_text": "أن يقارن الطالب بين آراء العلماء في حكم العمل بالقراءات الشاذة."
+    },
+    {
+      "course_code": "2002232-2",
+      "clo_code": "2.1",
+      "version": "39",
+      "authorized": [
+        "م2"
+      ],
+      "printed_governing": [
+        "م3"
+      ],
+      "clo_text": "أن يميز الطالب بين المكي والمدني من سور وآيات القرآن."
+    },
+    {
+      "course_code": "2002250-2",
+      "clo_code": "2.2",
+      "version": "39",
+      "authorized": [
+        "م3"
+      ],
+      "printed_governing": [
+        "م2"
+      ],
+      "clo_text": "أن يقارن الطالب بين اختلاف التنوع والتضاد."
+    },
+    {
+      "course_code": "2002318-2",
+      "clo_code": "2.1",
+      "version": "47",
+      "authorized": [
+        "م2"
+      ],
+      "printed_governing": [
+        "م3"
+      ],
+      "clo_text": "أن يطبق الطالب مفاهيم توجيه القراءات على نماذج من الآيات القرآنية."
+    },
+    {
+      "course_code": "2002318-2",
+      "clo_code": "2.1",
+      "version": "39",
+      "authorized": [
+        "م2"
+      ],
+      "printed_governing": [
+        "م3"
+      ],
+      "clo_text": "أن يطبق الطالب مفاهيم توجيه القراءات على نماذج من الآيات القرآنية."
+    },
+    {
+      "course_code": "2002412-2",
+      "clo_code": "1.3",
+      "version": "39",
+      "authorized": [
+        "ع2"
+      ],
+      "printed_governing": [
+        "ع3"
+      ],
+      "clo_text": "أن يستعرض الطالب الموسوعات ومصادر تراجم القراء."
+    },
+    {
+      "course_code": "2002416-2",
+      "clo_code": "1.1",
+      "version": "47",
+      "authorized": [
+        "ع2"
+      ],
+      "printed_governing": [
+        "ع3"
+      ],
+      "clo_text": "أن يستعرض الطالب الوسائل التعليمية وتقنيات المعلومات في الدراسات القرآنية."
+    },
+    {
+      "course_code": "2002416-2",
+      "clo_code": "1.1",
+      "version": "39",
+      "authorized": [
+        "ع2"
+      ],
+      "printed_governing": [
+        "ع3"
+      ],
+      "clo_text": "أن يستعرض الطالب الوسائل التعليمية وتقنيات المعلومات في الدراسات القرآنية."
+    },
+    {
+      "course_code": "2002416-2",
+      "clo_code": "1.2",
+      "version": "47",
+      "authorized": [
+        "ع2"
+      ],
+      "printed_governing": [
+        "ع3"
+      ],
+      "clo_text": "أن يشرح الطالب مفهوم التصميم التعليمي والبرمجيات التعليمية في مجال الدراسات القرآنية."
+    },
+    {
+      "course_code": "2002416-2",
+      "clo_code": "1.2",
+      "version": "39",
+      "authorized": [
+        "ع2"
+      ],
+      "printed_governing": [
+        "ع3"
+      ],
+      "clo_text": "أن يشرح الطالب مفهوم التصميم التعليمي والبرمجيات التعليمية في مجال الدراسات القرآنية."
+    },
+    {
+      "course_code": "2002416-2",
+      "clo_code": "1.3",
+      "version": "47",
+      "authorized": [
+        "ع2"
+      ],
+      "printed_governing": [
+        "ع3"
+      ],
+      "clo_text": "أن يصف الطالب تقنيات الإقراء وتعليم القرآن عن بعد والتعلم النقال."
+    },
+    {
+      "course_code": "2002416-2",
+      "clo_code": "1.3",
+      "version": "39",
+      "authorized": [
+        "ع2"
+      ],
+      "printed_governing": [
+        "ع3"
+      ],
+      "clo_text": "أن يصف الطالب تقنيات الإقراء وتعليم القرآن عن بعد والتعلم النقال."
+    },
+    {
+      "course_code": "2002456-2",
+      "clo_code": "2.1",
+      "version": "39",
+      "authorized": [
+        "م2"
+      ],
+      "printed_governing": [
+        "م3"
+      ],
+      "clo_text": "أن يحلل الطالب وجوه الإعجاز في نماذج من الآيات القرآنية."
+    }
+  ],
+  "tools": [
+    "scripts/point_quran_copies_to_official_specs_20261028.py",
+    "scripts/extract_course_outcomes.py::extract_variant_worker"
+  ],
+  "files": [
+    {
+      "path": "assets/course-specifications/quran-official-source-20261028/link-comparison.json",
+      "sha256": "a3261bdfa2ba91208be40d20f58dc3d31049fa431b9031346ec45fea141b4838"
+    },
+    {
+      "path": "assets/course-specifications/quran-official-source-20261028/previous-context.json",
+      "sha256": "f2debf9deedec781a217ec70dc911d513bccfdb00141fb645d43030bf884969a"
+    },
+    {
+      "path": "assets/course-specifications/quran-official-source-20261028/selection.json",
+      "sha256": "8479dcbb18be47277bdf788844569c4cd8b7fa80c2ef425220da7d2d51059e38"
+    },
+    {
+      "path": "assets/course-specifications/quran-official-source-20261028/superseded-source-recommendations.json",
+      "sha256": "56d127764249d53762e8e4c5ed1e662da6b3a69b5d07d39b1566fa75964212c5"
+    },
+    {
+      "path": "assets/course-specifications/quran-official-source-20261028/validation.json",
+      "sha256": "1ca6490a11df2d6edf42cf6a8d617ee537464a0f55c5188e56fb258fcb4ac5a2"
+    },
+    {
+      "path": "assets/course-specifications/quran-official-source-20261028/variant-lineage.json",
+      "sha256": "faab95e95582226df69ccdeec4952892357baaff6be8c7f724c7abb023fc6d40"
+    }
+  ]
+}

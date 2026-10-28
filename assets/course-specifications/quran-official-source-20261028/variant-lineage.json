@@ -1,0 +1,291 @@
+{
+  "schema_version": "quran-official-source-lineage-v1",
+  "records": [
+    {
+      "course_code": "2002110-2",
+      "old_variant_id": "b55e2b4dcd8c7bfb5629b331f80c7aa6248776101e5d48ae32ff48647517342a",
+      "new_variant_id": "a3e054cc323381890aa775cbde212a8b8dd722b6d82779f219478cda7bed2f7b",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "old_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002110-2--7ef1cbb8b0.pdf",
+      "old_source_sha256": "d25bf3dde1f7e1bd7a3b5293912ad6bb8944c8e943ef523be37945889640bd34",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002110-2.pdf",
+      "new_source_sha256": "edd1a2904afa6c7c2535f8e00e80c459f556eddc1f837f925f9a23a86d8bebbf"
+    },
+    {
+      "course_code": "2002131-2",
+      "old_variant_id": "b4958d9f4620b2502c4bd74169057d53f77c731e64fe942a4ceb804f3108eee1",
+      "new_variant_id": "5dd51b8398dfcbfb73d2f62450e05e84978bcc4835ef83f559f71e7a232a1591",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "old_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002131-2--ffe87471e2.pdf",
+      "old_source_sha256": "cce460409327a9633c020a853d1d2f79456c81933f8e40bc1d28b505dae46e26",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002131-2.pdf",
+      "new_source_sha256": "6e9378b55144fbaa578d8462b4b69be6e02e3b0a6f20d57aed7a70c6357f157d"
+    },
+    {
+      "course_code": "2002204-2",
+      "old_variant_id": "de342b434501010f18337ec5a620a93aed49780f32c31ca00300973c7a7bcc4a",
+      "new_variant_id": "c837c3250e0bb8b820fe76705cb4b643e4f0af213de058de9bef777bce19cab6",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "old_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002204-2--23f96e09c9.pdf",
+      "old_source_sha256": "1a83645ab63e285c2c283a5f3981d0dd2e0986327aaa3b2c24ff330e0fe1b0b5",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002204-2.pdf",
+      "new_source_sha256": "67c82d86b6650dbec18980e6f37be8ae7f86adb00a660b165a40cad4fbb35a8d"
+    },
+    {
+      "course_code": "2002208-2",
+      "old_variant_id": "026a5a485c47f4758f69f3be1e8c6f91c7a542ced24755a7a8695efea069545d",
+      "new_variant_id": "535951d7d19eb20aeade967defdc4344331f1ac9219e81e4d7940fdf0ac7e901",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "old_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002208-2--8a45e25aad.pdf",
+      "old_source_sha256": "804b511533bd54117a7a7c4bdf8ba114671b6cb86b235e531ec5f0413cbcc99a",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002208-2.pdf",
+      "new_source_sha256": "9618a32fc67faafd222c970c14733811505d3e865909ec5b42bd94ee1a80126a"
+    },
+    {
+      "course_code": "2002232-2",
+      "old_variant_id": "bc0060ca5add7747fd11fda0b9d25c8fa8c7c11cb3404c8353b5cc0e6f536bcf",
+      "new_variant_id": "08ba664d9cb382fffd5477a58c648588d55ab8d4c12e8dce367acdd93be9a168",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "old_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002232-2--5593499c29.pdf",
+      "old_source_sha256": "017e6db4201747c176bb2cdb102e6cd741df3e8ea7b1daef2ae9b64d0fc0e4c4",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002232-2.pdf",
+      "new_source_sha256": "f3a245130ed9a23e5f83d74d6c994b419b6e86658d2701216e5db789c454cd16"
+    },
+    {
+      "course_code": "2002250-2",
+      "old_variant_id": "19f5891cb795a6e52a5afe94d6c2e9d1bd784a1a4264086472dc42ae54218228",
+      "new_variant_id": "2789e24f7fadb47bd0ab9018269d54be8fc148985026f84b83be1ba279410833",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "old_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002250-2--a6427ad49e.pdf",
+      "old_source_sha256": "9cf366abbdede7c727a4a3ffafb47c472c7e59a8c57e9bc6727999ee44bcc2fe",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002250-2.pdf",
+      "new_source_sha256": "fbbb9cc68bcb0cdd30b3484ccc91dd107a86a603cc1d90918d508c1895010426"
+    },
+    {
+      "course_code": "2002306-2",
+      "old_variant_id": "1647528bf3af0ac4e256953ddb0fda72d5fce2608b121fffe8b40f19177083a1",
+      "new_variant_id": "4e8cb5b8f11d3932bd5710d43d935a9bfbac38892319f02c198f407f67ac044f",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "old_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002306-2--c75aac55d3.pdf",
+      "old_source_sha256": "7d22ef0534be82b5b08e0d427a90b4321650e14b45a591e3025b98df378107bd",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002306-2.pdf",
+      "new_source_sha256": "398f826dcf8f7586dd616873459bb99cd5933711ce5a6dd840c68bdbb6d3be90"
+    },
+    {
+      "course_code": "2002318-2",
+      "old_variant_id": "1944c70a182183739dcca36cdda4c1e45dc669466463b668bd03649f7b913cb4",
+      "new_variant_id": "4873cad50cb9fc6a6365fe5ae802ee5f59057eeb862fe9136abdcbab5ac160f1",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "old_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002318-2--dd9ba82454.pdf",
+      "old_source_sha256": "4627f85d286a978cedc7801b6f41cdafa2b373ae94578d08733c68f0ab0bfdfd",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002318-2.pdf",
+      "new_source_sha256": "fe9375cacd755098965a43e3eab8546a08adc3ddc8d87d978e54137c9e18ae4c"
+    },
+    {
+      "course_code": "2002412-2",
+      "old_variant_id": "d8259d0c6c136a17dff6096d237827fdc967132686d765e27635575849186405",
+      "new_variant_id": "236382366d4c8af07e9a12d316e85b672783293c4769ecb088bd0aae3375e059",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "old_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002412-2--a4c385d4c7.pdf",
+      "old_source_sha256": "4ea2b98f3c76cec47b46ffa3baa54d1eda3a6c1d87bf5c0a01938450c99ead4e",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002412-2.pdf",
+      "new_source_sha256": "95c9befe72b86d637e9a355b941839ca1555c746a3ee754418fae80e300841ac"
+    },
+    {
+      "course_code": "2002416-2",
+      "old_variant_id": "5354837cc54cdd8de549af0fb9ac85c1f2506659ec145a00470ed19aebcfb766",
+      "new_variant_id": "d29fec95e480eed4bcd0893801729a11d37d589d7251f32fc39a504c89ff99d5",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "old_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002416-2--e9243b6609.pdf",
+      "old_source_sha256": "f883b9369e5156ee0d24b4e905a3c62758c355bb022766cd84ffc7fc6a8f947a",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002416-2.pdf",
+      "new_source_sha256": "7aec5c0733e0d5749839f2872a2c6d1b942350c6c7385d18df572f66cdccdfd0"
+    },
+    {
+      "course_code": "2002419-2",
+      "old_variant_id": "753ca749ab1e66ea3866e2256afb996e562ec137db540b91758eb9ad42e6d2bc",
+      "new_variant_id": "edc79e2e17f2c488e46be483d248097b3406a4190af664f4729f3c073aefbca3",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "old_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002419-2--1b8ce7dd97.pdf",
+      "old_source_sha256": "b94fed8fbd2e307e6c5885a1ddef3275909eb88aa5c3c6c2b396a5d5cd93bf90",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002419-2.pdf",
+      "new_source_sha256": "9c665b5f0350eccd44a9e6156893bd654fe76ff92d8a1f089196ce5076feb426"
+    },
+    {
+      "course_code": "2002429-2",
+      "old_variant_id": "1eb79d49a8defab3e76f02b75b2290c48b6cd626114f33005bd0e17ffdece919",
+      "new_variant_id": "fdfd1548529912bf07418091af806bc503e5798b677ba874f2fd58492f438a12",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "old_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002429-2--af8452abb6.pdf",
+      "old_source_sha256": "2a14aa2279a9e92bef407b36f6be9731e018470ab8a3eeb008f7eb772d4801ea",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002429-2.pdf",
+      "new_source_sha256": "1b10097e1dfcdb80dbd91f7d2654a924f0ff0d15ebae1d9f8e2e763fd1a3f29d"
+    },
+    {
+      "course_code": "2002454-2",
+      "old_variant_id": "063c73325eb89e06e355d5ff5250591dc00c5315cde959baf83c5aec297cd6a8",
+      "new_variant_id": "9a2f0dd56056ac399e781a7f109a3bf8962123debbb7b9fcb4f8222fb6ec8334",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "old_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002454-2--8ad1d4a04f.pdf",
+      "old_source_sha256": "375dafd14ce63b5e859d8cb4fa261c4c34edcc74905bc430dbad843e52fbf93e",
+      "new_source_pdf": "assets/course-specifications/identity-resolutions-20260829/2002454-2--quran.pdf",
+      "new_source_sha256": "aba2cb946d9a3fc3aa7ad56dec56e30116a7c1e344dc7664a9fe0d226928ecca"
+    },
+    {
+      "course_code": "2002456-2",
+      "old_variant_id": "2b83a0186a24c2c264da9a8ba86d017aca28329005572d7eba20912fe10073eb",
+      "new_variant_id": "6b2c8f5f3a16370ad09157ba02f00f3e413f1fde8df0dddb68869a1ddff5c77a",
+      "scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "old_source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2002456-2--2ab6b9436e.pdf",
+      "old_source_sha256": "80f1f1c217e02a561240c401d904281bd705558f81a158642537e0c26f47e0c9",
+      "new_source_pdf": "assets/course-specifications/quran-old-v39/2002456-2.pdf",
+      "new_source_sha256": "5bd5124dd8ca980f88f27be92769992b97dce58065f19246baae7055196816ad"
+    }
+  ]
+}
