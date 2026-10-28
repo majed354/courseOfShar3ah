@@ -1,0 +1,43 @@
+{
+  "schema_version": "shared-program-json-validation-v1",
+  "schema_verifier": {
+    "status": "passed",
+    "courses": 413,
+    "variants": 574,
+    "scopes": 737,
+    "legacy_records": 1
+  },
+  "python_tests": {
+    "status": "passed",
+    "count": 194,
+    "log_sha256": "ff83c502c4b64ac4224bc07d6c6d051b98ce9f850e3566d75e6f65a4a25ac206"
+  },
+  "javascript_tests": {
+    "status": "passed",
+    "count": 13
+  },
+  "git_diff_check": "passed",
+  "pdf_bytes": {
+    "status": "passed",
+    "checked_count": 641,
+    "changed_count": 0
+  },
+  "automation_consumer": {
+    "status": "passed",
+    "reader": "course_outcomes_store.py (read-only, scratch copy)",
+    "clo_mappings_checked": 1900,
+    "this_package_rows": 310,
+    "earlier_package_rows": 1590,
+    "external_writes": false
+  },
+  "existing_tests_updated": {
+    "reason": "استبعاد المقررات الإحدى عشرة المفصولة من فحوص «بقاء غير المستهدف كما هو» مع مقارنة آبائها المجمدين بلقطة هذه الحزمة حرفيًا، وتحديث عدد النسخ 548→574 بالتعليل.",
+    "files": [
+      "tests/_shared_alignment_test_support.py",
+      "tests/test_shared_program_json_alignment_20261016.py",
+      "tests/test_shared_course_plo_blanking.py",
+      "tests/test_doctorate_single_domain_20261016.py",
+      "tests/test_master_single_domain_20261015.py"
+    ]
+  }
+}

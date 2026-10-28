@@ -9,7 +9,7 @@ from pathlib import Path
 import pymupdf
 
 from _shared_alignment_test_support import BUNDLE as ALIGNMENT_BUNDLE
-from _shared_alignment_test_support import effective_extraction, previous_context
+from _shared_alignment_test_support import SPLIT_BUNDLE, effective_extraction, previous_context, split_lineage_records
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -176,6 +176,11 @@ class SharedCoursePloBlankingTest(unittest.TestCase):
             (r["course_code"], r["new_variant_id"]): r["old_variant_id"]
             for r in json.loads((ALIGNMENT_BUNDLE / "variant-lineage.json").read_text(encoding="utf-8"))["records"]
         }
+        # The 2026-10-28 package split eleven further shared copies; its
+        # decisions and lineage join the earlier ones for the same contract.
+        parents.update({(r["course_code"], r["new_variant_id"]): r["old_variant_id"] for r in split_lineage_records()})
+        for r in json.loads((SPLIT_BUNDLE / "alignment-decisions.json").read_text(encoding="utf-8"))["records"]:
+            chosen[(r["course_code"], r["variant_id"], r["clo_index"], json.dumps(r["scope"], sort_keys=True))] = r
         checked = 0
         for code, course in self.outcomes["courses"].items():
             for variant in course.get("variants", []):

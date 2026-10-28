@@ -1,0 +1,1915 @@
+{
+  "schema_version": "shared-program-variant-lineage-v1",
+  "summary": {
+    "target_courses": 11,
+    "parents": 11,
+    "children": 37,
+    "variants_after": 574,
+    "scopes_after": 737,
+    "legacy_records_after": 1
+  },
+  "records": [
+    {
+      "course_code": "2001113-2",
+      "old_variant_id": "924cb954e110a7a7482b2e7262a744281feefcdd3fa19fd500469c5a98267db2",
+      "new_variant_id": "949422e8346f5c15dce6a091ce2a6abb5aa2cb5930232c317aaf4298fac09070",
+      "source_pdf": "assets/course-specifications/eight-course-completion-20260915/2001113-2.pdf",
+      "source_sha256": "9e022d9c62ccc2a737d6007a86c927a0fbd8a313c073d11d2e8edb624f0e9e63",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الأنظمة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        }
+      ],
+      "legacy_direct_record": false
+    },
+    {
+      "course_code": "2001113-2",
+      "old_variant_id": "924cb954e110a7a7482b2e7262a744281feefcdd3fa19fd500469c5a98267db2",
+      "new_variant_id": "edadb1aed49938d0391aed387cdcf30b62d4cfc904c2b751b29a81785a204faf",
+      "source_pdf": "assets/course-specifications/eight-course-completion-20260915/2001113-2.pdf",
+      "source_sha256": "9e022d9c62ccc2a737d6007a86c927a0fbd8a313c073d11d2e8edb624f0e9e63",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الأنظمة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "legacy_direct_record": false
+    },
+    {
+      "course_code": "2001114-2",
+      "old_variant_id": "95ca2ed11df8e87e1b7ec054daf35afd4d9d40df7045d222ddefaee8b6b95be2",
+      "new_variant_id": "c4f25d10d0660c70dc0e5d094a1f4e0f11de8100ba8f87a7ed1d0ecb448ca247",
+      "source_pdf": "assets/course-specifications/2001114-2.pdf",
+      "source_sha256": "12bdab814d979eed5c7f21892649cd0924c3d4846b6253da258ba88954eda421",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "2001114-2",
+      "old_variant_id": "95ca2ed11df8e87e1b7ec054daf35afd4d9d40df7045d222ddefaee8b6b95be2",
+      "new_variant_id": "e52c958055222fe1066b16c1733c3f6529fbd2e8e129e40d9a48cff87c978311",
+      "source_pdf": "assets/course-specifications/2001114-2.pdf",
+      "source_sha256": "12bdab814d979eed5c7f21892649cd0924c3d4846b6253da258ba88954eda421",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "2001114-2",
+      "old_variant_id": "95ca2ed11df8e87e1b7ec054daf35afd4d9d40df7045d222ddefaee8b6b95be2",
+      "new_variant_id": "1621a8cb57387bb52b24f7ccbb37b841cc415c53091d84ad4bff4dba90e75767",
+      "source_pdf": "assets/course-specifications/2001114-2.pdf",
+      "source_sha256": "12bdab814d979eed5c7f21892649cd0924c3d4846b6253da258ba88954eda421",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "2001114-2",
+      "old_variant_id": "95ca2ed11df8e87e1b7ec054daf35afd4d9d40df7045d222ddefaee8b6b95be2",
+      "new_variant_id": "1782d6718eed6cfea4366af51e2049b6d0f7e733af5d6de2d74e67dbe2d9f688",
+      "source_pdf": "assets/course-specifications/2001114-2.pdf",
+      "source_sha256": "12bdab814d979eed5c7f21892649cd0924c3d4846b6253da258ba88954eda421",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "2001114-2",
+      "old_variant_id": "95ca2ed11df8e87e1b7ec054daf35afd4d9d40df7045d222ddefaee8b6b95be2",
+      "new_variant_id": "78ea0bffa28df2afa06ba35fa047184e30c2259033db534ba70d07ca9a242665",
+      "source_pdf": "assets/course-specifications/2001114-2.pdf",
+      "source_sha256": "12bdab814d979eed5c7f21892649cd0924c3d4846b6253da258ba88954eda421",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "20021304-2",
+      "old_variant_id": "604da0d69fea5ae772f6f4da8e1c13e0a29eaf0a0b4874f5f23337a1e16f85a0",
+      "new_variant_id": "64f5ebdf5b96311091e9d272b6f59faa1367fd02b2d298caab1efab74fcf0dd8",
+      "source_pdf": "assets/course-specifications/20021304-2.pdf",
+      "source_sha256": "3fefee2751520576fb0752449bec11cd659e327668857f985de6b9f0c1d489da",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "20021304-2",
+      "old_variant_id": "604da0d69fea5ae772f6f4da8e1c13e0a29eaf0a0b4874f5f23337a1e16f85a0",
+      "new_variant_id": "8517fe693e33384f61945edc138e1990e0f4360a9fcef8ed55dbc5a1ac971833",
+      "source_pdf": "assets/course-specifications/20021304-2.pdf",
+      "source_sha256": "3fefee2751520576fb0752449bec11cd659e327668857f985de6b9f0c1d489da",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "2003220-2",
+      "old_variant_id": "0364b06d062f9325f39528e519a48634a190004392e03bee148852c378a19665",
+      "new_variant_id": "6fef32eda944a6662680fd7209493b89263d5d66197fa0e47650c737a9aa2c90",
+      "source_pdf": "assets/course-specifications/20031301-2.pdf",
+      "source_sha256": "5ca08149acf36e81a8851ddd642e35432305a6723bd7167b2f83729e3ed74fda",
+      "old_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "plan_type": "قديمة",
+          "version": "39",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "plan_type": "قديمة",
+          "version": "39",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "legacy_direct_record": false
+    },
+    {
+      "course_code": "2003220-2",
+      "old_variant_id": "0364b06d062f9325f39528e519a48634a190004392e03bee148852c378a19665",
+      "new_variant_id": "d26204221ca5dbcc1b4fc0056988567dd39761c3e12a68466ea1fd100a78585b",
+      "source_pdf": "assets/course-specifications/20031301-2.pdf",
+      "source_sha256": "5ca08149acf36e81a8851ddd642e35432305a6723bd7167b2f83729e3ed74fda",
+      "old_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "plan_type": "قديمة",
+          "version": "39",
+          "degree": "بكالوريوس"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "plan_type": "قديمة",
+          "version": "39",
+          "degree": "بكالوريوس"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "legacy_direct_record": false
+    },
+    {
+      "course_code": "2004112-2",
+      "old_variant_id": "43c89564981fcab507386e20342439e3ee8db6a3e3824cb8818c1f95e9fb422e",
+      "new_variant_id": "bc4e9d1f02b59e5366cbd9bd21ab3e852121674c6c43b3da3f41a271ea4f948f",
+      "source_pdf": "assets/course-specifications/2004112-2.pdf",
+      "source_sha256": "54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الأنظمة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "2004112-2",
+      "old_variant_id": "43c89564981fcab507386e20342439e3ee8db6a3e3824cb8818c1f95e9fb422e",
+      "new_variant_id": "0ca9368d5aae4c77acb03440089408171badf1a9d9496f6ad7b148f6b7a61dbc",
+      "source_pdf": "assets/course-specifications/2004112-2.pdf",
+      "source_sha256": "54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الأنظمة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "2004112-2",
+      "old_variant_id": "43c89564981fcab507386e20342439e3ee8db6a3e3824cb8818c1f95e9fb422e",
+      "new_variant_id": "53924a26b4e6afb8d63b30c2158f5778e8a9352b8efc7a3e10239afb2763dddf",
+      "source_pdf": "assets/course-specifications/2004112-2.pdf",
+      "source_sha256": "54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الأنظمة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "2004112-2",
+      "old_variant_id": "43c89564981fcab507386e20342439e3ee8db6a3e3824cb8818c1f95e9fb422e",
+      "new_variant_id": "d76e51d29b8f588612eb53fe05d49b2e0c7174308f60e16293bc601d3aef0f9d",
+      "source_pdf": "assets/course-specifications/2004112-2.pdf",
+      "source_sha256": "54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الأنظمة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "2004112-2",
+      "old_variant_id": "43c89564981fcab507386e20342439e3ee8db6a3e3824cb8818c1f95e9fb422e",
+      "new_variant_id": "e07a5ab1066d2ac6ab3b41c45722251cd4bc70ed7736e3a1ed5f52fe7da5c528",
+      "source_pdf": "assets/course-specifications/2004112-2.pdf",
+      "source_sha256": "54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الأنظمة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "20041302-2",
+      "old_variant_id": "6dc0cb45f132ed9e46c4589258b03f803918adfb5dce361bf7ac7b63c233e7db",
+      "new_variant_id": "968667dd3de9c1446d54b9d7b1530873fef862d84adca99239694e5c7a554567",
+      "source_pdf": "assets/course-specifications/20041302-2.pdf",
+      "source_sha256": "20ed27a1b0aba126f1167a8eec922cad342010d9976dd8751e0e9ed91f9dc067",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "20041302-2",
+      "old_variant_id": "6dc0cb45f132ed9e46c4589258b03f803918adfb5dce361bf7ac7b63c233e7db",
+      "new_variant_id": "1c36f9edb171900dff21b30fdfeaa4a0d3c438c0886602c534c569c274a74528",
+      "source_pdf": "assets/course-specifications/20041302-2.pdf",
+      "source_sha256": "20ed27a1b0aba126f1167a8eec922cad342010d9976dd8751e0e9ed91f9dc067",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "20041302-2",
+      "old_variant_id": "6dc0cb45f132ed9e46c4589258b03f803918adfb5dce361bf7ac7b63c233e7db",
+      "new_variant_id": "30e56de89a18561f52807f80e1348a0d1f3b3464ec4eb9ddc624b591621448c3",
+      "source_pdf": "assets/course-specifications/20041302-2.pdf",
+      "source_sha256": "20ed27a1b0aba126f1167a8eec922cad342010d9976dd8751e0e9ed91f9dc067",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "20041302-2",
+      "old_variant_id": "6dc0cb45f132ed9e46c4589258b03f803918adfb5dce361bf7ac7b63c233e7db",
+      "new_variant_id": "fbd9ae532cd8b41bdbc9c68959f77559510f99b98e8575f75a7c0bbfba51e1e3",
+      "source_pdf": "assets/course-specifications/20041302-2.pdf",
+      "source_sha256": "20ed27a1b0aba126f1167a8eec922cad342010d9976dd8751e0e9ed91f9dc067",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "20041302-2",
+      "old_variant_id": "6dc0cb45f132ed9e46c4589258b03f803918adfb5dce361bf7ac7b63c233e7db",
+      "new_variant_id": "122a6144e4508768a098fe73ce41a1245768a1c0821e84eda896440925d7e0c3",
+      "source_pdf": "assets/course-specifications/20041302-2.pdf",
+      "source_sha256": "20ed27a1b0aba126f1167a8eec922cad342010d9976dd8751e0e9ed91f9dc067",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "20041303-2",
+      "old_variant_id": "d181db9bfc7c9f85643e3884c2bd6b542bc6f3e93dbbeae05ace5c9b05e63c4c",
+      "new_variant_id": "070a1721d72b373160924652f36f7984f3337aa66849725beae64bc0b0ac6f4d",
+      "source_pdf": "assets/course-specifications/20041303-2.pdf",
+      "source_sha256": "47e9239f95b6f87e5e13da72237e01db51f1c34e2b9e11bfe94aa56e9e3fc368",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "20041303-2",
+      "old_variant_id": "d181db9bfc7c9f85643e3884c2bd6b542bc6f3e93dbbeae05ace5c9b05e63c4c",
+      "new_variant_id": "c0ec1db266598b9072e2370e88c66eff9c2a22f7b6c1af37f94ba52bddadf48c",
+      "source_pdf": "assets/course-specifications/20041303-2.pdf",
+      "source_sha256": "47e9239f95b6f87e5e13da72237e01db51f1c34e2b9e11bfe94aa56e9e3fc368",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "20041303-2",
+      "old_variant_id": "d181db9bfc7c9f85643e3884c2bd6b542bc6f3e93dbbeae05ace5c9b05e63c4c",
+      "new_variant_id": "9bc2db26e3cda78639e119c564c0013d59c3700c4f61386776db4b13fce7ff40",
+      "source_pdf": "assets/course-specifications/20041303-2.pdf",
+      "source_sha256": "47e9239f95b6f87e5e13da72237e01db51f1c34e2b9e11bfe94aa56e9e3fc368",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "20041303-2",
+      "old_variant_id": "d181db9bfc7c9f85643e3884c2bd6b542bc6f3e93dbbeae05ace5c9b05e63c4c",
+      "new_variant_id": "52e42a34286a3b10d60a9691a68f1f77b08921c4b63164f9adfae8c899fb72be",
+      "source_pdf": "assets/course-specifications/20041303-2.pdf",
+      "source_sha256": "47e9239f95b6f87e5e13da72237e01db51f1c34e2b9e11bfe94aa56e9e3fc368",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "20041303-2",
+      "old_variant_id": "d181db9bfc7c9f85643e3884c2bd6b542bc6f3e93dbbeae05ace5c9b05e63c4c",
+      "new_variant_id": "7fb61bba45f46cccf49849bf6c9eb604e3647955e4392834d94c17291ba64880",
+      "source_pdf": "assets/course-specifications/20041303-2.pdf",
+      "source_sha256": "47e9239f95b6f87e5e13da72237e01db51f1c34e2b9e11bfe94aa56e9e3fc368",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "2004205-2",
+      "old_variant_id": "4e48a68875f6bc828b7043172d6992dff00b59127e26ad1a12f9e650c81517ba",
+      "new_variant_id": "f8b7e3ceb402c215c50773ea089b846b990c0f663aa436b1f67ce901351c5341",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001205-2.pdf",
+      "source_sha256": "b15bf07d186a839ab17ae65398f1f878ccd2a362994c342049eb00769daecb2d",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": false
+    },
+    {
+      "course_code": "2004205-2",
+      "old_variant_id": "4e48a68875f6bc828b7043172d6992dff00b59127e26ad1a12f9e650c81517ba",
+      "new_variant_id": "9120be2ba3180847bd9c4a3676d80f35f399fefc82d8eb44ce33765c441820a0",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001205-2.pdf",
+      "source_sha256": "b15bf07d186a839ab17ae65398f1f878ccd2a362994c342049eb00769daecb2d",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": false
+    },
+    {
+      "course_code": "2004209-2",
+      "old_variant_id": "e251e8ee9eb2325b50b5a5249d87cfec71fbdc895c6e4df05167d14bd7107f87",
+      "new_variant_id": "bbe9bfb44168118862203cbdaf9f5d86b6dbc89b72c1c6e302732aa006aec0a4",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001209-2.pdf",
+      "source_sha256": "e5bc393aed47e6b6815a97b628f35860ae54933c42e13d0ff116ce3022a0b4cd",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": false
+    },
+    {
+      "course_code": "2004209-2",
+      "old_variant_id": "e251e8ee9eb2325b50b5a5249d87cfec71fbdc895c6e4df05167d14bd7107f87",
+      "new_variant_id": "9fc76357d40faf345b49a19e68348a5ffc421062e0b8b24e46f249a6052cceed",
+      "source_pdf": "assets/course-specifications/institutional-recovery-20260911/2001209-2.pdf",
+      "source_sha256": "e5bc393aed47e6b6815a97b628f35860ae54933c42e13d0ff116ce3022a0b4cd",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": false
+    },
+    {
+      "course_code": "2004313-2",
+      "old_variant_id": "d4f0baa12ac153c5fa0cf35c2a932e184a298b88aaac1381fffa921962983651",
+      "new_variant_id": "73ece52ce9f598dc6dd03be2bfb03d358a72fe036ce36edca230ac7b79314912",
+      "source_pdf": "assets/course-specifications/2004313-2.pdf",
+      "source_sha256": "b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الأنظمة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "الأنظمة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "2004313-2",
+      "old_variant_id": "d4f0baa12ac153c5fa0cf35c2a932e184a298b88aaac1381fffa921962983651",
+      "new_variant_id": "5aced41679296b13337f1b03385a7160b4fd719e90335cd711f6cbc0f94705d8",
+      "source_pdf": "assets/course-specifications/2004313-2.pdf",
+      "source_sha256": "b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الأنظمة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "الدراسات الإسلامية",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "2004313-2",
+      "old_variant_id": "d4f0baa12ac153c5fa0cf35c2a932e184a298b88aaac1381fffa921962983651",
+      "new_variant_id": "d2b35611ba18a485e7f9ffd80104c0f43f043ac8a40463f4fdf0f437218d77fa",
+      "source_pdf": "assets/course-specifications/2004313-2.pdf",
+      "source_sha256": "b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الأنظمة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        },
+        {
+          "program": "الشريعة",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "2004313-2",
+      "old_variant_id": "d4f0baa12ac153c5fa0cf35c2a932e184a298b88aaac1381fffa921962983651",
+      "new_variant_id": "9b1de3fe0956bba052083b53b195fe4d7efa0afce57be8d9d34dffc7c99cb610",
+      "source_pdf": "assets/course-specifications/2004313-2.pdf",
+      "source_sha256": "b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الأنظمة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "39"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "2004313-2",
+      "old_variant_id": "d4f0baa12ac153c5fa0cf35c2a932e184a298b88aaac1381fffa921962983651",
+      "new_variant_id": "7cdac11aed4b0b7d9bb5f6a3dc5bb5bfcb0d93cb63aaeade3ef59c8d20ab844b",
+      "source_pdf": "assets/course-specifications/2004313-2.pdf",
+      "source_sha256": "b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الأنظمة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الأنظمة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الدراسات الإسلامية",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الدراسات الإسلامية",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "الشريعة",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "38"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "الشريعة",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القرآن وعلومه",
+          "version": "39"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "program": "القراءات",
+          "version": "38"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "قديمة",
+          "version": "38"
+        }
+      ],
+      "legacy_direct_record": true
+    },
+    {
+      "course_code": "2004403-2",
+      "old_variant_id": "0f9a3cbe6547e7e2cc483c70857bf397a87269a87cc5b2dfe7c8037213b53420",
+      "new_variant_id": "4274b806367916c44002be8c4fe14b4dab6ae062559ce0d02ff2ef971b7de451",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001403-2--8974cd99a2.pdf",
+      "source_sha256": "b92485cff86c860b2e17237791f0a6c25476410a3988c88b31e7499ef831138a",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": false
+    },
+    {
+      "course_code": "2004403-2",
+      "old_variant_id": "0f9a3cbe6547e7e2cc483c70857bf397a87269a87cc5b2dfe7c8037213b53420",
+      "new_variant_id": "e3b7c3ecfed88b7275029bff1602d052ea4da807fd7d2926f5f958b0188e6ff7",
+      "source_pdf": "assets/course-specifications/shared-course-blank-plo-20260905/2001403-2--8974cd99a2.pdf",
+      "source_sha256": "b92485cff86c860b2e17237791f0a6c25476410a3988c88b31e7499ef831138a",
+      "old_scopes": [
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القرآن وعلومه",
+          "version": "47"
+        },
+        {
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "program": "القراءات",
+          "version": "47"
+        }
+      ],
+      "new_scopes": [
+        {
+          "program": "القراءات",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        }
+      ],
+      "legacy_direct_record": false
+    }
+  ]
+}

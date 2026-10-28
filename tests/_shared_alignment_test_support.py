@@ -14,6 +14,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BUNDLE = ROOT / "assets/course-specifications/shared-program-json-alignment-20261016"
+# Second specialization (eleven further shared courses), applied after BUNDLE.
+SPLIT_BUNDLE = ROOT / "assets/course-specifications/shared-program-json-alignment-20261028"
 
 
 def load(path):
@@ -36,6 +38,21 @@ def scope_set(scopes):
 
 def lineage_records():
     return load(BUNDLE / "variant-lineage.json")["records"]
+
+
+def split_lineage_records():
+    """Lineage of the 2026-10-28 specialization of the remaining shared copies."""
+    return load(SPLIT_BUNDLE / "variant-lineage.json")["records"]
+
+
+def split_snapshot():
+    """Frozen parent records of the 2026-10-28 specialization."""
+    return load(SPLIT_BUNDLE / "previous-context.json")
+
+
+def specialized_course_codes():
+    """Every course whose live variants were re-created per programme."""
+    return {r["course_code"] for r in lineage_records()} | {r["course_code"] for r in split_lineage_records()}
 
 
 def effective_extraction(variant):

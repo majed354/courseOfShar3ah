@@ -1,0 +1,99 @@
+{
+  "schema_version": "shared-program-json-alignment-v1",
+  "status": "applied_pending_publication",
+  "authored_at": "2026-10-28T12:00:00+03:00",
+  "authority": "متابعة لطلب المستخدم الأصلي بتخصيص بيانات المقررات المشتركة لكل برنامج، أحالتها الجلسة الأم في 2026-10-28 لإحدى عشرة نسخة مشتركة بقيت متعددة البرامج؛ مع معيار المستخدم «كن مرنا في بعض الربط، حتى وإن لم يكن قريبا جدا» و«أكمل النقص اجتهاديا».",
+  "scope": {
+    "course_codes": [
+      "2001113-2",
+      "2001114-2",
+      "20021304-2",
+      "2003220-2",
+      "2004112-2",
+      "20041302-2",
+      "20041303-2",
+      "2004205-2",
+      "2004209-2",
+      "2004313-2",
+      "2004403-2"
+    ],
+    "degree": "بكالوريوس",
+    "reason": "نسخ مشتركة بقيت متعددة البرامج بعد حزمة 2026-10-16: ست سجلات قديمة مباشرة وخمس نسخ متعددة النطاقات، فكان ربط واحد مطبوع أو مفقود يُقرأ لبرامج تختلف دلالة رموزها."
+  },
+  "policy": [
+    "تبقى هوية المقرر واحدة، وتفصل نسخ JSON بحسب البرنامج مع حفظ الخطة والإصدار وروابط PDF وبصماتها.",
+    "نص CLO وخطة التقويم والوصف محفوظة؛ يتغير نطاق البرنامج وربط PLO فقط، ولا يُكتب شيء في document_plo_codes.",
+    "روابط مؤلفة بإذن المستخدم بمعياره المرن من رموز PLO الموجودة في الإصدار الصحيح، بسياسة authorized_program_alignment_revision، والدليل يبدأ ببصمة PDF المقرر ثم بصمة PDF البرنامج.",
+    "التوصيات المصدرية تتبع نسخ البرامج؛ التوصية الخاصة ببرنامج تتبع نسخته وحدها."
+  ],
+  "summary": {
+    "target_courses": 11,
+    "parents": 11,
+    "children": 37,
+    "variants_after": 574,
+    "scopes_after": 737,
+    "legacy_records_after": 1,
+    "review_units": 298,
+    "clo_scope_rows": 310,
+    "mapped_clo_scope_rows": 310,
+    "unresolved_clo_scope_rows": 0,
+    "alignment_type_counts": {
+      "direct": 84,
+      "supporting_transfer": 226,
+      "unresolved": 0
+    },
+    "decision_basis": {
+      "arbiter_from_options:A": 16,
+      "blind_pair_agree": 251,
+      "previous_and_one_blind_agree": 3,
+      "blind_pair_agree+adversarial_correction": 14,
+      "arbiter_from_options:B": 12,
+      "arbiter_from_options:A+adversarial_correction": 1,
+      "previous_and_one_blind_agree+adversarial_correction": 1
+    },
+    "by_program": {
+      "الأنظمة|direct": 5,
+      "الأنظمة|supporting_transfer": 51,
+      "الدراسات الإسلامية|direct": 16,
+      "الدراسات الإسلامية|supporting_transfer": 40,
+      "الشريعة|direct": 9,
+      "الشريعة|supporting_transfer": 43,
+      "القرآن وعلومه|direct": 33,
+      "القرآن وعلومه|supporting_transfer": 52,
+      "القراءات|direct": 21,
+      "القراءات|supporting_transfer": 40
+    },
+    "printed_code_corrections": 1
+  },
+  "tools": [
+    "scripts/specialize_shared_program_courses_20261028.py",
+    "scripts/apply_shared_program_alignment_20261028.py"
+  ],
+  "tests": [
+    "tests/test_shared_program_json_alignment_20261028.py"
+  ],
+  "data_note_2002419_2002429": {
+    "finding": "النسختان المشتركتان المفرغتان (shared-course-blank-plo-20260905) مأخوذتان بالتفريغ من توصيفي برنامج القرآن وعلومه الرسميين quran-old-v39 (9c665b5f…، 1b10097e…). الروابط المؤلفة في نطاقات القرآن وعلومه تطابق الرموز المطبوعة في 17 من 18 صفًا، وصُحح الصف المختلف (2002419-2 2.1، خطة 39: م2 إلى م3).",
+    "recommendation": "بعد فصل النسخ لكل برنامج يصح أن تشير نسخة القرآن وعلومه في data.json إلى التوصيف الرسمي المطبوع الرموز بدل النسخة المفرغة، مع بقاء النسخة المفرغة للقراءات. لم يُنفذ في هذه الدفعة لأنه يغير هوية النسخة ويتطلب استخراجًا جديدًا موثقًا؛ يحتاج قرارًا مستقلًا."
+  },
+  "reference_files": {
+    "previous-context.json": "3a1bf369fb69cc8f3c9351d2a8c251c84061109a62a62f2d2d6640853f7fae50",
+    "variant-lineage.json": "7d90f9f9e58c54acfa7f7b110248dafb7552f94b4b4276209545ab064c6ed371",
+    "review-decisions.json": "14b0fd47e9263151b60665e2e9c1c2275092aeb94aa34a24cdab84621998c8e9",
+    "alignment-decisions.json": "2f41a712a58e969e8699382e554282f3c3b692878c3b4df67f1b930ea6cdac9b",
+    "validation.json": "b3df45ba91b4b387f1747d3c13905b5f948e95d2ef7f5d0d7ad8faae2bf9835a"
+  },
+  "adversarial_review": {
+    "reviewed_units": 298,
+    "findings": 16,
+    "blocking": 7,
+    "resolution": "سبعة ربوط في الأنظمة 47 كانت تقرأ ع2 (آليات الحصول على المعلومات) وعاءً للمعرفة الشرعية فنُقلت إلى ع4 «وعلاقته بالتخصصات الأخرى» دعمًا؛ وصُحح نوع خمس وحدات وصياغة تعليلات أربع، ونُقلت وحدة إلى ق1 اتساقًا مع نظيرتها."
+  },
+  "validation": {
+    "checks": "passed",
+    "python_tests": 194,
+    "javascript_tests": 13,
+    "automation_clo_mappings_checked": 1900,
+    "pdf_hashes_checked": 641
+  }
+}

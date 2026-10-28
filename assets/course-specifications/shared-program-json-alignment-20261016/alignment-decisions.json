@@ -46629,11 +46629,11 @@
       "program_source_pdf": "assets/course-specifications/program-specifications-20260916/quran-ba-v39/program-specification.pdf",
       "program_source_sha256": "0365a56b64fc3a22055ebe6c8b64cd2c460e86da40fab6c94932adb3adb9db74",
       "index": 3,
-      "plo_code": "م2",
-      "rationale": "تطبيق خطوات البحث العلمي يكسب الطالب المنهجية التي يشترطها م2 في قوله «بطريقة منهجية معتبرة»، ولا يوجد في هذا البرنامج ناتج بحثي مستقل، فالربط داعم.",
+      "plo_code": "م3",
+      "rationale": "يطبع توصيف المقرر الرسمي لبرنامج القرآن وعلومه (الخطة 39) الرمز م3 لهذا المخرج، فيُوافَق المطبوع: تطبيق خطوات البحث العلمي على موضوع محدد أداة لتقويم الأقوال بأدلتها، فيساند م3 «أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه»، وهو الرمز نفسه في الخطة 47.",
       "alignment_type": "supporting_transfer",
       "confidence": "medium",
-      "selected_plo_text": "أن يمارس تفسير الآيات بطريقة منهجية معتبرة.",
+      "selected_plo_text": "أن يقيم الآراء والتفسيرات المتعلقة بالقرآن وعلومه.",
       "selected_plo_pages": [
         5
       ],
@@ -46656,6 +46656,12 @@
           "confidence": "medium",
           "rationale": "تطبيق خطوات بحث على موضوع محدد لا يثبت مباشرة تقويم آراء وتفسيرات القرآن؛ يقبل م3داعمًا إذا عُلّل نقل المنهج النقدي إلى دراسات القرآن دون ادعاء تطابق مباشر."
         }
+      },
+      "printed_code_alignment": {
+        "round": "shared-program-split-2026-10-28",
+        "previous_plo_code": "م2",
+        "official_pdf": "assets/course-specifications/quran-old-v39/2002419-2.pdf",
+        "official_sha256": "9c665b5f0350eccd44a9e6156893bd654fe76ff92d8a1f089196ce5076feb426"
       }
     },
     {

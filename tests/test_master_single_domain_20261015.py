@@ -7,7 +7,7 @@ import unittest
 import pymupdf
 from docx import Document
 from scripts.verify_course_outcomes import ErrorCollector,validate_single_domain_policy
-from _shared_alignment_test_support import lineage_records, previous_context
+from _shared_alignment_test_support import lineage_records, previous_context, specialized_course_codes
 
 ROOT=Path(__file__).resolve().parents[1]
 B=ROOT/'assets/course-specifications/quranic-master-single-domain-20261015'
@@ -44,7 +44,7 @@ class MasterSingleDomainTests(unittest.TestCase):
         baseline=json.loads(subprocess.check_output(['git','show',self.before['baseline_commit']+':course-outcomes.json'],cwd=ROOT))
         doctorate=read(ROOT/'assets/course-specifications/quranic-doctorate-single-domain-20261016/previous-context.json')['course_outcomes']
         _,before_specialization=previous_context()
-        specialized_codes={r['course_code'] for r in lineage_records()}
+        specialized_codes=specialized_course_codes()
         for code,course in baseline['courses'].items():
             if code in doctorate:self.assertEqual(course,doctorate[code])
             elif code not in self.before['course_outcomes']:

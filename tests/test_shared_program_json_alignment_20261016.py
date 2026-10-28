@@ -6,7 +6,8 @@ from collections import Counter, defaultdict
 
 from _shared_alignment_test_support import (
     BUNDLE, ROOT, effective_extraction, lineage_records, load,
-    previous_context, scope_key, scope_set, trim_variant_to_scopes,
+    previous_context, scope_key, scope_set, split_lineage_records, split_snapshot,
+    trim_variant_to_scopes,
 )
 
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -285,8 +286,17 @@ class SharedProgramJsonAlignmentTests(unittest.TestCase):
 
     def test_catalogue_and_unrelated_courses_are_unchanged(self):
         targets = {r["course_code"] for r in self.lineage}
+        # The 2026-10-28 package re-created eleven further courses per programme.
+        # Their frozen parents must equal this package's snapshot exactly; their
+        # live children are checked by that package's own contract.
+        split = split_snapshot()
+        later = set(split["outcome_courses"])
+        self.assertTrue(later.isdisjoint(targets))
+        for code in later:
+            self.assertEqual(self.before_outcomes["courses"][code], split["outcome_courses"][code], code)
+            self.assertEqual(self.before_data["course_details"][code], split["data_course_details"][code], code)
         for code, course in self.before_outcomes["courses"].items():
-            if code not in targets:
+            if code not in targets and code not in later:
                 self.assertEqual(course, self.outcomes["courses"][code], code)
         self.assertEqual(set(self.before_outcomes["courses"]), set(self.outcomes["courses"]))
         for field in set(self.before_data) - {"course_details"}:
@@ -296,6 +306,8 @@ class SharedProgramJsonAlignmentTests(unittest.TestCase):
         after_expected, _ = rebuild_expected_variants(self.data)
         lineage = {(r["course_code"], r["new_variant_id"]): r for r in self.lineage}
         for code, detail in self.before_data["course_details"].items():
+            if code in later:
+                continue
             if code not in targets:
                 self.assertEqual(detail, self.data["course_details"][code], code)
                 continue
@@ -306,7 +318,11 @@ class SharedProgramJsonAlignmentTests(unittest.TestCase):
                 parent = before_by_id[record["old_variant_id"]]
                 self.assertEqual(parent["catalog"], child["catalog"])
                 self.assertEqual(parent["source_pdf"], child["source_pdf"])
-        self.assertEqual(548, len(self.variants))
+        # 548 variants after this package; the 2026-10-28 split of 11 courses
+        # replaced 11 parents by 37 programme copies (548 - 11 + 37 = 574).
+        # The scope count is unchanged because no plan row was added.
+        self.assertEqual(548 - 11 + 37, len(self.variants))
+        self.assertEqual(len(split_lineage_records()), 37)
         self.assertEqual(737, sum(len(v["scopes"]) for v in self.variants.values()))
 
     def test_human_rights_has_five_programs_without_cloning_plan_rows_or_pdf(self):
