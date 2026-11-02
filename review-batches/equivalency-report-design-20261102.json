@@ -40,7 +40,13 @@
   "external_sources_folder": "output/equivalency-external-sources-20261102",
   "publication": {
     "public_service_enabled": false,
-    "automatic_site_deploy": "pending"
+    "automatic_site_deploy": "verified",
+    "source_commit": "eb5e124865be471cb6bdbd496608e88650333f79",
+    "deploy_id": "6ae84a9b78aa9cff94d7e004",
+    "commit_ref": "eb5e124865be471cb6bdbd496608e88650333f79",
+    "state": "ready",
+    "error_message": null,
+    "public_files_changed": false
   },
   "beneficiary": {
     "optional": true,
