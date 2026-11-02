@@ -1,0 +1,430 @@
+{
+  "batch_id": "equivalency-quran-20261102",
+  "date": "2026-11-02",
+  "status": "local_pilot_complete_not_publicly_enabled",
+  "policy": {
+    "coverage_threshold": 80,
+    "strict_topic_threshold": 80,
+    "lenient_topic_threshold": 60,
+    "weighting": "topic_count",
+    "direction": "uploaded_to_target"
+  },
+  "catalog_id": "b471d84bc2284946791a97a7ef9588bf1cccdf4e7b91453623791ae00a0e76df",
+  "inventory": {
+    "appearances": 170,
+    "with_topics": 133,
+    "missing_pdf": 37,
+    "topic_rows_across_scopes": 1738,
+    "unique_pdf_hashes": 94,
+    "corrected_rows_across_scopes": 97,
+    "correction_count_note": "يشمل تنقية رموز الامتداد والتنسيق والقراءات السياقية؛ ليس عدد كلمات مستكملة أو أحكام أكاديمية",
+    "visual_hash_bound_readings": 8
+  },
+  "source_hashes": {
+    "data.json": "3e4b0edb2e96a5ff1a0816b36a2b2561ee4b90b6f2905662c988dcf2f0a05cd3",
+    "site-edits.json": "406e9052d7c5782d0e70febbe2a12d5a9e72046854bdac2684c4c7909900ddc3",
+    "equivalency-pilot/topic-readings.json": "0148e4809ddfcf834d91a6f7ef71e74e9861e07667279a3db60d5e95d5cb190d"
+  },
+  "pdf_sources": {
+    "assets/course-specifications/shared-course-blank-plo-20260905/103282-2--2866481d7d.pdf": "1f9126cf9dc5116231d807e3df3ab1442dcbf7207c4d18875d7fba2ecbee655d",
+    "assets/course-specifications/raw-recovery-20260827/2001171-2.pdf": "eb30e68a2a7009d77d0b86cef15a4755b33ee96e5c372bd33f1def2a4027eb71",
+    "assets/course-specifications/institutional-recovery-20260911/2001205-2.pdf": "b15bf07d186a839ab17ae65398f1f878ccd2a362994c342049eb00769daecb2d",
+    "assets/course-specifications/quran-old-v39/2002208-2.pdf": "9618a32fc67faafd222c970c14733811505d3e865909ec5b42bd94ee1a80126a",
+    "assets/course-specifications/quran-old-v39/2002212-2.pdf": "c8ef0846391bf499ee3c980a0a8bc80ecb69c59f7f5f9252c73a35cfae28e374",
+    "assets/course-specifications/quran-old-v39/2002215-2.pdf": "5d4f05de99aa6d7a7d0e5efd2373086b45678b66d66dc474916221d783f15da8",
+    "assets/course-specifications/quran-old-v39/2002333-2.pdf": "5c81d64d19889256d8a46fd35d4a302cb0e224de0e6dae87d9169125d9f5f060",
+    "assets/course-specifications/2004112-2.pdf": "54d82463d753bad7e4f628ee60463e6d61f69ad07f779b6265c20ab716835997",
+    "assets/course-specifications/shared-course-blank-plo-20260905/103245-2--5bfae92e84.pdf": "6ce6706e6812814e90bd7dd30e6c9bf327a0dc9420adadbf0ce927236cf949f5",
+    "assets/course-specifications/institutional-recovery-20260911/2001209-2.pdf": "e5bc393aed47e6b6815a97b628f35860ae54933c42e13d0ff116ce3022a0b4cd",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2001245-2--489519a71e.pdf": "edda5b7ad2cf88af916971347d9c28fa8aca09bb3de066f215160632056b5162",
+    "assets/course-specifications/institutional-recovery-20260911/2001322-2.pdf": "5708e98e83bd129d0bf06c11a30bca983a1a495d543a517e2c6d4ce1ee1c1287",
+    "assets/course-specifications/quran-old-v39/2002222-2.pdf": "53d2fb5157a972ba279b4193c4f1248c5626df7eaf3f06a1dfbd3fae2b8ecd03",
+    "assets/course-specifications/quran-old-v39/2002223-2.pdf": "a54c5fd2c82bdc3ab41469ac705ad72fdf26f30d7a707adc97ea5469e38648ba",
+    "assets/course-specifications/quran-old-v39/2002224-2.pdf": "f293de8dafc2be63484f7e83d858d7978aa025789664fff7ff8da83c735ee39f",
+    "assets/course-specifications/quran-old-v39/2002306-2.pdf": "398f826dcf8f7586dd616873459bb99cd5933711ce5a6dd840c68bdbb6d3be90",
+    "assets/course-specifications/shared-course-blank-plo-20260905/103171-2--e6212e6733.pdf": "bc20efd841258c7739e47238b30b127c27ff660724577c87fdbc896f51fbe33f",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2001106-2--ec42a4ad0f.pdf": "9001d925890ea9bf6cd89ceb79a4d0eecfbf33afcfc450a466ff216dbb0fe143",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2001112-2--4d2365da36.pdf": "428c475459cbf0837f46e85b02d57ec12c4358cc7f3d5abb98dae71c8af9dfd9",
+    "assets/course-specifications/quran-old-v39/2002110-2.pdf": "edd1a2904afa6c7c2535f8e00e80c459f556eddc1f837f925f9a23a86d8bebbf",
+    "assets/course-specifications/quran-old-v39/2002114-2.pdf": "cee252f37ec9349f4bd2741dff50e57ccc8ae3dfb1ec1e3fd6e7f3d7b1dd2a69",
+    "assets/course-specifications/quran-old-v39/2002115-2.pdf": "eb3290e22bddb2bfb5461f93646469249dd975e63dc421cb7d7995bdfa8f7951",
+    "assets/course-specifications/quran-old-v39/2002116-2.pdf": "43c2e07ab9ce30152720ed6713ec562e5722083670c69b4d61edaa7e04ffb131",
+    "assets/course-specifications/quran-old-v39/2002117-2.pdf": "f019611c2345e5a0e477e2f26de6b23db4d4dd07377795c5f4863327ecdf4a9c",
+    "assets/course-specifications/quran-old-v39/2002131-2.pdf": "6e9378b55144fbaa578d8462b4b69be6e02e3b0a6f20d57aed7a70c6357f157d",
+    "assets/course-specifications/shared-course-blank-plo-20260905/990311-2--4ecc998b5f.pdf": "cb9b0868cd13b7fc9879b8d1a22659ad36f4c41e0a4691256fb050cd97286f84",
+    "assets/course-specifications/shared-course-blank-plo-20260905/103281-2--7f1c8633ae.pdf": "e5ef5d40a852f2b29c59024f41dd71d0338d0556e34134108805b1e004c222f7",
+    "assets/course-specifications/shared-course-blank-plo-20260905/105115-2--4d1816f13a.pdf": "3429fc7bd9740ce6f2d001909a1f38e11ebbac6ce199eb507168859300816589",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2001101-2--6acb2da09b.pdf": "2d11736ec5abb476e3bbb7d8a6791f970d75f8355e938b7755c2972247b26a5a",
+    "assets/course-specifications/quran-old-v39/2002124-2.pdf": "7524ed21f60b23ed48473dbae05f52c6132bdb70f3ae4c69be0562a3df7f96bb",
+    "assets/course-specifications/quran-old-v39/2002125-2.pdf": "b610dc4337244aa2a781ceed178f12e6addf3f46f8ed28702903135462298cb9",
+    "assets/course-specifications/quran-old-v39/2002204-2.pdf": "67c82d86b6650dbec18980e6f37be8ae7f86adb00a660b165a40cad4fbb35a8d",
+    "assets/course-specifications/quran-old-v39/2002232-2.pdf": "f3a245130ed9a23e5f83d74d6c994b419b6e86658d2701216e5db789c454cd16",
+    "assets/course-specifications/quran-old-v39/2002250-2.pdf": "fbbb9cc68bcb0cdd30b3484ccc91dd107a86a603cc1d90918d508c1895010426",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2004111-2--491175c9d0.pdf": "2f377d09cf47cd12dd91fef5e08cff1c0746f882e6b66a4f512e12bb335d235d",
+    "assets/course-specifications/2004313-2.pdf": "b1390d0186c2077a61f241580f5b9b93440fa10e73237973e8e6a9b97aaf82a0",
+    "assets/course-specifications/shared-course-blank-plo-20260905/103411-2--543d71045c.pdf": "5b71f906d65c23307622337ad1e2f8220d43635873a0eccf62d3639e52d6f3a9",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2001403-2--8974cd99a2.pdf": "b92485cff86c860b2e17237791f0a6c25476410a3988c88b31e7499ef831138a",
+    "assets/course-specifications/quran-old-v39/2002413-2.pdf": "c48bda4913f541a3cf07215caea71528e7171efa118233f8fd99b13a7cc49ae4",
+    "assets/course-specifications/quran-old-v39/2002414-2.pdf": "b3ac65c88a6c4380e901c01b17e387eff61eb4f3bb192d5835e5043818d12355",
+    "assets/course-specifications/quran-old-v39/2002415-2.pdf": "3de84b645d6c551a673d3feaea810c97c6413e0f1ff89543c1cc6a36d6f7ef4f",
+    "assets/course-specifications/quran-old-v39/2002416-2.pdf": "7aec5c0733e0d5749839f2872a2c6d1b942350c6c7385d18df572f66cdccdfd0",
+    "assets/course-specifications/quran-old-v39/2002419-2.pdf": "9c665b5f0350eccd44a9e6156893bd654fe76ff92d8a1f089196ce5076feb426",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2004414-2--8b9b1d8598.pdf": "e77767fab6f42f40055197ac0d349ffc53c1e3cb8f2193ffd7666b88333c4dc3",
+    "assets/course-specifications/islamic-studies-bundle-1444/20043104-2.pdf": "01879e5d4fc0f094eec18c0f7e86acb616c5780e9b3866bf73486a6e9867205f",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2001474-2--e61babee37.pdf": "8242c78b4c00a3b062114833ae77f6ef4d194fc7a66646dd8723408aca969d53",
+    "assets/course-specifications/quran-old-v39/2002412-2.pdf": "95c9befe72b86d637e9a355b941839ca1555c746a3ee754418fae80e300841ac",
+    "assets/course-specifications/quran-old-v39/2002420-2.pdf": "9c49788839ed37e693512425f9a3aaa39c1f5823fc240ab4ba3353bbff2cea32",
+    "assets/course-specifications/quran-old-v39/2002427-2.pdf": "98e94d90d4afbfe5eb3022e17ded34c1238f0dbc4e5b98d1d51465861fe01de0",
+    "assets/course-specifications/quran-old-v39/2002429-2.pdf": "1b10097e1dfcdb80dbd91f7d2654a924f0ff0d15ebae1d9f8e2e763fd1a3f29d",
+    "assets/course-specifications/quran-old-v39/2002456-2.pdf": "5bd5124dd8ca980f88f27be92769992b97dce58065f19246baae7055196816ad",
+    "assets/course-specifications/20031301-2.pdf": "5ca08149acf36e81a8851ddd642e35432305a6723bd7167b2f83729e3ed74fda",
+    "assets/course-specifications/shared-course-blank-plo-20260905/103349-2--c415381484.pdf": "c8a03c4973bfa07c8d4ffa0f385918a2d3fc7efc4e7eb5dd7ab0c965c09b230b",
+    "assets/course-specifications/eight-course-completion-20260915/2001113-2.pdf": "9e022d9c62ccc2a737d6007a86c927a0fbd8a313c073d11d2e8edb624f0e9e63",
+    "assets/course-specifications/institutional-recovery-20260911/2001317-2.pdf": "73e4cee7969dda4fd52573c6dae75ffc81d979ca9a30235153ea9821bb30d063",
+    "assets/course-specifications/quran-old-v39/2002240-2.pdf": "9fcea5ae3da9cafaf18143f454867b92308bed41953799940eef1bf71968d6b7",
+    "assets/course-specifications/specialty-recovery-20260826/2002313-2.pdf": "52c5b6568e00e83cd981ff8e443ed15422c881b2db27a7b53bdea3ebef4eeaae",
+    "assets/course-specifications/quran-old-v39/2002314-2.pdf": "4b1bf5860d6b85f4931063da23b7b71cd73eca96792af333e8350ec505232711",
+    "assets/course-specifications/quran-old-v39/2002317-2.pdf": "c4c1d8f56dd957dc9decb602e7c679ba040aff177d41421bea1d44b8554d579e",
+    "assets/course-specifications/quran-old-v39/2002318-2.pdf": "fe9375cacd755098965a43e3eab8546a08adc3ddc8d87d978e54137c9e18ae4c",
+    "assets/course-specifications/institutional-recovery-20260911/2001320-2.pdf": "17c56438a42c73275978c91863e4663dd09fe12f03f534084d8a7c12f6d01142",
+    "assets/course-specifications/institutional-recovery-20260911/2001330-2.pdf": "e6deafae09bb141750ff95ca9f064a7b53f1286efa1d79e3d8cbe991a7fe061a",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2001340-2--16914d8743.pdf": "1821c53090b26931f2578bbf38ad6d1aea8564c7fde7a1cd78e673ece7352707",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2001373-2--5fabcf002b.pdf": "bf7b1c4479c2aad668fdaa24be9d2c86ff1df787799a71c374b672f678ba474d",
+    "assets/course-specifications/quran-old-v39/2002325-2.pdf": "875707c0195289d63e367a99ae899582d2d6e2f304e7187aee136de7ddd6299c",
+    "assets/course-specifications/quran-old-v39/2002326-2.pdf": "24064fa09ccc11b56aa5e7fcd58a88fcf024db64011a3b2cb10fe0d5834e162c",
+    "assets/course-specifications/quran-old-v39/2002327-2.pdf": "dda30229afbfa025162d895b74ca8e50d1c2bb78a3ebf91c20b889d6175ef7bf",
+    "assets/course-specifications/identity-resolutions-20260829/2002454-2--quran.pdf": "aba2cb946d9a3fc3aa7ad56dec56e30116a7c1e344dc7664a9fe0d226928ecca",
+    "assets/course-specifications/shared-course-blank-plo-20260905/990113-2--74025fe683.pdf": "fc695a78bf93e4b90167744a60544f0adf556bd6b110cca05d5814364e9bffe8",
+    "assets/course-specifications/shared-course-blank-plo-20260905/990415-2--7f04cc9f03.pdf": "e30d0aefc581cf7cbcfe4922300122cb937756b8be3f5b894cd6d07a452b25cc",
+    "assets/course-specifications/20041302-2.pdf": "20ed27a1b0aba126f1167a8eec922cad342010d9976dd8751e0e9ed91f9dc067",
+    "assets/course-specifications/20041303-2.pdf": "47e9239f95b6f87e5e13da72237e01db51f1c34e2b9e11bfe94aa56e9e3fc368",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf": "b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8",
+    "assets/course-specifications/new-plan-updates-20261002/2002252-2--new-v47.pdf": "ab2a7b9c356bdb8468d4274bddf1d9dd9af1fa0d3b0a9cbfcdc0e69e11b29523",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf": "6efe2ca3ee1ac66488a79cbf901ac812bdd09594f58e6bb7f19dafbcfd040801",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf": "4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff",
+    "assets/course-specifications/quranic-course-updates-1446/20021204-2.pdf": "211a70b9d8ff013bdfd89cdd2ee20048dce308c970f265e03adb17c8b65755c6",
+    "assets/course-specifications/quranic-course-updates-1446/20022250-2.pdf": "116729839e37b623923e3b5490b2b599a5def79a3b117dcf78ccf8f4921682b9",
+    "assets/course-specifications/institutional-recovery-20260911/2001221-2.pdf": "5af1f5156e692f0fbb9613a5c173d87288d6ffdb0961a1f32f0e7100a8009a97",
+    "assets/course-specifications/new-plan-updates-20261002/2003220-2--new-v47.pdf": "5f4af50df786bdf80872a5f79b024344142eae3227e304f652429bd8aa337956",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2004273-2--abbd6684d2.pdf": "2a6c097c6b27e9baa46c3b84cf2b77161d974a07236770a48ddd1574175d1ed9",
+    "assets/course-specifications/quranic-course-updates-1446/2007314-2.pdf": "fc4f1736389e89ed6e673a348fdfea5f82f33785621bd92642b269874917ca4f",
+    "assets/course-specifications/quranic-course-updates-1446/20022201-2.pdf": "5c4938dd01a2b530cb214dc36562f76f4633f29795b9c9bc1445746787758829",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf": "05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf": "44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf": "b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf": "99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e",
+    "assets/course-specifications/identity-resolutions-20260829/20024102-2.pdf": "fb4b03e82e5367304e4c2dd7d6c9298cb5ff8ff9a71ff1c9902d60f97bf41770",
+    "assets/course-specifications/new-plan-updates-20261002/2002429-2--new-v47.pdf": "52ace6c6a84f1dba5f474acc521b33db3ee3c960e31af811d5464330893ba303",
+    "assets/course-specifications/new-plan-updates-20261002/2002456-2--new-v47.pdf": "e3b833b5e654a8262e15c521f7b1bd9da5caf6b57e7e3765d01b84358674cb36",
+    "assets/course-specifications/2001114-2.pdf": "12bdab814d979eed5c7f21892649cd0924c3d4846b6253da258ba88954eda421",
+    "assets/course-specifications/new-plan-updates-20261002/20031301-2--new-v47.pdf": "db576ae46c2b6874a6bb6cbf2ba123fa56b1492e3b1bb49d7159ec24f486efaf",
+    "assets/course-specifications/shared-course-blank-plo-20260905/2003215-2--c3309552e0.pdf": "6dc75ac9b22a9a6850243fc80c79a2d7b662950ce59b4c0fac013b2d76501807",
+    "assets/course-specifications/shared-course-blank-plo-20260905/6602322-2--b6c6c5fe76.pdf": "2c13fe2152ece589173572f76c3959be76410ff5bba752483a97b5b9848b227f"
+  },
+  "cases": [
+    {
+      "name": "adab",
+      "target": {
+        "code": "2002116-2",
+        "name": "آداب حملة القرآن",
+        "context": {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        "source_pdf": "assets/course-specifications/quran-old-v39/2002116-2.pdf",
+        "source_sha256": "43c2e07ab9ce30152720ed6713ec562e5722083670c69b4d61edaa7e04ffb131"
+      },
+      "source": {
+        "code": "2002104-2",
+        "name": "آداب حملة القرآن",
+        "source_pdf": "assets/course-specifications/qiraat-source-1445/2002104-2.pdf",
+        "source_sha256": "8acc7c92e0bf3ec4add2939914ffb8dbae97420759ba3c5652cf35a0237008a8"
+      },
+      "calculation": {
+        "total_topics": 16,
+        "coverage_threshold": 80,
+        "strict_topic_threshold": 80,
+        "lenient_topic_threshold": 60,
+        "weighting": "topic_count",
+        "strict_count": 16,
+        "lenient_count": 16,
+        "strict_coverage": 100.0,
+        "lenient_coverage": 100.0,
+        "strict_matches": {
+          "t1": "t1",
+          "t2": "t2",
+          "t3": "t3",
+          "t4": "t4",
+          "t5": "t5",
+          "t6": "t6",
+          "t7": "t7",
+          "t8": "t8",
+          "t9": "t9",
+          "t10": "t10",
+          "t11": "t11",
+          "t12": "t12",
+          "t13": "t13",
+          "t14": "t14",
+          "t15": "t15",
+          "t16": "t16"
+        },
+        "lenient_matches": {
+          "t1": "t1",
+          "t2": "t2",
+          "t3": "t3",
+          "t4": "t4",
+          "t5": "t5",
+          "t6": "t6",
+          "t7": "t7",
+          "t8": "t8",
+          "t9": "t9",
+          "t10": "t10",
+          "t11": "t11",
+          "t12": "t12",
+          "t13": "t13",
+          "t14": "t14",
+          "t15": "t15",
+          "t16": "t16"
+        },
+        "decision": "equivalent",
+        "label": "يمكن معادلته"
+      },
+      "comparison_provider": "ollama_local",
+      "model": "qwen3.8:27b-q8_0",
+      "model_digest": "8f5fb6b71ea00052cbe8545738c55ce61112c4e571cb60ca4dad00b131766039",
+      "seconds": 68.22,
+      "evidence_pairs": [
+        {
+          "target_id": "t1",
+          "source_id": "t1",
+          "score": 100,
+          "reason": "تطابق كامل في المحتوى والنطاق مع اختلاف طفيف في الإملاء.",
+          "target_quote": "تعريف الآداب وأهميتها",
+          "source_quote": "تعريف الآداب وأهميتها"
+        },
+        {
+          "target_id": "t2",
+          "source_id": "t2",
+          "score": 100,
+          "reason": "تطابق تام في الموضوع والمفردات الأساسية.",
+          "target_quote": "المؤلفات في آداب تعلم القرآن",
+          "source_quote": "المؤلفات ف آداب تعلم القرآن"
+        },
+        {
+          "target_id": "t3",
+          "source_id": "t3",
+          "score": 100,
+          "reason": "نفس النطاق الفقهي والموضوعي رغم وجود أخطاء إملائية في المصدر.",
+          "target_quote": "حكم تزيين المصحف وتعليقه",
+          "source_quote": "ح م تزي ن المصحف وتعليقه"
+        },
+        {
+          "target_id": "t4",
+          "source_id": "t4",
+          "score": 100,
+          "reason": "تطابق كامل في صياغة المفردة ونطاقها.",
+          "target_quote": "آداب المتعلم في نفسه ومع شيخه",
+          "source_quote": "آداب المتعلم ف نفسه ومع شيخه"
+        },
+        {
+          "target_id": "t5",
+          "source_id": "t5",
+          "score": 100,
+          "reason": "تطابق تام في المحتوى والمجال.",
+          "target_quote": "آداب المتعلم في أقرانه والمسجد",
+          "source_quote": "آداب المتعلم ف أقرانه والمس د"
+        },
+        {
+          "target_id": "t6",
+          "source_id": "t6",
+          "score": 100,
+          "reason": "تطابق كامل في الموضوع والنطاق.",
+          "target_quote": "آداب معلم القرآن في نفسه ومع تلاميذه",
+          "source_quote": "آداب معلم القرآن ف نفسه ومع تلاميذه"
+        },
+        {
+          "target_id": "t7",
+          "source_id": "t7",
+          "score": 100,
+          "reason": "تطابق نص المفردة كاملًا بعد توحيد المسافات والتشكيل",
+          "target_quote": "آداب المعلم مع أقرانه",
+          "source_quote": "آداب المعلم مع أقرانه"
+        },
+        {
+          "target_id": "t8",
+          "source_id": "t8",
+          "score": 100,
+          "reason": "تطابق نص المفردة كاملًا بعد توحيد المسافات والتشكيل",
+          "target_quote": "آداب الإقراء.",
+          "source_quote": "آداب الإقراء."
+        },
+        {
+          "target_id": "t9",
+          "source_id": "t9",
+          "score": 100,
+          "reason": "تطابق تام في الموضوع والنطاق رغم خطأ إملائي بسيط.",
+          "target_quote": "الإجازة وشروطها وآدابها",
+          "source_quote": "الإجاز وشروطها وآدابها"
+        },
+        {
+          "target_id": "t10",
+          "source_id": "t10",
+          "score": 100,
+          "reason": "تطابق كامل في المحتوى والمجال.",
+          "target_quote": "تعريف المصحف وخصائصه",
+          "source_quote": "تعريف المصحف وخصائصه"
+        },
+        {
+          "target_id": "t11",
+          "source_id": "t11",
+          "score": 100,
+          "reason": "تطابق تام في الموضوع رغم خطأ إملائي في المصدر.",
+          "target_quote": "وجوه تعظيم المصحف",
+          "source_quote": "وجوه تعريم المصحف"
+        },
+        {
+          "target_id": "t12",
+          "source_id": "t12",
+          "score": 100,
+          "reason": "تطابق كامل في النطاق الفقهي والموضوع.",
+          "target_quote": "أحكام مس المصحف",
+          "source_quote": "أحكا مي المصحف"
+        },
+        {
+          "target_id": "t13",
+          "source_id": "t13",
+          "score": 100,
+          "reason": "تطابق تام في الموضوع والنطاق.",
+          "target_quote": "حكم الكتابة على المصحف",
+          "source_quote": "ح م ال تابة على المصحف"
+        },
+        {
+          "target_id": "t14",
+          "source_id": "t14",
+          "score": 100,
+          "reason": "تطابق كامل في المحتوى والمجال.",
+          "target_quote": "حكم بيع المصحف وشرائه",
+          "source_quote": "ح م بيع المصحف وشرائه"
+        },
+        {
+          "target_id": "t15",
+          "source_id": "t15",
+          "score": 100,
+          "reason": "تطابق تام في الموضوع والنطاق.",
+          "target_quote": "حكم وقف القرآن ودخول الخلاء به",
+          "source_quote": "ح م وقف القرآن ودخو ا خلاء به"
+        },
+        {
+          "target_id": "t16",
+          "source_id": "t16",
+          "score": 100,
+          "reason": "تطابق كامل في الموضوع والنطاق.",
+          "target_quote": "المصاحف الإلكترونية وأحكامها",
+          "source_quote": "المصاحف الإل ترونية وأحكامها"
+        }
+      ],
+      "report_id": "336da13f747fd04f536e8e8680e17212",
+      "report_pdf": "output/equivalency-quran-pilot-20261102/adab-equivalency.pdf",
+      "report_sha256": "cdf061fa1ed4b9270f785f1aacb24fee4714efbb2cd0350feb1d2fad040ccb19",
+      "report_pages": 3
+    },
+    {
+      "name": "intisar",
+      "target": {
+        "code": "2002429-2",
+        "name": "الانتصار للقرآن",
+        "context": {
+          "program": "القرآن وعلومه",
+          "degree": "بكالوريوس",
+          "plan_type": "جديدة",
+          "version": "47"
+        },
+        "source_pdf": "assets/course-specifications/new-plan-updates-20261002/2002429-2--new-v47.pdf",
+        "source_sha256": "52ace6c6a84f1dba5f474acc521b33db3ee3c960e31af811d5464330893ba303"
+      },
+      "source": {
+        "code": "2002429-2",
+        "name": "الانتصار للقرآن",
+        "source_pdf": "assets/course-specifications/quran-old-v39/2002429-2.pdf",
+        "source_sha256": "1b10097e1dfcdb80dbd91f7d2654a924f0ff0d15ebae1d9f8e2e763fd1a3f29d"
+      },
+      "calculation": {
+        "total_topics": 15,
+        "coverage_threshold": 80,
+        "strict_topic_threshold": 80,
+        "lenient_topic_threshold": 60,
+        "weighting": "topic_count",
+        "strict_count": 0,
+        "lenient_count": 0,
+        "strict_coverage": null,
+        "lenient_coverage": null,
+        "strict_matches": {},
+        "lenient_matches": {},
+        "decision": "insufficient",
+        "label": "المعلومات لا تكفي لإصدار حكم",
+        "unresolved_topics": {
+          "target": [
+            "t15"
+          ],
+          "source": []
+        },
+        "reason": "توجد مفردة غير محددة مثل «أخرى»؛ لا يكفي السياق لاستحداث محتواها. استكملها بدليل ثم أعد المقارنة."
+      },
+      "comparison_provider": "unresolved_source",
+      "model": null,
+      "model_digest": null,
+      "seconds": null,
+      "evidence_pairs": [],
+      "report_id": "91414fc0cde1829d305ffd837190dcf6",
+      "report_pdf": "output/equivalency-quran-pilot-20261102/intisar-equivalency.pdf",
+      "report_sha256": "254876a9ab26815d41f573815282102f5534f0f8fc285dbb7a2380a6f4c01095",
+      "report_pages": 3
+    }
+  ],
+  "checks": {
+    "python_tests": 218,
+    "python_status": "PASS",
+    "pilot_tests": 19,
+    "javascript_tests": 13,
+    "javascript_status": "PASS",
+    "course_outcomes_verifier": "PASS",
+    "build_status": "PASS",
+    "public_build_file_count": 878,
+    "browser": {
+      "uploadRows": 16,
+      "reportURL": "http://127.0.0.1:8798/?report=c3e7b90713d6b18e9ff535ae6bb69df7",
+      "search": "البحث النصي والدلالي بين 62 توصيفًا له مفردات مستخرجة. ترتيب المرشحين لا يمثل نسبة المعادلة.",
+      "verdict": "يمكن معادلته",
+      "errors": []
+    },
+    "api": {
+      "unauthorized": 403,
+      "invalidPDF": 400,
+      "invalidToken": 403
+    },
+    "visual_review": "6 final rendered PDF pages + desktop and mobile; no clipping or horizontal overflow"
+  },
+  "decisions": [
+    "تغطية المقرر بعدد المفردات؛ 80% للمقرر و80/60 للمقابلة، دون أوزان إضافية",
+    "الظهورات غير المتاحة لا توصف بعدم قابلية المعادلة",
+    "استعيدت خلايا المفردات الممتدة بين الصفحات مع آثار جميع الأجزاء",
+    "تستبعد المراجعة والاختبارات، وتبقى وحدات الموضوعات قابلة للمراجعة والتقسيم في الواجهة",
+    "نص الاستكمال طبقة منفصلة؛ لا تعديل للمصدر أو النواتج أو المعادلات المعتمدة",
+    "حالة الانتصار للقرآن ذات صف أخرى (ص6، أربع ساعات) أوقفت قبل الحكم؛ حسابات الاستكشاف السابقة ملغاة وليست نتائج معتمدة",
+    "القراءات البصرية في تقنيات تعليم القرآن مرتبطة ببصمة PDF وبصمة نص كل مفردة",
+    "الخدمة loopback محلية؛ لا نشر عام للمحرك أو uploads أو traces؛ مجلد التجربة خارج build-site allowlist"
+  ],
+  "limits": [
+    "لم يختبر Word أو OCR للمصورات؛ الإدخال اليدوي متاح عند تعذر الجدول",
+    "لا يوجد قياس دقة أكاديمية على بنك مستقل أو معايرة درجات النموذج؛ الأمثلة اختبار فني فقط",
+    "يلزم توحيد تجميع الصفوف المركبة قبل اعتماد المقارنة؛ لا يحتسب صف المصدر مرتين",
+    "يتطلب ربط عام جلسات ومصادقة وعزل مستخدمين ومحرك تشغيل دائم"
+  ],
+  "publication": {
+    "pilot": "local_only",
+    "canonical_data": "unchanged",
+    "production_build": "unchanged_public_allowlist"
+  }
+}

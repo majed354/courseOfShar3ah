@@ -23,3 +23,7 @@ __pycache__/
 .netlify
 
 node_modules/
+
+# Local course equivalency pilot environment and user uploads/results.
+/.venv-equivalency/
+/runtime/equivalency/
