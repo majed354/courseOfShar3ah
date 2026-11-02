@@ -425,6 +425,12 @@
   "publication": {
     "pilot": "local_only",
     "canonical_data": "unchanged",
-    "production_build": "unchanged_public_allowlist"
+    "production_build": "unchanged_public_allowlist",
+    "source_commit": "cac3102819ea85df53777cb1e05a5aada5b5dc50",
+    "automatic_deploy_id": "6ae837a2b1aae6f5577456c2",
+    "state": "ready",
+    "commit_ref": "cac3102819ea85df53777cb1e05a5aada5b5dc50",
+    "error_message": null,
+    "public_files": "All files already uploaded; no pilot bundled"
   }
 }
