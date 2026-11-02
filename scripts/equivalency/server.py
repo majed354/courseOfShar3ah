@@ -6,13 +6,14 @@ import json
 import secrets
 import threading
 import traceback
+import pymupdf
 from concurrent.futures import ThreadPoolExecutor
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlparse
 
 from .engine import calculate, compare, search, topic_text
-from .extract import ROOT, digest, extract_pdf, apply_readings
+from .extract import ROOT, digest, extract_pdf, extract_cached, apply_readings
 
 
 def clean_topics(rows, original=None):
@@ -45,6 +46,7 @@ class Pilot:
         self.root, self.model = Path(root), model
         self.catalog = json.loads((self.root / "equivalency-pilot/catalog.json").read_text())
         self.courses = {c["id"]: c for c in self.catalog["courses"]}
+        self.sources = {**self.courses, **{c['id']:c for c in self.catalog.get('library_sources',[])}}
         self.runtime = self.root / "runtime/equivalency"
         self.runtime.mkdir(parents=True, exist_ok=True)
         self.token = secrets.token_urlsafe(32)
@@ -75,16 +77,24 @@ class Pilot:
     def create_source(self, data):
         key = secrets.token_hex(16)
         if data.get("catalog_id"):
-            source = dict(self.courses[data["catalog_id"]])
+            source = dict(self.sources[data["catalog_id"]])
             self.verify_course(source)
             source["catalog_course_id"] = source["id"]
+            if not source['topics'] and source.get('source_pdf') and source.get('fixed_topic_curriculum',True):
+                cache=self.runtime/'extraction';cache.mkdir(parents=True,exist_ok=True)
+                source.update(apply_readings(extract_cached(self.root/source['source_pdf'],cache,vision=True),self.root))
         elif data.get("pdf_base64"):
             raw = base64.b64decode(data["pdf_base64"], validate=True)
             if len(raw) > 12 * 1024 * 1024 or not raw.startswith(b"%PDF-"):
                 raise ValueError("يلزم PDF صالح لا يزيد عن 12 ميغابايت")
             pdf = self.path("sources", key, "pdf")
             pdf.write_bytes(raw)
-            source = apply_readings(extract_pdf(pdf), self.root)
+            with pymupdf.open(pdf) as document:
+                if document.page_count > 40:
+                    raise ValueError("التجربة تقبل توصيف مقرر واحد لا يزيد عن 40 صفحة")
+            cache=self.runtime/'extraction'
+            cache.mkdir(parents=True,exist_ok=True)
+            source = apply_readings(extract_cached(pdf,cache,vision=True), self.root)
             source.update(name=str(data.get("name") or "المقرر المرفوع")[:200], upload_pdf=True)
         else:
             source = {"name": str(data.get("name") or "المقرر المدخل")[:200], "topics": clean_topics(data.get("topics", [])),
@@ -98,7 +108,7 @@ class Pilot:
         target = dict(self.courses[data["target_id"]])
         self.verify_course(target)
         if source.get("catalog_course_id"):
-            self.verify_course(self.courses[source["catalog_course_id"]])
+            self.verify_course(self.sources[source["catalog_course_id"]])
         if data.get("reviewed") is not True:
             raise ValueError("راجع مفردات المقررين وأكد صحة النص قبل المقارنة")
         source["topics"] = clean_topics(data.get("source_topics", source["topics"]), source["topics"])
@@ -164,8 +174,8 @@ def serve(root=ROOT, port=8798, model="qwen3.8:27b-q8_0"):
                     return self.send(200 if job else 404, job or {"error": "المهمة غير موجودة"})
                 if route.startswith("/pdf/"):
                     key = route.rsplit("/", 1)[-1]
-                    if key in pilot.courses:
-                        course = pilot.courses[key]
+                    if key in pilot.sources:
+                        course = pilot.sources[key]
                         pilot.verify_course(course)
                         path = pilot.root / course["source_pdf"]
                     else:
@@ -194,7 +204,7 @@ def serve(root=ROOT, port=8798, model="qwen3.8:27b-q8_0"):
                     pilot.verify_catalog()
                     source = pilot.source(data["source_id"])
                     source["topics"] = clean_topics(data.get("topics", source["topics"]), source["topics"])
-                    return self.send(200, search(pilot.catalog, source, data.get("version", "47")))
+                    return self.send(200, search(pilot.catalog, source, data.get("version", "47"), context_id=data.get("context_id")))
                 if route == "/api/jobs":
                     return self.send(202, pilot.job(data))
                 return self.send(404, {"error": "غير موجود"})

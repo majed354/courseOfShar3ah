@@ -5,8 +5,8 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from scripts.equivalency.engine import calculate, compare, maximum_matching, validate_pairs
-from scripts.equivalency.extract import extract_pdf, select_details
+from scripts.equivalency.engine import calculate, compare, maximum_matching, validate_pairs, search
+from scripts.equivalency.extract import extract_pdf, select_details, context_id
 from scripts.equivalency.server import clean_topics
 
 
@@ -43,6 +43,16 @@ class DecisionTests(unittest.TestCase):
         self.assertEqual(calculate(t, s, p)["decision"], "insufficient")
         with patch("scripts.equivalency.engine.local_model", side_effect=AssertionError("no inference for unknown content")):
             self.assertEqual(compare({"topics": t}, {"topics": s})["provider"], "unresolved_source")
+
+    def test_unreadable_cid_requires_a_corrected_reading(self):
+        t, s, pairs = fixture([100])
+        t[0]['text'] = 'الموضوع (cid:24) غير المقروء'
+        self.assertEqual(calculate(t, s, pairs)['decision'], 'insufficient')
+
+    def test_project_without_a_fixed_subject_cannot_be_scored(self):
+        t, s, pairs = fixture([100])
+        t[0]['text'] = 'لا يوجد موضوع بعينه؛ يختار الطالب موضوع مشروعه'
+        self.assertEqual(calculate(t, s, pairs)['decision'], 'insufficient')
 
     def test_missing_judgment_is_not_zero(self):
         t, s, p = fixture([100, 100])
@@ -83,6 +93,60 @@ class DecisionTests(unittest.TestCase):
 
 
 class SourceTests(unittest.TestCase):
+    def test_large_upload_is_rejected_before_any_recovery(self):
+        import base64
+        import pymupdf
+        from scripts.equivalency.server import Pilot
+        with tempfile.TemporaryDirectory() as directory, pymupdf.open() as document:
+            for _ in range(41):
+                document.new_page()
+            pilot = object.__new__(Pilot)
+            pilot.root = Path(directory)
+            pilot.runtime = Path(directory)
+            raw = base64.b64encode(document.tobytes()).decode()
+            with patch('scripts.equivalency.server.extract_cached', side_effect=AssertionError('no recovery')):
+                with self.assertRaisesRegex(ValueError, '40'):
+                    pilot.create_source({'pdf_base64':raw})
+
+    def test_visual_transcription_excludes_later_administrative_fields(self):
+        from scripts.equivalency.recovery import sanitize_vision
+        data={'topics':[{'id':'1','page':5,'text':'موضوع مقرر حقيقي'},
+                        {'id':'2','page':5,'text':'المرافق النوعية'},
+                        {'id':'3','page':5,'text':'حقول تجهيزات لاحقة'},
+                        {'id':'4','page':6,'text':'صفحة خارج جدول الموضوعات'}], 'page_proof':[{'page':5},{'page':6}]}
+        with patch('scripts.equivalency.recovery.ocr_pages',return_value=[{'page':5}]):
+            cleaned=sanitize_vision(data,'unused','unused')
+        self.assertEqual([r['text'] for r in cleaned['topics']], ['موضوع مقرر حقيقي'])
+        self.assertEqual(len(cleaned['excluded_transcription_rows']),3)
+
+    def test_alternate_grid_recovers_the_law_template(self):
+        from scripts.equivalency.recovery import strict_grid
+        from scripts.equivalency.extract import apply_readings
+        from scripts.equivalency.engine import topic_text
+        root=Path(__file__).resolve().parents[1]
+        data=apply_readings(strict_grid(root/'assets/course-specifications/systems-source-2022/2003225-2.pdf'))
+        self.assertEqual(len(data['topics']),15)
+        self.assertIn('المنظمات الدولية',topic_text(data['topics'][0]))
+        self.assertIn('المنظمات الدولة',data['topics'][0]['text'])
+
+    def test_search_keeps_program_degree_and_plan_separate(self):
+        contexts = [{"program": p, "degree": d, "plan_type": "جديدة", "version": "1"}
+                    for p, d in [('القراءات', 'ماجستير'), ('القراءات', 'دكتوراه'), ('الفقه', 'دكتوراه')]]
+        for context in contexts:
+            context['id'] = context_id(context)
+        courses = [{"id": str(i), "context": {k:v for k,v in ctx.items() if k!='id'}, "context_id": ctx['id'],
+                    "code": "shared", "name": "اسم واحد", "topics": [{"id": "t1", "text": "موضوع واحد في سياقات مختلفة"}]} for i, ctx in enumerate(contexts)]
+        catalog = {"courses": courses, "contexts": contexts}
+        result = search(catalog, courses[0], context_id=contexts[1]['id'], semantic=False)
+        self.assertEqual([c['id'] for c in result['candidates']], ['1'])
+        with self.assertRaises(ValueError):
+            search(catalog, courses[0], context_id='unknown', semantic=False)
+
+    def test_legacy_version_request_remains_quran_only(self):
+        base = {"topics": [{"id": "1", "text": "تعريف القراءات"}]}
+        courses = [{**base, "id": name, "context": {"program": name, "degree": "بكالوريوس", "version": "47"}} for name in ['القرآن وعلومه', 'القراءات']]
+        self.assertEqual([c['id'] for c in search({"courses": courses}, base, version='47', semantic=False)['candidates']], ['القرآن وعلومه'])
+
     def test_corrected_reading_does_not_replace_original(self):
         original = [{"id": "t1", "text": "وشوطه", "page": 5}]
         before = copy.deepcopy(original)

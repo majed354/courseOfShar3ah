@@ -6,6 +6,7 @@ import json
 import re
 import subprocess
 import unicodedata
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
 
 import pdfplumber
@@ -169,6 +170,12 @@ def apply_readings(extracted, root=ROOT):
     if not path.exists():
         return extracted
     readings = json.loads(path.read_text())
+    for table in readings.get('topic_tables',[]):
+        if table['source_sha256']==extracted.get('source_sha256'):
+            extracted=dict(extracted,topics=table['topics'],extraction_method=table['method'],reading_note=table['note'],
+                           warnings=[table['note']],reviewed=False,status='extracted_needs_review')
+            if table.get('no_fixed_topics'):
+                extracted.update(fixed_topic_curriculum=False,source_text_blocks=table.get('source_text_blocks',[]),status='no_fixed_topics')
     # Both the PDF and the exact raw row must agree before applying a reading.
     for topic in extracted["topics"]:
         raw_hash = hashlib.sha256(topic["text"].encode()).hexdigest()
@@ -198,19 +205,83 @@ def select_details(data, course, context):
                 next((v for v in eligible if not scopes(v)), None))
 
 
-def build_catalog(output, root=ROOT):
+def context_id(context):
+    return hashlib.sha256(json.dumps(context, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:16]
+
+
+def extract_cached(path, cache_dir, vision=False):
+    sha = digest(path)
+    cached = Path(cache_dir) / f"{EXTRACTOR_VERSION}-{sha}.json"
+    if cached.exists():
+        extracted = json.loads(cached.read_text())
+    else:
+        try:
+            extracted = extract_pdf(path)
+        except Exception as e:
+            extracted = {"source_sha256": sha, "topics": [], "status": "needs_review", "reviewed": False, "warnings": [str(e)]}
+        cached.write_text(json.dumps(extracted, ensure_ascii=False, indent=2))
+    if not extracted['topics']:
+        from .recovery import VERSION, strict_grid, save_json, vision_topics, sanitize_vision
+        recovered = Path(cache_dir) / f'{VERSION}-{sha}.json'
+        if not recovered.exists():
+            save_json(recovered,strict_grid(path))
+        visions = sorted(Path(cache_dir).glob(f'{VERSION}-vision3-{sha}-*.json'), key=lambda p:p.stat().st_mtime)
+        candidate = visions[-1] if visions else recovered if recovered.exists() else None
+        if candidate:
+            reading = json.loads(candidate.read_text())
+            if 'vision3' in candidate.name:
+                reading=sanitize_vision(reading,path,cache_dir)
+            if reading.get('source_sha256') == sha and reading.get('topics'):
+                extracted = reading
+        if not extracted['topics'] and vision:
+            reading=vision_topics(path,cache_dir)
+            if reading and reading.get('topics'):
+                extracted=reading
+    return extracted
+
+
+def build_catalog(output, root=ROOT, workers=3):
     data = effective_data(root)
     cache_dir = root / "runtime/equivalency/extraction"
     cache_dir.mkdir(parents=True, exist_ok=True)
-    courses = []
+    # Extract each physical source once. Processes only read PDFs and write
+    # distinct private hash-cache files; the coordinator is the sole catalog writer.
+    sources = {}
     for p in data["programs"]:
-        if p["name"] != PROGRAM or p["degree"] != "بكالوريوس":
-            continue
         context = {"program": p["name"], "degree": p["degree"], "plan_type": p["plan_type"], "version": str(p["version"])}
         for course in p["courses"]:
             details = select_details(data, course, context)
+            if details and details.get("pdf_url"):
+                path = (root / details["pdf_url"]).resolve()
+                if path.is_relative_to((root / "assets").resolve()) and path.is_file():
+                    sha = digest(path)
+                    if not (cache_dir / f"{EXTRACTOR_VERSION}-{sha}.json").exists():
+                        sources[sha] = str(path)
+    for details in data.get('course_details',{}).values():
+        for variant in details.get('variants',[details]):
+            if variant.get('pdf_url'):
+                path=(root/variant['pdf_url']).resolve()
+                if path.is_relative_to((root/'assets').resolve()) and path.is_file():
+                    sha=digest(path)
+                    if not (cache_dir/f'{EXTRACTOR_VERSION}-{sha}.json').exists():
+                        sources[sha]=str(path)
+    if sources:
+        print(f"Extracting {len(sources)} additional source PDFs with {workers} workers", flush=True)
+        with ProcessPoolExecutor(max_workers=workers) as pool:
+            futures = {pool.submit(extract_cached, path, str(cache_dir)): path for path in sources.values()}
+            for i, future in enumerate(as_completed(futures), 1):
+                result = future.result()
+                print(f"PDF {i}/{len(futures)} {Path(futures[future]).name}: {len(result['topics'])} topics", flush=True)
+    courses = []
+    contexts = []
+    for p in data["programs"]:
+        context = {"program": p["name"], "degree": p["degree"], "plan_type": p["plan_type"], "version": str(p["version"])}
+        cid = context_id(context)
+        contexts.append({"id": cid, **context})
+        for course in p["courses"]:
+            details = select_details(data, course, context)
             item = {"id": hashlib.sha256(json.dumps([context, course["code"], course["name"]], ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:20],
-                    "code": course["code"], "name": course["name"], "hours": course.get("hours"), "context": context,
+                    "code": course["code"], "name": course["name"], "hours": course.get("hours"), "context": context, "context_id": cid,
                     "topics": [], "status": "missing_pdf", "reviewed": False, "warnings": []}
             if details and details.get("pdf_url"):
                 url = details["pdf_url"]
@@ -219,29 +290,47 @@ def build_catalog(output, root=ROOT):
                     item["warnings"].append("المصدر ليس ملفًا محليًا متاحًا؛ لا يُجلب رابط خارجي تلقائيًا")
                 else:
                     sha = digest(path)
-                    cached = cache_dir / f"{EXTRACTOR_VERSION}-{sha}.json"
-                    if cached.exists():
-                        extracted = json.loads(cached.read_text())
-                    else:
-                        try:
-                            extracted = extract_pdf(path)
-                        except Exception as e:
-                            extracted = {"source_sha256": sha, "topics": [], "status": "needs_review", "reviewed": False, "warnings": [str(e)]}
-                        cached.write_text(json.dumps(extracted, ensure_ascii=False, indent=2))
+                    extracted = extract_cached(path, cache_dir)
                     item.update(apply_readings(json.loads(json.dumps(extracted)), root), source_pdf=url, match_status=details.get("match_status"), source_note=details.get("match_note", ""))
-                    unknown = [t["id"] for t in item["topics"] if norm(t.get("corrected_text", t["text"])) in ("أخرى", "اخرى", "غير محدد")]
+                    unknown = [t["id"] for t in item["topics"] if norm(t.get("corrected_text", t["text"])) in ("أخرى", "اخرى", "غير محدد") or 'لايوجدموضوع' in compact(t.get('corrected_text',t['text']))]
                     if unknown:
                         item["warnings"].append("مفردة غير محددة في المصدر: " + ", ".join(unknown) + "؛ لا تُستكمل بالتخمين")
                         item["status"] = "needs_review"
+                    if any('لايوجدموضوع' in compact(t.get('corrected_text',t['text'])) for t in item['topics']) or compact(course['name'])=='الرسالة':
+                        item.update(fixed_topic_curriculum=False,source_text_blocks=item['topics'],topics=[],status='no_fixed_topics')
+                        item['warnings'].append('المصدر لا يحدد مفردات موضوعية ثابتة؛ لا يحسب له حكم معادلة مفردات تلقائي')
             courses.append(item)
             print(f"{context['version']} {item['code']}: {len(item['topics'])} topics; {item['status']}", flush=True)
     source_hashes = {name: digest(root / name) for name in ("data.json", "site-edits.json")}
     if (root / "equivalency-pilot/topic-readings.json").exists():
         source_hashes["equivalency-pilot/topic-readings.json"] = digest(root / "equivalency-pilot/topic-readings.json")
-    catalog = {"schema_version": 1, "program": PROGRAM, "extractor": EXTRACTOR_VERSION,
-               "source_hashes": source_hashes, "courses": courses,
+    for context in contexts:
+        selected = [c for c in courses if c["context_id"] == context["id"]]
+        context.update(total=len(selected), with_pdf=sum(bool(c.get("source_pdf")) for c in selected), with_topics=sum(bool(c["topics"]) for c in selected))
+    library=[]
+    selected_paths={c.get('source_pdf') for c in courses}
+    for code, details in data.get('course_details',{}).items():
+        for variant in details.get('variants',[details]):
+            url=variant.get('pdf_url')
+            if not url or url in selected_paths:
+                continue
+            path=(root/url).resolve()
+            if not path.is_relative_to((root/'assets').resolve()) or not path.is_file():
+                continue
+            identity=['library',code,variant.get('title'),url]
+            item={'id':hashlib.sha256(json.dumps(identity,ensure_ascii=False).encode()).hexdigest()[:20],
+                  'code':code,'name':variant.get('title',code),'hours':None,'context':None,'context_id':None,
+                  'library_only':True,'source_context':variant.get('source_context'),
+                  'source_pdf':url,'source_note':variant.get('match_note','')}
+            item.update(apply_readings(extract_cached(path,cache_dir),root))
+            item['warnings'].append('مصدر إضافي في الفهرس، غير مرتبط بخطة محددة؛ يستخدم كمصدر للمقارنة فقط')
+            library.append(item)
+    catalog = {"schema_version": 2, "scope": "college", "college": "كلية الشريعة والأنظمة", "contexts": contexts, "extractor": EXTRACTOR_VERSION,
+               "source_hashes": source_hashes, "courses": courses, "library_sources":library,
                "policy": {"coverage_threshold": 80, "strict_topic_threshold": 80, "lenient_topic_threshold": 60, "weighting": "topic_count", "direction": "uploaded_to_target"}}
     catalog["catalog_id"] = hashlib.sha256(json.dumps(catalog, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
     Path(output).parent.mkdir(parents=True, exist_ok=True)
-    Path(output).write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n")
+    temporary = Path(output).with_suffix('.building.json')
+    temporary.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n")
+    temporary.replace(output)
     return catalog

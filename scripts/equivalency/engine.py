@@ -32,7 +32,9 @@ def topic_text(topic):
 
 
 def unresolved_topics(topics):
-    return [t["id"] for t in topics if norm(topic_text(t)).strip(".،: …") in ("أخرى", "اخرى", "غير محدد", "يحدد لاحقًا", "يحدد لاحقا")]
+    return [t["id"] for t in topics if norm(topic_text(t)).strip(".،: …") in ("", "أخرى", "اخرى", "غير محدد", "يحدد لاحقًا", "يحدد لاحقا")
+            or '(cid:' in topic_text(t) or '\ufffd' in topic_text(t)
+            or 'لايوجدموضوع' in norm(topic_text(t)).replace(' ','')]
 
 
 def post_ollama(endpoint, payload, timeout=600):
@@ -108,7 +110,7 @@ def calculate(target_topics, source_topics, pairs, *, reviewed=True):
         return result
     missing = {"target": unresolved_topics(target_topics), "source": unresolved_topics(source_topics)}
     if any(missing.values()):
-        result.update(unresolved_topics=missing, reason="توجد مفردة غير محددة مثل «أخرى»؛ لا يكفي السياق لاستحداث محتواها. استكملها بدليل ثم أعد المقارنة.")
+        result.update(unresolved_topics=missing, reason="توجد مفردة غير محددة مثل «أخرى» أو حروف غير مقروءة؛ استكمل قراءتها من المصدر ثم أعد المقارنة.")
         return result
     pairs = validate_pairs(pairs, target_topics, source_topics)
     strict, lenient = maximum_matching(pairs, 80), maximum_matching(pairs, 60)
@@ -166,9 +168,17 @@ def compare(target, source, *, model="qwen3.8:27b-q8_0", cache_dir=None):
     return result
 
 
-def search(catalog, source, version, limit=5, semantic=True):
+def search(catalog, source, version=None, limit=5, semantic=True, context_id=None):
     """Rank candidates only. Retrieval scores never enter equivalency decisions."""
-    candidates = [c for c in catalog["courses"] if c["context"]["version"] == str(version) and c["topics"]]
+    if context_id is not None:
+        if context_id not in {c['id'] for c in catalog.get('contexts', [])}:
+            raise ValueError("البرنامج أو الخطة المستهدفة غير موجودة في الفهرس")
+        candidates = [c for c in catalog['courses'] if c.get('context_id') == context_id and c['topics']]
+    else:
+        # Compatibility for the original Quran-only UI/API: a version alone
+        # must never mix other programmes or master's/doctorate version 1.
+        candidates = [c for c in catalog["courses"] if c["context"]["version"] == str(version or '47')
+                      and c["context"]["program"] == 'القرآن وعلومه' and c["context"]["degree"] == 'بكالوريوس' and c["topics"]]
     tokens = lambda text: set(re.findall(r"[\w]+", norm(text)))
     query = tokens(" ".join(topic_text(t) for t in source["topics"]))
     scores = []
@@ -182,7 +192,7 @@ def search(catalog, source, version, limit=5, semantic=True):
             model = "qwen3-embedding:0.6b"
             md = local_model(model)
             texts = ["\n".join(topic_text(t) for t in c["topics"]) for c in candidates]
-            key = hashlib.sha256(json.dumps([md, texts], ensure_ascii=False).encode()).hexdigest()
+            key = hashlib.sha256(json.dumps([md, context_id, texts], ensure_ascii=False).encode()).hexdigest()
             cache = ROOT / "runtime/equivalency/embeddings" / (key + ".json")
             if cache.exists():
                 vectors = json.loads(cache.read_text())
