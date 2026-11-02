@@ -1,0 +1,128 @@
+{
+  "batch_id": "equivalency-report-design-20261102",
+  "status": "local_report_and_external_collection_complete",
+  "scope": "local_only",
+  "user_requests": [
+    "professional cards/charts/print layout",
+    "beneficiary name and number",
+    "agents collect external official course specifications",
+    "reuse program outcomes report design conventions"
+  ],
+  "design_reference": {
+    "project": "/Users/majd/Desktop/claudeMe/أتمتة التقارير/أتمتة تقارير المقررات",
+    "read_only": true,
+    "files": [
+      {
+        "path": "/Users/majd/Desktop/claudeMe/أتمتة التقارير/أتمتة تقارير المقررات/بايثون_الأنبوب/stage15_reference_latex_report.py",
+        "sha256": "69a6bfe097e2dc1313a5a9cee0aacf9681fb4258c82d4139e31cfde048ea0a0f"
+      },
+      {
+        "path": "/Users/majd/Desktop/claudeMe/أتمتة التقارير/أتمتة تقارير المقررات/الملفات الأساسية/(1-2-3-3) تقرير قياس نواتج التعلم 1446.pdf",
+        "sha256": "2b51c7112cbb4d645c2b359c0efe930a7dff45a0892bdae4903b5cd3a34dd972"
+      }
+    ],
+    "inspected_pdf_pages": [
+      1,
+      4,
+      5,
+      8
+    ],
+    "applied_patterns": [
+      "blue title strip and numbered section hierarchy",
+      "colored decision summary",
+      "blue table headers and alternating rows",
+      "horizontal actual-versus-target chart with 80% reference line"
+    ],
+    "source_results_imported": false
+  },
+  "canonical_data_changed": false,
+  "policy_changed": false,
+  "external_sources_folder": "output/equivalency-external-sources-20261102",
+  "publication": {
+    "public_service_enabled": false,
+    "automatic_site_deploy": "pending"
+  },
+  "beneficiary": {
+    "optional": true,
+    "keys": [
+      "name",
+      "number"
+    ],
+    "number_type": "string",
+    "max_lengths": {
+      "name": 160,
+      "number": 60
+    },
+    "editable_after_comparison_without_inference": true,
+    "durable_json_saved_atomically": true,
+    "export_waits_for_latest_saved_metadata": true,
+    "legacy_reports_supported": true
+  },
+  "report": {
+    "cards": [
+      "beneficiary",
+      "decision",
+      "source_course",
+      "target_course",
+      "strict_coverage",
+      "lenient_coverage"
+    ],
+    "charts": [
+      "two independent SVG coverage gauges",
+      "two horizontal coverage bars with 80% reference"
+    ],
+    "independent_matchings_preserved": true,
+    "insufficient_not_plotted_as_zero": true,
+    "page_numbers": true,
+    "sample_output": "output/pdf/equivalency-report-preview-20261102.pdf",
+    "sample_output_sha256": "d7ecd0b79e04f321ad79ea102255a8b55c5977f2c0701244047ea8ca499e8a93",
+    "sample_data": "fictitious beneficiary and exact self-comparison; not an academic approval",
+    "sample_pages": 4
+  },
+  "validation": {
+    "python_tests": 230,
+    "javascript_tests": 28,
+    "canonical_verifier": "passed",
+    "public_build_files": 878,
+    "browser": "fresh headless local Chrome via Playwright; no user session modified",
+    "viewport_widths": [
+      1400,
+      390
+    ],
+    "screen_and_mobile_no_document_overflow": true,
+    "browser_page_errors": [],
+    "report_pdf_all_pages_rendered_and_visually_reviewed": 4,
+    "beneficiary_save_and_reopen_http": "passed",
+    "standalone_html_sources": "absolute localhost source links, service must be running",
+    "race_conditions": [
+      "late save does not reopen old context",
+      "edits during save remain latest draft",
+      "edits during comparison are preserved",
+      "stale metadata prevents export"
+    ]
+  },
+  "external_collection": {
+    "manifest": "review-batches/equivalency-external-sources-20261102.json",
+    "folder": "output/equivalency-external-sources-20261102",
+    "pdfs": 15,
+    "universities": {
+      "جامعة أم القرى": 5,
+      "جامعة الملك سعود": 6,
+      "جامعة نجران": 4
+    },
+    "independently_verified": [
+      "unique SHA-256",
+      "manifest download hashes match local PDFs",
+      "page counts",
+      "official university URL domains",
+      "three topic-table page images"
+    ],
+    "pdfs_imported_to_catalog": false,
+    "pdfs_committed_or_published": false
+  },
+  "architecture_recommendation": {
+    "frontend": "section within existing plans/specifications site",
+    "analysis_engine": "separate service boundary and background jobs",
+    "status": "recommendation only; public deployment not authorized or implemented"
+  }
+}

@@ -1,0 +1,735 @@
+{
+  "batch_id": "equivalency-external-sources-20261102",
+  "created_at_utc": "2026-11-02T08:28:30.767038+00:00",
+  "purpose": "Local external course-equivalency experiments only; no equivalency decisions or automatic production import.",
+  "status": "15_verified_original_pdfs_collected",
+  "count": 15,
+  "universities": {
+    "جامعة أم القرى": 5,
+    "جامعة الملك سعود": 6,
+    "جامعة نجران": 4
+  },
+  "sources_official_only": true,
+  "pdf_bytes_modified": false,
+  "discovery_failures": [
+    {
+      "url": "https://www.jazanu.edu.sa/ar/colleges/college-sharia-and-law/department-sharia/cousredescription",
+      "reason": "HTTP403; excluded, no downloaded file counted"
+    },
+    {
+      "url": "https://adsc.nu.edu.sa/documents/46910/0/%D8%AA%D9%88%D8%B5%D9%8A%D9%81+%D8%A3%D8%B5%D9%88%D9%84+%D8%A7%D9%84%D9%81%D9%82%D9%87-2.pdf/d76f694c-61ba-a4df-96b2-1a51ee2ec3bf?t=1661933513389",
+      "reason": "Old hostname DNS failure; same document UUID retrieved from current official portal hostname, identity verified"
+    }
+  ],
+  "review_limits": [
+    "Verified identities, credit hours and presence/page ranges of topic tables; not a full academic review of every row.",
+    "No model scores, target-course equivalencies or expected decisions assigned.",
+    "All files have native text layers; Arabic extraction artifacts can still require visual review or local OCR."
+  ],
+  "entries": [
+    {
+      "university": "جامعة أم القرى",
+      "course_name_discovery": "مدخل لعلوم القرآن",
+      "course_name": "مدخل لعلوم القرآن الكريم",
+      "course_code": "QS1101",
+      "credit_hours": 2,
+      "program": "بكالوريوس الكتاب والسنة",
+      "source_url": "https://drive.uqu.edu.sa/_/qsudwhm/files/faec4d71-1f72-41e1-b163-1613fb0d9083.pdf",
+      "discovery_page_url": "https://uqu.edu.sa/qsudwhm/App/FILES/173354",
+      "downloaded_at_utc": "2026-11-02T08:25:59.121857+00:00",
+      "sha256": "22a5c1df34bfd4e48ab8f00a0705037d10361eef16edebac861265e622d1b4bf",
+      "bytes": 696480,
+      "pages": 8,
+      "language": "ar",
+      "topic_table_pages": [
+        5,
+        6
+      ],
+      "text_chars_per_page": [
+        298,
+        1400,
+        1259,
+        1211,
+        1378,
+        1429,
+        1368,
+        203
+      ],
+      "needs_ocr": false,
+      "verification_status": "identity_and_topic_table_visually_verified",
+      "notes": [
+        "بيان الغلاف «بكالوريوس الكتاب والسنة - المستوى السادس» محفوظ كما هو في المصدر؛ عنوان صفحة الاكتشاف يشير لخطة47/التفسيروعلومالقرآن. لم يعاد تفسير هذا البيان كدرجة أو خطة للطائف."
+      ],
+      "verification": {
+        "identity_pages": [
+          1,
+          3
+        ],
+        "cover_visually_checked": true,
+        "topic_table_start_visually_checked": true,
+        "topic_continuation_checked": "text layer and section boundaries",
+        "method": "Native PDF text plus rendered cover/topic-start visual inspection; no semantic equivalency judgment"
+      },
+      "text_layer_quality": "Arabic text exists; some glyph order/stretch/font artifacts require contextual review",
+      "pdf_path": "جامعة_أم_القرى/QS1101_مدخل_لعلوم_القرآن_الكريم.pdf",
+      "source_bytes_unchanged": true,
+      "download_sha256": "22a5c1df34bfd4e48ab8f00a0705037d10361eef16edebac861265e622d1b4bf"
+    },
+    {
+      "university": "جامعة أم القرى",
+      "course_name_discovery": "علوم القرآن2",
+      "course_name": "علوم القرآن 2",
+      "course_code": "QS2105",
+      "credit_hours": 2,
+      "program": "بكالوريوس الكتاب والسنة",
+      "source_url": "https://drive.uqu.edu.sa/_/qsudwhm/files/ec1d2b51-033d-48dd-a48e-5ad96dcc2e13.pdf",
+      "discovery_page_url": "https://uqu.edu.sa/qsudwhm/App/FILES/173354",
+      "downloaded_at_utc": "2026-11-02T08:25:59.471485+00:00",
+      "sha256": "07738f8d262e5d8b7ac0397670518fcb93f042e3368fd18128eca818c545278d",
+      "bytes": 683209,
+      "pages": 8,
+      "language": "ar",
+      "topic_table_pages": [
+        5,
+        6
+      ],
+      "text_chars_per_page": [
+        298,
+        1400,
+        1199,
+        1440,
+        927,
+        1645,
+        1295,
+        568
+      ],
+      "needs_ocr": false,
+      "verification_status": "identity_and_topic_table_visually_verified",
+      "notes": [
+        "بيان الغلاف «بكالوريوس الكتاب والسنة - المستوى السادس» محفوظ كما هو في المصدر؛ عنوان صفحة الاكتشاف يشير لخطة47/التفسيروعلومالقرآن. لم يعاد تفسير هذا البيان كدرجة أو خطة للطائف."
+      ],
+      "verification": {
+        "identity_pages": [
+          1,
+          3
+        ],
+        "cover_visually_checked": true,
+        "topic_table_start_visually_checked": true,
+        "topic_continuation_checked": "text layer and section boundaries",
+        "method": "Native PDF text plus rendered cover/topic-start visual inspection; no semantic equivalency judgment"
+      },
+      "text_layer_quality": "Arabic text exists; some glyph order/stretch/font artifacts require contextual review",
+      "pdf_path": "جامعة_أم_القرى/QS2105_علوم_القرآن_2.pdf",
+      "source_bytes_unchanged": true,
+      "download_sha256": "07738f8d262e5d8b7ac0397670518fcb93f042e3368fd18128eca818c545278d"
+    },
+    {
+      "university": "جامعة أم القرى",
+      "course_name_discovery": "التفسير التحليلي1",
+      "course_name": "التفسير التحليلي (1)",
+      "course_code": "QS2106",
+      "credit_hours": 2,
+      "program": "بكالوريوس الكتاب والسنة",
+      "source_url": "https://drive.uqu.edu.sa/_/qsudwhm/files/99ee5f49-a90d-4ae0-8816-7e614ee03ed0.pdf",
+      "discovery_page_url": "https://uqu.edu.sa/qsudwhm/App/FILES/173354",
+      "downloaded_at_utc": "2026-11-02T08:26:00.830225+00:00",
+      "sha256": "1eefc44d5ff99d969165392d88423d8ded88b631ba16a7a4101e715b3c8c2bff",
+      "bytes": 529785,
+      "pages": 7,
+      "language": "ar",
+      "topic_table_pages": [
+        5
+      ],
+      "text_chars_per_page": [
+        298,
+        1400,
+        1231,
+        1615,
+        2140,
+        1396,
+        1369
+      ],
+      "needs_ocr": false,
+      "verification_status": "identity_and_topic_table_visually_verified",
+      "notes": [
+        "بيان الغلاف «بكالوريوس الكتاب والسنة - المستوى السادس» محفوظ كما هو في المصدر؛ عنوان صفحة الاكتشاف يشير لخطة47/التفسيروعلومالقرآن. لم يعاد تفسير هذا البيان كدرجة أو خطة للطائف."
+      ],
+      "verification": {
+        "identity_pages": [
+          1,
+          3
+        ],
+        "cover_visually_checked": true,
+        "topic_table_start_visually_checked": true,
+        "topic_continuation_checked": "text layer and section boundaries",
+        "method": "Native PDF text plus rendered cover/topic-start visual inspection; no semantic equivalency judgment"
+      },
+      "text_layer_quality": "Arabic text exists; some glyph order/stretch/font artifacts require contextual review",
+      "pdf_path": "جامعة_أم_القرى/QS2106_التفسير_التحليلي_1.pdf",
+      "source_bytes_unchanged": true,
+      "download_sha256": "1eefc44d5ff99d969165392d88423d8ded88b631ba16a7a4101e715b3c8c2bff"
+    },
+    {
+      "university": "جامعة أم القرى",
+      "course_name_discovery": "أصول التفسير وقواعده",
+      "course_name": "أصول التفسير وقواعده",
+      "course_code": "QS2108",
+      "credit_hours": 2,
+      "program": "بكالوريوس الكتاب والسنة",
+      "source_url": "https://drive.uqu.edu.sa/_/qsudwhm/files/e5727b7d-0666-48b1-a473-971301d905f4.pdf",
+      "discovery_page_url": "https://uqu.edu.sa/qsudwhm/App/FILES/173354",
+      "downloaded_at_utc": "2026-11-02T08:25:59.419233+00:00",
+      "sha256": "6e3ac515ca1411a10972c230884d80cdfa112cad83114b5e53354892a57c8cb4",
+      "bytes": 549190,
+      "pages": 9,
+      "language": "ar",
+      "topic_table_pages": [
+        5,
+        6,
+        7
+      ],
+      "text_chars_per_page": [
+        300,
+        1400,
+        1299,
+        1480,
+        1472,
+        2312,
+        1914,
+        1291,
+        717
+      ],
+      "needs_ocr": false,
+      "verification_status": "identity_and_topic_table_visually_verified",
+      "notes": [
+        "بيان الغلاف «بكالوريوس الكتاب والسنة - المستوى السادس» محفوظ كما هو في المصدر؛ عنوان صفحة الاكتشاف يشير لخطة47/التفسيروعلومالقرآن. لم يعاد تفسير هذا البيان كدرجة أو خطة للطائف."
+      ],
+      "verification": {
+        "identity_pages": [
+          1,
+          3
+        ],
+        "cover_visually_checked": true,
+        "topic_table_start_visually_checked": true,
+        "topic_continuation_checked": "text layer and section boundaries",
+        "method": "Native PDF text plus rendered cover/topic-start visual inspection; no semantic equivalency judgment"
+      },
+      "text_layer_quality": "Arabic text exists; some glyph order/stretch/font artifacts require contextual review",
+      "pdf_path": "جامعة_أم_القرى/QS2108_أصول_التفسير_وقواعده.pdf",
+      "source_bytes_unchanged": true,
+      "download_sha256": "6e3ac515ca1411a10972c230884d80cdfa112cad83114b5e53354892a57c8cb4"
+    },
+    {
+      "university": "جامعة أم القرى",
+      "course_name_discovery": "الانتصار للقرآن",
+      "course_name": "الانتصار للقرآن",
+      "course_code": "QS4117",
+      "credit_hours": 2,
+      "program": "بكالوريوس الكتاب والسنة",
+      "source_url": "https://drive.uqu.edu.sa/_/qsudwhm/files/19f625ae-2542-4202-8422-51821027bee5.pdf",
+      "discovery_page_url": "https://uqu.edu.sa/qsudwhm/App/FILES/173354",
+      "downloaded_at_utc": "2026-11-02T08:25:59.493086+00:00",
+      "sha256": "99c234276360560e6972b00edfcb494cc6698a0ff994be696460b42624988135",
+      "bytes": 552922,
+      "pages": 8,
+      "language": "ar",
+      "topic_table_pages": [
+        5,
+        6
+      ],
+      "text_chars_per_page": [
+        292,
+        1400,
+        1405,
+        1548,
+        1599,
+        1446,
+        1290,
+        294
+      ],
+      "needs_ocr": false,
+      "verification_status": "identity_and_topic_table_visually_verified",
+      "notes": [
+        "بيان الغلاف «بكالوريوس الكتاب والسنة - المستوى السادس» محفوظ كما هو في المصدر؛ عنوان صفحة الاكتشاف يشير لخطة47/التفسيروعلومالقرآن. لم يعاد تفسير هذا البيان كدرجة أو خطة للطائف."
+      ],
+      "verification": {
+        "identity_pages": [
+          1,
+          3
+        ],
+        "cover_visually_checked": true,
+        "topic_table_start_visually_checked": true,
+        "topic_continuation_checked": "text layer and section boundaries",
+        "method": "Native PDF text plus rendered cover/topic-start visual inspection; no semantic equivalency judgment"
+      },
+      "text_layer_quality": "Arabic text exists; some glyph order/stretch/font artifacts require contextual review",
+      "pdf_path": "جامعة_أم_القرى/QS4117_الانتصار_للقرآن.pdf",
+      "source_bytes_unchanged": true,
+      "download_sha256": "99c234276360560e6972b00edfcb494cc6698a0ff994be696460b42624988135"
+    },
+    {
+      "university": "جامعة الملك سعود",
+      "course_name_discovery": "فقه الطهارة وشروط الصلاة",
+      "course_name": "فقه الطهارة وشروط الصلاة",
+      "course_code": "150 سلم",
+      "credit_hours": 2,
+      "program": "بكالوريوس الدراسات الإسلامية",
+      "source_url": "https://education.ksu.edu.sa/sites/education.ksu.edu.sa/files/attach/150%20%D8%B3%D9%84%D9%85%20%D9%81%D9%82%D9%87%20%D8%A7%D9%84%D8%B7%D9%87%D8%A7%D8%B1%D8%A9%20%D9%88%D8%B4%D8%B1%D9%88%D8%B7%20%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9.pdf",
+      "discovery_page_url": "https://education.ksu.edu.sa/ar/node/4742",
+      "downloaded_at_utc": "2026-11-02T08:26:01.494672+00:00",
+      "sha256": "524f6fc8d49cd1cf75f3208e286b2ffc97647b75b9759b09d7ad83442538594a",
+      "bytes": 1166830,
+      "pages": 9,
+      "language": "ar",
+      "topic_table_pages": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "text_chars_per_page": [
+        291,
+        424,
+        1469,
+        1739,
+        1548,
+        1471,
+        1735,
+        1721,
+        847
+      ],
+      "needs_ocr": false,
+      "verification_status": "identity_and_topic_table_visually_verified",
+      "notes": [
+        "الرمز150 مثبت من الغلاف وصفحة الجامعة؛ الاستخراج النصي يعكس ترتيبه051. يمتد جدول الموضوعات عبرخمس صفحات، ويلزم وصل تتمات الصفوف قبل الحساب.",
+        "اسم البرنامج الكامل مأخوذ من صفحة التوصيفات الرسمية؛ الغلاف يذكر البكالوريوس وقسم الدراسات الإسلامية."
+      ],
+      "verification": {
+        "identity_pages": [
+          1,
+          3
+        ],
+        "cover_visually_checked": true,
+        "topic_table_start_visually_checked": true,
+        "topic_continuation_checked": "text layer and section boundaries",
+        "method": "Native PDF text plus rendered cover/topic-start visual inspection; no semantic equivalency judgment"
+      },
+      "text_layer_quality": "Arabic text exists; some glyph order/stretch/font artifacts require contextual review",
+      "pdf_path": "جامعة_الملك_سعود/150_سلم_فقه_الطهارة_وشروط_الصلاة.pdf",
+      "source_bytes_unchanged": true,
+      "download_sha256": "524f6fc8d49cd1cf75f3208e286b2ffc97647b75b9759b09d7ad83442538594a"
+    },
+    {
+      "university": "جامعة الملك سعود",
+      "course_name_discovery": "فقه المعاملات1",
+      "course_name": "فقه المعاملات (1)",
+      "course_code": "356 سلم",
+      "credit_hours": 2,
+      "program": "بكالوريوس الدراسات الإسلامية",
+      "source_url": "https://education.ksu.edu.sa/sites/education.ksu.edu.sa/files/attach/356%20%D8%B3%D9%84%D9%85%20%D9%81%D9%82%D9%87%20%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA%201%20.pdf",
+      "discovery_page_url": "https://education.ksu.edu.sa/ar/node/4742",
+      "downloaded_at_utc": "2026-11-02T08:26:00.460479+00:00",
+      "sha256": "0eaf237bfe96b1446ea895984459e10a449cb3287f19f257c36013810accbe0e",
+      "bytes": 1050386,
+      "pages": 8,
+      "language": "ar",
+      "topic_table_pages": [
+        5,
+        6
+      ],
+      "text_chars_per_page": [
+        310,
+        429,
+        1484,
+        2136,
+        1650,
+        1792,
+        1847,
+        133
+      ],
+      "needs_ocr": false,
+      "verification_status": "identity_and_topic_table_visually_verified",
+      "notes": [
+        "اسم البرنامج الكامل مأخوذ من صفحة التوصيفات الرسمية؛ الغلاف يذكر البكالوريوس وقسم الدراسات الإسلامية."
+      ],
+      "verification": {
+        "identity_pages": [
+          1,
+          3
+        ],
+        "cover_visually_checked": true,
+        "topic_table_start_visually_checked": true,
+        "topic_continuation_checked": "text layer and section boundaries",
+        "method": "Native PDF text plus rendered cover/topic-start visual inspection; no semantic equivalency judgment"
+      },
+      "text_layer_quality": "Arabic text exists; some glyph order/stretch/font artifacts require contextual review",
+      "pdf_path": "جامعة_الملك_سعود/356_سلم_فقه_المعاملات_1.pdf",
+      "source_bytes_unchanged": true,
+      "download_sha256": "0eaf237bfe96b1446ea895984459e10a449cb3287f19f257c36013810accbe0e"
+    },
+    {
+      "university": "جامعة الملك سعود",
+      "course_name_discovery": "أدلة الأحكام",
+      "course_name": "أدلة الأحكام",
+      "course_code": "361 سلم",
+      "credit_hours": 2,
+      "program": "بكالوريوس الدراسات الإسلامية",
+      "source_url": "https://education.ksu.edu.sa/sites/education.ksu.edu.sa/files/attach/361%20%D8%B3%D9%84%D9%85%20%20%D8%A3%D8%AF%D9%84%D8%A9%20%D8%A7%D9%84%D8%A3%D8%AD%D9%83%D8%A7%D9%85%20.pdf",
+      "discovery_page_url": "https://education.ksu.edu.sa/ar/node/4742",
+      "downloaded_at_utc": "2026-11-02T08:26:02.050853+00:00",
+      "sha256": "67b1b17fd786b64da355ad72339768c42bc9791af3cfaf16a58f34f44c53190f",
+      "bytes": 1004069,
+      "pages": 7,
+      "language": "ar",
+      "topic_table_pages": [
+        5,
+        6
+      ],
+      "text_chars_per_page": [
+        292,
+        431,
+        1601,
+        2100,
+        2427,
+        1742,
+        734
+      ],
+      "needs_ocr": false,
+      "verification_status": "identity_and_topic_table_visually_verified",
+      "notes": [
+        "اسم البرنامج الكامل مأخوذ من صفحة التوصيفات الرسمية؛ الغلاف يذكر البكالوريوس وقسم الدراسات الإسلامية."
+      ],
+      "verification": {
+        "identity_pages": [
+          1,
+          3
+        ],
+        "cover_visually_checked": true,
+        "topic_table_start_visually_checked": true,
+        "topic_continuation_checked": "text layer and section boundaries",
+        "method": "Native PDF text plus rendered cover/topic-start visual inspection; no semantic equivalency judgment"
+      },
+      "text_layer_quality": "Arabic text exists; some glyph order/stretch/font artifacts require contextual review",
+      "pdf_path": "جامعة_الملك_سعود/361_سلم_أدلة_الأحكام.pdf",
+      "source_bytes_unchanged": true,
+      "download_sha256": "67b1b17fd786b64da355ad72339768c42bc9791af3cfaf16a58f34f44c53190f"
+    },
+    {
+      "university": "جامعة الملك سعود",
+      "course_name_discovery": "دلالات الألفاظ",
+      "course_name": "دلالات الألفاظ",
+      "course_code": "362 سلم",
+      "credit_hours": 2,
+      "program": "بكالوريوس الدراسات الإسلامية",
+      "source_url": "https://education.ksu.edu.sa/sites/education.ksu.edu.sa/files/attach/362%20%D8%B3%D9%84%D9%85%20%D8%AF%D9%84%D8%A7%D9%84%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D9%84%D9%81%D8%A7%D8%B8%20.pdf",
+      "discovery_page_url": "https://education.ksu.edu.sa/ar/node/4742",
+      "downloaded_at_utc": "2026-11-02T08:26:00.490387+00:00",
+      "sha256": "ea0aafb93c7e61ae209f9568574144dfc7511e85be297751ad7060e23dc6a189",
+      "bytes": 966637,
+      "pages": 7,
+      "language": "ar",
+      "topic_table_pages": [
+        5
+      ],
+      "text_chars_per_page": [
+        298,
+        429,
+        1510,
+        1828,
+        3036,
+        1122,
+        132
+      ],
+      "needs_ocr": false,
+      "verification_status": "identity_and_topic_table_visually_verified",
+      "notes": [
+        "اسم البرنامج الكامل مأخوذ من صفحة التوصيفات الرسمية؛ الغلاف يذكر البكالوريوس وقسم الدراسات الإسلامية."
+      ],
+      "verification": {
+        "identity_pages": [
+          1,
+          3
+        ],
+        "cover_visually_checked": true,
+        "topic_table_start_visually_checked": true,
+        "topic_continuation_checked": "text layer and section boundaries",
+        "method": "Native PDF text plus rendered cover/topic-start visual inspection; no semantic equivalency judgment"
+      },
+      "text_layer_quality": "Arabic text exists; some glyph order/stretch/font artifacts require contextual review",
+      "pdf_path": "جامعة_الملك_سعود/362_سلم_دلالات_الألفاظ.pdf",
+      "source_bytes_unchanged": true,
+      "download_sha256": "ea0aafb93c7e61ae209f9568574144dfc7511e85be297751ad7060e23dc6a189"
+    },
+    {
+      "university": "جامعة الملك سعود",
+      "course_name_discovery": "مقاصد الشريعة",
+      "course_name": "مقاصد الشريعة",
+      "course_code": "366 سلم",
+      "credit_hours": 2,
+      "program": "بكالوريوس الدراسات الإسلامية",
+      "source_url": "https://education.ksu.edu.sa/sites/education.ksu.edu.sa/files/attach/366%D8%B3%D9%84%D9%85%20%D9%85%D9%82%D8%A7%D8%B5%D8%AF%20%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D8%A9%20.pdf",
+      "discovery_page_url": "https://education.ksu.edu.sa/ar/node/4742",
+      "downloaded_at_utc": "2026-11-02T08:26:02.204462+00:00",
+      "sha256": "a7babdbbf73ca0c0b785912ebe28003c80871adff6c40630688af8255f428b74",
+      "bytes": 1183079,
+      "pages": 7,
+      "language": "ar",
+      "topic_table_pages": [
+        5,
+        6
+      ],
+      "text_chars_per_page": [
+        295,
+        435,
+        1716,
+        1553,
+        1687,
+        1449,
+        874
+      ],
+      "needs_ocr": false,
+      "verification_status": "identity_and_topic_table_visually_verified",
+      "notes": [
+        "اسم البرنامج الكامل مأخوذ من صفحة التوصيفات الرسمية؛ الغلاف يذكر البكالوريوس وقسم الدراسات الإسلامية."
+      ],
+      "verification": {
+        "identity_pages": [
+          1,
+          3
+        ],
+        "cover_visually_checked": true,
+        "topic_table_start_visually_checked": true,
+        "topic_continuation_checked": "text layer and section boundaries",
+        "method": "Native PDF text plus rendered cover/topic-start visual inspection; no semantic equivalency judgment"
+      },
+      "text_layer_quality": "Arabic text exists; some glyph order/stretch/font artifacts require contextual review",
+      "pdf_path": "جامعة_الملك_سعود/366_سلم_مقاصد_الشريعة.pdf",
+      "source_bytes_unchanged": true,
+      "download_sha256": "a7babdbbf73ca0c0b785912ebe28003c80871adff6c40630688af8255f428b74"
+    },
+    {
+      "university": "جامعة الملك سعود",
+      "course_name_discovery": "فقه النكاح",
+      "course_name": "فقه النكاح",
+      "course_code": "383 سلم",
+      "credit_hours": 2,
+      "program": "بكالوريوس الدراسات الإسلامية",
+      "source_url": "https://education.ksu.edu.sa/sites/education.ksu.edu.sa/files/attach/383%20%D8%B3%D9%84%D9%85%20%D9%81%D9%82%D9%87%20%D8%A7%D9%84%D9%86%D9%83%D8%A7%D8%AD%20.pdf",
+      "discovery_page_url": "https://education.ksu.edu.sa/ar/node/4742",
+      "downloaded_at_utc": "2026-11-02T08:26:01.529074+00:00",
+      "sha256": "635e1b0b06166dd4f44af5cb35efa785e7d11f884dc67e70dc57f6eae182fcce",
+      "bytes": 1007482,
+      "pages": 7,
+      "language": "ar",
+      "topic_table_pages": [
+        5,
+        6
+      ],
+      "text_chars_per_page": [
+        291,
+        433,
+        1414,
+        1556,
+        2846,
+        1599,
+        844
+      ],
+      "needs_ocr": false,
+      "verification_status": "identity_and_topic_table_visually_verified",
+      "notes": [
+        "اسم البرنامج الكامل مأخوذ من صفحة التوصيفات الرسمية؛ الغلاف يذكر البكالوريوس وقسم الدراسات الإسلامية."
+      ],
+      "verification": {
+        "identity_pages": [
+          1,
+          3
+        ],
+        "cover_visually_checked": true,
+        "topic_table_start_visually_checked": true,
+        "topic_continuation_checked": "text layer and section boundaries",
+        "method": "Native PDF text plus rendered cover/topic-start visual inspection; no semantic equivalency judgment"
+      },
+      "text_layer_quality": "Arabic text exists; some glyph order/stretch/font artifacts require contextual review",
+      "pdf_path": "جامعة_الملك_سعود/383_سلم_فقه_النكاح.pdf",
+      "source_bytes_unchanged": true,
+      "download_sha256": "635e1b0b06166dd4f44af5cb35efa785e7d11f884dc67e70dc57f6eae182fcce"
+    },
+    {
+      "university": "جامعة نجران",
+      "course_name_discovery": "أصول الفقه1",
+      "course_name": "أصول الفقه 1",
+      "course_code": "112 أصل 3",
+      "credit_hours": 3,
+      "program": "بكالوريوس الأنظمة",
+      "source_url": "https://portal.nu.edu.sa/documents/46910/0/%D8%A3%D8%B5%D9%88%D9%84%2B%D8%A7%D9%84%D9%81%D9%82%D9%87.pdf/22d76135-2b2b-691c-b3e5-66b602cc1a51",
+      "discovery_page_url": "https://www.nu.edu.sa/documents/46910/0/%D8%A3%D8%B5%D9%88%D9%84%2B%D8%A7%D9%84%D9%81%D9%82%D9%87.pdf/22d76135-2b2b-691c-b3e5-66b602cc1a51?t=1698146056036",
+      "downloaded_at_utc": "2026-11-02T08:26:04.633559+00:00",
+      "sha256": "56eec16c68c57e420278209b218fcaf14168ce35e1e6b45cd5835849652e39c3",
+      "bytes": 1556625,
+      "pages": 6,
+      "language": "ar",
+      "topic_table_pages": [
+        5
+      ],
+      "text_chars_per_page": [
+        286,
+        428,
+        1246,
+        1513,
+        1100,
+        1843
+      ],
+      "needs_ocr": false,
+      "verification_status": "identity_and_topic_table_visually_verified",
+      "notes": [],
+      "verification": {
+        "identity_pages": [
+          1,
+          3
+        ],
+        "cover_visually_checked": true,
+        "topic_table_start_visually_checked": true,
+        "topic_continuation_checked": "text layer and section boundaries",
+        "method": "Native PDF text plus rendered cover/topic-start visual inspection; no semantic equivalency judgment"
+      },
+      "text_layer_quality": "Arabic text exists; some glyph order/stretch/font artifacts require contextual review",
+      "pdf_path": "جامعة_نجران/112_أصل_3_أصول_الفقه_1.pdf",
+      "source_bytes_unchanged": true,
+      "download_sha256": "56eec16c68c57e420278209b218fcaf14168ce35e1e6b45cd5835849652e39c3"
+    },
+    {
+      "university": "جامعة نجران",
+      "course_name_discovery": "القانون الإداري",
+      "course_name": "القانون الإداري",
+      "course_code": "132 قان 3",
+      "credit_hours": 3,
+      "program": "بكالوريوس الأنظمة",
+      "source_url": "https://portal.nu.edu.sa/documents/46910/151318818/%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%2B%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A.pdf/8be491d2-0e01-c147-c296-70ca3842f596?t=1724839043485",
+      "discovery_page_url": "https://portal.nu.edu.sa/documents/46910/151318818/%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%2B%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A.pdf/8be491d2-0e01-c147-c296-70ca3842f596?t=1724839043485",
+      "downloaded_at_utc": "2026-11-02T08:26:04.120470+00:00",
+      "sha256": "5f625e1c422509a10fd060918d764b86bbf12443af3608b0086a69d78886ad55",
+      "bytes": 1202276,
+      "pages": 6,
+      "language": "ar",
+      "topic_table_pages": [
+        5
+      ],
+      "text_chars_per_page": [
+        258,
+        1394,
+        1790,
+        2025,
+        1834,
+        1298
+      ],
+      "needs_ocr": false,
+      "verification_status": "identity_and_topic_table_visually_verified",
+      "notes": [],
+      "verification": {
+        "identity_pages": [
+          1,
+          3
+        ],
+        "cover_visually_checked": true,
+        "topic_table_start_visually_checked": true,
+        "topic_continuation_checked": "text layer and section boundaries",
+        "method": "Native PDF text plus rendered cover/topic-start visual inspection; no semantic equivalency judgment"
+      },
+      "text_layer_quality": "Arabic text exists; some glyph order/stretch/font artifacts require contextual review",
+      "pdf_path": "جامعة_نجران/132_قان_3_القانون_الإداري.pdf",
+      "source_bytes_unchanged": true,
+      "download_sha256": "5f625e1c422509a10fd060918d764b86bbf12443af3608b0086a69d78886ad55"
+    },
+    {
+      "university": "جامعة نجران",
+      "course_name_discovery": "أصول الفقه2",
+      "course_name": "أصول الفقه 2",
+      "course_code": "214 أصل 3",
+      "credit_hours": 3,
+      "program": "بكالوريوس الأنظمة",
+      "source_url": "https://portal.nu.edu.sa/documents/46910/0/%D8%AA%D9%88%D8%B5%D9%8A%D9%81+%D8%A3%D8%B5%D9%88%D9%84+%D8%A7%D9%84%D9%81%D9%82%D9%87-2.pdf/d76f694c-61ba-a4df-96b2-1a51ee2ec3bf?t=1661933513389",
+      "discovery_page_url": "https://portal.nu.edu.sa/ar/web/mkali",
+      "downloaded_at_utc": "2026-11-02T08:28:30.764964+00:00",
+      "sha256": "f161698c870781aab5ec1bc5f33cc7ce9ed9cb475614a21e887a089920dc01f1",
+      "bytes": 868207,
+      "pages": 6,
+      "language": "ar",
+      "topic_table_pages": [
+        4
+      ],
+      "text_chars_per_page": [
+        197,
+        2196,
+        1643,
+        2070,
+        1820,
+        1555
+      ],
+      "needs_ocr": false,
+      "notes": [
+        "رابط عضو هيئة التدريس يستخدم نطاق adsc.nu.edu.sa القديم غير المتاح؛ نُزل نفس معرّف الوثيقة من portal.nu.edu.sa وتحققت هوية الملف من الغلاف.",
+        "الرمز214 مثبت بصريًا ومن صفحة عضو هيئة التدريس؛ يعكسه بعض استخراجPDF إلى412. جدول موضوعات المقرر بالصفحة4 بين مصفوفتين للنواتج، فلا تحتسب مصفوفةCLO ضمن المفردات."
+      ],
+      "verification_status": "identity_and_topic_table_visually_verified",
+      "verification": {
+        "identity_pages": [
+          1,
+          3
+        ],
+        "cover_visually_checked": true,
+        "topic_table_start_visually_checked": true,
+        "topic_continuation_checked": "text layer and section boundaries",
+        "method": "Native PDF text plus rendered cover/topic-start visual inspection; no semantic equivalency judgment"
+      },
+      "text_layer_quality": "Arabic text exists; some glyph order/stretch/font artifacts require contextual review",
+      "pdf_path": "جامعة_نجران/214_أصل_3_أصول_الفقه_2.pdf",
+      "source_bytes_unchanged": true,
+      "download_sha256": "f161698c870781aab5ec1bc5f33cc7ce9ed9cb475614a21e887a089920dc01f1"
+    },
+    {
+      "university": "جامعة نجران",
+      "course_name_discovery": "مصادر الالتزام",
+      "course_name": "مصادر الالتزام",
+      "course_code": "521 نظم ظ 3",
+      "credit_hours": 3,
+      "program": "ماجستير الأنظمة - نظام المقررات (مهني)",
+      "source_url": "https://portal.nu.edu.sa/documents/46910/0/%D8%AA%D9%88%D8%B5%D9%8A%D9%81%2B%D9%85%D8%B5%D8%A7%D8%AF%D8%B1%2B%D8%A7%D9%84%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85%2B%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%2B.pdf/2eca54f3-d23e-032f-941d-86fc0a2eed67",
+      "discovery_page_url": "https://portal.nu.edu.sa/documents/46910/0/%D8%AA%D9%88%D8%B5%D9%8A%D9%81%2B%D9%85%D8%B5%D8%A7%D8%AF%D8%B1%2B%D8%A7%D9%84%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85%2B%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1%2B.pdf/2eca54f3-d23e-032f-941d-86fc0a2eed67",
+      "downloaded_at_utc": "2026-11-02T08:26:03.072412+00:00",
+      "sha256": "9da05d6b752071b2f994648c8bfe21160af73cdc58df87e76728a63ce056effa",
+      "bytes": 962566,
+      "pages": 7,
+      "language": "ar",
+      "topic_table_pages": [
+        4
+      ],
+      "text_chars_per_page": [
+        276,
+        2194,
+        1746,
+        1455,
+        2287,
+        1960,
+        61
+      ],
+      "needs_ocr": false,
+      "verification_status": "identity_and_topic_table_visually_verified",
+      "notes": [],
+      "verification": {
+        "identity_pages": [
+          1,
+          3
+        ],
+        "cover_visually_checked": true,
+        "topic_table_start_visually_checked": true,
+        "topic_continuation_checked": "text layer and section boundaries",
+        "method": "Native PDF text plus rendered cover/topic-start visual inspection; no semantic equivalency judgment"
+      },
+      "text_layer_quality": "Arabic text exists; some glyph order/stretch/font artifacts require contextual review",
+      "pdf_path": "جامعة_نجران/521_نظم_ظ_3_مصادر_الالتزام.pdf",
+      "source_bytes_unchanged": true,
+      "download_sha256": "9da05d6b752071b2f994648c8bfe21160af73cdc58df87e76728a63ce056effa"
+    }
+  ]
+}

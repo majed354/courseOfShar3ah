@@ -1,13 +1,16 @@
 """User's two-level thresholds, source evidence, and scoped source selection."""
 import copy
+import json
 import tempfile
 import unittest
+from datetime import datetime
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import patch
 
 from scripts.equivalency.engine import calculate, compare, maximum_matching, validate_pairs, search
 from scripts.equivalency.extract import extract_pdf, select_details, context_id
-from scripts.equivalency.server import clean_topics
+from scripts.equivalency.server import Pilot, clean_beneficiary, clean_topics
 
 
 def fixture(scores):
@@ -192,6 +195,82 @@ class SourceTests(unittest.TestCase):
         repaired = [t for t in result["topics"] if "(cid:" in t["text"]]
         self.assertTrue(repaired)
         self.assertTrue(all("(cid:" not in t["corrected_text"] for t in repaired))
+
+
+class BeneficiaryTests(unittest.TestCase):
+    def pilot(self, directory):
+        pilot = object.__new__(Pilot)
+        pilot.runtime = Path(directory)
+        pilot.jobs = {}
+        return pilot
+
+    def test_optional_metadata_preserves_leading_zeroes_and_arabic_digits(self):
+        self.assertEqual(clean_beneficiary(), {"name": "", "number": ""})
+        self.assertEqual(clean_beneficiary({"name": "  مستفيد تجريبي  ", "number": "٠٠١٢34"}),
+                         {"name": "مستفيد تجريبي", "number": "٠٠١٢34"})
+        self.assertEqual(clean_beneficiary({"number": "000014"})["number"], "000014")
+
+    def test_metadata_rejects_wrong_types_excess_length_and_control_characters(self):
+        for value in ([], "name", 1, {"name": None}, {"number": 123}, {"name": "x" * 161},
+                      {"number": "1" * 61}, {"name": "bad\x00name"}, {"number": "1\n2"}):
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                clean_beneficiary(value)
+        self.assertEqual(len(clean_beneficiary({"name": "ن" * 160})["name"]), 160)
+
+    def test_job_saves_beneficiary_and_creation_time_without_affecting_decision(self):
+        with tempfile.TemporaryDirectory() as directory:
+            pilot = self.pilot(directory)
+            topics = [{"id": "t1", "text": "تعريف علم القراءات"}]
+            pilot.source = lambda key: {"name": "مصدر تجريبي", "topics": topics}
+            pilot.courses = {"target": {"name": "هدف تجريبي", "topics": topics}}
+            pilot.verify_course = lambda course: None
+            pilot.catalog = {"catalog_id": "fixture"}
+            pilot.model = "local-fixture"
+            pilot.executor = SimpleNamespace(submit=lambda task: task())
+            with patch("scripts.equivalency.engine.local_model", side_effect=AssertionError("exact match needs no model")):
+                job = pilot.job({"source_id": "s", "target_id": "target", "reviewed": True,
+                                 "beneficiary": {"name": "مستفيد تجريبي", "number": "000٣"}})
+            self.assertEqual(job["status"], "done")
+            saved = json.loads(pilot.path("reports", job["id"]).read_text())
+            self.assertEqual(saved["beneficiary"], {"name": "مستفيد تجريبي", "number": "000٣"})
+            self.assertEqual(saved["calculation"]["decision"], "equivalent")
+            self.assertIsNotNone(datetime.fromisoformat(saved["created_at"]).tzinfo)
+
+    def test_update_old_saved_report_and_in_memory_report_does_not_repeat_comparison(self):
+        with tempfile.TemporaryDirectory() as directory:
+            pilot = self.pilot(directory)
+            key = "a" * 32
+            original = {"id": key, "calculation": {"decision": "lenient", "strict_coverage": 60},
+                        "evidence": {"pairs": []}, "source": {"topics": []}, "target": {"topics": []}}
+            pilot.save_report(original)
+            pilot.jobs[key] = {"id": key, "status": "done", "result": original}
+            metadata = {"name": '<script>alert("fixture")</script>', "number": "٠٠١23"}
+            with patch("scripts.equivalency.server.compare", side_effect=AssertionError("metadata cannot rerun inference")):
+                updated = pilot.update_beneficiary(key, {"beneficiary": metadata})
+            self.assertEqual(updated, {**original, "beneficiary": metadata})
+            self.assertEqual(pilot.jobs[key]["result"], updated)
+            self.assertEqual(json.loads(pilot.path("reports", key).read_text()), updated)
+            self.assertNotIn("created_at", updated)  # No invented timestamp for a legacy report.
+            pilot.jobs = {}  # Simulate reopening after the local service restarts.
+            reopened = pilot.update_beneficiary(key, {"beneficiary": {"number": "000045"}})
+            self.assertEqual(reopened["beneficiary"], {"name": "", "number": "000045"})
+            self.assertEqual(reopened["evidence"], original["evidence"])
+
+    def test_invalid_or_pending_update_does_not_overwrite_report(self):
+        with tempfile.TemporaryDirectory() as directory:
+            pilot = self.pilot(directory)
+            key = "b" * 32
+            original = {"id": key, "beneficiary": {"name": "", "number": "001"}}
+            pilot.save_report(original)
+            for data in ({"beneficiary": {"number": 1}}, {"beneficiary": {"name": "ن" * 161}}):
+                with self.assertRaises(ValueError):
+                    pilot.update_beneficiary(key, data)
+            self.assertEqual(json.loads(pilot.path("reports", key).read_text()), original)
+            pilot.jobs[key] = {"id": key, "status": "running"}
+            with self.assertRaisesRegex(ValueError, "انتظر"):
+                pilot.update_beneficiary(key, {"beneficiary": {"name": "تجربة"}})
+            with self.assertRaises(ValueError):
+                pilot.update_beneficiary("c" * 32, {})
 
 
 if __name__ == "__main__":

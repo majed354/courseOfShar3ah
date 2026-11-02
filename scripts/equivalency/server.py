@@ -6,14 +6,33 @@ import json
 import secrets
 import threading
 import traceback
+import tempfile
 import pymupdf
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlparse
 
 from .engine import calculate, compare, search, topic_text
 from .extract import ROOT, digest, extract_pdf, extract_cached, apply_readings
+
+
+def clean_beneficiary(value=None):
+    """Optional display metadata; identifiers remain strings, including zeroes."""
+    if value is None:
+        value = {}
+    if not isinstance(value, dict):
+        raise ValueError("بيانات المستفيد يجب أن تكون اسمًا ورقمًا نصيين")
+    beneficiary = {}
+    for key, label, maximum in (("name", "اسم المستفيد", 160), ("number", "رقم المستفيد", 60)):
+        text = value.get(key, "")
+        if not isinstance(text, str) or len(text) > maximum:
+            raise ValueError(f"{label} يجب أن يكون نصًا لا يزيد عن {maximum} حرفًا")
+        if any(ord(character) < 32 or ord(character) == 127 for character in text):
+            raise ValueError(f"{label} يحتوي على محارف غير مقبولة")
+        beneficiary[key] = text.strip()
+    return beneficiary
 
 
 def clean_topics(rows, original=None):
@@ -74,6 +93,30 @@ class Pilot:
     def source(self, key):
         return json.loads(self.path("sources", key).read_text())
 
+    def save_report(self, report):
+        path = self.path("reports", report["id"])
+        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=path.parent, delete=False) as stream:
+            json.dump(report, stream, ensure_ascii=False, indent=2)
+            temporary = Path(stream.name)
+        temporary.replace(path)
+
+    def update_beneficiary(self, key, data):
+        beneficiary = clean_beneficiary(data.get("beneficiary"))
+        path = self.path("reports", key)
+        job = self.jobs.get(key)
+        if job and job["status"] != "done":
+            raise ValueError("انتظر اكتمال التقرير قبل تحديث بيانات المستفيد")
+        if not path.is_file():
+            raise ValueError("التقرير المكتمل غير موجود")
+        # Load the saved report as authority, including legacy reports without
+        # beneficiary metadata. Topic evidence and calculations stay untouched.
+        report = json.loads(path.read_text())
+        report["beneficiary"] = beneficiary
+        self.save_report(report)
+        if job:
+            job["result"] = report
+        return report
+
     def create_source(self, data):
         key = secrets.token_hex(16)
         if data.get("catalog_id"):
@@ -104,6 +147,7 @@ class Pilot:
         return source
 
     def job(self, data):
+        beneficiary = clean_beneficiary(data.get("beneficiary"))
         source = self.source(data["source_id"])
         target = dict(self.courses[data["target_id"]])
         self.verify_course(target)
@@ -121,11 +165,12 @@ class Pilot:
                 self.jobs[key].update(status="running", message="تدقيق توافق المفردات بالنموذج المحلي")
                 evidence = compare(target, source, model=self.model)
                 result = {"id": key, "source": source, "target": target, "evidence": evidence,
+                          "beneficiary": beneficiary, "created_at": datetime.now(timezone.utc).isoformat(),
                           "calculation": calculate(target["topics"], source["topics"], evidence["pairs"]),
                           "catalog_id": self.catalog["catalog_id"], "reviewed_by": "user_confirmed_extraction",
                           "notice": "نتيجة تجريبية للمفردات وفق سياسة 80/80/60؛ درجات توافق المفردات تقدير آلي يحتاج اعتماد المختص. الساعات واللوائح خارج هذا الحكم."}
                 self.verify_course(target)
-                self.path("reports", key).write_text(json.dumps(result, ensure_ascii=False, indent=2))
+                self.save_report(result)
                 self.jobs[key].update(status="done", message="اكتملت المقارنة", result=result)
             except Exception as e:
                 self.jobs[key].update(status="error", message=str(e))
@@ -197,6 +242,8 @@ def serve(root=ROOT, port=8798, model="qwen3.8:27b-q8_0"):
                 if not 0 < size <= 17 * 1024 * 1024:
                     return self.send(413, {"error": "حجم الطلب غير مقبول"})
                 data = json.loads(self.rfile.read(size))
+                if not isinstance(data, dict):
+                    raise ValueError("يلزم طلب بصيغة JSON object")
                 route = urlparse(self.path).path
                 if route == "/api/sources":
                     return self.send(200, pilot.create_source(data))
@@ -207,6 +254,9 @@ def serve(root=ROOT, port=8798, model="qwen3.8:27b-q8_0"):
                     return self.send(200, search(pilot.catalog, source, data.get("version", "47"), context_id=data.get("context_id")))
                 if route == "/api/jobs":
                     return self.send(202, pilot.job(data))
+                parts = route.split("/")
+                if len(parts) == 5 and parts[1:3] == ["api", "reports"] and parts[4] == "beneficiary":
+                    return self.send(200, pilot.update_beneficiary(parts[3], data))
                 return self.send(404, {"error": "غير موجود"})
             except Exception as e:
                 return self.send(400, {"error": str(e)})
