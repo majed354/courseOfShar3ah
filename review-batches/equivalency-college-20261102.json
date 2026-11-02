@@ -1309,6 +1309,12 @@
   "publication": {
     "scope": "source code and local catalog in repository only",
     "public_service_enabled": false,
-    "automatic_site_deploy": "pending"
+    "automatic_site_deploy": "verified",
+    "source_commit": "06a33a87987fa6c066d740742ebb185952fbc27d",
+    "deploy_id": "6ae8471f85baa5c2433ffd25",
+    "state": "ready",
+    "commit_ref": "06a33a87987fa6c066d740742ebb185952fbc27d",
+    "error_message": null,
+    "public_files_changed": false
   }
 }
