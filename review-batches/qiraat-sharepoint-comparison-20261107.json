@@ -268,7 +268,9 @@
       "plan_candidate_name": "الفقه (1)",
       "identity_status": "code_or_hours_conflict_needs_review",
       "site_pdf_url": null,
-      "comparison_status": "site_pdf_missing"
+      "comparison_status": "site_pdf_missing",
+      "comment_ar": "الغلاف يحمل 20012211-2، بينما رمز الفقه (1) في الخطة المحدثة بالموقع 2001221-2. توجد زيادة رقم 1 في الغلاف قياسًا برمز الخطة؛ يرجح خطأ كتابي ويحتاج تأكيدًا من الخطة المعتمدة.",
+      "comment_evidence": "Cover visually reviewed; historical code occurrences checked in data.json plans; training page 3 visually reviewed where applicable."
     },
     {
       "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 3/توصيف مقرر مصطلح الحديث قسم القراءات.pdf",
@@ -403,7 +405,9 @@
       "site_sha256": "c6c31b6d763d38cbf57de03bdbbd0b476462f0e560b69534f19986ea25a224b8",
       "site_pages": 10,
       "comparison_status": "different_bytes",
-      "site_live_sha256_verified": true
+      "site_live_sha256_verified": true,
+      "comment_ar": "الغلاف يحمل 20012212-2، بينما رمز الفقه (2) في الخطة المحدثة بالموقع 20012102-2. الرمز المطبوع لا يظهر في خطط الموقع؛ هذا اختلاف يحتاج مراجعة المرجع المعتمد قبل التصحيح.",
+      "comment_evidence": "Cover visually reviewed; historical code occurrences checked in data.json plans; training page 3 visually reviewed where applicable."
     },
     {
       "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/توصيف مقرر الحديث (1) في القراءات.pdf",
@@ -544,7 +548,9 @@
       "site_sha256": "b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03",
       "site_pages": 9,
       "comparison_status": "different_bytes",
-      "site_live_sha256_verified": true
+      "site_live_sha256_verified": true,
+      "comment_ar": "الغلاف يحمل 2001373-2؛ وهو مستخدم للعقيدة (3) في خطة القراءات القديمة 38 وخطة القرآن القديمة 39 بالموقع. الخطة المحدثة 47 تستخدم 2004373-2؛ فالملف يحمل رمز الخطة القديمة رغم وضعه في مجلد المحدثة.",
+      "comment_evidence": "Cover visually reviewed; historical code occurrences checked in data.json plans; training page 3 visually reviewed where applicable."
     },
     {
       "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/توصيف نحو (3) برنامج القراءات  لكلية الشريعة 2024.pdf",
@@ -698,7 +704,9 @@
       "site_sha256": "99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e",
       "site_pages": 8,
       "comparison_status": "different_bytes",
-      "site_live_sha256_verified": true
+      "site_live_sha256_verified": true,
+      "comment_ar": "الغلاف يحمل 2001474-2؛ وهو مستخدم للعقيدة (4) في خطة القراءات القديمة 38 وخطة القرآن القديمة 39 بالموقع. الخطة المحدثة 47 تستخدم 2004474-2؛ فالملف يحمل رمز الخطة القديمة رغم وضعه في مجلد المحدثة.",
+      "comment_evidence": "Cover visually reviewed; historical code occurrences checked in data.json plans; training page 3 visually reviewed where applicable."
     },
     {
       "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/توصيف نحو (4) برنامج القراءات لكلية الشريعة 2024.pdf",
@@ -791,7 +799,9 @@
       "site_sha256": "b92485cff86c860b2e17237791f0a6c25476410a3988c88b31e7499ef831138a",
       "site_pages": 10,
       "comparison_status": "different_bytes",
-      "site_live_sha256_verified": true
+      "site_live_sha256_verified": true,
+      "comment_ar": "الغلاف يحمل 2001403-2؛ وهو مستخدم للأديان والفرق والمذاهب المعاصرة في خطة القراءات القديمة 38 وخطة القرآن القديمة 39 بالموقع. الخطة المحدثة 47 تستخدم 2004403-2؛ فالملف يحمل رمز الخطة القديمة رغم وضعه في مجلد المحدثة.",
+      "comment_evidence": "Cover visually reviewed; historical code occurrences checked in data.json plans; training page 3 visually reviewed where applicable."
     },
     {
       "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/توصيف مادة مشروع التخرج.pdf",
@@ -913,7 +923,9 @@
       "plan_candidate_name": "التدريب التعاوني",
       "identity_status": "code_or_hours_conflict_needs_review",
       "site_pdf_url": null,
-      "comparison_status": "site_pdf_missing"
+      "comparison_status": "site_pdf_missing",
+      "comment_ar": "الغلاف يحمل 2002266-2، بينما الخطة المحدثة بالموقع تستخدم 2002266-6. الصفحة 3 من الملف نفسه تذكر 6 ساعات في خانة الساعات المعتمدة؛ لذلك يرجح خطأ لاحقة رمز الغلاف، وليس اختلاف عدد الساعات المعتمدة داخل التوصيف.",
+      "comment_evidence": "Cover visually reviewed; historical code occurrences checked in data.json plans; training page 3 visually reviewed where applicable."
     },
     {
       "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 8/‏‏نموذج  إصدار 2024م  -توصيف القراءات الثلاث 2.pdf",
@@ -957,5 +969,13 @@
       "site_pdf_url": null,
       "comparison_status": "site_pdf_missing"
     }
-  ]
+  ],
+  "conflict_commentary_review": {
+    "date": "2026-11-07",
+    "historical_code_occurrences_verified_in_site_plans": true,
+    "training_page3_visually_verified_credit_hours": 6,
+    "training_cover_code": "2002266-2",
+    "training_plan_code": "2002266-6",
+    "source_pdfs_modified": false
+  }
 }
