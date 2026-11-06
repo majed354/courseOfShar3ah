@@ -1,0 +1,961 @@
+{
+  "date": "2026-11-07",
+  "audit_kind": "read_only_source_comparison_no_import",
+  "repository_head_at_check": "ad30e98b396a8fc23739b843fbf3ce9380319588",
+  "site": "https://courseofshar3ah.netlify.app",
+  "source_host": "taifedusa-my.sharepoint.com",
+  "source_folder": "personal/quranic_recitations_tu_edu_sa/Documents/أدلة رفع شروط الاعتماد بكالوريوس القراءات/توصيفات المقررات/توصيفات مقررات الخطة المحدثة 2024",
+  "source_zip_sha256": "1d4cc88aef493ab1a012fae5296a2ebe38af7d3998a570a14d502cbaa48b3a89",
+  "source_zip_bytes": 32058886,
+  "source_ui_items": 60,
+  "pdf_downloaded": 59,
+  "download_failures": [
+    {
+      "file": "مقررات اختيارية تخصصية/نموذج إصدار 2024م مناهج المؤلفين 1 -.pdf",
+      "error_type": "WebMeTAException",
+      "correlation_id": "97a51e71-63a2-4b99-b8f8-db73816e58ef"
+    }
+  ],
+  "plan_context": {
+    "program": "القراءات",
+    "degree": "بكالوريوس",
+    "version": "47",
+    "plan_type": "جديدة"
+  },
+  "live_plan": {
+    "appearances": 89,
+    "with_pdf": 55,
+    "without_pdf": 34,
+    "site_edits_entries": 0,
+    "downloaded_live_pdf": 55,
+    "all_55_equal_local_assets": true,
+    "live_data_equal_local": true,
+    "live_index_equal_local": true
+  },
+  "results": {
+    "byte_identical_source_files": 0,
+    "exact_code_with_different_site_pdf": 43,
+    "exact_code_without_site_pdf": 10,
+    "code_or_hours_conflicts": 6,
+    "all_candidates_with_different_site_pdf_including_conflicts": 47,
+    "all_candidates_without_site_pdf_including_conflicts": 12
+  },
+  "limitations": [
+    "Byte differences alone do not establish academic content differences or recency.",
+    "Exact code matches are comparison candidates, not automatic approval for import.",
+    "Six code or hours conflicts are unapproved candidate matches, not equivalencies.",
+    "The failed sixtieth file was not inspected.",
+    "The folder is not uniformly newer: the visually reviewed 2002456-2 cover is dated 29/10/1445 versus 01/09/1446 on the live site.",
+    "No coverage, data, outcomes, PDF or SharePoint changes."
+  ],
+  "rows": [
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 1/2-2002131 علوم القرآن العامة.pdf",
+      "source_sha256": "c0e0a35c1082f761a5c5429260293b33ee66cc81615228216c58713779cf2459",
+      "source_pages": 8,
+      "detected_codes": [
+        "2002252-2"
+      ],
+      "plan_candidate_code": "2002252-2",
+      "plan_candidate_name": "علوم القرآن العامة",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/2002252-2--new-v47.pdf",
+      "site_sha256": "ab2a7b9c356bdb8468d4274bddf1d9dd9af1fa0d3b0a9cbfcdc0e69e11b29523",
+      "site_pages": 8,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 1/توصيف مقرر البكالوريوس المدخل لدراسة الفقه.pdf",
+      "source_sha256": "a255a25a0dd120d8fce84e8569df3ba8c5cfb006dc9e379002aaf37405ff4ce0",
+      "source_pages": 7,
+      "detected_codes": [
+        "2001112-2"
+      ],
+      "plan_candidate_code": "2001112-2",
+      "plan_candidate_name": "المدخل لدراسة الفقه",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2001112-2--4d2365da36.pdf",
+      "site_sha256": "428c475459cbf0837f46e85b02d57ec12c4358cc7f3d5abb98dae71c8af9dfd9",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 1/توصيف مقرر دراسات في السيرة النبوية.pdf",
+      "source_sha256": "f686bb3dc6bb3a7db81a46da33d539ddfd6d2ae499970b9a530d04be4d11f083",
+      "source_pages": 9,
+      "detected_codes": [
+        "2004258-2"
+      ],
+      "plan_candidate_code": "2004258-2",
+      "plan_candidate_name": "دراسات في السيرة النبوية",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf",
+      "site_sha256": "6efe2ca3ee1ac66488a79cbf901ac812bdd09594f58e6bb7f19dafbcfd040801",
+      "site_pages": 9,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 1/‏‏نموذج  إصدار 2024م (قراءات التجويد 1.pdf",
+      "source_sha256": "c077272b2a92eb4cd8cec4a9fca39e10401358d363fac6fdee4b94c86ab80b5c",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002103-2"
+      ],
+      "plan_candidate_code": "2002103-2",
+      "plan_candidate_name": "التجويد (1)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf",
+      "site_sha256": "b89d857c727cdb7a761852bdfb73f489cf3c9ee8cdc235101a7fadccf5135ce8",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 1/نموذج  إصدار 2024م- توصيف أصول القراءات السبع 1.pdf",
+      "source_sha256": "b8f641700e2abd1bd8665504bc16af17ef24028cc4cbe00c45ea9b7985d3b1e2",
+      "source_pages": 8,
+      "detected_codes": [
+        "2002102-4"
+      ],
+      "plan_candidate_code": "2002102-4",
+      "plan_candidate_name": "أصول القراءات السبع (1)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002102-4.pdf",
+      "site_sha256": "a08eb8a2050b8f02dacb45590143538ae61f68957d52021c538157b16c39d74a",
+      "site_pages": 9,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 2/توصيف آداب حملة القرآن 2024.pdf",
+      "source_sha256": "df48840edcff6a9e9468df9fd8e672a997938129c19a159b6df06695cff33c82",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002104-2"
+      ],
+      "plan_candidate_code": "2002104-2",
+      "plan_candidate_name": "آداب حملة القرآن",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002104-2.pdf",
+      "site_sha256": "8acc7c92e0bf3ec4add2939914ffb8dbae97420759ba3c5652cf35a0237008a8",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 2/توصيف التحرير العربي برنامج القراءات  لكلية الشريعة 2024.pdf",
+      "source_sha256": "19fca17c5e1ed49ed857d57dd01050e03d1feb9b90d1e6d74e6429392a344242",
+      "source_pages": 8,
+      "detected_codes": [
+        "103171-2"
+      ],
+      "plan_candidate_code": "103171-2",
+      "plan_candidate_name": "التحرير العربي",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/103171-2--e6212e6733.pdf",
+      "site_sha256": "bc20efd841258c7739e47238b30b127c27ff660724577c87fdbc896f51fbe33f",
+      "site_pages": 8,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 2/توصيف مقرر الصرف برنامج القراءات لكلية الشريعة إصدار 2024م (1).pdf",
+      "source_sha256": "01c23803272bf7239923d427a9243cd34bd7a6a3077ead97823117257392bc68",
+      "source_pages": 8,
+      "detected_codes": [
+        "103411-2"
+      ],
+      "plan_candidate_code": "103411-2",
+      "plan_candidate_name": "الصرف",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/103411-2--543d71045c.pdf",
+      "site_sha256": "5b71f906d65c23307622337ad1e2f8220d43635873a0eccf62d3639e52d6f3a9",
+      "site_pages": 8,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 2/دراسات في علوم القرآن .pdf",
+      "source_sha256": "0cc8b27c62d8897e725b7e6e69f6d77caaf0f54296f7b87e5c4b9666f274a575",
+      "source_pages": 8,
+      "detected_codes": [
+        "2002210-2"
+      ],
+      "plan_candidate_code": "2002210-2",
+      "plan_candidate_name": "دراسات في علوم القرآن",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/2002210-2--new-v47.pdf",
+      "site_sha256": "cc0be3952fd357dcde89035777b1966ade5a661bab1550471249a8495ff7fb24",
+      "site_pages": 8,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 2/نموذج  إصدار 2024م- توصيف أصول القراءات السبع 2.pdf",
+      "source_sha256": "b049f1e03fc6d115e356369aac2c485b01b9618cb2c70a4ad8c927c43bb126d6",
+      "source_pages": 8,
+      "detected_codes": [
+        "2002105-4"
+      ],
+      "plan_candidate_code": "2002105-4",
+      "plan_candidate_name": "أصول القراءات السبع (2)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002105-4.pdf",
+      "site_sha256": "8b24571f8b3ebeda0fe34be5edf9921231a7ed99952b6d651d1c10d1d7df9c0a",
+      "site_pages": 9,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 2/‏‏‏‏نموذج إصدار 2024م قراءات- التجويد 2 -.pdf",
+      "source_sha256": "9888f79cc9c53eaaf982b9ae67647c0c0e849a11e1700adcd793bb8361fd6877",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002106-2"
+      ],
+      "plan_candidate_code": "2002106-2",
+      "plan_candidate_name": "التجويد (2)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf",
+      "site_sha256": "4edd682a63addeb31c5dd97dcea38ed806247b16ab40f9aa23ca6d9249f8c7ff",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 2/نموذج توصيف مقرر مدخل إلى علوم القراءات  إصدار 2024م .pdf",
+      "source_sha256": "38ac15d04da2080ed335edcaf1a6827b312f56f5fce11a6d0b4bce7b853665ab",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002110-2"
+      ],
+      "plan_candidate_code": "2002110-2",
+      "plan_candidate_name": "مدخل إلى علوم القراءات",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2002110-2--c42081827a.pdf",
+      "site_sha256": "aefb96cb5e5251231b257143f68cbb21c348d6250fa14d095b014a70edfa2d95",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 3/التفسير التحليلي 1.pdf",
+      "source_sha256": "85e91df72aaaed2489e339b30ef16daa44d319df1be42f0d74a1be015863083c",
+      "source_pages": 7,
+      "detected_codes": [
+        "20021203-2"
+      ],
+      "plan_candidate_code": "20021203-2",
+      "plan_candidate_name": "التفسير التحليلي (1)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/20021203-2--new-v47.pdf",
+      "site_sha256": "327ccf2d1af85ab4262d6c6a4229e458df739711f176288b4effde22140d1e27",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 3/توصيف الفقه ق1 لقسم القراءات 1446.pdf",
+      "source_sha256": "cc049afb4e9f81de7e87172504f637ddeef9f0c5d3bdcf365e596646c311115a",
+      "source_pages": 7,
+      "detected_codes": [
+        "20012211-2"
+      ],
+      "plan_candidate_code": "2001221-2",
+      "plan_candidate_name": "الفقه (1)",
+      "identity_status": "code_or_hours_conflict_needs_review",
+      "site_pdf_url": null,
+      "comparison_status": "site_pdf_missing"
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 3/توصيف مقرر مصطلح الحديث قسم القراءات.pdf",
+      "source_sha256": "8f97c89a13d766832a57a424fdb59a4958a4a4ea9872cbd5eeafe287c0419ee6",
+      "source_pages": 10,
+      "detected_codes": [
+        "2004102-2"
+      ],
+      "plan_candidate_code": "2004102-2",
+      "plan_candidate_name": "مصطلح الحديث",
+      "identity_status": "exact_code",
+      "site_pdf_url": null,
+      "comparison_status": "site_pdf_missing"
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 3/توصيف نحو (1) برنامج القراءات لكلية الشريعة 2024.pdf",
+      "source_sha256": "93a0e8bbdc354c98a1c5be63164eeddbd11d723931b9083e660a014ea9f6a879",
+      "source_pages": 8,
+      "detected_codes": [
+        "103281-2"
+      ],
+      "plan_candidate_code": "103281-2",
+      "plan_candidate_name": "النحو (١)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/103281-2--7f1c8633ae.pdf",
+      "site_sha256": "e5ef5d40a852f2b29c59024f41dd71d0338d0556e34134108805b1e004c222f7",
+      "site_pages": 8,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 3/نموذج  إصدار 2024م-توصيف عرض القراءات السبع 1.pdf",
+      "source_sha256": "63d3d0da8dc8de23f3c75a4aa28fc7c48fa96a845ab7d4fb28ded2964913d8ad",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002111-3"
+      ],
+      "plan_candidate_code": "2002111-3",
+      "plan_candidate_name": "عرض القراءات السبع (١)",
+      "identity_status": "exact_code",
+      "site_pdf_url": null,
+      "comparison_status": "site_pdf_missing"
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 3/نموذج  إصدار 2024م-توصيف فرش القراءات السبع 1.pdf",
+      "source_sha256": "9abcfb02197046cabf6456b1ad29ce575549596a7f118d8a6704661704802490",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002201-2"
+      ],
+      "plan_candidate_code": "2002201-2",
+      "plan_candidate_name": "فرش القراءات السبع (1)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002201-2.pdf",
+      "site_sha256": "d58b3f99e804044f55451d77ebbbdc6d52fca12f3cc03738a56649c472bb87be",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 3/نموذج توصيف المقرر الدراسي إصدار 2024م لمادة تدريبات على الجمع وكيفياته.pdf",
+      "source_sha256": "50744a9245671a84ed07eea3772ae9b8eca9a859865afb5060afee32ae5c1135",
+      "source_pages": 7,
+      "detected_codes": [
+        "2002280-2"
+      ],
+      "plan_candidate_code": "2002280-2",
+      "plan_candidate_name": "تدريبات على الجمع والكيفيات",
+      "identity_status": "exact_code",
+      "site_pdf_url": null,
+      "comparison_status": "site_pdf_missing"
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/__التفسير التحليلي 2 (ق) .pdf",
+      "source_sha256": "002b5d1dd97d8ebf0e7fef93b180a45c072fe19f808c43d8611cf1483d21a473",
+      "source_pages": 7,
+      "detected_codes": [
+        "2002352-2"
+      ],
+      "plan_candidate_code": "2002352-2",
+      "plan_candidate_name": "التفسير التحليلي (2)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/2002352-2--new-v47.pdf",
+      "site_sha256": "04e455b5f65ee52432e583fcc87bc51b1378aa1a34253f22a9f805f6639fe92e",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/توصيف أصول التفسير ومناهجه.pdf",
+      "source_sha256": "9ec8c8d13f69d055e9ecc0e39cdbe8d8151566449bf0e2c51cbc8b7d95c04dab",
+      "source_pages": 8,
+      "detected_codes": [
+        "2002250-2"
+      ],
+      "plan_candidate_code": "2002250-2",
+      "plan_candidate_name": "أصول التفسير ومناهجه",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/2002250-2--new-v47.pdf",
+      "site_sha256": "86f970a66ac2c868081c4af2e3797ea13276a62023db5865c188a4e7d45235af",
+      "site_pages": 8,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/توصيف العقيدة2 برنامج القراءات.pdf",
+      "source_sha256": "1c115fad2c2aa5603e00c910cc4dea9134adcefcd5d0a889fa76ea5b9381d80c",
+      "source_pages": 8,
+      "detected_codes": [
+        "2004245-2"
+      ],
+      "plan_candidate_code": "2004245-2",
+      "plan_candidate_name": "العقيدة (2)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf",
+      "site_sha256": "05c76b9bd0a98c9fb9a52a242455655dba6cdc22833208bd371841a6594a331e",
+      "site_pages": 8,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/توصيف الفقه ق2 لقسم القراءات 1446.pdf",
+      "source_sha256": "a40f33545b8540491f53d1ac9e64c494e5f63e77b0dc0663ff84d818a227d67d",
+      "source_pages": 6,
+      "detected_codes": [
+        "20012212-2"
+      ],
+      "plan_candidate_code": "20012102-2",
+      "plan_candidate_name": "الفقه (2)",
+      "identity_status": "code_or_hours_conflict_needs_review",
+      "site_pdf_url": "assets/course-specifications/specialty-recovery-20260826/20012102-2.pdf",
+      "site_sha256": "c6c31b6d763d38cbf57de03bdbbd0b476462f0e560b69534f19986ea25a224b8",
+      "site_pages": 10,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/توصيف مقرر الحديث (1) في القراءات.pdf",
+      "source_sha256": "8544f7f9bb91442c0b01c4345ad3c651797046731b110a05a51ac7d4cda9be48",
+      "source_pages": 8,
+      "detected_codes": [
+        "2004205-2"
+      ],
+      "plan_candidate_code": "2004205-2",
+      "plan_candidate_name": "الحديث (1)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/institutional-recovery-20260911/2001205-2.pdf",
+      "site_sha256": "b15bf07d186a839ab17ae65398f1f878ccd2a362994c342049eb00769daecb2d",
+      "site_pages": 8,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/توصيف نحو (2)  برنامج القراءات لكلية الشريعة 2024.pdf",
+      "source_sha256": "07900d52f7f01185867175bd1e781e0dd241962dff6c6abe83252515f524f38b",
+      "source_pages": 7,
+      "detected_codes": [
+        "103282-2"
+      ],
+      "plan_candidate_code": "103282-2",
+      "plan_candidate_name": "النحو (٢)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/103282-2--2866481d7d.pdf",
+      "site_sha256": "1f9126cf9dc5116231d807e3df3ab1442dcbf7207c4d18875d7fba2ecbee655d",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/نموذج  إصدار 2024م-توصيف عرض القراءات السبع 2.pdf",
+      "source_sha256": "f2ea8dcca6a4475999f1e81c5b92c2397f3eb2c91a9b34a894f7cb85247fad50",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002112-3"
+      ],
+      "plan_candidate_code": "2002112-3",
+      "plan_candidate_name": "عرض القراءات السبع (٢)",
+      "identity_status": "exact_code",
+      "site_pdf_url": null,
+      "comparison_status": "site_pdf_missing"
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/نموذج  إصدار 2024م-توصيف فرش القراءات السبع 2.pdf",
+      "source_sha256": "6673cf6b51b159ebf1fb4d76e194deeb01300282220bc306c256c9176297a19b",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002206-2"
+      ],
+      "plan_candidate_code": "2002206-2",
+      "plan_candidate_name": "فرش القراءات السبع (2)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002206-2.pdf",
+      "site_sha256": "65c7b6ed3957a2b86f4eb3771f4cee07eca6d10a2905779eb44730adfa88c12a",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/‏‏نموذج توصيف مقرر توجيه القراءات إصدار 2024م.pdf",
+      "source_sha256": "f723c15d35aced3b50929dd2036fe3e12ba69989e3c6265dc45e1f48d14a8929",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002318-2"
+      ],
+      "plan_candidate_code": "2002318-2",
+      "plan_candidate_name": "توجيه القراءات",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2002318-2--dd9ba82454.pdf",
+      "site_sha256": "4627f85d286a978cedc7801b6f41cdafa2b373ae94578d08733c68f0ab0bfdfd",
+      "site_pages": 6,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/____التفسير التحليلي 3 (ق) .pdf",
+      "source_sha256": "f6a6bb66ee647dea279f901dfe0e759d5fc03a7b0c74eef03ed08c811e90de15",
+      "source_pages": 7,
+      "detected_codes": [
+        "20023205-2"
+      ],
+      "plan_candidate_code": "20023205-2",
+      "plan_candidate_name": "التفسير التحليلي (3)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/20023205-2--new-v47.pdf",
+      "site_sha256": "c65bf1c34b1232a52623b2df24e1832575c5c7239cc496ac03f5008341571688",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/توصيف مقرر أصول الفقه في برنامج القراءات.pdf",
+      "source_sha256": "29d25a7f6f7884fcfb06ee10682f45c2e9dfb6d5b99cb596c49b633494ba918f",
+      "source_pages": 7,
+      "detected_codes": [
+        "2001445-2"
+      ],
+      "plan_candidate_code": "2001445-2",
+      "plan_candidate_name": "أصول الفقه",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/raw-recovery-20260827/2001445-2.pdf",
+      "site_sha256": "413ea59cbdf22fef7fc6e52d37bf45dff965028f5da510683b99a546b83324c5",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/توصيف مقرر الحديث(2) في القراءات.pdf",
+      "source_sha256": "8ae12911fb9844bf0dff9a544f9950980e9da8a8c02c797fc7ee5f582962c7ed",
+      "source_pages": 8,
+      "detected_codes": [
+        "2004209-2"
+      ],
+      "plan_candidate_code": "2004209-2",
+      "plan_candidate_name": "الحديث (2)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/institutional-recovery-20260911/2001209-2.pdf",
+      "site_sha256": "e5bc393aed47e6b6815a97b628f35860ae54933c42e13d0ff116ce3022a0b4cd",
+      "site_pages": 8,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/توصيف مقرر العقيدة 3 برنامج القراءات.pdf",
+      "source_sha256": "338d663857ba2cfcc3c74b85077229f92ee9c213b2b3c8ce933829e92bb9180b",
+      "source_pages": 8,
+      "detected_codes": [
+        "2001373-2"
+      ],
+      "plan_candidate_code": "2004373-2",
+      "plan_candidate_name": "العقيدة (3)",
+      "identity_status": "code_or_hours_conflict_needs_review",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2004373-2--e6d9fbc6d8.pdf",
+      "site_sha256": "b03c0919fe84f044bb152f9a17521cc16f7ab9e04cce4baaf47e8493f8934e03",
+      "site_pages": 9,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/توصيف نحو (3) برنامج القراءات  لكلية الشريعة 2024.pdf",
+      "source_sha256": "861612b1548cda554ab1bad9648c5e01a681203fb26d62948ba2158b16944d3e",
+      "source_pages": 7,
+      "detected_codes": [
+        "103245-2"
+      ],
+      "plan_candidate_code": "103245-2",
+      "plan_candidate_name": "النحو (٣)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/103245-2--5bfae92e84.pdf",
+      "site_sha256": "6ce6706e6812814e90bd7dd30e6c9bf327a0dc9420adadbf0ce927236cf949f5",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/نموذج  إصدار 2024م-توصيف رسم المصحف1.pdf",
+      "source_sha256": "a552bd37d1ba14dba6af3d65e76bd1f3a96783acba41c30d27928e236acac3e7",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002305-2"
+      ],
+      "plan_candidate_code": "2002305-2",
+      "plan_candidate_name": "رسم المصحف (1)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002305-2.pdf",
+      "site_sha256": "af533485fbb3ff2e27c549fe3d2d513697f9c658d04ac89d6bf74731547c9662",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/نموذج  إصدار 2024م-توصيف عرض القراءات السبع 3.pdf",
+      "source_sha256": "c1820baaa7c1e329500e5d4bf5fe92b1c52c9e16273f14f83d087fd72bc5408a",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002113-3"
+      ],
+      "plan_candidate_code": "2002113-3",
+      "plan_candidate_name": "عرض القراءات السبع (٣)",
+      "identity_status": "exact_code",
+      "site_pdf_url": null,
+      "comparison_status": "site_pdf_missing"
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/نموذج  إصدار 2024م-توصيف فرش القراءات السبع 3.pdf",
+      "source_sha256": "b33e25e16e363c04e4725fdd147e3a58c2a77e6c6355b96cfb7dfd90b636897e",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002301-2"
+      ],
+      "plan_candidate_code": "2002301-2",
+      "plan_candidate_name": "فرش القراءات السبع (3)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002301-2.pdf",
+      "site_sha256": "b90d3c5860b059c3cce7b0926c6baaba04d66e20d6eaaf6fdcc01893b4a476b3",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/2_2002455_المدخل_إلى_التفسير_الموضوعي.pdf",
+      "source_sha256": "4cd717adc3e7cf972b0432cd2688b24c6206b5053804f6741bfacc2838b3de95",
+      "source_pages": 7,
+      "detected_codes": [
+        "2002200-2"
+      ],
+      "plan_candidate_code": "2002200-2",
+      "plan_candidate_name": "المدخل إلى التفسير الموضوعي",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/2002200-2--new-v47.pdf",
+      "site_sha256": "a6d3164affe8900e62dc4cc17fcd1c106f5c4a542518a86cc47fba7078a9d30d",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/2-2002429 الانتصار للقرآن.pdf",
+      "source_sha256": "7faf1b0cbcc83617202b63f22a630c6ae2ce384f1391ad3cfcf880e4aa2163ff",
+      "source_pages": 8,
+      "detected_codes": [
+        "2002429-2"
+      ],
+      "plan_candidate_code": "2002429-2",
+      "plan_candidate_name": "الانتصار للقرآن",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/2002429-2--new-v47.pdf",
+      "site_sha256": "52ace6c6a84f1dba5f474acc521b33db3ee3c960e31af811d5464330893ba303",
+      "site_pages": 8,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/توصيف البلاغة برنامج القراءات ).pdf",
+      "source_sha256": "43e1e1303f433136f911ec9aec0bfff5b7d2583fbc8e9462e892e8023557f126",
+      "source_pages": 7,
+      "detected_codes": [
+        "103141-2"
+      ],
+      "plan_candidate_code": "103141-2",
+      "plan_candidate_name": "البلاغة",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/103141-2--1c6f7cf5ab.pdf",
+      "site_sha256": "29b5bf1b3e26622fb99f59171afe089965f36c10792e594945b399954221529a",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/توصيف مادة مناهج بحث .pdf",
+      "source_sha256": "a07508d0df6b8d6cf66eeeef1f71f1fa5d40fa44fbf15947df48ac41c32d7b27",
+      "source_pages": 8,
+      "detected_codes": [
+        "2002419-2"
+      ],
+      "plan_candidate_code": "2002419-2",
+      "plan_candidate_name": "مناهج البحث",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2002419-2--1b8ce7dd97.pdf",
+      "site_sha256": "b94fed8fbd2e307e6c5885a1ddef3275909eb88aa5c3c6c2b396a5d5cd93bf90",
+      "site_pages": 6,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/‏‏توصيف مقرر الحديث(3) في القراءات.pdf",
+      "source_sha256": "952688e00cf7fe815a78631b8064da05d1c342a145d498c12875034378ef9164",
+      "source_pages": 8,
+      "detected_codes": [
+        "2004320-2"
+      ],
+      "plan_candidate_code": "2004320-2",
+      "plan_candidate_name": "الحديث (3)",
+      "identity_status": "exact_code",
+      "site_pdf_url": null,
+      "comparison_status": "site_pdf_missing"
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/توصيف مقرر العقيدة 4 برنامج القراءات.pdf",
+      "source_sha256": "5a551abc1195c7f9d0613962f0b8c087709f473e7399b6d9b0faab427ab314b3",
+      "source_pages": 8,
+      "detected_codes": [
+        "2001474-2"
+      ],
+      "plan_candidate_code": "2004474-2",
+      "plan_candidate_name": "العقيدة (4)",
+      "identity_status": "code_or_hours_conflict_needs_review",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2004474-2--34842f86c3.pdf",
+      "site_sha256": "99930ac4abbba652e1ae980e3e54907e598595bd8c6f1d003bce257e88bb4b0e",
+      "site_pages": 8,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/توصيف نحو (4) برنامج القراءات لكلية الشريعة 2024.pdf",
+      "source_sha256": "de26f099f8393c6dc474ef8e44150bb7a0018bf0f29fd16b058589667ded7209",
+      "source_pages": 8,
+      "detected_codes": [
+        "103349-2"
+      ],
+      "plan_candidate_code": "103349-2",
+      "plan_candidate_name": "النحو (٤)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/103349-2--c415381484.pdf",
+      "site_sha256": "c8a03c4973bfa07c8d4ffa0f385918a2d3fc7efc4e7eb5dd7ab0c965c09b230b",
+      "site_pages": 8,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/نموذج  إصدار 2024م-توصيف رسم المصحف2.pdf",
+      "source_sha256": "03cf9525759d652c088d71c6e95cd58761d46e40587dd4d7ab7557eb082efc99",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002309-2"
+      ],
+      "plan_candidate_code": "2002309-2",
+      "plan_candidate_name": "رسم المصحف (2)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002309-2.pdf",
+      "site_sha256": "30f62144b1d305ca2eef8d3b3816d87cde8f226dbaa58a8c42b429a35b64d28f",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/نموذج  إصدار 2024م-توصيف عرض القراءات السبع 4.pdf",
+      "source_sha256": "fe2a12e2ca998a95c1364fca2aab2f9fbe1f66c036c98ff514c06bbc097e54b8",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002114-3"
+      ],
+      "plan_candidate_code": "2002114-3",
+      "plan_candidate_name": "عرض القراءات السبع (٤)",
+      "identity_status": "exact_code",
+      "site_pdf_url": null,
+      "comparison_status": "site_pdf_missing"
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/نموذج  إصدار 2024م-توصيف فرش القراءات السبع 4.pdf",
+      "source_sha256": "69bb40a815c83f3c93666c9e731824fcb3d3585ea3119de0f980e1062f148726",
+      "source_pages": 7,
+      "detected_codes": [
+        "2002307-2"
+      ],
+      "plan_candidate_code": "2002307-2",
+      "plan_candidate_name": "فرش القراءات السبع (4)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002307-2.pdf",
+      "site_sha256": "4ceae91ca6091ddcb534b5abd606244a474d06aad8b9019c0a0efb5a6f35157b",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/2-2002456 إعجاز القرآن الكريم.pdf",
+      "source_sha256": "75fb849c89b5ab6b92457b0c5e5a2e12e7c18b0377c19d218628a4e7cc6e1a49",
+      "source_pages": 8,
+      "detected_codes": [
+        "2002456-2"
+      ],
+      "plan_candidate_code": "2002456-2",
+      "plan_candidate_name": "إعجاز القرآن الكريم",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/2002456-2--new-v47.pdf",
+      "site_sha256": "e3b833b5e654a8262e15c521f7b1bd9da5caf6b57e7e3765d01b84358674cb36",
+      "site_pages": 8,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/الفرق والأديان والمذاهب الفكرية المعاصرة ببرنامج القراءات.pdf",
+      "source_sha256": "7008a97e24e044a428f3ad2c6e0b62a52f096ea9875d829ec663dc4c9c55f589",
+      "source_pages": 8,
+      "detected_codes": [
+        "2001403-2"
+      ],
+      "plan_candidate_code": "2004403-2",
+      "plan_candidate_name": "الأديان والفرق والمذاهب المعاصرة",
+      "identity_status": "code_or_hours_conflict_needs_review",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2001403-2--8974cd99a2.pdf",
+      "site_sha256": "b92485cff86c860b2e17237791f0a6c25476410a3988c88b31e7499ef831138a",
+      "site_pages": 10,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/توصيف مادة مشروع التخرج.pdf",
+      "source_sha256": "da39ef51e9c625d3ac97101225728d31a0e016f13de873dcebdc518b60bc0c16",
+      "source_pages": 7,
+      "detected_codes": [
+        "20023110-2"
+      ],
+      "plan_candidate_code": "20023110-2",
+      "plan_candidate_name": "مشروع التخرج",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/raw-recovery-20260827/20023110-2.pdf",
+      "site_sha256": "8e9f19fcafb9f644691be80c0dc45c3c8c0376248633ff7ee60a6da188736812",
+      "site_pages": 8,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/توصيف مقرر التخريج قسم القراءات.pdf",
+      "source_sha256": "8f07c09cd39fb4a057972ec951c88a74fbc26aad05baf277be7e12d8072c048c",
+      "source_pages": 11,
+      "detected_codes": [
+        "2004493-2"
+      ],
+      "plan_candidate_code": "2004493-2",
+      "plan_candidate_name": "تخريج ودراسة الأسانيد",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf",
+      "site_sha256": "44fc00bf108832614c266afaf4642022d9bc0dd6bab55413bba6b646fe4bba34",
+      "site_pages": 12,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/‏‏نموذج  إصدار 2024م  -توصيف القراءات الثلاث 1.pdf",
+      "source_sha256": "c66e6602a1f3707c56baa2d57d01d158674cb1e39111e048fa1da1e0e259335c",
+      "source_pages": 7,
+      "detected_codes": [
+        "2002401-2"
+      ],
+      "plan_candidate_code": "2002401-2",
+      "plan_candidate_name": "القراءات الثلاث (1)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002401-2.pdf",
+      "site_sha256": "34486b29cf1546f6a1ae4c047d7bfd53eebd097c0d8459b6e747f87e66706e28",
+      "site_pages": 8,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/‏‏نموذج  إصدار 2024م -توصيف عرض القراءات الثلاث1.pdf",
+      "source_sha256": "f6b5e5b3a332126938a8d481b8f5a8f853c5d66b7ec7e2a24eff10684deaa0db",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002460-2"
+      ],
+      "plan_candidate_code": "2002460-2",
+      "plan_candidate_name": "عرض القراءات الثلاث (١)",
+      "identity_status": "exact_code",
+      "site_pdf_url": null,
+      "comparison_status": "site_pdf_missing"
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/نموذج  إصدار 2024م- توصيف علم الضبط.pdf",
+      "source_sha256": "cfcf6706bdd445d7ba72a4c7e71a08e8aaac31084aae284504dff0fad04f6056",
+      "source_pages": 7,
+      "detected_codes": [
+        "2002425-2"
+      ],
+      "plan_candidate_code": "2002425-2",
+      "plan_candidate_name": "علم الضبط",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002425-2.pdf",
+      "site_sha256": "b09abcb1a568925549433c1e7038b39f083a5a707b55770bb3da625bcd2a8da6",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/نموذج  إصدار 2024م- توصيف علم عد الآي.pdf",
+      "source_sha256": "06b47219ac77251bc0083838b5bf38e750e1bd06c532f6d64c0aff2e2ed58db9",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002409-2"
+      ],
+      "plan_candidate_code": "2002409-2",
+      "plan_candidate_name": "علم عد الآي",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002409-2.pdf",
+      "site_sha256": "06cecc4a2b22c20af8a3db02388a91fb95a75f95134665df6399cacf2df4e32d",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/نموذج توصيف مقرر التقنيات الحديثة إصدار 2024م.pdf",
+      "source_sha256": "959f2ad68a863ec28be2738c3533b568fd7caffb30ca6590f4e46ea59a86bcee",
+      "source_pages": 7,
+      "detected_codes": [
+        "2002416-2"
+      ],
+      "plan_candidate_code": "2002416-2",
+      "plan_candidate_name": "التقنيات الحديثة في الدراسات القرآنية",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2002416-2--e9243b6609.pdf",
+      "site_sha256": "f883b9369e5156ee0d24b4e905a3c62758c355bb022766cd84ffc7fc6a8f947a",
+      "site_pages": 5,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 8/مقرر التدريب التعاوني.pdf",
+      "source_sha256": "ee1333e2bfe1aaf70a899e9f5e416eebd791079d06fdd25f4bc952968617950a",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002266-2"
+      ],
+      "plan_candidate_code": "2002266-6",
+      "plan_candidate_name": "التدريب التعاوني",
+      "identity_status": "code_or_hours_conflict_needs_review",
+      "site_pdf_url": null,
+      "comparison_status": "site_pdf_missing"
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 8/‏‏نموذج  إصدار 2024م  -توصيف القراءات الثلاث 2.pdf",
+      "source_sha256": "4dc18c88a4e212eb869774d297938ef7932f214d03a87ad425f62a725be3c77d",
+      "source_pages": 7,
+      "detected_codes": [
+        "2002407-2"
+      ],
+      "plan_candidate_code": "2002407-2",
+      "plan_candidate_name": "القراءات الثلاث (2)",
+      "identity_status": "exact_code",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002407-2.pdf",
+      "site_sha256": "5ac57aafc06e1dd1bca5a6ff3ad83c64f417175317270d70adbb80bbcd1a643b",
+      "site_pages": 7,
+      "comparison_status": "different_bytes",
+      "site_live_sha256_verified": true
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 8/‏‏نموذج إصدار 2024م-توصيف عرض القراءات الثلاث2.pdf",
+      "source_sha256": "99beebdb0a11eeebcc7671830b9199346dcb0d8f98f43e2d54a86c3c5c89e1a9",
+      "source_pages": 6,
+      "detected_codes": [
+        "2002461-2"
+      ],
+      "plan_candidate_code": "2002461-2",
+      "plan_candidate_name": "عرض القراءات الثلاث (٢)",
+      "identity_status": "exact_code",
+      "site_pdf_url": null,
+      "comparison_status": "site_pdf_missing"
+    },
+    {
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/مقررات اختيارية تخصصية/نموذج توصيف مقرر الوقف والابتداء إصدار 2024م .pdf",
+      "source_sha256": "e9e43b395ce07f1e296cff6708f3bf997836ea68ab33ddf21ba76f9132042ef1",
+      "source_pages": 7,
+      "detected_codes": [
+        "2002238-2"
+      ],
+      "plan_candidate_code": "2002238-2",
+      "plan_candidate_name": "الوقف والابتداء",
+      "identity_status": "exact_code",
+      "site_pdf_url": null,
+      "comparison_status": "site_pdf_missing"
+    }
+  ]
+}
