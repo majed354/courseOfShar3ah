@@ -1,0 +1,1257 @@
+{
+  "date": "2026-11-07",
+  "scope": "53 exact-code sources excluding the six previously identified code conflicts and the failed sixtieth download",
+  "purpose": "initial suitability triage, not final academic approval",
+  "counts": {
+    "compare_same_edition_before_replacing": 15,
+    "keep_site_newer": 3,
+    "update_candidate": 19,
+    "hold_metadata_or_recency": 4,
+    "addition_candidate": 9,
+    "correct_source_first": 3
+  },
+  "method": [
+    "Read all 53 covers and credit-hour fields in PDF text; all matched site plan hours.",
+    "Ran existing extract_variant_worker read-only on all 53 source PDFs, with results isolated in output; no outcomes source was overwritten.",
+    "Visually verified recency/date exceptions and printed assessment errors; viewed the substantive unnumbered CLO row in 2002238-2 page 4.",
+    "Parser warnings were treated as extraction limitations, not automatically as source defects.",
+    "The three partial extraction flags for oral seven-reading courses do not prove missing CLOs; reviewed pages show three substantive CLO rows."
+  ],
+  "limitations": [
+    "Not a complete independent academic review of every topic, reference, assessment alignment, or PLO mapping.",
+    "No imports or PDF corrections authorized or performed.",
+    "Positive classifications are candidates requiring source-aware extraction and scoped mapping review before import."
+  ],
+  "visual_evidence": [
+    {
+      "code": "2002419-2",
+      "page": 7,
+      "finding": "printed assessment total 110%"
+    },
+    {
+      "code": "20023110-2",
+      "page": 6,
+      "finding": "printed assessment total 110%"
+    },
+    {
+      "code": "2002238-2",
+      "page": 4,
+      "finding": "substantive skills CLO with ellipsis code"
+    }
+  ],
+  "rows": [
+    {
+      "code": "2002252-2",
+      "name": "علوم القرآن العامة",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 1/2-2002131 علوم القرآن العامة.pdf",
+      "source_sha256": "c0e0a35c1082f761a5c5429260293b33ee66cc81615228216c58713779cf2459",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/2002252-2--new-v47.pdf",
+      "category": "compare_same_edition_before_replacing",
+      "note_ar": "تاريخ/إصدار الغلاف نفسه أو لا توجد أفضلية زمنية واضحة؛ يلزم مقارنة الفروق الفعلية والتصحيحات المنشورة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 6,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": []
+      }
+    },
+    {
+      "code": "2001112-2",
+      "name": "المدخل لدراسة الفقه",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 1/توصيف مقرر البكالوريوس المدخل لدراسة الفقه.pdf",
+      "source_sha256": "a255a25a0dd120d8fce84e8569df3ba8c5cfb006dc9e379002aaf37405ff4ce0",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2001112-2--4d2365da36.pdf",
+      "category": "compare_same_edition_before_replacing",
+      "note_ar": "تاريخ/إصدار الغلاف نفسه أو لا توجد أفضلية زمنية واضحة؛ يلزم مقارنة الفروق الفعلية والتصحيحات المنشورة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 7,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "clo_text_unreadable",
+          "course_name_unresolved",
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2004258-2",
+      "name": "دراسات في السيرة النبوية",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 1/توصيف مقرر دراسات في السيرة النبوية.pdf",
+      "source_sha256": "f686bb3dc6bb3a7db81a46da33d539ddfd6d2ae499970b9a530d04be4d11f083",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2004258-2--c05def4cf6.pdf",
+      "category": "keep_site_newer",
+      "note_ar": "المصدر نسخة 1 بتاريخ 23/7/1446؛ الموقع نسخة 3 بتاريخ 1/9/1446. إبقاء الموقع أولى من الرجوع إلى المصدر الأقدم.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 8,
+        "assessment_total": 100,
+        "assessment_complete_machine": false,
+        "warning_codes": [
+          "assessment_label_unreadable",
+          "assessment_label_unresolved",
+          "clo_text_unreadable",
+          "direct_assessment_unresolved",
+          "plo_mapping_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002103-2",
+      "name": "التجويد (1)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 1/‏‏نموذج  إصدار 2024م (قراءات التجويد 1.pdf",
+      "source_sha256": "c077272b2a92eb4cd8cec4a9fca39e10401358d363fac6fdee4b94c86ab80b5c",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2002103-2--a0656c3488.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 3,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": []
+      }
+    },
+    {
+      "code": "2002102-4",
+      "name": "أصول القراءات السبع (1)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 1/نموذج  إصدار 2024م- توصيف أصول القراءات السبع 1.pdf",
+      "source_sha256": "b8f641700e2abd1bd8665504bc16af17ef24028cc4cbe00c45ea9b7985d3b1e2",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002102-4.pdf",
+      "category": "hold_metadata_or_recency",
+      "note_ar": "قالب 2024 ونسخة ثالثة مقابل قالب 2023 بالموقع، لكن يوم تاريخ المراجعة غير مستكمل؛ استكمال التوثيق قبل اعتماد الاستبدال.",
+      "plan_hours": 4,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 5,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "direct_assessment_unresolved",
+          "plo_mapping_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002104-2",
+      "name": "آداب حملة القرآن",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 2/توصيف آداب حملة القرآن 2024.pdf",
+      "source_sha256": "df48840edcff6a9e9468df9fd8e672a997938129c19a159b6df06695cff33c82",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002104-2.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 3,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "course_name_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "103171-2",
+      "name": "التحرير العربي",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 2/توصيف التحرير العربي برنامج القراءات  لكلية الشريعة 2024.pdf",
+      "source_sha256": "19fca17c5e1ed49ed857d57dd01050e03d1feb9b90d1e6d74e6429392a344242",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/103171-2--e6212e6733.pdf",
+      "category": "compare_same_edition_before_replacing",
+      "note_ar": "تاريخ/إصدار الغلاف نفسه أو لا توجد أفضلية زمنية واضحة؛ يلزم مقارنة الفروق الفعلية والتصحيحات المنشورة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 10,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": []
+      }
+    },
+    {
+      "code": "103411-2",
+      "name": "الصرف",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 2/توصيف مقرر الصرف برنامج القراءات لكلية الشريعة إصدار 2024م (1).pdf",
+      "source_sha256": "01c23803272bf7239923d427a9243cd34bd7a6a3077ead97823117257392bc68",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/103411-2--543d71045c.pdf",
+      "category": "compare_same_edition_before_replacing",
+      "note_ar": "تاريخ/إصدار الغلاف نفسه أو لا توجد أفضلية زمنية واضحة؛ يلزم مقارنة الفروق الفعلية والتصحيحات المنشورة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 12,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002210-2",
+      "name": "دراسات في علوم القرآن",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 2/دراسات في علوم القرآن .pdf",
+      "source_sha256": "0cc8b27c62d8897e725b7e6e69f6d77caaf0f54296f7b87e5c4b9666f274a575",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/2002210-2--new-v47.pdf",
+      "category": "compare_same_edition_before_replacing",
+      "note_ar": "تاريخ/إصدار الغلاف نفسه أو لا توجد أفضلية زمنية واضحة؛ يلزم مقارنة الفروق الفعلية والتصحيحات المنشورة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 6,
+        "assessment_total": 100,
+        "assessment_complete_machine": false,
+        "warning_codes": [
+          "assessment_label_unreadable",
+          "assessment_label_unresolved",
+          "clo_text_unreadable",
+          "direct_assessment_unresolved",
+          "plo_mapping_recovered_from_row_geometry"
+        ]
+      }
+    },
+    {
+      "code": "2002105-4",
+      "name": "أصول القراءات السبع (2)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 2/نموذج  إصدار 2024م- توصيف أصول القراءات السبع 2.pdf",
+      "source_sha256": "b049f1e03fc6d115e356369aac2c485b01b9618cb2c70a4ad8c927c43bb126d6",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002105-4.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 4,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 5,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "direct_assessment_unresolved",
+          "plo_mapping_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002106-2",
+      "name": "التجويد (2)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 2/‏‏‏‏نموذج إصدار 2024م قراءات- التجويد 2 -.pdf",
+      "source_sha256": "9888f79cc9c53eaaf982b9ae67647c0c0e849a11e1700adcd793bb8361fd6877",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2002106-2--edb228fda6.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 3,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": []
+      }
+    },
+    {
+      "code": "2002110-2",
+      "name": "مدخل إلى علوم القراءات",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 2/نموذج توصيف مقرر مدخل إلى علوم القراءات  إصدار 2024م .pdf",
+      "source_sha256": "38ac15d04da2080ed335edcaf1a6827b312f56f5fce11a6d0b4bce7b853665ab",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2002110-2--c42081827a.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 3,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": []
+      }
+    },
+    {
+      "code": "20021203-2",
+      "name": "التفسير التحليلي (1)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 3/التفسير التحليلي 1.pdf",
+      "source_sha256": "85e91df72aaaed2489e339b30ef16daa44d319df1be42f0d74a1be015863083c",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/20021203-2--new-v47.pdf",
+      "category": "compare_same_edition_before_replacing",
+      "note_ar": "تاريخ/إصدار الغلاف نفسه أو لا توجد أفضلية زمنية واضحة؛ يلزم مقارنة الفروق الفعلية والتصحيحات المنشورة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 6,
+        "assessment_total": 100,
+        "assessment_complete_machine": false,
+        "warning_codes": [
+          "assessment_label_unreadable",
+          "assessment_label_unresolved",
+          "clo_text_unreadable",
+          "direct_assessment_unresolved",
+          "plo_mapping_recovered_from_row_geometry"
+        ]
+      }
+    },
+    {
+      "code": "2004102-2",
+      "name": "مصطلح الحديث",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 3/توصيف مقرر مصطلح الحديث قسم القراءات.pdf",
+      "source_sha256": "8f97c89a13d766832a57a424fdb59a4958a4a4ea9872cbd5eeafe287c0419ee6",
+      "site_pdf_url": null,
+      "category": "addition_candidate",
+      "note_ar": "مرشح أولي للإضافة؛ ليس اعتمادًا أكاديميًا نهائيًا.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 9,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "clo_text_unreadable",
+          "direct_assessment_unresolved",
+          "plo_mapping_recovered_from_row_geometry"
+        ]
+      }
+    },
+    {
+      "code": "103281-2",
+      "name": "النحو (١)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 3/توصيف نحو (1) برنامج القراءات لكلية الشريعة 2024.pdf",
+      "source_sha256": "93a0e8bbdc354c98a1c5be63164eeddbd11d723931b9083e660a014ea9f6a879",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/103281-2--7f1c8633ae.pdf",
+      "category": "compare_same_edition_before_replacing",
+      "note_ar": "تاريخ/إصدار الغلاف نفسه أو لا توجد أفضلية زمنية واضحة؛ يلزم مقارنة الفروق الفعلية والتصحيحات المنشورة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 12,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "clo_text_unreadable",
+          "course_name_unresolved",
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002111-3",
+      "name": "عرض القراءات السبع (١)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 3/نموذج  إصدار 2024م-توصيف عرض القراءات السبع 1.pdf",
+      "source_sha256": "63d3d0da8dc8de23f3c75a4aa28fc7c48fa96a845ab7d4fb28ded2964913d8ad",
+      "site_pdf_url": null,
+      "category": "addition_candidate",
+      "note_ar": "مرشح أولي للإضافة؛ ليس اعتمادًا أكاديميًا نهائيًا.",
+      "plan_hours": 3,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 3,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": []
+      }
+    },
+    {
+      "code": "2002201-2",
+      "name": "فرش القراءات السبع (1)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 3/نموذج  إصدار 2024م-توصيف فرش القراءات السبع 1.pdf",
+      "source_sha256": "9abcfb02197046cabf6456b1ad29ce575549596a7f118d8a6704661704802490",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002201-2.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 4,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002280-2",
+      "name": "تدريبات على الجمع والكيفيات",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 3/نموذج توصيف المقرر الدراسي إصدار 2024م لمادة تدريبات على الجمع وكيفياته.pdf",
+      "source_sha256": "50744a9245671a84ed07eea3772ae9b8eca9a859865afb5060afee32ae5c1135",
+      "site_pdf_url": null,
+      "category": "addition_candidate",
+      "note_ar": "مرشح أولي للإضافة؛ ليس اعتمادًا أكاديميًا نهائيًا.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 8,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002352-2",
+      "name": "التفسير التحليلي (2)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/__التفسير التحليلي 2 (ق) .pdf",
+      "source_sha256": "002b5d1dd97d8ebf0e7fef93b180a45c072fe19f808c43d8611cf1483d21a473",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/2002352-2--new-v47.pdf",
+      "category": "compare_same_edition_before_replacing",
+      "note_ar": "تاريخ/إصدار الغلاف نفسه أو لا توجد أفضلية زمنية واضحة؛ يلزم مقارنة الفروق الفعلية والتصحيحات المنشورة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 6,
+        "assessment_total": 100,
+        "assessment_complete_machine": false,
+        "warning_codes": [
+          "assessment_label_unreadable",
+          "assessment_label_unresolved",
+          "clo_text_unreadable",
+          "direct_assessment_unresolved",
+          "plo_mapping_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002250-2",
+      "name": "أصول التفسير ومناهجه",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/توصيف أصول التفسير ومناهجه.pdf",
+      "source_sha256": "9ec8c8d13f69d055e9ecc0e39cdbe8d8151566449bf0e2c51cbc8b7d95c04dab",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/2002250-2--new-v47.pdf",
+      "category": "hold_metadata_or_recency",
+      "note_ar": "الغلاف يطبع نسخة 153 وتاريخ المراجعة اكتب هنا، بينما الموقع نسخة 2 بتاريخ 02/09/1446؛ لا أوصي باستبدال الموقع به.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 6,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "course_name_unresolved",
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2004245-2",
+      "name": "العقيدة (2)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/توصيف العقيدة2 برنامج القراءات.pdf",
+      "source_sha256": "1c115fad2c2aa5603e00c910cc4dea9134adcefcd5d0a889fa76ea5b9381d80c",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2004245-2--094f106c1e.pdf",
+      "category": "hold_metadata_or_recency",
+      "note_ar": "تاريخ المراجعة فارغ؛ مصدر مخصص للقراءات لكنه غير مؤرخ، فلا تثبت أفضليته الزمنية بمجرد اسم المجلد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 6,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "course_name_unresolved",
+          "plo_column_inferred_from_exact_codes",
+          "plo_mapping_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2004205-2",
+      "name": "الحديث (1)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/توصيف مقرر الحديث (1) في القراءات.pdf",
+      "source_sha256": "8544f7f9bb91442c0b01c4345ad3c651797046731b110a05a51ac7d4cda9be48",
+      "site_pdf_url": "assets/course-specifications/institutional-recovery-20260911/2001205-2.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 6,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "clo_text_unreadable",
+          "direct_assessment_unresolved",
+          "plo_mapping_recovered_from_row_geometry"
+        ]
+      }
+    },
+    {
+      "code": "103282-2",
+      "name": "النحو (٢)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/توصيف نحو (2)  برنامج القراءات لكلية الشريعة 2024.pdf",
+      "source_sha256": "07900d52f7f01185867175bd1e781e0dd241962dff6c6abe83252515f524f38b",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/103282-2--2866481d7d.pdf",
+      "category": "compare_same_edition_before_replacing",
+      "note_ar": "تاريخ/إصدار الغلاف نفسه أو لا توجد أفضلية زمنية واضحة؛ يلزم مقارنة الفروق الفعلية والتصحيحات المنشورة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 12,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "clo_text_unreadable",
+          "course_name_unresolved",
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002112-3",
+      "name": "عرض القراءات السبع (٢)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/نموذج  إصدار 2024م-توصيف عرض القراءات السبع 2.pdf",
+      "source_sha256": "f2ea8dcca6a4475999f1e81c5b92c2397f3eb2c91a9b34a894f7cb85247fad50",
+      "site_pdf_url": null,
+      "category": "addition_candidate",
+      "note_ar": "مرشح أولي للإضافة؛ ليس اعتمادًا أكاديميًا نهائيًا.",
+      "plan_hours": 3,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "partial",
+        "source_status": "present",
+        "clo_count": 3,
+        "assessment_total": 100,
+        "assessment_complete_machine": false,
+        "warning_codes": [
+          "assessment_label_unresolved",
+          "clo_row_count_mismatch"
+        ]
+      }
+    },
+    {
+      "code": "2002206-2",
+      "name": "فرش القراءات السبع (2)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/نموذج  إصدار 2024م-توصيف فرش القراءات السبع 2.pdf",
+      "source_sha256": "6673cf6b51b159ebf1fb4d76e194deeb01300282220bc306c256c9176297a19b",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002206-2.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 4,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002318-2",
+      "name": "توجيه القراءات",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 4/‏‏نموذج توصيف مقرر توجيه القراءات إصدار 2024م.pdf",
+      "source_sha256": "f723c15d35aced3b50929dd2036fe3e12ba69989e3c6265dc45e1f48d14a8929",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2002318-2--dd9ba82454.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 3,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": []
+      }
+    },
+    {
+      "code": "20023205-2",
+      "name": "التفسير التحليلي (3)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/____التفسير التحليلي 3 (ق) .pdf",
+      "source_sha256": "f6a6bb66ee647dea279f901dfe0e759d5fc03a7b0c74eef03ed08c811e90de15",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/20023205-2--new-v47.pdf",
+      "category": "compare_same_edition_before_replacing",
+      "note_ar": "تاريخ/إصدار الغلاف نفسه أو لا توجد أفضلية زمنية واضحة؛ يلزم مقارنة الفروق الفعلية والتصحيحات المنشورة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 6,
+        "assessment_total": 100,
+        "assessment_complete_machine": false,
+        "warning_codes": [
+          "assessment_label_unreadable",
+          "assessment_label_unresolved",
+          "clo_text_unreadable",
+          "direct_assessment_unresolved",
+          "plo_mapping_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2001445-2",
+      "name": "أصول الفقه",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/توصيف مقرر أصول الفقه في برنامج القراءات.pdf",
+      "source_sha256": "29d25a7f6f7884fcfb06ee10682f45c2e9dfb6d5b99cb596c49b633494ba918f",
+      "site_pdf_url": "assets/course-specifications/raw-recovery-20260827/2001445-2.pdf",
+      "category": "hold_metadata_or_recency",
+      "note_ar": "تاريخ المراجعة فارغ في نسختي الرابط والموقع؛ لا توجد أفضلية زمنية مثبتة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 5,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "clo_text_unreadable",
+          "direct_assessment_unresolved",
+          "plo_mapping_unresolved",
+          "plo_multi_code_cell_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2004209-2",
+      "name": "الحديث (2)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/توصيف مقرر الحديث(2) في القراءات.pdf",
+      "source_sha256": "8ae12911fb9844bf0dff9a544f9950980e9da8a8c02c797fc7ee5f582962c7ed",
+      "site_pdf_url": "assets/course-specifications/institutional-recovery-20260911/2001209-2.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 6,
+        "assessment_total": 100,
+        "assessment_complete_machine": false,
+        "warning_codes": [
+          "assessment_label_unreadable",
+          "assessment_label_unresolved",
+          "direct_assessment_unresolved",
+          "plo_mapping_recovered_from_row_geometry"
+        ]
+      }
+    },
+    {
+      "code": "103245-2",
+      "name": "النحو (٣)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/توصيف نحو (3) برنامج القراءات  لكلية الشريعة 2024.pdf",
+      "source_sha256": "861612b1548cda554ab1bad9648c5e01a681203fb26d62948ba2158b16944d3e",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/103245-2--5bfae92e84.pdf",
+      "category": "compare_same_edition_before_replacing",
+      "note_ar": "تاريخ/إصدار الغلاف نفسه أو لا توجد أفضلية زمنية واضحة؛ يلزم مقارنة الفروق الفعلية والتصحيحات المنشورة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 11,
+        "assessment_total": 100,
+        "assessment_complete_machine": false,
+        "warning_codes": [
+          "assessment_label_unreadable",
+          "assessment_label_unresolved",
+          "clo_text_unreadable",
+          "course_name_unresolved",
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002305-2",
+      "name": "رسم المصحف (1)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/نموذج  إصدار 2024م-توصيف رسم المصحف1.pdf",
+      "source_sha256": "a552bd37d1ba14dba6af3d65e76bd1f3a96783acba41c30d27928e236acac3e7",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002305-2.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 4,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002113-3",
+      "name": "عرض القراءات السبع (٣)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/نموذج  إصدار 2024م-توصيف عرض القراءات السبع 3.pdf",
+      "source_sha256": "c1820baaa7c1e329500e5d4bf5fe92b1c52c9e16273f14f83d087fd72bc5408a",
+      "site_pdf_url": null,
+      "category": "addition_candidate",
+      "note_ar": "مرشح أولي للإضافة؛ ليس اعتمادًا أكاديميًا نهائيًا.",
+      "plan_hours": 3,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "partial",
+        "source_status": "present",
+        "clo_count": 3,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "clo_row_count_mismatch"
+        ]
+      }
+    },
+    {
+      "code": "2002301-2",
+      "name": "فرش القراءات السبع (3)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 5/نموذج  إصدار 2024م-توصيف فرش القراءات السبع 3.pdf",
+      "source_sha256": "b33e25e16e363c04e4725fdd147e3a58c2a77e6c6355b96cfb7dfd90b636897e",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002301-2.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 4,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002200-2",
+      "name": "المدخل إلى التفسير الموضوعي",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/2_2002455_المدخل_إلى_التفسير_الموضوعي.pdf",
+      "source_sha256": "4cd717adc3e7cf972b0432cd2688b24c6206b5053804f6741bfacc2838b3de95",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/2002200-2--new-v47.pdf",
+      "category": "keep_site_newer",
+      "note_ar": "المصدر 29/10/1445؛ الموقع 02/09/1446. إبقاء المصدر الأحدث في الموقع.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 6,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": []
+      }
+    },
+    {
+      "code": "2002429-2",
+      "name": "الانتصار للقرآن",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/2-2002429 الانتصار للقرآن.pdf",
+      "source_sha256": "7faf1b0cbcc83617202b63f22a630c6ae2ce384f1391ad3cfcf880e4aa2163ff",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/2002429-2--new-v47.pdf",
+      "category": "compare_same_edition_before_replacing",
+      "note_ar": "تاريخ/إصدار الغلاف نفسه أو لا توجد أفضلية زمنية واضحة؛ يلزم مقارنة الفروق الفعلية والتصحيحات المنشورة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 6,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "direct_assessment_unresolved",
+          "plo_mapping_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "103141-2",
+      "name": "البلاغة",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/توصيف البلاغة برنامج القراءات ).pdf",
+      "source_sha256": "43e1e1303f433136f911ec9aec0bfff5b7d2583fbc8e9462e892e8023557f126",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/103141-2--1c6f7cf5ab.pdf",
+      "category": "compare_same_edition_before_replacing",
+      "note_ar": "تاريخ/إصدار الغلاف نفسه أو لا توجد أفضلية زمنية واضحة؛ يلزم مقارنة الفروق الفعلية والتصحيحات المنشورة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 5,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002419-2",
+      "name": "مناهج البحث",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/توصيف مادة مناهج بحث .pdf",
+      "source_sha256": "a07508d0df6b8d6cf66eeeef1f71f1fa5d40fa44fbf15947df48ac41c32d7b27",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2002419-2--1b8ce7dd97.pdf",
+      "category": "correct_source_first",
+      "note_ar": "ص7: خمسة أوزان مطبوعة 10+10+20+60+10=110%؛ التقويم الأسبوعي مكرر في صفين. يلزم تصحيح المصدر رسميًا قبل اعتماده بوصفه سليمًا.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 6,
+        "assessment_total": 110,
+        "assessment_complete_machine": false,
+        "warning_codes": [
+          "assessment_plan_total_not_100",
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2004320-2",
+      "name": "الحديث (3)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/‏‏توصيف مقرر الحديث(3) في القراءات.pdf",
+      "source_sha256": "952688e00cf7fe815a78631b8064da05d1c342a145d498c12875034378ef9164",
+      "site_pdf_url": null,
+      "category": "addition_candidate",
+      "note_ar": "مرشح أولي للإضافة؛ ليس اعتمادًا أكاديميًا نهائيًا.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 6,
+        "assessment_total": 100,
+        "assessment_complete_machine": false,
+        "warning_codes": [
+          "assessment_label_unreadable",
+          "assessment_label_unresolved",
+          "clo_text_unreadable",
+          "direct_assessment_unresolved",
+          "plo_mapping_recovered_from_row_geometry"
+        ]
+      }
+    },
+    {
+      "code": "103349-2",
+      "name": "النحو (٤)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/توصيف نحو (4) برنامج القراءات لكلية الشريعة 2024.pdf",
+      "source_sha256": "de26f099f8393c6dc474ef8e44150bb7a0018bf0f29fd16b058589667ded7209",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/103349-2--c415381484.pdf",
+      "category": "compare_same_edition_before_replacing",
+      "note_ar": "تاريخ/إصدار الغلاف نفسه أو لا توجد أفضلية زمنية واضحة؛ يلزم مقارنة الفروق الفعلية والتصحيحات المنشورة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 13,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "clo_text_unreadable"
+        ]
+      }
+    },
+    {
+      "code": "2002309-2",
+      "name": "رسم المصحف (2)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/نموذج  إصدار 2024م-توصيف رسم المصحف2.pdf",
+      "source_sha256": "03cf9525759d652c088d71c6e95cd58761d46e40587dd4d7ab7557eb082efc99",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002309-2.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 3,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": []
+      }
+    },
+    {
+      "code": "2002114-3",
+      "name": "عرض القراءات السبع (٤)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/نموذج  إصدار 2024م-توصيف عرض القراءات السبع 4.pdf",
+      "source_sha256": "fe2a12e2ca998a95c1364fca2aab2f9fbe1f66c036c98ff514c06bbc097e54b8",
+      "site_pdf_url": null,
+      "category": "addition_candidate",
+      "note_ar": "مرشح أولي للإضافة؛ ليس اعتمادًا أكاديميًا نهائيًا.",
+      "plan_hours": 3,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "partial",
+        "source_status": "present",
+        "clo_count": 3,
+        "assessment_total": 100,
+        "assessment_complete_machine": false,
+        "warning_codes": [
+          "assessment_label_unresolved",
+          "clo_row_count_mismatch"
+        ]
+      }
+    },
+    {
+      "code": "2002307-2",
+      "name": "فرش القراءات السبع (4)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 6/نموذج  إصدار 2024م-توصيف فرش القراءات السبع 4.pdf",
+      "source_sha256": "69bb40a815c83f3c93666c9e731824fcb3d3585ea3119de0f980e1062f148726",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002307-2.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 4,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002456-2",
+      "name": "إعجاز القرآن الكريم",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/2-2002456 إعجاز القرآن الكريم.pdf",
+      "source_sha256": "75fb849c89b5ab6b92457b0c5e5a2e12e7c18b0377c19d218628a4e7cc6e1a49",
+      "site_pdf_url": "assets/course-specifications/new-plan-updates-20261002/2002456-2--new-v47.pdf",
+      "category": "keep_site_newer",
+      "note_ar": "المصدر 29/10/1445 للقرآن وعلومه؛ الموقع 01/09/1446 متعدد البرامج. لا استبدال تلقائي.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 6,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "clo_text_unreadable",
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "20023110-2",
+      "name": "مشروع التخرج",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/توصيف مادة مشروع التخرج.pdf",
+      "source_sha256": "da39ef51e9c625d3ac97101225728d31a0e016f13de873dcebdc518b60bc0c16",
+      "site_pdf_url": "assets/course-specifications/raw-recovery-20260827/20023110-2.pdf",
+      "category": "correct_source_first",
+      "note_ar": "ص6: خمسة أوزان مطبوعة 10+10+20+60+10=110%؛ التقويم الأسبوعي مكرر. لا يعد اختلاف التنسيق عن الموقع تحسينًا كافيًا للاستبدال.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "partial",
+        "source_status": "present",
+        "clo_count": 7,
+        "assessment_total": 110,
+        "assessment_complete_machine": false,
+        "warning_codes": [
+          "assessment_plan_total_not_100",
+          "clo_row_count_mismatch",
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2004493-2",
+      "name": "تخريج ودراسة الأسانيد",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/توصيف مقرر التخريج قسم القراءات.pdf",
+      "source_sha256": "8f07c09cd39fb4a057972ec951c88a74fbc26aad05baf277be7e12d8072c048c",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2004493-2--5440369ca1.pdf",
+      "category": "compare_same_edition_before_replacing",
+      "note_ar": "تاريخ/إصدار الغلاف نفسه أو لا توجد أفضلية زمنية واضحة؛ يلزم مقارنة الفروق الفعلية والتصحيحات المنشورة.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "unreadable",
+        "clo_count": 10,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "clo_text_unreadable",
+          "course_name_unresolved",
+          "direct_assessment_unresolved",
+          "plo_mapping_recovered_from_row_geometry"
+        ]
+      }
+    },
+    {
+      "code": "2002401-2",
+      "name": "القراءات الثلاث (1)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/‏‏نموذج  إصدار 2024م  -توصيف القراءات الثلاث 1.pdf",
+      "source_sha256": "c66e6602a1f3707c56baa2d57d01d158674cb1e39111e048fa1da1e0e259335c",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002401-2.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 4,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "course_name_unresolved",
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002460-2",
+      "name": "عرض القراءات الثلاث (١)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/‏‏نموذج  إصدار 2024م -توصيف عرض القراءات الثلاث1.pdf",
+      "source_sha256": "f6b5e5b3a332126938a8d481b8f5a8f853c5d66b7ec7e2a24eff10684deaa0db",
+      "site_pdf_url": null,
+      "category": "addition_candidate",
+      "note_ar": "مرشح أولي للإضافة؛ ليس اعتمادًا أكاديميًا نهائيًا.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 3,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": []
+      }
+    },
+    {
+      "code": "2002425-2",
+      "name": "علم الضبط",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/نموذج  إصدار 2024م- توصيف علم الضبط.pdf",
+      "source_sha256": "cfcf6706bdd445d7ba72a4c7e71a08e8aaac31084aae284504dff0fad04f6056",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002425-2.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 3,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": []
+      }
+    },
+    {
+      "code": "2002409-2",
+      "name": "علم عد الآي",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/نموذج  إصدار 2024م- توصيف علم عد الآي.pdf",
+      "source_sha256": "06b47219ac77251bc0083838b5bf38e750e1bd06c532f6d64c0aff2e2ed58db9",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002409-2.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 4,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002416-2",
+      "name": "التقنيات الحديثة في الدراسات القرآنية",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 7/نموذج توصيف مقرر التقنيات الحديثة إصدار 2024م.pdf",
+      "source_sha256": "959f2ad68a863ec28be2738c3533b568fd7caffb30ca6590f4e46ea59a86bcee",
+      "site_pdf_url": "assets/course-specifications/shared-course-blank-plo-20260905/2002416-2--e9243b6609.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 5,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "direct_assessment_unresolved",
+          "plo_mapping_recovered_from_row_geometry"
+        ]
+      }
+    },
+    {
+      "code": "2002407-2",
+      "name": "القراءات الثلاث (2)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 8/‏‏نموذج  إصدار 2024م  -توصيف القراءات الثلاث 2.pdf",
+      "source_sha256": "4dc18c88a4e212eb869774d297938ef7932f214d03a87ad425f62a725be3c77d",
+      "site_pdf_url": "assets/course-specifications/qiraat-source-1445/2002407-2.pdf",
+      "category": "update_candidate",
+      "note_ar": "قالب أو تاريخ أحدث أو تخصيص أوضح للقراءات؛ يلزم مراجعة الاستخراج والربط قبل الاستيراد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 4,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "course_name_unresolved",
+          "direct_assessment_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002461-2",
+      "name": "عرض القراءات الثلاث (٢)",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/Level 8/‏‏نموذج إصدار 2024م-توصيف عرض القراءات الثلاث2.pdf",
+      "source_sha256": "99beebdb0a11eeebcc7671830b9199346dcb0d8f98f43e2d54a86c3c5c89e1a9",
+      "site_pdf_url": null,
+      "category": "addition_candidate",
+      "note_ar": "مرشح أولي للإضافة؛ ليس اعتمادًا أكاديميًا نهائيًا.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "complete",
+        "source_status": "present",
+        "clo_count": 3,
+        "assessment_total": 100,
+        "assessment_complete_machine": false,
+        "warning_codes": [
+          "assessment_label_unreadable",
+          "assessment_label_unresolved",
+          "course_name_unresolved"
+        ]
+      }
+    },
+    {
+      "code": "2002238-2",
+      "name": "الوقف والابتداء",
+      "source_member": "توصيفات مقررات الخطة المحدثة 2024/مقررات اختيارية تخصصية/نموذج توصيف مقرر الوقف والابتداء إصدار 2024م .pdf",
+      "source_sha256": "e9e43b395ce07f1e296cff6708f3bf997836ea68ab33ddf21ba76f9132042ef1",
+      "site_pdf_url": null,
+      "category": "correct_source_first",
+      "note_ar": "ص4: صف مهارات ذو نص جوهري يحمل الرمز … بدل رقم CLO. يلزم ترقيم معتمد والتحقق من اكتمال الجدول قبل الاعتماد.",
+      "plan_hours": 2,
+      "credit_hours_text_check": "matched",
+      "credit_hours_page": 3,
+      "extraction_check": {
+        "status": "partial",
+        "source_status": "unreadable",
+        "clo_count": 8,
+        "assessment_total": 100,
+        "assessment_complete_machine": true,
+        "warning_codes": [
+          "clo_code_missing_in_source",
+          "clo_row_count_unverified",
+          "clo_text_unreadable",
+          "direct_assessment_unresolved",
+          "plo_column_inferred_from_exact_codes",
+          "plo_mapping_unresolved"
+        ]
+      }
+    }
+  ]
+}
