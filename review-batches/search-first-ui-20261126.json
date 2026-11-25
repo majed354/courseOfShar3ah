@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-26",
+  "scope": "search-first interface and Noto Sans Arabic; no academic data change",
+  "source_head_before": "7f315d390b54b316f33942398e8fec05cad32e5b",
+  "target_url": "https://courses.tu-shari3ah.com/",
+  "azure_repository": "majed354/tuShar3-azure",
+  "azure_path": "sites/courses/public",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "47f6910bcce7737b6a66bce2e790e2f5bdc40a29b784ccc1be6b26cb7fd36a1b"
+    },
+    {
+      "path": "assets/css/search-first.css",
+      "sha256": "354626ea6490152c45ba63c417b0a2239c858b94877b0b24fd1adfeedfbc5627"
+    },
+    {
+      "path": "tests/test_search_first.py",
+      "sha256": "fcb944c4013c6b99dcd3d9d7baead9b4926166811d89ca8986e9e77e54cd0644"
+    }
+  ],
+  "checks": {
+    "targeted_tests_passed": 18,
+    "azure_verify_sites": 8,
+    "mobile_css_viewport": [
+      390,
+      844
+    ],
+    "mobile_horizontal_overflow": false,
+    "first_mobile_card_bottom_px": 577.53,
+    "computed_font": "Noto Sans Arabic",
+    "scoped_search_and_plan47_navigation": true,
+    "secondary_tools_preserved": true
+  }
+}
