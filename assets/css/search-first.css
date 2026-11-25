@@ -12,6 +12,8 @@ button, input, select, textarea { font-family: inherit; }
 .header-nav svg { width: 17px; height: 17px; }
 .header-nav a:hover { background: #ffffff16; }
 .header-nav a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.header-nav a.header-update { background: #fff; color: var(--primary-dark); border-color: #fff; font-weight: 600; }
+.header-nav a.header-update:hover { background: #f4f7f1; }
 main { max-width: 1240px; padding: 20px 24px 48px; }
 .search-section { background: transparent; padding: 0; border: 0; box-shadow: none; animation: none; }
 .search-intro { margin-bottom: 12px; }
@@ -66,8 +68,11 @@ main { max-width: 1240px; padding: 20px 24px 48px; }
 @media (max-width: 1000px) { #resultsContainer { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) {
     .header-content { padding: 14px 16px; gap: 10px; align-items: flex-start; }
+    .header-brand { flex: 1 0 100%; }
+    .header-content, .header-nav { flex-wrap: wrap; }
+    .header-nav { width: 100%; }
     .header-brand h1 { font-size: 1.05rem; }
-    .header-brand .subtitle { font-size: .67rem; max-width: 205px; line-height: 1.65; }
+    .header-brand .subtitle { font-size: .67rem; max-width: none; line-height: 1.65; }
     .header-nav { gap: 5px; }
     .header-nav a { padding: 7px 8px; font-size: .72rem; gap: 4px; }
     .header-nav svg { display: none; }

@@ -67,5 +67,35 @@
       "horizontal_overflow": false,
       "screenshot": "output/search-first-20261126/live-desktop.jpg"
     }
+  },
+  "followup_update_button": {
+    "azure_commit": "b58a6c83633361f78ae6dec5cf7b8b1827615b4d",
+    "actions_run": 45721285139,
+    "conclusion": "success",
+    "files": [
+      {
+        "path": "index.html",
+        "http_status": 200,
+        "sha256": "a075550100aa108d1208c6f3980c605fca38a06a378f2b99bc842731142a737f",
+        "matches_candidate": true
+      },
+      {
+        "path": "assets/css/search-first.css",
+        "http_status": 200,
+        "sha256": "af804f45ce8d072e1acdc6b171379f78fc5e5e15bc4cc69ebd062d84d0852707",
+        "matches_candidate": true
+      }
+    ],
+    "browser": {
+      "header_button": "تحديث الملفات",
+      "old_tools_update_panel_removed": true,
+      "mobile_viewport": [
+        390,
+        844
+      ],
+      "horizontal_overflow": false,
+      "loaded_cards": 6,
+      "screenshot": "output/update-files-button-20261126/live-header.jpg"
+    }
   }
 }
