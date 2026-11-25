@@ -31,5 +31,41 @@
     "computed_font": "Noto Sans Arabic",
     "scoped_search_and_plan47_navigation": true,
     "secondary_tools_preserved": true
+  },
+  "publication": {
+    "azure_commit": "472441d3013c6c23cd635deeac15fed6c60b984a",
+    "azure_actions_run": 45714535530,
+    "azure_actions_conclusion": "success",
+    "source_commit": "d067f1d6889003b10bfd68a745ace2b15059faea",
+    "source_actions_run": 45714486627,
+    "source_actions_conclusion": "success",
+    "live_files": [
+      {
+        "path": "index.html",
+        "http_status": 200,
+        "sha256": "004fbdfec675d1d050093f86d6d1d952231226e4c004a569c5fa022f426afe87",
+        "equal_deployed_candidate": true
+      },
+      {
+        "path": "assets/css/search-first.css",
+        "http_status": 200,
+        "sha256": "354626ea6490152c45ba63c417b0a2239c858b94877b0b24fd1adfeedfbc5627",
+        "equal_deployed_candidate": true
+      },
+      {
+        "path": "data.json",
+        "http_status": 200,
+        "sha256": "3e4b0edb2e96a5ff1a0816b36a2b2561ee4b90b6f2905662c988dcf2f0a05cd3",
+        "equal_deployed_candidate": true
+      }
+    ],
+    "live_browser": {
+      "default_cards": 6,
+      "font": "Noto Sans Arabic",
+      "programs_collapsed": true,
+      "tools_collapsed": true,
+      "horizontal_overflow": false,
+      "screenshot": "output/search-first-20261126/live-desktop.jpg"
+    }
   }
 }

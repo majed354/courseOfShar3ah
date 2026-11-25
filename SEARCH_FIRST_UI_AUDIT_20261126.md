@@ -20,3 +20,7 @@
 المصدر الأصلي يحفظ الواجهة واختباراتها. نُقل الفرق نفسه فقط إلى `sites/courses/public` في حزمة Azure، مع إبقاء الفروق السابقة الخاصة بـ`azure-assets.js` و`sanitizeResourceUrl`. النشر إلى `https://courses.tu-shari3ah.com/` عبر `majed354/tuShar3-azure/main`؛ لا نشر إلى Netlify.
 
 تسجل أدلة النشر الفعلي وبصمات الصفحة وCSS الحيين في مخرجات الدفعة المحلية `output/search-first-20261126` بعد اكتمال GitHub Actions؛ لا يُستدل من دفع المستودع الأصلي وحده على تحديث الموقع.
+
+## تأكيد النشر الفعلي
+
+نجح GitHub Actions للمصدر بالتشغيل `45714486627`، ولنسخة Azure بالتشغيل `45714535530` والتزام `472441d3013c6c23cd635deeac15fed6c60b984a`؛ نُشر موقع courses وحده، وتُخطيت حزمة الوثائق لأن فهرسها لم يتغير. طابقت بصمات index.html وassets/css/search-first.css وdata.json الحية مرشح Azure، وكلها HTTP 200. تحققت واجهة الإنتاج عبر Chrome: ست بطاقات محملة، والخط Noto Sans Arabic، والخطط والأدوات مطوية، ودون تجاوز أفقي. صورة النتيجة في `output/search-first-20261126/live-desktop.jpg`؛ بيانات التحقق والبصمات في `review-batches/search-first-ui-20261126.json`.
