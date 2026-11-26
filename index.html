@@ -3680,15 +3680,19 @@
                         </button>
                     `;
                 }).join('');
-                const compactGroups = [];
-                const compactGroupKeys = new Set();
+                const compactGroupMap = new Map();
                 occurrenceRefs.forEach(ref => {
                     const key = `${ref.program}||${ref.degree}`;
-                    if (compactGroupKeys.has(key)) return;
-                    compactGroupKeys.add(key);
-                    compactGroups.push([ref.program, ref.degree].filter(Boolean).join(' · '));
+                    if (!compactGroupMap.has(key)) {
+                        compactGroupMap.set(key, { label: [ref.degree, ref.program].filter(Boolean).join(' '), plans: new Set() });
+                    }
+                    if (ref.plan_type) compactGroupMap.get(key).plans.add(ref.plan_type);
                 });
-                const compactProgramsText = compactGroups.slice(0, 2).join('، ') + (compactGroups.length > 2 ? ` +${compactGroups.length - 2}` : '');
+                const compactGroups = Array.from(compactGroupMap.values(), group => {
+                    const plans = Array.from(group.plans).join(' و');
+                    return group.label + (plans ? ` (${plans})` : '');
+                });
+                const compactProgramsText = compactGroups.slice(0, 2).join(' - ') + (compactGroups.length > 2 ? ` +${compactGroups.length - 2} برامج` : '');
                 const hiddenProgramsCount = Math.max(0, occurrenceRefs.length - visibleProgramRefs.length);
                 const hasEquivalency = Array.isArray(result.equivalent_contexts) && result.equivalent_contexts.length > 0;
                 const detailContexts = Array.isArray(result.course_detail_contexts) ? result.course_detail_contexts : [];

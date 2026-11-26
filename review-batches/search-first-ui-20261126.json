@@ -168,5 +168,20 @@
       "desktop_three_columns": true,
       "academic_data_pdf_and_security_unchanged": true
     }
+  },
+  "followup_mobile_plan_labels": {
+    "azure_commit": "40101ad5fbb7bcef0e7264df4224ea5e8713bf35",
+    "actions_run": 45744191104,
+    "conclusion": "success",
+    "html_status": 200,
+    "html_sha256": "f72eea1c69e09e0e83900b73cbefae2fc2122e5947dd828f710c1682a48ea39b",
+    "live_matches_candidate": true,
+    "targeted_tests_passed": 18,
+    "azure_verified_sites": 8,
+    "preview_mobile_widths_without_overflow": [
+      320,
+      390
+    ],
+    "screenshot": "output/mobile-plan-labels-20261126/live-mobile.jpg"
   }
 }
