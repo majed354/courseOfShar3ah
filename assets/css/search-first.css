@@ -96,3 +96,53 @@ main { max-width: 1240px; padding: 20px 24px 48px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
 @media print { .header-nav, .browse-disclosure { display: none !important; } }
+
+/* Compact discovery: filters share the results bar instead of delaying cards. */
+.results-header { position: relative; }
+.results-controls { display: flex; align-items: center; gap: 6px; }
+.search-filter-disclosure > summary { display: flex; align-items: center; gap: 5px; list-style: none; cursor: pointer; border: 1px solid var(--border-medium); border-radius: 9px; background: #fff; color: var(--primary-dark); padding: 5px 10px; min-height: 32px; font-size: .78rem; }
+.search-filter-disclosure > summary::-webkit-details-marker { display: none; }
+.search-filter-disclosure > summary svg { width: 16px; height: 16px; }
+.search-filter-disclosure > summary:focus-visible { outline: 3px solid var(--primary-light); outline-offset: 2px; }
+#searchFilterCount { padding: 0 5px; border-radius: 8px; background: #e4f2e9; font-weight: 600; }
+#searchFilterCount[hidden] { display: none; }
+.filter-panel { position: absolute; inset-inline-end: 0; top: calc(100% + 4px); width: min(460px, 100%); z-index: 30; padding: 14px; border: 1px solid var(--border-medium); border-radius: 12px; background: #fff; box-shadow: var(--shadow-md); }
+.filter-panel .search-filters { margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.filter-panel .search-filter { display: flex; flex-direction: column; align-items: stretch; gap: 5px; min-width: 0; }
+.filter-panel select { width: 100%; min-width: 0; }
+.clear-search svg, .compact-programs { display: none; }
+.search-input::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+@media (max-width: 600px) {
+    .header-content { padding: 9px 14px; row-gap: 6px; }
+    .header-brand h1 { font-size: 1rem; }
+    .header-brand .subtitle { font-size: .65rem; margin-top: 1px; }
+    main { padding: 12px 14px 28px; }
+    .search-intro { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+    .search-input { min-height: 48px; padding: 10px 14px; padding-inline-start: 44px; }
+    .search-results { margin-top: 10px; }
+    .results-header { margin-bottom: 8px; padding-bottom: 8px; flex-wrap: nowrap; gap: 6px; }
+    .results-heading h3 { display: none; }
+    .results-count { font-size: .82rem; font-weight: 600; color: var(--text-medium); }
+    .clear-search { display: inline-flex; align-items: center; justify-content: center; min-width: 32px; min-height: 32px; padding: 5px; border-radius: 9px; }
+    .clear-search svg { display: block; width: 17px; height: 17px; }
+    .clear-search-label { display: none; }
+    .search-filter-disclosure > summary { font-size: .75rem; padding: 4px 8px; }
+    #resultsContainer { gap: 8px; }
+    .result-item { padding: 10px 12px; }
+    .result-course-header { flex-direction: row; flex-wrap: nowrap; align-items: center; gap: 8px; margin-bottom: 4px; }
+    .result-course-name { flex: 1; min-width: 0; font-size: .92rem; line-height: 1.5; }
+    .result-course-actions { width: auto; flex-shrink: 0; margin: 0; }
+    .result-course-header .course-pdf-btn { width: auto; min-width: 48px; min-height: 32px; padding: 4px 8px; line-height: 1.4; }
+    .result-course-header .course-pdf-btn svg { width: 14px; height: 14px; }
+    .result-meta { margin: 0; gap: 8px; line-height: 1.5; }
+    .result-meta > .result-tag { padding: 0; border: 0; background: none; font-size: .73rem; }
+    .result-meta > .result-category { display: none; }
+    .result-meta .equivalency-status-chip { font-size: .65rem; padding: 0 5px; line-height: 1.5; }
+    #resultsContainer .result-programs { margin-top: 4px; gap: 0; }
+    #resultsContainer .result-programs > .program-chip, #resultsContainer .result-programs > .result-more-programs { display: none; }
+    .compact-programs { display: block; max-width: 100%; padding: 0; border: 0; background: transparent; color: var(--primary); font: inherit; font-size: .74rem; line-height: 1.5; text-align: start; cursor: pointer; }
+    .compact-programs:hover { text-decoration: underline; }
+    .compact-programs:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; border-radius: 3px; }
+    .results-more { margin-top: 12px; padding: 8px 20px; }
+}
+@media print { .results-controls { display: none !important; } }

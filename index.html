@@ -1815,22 +1815,12 @@
         <section class="search-section" aria-labelledby="searchTitle">
             <div class="search-intro">
                 <h2 class="search-title" id="searchTitle">ابحث عن مقرر وتوصيفه</h2>
-                <p id="searchHint">اكتب اسم المقرر أو رمزه، وافتح تفاصيله أو ملف التوصيف مباشرة.</p>
             </div>
             <div class="search-box">
-                <input type="search" id="searchInput" class="search-input" aria-label="البحث باسم المقرر أو رمزه" aria-describedby="searchHint" placeholder="اسم المقرر أو رمزه…" autocomplete="off" enterkeyhint="search">
+                <input type="search" id="searchInput" class="search-input" aria-label="البحث باسم المقرر أو رمزه" placeholder="اسم المقرر أو رمزه…" autocomplete="off" enterkeyhint="search">
                 <svg class="search-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
                 </svg>
-            </div>
-
-            <div class="search-filters" aria-label="تصفية المقررات">
-                <label class="search-filter" for="searchProgramFilter">البرنامج
-                    <select id="searchProgramFilter" onchange="performSearch()"><option value="">جميع البرامج</option></select>
-                </label>
-                <label class="search-filter" for="searchDegreeFilter">الدرجة العلمية
-                    <select id="searchDegreeFilter" onchange="performSearch()"><option value="">جميع الدرجات</option></select>
-                </label>
             </div>
 
             <div class="search-results active" id="searchResults" aria-labelledby="resultsHeading">
@@ -1839,7 +1829,28 @@
                         <h3 id="resultsHeading">تصفح المقررات</h3>
                         <span class="results-count" id="resultsCount" role="status" aria-live="polite">جاري تحميل المقررات…</span>
                     </div>
-                    <button type="button" class="clear-search" id="clearSearchButton" onclick="clearSearch()" hidden>مسح البحث والمرشحات</button>
+                    <div class="results-controls">
+                        <details class="search-filter-disclosure" id="searchFilterDisclosure">
+                            <summary id="searchFilterSummary" title="تصفية حسب البرنامج والدرجة العلمية">
+                                <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M7 12h10M10 17h4"/></svg>
+                                تصفية <span id="searchFilterCount" hidden></span>
+                            </summary>
+                            <div class="filter-panel">
+<div class="search-filters" aria-label="تصفية المقررات">
+                <label class="search-filter" for="searchProgramFilter">البرنامج
+                    <select id="searchProgramFilter" onchange="performSearch()"><option value="">جميع البرامج</option></select>
+                </label>
+                <label class="search-filter" for="searchDegreeFilter">الدرجة العلمية
+                    <select id="searchDegreeFilter" onchange="performSearch()"><option value="">جميع الدرجات</option></select>
+                </label>
+            </div>
+                            </div>
+                        </details>
+                        <button type="button" class="clear-search" id="clearSearchButton" onclick="clearSearch()" aria-label="مسح البحث والمرشحات" title="مسح البحث والمرشحات" hidden>
+                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="m6 6 12 12M18 6 6 18"/></svg>
+                            <span class="clear-search-label">مسح البحث والمرشحات</span>
+                        </button>
+                    </div>
                 </div>
                 <div id="resultsContainer"><div class="loading" role="status">جاري تحميل المقررات…</div></div>
                 <button type="button" class="results-more" id="showMoreResults" onclick="showMoreSearchResults()" hidden>عرض المزيد</button>
@@ -3482,6 +3493,18 @@
         const SEARCH_PAGE_SIZE = 6;
         let searchVisibleCount = SEARCH_PAGE_SIZE;
 
+        document.addEventListener('click', event => {
+            const filters = document.getElementById('searchFilterDisclosure');
+            if (filters.open && !filters.contains(event.target)) filters.open = false;
+        }, true);
+        document.addEventListener('keydown', event => {
+            const filters = document.getElementById('searchFilterDisclosure');
+            if (event.key === 'Escape' && filters.open) {
+                filters.open = false;
+                document.getElementById('searchFilterSummary').focus();
+            }
+        });
+
         searchInput.addEventListener('input', event => {
             if (event.isComposing) return;
             clearTimeout(searchTimeout);
@@ -3616,10 +3639,17 @@
 
         function displayResults(results) {
             searchResults.classList.add('active');
-            const filtered = Boolean(searchInput.value.trim() || document.getElementById('searchProgramFilter').value || document.getElementById('searchDegreeFilter').value);
+            const activeFilters = [document.getElementById('searchProgramFilter').value, document.getElementById('searchDegreeFilter').value].filter(Boolean);
+            const filtered = Boolean(searchInput.value.trim() || activeFilters.length);
+            const filterCount = document.getElementById('searchFilterCount');
+            filterCount.textContent = activeFilters.length.toLocaleString('ar-SA');
+            filterCount.hidden = !activeFilters.length;
+            document.getElementById('searchFilterSummary').title = activeFilters.join(' · ') || 'تصفية حسب البرنامج والدرجة العلمية';
             const shown = Math.min(searchVisibleCount, results.length);
             document.getElementById('resultsHeading').textContent = filtered ? 'نتائج البحث' : 'تصفح المقررات';
-            resultsCount.textContent = `عرض ${shown.toLocaleString('ar-SA')} من ${results.length.toLocaleString('ar-SA')} ${filtered ? 'نتيجة' : 'مقرر'}`;
+            const few = results.length >= 3 && results.length <= 10;
+            const countNoun = filtered ? (few ? 'نتائج' : 'نتيجة') : (few ? 'مقررات' : 'مقرر');
+            resultsCount.textContent = `${results.length.toLocaleString('ar-SA')} ${countNoun}`;
             document.getElementById('clearSearchButton').hidden = !filtered;
             const more = document.getElementById('showMoreResults');
             more.hidden = shown >= results.length;
@@ -3650,6 +3680,15 @@
                         </button>
                     `;
                 }).join('');
+                const compactGroups = [];
+                const compactGroupKeys = new Set();
+                occurrenceRefs.forEach(ref => {
+                    const key = `${ref.program}||${ref.degree}`;
+                    if (compactGroupKeys.has(key)) return;
+                    compactGroupKeys.add(key);
+                    compactGroups.push([ref.program, ref.degree].filter(Boolean).join(' · '));
+                });
+                const compactProgramsText = compactGroups.slice(0, 2).join('، ') + (compactGroups.length > 2 ? ` +${compactGroups.length - 2}` : '');
                 const hiddenProgramsCount = Math.max(0, occurrenceRefs.length - visibleProgramRefs.length);
                 const hasEquivalency = Array.isArray(result.equivalent_contexts) && result.equivalent_contexts.length > 0;
                 const detailContexts = Array.isArray(result.course_detail_contexts) ? result.course_detail_contexts : [];
@@ -3664,7 +3703,7 @@
                             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm1 7V3.5L19.5 9H15z"/>
                             </svg>
-                            ملفات PDF (${detailContexts.length})
+                            PDF (${detailContexts.length})
                         </button>
                     ` : '');
                 const categoryLabel = result.category_summary && result.category_summary !== 'يختلف حسب البرنامج'
@@ -3682,13 +3721,14 @@
                         <div class="result-meta">
                             <span class="result-tag"><code class="course-code">${escapeHtml(result.code)}</code></span>
                             <span class="result-tag">${escapeHtml(result.hours)} ساعة</span>
-                            ${categoryLabel ? `<span class="result-tag">${escapeHtml(categoryLabel)}</span>` : ''}
+                            ${categoryLabel ? `<span class="result-tag result-category">${escapeHtml(categoryLabel)}</span>` : ''}
                             ${result.catalog_only ? '<span class="result-tag">فهرس المقررات</span>' : ''}
                             ${specificationWarningHtml}
                             ${hasEquivalency ? '<span class="equivalency-status-chip has-equivalency">معادلة</span>' : ''}
                         </div>
                         ${(programsHtml || hiddenProgramsCount) ? `
                             <div class="result-programs">
+                                ${compactProgramsText ? `<button type="button" class="compact-programs" onclick="event.stopPropagation(); openCourseDetailsFromSearch(${resultIndex})" aria-label="عرض البرامج والخطط: ${escapeHtml(compactProgramsText)}">${escapeHtml(compactProgramsText)}</button>` : ''}
                                 ${programsHtml}
                                 ${hiddenProgramsCount ? `<span class="result-more-programs">+${hiddenProgramsCount} من الخطط</span>` : ''}
                             </div>
@@ -3704,6 +3744,7 @@
             searchInput.value = '';
             document.getElementById('searchProgramFilter').value = '';
             document.getElementById('searchDegreeFilter').value = '';
+            document.getElementById('searchFilterDisclosure').open = false;
             performSearch();
             searchInput.focus();
         }

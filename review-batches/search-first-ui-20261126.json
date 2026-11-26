@@ -97,5 +97,76 @@
       "loaded_cards": 6,
       "screenshot": "output/update-files-button-20261126/live-header.jpg"
     }
+  },
+  "followup_compact_mobile": {
+    "publication": {
+      "azure_commit": "8ccc681f3afd8cb52ff1e64ef96103af609a4b2c",
+      "actions_run": 45743177152,
+      "conclusion": "success",
+      "files": [
+        {
+          "path": "index.html",
+          "status": 200,
+          "sha256": "123013b45c762055678f5cc1e415aa32dd68513e8aa893f64620a2d01e78be9b",
+          "matches_candidate": true
+        },
+        {
+          "path": "assets/css/search-first.css",
+          "status": 200,
+          "sha256": "1ee56a9e8d05436496d5698a2c744c0d74f68b8e21f2cffcc6797fc8f6608898",
+          "matches_candidate": true
+        }
+      ]
+    },
+    "layout_comparison": {
+      "query": "التجويد",
+      "viewport_css": [
+        390,
+        844
+      ],
+      "before": {
+        "first_card_top": 423.89,
+        "first_card_height": 180.43,
+        "fully_visible_cards": 2
+      },
+      "after_preview": {
+        "first_card_top": 219.11,
+        "first_card_height": 96.5,
+        "fully_visible_cards": 6
+      },
+      "horizontal_overflow": false,
+      "existing_tests_passed": 18,
+      "azure_verified_sites": 8,
+      "after_live": {
+        "filtersCollapsed": true,
+        "firstHeight": 97.28125,
+        "firstTop": 220.296875,
+        "fullyVisible": 5,
+        "height": 844,
+        "helperRemoved": true,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    "source_files": [
+      {
+        "path": "index.html",
+        "sha256": "2dcf539f07d1d0045fd147ffee535be7afe0d820e6759cfdc8e569bbae175d2f"
+      },
+      {
+        "path": "assets/css/search-first.css",
+        "sha256": "1ee56a9e8d05436496d5698a2c744c0d74f68b8e21f2cffcc6797fc8f6608898"
+      }
+    ],
+    "screenshot": "output/compact-mobile-20261126/live-mobile.jpg",
+    "checks": {
+      "targeted_tests_passed": 18,
+      "azure_verified_sites": 8,
+      "filter_program_and_degree": true,
+      "filter_escape_and_outside_click": true,
+      "shared_course_plan_links_visible_in_details": true,
+      "desktop_three_columns": true,
+      "academic_data_pdf_and_security_unchanged": true
+    }
   }
 }
